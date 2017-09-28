@@ -126,38 +126,38 @@ En la tabla siguiente se indican los tipos de EAP que se pueden utilizar en una 
 <td style="border:1px solid black;"><p>Autenticación mutua.</p></td>
 <td style="border:1px solid black;"><p>Autenticación mutua.</p></td>
 <td style="border:1px solid black;"><p>Sólo autenticación de cliente.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Generación dinámica de claves y actualización programada.</p></td>
 <td style="border:1px solid black;"><p>Generada durante la autenticación y actualizada a intervalos regulares.</p></td>
 <td style="border:1px solid black;"><p>Generada durante la autenticación y actualizada a intervalos regulares.</p></td>
 <td style="border:1px solid black;"><p>No se produce generación ni actualización de claves dinámicas: utiliza claves estáticas.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nivel de tecnología de seguridad</p></td>
 <td style="border:1px solid black;"><p>Puede utilizar autenticación segura de contraseñas o certificados digitales.</p></td>
 <td style="border:1px solid black;"><p>Autenticación más segura.</p></td>
 <td style="border:1px solid black;"><p>Tecnología de seguridad no segura.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Protección de credenciales de usuario</p></td>
 <td style="border:1px solid black;"><p>Protegido por túnel de Transport Layer Security (TLS).</p></td>
 <td style="border:1px solid black;"><p>Autenticación basada en certificados protegida por túnel de Transport Layer Security (TLS).</p></td>
 <td style="border:1px solid black;"><p>Abierto a ataque de diccionario.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Facilidad de implementación</p></td>
 <td style="border:1px solid black;"><p>Con amplia compatibilidad y ofrecido en los clientes de Windows de forma nativa.</p></td>
 <td style="border:1px solid black;"><p>Requiere una infraestructura de claves públicas (PKI). Con amplia compatibilidad y ofrecido en los clientes de Windows de forma nativa.</p></td>
 <td style="border:1px solid black;"><p>Simple, pero no recomendado para sistemas inalámbricos.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Flexibilidad de credenciales</p></td>
 <td style="border:1px solid black;"><p>Cualquier EAP aprobado con túnel de TLS, incluido EAP-MSCHAPv2 (método basado en contraseñas).</p></td>
 <td style="border:1px solid black;"><p>Sólo certificados digitales</p></td>
 <td style="border:1px solid black;"><p>Sólo contraseña</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 El tipo de EAP recomendado para realizar la autenticación de cliente basada en certificados es EAP-TLS, y el tipo de EAP recomendado para realizar la autenticación de cliente basada en contraseñas es EAP-MSCHAPv2 dentro del protocolo de autenticación extensible protegido (PEAP, Protected Extensible Authentication Protocol), también conocido como PEAP-EAP-MSCHAPv2.
@@ -213,39 +213,39 @@ Windows XP Professional contiene algunas funciones que sólo funcionan correctam
 **Tabla 6.2: Consideraciones para la autenticación de equipos**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Característica</p></th>  
-<th><p>Escenario que requiere autenticación de equipos</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Característica</p></th>
+<th><p>Escenario que requiere autenticación de equipos</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Directiva de grupo en equipo con Active Directory</p></td>
 <td style="border:1px solid black;"><p>La directiva de grupo basada en equipos se aplica durante el arranque del equipo y a intervalos regulares, aunque ningún usuario haya iniciado la sesión en Windows.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Secuencias de comandos de inicio de sesión de red</p></td>
 <td style="border:1px solid black;"><p>Las secuencias de comandos de inicio de sesión de red se ejecutan durante el inicio de sesión de usuario inicial.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Agentes de Systems Management</p></td>
 <td style="border:1px solid black;"><p>Los agentes de la aplicación Systems Management, como los que se incluyen en Microsoft Systems Management Server (SMS), con frecuencia requieren acceso a la red sin intervención del usuario.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Conexión a Escritorio remoto</p></td>
 <td style="border:1px solid black;"><p>Es posible obtener acceso a los equipos desde la conexión a escritorio remoto de Windows cuando ningún usuario ha iniciado la sesión en Windows.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Carpetas compartidas</p></td>
 <td style="border:1px solid black;"><p>Los archivos y carpetas compartidos de un equipo continúan estando disponibles, aunque ningún usuario haya iniciado una sesión.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La mejor estrategia es utilizar la autenticación basada en usuarios siempre que sea posible y la autenticación basada en equipos cuando sea necesaria. La orientación que se ofrece en esta solución especifica el comportamiento predeterminado del cliente de 802.1X en Windows XP Professional. Este comportamiento implica realizar la autenticación de equipos cuando ningún usuario ha iniciado una sesión, la autenticación de usuarios cuando los usuarios inician una sesión en Windows y nuevamente la autenticación de equipos cuando los usuarios cierran la sesión. Esto garantiza que el proceso de autenticación en la red utilice las credenciales de cuenta del usuario siempre que sea posible para realizar el control, sin que las funciones de Windows que requieren acceso a la red dejen de funcionar correctamente cuando no hay usuarios conectados.
@@ -259,46 +259,46 @@ Windows proporciona amplio soporte para validar certificados al realizar operaci
 **Tabla 6.3: Validación IAS de credenciales de certificados de cliente**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Validación IAS de credenciales de certificados de cliente</p></th>  
-<th><p>Comportamiento predeterminado</p></th>  
-<th><p>Configuración utilizada en esta solución</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Validación IAS de credenciales de certificados de cliente</p></th>
+<th><p>Comportamiento predeterminado</p></th>
+<th><p>Configuración utilizada en esta solución</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Comprobar que el certificado se encuentre dentro de las fechas de validez.</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Sin cambios</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Comprobar la posibilidad de crear una cadena desde el certificado hasta un directorio raíz confiable.</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Sin cambios</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Comprobar que las directivas de aplicación y los usos de claves requeridos estén presentes en el certificado.</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Sin cambios</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Comprobar que el cliente demuestre su propiedad firmando una clave privada.</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Sin cambios</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Comprobar que el certificado no sea denegado.</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Sin cambios</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Windows XP Professional realiza también la siguiente validación de credenciales de servidor IAS de forma predeterminada.
@@ -306,41 +306,41 @@ Windows XP Professional realiza también la siguiente validación de credenciale
 **Tabla 6.4: Validación de credenciales de certificado IAS en Windows XP**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Validación de credenciales de certificados de servidor en Windows XP</p></th>  
-<th><p>Comportamiento predeterminado</p></th>  
-<th><p>Configuración utilizada en esta solución</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Validación de credenciales de certificados de servidor en Windows XP</p></th>
+<th><p>Comportamiento predeterminado</p></th>
+<th><p>Configuración utilizada en esta solución</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Comprobar que el certificado se encuentre dentro de las fechas de validez.</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Sin cambios</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Comprobar la posibilidad de crear una cadena desde el certificado hasta un directorio raíz confiable.</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Sin cambios</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Comprobar que las directivas de aplicación y los usos de claves requeridos estén presentes en el certificado.</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Sin cambios</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Comprobar que el servidor demuestre su propiedad firmando una clave privada.</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Sin cambios</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Durante la autenticación en una WLAN, el equipo cliente no puede realizar una comprobación completa de revocación del certificado del servidor, ya que el acceso de red no está disponible hasta que se lleva a cabo la autenticación de forma satisfactoria.
@@ -350,31 +350,31 @@ No obstante, debe considerar la posibilidad de habilitar las siguientes opciones
 **Tabla 6.5: Validación avanzada de credenciales de certificados IAS en Windows XP**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Validación de credenciales de certificados de servidor en Windows XP</p></th>  
-<th><p>Comportamiento predeterminado</p></th>  
-<th><p>Configuración utilizada en esta solución</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Validación de credenciales de certificados de servidor en Windows XP</p></th>
+<th><p>Comportamiento predeterminado</p></th>
+<th><p>Configuración utilizada en esta solución</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>El sujeto del certificado coincide con un valor de cadena del sistema de nombres de dominio (DNS) configurable en el cliente.</p></td>
 <td style="border:1px solid black;"><p>No habilitado</p></td>
 <td style="border:1px solid black;"><p>Sin cambios</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Selección explícita de entidades emisoras raíz de confianza a las que el certificado de servidor puede encadenarse.</p></td>
 <td style="border:1px solid black;"><p>No habilitado</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La opción de comprobación del nombre de sujeto en equipos cliente hará que los usuarios vean un mensaje donde deben indicar si la entidad emisora de certificados es de confianza. Adicionalmente, deberá implementar un proceso de administración para mantener actualizados los nombres de sujeto de certificados de servidor en los clientes WLAN. Para ello puede utilizarse la configuración de GPO de directivas de red inalámbrica. Por estos motivos, esta solución no implementa esta opción. Si trabaja en un entorno con un nivel de seguridad alto, debe considerar las amenazas que plantean los falsos servidores IAS con puntos de acceso inalámbricos a la hora de decidir si necesita este nivel adicional de validación.
@@ -442,31 +442,31 @@ La tabla siguiente contiene algunos ejemplos de los distintos tipos de usuarios 
 **Tabla 6.6: Ejemplos de restricciones de conexión WLAN**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Tipo de grupo de usuarios</p></th>  
-<th><p>Ejemplo de restricción de la conexión</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Tipo de grupo de usuarios</p></th>
+<th><p>Ejemplo de restricción de la conexión</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Personal a tiempo completo</p></td>
 <td style="border:1px solid black;"><p>Acceso ilimitado con autenticación a la red corporativa</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Empresas auxiliares y socios</p></td>
 <td style="border:1px solid black;"><p>Acceso restringido con autenticación a redes y aplicaciones concretas.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Visitantes</p></td>
 <td style="border:1px solid black;"><p>Acceso sin autenticación a segmentos sólo de Internet para la exploración Web o el acceso a la organización de origen a través de VPN.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Esta solución sólo configura el soporte para personal a tiempo completo autenticado. Por tanto, sólo se necesita una directiva de acceso remoto con un perfil de restricción de la conexión simplificado. Si la organización tiene requisitos adicionales, como el de permitir el acceso restringido de invitados a la red inalámbrica, deberán considerarse directivas de acceso remoto adicionales. Consulte las referencias de la sección "Información adicional" al final de este capítulo para obtener más información sobre el planeamiento de otros tipos de directivas de acceso remoto.
@@ -548,35 +548,35 @@ Consulte a sus administradores de GPO del dominio para determinar la estrategia 
 **Tabla 6.7: Planeamiento de la directiva de red inalámbrica**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Consideración de la directiva de red inalámbrica</p></th>  
-<th><p>Estrategia de la solución</p></th>  
-<th><p>Detalles de la solución</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Consideración de la directiva de red inalámbrica</p></th>
+<th><p>Estrategia de la solución</p></th>
+<th><p>Detalles de la solución</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Criterios de aplicación de la directiva</p></td>
 <td style="border:1px solid black;"><p>Filtrado de grupo de seguridad de Active Directory para incluir los equipos seleccionados.</p></td>
 <td style="border:1px solid black;"><p>Directiva de red inalámbrica - Grupo global de equipos.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Número de GPO necesarios</p></td>
 <td style="border:1px solid black;"><p>Directiva de red inalámbrica única.</p></td>
 <td style="border:1px solid black;"><p>El GPO utilizado en esta solución se denomina “directiva de red inalámbrica”.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Ubicación de GPO</p></td>
 <td style="border:1px solid black;"><p>Creado y aplicado desde el objeto de dominio.</p></td>
 <td style="border:1px solid black;"><p>woodgrovebank.com</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Número de perfiles WLAN configurados dentro de la directiva</p></td>
 <td style="border:1px solid black;"><p>Un perfil WLAN se configura para las organizaciones que implementan 802.1X.</p></td>
@@ -646,13 +646,13 @@ Esta solución utiliza una única directiva de acceso remoto que otorga acceso i
 <p>o bien</p>
 <p>Inalámbrico - IEEE 802.11</p></td>
 <td style="border:1px solid black;"><p>Esto identifica las solicitudes entrantes como originadas en hardware de puntos de acceso inalámbricos.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Windows - Grupo</p></td>
 <td style="border:1px solid black;"><p>Pertenencia al grupo de seguridad de directiva de acceso remoto - acceso inalámbrico</p></td>
 <td style="border:1px solid black;"><p>Éste es un grupo de seguridad universal que contiene grupos globales anidados para usuarios y equipos que obtendrán acceso a la WLAN.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 El permiso de la directiva para la directiva de acceso remoto de esta solución está establecido en **conceder** y las cuentas de usuario están configuradas con el valor de **controlar el acceso a través de la directiva de acceso remoto**.
@@ -662,41 +662,41 @@ En la tabla siguiente se detallan las opciones del perfil de la directiva de acc
 **Tabla 6.9: Opciones del perfil de la directiva de acceso remoto**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Opción de perfil</p></th>  
-<th><p>Valor de perfil</p></th>  
-<th><p>Comentarios</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Opción de perfil</p></th>
+<th><p>Valor de perfil</p></th>
+<th><p>Comentarios</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Restricciones de marcado: establece los minutos que el cliente puede permanecer conectado (tiempo límite de sesión).</p></td>
 <td style="border:1px solid black;"><p>10 minutos</p></td>
 <td style="border:1px solid black;"><p>Esta opción obliga a los equipos cliente a reautenticarse y crear claves de cifrado nuevas cada 10 minutos.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Autenticación - Métodos EAP</p></td>
 <td style="border:1px solid black;"><p>Tarjeta inteligente u otro certificado</p></td>
 <td style="border:1px solid black;"><p>Esta opción selecciona EAP - TLS como el tipo de EAP para el perfil inalámbrico.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Atributo RADIUS omitir - usuario - propiedades de marcado</p></td>
 <td style="border:1px solid black;"><p>Atributo establecido como Verdadero</p></td>
 <td style="border:1px solid black;"><p>Este atributo garantiza que la configuración de marcado (como la devolución de llamada) en cuentas de usuario de Active Directory no se envíe a los puntos de acceso inalámbricos. Esto se hace para evitar problemas con algunos productos de acceso de red.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Atributo RADIUS Acción-Terminación</p></td>
 <td style="border:1px solid black;"><p>Atributo establecido como Solicitud RADIUS</p></td>
 <td style="border:1px solid black;"><p>Este atributo garantiza que cuando se obliga a los clientes a reautenticarse, los puntos de acceso inalámbricos no los desconectarán.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Importante:** un tiempo de espera de sesión de 10 minutos puede resultar insuficiente en variedad de escenarios. Los tiempos de espera breves suponen una carga inaceptable en los servidores IAS. Además, incrementan la posibilidad de que el servidor IAS deje de funcionar temporalmente, con lo que los clientes perderán la conexión con la WLAN mucho antes. Por estas razones, puede utilizar un tiempo de espera de 60 minutos sin que el riesgo para la seguridad de la WLAN aumente significativamente.
@@ -718,28 +718,28 @@ Esta solución utiliza IAS como servidor RADIUS y, por tanto, las solicitudes de
 **Tabla 6.10: Condiciones de la directiva de solicitud de conexión**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Condición de la directiva</p></th>  
-<th><p>Condición equivalente</p></th>  
-<th><p>Comentarios</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Condición de la directiva</p></th>
+<th><p>Condición equivalente</p></th>
+<th><p>Comentarios</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Restricciones de fecha y hora</p></td>
 <td style="border:1px solid black;"><p>&quot;Domingo 00:00 - 24:00;Lunes 00:00 - 24:00;Martes 00:00 - 24:00; Miércoles 00:00 - 24:00; Jueves 00:00 - 24:00;<br />
 Viernes 00:00 - 24:00;<br />
 Sábado 00:00 - 24:00&quot;</p></td>
 <td style="border:1px solid black;"><p>Esta condición de la directiva de solicitud de conexión predeterminada garantiza que las solicitudes de conexión que lleguen en todo momento se ajusten a la directiva.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 En la tabla siguiente se muestra la configuración de perfil utilizada en la directiva de solicitud de conexión de esta solución.
@@ -747,26 +747,26 @@ En la tabla siguiente se muestra la configuración de perfil utilizada en la dir
 **Tabla 6.11: Configuración del perfil de la directiva de solicitud de conexión**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Opción de perfil</p></th>  
-<th><p>Valor de perfil</p></th>  
-<th><p>Comentarios</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Opción de perfil</p></th>
+<th><p>Valor de perfil</p></th>
+<th><p>Comentarios</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Autenticación</p></td>
 <td style="border:1px solid black;"><p>Autenticar solicitudes en este servidor</p></td>
 <td style="border:1px solid black;"><p>Esta configuración garantiza que las solicitudes se autenticarán directamente contrastándolas con Active Directory en lugar de reenviarlas a servidores RADIUS adicionales.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Configuración de la directiva de grupo para equipos cliente
@@ -788,36 +788,36 @@ En la tabla siguiente se muestra la configuración general de la directiva de re
 **Tabla 6.12: Configuración general de directivas de redes inalámbricas**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Opción</p></th>  
-<th><p>Configuración</p></th>  
-<th><p>Comentarios</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Opción</p></th>
+<th><p>Configuración</p></th>
+<th><p>Comentarios</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nombre</p></td>
 <td style="border:1px solid black;"><p>Configuración inalámbrica de equipo cliente</p></td>
 <td style="border:1px solid black;"><p>Cambie este valor para adaptarlo a los estándares de nomenclatura de la organización.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Red de acceso</p></td>
 <td style="border:1px solid black;"><p>Cualquier red disponible (preferiblemente punto de acceso)</p></td>
 <td style="border:1px solid black;"><p>Esta opción impedirá que los equipos cliente intenten conectar a otros equipos configurados con el mismo SSID que la red habilitada para 802.1X. No obstante, permitir el acceso a redes ad-hoc hace posible que los empleados utilicen otras redes cuando sea necesario (en su domicilio, por ejemplo) y, por tanto, se ha dejado habilitada.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Conectar automáticamente a redes no preferidas</p></td>
 <td style="border:1px solid black;"><p>Sin seleccionar</p></td>
 <td style="border:1px solid black;"><p>Windows XP Professional proporciona automáticamente a los usuarios notificación de las redes inalámbricas disponibles sin conectar automáticamente a las mismas. Al proporcionar a los usuarios notificación sin conexión automática se consigue un equilibrio entre seguridad y utilidad.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Debe crear una entrada para el SSID de WLAN 802.1X en la ficha de **redes preferidas** de la directiva de redes inalámbricas. Una vez se ha creado una red preferida, se deben editar las propiedades de red a partir de los valores predeterminados.
@@ -827,46 +827,46 @@ En la tabla siguiente se describe la configuración de las propiedades de la red
 **Tabla 6.13: Configuración de las propiedades de la directiva de redes inalámbricas**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Opción</p></th>  
-<th><p>Configuración</p></th>  
-<th><p>Comentarios</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Opción</p></th>
+<th><p>Configuración</p></th>
+<th><p>Comentarios</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nombre</p></td>
 <td style="border:1px solid black;"><p>MSSWLAN</p></td>
 <td style="border:1px solid black;"><p>Cambie este valor para adaptarlo a los estándares de nomenclatura de la organización. Debe asegurarse de elegir un nombre que sea distinto del resto de redes WLAN de producción existentes.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Clave de red inalámbrica (WEP) – Cifrado de datos (WEP habilitada)</p></td>
 <td style="border:1px solid black;"><p>Seleccionado</p></td>
 <td style="border:1px solid black;"><p>El cifrado es esencial para proteger la privacidad del tráfico de la red inalámbrica en redes 802.11. Si tiene compatibilidad con redes 802.11, debe asegurarse de que estén protegidas por WEP o alguna otra forma de cifrado.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Clave de red inalámbrica (WEP) – Autenticación de red (modo compartido)</p></td>
 <td style="border:1px solid black;"><p>Sin seleccionar</p></td>
 <td style="border:1px solid black;"><p>802.11 inalámbrico de clave compartida es una estrategia de seguridad basada en claves WEP estáticas. Esta solución utiliza 802.1X para proporcionar autenticación de RADIUS y, por tanto, esta opción no se activa.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Clave de red inalámbrica (WEP) – La clave de red se proporciona automáticamente.</p></td>
 <td style="border:1px solid black;"><p>Seleccionado</p></td>
 <td style="border:1px solid black;"><p>Esta opción permite a 802.1X proporcionar claves de sesión WEP dinámicas para el cifrado del tráfico de forma automática.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Ésta es una red de equipo a equipo (ad-hoc); no se utilizan puntos de acceso inalámbricos.</p></td>
 <td style="border:1px solid black;"><p>Sin seleccionar</p></td>
 <td style="border:1px solid black;"><p>Esta solución utiliza el modo de infraestructura de WLAN 802.11 con puntos de acceso inalámbricos configurados para 802.1X en lugar del acceso a redes ad-hoc punto a punto.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ##### Configuración de los parámetros de 802.1X en equipos cliente
@@ -886,56 +886,56 @@ La tabla siguiente contiene la configuración de 802.1X para la red 802.1X que s
 **Tabla 6.14: Configuración de la directiva de redes inalámbricas para 802.1X**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Opción</p></th>  
-<th><p>Configuración</p></th>  
-<th><p>Comentarios</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Opción</p></th>
+<th><p>Configuración</p></th>
+<th><p>Comentarios</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilitar el control de acceso a la red mediante IEEE 802.1X</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Esta opción permite al equipo cliente participar en redes protegidas mediante 802.1X.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Mensaje EAPOL - Inicio</p></td>
 <td style="border:1px solid black;"><p>Transmitir</p></td>
 <td style="border:1px solid black;"><p>Este mensaje indica al cliente que inicie el proceso de autenticación.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Parámetros (segundos) - Inicio máx.</p></td>
 <td style="border:1px solid black;"><p>3</p></td>
 <td style="border:1px solid black;"><p>Este valor determina el número de mensajes EAP a través de LAN (EAPOL) - Inicio sucesivos que transmitirá este cliente tras no recibir ninguna respuesta. A menos que se requiera lo contrario, este valor predeterminado no debe modificarse.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Parámetros (segundos) - Período de retención</p></td>
 <td style="border:1px solid black;"><p>60</p></td>
 <td style="border:1px solid black;"><p>Este valor determina el período de tiempo que el cliente esperará antes de volver a intentar la autenticación en 802.1X. A menos que se requiera lo contrario, este valor predeterminado no debe modificarse.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Parámetros (segundos) - Período de inicio</p></td>
 <td style="border:1px solid black;"><p>60</p></td>
 <td style="border:1px solid black;"><p>Este valor determina el intervalo de tiempo entre los mensajes EAPOL - Inicio que se reenvían. A menos que se requiera lo contrario, este valor predeterminado no debe modificarse.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Período de autenticación</p></td>
 <td style="border:1px solid black;"><p>30</p></td>
 <td style="border:1px solid black;"><p>Este valor determina el intervalo de tiempo entre los mensajes de solicitud de 802.1X que se reenvían tras no recibir ninguna respuesta. A menos que se requiera lo contrario, este valor predeterminado no debe modificarse.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tipo EAP</p></td>
 <td style="border:1px solid black;"><p>Tarjeta inteligente u otro certificado</p></td>
 <td style="border:1px solid black;"><p>Esta opción especifica EAP-TLS como tipo EAP.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 A continuación se describe la configuración de EAP para la red 802.1X que se acaba de habilitar en la directiva de redes inalámbricas elegida para esta solución.
@@ -943,56 +943,56 @@ A continuación se describe la configuración de EAP para la red 802.1X que se a
 **Tabla 6.15: Configuración EAP de directivas de redes inalámbricas**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Opción</p></th>  
-<th><p>Configuración</p></th>  
-<th><p>Comentarios</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Opción</p></th>
+<th><p>Configuración</p></th>
+<th><p>Comentarios</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Al conectar</p></td>
 <td style="border:1px solid black;"><p>Utilizar un certificado en este equipo.</p></td>
 <td style="border:1px solid black;"><p>Esta opción especifica el uso de certificados basados en software y claves privadas en lugar de credenciales basadas en tarjeta inteligente.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Usar un certificado en este equipo - Utilizar selección de certificado simple (se recomienda)</p></td>
 <td style="border:1px solid black;"><p>Seleccionado</p></td>
 <td style="border:1px solid black;"><p>Esta opción determina que Windows intentará elegir el certificado más adecuado según las propiedades de certificado. Se puede desactivar para permitir la selección manual del certificado correcto durante la solución de problemas.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Validar certificado de servidor</p></td>
 <td style="border:1px solid black;"><p>Seleccionado</p></td>
 <td style="border:1px solid black;"><p>Esta opción determina si el certificado presentado al cliente durante la autenticación EAP-TLS es válido (que el nombre DNS correcto del servidor IAS está en el certificado y que el certificado para la autenticación del servidor no ha caducado y está encadenado a una entidad emisora raíz en el almacén de certificados del cliente).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Validar certificado de servidor - Conectar a estos servidores</p></td>
 <td style="border:1px solid black;"><p>Sin seleccionar</p></td>
 <td style="border:1px solid black;"><p>Esta opción habilita la comprobación del sufijo del nombre de dominio completo (FQDN, Fully Qualified Domain Name) en el campo de sujeto del certificado del servidor. Al habilitar esta opción se visualizará un globo de texto en los equipos cliente donde se les solicitará que confirmen que el servidor IAS es de confianza. Si selecciona esta opción debe evaluar el equilibrio entre aprovechamiento y seguridad.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Validar certificado de servidor - Conectar a estos servidores - Valor</p></td>
 <td style="border:1px solid black;"><p>Vacío</p></td>
 <td style="border:1px solid black;"><p>Este valor especifica el sufijo FQDN con el que debe coincidir la información de sujeto del certificado presentado al cliente durante la autenticación EAP-TLS.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Entidades emisoras de certificados (CA) raíz de confianza</p></td>
 <td style="border:1px solid black;"><p>Entidad emisora de certificados empresa seleccionada</p></td>
 <td style="border:1px solid black;"><p>Esta opción permite a los administradores especificar las entidades emisoras raíz de confianza con las que se permite el encadenamiento de las credenciales de certificado del servidor 802.1X. Para esta opción, debe seleccionar sus propias entidades emisoras raíz de confianza.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Usar un nombre distinto para la conexión</p></td>
 <td style="border:1px solid black;"><p>Sin seleccionar</p></td>
 <td style="border:1px solid black;"><p>Permite a los usuarios especificar un nombre de usuario distinto al que contiene el certificado presentado durante la autenticación EAP-TLS. Esta opción está deshabilitada de forma predeterminada.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 En la tabla siguiente se detalla la configuración de la autenticación de equipos para la red 802.1X que se acaba de habilitar en la directiva de redes inalámbricas elegida para la solución.
@@ -1000,36 +1000,36 @@ En la tabla siguiente se detalla la configuración de la autenticación de equip
 **Tabla 6.16: Opciones de comportamiento de autenticación de equipos en 802.1X**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Opción</p></th>  
-<th><p>Configuración</p></th>  
-<th><p>Comentarios</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Opción</p></th>
+<th><p>Configuración</p></th>
+<th><p>Comentarios</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Autenticar como invitado cuando la información de usuario o equipo no esté disponible</p></td>
 <td style="border:1px solid black;"><p>Sin seleccionar</p></td>
 <td style="border:1px solid black;"><p>Esta opción determina si el equipo intentará autenticarse como invitado cuando no haya credenciales disponibles. Resulta especialmente útil para escenarios de redes WLAN públicas o para visitantes en la organización.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Autenticar como equipo cuando la información del equipo esté disponible</p></td>
 <td style="border:1px solid black;"><p>Seleccionado</p></td>
 <td style="border:1px solid black;"><p>Esta opción es esencial para garantizar que se produzca la autenticación del equipo cuando no haya usuarios en una sesión interactiva en el mismo.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Autenticación de equipo</p></td>
 <td style="border:1px solid black;"><p>Con reautenticación de usuario</p></td>
 <td style="border:1px solid black;"><p>Esta opción predeterminada garantiza que las credenciales de usuario se utilicen siempre que sea posible. No obstante, cuando ningún usuario ha iniciado una sesión en el equipo, las credenciales de equipo se utilizan para garantizar que haya siempre una conexión de red disponible.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Principio de la página](#mainsection)

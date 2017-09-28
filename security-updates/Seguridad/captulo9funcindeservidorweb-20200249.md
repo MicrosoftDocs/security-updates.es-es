@@ -60,8 +60,8 @@ En la siguiente tabla se muestran los nombres de las plantillas de seguridad de 
 <td style="border:1px solid black;"><p>LC-Web Server.inf</p></td>
 <td style="border:1px solid black;"><p>EC-Web Server.inf</p></td>
 <td style="border:1px solid black;"><p>SSLF-Web Server.inf</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Para obtener información acerca de todas las configuraciones predeterminadas, consulte la guía complementaria [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159), que está disponible en http://go.microsoft.com/fwlink/?LinkId=15159.
@@ -156,40 +156,40 @@ En la siguiente tabla se describen brevemente los subcomponentes del servidor de
 **Tabla 9.2 Configuración recomendada de subcomponentes del servidor de aplicaciones**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nombre del componente en la IU</p></th>  
-<th><p>Configuración</p></th>  
-<th><p>Lógica de la configuración</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nombre del componente en la IU</p></th>
+<th><p>Configuración</p></th>
+<th><p>Lógica de la configuración</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Consola del servidor de aplicaciones</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Proporciona un complemento de Microsoft Management Console (MMC) que se puede usar para administrar todos los componentes de servidor de aplicaciones web. Este componente no es necesario en un servidor IIS dedicado, ya que se puede utilizar el Administrador del servidor IIS.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ASP.NET</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Ofrece compatibilidad para las aplicaciones ASP.NET. Habilite este componente cuando un servidor IIS ejecute aplicaciones ASP.NET.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilitar el acceso de red COM+</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Permite que un servidor IIS albergue los componentes COM+ para las aplicaciones distribuidas. Es necesario para FTP, extensión de servidor de BITS, servicio World Wide Web y Administrador de IIS, entre otros.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Habilitar el acceso DTC de red</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Permite que un servidor IIS albergue las aplicaciones que participan en las transacciones de red a través del Coordinador de transacciones distribuidas (DTC). Deshabilite este componente a menos que lo requieran las aplicaciones que se ejecutan en el servidor IIS.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servicios de Internet Information Server (IIS)</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
@@ -200,8 +200,8 @@ En la siguiente tabla se describen brevemente los subcomponentes del servidor de
 <td style="border:1px solid black;"><p>Servicios de Message Queue Server</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Microsoft Message Queue Server (MSMQ) proporciona una capa de software intermedio de enrutamiento de mensajes, almacenamiento y reenvío para aplicaciones web de empresa.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Los subcomponentes del cuadro de diálogo **Servicios de Internet Information Server (IIS)** se muestran en la figura siguiente:
@@ -214,66 +214,66 @@ En la siguiente tabla se describen brevemente los subcomponentes de IIS y se ofr
 **Tabla 9.3 Configuración recomendada para subcomponentes de IIS**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nombre del componente en la IU</p></th>  
-<th><p>Configuración</p></th>  
-<th><p>Lógica de la configuración</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nombre del componente en la IU</p></th>
+<th><p>Configuración</p></th>
+<th><p>Lógica de la configuración</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Extensión de servidor de Servicio de transferencia inteligente en segundo plano (BITS)</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>La extensión de servidor BITS permite que el servicio BITS de los equipos cliente cargue en segundo plano archivos en este servidor. Si tiene una aplicación en los equipos cliente que utiliza el servicio BITS para cargar archivos en este servidor, habilite y configure la extensión de servidor BITS; si no es así, déjela deshabilitada. Observe que Windows Update, Microsoft Update, SUS, WSUS y Actualizaciones automáticas no requieren este componente para ejecutarse. Requieren el componente cliente BITS, que no forma parte de IIS.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Archivos comunes</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>IIS requiere que estos archivos siempre estén habilitados en los servidores IIS.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servicio del Protocolo de transferencia de archivos (FTP)</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Permite a los servidores IIS suministrar los servicios FTP. Este servicio no es necesario para los servidores IIS dedicados.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Extensiones de servidor de FrontPage 2002</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Proporciona compatibilidad con FrontPage para administrar y publicar sitios web. Deshabilite esta opción en los servidores IIS dedicados cuando ningún sitio web utilice las extensiones de FrontPage.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Administrador de servicios de Internet Information Server</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Interfaz administrativa para IIS.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Impresión de Internet</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Proporciona una administración de impresión basada en Web y permite que las impresoras se compartan en HTTP. Este componente no es necesario en los servidores IIS dedicados.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servicio NNTP</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Distribuye, consulta, recupera y publica artículos de noticias Usenet en Internet. Este componente no es necesario en los servidores IIS dedicados.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servicio SMTP</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Admite la transferencia de correo electrónico. Este componente no es necesario en los servidores IIS dedicados.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servicio World Wide Web</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Ofrece servicios web y contenido estático y dinámico a los clientes. Este componente es necesario en los servidores IIS dedicados.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Los subcomponentes del cuadro de diálogo **Servicios de Message Queue Server** se muestran en la figura siguiente:
@@ -286,51 +286,51 @@ En la siguiente tabla se describen brevemente los subcomponentes de Message Queu
 **Tabla 9.4 Configuración recomendada para subcomponentes de Message Queue Server**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nombre del componente en la IU</p></th>  
-<th><p>Opción de instalación</p></th>  
-<th><p>Lógica de la configuración</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nombre del componente en la IU</p></th>
+<th><p>Opción de instalación</p></th>
+<th><p>Lógica de la configuración</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Integración en Active Directory</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Proporciona integración con el servicio de directorio Active<em> </em>Directory® cuando un servidor IIS pertenece a un dominio. Este componente es necesario cuando los sitios y aplicaciones web que se ejecutan en los servidores IIS utilizan Microsoft Message Queue Server (MSMQ).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Común</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Este componente es necesario cuando los sitios y aplicaciones web que se ejecutan en los servidores IIS utilizan MSMQ.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Compatibilidad con clientes de nivel inferior</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Proporciona acceso a Active<em> </em>Directory y reconocimiento de clientes indirectos. Este componente es necesario cuando los sitios y aplicaciones web de un servidor IIS utilizan MSMQ.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Compatibilidad con HTTP en MSMQ</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Proporciona la posibilidad de enviar y recibir mensajes a través del transporte HTTP. Este componente es necesario cuando los sitios y aplicaciones web de un servidor IIS utilizan MSMQ.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Compatibilidad de enrutamiento</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Proporciona mensajería de almacenamiento y reenvío, así como servicios de enrutamiento eficientes para MSMQ. Este componente es necesario cuando los sitios y aplicaciones web que se ejecutan en los servidores IIS utilizan MSMQ.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Desencadenadores</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Se asocia la llegada de mensajes entrantes a una cola con la funcionalidad en un componente COM o un programa ejecutable independiente.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 En la siguiente figura se muestran los subcomponentes del cuadro de diálogo **Extensiones de servidor de Servicio de transferencia inteligente en segundo plano (BITS)**:
@@ -343,31 +343,31 @@ En la siguiente tabla se describen brevemente los subcomponentes de Extensiones 
 **Tabla 9.5 Configuración recomendada de subcomponentes de Extensiones de servidor BITS**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nombre del componente en la IU</p></th>  
-<th><p>Opción de instalación</p></th>  
-<th><p>Lógica de la configuración</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nombre del componente en la IU</p></th>
+<th><p>Opción de instalación</p></th>
+<th><p>Lógica de la configuración</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Complemento de la consola de administración de BITS</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Instala un complemento de MMC para administrar el servicio BITS. Habilite este componente cuando la extensión de servidor de BITS para la Interfaz de programación de aplicaciones de servidores de Internet (ISAPI) esté habilitada.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ISAPI de extensión de servidor de BITS</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Instala la ISAPI de BITS de manera que un servidor IIS pueda transferir datos mediante BITS. Las extensiones de servidor BITS permiten que el servicio BITS de los equipos cliente carguen en segundo plano archivos en este servidor. Si tiene una aplicación en los equipos cliente que utiliza el servicio BITS para cargar archivos en este servidor, habilite y configure la extensión de servidor BITS; si no es así, déjela deshabilitada. Observe que Windows Update, Microsoft Update, SUS, WSUS y Actualizaciones automáticas no requieren este componente para ejecutarse. Requieren el componente cliente BITS, que no forma parte de IIS.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Los subcomponentes del cuadro de diálogo **Servicio World Wide Web** se muestran en la figura siguiente:
@@ -380,56 +380,56 @@ En la tabla siguiente se describen brevemente los subcomponentes del Servicio Wo
 **Tabla 9.6 Configuración recomendada de subcomponentes del Servicio World Wide Web**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nombre del componente en la IU</p></th>  
-<th><p>Opción de instalación</p></th>  
-<th><p>Lógica de la configuración</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nombre del componente en la IU</p></th>
+<th><p>Opción de instalación</p></th>
+<th><p>Lógica de la configuración</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Páginas de Active Server</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Ofrece compatibilidad para ASP. Deshabilite este componente si ninguno de los sitios ni aplicaciones web de los servidores IIS utiliza ASP. También puede deshabilitarlo mediante las extensiones del servicio web. Para obtener más información, consulte la sección “Habilitación únicamente de las extensiones de servicios web esenciales” de este capítulo.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Conector de datos de Internet</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Ofrece compatibilidad para el contenido dinámico que se proporciona a través de los archivos con extensiones .idc. Deshabilite este componente si ninguno de los sitios ni aplicaciones web que se ejecutan en los servidores IIS incluye archivos con extensiones .idc. También puede deshabilitarlo mediante las extensiones del servicio web. Para obtener más información, consulte la sección “Habilitación únicamente de las extensiones de servicios web esenciales” de este capítulo.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Administración remota (HTML)</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Proporciona una interfaz HTML para administrar IIS. Utilice el Administrador de IIS para facilitar la administración y reducir la superficie de ataque de un servidor IIS. Esta función no es necesaria en los servidores IIS dedicados.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Conexión web a escritorio remoto</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Incluye el control ActiveX® de Microsoft y páginas de muestra para alojar conexiones de cliente de Servicios de Terminal Server. Utilice el Administrador de IIS para facilitar la administración y reducir la superficie de ataque de un servidor IIS. No es necesario en un servidor IIS dedicado.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Inclusión del servidor</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Ofrece compatibilidad para los archivos .shtm, .shtml y .stm. Deshabilite este componente si ninguno de los sitios ni aplicaciones web que se ejecutan en un servidor IIS incluye archivos con dichas extensiones.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>WebDAV</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>WebDAV amplía el protocolo HTTP/1.1 para permitir a los clientes publicar, bloquear y administrar recursos en la Web. Deshabilite este componente en los servidores IIS dedicados. También puede deshabilitarlo mediante las extensiones del servicio web. Para obtener más información, consulte la sección “Habilitación únicamente de las extensiones de servicios web esenciales” de este capítulo.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servicio World Wide Web</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Ofrece servicios web y contenido estático y dinámico a los clientes. Este componente es necesario en los servidores IIS dedicados.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Habilitación únicamente de las extensiones de servicios web esenciales
@@ -447,51 +447,51 @@ En la tabla siguiente se enumeran las extensiones de servicio web predefinidas y
 **Tabla 9.7 Habilitación de extensiones de servicio web**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Extensión de servicio web</p></th>  
-<th><p>Habilitar la extensión cuando</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Extensión de servicio web</p></th>
+<th><p>Habilitar la extensión cuando</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Páginas de Active Server</p></td>
 <td style="border:1px solid black;"><p>Uno o varios de los sitios y aplicaciones web que se ejecutan en los servidores IIS tienen contenido ASP.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ASP.NET v1.1.4322</p></td>
 <td style="border:1px solid black;"><p>Uno o varios de los sitios y aplicaciones web que se ejecutan en los servidores IIS tienen contenido ASP.NET.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Todas las extensiones CGI desconocidas</p></td>
 <td style="border:1px solid black;"><p>Uno o varios de los sitios y aplicaciones web que se ejecutan en los servidores IIS tienen contenido de extensiones CGI desconocidas.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Todas las extensiones ISAPI desconocidas</p></td>
 <td style="border:1px solid black;"><p>Uno o varios de los sitios y aplicaciones web que se ejecutan en los servidores IIS tienen contenido de extensiones ISAPI desconocidas.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Extensiones de servidor de FrontPage 2002</p></td>
 <td style="border:1px solid black;"><p>Uno o varios de los sitios web que se ejecutan en servidores IIS utilizan Extensiones de FrontPage.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Conector de datos de Internet (IDC)</p></td>
 <td style="border:1px solid black;"><p>Uno o varios de los sitios y aplicaciones web que se ejecutan en los servidores IIS utilizan IDC para mostrar la información de la base de datos (este contenido incluye archivos .idc e .idx).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Inclusión del servidor (SSI)</p></td>
 <td style="border:1px solid black;"><p>Uno o varios de los sitios web que se ejecutan en los servidores IIS utilizan las directrices SSI con el fin de instruir a los servidores IIS para que inserten contenido reutilizable (por ejemplo, una barra de exploración, un encabezado o pie de página, etc.) en diferentes páginas web.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>WebDav (Web Distributed Authoring and Versioning)</p></td>
 <td style="border:1px solid black;"><p>Se requiere compatibilidad con WebDAV en los servidores IIS para que los clientes publiquen y administren con transparencia los recursos web.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Colocación de contenido en un volumen de disco dedicado
@@ -523,18 +523,18 @@ En la siguiente tabla se ofrecen algunas recomendaciones acerca de los permisos 
 **Tabla 9.8 Configuración recomendada de permisos de NTFS**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Tipo de archivo</p></th>  
-<th><p>Permisos de NTFS recomendados</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Tipo de archivo</p></th>
+<th><p>Permisos de NTFS recomendados</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Archivos CGI (.exe, .dll, .cmd, .pl)</p></td>
 <td style="border:1px solid black;"><p>Todos (ejecutar)</p>
@@ -589,11 +589,11 @@ En la tabla siguiente se enumeran los permisos de sitio web que admite IIS 6.0 y
 <tr class="odd">
 <td style="border:1px solid black;"><p>Leer</p></td>
 <td style="border:1px solid black;"><p>Los usuarios pueden ver el contenido y las propiedades de los directorios o archivos. Este permiso está seleccionado de forma predeterminada.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Escritura</p></td>
 <td style="border:1px solid black;"><p>Los usuarios pueden modificar el contenido y las propiedades de los directorios o archivos.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Acceso al código fuente de secuencias de comandos</p></td>
 <td style="border:1px solid black;"><p>Los usuarios pueden tener acceso a los archivos de origen. Si está habilitado el permiso de lectura, se podrá leer el código fuente de secuencias de comandos; si está habilitado el permiso de escritura, se podrá modificar dicho código. Este tipo de acceso incluye el código fuente para las secuencias de comandos. Si no están habilitados los permisos de lectura y escritura, esta opción no estará disponible.</p>
@@ -602,21 +602,21 @@ En la tabla siguiente se enumeran los permisos de sitio web que admite IIS 6.0 y
 <tr class="even">
 <td style="border:1px solid black;"><p>Examen de directorios</p></td>
 <td style="border:1px solid black;"><p>Los usuarios puede ver listas y colecciones de archivos.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Registrar visitas</p></td>
 <td style="border:1px solid black;"><p>Por cada visita al sitio web se crea una entrada de registro.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Indizar este recurso</p></td>
 <td style="border:1px solid black;"><p>Permite que el <strong>Servicio de Index Server</strong> indice los recursos, de modo que se puedan realizar búsquedas de recursos.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ejecución</p></td>
 <td style="border:1px solid black;"><p>Las opciones siguientes permiten determinar el nivel de ejecución de secuencias de comandos para los usuarios:</p>
-<ul>  
-<li><p><strong>Ninguno</strong>. No permite que se ejecuten secuencias de comandos en el servidor.</p></li>  
-<li><p><strong>Sólo secuencias de comandos</strong>. Permite que sólo se ejecuten secuencias de comandos en el servidor.</p></li>  
+<ul>
+<li><p><strong>Ninguno</strong>. No permite que se ejecuten secuencias de comandos en el servidor.</p></li>
+<li><p><strong>Sólo secuencias de comandos</strong>. Permite que sólo se ejecuten secuencias de comandos en el servidor.</p></li>
 <li><p><strong>Secuencias de comandos y ejecutables</strong>. Permite ejecutar secuencias de comandos y archivos ejecutables en el servidor.</p></li>
 </ul></td>
 </tr>

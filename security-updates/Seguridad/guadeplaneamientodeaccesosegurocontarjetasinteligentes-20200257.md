@@ -484,98 +484,98 @@ Windows XP y la familia Windows Server 2003 admiten los lectores de tarjetas i
 <td style="border:1px solid black;"><p>American Express</p></td>
 <td style="border:1px solid black;"><p>GCR435</p></td>
 <td style="border:1px solid black;"><p>USB</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Bull</p></td>
 <td style="border:1px solid black;"><p>SmarTLP3</p></td>
 <td style="border:1px solid black;"><p>Serie</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Compaq</p></td>
 <td style="border:1px solid black;"><p>Lector serie</p></td>
 <td style="border:1px solid black;"><p>Serie</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Gemplus</p></td>
 <td style="border:1px solid black;"><p>GCR410P</p></td>
 <td style="border:1px solid black;"><p>Serie</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Gemplus</p></td>
 <td style="border:1px solid black;"><p>GPR400</p></td>
 <td style="border:1px solid black;"><p>PCMCIA</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Gemplus</p></td>
 <td style="border:1px solid black;"><p>GemPC430</p></td>
 <td style="border:1px solid black;"><p>USB</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Hewlett Packard</p></td>
 <td style="border:1px solid black;"><p>ProtectTools</p></td>
 <td style="border:1px solid black;"><p>Serie</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Litronic</p></td>
 <td style="border:1px solid black;"><p>220P</p></td>
 <td style="border:1px solid black;"><p>Serie</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Schlumberger</p></td>
 <td style="border:1px solid black;"><p>Reflex 20</p></td>
 <td style="border:1px solid black;"><p>PCMCIA</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Schlumberger</p></td>
 <td style="border:1px solid black;"><p>Reflex 72</p></td>
 <td style="border:1px solid black;"><p>Serie</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Schlumberger</p></td>
 <td style="border:1px solid black;"><p>Reflex Lite</p></td>
 <td style="border:1px solid black;"><p>Serie</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SConnection Manager Microsystems</p></td>
 <td style="border:1px solid black;"><p>SCR111</p></td>
 <td style="border:1px solid black;"><p>Serie</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SConnection Manager Microsystems</p></td>
 <td style="border:1px solid black;"><p>SCR200</p></td>
 <td style="border:1px solid black;"><p>Serie</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SConnection Manager Microsystems</p></td>
 <td style="border:1px solid black;"><p>SCR120</p></td>
 <td style="border:1px solid black;"><p>PCMCIA</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SConnection Manager Microsystems</p></td>
 <td style="border:1px solid black;"><p>SCR300</p></td>
 <td style="border:1px solid black;"><p>USB</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Systemneeds</p></td>
 <td style="border:1px solid black;"><p>Externo</p></td>
 <td style="border:1px solid black;"><p>Serie</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Omnikey AG</p></td>
 <td style="border:1px solid black;"><p>2010</p></td>
 <td style="border:1px solid black;"><p>Serie</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Omnikey AG</p></td>
 <td style="border:1px solid black;"><p>2020</p></td>
 <td style="border:1px solid black;"><p>USB</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Omnikey AG</p></td>
 <td style="border:1px solid black;"><p>4000</p></td>
 <td style="border:1px solid black;"><p>PCMCIA</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Nota:** Los lectores de tarjetas inteligentes que utilizan una interfaz serie necesitan que se reinicie el equipo después de la instalación. Este requisito puede no ser aceptable para implantaciones de servidor.
@@ -1509,31 +1509,31 @@ El equipo de TI de Woodgrove creó un nuevo grupo de seguridad, con el nombre Re
 **Tabla 4.1: Condiciones de la directiva de acceso remoto de Woodgrove National Bank**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Requisito</p></th>  
-<th><p>Condiciones de la directiva</p></th>  
-<th><p>Tipo de autenticación</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Requisito</p></th>
+<th><p>Condiciones de la directiva</p></th>
+<th><p>Tipo de autenticación</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requerir la autenticación con tarjetas inteligentes para los miembros del grupo de usuarios de acceso remoto</p></td>
 <td style="border:1px solid black;"><p>Los grupos de Windows coinciden con &quot;WOODGROVE\RemoteSmartCardUsers&quot;</p></td>
 <td style="border:1px solid black;"><p>EAP - tarjeta inteligente u otro certificado únicamente.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>No requerir la autenticación con tarjetas inteligentes para los miembros del grupo de exclusiones temporales</p></td>
 <td style="border:1px solid black;"><p>Los grupos de Windows coinciden con &quot;WOODGROVE\RemoteSmartCardUsersTempException&quot;</p></td>
 <td style="border:1px solid black;"><p>MSCHAP v2</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Esta disposición exige el requisito de la tarjeta inteligente para los miembros del grupo RemoteSmartCardUsers, pero no para los del grupo RemoteSmartCardUsersTempException. Para obtener más información acerca de cómo requerir la autenticación con tarjeta inteligente para los usuarios remotos, consulte el tema Configurar el acceso remoto con tarjetas inteligentes, en la dirección [http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/ServerHelp/863638a6-f9e0-48d7-9db5-0b54af3cf135.mspx](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverhelp/863638a6-f9e0-48d7-9db5-0b54af3cf135.mspx).

@@ -230,22 +230,22 @@ La siguiente tabla muestra el software necesario para cada sistema operativo com
 <td style="border:1px solid black;"><p>Windows Server 2003</p></td>
 <td style="border:1px solid black;"><p>Software de base de datos totalmente compatible con Microsoft SQL Server</p></td>
 <td style="border:1px solid black;"><p>No disponible</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
 <td style="border:1px solid black;"><p>Software de base de datos totalmente compatible con Microsoft SQL Server</p></td>
 <td style="border:1px solid black;"><p>Si no usa Microsoft SQL Server 2000, puede instalar Microsoft SQL Server 2000 Desktop Engine (MSDE 2000). Para ello, se requieren varios pasos. Para obtener más información, consulte Instalación de MSDE 2000 en Windows 2000 a continuación.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
 <td style="border:1px solid black;"><p>Microsoft Internet Explorer 6.0 Service Pack 1</p></td>
 <td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=47359">Internet Explorer 6 Service Pack 1</a></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
 <td style="border:1px solid black;"><p>Paquete redistribuible de Microsoft .NET Framework versión 1.1</p></td>
 <td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=47369">Paquete redistribuible de Microsoft .NET Framework versión 1.1</a></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
 <td style="border:1px solid black;"><p>Microsoft .NET Framework 1.1 Service Pack 1</p></td>

@@ -580,24 +580,24 @@ Utilice una contraseña segura para la cuenta Administrador integrada. Una contr
 <tr class="odd">
 <td style="border:1px solid black;"><p>Letras mayúsculas</p></td>
 <td style="border:1px solid black;"><p>A, B, C ...</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Letras minúsculas</p></td>
 <td style="border:1px solid black;"><p>a, b, c ...</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Números</p></td>
 <td style="border:1px solid black;"><p>0, 1, 2, 3 ...</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Símbolos de teclado no alfanuméricos</p></td>
 <td style="border:1px solid black;"><p>` ~ ! @ # $ % ^ &amp; * ( ) _ + - = { } | [ ] \ : &quot; ; ' &lt; &gt; ? , . /</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Caracteres Unicode</p></td>
 <td style="border:1px solid black;"><p>€, G, ƒ, ?</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ##### Utilizar frases cifradas en vez de contraseñas

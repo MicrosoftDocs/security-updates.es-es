@@ -37,27 +37,27 @@ Microsoft Exchange
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><ul>
-<li>Microsoft Exchange Server 2003<br />  
-<br />  
-</li>  
-<li>Exchange Server 2000<br />  
-<br />  
+<li>Microsoft Exchange Server 2003<br />
+<br />
+</li>
+<li>Exchange Server 2000<br />
+<br />
 </li>
 </ul></td>
 <td style="border:1px solid black;"><ul>
-<li>Critical Updates<br />  
-<br />  
-</li>  
-<li>Rollups<br />  
-<br />  
-</li>  
-<li>Security Updates<br />  
-<br />  
+<li>Critical Updates<br />
+<br />
+</li>
+<li>Rollups<br />
+<br />
+</li>
+<li>Security Updates<br />
+<br />
 </li>
 </ul></td>
 <td style="border:1px solid black;"><ul>
-<li>None at this time<br />  
-<br />  
+<li>None at this time<br />
+<br />
 </li>
 </ul></td>
 </tr>
@@ -87,27 +87,27 @@ Microsoft Internet Security and Acceleration Server
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><ul>
-<li>Internet Security and Acceleration (ISA) Server 2004<br />  
-<br />  
+<li>Internet Security and Acceleration (ISA) Server 2004<br />
+<br />
 </li>
 </ul></td>
 <td style="border:1px solid black;"><ul>
-<li>Critical Updates<br />  
-<br />  
-</li>  
-<li>Security Updates<br />  
-<br />  
-</li>  
-<li>Service Packs<br />  
-<br />  
-</li>  
-<li>Update Rollups<br />  
-<br />  
+<li>Critical Updates<br />
+<br />
+</li>
+<li>Security Updates<br />
+<br />
+</li>
+<li>Service Packs<br />
+<br />
+</li>
+<li>Update Rollups<br />
+<br />
 </li>
 </ul></td>
 <td style="border:1px solid black;"><ul>
-<li>None at this time<br />  
-<br />  
+<li>None at this time<br />
+<br />
 </li>
 </ul></td>
 </tr>
@@ -137,33 +137,33 @@ Microsoft Office
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><ul>
-<li>Microsoft Office 2003<br />  
-<br />  
-</li>  
-<li>Office 2002/XP<br />  
-<br />  
+<li>Microsoft Office 2003<br />
+<br />
+</li>
+<li>Office 2002/XP<br />
+<br />
 </li>
 </ul></td>
 <td style="border:1px solid black;"><ul>
-<li>Critical Updates<br />  
-<br />  
-</li>  
-<li>Rollups<br />  
-<br />  
-</li>  
-<li>Security Updates<br />  
-<br />  
-</li>  
-<li>Service Packs<br />  
-<br />  
+<li>Critical Updates<br />
+<br />
+</li>
+<li>Rollups<br />
+<br />
+</li>
+<li>Security Updates<br />
+<br />
+</li>
+<li>Service Packs<br />
+<br />
 </li>
 </ul></td>
 <td style="border:1px solid black;"><ul>
-<li>Only per-system installations of Office are supported for updating by WSUS. For more information, go to <a href="http://support.microsoft.com/kb/907380/en-us" class="uri">http://support.microsoft.com/kb/907380/en-us</a>.<br />  
-<br />  
-</li>  
-<li>Updating installations of Office that have been previously updated by updating an administrative installation point (AIP) are not supported by WSUS. Only RTM-level AIPs are supported by WSUS. For more information, go to <a href="http://support.microsoft.com/kb/903773" class="uri">http://support.microsoft.com/kb/903773</a>  and http://support.microsoft.com/kb/902349. <br />  
-<br />  
+<li>Only per-system installations of Office are supported for updating by WSUS. For more information, go to <a href="http://support.microsoft.com/kb/907380/en-us" class="uri">http://support.microsoft.com/kb/907380/en-us</a>.<br />
+<br />
+</li>
+<li>Updating installations of Office that have been previously updated by updating an administrative installation point (AIP) are not supported by WSUS. Only RTM-level AIPs are supported by WSUS. For more information, go to <a href="http://support.microsoft.com/kb/903773" class="uri">http://support.microsoft.com/kb/903773</a>  and http://support.microsoft.com/kb/902349. <br />
+<br />
 </li>
 </ul></td>
 </tr>
@@ -193,30 +193,30 @@ Microsoft Small Business Server
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><ul>
-<li>Small Business Server 2003<br />  
-<br />  
-</li>  
-<li>Small Business Server 2000 SP1<br />  
-<br />  
+<li>Small Business Server 2003<br />
+<br />
+</li>
+<li>Small Business Server 2000 SP1<br />
+<br />
 </li>
 </ul></td>
 <td style="border:1px solid black;"><ul>
-<li>Critical Updates<br />  
-<br />  
-</li>  
-<li>Rollups<br />  
-<br />  
-</li>  
-<li>Security Updates<br />  
-<br />  
-</li>  
-<li><br />  
-<br />  
+<li>Critical Updates<br />
+<br />
+</li>
+<li>Rollups<br />
+<br />
+</li>
+<li>Security Updates<br />
+<br />
+</li>
+<li><br />
+<br />
 </li>
 </ul></td>
 <td style="border:1px solid black;"><ul>
-<li>None at this time<br />  
-<br />  
+<li>None at this time<br />
+<br />
 </li>
 </ul></td>
 </tr>
@@ -246,27 +246,27 @@ Microsoft SQL Server
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><ul>
-<li>SQL Server 2005<br />  
-<br />  
-</li>  
-<li>SQL Server 2000 SP4<br />  
-<br />  
+<li>SQL Server 2005<br />
+<br />
+</li>
+<li>SQL Server 2000 SP4<br />
+<br />
 </li>
 </ul></td>
 <td style="border:1px solid black;"><ul>
-<li>Critical Updates<br />  
-<br />  
-</li>  
-<li>Rollups<br />  
-<br />  
-</li>  
-<li>Security Updates<br />  
-<br />  
+<li>Critical Updates<br />
+<br />
+</li>
+<li>Rollups<br />
+<br />
+</li>
+<li>Security Updates<br />
+<br />
 </li>
 </ul></td>
 <td style="border:1px solid black;"><ul>
-<li>None at this time<br />  
-<br />  
+<li>None at this time<br />
+<br />
 </li>
 </ul></td>
 </tr>
@@ -296,27 +296,27 @@ Microsoft System Center Data Protection Manager
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><ul>
-<li>System Center Data Protection Manager (DPM) 2006<br />  
-<br />  
+<li>System Center Data Protection Manager (DPM) 2006<br />
+<br />
 </li>
 </ul></td>
 <td style="border:1px solid black;"><ul>
-<li>Critical Updates<br />  
-<br />  
-</li>  
-<li>Security Updates<br />  
-<br />  
-</li>  
-<li>Service Packs<br />  
-<br />  
-</li>  
-<li>Updates<br />  
-<br />  
+<li>Critical Updates<br />
+<br />
+</li>
+<li>Security Updates<br />
+<br />
+</li>
+<li>Service Packs<br />
+<br />
+</li>
+<li>Updates<br />
+<br />
 </li>
 </ul></td>
 <td style="border:1px solid black;"><ul>
-<li>See &quot;About Microsoft System Center Data Protection Manager.&quot;<br />  
-<br />  
+<li>See &quot;About Microsoft System Center Data Protection Manager.&quot;<br />
+<br />
 </li>
 </ul></td>
 </tr>
@@ -350,45 +350,45 @@ Microsoft Windows
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><ul>
-<li>Windows Server 2003 Datacenter Edition<br />  
-<br />  
-</li>  
-<li>Windows Server 2003 Enterprise Edition<br />  
-<br />  
-</li>  
-<li>Windows Server 2003 Standard Edition<br />  
-<br />  
-</li>  
-<li>Windows Server 2003 Web Edition<br />  
-<br />  
-</li>  
-<li>Windows Defender<br />  
-<br />  
-</li>  
-<li>Windows 2000<br />  
-<br />  
+<li>Windows Server 2003 Datacenter Edition<br />
+<br />
+</li>
+<li>Windows Server 2003 Enterprise Edition<br />
+<br />
+</li>
+<li>Windows Server 2003 Standard Edition<br />
+<br />
+</li>
+<li>Windows Server 2003 Web Edition<br />
+<br />
+</li>
+<li>Windows Defender<br />
+<br />
+</li>
+<li>Windows 2000<br />
+<br />
 </li>
 </ul></td>
 <td style="border:1px solid black;"><ul>
-<li>Critical Updates<br />  
-<br />  
-</li>  
-<li>Definition Updates (for Windows Defender only)<br />  
-<br />  
-</li>  
-<li>Rollups<br />  
-<br />  
-</li>  
-<li>Security Updates<br />  
-<br />  
-</li>  
-<li>Service Packs<br />  
-<br />  
+<li>Critical Updates<br />
+<br />
+</li>
+<li>Definition Updates (for Windows Defender only)<br />
+<br />
+</li>
+<li>Rollups<br />
+<br />
+</li>
+<li>Security Updates<br />
+<br />
+</li>
+<li>Service Packs<br />
+<br />
 </li>
 </ul></td>
 <td style="border:1px solid black;"><ul>
-<li>See &quot;About Windows Defender.&quot;<br />  
-<br />  
+<li>See &quot;About Windows Defender.&quot;<br />
+<br />
 </li>
 </ul></td>
 </tr>

@@ -112,138 +112,138 @@ En la siguiente tabla se enumeran los servicios principales que se deben habilit
 <td style="border:1px solid black;"><p>Sistema de sucesos COM+</p></td>
 <td style="border:1px solid black;"><p>Sistema operativo principal</p></td>
 <td style="border:1px solid black;"><p>Manual</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servicios de cifrado</p></td>
 <td style="border:1px solid black;"><p>Sistema operativo principal (seguridad)</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Registro de sucesos</p></td>
 <td style="border:1px solid black;"><p>Sistema operativo principal</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servicios IPSec</p></td>
 <td style="border:1px solid black;"><p>Sistema operativo principal (seguridad)</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Administrador de discos lógicos  </p></td>
 <td style="border:1px solid black;"><p>Sistema operativo principal (administración de discos)</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servicio del administrador de discos lógicos</p></td>
 <td style="border:1px solid black;"><p>Sistema operativo principal (administración de discos)</p></td>
 <td style="border:1px solid black;"><p>Manual</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Firewall de Microsoft</p></td>
 <td style="border:1px solid black;"><p>Requerido para el funcionamiento normal del servidor ISA</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Control de Microsoft ISA Server</p></td>
 <td style="border:1px solid black;"><p>Requerido para el funcionamiento normal del servidor ISA</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Programador de trabajos de Microsoft ISA Server</p></td>
 <td style="border:1px solid black;"><p>Requerido para el funcionamiento normal del servidor ISA</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Almacenamiento de Microsoft ISA Server</p></td>
 <td style="border:1px solid black;"><p>Requerido para el funcionamiento normal del servidor ISA</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>MSSQL$MSFW</p></td>
 <td style="border:1px solid black;"><p>Requerido cuando se utiliza el registro MSDE para el servidor ISA</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Conexiones de red</p></td>
 <td style="border:1px solid black;"><p>Sistema operativo principal (infraestructura de red)</p></td>
 <td style="border:1px solid black;"><p>Manual</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Proveedor de compatibilidad con seguridad LM de Windows NT</p></td>
 <td style="border:1px solid black;"><p>Sistema operativo principal (seguridad)</p></td>
 <td style="border:1px solid black;"><p>Manual</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Plug and Play</p></td>
 <td style="border:1px solid black;"><p>Sistema operativo principal</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Almacenamiento protegido</p></td>
 <td style="border:1px solid black;"><p>Sistema operativo principal (seguridad)</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Administrador de conexión de acceso remoto</p></td>
 <td style="border:1px solid black;"><p>Requerido para el funcionamiento normal del servidor ISA</p></td>
 <td style="border:1px solid black;"><p>Manual</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Llamada a procedimiento remoto (RPC)</p></td>
 <td style="border:1px solid black;"><p>Sistema operativo principal</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Inicio de sesión secundario</p></td>
 <td style="border:1px solid black;"><p>Sistema operativo principal (seguridad)</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Administrador de cuentas de seguridad</p></td>
 <td style="border:1px solid black;"><p>Sistema operativo principal</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servidor</p></td>
 <td style="border:1px solid black;"><p>Requerido para el recurso compartido de cliente firewall del servidor ISA</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tarjeta inteligente</p></td>
 <td style="border:1px solid black;"><p>Sistema operativo principal (seguridad)</p></td>
 <td style="border:1px solid black;"><p>Manual</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SQLAgent$MSFW</p></td>
 <td style="border:1px solid black;"><p>Requerido cuando se utiliza el registro MSDE para el servidor ISA</p></td>
 <td style="border:1px solid black;"><p>Manual</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Notificación de sucesos del sistema</p></td>
 <td style="border:1px solid black;"><p>Sistema operativo principal</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Telefonía</p></td>
 <td style="border:1px solid black;"><p>Requerido para el funcionamiento normal del servidor ISA</p></td>
 <td style="border:1px solid black;"><p>Manual</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servicio de disco virtual (VDS)</p></td>
 <td style="border:1px solid black;"><p>Sistema operativo principal (administración de discos)</p></td>
 <td style="border:1px solid black;"><p>Manual</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Instrumental de administración de Windows (WMI)  </p></td>
 <td style="border:1px solid black;"><p>Sistema operativo principal (WMI)</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Adaptador de rendimiento de WMI  </p></td>
 <td style="border:1px solid black;"><p>Sistema operativo principal (WMI)</p></td>
 <td style="border:1px solid black;"><p>Manual</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ##### Funciones de servidor del servidor ISA
@@ -251,65 +251,65 @@ En la siguiente tabla se enumeran los servicios principales que se deben habilit
 El equipo servidor ISA puede funcionar en capacidades, o funciones, adicionales según el modo en que lo utilice. En la tabla siguiente se enumeran las funciones de servidor posibles, se describe cuándo se pueden necesitar y se enumeran los servicios que se deben activar cuando se habilita la función.
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Función de servidor</p></th>  
-<th><p>Escenario de uso</p></th>  
-<th><p>Servicios necesarios</p></th>  
-<th><p>Modo de inicio</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Función de servidor</p></th>
+<th><p>Escenario de uso</p></th>
+<th><p>Servicios necesarios</p></th>
+<th><p>Modo de inicio</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servidor de enrutamiento y acceso remoto</p></td>
 <td style="border:1px solid black;"><p>Los usuarios y grupos asignados a esta función pueden supervisar el equipo servidor ISA y la actividad de red, pero no pueden configurar la funcionalidad de supervisión específica.</p></td>
 <td style="border:1px solid black;"><p>Enrutamiento y acceso remoto</p></td>
 <td style="border:1px solid black;"><p>Manual</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servidor de enrutamiento y acceso remoto</p></td>
 <td style="border:1px solid black;"><p>Los usuarios y grupos asignados a esta función pueden supervisar el equipo servidor ISA y la actividad de red, pero no pueden configurar la funcionalidad de supervisión específica.</p></td>
 <td style="border:1px solid black;"><p>Administrador de conexión de acceso remoto</p></td>
 <td style="border:1px solid black;"><p>Manual</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servidor de enrutamiento y acceso remoto</p></td>
 <td style="border:1px solid black;"><p>Los usuarios y grupos asignados a esta función pueden supervisar el equipo servidor ISA y la actividad de red, pero no pueden configurar la funcionalidad de supervisión específica.</p></td>
 <td style="border:1px solid black;"><p>Telefonía</p></td>
 <td style="border:1px solid black;"><p>Manual</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servidor de enrutamiento y acceso remoto</p></td>
 <td style="border:1px solid black;"><p>Los usuarios y grupos asignados a esta función pueden supervisar el equipo servidor ISA y la actividad de red, pero no pueden configurar la funcionalidad de supervisión específica.</p></td>
 <td style="border:1px solid black;"><p>Estación de trabajo</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servidor de enrutamiento y acceso remoto</p></td>
 <td style="border:1px solid black;"><p>Los usuarios y grupos asignados a esta función pueden supervisar el equipo servidor ISA y la actividad de red, pero no pueden configurar la funcionalidad de supervisión específica.</p></td>
 <td style="border:1px solid black;"><p>Servidor  </p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Terminal Server para administración de escritorios remotos</p></td>
 <td style="border:1px solid black;"><p>Seleccione esta función para habilitar la administración remota del equipo servidor ISA.</p></td>
 <td style="border:1px solid black;"><p>Servidor</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Terminal Server para administración de escritorios remotos</p></td>
 <td style="border:1px solid black;"><p>Seleccione esta función para habilitar la administración remota del equipo servidor ISA.</p></td>
 <td style="border:1px solid black;"><p>Servicios de Terminal Server</p></td>
 <td style="border:1px solid black;"><p>Manual</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ![](images/Dd458738.note(es-es,TechNet.10).gif)  Nota  
@@ -330,137 +330,137 @@ Tenga en cuenta que el servicio Servidor sólo se necesita si utiliza Administra
 Las tareas de servidor son similares a las funciones de servidor y con frecuencia están relacionadas con dichas funciones, aunque no están incluidas en ellas. Para que un servidor realice las tareas necesarias, se deben habilitar servicios específicos, en función de las funciones que seleccione. Los servicios que no sean necesarios se deben deshabilitar. En la tabla siguiente se enumeran las tareas de servidor posibles para el servidor ISA, se describe cuándo se pueden necesitar y se enumeran los servicios que se deben activar cuando se habilita la función.
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Tarea de servidor</p></th>  
-<th><p>Escenario de uso</p></th>  
-<th><p>Servicios necesarios</p></th>  
-<th><p>Modo de inicio</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Tarea de servidor</p></th>
+<th><p>Escenario de uso</p></th>
+<th><p>Servicios necesarios</p></th>
+<th><p>Modo de inicio</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Instalación de aplicaciones localmente mediante Windows Installer</p></td>
 <td style="border:1px solid black;"><p>Se requiere para instalar, desinstalar o reparar aplicaciones mediante el servicio Microsoft Installer.</p></td>
 <td style="border:1px solid black;"><p>Windows Installer</p></td>
 <td style="border:1px solid black;"><p>Manual</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Copia de seguridad</p></td>
 <td style="border:1px solid black;"><p>Se requiere si se utiliza NTBackup u otro programa de copia de seguridad en el equipo servidor ISA.</p></td>
 <td style="border:1px solid black;"><p>Proveedor de instantáneas de software de Microsoft</p></td>
 <td style="border:1px solid black;"><p>Manual</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Copia de seguridad</p></td>
 <td style="border:1px solid black;"><p>Se requiere si se utiliza NTBackup u otro programa de copia de seguridad en el equipo servidor ISA.</p></td>
 <td style="border:1px solid black;"><p>Instantáneas de volumen</p></td>
 <td style="border:1px solid black;"><p>Manual</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Copia de seguridad</p></td>
 <td style="border:1px solid black;"><p>Se requiere si se utiliza NTBackup u otro programa de copia de seguridad en el equipo servidor ISA.</p></td>
 <td style="border:1px solid black;"><p>Servicio Almacenamiento de medios extraíbles</p></td>
 <td style="border:1px solid black;"><p>Manual</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Informe de errores</p></td>
 <td style="border:1px solid black;"><p>Se utiliza para habilitar el informe de errores, lo que contribuye a mejorar la confiabilidad de Windows gracias a la generación de informes de errores críticos para Microsoft con el fin de analizarlos.</p></td>
 <td style="border:1px solid black;"><p>Servicio de informe de errores</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Ayuda y soporte técnico</p></td>
 <td style="border:1px solid black;"><p>Permite la recopilación de datos de equipo históricos para la transferencia de incidencias a los Servicios de soporte técnico de Microsoft.</p></td>
 <td style="border:1px solid black;"><p>Ayuda y soporte técnico</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ISA Server 2004: recurso compartido de instalación de cliente</p></td>
 <td style="border:1px solid black;"><p>Requerido para permitir que los equipos se conecten e instalen desde el recurso compartido de cliente firewall en el equipo servidor ISA.</p></td>
 <td style="border:1px solid black;"><p>Servidor</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ISA Server 2004: registro MSDE</p></td>
 <td style="border:1px solid black;"><p>Requerido para permitir el registro mediante bases de datos MSDE. Si no habilita el servicio correspondiente, puede efectuar el registro en bases de datos SQL o en archivos. No obstante, no podrá utilizar el visor de registro en modo sin conexión.</p></td>
 <td style="border:1px solid black;"><p>SQLAgent$MSFW</p></td>
 <td style="border:1px solid black;"><p>Manual</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ISA Server 2004: registro MSDE</p></td>
 <td style="border:1px solid black;"><p>Requerido para permitir el registro mediante bases de datos MSDE. Si no habilita el servicio correspondiente, puede efectuar el registro en bases de datos SQL o en archivos. No obstante, no podrá utilizar el visor de registro en modo sin conexión.</p></td>
 <td style="border:1px solid black;"><p>MSSQL$MSFW</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Monitor de sistema: recopilación en segundo plano</p></td>
 <td style="border:1px solid black;"><p>Permite la recopilación en segundo plano de datos de rendimiento acerca del equipo servidor ISA.</p></td>
 <td style="border:1px solid black;"><p>Registros y alertas de rendimiento</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Imprimir en un equipo remoto</p></td>
 <td style="border:1px solid black;"><p>Permite imprimir desde el equipo servidor ISA.</p></td>
 <td style="border:1px solid black;"><p>Administrador de colas de impresión</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Imprimir en un equipo remoto</p></td>
 <td style="border:1px solid black;"><p>Permite imprimir desde el equipo servidor ISA.</p></td>
 <td style="border:1px solid black;"><p>Ayuda de NetBIOS sobre TCP/IP</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Imprimir en un equipo remoto</p></td>
 <td style="border:1px solid black;"><p>Permite imprimir desde el equipo servidor ISA.</p></td>
 <td style="border:1px solid black;"><p>Estación de trabajo</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Administración remota de Windows</p></td>
 <td style="border:1px solid black;"><p>Permite la administración remota del servidor Windows (no se requiere para la administración remota del servidor ISA).</p></td>
 <td style="border:1px solid black;"><p>Servidor</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Administración remota de Windows</p></td>
 <td style="border:1px solid black;"><p>Permite la administración remota del servidor Windows (no se requiere para la administración remota del servidor ISA).</p></td>
 <td style="border:1px solid black;"><p>Registro remoto</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Sincronización de la hora</p></td>
 <td style="border:1px solid black;"><p>Permite que el equipo servidor ISA se ponga en contacto con un servidor NTP para sincronizar el reloj. Desde un punto de vista de seguridad, un reloj preciso resulta importante para la auditoría de sucesos y otros protocolos de seguridad.</p></td>
 <td style="border:1px solid black;"><p>Horario de Windows</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Asistente remoto</p></td>
 <td style="border:1px solid black;"><p>Permite que la característica Asistencia remota se utilice en este equipo.</p></td>
 <td style="border:1px solid black;"><p>Ayuda y soporte técnico</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Asistente remoto</p></td>
 <td style="border:1px solid black;"><p>Permite que la característica Asistencia remota se utilice en este equipo.</p></td>
 <td style="border:1px solid black;"><p>Administrador de sesión de Ayuda de escritorio remoto</p></td>
 <td style="border:1px solid black;"><p>Manual</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Asistente remoto</p></td>
 <td style="border:1px solid black;"><p>Permite que la característica Asistencia remota se utilice en este equipo.</p></td>
 <td style="border:1px solid black;"><p>Servicios de Terminal Server</p></td>
 <td style="border:1px solid black;"><p>Manual</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ![](images/Dd458738.note(es-es,TechNet.10).gif)  Nota  
@@ -471,89 +471,89 @@ Las aplicaciones cliente de hora requieren que el servicio Inalámbrico o Servid
 Los servidores pueden ser clientes de otros servidores. Las funciones de cliente dependen de los servicios específicos de función que se hayan habilitado. En la tabla siguiente se enumeran las funciones de cliente posibles para el servidor ISA, se describe cuándo se pueden necesitar y se enumeran los servicios que se deben activar cuando se habilita la función.
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Función de cliente</p></th>  
-<th><p>Escenario de uso</p></th>  
-<th><p>Servicios necesarios</p></th>  
-<th><p>Modo de inicio</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Función de cliente</p></th>
+<th><p>Escenario de uso</p></th>
+<th><p>Servicios necesarios</p></th>
+<th><p>Modo de inicio</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Cliente de actualizaciones automáticas</p></td>
 <td style="border:1px solid black;"><p>Seleccione esta función para permitir la detección automática y la actualización desde Microsoft Windows Update.</p></td>
 <td style="border:1px solid black;"><p>Actualizaciones automáticas</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Cliente de actualizaciones automáticas</p></td>
 <td style="border:1px solid black;"><p>Seleccione esta función para permitir la detección automática y la actualización desde Microsoft Windows Update.</p></td>
 <td style="border:1px solid black;"><p>Servicio de transferencia inteligente en segundo plano</p></td>
 <td style="border:1px solid black;"><p>Manual</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Cliente DHCP</p></td>
 <td style="border:1px solid black;"><p>Seleccione esta función si el equipo servidor ISA recibe su dirección IP automáticamente desde un servidor DHCP.</p></td>
 <td style="border:1px solid black;"><p>Cliente DHCP</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Cliente DNS</p></td>
 <td style="border:1px solid black;"><p>Seleccione esta función si el equipo servidor ISA necesita recibir la información de resolución de nombres desde otros servidores.</p></td>
 <td style="border:1px solid black;"><p>Cliente DNS</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Miembro de dominio</p></td>
 <td style="border:1px solid black;"><p>Seleccione esta función si el equipo servidor ISA pertenece a un dominio.</p></td>
 <td style="border:1px solid black;"><p>NLA (Network Location Awareness)</p></td>
 <td style="border:1px solid black;"><p>Manual</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Miembro de dominio</p></td>
 <td style="border:1px solid black;"><p>Seleccione esta función si el equipo servidor ISA pertenece a un dominio.</p></td>
 <td style="border:1px solid black;"><p>Inicio de sesión de red</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Miembro de dominio</p></td>
 <td style="border:1px solid black;"><p>Seleccione esta función si el equipo servidor ISA pertenece a un dominio.</p></td>
 <td style="border:1px solid black;"><p>Horario de Windows</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Registro de DNS automático</p></td>
 <td style="border:1px solid black;"><p>Seleccione esta función para permitir que el equipo servidor ISA registre automáticamente su nombre e información de dirección con un servidor DNS.</p></td>
 <td style="border:1px solid black;"><p>Cliente DHCP</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Cliente de redes de Microsoft</p></td>
 <td style="border:1px solid black;"><p>Seleccione esta función si el equipo servidor ISA tiene que conectarse a otros clientes Windows. Si no selecciona esta función, el equipo servidor ISA no podrá tener acceso a recursos compartidos en equipos remotos; por ejemplo, para publicar informes.</p></td>
 <td style="border:1px solid black;"><p>Ayuda de NetBIOS sobre TCP/IP</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Cliente de redes de Microsoft</p></td>
 <td style="border:1px solid black;"><p>Seleccione esta función si el equipo servidor ISA tiene que conectarse a otros clientes Windows. Si no selecciona esta función, el equipo servidor ISA no podrá tener acceso a recursos compartidos en equipos remotos; por ejemplo, para publicar informes.</p></td>
 <td style="border:1px solid black;"><p>Estación de trabajo</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Cliente WINS</p></td>
 <td style="border:1px solid black;"><p>Seleccione esta función si el equipo servidor ISA utiliza la resolución de nombres basada en WINS.</p></td>
 <td style="border:1px solid black;"><p>Ayuda de NetBIOS sobre TCP/IP</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ##### Creación de una plantilla de seguridad
@@ -591,246 +591,246 @@ Puede crear una plantilla mediante el complemento Plantillas de seguridad de Mic
 10. Repita los pasos 8 y 9 por cada uno de los servicios enumerados en la siguiente tabla.
 
 <p> </p>
-    <table style="border:1px solid black;">  
-    <colgroup>  
-    <col width="33%" />  
-    <col width="33%" />  
-    <col width="33%" />  
-    </colgroup>  
-    <thead>  
-    <tr class="header">  
-    <th><p>Nombre del servicio</p></th>  
-    <th><p>Nombre abreviado</p></th>  
-    <th><p>Modo de inicio</p></th>  
-    </tr>  
-    </thead>  
-    <tbody>  
+    <table style="border:1px solid black;">
+    <colgroup>
+    <col width="33%" />
+    <col width="33%" />
+    <col width="33%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><p>Nombre del servicio</p></th>
+    <th><p>Nombre abreviado</p></th>
+    <th><p>Modo de inicio</p></th>
+    </tr>
+    </thead>
+    <tbody>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Actualizaciones automáticas</p></td>
     <td style="border:1px solid black;"><p>wuauserv</p></td>
     <td style="border:1px solid black;"><p>Automático</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Servicio de transferencia inteligente en segundo plano</p></td>
     <td style="border:1px solid black;"><p>BITS</p></td>
     <td style="border:1px solid black;"><p>Manual</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Sistema de sucesos COM+</p></td>
     <td style="border:1px solid black;"><p>EventSystem</p></td>
     <td style="border:1px solid black;"><p>Manual</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Servicios de cifrado</p></td>
     <td style="border:1px solid black;"><p>CryptSvc</p></td>
     <td style="border:1px solid black;"><p>Automático</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Cliente DHCP</p></td>
     <td style="border:1px solid black;"><p>Dhcp</p></td>
     <td style="border:1px solid black;"><p>Automático</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Cliente DNS</p></td>
     <td style="border:1px solid black;"><p>Dnscache</p></td>
     <td style="border:1px solid black;"><p>Automático</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Servicio de informe de errores</p></td>
     <td style="border:1px solid black;"><p>ERSvc</p></td>
     <td style="border:1px solid black;"><p>Automático</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Registro de sucesos</p></td>
     <td style="border:1px solid black;"><p>Eventlog</p></td>
     <td style="border:1px solid black;"><p>Automático</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Ayuda y soporte técnico</p></td>
     <td style="border:1px solid black;"><p>Helpsvc</p></td>
     <td style="border:1px solid black;"><p>Automático</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Servicios IPSec</p></td>
     <td style="border:1px solid black;"><p>PolicyAgent</p></td>
     <td style="border:1px solid black;"><p>Automático</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Administrador de discos lógicos</p></td>
     <td style="border:1px solid black;"><p>dmserver</p></td>
     <td style="border:1px solid black;"><p>Automático</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Servicio del administrador de discos lógicos</p></td>
     <td style="border:1px solid black;"><p>dmadmin</p></td>
     <td style="border:1px solid black;"><p>Manual</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Firewall de Microsoft</p></td>
     <td style="border:1px solid black;"><p>Fwsrv</p></td>
     <td style="border:1px solid black;"><p>Automático</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Control de Microsoft ISA Server</p></td>
     <td style="border:1px solid black;"><p>ISACtrl</p></td>
     <td style="border:1px solid black;"><p>Automático</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Programador de trabajos de Microsoft ISA Server</p></td>
     <td style="border:1px solid black;"><p>ISASched</p></td>
     <td style="border:1px solid black;"><p>Automático</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Almacenamiento de Microsoft ISA Server</p></td>
     <td style="border:1px solid black;"><p>ISASTG</p></td>
     <td style="border:1px solid black;"><p>Automático</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Proveedor de instantáneas de software de Microsoft</p></td>
     <td style="border:1px solid black;"><p>SWPRV</p></td>
     <td style="border:1px solid black;"><p>Manual</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>MSSQL$MSFW</p></td>
     <td style="border:1px solid black;"><p>MSSQL$MSFW</p></td>
     <td style="border:1px solid black;"><p>Automático</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Conexiones de red</p></td>
     <td style="border:1px solid black;"><p>Netman</p></td>
     <td style="border:1px solid black;"><p>Manual</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>NLA (Network Location Awareness)</p></td>
     <td style="border:1px solid black;"><p>NLA</p></td>
     <td style="border:1px solid black;"><p>Manual</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Proveedor de compatibilidad con seguridad LM de Windows NT</p></td>
     <td style="border:1px solid black;"><p>NtLmSsp</p></td>
     <td style="border:1px solid black;"><p>Manual</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Registros y alertas de rendimiento</p></td>
     <td style="border:1px solid black;"><p>SysmonLog</p></td>
     <td style="border:1px solid black;"><p>Automático</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Plug and Play</p></td>
     <td style="border:1px solid black;"><p>PlugPlay</p></td>
     <td style="border:1px solid black;"><p>Automático</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Almacenamiento protegido</p></td>
     <td style="border:1px solid black;"><p>ProtectedStorage</p></td>
     <td style="border:1px solid black;"><p>Automático</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Administrador de conexión de acceso remoto</p></td>
     <td style="border:1px solid black;"><p>RasMan</p></td>
     <td style="border:1px solid black;"><p>Manual</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Administrador de sesión de Ayuda de escritorio remoto</p></td>
     <td style="border:1px solid black;"><p>RDSessMgr</p></td>
     <td style="border:1px solid black;"><p>Manual</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Llamada a procedimiento remoto (RPC)</p></td>
     <td style="border:1px solid black;"><p>RpcSs</p></td>
     <td style="border:1px solid black;"><p>Automático</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Almacenamiento de medios extraíbles</p></td>
     <td style="border:1px solid black;"><p>NtmsSvc</p></td>
     <td style="border:1px solid black;"><p>Manual</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Enrutamiento y acceso remoto</p></td>
     <td style="border:1px solid black;"><p>Ninguno</p></td>
     <td style="border:1px solid black;"><p>Manual</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Inicio de sesión secundario</p></td>
     <td style="border:1px solid black;"><p>seclogon</p></td>
     <td style="border:1px solid black;"><p>Automático</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Administrador de cuentas de seguridad</p></td>
     <td style="border:1px solid black;"><p>SamSs</p></td>
     <td style="border:1px solid black;"><p>Automático</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Servidor</p></td>
     <td style="border:1px solid black;"><p>lanmanserver</p></td>
     <td style="border:1px solid black;"><p>Manual</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Tarjeta inteligente</p></td>
     <td style="border:1px solid black;"><p>SCardSvr</p></td>
     <td style="border:1px solid black;"><p>Manual</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Notificación de sucesos del sistema</p></td>
     <td style="border:1px solid black;"><p>SENS</p></td>
     <td style="border:1px solid black;"><p>Automático</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Ayuda de NetBIOS sobre TCP/IP</p></td>
     <td style="border:1px solid black;"><p>LmHosts</p></td>
     <td style="border:1px solid black;"><p>Automático</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Telefonía</p></td>
     <td style="border:1px solid black;"><p>TapiSrv</p></td>
     <td style="border:1px solid black;"><p>Manual</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Servicios de Terminal Server</p></td>
     <td style="border:1px solid black;"><p>TermService</p></td>
     <td style="border:1px solid black;"><p>Manual</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Servicio de disco virtual (VDS)</p></td>
     <td style="border:1px solid black;"><p>VDS</p></td>
     <td style="border:1px solid black;"><p>Manual</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Instantáneas de volumen</p></td>
     <td style="border:1px solid black;"><p>VSS</p></td>
     <td style="border:1px solid black;"><p>Manual</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Windows Installer</p></td>
     <td style="border:1px solid black;"><p>MSIServer</p></td>
     <td style="border:1px solid black;"><p>Manual</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Instrumental de administración de Windows</p></td>
     <td style="border:1px solid black;"><p>winmgmt</p></td>
     <td style="border:1px solid black;"><p>Automático</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Horario de Windows</p></td>
     <td style="border:1px solid black;"><p>W32time</p></td>
     <td style="border:1px solid black;"><p>Automático</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Configuración inalámbrica</p></td>
     <td style="border:1px solid black;"><p>WZCSVC</p></td>
     <td style="border:1px solid black;"><p>Automático</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Adaptador de rendimiento de WMI</p></td>
     <td style="border:1px solid black;"><p>WmiApSrv</p></td>
     <td style="border:1px solid black;"><p>Manual</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Estación de trabajo</p></td>
     <td style="border:1px solid black;"><p>lanmanworkstation</p></td>
     <td style="border:1px solid black;"><p>Automático</p></td>
-    </tr>  
-    </tbody>  
+    </tr>
+    </tbody>
     </table>
   
 ![](images/Dd458738.note(es-es,TechNet.10).gif)  Nota  
@@ -880,31 +880,31 @@ En las siguientes secciones se detallan las cuestiones que se deben tener en cue
 Al igual que con cualquier aplicación de su entorno, cuando defina los permisos para el servidor ISA debe tener en cuenta las funciones de los administradores del servidor ISA y asignarles únicamente los permisos necesarios. Para simplificar el proceso, el servidor ISA utiliza funciones administrativas. Puede utilizar la administración basada en funciones para organizar a los administradores del servidor ISA en funciones independientes y predefinidas, cada una con su propio conjunto de tareas. Al asignar una función a un usuario, fundamentalmente se concede permisos a dicho usuario para que realice tareas específicas. Un usuario que tenga una función, como Administrador total del servidor ISA, puede realizar tareas del servidor ISA específicas que un usuario con otra función, como Supervisión básica del servidor ISA, no puede realizar. La administración basada en funciones implica a usuarios y grupos de Windows. Estos permisos de seguridad, pertenencia a grupos y derechos de usuario se utilizan para diferenciar a los usuarios que tienen funciones. En la siguiente tabla se describen las funciones del servidor ISA.
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Función</p></th>  
-<th><p>Descripción</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Función</p></th>
+<th><p>Descripción</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Supervisión básica del servidor ISA</p></td>
 <td style="border:1px solid black;"><p>Los usuarios y grupos asignados a esta función pueden supervisar el equipo servidor ISA y la actividad de red, pero no pueden configurar la funcionalidad de supervisión específica.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Supervisión extendida del servidor ISA</p></td>
 <td style="border:1px solid black;"><p>Los usuarios y grupos asignados a esta función pueden realizar todas las tareas de supervisión, incluida la configuración de registro, la configuración de definición de alertas y todas las funciones de supervisión disponibles para la función Supervisión básica del servidor ISA.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Administrador total del servidor ISA</p></td>
 <td style="border:1px solid black;"><p>Los usuarios y grupos asignados a esta función pueden realizar cualquier tarea del servidor ISA, incluida la configuración de funciones, la aplicación de plantillas de red y la supervisión.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Los miembros de estos grupos administrativos del servidor ISA pueden ser cualquier usuario de Windows. No se precisan privilegios o permisos de Windows especiales. Con la única excepción de que para ver los contadores de rendimiento del servidor ISA, mediante perfmon o el escritorio digital del servidor ISA, el usuario debe ser miembro del grupo de usuarios Usuarios del monitor de sistema de Windows Server 2003.
@@ -934,83 +934,83 @@ Tenga en cuenta que los administradores con permisos de Supervisión extendida d
 Cada función del servidor ISA tiene asociada una lista específica de tareas del servidor ISA. En la siguiente lista se enumeran algunas tareas de administración del servidor ISA junto con las funciones en que se realizan.
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Actividad</p></th>  
-<th><p>Permisos de Supervisión básica</p></th>  
-<th><p>Permisos de Supervisión ampliada</p></th>  
-<th><p>Permisos de Administrador total</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Actividad</p></th>
+<th><p>Permisos de Supervisión básica</p></th>
+<th><p>Permisos de Supervisión ampliada</p></th>
+<th><p>Permisos de Administrador total</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Ver escritorio digital, alertas, conectividad, sesiones, servicios</p></td>
 <td style="border:1px solid black;"><p>X</p></td>
 <td style="border:1px solid black;"><p>X</p></td>
 <td style="border:1px solid black;"><p>X</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Confirmar alertas</p></td>
 <td style="border:1px solid black;"><p>X</p></td>
 <td style="border:1px solid black;"><p>X</p></td>
 <td style="border:1px solid black;"><p>X</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Ver información de registro</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>X</p></td>
 <td style="border:1px solid black;"><p>X</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Crear definiciones de alerta</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>X</p></td>
 <td style="border:1px solid black;"><p>X</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Crear informes</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>X</p></td>
 <td style="border:1px solid black;"><p>X</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Detener e iniciar sesiones y servicios</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>X</p></td>
 <td style="border:1px solid black;"><p>X</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Ver directiva de firewall</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>X</p></td>
 <td style="border:1px solid black;"><p>X</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Configurar directiva de firewall</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>X</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Configurar caché</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>X</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Configurar VPN</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>X</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ##### Permisos
@@ -1165,37 +1165,37 @@ Puede modificar la directiva del sistema de modo que sólo se pueda tener acceso
 En la siguiente tabla se muestran las reglas de directiva del sistema que se aplican a los servicios de red.
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Grupo de configuración</p></th>  
-<th><p>Nombre de regla</p></th>  
-<th><p>Descripción de la regla</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Grupo de configuración</p></th>
+<th><p>Nombre de regla</p></th>
+<th><p>Descripción de la regla</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DHCP</p></td>
 <td style="border:1px solid black;"><p>Permitir peticiones DHCP del servidor ISA a interna</p>
 <p>Permitir respuestas DHCP de servidores DHCP al servidor ISA</p></td>
 <td style="border:1px solid black;"><p>Permite que el equipo servidor ISA tenga acceso a la red interna mediante los protocolos DHCP (respuesta) y DHCP (petición).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>DNS</p></td>
 <td style="border:1px solid black;"><p>Permitir DNS del servidor ISA hacia servidores seleccionados</p></td>
 <td style="border:1px solid black;"><p>Permite que el equipo servidor ISA tenga acceso a todas las redes mediante el protocolo DNS.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>NTP</p></td>
 <td style="border:1px solid black;"><p>Permitir NTP del servidor ISA a servidores NTP de confianza</p></td>
 <td style="border:1px solid black;"><p>Permite que el equipo servidor ISA tenga acceso a la red interna mediante el protocolo NTP (UDP).</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Servicios DHCP
@@ -1230,44 +1230,44 @@ Una de las capacidades fundamentales del servidor ISA es el poder aplicar una di
 En la siguiente tabla se muestran las reglas de directiva del sistema que se aplican a los servicios de autenticación.
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Grupo de configuración</p></th>  
-<th><p>Nombre de regla</p></th>  
-<th><p>Descripción de la regla</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Grupo de configuración</p></th>
+<th><p>Nombre de regla</p></th>
+<th><p>Descripción de la regla</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Active Directory</p></td>
 <td style="border:1px solid black;"><p>Permitir acceso a servicios de directorio para propósitos de autenticación</p>
-<p>Permitir RPC del servidor ISA a servidores de confianza</p>  
+<p>Permitir RPC del servidor ISA a servidores de confianza</p>
 <p>Permitir CIFS de Microsoft CIFS del servidor ISA a servidores de confianza</p>
 <p>Permitir la autenticación Kerberos del servidor ISA a servidores de confianza</p></td>
 <td style="border:1px solid black;"><p>Permite que el equipo servidor ISA tenga acceso a la red interna mediante varios protocolos LDAP, protocolo RPC (todas las interfaces), varios protocolos CIFS de Microsoft y varios protocolos Kerberos, mediante el servicio de directorio Active Directory.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>RSA SecurID</p></td>
 <td style="border:1px solid black;"><p>Permitir la autenticación SecurID del servidor ISA a servidores de confianza</p></td>
 <td style="border:1px solid black;"><p>Permite que el equipo servidor ISA tenga acceso a la red interna mediante el protocolo RSA SecurID®.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>RADIUS</p></td>
 <td style="border:1px solid black;"><p>Permitir la autenticación RADIUS del servidor ISA a servidores RADIUS de confianza</p></td>
 <td style="border:1px solid black;"><p>Permite que el equipo servidor ISA tenga acceso a la red interna mediante varios protocolos RADIUS.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Lista de revocación de certificados</p></td>
 <td style="border:1px solid black;"><p>Permitir HTTP desde el servidor ISA hacia todas las redes para las descargas de CRL</p></td>
 <td style="border:1px solid black;"><p>Servicios de autenticación: permite HTTP desde el servidor ISA hacia redes seleccionadas para descargar listas de revocación de certificados (CRL) actualizadas.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### DCOM
@@ -1346,37 +1346,37 @@ Se permitirá todo el tráfico HTTP desde la red del host local (el equipo servi
 El servidor ISA normalmente se administra desde un equipo remoto. Determine cuidadosamente los equipos remotos que podrán administrar y supervisar el servidor ISA. En la siguiente tabla se enumeran las reglas de directiva del sistema que se deben configurar.
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Grupo de configuración</p></th>  
-<th><p>Nombre de regla</p></th>  
-<th><p>Descripción de la regla</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Grupo de configuración</p></th>
+<th><p>Nombre de regla</p></th>
+<th><p>Descripción de la regla</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Microsoft Management Console</p></td>
 <td style="border:1px solid black;"><p>Permitir la administración remota desde equipos seleccionados que usan MMC</p>
 <p>Permitir la comunicación de Control de Firewall de Microsoft a equipos seleccionados</p></td>
 <td style="border:1px solid black;"><p>Permite que los equipos del conjunto de equipos Equipos de administración remota tengan acceso al equipo servidor ISA mediante los protocolos de control de firewall de MS y RPC (todas las interfaces).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Terminal Server</p></td>
 <td style="border:1px solid black;"><p>Permitir la administración remota desde equipos seleccionados por medio de Terminal Server</p></td>
 <td style="border:1px solid black;"><p>Permite que los equipos del conjunto de equipos Equipos de administración remota tengan acceso al equipo servidor ISA mediante el protocolo RDP (Servicios de Terminal Server).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ICMP (Ping)</p></td>
 <td style="border:1px solid black;"><p>Permitir peticiones ICMP (PING) de equipos seleccionados al servidor ISA</p></td>
 <td style="border:1px solid black;"><p>Permite que los equipos del conjunto de equipos Equipos de administración remota tengan acceso al equipo servidor ISA mediante el protocolo Ping y viceversa.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 De forma predeterminada, las reglas de directiva del sistema que permiten la administración remota del servidor ISA están habilitadas. El servidor ISA se puede administrar mediante la ejecución de un complemento de Microsoft Management Console (MMC) remoto o mediante Servicios de Terminal Server.
@@ -1421,41 +1421,41 @@ De forma predeterminada, el registro y la supervisión remotos están deshabilit
 En la siguiente tabla se proporciona una descripción de los grupos de configuración.
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Grupo de configuración</p></th>  
-<th><p>Nombre de regla</p></th>  
-<th><p>Descripción de la regla</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Grupo de configuración</p></th>
+<th><p>Nombre de regla</p></th>
+<th><p>Descripción de la regla</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Registro remoto (NetBIOS)</p></td>
 <td style="border:1px solid black;"><p>Permitir el registro remoto a servidores de confianza que usan NetBIOS</p></td>
 <td style="border:1px solid black;"><p>Permite que el equipo servidor ISA tenga acceso a la red interna mediante varios protocolos NetBIOS.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Registro remoto (SQL)</p></td>
 <td style="border:1px solid black;"><p>Permitir el registro SQL remoto del servidor ISA a servidores seleccionados</p></td>
 <td style="border:1px solid black;"><p>Permite que el equipo servidor ISA utilice protocolos de Microsoft (SQL) para tener acceso a la red interna.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Supervisión remota del rendimiento</p></td>
 <td style="border:1px solid black;"><p>Permitir la supervisión remota de rendimiento del servidor ISA desde servidores de confianza</p></td>
 <td style="border:1px solid black;"><p>Permite que los equipos del conjunto de equipos Equipos de administración remota tengan acceso al equipo servidor ISA mediante varios protocolos NetBIOS.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Microsoft Operations Manager</p></td>
 <td style="border:1px solid black;"><p>Permitir la supervisión remota del servidor ISA a servidores de confianza, por medio del agente Microsoft Operations Manager (MOM).</p></td>
 <td style="border:1px solid black;"><p>Permite que el equipo servidor ISA tenga acceso a la red interna mediante el agente Microsoft Operations Manager.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Habilitación del registro y supervisión remotos
@@ -1485,26 +1485,26 @@ En la siguiente tabla se proporciona una descripción de los grupos de configura
 Si ha instalado el componente Recurso compartido de cliente firewall al instalar el servidor ISA, el grupo de configuración Recurso compartido de instalación de cliente firewall está habilitado de forma predeterminada. Todos los equipos de la red interna pueden tener acceso a la carpeta compartida. En la siguiente tabla se muestra el grupo de configuración de directiva del sistema (y la regla) que está habilitado.
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Grupo de configuración</p></th>  
-<th><p>Nombre de regla</p></th>  
-<th><p>Descripción de la regla</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Grupo de configuración</p></th>
+<th><p>Nombre de regla</p></th>
+<th><p>Descripción de la regla</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Instalación de cliente firewall</p></td>
 <td style="border:1px solid black;"><p>Permitir acceso de equipos de confianza al recurso compartido de cliente firewall en el servidor ISA</p></td>
 <td style="border:1px solid black;"><p>Permite que los equipos de la red interna tengan acceso al equipo servidor ISA mediante varios protocolos CIFS y NetBIOS de Microsoft. Cuando se habilita esta regla, se permite el acceso al equipo servidor ISA mediante SMB desde cualquier red o equipo especificado. El acceso no está limitado únicamente a la carpeta de recurso compartido de instalación de cliente firewall.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Si no ha instalado el componente Recurso compartido de cliente firewall, este grupo de configuración no está habilitado.
@@ -1524,36 +1524,36 @@ De forma predeterminada, las reglas de directiva del sistema que permiten el acc
 En la siguiente tabla se muestran los grupos de configuración de directiva del sistema que están habilitados de forma predeterminada.
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Grupo de configuración</p></th>  
-<th><p>Nombre de regla</p></th>  
-<th><p>Descripción de la regla</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Grupo de configuración</p></th>
+<th><p>Nombre de regla</p></th>
+<th><p>Descripción de la regla</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ICMP</p></td>
 <td style="border:1px solid black;"><p>Permitir peticiones ICMP del servidor ISA a servidores seleccionados</p></td>
 <td style="border:1px solid black;"><p>Permite que el equipo servidor ISA tenga acceso a todas las redes mediante varios protocolos ICMP y el protocolo Ping.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Red de Windows</p></td>
 <td style="border:1px solid black;"><p>Permitir NetBIOS del servidor ISA a servidores de confianza</p></td>
 <td style="border:1px solid black;"><p>Permite que el equipo servidor ISA tenga acceso a todas las redes mediante varios protocolos NetBIOS.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Comunicación con Microsoft (Informes de error de Microsoft)</p></td>
 <td style="border:1px solid black;"><p>Permitir HTTP/HTTPS del servidor ISA a sitios de informes de error de Microsoft especificados</p></td>
 <td style="border:1px solid black;"><p>Permite que el equipo servidor ISA tenga acceso a los miembros del conjunto de direcciones URL de sitios de informes de error de Microsoft mediante los protocolos HTTP o HTTPS.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Comprobadores de conectividad
@@ -1563,26 +1563,26 @@ Además, el siguiente servicio de diagnóstico no está habilitado de forma pred
 Cuando se crea un comprobador de conectividad, el grupo de configuración Comprobadores de conectividad HTTP está habilitado, lo que permite que la red de host local utilice HTTP o HTTPS para tener acceso a los equipos de otra red. En la siguiente tabla se describe el grupo de configuración Comprobadores de conectividad HTTP.
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Grupo de configuración</p></th>  
-<th><p>Nombre de regla</p></th>  
-<th><p>Descripción de la regla</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Grupo de configuración</p></th>
+<th><p>Nombre de regla</p></th>
+<th><p>Descripción de la regla</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Comprobadores de conectividad HTTP</p></td>
 <td style="border:1px solid black;"><p>Permitir HTTP/HTTPS de firewall a todas las redes, para los comprobadores de conectividad</p></td>
 <td style="border:1px solid black;"><p>Permite que el equipo servidor ISA compruebe la conectividad mediante el envío de peticiones HTTP GET al equipo especificado.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Se recomienda limitar este acceso a equipos específicos cuya conectividad se desee comprobar.
@@ -1608,26 +1608,26 @@ Se recomienda limitar este acceso a equipos específicos cuya conectividad se de
 De forma predeterminada, el grupo de configuración SMTP está habilitado, lo que permite la comunicación SMTP del servidor ISA a los equipos de la red interna. Por ejemplo, esto se necesita cuando se desea enviar información de alerta en un mensaje de correo electrónico. En la siguiente tabla se describe el grupo de configuración SMTP.
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Grupo de configuración</p></th>  
-<th><p>Nombre de regla</p></th>  
-<th><p>Descripción de la regla</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Grupo de configuración</p></th>
+<th><p>Nombre de regla</p></th>
+<th><p>Descripción de la regla</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SMTP</p></td>
 <td style="border:1px solid black;"><p>Permitir SMTP del servidor ISA a servidores de confianza</p></td>
 <td style="border:1px solid black;"><p>Permite que el equipo servidor ISA tenga acceso a la red interna mediante el protocolo SMTP.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Trabajos de descarga programada
@@ -1635,26 +1635,26 @@ De forma predeterminada, el grupo de configuración SMTP está habilitado, lo qu
 De forma predeterminada, la característica de trabajos de descarga programada está deshabilitada. En la siguiente tabla se describe el grupo de configuración Trabajos de descarga programada.
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Grupo de configuración</p></th>  
-<th><p>Nombre de regla</p></th>  
-<th><p>Descripción de la regla</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Grupo de configuración</p></th>
+<th><p>Nombre de regla</p></th>
+<th><p>Descripción de la regla</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Trabajos de descarga programada</p></td>
 <td style="border:1px solid black;"><p>Permitir HTTP del servidor ISA a equipos seleccionados, para trabajos de descarga de contenido</p></td>
 <td style="border:1px solid black;"><p>Permite que el equipo servidor ISA tenga acceso a todas las redes mediante el protocolo HTTP.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Al crear un trabajo de descarga de contenido, se le pedirá que habilite esta regla de directiva del sistema. El servidor ISA podrá tener acceso a los sitios especificados en el trabajo de descarga de contenido.
@@ -1670,26 +1670,26 @@ La directiva del sistema predeterminada permite el acceso HTTP y HTTPS de la red
 De forma predeterminada, el grupo de configuración Sitios permitidos está habilitado, lo que permite que el servidor ISA tenga acceso a sitios específicos que pertenecen al conjunto de nombres de dominio Sitios permitidos de directiva del sistema. En la siguiente tabla se describe el grupo de configuración Sitios permitidos.
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Grupo de configuración</p></th>  
-<th><p>Nombre de regla</p></th>  
-<th><p>Descripción de la regla</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Grupo de configuración</p></th>
+<th><p>Nombre de regla</p></th>
+<th><p>Descripción de la regla</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Sitos permitidos</p></td>
 <td style="border:1px solid black;"><p>Permitir peticiones HTTP/HTTPS del servidor ISA a sitios especificados</p></td>
 <td style="border:1px solid black;"><p>Permite que el equipo servidor ISA tenga acceso a los miembros del conjunto de direcciones URL de sitios permitidos de directiva del sistema mediante los protocolos HTTP o HTTPS.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Este conjunto de direcciones URL incluye varios sitios Web de Microsoft de forma predeterminada. Puede modificar el conjunto de nombres de dominio para incluir sitios Web adicionales a los que se permitirá el acceso al servidor ISA.

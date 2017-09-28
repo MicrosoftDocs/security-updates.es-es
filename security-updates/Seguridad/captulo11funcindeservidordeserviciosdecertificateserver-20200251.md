@@ -88,8 +88,8 @@ En la tabla siguiente se incluye la configuración de opciones de seguridad reco
 <tr class="odd">
 <td style="border:1px solid black;"><p>Criptografía de sistema: usar algoritmos que cumplan la norma FIPS para cifrado, firma y operaciones hash</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Criptografía de sistema: usar algoritmos que cumplan la norma FIPS para cifrado, firma y operaciones hash
@@ -147,18 +147,18 @@ La tabla siguiente incluye las ACL de sistema de archivos para servidores de Ser
 **Tabla 11.2 Listas ACL de sistema de archivos**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Ruta de ACL en la IU</p></th>  
-<th><p>Cliente de empresa</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Ruta de ACL en la IU</p></th>
+<th><p>Cliente de empresa</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>%SystemRoot%\system32\CertLog (se propaga a todas las subcarpetas)</p></td>
 <td style="border:1px solid black;"><p>Administradores (control total)</p>
@@ -208,23 +208,23 @@ Debido a que las entidades emisoras de certificados contienen información confi
 <td style="border:1px solid black;"><p>%SystemRoot%\system32\CertLog</p></td>
 <td style="border:1px solid black;"><p>Error</p></td>
 <td style="border:1px solid black;"><p>Todos (Control total)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>%SystemRoot%\system32\CertSrv</p></td>
 <td style="border:1px solid black;"><p>Correcto</p></td>
 <td style="border:1px solid black;"><p>Todos (Modificar)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>D:\CertSrv</p></td>
 <td style="border:1px solid black;"><p>Correcto</p></td>
 <td style="border:1px solid black;"><p>Todos (Modificar)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>D:\CertLog</p></td>
 <td style="border:1px solid black;"><p>Correcto</p></td>
 <td style="border:1px solid black;"><p>Todos (Modificar)</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Con estas configuraciones de directiva se auditarán tanto los accesos fallidos (de lectura o modificación) como las modificaciones realizadas por cualquier usuario.

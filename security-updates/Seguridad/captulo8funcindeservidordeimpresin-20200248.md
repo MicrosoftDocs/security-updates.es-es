@@ -55,8 +55,8 @@ En la siguiente tabla se muestran los nombres de las plantillas de seguridad de 
 <td style="border:1px solid black;"><p>LC-Print Server.inf</p></td>
 <td style="border:1px solid black;"><p>EC-Print Server.inf</p></td>
 <td style="border:1px solid black;"><p>SSLF-Print Server.inf</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Para obtener más información acerca de la configuración en el MSBP, consulte el capítulo 4, “Directiva de línea de base de servidores miembro”. Para obtener más información acerca de todas las configuraciones predeterminadas, consulte la guía complementaria, [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159)*, *que está disponible en* *http://go.microsoft.com/fwlink/?LinkId=15159.
@@ -86,29 +86,29 @@ La mayoría de los parámetros de configuración para los servidores de impresi�
 **Tabla 8.2 Configuración recomendada para firmar digitalmente las comunicaciones (siempre)**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Configuración</p></th>  
-<th><p>Cliente heredado</p></th>  
-<th><p>Cliente de empresa</p></th>  
-<th><p>Seguridad especializada: Funcionalidad limitada</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Configuración</p></th>
+<th><p>Cliente heredado</p></th>
+<th><p>Cliente de empresa</p></th>
+<th><p>Seguridad especializada: Funcionalidad limitada</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servidor de red de Microsoft: firmar digitalmente las comunicaciones (siempre)</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Esta configuración de directiva determina si el componente de servidor SMB requiere la firma de paquetes. El protocolo SMB constituye la base del uso compartido de recursos de impresión y de archivos, además de otras muchas operaciones de red en Microsoft, como la administración remota de Windows. Para evitar ataques de intermediario, con los que se modifican los paquetes SMB en tránsito, el protocolo SMB admite la firma digital de paquetes SMB. Esta configuración de directiva determina si la firma de paquetes SMB se debe negociar antes de que se permita una nueva comunicación con un cliente SMB.

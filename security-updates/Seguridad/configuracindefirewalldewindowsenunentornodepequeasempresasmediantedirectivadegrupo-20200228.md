@@ -57,38 +57,38 @@ En la tabla siguiente, se especifica la configuración predeterminada de Firewal
 <td style="border:1px solid black;"><p>Configuración de conexión de red</p></td>
 <td style="border:1px solid black;"><p>Todas las conexiones</p></td>
 <td style="border:1px solid black;"><p>La protección de Firewall de Windows en una conexión de red específica deja de ser necesaria o cada una de las conexiones de red requiere una configuración individual.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Excepciones de programa</p></td>
 <td style="border:1px solid black;"><p>Sólo asistencia remota</p></td>
 <td style="border:1px solid black;"><p>Resulta necesario recibir en su equipo conexiones de otros programas o servicios.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Excepciones de puerto</p></td>
 <td style="border:1px solid black;"><p>Ninguna</p></td>
 <td style="border:1px solid black;"><p>Resultan necesarias conexiones de otro equipo que utiliza puertos específicos de su equipo.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Excepciones ICMP</p></td>
 <td style="border:1px solid black;"><p>Ninguna</p></td>
 <td style="border:1px solid black;"><p>Es necesario que otros equipos comprueben que el suyo está en ejecución y TCP/IP se ha configurado correctamente.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Notificaciones</p></td>
 <td style="border:1px solid black;"><p>Activadas</p></td>
 <td style="border:1px solid black;"><p>No se desea recibir más notificaciones cuando otros equipos intentan conectarse al suyo sin conseguirlo.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Registro</p></td>
 <td style="border:1px solid black;"><p>Desactivado</p></td>
 <td style="border:1px solid black;"><p>Se necesita un registro de conexiones o de intentos de conexión efectuados por su equipo.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>No se permiten excepciones</p></td>
 <td style="border:1px solid black;"><p>Desactivado</p></td>
 <td style="border:1px solid black;"><p>Se ha descubierto una vulnerabilidad de seguridad en el equipo o éste se utiliza en un entorno de menos seguro, como la sala de espera de un aeropuerto.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Las tareas que se deben realizar para configurar Firewall de Windows mediante Directiva de grupo son las siguientes:
@@ -336,107 +336,107 @@ Tras completar los pasos siguientes para configurar los parámetros de Firewall 
     **Tabla 2. Recomendaciones de configuración de Firewall de Windows**
 
 <p> </p>
-    <table style="border:1px solid black;">  
-    <colgroup>  
-    <col width="25%" />  
-    <col width="25%" />  
-    <col width="25%" />  
-    <col width="25%" />  
-    </colgroup>  
-    <thead>  
-    <tr class="header">  
-    <th><p>Configuración</p></th>  
-    <th><p>Descripción</p></th>  
-    <th><p>Perfil de dominio</p></th>  
-    <th><p>Perfil estándar</p></th>  
-    </tr>  
-    </thead>  
-    <tbody>  
+    <table style="border:1px solid black;">
+    <colgroup>
+    <col width="25%" />
+    <col width="25%" />
+    <col width="25%" />
+    <col width="25%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><p>Configuración</p></th>
+    <th><p>Descripción</p></th>
+    <th><p>Perfil de dominio</p></th>
+    <th><p>Perfil estándar</p></th>
+    </tr>
+    </thead>
+    <tbody>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Proteger todas las conexiones de red</p></td>
     <td style="border:1px solid black;"><p>Especifica que todas las conexiones de red tienen habilitado Firewall de Windows.</p></td>
     <td style="border:1px solid black;"><p>Habilitado.</p></td>
     <td style="border:1px solid black;"><p>Habilitado.</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>No permitir excepciones</p></td>
     <td style="border:1px solid black;"><p>Especifica que todo el tráfico entrante no solicitado se descarta, incluido el tráfico permitido.</p></td>
     <td style="border:1px solid black;"><p>No configurado.</p></td>
     <td style="border:1px solid black;"><p>Habilitado, a menos que deba configurar excepciones de programa.</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Definir excepciones de programa</p></td>
     <td style="border:1px solid black;"><p>Define el tráfico permitido en términos de nombres de archivos de programa.</p></td>
     <td style="border:1px solid black;"><p>Habilitado y configurado con los programas (aplicaciones y servicios) que usan los equipos de la red en los que se ejecuta Windows XP SP2.</p></td>
     <td style="border:1px solid black;"><p>Habilitado y configurado con los programas (aplicaciones y servicios) que usan los equipos de la red en los que se ejecuta Windows XP SP2.</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Permitir excepciones de programa locales</p></td>
     <td style="border:1px solid black;"><p>Habilita la configuración local de excepciones de programa.</p></td>
     <td style="border:1px solid black;"><p>Deshabilitado, a menos que desee que los administradores locales configuren las excepciones de programa de forma local.</p></td>
     <td style="border:1px solid black;"><p>Deshabilitado.</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Permitir excepción de administración remota</p></td>
     <td style="border:1px solid black;"><p>Permite efectuar la configuración remota mediante el uso de herramientas.</p></td>
     <td style="border:1px solid black;"><p>Deshabilitado, a menos que desee poder administrar los equipos de forma remota con complementos MMC.</p></td>
     <td style="border:1px solid black;"><p>Deshabilitado.</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Permitir excepción de impresión y archivos compartidos</p></td>
     <td style="border:1px solid black;"><p>Especifica si se permite el tráfico generado al compartir impresoras y archivos.</p></td>
     <td style="border:1px solid black;"><p>Deshabilitado, a menos que los equipos en los que se ejecute Windows XP SP2 constituyan recursos locales de carácter compartido.</p></td>
     <td style="border:1px solid black;"><p>Deshabilitado.</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Permitir excepciones ICMP</p></td>
     <td style="border:1px solid black;"><p>Especifica los tipos de mensaje ICMP permitidos.</p></td>
     <td style="border:1px solid black;"><p>Deshabilitado, a menos que quiera utilizar el comando ping para solucionar problemas.</p></td>
     <td style="border:1px solid black;"><p>Deshabilitado.</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Permitir excepción de escritorio remoto</p></td>
     <td style="border:1px solid black;"><p>Especifica si el equipo puede aceptar una solicitud de conexión basada en escritorio remoto.</p></td>
     <td style="border:1px solid black;"><p>Habilitado.</p></td>
     <td style="border:1px solid black;"><p>Habilitado.</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Permitir excepción del marco UPnP</p></td>
     <td style="border:1px solid black;"><p>Especifica si el equipo puede recibir mensajes UPnP no solicitados.</p></td>
     <td style="border:1px solid black;"><p>Deshabilitado.</p></td>
     <td style="border:1px solid black;"><p>Deshabilitado.</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Prohibir notificaciones</p></td>
     <td style="border:1px solid black;"><p>Deshabilita las notificaciones.</p></td>
     <td style="border:1px solid black;"><p>Deshabilitado.</p></td>
     <td style="border:1px solid black;"><p>Deshabilitado.</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Habilitar registro</p></td>
     <td style="border:1px solid black;"><p>Permite los registros de tráfico y configura los parámetros de los archivos de registro.</p></td>
     <td style="border:1px solid black;"><p>No configurado.</p></td>
     <td style="border:1px solid black;"><p>No configurado.</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Prohibir respuesta de unidifusión para solicitudes de difusión o multidifusión</p></td>
     <td style="border:1px solid black;"><p>Descarta los paquetes de unidifusión recibidos como respuesta a un mensaje de solicitud de difusión o de multidifusión.</p></td>
     <td style="border:1px solid black;"><p>Habilitado.</p></td>
     <td style="border:1px solid black;"><p>Habilitado.</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Definir excepciones de puerto</p></td>
     <td style="border:1px solid black;"><p>Especifica el tráfico permitido en términos de TCP y UDP.</p></td>
     <td style="border:1px solid black;"><p>Deshabilitado.</p></td>
     <td style="border:1px solid black;"><p>Deshabilitado.</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Permitir excepciones locales de puerto</p></td>
     <td style="border:1px solid black;"><p>Habilita la configuración local de excepciones de puerto.</p></td>
     <td style="border:1px solid black;"><p>Deshabilitado.</p></td>
     <td style="border:1px solid black;"><p>Deshabilitado.</p></td>
-    </tr>  
-    </tbody>  
+    </tr>
+    </tbody>
     </table>
   
 10. Haga doble clic en cada uno de los parámetros enumerados en la Tabla 2, haga clic en **Habilitado**, **Deshabilitado** o **No configurado** y, a continuación, haga clic en **Aceptar**.

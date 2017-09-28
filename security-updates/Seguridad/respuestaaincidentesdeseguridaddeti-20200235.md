@@ -139,7 +139,7 @@ Un equipo adecuado del CSIRT está formado por varios miembros clave.
 <tr class="odd">
 <td style="border:1px solid black;"><p>Contacto de TI</p></td>
 <td style="border:1px solid black;"><p>Este miembro es principalmente responsable de coordinar la comunicación entre el coordinador de incidentes del CSIRT y el resto del grupo de TI. El contacto de TI quizás no tenga la experiencia técnica específica para responder a un incidente concreto; sin embargo, será el responsable principal de encontrar a la persona del grupo de TI adecuada para tratar con eventos de seguridad particulares.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Representante legal</p></td>
 <td style="border:1px solid black;"><p>Este miembro es un abogado muy familiarizado con las directivas de respuesta a incidentes establecidas. El representante legal determina cómo proceder durante un incidente con responsabilidad legal mínima y capacidad máxima para procesar a los delincuentes.</p>
@@ -194,7 +194,7 @@ En caso de incidente, el CSIRT coordinará una respuesta desde el CSIRT principa
 <td style="border:1px solid black;"><p><strong>Representante legal</strong></p></td>
 <td style="border:1px solid black;"><p><strong>Encargado del departamento de comunicaciones</strong></p></td>
 <td style="border:1px solid black;"><p><strong>Administración</strong></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Evaluación inicial</p></td>
 <td style="border:1px solid black;"><p>Propietario</p></td>
@@ -202,7 +202,7 @@ En caso de incidente, el CSIRT coordinará una respuesta desde el CSIRT principa
 <td style="border:1px solid black;"><p>Ninguno</p></td>
 <td style="border:1px solid black;"><p>Ninguno</p></td>
 <td style="border:1px solid black;"><p>Ninguno</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Respuesta inicial</p></td>
 <td style="border:1px solid black;"><p>Propietario</p></td>
@@ -210,7 +210,7 @@ En caso de incidente, el CSIRT coordinará una respuesta desde el CSIRT principa
 <td style="border:1px solid black;"><p>Actualizaciones</p></td>
 <td style="border:1px solid black;"><p>Actualizaciones</p></td>
 <td style="border:1px solid black;"><p>Actualizaciones</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Reunir pruebas forenses</p></td>
 <td style="border:1px solid black;"><p>Implementación</p></td>
@@ -218,7 +218,7 @@ En caso de incidente, el CSIRT coordinará una respuesta desde el CSIRT principa
 <td style="border:1px solid black;"><p>Propietario</p></td>
 <td style="border:1px solid black;"><p>Ninguno</p></td>
 <td style="border:1px solid black;"><p>Ninguno</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Implementar una solución temporal</p></td>
 <td style="border:1px solid black;"><p>Propietario</p></td>
@@ -226,7 +226,7 @@ En caso de incidente, el CSIRT coordinará una respuesta desde el CSIRT principa
 <td style="border:1px solid black;"><p>Actualizaciones</p></td>
 <td style="border:1px solid black;"><p>Actualizaciones</p></td>
 <td style="border:1px solid black;"><p>Asesoramiento</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Enviar comunicaciones</p></td>
 <td style="border:1px solid black;"><p>Asesoramiento</p></td>
@@ -234,7 +234,7 @@ En caso de incidente, el CSIRT coordinará una respuesta desde el CSIRT principa
 <td style="border:1px solid black;"><p>Asesoramiento</p></td>
 <td style="border:1px solid black;"><p>Implementación</p></td>
 <td style="border:1px solid black;"><p>Propietario</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Consultar a las autoridades locales pertinentes</p></td>
 <td style="border:1px solid black;"><p>Actualizaciones</p></td>
@@ -242,7 +242,7 @@ En caso de incidente, el CSIRT coordinará una respuesta desde el CSIRT principa
 <td style="border:1px solid black;"><p>Implementación</p></td>
 <td style="border:1px solid black;"><p>Actualizaciones</p></td>
 <td style="border:1px solid black;"><p>Propietario</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Implementar soluciones permanentes</p></td>
 <td style="border:1px solid black;"><p>Propietario</p></td>
@@ -250,7 +250,7 @@ En caso de incidente, el CSIRT coordinará una respuesta desde el CSIRT principa
 <td style="border:1px solid black;"><p>Actualizaciones</p></td>
 <td style="border:1px solid black;"><p>Actualizaciones</p></td>
 <td style="border:1px solid black;"><p>Actualizaciones</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Determinar la repercusión financiera en el negocio</p></td>
 <td style="border:1px solid black;"><p>Actualizaciones</p></td>
@@ -258,8 +258,8 @@ En caso de incidente, el CSIRT coordinará una respuesta desde el CSIRT principa
 <td style="border:1px solid black;"><p>Asesoramiento</p></td>
 <td style="border:1px solid black;"><p>Actualizaciones</p></td>
 <td style="border:1px solid black;"><p>Propietario</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Principio de la página](#mainsection)

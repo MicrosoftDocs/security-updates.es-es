@@ -473,23 +473,23 @@ La tabla siguiente define los criterios de gravedad y prioridad de los errores u
 <td style="border:1px solid black;"><p>1</p></td>
 <td style="border:1px solid black;"><p>El error provoca el bloqueo del sistema o la pérdida de datos.</p></td>
 <td style="border:1px solid black;"><p>El error debe corregirse lo antes posible. El error bloquea el progreso en esta área.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>2</p></td>
 <td style="border:1px solid black;"><p>El error causa problemas graves en la funcionalidad u otros aspectos importantes; el producto se bloquea en casos poco claros.</p></td>
 <td style="border:1px solid black;"><p>El error debe corregirse antes del lanzamiento del producto.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>3</p></td>
 <td style="border:1px solid black;"><p>El error provoca problemas de menor importancia en la funcionalidad que pueden influir en la calidad.</p></td>
 <td style="border:1px solid black;"><p>Si hay tiempo, el error debe corregirse; no es muy importante. Puede posponerse.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>4</p></td>
 <td style="border:1px solid black;"><p>El error contiene fallos tipográficos, frases poco claras o mensajes de error en campos de visibilidad reducida.</p></td>
 <td style="border:1px solid black;"><p>No está definido</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Resultados de la prueba

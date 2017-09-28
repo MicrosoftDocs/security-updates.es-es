@@ -57,23 +57,23 @@ Para saber cómo funciona esta estimación, supongamos que una organización de 
 <td style="border:1px solid black;"><p>Se han establecido correctamente los servicios en línea del servidor de RMS</p></td>
 <td style="border:1px solid black;"><p>1,7 MB</p></td>
 <td style="border:1px solid black;"><p>1,7 MB</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Se inscriben 5.000 empleados (5.000*0,06)</p></td>
 <td style="border:1px solid black;"><p>300 MB</p></td>
 <td style="border:1px solid black;"><p>301,7 MB</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Mensajes de correo electrónico protegidos a los que se ha obtenido acceso (25.000*0,19)</p></td>
 <td style="border:1px solid black;"><p>4.750 MB</p></td>
 <td style="border:1px solid black;"><p>5.051,7 MB</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Documentos protegidos a los que se ha obtenido acceso (15.000*0,19)</p></td>
 <td style="border:1px solid black;"><p>2.850 MB</p></td>
 <td style="border:1px solid black;"><p>7.901,7 MB</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Por lo tanto, después de la inscripción, la base de datos de registro tiene un tamaño estático de aproximadamente 300 MB. No obstante, el crecimiento diario en este ejemplo es de 7,6 GB, cerca del límite de 8 GB de la instalación predeterminada de los Servicios de Message Queue Server. Si la base de datos de registro dejara de estar disponible durante un periodo superior a un día, empezarían a perderse entradas de registro.

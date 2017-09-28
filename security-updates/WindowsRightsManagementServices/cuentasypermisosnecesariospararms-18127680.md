@@ -29,7 +29,7 @@ En la siguiente tabla, se especifican los permisos de usuario necesarios para ll
 <tr class="odd">
 <td style="border:1px solid black;"><p>Instalación de RMS</p></td>
 <td style="border:1px solid black;"><p>Iniciar sesión con una cuenta de dominio que es miembro del grupo Administradores local.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Establecimiento de los servicios en línea de RMS</p></td>
 <td style="border:1px solid black;"><p>Iniciar sesión con una cuenta de dominio que es miembro del grupo Administradores local. Además, la cuenta que se utiliza debe tener un inicio de sesión de SQL con la función de administrador del sistema en la base de datos de SQL Server, para que RMS pueda configurar las bases de datos.</p>
@@ -39,8 +39,8 @@ En la siguiente tabla, se especifican los permisos de usuario necesarios para ll
 <tr class="odd">
 <td style="border:1px solid black;"><p>Administración de RMS</p></td>
 <td style="border:1px solid black;"><p>Iniciar sesión con una cuenta de dominio que es miembro del grupo Administradores local. Puede personalizar la configuración de seguridad para administrar el acceso a las páginas Web de administración.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc720178.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                                |  

@@ -40,36 +40,36 @@ The following table describes non-deployment tasks you might have to perform as 
 <tr class="odd">
 <td style="border:1px solid black;"><p>MSDE</p></td>
 <td style="border:1px solid black;"><ul>
-<li>Make space in the database when the 2-GB limit is reached. For more information, see <a href="https://technet.microsoft.com/2686bd2b-910a-479b-961e-cea2a2028024">Managing WSUS from the Command Line</a>.<br />  
-<br />  
-</li>  
-<li>Backup / restore. For more information, see <a href="https://technet.microsoft.com/c0f1a661-eb48-4156-81a2-267d846f844f">Backing Up Windows Server Update Services</a>.<br />  
-<br />  
-</li>  
-<li>Move data to a SQL Server 2000 database (for example, if you are upgrading the database from MSDE to SQL Server 2000).<br />  
-<br />  
+<li>Make space in the database when the 2-GB limit is reached. For more information, see <a href="https://technet.microsoft.com/2686bd2b-910a-479b-961e-cea2a2028024">Managing WSUS from the Command Line</a>.<br />
+<br />
+</li>
+<li>Backup / restore. For more information, see <a href="https://technet.microsoft.com/c0f1a661-eb48-4156-81a2-267d846f844f">Backing Up Windows Server Update Services</a>.<br />
+<br />
+</li>
+<li>Move data to a SQL Server 2000 database (for example, if you are upgrading the database from MSDE to SQL Server 2000).<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>WMSDE</p></td>
 <td style="border:1px solid black;"><ul>
-<li>Backup / restore. For more information, see <a href="https://technet.microsoft.com/c0f1a661-eb48-4156-81a2-267d846f844f">Backing Up Windows Server Update Services</a>.<br />  
-<br />  
-</li>  
-<li>Move data to a SQL Server 2000 database (for example, if you are upgrading the database from WMSDE to SQL Server 2000). See<br />  
-<br />  
+<li>Backup / restore. For more information, see <a href="https://technet.microsoft.com/c0f1a661-eb48-4156-81a2-267d846f844f">Backing Up Windows Server Update Services</a>.<br />
+<br />
+</li>
+<li>Move data to a SQL Server 2000 database (for example, if you are upgrading the database from WMSDE to SQL Server 2000). See<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SQL Server 2000</p></td>
 <td style="border:1px solid black;"><ul>
-<li>Backup / restore.<br />  
-<br />  
-</li>  
-<li>Move data to another SQL Server 2000 database (for example, if you move WSUS to another server and you will again use SQL Server 2000 for the database).<br />  
-<br />  
+<li>Backup / restore.<br />
+<br />
+</li>
+<li>Move data to another SQL Server 2000 database (for example, if you move WSUS to another server and you will again use SQL Server 2000 for the database).<br />
+<br />
 </li>
 </ul></td>
 </tr>

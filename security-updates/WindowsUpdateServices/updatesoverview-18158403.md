@@ -68,31 +68,31 @@ Update classifications represent the type of update. For any given product or pr
 <tr class="odd">
 <td style="border:1px solid black;"><p>Connectors</p></td>
 <td style="border:1px solid black;"><p>Software components designed to support connection between software</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Critical Updates</p></td>
 <td style="border:1px solid black;"><p>Broadly released fixes for specific problems addressing critical, non-security related bugs</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Development Kits</p></td>
 <td style="border:1px solid black;"><p>Software to aid the writing of new applications that usually includes a visual builder, an editor, and a compiler</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Drivers</p></td>
 <td style="border:1px solid black;"><p>Software components designed to support new hardware</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Feature Packs</p></td>
 <td style="border:1px solid black;"><p>New product functionality usually included in the next full product release</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Guidance</p></td>
 <td style="border:1px solid black;"><p>Scripts, sample code, and technical guidance designed to help in the deployment and use of a product or technology</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Security Updates</p></td>
 <td style="border:1px solid black;"><p>Broadly released fixes for specific products, addressing security issues</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Service Packs</p></td>
 <td style="border:1px solid black;"><p>Cumulative sets of all hotfixes, security updates, critical updates, and updates created since the release of the product</p>
@@ -101,7 +101,7 @@ Update classifications represent the type of update. For any given product or pr
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tools</p></td>
 <td style="border:1px solid black;"><p>Utilities or features that aid in accomplishing a task or set of tasks</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Update Rollups</p></td>
 <td style="border:1px solid black;"><p>Cumulative set of hotfixes, security updates, critical updates, and updates packaged together for easy deployment</p>
@@ -110,6 +110,6 @@ Update classifications represent the type of update. For any given product or pr
 <tr class="odd">
 <td style="border:1px solid black;"><p>Updates</p></td>
 <td style="border:1px solid black;"><p>Broadly released fixes for specific problems addressing a non-critical, non-security related bugs</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

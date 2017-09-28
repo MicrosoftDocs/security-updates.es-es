@@ -204,38 +204,38 @@ En la siguiente tabla se resumen las recomendaciones acerca de la configuración
 <td style="border:1px solid black;"><p>24 contraseñas</p></td>
 <td style="border:1px solid black;"><p>24 contraseñas</p></td>
 <td style="border:1px solid black;"><p>24 contraseñas</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Vigencia máxima de la contraseña</p></td>
 <td style="border:1px solid black;"><p>42 días</p></td>
 <td style="border:1px solid black;"><p>90 días</p></td>
 <td style="border:1px solid black;"><p>90 días</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Vigencia mínima de la contraseña</p></td>
 <td style="border:1px solid black;"><p>1 día</p></td>
 <td style="border:1px solid black;"><p>1 día</p></td>
 <td style="border:1px solid black;"><p>1 día</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Longitud mínima de la contraseña</p></td>
 <td style="border:1px solid black;"><p>7 caracteres</p></td>
 <td style="border:1px solid black;"><p>8 caracteres</p></td>
 <td style="border:1px solid black;"><p>12 caracteres</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Las contraseñas deben cumplir los requerimientos de complejidad</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Almacenar contraseña usando cifrado reversible para todos los usuarios del dominio</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ### Forzar el historial de contraseñas
@@ -309,41 +309,41 @@ La tabla siguiente incluye las recomendaciones sobre la configuración de la dir
 **Tabla 2.2 Recomendaciones sobre la configuración de la directiva de bloqueo de cuentas**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Configuración</p></th>  
-<th><p>Configuración predeterminada del controlador de dominio</p></th>  
-<th><p>EC</p></th>  
-<th><p>SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Configuración</p></th>
+<th><p>Configuración predeterminada del controlador de dominio</p></th>
+<th><p>EC</p></th>
+<th><p>SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Duración del bloqueo de cuenta</p></td>
 <td style="border:1px solid black;"><p>No está definido</p></td>
 <td style="border:1px solid black;"><p>15 minutos</p></td>
 <td style="border:1px solid black;"><p>15 minutos</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Umbral de bloqueos de la cuenta</p></td>
 <td style="border:1px solid black;"><p>0 intentos de inicio de sesión incorrectos</p></td>
 <td style="border:1px solid black;"><p>50 intentos de inicio de sesión no válidos</p></td>
 <td style="border:1px solid black;"><p>10 intentos de inicio de sesión no válidos</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Restablecer la cuenta de bloqueos después de</p></td>
 <td style="border:1px solid black;"><p>No está definido</p></td>
 <td style="border:1px solid black;"><p>15 minutos</p></td>
 <td style="border:1px solid black;"><p>15 minutos</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ### Duración del bloqueo de cuenta
@@ -393,29 +393,29 @@ Esta configuración de directiva permite al usuario agregar un equipo a un domin
 **Tabla 2.3 Recomendaciones sobre la configuración de asignaciones de derechos de usuario**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Configuración</p></th>  
-<th><p>Configuración predeterminada del controlador de dominio</p></th>  
-<th><p>EC</p></th>  
-<th><p>SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Configuración</p></th>
+<th><p>Configuración predeterminada del controlador de dominio</p></th>
+<th><p>EC</p></th>
+<th><p>SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Agregar estaciones de trabajo al dominio</p></td>
 <td style="border:1px solid black;"><p>Usuarios autenticados</p></td>
 <td style="border:1px solid black;"><p>Administradores</p></td>
 <td style="border:1px solid black;"><p>Administradores</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Para que la configuración **Agregar estaciones de trabajo al dominio** surta efecto, debe asignarse al usuario en un GPO que se aplique a todos los controladores del dominio. Un usuario al que se haya asignado este derecho puede agregar hasta 10 estaciones de trabajo al dominio. Los usuarios a los que se asigna el permiso **Crear objetos de equipo** para una UO o el contenedor Equipos en Active Directory también pueden unir un equipo a un dominio y agregar un número ilimitado de equipos a éste, independientemente de si se les ha asignado o no el derecho de usuario **Agregar estaciones de trabajo al dominio**.
@@ -441,41 +441,41 @@ En la siguiente tabla se resumen las recomendaciones acerca de la configuración
 **Tabla 2.4 Recomendaciones sobre la configuración de las opciones de seguridad**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Configuración</p></th>  
-<th><p>Predeterminada de miembro de dominio</p></th>  
-<th><p>EC</p></th>  
-<th><p>SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Configuración</p></th>
+<th><p>Predeterminada de miembro de dominio</p></th>
+<th><p>EC</p></th>
+<th><p>SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servidor de red de Microsoft: desconectar a los clientes cuando termine el tiempo de sesión</p></td>
 <td style="border:1px solid black;"><p>No está definido</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Acceso de red: permitir traducción SID/nombre anónima</p></td>
 <td style="border:1px solid black;"><p>No está definido</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Seguridad de red: forzar el cierre de sesión cuando expire la hora de inicio de sesión</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ### Servidor de red de Microsoft: desconectar a los clientes cuando termine el tiempo de sesión

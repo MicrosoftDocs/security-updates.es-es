@@ -52,52 +52,52 @@ Esta sección describe características de seguridad seleccionadas, nuevas y act
 <tr class="odd">
 <td style="border:1px solid black;"><p>Firewall</p></td>
 <td style="border:1px solid black;"><p>Mejora el firewall de Windows para que evite de forma activa la propagación de programas malintencionados y que se pongan en riesgo datos personales.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Endurecimiento de Servicios de Windows</p></td>
 <td style="border:1px solid black;"><p>Proporciona más resistencia contra ataques de software malintencionado al limitar las acciones que los usuarios o el software pueden realizar después de afectar un servicio de Windows.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Exploración confiable</p></td>
 <td style="border:1px solid black;"><p>Proporciona una experiencia más segura y confiable al explorar el Web.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Inicio y ejecución seguros</p></td>
 <td style="border:1px solid black;"><p>Asegura que la integridad de Windows Vista esté protegida contra ataques con conexión y sin ella.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Cliente de protección de acceso a la red</p></td>
 <td style="border:1px solid black;"><p>Permite aislar el equipo y explorar su estado de mantenimiento antes de que se le otorgue acceso a una red corporativa. Esta característica requiere una funcionalidad auxiliar en Windows Vista Server.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Mejoras en la actualización de seguridad</p></td>
 <td style="border:1px solid black;"><p>Permite ver el estado de seguridad utilizando un agente del lado del cliente y reduce la cantidad de reinicios necesarios para las revisiones de seguridad.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Centro de seguridad de Windows</p></td>
 <td style="border:1px solid black;"><p>Los usuarios pueden conocer rápidamente el estado de seguridad de su equipo y recibir alertas cuando el equipo se encuentre sin protección.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Protección de cuentas de usuario</p></td>
 <td style="border:1px solid black;"><p>Windows Vista facilita la implementación de un equipo con acceso de usuario con el menor número de privilegios, sin que los usuarios finales necesiten poseer derechos administrativos en sus equipos.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Autenticación</p></td>
 <td style="border:1px solid black;"><p>Proporciona protocolos, proveedores de inicio de sesión y una estructura de autenticación escalable y extensible.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Autorización</p></td>
 <td style="border:1px solid black;"><p>Admite la expresión y evaluación de directivas enriquecidas para admitir capacidades de extensibilidad y delegación.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Administración de credenciales</p></td>
 <td style="border:1px solid black;"><p>Proporciona servicios de administración de identidades mejorados y que pueden administrarse, provisión de testigos, y administración del ciclo vital.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servicios de criptografía</p></td>
 <td style="border:1px solid black;"><p>Ofrece operaciones mejoradas de cifrado y firmas para aplicaciones que deben proteger datos.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Impacto de las características de seguridad nuevas o modificadas

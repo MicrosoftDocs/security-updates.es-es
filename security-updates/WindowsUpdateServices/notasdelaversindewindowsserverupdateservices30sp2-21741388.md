@@ -103,7 +103,7 @@ En esta sección se describen los requisitos de software y hardware necesarios p
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Windows Server 2008 R2 requiere WSUS 3.0 SP2. Si instala Windows Server 2008 R2, a continuación debe instalar WSUS 3.0 SP2. No instale WSUS 3.0 SP1 en Windows Server 2008 R2.
-<p></p>  
+<p></p>
 WSUS 3.0 SP2 no es compatible con Terminal Services en el servidor front-end en una configuración de SQL remota.
 <p></p></td>
 </tr>
@@ -182,7 +182,7 @@ Al instalar WSUS 3.0 SP2, puede que tenga que deshabilitar programas antivirus p
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Esta solución alternativa puede hacer que su equipo o la red sean más vulnerables a los ataques de usuarios malintencionados o por software dañino como los virus. No se recomienda esta solución alternativa pero le facilitamos esta información para que pueda implementarla según su criterio. Usted asume todo el riesgo derivado del uso de esta solución.
-<p></p>  
+<p></p>
 El software antivirus ayuda a proteger su equipo de los virus. No descargue ni abra archivos de orígenes que no sean de confianza, visitar sitios Web en los que no confíe ni abrir adjuntos de correo electrónico cuando su programa antivirus esté deshabilitado.
 <p></p></td>
 </tr>
@@ -334,24 +334,24 @@ Puede realizar instalaciones desatendidas de WSUS 3.0 SP2 si utiliza el programa
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/q</strong></p></td>
 <td style="border:1px solid black;"><p>Realizar instalación silenciosa.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>/u</strong></p></td>
 <td style="border:1px solid black;"><p>Desinstalar.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/p</strong></p></td>
 <td style="border:1px solid black;"><p>Comprobar requisitos previos. Inspecciona el sistema e informa de los requisitos previos que faltan.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>/?, /h</strong></p></td>
 <td style="border:1px solid black;"><p>Mostrar parámetros de línea de comandos y sus descripciones.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/g</strong></p></td>
 <td style="border:1px solid black;"><p>Actualizar desde la versión anterior de WSUS. (Las actualizaciones desde SUS 1.0 no se admiten). El único parámetro válido con esta opción es /q (instalación silenciosa). La única propiedad valida con esta opción es DEFAULT_WEBSITE.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Esta tabla muestra las propiedades de línea de comandos para WSUS 3.0 SP2.
@@ -359,79 +359,79 @@ Esta tabla muestra las propiedades de línea de comandos para WSUS 3.0 SP2.
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Propiedad</th>  
-<th>Descripción</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Propiedad</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CONTENT_LOCAL</p></td>
 <td style="border:1px solid black;"><p>0=contenido alojado localmente, 1=alojado en Microsoft Update</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CONTENT_DIR</p></td>
 <td style="border:1px solid black;"><p>Ruta de acceso al directorio de contenido. La ruta predeterminada es <em>WSUSInstallationDrive\WSUS\WSUSContent</em>, donde <em>WSUSInstallationDrive</em> es la unidad local con la mayor cantidad de espacio libre.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>WYUKON_DATA_DIR</p></td>
 <td style="border:1px solid black;"><p>Ruta al directorio de datos de Windows Internal Database.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SQLINSTANCE_NAME</p></td>
 <td style="border:1px solid black;"><p>El nombre debería aparecer con el formato <em>NombreServidor</em>\<em>NombreInstanciaSQL</em>. Si la instancia de la base de datos se encuentra en el equipo local, use la variable de entorno %COMPUTERNAME%. Si no está presente una instancia existente, de forma predeterminada sería %COMPUTERNAME%\WSUS.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DEFAULT_WEBSITE</p></td>
 <td style="border:1px solid black;"><p>0=puerto 8530, 1=puerto 80</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>PREREQ_CHECK_LOG</p></td>
 <td style="border:1px solid black;"><p>Ruta de acceso y nombre de archivo del archivo de registro</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CONSOLE_INSTALL</p></td>
 <td style="border:1px solid black;"><p>0=instalar el servidor WSUS, 1=instalar únicamente la consola</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ENABLE_INVENTORY</p></td>
 <td style="border:1px solid black;"><p>0=no instalar características de inventario, 1=instalar características de inventario</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DELETE_DATABASE</p></td>
 <td style="border:1px solid black;"><p>0=mantener base de datos, 1=quitar base de datos</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>DELETE_CONTENT</p></td>
 <td style="border:1px solid black;"><p>0=mantener archivos de contenido, 1=quitar archivos de contenido</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DELETE_LOGS</p></td>
 <td style="border:1px solid black;"><p>0=mantener archivos de registro, 1=quitar archivos de registro (se usa con el modificador de instalación /u)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CREATE_DATABASE</p></td>
 <td style="border:1px solid black;"><p>0=usar base de datos actual, 1=crear base de datos</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>PROGRESS_WINDOW_HANDLE</p></td>
 <td style="border:1px solid black;"><p>Controlador de ventana para devolver los mensajes de progreso de Windows Installer</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>MU_ROLLUP</p></td>
 <td style="border:1px solid black;"><p>1=participar en el programa de mejora de Microsoft Update, 0=no participar en el programa de mejora de Microsoft Update</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>FRONTEND_SETUP</p></td>
 <td style="border:1px solid black;"><p>1=no escribir la ubicación del contenido en la base de datos, 0=escribir la ubicación del contenido en la base de datos (para NLB)</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ### Ejemplo de uso
@@ -440,16 +440,16 @@ Esta tabla muestra las propiedades de línea de comandos para WSUS 3.0 SP2.
 WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (instalar en modo silencioso utilizando el puerto 8530) WSUSSetup.exe /q /u (desinstalar WSUS)  
 ```
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="100%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><img src="images/Dd939886.Important(WS.10).gif" />Importante</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/Dd939886.Important(WS.10).gif" />Importante</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Si instala WSUS 3.0 SP2 en modo silencioso (/q) y el equipo no tiene todos los requisitos previos instalados, la instalación generará un archivo llamado WSUSPreReqCheck.xml y lo guardará en el directorio %TEMP%.
 <p></p></td>

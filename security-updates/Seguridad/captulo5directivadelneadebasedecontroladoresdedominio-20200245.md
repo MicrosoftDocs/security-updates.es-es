@@ -60,8 +60,8 @@ Las plantillas de controladores de dominio están diseñadas exclusivamente para
 <td style="border:1px solid black;"><p>LC-Domain Controller.inf</p></td>
 <td style="border:1px solid black;"><p>EC-Domain Controller.inf</p></td>
 <td style="border:1px solid black;"><p>SSLF-Domain Controller.inf</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Nota**: las operaciones del dominio se podrían ver enormemente afectadas si un objeto de directiva de grupo (GPO) configurado de forma incorrecta se vincula a la UO Controladores de Dominio. Sea extremadamente precavido al importar estas plantillas de seguridad y compruebe que toda la configuración de directiva importada sea correcta antes de vincular un GPO a la UO Controladores de dominio.
@@ -75,29 +75,29 @@ La configuración de la directiva de auditoría para los controladores de domini
 **Tabla 5.2 Configuración recomendada para la directiva de auditoría**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Configuración</p></th>  
-<th><p>Cliente heredado</p></th>  
-<th><p>Cliente de empresa</p></th>  
-<th><p>Seguridad especializada: Funcionalidad limitada</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Configuración</p></th>
+<th><p>Cliente heredado</p></th>
+<th><p>Cliente de empresa</p></th>
+<th><p>Seguridad especializada: Funcionalidad limitada</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Auditar el acceso del servicio de directorio</p></td>
 <td style="border:1px solid black;"><p>Sin auditoría</p></td>
 <td style="border:1px solid black;"><p>Sin auditoría</p></td>
 <td style="border:1px solid black;"><p>Erróneo</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Auditar el acceso del servicio de directorio
@@ -113,27 +113,27 @@ La tabla siguiente incluye eventos de seguridad importantes que la configuració
 **Tabla 5.3 Eventos de acceso del servicio de directorio**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Id. de evento</p></th>  
-<th><p>Descripción del evento</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Id. de evento</p></th>
+<th><p>Descripción del evento</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ID</p></td>
 <td style="border:1px solid black;"><p>Descripción</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>566</p></td>
 <td style="border:1px solid black;"><p>Ha tenido lugar una operación genérica de objeto.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Principio de la página](#mainsection)
@@ -149,77 +149,77 @@ La tabla siguiente resume la configuración recomendada de asignaciones de derec
 **Tabla 5.4 Configuración recomendada de asignaciones de derechos de usuario**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Configuración</p></th>  
-<th><p>Cliente heredado</p></th>  
-<th><p>Cliente de empresa</p></th>  
-<th><p>Seguridad especializada: Funcionalidad limitada</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Configuración</p></th>
+<th><p>Cliente heredado</p></th>
+<th><p>Cliente de empresa</p></th>
+<th><p>Seguridad especializada: Funcionalidad limitada</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tener acceso a este equipo desde la red</p></td>
 <td style="border:1px solid black;"><p>No está definido</p></td>
 <td style="border:1px solid black;"><p>No está definido</p></td>
 <td style="border:1px solid black;"><p>Administradores, Usuarios autenticados, CONTROLADORES DE DOMINIO DE EMPRESA</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Agregar estaciones de trabajo al dominio</p></td>
 <td style="border:1px solid black;"><p>No está definido</p></td>
 <td style="border:1px solid black;"><p>No está definido</p></td>
 <td style="border:1px solid black;"><p>Administradores</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Permitir el inicio de sesión local</p></td>
 <td style="border:1px solid black;"><p>Administradores, operadores de servidor, operadores de copia de seguridad</p></td>
 <td style="border:1px solid black;"><p>Administradores, operadores de servidor, operadores de copia de seguridad</p></td>
 <td style="border:1px solid black;"><p>Administradores</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Permitir inicio de sesión a través de Servicios de Terminal Server</p></td>
 <td style="border:1px solid black;"><p>Administradores</p></td>
 <td style="border:1px solid black;"><p>Administradores</p></td>
 <td style="border:1px solid black;"><p>Administradores</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Cambiar la hora del sistema</p></td>
 <td style="border:1px solid black;"><p>Administradores</p></td>
 <td style="border:1px solid black;"><p>Administradores</p></td>
 <td style="border:1px solid black;"><p>Administradores</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Habilitar la opción De confianza para la delegación en las cuentas de usuario y de equipo</p></td>
 <td style="border:1px solid black;"><p>No está definido</p></td>
 <td style="border:1px solid black;"><p>No está definido</p></td>
 <td style="border:1px solid black;"><p>Administradores</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Cargar y descargar controladores de dispositivo</p></td>
 <td style="border:1px solid black;"><p>Administradores</p></td>
 <td style="border:1px solid black;"><p>Administradores</p></td>
 <td style="border:1px solid black;"><p>Administradores</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Restaurar archivos y directorios</p></td>
 <td style="border:1px solid black;"><p>Administradores</p></td>
 <td style="border:1px solid black;"><p>Administradores</p></td>
 <td style="border:1px solid black;"><p>Administradores</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Apagar el sistema</p></td>
 <td style="border:1px solid black;"><p>Administradores</p></td>
 <td style="border:1px solid black;"><p>Administradores</p></td>
 <td style="border:1px solid black;"><p>Administradores</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Tener acceso a este equipo desde la red
@@ -318,41 +318,41 @@ La mayor parte de la configuración de las opciones de seguridad para controlado
 **Tabla 5.5 Opciones de seguridad: recomendaciones sobre la configuración de controladores de dominio**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Configuración</p></th>  
-<th><p>Cliente heredado</p></th>  
-<th><p>Cliente de empresa</p></th>  
-<th><p>Seguridad especializada: Funcionalidad limitada</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Configuración</p></th>
+<th><p>Cliente heredado</p></th>
+<th><p>Cliente de empresa</p></th>
+<th><p>Seguridad especializada: Funcionalidad limitada</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>permitir que los operadores de servidor programen tareas</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>requisitos de firma de servidor LDAP</p></td>
 <td style="border:1px solid black;"><p>No está definido</p></td>
 <td style="border:1px solid black;"><p>No está definido</p></td>
 <td style="border:1px solid black;"><p>Requiere firma</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>rechazar cambios automatizados de contraseñas de cuentas</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ##### Controlador de dominio: permitir a los operadores de servidor programar tareas
@@ -380,29 +380,29 @@ La configuración **Controlador de dominio: no permitir los cambios de contrase�
 **Tabla 5.6 Opciones de seguridad: recomendaciones sobre la configuración de seguridad de red**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Configuración</p></th>  
-<th><p>Cliente heredado</p></th>  
-<th><p>Cliente de empresa</p></th>  
-<th><p>Seguridad especializada: Funcionalidad limitada</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Configuración</p></th>
+<th><p>Cliente heredado</p></th>
+<th><p>Cliente de empresa</p></th>
+<th><p>Seguridad especializada: Funcionalidad limitada</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>no almacenar valor de hash de LAN Manager en el próximo cambio de contraseña</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Seguridad de red: no almacenar valor de hash de LAN Manager en el próximo cambio de contraseña
@@ -430,35 +430,35 @@ Como se ha descrito en el capítulo anterior, la configuración **Grupos restrin
 **Tabla 5.7 Recomendaciones sobre los grupos restringidos**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Grupo local</p></th>  
-<th><p>Cliente heredado</p></th>  
-<th><p>Cliente de empresa</p></th>  
-<th><p>Seguridad especializada: Funcionalidad limitada</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Grupo local</p></th>
+<th><p>Cliente heredado</p></th>
+<th><p>Cliente de empresa</p></th>
+<th><p>Seguridad especializada: Funcionalidad limitada</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Operadores de copia de seguridad</p></td>
 <td style="border:1px solid black;"><p>Ningún miembro</p></td>
 <td style="border:1px solid black;"><p>Ningún miembro</p></td>
 <td style="border:1px solid black;"><p>Ningún miembro</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Operadores de servidores</p></td>
 <td style="border:1px solid black;"><p>Ningún miembro</p></td>
 <td style="border:1px solid black;"><p>Ningún miembro</p></td>
 <td style="border:1px solid black;"><p>Ningún miembro</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La configuración **Grupos restringidos** se puede establecer en Windows Server 2003 con SP1 en la siguiente ubicación del Editor de objetos de directiva de grupo:
@@ -518,22 +518,22 @@ Además, si ha cambiado el nombre de la cuenta integrada del administrador segú
 **Tabla 5.8 Asignaciones de derechos de usuario agregadas manualmente**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Configuración</p></th>  
-<th><p>Cliente heredado</p></th>  
-<th><p>Cliente de empresa</p></th>  
-<th><p>Seguridad especializada: Funcionalidad limitada</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Configuración</p></th>
+<th><p>Cliente heredado</p></th>
+<th><p>Cliente de empresa</p></th>
+<th><p>Seguridad especializada: Funcionalidad limitada</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Denegar el acceso desde la red a este equipo</p></td>
 <td style="border:1px solid black;"><p>Administrador integrado; Support_388945a0;</p>
@@ -548,14 +548,14 @@ Además, si ha cambiado el nombre de la cuenta integrada del administrador segú
 <td style="border:1px solid black;"><p>Support_388945a0 e Invitado</p></td>
 <td style="border:1px solid black;"><p>Support_388945a0 e Invitado</p></td>
 <td style="border:1px solid black;"><p>Support_388945a0 e Invitado</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Denegar inicio de sesión a través de Servicios de Terminal Server</p></td>
 <td style="border:1px solid black;"><p>Administrador integrado; todas las cuentas de servicios que NO sean del sistema operativo</p></td>
 <td style="border:1px solid black;"><p>Administrador integrado; todas las cuentas de servicios que NO sean del sistema operativo</p></td>
 <td style="border:1px solid black;"><p>Administrador integrado; todas las cuentas de servicios que NO sean del sistema operativo</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Importante**: “Todas las cuentas de servicio del sistema que NO sean del sistema operativo” incluye cuentas de servicio que se utilizan para aplicaciones específicas en una empresa, pero NO incluye las cuentas de SISTEMA LOCAL, SERVICIO LOCAL ni de SERVICIO DE RED (las cuentas incorporadas que el sistema operativo utiliza).
@@ -589,36 +589,36 @@ La utilidad System Key (Syskey) proporciona una línea de defensa adicional fren
 **Tabla 5.9 Modos de Syskey**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Opción Clave del sistema</p></th>  
-<th><p>Nivel de seguridad</p></th>  
-<th><p>Descripción</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Opción Clave del sistema</p></th>
+<th><p>Nivel de seguridad</p></th>
+<th><p>Descripción</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Modo 1: Contraseña generada por el sistema y almacenamiento de la clave de inicio localmente</p></td>
 <td style="border:1px solid black;"><p>Seguro</p></td>
 <td style="border:1px solid black;"><p>Utiliza una clave aleatoria generada por el equipo como clave del sistema y almacena una versión cifrada de la misma en el equipo local. Esta opción proporciona un cifrado de alta seguridad de la información sobre las contraseñas en el Registro y permite al usuario reiniciar el equipo sin necesidad de que un administrador escriba la contraseña o inserte un disco.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Modo 2: Contraseña generada por el administrador e inicio con contraseña</p></td>
 <td style="border:1px solid black;"><p>Más seguro</p></td>
 <td style="border:1px solid black;"><p>Utiliza una clave aleatoria generada por el equipo como clave del sistema y almacena una versión cifrada de la misma en el equipo local. La clave también está protegida por una contraseña elegida por el administrador. Cuando el equipo se encuentra en la secuencia de inicio se solicita a los usuarios la contraseña para la clave del sistema. Esta contraseña no está almacenada en ningún otro sector del equipo.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Modo 3: Contraseña generada por el sistema y almacenamiento de la clave de inicio en un disco</p></td>
 <td style="border:1px solid black;"><p>Absolutamente seguro</p></td>
 <td style="border:1px solid black;"><p>Utiliza una clave aleatoria generada por el equipo y almacena la clave en un disco. El disco que contiene la clave del sistema es necesario para el inicio del equipo y debe insertarse cuando se solicite durante la secuencia de inicio. La clave del sistema no está almacenada en ningún otro sector del equipo.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Syskey se encuentra habilitado en todos los servidores que ejecutan Windows Server 2003 con SP1 en el Modo 1 (clave ofuscada). Desde un punto de vista de la seguridad, esta configuración parece sensata en un primer momento. Sin embargo, Syskey en el Modo 1 permite a un atacante leer y alterar el contenido del directorio, lo que convertiría al controlador de dominio en fácilmente vulnerable ante un atacante que tenga acceso físico.
@@ -720,29 +720,29 @@ A menos que sea absolutamente necesario, nunca configure un servicio para que se
 **Tabla 5.10 Configuración recomendada para los Servicios de Terminal Server**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Predeterminado</p></th>  
-<th><p>Cliente heredado</p></th>  
-<th><p>Cliente de empresa</p></th>  
-<th><p>Seguridad especializada: Funcionalidad limitada</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Predeterminado</p></th>
+<th><p>Cliente heredado</p></th>
+<th><p>Cliente de empresa</p></th>
+<th><p>Seguridad especializada: Funcionalidad limitada</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Establecer el nivel de cifrado de conexión de cliente</p></td>
 <td style="border:1px solid black;"><p>Alta</p></td>
 <td style="border:1px solid black;"><p>Alta</p></td>
 <td style="border:1px solid black;"><p>Alta</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La configuración **Establecer nivel de cifrado de conexión de cliente** determina el nivel de cifrado para las conexiones de clientes de los Servicios de Terminal Server en el entorno. La opción **Nivel alto** que utiliza cifrado de 128 bits impide que los atacantes intercepten las sesiones de los Servicios de Terminal Server con un analizador de paquetes. Algunas versiones más antiguas del cliente de Servicios de Terminal Server no son compatibles con este nivel de cifrado alto. Si su red dispone de dichos clientes, configure el nivel de cifrado de la conexión para que envíe y reciba datos en el nivel de cifrado más alto permitido por el cliente.
@@ -759,26 +759,26 @@ Los tres niveles disponibles de cifrado se describen en la tabla siguiente:
 **Tabla 5.11 Niveles de cifrado de Servicios de Terminal Server**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nivel de cifrado</p></th>  
-<th><p>Descripción</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nivel de cifrado</p></th>
+<th><p>Descripción</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nivel alto</p></td>
 <td style="border:1px solid black;"><p>Cifra los datos que se envían desde el cliente al servidor y desde el servidor al cliente con cifrado de 128 bits. Utilice siempre este nivel cuando Terminal Server se ejecute en un entorno que sólo incluya clientes de 128 bits, como los clientes de Conexión a Escritorio remoto. Los clientes que no admitan este nivel de cifrado no se podrán conectar.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Cliente compatible</p></td>
 <td style="border:1px solid black;"><p>Cifra los datos enviados entre el cliente y el servidor con la fuerza máxima de la clave admitida por el cliente. Emplee este nivel cuando Terminal Server se ejecute en un entorno que incluya clientes mixtos o heredados.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nivel bajo</p></td>
 <td style="border:1px solid black;"><p>Cifra los datos que se envían del cliente al servidor con cifrado de 56 bits.</p>
@@ -814,8 +814,8 @@ Los tres niveles disponibles de cifrado se describen en la tabla siguiente:
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Este servicio ayuda a Microsoft a realizar un seguimiento de los errores así como a solucionarlos. Puede configurar este servicio para generar informes para los errores del sistema operativo, componentes de Windows o de programa. Sólo está disponible en Windows XP Professional y Windows Server 2003.

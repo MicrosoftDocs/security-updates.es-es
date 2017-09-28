@@ -43,20 +43,20 @@ Puede utilizar las siguientes cifras durante el planeamiento de la capacidad par
 <td style="border:1px solid black;"><p>Repetida para cada usuario y cada fragmento de contenido</p></td>
 <td style="border:1px solid black;"><p>64</p></td>
 <td style="border:1px solid black;"><p>18</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Certificación de cuenta de permisos</p></td>
 <td style="border:1px solid black;"><p>Sólo tráfico de inicialización de RMS</p></td>
 <td style="border:1px solid black;"><p>12</p></td>
 <td style="border:1px solid black;"><p>16</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Inscripción de clientes</p></td>
 <td style="border:1px solid black;"><p>Sólo tráfico de inicialización de RMS</p></td>
 <td style="border:1px solid black;"><p>17</p></td>
 <td style="border:1px solid black;"><p>16</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Además, el tráfico de consulta de Active Directory puede tener un impacto en el rendimiento de la red. Sin embargo, este no suele ser un factor si implementa servidores de RMS muy próximos a los servidores de catálogo global. La excepción se daría si un error de todos los servidores de catálogo global en un sitio causara una conmutación por error a otro sitio con una conexión que no tenía la misma capacidad.
@@ -66,31 +66,31 @@ En la siguiente tabla se proporcionan datos de línea de base sobre el uso del a
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Transacción</th>  
-<th>Uso del ancho de banda de RMS al catálogo global (bytes)</th>  
-<th>Uso del ancho de banda del catálogo global a RMS (bytes)</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Transacción</th>
+<th>Uso del ancho de banda de RMS al catálogo global (bytes)</th>
+<th>Uso del ancho de banda del catálogo global a RMS (bytes)</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Establecimiento de conexión de RMS (ldap_bind)</p></td>
 <td style="border:1px solid black;"><p>1600</p></td>
 <td style="border:1px solid black;"><p>200</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Evaluación de pertenencia a grupos de RMS (ldap_search)</p></td>
 <td style="border:1px solid black;"><p>200</p></td>
 <td style="border:1px solid black;"><p>100</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Al utilizar estas tablas de referencia, asegúrese de que está aplicando los datos de contenido de su implementación. Por ejemplo, si el usuario pertenece a 15 grupos, se necesitarán 200 bytes para la solicitud de búsqueda de RMS y 1.500 bytes (100 bytes x 15) para la respuesta del catálogo global.

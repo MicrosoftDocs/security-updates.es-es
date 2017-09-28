@@ -44,16 +44,16 @@ You can generate three kinds of reports, as described in the following table.
 <tr class="odd">
 <td style="border:1px solid black;"><p>Update Reports</p></td>
 <td style="border:1px solid black;"><p>View update status.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Computer Reports</p></td>
 <td style="border:1px solid black;"><p>View computer status.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Synchronization Reports</p></td>
 <td style="border:1px solid black;"><p>View the results of the last synchronization.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Update reports
@@ -82,71 +82,71 @@ The Update Status Summary view contains the elements listed in the following tab
 ### Description of elements displayed in the Update Status Summary view
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Column name</th>  
-<th>Description</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Column name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Updates Report tree view</p></td>
 <td style="border:1px solid black;"><p>The tree listing all the updates in the report.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Title</p></td>
 <td style="border:1px solid black;"><p>The title of the update.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Description</p></td>
 <td style="border:1px solid black;"><p>The description of the update.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Classification</p></td>
 <td style="border:1px solid black;"><p>The classification of the update.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Products</p></td>
 <td style="border:1px solid black;"><p>The products to which the update applies.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>MSRC Severity Rating</p></td>
 <td style="border:1px solid black;"><p>Microsoft Security Response Center rating.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>MSRC Number</p></td>
 <td style="border:1px solid black;"><p>Microsoft Security Response Center identification number.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>More information</p></td>
 <td style="border:1px solid black;"><p>Redirection to the relevant Web site.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Approval Summary for Computer Group</p></td>
 <td style="border:1px solid black;"><p>The listing of groups and approvals.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Group</p></td>
 <td style="border:1px solid black;"><p>The computer group.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Approval</p></td>
 <td style="border:1px solid black;"><p>Approval status (Approved, Not approved, Declined).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Deadline</p></td>
 <td style="border:1px solid black;"><p>The date by which the update must be installed.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Administrator</p></td>
 <td style="border:1px solid black;"><p>The administrative action.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 You can change the view of an Update Status Summary report to a detail view or a tabular view by clicking **Report View** in the **Updates Report** toolbar.
@@ -184,26 +184,26 @@ The report has four components, which are described in the following table.
 ### Components of Synchronization Results Report
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Component name</th>  
-<th>Purpose</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Component name</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Report Options</p></td>
 <td style="border:1px solid black;"><p>Shows the start and end dates of the period shown in the report, as well as the date of the report and the server for which the report was made.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Synchronization Summary</p></td>
 <td style="border:1px solid black;"><p>Displays summary information of the numbers of new, revised, and expired updates in each synchronization.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>New Updates</p></td>
 <td style="border:1px solid black;"><p>Displays the new updates that have been synchronized to the WSUS server during the report's time period.</p>
@@ -217,8 +217,8 @@ The report has four components, which are described in the following table.
 <tr class="odd">
 <td style="border:1px solid black;"><p>Expired Updates</p></td>
 <td style="border:1px solid black;"><p>Displays the updates that have been expired during the report's time period..</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Printing the report

@@ -42,8 +42,8 @@ Running WSUSutil.exe
 <td style="border:1px solid black;"><p>The first of the two parts that make up the export / import process.</p>
 <p>The <strong>export</strong> command enables you to export update metadata to an export package file. You cannot use this parameter to export update files, update approvals, or server settings.</p></td>
 <td style="border:1px solid black;"><ul>
-<li>On an ongoing basis, if you are running a network with limited or restricted Internet connectivity<br />  
-<br />  
+<li>On an ongoing basis, if you are running a network with limited or restricted Internet connectivity<br />
+<br />
 </li>
 </ul></td>
 </tr>
@@ -52,8 +52,8 @@ Running WSUSutil.exe
 <td style="border:1px solid black;"><p>The second of the two parts that make up the export/import process.</p>
 <p>The <strong>import</strong> command imports update metadata to a server from an export package file created on another WSUS server. This synchronizes the destination WSUS server without using a network connection.</p></td>
 <td style="border:1px solid black;"><ul>
-<li>On an ongoing basis, if you are running a network with limited or restricted connectivity<br />  
-<br />  
+<li>On an ongoing basis, if you are running a network with limited or restricted connectivity<br />
+<br />
 </li>
 </ul></td>
 </tr>
@@ -61,8 +61,8 @@ Running WSUSutil.exe
 <td style="border:1px solid black;"><p><strong>migratesus</strong></p></td>
 <td style="border:1px solid black;"><p>This command migrates update approvals from a SUS 1.0 server to a WSUS server.</p></td>
 <td style="border:1px solid black;"><ul>
-<li>If you are upgrading your implementation SUS 1.0 to WSUS.<br />  
-<br />  
+<li>If you are upgrading your implementation SUS 1.0 to WSUS.<br />
+<br />
 </li>
 </ul></td>
 </tr>
@@ -70,11 +70,11 @@ Running WSUSutil.exe
 <td style="border:1px solid black;"><p><strong>movecontent</strong></p></td>
 <td style="border:1px solid black;"><p>Changes the file system location where the WSUS server stores update files, and optionally copies any update files from the old location to the new location</p></td>
 <td style="border:1px solid black;"><ul>
-<li>Hard drive is full<br />  
-<br />  
-</li>  
-<li>Disk fails<br />  
-<br />  
+<li>Hard drive is full<br />
+<br />
+</li>
+<li>Disk fails<br />
+<br />
 </li>
 </ul></td>
 </tr>
@@ -82,11 +82,11 @@ Running WSUSutil.exe
 <td style="border:1px solid black;"><p><strong>reset</strong></p></td>
 <td style="border:1px solid black;"><p>Checks that every update metadata row in the database has corresponding update files stored in the file system. If update files are missing or have been corrupted, WSUS downloads the update files again.</p></td>
 <td style="border:1px solid black;"><ul>
-<li>After restoring the WSUS database.<br />  
-<br />  
-</li>  
-<li>When troubleshooting<br />  
-<br />  
+<li>After restoring the WSUS database.<br />
+<br />
+</li>
+<li>When troubleshooting<br />
+<br />
 </li>
 </ul></td>
 </tr>
@@ -94,8 +94,8 @@ Running WSUSutil.exe
 <td style="border:1px solid black;"><p><strong>deleteunneededrevisions</strong></p></td>
 <td style="border:1px solid black;"><p>Purges the update metadata for unnecessary update revisions from the database.</p></td>
 <td style="border:1px solid black;"><ul>
-<li>To free up space when an MSDE is full<br />  
-<br />  
+<li>To free up space when an MSDE is full<br />
+<br />
 </li>
 </ul></td>
 </tr>
@@ -103,8 +103,8 @@ Running WSUSutil.exe
 <td style="border:1px solid black;"><p><strong>listinactiveapprovals</strong></p></td>
 <td style="border:1px solid black;"><p>Returns a list of update titles with approvals that are in a permanently inactive state because of a change in server language settings.</p></td>
 <td style="border:1px solid black;"><ul>
-<li>When you change language settings on an upstream server (that is the parent to a replica server) and want to see which updates are no longer active because they are not in the new languages you have specified. You can run this command if you want to see a list of inactive approvals (for example, to help you decide if you want to remove the inactive approvals). You do not have to run this command before running the <strong>removeinactiveapprovals</strong> command.<br />  
-<br />  
+<li>When you change language settings on an upstream server (that is the parent to a replica server) and want to see which updates are no longer active because they are not in the new languages you have specified. You can run this command if you want to see a list of inactive approvals (for example, to help you decide if you want to remove the inactive approvals). You do not have to run this command before running the <strong>removeinactiveapprovals</strong> command.<br />
+<br />
 </li>
 </ul></td>
 </tr>
@@ -112,8 +112,8 @@ Running WSUSutil.exe
 <td style="border:1px solid black;"><p><strong>removeinactiveapprovals</strong></p></td>
 <td style="border:1px solid black;"><p>Removes approvals for updates that are in a permanently inactive state because of a change in WSUS server language settings.</p></td>
 <td style="border:1px solid black;"><ul>
-<li>When you change language settings on an upstream server (that is the parent to a replica server) and want to remove updates that are no longer active because they are not in the new languages you have specified. This would fix the resulting mismatch in the number of updates displayed on the parent and replica servers in this scenario. You do not have to run the <strong>listinactiveapprovals</strong> command before running this command.  <br />  
-<br />  
+<li>When you change language settings on an upstream server (that is the parent to a replica server) and want to remove updates that are no longer active because they are not in the new languages you have specified. This would fix the resulting mismatch in the number of updates displayed on the parent and replica servers in this scenario. You do not have to run the <strong>listinactiveapprovals</strong> command before running this command.  <br />
+<br />
 </li>
 </ul></td>
 </tr>
@@ -151,16 +151,16 @@ The parameters are defined in the following table.
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>package</em></p></td>
 <td style="border:1px solid black;"><p>The path and file name of the package .cab to create.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>logfile</em></p></td>
 <td style="border:1px solid black;"><p>The path and file name of the log file to create.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/help</strong> or <strong>/?</strong></p></td>
 <td style="border:1px solid black;"><p>Displays command-line help for export command.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Import
@@ -178,31 +178,31 @@ The parameters are defined in the following table:
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Parameter</th>  
-<th>Definition</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Parameter</th>
+<th>Definition</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>package</em></p></td>
 <td style="border:1px solid black;"><p>The path and file name of the package .cab to import.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>logfile</em></p></td>
 <td style="border:1px solid black;"><p>The path and file name of the log file to create.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/help</strong> or <strong>/?</strong></p></td>
 <td style="border:1px solid black;"><p>Displays command-line help for import command.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Migratesus
@@ -220,39 +220,39 @@ The parameters are defined in the following table:
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Parameter</th>  
-<th>Definition</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Parameter</th>
+<th>Definition</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/content</strong> <em>contentshare</em></p></td>
 <td style="border:1px solid black;"><p>Migrates content from a SUS 1.0, where <em>contentshare</em> is the path to the folder that contains SUS 1.0 content.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>/approvals</strong> <em>servername</em></p></td>
 <td style="border:1px solid black;"><p>Migrates approvals from the SUS 1.0 server, where <em>servername</em> is the name of the SUS 1.0 server.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>computergroup</em></p></td>
 <td style="border:1px solid black;"><p>Computer group for which you want to apply the approvals.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>/help</strong> or <strong>/?</strong></p></td>
 <td style="border:1px solid black;"><p>Displays command-line help for the migratesus parameter.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/log</strong> <em>logfile</em></p></td>
 <td style="border:1px solid black;"><p>File in which migration activities are logged.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Movecontent
@@ -299,35 +299,35 @@ The parameters are defined in the following table.
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Parameter</th>  
-<th>Definition</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Parameter</th>
+<th>Definition</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>contentpath</em></p></td>
 <td style="border:1px solid black;"><p>The new root for content files. The path must exist.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>logfile</em></p></td>
 <td style="border:1px solid black;"><p>The path and file name of the log file to create.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>-skipcopy</strong></p></td>
 <td style="border:1px solid black;"><p>Indicates that only the server configuration should be changed, and that the content files should not be copied.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>/help</strong> or <strong>/?</strong></p></td>
 <td style="border:1px solid black;"><p>Displays command-line help for movecontent command.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Reset

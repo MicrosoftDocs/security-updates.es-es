@@ -29,34 +29,34 @@ Los requisitos de software para ejecutar servidores RMS aparecen en la siguiente
 <tr class="odd">
 <td style="border:1px solid black;"><p>Sistema operativo</p></td>
 <td style="border:1px solid black;"><p>Cualquier edición de Microsoft Windows Server® 2003, excepto Web Edition.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Sistema de archivos</p></td>
 <td style="border:1px solid black;"><p>Se recomienda el sistema de archivos NTFS.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Componentes del sistema operativo</p></td>
 <td style="border:1px solid black;"><ul>
-<li>Message Queue Server (también conocido como MSMQ) con la integración con el servicio de directorio de Active Directory® habilitada.<br />  
-<br />  
-</li>  
-<li>Servicios de Internet Information Server (IIS) con ASP.NET habilitado.<br />  
-<br />  
-</li>  
-<li>Microsoft .NET Framework 1.1<br />  
-<br />  
+<li>Message Queue Server (también conocido como MSMQ) con la integración con el servicio de directorio de Active Directory® habilitada.<br />
+<br />
+</li>
+<li>Servicios de Internet Information Server (IIS) con ASP.NET habilitado.<br />
+<br />
+</li>
+<li>Microsoft .NET Framework 1.1<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servicio de directorio de Active Directory®</p></td>
 <td style="border:1px solid black;"><p>RMS debe instalarse en un dominio de Active Directory donde los controladores del dominio ejecutan Windows Server 2000 con Service Pack 3 (SP3) o superior. Todos los usuarios y grupos que utilizan RMS para usar y publicar contenido deben tener una dirección de correo electrónico que esté configurada en Active Directory.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servidor de base de datos</p></td>
 <td style="border:1px solid black;"><p>RMS necesita una base de datos y procedimientos almacenados para realizar operaciones. Puede utilizar Microsoft SQL Server 2000 con SP3a o posterior, o Microsoft SQL Server 2005. Para realizar pruebas u otra implementación de un solo equipo, se pueden utilizar Microsoft SQL Server Desktop Engine (MSDE 2000) con SP3 o Microsoft SQL Server 2005 Express Edition.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Si está implementando RMS en un entorno donde hay varios bosques de Active Directory, debe utilizar grupos universales de Active Directory, de modo que la pertenencia a grupos se replique a todos los catálogos globales. Para crear grupos universales, el nivel funcional de dominio se debe configurar como mínimo en Windows 2000 nativo y el nivel funcional del bosque se debe elevar a Windows Server 2003.

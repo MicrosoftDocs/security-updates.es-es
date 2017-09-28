@@ -37,6 +37,6 @@ La lista de control de acceso predeterminada de este servicio se muestra en la s
 <tr class="odd">
 <td style="border:1px solid black;"><p>SYSTEM</p></td>
 <td style="border:1px solid black;"><p>Control total</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

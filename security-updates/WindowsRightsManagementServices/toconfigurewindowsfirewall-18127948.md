@@ -35,12 +35,12 @@ On the Active Directory domain controllers, the following Windows Firewall excep
 <tr class="odd">
 <td style="border:1px solid black;"><p>TCP 389</p></td>
 <td style="border:1px solid black;"><p>Lightweight Directory Access Protocol (LDAP), used by Active Directory</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>TCP 3268</p></td>
 <td style="border:1px solid black;"><p>Active Directory global catalog</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 The following table shows the port exceptions that should be made on the RMS servers in the RMS cluster. Both of the ports do not have to be open at the same time. For HTTP transmission, you should open only TCP port 80. If your RMS environment is using SSL or HTTPS, you should open only TCP port 443. If your organization is using a port number other than the default for RMS, you should use that port instead.
@@ -48,27 +48,27 @@ The following table shows the port exceptions that should be made on the RMS ser
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Port Exception</th>  
-<th>Description</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Port Exception</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>TCP 80</p></td>
 <td style="border:1px solid black;"><p>HTTP</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>TCP 443</p></td>
 <td style="border:1px solid black;"><p>HTTPS or Secure Sockets Layer communication (SSL)</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 If the logging database server is not on a server in the RMS cluster, the following port exceptions should be created on the database server that is hosting the RMS logging database. This following table assumes that you are using Microsoft SQL Server 2000 or later.
@@ -76,27 +76,27 @@ If the logging database server is not on a server in the RMS cluster, the follow
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Port Exception</th>  
-<th>Description</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Port Exception</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>TCP 1433</p></td>
 <td style="border:1px solid black;"><p>Default SQL Server listening port</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>TCP 445</p></td>
 <td style="border:1px solid black;"><p>SQL Server Named Pipes (used for provisioning the RMS server)</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 In addition to creating these port exceptions, special considerations should be taken when configuring the firewall scope. Unless your RMS environment is used in an extranet scenario, you should restrict all traffic to your organization's network. If your RMS environment needs to be available to client computers outside of your organization's network, you should allow any computer on the Internet to connect only through TCP port 443 or TCP port 80.

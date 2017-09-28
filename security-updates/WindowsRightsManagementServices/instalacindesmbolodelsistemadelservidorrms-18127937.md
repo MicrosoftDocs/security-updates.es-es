@@ -43,24 +43,24 @@ En la siguiente tabla se describe la sintaxis de cada comando.
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/I MSDrmClient.msi</strong> o <strong>/I RMClientBackCompat.msi</strong></p></td>
 <td style="border:1px solid black;"><p>Requerido. Especifica el producto que se instalará.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>/qn</strong></p></td>
 <td style="border:1px solid black;"><p>Opcional. Especifica una instalación silenciosa, sin intervención del usuario.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/lei</strong> <em>logfile.log</em></p></td>
 <td style="border:1px solid black;"><p>Opcional. Especifica el archivo en el que se registrarán los mensajes de estado y de error.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>DISPLAYPAGE=”NO”</strong></p></td>
 <td style="border:1px solid black;"><p>Opcional. Especifica que la página <strong>Administración global</strong> no se mostrará después de la instalación.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>TARGETDIR=c:\</strong><em>Install_Location</em></p></td>
 <td style="border:1px solid black;"><p>Opcional. Especifica el directorio en el que se debe instalar RMS con Service Pack 2. Si no especifica una ubicación, se utiliza la ubicación de instalación predeterminada.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc747733.note(WS.10).gif)Nota                                                                                                                                                                                   |  

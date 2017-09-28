@@ -238,11 +238,11 @@ La siguiente tabla describe las convenciones de estilo utilizadas en la guía.
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Negrita</strong></p></td>
 <td style="border:1px solid black;"><p>Caracteres que se escriben exactamente tal y como se muestran, incluidos comandos y modificadores. Los elementos de la interfaz de usuario (UI) que aparecen en el texto con carácter normativo también se muestran en negrita.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>Cursiva</em></p></td>
 <td style="border:1px solid black;"><p>La cursiva se utiliza en dos contextos especiales:</p>
-<p>—Si la cursiva aparece en el cuerpo principal del texto, indica que se trata del título de otro documento.</p>  
+<p>—Si la cursiva aparece en el cuerpo principal del texto, indica que se trata del título de otro documento.</p>
 <p>—Si la cursiva aparece en comandos o códigos (o en texto que haga referencia a un comando o código), indica que se trata de marcadores de posición para variables donde se han de insertar valores específicos. Por ejemplo, <em>nombreDeArchivo.ext</em> indica que debe sustituir el texto en cursiva <em>nombreDeArchivo.ext</em> con el nombre de archivo de su elección.</p>
 <p>La cursiva también se utiliza en ocasiones para enfatizar texto normal.</p></td>
 </tr>
@@ -254,28 +254,28 @@ La siguiente tabla describe las convenciones de estilo utilizadas en la guía.
 <tr class="even">
 <td style="border:1px solid black;"><p>Fuente monoespaciada</p></td>
 <td style="border:1px solid black;"><p>Ejemplos de código y contenidos de archivos de configuración.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>%SystemRoot%</p></td>
 <td style="border:1px solid black;"><p>Carpeta en la que se instala el sistema operativo Windows Server 2003.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Nota</strong></p></td>
 <td style="border:1px solid black;"><p>Avisa al lector de la existencia de información adicional.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Importante</strong></p></td>
 <td style="border:1px solid black;"><p>Avisa al lector de la existencia de información adicional esencial para finalizar la tarea.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Precaución</strong></p></td>
 <td style="border:1px solid black;"><p>Avisa al lector de que el incumplimiento u omisión de una acción concreta puede producir pérdida de datos.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Advertencia</strong></p></td>
 <td style="border:1px solid black;"><p>Avisa al lector de la situación en la que el incumplimiento u omisión de una acción concreta puede producir lesiones físicas al usuario o daños al hardware.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Principio de la página](#mainsection)
@@ -492,22 +492,22 @@ La organización descrita en la sección anterior generalmente cumplirá con los
 **Tabla 2.1. Criterios de diseño de la solución de WLAN**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Factor de diseño</p></th>  
-<th><p>Criterios</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Factor de diseño</p></th>
+<th><p>Criterios</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisitos de seguridad</p></td>
 <td style="border:1px solid black;"><p>-Una autenticación y autorización sólidas de los clientes inalámbricos.</p>
-<p>-Un control de acceso sólido que permita el acceso de red a clientes autorizados y lo deniegue a clientes no autorizados.</p>  
+<p>-Un control de acceso sólido que permita el acceso de red a clientes autorizados y lo deniegue a clientes no autorizados.</p>
 <p>-Un cifrado eficaz (128 bits) del tráfico de red inalámbrica.</p>
 <p>-Una administración segura de las claves de cifrado.</p></td>
 </tr>
@@ -525,7 +525,7 @@ La organización descrita en la sección anterior generalmente cumplirá con los
 <tr class="even">
 <td style="border:1px solid black;"><p>Requisitos de disponibilidad</p></td>
 <td style="border:1px solid black;"><p>Las oficinas de mayores dimensiones que utilicen varios puntos de acceso inalámbrico, IAS o controladores de dominio (inalámbricos) contarán con una WLAN resistente a un error de componente individual. Por el contrario, las WLAN de las oficinas pequeñas son vulnerables y con tendencia a producir errores, a menos que se instale una conectividad redundante.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Compatibilidad con plataformas</p></td>
 <td style="border:1px solid black;"><p><strong>Plataformas del servidor:</strong> Windows Server 2003, versión Standard Edition o Enterprise Edition (para la instalación de IAS y de la entidad emisora de certificados). Standard Edition admite un máximo de 50 puntos de acceso inalámbrico (clientes RADIUS) por servidor.</p>
@@ -534,11 +534,11 @@ La organización descrita en la sección anterior generalmente cumplirá con los
 <tr class="even">
 <td style="border:1px solid black;"><p>Extensibilidad (reutilización de los componentes de la solución para otras aplicaciones)</p></td>
 <td style="border:1px solid black;"><p>La misma infraestructura de autenticación puede admitir otras aplicaciones de acceso de red (VPN de acceso remoto, acceso a red por cable 802.1X y autenticación del servidor de seguridad).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisitos de la organización de TI</p></td>
 <td style="border:1px solid black;"><p>La instalación y la administración de la solución debe estar en manos de un experto de TI que posea la certificación MSCE más reciente o conocimiento equiparable, así como de 2 a 3 años de experiencia en el sector de TI.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Requisitos de capacidad de administración</p></td>
 <td style="border:1px solid black;"><p>La solución necesitará un mínimo de administración para mantener un funcionamiento sin problemas.</p>
@@ -548,9 +548,9 @@ La organización descrita en la sección anterior generalmente cumplirá con los
 <tr class="odd">
 <td style="border:1px solid black;"><p>Cumplimiento de las normas</p></td>
 <td style="border:1px solid black;"><p>La solución admite las siguientes normas:</p>
-<p>-Normas de red (a, b o g) IEEE 802.11.</p>  
-<p>-Autenticación IEEE 802.1X con PEAP y MS-CHAP v2, que puede usarse con otros métodos de EAP como el EAP-TLS basado en certificados y PEAP-EAP-TLS.</p>  
-<p>-WEP con clave dinámica y protección WPA para WLAN.</p>  
+<p>-Normas de red (a, b o g) IEEE 802.11.</p>
+<p>-Autenticación IEEE 802.1X con PEAP y MS-CHAP v2, que puede usarse con otros métodos de EAP como el EAP-TLS basado en certificados y PEAP-EAP-TLS.</p>
+<p>-WEP con clave dinámica y protección WPA para WLAN.</p>
 <p>Capacidades y normas futuras (por ejemplo, 802.11i).</p>
 <p>-Compatibilidad con RADIUS para RFC 2865 y 2866.</p></td>
 </tr>
@@ -584,20 +584,20 @@ La siguiente tabla recoge una indicación de los requisitos de autenticación WL
 <td style="border:1px solid black;"><p>&gt; 0,1</p></td>
 <td style="border:1px solid black;"><p>0,1</p></td>
 <td style="border:1px solid black;"><p>0,1</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>1000</p></td>
 <td style="border:1px solid black;"><p>0,1</p></td>
 <td style="border:1px solid black;"><p>0,6</p></td>
 <td style="border:1px solid black;"><p>1,1</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>10000</p></td>
 <td style="border:1px solid black;"><p>1,4</p></td>
 <td style="border:1px solid black;"><p>5,6</p></td>
 <td style="border:1px solid black;"><p>11,1</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Más adelante en este capítulo se hace referencia a estas cifras, en concreto, al tratar el tema de las dimensiones del servidor IAS.
@@ -721,36 +721,36 @@ La siguiente tabla refleja el número aproximado de autenticaciones que se produ
 **Tabla 2.3. Autenticaciones por segundo**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Tipo de autenticación</p></th>  
-<th><p>Nuevas autenticaciones</p></th>  
-<th><p>Autenticaciones de reconexión rápida</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Tipo de autenticación</p></th>
+<th><p>Nuevas autenticaciones</p></th>
+<th><p>Autenticaciones de reconexión rápida</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Autenticaciones PEAP por segundo</p></td>
 <td style="border:1px solid black;"><p>36</p></td>
 <td style="border:1px solid black;"><p>166</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Tiempo de autenticación de 200 usuarios</p></td>
 <td style="border:1px solid black;"><p>6 segundos</p></td>
 <td style="border:1px solid black;"><p>2 segundos</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tiempo de autenticación de 1000 usuarios</p></td>
 <td style="border:1px solid black;"><p>30 segundos</p></td>
 <td style="border:1px solid black;"><p>7 segundos</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Estas cifras se han calculado con el registro de RADIUS habilitado y con Active Directory ejecutándose en un servidor independiente. Ambos factores reducen el rendimiento de IAS, de manera que esta estimación podría considerarse pesimista.
@@ -812,26 +812,26 @@ La directiva de acceso remoto en esta solución se configura tal y como se muest
 **Tabla 2.4. Configuración de directivas de acceso remoto**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Elemento de configuración</p></th>  
-<th><p>Configuración</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Elemento de configuración</p></th>
+<th><p>Configuración</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nombre de directiva</p></td>
 <td style="border:1px solid black;"><p>Permitir acceso a LAN inalámbrica</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Tipo de directiva</p></td>
 <td style="border:1px solid black;"><p>Permitir</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Condiciones de directiva de acceso remoto</strong></p></td>
 <td style="border:1px solid black;"><br />
@@ -845,7 +845,7 @@ La directiva de acceso remoto en esta solución se configura tal y como se muest
 <tr class="odd">
 <td style="border:1px solid black;"><p>Coincidencias del grupo de Windows</p></td>
 <td style="border:1px solid black;"><p>Acceso a LAN inalámbrica</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Perfil de directiva de acceso remoto</strong></p></td>
 <td style="border:1px solid black;"><br />
@@ -859,27 +859,27 @@ La directiva de acceso remoto en esta solución se configura tal y como se muest
 <tr class="even">
 <td style="border:1px solid black;"><p>Asignación de dirección IP</p></td>
 <td style="border:1px solid black;"><p>La configuración del servidor determina la asignación de la IP</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Filtrado IP</p></td>
 <td style="border:1px solid black;"><p>Ninguno</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Autenticación</p></td>
 <td style="border:1px solid black;"><p>Todo deshabilitado aparte de EAP</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Autenticación: tipo de EAP empleado</p></td>
 <td style="border:1px solid black;"><p>EAP protegido (PEAP)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Autenticación: tipo de PEAP empleado</p></td>
 <td style="border:1px solid black;"><p>EAP MS-CHAP v2</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Autenticación: reconexión rápida</p></td>
 <td style="border:1px solid black;"><p>Habilitado</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Atributos RADIUS</p></td>
 <td style="border:1px solid black;"><p>Ignorar propiedades de acceso telefónico del usuario = &quot;True&quot;</p>
@@ -966,13 +966,13 @@ Tal y como se describe en la sección "Directivas de RADIUS", la directiva de ac
 <td style="border:1px solid black;"><p>Acceso a LAN inalámbrica</p></td>
 <td style="border:1px solid black;"><p>Usuarios de LAN inalámbrica</p></td>
 <td style="border:1px solid black;"><p>Usuarios de dominio</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Acceso a LAN inalámbrica</p></td>
 <td style="border:1px solid black;"><p>Equipos de LAN inalámbrica</p></td>
 <td style="border:1px solid black;"><p>Equipos de dominio</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 El grupo de la primera columna, Acceso a LAN inalámbrica, tiene dos miembros enumerados en la segunda columna, esto es, Usuarios de LAN inalámbrica y Equipos de LAN inalámbrica. Estos grupos "de primer nivel" contienen miembros (que aparecen en la tercera columna, "Miembros de segundo nivel"), esto es, los grupos de usuarios de dominio y de equipos de dominio respectivamente. Esta disposición de grupos anidados posibilita que todos los usuarios y equipos del dominio se conecten a WLAN.
@@ -982,21 +982,21 @@ Si resulta excesivamente permisivo para la organización que todos los usuarios 
 **Tabla 2.6. Grupos de acceso inalámbrico para permitir a usuarios y equipos seleccionados**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Grupo universal de nivel superior (acceso concedido en la directiva de acceso remoto)</p></th>  
-<th><p>Miembros de primer nivel (grupos globales de dominio)</p></th>  
-<th><p>Miembros de segundo nivel</p>  
-<p>(grupos globales de dominio)</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Grupo universal de nivel superior (acceso concedido en la directiva de acceso remoto)</p></th>
+<th><p>Miembros de primer nivel (grupos globales de dominio)</p></th>
+<th><p>Miembros de segundo nivel</p>
+<p>(grupos globales de dominio)</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Acceso a LAN inalámbrica</p></td>
 <td style="border:1px solid black;"><p>Usuarios de LAN inalámbrica</p></td>
@@ -1047,16 +1047,16 @@ La tabla que sigue a continuación muestra las ventajas y los inconvenientes pri
 <tr class="odd">
 <td style="border:1px solid black;"><p>Sin coste por certificado</p></td>
 <td style="border:1px solid black;"><p>Coste por certificado</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>El software de la entidad emisora de certificados debe instalarse y administrarse</p></td>
 <td style="border:1px solid black;"><p>No hay software de servidor</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Inscripción y renovación automáticas</p></td>
 <td style="border:1px solid black;"><p>Proceso de inscripción más complejo, instalación manual de los certificados</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 El equilibrio del argumento se basa en la complejidad y el coste de la administración de la entidad emisora de certificados propia. Así, si el coste de la configuración de una entidad emisora de certificados local es moderado y la administración sencilla, normalmente resulta más atrayente que la opción de adquirir certificados externos.
@@ -1218,32 +1218,32 @@ La siguiente tabla refleja el modo en que los grupos de seguridad descritos en l
 **Tabla 2.8. Grupos de acceso inalámbrico para permitir a todos los usuarios y equipos**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Grupo universal de nivel superior (acceso concedido en la directiva de acceso remoto)</p></th>  
-<th><p>Miembros de primer nivel</p>  
-<p>(grupos globales de dominio)</p></th>  
-<th><p>Miembros de segundo nivel</p>  
-<p>(globales de dominio)</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Grupo universal de nivel superior (acceso concedido en la directiva de acceso remoto)</p></th>
+<th><p>Miembros de primer nivel</p>
+<p>(grupos globales de dominio)</p></th>
+<th><p>Miembros de segundo nivel</p>
+<p>(globales de dominio)</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DomRa\Acceso a LAN inalámbrica</p></td>
 <td style="border:1px solid black;"><p>DomUsuario1\Usuarios de LAN inalámbrica</p></td>
 <td style="border:1px solid black;"><p>DomUsuario1\Usuarios de dominio</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>DomRa\Acceso a LAN inalámbrica</p></td>
 <td style="border:1px solid black;"><p>DomUsuario2\Usuarios de LAN inalámbrica</p></td>
 <td style="border:1px solid black;"><p>DomUsuario2\Usuarios de dominio</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DomRa\Acceso a LAN inalámbrica</p></td>
 <td style="border:1px solid black;"><p>DomUsuario3\Usuarios de LAN inalámbrica</p></td>
@@ -1255,12 +1255,12 @@ DomUsuario3\Usuario2</p></td>
 <td style="border:1px solid black;"><p>DomRa\Acceso a LAN inalámbrica</p></td>
 <td style="border:1px solid black;"><p>DomUsuario1\Equipos de LAN inalámbrica</p></td>
 <td style="border:1px solid black;"><p>DomUsuario1\Equipos de dominio</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DomRa\Acceso a LAN inalámbrica</p></td>
 <td style="border:1px solid black;"><p>DomUsuario2\Equipos de LAN inalámbrica</p></td>
 <td style="border:1px solid black;"><p>DomUsuario2\Equipos de dominio</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>DomRa\Acceso a LAN inalámbrica</p></td>
 <td style="border:1px solid black;"><p>DomUsuario3\Equipos de LAN inalámbrica</p></td>
@@ -1588,7 +1588,7 @@ Necesita las siguientes herramientas para llevar a cabo los procedimientos descr
 <td style="border:1px solid black;"><p>Secuencias de comandos de solución WLAN</p></td>
 <td style="border:1px solid black;"><p>Conjunto de secuencias de comandos y herramientas proporcionado con esta solución.</p></td>
 <td style="border:1px solid black;"><p>Los detalles de instalación se proporcionan en este capítulo.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Consola de administración de directivas de grupo</p></td>
 <td style="border:1px solid black;"><p>Herramienta de administración avanzada de objetos de directiva de grupo que permite importarlos y exportarlos.</p></td>
@@ -1611,8 +1611,8 @@ Los detalles de instalación se proporcionan en este capítulo.</p></td>
 <td style="border:1px solid black;"><p>Usuarios y equipos de Active Directory</p></td>
 <td style="border:1px solid black;"><p>Herramienta de Microsoft Management Console (MMC) utilizada para administrar usuarios, grupos, equipos y otros objetos de Active Directory.</p></td>
 <td style="border:1px solid black;"><p>Instalado como parte de Windows Server 2003.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Principio de la página](#mainsection)
@@ -1739,34 +1739,34 @@ Utilice el procedimiento que se ofrece más adelante en esta sección para crear
 **Tabla 3.2. Miembros y grupos de seguridad**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Grupo de seguridad</p></th>  
-<th><p>Finalidad</p></th>  
-<th><p>Tipo de grupo</p></th>  
-<th><p>Miembros</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Grupo de seguridad</p></th>
+<th><p>Finalidad</p></th>
+<th><p>Tipo de grupo</p></th>
+<th><p>Miembros</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Usuarios de LAN inalámbrica</p></td>
 <td style="border:1px solid black;"><p>Especifica qué usuarios pueden autenticarse en la WLAN.</p></td>
 <td style="border:1px solid black;"><p>Global</p></td>
 <td style="border:1px solid black;"><p>Usuarios de dominio</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Equipos de LAN inalámbrica</p></td>
 <td style="border:1px solid black;"><p>Especifica qué equipos pueden autenticarse en la WLAN.</p></td>
 <td style="border:1px solid black;"><p>Global</p></td>
 <td style="border:1px solid black;"><p>Equipos de dominio</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Acceso a LAN inalámbrica</p></td>
 <td style="border:1px solid black;"><p>Este grupo se utiliza en la directiva de acceso de RADIUS para controlar el acceso a la WLAN.</p></td>
@@ -1779,8 +1779,8 @@ Equipos de LAN inalámbrica.</p></td>
 <td style="border:1px solid black;"><p>Especifica qué equipos reciben configuración de WLAN de la directiva de grupo.</p></td>
 <td style="border:1px solid black;"><p>Dominio local</p></td>
 <td style="border:1px solid black;"><p>Equipos de LAN inalámbrica.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Para crear y llenar los grupos de seguridad**
@@ -1818,34 +1818,34 @@ Si piensa activar el registro de RADIUS, deberá asignar un disco físico indepe
 **Tabla 3.3. Hardware mínimo recomendado para el servidor IAS**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Elemento</p></th>  
-<th><p>Requisito</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Elemento</p></th>
+<th><p>Requisito</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CPU</p></td>
 <td style="border:1px solid black;"><p>Procesador a 733 MHz o superior</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Memoria</p></td>
 <td style="border:1px solid black;"><p>256 MB</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Interfaces de red</p></td>
 <td style="border:1px solid black;"><p>Adaptador único de red</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Almacenamiento en disco</p></td>
 <td style="border:1px solid black;"><p>Controladora RAID SCSI o IDE</p>
-<p>2 x 18 GB (SCSI) o 2 x 20 GB (IDE) configurado como volumen RAID 1</p>  
+<p>2 x 18 GB (SCSI) o 2 x 20 GB (IDE) configurado como volumen RAID 1</p>
 <p>Almacenamiento local de medios extraíbles (CD-RW o cinta para copia de seguridad), si no hay ningún servicio de copia de seguridad en red.</p>
 <p>Unidad de disco de 1,44 MB para transferencia de datos.</p></td>
 </tr>
@@ -1967,28 +1967,28 @@ La tabla siguiente muestra los servicios configurados para iniciarse automática
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servicios de Certificate Server</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servicio de autenticación de Internet</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Proveedor de instantáneas de software de Microsoft</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Almacenamiento de medios extraíbles</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Programador de tareas</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Instantáneas de volumen</p></td>
 <td style="border:1px solid black;"><p>Automático</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La tabla siguiente muestra las categorías de auditoría donde se activa la auditoría de errores además de la auditoría de aciertos predeterminada.
@@ -1996,35 +1996,35 @@ La tabla siguiente muestra las categorías de auditoría donde se activa la audi
 **Tabla 3.5. Configuración de directiva de auditoría**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Directiva de auditoría</p></th>  
-<th><p>Valor de configuración</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Directiva de auditoría</p></th>
+<th><p>Valor de configuración</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Auditar sucesos de inicio de sesión de cuenta</p></td>
 <td style="border:1px solid black;"><p>Acierto/Error (sólo Acierto como valor predeterminado)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Auditar sucesos de administración de cuentas</p></td>
 <td style="border:1px solid black;"><p>Acierto/Error (sólo Acierto como valor predeterminado)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Auditar sucesos de inicio de sesión</p></td>
 <td style="border:1px solid black;"><p>Acierto/Error (sólo Acierto como valor predeterminado)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Auditar sucesos de cambio de directivas</p></td>
 <td style="border:1px solid black;"><p>Acierto/Error (sólo Acierto como valor predeterminado)</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La habilitación de los valores de configuración de auditoría contemplados en la tabla aumentará los requisitos de almacenamiento para el registro de seguridad. Debe asegurarse de que se han establecido tamaños adecuados para los registros de sucesos en los controladores de dominio. El tamaño predeterminado para los registros de sucesos en Windows Server 2003 es más que adecuado, pero Windows 2000 utilizaba tamaños predeterminados que solían ser demasiado pequeños para un uso práctico (esta configuración puede ser aún efectiva si ha actualizado desde Windows 2000). En el capítulo 5, "Creación de la infraestructura de seguridad de LAN inalámbricas", comprobará cómo los servidores IAS están configurados para registrar todas las conexiones WLAN, sean correctas o erróneas, en el registro del sistema de Windows. Debe asegurarse de que se han establecido tamaños adecuados para los registros de seguridad y de sistema en los controladores de todos los dominios. Windows Server 2003 utiliza 16 MB para los registros del sistema y de la aplicación y 128 MB para los registros de seguridad: estos valores son adecuados para esta solución.
@@ -2330,25 +2330,25 @@ Necesita las siguientes herramientas para llevar a cabo los procedimientos de es
 **Tabla 4.1. Herramientas necesarias para crear e instalar una entidad emisora de certificados**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Herramienta</p></th>  
-<th><p>Descripción</p></th>  
-<th><p>Fuente</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Herramienta</p></th>
+<th><p>Descripción</p></th>
+<th><p>Fuente</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Herramientas de seguridad en WLAN de MSS</p></td>
 <td style="border:1px solid black;"><p>Conjunto de secuencias de comandos y herramientas que se incluyen en esta solución.</p></td>
 <td style="border:1px solid black;"><p>Los pasos de instalación se incluyen en el capítulo 3.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Consola de administración de directivas de grupo</p></td>
 <td style="border:1px solid black;"><p>Herramienta de administración avanzada para importar y exportar grupos de directiva de grupo.</p></td>
@@ -2371,13 +2371,13 @@ Disponible como parte del CD de instalación de Windows Server 2003.</p></td>
 <td style="border:1px solid black;"><p>Usuarios y equipos de Active Directory</p></td>
 <td style="border:1px solid black;"><p>Herramienta de Microsoft Management Console (MMC) utilizada para administrar usuarios, grupos, equipos y otros objetos de Active Directory.</p></td>
 <td style="border:1px solid black;"><p>Instalado como parte de Windows Server 2003.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Herramienta administrativa de entidad emisora de certificados.</p></td>
 <td style="border:1px solid black;"><p>Una herramienta de MMC que se utiliza para administrar la entidad emisora.</p></td>
 <td style="border:1px solid black;"><p>Se instala como parte de la instalación de Servicios de Certificate Server en Windows Server 2003.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Parámetros de la entidad emisora de certificados
@@ -2387,51 +2387,51 @@ En la siguiente tabla se muestran los parámetros utilizados en la instalación 
 **Tabla 4.2. Configuración de la entidad emisora de certificados utilizada en la solución**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Parámetros de configuración de la entidad emisora</p></th>  
-<th><p>Valor de configuración</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Parámetros de configuración de la entidad emisora</p></th>
+<th><p>Valor de configuración</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Unidad y ruta de acceso de los archivos de solicitud de Servicios de Certificate Server</p></td>
 <td style="border:1px solid black;"><p>C:\CAConfig</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Longitud de clave de la entidad emisora</p></td>
 <td style="border:1px solid black;"><p>2048 bits</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Período de validez del certificado de la entidad emisora</p></td>
 <td style="border:1px solid black;"><p>25 años</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Período máximo de validez de los certificados emitidos por la entidad emisora</p></td>
 <td style="border:1px solid black;"><p>2 años</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Intervalo de publicación de lista de revocación de certificados para la entidad emisora de certificados</p></td>
 <td style="border:1px solid black;"><p>7 días</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Período de coincidencia de la lista de revocación de certificados (es decir, el tiempo transcurrido entre la publicación de una nueva lista de revocación de certificados y la fecha de caducidad de una lista de revocación de certificados antigua)</p></td>
 <td style="border:1px solid black;"><p>4 días</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Publicación de diferencias entre listas de revocación de certificados desactivada</p></td>
 <td style="border:1px solid black;"><p>0</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Plantillas de certificado disponibles en la entidad emisora</p></td>
 <td style="border:1px solid black;"><p>Equipo (máquina)</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Nota:** el período de validez de la entidad emisora de certificados se define con un valor grande para evitar la carga administrativa adicional que supone tener que renovar el certificado de la entidad emisora periódicamente. A diferencia de los certificados emitidos en equipos y usuarios, los certificados de la entidad emisora no se pueden renovar automáticamente y si no se renuevan antes de caducar, todos los certificados emitidos por la entidad emisora fallarán.
@@ -2527,31 +2527,31 @@ Puede comprobar que la instalación de los Servicios de Certificate Server ha si
     **Tabla 4.3. Propiedades de certificados de la entidad emisora**
 
 <p> </p>
-    <table style="border:1px solid black;">  
-    <colgroup>  
-    <col width="50%" />  
-    <col width="50%" />  
-    </colgroup>  
-    <thead>  
-    <tr class="header">  
-    <th><p>Atributo del certificado</p></th>  
-    <th><p>Valor de configuración requerido</p></th>  
-    </tr>  
-    </thead>  
-    <tbody>  
+    <table style="border:1px solid black;">
+    <colgroup>
+    <col width="50%" />
+    <col width="50%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><p>Atributo del certificado</p></th>
+    <th><p>Valor de configuración requerido</p></th>
+    </tr>
+    </thead>
+    <tbody>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Emitido para</p></td>
     <td style="border:1px solid black;"><p>El nombre de la entidad emisora que se ha introducido durante la instalación.</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Emitido por</p></td>
     <td style="border:1px solid black;"><p>El nombre de la entidad emisora que se ha introducido durante la instalación.</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Válido de...a...</p></td>
     <td style="border:1px solid black;"><p>El intervalo que se especifica aquí debe ser de 25 años.</p></td>
-    </tr>  
-    </tbody>  
+    </tr>
+    </tbody>
     </table>
   
 4.  Haga clic en la ficha **Ruta de certificación** y compruebe que sólo aparece un certificado en el campo de ruta de certificación. El estado del certificado debe mostrar **El certificado es correcto**.
@@ -2575,47 +2575,47 @@ Este procedimiento establece un número de parámetros en la entidad emisora de 
 **Tabla 4.4. Propiedades de configuración de la entidad emisora de certificados**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Propiedad de la entidad emisora</p></th>  
-<th><p>Descripción del valor de configuración</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Propiedad de la entidad emisora</p></th>
+<th><p>Descripción del valor de configuración</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Direcciones URL de punto de distribución de la lista de revocación de certificados (CDP)</p></td>
 <td style="border:1px solid black;"><p>Especifica las ubicaciones desde las que se puede obtener una lista de revocación de certificados actual. En esta solución sólo se utiliza una dirección URL de Protocolo ligero de acceso a directorios (LDAP). Contiene la ruta de acceso LDAP de la lista de revocación de certificados publicada en Active Directory.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Direcciones URL de Acceso a la información de entidad emisora (AIA)</p></td>
 <td style="border:1px solid black;"><p>Indica la ubicación desde la que se puede obtener un certificado de la entidad emisora. Como ocurre con el CDP, sólo se utiliza la dirección URL de LDAP que apunta a Active Directory.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Período de validez</p></td>
 <td style="border:1px solid black;"><p>Indica el período de validez máximo de los certificados emitidos (no es el mismo que el período de validez del certificado de entidad emisora, que se establece durante la instalación).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Período de la lista de revocación de certificados</p></td>
 <td style="border:1px solid black;"><p>Indica la frecuencia de publicación de la lista de revocación de certificados.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Período de coincidencia de la lista de revocación de certificados</p></td>
 <td style="border:1px solid black;"><p>Indica el período de coincidencia entre la emisión de una nueva lista de revocación de certificados y la caducidad de la lista de revocación de certificados anterior.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Período de diferencia entre listas de revocación de certificados</p></td>
 <td style="border:1px solid black;"><p>Indica la frecuencia de publicación de diferencias entre listas de revocación de certificados. (En esta entidad emisora de certificados, la diferencia entre listas de revocación de certificados está deshabilitada.)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Auditoría de la entidad emisora</p></td>
 <td style="border:1px solid black;"><p>Indica la configuración de auditoría de la entidad emisora de certificados. (Toda la auditoría está habilitada de manera predeterminada.)</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Nota:** muchos de estos parámetros afectan a la configuración de la lista de revocación de certificados de la entidad emisora de certificados. Una lista de revocación de certificados es una lista de certificados que ha emitido la entidad emisora pero que el administrador ha cancelado (o revocado) posteriormente. Aunque probablemente no necesitará revocar ningún certificado durante la administración de esta solución, muchas aplicaciones se basan en la capacidad de leer una lista de revocación de certificados actual para comprobar el estado de revocación de un certificado (aunque la lista de revocación de certificados esté vacía). Si la aplicación no puede encontrar una lista de revocación de certificados, puede rechazar el certificado.
@@ -2805,36 +2805,36 @@ Para realizar los procedimientos de este capítulo son necesarias las siguientes
 **Tabla 5.1. Herramientas necesarias**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Herramienta</p></th>  
-<th><p>Descripción</p></th>  
-<th><p>Fuente</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Herramienta</p></th>
+<th><p>Descripción</p></th>
+<th><p>Fuente</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Secuencias de comandos para la seguridad en WLAN de MSS</p></td>
 <td style="border:1px solid black;"><p>Conjunto de secuencias de comandos y herramientas que se incluyen en esta solución.</p></td>
 <td style="border:1px solid black;"><p>Se proporciona en el capítulo 3, &quot;Preparación del entorno&quot;.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Servicio de autenticación de Internet</strong></p></td>
 <td style="border:1px solid black;"><p>Herramienta de Microsoft® Management Console (MMC) utilizada para administrar la configuración y las directivas de IAS.</p></td>
 <td style="border:1px solid black;"><p>Se proporciona como parte de Windows Server™ 2003.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Usuarios y equipos de Active Directory</strong></p></td>
 <td style="border:1px solid black;"><p>Herramienta de MMC utilizada para administrar los equipos, grupos y usuarios del servicio de directorio de Microsoft Active Directory®, así como otros objetos de Active Directory.</p></td>
 <td style="border:1px solid black;"><p>Se proporciona como parte de Windows Server 2003.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Parámetros de IAS
@@ -2844,62 +2844,62 @@ En la siguiente tabla se muestran los parámetros principales utilizados en la i
 **Tabla 5.2. Parámetros de configuración del servidor IAS**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Elemento de configuración</p></th>  
-<th><p>Valor de configuración</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Elemento de configuración</p></th>
+<th><p>Valor de configuración</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Registro IAS en el registro de sucesos de Windows</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Solicitudes de autenticación rechazadas</p></td>
 <td style="border:1px solid black;"><p>Habilitado</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Solicitudes de autenticación correctas</p></td>
 <td style="border:1px solid black;"><p>Habilitado</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Registro de RADIUS IAS</strong></p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Directiva de acceso remoto</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Nombre de directiva de acceso remoto</p></td>
 <td style="border:1px solid black;"><p>Permitir acceso a LAN inalámbrica</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Grupo de seguridad al que se concede acceso</p></td>
 <td style="border:1px solid black;"><p>Acceso a LAN inalámbrica</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Tipo de EAP utilizado</p></td>
 <td style="border:1px solid black;"><p>Protocolo de autenticación extensible protegido (PEAP)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tipo de PEAP utilizado</p></td>
 <td style="border:1px solid black;"><p>EAP MS-CHAP v2</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Reconexión rápida</p></td>
 <td style="border:1px solid black;"><p>Habilitado</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Perfil de directiva de acceso remoto</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Minutos que el cliente puede estar conectado (tiempo de espera de sesión)</p></td>
 <td style="border:1px solid black;"><p>60 minutos</p>
@@ -2913,16 +2913,16 @@ En la siguiente tabla se muestran los parámetros principales utilizados en la i
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Directiva de solicitud de conexión</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nombre de directiva</p></td>
 <td style="border:1px solid black;"><p>Usar autenticación de Windows para todos los usuarios</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Condiciones de la directiva</p></td>
 <td style="border:1px solid black;"><p>Restricciones de fecha y hora = Todas las horas</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Importante:** esta configuración se utilizó en las pruebas internas de esta solución y su funcionamiento está garantizado tal y como se describe. Aunque se pueden modificar algunos valores de esta configuración, sólo debería hacerlo si está seguro de que comprende perfectamente la finalidad de un valor de configuración concreto y lo que implicaría su modificación.
@@ -3394,123 +3394,123 @@ La siguiente tabla muestra la configuración que debe establecer en los puntos d
 **Tabla 5.3. Configuración de puntos de acceso inalámbrico**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Elemento</p></th>  
-<th><p>Configuración</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Elemento</p></th>
+<th><p>Configuración</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Parámetros de autenticación</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Modo de autenticación</p></td>
 <td style="border:1px solid black;"><p>Autenticación 802.1X</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Reautenticación</p></td>
 <td style="border:1px solid black;"><p>Habilitar</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Volver a crear claves de forma rápida/dinámica</p></td>
 <td style="border:1px solid black;"><p>Habilitar</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tiempo de espera de actualización de claves</p></td>
 <td style="border:1px solid black;"><p>60 minutos</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Parámetros de cifrado (esta configuración suele hacer referencia al cifrado de WEP estática)</strong></p></td>
 <td style="border:1px solid black;"><p>(Los parámetros de cifrado se pueden deshabilitar o sobrescribir al habilitar la opción para volver a crear claves.)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilitar cifrado</p></td>
 <td style="border:1px solid black;"><p>Habilitar</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Denegar sin cifrado</p></td>
 <td style="border:1px solid black;"><p>Habilitar</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Autenticación RADIUS</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Habilitar autenticación RADIUS</p></td>
 <td style="border:1px solid black;"><p>Habilitar</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servidor de autenticación RADIUS principal</p></td>
 <td style="border:1px solid black;"><p>Dirección IP de IAS principal</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Puerto de servidor RADIUS principal</p></td>
 <td style="border:1px solid black;"><p>1812 (predeterminado)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servidor de autenticación RADIUS secundario</p></td>
 <td style="border:1px solid black;"><p>Dirección IP de IAS secundario</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Puerto de servidor RADIUS secundario</p></td>
 <td style="border:1px solid black;"><p>1812 (predeterminado)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Secreto compartido de autenticación RADIUS</p></td>
 <td style="border:1px solid black;"><p><strong>XXXXXX</strong> (sustituir por el secreto creado)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Límite de reintentos</p></td>
 <td style="border:1px solid black;"><p>5</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tiempo de espera de reintentos</p></td>
 <td style="border:1px solid black;"><p>5 segundos</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Administración de cuentas RADIUS</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilitar administración de cuentas RADIUS</p></td>
 <td style="border:1px solid black;"><p>Habilitar</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servidor de cuentas RADIUS principal</p></td>
 <td style="border:1px solid black;"><p>Dirección IP de IAS principal</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Puerto de servidor RADIUS principal</p></td>
 <td style="border:1px solid black;"><p>1813 (predeterminado)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servidor de cuentas RADIUS secundario</p></td>
 <td style="border:1px solid black;"><p>Dirección IP de IAS secundario</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Puerto de servidor RADIUS secundario</p></td>
 <td style="border:1px solid black;"><p>1813 (predeterminado)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Secreto compartido de cuentas RADIUS</p></td>
 <td style="border:1px solid black;"><p><strong>XXXXXX</strong> (sustituir por el secreto creado)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Límite de reintentos</p></td>
 <td style="border:1px solid black;"><p>5</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Tiempo de espera de reintentos</p></td>
 <td style="border:1px solid black;"><p>5 segundos</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Importante:** el valor **Tiempo de espera de actualización de claves** está establecido en 60 minutos para su uso con WEP dinámica. El valor **Tiempo de espera de sesión** establecido en la directiva de acceso remoto es igual o inferior a éste. Para obtener más información, consulte la sección anterior "Modificación de la configuración del perfil de la directiva de acceso a WLAN". El valor que sea inferior tendrá preferencia, por lo que sólo deberá modificarlo en IAS. Si está utilizando WPA, debe aumentar este valor a ocho horas en el punto de acceso. Consulte la documentación del proveedor para obtener más información.
@@ -3530,76 +3530,76 @@ Además de habilitar los parámetros 802.1X, debe configurar también los puntos
 **Tabla 5.4. Configuración de seguridad de puntos de acceso inalámbrico**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Elemento</p></th>  
-<th><p>Valor de configuración recomendado</p></th>  
-<th><p>Notas</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Elemento</p></th>
+<th><p>Valor de configuración recomendado</p></th>
+<th><p>Notas</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>General</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Contraseña de administrador</p></td>
 <td style="border:1px solid black;"><p>XXXXXX</p></td>
 <td style="border:1px solid black;"><p>Establecer una contraseña compleja.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Otras contraseñas de administración</p></td>
 <td style="border:1px solid black;"><p>XXXXXX</p></td>
 <td style="border:1px solid black;"><p>Algunos dispositivos utilizan varias contraseñas de administración para mejorar la protección del acceso mediante diversos protocolos de administración. Asegúrese de que se modifican todos los valores predeterminados para que sean más seguros.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Protocolos de administración</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Serial Console</p></td>
 <td style="border:1px solid black;"><p>Habilitar</p></td>
 <td style="border:1px solid black;"><p>Si no hay ningún protocolo cifrado disponible, este método es el más seguro para configurar puntos de acceso inalámbrico, aunque requiere conexiones físicas por cable serie entre los puntos de acceso y el terminal, por lo que no se pueden utilizar de forma remota.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Telnet</p></td>
 <td style="border:1px solid black;"><p>Deshabilitar</p></td>
 <td style="border:1px solid black;"><p>Todas las transmisiones de Telnet se realizan en texto sin formato, por lo que las contraseñas y los secretos de clientes RADIUS estarán visibles en la red. Si el tráfico de Telnet se puede asegurar mediante la seguridad de protocolos de Internet (IPSec) o SSH, podrá habilitar este servicio y usarlo de forma segura.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>HTTP</p></td>
 <td style="border:1px solid black;"><p>Deshabilitar</p></td>
 <td style="border:1px solid black;"><p>La administración HTTP suele estar en texto sin formato y padece de las mismas debilidades que Telnet sin cifrar. Se recomienda HTTPS, si está disponible.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>HTTPS (SSL o TLS)</p></td>
 <td style="border:1px solid black;"><p>Habilitar</p></td>
 <td style="border:1px solid black;"><p>Siga las instrucciones del proveedor para configurar las claves y los certificados que se necesitan.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Comunidades SNMP</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>SNMP es el protocolo predeterminado para la administración de redes. Utilice SNMP v3 con protección por contraseña para obtener el nivel más alto de seguridad. Éste suele ser el protocolo utilizado por las herramientas de configuración de GUI y los sistemas de administración de redes. Sin embargo, puede deshabilitarlo si no lo utiliza.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Nombre de comunidad 1</p></td>
 <td style="border:1px solid black;"><p>XXXXXX</p></td>
 <td style="border:1px solid black;"><p>El valor predeterminado suele ser &quot;pública&quot;. Cámbielo a un valor complejo.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nombre de comunidad 2</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Todos los nombres de comunidad que no sean necesarios deben estar deshabilitados o establecidos en valores complejos.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 No debe deshabilitar la difusión de SSID (nombre de red WLAN), ya que podría interferir en la capacidad de Windows XP para conectar con la red adecuada. Aunque se suele recomendar deshabilitar la difusión de SSID como medida de seguridad, el nivel de seguridad que proporciona no es muy alto si se utiliza un método de autenticación segura 802.1X. Incluso si la difusión de SSID desde el punto de acceso está deshabilitada, es relativamente fácil para un atacante determinar el SSID capturando paquetes de conexiones del cliente. Si le preocupa que se difunda la existencia de la WLAN, puede utilizar un nombre genérico para el SSID, el cual no será atribuible a la organización.
@@ -3753,31 +3753,31 @@ En la tabla siguiente se enumeran las herramientas necesarias para implementar l
 **Tabla 6.1. Herramientas necesarias**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Herramienta</p></th>  
-<th><p>Descripción</p></th>  
-<th><p>Fuente</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Herramienta</p></th>
+<th><p>Descripción</p></th>
+<th><p>Fuente</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Consola de administración de directivas de grupo</strong> (GPMC)</p></td>
 <td style="border:1px solid black;"><p>Herramienta de administración avanzada para importar y exportar grupos de directiva de grupo.</p></td>
 <td style="border:1px solid black;"><p>Los pasos de instalación se incluyen en el capítulo 3, &quot;Preparación del entorno&quot;.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Usuarios y equipos de Active Directory</strong></p></td>
 <td style="border:1px solid black;"><p>Herramienta Microsoft Management Console (MMC) para administrar usuarios, grupos y equipos del servicio de directorio de Microsoft Active Directory® y otros objetos de Active Directory.</p></td>
 <td style="border:1px solid black;"><p>Se instala como parte de Windows Server™ 2003.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Configuración de cliente WLAN
@@ -3787,59 +3787,59 @@ En la tabla siguiente se enumeran algunas de las principales configuraciones que
 **Tabla 6.2. Configuración de cliente WLAN**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Elemento de configuración</p></th>  
-<th><p>Valor de configuración</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Elemento de configuración</p></th>
+<th><p>Valor de configuración</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Grupo para permitir el acceso a la WLAN</p></td>
 <td style="border:1px solid black;"><p>Acceso a LAN inalámbrica</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Grupo para permitir el acceso a la WLAN de los usuarios</p></td>
 <td style="border:1px solid black;"><p>Usuarios de LAN inalámbrica</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Grupo para permitir el acceso a la WLAN de los equipos</p></td>
 <td style="border:1px solid black;"><p>Equipos de LAN inalámbrica</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Nombre de objeto de directiva de grupo de WLAN</p></td>
 <td style="border:1px solid black;"><p>Configuración de cliente WLAN</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Grupo de seguridad de filtrado de objetos de directiva de grupo</p></td>
 <td style="border:1px solid black;"><p>Configuración del equipo de LAN inalámbrica</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Nombre de directiva de red inalámbrica</p></td>
 <td style="border:1px solid black;"><p>Configuración de cliente WLAN de Windows XP (Protocolo de autenticación extensible protegido (PEAP)-Privacidad equivalente por cable (WEP))</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nombre de red de WLAN (SSID)</p></td>
 <td style="border:1px solid black;"><p><em>LucerneWLAN</em> (cambie este valor por el identificador del conjunto de servicios (SSID) de la WLAN)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Tipo de Protocolo de autenticación extensible (EAP)</p></td>
 <td style="border:1px solid black;"><p>PEAP</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Método de autenticación de PEAP</p></td>
 <td style="border:1px solid black;"><p>Contraseña protegida (EAP-MSCHAP v2)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Reconexión rápida de PEAP</p></td>
 <td style="border:1px solid black;"><p>Habilitado</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Los valores que aparecen en cursiva se tienen que sustituir por los valores relativos a su entorno.
@@ -4623,35 +4623,35 @@ La siguiente tabla muestra las tareas que se deben realizar para poner en funcio
 **Tabla 8.1. Tareas de configuración iniciales**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nombre de la tarea</p></th>  
-<th><p>Sección</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nombre de la tarea</p></th>
+<th><p>Sección</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Configuración de la copia de seguridad de IAS</p></td>
 <td style="border:1px solid black;"><p>Tareas operativas</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Configuración de los tipos de alerta</p></td>
 <td style="border:1px solid black;"><p>Supervisión</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilitación de la supervisión de IAS</p></td>
 <td style="border:1px solid black;"><p>Supervisión</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Habilitación de la supervisión de la entidad emisora</p></td>
 <td style="border:1px solid black;"><p>Supervisión</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Tareas de mantenimiento
@@ -4661,26 +4661,26 @@ La siguiente tabla muestra las tareas que se deben realizar con regularidad para
 **Tabla 8.2. Tareas de mantenimiento**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nombre de la tarea</p></th>  
-<th><p>Frecuencia</p></th>  
-<th><p>Sección</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nombre de la tarea</p></th>
+<th><p>Frecuencia</p></th>
+<th><p>Sección</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Prueba de las copias de seguridad</p></td>
 <td style="border:1px solid black;"><p>6 meses</p></td>
 <td style="border:1px solid black;"><p>Tareas operativas</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Herramientas y tecnología requeridas
@@ -4690,113 +4690,113 @@ En la tabla siguiente se enumeran las herramientas o tecnologías utilizadas en 
 **Tabla 8.3. Tecnología requerida**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nombre del elemento</p></th>  
-<th><p>Fuente</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nombre del elemento</p></th>
+<th><p>Fuente</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Consola de administración (MMC) de usuarios y equipos de Active Directory</p></td>
 <td style="border:1px solid black;"><p>Windows Server 2003</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>MMC de la Entidad emisora de certificados</p></td>
 <td style="border:1px solid black;"><p>Windows Server 2003</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Certutil.exe</p></td>
 <td style="border:1px solid black;"><p>Windows Server 2003</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>DCDiag.exe</p></td>
 <td style="border:1px solid black;"><p>Herramientas de soporte técnico de Windows Server 2003</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DSquery.exe</p></td>
 <td style="border:1px solid black;"><p>Windows Server 2003</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Visor de sucesos</p></td>
 <td style="border:1px solid black;"><p>Windows Server 2003</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Consola de administración de directivas de grupo</p></td>
 <td style="border:1px solid black;"><p>Descarga Web desde Microsoft.com</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>MSS WLAN Tools</p></td>
 <td style="border:1px solid black;"><p>Secuencias de comandos instaladas como parte de esta solución</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Netdiag.exe</p></td>
 <td style="border:1px solid black;"><p>Herramientas de soporte técnico de Windows Server 2003</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Monitor de rendimiento</p></td>
 <td style="border:1px solid black;"><p>Windows Server 2003</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Estado de la infraestructura de claves públicas</p></td>
 <td style="border:1px solid black;"><p>Kit de recursos de Windows Server 2003</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Medios extraíbles para la creación de copias de seguridad de entidad emisora raíz</p></td>
 <td style="border:1px solid black;"><p>CD-RW o cinta</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SchTasks.exe</p></td>
 <td style="border:1px solid black;"><p>Windows Server 2003</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Editor de texto</p></td>
 <td style="border:1px solid black;"><p>Bloc de notas: Windows Server 2003</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Copia de seguridad de Windows</p></td>
 <td style="border:1px solid black;"><p>Windows Server 2003</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servicio Programador de tareas de Windows</p></td>
 <td style="border:1px solid black;"><p>Windows Server 2003</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Tabla 8.4. Tecnología recomendada**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nombre del elemento</p></th>  
-<th><p>Fuente</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nombre del elemento</p></th>
+<th><p>Fuente</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Infraestructura de correo electrónico (para alertas operativas)</p></td>
 <td style="border:1px solid black;"><p>Servidor y cliente SMTP/POP3/IMAP, por ejemplo Microsoft Exchange Server y Microsoft Outlook®</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Consola de alertas operativas</p></td>
 <td style="border:1px solid black;"><p>Microsoft Operations Manager u otro sistema de supervisión de servicios</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Distribución de actualizaciones de sistemas operativos</p></td>
 <td style="border:1px solid black;"><p>Microsoft Systems Management Server (SMS) o Microsoft Software Update Service (SUS)</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Principio de la página](#mainsection)
@@ -4947,66 +4947,66 @@ La secuencia de comandos de supervisión y la de copia de seguridad de IAS regis
 **Tabla 8.5. Sucesos IAS devueltos por las secuencias de comandos de herramientas de IAS en esta solución**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Suceso IAS</p></th>  
-<th><p>Importancia</p></th>  
-<th><p>Categoría del suceso</p></th>  
-<th><p>Origen del suceso</p></th>  
-<th><p>Id. de suceso</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Suceso IAS</p></th>
+<th><p>Importancia</p></th>
+<th><p>Categoría del suceso</p></th>
+<th><p>Origen del suceso</p></th>
+<th><p>Id. de suceso</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Copia de seguridad de IAS realizada</p></td>
 <td style="border:1px solid black;"><p>Copia de seguridad de la configuración de IAS en el archivo realizada correctamente.</p></td>
 <td style="border:1px solid black;"><p>Información</p></td>
 <td style="border:1px solid black;"><p>Operaciones de IAS</p></td>
 <td style="border:1px solid black;"><p>210</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Ruta de la copia de seguridad de IAS no válida</p></td>
 <td style="border:1px solid black;"><p>Error en la copia de seguridad por haber especificado una ruta de destino no válida</p></td>
 <td style="border:1px solid black;"><p>Error</p></td>
 <td style="border:1px solid black;"><p>Operaciones de IAS</p></td>
 <td style="border:1px solid black;"><p>211</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>IAS no tiene acceso a la ruta de copia de seguridad</p></td>
 <td style="border:1px solid black;"><p>Error en la copia de seguridad porque los archivos no se pudieron escribir en la ruta de destino especificada.</p></td>
 <td style="border:1px solid black;"><p>Error</p></td>
 <td style="border:1px solid black;"><p>Operaciones de IAS</p></td>
 <td style="border:1px solid black;"><p>212</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Restauración de IAS realizada</p></td>
 <td style="border:1px solid black;"><p>Configuración de IAS correctamente restaurada a partir de la configuración guardada</p></td>
 <td style="border:1px solid black;"><p>Información</p></td>
 <td style="border:1px solid black;"><p>Operaciones de IAS</p></td>
 <td style="border:1px solid black;"><p>220</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Error en la restauración de IAS</p></td>
 <td style="border:1px solid black;"><p>Error en la restauración de la configuración de IAS</p></td>
 <td style="border:1px solid black;"><p>Advertencia</p></td>
 <td style="border:1px solid black;"><p>Operaciones de IAS</p></td>
 <td style="border:1px solid black;"><p>221</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Error en la consulta de directiva de IAS</p></td>
 <td style="border:1px solid black;"><p>No se pudo establecer contacto con IAS mediante la interfaz de objetos de datos de servidor. Puede que IAS no se esté ejecutando.</p></td>
 <td style="border:1px solid black;"><p>Error</p></td>
 <td style="border:1px solid black;"><p>Operaciones de IAS</p></td>
 <td style="border:1px solid black;"><p>230</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Directivas de IAS no detectadas</p></td>
 <td style="border:1px solid black;"><p>IAS no contiene ninguna directiva de acceso remoto.</p>
@@ -5014,29 +5014,29 @@ La secuencia de comandos de supervisión y la de copia de seguridad de IAS regis
 <td style="border:1px solid black;"><p>Error</p></td>
 <td style="border:1px solid black;"><p>Operaciones de IAS</p></td>
 <td style="border:1px solid black;"><p>231</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>IAS no instalado</p></td>
 <td style="border:1px solid black;"><p>IAS no está instalado en el equipo.</p></td>
 <td style="border:1px solid black;"><p>Error</p></td>
 <td style="border:1px solid black;"><p>Operaciones de IAS</p></td>
 <td style="border:1px solid black;"><p>232</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>IAS se ha detenido</p></td>
 <td style="border:1px solid black;"><p>El servicio IAS no se estaba ejecutando, pero se inició correctamente.</p></td>
 <td style="border:1px solid black;"><p>Advertencia</p></td>
 <td style="border:1px solid black;"><p>Operaciones de IAS</p></td>
 <td style="border:1px solid black;"><p>233</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>IAS no se está ejecutando</p></td>
 <td style="border:1px solid black;"><p>Error al intentar iniciar el servicio IAS</p></td>
 <td style="border:1px solid black;"><p>Error</p></td>
 <td style="border:1px solid black;"><p>Operaciones de IAS</p></td>
 <td style="border:1px solid black;"><p>234</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ##### Supervisión de la entidad emisora de certificados
@@ -5070,45 +5070,45 @@ La secuencia de comandos de supervisión de la entidad emisora de certificados r
 **Tabla 8.6. Sucesos de la entidad emisora que las secuencias de comandos de supervisión de la entidad emisora de certificados devuelve en esta solución**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Suceso de la entidad emisora</p></th>  
-<th><p>Importancia</p></th>  
-<th><p>Categoría del suceso</p></th>  
-<th><p>Origen del suceso</p></th>  
-<th><p>Id. de suceso</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Suceso de la entidad emisora</p></th>
+<th><p>Importancia</p></th>
+<th><p>Categoría del suceso</p></th>
+<th><p>Origen del suceso</p></th>
+<th><p>Id. de suceso</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Lista de revocación de certificados caducada</p></td>
 <td style="border:1px solid black;"><p>No se puede obtener acceso a una lista de revocación de certificados válida, lo que actualmente provoca una pérdida del servicio.</p></td>
 <td style="border:1px solid black;"><p>Error</p></td>
 <td style="border:1px solid black;"><p>Operaciones de la entidad emisora</p></td>
 <td style="border:1px solid black;"><p>20</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Lista de revocación de certificados atrasada</p></td>
 <td style="border:1px solid black;"><p>La lista de revocación de certificados aún es válida, pero existe una lista nueva atrasada que debería haberse publicado.</p></td>
 <td style="border:1px solid black;"><p>Error</p></td>
 <td style="border:1px solid black;"><p>Operaciones de la entidad emisora</p></td>
 <td style="border:1px solid black;"><p>21</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>No se puede recuperar la lista de revocación de certificados de Active Directory</p></td>
 <td style="border:1px solid black;"><p>Una lista de revocación de certificados no se encuentra disponible en un punto de distribución de lista de revocación de certificados publicada. Esto puede originar una pérdida de servicio.</p></td>
 <td style="border:1px solid black;"><p>Error</p></td>
 <td style="border:1px solid black;"><p>Operaciones de la entidad emisora</p></td>
 <td style="border:1px solid black;"><p>22</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Los Servicios de Certificate Server no responden:</p>
 <p>Id. de suceso 1: interfaz de cliente sin conexión</p>
@@ -5125,8 +5125,8 @@ La secuencia de comandos de supervisión de la entidad emisora de certificados r
 <td style="border:1px solid black;"><p>Error</p></td>
 <td style="border:1px solid black;"><p>Operaciones de la entidad emisora</p></td>
 <td style="border:1px solid black;"><p>100</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Administración de cambios
@@ -5378,41 +5378,41 @@ La siguiente tabla recoge indicaciones de los requisitos de autenticación WLAN 
 **Tabla 8.7. Requisitos de autenticación WLAN**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Número de usuarios de WLAN</p></th>  
-<th><p>Nuevas autenticaciones por segundo</p></th>  
-<th><p>Nuevas autenticaciones por segundo en hora máxima</p></th>  
-<th><p>Reautenticaciones por segundo</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Número de usuarios de WLAN</p></th>
+<th><p>Nuevas autenticaciones por segundo</p></th>
+<th><p>Nuevas autenticaciones por segundo en hora máxima</p></th>
+<th><p>Reautenticaciones por segundo</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>100</p></td>
 <td style="border:1px solid black;"><p>&gt; 0,1</p></td>
 <td style="border:1px solid black;"><p>0,1</p></td>
 <td style="border:1px solid black;"><p>0,1</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>1000</p></td>
 <td style="border:1px solid black;"><p>0,1</p></td>
 <td style="border:1px solid black;"><p>0,6</p></td>
 <td style="border:1px solid black;"><p>1,1</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>10.000</p></td>
 <td style="border:1px solid black;"><p>1,4</p></td>
 <td style="border:1px solid black;"><p>5,6</p></td>
 <td style="border:1px solid black;"><p>11,1</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La columna Nuevas autenticaciones por segundo forma parte de la carga fija; en ella, se supone una media de cuatro autenticaciones nuevas completas, dado que los usuarios se desplazan por los puntos de acceso inalámbrico. La columna Nuevas autenticaciones por segundo en hora máxima señala el tipo de carga que se espera cuando todos los usuarios se deben autenticar en un período de 30 minutos (por ejemplo, al inicio del día). La columna Reautenticaciones por segundo contempla el número de autenticaciones con reconexiones rápidas que tienen lugar cuando IAS obliga a establecer un tiempo de espera de sesión transcurridos 15 minutos. Aunque el tiempo de espera predeterminado en la solución es de 60 minutos, se usa la opción de 15 minutos para ponerse en el peor de los casos. Debe evaluar estas cifras frente a las necesidades de su propia organización para determinar qué tipo de carga necesita admitir.
@@ -5426,31 +5426,31 @@ Las pruebas se llevaron a cabo con el registro de RADIUS activado (en un disco a
 **Tabla 8.8. Ejemplo de medidas de la capacidad del servidor IAS**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Tipo de autenticación</p></th>  
-<th><p>Autenticaciones por segundo</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Tipo de autenticación</p></th>
+<th><p>Autenticaciones por segundo</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nuevas autenticaciones con el nuevo protocolo de autenticación extensible protegido (PEAP)</p></td>
 <td style="border:1px solid black;"><p>36</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Nuevas autenticaciones PEAP con compatibilidad para tarjetas de descarga de TLS/SSL</p></td>
 <td style="border:1px solid black;"><p>50</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Autenticaciones con reconexión rápida</p></td>
 <td style="border:1px solid black;"><p>166</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 IAS se puede configurar para generar registros de RADIUS basados en el disco que contengan diversos volúmenes de información sobre solicitudes de RADIUS. Si opta por activar el registro de RADIUS, tendrá que considerar los costes generales que supondrá para los servidores, sobre todo, en los subsistemas de discos. El bajo rendimiento del disco actuará como un cuello de botella para el rendimiento de IAS y retrasará las repuestas RADIUS de IAS a los puntos de acceso. Esto conducirá a tiempos de espera del protocolo y a conmutaciones innecesarias de puntos de acceso en servidores RADIUS secundarios. Si espera una carga elevada (puede utilizar las cifras de las tablas anteriores como orientación) y va a activar el registro de RADIUS, se debe asegurar de que IAS está configurado para escribir registros RADIUS en un disco de alto rendimiento distinto del de la unidad del sistema de Windows y del de los archivos de paginación.
@@ -5492,20 +5492,20 @@ La siguiente tabla clasifica los distintos tipos de problemas de conexión basad
 **Tabla 8.9. ¿Quién no puede conectarse a la WLAN?**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Síntoma</p></th>  
-<th><p>Posible(s) problema(s)</p></th>  
-<th><p>Procedimientos de diagnóstico que seguir</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Síntoma</p></th>
+<th><p>Posible(s) problema(s)</p></th>
+<th><p>Procedimientos de diagnóstico que seguir</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Un único cliente</p></td>
 <td style="border:1px solid black;"><p>Configuración del equipo o cuenta del usuario/equipo</p></td>
@@ -5516,7 +5516,7 @@ La siguiente tabla clasifica los distintos tipos de problemas de conexión basad
 <td style="border:1px solid black;"><p>Varios clientes en un sitio</p></td>
 <td style="border:1px solid black;"><p>Configuración incorrecta de uno o varios puntos de acceso</p></td>
 <td style="border:1px solid black;"><p>Comprobar configuración de puntos de acceso inalámbrico</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Todo un sitio (IAS local)</p></td>
 <td style="border:1px solid black;"><p>Funcionamiento o configuración incorrecta del servidor IAS en este sitio; problemas de replicación en Active Directory que impiden al controlador de dominio recibir información correcta; funcionamiento incorrecto del servidor IAS asociados a problemas de conectividad de WLAN.</p></td>
@@ -5528,7 +5528,7 @@ La siguiente tabla clasifica los distintos tipos de problemas de conexión basad
 <td style="border:1px solid black;"><p>Todo un sitio (IAS no local)</p></td>
 <td style="border:1px solid black;"><p>Problemas de conectividad con WLAN; problemas de replicación en Active Directory (si se trata del controlador de dominio local).</p></td>
 <td style="border:1px solid black;"><p>Comprobar conectividad WAN</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Todos los clientes en todos los sitios</p></td>
 <td style="border:1px solid black;"><p>Configuración de la organización (objeto de directiva de grupo de la configuración del cliente, grupos con la directiva de acceso remoto, errores en la renovación de certificados).</p></td>
@@ -5562,23 +5562,23 @@ Esta sección se centra en los problemas de rendimiento asociados con la infraes
 <tr class="odd">
 <td style="border:1px solid black;"><p>Demora en la autenticación que afecta a muchos usuarios</p></td>
 <td style="border:1px solid black;"><p>El servidor IAS está muy cargado, compruebe el monitor de rendimiento.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Autenticación a través de un vínculo WLAN lento (incluso si un IAS local ha comprobado que los puntos de acceso no han producido errores al conectarse con el IAS remoto).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Las demoras con un servidor Protocolo de configuración dinámica de host (DHCP) al emitir una dirección IP puede afectar al tiempo total de conexión.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Demora en la reautenticación mientras se desplaza entre puntos de acceso</p></td>
 <td style="border:1px solid black;"><p>Un retraso de pocos segundos es normal cuando se cambia de punto de acceso.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Si un cliente se sale del alcance de un punto de acceso (y permanece fuera más de 10 segundos), puede necesitar hasta 60 segundos para que se inicie la reautenticación una vez vuelva a hallarse al alcance de un punto de acceso. Esto ocurre porque, al desconectarse de una WLAN, el cliente WLAN con Windows sólo busca las WLAN disponibles cada 60 segundos.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>El rendimiento de la red WLAN es bajo</p></td>
 <td style="border:1px solid black;"><p>El origen de este síntoma puede ser la existencia de demasiados clientes que utilizan pocos puntos de acceso, la colocación incorrecta de los puntos de acceso o señales de radio débiles debido a la obstrucción o a una distancia excesiva.</p>
@@ -5659,46 +5659,46 @@ La siguiente tabla recoge una serie de comprobaciones que se deben realizar si s
 <tr class="odd">
 <td style="border:1px solid black;"><p>IAS está en ejecución</p></td>
 <td style="border:1px solid black;"><p>Abra la MMC de <strong>Administración de equipos</strong> y desplácese a <strong>Servicios</strong>. Asegúrese de que IAS se encuentra en estado de ejecución.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Configuración de red básica de IAS</p></td>
 <td style="border:1px solid black;"><p>Ejecute el comando <strong>netdiag</strong> para comprobar si existe algún error en la configuración de red del servidor IAS.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>El servidor IAS dispone de un certificado de servidor actual</p></td>
 <td style="border:1px solid black;"><p>Abra la MMC <strong>Certificados</strong> y mire en carpeta \Certificados (equipo local)\Personal\Certificados. En esta carpeta, debe encontrar un certificado para el servidor con las siguientes características:</p>
-<p>-La fecha actual se encuentra dentro del período de validez del certificado.</p>  
-<p>-El nombre alternativo del sujeto coincide con el Sistema de nombres de dominio (DNS) del servidor.</p>  
-<p>-La autenticación del servidor está presente en el Uso de clave extendida.</p>  
-<p>-El emisor del certificado es de confianza (en la ficha <strong>Ruta confiable</strong>).</p>  
+<p>-La fecha actual se encuentra dentro del período de validez del certificado.</p>
+<p>-El nombre alternativo del sujeto coincide con el Sistema de nombres de dominio (DNS) del servidor.</p>
+<p>-La autenticación del servidor está presente en el Uso de clave extendida.</p>
+<p>-El emisor del certificado es de confianza (en la ficha <strong>Ruta confiable</strong>).</p>
 <p>-El certificado no se ha revocado.</p>
 <p>Consulte la configuración del perfil de la directiva de acceso remoto a IAS, haga clic en la ficha <strong>Autenticación</strong> y consulte la configuración de 802.1X. El certificado del servidor que se acaba de describir debe estar seleccionado.</p></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>IAS es miembro del grupo Servidores RAS e IAS del dominio</p></td>
 <td style="border:1px solid black;"><p>El servidor necesita ser miembro de este grupo, al que normalmente se agrega cuando IAS se registra en Active Directory.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>La directiva de acceso remoto a IAS o la directiva de solicitud de conexión es incorrecta</p></td>
 <td style="border:1px solid black;"><p>Compruebe que la configuración de la directiva (y el número de versión, si lo ha incluido) coincide con lo previsto. Si duda, vuelva a implementar la configuración desde el IAS &quot;maestro&quot;.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Consulte los sucesos IAS en el registro de sucesos del sistema</p></td>
 <td style="border:1px solid black;"><p>Compruebe el registro de sucesos del sistema para comprobar si existe algún suceso de advertencia o de error de IAS. Los errores de autenticación no presentan ningún código de motivo que indique el origen del problema.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilite el seguimiento en IAS</p></td>
 <td style="border:1px solid black;"><p>Consulte el procedimiento &quot;Habilitación y deshabilitación del seguimiento en el servidor IAS&quot; en la sección &quot;Herramientas y técnicas para la solución de problemas&quot; de este capítulo.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Habilite el seguimiento del cliente</p></td>
 <td style="border:1px solid black;"><p>Consulte el procedimiento &quot;Habilitación y deshabilitación del seguimiento en el equipo cliente&quot; en la sección &quot;Herramientas y técnicas para la solución de problemas&quot; de este capítulo.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilite el registro SChannel</p></td>
 <td style="border:1px solid black;"><p>Para diagnosticar problemas de TLS y los relativos al certificado, habilite el registro SChannel. Para obtener más información, consulte el procedimiento &quot;Habilitación del registro SChannel en el servidor IAS&quot; en la sección &quot;Herramientas y técnicas para la solución de problemas&quot; de este capítulo. También puede habilitar este registro en el equipo cliente para obtener información adicional sobre el diagnóstico desde la perspectiva del cliente.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Comprobar la entidad emisora de certificados
@@ -5708,22 +5708,22 @@ La tabla siguiente contiene una serie de comprobaciones que puede poner en prác
 **Tabla 8.12. Comprobaciones para el diagnóstico de la entidad emisora**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Comprobación</p></th>  
-<th><p>Detalle</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Comprobación</p></th>
+<th><p>Detalle</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Los Servicios de Certificate Server están en ejecución</p></td>
 <td style="border:1px solid black;"><p>Abra la MMC de <strong>Administración de equipos</strong> y desplácese a <strong>Servicios</strong>. Asegúrese de que los Servicios de Certificate Server están en ejecución.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Compruebe la lista de revocación de certificados, si TLS da error (lo cual aparece en el registro de seguimiento RASTLS o en el registro Schannel) o si la entidad emisora no emite certificados.</p></td>
 <td style="border:1px solid black;"><p>Ejecute el comando <strong>msstools CheckCA</strong> en la entidad emisora de certificados para comprobar que existe una lista de revocación de certificados actual publicada y que es accesible.</p>
@@ -5743,7 +5743,7 @@ La tabla siguiente contiene una serie de comprobaciones que puede poner en prác
 <tr class="odd">
 <td style="border:1px solid black;"><p>Interfaz de DCOM de entidad emisora de forma remota</p></td>
 <td style="border:1px solid black;"><p>Ejecute el comando siguiente desde un servidor IAS remoto para comprobar que DCOM/RPC está funcionando entre el servidor y la entidad emisora de certificados.</p>
-<p><strong>certutil -ping-config</strong> <em>NombredeHostdeEntidadEmisora</em><strong>\</strong><em>NombredeEntidadEmisora</em></p>  
+<p><strong>certutil -ping-config</strong> <em>NombredeHostdeEntidadEmisora</em><strong>\</strong><em>NombredeEntidadEmisora</em></p>
 <p>donde <em>NombredeHostdeEntidadEmisora</em> es el nombre del equipo del servidor de la entidad emisora y</p>
 <p><em>NombredeEntidadEmisora</em> es el nombre descriptivo asignado a la entidad emisora de certificados cuando se configura (será el nombre que aparezca en <strong>Emitido por:</strong> de la ficha <strong>General</strong> de cualquier certificado emitido por esta entidad).</p></td>
 </tr>
@@ -5773,24 +5773,24 @@ La tabla siguiente enumera una serie de comprobaciones que ha de realizar en Act
 <tr class="odd">
 <td style="border:1px solid black;"><p>Compruebe la comunicación con Active Directory desde IA</p></td>
 <td style="border:1px solid black;"><p>Ejecute el comando <strong>netdiag /test:ldap /test:trust</strong> en el servidor IAS. Este comando también comprobará la existencia de problemas de DNS.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Compruebe los grupos de seguridad de WLAN</p></td>
 <td style="border:1px solid black;"><p>Compruebe la pertenencia a los grupos de seguridad utilizados en esta solución para controlar el acceso a WLAN. La pertenencia predeterminada se contempla en la sección &quot;Creación de grupos de seguridad&quot; del capítulo 3, &quot;Preparación del entorno&quot;.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Compruebe el objeto de directiva de grupo de la configuración de WLAN del equipo cliente</p></td>
 <td style="border:1px solid black;"><p>Compruebe que los valores del objeto de directiva de grupo de la configuración de WLAN son correctos, que el objeto de directiva de grupo está vinculado a la unidad organizativa adecuada (o dominio), y que se le han aplicado los permisos correctos. Consulte la sección &quot;Creación de objetos de directiva de grupo de la configuración de WLAN&quot; del capítulo 6, &quot;Configuración de clientes de LAN inalámbricas&quot;.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Compruebe que Active Directory está replicando de forma adecuada</p></td>
 <td style="border:1px solid black;"><p>Ejecute el comando <strong>dcdiag /test:replications</strong> desde el servidor IAS en el que ha encontrado problemas. Incluso si IAS no se está ejecutando en un controlador de dominio, la herramienta dcdiag comprobará también el controlador de dominio utilizado por dicho servidor IAS.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Compruebe el servidor DHCP</p></td>
 <td style="border:1px solid black;"><p>Compruebe que el servidor DHCP se está ejecutando, que se ha creado un ámbito válido para los clientes WLAN y está activo, y que existe conectividad entre los puntos de acceso inalámbrico y el servidor DHCP. Dicho de forma más precisa, la conectividad es necesaria entre la LAN virtual (VLAN) de los puntos de acceso y el servidor DHCP para permitir que los clientes WLAN adquieran el arrendamiento de una IP).</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Comprobar la configuración de los puntos de acceso inalámbrico
@@ -5800,43 +5800,43 @@ La tabla siguiente enumera una serie de comprobaciones que ha de realizar en los
 **Tabla 8.14. Comprobaciones para el diagnóstico de los puntos de acceso inalámbrico**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Comprobación</p></th>  
-<th><p>Detalle</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Comprobación</p></th>
+<th><p>Detalle</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Compruebe la configuración IP de los puntos de acceso y la conectividad con IAS</p></td>
 <td style="border:1px solid black;"><p>Muchos puntos de acceso ofrecen una función para probar la conectividad básica (como el ping). Intente hacer ping a los servidores IAS principal y secundario (otra posibilidad es intentar hacer ping a los puntos de acceso de los servidores IAS principal y secundario).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Compruebe la configuración RADIUS de los puntos de acceso</p></td>
 <td style="border:1px solid black;"><p>Compruebe la dirección IP y los valores de los puertos configurados en el punto de acceso para los servidores RADIUS principal y secundario. Asegúrese de que coinciden con la configuración de los servidores IAS.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Compruebe la entrada de cliente RADIUS en el servidor o servidores IAS.</p></td>
 <td style="border:1px solid black;"><p>Compruebe que los servidores IAS principal y secundario cuentan con una entrada de cliente RADIUS para este punto de acceso. Si IAS recibe una solicitud RADIUS desde un dispositivo no configurado como cliente, registrará un error en el registro del sistema.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Compruebe el secreto del cliente RADIUS</p></td>
 <td style="border:1px solid black;"><p>Puede que sea difícil comprobar visualmente el secreto del cliente RADIUS, puesto que, en algunas ocasiones, no se puede visualizar el secreto RADIUS una vez registrado en el punto de acceso. Si el valor configurado en la entrada de cliente RADIUS de IAS difiere del configurado en el punto de acceso, IAS registrará un error en el registro de sucesos del sistema.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Compruebe la revisión del firmware del punto de acceso</p></td>
 <td style="border:1px solid black;"><p>Compruebe que el firmware del punto de acceso está actualizado. Consulte las actualizaciones disponibles en el sitio Web del proveedor.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Compruebe el servidor DHCP</p></td>
 <td style="border:1px solid black;"><p>Compruebe que el servidor DHCP se está ejecutando, que se ha creado un ámbito válido para los clientes WLAN y que está activo, y que, asimismo, existe conectividad entre los puntos de acceso inalámbrico y el servidor DHCP. Dicho de forma más precisa, la conectividad es necesaria entre VLAN de los puntos de acceso y el servidor DHCP para permitir que los clientes WLAN adquieran el arrendamiento de una IP.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Comprobar conectividad WAN
@@ -5846,18 +5846,18 @@ El origen de los errores de WLAN puede radicar en problemas de conectividad WAN 
 **Tabla 8.15. Comprobaciones para el diagnóstico de WAN**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Comprobación</p></th>  
-<th><p>Detalle</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Comprobación</p></th>
+<th><p>Detalle</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Autenticación de puntos de acceso inalámbrico a servidores IAS remotos</p></td>
 <td style="border:1px solid black;"><p>Pruebe la conectividad simple entre el punto de acceso y los servidores IAS principal y secundario. Para ello, la mayoría de los puntos de acceso disponen de un simple comando <strong>ping</strong> o <strong>traceroute</strong>.</p>
@@ -5866,12 +5866,12 @@ El origen de los errores de WLAN puede radicar en problemas de conectividad WAN 
 <tr class="even">
 <td style="border:1px solid black;"><p>Controladores de dominio que replican mediante WAN</p></td>
 <td style="border:1px solid black;"><p>Los problemas de replicación entre controladores de dominio pueden aparecer incluso donde hay conectividad IP. Una latencia excesiva puede originar errores en las comunicaciones RPC entre los controladores de dominio. Para comprobarlo, utilice la herramienta dcdiag descrita en la sección &quot;Comprobar Active Directory y Servicios de red&quot; de este capítulo.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Cliente WLAN y servidor DHCP</p></td>
 <td style="border:1px solid black;"><p>En los casos en que el servidor DHCP no se encuentre en la misma LAN que los puntos de acceso y que los clientes WLAN autenticados, deberá configurar un agente de retransmisión BOOTP/DHCP para reenviar las solicitudes al servidor DHCP correcto de la red remota.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Herramientas y técnicas para la solución de problemas
@@ -5895,46 +5895,46 @@ Consultar estos sucesos es útil para solucionar los problemas en la autenticaci
 **Tabla 8.16. Sucesos de solicitud de autenticación IAS**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Suceso IAS</p></th>  
-<th><p>Importancia</p></th>  
-<th><p>Categoría del suceso</p></th>  
-<th><p>Origen del suceso</p></th>  
-<th><p>Id. de suceso</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Suceso IAS</p></th>
+<th><p>Importancia</p></th>
+<th><p>Categoría del suceso</p></th>
+<th><p>Origen del suceso</p></th>
+<th><p>Id. de suceso</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Acceso concedido</p></td>
 <td style="border:1px solid black;"><p>Un usuario o equipo se autenticó satisfactoriamente y se le concedió acceso a WLAN.</p></td>
 <td style="border:1px solid black;"><p>Información</p></td>
 <td style="border:1px solid black;"><p>IAS</p></td>
 <td style="border:1px solid black;"><p>1</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Acceso denegado</p></td>
 <td style="border:1px solid black;"><p>Se denegó un intento de acceso (motivo expuesto en el texto del suceso).</p></td>
 <td style="border:1px solid black;"><p>Advertencia</p></td>
 <td style="border:1px solid black;"><p>IAS</p></td>
 <td style="border:1px solid black;"><p>2</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Descartado</p></td>
 <td style="border:1px solid black;"><p>El intento de acceso se descartó por agotar el tiempo de espera.</p></td>
 <td style="border:1px solid black;"><p>Error</p></td>
 <td style="border:1px solid black;"><p>IAS</p></td>
 <td style="border:1px solid black;"><p>3</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Cada suceso contiene información detallada sobre la solicitud de autenticación. Esta información incluye:
@@ -5956,139 +5956,139 @@ Si la autenticación da error, los códigos y descripciones del motivo suelen in
 **Tabla 8.17. Códigos de motivo de los sucesos de solicitud de autenticación IAS**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Código de motivo</p></th>  
-<th><p>Descripción</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Código de motivo</p></th>
+<th><p>Descripción</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>00</p></td>
 <td style="border:1px solid black;"><p>Correcto</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>01</p></td>
 <td style="border:1px solid black;"><p>Error interno</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>02</p></td>
 <td style="border:1px solid black;"><p>Acceso denegado</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>03</p></td>
 <td style="border:1px solid black;"><p>Solicitud mal formulada</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>04</p></td>
 <td style="border:1px solid black;"><p>Catálogo global no disponible</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>05</p></td>
 <td style="border:1px solid black;"><p>Dominio no disponible</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>06</p></td>
 <td style="border:1px solid black;"><p>Servidor no disponible</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>07</p></td>
 <td style="border:1px solid black;"><p>No existe el dominio</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>08</p></td>
 <td style="border:1px solid black;"><p>No existe el usuario</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>16</p></td>
 <td style="border:1px solid black;"><p>Error en autenticación</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>17</p></td>
 <td style="border:1px solid black;"><p>Error al cambiar contraseña</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>18</p></td>
 <td style="border:1px solid black;"><p>Tipo de autenticación no compatible</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>32</p></td>
 <td style="border:1px solid black;"><p>Sólo usuarios locales</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>33</p></td>
 <td style="border:1px solid black;"><p>Debe cambiar la contraseña</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>34</p></td>
 <td style="border:1px solid black;"><p>Cuenta deshabilitada</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>35</p></td>
 <td style="border:1px solid black;"><p>Cuenta caducada</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>36</p></td>
 <td style="border:1px solid black;"><p>Cuenta bloqueada</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>37</p></td>
 <td style="border:1px solid black;"><p>Horas de inicio de sesión no válidas</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>38</p></td>
 <td style="border:1px solid black;"><p>Restricción de cuenta</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>48</p></td>
 <td style="border:1px solid black;"><p>No coincide ninguna directiva</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>64</p></td>
 <td style="border:1px solid black;"><p>Marcado bloqueado</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>65</p></td>
 <td style="border:1px solid black;"><p>Marcado deshabilitado</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>66</p></td>
 <td style="border:1px solid black;"><p>Tipo de autenticación no válido</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>67</p></td>
 <td style="border:1px solid black;"><p>Estación de llamada no válida</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>68</p></td>
 <td style="border:1px solid black;"><p>Horas de marcado no válidas</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>69</p></td>
 <td style="border:1px solid black;"><p>Estación llamada no válida</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>70</p></td>
 <td style="border:1px solid black;"><p>Tipo de puerto no válido</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>71</p></td>
 <td style="border:1px solid black;"><p>Restricción no válida</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>80</p></td>
 <td style="border:1px solid black;"><p>No hay registros</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>96</p></td>
 <td style="border:1px solid black;"><p>Tiempo de espera de sesión agotado</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 En algunos casos, la información extraída de las entradas del registro de sucesos no es suficiente para diagnosticar la causa del problema. En estos casos, puede que necesite habilitar el seguimiento en el cliente y en el servidor IAS. En los procedimientos siguientes se describe el modo de hacerlo.
@@ -6285,75 +6285,75 @@ A modo de referencia, la siguiente tabla contempla la asignación entre los cap�
 **Tabla A.1. Asignación de los capítulos entre las soluciones EAP-TLS y PEAP**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Solución EAP-TLS</p></th>  
-<th><p>Solución PEAP</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Solución EAP-TLS</p></th>
+<th><p>Solución PEAP</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Capítulo 1: Información general</p></td>
 <td style="border:1px solid black;"><p>Capítulo 1: Seguridad en LAN inalámbricas con PEAP y contraseñas</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Capítulo 2: Determinación de una estrategia para redes inalámbricas seguras</p></td>
 <td style="border:1px solid black;"><p>Introducción: Elección de una estrategia para la seguridad en LAN inalámbricas</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Capítulo 3: Arquitectura de la solución para una LAN inalámbrica segura</p></td>
 <td style="border:1px solid black;"><p>Capítulo 2: Planeamiento de la implementación de seguridad en LAN inalámbricas</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Capítulo 4: Designing the Public Key Infrastructure</p></td>
 <td style="border:1px solid black;"><p>Capítulo 2: Planeamiento de la implementación de seguridad en LAN inalámbricas</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Capítulo 5: Diseño de una infraestructura de RADIUS para la seguridad de LAN inalámbricas</p></td>
 <td style="border:1px solid black;"><p>Capítulo 2: Planeamiento de la implementación de seguridad en LAN inalámbricas</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Capítulo 6: Diseño de la seguridad para LAN inalámbrica mediante 802.1X</p></td>
 <td style="border:1px solid black;"><p>Capítulo 2: Planeamiento de la implementación de seguridad en LAN inalámbricas</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Capítulo 3: Preparación del entorno</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Capítulo 7: Implementing the Public Key Infrastructure</p></td>
 <td style="border:1px solid black;"><p>Capítulo 4: Creación de la entidad emisora de certificados de red</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Capítulo 8: Implementación de la infraestructura de RADIUS para la seguridad de LAN inalámbricas</p></td>
 <td style="border:1px solid black;"><p>Capítulo 5: Creación de la infraestructura de seguridad de LAN inalámbricas</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Capítulo 9: Implementing Wireless Security Using 802.1X</p></td>
 <td style="border:1px solid black;"><p>Capítulo 6: Configuración de clientes de LAN inalámbricas</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Capítulo 10: Introducción a la guía de operaciones</p></td>
 <td style="border:1px solid black;"><p>Capítulo 8: Mantenimiento de soluciones de seguridad en LAN inalámbricas</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Capítulo 11: Administración de la infraestructura de claves públicas</p></td>
 <td style="border:1px solid black;"><p>Capítulo 8: Mantenimiento de soluciones de seguridad en LAN inalámbricas</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Capítulo 12: Administración de la infraestructura de seguridad de RADIUS y LAN inalámbrica</p></td>
 <td style="border:1px solid black;"><p>Capítulo 8: Mantenimiento de soluciones de seguridad en LAN inalámbricas</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Capítulo 13: Guía de prueba</p></td>
 <td style="border:1px solid black;"><p>Capítulo 7: Prueba de soluciones de seguridad en LAN inalámbricas</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Cabe destacar que la solución EAP-TLS se estructuró intencionadamente para mantener la infraestructura de claves públicas, RADIUS y los componentes WLAN lo más independientes entre sí posible. Con ello se perseguía permitir volver a utilizar estos componentes en otras aplicaciones. Esto explica que existan algunas repeticiones en la solución EAP-TLS. Por ejemplo, los capítulos sobre la infraestructura de claves públicas y RADIUS incluyen instrucciones sobre la creación de servidores puesto que, en organizaciones grandes, es posible que la instalación de los servidores IAS y de las entidades emisoras de certificados sea responsabilidad de distintos grupos dentro de TI. Además, algunos de los pasos lógicos descritos en los capítulos de diseño e implementación pueden resultar engañosos en el contexto de una solución PEAP. Por tanto, debe leer la solución PEAP para obtener una introducción general sobre el proceso completo y, a continuación, volver a la solución EAP-TLS para conocer detalles específicos sobre el diseño e implementación.
@@ -6561,22 +6561,22 @@ La siguiente tabla muestra el estado de las distintas versiones de cliente y ser
 **Tabla C.1. Estado de compatibilidad con la solución de versiones de sistemas operativos**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Función</p></th>  
-<th><p>Versión del sistema operativo</p></th>  
-<th><p>Estado de compatibilidad</p></th>  
-<th><p>Notas</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Función</p></th>
+<th><p>Versión del sistema operativo</p></th>
+<th><p>Estado de compatibilidad</p></th>
+<th><p>Notas</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Cliente inalámbrico</p></td>
 <td style="border:1px solid black;"><p>Windows® XP con Service Pack 1 (Professional Edition y Tablet Edition)</p></td>
@@ -6615,7 +6615,7 @@ La siguiente tabla muestra el estado de las distintas versiones de cliente y ser
 <td style="border:1px solid black;"><p>Otras plataformas</p></td>
 <td style="border:1px solid black;"><p>Desconocido: la compatibilidad puede estar disponible en otras compañías distintas a Microsoft.</p></td>
 <td style="border:1px solid black;"><p>Los clientes necesitan admitir 802.1X y PEAP-MS-CHAP v2.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Entidad emisora de certificados</p></td>
 <td style="border:1px solid black;"><p>Windows Server™ 2003, Standard Edition</p></td>
@@ -6629,41 +6629,41 @@ La siguiente tabla muestra el estado de las distintas versiones de cliente y ser
 <td style="border:1px solid black;"><p>Windows Server 2003, Enterprise Edition</p></td>
 <td style="border:1px solid black;"><p>Compatible</p></td>
 <td style="border:1px solid black;"><p>Enterprise Edition es un superconjunto de Standard Edition.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><br />
 </td>
 <td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
 <td style="border:1px solid black;"><p>Compatible</p></td>
 <td style="border:1px solid black;"><p>Las características de la entidad emisora de certificados de Windows 2000 Server son muy parecidas a las de Windows Server 2003, Standard Edition.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><br />
 </td>
 <td style="border:1px solid black;"><p>Entidades emisoras de certificados de compañías distintas a Microsoft</p></td>
 <td style="border:1px solid black;"><p>Desconocido</p></td>
 <td style="border:1px solid black;"><p>La entidad emisora de certificados debe poder crear certificados de servidor para el Servicio de autenticación de Internet (IAS). Tiene que administrar manualmente la inscripción y renovación.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servidor RADIUS</p></td>
 <td style="border:1px solid black;"><p>Windows Server 2003, Standard Edition</p></td>
 <td style="border:1px solid black;"><p>Solución probada</p></td>
 <td style="border:1px solid black;"><p>Standard Edition sólo admite 50 puntos de acceso inalámbrico como máximo.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><br />
 </td>
 <td style="border:1px solid black;"><p>Windows Server 2003, Enterprise Edition</p></td>
 <td style="border:1px solid black;"><p>Compatible</p></td>
 <td style="border:1px solid black;"><p>Enterprise Edition constituye un superconjunto de Standard Edition. Por tanto, ambas ediciones contienen todas las características requeridas por la solución.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><br />
 </td>
 <td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
 <td style="border:1px solid black;"><p>Compatible</p></td>
 <td style="border:1px solid black;"><p>El Servicio de autenticación de Internet (IAS) de Windows 2000 se puede utilizar para 802.1X inalámbrico con PEAP. Requiere la instalación de un cliente 802.1X con Windows 2000 en el servidor IAS. No dispone de asistente para la configuración de la directiva de acceso remoto.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><br />
 </td>
@@ -6677,14 +6677,14 @@ La siguiente tabla muestra el estado de las distintas versiones de cliente y ser
 <td style="border:1px solid black;"><p>Windows Server 2003</p></td>
 <td style="border:1px solid black;"><p>Solución probada</p></td>
 <td style="border:1px solid black;"><p>Los grupos universales necesitan el dominio de Active Directory® para el modo nativo de Windows 2000 o posterior.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><br />
 </td>
 <td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
 <td style="border:1px solid black;"><p>Compatible</p></td>
 <td style="border:1px solid black;"><p>Los grupos universales necesitan el dominio de Active Directory® para el modo nativo de Windows 2000 o posterior.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servidores de infraestructura, Sistema de nombres de dominio (DNS) y Protocolo de configuración dinámica de host (DHCP)</p></td>
 <td style="border:1px solid black;"><p>Windows Server 2003</p></td>
@@ -6706,8 +6706,8 @@ La siguiente tabla muestra el estado de las distintas versiones de cliente y ser
 <td style="border:1px solid black;"><p>Otras plataformas</p></td>
 <td style="border:1px solid black;"><p>Desconocido</p></td>
 <td style="border:1px solid black;"><p>DHCP, DNS y las soluciones de administración proporcionadas por compañías distintas a Microsoft deben funcionar con esta solución, siempre y cuando reúnan los requisitos básicos de los clientes Windows y Active Directory.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 El estado de compatibilidad que aparece en la tabla se enumera como uno de los siguientes:
@@ -6747,34 +6747,34 @@ En la tabla siguiente se incluyen todos los archivos que se proporcionan con la 
 **Tabla D.1. Lista de archivos proporcionados con la solución**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nombre de archivo</p></th>  
-<th><p>Descripción</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nombre de archivo</p></th>
+<th><p>Descripción</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Archivos CMD principales</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>MSSSetup.cmd</p>
 <p>MSSTools.cmd</p></td>
 <td style="border:1px solid black;"><p>Éstos son los archivos por lotes que proporcionan la interfaz con los archivos de Microsoft Windows Scripting Host (WSH) y simplifican la sintaxis. Permiten ejecutar distintos trabajos especificando el nombre del trabajo como un solo parámetro en la línea de comandos. La sintaxis es la siguiente:</p>
-<p><strong>msssetup</strong> <em>NombreTrabajo</em> [/param:<em>valor</em>]</p>  
+<p><strong>msssetup</strong> <em>NombreTrabajo</em> [/param:<em>valor</em>]</p>
 <p><strong>msstools</strong> <em>NombreTrabajo</em> [/param:<em>valor</em>]</p>
 <p>Donde <em>NombreTrabajo</em> es el nombre de la operación. Si ejecuta esta secuencia de comandos sin un NombreTrabajo, todos los trabajos disponibles aparecerán con una descripción sencilla de la función de cada trabajo.</p></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Archivos WSH XML</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>msssetup.wsf</p>
 <p>msstools.wsf</p></td>
@@ -6785,84 +6785,84 @@ En la tabla siguiente se incluyen todos los archivos que se proporcionan con la 
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Archivos VBScript</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ias_setup.vbs</p></td>
 <td style="border:1px solid black;"><p>Rutinas utilizadas durante la configuración del Servicio de autenticación de Internet (IAS).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ias_tools.vbs</p></td>
 <td style="border:1px solid black;"><p>Rutinas utilizadas durante la operación y la supervisión del IAS.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Gen_setup.vbs</p></td>
 <td style="border:1px solid black;"><p>Rutinas que no son específicas de IAS o los Servicios de Certificate Server y que se han utilizado durante la implementación.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ca_setup.vbs</p></td>
 <td style="border:1px solid black;"><p>Rutinas utilizadas durante la configuración de la entidad emisora de certificados.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ca_monitor.vbs</p></td>
 <td style="border:1px solid black;"><p>Rutinas utilizadas por las funciones de supervisión de la entidad emisora.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>constants.vbs</p></td>
 <td style="border:1px solid black;"><p>Constantes utilizadas por los otros archivos VBS.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>helper.vbs</p></td>
 <td style="border:1px solid black;"><p>Rutinas genéricas utilizadas por los otros archivos VBS.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>pkiparams.vbs</p></td>
 <td style="border:1px solid black;"><p>Constantes utilizadas para definir muchos de los parámetros de configuración de la entidad emisora.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Archivos varios</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>InstCAPICOM.cmd</p></td>
 <td style="border:1px solid black;"><p>Archivo CMD para simplificar la instalación de CAPICOM.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CreateShortCut.cmd</p></td>
 <td style="border:1px solid black;"><p>Archivo CMD que llama a una rutina desde el archivo VBS para crear un acceso directo en el escritorio del usuario. El acceso directo inicia CMD.EXE con el directorio actual en la carpeta de instalación de la secuencia de comandos.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ComputerCerts.msc</p></td>
 <td style="border:1px solid black;"><p>Consola de administración predefinida para ver los certificados en el almacén de equipos.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>AddRADIUSClient.exe</p></td>
 <td style="border:1px solid black;"><p>Utilidad para agregar clientes de RADIUS a IAS desde la línea de comandos. (<strong>Nota:</strong> esta herramienta requiere la instalación de .NET Framework.)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Interop.SDOIASLib.dll</p></td>
 <td style="border:1px solid black;"><p>Biblioteca de compatibilidad que necesita AddRADIUSClient.exe.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Fuente</p></td>
 <td style="border:1px solid black;"><p>Carpeta que contiene el código fuente de la herramienta AddRADIUSClient.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Archivos de directiva de grupo</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>MSSWLANGPOs</p></td>
 <td style="border:1px solid black;"><p>Esta carpeta contiene el archivo de definición XML y los archivos de datos de los dos objetos de directiva de grupo predefinidos que se proporcionan con esta solución.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Documentos</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Securing Wireless LANs.rtf</p></td>
 <td style="border:1px solid black;"><p>Archivo Léame que contiene el mismo texto que este capítulo.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Principio de la página](#mainsection)
@@ -6889,83 +6889,83 @@ En cada uno de los archivos .wsf, el primer trabajo se define para enumerar los 
 **Tabla D.2. Lista de trabajos en MSSSetup.wsf**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nombre del trabajo</p></th>  
-<th><p>Descripción</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nombre del trabajo</p></th>
+<th><p>Descripción</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ListJobs</p></td>
 <td style="border:1px solid black;"><p>Enumera todos los trabajos del archivo WSF.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ConfigureCA</p></td>
 <td style="border:1px solid black;"><p>Configura los parámetros del Registro de la entidad emisora.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ConfigureTemplates</p></td>
 <td style="border:1px solid black;"><p>Configura las plantillas de certificado de entidad emisora.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CheckCAEnvironment</p></td>
 <td style="border:1px solid black;"><p>Comprueba el entorno antes de instalar la entidad emisora.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>InstallCA</p></td>
 <td style="border:1px solid black;"><p>Instala los Servicios de Certificate Server.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CreateShortcut</p></td>
 <td style="border:1px solid black;"><p>Crea un acceso directo a <strong>MSS WLAN Tools</strong> en el escritorio.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ImportSecurityGPO</p></td>
 <td style="border:1px solid black;"><p>Importa al dominio un objeto de directiva de grupo con la configuración de seguridad del servidor.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ImportAutoEnrollGPO</p></td>
 <td style="border:1px solid black;"><p>Importa al dominio un objeto de directiva de grupo con la configuración de inscripción automática de certificados.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ImportWLANClientGPO*</p></td>
 <td style="border:1px solid black;"><p>Importa el objeto de directiva de grupo de la configuración de la WLAN.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CheckDomainNativeMode</p></td>
 <td style="border:1px solid black;"><p>Comprueba si el dominio está en modo nativo.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>VerifyCAInstall</p></td>
 <td style="border:1px solid black;"><p>Comprueba que la instalación de la entidad emisora ha sido satisfactoria.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>VerifyCAConfig</p></td>
 <td style="border:1px solid black;"><p>Comprueba que la configuración de la entidad emisora ha sido satisfactoria.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CheckIASEnvironment</p></td>
 <td style="border:1px solid black;"><p>Comprueba el entorno antes de instalar IAS.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>InstallIAS</p></td>
 <td style="border:1px solid black;"><p>Instala los Servicios de autenticación de Internet en el servidor.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CreateWLANGroups</p></td>
 <td style="border:1px solid black;"><p>Crea grupos de seguridad en Active Directory®.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>AddWLANGroupMembers</p></td>
 <td style="border:1px solid black;"><p>Rellena los grupos de seguridad con los miembros correctos.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Nota:** los trabajos marcados con un asterisco (\*) no se utilizan en esta solución.
@@ -6973,83 +6973,83 @@ En cada uno de los archivos .wsf, el primer trabajo se define para enumerar los 
 **Tabla D.3. Lista de trabajos en MSSTools.wsf**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nombre del trabajo</p></th>  
-<th><p>Descripción</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nombre del trabajo</p></th>
+<th><p>Descripción</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ListJobs</p></td>
 <td style="border:1px solid black;"><p>Enumera todos los trabajos del archivo WSF.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>AddRADIUSClient</p></td>
 <td style="border:1px solid black;"><p>Procedimiento interactivo para agregar un cliente de RADIUS a IAS (parámetros: [/path:<em>NombreArchivoSalida</em>]).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>AddSecRADIUSClients</p></td>
 <td style="border:1px solid black;"><p>Procedimiento interactivo para agregar un cliente de RADIUS a IAS (parámetros: [/path:<em>NombreArchivoEntrada</em>]).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>GenRADIUSPwd</p></td>
 <td style="border:1px solid black;"><p>Genera una entrada y un secreto de cliente de RADIUS (parámetros: /client:<em>NombreCliente</em> /ip:<em>DirecciónIPCliente</em> [/path:<em>ArchivoSalida</em>]).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ExportIASSettings</p></td>
 <td style="border:1px solid black;"><p>Exporta una configuración de servidor IAS a los archivos (parámetros: [/path:<em>CarpetaParaGuardarArchivosConfiguración</em>]).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ImportIASSettings</p></td>
 <td style="border:1px solid black;"><p>Importa una configuración de servidor IAS de los archivos (parámetros: [/path:<em>CarpetaConArchivosParaImportar</em>]).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ExportIASClients</p></td>
 <td style="border:1px solid black;"><p>Exporta clientes de RADIUS de IAS al archivo (parámetros: [/path:<em>CarpetaParaGuardarArchivoClientes</em>]).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ImportIASClients</p></td>
 <td style="border:1px solid black;"><p>Importa clientes de RADIUS de IAS del archivo (parámetros: [/path:<em>CarpetaConArchivoClientesParaImportar</em>]).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>BackupIAS</p></td>
 <td style="border:1px solid black;"><p>Hace una copia de seguridad de la configuración de IAS en el archivo (parámetros: [/path:<em>CarpetaParaGuardarArchivoCopiaSeguridad</em>]).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>RestoreIAS</p></td>
 <td style="border:1px solid black;"><p>Restaura la configuración de IAS del archivo (parámetros: [/path:<em>ArchivoCarpetaParaRestaurar</em>]).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CheckIAS</p></td>
 <td style="border:1px solid black;"><p>Comprueba que el servidor IAS está respondiendo (parámetros: [/verbose]).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CheckCA</p></td>
 <td style="border:1px solid black;"><p>Comprueba que el servicio de entidad emisora está respondiendo y que la lista de revocación de certificados (CRL) es válida (parámetros: [/verbose]).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>EnableIASLockout*</p></td>
 <td style="border:1px solid black;"><p>Habilita el bloqueo de cuentas de IAS (parámetros: [/maxdenials:<em>10</em>] [/lockouttime:<em>2880</em> (seg.)]).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>DisableIASLockout*</p></td>
 <td style="border:1px solid black;"><p>Deshabilita el bloqueo de cuentas de IAS.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ShowLockedOutAccounts*</p></td>
 <td style="border:1px solid black;"><p>Muestra las cuentas bloqueadas (y las cuentas con autorizaciones erróneas).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ResetLockedOutAccount*</p></td>
 <td style="border:1px solid black;"><p>Restablece una cuenta bloqueada (parámetros: /account:<em>NombreDominio:NombreCuenta</em>).</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Nota:** los trabajos marcados con un asterisco (\*) no se utilizan en esta solución.
@@ -7186,47 +7186,47 @@ Antes de ver cómo funcionan las soluciones de seguridad de las WLAN modernas, m
 **Tabla 1. Principales amenazas para la seguridad de las WLAN**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Amenaza</p></th>  
-<th><p>Descripción de la amenaza</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Amenaza</p></th>
+<th><p>Descripción de la amenaza</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Interceptación (revelación de datos)</p></td>
 <td style="border:1px solid black;"><p>La interceptación de transmisiones de la red puede dar lugar a la revelación de datos confidenciales y de credenciales de usuario sin protección, además de a una posible usurpación de la identidad. Permite también que intrusos expertos recopilen información sobre los entornos de TI y la utilicen para atacar otros sistemas o datos que, de otra forma, no serían vulnerables.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Interceptación y modificación de los datos transmitidos</p></td>
 <td style="border:1px solid black;"><p>Si un atacante logra obtener acceso a la red, puede introducir un equipo falso que intercepte y modifique los datos comunicados entre dos usuarios autorizados.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Imitación</p></td>
 <td style="border:1px solid black;"><p>El acceso directo a la red interna permite que el intruso falsifique datos que parecen legítimos de manera que no sería posible desde fuera de la red, por ejemplo, un mensaje de correo electrónico de un usuario imitado. Los usuarios, incluso los administradores de sistemas, suelen confiar en los elementos originados dentro de la red mucho más que en los que proceden del exterior de la red corporativa.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Denegación del servicio (DoS)</p></td>
 <td style="border:1px solid black;"><p>Un agresor determinado puede activar un ataque de DoS de diversas maneras. Por ejemplo, la interrupción de las señales de radio se puede activar mediante algo tan simple como un microondas. Existen ataques más complejos cuyo objetivo son los protocolos inalámbricos de bajo nivel, y otros menos complejos cuyo objetivo son las redes mediante un gran incremento del tráfico aleatorio en la WLAN.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Carga libre (o robo de recursos)</p></td>
 <td style="border:1px solid black;"><p>Es posible que los intrusos sólo deseen utilizar su red como punto de libre acceso a Internet. Si bien esto no es tan grave como las demás amenazas, hará que, como mínimo, no sólo empeore el nivel de servicio prestado a los usuarios autorizados sino también que puedan introducirse virus y otras amenazas.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Amenazas accidentales</p></td>
 <td style="border:1px solid black;"><p>Algunas características de las WLAN facilitan la aparición de amenazas no intencionadas. Por ejemplo, un visitante autorizado podría iniciar el equipo portátil sin la intención de conectarse a la red, pero se conecta a su WLAN automáticamente. Así, el equipo portátil del visitante se convierte en un punto de entrada de virus en la red. Este tipo de amenaza sólo se da en WLAN desprotegidas.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>WLAN no autorizadas</p></td>
 <td style="border:1px solid black;"><p>Si su empresa no dispone oficialmente de una WLAN, es posible que siga estando bajo la amenaza de las WLAN sin administrar que surjan en su red. El hardware de WLAN adquirido a bajo precio por parte de empleados entusiastas puede abrir vulnerabilidades no intencionadas en su red.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Las preocupaciones sobre seguridad en las WLAN, centradas en la WEP estática, han recibido mucha atención por parte de los medios. A pesar del hecho de que existen buenas soluciones de seguridad para combatir estas amenazas, organizaciones de distintos tamaños recelan de las WLAN. Muchas de ellas han detenido su implementación o han prohibido el uso de la tecnología de WLAN por completo. A continuación, se enumeran algunos factores que contribuyen a difundir esta confusión y el error extendido de que las WLAN y la inseguridad de las redes van de la mano:
@@ -7378,18 +7378,18 @@ Las principales amenazas de la seguridad para las WLAN se detallaron con anterio
 **Tabla 2. Amenazas contra la seguridad valoradas en función de la solución propuesta**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Amenaza</p></th>  
-<th><p>Mitigación</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Amenaza</p></th>
+<th><p>Mitigación</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Interceptación (revelación de datos)</p></td>
 <td style="border:1px solid black;"><p>La asignación y modificación dinámicas de las claves de cifrado con regularidad y el hecho de que las claves sean exclusivas para cada sesión de usuario implica que siempre y cuando la actualización de la clave se realice con suficiente frecuencia, no se podrán descubrir las claves ni disponer de acceso a los datos de ninguna forma conocida.</p>
@@ -7404,7 +7404,7 @@ Las principales amenazas de la seguridad para las WLAN se detallaron con anterio
 <tr class="odd">
 <td style="border:1px solid black;"><p>Imitación</p></td>
 <td style="border:1px solid black;"><p>La autenticación segura en la red impide que usuarios no autorizados se conecten a la red e introduzcan datos imitados desde el interior.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Denegación de servicio (DoS)</p></td>
 <td style="border:1px solid black;"><p>Los ataques de exceso de datos y otros ataques de DoS en la red se pueden evitar si se controla el acceso a la WLAN mediante 802.1X. No existe defensa contra los ataques de DoS de 802.11 de bajo nivel ya sea WEP dinámica o WPA. Este problema se ha afrontado con el estándar 802.11i.</p>
@@ -7414,11 +7414,11 @@ Las principales amenazas de la seguridad para las WLAN se detallaron con anterio
 <tr class="odd">
 <td style="border:1px solid black;"><p>Carga libre (robo de recursos)</p></td>
 <td style="border:1px solid black;"><p>El requisito de autenticación segura impide la utilización no autorizada de la red.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Amenazas accidentales</p></td>
 <td style="border:1px solid black;"><p>El requisito de autenticación segura impide la conexión accidental a la WLAN.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>WLAN no autorizadas</p></td>
 <td style="border:1px solid black;"><p>Si bien la solución no se ocupa directamente de los puntos de acceso inalámbrico no autorizados, la implementación de una solución inalámbrica segura como ésta elimina, casi por completo, los motivos para establecer una WLAN no oficial.</p>
@@ -7481,21 +7481,21 @@ Los factores diferenciadores más importantes entre estos enfoques y una soluci�
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>Sí</p></td>
 <td style="border:1px solid black;"><p>Sí</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Conexión transparente y reconexión a la WLAN</p></td>
 <td style="border:1px solid black;"><p>Sí</p></td>
 <td style="border:1px solid black;"><p>Sí</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>Sí</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Autenticación de usuario</p></td>
 <td style="border:1px solid black;"><p>Sí</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>Sí</p></td>
 <td style="border:1px solid black;"><p>Sí</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Autenticación</p>
 <p>de equipo (2)</p></td>
@@ -7503,29 +7503,29 @@ Los factores diferenciadores más importantes entre estos enfoques y una soluci�
 <td style="border:1px solid black;"><p>Sí</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>Sí</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Difusión y tráfico de multidifusión protegidos</p></td>
 <td style="border:1px solid black;"><p>Sí</p></td>
 <td style="border:1px solid black;"><p>Sí</p></td>
 <td style="border:1px solid black;"><p>Sí</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Se requieren dispositivos de red adicionales</p></td>
 <td style="border:1px solid black;"><p>Servidores RADIUS</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>Servidores VPN, servidores RADIUS</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Acceso seguro a la propia WLAN</p></td>
 <td style="border:1px solid black;"><p>Sí</p></td>
 <td style="border:1px solid black;"><p>Sí</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 (1) Muchas implementaciones de VPN que utilizan el modo de túnel IPSec emplean un esquema de autenticación de clave compartida débil, conocido como XAuth.

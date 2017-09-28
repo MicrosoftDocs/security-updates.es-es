@@ -110,8 +110,8 @@ Configuración del equipo\\Plantillas administrativas\\Componentes de Windows\\I
 <td style="border:1px solid black;"><p>Recomendado</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La configuración de directiva **Desactivar la detección de bloqueos** le permite administrar la característica de detección de la administración de complementos en Internet Explorer. Si habilita esta configuración de directiva, un bloqueo en Internet Explorer será similar al de un equipo en el que se ejecuta Windows XP Professional Service Pack 1 y versiones anteriores: se invocará el Informe de errores de Windows. Si deshabilita esta configuración de directiva, funcionará la característica de detección de bloqueos en la administración de complementos.
@@ -123,29 +123,29 @@ Dado que la información de informe de bloqueos de Internet Explorer podría con
 **Tabla A.2: Configuración de habilitación o deshabilitación de la configuración de complementos**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La configuración de directiva **No permitir que usuarios habiliten ni deshabiliten complementos** le permite administrar si los usuarios pueden permitir o denegar complementos a través de Administrar complementos. Si se establece esta configuración de directiva como **Habilitada**, los usuarios no podrán habilitar ni deshabilitar los complementos a través de la característica Administrar complementos. La única excepción se produce si un complemento se ha introducido específicamente en la configuración de directiva **Lista de complementos** de manera que los usuarios puedan seguir administrando el complemento. En tal caso, el usuario aún puede administrar el complemento a través de Administrar complementos. Si establece esta configuración de directiva como **Deshabilitada**, el usuario podrá habilitar o deshabilitar complementos.
@@ -177,29 +177,29 @@ Utilice el Editor de objetos de directiva de grupo para configurar la Plantilla 
 **Tabla A.3: Configuración de permiso para ejecutar software**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Los controles Microsoft ActiveX y los archivos que se descargan suelen tener adjuntas firmas digitales que garantizan la integridad del archivo y la identidad del firmante (creador) del software. Estas firmas ayudan a asegurar que se descarga software no modificado y que el usuario pueda identificar al firmante para determinar si confía en éste lo suficiente como para ejecutar su software.
@@ -221,29 +221,29 @@ Configuración del equipo\\Plantillas administrativas\\Componentes de Windows\\I
 **Tabla A.4: Configuración del protocolo MK**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La configuración de directiva **Restricción de seguridad del protocolo MK** reduce área de superficie de ataque al bloquear el protocolo MK, que raramente se utiliza. Algunas aplicaciones web más antiguas utilizan el protocolo MK para recuperar información de archivos comprimidos. Si se establece esta directiva como **Habilitada**, se bloqueará el protocolo MK para el Explorador de Windows e Internet Explorer, lo que provocará errores de los recursos que utilizan el protocolo MK. Al deshabilitar este parámetro se permite a las aplicaciones que utilicen la API del protocolo MK.
@@ -263,29 +263,29 @@ Configuración del equipo\\Plantillas administrativas\\Componentes de Windows\\I
 **Tabla A.5: Configuración de administración de MIME consistente**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Internet Explorer utiliza datos MIME (Extensiones seguras multipropósito de correo de Internet) para determinar los procedimientos de administración de archivos recibidos a través de un servidor web. La configuración de directiva **Administración de MIME consistente\\Procesos de Internet Explorer** determina si Internet Explorer debe requerir que toda la información de tipo de archivo proporcionada por los servidores web sea coherente. Por ejemplo, si el tipo MIME de un archivo es texto/sin formato pero los datos MIME indican que el archivo es realmente un archivo ejecutable, Internet Explorer cambia su extensión para reflejar el estado ejecutable. Esta capacidad ayuda a asegurar que ese código ejecutable no se haga pasar por otros tipos de datos en los que se puede confiar.
@@ -307,29 +307,29 @@ Configuración del equipo\\Plantillas administrativas\\Componentes de Windows\\I
 **Tabla A.6: Configuración de examen de MIME**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 El examen de MIME es el proceso que consiste en la evaluación del contenido de un archivo MIME para determinar su contexto (si se trata de un archivo de datos, de un archivo ejecutable o de algún otro tipo del archivo). Esta configuración de directiva determina si el examen de MIME de Internet Explorer evitará la conversión de un archivo de un tipo determinado a otro tipo más peligroso. Cuando se establece como **Habilitada**, la función de examen de MIME nunca convertirá un archivo de un tipo a otro tipo de archivo más peligroso. Al deshabilitar el examen de MIME se configuran los procesos de Internet Explorer de modo que permitan una evaluación de MIME que convierta un archivo de un tipo determinado a otro tipo de archivo más peligroso. Por ejemplo, la conversión de un archivo de texto en un archivo ejecutable es peligrosa porque se ejecutaría cualquier código del supuesto archivo de texto.
@@ -349,29 +349,29 @@ Configuración del equipo\\Plantillas administrativas\\Componentes de Windows\\I
 **Tabla A.7: Configuración de restricciones de seguridad de ventanas con secuencias de comandos**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Internet Explorer permite que mediante secuencias de comandos se abran distintos tipos de ventanas, así como que se cambie su tamaño y posición. Hay sitios web de mala reputación que cambian el tamaño de las ventanas para ocultar otras o que obligan al visitante a interaccionar con una ventana que contiene código malintencionado.
@@ -391,29 +391,29 @@ Configuración del equipo\\Plantillas administrativas\\Componentes de Windows\\I
 **Tabla A.8: Configuración de protección contra elevación de zona**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Internet Explorer establece restricciones para cada página web que abre, las cuales dependen de la ubicación de ésta (zona Internet, zona de intranet o zona Máquina local). Las páginas web de un equipo local tienen restricciones de seguridad mínimas y residen en la zona Máquina local, lo que convierte a la zona de seguridad Máquina local en un objetivo prioritario para los atacantes malintencionados.
@@ -433,29 +433,29 @@ Configuración del equipo\\Plantillas administrativas\\Componentes de Windows\\I
 **Tabla A.9: Configuración de limitación de la instalación de ActiveX**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Recomendado</p></td>
 <td style="border:1px solid black;"><p>Recomendado</p></td>
 <td style="border:1px solid black;"><p>Recomendado</p></td>
 <td style="border:1px solid black;"><p>Recomendado</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La configuración de directiva **Limitar la instalación de ActiveX\\Procesos de Internet Explorer** habilita el bloqueo de mensajes de instalación de controles ActiveX para procesos de Internet Explorer.
@@ -479,29 +479,29 @@ Configuración del equipo\\Plantillas administrativas\\Componentes de Windows\\I
 **Tabla A.10: Configuración de limitación de descarga de archivos**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 En determinadas circunstancias los sitios web pueden iniciar diálogos de descarga de archivos sin la interacción de los usuarios. Esta técnica puede permitir a un sitio web colocar archivos no autorizados en el disco duro de un usuario si éste hace clic en el botón equivocado y acepta la descarga.
@@ -521,29 +521,29 @@ Configuración del equipo\\Plantillas administrativas\\Componentes de Windows\\I
 **Tabla A.11: Configuración de denegación de complementos a menos que se permitan específicamente en la Lista de complementos**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Recomendado</p></td>
 <td style="border:1px solid black;"><p>Recomendado</p></td>
 <td style="border:1px solid black;"><p>Recomendado</p></td>
 <td style="border:1px solid black;"><p>Recomendado</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Esta configuración de directiva, junto con la directiva **Lista de complementos**, le permite controlar complementos de Internet Explorer. De forma predeterminada, la configuración de directiva **Lista de complementos** define una relación de complementos que se deben permitir o denegar a través de Directiva de grupo. La configuración de directiva **Denegar complementos a menos que se permitan específicamente en la Lista de complementos** supone que todos los complementos se deniegan a menos que aparezcan enumerados específicamente en la configuración de directiva **Lista de complementos.**
@@ -557,29 +557,29 @@ Considere la posibilidad de utilizar tanto la configuración **Denegar complemen
 **Tabla A.12: Configuración de Lista de complementos**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Recomendado</p></td>
 <td style="border:1px solid black;"><p>Recomendado</p></td>
 <td style="border:1px solid black;"><p>Recomendado</p></td>
 <td style="border:1px solid black;"><p>Recomendado</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Esta configuración de directiva, junto con la directiva **Denegar complementos a menos que se permitan específicamente en la Lista de complementos**, le permite controlar los complementos de Internet Explorer. De forma predeterminada, la configuración de directiva **Lista de complementos** define una relación de complementos que se deben permitir o denegar a través de Directiva de grupo. La configuración de directiva **Denegar complementos a menos que se permitan específicamente en la Lista de complementos** supone que todos los complementos se deniegan a menos que aparezcan enumerados específicamente en la configuración de directiva **Lista de complementos.**
@@ -593,31 +593,31 @@ Si se habilita esta configuración de directiva, deberá especificar una lista d
     **Tabla A.13: Valores de configuración de la Lista de complementos**
 
 <p> </p>
-    <table style="border:1px solid black;">  
-    <colgroup>  
-    <col width="50%" />  
-    <col width="50%" />  
-    </colgroup>  
-    <thead>  
-    <tr class="header">  
-    <th><p>Valor</p></th>  
-    <th><p>Descripción</p></th>  
-    </tr>  
-    </thead>  
-    <tbody>  
+    <table style="border:1px solid black;">
+    <colgroup>
+    <col width="50%" />
+    <col width="50%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><p>Valor</p></th>
+    <th><p>Descripción</p></th>
+    </tr>
+    </thead>
+    <tbody>
     <tr class="odd">
     <td style="border:1px solid black;"><p>0</p></td>
     <td style="border:1px solid black;"><p>Denegar este complemento</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>1</p></td>
     <td style="border:1px solid black;"><p>Permitir este complemento</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>2</p></td>
     <td style="border:1px solid black;"><p>Permitir este complemento y que el usuario lo administre a través de Administrar complementos</p></td>
-    </tr>  
-    </tbody>  
+    </tr>
+    </tbody>
     </table>
   
 Si deshabilita esta configuración de directiva, se elimina la lista.
@@ -635,29 +635,29 @@ Plantillas administrativas\\componentes de Windows\\Servicios de Terminal Server
 **Tabla A.14: Configuración de no autorización de almacenamiento de contraseñas**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La configuración **No permitir que se guarden las contraseñas** evita que los clientes de Servicios de Terminal Server guarden contraseñas en un equipo. Cuando se habilita esta configuración, se deshabilita la casilla de verificación de almacenamiento en los clientes de Servicios de Terminal Server, de modo que los usuarios no puedan seguir guardando sus contraseñas. Dado que la práctica de guardar la contraseña puede suponer un riesgo adicional, esta configuración se establece como **Habilitada** para los entornos definidos en esta guía.
@@ -675,29 +675,29 @@ Plantillas administrativas\\Componentes de Windows\\Windows Update
 **Tabla A.15: Configuración de no visualización de opciones de Apagar**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La configuración de directiva **No mostrar la opción 'Instalar actualizaciones y Apagar' en el cuadro de diálogo Apagar** le permite administrar si se debe mostrar la opción **Instalar actualizaciones y Apagar** en el cuadro de diálogo **Salir de Windows.**
@@ -709,29 +709,29 @@ En caso de deshabilitarse esta configuración de directiva, la opción **Instala
 **Tabla A.16: Configuración de no autorización de ajuste de opciones de Apagar predeterminadas**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La configuración de directiva **No ajustar la opción predeterminada a 'Instalar actualizaciones y Apagar' en el cuadro de diálogo Apagar** permite administrar si se posibilita que la opción **Instalar actualizaciones y Apagar** sea la predeterminada en el cuadro de diálogo **Salir de Windows**. Si se deshabilita esta configuración de directiva, la opción **Instalar actualizaciones y Apagar** será la predeterminada en el cuadro de diálogo **Salir de Windows** en caso de que haya actualizaciones disponibles para la instalación en el momento en que el usuario seleccione la opción **Apagar equipo** en el menú **Inicio**.
@@ -751,29 +751,29 @@ Configuración del equipo\\Plantillas administrativas\\Sistema
 **Tabla A.17: Configuración de la intervención del usuario en búsquedas de controladores de dispositivo en Windows Update**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La configuración **Desactivar la intervención del usuario en búsquedas de controladores de dispositivo en Windows Update** controla si se le pide al administrador que busque controladores de dispositivo a través de Windows Update en Internet. Si esta configuración está habilitada, no se solicitará a los administradores que busquen con Windows Update. Si esta configuración está deshabilita o el parámetro no está configurado y **Desactivar la búsqueda de controladores de dispositivo en Windows Update** se deshabilita o no se configura, se pedirá al administrador su consentimiento antes de iniciar la búsqueda de controladores de dispositivo a través de Windows Update.
@@ -797,29 +797,29 @@ Plantillas administrativas\\Sistema\\Llamada a procedimiento remoto
 **Tabla A.18: Configuración de clientes RPC no autenticados**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Si se habilita la configuración **Restricciones para clientes RPC no autenticados** se establece el Tiempo de ejecución de RPC en un servidor RPC para limitar la conexión de clientes RPC no autenticados a servidores RPC que se ejecutan en un equipo. Se considerará que un cliente se ha autenticado si utiliza una canalización con nombre para comunicarse con el servidor o si utiliza seguridad RPC. Las interfaces de RPC que han pedido específicamente ofrecer acceso a clientes no autenticados pueden quedar exentas de esta restricción, con arreglo al valor seleccionado para esta directiva. Si se habilita esta configuración estarán disponibles los siguientes valores:
@@ -839,29 +839,29 @@ Dado que la comunicación RPC sin autenticación puede crear una vulnerabilidad 
 **Tabla A.19: Configuración de autenticación de cliente**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Si se habilita la configuración **Autenticación de clientes del Asignador de puntos finales de RPC**, los clientes que se comunican con este equipo deberán proporcionar autenticación antes de que se establezca la comunicación RPC.
@@ -879,29 +879,29 @@ Plantillas administrativas\\Sistema\\Administración de comunicaciones de Intern
 **Tabla A.20: Configuración de la desactivación de las tareas de publicación en Web**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Esta configuración especifica si las tareas **Publicar este archivo en Web**, **Publicar esta carpeta en Web** y **Publicar los elementos seleccionados en Web** están disponibles en las Tareas de archivo y carpeta en las carpetas de Windows. El Asistente para la publicación en Web se usa para descargar una lista de proveedores y permite que los usuarios publiquen contenido en Web. Si se establece esta configuración como **Habilitada** se quitan estas opciones de Tareas de archivo y carpeta en las carpetas de Windows.
@@ -911,29 +911,29 @@ Esta configuración especifica si las tareas **Publicar este archivo en Web**, *
 **Tabla A.21: Configuración de la desactivación de descargas de Internet**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La configuración de **Desactivar descargas de Internet en los asistentes para la publicación en Web y para pedidos en línea** controla si Windows descargará una lista de proveedores de los asistentes para la publicación en Web y para pedidos en línea. Si se habilita esta configuración se evitará que Windows descargue proveedores; sólo se mostrarán los proveedores de servicios que se encuentren almacenados en caché en el Registro local.
@@ -943,29 +943,29 @@ La configuración de **Desactivar descargas de Internet en los asistentes para l
 **Tabla A.22: Configuración de la desactivación del programa para el cliente de Messenger**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La configuración **Desactivar el Programa para la mejora de la experiencia del cliente de Windows Messenger** especifica si Windows Messenger debe recopilar información anónima acerca del uso del servicio y del software Windows Messenger. Si establece esta configuración como **Habilitada**, se asegurará de que Windows Messenger no recopilará información de uso, y que no se mostrará la configuración de usuario que permite habilitar la recopilación de información de uso.
@@ -975,29 +975,29 @@ La configuración **Desactivar el Programa para la mejora de la experiencia del 
 **Tabla A.23: Configuración de desactivación de la actualización del Asistente para búsqueda**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La configuración **Desactivar la actualización de archivos de contenido del Asistente para búsqueda** especifica si el Asistente para búsqueda debe descargar automáticamente actualizaciones de contenido durante búsquedas en Internet y locales. Si se establece esta configuración como **Habilitada**, evitará que el Asistente para búsqueda descargue actualizaciones de contenido durante las búsquedas.
@@ -1009,29 +1009,29 @@ La configuración **Desactivar la actualización de archivos de contenido del As
 **Tabla A.24: Configuración de desactivación de la impresión a través de HTTP**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Esta configuración le permite deshabilitar la impresión a través de HTTP desde este cliente. La impresión a través de HTTP permite a un cliente imprimir con impresoras de la intranet así como de Internet. Si se habilita esta configuración, el cliente no podrá utilizar impresoras de Internet a través de HTTP.
@@ -1045,29 +1045,29 @@ La información transmitida al imprimir a través de HTTP no es protegida y pued
 **Tabla A.25: Configuración de desactivación de la descarga de controladores de impresión a través de HTTP**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La configuración **Desactivar la descarga de controladores de impresión a través de HTTP** controla si el equipo puede descargar paquetes de controladores de impresión a través de HTTP. Para configurar la impresión a través de HTTP, quizá sea necesario descargar a través de HTTP los controladores de impresión no disponibles en la instalación del sistema operativo estándar. En este apéndice se recomienda establecer la configuración como **Habilitada** para evitar que se descarguen controladores de impresión a través de HTTP.
@@ -1079,29 +1079,29 @@ La configuración **Desactivar la descarga de controladores de impresión a trav
 **Tabla A.26: Configuración de la desactivación de la intervención del usuario en búsquedas de controladores de dispositivo en Windows Update**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La directiva **Desactivar la búsqueda de controladores de dispositivo en Windows Update** especifica si Windows debe buscar mediante Windows Update controladores de dispositivo cuando no se encuentran localmente.
@@ -1125,29 +1125,29 @@ Plantillas administrativas\\Red\\Conexiones de red\\Firewall de Windows\\Perfil 
 **Tabla A.27: Configuración de protección de todas las conexiones de red con Perfil de dominio**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La configuración **Firewall de Windows: proteger todas las conexiones de red** activa el Firewall de Windows, que reemplaza al Servidor de seguridad de conexión a Internet en todos los equipos en los que se ejecuta Windows XP SP2. En este apéndice se recomienda establecer la configuración como **Habilitada** para proteger todas las conexiones de red para equipos de todos los entornos.
@@ -1161,29 +1161,29 @@ Si esta configuración se establece como **Deshabilitada**, se desactiva el Fire
 **Tabla A.28: Configuración de no autorización de excepciones con Perfil de dominio**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Mediante la configuración **Firewall de Windows: no permitir excepciones** se especifica que el Firewall de Windows debe bloquear todos los mensajes entrantes no solicitados. Esta configuración de directiva anula todos los demás parámetros de directiva de Firewall de Windows que permitan ese tipo de mensajes. Si habilita esta configuración de directiva en el componente Firewall de Windows del Panel de control, se activa la casilla de verificación **No permitir excepciones**, que no podrán desactivar los administradores.
@@ -1197,29 +1197,29 @@ Muchos entornos contienen aplicaciones y servicios a los que para su funcionamie
 **Tabla A.29: Configuración de definición de excepciones de programa con Perfil de dominio**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Recomendado</p></td>
 <td style="border:1px solid black;"><p>Recomendado</p></td>
 <td style="border:1px solid black;"><p>Recomendado</p></td>
 <td style="border:1px solid black;"><p>Recomendado</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Es posible que algunas aplicaciones necesiten abrir y utilizar puertos de red que no suele permitir el Firewall de Windows. La configuración **Firewall de Windows: definir excepciones de programa** le permite ver y cambiar la lista de excepciones de programa definidas por Directiva de grupo.
@@ -1235,29 +1235,29 @@ Si establece esta configuración de directiva como **Deshabilitada**, se elimina
 **Tabla A.30: Configuración de autorización de excepciones de programa local con Perfil de dominio**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La configuración **Firewall de Windows: permitir excepciones de programa local** permite a los administradores utilizar el componente del Panel de control Firewall de Windows para definir una lista de excepciones de programa local. El hecho de deshabilitar esta configuración de directiva no autoriza a los administradores a definir una lista local de excepciones de programa, y garantiza que esas excepciones de programa sólo procedan de la Directiva de grupo. Si se configura esta directiva como **Habilitada**, los administradores locales podrán utilizar el Panel de control para definir excepciones de programa localmente.
@@ -1269,29 +1269,29 @@ Para equipos de cliente de empresa, es posible que existan condiciones que justi
 **Tabla A.31: Configuración de autorización de excepciones de administración remota con Perfil de dominio**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Recomendado</p></td>
 <td style="border:1px solid black;"><p>Recomendado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Muchas organizaciones aprovechan la administración de equipos remotos en sus operaciones diarias. Sin embargo, se han producido ataques en los que se aprovechaban puertos que suelen utilizar los programas de administración remota; Firewall de Windows puede bloquear estos puertos. Para una mayor flexibilidad en la administración remota, se encuentra disponible la configuración **Firewall de Windows: permitir excepción de administración remota**.
@@ -1309,29 +1309,29 @@ En este apéndice se recomienda habilitar esta configuración para equipos de em
 **Tabla A.32: Configuración de autorización de la excepción de compartir impresoras y archivos con Perfil de dominio**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Esta configuración permite compartir archivos e impresoras al establecer que Firewall de Windows abra los puertos UDP 137 y 138 y los puertos TCP 139 y 445. Si habilita esta configuración de directiva, Firewall de Windows abre estos puertos para que el equipo pueda recibir trabajos de impresión y solicitudes de acceso a archivos compartidos. Debe especificar las direcciones IP o las subredes desde las que se permiten estos mensajes entrantes.
@@ -1347,29 +1347,29 @@ Dado que, por lo general, los equipos del entorno en los que se ejecuta Windows 
 **Tabla A.33: Configuración de autorización de excepciones ICMP con Perfil de dominio**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La configuración **Firewall de Windows: permitir excepciones ICMP** define el conjunto de tipos de mensajes ICMP (Protocolo de mensajes de control de Internet) que permitirá Firewall de Windows. Las utilidades pueden usar los mensajes ICMP para determinar el estado de otros equipos. Por ejemplo, Ping utiliza el mensaje de solicitud de eco.
@@ -1385,29 +1385,29 @@ Muchas herramientas de atacantes aprovechan la posibilidad que ofrecen los equip
 **Tabla A.34: Configuración de autorización de excepciones de Escritorio remoto con Perfil de dominio**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Recomendado</p></td>
 <td style="border:1px solid black;"><p>Recomendado</p></td>
 <td style="border:1px solid black;"><p>Recomendado</p></td>
 <td style="border:1px solid black;"><p>Recomendado</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Muchas organizaciones utilizan conexiones de Escritorio remoto en sus operaciones o procedimientos habituales de solución de problemas. Sin embargo, se han producido ataques en los que se aprovechaban los puertos que suele utilizar Escritorio remoto. Para una mayor flexibilidad en la administración remota, se encuentra disponible la configuración **Firewall de Windows: permitir excepción de Escritorio remoto**.
@@ -1423,29 +1423,29 @@ En algunos ataques se puede aprovechar un puerto 3389 abierto. Para mantener las
 **Tabla A.35: Configuración de autorización de excepción de entorno UPnP con Perfil de dominio**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La configuración **Firewall de Windows: permitir excepción de entorno UPnP** permite a un equipo recibir mensajes Plug and Play no solicitados procedentes de dispositivos de red, tales como enrutadores con servidores de seguridad integrados. Para recibir estos mensajes, Firewall de Windows abre el puerto TCP 2869 y el puerto UDP 1900.
@@ -1459,29 +1459,29 @@ Con el bloqueo del tráfico de red UPnP se reduce en la práctica la superficie 
 **Tabla A.36: Configuración de prohibición de notificaciones con Perfil de dominio**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Firewall de Windows puede mostrar notificaciones a los usuarios cuando un programa solicita que Firewall de Windows agregue el programa a la lista de excepciones de programa. Esta situación se produce cuando los programas intentan abrir un puerto y no se les permite, con arreglo a las reglas actuales de Firewall de Windows. La configuración **Firewall de Windows: no permitir notificaciones** establece si se muestran estos parámetros a los usuarios.
@@ -1495,29 +1495,29 @@ A menudo, a los usuarios no se les permitirá agregar aplicaciones y puertos en 
 **Tabla A.37: Configuración de prohibición de respuesta de monodifusión con Perfil de dominio**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La configuración **Firewall de Windows: no permitir respuesta de monodifusión a peticiones de difusión o multidifusión** impide que un equipo reciba respuestas de monodifusión a sus mensajes salientes de difusión o multidifusión. Cuando esta configuración de directiva está habilitada y el equipo envía mensajes de difusión o multidifusión a otros equipos, Firewall de Windows bloquea las respuestas de monodifusión enviadas por esos otros equipos. Cuando la configuración está deshabilitada y este equipo envía un mensaje de difusión o multidifusión a otros equipos, Firewall de Windows espera hasta tres segundos respuestas de monodifusión de los otros equipos y después bloquea todas las respuestas posteriores.
@@ -1531,29 +1531,29 @@ Normalmente, no deseará recibir respuestas de monodifusión a mensajes de difus
 **Tabla A.38: Configuración de definición de excepciones de puerto con Perfil de dominio**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La lista de excepciones de puerto de Firewall de Windows debe ser definida por Directiva de grupo, de modo que pueda administrar e implementar de forma centralizada las excepciones de puerto, y asegurarse de que los administradores locales no crean configuraciones menos seguras. La configuración de directiva **Firewall de Windows: definir excepciones de puerto** le permite administrar de forma centralizada estas configuraciones.
@@ -1571,29 +1571,29 @@ Para los entornos con aplicaciones no estándar que requieren que se abran deter
 **Tabla A.39: Configuración de autorización de excepciones de puerto local con Perfil de dominio**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La configuración **Firewall de Windows: permitir excepciones de puerto local** permite a los administradores utilizar el componente del Panel de control Firewall de Windows para definir una lista de excepciones de puerto local. Firewall de Windows puede utilizar dos listas de excepciones de puerto; la otra se define mediante la configuración de directiva **Firewall de Windows: definir excepciones de puerto**.
@@ -1619,29 +1619,29 @@ Plantillas administrativas\\Red\\Conexiones de red\\Firewall de Windows\\Perfil 
 **Tabla A.40: Configuración de protección de todas las conexiones de red con Perfil estándar**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La configuración **Firewall de Windows: proteger todas las conexiones de red** activa el Firewall de Windows, que reemplaza al Servidor de seguridad de conexión a Internet en todos los equipos en los que se ejecuta Windows XP SP2. Dado que las conexiones de red deben estar protegidas por un servidor de seguridad en todos los entornos, esta configuración se establece como **Habilitada.**
@@ -1655,29 +1655,29 @@ Si esta configuración se establece como **Deshabilitada**, se desactiva el Fire
 **Tabla A.41: Configuración de no autorización de excepciones con Perfil estándar**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Recomendado</p></td>
 <td style="border:1px solid black;"><p>Recomendado</p></td>
 <td style="border:1px solid black;"><p>Recomendado</p></td>
 <td style="border:1px solid black;"><p>Recomendado</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Mediante la configuración **Firewall de Windows: no permitir excepciones** se especifica que el Firewall de Windows debe bloquear todos los mensajes entrantes no solicitados. Esta configuración de directiva anula todos los demás parámetros de directiva de Firewall de Windows que permitan ese tipo de mensajes. Si habilita esta configuración de directiva en el componente Firewall de Windows del Panel de control, se activa la casilla de verificación **No permitir excepciones**, que no podrán desactivar los administradores.
@@ -1689,29 +1689,29 @@ Mediante la configuración **Firewall de Windows: no permitir excepciones** se e
 **Tabla A.42: Configuración de definición de excepciones de programa con Perfil estándar**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Recomendado</p></td>
 <td style="border:1px solid black;"><p>Recomendado</p></td>
 <td style="border:1px solid black;"><p>Recomendado</p></td>
 <td style="border:1px solid black;"><p>Recomendado</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Es posible que algunas aplicaciones necesiten abrir y utilizar puertos de red que no suele permitir el Firewall de Windows. La configuración **Firewall de Windows: definir excepciones de programa** le permite ver y cambiar la lista de excepciones de programa definidas por Directiva de grupo.
@@ -1727,29 +1727,29 @@ Si establece esta configuración de directiva como **Deshabilitada**, se elimina
 **Tabla A.43: Configuración de autorización de excepciones de programa local con Perfil estándar**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La configuración **Firewall de Windows: permitir excepciones de programa local** permite a los administradores utilizar el componente del Panel de control Firewall de Windows para definir una lista de excepciones de programa local. Al deshabilitar esta configuración de directiva se asegura que el componente del Panel de control Firewall de Windows no permita a los administradores definir esa lista, y que esas excepciones de programa sólo procedan de la Directiva de grupo. Si se configura la directiva como **Habilitada**, los administradores locales podrán utilizar el Panel de control para definir excepciones de programa localmente.
@@ -1759,29 +1759,29 @@ La configuración **Firewall de Windows: permitir excepciones de programa local*
 **Tabla A.44: Configuración de autorización de excepciones de administración remota con Perfil estándar**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Muchas organizaciones aprovechan la administración de equipos remotos en sus operaciones diarias. Sin embargo, a través de algunos ataques se han aprovechado puertos que suelen utilizar los programas de administración remota. En respuesta, Firewall de Windows puede bloquear estos puertos. Para una mayor flexibilidad en la administración remota, se encuentra disponible la configuración **Firewall de Windows: permitir excepción de administración remota**.
@@ -1799,29 +1799,29 @@ En este apéndice se recomienda que deshabilite esta configuración para todos l
 **Tabla A.45: Configuración de autorización de la excepción de compartir impresoras y archivos con Perfil estándar**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Esta configuración permite compartir archivos e impresoras al establecer que Firewall de Windows abra los puertos UDP 137 y 138 y los puertos TCP 139 y 445. Si habilita esta configuración de directiva, Firewall de Windows abre estos puertos para que el equipo pueda recibir trabajos de impresión y solicitudes de acceso a archivos compartidos. Debe especificar las direcciones IP o las subredes desde las que se permiten estos mensajes entrantes.
@@ -1837,29 +1837,29 @@ Dado que, por lo general, los equipos del entorno en los que se ejecuta Windows 
 **Tabla A.46: Configuración de autorización de excepciones ICMP con Perfil estándar**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La configuración **Firewall de Windows: permitir excepciones ICMP** define el conjunto de tipos de mensajes ICMP (Protocolo de mensajes de control de Internet) que permitirá Firewall de Windows. Las utilidades pueden usar los mensajes ICMP para determinar el estado de otros equipos. Por ejemplo, la utilidad Ping utiliza el mensaje de solicitud de eco.
@@ -1875,29 +1875,29 @@ Muchas herramientas de atacantes aprovechan la posibilidad que ofrecen los equip
 **Tabla A.47: Configuración de autorización de excepciones de Escritorio remoto con Perfil estándar**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Muchas organizaciones utilizan conexiones de Escritorio remoto en sus operaciones o procedimientos habituales de solución de problemas. Sin embargo, se han producido ataques en los que se aprovechaban los puertos que suele utilizar Escritorio remoto. Para una mayor flexibilidad en la administración remota, se encuentra disponible la configuración **Firewall de Windows: permitir excepción de Escritorio remoto**.
@@ -1913,29 +1913,29 @@ En algunos ataques se puede aprovechar un puerto 3389 abierto. Para mantener las
 **Tabla A.48: Configuración de autorización de excepción de entorno UPnP con Perfil estándar**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La configuración **Firewall de Windows: permitir excepción de entorno UPnP** permite a un equipo recibir mensajes Plug and Play no solicitados procedentes de dispositivos de red, tales como enrutadores con servidores de seguridad integrados. Para recibir estos mensajes, Firewall de Windows abre el puerto TCP 2869 y el puerto UDP 1900.
@@ -1949,29 +1949,29 @@ El bloqueo del tráfico de red UPnP reduce de forma eficaz la superficie de ataq
 **Tabla A.49: Configuración de prohibición de notificaciones con Perfil estándar**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Firewall de Windows puede mostrar notificaciones a los usuarios cuando un programa solicita que Firewall de Windows agregue el programa a la lista de excepciones de programa. Esta situación se produce cuando los programas intentan abrir un puerto y no se les permite, con arreglo a las reglas actuales de Firewall de Windows. La configuración **Firewall de Windows: no permitir notificaciones** establece si se muestran estos parámetros a los usuarios.
@@ -1985,29 +1985,29 @@ A menudo, a los usuarios no se les permitirá agregar aplicaciones y puertos en 
 **Tabla A.50: Configuración de prohibición de respuesta de monodifusión con Perfil estándar**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La configuración **Firewall de Windows: no permitir respuesta de monodifusión a peticiones de difusión o multidifusión** impide que un equipo reciba respuestas de monodifusión a sus mensajes salientes de difusión o multidifusión. Cuando esta configuración de directiva está habilitada y el equipo envía mensajes de difusión o multidifusión a otros equipos, Firewall de Windows bloquea las respuestas de monodifusión enviadas por esos otros equipos. Cuando la configuración está deshabilitada y este equipo envía un mensaje de difusión o multidifusión a otros equipos, Firewall de Windows espera hasta tres segundos respuestas de monodifusión de los otros equipos y después bloquea todas las respuestas posteriores.
@@ -2021,29 +2021,29 @@ Normalmente, no deseará respuestas de monodifusión a mensajes de difusión o m
 **Tabla A.51: Configuración de definición de excepciones de puerto con Perfil estándar**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
 <td style="border:1px solid black;"><p>No se recomienda</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La lista de excepciones de puerto de Firewall de Windows debe ser definida por Directiva de grupo, de modo que pueda administrar e implementar de forma centralizada las excepciones de puerto, y asegurarse de que los administradores locales no crean configuraciones menos seguras. La configuración de directiva **Firewall de Windows: definir excepciones de puerto** le permite administrar de forma centralizada estas configuraciones.
@@ -2061,29 +2061,29 @@ Para los entornos con aplicaciones no estándar que requieren que se abran deter
 **Tabla A.52: Configuración de autorización de excepciones de puerto local con Perfil estándar**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa: Escritorio</p></th>  
-<th><p>Cliente de empresa: Portátil</p></th>  
-<th><p>Nivel de seguridad alto: Escritorio</p></th>  
-<th><p>Nivel de seguridad alto: Portátil</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa: Escritorio</p></th>
+<th><p>Cliente de empresa: Portátil</p></th>
+<th><p>Nivel de seguridad alto: Escritorio</p></th>
+<th><p>Nivel de seguridad alto: Portátil</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La configuración **Firewall de Windows: permitir excepciones de puerto local** permite a los administradores utilizar el componente del Panel de control Firewall de Windows para definir una lista de excepciones de puerto local. Firewall de Windows puede utilizar dos listas de excepciones de puerto; la otra se define mediante la configuración de directiva **Firewall de Windows: definir excepciones de puerto**.
@@ -2111,23 +2111,23 @@ Configuración de usuario\\Plantillas administrativas\\Componentes de Windows\\A
 **Tabla A.53: Configuración de no conservación de información de zona**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa</p></th>  
-<th><p>Nivel de seguridad alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa</p></th>
+<th><p>Nivel de seguridad alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La configuración **No conservar la información de zona en los datos adjuntos de archivos** le permite administrar si Windows debe marcar archivos adjuntos de Internet Explorer o de Outlook Express con información acerca de su zona de origen (restringida, Internet, intranet o local). Esta configuración requiere que los archivos sean descargados en particiones de disco NTFS para funcionar correctamente. Si no se conserva la información de zona, Windows no puede realizar apropiadamente evaluaciones de riesgo basadas en la zona de procedencia del archivo adjunto.
@@ -2139,23 +2139,23 @@ Si se establece esta configuración como **Habilitada**, no se marcarán los arc
 **Tabla A.54: Configuración de mecanismos para quitar la información de zona**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa</p></th>  
-<th><p>Nivel de seguridad alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa</p></th>
+<th><p>Nivel de seguridad alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La configuración de directiva **Ocultar mecanismos para eliminar la información de zona** le permite administrar si los usuarios pueden quitar manualmente la información de zona de los archivos adjuntos guardados haciendo clic en el botón **Desbloquear** en la hoja de **Propiedades** del archivo o activando una casilla de verificación en el cuadro de diálogo **Advertencia de seguridad**. Al quitar la información de la zona, los usuarios pueden abrir archivos adjuntos potencialmente peligrosos que Windows ha impedido que se abran.
@@ -2169,23 +2169,23 @@ Windows oculta la casilla de verificación y el botón **Desbloquear** cuando es
 **Tabla A.55: Configuración de notificación a los programas antivirus**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cliente de empresa</p></th>  
-<th><p>Nivel de seguridad alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cliente de empresa</p></th>
+<th><p>Nivel de seguridad alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Los programas antivirus empiezan a ser obligatorios en la mayoría de los entornos y constituyen una sólida línea defensiva contra los ataques actuales. La configuración de directiva **Notificar a los programas antivirus cuando se abren datos adjuntos** le permite administrar el comportamiento con respecto a la notificación de programas antivirus registrados.

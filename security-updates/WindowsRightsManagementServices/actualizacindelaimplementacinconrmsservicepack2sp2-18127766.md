@@ -110,12 +110,12 @@ Debido a que RMS con SP2 proporciona numerosas mejoras de rendimiento, debe inst
 <p>Inscripción sin conexión del servidor.</p>
 <p>Sin clientes de activación automática.</p></td>
 <td style="border:1px solid black;"><p>Todas las características de SP1.</p>
-<p>Inscripción sin conexión del servidor.</p>  
-<p>Clientes de activación automática.</p>  
+<p>Inscripción sin conexión del servidor.</p>
+<p>Clientes de activación automática.</p>
 <p>Caja de seguridad del servidor.</p>
 <p>Microsoft SQL Server™ 2005 se admite de forma predeterminada.</p></td>
 <td style="border:1px solid black;"><p>Todas las características anteriores, además de las de SP2.</p>
-<p>Inscripción sin conexión del servidor.</p>  
+<p>Inscripción sin conexión del servidor.</p>
 <p>Los clientes de SP2 se activan automáticamente.</p>
 <p>Los clientes de la versión 1 se deben activar a través de Internet.</p></td>
 </tr>

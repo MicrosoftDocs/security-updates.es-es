@@ -34,34 +34,34 @@ Durante el establecimiento de servicios en línea, RMS utiliza las cuentas que s
 <td style="border:1px solid black;"><p>Cuenta del usuario que inició sesión</p></td>
 <td style="border:1px solid black;"><p>Crear directorios virtuales y grupos de aplicaciones. IIS requiere autenticación de Windows, y RMS suplanta al usuario que inició sesión, que debe haber iniciado la sesión localmente.</p></td>
 <td style="border:1px solid black;"><p>Control total (el usuario que inició sesión debe ser un administrador local).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Cuenta del sistema</p></td>
 <td style="border:1px solid black;"><p>Crear el ensamblado temporal para la serialización.</p></td>
 <td style="border:1px solid black;"><p>Permisos de lectura y escritura para la carpeta temporal de Windows, C:\Windows\Temp.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Cuenta ASPNET</p></td>
 <td style="border:1px solid black;"><p>Crear el ensamblado temporal de los archivos *.aspx.</p></td>
 <td style="border:1px solid black;"><p>Acceso al directorio de la caché de ensamblados temporal, C:\Windows\Microsoft.NET\Framework\v1.1.4322\Temporary ASP.NET Files, de forma predeterminada.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Cuenta de los servicios de red</p></td>
 <td style="border:1px solid black;"><p>Registrar el punto de conexión de los servicios en Active Directory.</p></td>
 <td style="border:1px solid black;"><ul>
-<li>Permisos de sólo lectura en el sitio de establecimiento de servicios en línea (suele ser C:\Inetpub\Wwwroot\Provisioning).<br />  
-<br />  
-</li>  
-<li>Permisos de lectura y escritura para la clave del Registro <strong>DRMS</strong>. Los permisos los otorga el programa de instalación de RMS, que también crea la siguiente clave del Registro.<br />  
-<br />  
-En equipos con la versión de 32 bits de Windows Server 2003:<br />  
-<br />  
-<code>HKEY_LOCAL_MACHINE\Software\Microsoft\DRMS\1.0</code><br />  
-<br />  
-En equipos con la versión de 64 bits de Windows Server 2003:<br />  
-<br />  
-<code>HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\DRMS\1.0</code><br />  
-<br />  
+<li>Permisos de sólo lectura en el sitio de establecimiento de servicios en línea (suele ser C:\Inetpub\Wwwroot\Provisioning).<br />
+<br />
+</li>
+<li>Permisos de lectura y escritura para la clave del Registro <strong>DRMS</strong>. Los permisos los otorga el programa de instalación de RMS, que también crea la siguiente clave del Registro.<br />
+<br />
+En equipos con la versión de 32 bits de Windows Server 2003:<br />
+<br />
+<code>HKEY_LOCAL_MACHINE\Software\Microsoft\DRMS\1.0</code><br />
+<br />
+En equipos con la versión de 64 bits de Windows Server 2003:<br />
+<br />
+<code>HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\DRMS\1.0</code><br />
+<br />
 </li>
 </ul></td>
 </tr>

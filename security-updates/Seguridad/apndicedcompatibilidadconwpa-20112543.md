@@ -50,17 +50,17 @@ Debido a que WPA utiliza el protocolo 802.1X para la autenticación de red, el s
 <td style="border:1px solid black;"><p>Controladores de hardware de Microsoft Windows® XP</p></td>
 <td style="border:1px solid black;"><p>Debe ponerse en contacto con el proveedor de la tarjeta de interfaz de red (NIC) para evaluar las tarjetas que puede actualizar para compatibilidad con WPA y la disponibilidad de controladores de cliente para Windows XP.</p></td>
 <td style="border:1px solid black;"><p>Busque controladores que hayan pasado las pruebas de los laboratorios de calidad de hardware de Windows (WHQL). La compatibilidad de controladores para el Servicio Configuración inalámbrica cero para Windows habilita el firmware de tarjeta para que se actualice dinámicamente con el fin de admitir WPA. Confirme la compatibilidad de controladores para el servicio Configuración inalámbrica cero con el proveedor.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Configuración de cliente Windows XP</p></td>
 <td style="border:1px solid black;"><p>Se deberán cambiar los valores de configuración del cliente. Esta solución se ha probado mediante la selección de WPA como método de autenticación y TKIP (Protocolo de integridad de claves temporales) como el protocolo de cifrado.</p></td>
 <td style="border:1px solid black;"><p>TKIP reemplaza a WEP como el método de cifrado y WPA impone 802.1X como el método de autenticación.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Reautenticación de cliente temporizada</p></td>
 <td style="border:1px solid black;"><p>Esta solución utiliza la configuración de RADIUS para garantizar que los clientes realizan una reautenticación cada 10 minutos de modo que se regeneren las claves WEP.</p></td>
 <td style="border:1px solid black;"><p>TKIP vuelve a crear claves para cada paquete; por lo tanto, convierte en obsoleto el requisito de reautenticación de cliente para la clave WEP. Si se deja esta configuración en 10 minutos, se agrega una carga innecesaria a los servidores de Servicio de autenticación de Internet (IAS) de Microsoft. Cuando utilice WPA, puede cambiar el tiempo de espera de sesión a 10 horas.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Directiva de grupo de red inalámbrica</p></td>
 <td style="border:1px solid black;"><p>La directiva de grupo de red inalámbrica existente que se incluían con Windows Server 2003 antes de SP1 se había desarrollado con anterioridad a la disponibilidad de WPA y, por lo tanto, no puede configurar valores de WPA de cliente.</p></td>

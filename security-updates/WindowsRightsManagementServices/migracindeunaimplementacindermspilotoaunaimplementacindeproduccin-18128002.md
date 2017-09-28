@@ -70,12 +70,12 @@ Los pasos siguientes se indican como ejemplo de algunos de los elementos que deb
 <td style="border:1px solid black;"><p>Producción</p></td>
 <td style="border:1px solid black;"><p>Si utiliza un HSM, instálelo y restaure la configuración a partir de la copia de seguridad que creó en el servidor piloto.</p></td>
 <td style="border:1px solid black;"><p>Establece las credenciales necesarias para descifrar la clave privada de RMS.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Producción</p></td>
 <td style="border:1px solid black;"><p>Instale RMS.</p></td>
 <td style="border:1px solid black;"><p>RMS comprobará que todos los servicios que son requisitos previos estén instalados y configurados correctamente.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Producción</p></td>
 <td style="border:1px solid black;"><p>Establezca los servicios en línea de RMS utilizando una clave privada nueva. Si utiliza la inscripción en línea, su servidor se inscribirá durante el proceso de establecimiento de servicios en línea utilizando Internet para conectarse al servicio de inscripción de Microsoft. Si no dispone de conexión a Internet desde este servidor, deberá utilizar la inscripción sin conexión.</p></td>
@@ -92,17 +92,17 @@ Los pasos siguientes se indican como ejemplo de algunos de los elementos que deb
 <td style="border:1px solid black;"><p>Producción</p></td>
 <td style="border:1px solid black;"><p>Importe el archivo de dominio de publicación de confianza que exportó en el paso 3.</p></td>
 <td style="border:1px solid black;"><p>La cuenta de servicio de RMS debe tener permisos de lectura para la ubicación donde está almacenado el archivo a fin de que el archivo se importe correctamente.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Producción</p></td>
 <td style="border:1px solid black;"><p>Vuelva a firmar cada una de las plantillas importadas con el dominio de publicación de confianza.</p></td>
 <td style="border:1px solid black;"><p>Las plantillas están firmadas con la clave privada del servidor. Dado que este servidor tiene una clave privada nueva, para que sean válidas, las plantillas deben volver a firmarse. Para obtener más información, vea “Para volver a firmar una plantilla de directiva de permisos” en “Operación de un servidor RMS” en esta recopilación de documentación.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Producción</p></td>
 <td style="border:1px solid black;"><p>Redistribuya las plantillas a los equipos cliente que participaron en la implementación piloto.</p></td>
 <td style="border:1px solid black;"><p>Es preciso quitar las viejas plantillas y reemplazarlas por las plantillas firmadas por este servidor.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Producción</p></td>
 <td style="border:1px solid black;"><p>Importe el archivo de dominio de usuario de confianza que exportó en el paso 4.</p></td>

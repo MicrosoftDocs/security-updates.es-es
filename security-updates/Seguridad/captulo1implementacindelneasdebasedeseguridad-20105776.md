@@ -531,42 +531,42 @@ Al ejecutar el archivo de Windows Installer (.msi), crea la carpeta **Windows V
 <td style="border:1px solid black;"><p>SCE Update<br />
 \Restore_SCE_to_Default.vbs</p></td>
 <td style="border:1px solid black;"><p>Secuencia de comandos que restaura los valores predeterminados de SCE de Windows Vista.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SCE Update<br />
 \Sceregvl_Vista.inf.txt</p></td>
 <td style="border:1px solid black;"><p>Archivo predeterminado SCEREGVL.INF de Windows Vista que revierte los valores originales de SCE.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SCE Update<br />
 \Strings-sceregvl.txt</p></td>
 <td style="border:1px solid black;"><p>Archivo de texto que contiene los valores de cadena necesarios para agregar la configuración de MSS al SCE.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SCE Update<br />
 \Update_SCE_with_MSS_Regkeys.vbs</p></td>
 <td style="border:1px solid black;"><p>Secuencia de comandos que modifica el SCE para incluir la configuración de MSS.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SCE Update<br />
 \Sce.reg</p></td>
 <td style="border:1px solid black;"><p>Archivo de registro que contiene los valores de registro de SCE.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SCE Update<br />
 \Values-sceregvl.txt</p></td>
 <td style="border:1px solid black;"><p>Archivo de texto que contiene los valores de registro necesarios para ver la configuración de registro del SCE.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Security Group Policy Objects<br />
 \Command-line here.cmd</p></td>
 <td style="border:1px solid black;"><p>Archivo por lotes que abre un símbolo del sistema en la ruta de acceso desde la que se inicia.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Security Group Policy Objects<br />
 \GPOAccelerator.wsf</p></td>
 <td style="border:1px solid black;"><p>Herramienta principal que ejecuta una secuencia de comandos para implementar las instrucciones indicadas.<br />
-</p>  
+</p>
 <p><strong>Advertencia:</strong></p>
 <p>No use esta secuencia de comandos sin antes leer toda la información de este capítulo.</p></td>
 </tr>
@@ -574,7 +574,7 @@ Al ejecutar el archivo de Windows Installer (.msi), crea la carpeta **Windows V
 <td style="border:1px solid black;"><p>GPMCFiles<br />
 \CreateEnvironmentFromXML.wsf</p></td>
 <td style="border:1px solid black;"><p>Secuencia de comandos que crea los GPO y la estructura de UO.<br />
-</p>  
+</p>
 <p><strong>Advertencia:</strong></p>
 <p>No modifique este archivo.</p></td>
 </tr>
@@ -582,52 +582,52 @@ Al ejecutar el archivo de Windows Installer (.msi), crea la carpeta **Windows V
 <td style="border:1px solid black;"><p>GPMCFiles<br />
 \EC-VSG-GPOs.xml</p></td>
 <td style="border:1px solid black;"><p>Archivo XML que usa GPMC para crear los GPO empresariales.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>GPMCFiles<br />
 \EC-VSG-GPOs-LAB.xml</p></td>
 <td style="border:1px solid black;"><p>Archivo XML que usa GPMC para crear los GPO empresariales y la estructura de UO de muestra.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>GPMCFiles<br />
 \SSLF-VSG-GPOs.xml</p></td>
 <td style="border:1px solid black;"><p>Archivo XML que usa GPMC para crear los GPO empresariales.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>GPMCFiles<br />
 \SSLF-VSG-GPOs-LAB.xml</p></td>
 <td style="border:1px solid black;"><p>Archivo XML que usa GPMC para crear los GPO de SSLF y la estructura de UO recomendada.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>GPMCFiles<br />
 \EC-VSGAuditPolicy.txt</p></td>
 <td style="border:1px solid black;"><p>Archivo de texto que usa la implementación de directiva de auditoría detallada que se incluye en esta guía.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>GPMCFiles<br />
 \EC-VSGAuditPolicy.cmd</p></td>
 <td style="border:1px solid black;"><p>Archivo de comandos que usa la implementación de directiva de auditoría detallada que se incluye en esta guía.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>GPMCFiles<br />
 \EC-VSGApplyAuditPolicy.cmd</p></td>
 <td style="border:1px solid black;"><p>Archivo de comandos que usa la implementación de directiva de auditoría detallada que se incluye en esta guía.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>GPMCFiles<br />
 \SSLF-VSGAuditPolicy.txt</p></td>
 <td style="border:1px solid black;"><p>Archivo de texto que usa la implementación de directiva de auditoría detallada que se incluye en esta guía.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>GPMCFiles<br />
 \SSLF-VSGAuditPolicy.cmd</p></td>
 <td style="border:1px solid black;"><p>Archivo de comandos que usa la implementación de directiva de auditoría detallada que se incluye en esta guía.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>GPMCFiles<br />
 \SSLF-VSGApplyAuditPolicy.cmd</p></td>
 <td style="border:1px solid black;"><p>Archivo de comandos que usa la implementación de directiva de auditoría detallada que se incluye en esta guía.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Security Templates</p></td>
 <td style="border:1px solid black;"><p>Carpeta que contiene los archivos .inf de plantillas de seguridad que puede usar para implementar algunos parámetros de seguridad que se indican en esta guía.</p>
@@ -637,53 +637,53 @@ Al ejecutar el archivo de Windows Installer (.msi), crea la carpeta **Windows V
 <td style="border:1px solid black;"><p>Security Templates<br />
 \EC-VSG Desktop.inf</p></td>
 <td style="border:1px solid black;"><p>Plantilla de seguridad de escritorio empresarial</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Security Templates<br />
 \EC-VSG Domain.inf</p></td>
 <td style="border:1px solid black;"><p>Plantilla de seguridad de dominio empresarial</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Security Templates<br />
 \EC-VSG Laptop.inf</p></td>
 <td style="border:1px solid black;"><p>Plantilla de seguridad de equipo portátil empresarial</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Security Templates<br />
 \SSLF-VSG Desktop.inf</p></td>
 <td style="border:1px solid black;"><p>Plantilla de seguridad de escritorio de SSLF</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Security Templates<br />
 \SSLF-VSG Domain.inf</p></td>
 <td style="border:1px solid black;"><p>Plantilla de seguridad de dominio SSLF</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Security Templates<br />
 \SSLF-VSG Laptop.inf</p></td>
 <td style="border:1px solid black;"><p>Plantilla de seguridad de equipo portátil de SSLF</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Security Templates<br />
 \Vista Default Security.cmd</p></td>
 <td style="border:1px solid black;"><p>Archivo de comandos que se usa como parte de la restauración de la configuración predeterminada de directiva de seguridad local de Windows Vista.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Security Templates<br />
 \Vista Default Security.inf</p></td>
 <td style="border:1px solid black;"><p>Plantilla de seguridad que se usa como parte de la restauración de la configuración predeterminada de directiva de seguridad local de Windows Vista.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Security Templates<br />
 \Vista Default Security.sdb</p></td>
 <td style="border:1px solid black;"><p>Archivo de base de datos de seguridad que se usa como parte de la restauración de la configuración predeterminada de directiva de seguridad local de Windows Vista.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Security Templates<br />
 \Vista Local Security.sdb</p></td>
 <td style="border:1px solid black;"><p>Archivo de base de datos de seguridad que se usa al aplicar las plantillas de seguridad de VSG en un equipo.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Principio de la página](#mainsection)

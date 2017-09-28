@@ -34,14 +34,14 @@ The following are the command line for wuauclt.
 <tr class="odd">
 <td style="border:1px solid black;"><p>/a /ResetAuthorization</p></td>
 <td style="border:1px solid black;"><p>Initiates an asynchronous background search for applicable updates. If Automatic Updates is disabled, this option has no effect.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>/r /ReportNow</p></td>
 <td style="border:1px solid black;"><p>Sends all queued reporting events to the server asynchronously.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>/? /h /help</p></td>
 <td style="border:1px solid black;"><p>Shows this help information.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

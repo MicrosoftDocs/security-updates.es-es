@@ -29,14 +29,14 @@ En la siguiente tabla, se listan los contadores de rendimiento disponibles para 
 <tr class="odd">
 <td style="border:1px solid black;"><p>Logging Failures</p></td>
 <td style="border:1px solid black;"><p>Número total de intentos de registro que no se han procesado completamente.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Logging Processing Time</p></td>
 <td style="border:1px solid black;"><p>Tiempo, en microsegundos, utilizado para procesar solicitudes de registro.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Logging Requests</p></td>
 <td style="border:1px solid black;"><p>Número total de solicitudes de registro que ha recibido el servicio de registro.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

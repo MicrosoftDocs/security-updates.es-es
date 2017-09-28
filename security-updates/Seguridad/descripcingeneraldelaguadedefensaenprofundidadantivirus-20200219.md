@@ -165,24 +165,24 @@ En la tabla siguiente se indican las convenciones de estilo que se utilizan en l
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Negrita</strong></p></td>
 <td style="border:1px solid black;"><p>Los nombres de archivo y los elementos de la interfaz de usuario aparecen en negrita.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>Cursiva</em><br />
 o<br />
 <em>&lt;Cursiva&gt;</em></p></td>
 <td style="border:1px solid black;"><p>La cursiva se aplica a caracteres que escribe el usuario y que pueden cambiar. Los caracteres en cursiva que aparecen entre corchetes angulares representan marcadores de posición variables en los que el usuario debe facilitar valores específicos. Ejemplo:</p>
-<p><em>  &lt;Nombredearchivo.ext&gt;</em> indica que debería sustituir el texto<em> </em><br />  
-<em>Nombredearchivo.ext</em> en cursiva por otro nombre de archivo que sea adecuado para la<br />  
-configuración.<br />  
-</p>  
-<p>La cursiva también se utiliza para representar nuevos términos. Ejemplo:</p>  
+<p><em>  &lt;Nombredearchivo.ext&gt;</em> indica que debería sustituir el texto<em> </em><br />
+<em>Nombredearchivo.ext</em> en cursiva por otro nombre de archivo que sea adecuado para la<br />
+configuración.<br />
+</p>
+<p>La cursiva también se utiliza para representar nuevos términos. Ejemplo:</p>
 <p><em>  Identidad digital:</em> atributos descriptivos e identificador único de<br />
   una persona, grupo, dispositivo o servicio.</p></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Fuente de texto de la pantalla</p></td>
 <td style="border:1px solid black;"><p>Esta fuente define el texto de salida que se muestra en la pantalla.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><pre><code>Fuente de código Monospace</code></pre>
 <br />
@@ -201,24 +201,24 @@ configuración.<br />
 <tr class="even">
 <td style="border:1px solid black;"><p>%SystemRoot%</p></td>
 <td style="border:1px solid black;"><p>La carpeta en la que se ha instalado el sistema operativo Windows.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Nota</strong></p></td>
 <td style="border:1px solid black;"><p>Avisa al lector de que hay información adicional.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Importante</strong></p></td>
 <td style="border:1px solid black;"><p>Avisa al lector de que hay información adicional que resulta esencial para completar una tarea.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Precaución</strong></p></td>
 <td style="border:1px solid black;"><p>Avisa al lector de que si no se realiza o pasa por alto una determinada acción, se podrá producir una pérdida de datos.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Advertencia</strong></p></td>
 <td style="border:1px solid black;"><p>Avisa al lector de que si no se realiza o pasa por alto una determinada acción, el usuario o el hardware podría resultar dañado físicamente.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Principio de la página](#mainsection)
@@ -1849,86 +1849,86 @@ Otro comportamiento común del software malintencionado es el uso de carpetas co
 **Tabla 4.1: Recursos compartidos de carpeta predeterminados de Windows XP**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Carpeta compartida</p></th>  
-<th><p>Ruta compartida</p></th>  
-<th><p>Comentarios</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Carpeta compartida</p></th>
+<th><p>Ruta compartida</p></th>
+<th><p>Comentarios</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ADMIN$</p></td>
 <td style="border:1px solid black;"><p>C:\Windows</p></td>
 <td style="border:1px solid black;"><p>Administración remota</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>C$</p></td>
 <td style="border:1px solid black;"><p>C:\</p></td>
 <td style="border:1px solid black;"><p>Recurso compartido predeterminado</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>&lt;n&gt;$</p></td>
 <td style="border:1px solid black;"><p>&lt;n:&gt;\</p></td>
 <td style="border:1px solid black;"><p>Representa un recurso compartido para la raíz de cada unidad fija del sistema.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SharedDocs</p></td>
 <td style="border:1px solid black;"><p>C:\Documents and Settings\All Users\Documents</p></td>
 <td style="border:1px solid black;"><p>Se agregará si se ha habilitado el uso compartido de archivos locales.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Tabla 4.2: Recursos compartidos de carpeta predeterminados de Windows Server 2003 y Windows 2000 Server**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Carpeta compartida</p></th>  
-<th><p>Ruta compartida</p></th>  
-<th><p>Comentarios</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Carpeta compartida</p></th>
+<th><p>Ruta compartida</p></th>
+<th><p>Comentarios</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ADMIN$</p></td>
 <td style="border:1px solid black;"><p>C:\Windows</p></td>
 <td style="border:1px solid black;"><p>Administración remota</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>C$</p></td>
 <td style="border:1px solid black;"><p>C:\</p></td>
 <td style="border:1px solid black;"><p>Recurso compartido predeterminado</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>&lt;n&gt;$</p></td>
 <td style="border:1px solid black;"><p>&lt;n:&gt;\</p></td>
 <td style="border:1px solid black;"><p>Representa un recurso compartido para la raíz de cada unidad fija del sistema.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SharedDocs</p></td>
 <td style="border:1px solid black;"><p>C:\Documents and Settings\All Users\Documents</p></td>
 <td style="border:1px solid black;"><p>Se agregará si se ha habilitado el uso compartido de archivos locales.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Wwwroot$</p></td>
 <td style="border:1px solid black;"><p>C:\inetpub\wwwroot</p></td>
 <td style="border:1px solid black;"><p>Se configurará si Servicios de Internet Information Server (IIS) se ha instalado como servidor Web.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 También puede examinar los permisos en estos recursos compartidos con la herramienta de la línea de comandos **SrvCheck** de la página "Windows Server 2003 Resource Kit Tools" en Microsoft.com: [http://go.microsoft.com/fwlink/?LinkId=4544](http://go.microsoft.com/fwlink/?linkid=4544) (en inglés).
@@ -2014,35 +2014,35 @@ El factor principal a considerar en la elección de una opción u otra es el niv
 **Tabla 4.3: Ventajas y desventajas de la limpieza y la reconstrucción del sistema**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Limpieza</p></th>  
-<th><p>Reconstrucción</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Limpieza</p></th>
+<th><p>Reconstrucción</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Proceso sencillo, si se dispone de herramientas de limpieza.</p></td>
 <td style="border:1px solid black;"><p>Proceso más complejo, especialmente si no se cuenta con una solución de copia de seguridad o recuperación antes de la infección.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>La limpieza de los datos se realiza en menos pasos.</p></td>
 <td style="border:1px solid black;"><p>Los pasos a seguir son más numerosos: capturar, realizar copias de seguridad, limpiar, examinar y restaurar los datos.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Las herramientas de eliminación utilizan menos recursos que la reconstrucción completa del sistema.</p></td>
 <td style="border:1px solid black;"><p>El proceso de reconstrucción puede requerir una cantidad de tiempo significativa y consumir muchos recursos.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Existe el riesgo de que el sistema aún esté infectado.</p></td>
 <td style="border:1px solid black;"><p>Escaso riesgo de que el sistema aún esté infectado si se restaura a partir de medios limpios y datos administrados de forma correcta.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Nota**: si se opta por la limpieza de un sistema infectado, los equipos legales y de administración de la organización deben llevar a cabo un análisis de riesgos para determinar si están dispuestos a aceptar la posibilidad de un futuro ataque si el proceso de limpieza no elimina parte del código malintencionado.

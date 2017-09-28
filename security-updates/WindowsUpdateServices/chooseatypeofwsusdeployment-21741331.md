@@ -110,7 +110,7 @@ When you set up a WSUS server hierarchy, you should point Automatic Updates on a
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Confirm that the system time on the upstream and downstream servers is the same. Downstream servers roll up information to their upstream server immediately after they synchronize. If there is difference in the system time between servers that is greater than one minute, the rollup will fail and the downstream server results will not be rolled up to the upstream server.
-<p></p>  
+<p></p>
 Configure the downstream servers to synchronize at different times of day. If you have multiple downstream servers, you should not configure them to synchronize updates and roll up results at the same time of day. This may cause a high load on the upstream server, resulting in rollup failures.
 <p></p></td>
 </tr>

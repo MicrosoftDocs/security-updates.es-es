@@ -111,23 +111,23 @@ Los tipos de certificados requeridos se muestran en la tabla siguiente. Aunque n
 <td style="border:1px solid black;"><p>WLAN segura</p></td>
 <td style="border:1px solid black;"><p>Certificados de autenticación de cliente para usuarios</p></td>
 <td style="border:1px solid black;"><p>Todos los usuarios que requieren acceso a la WLAN</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Certificados de autenticación de cliente para equipos</p></td>
 <td style="border:1px solid black;"><p>Todos los equipos de la LAN inalámbrica</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Certificados de autenticación de servidor para los servidores IAS</p></td>
 <td style="border:1px solid black;"><p>Todos los servidores IAS</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Active Directory</p></td>
 <td style="border:1px solid black;"><p>Autenticación de controladores de dominio</p></td>
 <td style="border:1px solid black;"><p>Todos los controladores de dominio del bosque</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 En el futuro, la PKI podría ampliarse y emitir certificados para las aplicaciones que aparecen en las tablas siguientes.
@@ -135,76 +135,76 @@ En el futuro, la PKI podría ampliarse y emitir certificados para las aplicacion
 **Tabla 4.2: Posibles requisitos de certificados futuros**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Aplicación</p></th>  
-<th><p>Tipo de certificado</p></th>  
-<th><p>Número de certificados</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Aplicación</p></th>
+<th><p>Tipo de certificado</p></th>
+<th><p>Número de certificados</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Acceso de clientes a red privada virtual (VPN)</p></td>
 <td style="border:1px solid black;"><p>Autenticación del equipo cliente (IPSec)</p></td>
 <td style="border:1px solid black;"><p>Todos los clientes VPN remotos</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>VPN de sucursal a sucursal</p></td>
 <td style="border:1px solid black;"><p>Autenticación de servidor VPN (IPSec)</p></td>
 <td style="border:1px solid black;"><p>Todos los enrutadores VPN</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Seguridad IP (IPSec)</p></td>
 <td style="border:1px solid black;"><p>Autenticación del cliente equipo</p></td>
 <td style="border:1px solid black;"><p>Todos los equipos cliente y servidor que requieren IPSec</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Seguridad Web</p></td>
 <td style="border:1px solid black;"><p>Autenticación de usuarios para aplicaciones Web de intranet</p></td>
 <td style="border:1px solid black;"><p>Todos los usuarios</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Servidor Web de intranet</p></td>
 <td style="border:1px solid black;"><p>Servidores Web de intranet segura</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Sistema de cifrado de archivos (EFS)</p></td>
 <td style="border:1px solid black;"><p>Usuario EFS</p></td>
 <td style="border:1px solid black;"><p>Todos los usuarios</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Recuperación de datos EFS</p></td>
 <td style="border:1px solid black;"><p>Agentes de recuperación</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Correo electrónico seguro</p></td>
 <td style="border:1px solid black;"><p>Firma y cifrado de Extensiones seguras multipropósito al correo de Internet (S/MIME)</p></td>
 <td style="border:1px solid black;"><p>Todos los usuarios de correo electrónico</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Recuperación de claves</p></td>
 <td style="border:1px solid black;"><p>Agentes de recuperación</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Tarjetas inteligentes</p></td>
 <td style="border:1px solid black;"><p>Inicio de sesión de tarjeta inteligente</p></td>
 <td style="border:1px solid black;"><p>Usuarios de dominio</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Firma de código</p></td>
 <td style="border:1px solid black;"><p>Firma de macro y código internos</p></td>
 <td style="border:1px solid black;"><p>Administrador de versión de códigos</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Definición de clientes de certificados
@@ -235,26 +235,26 @@ Para esta solución, las categorías de cliente se resumen en las tablas siguien
   
 **Tabla 4.3: Categorías de sujetos de certificados (entidades finales)**
   
-<table style="width:100%;">  
-<colgroup>  
-<col width="16%" />  
-<col width="16%" />  
-<col width="16%" />  
-<col width="16%" />  
-<col width="16%" />  
-<col width="16%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Certificado</p></th>  
-<th><p>Tipo de cliente</p></th>  
-<th><p>Plataforma</p></th>  
-<th><p>Ubicación</p></th>  
-<th><p>Dominio</p></th>  
-<th><p>Operaciones del certificado</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="width:100%;">
+<colgroup>
+<col width="16%" />
+<col width="16%" />
+<col width="16%" />
+<col width="16%" />
+<col width="16%" />
+<col width="16%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Certificado</p></th>
+<th><p>Tipo de cliente</p></th>
+<th><p>Plataforma</p></th>
+<th><p>Ubicación</p></th>
+<th><p>Dominio</p></th>
+<th><p>Operaciones del certificado</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Autenticación de cliente inalámbrico</p></td>
 <td style="border:1px solid black;"><p>User</p></td>
@@ -337,8 +337,8 @@ En esta aplicación, los usuarios de los certificados serán el mismo conjunto d
 <td style="border:1px solid black;"><p>Red interna</p></td>
 <td style="border:1px solid black;"><p>Miembro de dominio</p></td>
 <td style="border:1px solid black;"><p>–verificar</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 En las tablas anteriores puede identificar las plataformas y las clases de operaciones con las que debe ofrecer compatibilidad. Aunque éste no sea el caso en el escenario de WLAN, es posible que para otras aplicaciones necesite admitir la búsqueda o la comprobación de certificados por clientes en Internet, admitir la inscripción desde plataformas ajenas a Windows, etc. Muchos de estos puntos deben decidirse en una fase temprana del proceso de diseño, por lo que es importante considerar los posibles requisitos de certificados futuros.
@@ -372,37 +372,37 @@ Para esta solución, la tabla siguiente define tres niveles de seguridad.
 **Tabla 4.5: Niveles de seguridad de los certificados**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nivel</p></th>  
-<th><p>Requisitos de registro</p></th>  
-<th><p>Requisitos de almacenamiento de claves</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nivel</p></th>
+<th><p>Requisitos de registro</p></th>
+<th><p>Requisitos de almacenamiento de claves</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Estándar</p>
 <p>(Baja)</p></td>
 <td style="border:1px solid black;"><p>Aprobación automática dependiente del dominio u otra identificación basada en contraseña</p></td>
 <td style="border:1px solid black;"><p>Claves de software</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Media</p></td>
 <td style="border:1px solid black;"><p>Aprobación del administrador de certificados, comprobación visual de identificador (tarjetas inteligentes) o firma de la oficina de inscripción</p></td>
 <td style="border:1px solid black;"><p>Claves de software o token de prueba contra manipulaciones de hardware (tarjeta inteligente o token USB)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Alta</p></td>
 <td style="border:1px solid black;"><p>Firma del oficial de inscripción nominado y aprobación del administrador de certificados</p></td>
 <td style="border:1px solid black;"><p>Token de prueba contra manipulaciones de hardware (tarjeta inteligente o token USB)</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Existe cierto grado de superposición entre estas categorías. No se trata de divisiones técnicas estrictas, sino de divisiones de directivas. En su organización, los límites entre ellas se basarán en las decisiones de directivas que tome acerca de cómo desea que se traten los certificados. Por lo general, los certificados de seguridad alta son escasos, mientras que los certificados de seguridad baja son muy comunes.
@@ -422,25 +422,25 @@ La razón de esta distinción es que, a estos tipos de sujetos diferentes, se le
 **Tabla 4.6: Categorías de seguridad de los certificados**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Categoría de seguridad de certificado</p></th>  
-<th><p>Características de ejemplo de categoría de seguridad</p></th>  
-<th><p>Tipos de certificado de ejemplo</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Categoría de seguridad de certificado</p></th>
+<th><p>Características de ejemplo de categoría de seguridad</p></th>
+<th><p>Tipos de certificado de ejemplo</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Certificados de equipo</td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Certificados de equipo de seguridad estándar</p></td>
 <td style="border:1px solid black;"><p>–aprobación automática basada en las credenciales del dominio del equipo</p>
@@ -468,30 +468,30 @@ La razón de esta distinción es que, a estos tipos de sujetos diferentes, se le
 <td style="border:1px solid black;">Certificados de usuario interno</td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Certificados de usuario interno de seguridad estándar</p></td>
 <td style="border:1px solid black;"><p>–aprobación automática basada en las credenciales del dominio del usuario</p>
 <p>–renovación anual</p></td>
 <td style="border:1px solid black;"><p>Usuario EFS</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Certificados de usuario interno de seguridad media</p></td>
 <td style="border:1px solid black;"><p>–aprobación necesaria por parte del administrador de certificados u oficial de inscripción</p>
 <p>–almacenamiento de claves en tarjeta inteligente o software</p>
 <p>–renovación anual</p></td>
 <td style="border:1px solid black;"><p>–correo electrónico seguro</p>
-<p>–autorización financiera de valor bajo-medio</p>  
-<p>–inicio de sesión con tarjeta inteligente</p>  
-<p>–firma de códigos internos</p>  
+<p>–autorización financiera de valor bajo-medio</p>
+<p>–inicio de sesión con tarjeta inteligente</p>
+<p>–firma de códigos internos</p>
 <p>–agente de recuperación de datos</p>
 <p>–agente de recuperación de claves</p></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Certificados de usuario interno de seguridad alta</p></td>
 <td style="border:1px solid black;"><p>–comprobación necesaria del identificador físico del sujeto del certificado</p>
-<p>–aprobación necesaria por parte del administrador de certificados</p>  
-<p>–firma de la oficina de inscripción requerida mediante solicitud</p>  
+<p>–aprobación necesaria por parte del administrador de certificados</p>
+<p>–firma de la oficina de inscripción requerida mediante solicitud</p>
 <p>–almacenamiento de claves en tarjeta inteligente</p>
 <p>–renovación semestral</p></td>
 <td style="border:1px solid black;"><p>–autorización financiera de valor alto</p>
@@ -501,30 +501,30 @@ La razón de esta distinción es que, a estos tipos de sujetos diferentes, se le
 <td style="border:1px solid black;">Certificados (de usuarios) externos</td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Certificados externos de garantía estándar</p></td>
 <td style="border:1px solid black;"><p>–aprobación automática basada en contraseña preasignada</p>
 <p>–renovación anual</p></td>
 <td style="border:1px solid black;"><p>Autenticación de cliente (autenticación en el sitio Web de Internet)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Certificados externos de seguridad media</p></td>
 <td style="border:1px solid black;"><p>–aprobación necesaria por parte del administrador de certificados</p>
 <p>–almacenamiento de claves en tarjeta inteligente</p>
 <p>–renovación semestral</p></td>
 <td style="border:1px solid black;"><p>Autorización financiera de compañía a compañía (B2B)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Certificados externos de seguridad alta</p></td>
 <td style="border:1px solid black;"><p>–comprobación necesaria del identificador físico del sujeto del certificado</p>
-<p>–aprobación necesaria por parte del administrador de certificados</p>  
-<p>–firma de la oficina de inscripción requerida mediante solicitud</p>  
+<p>–aprobación necesaria por parte del administrador de certificados</p>
+<p>–firma de la oficina de inscripción requerida mediante solicitud</p>
 <p>–almacenamiento de claves en tarjeta inteligente</p>
 <p>–renovación semestral</p></td>
 <td style="border:1px solid black;"><p>Transacción B2B de valor muy alto</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Nota:** si no necesita utilizar una categoría específica, no tiene por qué crearla. Quizás desee utilizar un sistema de clasificación más simple o más complejo y no todas las combinaciones darán como resultado un tipo de certificado que vaya a emitir.
@@ -539,29 +539,29 @@ Las categorías de seguridad de certificados definidas en la sección anterior p
   
 **Tabla 4.7: Requisitos de seguridad de los certificados**
   
-<table style="width:100%;">  
-<colgroup>  
-<col width="14%" />  
-<col width="14%" />  
-<col width="14%" />  
-<col width="14%" />  
-<col width="14%" />  
-<col width="14%" />  
-<col width="14%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Tipo de certificado</p></th>  
-<th><p>Categoría de seguridad</p></th>  
-<th><p>Plataforma</p></th>  
-<th><p>Ubicación lógica</p></th>  
-<th><p>Aprobación</p></th>  
-<th><p>Clave</p>  
-<p>Tamaño</p></th>  
-<th><p>Período de validez</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="width:100%;">
+<colgroup>
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Tipo de certificado</p></th>
+<th><p>Categoría de seguridad</p></th>
+<th><p>Plataforma</p></th>
+<th><p>Ubicación lógica</p></th>
+<th><p>Aprobación</p></th>
+<th><p>Clave</p>
+<p>Tamaño</p></th>
+<th><p>Período de validez</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Autenticación de cliente: usuario</p></td>
 <td style="border:1px solid black;"><p>Certificados de equipo de seguridad estándar</p></td>
@@ -572,7 +572,7 @@ Las categorías de seguridad de certificados definidas en la sección anterior p
 <p>(autenticación de dominio)</p></td>
 <td style="border:1px solid black;"><p>Media</p></td>
 <td style="border:1px solid black;"><p>Media</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Autenticación de cliente: equipo</p></td>
 <td style="border:1px solid black;"><p>Certificados de usuario de seguridad estándar</p></td>
@@ -583,7 +583,7 @@ Las categorías de seguridad de certificados definidas en la sección anterior p
 <p>(autenticación de dominio)</p></td>
 <td style="border:1px solid black;"><p>Media</p></td>
 <td style="border:1px solid black;"><p>Media</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Autenticación de servidor IAS</p></td>
 <td style="border:1px solid black;"><p>Certificados informáticos de seguridad intermedia</p></td>
@@ -593,8 +593,8 @@ Las categorías de seguridad de certificados definidas en la sección anterior p
 <td style="border:1px solid black;"><p>Manual</p></td>
 <td style="border:1px solid black;"><p>Media</p></td>
 <td style="border:1px solid black;"><p>Media</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Estos amplios requisitos se refinarán en perfiles de certificado específicos en la sección “Configuración de perfiles de certificados”, incluida más adelante en el capítulo.
@@ -866,22 +866,22 @@ Los requisitos de disponibilidad de cada una de ellas se detallan en la tabla si
 **Tabla 4.8: Requisitos de disponibilidad del servicio de entidad emisora**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Servicio de entidad emisora</p></th>  
-<th><p>Requisito de disponibilidad</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Servicio de entidad emisora</p></th>
+<th><p>Requisito de disponibilidad</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servicios de inscripción: certificado nuevo</p></td>
 <td style="border:1px solid black;"><p>Éste podría ser un factor significativo, ya que puede evitar que usuarios nuevos obtengan acceso a la red o a otros servicios que requieren un certificado. Debe evaluar si el tiempo requerido para recuperar la entidad emisora a partir de la copia de seguridad es mayor de lo que la organización puede esperar para que un nuevo usuario inscriba un certificado. La mayoría de las organizaciones consideran que el costo de la espera por la recuperación de la entidad emisora es menor que el costo de administración de entidades emisoras adicionales. De lo contrario, necesitará varias entidades emisoras para los tipos de certificados existentes.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servicios de inscripción: renovar certificado</p></td>
 <td style="border:1px solid black;"><p>Si se utiliza la renovación automática con un tipo de certificado determinado, se produce de forma predeterminada seis semanas antes de que caduque el certificado. Por otro lado, normalmente el tiempo de recuperación de una entidad emisora a partir de la copia de seguridad se mide en horas. La renovación manual de los certificados se deja en manos del propietario. Si lo desea, puede instituir un sistema de advertencia automatizado que alertará al propietario cuando deban renovarse certificados importantes.</p>
@@ -1006,13 +1006,13 @@ Las funciones implementadas y sus asignaciones a los grupos de seguridad (donde 
 <td style="border:1px solid black;"><p>Administradores de PKI de empresa</p></td>
 <td style="border:1px solid black;"><p>Bosque de Active Directory</p></td>
 <td style="border:1px solid black;"><p>Responsable de la PKI global: define para la empresa los tipos de certificados, las directivas de aplicación, las rutas de confianza, etc.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Publicador de la PKI de la empresa</p></td>
 <td style="border:1px solid black;"><p>Editores de PKI de empresa</p></td>
 <td style="border:1px solid black;"><p>Bosque de Active Directory</p></td>
 <td style="border:1px solid black;"><p>Responsable de publicar certificados raíz de confianza, certificados de subentidades emisoras de certificados y listas CRL en el directorio.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Administrador de entidad emisora</p></td>
 <td style="border:1px solid black;"><p>Administradores de entidad emisora</p></td>
@@ -1025,13 +1025,13 @@ Las funciones implementadas y sus asignaciones a los grupos de seguridad (donde 
 <td style="border:1px solid black;"><p>Administradores locales</p></td>
 <td style="border:1px solid black;"><p>Entidad emisora</p></td>
 <td style="border:1px solid black;"><p>Administra el sistema operativo y el servidor de entidades emisoras de certificados. También es responsable de instalar la entidad emisora y renovar el certificado de la misma. Normalmente se comparte con la función de administrador de entidad emisora de certificados.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Auditor de entidad emisora</p></td>
 <td style="border:1px solid black;"><p>Auditor de entidad emisora</p></td>
 <td style="border:1px solid black;"><p>Entidad emisora</p></td>
 <td style="border:1px solid black;"><p>Administra el registro de sucesos de auditoría y la directiva de los sucesos que se pueden auditar de las entidades emisoras de certificados.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Administrador de certificados</p></td>
 <td style="border:1px solid black;"><p>Administrador de certificados</p></td>
@@ -1054,14 +1054,14 @@ Las funciones implementadas y sus asignaciones a los grupos de seguridad (donde 
 <td style="border:1px solid black;"><p>No está definido</p></td>
 <td style="border:1px solid black;"><p>Entidad emisora</p></td>
 <td style="border:1px solid black;"><p>Contiene la clave para descifrar claves privadas archivadas en la base de datos de la entidad emisora de certificados.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Operador de copia de seguridad de la entidad emisora</p></td>
 <td style="border:1px solid black;"><p>Operador de copia de seguridad de la entidad emisora</p></td>
 <td style="border:1px solid black;"><p>Entidad emisora</p></td>
 <td style="border:1px solid black;"><p>Responsable de la copia de seguridad y recuperación de los servidores de entidad emisora y el almacenamiento seguro de los medios de copia de seguridad.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Estos grupos de seguridad se implementan como grupos universales del dominio y se aplican a la CA emisora y al directorio. Para la entidad emisora raíz, se implementan grupos equivalentes como grupos locales (aunque no hay equivalente para los administradores de PKI de empresa y editores de PKI de empresa para una entidad emisora fuera de línea). La solución supone que se utilizarán los mismos grupos de seguridad para todas las entidades emisoras de la empresa. Si no es válido para su organización, debe implementar grupos separados para cada entidad emisora para todas las funciones con ámbito de entidad emisora. (Obviamente, debe cambiarse el nombre en consonancia, por ejemplo, Administradores de entidad emisora: CA emisora 1.)
@@ -1347,41 +1347,41 @@ La vigencia de esta clave y los períodos de renovación para las entidades emis
 **Tabla 4.10: Vigencia de certificados y claves**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Sujeto de certificado</p></th>  
-<th><p>Longitud de clave</p></th>  
-<th><p>Vigencia de clave</p></th>  
-<th><p>Intervalo de renovación</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Sujeto de certificado</p></th>
+<th><p>Longitud de clave</p></th>
+<th><p>Vigencia de clave</p></th>
+<th><p>Intervalo de renovación</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Entidad emisora raíz</p></td>
 <td style="border:1px solid black;"><p>4096 bits</p></td>
 <td style="border:1px solid black;"><p>16 años</p></td>
 <td style="border:1px solid black;"><p>Ocho años</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Entidad emisora de certificados</p></td>
 <td style="border:1px solid black;"><p>2048 bits</p></td>
 <td style="border:1px solid black;"><p>Ocho años</p></td>
 <td style="border:1px solid black;"><p>Cuatro años</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Entidad final</p></td>
 <td style="border:1px solid black;"><p>De 1024 a 2048 bits</p></td>
 <td style="border:1px solid black;"><p>De seis meses a dos años</p></td>
 <td style="border:1px solid black;"><p>90 por ciento de período de validez</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 En lo que respecta a longitud de clave, se considera que las claves de 1024 bits no se pueden descifrar mediante un análisis criptográfico. Deben tener una vigencia de clave segura muy superior al valor propuesto de entidad final de 2 años. El uso de claves de 512 bits ya no se considera seguro, excepto quizás para aplicaciones con muy pocos requisitos de seguridad. Por este motivo no se utilizan claves de 512 bits en esta solución.
@@ -1405,30 +1405,30 @@ En la tabla siguiente se indican los tipos de certificados identificados previam
 **Tabla 4.11: Parámetros de certificados**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Tipo de certificado</p></th>  
-<th><p>Directiva de emisión</p></th>  
-<th><p>Método de aprobación</p></th>  
-<th><p>Clave</p></th>  
-<th><p>Período de validez</p></th>  
-<th><p>Almacenamiento de claves</p></th>  
-<th><p>Exportación de claves</p></th>  
-<th><p>CSP</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Tipo de certificado</p></th>
+<th><p>Directiva de emisión</p></th>
+<th><p>Método de aprobación</p></th>
+<th><p>Clave</p></th>
+<th><p>Período de validez</p></th>
+<th><p>Almacenamiento de claves</p></th>
+<th><p>Exportación de claves</p></th>
+<th><p>CSP</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Autenticación de cliente: usuario</p></td>
 <td style="border:1px solid black;"><p>Baja</p></td>
@@ -1438,7 +1438,7 @@ En la tabla siguiente se indican los tipos de certificados identificados previam
 <td style="border:1px solid black;"><p>Software</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>Denominado</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Autenticación de cliente: equipo</p></td>
 <td style="border:1px solid black;"><p>Baja</p></td>
@@ -1449,7 +1449,7 @@ En la tabla siguiente se indican los tipos de certificados identificados previam
 <td style="border:1px solid black;"><p>Software</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>Denominado</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Autenticación de servidor IAS</p></td>
 <td style="border:1px solid black;"><p>Media</p></td>
@@ -1459,8 +1459,8 @@ En la tabla siguiente se indican los tipos de certificados identificados previam
 <td style="border:1px solid black;"><p>Software</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>Denominado</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Notas:**   
@@ -1478,50 +1478,50 @@ Los requisitos de aplicación para la lista de certificados requeridos en esta s
 **Tabla 4.12: Autenticación de cliente: usuario**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Parámetro del certificado</p></th>  
-<th><p>Valor obligatorio</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Parámetro del certificado</p></th>
+<th><p>Valor obligatorio</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nombre de plantilla de certificado</p></td>
 <td style="border:1px solid black;"><p>Autenticación de cliente: usuario</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Publicación de Active Directory</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Uso de claves</p></td>
 <td style="border:1px solid black;"><p>Firma digital</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Almacenamiento de claves</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tamaño mínimo de la clave</p></td>
 <td style="border:1px solid black;"><p>1024</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Nombre de asunto</p></td>
 <td style="border:1px solid black;"><p>Nombre común</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nombre alternativo del sujeto</p></td>
 <td style="border:1px solid black;"><p>Nombre principal de usuario</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Directivas de aplicación/Uso de clave ampliada</p></td>
 <td style="border:1px solid black;"><p>Autenticación de cliente</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Proveedores de servicios de cifrado (CSP)</p></td>
 <td style="border:1px solid black;"><p>Microsoft Base Cryptographic Provider v1.0</p>
@@ -1530,33 +1530,33 @@ Los requisitos de aplicación para la lista de certificados requeridos en esta s
 <tr class="even">
 <td style="border:1px solid black;"><p>Derivado de plantilla</p></td>
 <td style="border:1px solid black;"><p>Sesión de autenticación</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Tabla 4.13: Autenticación de cliente: equipo**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Parámetro del certificado</p></th>  
-<th><p>Valor obligatorio</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Parámetro del certificado</p></th>
+<th><p>Valor obligatorio</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nombre de plantilla de certificado</p></td>
 <td style="border:1px solid black;"><p>Autenticación de cliente: equipo</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Publicación de Active Directory</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Uso de claves</p></td>
 <td style="border:1px solid black;"><p>Firma digital</p>
@@ -1565,57 +1565,57 @@ Los requisitos de aplicación para la lista de certificados requeridos en esta s
 <tr class="even">
 <td style="border:1px solid black;"><p>Almacenamiento de claves</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tamaño mínimo de la clave</p></td>
 <td style="border:1px solid black;"><p>1024</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Nombre de asunto</p></td>
 <td style="border:1px solid black;"><p>Nombre común</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nombre alternativo del sujeto</p></td>
 <td style="border:1px solid black;"><p>Nombre DNS</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Directivas de aplicación/Uso de clave ampliada</p></td>
 <td style="border:1px solid black;"><p>Autenticación de cliente</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Proveedores de servicios de cifrado (CSP)</p></td>
 <td style="border:1px solid black;"><p>Proveedor de cifrado RSA SChannel de Microsoft</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Derivado de plantilla</p></td>
 <td style="border:1px solid black;"><p>Autenticación de estación de trabajo</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Tabla 4.14: Autenticación de servidor 802.1X**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Parámetro del certificado</p></th>  
-<th><p>Valor obligatorio</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Parámetro del certificado</p></th>
+<th><p>Valor obligatorio</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nombre de plantilla de certificado</p></td>
 <td style="border:1px solid black;"><p>Autenticación de servidor 802.1X</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Publicación de Active Directory</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Uso de claves</p></td>
 <td style="border:1px solid black;"><p>Firma digital</p>
@@ -1624,32 +1624,32 @@ Los requisitos de aplicación para la lista de certificados requeridos en esta s
 <tr class="even">
 <td style="border:1px solid black;"><p>Almacenamiento de claves</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tamaño mínimo de la clave</p></td>
 <td style="border:1px solid black;"><p>1024</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Nombre de asunto</p></td>
 <td style="border:1px solid black;"><p>Nombre común</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nombre alternativo del sujeto</p></td>
 <td style="border:1px solid black;"><p>Nombre DNS</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Directivas de aplicación/Uso de clave ampliada</p></td>
 <td style="border:1px solid black;"><p>Autenticación de servidor</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Proveedores de servicios de cifrado (CSP)</p></td>
 <td style="border:1px solid black;"><p>Proveedor de cifrado RSA SChannel de Microsoft</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Derivado de plantilla</p></td>
 <td style="border:1px solid black;"><p>Servidores IAS y RAS</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Creación de plantillas de certificado
@@ -1757,27 +1757,27 @@ Los tres niveles de seguridad definidos anteriormente corresponden a las tres di
 **Tabla 4.15: Niveles de directivas de emisión de certificados**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Directiva (de emisión) de certificados</p></th>  
-<th><p>Requisitos de registro</p></th>  
-<th><p>Requisitos mínimos de almacenamiento de claves</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Directiva (de emisión) de certificados</p></th>
+<th><p>Requisitos de registro</p></th>
+<th><p>Requisitos mínimos de almacenamiento de claves</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Baja</p>
 <p>(Estándar)</p></td>
 <td style="border:1px solid black;"><p>Aprobación automática dependiente de la autenticación satisfactoria del dominio</p>
 <p>Para las entidades emisoras independientes, se trata de un nivel de aprobación no autenticada, es decir, la entidad emisora emite el certificado sin realizar ninguna (o una mínima) comprobación del solicitante.</p></td>
 <td style="border:1px solid black;"><p>Claves de software</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Media</p></td>
 <td style="border:1px solid black;"><p>Aprobación del administrador de certificados.</p>
@@ -1832,32 +1832,32 @@ También debería documentar el uso de los códigos de razón de revocación que
 <tr class="odd">
 <td style="border:1px solid black;"><p>Compromiso de clave</p></td>
 <td style="border:1px solid black;"><p>La clave privada del certificado ha quedado comprometida (o se sospecha que ha quedado comprometida).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Compromiso de entidad emisora</p></td>
 <td style="border:1px solid black;"><p>La clave privada de la entidad emisora ha quedado comprometida (o se sospecha que ha quedado comprometida).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Cambio de afiliación</p></td>
 <td style="border:1px solid black;"><p>El sujeto se ha pasado a una organización diferente.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Reemplazadas</p></td>
 <td style="border:1px solid black;"><p>Se ha emitido un nuevo certificado que ocupa el lugar de éste.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Cese de operaciones</p></td>
 <td style="border:1px solid black;"><p>La entidad emisora ya no está operativa.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Certificado retenido</p></td>
 <td style="border:1px solid black;"><p>Debe suspenderse temporalmente el uso de certificados (por ejemplo, si un usuario no encuentra su tarjeta inteligente pero no está seguro de si la ha perdido).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Sin especificar</p></td>
 <td style="border:1px solid black;"><p>Cualquier razón que no cubran los demás códigos.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Importante:** debe evitar el uso del código de razón de retención de certificado a menos que esté estrictamente justificado. Cuando se retiene un certificado y seguidamente se libera, no es posible determinar el estado de revocación de un certificado (y, por lo tanto, la validez de cualquier firma realizada por ese certificado) en un momento determinado.
@@ -1879,65 +1879,65 @@ También hay varios parámetros técnicos que rigen la revocación de certificad
 **Tabla 4.17: Parámetros de revocación de certificados de entidad emisora raíz**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Parámetro</p></th>  
-<th><p>Valor seleccionado</p></th>  
-<th><p>Motivo</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Parámetro</p></th>
+<th><p>Valor seleccionado</p></th>
+<th><p>Motivo</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Ubicaciones de publicación de CRL (CDP)</p></td>
 <td style="border:1px solid black;"><p>Ruta de acceso HTTP a servidor Web interno</p></td>
 <td style="border:1px solid black;"><p>La publicación en un servidor Web permite la creación de una copia de seguridad en la ubicación LDAP y el acceso a la CRL de clientes no pertenecientes a LDAP.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Ruta de acceso LDAP para el contenedor de CDP de Active Directory</p></td>
 <td style="border:1px solid black;"><p>La publicación en todos los controladores del dominio permite un acceso local fácil para todos los usuarios del dominio.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tipo de CRL</p></td>
 <td style="border:1px solid black;"><p>Sólo la lista CRL base</p></td>
 <td style="border:1px solid black;"><p>Debido al pequeño número de certificados que se emiten, no hay ninguna ventaja en utilizar listas diferencias entre listas CRL.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Programa de publicación</p></td>
 <td style="border:1px solid black;"><p>Seis meses</p></td>
 <td style="border:1px solid black;"><p>Esto dificulta la revocación de certificados de la entidad emisora, por lo que requiere confianza en la seguridad de la entidad emisora. Sin embargo, este período largo mantiene al mínimo la administración de la entidad emisora raíz.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Período de coincidencia de listas CRL (intervalo entre la publicación de la lista CRL nueva publicada y la lista CRL caducada)</p></td>
 <td style="border:1px solid black;"><p>10 días</p></td>
 <td style="border:1px solid black;"><p>Permite un margen de error para recuperar la nueva lista CRL de la entidad emisora raíz.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Tabla 4.18: Parámetros de revocación de certificados de entidad emisora**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Parámetro</p></th>  
-<th><p>Valor seleccionado</p></th>  
-<th><p>Motivo</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Parámetro</p></th>
+<th><p>Valor seleccionado</p></th>
+<th><p>Motivo</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Ubicaciones de publicación de CRL (CDP)</p></td>
 <td style="border:1px solid black;"><p>Ruta de acceso LDAP al contenedor de CDP de Active Directory (tanto para listas CRL base como para diferencias entre listas CRL)</p></td>
@@ -1948,34 +1948,34 @@ También hay varios parámetros técnicos que rigen la revocación de certificad
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Ruta de acceso HTTP a servidor Web interno</p></td>
 <td style="border:1px solid black;"><p>La publicación en un servidor Web permite la creación de una copia de seguridad en la ubicación LDAP y el acceso a la CRL de clientes no pertenecientes a LDAP.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tipo de CRL</p></td>
 <td style="border:1px solid black;"><p>Lista CRL base</p>
 <p>Diferencia entre listas CRL</p></td>
 <td style="border:1px solid black;"><p>Las diferencias entre listas CRL son útiles para optimizar el tráfico de recuperación de listas CRL a la vez que proporcionar un tiempo relativamente breve para la publicación de la información de revocación.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Programa de publicación</p></td>
 <td style="border:1px solid black;"><p>Lista CRL base: siete días</p></td>
 <td style="border:1px solid black;"><p>Este intervalo debe ser lo suficientemente frecuente para que los sistemas que no comprenden la diferencia entre listas CRL sigan recibiendo información de revocación relativamente reciente.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Diferencia entre listas CRL: un día</p></td>
 <td style="border:1px solid black;"><p>Para clientes modernos que pueden utilizar diferencias entre listas CRL, ofrece un tiempo de revocación relativamente pequeño.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Período de coincidencia de listas CRL base (intervalo entre la publicación de la nueva lista CRL y la caducidad de la anterior)</p></td>
 <td style="border:1px solid black;"><p>Cuatro días</p></td>
 <td style="border:1px solid black;"><p>Esto permite un margen de error para la recuperación de la entidad emisora en caso de que no se pueda publicar a tiempo una lista CRL base. Se han elegido cuatro días en previsión del peor caso que se puede dar: error en la entidad emisora un viernes por la noche de un fin de semana largo (lunes fiesta) y que nadie se dé cuenta hasta el martes siguiente.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Período de coincidencia de diferencia entre listas CRL</p></td>
 <td style="border:1px solid black;"><p>1 día</p></td>
 <td style="border:1px solid black;"><p>Las diferencias entre CRL no son críticas para el servicio, por lo que no es catastrófico si se produce un error en la publicación de la diferencia entre listas CRL. Se establece para que la coincidencia sea mayor que la latencia de replicación de Active Directory.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Nota:** puesto que se utilizan diferencias entre listas CRL de vigencia relativamente corta (un día), debe asegurarse de que la latencia máxima de replicación de Active Directory sea inferior al 50 por ciento del período de publicación de la diferencia entre listas CRL. De lo contrario, podría certificar clientes utilizando información de revocación obsoleta, así como posiblemente producir un efecto negativo en el tráfico de replicación de directorios para sitios con ancho de banda de red restringido. El tiempo de coincidencia de diferencia entre listas CRL debe establecerse en un valor mayor que el período de tiempo más largo que tarda la replicación de la información de directorio en el bosque.  

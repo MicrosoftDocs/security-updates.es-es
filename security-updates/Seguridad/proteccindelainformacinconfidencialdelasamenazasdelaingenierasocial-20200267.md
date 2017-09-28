@@ -332,8 +332,8 @@ Las solicitudes de información o acceso telefónico constituyen una forma de at
 <td style="border:1px solid black;"><p>Uso de la central PBX para tener acceso a sistemas informáticos</p></td>
 <td style="border:1px solid black;"><p>El pirata informático entra en los sistemas informáticos, mediante una central PBX, para robar o manipular información, infectar con malware o usar recursos.</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La mayoría de los usuarios no tienen ningún tipo de conocimientos sobre el sistema telefónico interno, aparte del propio teléfono. Éste es el factor más importante de defensa que puede incluir en su directiva de seguridad. No es habitual que los piratas informáticos contacten con los usuarios generales con este sistema. Los destinatarios más habituales suelen ser el personal de recepción o de centralitas. Debe indicarles que el servicio de ayuda es el único que está autorizado a ofrecer ayuda a los proveedores telefónicos. De esta forma, todo el personal autorizado trata con todas las llamadas de soporte de ingeniería. Este método permite que el personal destinatario pueda redirigir eficaz y rápidamente tales consultas al empleado cualificado.
@@ -344,31 +344,31 @@ El departamento de soporte es una de las defensas fundamentales frente a los pir
 **Tabla 5. Ataques telefónicos al servicio de ayuda y costos**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Objetivos de los ataques</p></th>  
-<th><p>Descripción</p></th>  
-<th><p>Costo</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Objetivos de los ataques</p></th>
+<th><p>Descripción</p></th>
+<th><p>Costo</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Solicitud de información</p></td>
 <td style="border:1px solid black;"><p>El pirata informático se hace pasar por un usuario legítimo para obtener información de la empresa.</p></td>
 <td style="border:1px solid black;"><p><strong>Información confidencial</strong></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Solicitud de acceso</p></td>
 <td style="border:1px solid black;"><p>El pirata informático se hace pasar por un usuario legítimo para obtener acceso de seguridad a los sistemas comerciales.</p></td>
 <td style="border:1px solid black;"><p><strong>Información confidencial</strong></p>
-<p><strong>Credibilidad comercial</strong></p>  
-<p><strong>Disponibilidad comercial</strong></p>  
+<p><strong>Credibilidad comercial</strong></p>
+<p><strong>Disponibilidad comercial</strong></p>
 <p><strong>Recursos</strong></p>
 <p>Dinero</p></td>
 </tr>
@@ -509,18 +509,18 @@ La seguridad de los trabajadores en casa suele estar limitada a la tecnología. 
 <td style="border:1px solid black;"><p>Robo de la identidad del usuario móvil</p></td>
 <td style="border:1px solid black;"><p>El pirata informático observa al usuario legítimo cuando éste especifica la información de inicio de sesión u otros detalles en el equipo. Esto puede permitir el robo de un equipo físico.</p></td>
 <td style="border:1px solid black;"><p><strong>Información confidencial</strong></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Robo de la identidad del usuario que trabaja en casa</p></td>
 <td style="border:1px solid black;"><p>El pirata informático se hace pasar por un trabajador de soporte de TI o un socio de mantenimiento para obtener acceso a la red del trabajador en casa y solicita el Id. y la contraseña del usuario para probar que la actualización se realizó con éxito.</p></td>
 <td style="border:1px solid black;"><p><strong>Información confidencial</strong></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Contacto directo con la red mediante la red del trabajador en casa</p></td>
 <td style="border:1px solid black;"><p>El pirata informático tiene acceso a la red de la compañía mediante la red del trabajador en casa haciéndose pasar por un ingeniero de soporte técnico. El pirata informático tiene un acceso sin límites a los recursos de la red y la compañía.</p></td>
 <td style="border:1px solid black;"><p><strong>Información confidencial</strong></p>
-<p><strong>Credibilidad comercial</strong></p>  
-<p><strong>Disponibilidad comercial</strong></p>  
+<p><strong>Credibilidad comercial</strong></p>
+<p><strong>Disponibilidad comercial</strong></p>
 <p><strong>Recursos</strong></p>
 <p>Dinero</p></td>
 </tr>
@@ -528,13 +528,13 @@ La seguridad de los trabajadores en casa suele estar limitada a la tecnología. 
 <td style="border:1px solid black;"><p>Acceso continuado a la red del trabajador en casa</p></td>
 <td style="border:1px solid black;"><p>El pirata informático o el usuario local tiene acceso de banda ancha a Internet mediante una red doméstica desprotegida.</p></td>
 <td style="border:1px solid black;"><p><strong>Recursos</strong></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Acceso a las oficinas de la compañía sin compañía</p></td>
 <td style="border:1px solid black;"><p>El pirata informático sigue a un empleado autorizado para entrar en las oficinas de la compañía.</p></td>
 <td style="border:1px solid black;"><p>Información confidencial</p>
-<p>Credibilidad comercial</p>  
-<p>Disponibilidad comercial</p>  
+<p>Credibilidad comercial</p>
+<p>Disponibilidad comercial</p>
 <p>Dinero</p>
 <p>Recursos</p></td>
 </tr>
@@ -627,8 +627,8 @@ No siempre es necesario tener información o incluso conocer a un objetivo para 
 <td style="border:1px solid black;"><p>Robo de identidad</p></td>
 <td style="border:1px solid black;"><p>El pirata informático recibe el ID. y la contraseña de un usuario autorizado.</p></td>
 <td style="border:1px solid black;"><p>Información confidencial</p>
-<p>Credibilidad comercial</p>  
-<p>Disponibilidad comercial</p>  
+<p>Credibilidad comercial</p>
+<p>Disponibilidad comercial</p>
 <p>Dinero</p>
 <p>Recursos</p></td>
 </tr>
@@ -636,8 +636,8 @@ No siempre es necesario tener información o incluso conocer a un objetivo para 
 <td style="border:1px solid black;"><p>Robo de información</p></td>
 <td style="border:1px solid black;"><p>El pirata informático usa el Id. y la contraseña del usuario autorizado para obtener acceso a los archivos de la compañía.</p></td>
 <td style="border:1px solid black;"><p><strong>Información confidencial</strong></p>
-<p><strong>Dinero</strong></p>  
-<p><strong>Recursos</strong></p>  
+<p><strong>Dinero</strong></p>
+<p><strong>Recursos</strong></p>
 <p>Credibilidad comercial</p>
 <p>Disponibilidad comercial</p></td>
 </tr>
@@ -711,88 +711,88 @@ Este grupo, el comité de control de seguridad, representa a los moderadores de 
 <td style="border:1px solid black;"><p><em>En línea</em></p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Correo electrónico</p></td>
 <td style="border:1px solid black;"><p>Todos los usuarios tienen Microsoft Outlook® en sus equipos de escritorio.</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Internet</p></td>
 <td style="border:1px solid black;"><p>Los usuarios móviles tienen Outlook Web Access (OWA) además de acceso al cliente de Outlook.</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Aplicaciones emergentes</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Actualmente no se implementa ninguna barrera tecnológica contra los elementos emergentes.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Mensajería instantánea</p></td>
 <td style="border:1px solid black;"><p>La compañía permite el uso no administrado de una serie de productos de mensajería instantánea.</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>Teléfono</em></p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Central de conmutación (PBX)</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servicio de ayuda</p></td>
 <td style="border:1px solid black;"><p>Actualmente el “servicio de ayuda” es una función de soporte informal que ofrece el departamento de TI.</p></td>
 <td style="border:1px solid black;"><p>Necesitamos ampliar los servicios de soporte para que incluyan otras áreas adicionales a la de TI.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>Gestión de residuos</em></p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Interno</p></td>
 <td style="border:1px solid black;"><p>Todos los departamentos gestionan sus propios residuos.</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Externo</p></td>
 <td style="border:1px solid black;"><p>Los contenedores están situados fuera de las instalaciones de la compañía. La recogida de basura se produce los jueves.</p></td>
 <td style="border:1px solid black;"><p>Actualmente no tenemos espacio para contenedores dentro de las instalaciones.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>Contactos directos</em></p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Seguridad física</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Seguridad de la oficina</p></td>
 <td style="border:1px solid black;"><p>Todas las oficinas permanecen abiertas durante el día.    </p></td>
 <td style="border:1px solid black;"><p>El 25% del personal trabaja desde casa.    No contamos con estándares escritos para la seguridad de los trabajadores en casa.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Trabajadores en casa</p></td>
 <td style="border:1px solid black;"><p>No tenemos protocolos de mantenimiento in situ para los trabajadores en casa.</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>Otros, específicos de la compañía</em></p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Franquicias internas</p></td>
 <td style="border:1px solid black;"><p>Todo el catering lo realiza una franquicia.</p></td>
 <td style="border:1px solid black;"><p>No sabemos nada sobre este personal y no hay ninguna directiva de seguridad para ellos.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Cuando el comité de control de seguridad conozca bien las vulnerabilidades, podrá crear una tabla Vulnerabilidades vectoriales de ataque de ingeniería social a compañías (como se muestra en el ejemplo anterior). En la tabla se señalan los protocolos de la compañía en áreas potencialmente vulnerables. Conocer las vulnerabilidades permite al comité crear un borrador con los posibles requisitos de directivas.
@@ -824,157 +824,157 @@ Según la evaluación comercial de la matriz Vulnerabilidades vectoriales de ata
 **Tabla 10. Requisitos del comité de control de seguridad y matriz de riesgos**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Vector de ataque</p></th>  
-<th><p>Posible requisito de directiva</p></th>  
-<th><p>Tipo de riesgo Información confidencial Credibilidad comercial Disponibilidad comercial Recursos Dinero</p></th>  
-<th><p>Nivel de riesgo Alto = 5 Bajo = 1</p></th>  
-<th><p>Acción</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Vector de ataque</p></th>
+<th><p>Posible requisito de directiva</p></th>
+<th><p>Tipo de riesgo Información confidencial Credibilidad comercial Disponibilidad comercial Recursos Dinero</p></th>
+<th><p>Nivel de riesgo Alto = 5 Bajo = 1</p></th>
+<th><p>Acción</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Conjunto escrito de directivas de seguridad frente a la ingeniería social</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Cambios para crear la parte de cumplimiento de la directiva del contrato del empleado estándar</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Cambios para crear la parte de cumplimiento de la directiva del contrato del contratista estándar</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>En línea</em></p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Correo electrónico</p></td>
 <td style="border:1px solid black;"><p>Directiva sobre los tipos de archivos adjuntos y cómo tratarlos</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Internet</p></td>
 <td style="border:1px solid black;"><p>Directiva de uso de Internet</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Aplicaciones emergentes</p></td>
 <td style="border:1px solid black;"><p>Directiva sobre el uso de Internet, con una especial atención en qué hacer con los cuadros de diálogo inesperados</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Mensajería instantánea</p></td>
 <td style="border:1px solid black;"><p>Directiva sobre los clientes de mensajería instantánea admitidos y permitidos</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>Teléfono</em></p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Central de conmutación (PBX)</p></td>
 <td style="border:1px solid black;"><p>Directiva sobre la administración del soporte de centrales PBX</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servicio de ayuda</p></td>
 <td style="border:1px solid black;"><p>Directiva para permitir el acceso a los datos</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>Gestión de residuos</em></p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Papel</p></td>
 <td style="border:1px solid black;"><p>Directiva para la gestión de residuos de papel</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Directrices para la gestión de contenedores</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Medios electrónicos</p></td>
 <td style="border:1px solid black;"><p>Directiva para la gestión de los materiales de residuo de medios electrónicos</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>Contactos directos</em></p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Seguridad física</p></td>
 <td style="border:1px solid black;"><p>Directiva para la administración de visitas</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Seguridad de la oficina</p></td>
 <td style="border:1px solid black;"><p>Directiva para la administración de Id. de usuario y contraseñas: no escribir las contraseñas en una nota adhesiva ni pegarla a la pantalla, por ejemplo.</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Trabajadores en casa</p></td>
 <td style="border:1px solid black;"><p>Directiva para el uso de equipos móviles fuera de la compañía</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>Otros/</em><br />
 <em>específicos de la compañía</em></p></td>
@@ -982,15 +982,15 @@ Según la evaluación comercial de la matriz Vulnerabilidades vectoriales de ata
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Franquicias internas</p></td>
 <td style="border:1px solid black;"><p>Directa para conocer los antecedentes de los empleados de franquicias internas</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 El comité de control de seguridad debe lograr un consenso sobre la importancia de un riesgo. Cada grupo comercial tendrá distintos puntos de vista sobre los riesgos que suponen las distintas amenazas.
@@ -1006,93 +1006,93 @@ El comité de control de seguridad tiene las principales áreas de seguridad y l
 **Tabla 11. Procedimiento del comité de control y documentos necesarios**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Requisito de directiva</p></th>  
-<th><p>Procedimiento / documento necesario</p></th>  
-<th><p>Acción / fecha</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Requisito de directiva</p></th>
+<th><p>Procedimiento / documento necesario</p></th>
+<th><p>Acción / fecha</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Conjunto escrito de directivas de seguridad frente a la ingeniería social</p></td>
 <td style="border:1px solid black;"><p>Ninguna</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Cambios para crear la parte de cumplimiento de la directiva del contrato del empleado estándar</p></td>
 <td style="border:1px solid black;"><ol>
-<li><p>Texto para los requisitos de nuevos contratos (legal)</p></li>  
+<li><p>Texto para los requisitos de nuevos contratos (legal)</p></li>
 <li><p>Nuevo formato para los contratos de los contratistas</p></li>
 </ol></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Cambios para crear la parte de cumplimiento de la directiva del contrato del contratista estándar</p></td>
 <td style="border:1px solid black;"><ol>
-<li><p>Texto para los requisitos de nuevos contratos (legal)</p></li>  
+<li><p>Texto para los requisitos de nuevos contratos (legal)</p></li>
 <li><p>Nuevo formato para los contratos de los contratistas</p></li>
 </ol></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Directiva para la administración de visitas</p></td>
 <td style="border:1px solid black;"><ol>
-<li><p>Procedimiento para la firma a la llegada y salida de los visitantes</p></li>  
+<li><p>Procedimiento para la firma a la llegada y salida de los visitantes</p></li>
 <li><p>Procedimiento para el acompañamiento a los visitantes</p></li>
 </ol></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Directrices para la gestión de contenedores</p></td>
 <td style="border:1px solid black;"><ol>
-<li><p>Procedimiento para el desecho de los residuos de papel (consulte Datos)</p></li>  
+<li><p>Procedimiento para el desecho de los residuos de papel (consulte Datos)</p></li>
 <li><p>Procedimiento para el desecho de los medios electrónicos (consulte Datos)</p></li>
 </ol></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Directiva para permitir el acceso a los datos</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Directiva para la gestión de residuos de papel</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Directiva para la gestión de los materiales de residuo de medios electrónicos</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Directiva para el uso de Internet, con una atención especial en lo que hacer con cuadros de diálogo inesperados</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Directiva para la administración de Id. de usuario y contraseñas: no escribir las contraseñas en una nota adhesiva ni pegarlas a la pantalla, etc.</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Directiva para el uso de equipos móviles fuera de la compañía</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Directiva para tratar los problemas relacionados con la conexión a aplicaciones relacionadas (bancarias, financieras, de compra, de administración de existencias)</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Como puede ver, esta lista puede ser muy larga. Puede decidir contratar ayuda especializada para agilizar este elemento del proceso. El comité de control de seguridad debe centrarse en las áreas que considere de gran importancia, según el proceso de evaluación de riesgos.
@@ -1184,180 +1184,180 @@ Se presentó una serie de tablas para capturar las vulnerabilidades de la ingeni
 #### Vulnerabilidades vectoriales de ataque de ingeniería social a compañías
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Vector de ataque</p></th>  
-<th><p>Descripción de uso de la compañía</p></th>  
-<th><p>Comentarios</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Vector de ataque</p></th>
+<th><p>Descripción de uso de la compañía</p></th>
+<th><p>Comentarios</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>En línea</em></p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Correo electrónico</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Internet</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Aplicaciones emergentes</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Mensajería instantánea</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>Teléfono</em></p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Central de conmutación (PBX)</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servicio de ayuda</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>Gestión de residuos</em></p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Interno</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Externo</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>Contactos directos</em></p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Seguridad física</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Seguridad de la oficina</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>Otros/específicos de la compañía</em></p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Requisitos del comité de control de seguridad y matriz de riesgos
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Vector de ataque</p></th>  
-<th><p>Posible requisito de directiva</p></th>  
-<th><p>Tipo de riesgo Información confidencial Credibilidad comercial Disponibilidad comercial Recursos Dinero</p></th>  
-<th><p>Nivel de riesgo Alto = 5 Bajo = 1</p></th>  
-<th><p>Acción</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Vector de ataque</p></th>
+<th><p>Posible requisito de directiva</p></th>
+<th><p>Tipo de riesgo Información confidencial Credibilidad comercial Disponibilidad comercial Recursos Dinero</p></th>
+<th><p>Nivel de riesgo Alto = 5 Bajo = 1</p></th>
+<th><p>Acción</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>En línea</em></p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>Teléfono</em></p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>Gestión de residuos</em></p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>Contactos directos</em></p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>Otros/</em><br />
 <em>específicos de la compañía</em></p></td>
@@ -1365,173 +1365,173 @@ Se presentó una serie de tablas para capturar las vulnerabilidades de la ingeni
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Procedimiento del comité de control y documentos necesarios
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Requisito de directiva</p></th>  
-<th><p>Procedimiento / documento necesario</p></th>  
-<th><p>Acción en / fecha</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Requisito de directiva</p></th>
+<th><p>Procedimiento / documento necesario</p></th>
+<th><p>Acción en / fecha</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Lista de comprobación de implementación de la directiva de seguridad
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Acción</p></th>  
-<th><p>Descripción</p></th>  
-<th><p>Acción en / fecha</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Acción</p></th>
+<th><p>Descripción</p></th>
+<th><p>Acción en / fecha</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Desarrollar directivas de seguridad en línea</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Desarrollar directivas de seguridad física</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Desarrollar directivas de seguridad telefónica</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Desarrollar directivas de seguridad de gestión de residuos</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Desarrollar directivas de administración de seguridad del servicio de ayuda</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Desarrollar un modelo de respuesta a incidentes</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Desarrollar una campaña de concienciación</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>...</p></td>
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Informe de incidentes
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Representante del servicio de ayuda</p></td>
 <td style="border:1px solid black;"><p>                     </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Nombre de la persona objeto del ataque</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Departamento objeto del ataque</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Fecha</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Vector de ataque</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Descripción del ataque</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Resultado del ataque</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Efecto del ataque</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Recomendaciones,</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Principio de la página](#mainsection)
@@ -1539,151 +1539,151 @@ Se presentó una serie de tablas para capturar las vulnerabilidades de la ingeni
 ### Apéndice 2: Glosario
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Término</p></th>  
-<th><p>Definición</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Término</p></th>
+<th><p>Definición</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>acceso</p></td>
 <td style="border:1px solid black;"><p>En el contexto de la privacidad, capacidad de un individuo de ver, modificar y comprobar la precisión e integridad de la información personal identificable recopilada sobre él o ella. El acceso forma parte de las prácticas de información justas.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>software antivirus</p></td>
 <td style="border:1px solid black;"><p>Programa informático diseñado para detectar y responder al software malintencionado, como virus y gusanos. Entre las respuestas se pueden incluir el bloqueo del acceso del usuario a los archivos infectados, la limpieza de los archivos o equipos infectados o la notificación al usuario que se detectó un programa infectado.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ataque</p></td>
 <td style="border:1px solid black;"><p>Intento deliberado de poner en peligro la seguridad de un sistema informático o de privar a los demás usuarios del uso del sistema.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>autenticación</p></td>
 <td style="border:1px solid black;"><p>Proceso de validación de las credenciales de una persona, proceso informático o dispositivo. Para la autenticación se necesita que la persona, proceso o dispositivo que realiza la solicitud proporcione una credencial que demuestre que se trata en realidad de la entidad o persona que dice ser. Entre las formas habituales de credenciales se incluyen las firmas digitales, las tarjetas inteligentes, los datos biométricos y una combinación formada por los nombres de usuario y sus contraseñas.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>autorización</p></td>
 <td style="border:1px solid black;"><p>Proceso por el que otorga a una persona, proceso informático o dispositivo acceso a determinada información, servicios o funcionalidades. La autorización se obtiene de la identidad de la persona, proceso informático o dispositivo que solicita el acceso, lo que se verifica mediante la autenticación.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>administración de cambios</p></td>
 <td style="border:1px solid black;"><p>Práctica de administración de cambios con la ayuda de métodos y técnicas probados con el fin de evitar nuevos errores y reducir el impacto de los cambios.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>seguridad del equipo</p></td>
 <td style="border:1px solid black;"><p>Protección de los activos de información mediante tecnología, procesos y aprendizaje.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>pirata informático</p></td>
 <td style="border:1px solid black;"><p>Malhechor que entra en un equipo mediante estrategias tecnológicas y no de ingeniería social.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>descargar</p></td>
 <td style="border:1px solid black;"><p>Transferir una copia de un archivo de un equipo remoto a un equipo que realiza la solicitud mediante un módem o una red.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>extranet</p></td>
 <td style="border:1px solid black;"><p>Extensión de la intranet de una organización que se usa para facilitar la comunicación con los socios de confianza de la misma. Una extranet permite que estos socios de confianza obtengan acceso limitado a los datos comerciales internos de la organización.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>firewall</p></td>
 <td style="border:1px solid black;"><p>Solución de seguridad que segrega una parte de una red de otra, lo que permite que sólo pase el tráfico de red autorizado según unas reglas de filtrado del tráfico.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>malware</p></td>
 <td style="border:1px solid black;"><p>Software que cumple la intención deliberada de un atacante de producir daños cuando se ejecuta. Por ejemplo, los virus, gusanos y caballos de Troya constituyen código malintencionado.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>inicio de sesión de red</p></td>
 <td style="border:1px solid black;"><p>Proceso de conexión a un equipo mediante una red. Normalmente, el usuario inicia sesión de forma interactiva en un equipo local y, a continuación, proporciona las credenciales de inicio de sesión a otro equipo de la red, como un servidor, que está autorizado a usar.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>contraseña</p></td>
 <td style="border:1px solid black;"><p>Cadena de caracteres que un usuario escribe para verificar su identidad en una red o en un equipo local. Consulte también contraseña segura.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>permisos</p></td>
 <td style="border:1px solid black;"><p>Autorización para realizar operaciones relacionadas con un recurso compartido específico, como un archivo, un directorio o una impresora. Los permisos los debe otorgar el administrador del sistema a cuentas de usuario individuales o grupos administrativos.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>número de identificación personal (PIN)</p></td>
 <td style="border:1px solid black;"><p>Código de identificación secreto similar a una contraseña y que se asigna a un usuario autorizado. El PIN se usa junto con una tarjeta de cajero o inteligente, por ejemplo, para desbloquear una funcionalidad autorizada, como el acceso a una cuenta bancaria.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>información personal identificable</p></td>
 <td style="border:1px solid black;"><p>Cualquier información relacionada con un individuo identificado o identificable. Esta información puede incluir: el nombre, el país, la dirección postal, la dirección de correo electrónico, el número de la tarjeta de crédito, el número de la Seguridad Social, el número del documento nacional de identidad, la dirección IP o cualquier otro identificador único relacionado con esta información personal identificable en otro sistema. También conocida como información personal o datos personales.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>información personal</p></td>
 <td style="border:1px solid black;"><p>Consulte información personal identificable.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>phreaker</p></td>
 <td style="border:1px solid black;"><p>Usuario malintencionado que usa de forma no autorizada la central de conmutación (PBX) para realizar llamadas.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>timador</p></td>
 <td style="border:1px solid black;"><p>Usuario o sitio web malintencionado que engaña a las personas para que revelen información personal, como las contraseñas de sus cuentas y los números de sus tarjetas de crédito. Un timador suele usar mensajes de correo electrónico engañosos o anuncios en línea como anzuelo para que los usuarios confiados usen sitios web fraudulentos, donde se les engaña para que proporcionen información personal.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>vulnerabilidad física</p></td>
 <td style="border:1px solid black;"><p>Imposibilidad de proporcionar seguridad física a un equipo, como dejar una estación de trabajo en funcionamiento desbloqueada en un área de trabajo, lo que permite el acceso a la misma de usuarios no autorizados.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>privacidad</p></td>
 <td style="border:1px solid black;"><p>Control que los clientes tienen sobre la recopilación, uso y distribución de su información personal.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>vulnerabilidad de seguridad</p></td>
 <td style="border:1px solid black;"><p>Vulnerabilidad del software que se soluciona con una actualización de seguridad de Microsoft y un boletín de seguridad o Service Pack.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>correo no deseado</p></td>
 <td style="border:1px solid black;"><p>Mensajes de correo electrónico comercial no solicitado. También conocido como correo electrónico no deseado.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>suplantar</p></td>
 <td style="border:1px solid black;"><p>Hacer que una transmisión parezca provenir de un usuario que no es el que realizó la acción.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>software espía</p></td>
 <td style="border:1px solid black;"><p>Software que puede mostrar anuncios (como anuncios emergentes), recopilar información sobre el usuario o incluso cambiar la configuración del equipo, generalmente sin obtener antes su consentimiento.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>contraseña segura</p></td>
 <td style="border:1px solid black;"><p>Contraseña que ofrece una defensa efectiva frente al acceso no autorizado a un recurso. Una contraseña segura tiene al menos 6 caracteres de longitud, no contiene ni la totalidad ni parte del nombre de la cuenta de usuario y contiene al menos tres de las cuatro categorías siguientes de caracteres: letras mayúsculas, letras minúsculas, dígitos en base 10 y símbolos del teclado como !, @ y #.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>caballo de Troya</p></td>
 <td style="border:1px solid black;"><p>Programa que parece ser útil o inofensivo, pero que contiene código oculto diseñado para explotar o dañar el equipo en el que se ejecuta. Los programas de caballos de Troya suelen llegar a los usuarios mediante mensajes de correo electrónico que engañan sobre la función y objetivo del programa. También se denominan código troyano.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>actualización</p></td>
 <td style="border:1px solid black;"><p>Paquete de software que sustituye a una versión instalada por una más reciente del mismo software. El proceso de actualización suele dejar intactos los datos y preferencias existentes del cliente y sólo sustituye el software existente por el de una versión más actual.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Id. del usuario</p></td>
 <td style="border:1px solid black;"><p>Nombre único con el que un usuario puede iniciar sesión en un equipo.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>virus</p></td>
 <td style="border:1px solid black;"><p>Código escrito con la intención específica de autorreplicarse. Un virus intenta propagarse de un equipo a otro adjuntándose a un programa del host. Puede dañar el hardware, el software o los datos. Similar a un gusano. Consulte también la definición proporcionada por Virus Info Alliance (f-secure.com).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>vulnerabilidad</p></td>
 <td style="border:1px solid black;"><p>Cualquier debilidad, proceso o acto administrativo o exposición física que hace que un equipo pueda ser objeto de una amenaza.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>gusano</p></td>
 <td style="border:1px solid black;"><p>Código malintencionado que se autopropaga y que puede distribuirse automáticamente de un equipo a otro sin conexiones de red. Un gusano puede realizar una acción dañina, por ejemplo, usar recursos del sistema local o de la red, lo que probablemente provoque un ataque de denegación de servicio. Similar a un virus.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Principio de la página](#mainsection)

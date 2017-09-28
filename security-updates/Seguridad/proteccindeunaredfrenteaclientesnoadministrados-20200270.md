@@ -177,11 +177,11 @@ El aislamiento físico de equipos y redes no es un concepto nuevo. Se ha venido 
 <td style="border:1px solid black;"><p>Nivel 1</p></td>
 <td style="border:1px solid black;"><p>Use un cableado distinto para los segmentos que se deben aislar de la red de confianza.</p></td>
 <td style="border:1px solid black;"><ul>
-<li><p>Costos asociados al uso de un nuevo cable para cada nueva conexión.</p></li>  
-<li><p>Mayor trabajo administrativo por el tendido de nuevos cables cuando se trasladen los usuarios.</p></li>  
-<li><p>Falta de flexibilidad y difícil administración si la empresa crece.</p></li>  
-<li><p>Mayor posibilidad de descuidos y errores debido a los mayores requisitos de administración.</p></li>  
-</ul>  
+<li><p>Costos asociados al uso de un nuevo cable para cada nueva conexión.</p></li>
+<li><p>Mayor trabajo administrativo por el tendido de nuevos cables cuando se trasladen los usuarios.</p></li>
+<li><p>Falta de flexibilidad y difícil administración si la empresa crece.</p></li>
+<li><p>Mayor posibilidad de descuidos y errores debido a los mayores requisitos de administración.</p></li>
+</ul>
 <br />
 </td>
 </tr>
@@ -189,10 +189,10 @@ El aislamiento físico de equipos y redes no es un concepto nuevo. Se ha venido 
 <td style="border:1px solid black;"><p>Nivel 2</p></td>
 <td style="border:1px solid black;"><p>Use VLAN para crear subredes lógicas aisladas de la red de confianza.</p></td>
 <td style="border:1px solid black;"><ul>
-<li><p>Mayor costo relacionado con la actualización de las redes de conmutadores (switch fabric) para admitir las redes VLAN.</p></li>  
-<li><p>Más trabajo administrativo resultante del seguimiento de los cambios de red, los traslados de usuarios y las respuestas a las peticiones de conexiones de invitados.</p></li>  
-<li><p>Posibilidad de descuidos y errores cuando se trasladan varios usuarios o se usan dispositivos móviles.</p></li>  
-</ul>  
+<li><p>Mayor costo relacionado con la actualización de las redes de conmutadores (switch fabric) para admitir las redes VLAN.</p></li>
+<li><p>Más trabajo administrativo resultante del seguimiento de los cambios de red, los traslados de usuarios y las respuestas a las peticiones de conexiones de invitados.</p></li>
+<li><p>Posibilidad de descuidos y errores cuando se trasladan varios usuarios o se usan dispositivos móviles.</p></li>
+</ul>
 <br />
 </td>
 </tr>

@@ -47,11 +47,11 @@ The following table shows the supported methods to clear the SUSClientID registr
 <td style="border:1px solid black;"><p>WSUS 2.0</p></td>
 <td style="border:1px solid black;"><p>NO</p></td>
 <td style="border:1px solid black;"><ul>
-<li>Clear the SUSClientID registry value on the image source before deployment.<br />  
-<br />  
-</li>  
-<li>Manually clear or run a script to clear SUSClientID on deployed images.<br />  
-<br />  
+<li>Clear the SUSClientID registry value on the image source before deployment.<br />
+<br />
+</li>
+<li>Manually clear or run a script to clear SUSClientID on deployed images.<br />
+<br />
 </li>
 </ul></td>
 </tr>
@@ -59,11 +59,11 @@ The following table shows the supported methods to clear the SUSClientID registr
 <td style="border:1px solid black;"><p>WSUS 2.0</p></td>
 <td style="border:1px solid black;"><p>YES</p></td>
 <td style="border:1px solid black;"><ul>
-<li>Clear the SUSClientID registry value on the image source before deployment.<br />  
-<br />  
-</li>  
-<li>Manually clear or run a script to clear SUSClientID on deployed images.<br />  
-<br />  
+<li>Clear the SUSClientID registry value on the image source before deployment.<br />
+<br />
+</li>
+<li>Manually clear or run a script to clear SUSClientID on deployed images.<br />
+<br />
 </li>
 </ul></td>
 </tr>
@@ -71,14 +71,14 @@ The following table shows the supported methods to clear the SUSClientID registr
 <td style="border:1px solid black;"><p>WSUS 3.0</p></td>
 <td style="border:1px solid black;"><p>NO</p></td>
 <td style="border:1px solid black;"><ul>
-<li>Clear the SUSClientID registry value on the image source before deployment.<br />  
-<br />  
-</li>  
-<li>Manually clear or run a script to clear SUSClientID on deployed images.<br />  
-<br />  
-</li>  
-<li>Wait for hardware validation to regenerate the SUSClientID value.<br />  
-<br />  
+<li>Clear the SUSClientID registry value on the image source before deployment.<br />
+<br />
+</li>
+<li>Manually clear or run a script to clear SUSClientID on deployed images.<br />
+<br />
+</li>
+<li>Wait for hardware validation to regenerate the SUSClientID value.<br />
+<br />
 </li>
 </ul></td>
 </tr>
@@ -86,11 +86,11 @@ The following table shows the supported methods to clear the SUSClientID registr
 <td style="border:1px solid black;"><p>WSUS 3.0</p></td>
 <td style="border:1px solid black;"><p>YES</p></td>
 <td style="border:1px solid black;"><ul>
-<li>Clear the SUSClientID registry value on the image source before deployment.<br />  
-<br />  
-</li>  
-<li>Manually clear or run a script to clear SUSClientID on deployed images.<br />  
-<br />  
+<li>Clear the SUSClientID registry value on the image source before deployment.<br />
+<br />
+</li>
+<li>Manually clear or run a script to clear SUSClientID on deployed images.<br />
+<br />
 </li>
 </ul></td>
 </tr>

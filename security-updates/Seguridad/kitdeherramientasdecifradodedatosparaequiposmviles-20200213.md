@@ -142,43 +142,43 @@ La plantilla de GPO de Active Directory permite controlar una serie de parámet
 <td style="border:1px solid black;"><p>Habilitar EFS</p></td>
 <td style="border:1px solid black;"><p>Windows XP, Windows Vista</p></td>
 <td style="border:1px solid black;"><p>Permitir</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Cifrar documentos</p></td>
 <td style="border:1px solid black;"><p>Windows Vista</p></td>
 <td style="border:1px solid black;"><p>Desactivado</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requerir tarjeta inteligente</p></td>
 <td style="border:1px solid black;"><p>Windows Vista</p></td>
 <td style="border:1px solid black;"><p>Desactivado</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Crear claves de usuario con capacidad de almacenamiento en caché desde la tarjeta inteligente</p></td>
 <td style="border:1px solid black;"><p>Windows Vista</p></td>
 <td style="border:1px solid black;"><p>Desactivado</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Habilitar cifrado de archivo de paginación</p></td>
 <td style="border:1px solid black;"><p>Windows Vista</p></td>
 <td style="border:1px solid black;"><p>Desactivado</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Inscripción automática de certificados</p></td>
 <td style="border:1px solid black;"><p>Windows XP, Windows Vista</p></td>
 <td style="border:1px solid black;"><p>Activado</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tamaño de clave para certificados autofirmados</p></td>
 <td style="border:1px solid black;"><p>Windows Vista</p></td>
 <td style="border:1px solid black;"><p>2048 bits</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Plantilla de EFS para solicitudes automáticas de certificados</p></td>
 <td style="border:1px solid black;"><p>Windows Vista</p></td>
 <td style="border:1px solid black;"><p>Ninguna</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Habilitación y deshabilitación de EFS**

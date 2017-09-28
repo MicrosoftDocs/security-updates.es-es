@@ -180,7 +180,7 @@ La tabla siguiente describe las convenciones estilísticas utilizadas en este ma
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Negrita</strong></p></td>
 <td style="border:1px solid black;"><p>Caracteres que se escriben exactamente tal y como se muestran, incluidos comandos y modificadores. Los elementos de la interfaz de usuario que aparecen en el texto con carácter normativo también se muestran en negrita.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>Cursiva</em></p></td>
 <td style="border:1px solid black;"><p>Este tipo de fuente se utiliza en dos contextos:</p>
@@ -195,28 +195,28 @@ La tabla siguiente describe las convenciones estilísticas utilizadas en este ma
 <tr class="even">
 <td style="border:1px solid black;"><pre><code>Monospace font</code></pre></td>
 <td style="border:1px solid black;"><p>Ejemplos de código y contenido de los archivos de configuración.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>%SystemRoot%</p></td>
 <td style="border:1px solid black;"><p>La carpeta en la que se ha instalado el sistema operativo Windows.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Nota</strong></p></td>
 <td style="border:1px solid black;"><p>Avisa al lector de que hay información adicional.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Importante</strong></p></td>
 <td style="border:1px solid black;"><p>Avisa al lector de información adicional esencial para completar la tarea.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Precaución</strong></p></td>
 <td style="border:1px solid black;"><p>Avisa al lector de que si no se realiza o pasa por alto una determinada acción, se podrá producir una pérdida de datos.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Advertencia</strong></p></td>
 <td style="border:1px solid black;"><p>Avisa al lector de que si no se realiza o pasa por alto una determinada acción, el usuario o el hardware podría resultar dañado físicamente.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Principio de la página](#mainsection)

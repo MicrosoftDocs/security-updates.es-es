@@ -29,18 +29,18 @@ En la siguiente tabla, se listan los contadores de rendimiento disponibles para 
 <tr class="odd">
 <td style="border:1px solid black;"><p>Activation Failure Processing Time</p></td>
 <td style="border:1px solid black;"><p>Tiempo, en microsegundos, utilizado por los eventos de errores de activación.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Activation Failures</p></td>
 <td style="border:1px solid black;"><p>Número de solicitudes de activación no aceptadas.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Activation Requests</p></td>
 <td style="border:1px solid black;"><p>Número total de solicitudes realizadas al servicio de activación.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Activation Total Processing Time</p></td>
 <td style="border:1px solid black;"><p>Tiempo de procesamiento, en microsegundos, utilizado por el servicio de activación.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

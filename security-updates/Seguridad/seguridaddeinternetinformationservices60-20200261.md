@@ -241,53 +241,53 @@ En la siguiente tabla se muestra la configuración recomendada de Agregar o quit
 <td style="border:1px solid black;"><p>Extensión de servidor de Servicio de transferencia inteligente en segundo plano (BITS)</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Sin cambios</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Archivos comunes</p></td>
 <td style="border:1px solid black;"><p>Habilitado</p></td>
 <td style="border:1px solid black;"><p>Sin cambios</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servicio FTP</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Sin cambios</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Extensiones de servidor de FrontPage 2002</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Sin cambios</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Administrador de Internet Information Services</p></td>
 <td style="border:1px solid black;"><p>Habilitado</p></td>
 <td style="border:1px solid black;"><p>Sin cambios</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Impresión de Internet</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Sin cambios</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servicio NNTP</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Sin cambios</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servicio SMTP</p></td>
 <td style="border:1px solid black;"><p>Habilitado</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servicio World Wide Web</p></td>
 <td style="border:1px solid black;"><p>Habilitado</p></td>
 <td style="border:1px solid black;"><p>Sin cambios</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Extensión de servidor de Servicio de transferencia inteligente en segundo plano (BITS)</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado</p></td>
 <td style="border:1px solid black;"><p>Sin cambios</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ##### Requisitos

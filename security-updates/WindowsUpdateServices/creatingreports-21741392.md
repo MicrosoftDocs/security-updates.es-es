@@ -59,16 +59,16 @@ You can generate three kinds of reports as described in the following table.
 <tr class="odd">
 <td style="border:1px solid black;"><p>Update Reports</p></td>
 <td style="border:1px solid black;"><p>View update status.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Computer Reports</p></td>
 <td style="border:1px solid black;"><p>View computer status.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Synchronization Reports</p></td>
 <td style="border:1px solid black;"><p>View the results of the last synchronization.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ### Update Reports
@@ -78,16 +78,16 @@ Update reports show you the status of your updates. You can run update reports i
 The report displays information from the most recent contact between client computers and the WSUS server. The frequency with which client computers contact the WSUS server is configured through Group Policy. By default, this is every 22 hours. Unless you want to change the contact frequency for your client computers, generate this report the day after you approve updates, so that it reflects your latest approvals.
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="100%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><img src="images/Dd939891.note(WS.10).gif" />Nota</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/Dd939891.note(WS.10).gif" />Nota</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;">You can run <strong>wuauclt /detectnow</strong> from the command prompt on computers that are running WSUS client software (Automatic Updates) in order to start contact between the client computer and WSUS server. This is used primarily to update status for a particular computer. There will be a few minutes delay between running the command and seeing the results on the WSUS server. After forcing the client to contact the server, you can get its status with an update status report. For more information about wuauclt, see <a href="https://technet.microsoft.com/7cc1c5f9-5678-4bb4-a7a6-18939dcc120c">Appendix H: The wuauclt Utility</a>.
 <p></p></td>
@@ -129,56 +129,56 @@ The Update Status Summary view contains the elements listed in the following tab
 <tr class="odd">
 <td style="border:1px solid black;"><p>Updates Report tree view</p></td>
 <td style="border:1px solid black;"><p>The tree listing all the updates in the report.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Title</p></td>
 <td style="border:1px solid black;"><p>The title of the update.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Description</p></td>
 <td style="border:1px solid black;"><p>The description of the update.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Classification</p></td>
 <td style="border:1px solid black;"><p>The classification of the update.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Products</p></td>
 <td style="border:1px solid black;"><p>The products to which the update applies.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>MSRC Severity Rating</p></td>
 <td style="border:1px solid black;"><p>Microsoft Security Response Center rating.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>MSRC Number</p></td>
 <td style="border:1px solid black;"><p>Microsoft Security Response Center identification number.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>More information</p></td>
 <td style="border:1px solid black;"><p>Redirection to the relevant Web site.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Approval Summary for Computer Group</p></td>
 <td style="border:1px solid black;"><p>The listing of groups and approvals.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Group</p></td>
 <td style="border:1px solid black;"><p>The computer group.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Approval</p></td>
 <td style="border:1px solid black;"><p>Approval status (Approved, Not approved, Declined).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Deadline</p></td>
 <td style="border:1px solid black;"><p>The date by which the update must be installed.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Administrator</p></td>
 <td style="border:1px solid black;"><p>The administrative action.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ### Computer Reports
@@ -219,26 +219,26 @@ The report has four components, which are described in the following table.
 ### Components of the Synchronization Results Report
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Component name</th>  
-<th>Purpose</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Component name</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Report Options</p></td>
 <td style="border:1px solid black;"><p>Shows the start and end dates of the period shown in the report, as well as the date of the report and the server for which the report was made.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Synchronization Summary</p></td>
 <td style="border:1px solid black;"><p>Displays summary information of the numbers of new, revised, and expired updates in each synchronization.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>New Updates</p></td>
 <td style="border:1px solid black;"><p>Displays the new updates that have been synchronized to the WSUS server during the report's time period.</p>
@@ -252,8 +252,8 @@ The report has four components, which are described in the following table.
 <tr class="odd">
 <td style="border:1px solid black;"><p>Expired Updates</p></td>
 <td style="border:1px solid black;"><p>Displays the updates that have been expired during the report's time period.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Printing a Report
@@ -270,16 +270,16 @@ You can print the report in update summary, detailed, or tabular views, dependin
 You can print a report in its original format, or you can export it to Microsoft Excel or PDF formats.
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="100%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><img src="images/Dd939891.Important(WS.10).gif" />Importante</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/Dd939891.Important(WS.10).gif" />Importante</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Exporting a large report can be extremely time-consuming and may exceed your computer's memory resources. If you are planning to export a report, consider limiting the size of the report to 200 pages or fewer. You can use different filters to reduce the size of the report, or you can choose the tabular format rather than the detailed format to reduce the number of pages to export.
 <p></p></td>

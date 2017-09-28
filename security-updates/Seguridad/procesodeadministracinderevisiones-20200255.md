@@ -155,23 +155,23 @@ Las siguientes tablas pueden ayudarle a valorar la prioridad de la solicitud en 
 <td style="border:1px solid black;"><p>Emergencia</p></td>
 <td style="border:1px solid black;"><p>Antes de 24 horas</p></td>
 <td style="border:1px solid black;"><p>Antes de 2 semanas</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Alta</p></td>
 <td style="border:1px solid black;"><p>Antes de 1 mes</p></td>
 <td style="border:1px solid black;"><p>Antes de 2 meses</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Media</p></td>
 <td style="border:1px solid black;"><p>Según la disponibilidad, implemente un nuevo Service Pack o conjunto de actualizaciones que incluya una revisión para esta vulnerabilidad antes de 4 meses.</p></td>
 <td style="border:1px solid black;"><p>Implemente la actualización de software antes de 6 meses</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Baja</p></td>
 <td style="border:1px solid black;"><p>Según la disponibilidad, implemente un nuevo Service Pack o conjunto de actualizaciones que incluya una revisión para esta vulnerabilidad antes de 1 año.</p></td>
 <td style="border:1px solid black;"><p>Implemente la actualización de software antes de 1 año, o bien, puede optar por no implementarla.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 En la tabla 2 se proporcionan ejemplos de factores que pueden aumentar o disminuir la prioridad.
@@ -179,35 +179,35 @@ En la tabla 2 se proporcionan ejemplos de factores que pueden aumentar o disminu
 **Tabla 2: Factores que afectan a las prioridades de actualización**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Factor de entorno o de organización</th>  
-<th>Ajuste de prioridad</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Factor de entorno o de organización</th>
+<th>Ajuste de prioridad</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Resultarán afectados activos de gran valor o exposición.</p></td>
 <td style="border:1px solid black;"><p>Aumento</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Activos que han sido objetivos de ataques en repetidas ocasiones.</p></td>
 <td style="border:1px solid black;"><p>Aumento</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Factores atenuantes aplicados, como contramedidas que minimizan la amenaza.</p></td>
 <td style="border:1px solid black;"><p>Más baja</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Resultarán afectados activos de poco valor o exposición.</p></td>
 <td style="border:1px solid black;"><p>Más baja</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Solicitud de cambio de emergencia**

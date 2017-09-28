@@ -66,7 +66,7 @@ All of the following server configuration settings are stored inside the WSUS da
 <td style="border:1px solid black;"><p><em>tbConfigurationA.SyncToMu</em></p>
 <p><em>tbConfigurationA.UpstreamServerName</em></p></td>
 <td style="border:1px solid black;"><p>The first database location specifies the update source for client computers. The values possible are:</p>
-<p>0 – WSUS server</p>  
+<p>0 – WSUS server</p>
 <p>1 – Microsoft Update</p>
 <p>The second database location specifies the name of the upstream WSUS server, if you have chosen one as the update source.</p></td>
 </tr>
@@ -74,7 +74,7 @@ All of the following server configuration settings are stored inside the WSUS da
 <td style="border:1px solid black;"><p>Express (PSF) file download</p></td>
 <td style="border:1px solid black;"><p><em>tbConfigurationC.DownloadExpressPackages</em></p></td>
 <td style="border:1px solid black;"><p>This setting controls whether or not express installation files are downloaded. The values possible are:</p>
-<p>0 – Do not download express files (default) option.</p>  
+<p>0 – Do not download express files (default) option.</p>
 <p>1 – Download express files.</p>
 <p>On the WSUS console, this is configured on the Advanced Synchronization Options box.</p></td>
 </tr>
@@ -88,8 +88,8 @@ All of the following server configuration settings are stored inside the WSUS da
 <td style="border:1px solid black;"><p>BITS download priority</p></td>
 <td style="border:1px solid black;"><p><em>tbConfigurationC.BitsDownloadPriorityForeground</em></p></td>
 <td style="border:1px solid black;"><p>This internal setting specifies whether or not to use foreground priority for BITS downloads. The default is to use throttled downloads. This setting was added to handle issues with certain proxy servers that did not correctly handle HTTP 1.1 restartable downloads.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 IIS settings  
@@ -100,22 +100,22 @@ The following virtual directories (vroots) are created in IIS (in the Default We
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Vroot in IIS</th>  
-<th>Properties</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Vroot in IIS</th>
+<th>Properties</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ClientWebService</p></td>
 <td style="border:1px solid black;"><p>Directory: %ProgramFiles%Update Services\WebServices\ClientWebService</p>
-<p>Application Pool: WsusPool</p>  
+<p>Application Pool: WsusPool</p>
 <p>Security: Anonymous Access Enabled.</p>
 <p>Execute Permissions: Scripts Only</p></td>
 </tr>
@@ -128,35 +128,35 @@ The following virtual directories (vroots) are created in IIS (in the Default We
 <tr class="odd">
 <td style="border:1px solid black;"><p>DssAuthWebService</p></td>
 <td style="border:1px solid black;"><p>Directory: %ProgramFiles%Update Services\WebServices\DssAuthWebService</p>
-<p>Application Pool: WsusPool</p>  
+<p>Application Pool: WsusPool</p>
 <p>Security: Anonymous Access Enabled.</p>
 <p>Execute Permissions: Scripts Only</p></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ReportingWebService</p></td>
 <td style="border:1px solid black;"><p>Directory: %ProgramFiles%Update Services\WebServices\ReportingWebService</p>
-<p>Application Pool: WsusPool</p>  
+<p>Application Pool: WsusPool</p>
 <p>Security: Anonymous Access Enabled.</p>
 <p>Execute Permissions: Scripts Only</p></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ServerSyncWebService</p></td>
 <td style="border:1px solid black;"><p>Directory: %ProgramFiles%Update Services\WebServices\ServerSyncWebService</p>
-<p>Application Pool: WsusPool</p>  
+<p>Application Pool: WsusPool</p>
 <p>Security: Anonymous Access Enabled.</p>
 <p>Execute Permissions: Scripts Only</p></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SimpleAuthWebService</p></td>
 <td style="border:1px solid black;"><p>Directory: %ProgramFiles%Update Services\WebServices\SimpleAuthWebService</p>
-<p>Application Pool: WsusPool</p>  
+<p>Application Pool: WsusPool</p>
 <p>Security: Anonymous Access Enabled.</p>
 <p>Execute Permissions: Scripts Only</p></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>WSUSAdmin</p></td>
 <td style="border:1px solid black;"><p>Directory: %ProgramFiles%Update Services\Administration</p>
-<p>Application Pool: WsusPool</p>  
+<p>Application Pool: WsusPool</p>
 <p>Security: Integrated Windows Authentication.</p>
 <p>Execute Permissions: Scripts Only</p></td>
 </tr>

@@ -603,11 +603,11 @@ En la siguiente tabla se muestran algunas directrices de solución de problemas 
 <tr class="even">
 <td style="border:1px solid black;"><p>El cliente intenta crear una conexión antes de crear la VPN.</p></td>
 <td style="border:1px solid black;"><p>Configurar el cliente de modo que no cree una conexión inicial.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>El cliente no intenta crear una conexión antes de crear la VPN.</p></td>
 <td style="border:1px solid black;"><p>Configurar el cliente para crear una conexión inicial.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Cuando el cliente intenta crear la VPN, aparece un mensaje para pedirle el nombre de usuario, el nombre de dominio y la contraseña.</p></td>
 <td style="border:1px solid black;"><p>Asegurarse de que la conexión VPN está configurada para usar una tarjeta inteligente.</p>

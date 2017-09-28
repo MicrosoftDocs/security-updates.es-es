@@ -62,13 +62,13 @@ En la siguiente tabla se enumeran las entradas que puede agregar para anular el 
 <td style="border:1px solid black;"><p>SubEnrollmentURL</p></td>
 <td style="border:1px solid black;"><p>Cadena</p></td>
 <td style="border:1px solid black;"><p>http(o https)://<em>nombre_de_servidor</em>/_wmcs/certification/subenrollservice.asmx</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>GicURL</p></td>
 <td style="border:1px solid black;"><p>Cadena</p></td>
 <td style="border:1px solid black;"><p>http(o https)://<em>nombre_de_servidor</em>/_wmcs/certification/certification.asmx</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Anulación del descubrimiento de servicios en el cliente para la publicación  
@@ -99,36 +99,36 @@ En la siguiente tabla se enumeran las claves del Registro que puede agregar en u
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Nombre</th>  
-<th>Tipo</th>  
-<th>valor</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Nombre</th>
+<th>Tipo</th>
+<th>valor</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Activation</p></td>
 <td style="border:1px solid black;"><p>Cadena</p></td>
 <td style="border:1px solid black;"><p>http(o https)://<em>nombre_del_clúster_RMS</em>/_wmcs/Certification donde <em>nombre_del_clúster_RMS</em> es el nombre del clúster de RMS.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>EnterprisePublishing</p></td>
 <td style="border:1px solid black;"><p>Cadena</p></td>
 <td style="border:1px solid black;"><p>http(o https)://<em>nombre_del_clúster_RMS</em>/_wmcs/Licensing donde <em>nombre_del_clúster_RMS</em> es el nombre del clúster de RMS.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CloudPublishing</p></td>
 <td style="border:1px solid black;"><p>Cadena</p></td>
 <td style="border:1px solid black;"><p>http(o https)://<em>nombre_de_clúster_completo</em>/_wmcs/Licensing donde <em>nombre_de_clúster_completo</em> es el nombre de dominio completo del clúster de RMS.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Se recomienda implementar estas claves del Registro con Systems Management Server o Directiva de grupo para garantizar que todos los clientes de la empresa usan los servidores de publicación correctos.

@@ -63,7 +63,7 @@ The keys and their value ranges are listed in the following table.
 <td style="border:1px solid black;"><p><strong>TargetGroup</strong></p></td>
 <td style="border:1px solid black;"><p>Reg_SZ</p></td>
 <td style="border:1px solid black;"><p>Name of the computer group to which the computer belongs, used to implement client-side targeting (for example, &quot;TestServers.&quot;) This policy is paired with <strong>TargetGroupEnabled</strong>.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>TargetGroupEnabled</strong></p></td>
 <td style="border:1px solid black;"><p>Reg_DWORD</p></td>
@@ -75,12 +75,12 @@ The keys and their value ranges are listed in the following table.
 <td style="border:1px solid black;"><p><strong>WUServer</strong></p></td>
 <td style="border:1px solid black;"><p>Reg_SZ</p></td>
 <td style="border:1px solid black;"><p>HTTP(S) URL of the WSUS server used by Automatic Updates and (by default) API callers. This policy is paired with <strong>WUStatusServer</strong>; both must be set to the same value in order for them to be valid.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>WUStatusServer</strong></p></td>
 <td style="border:1px solid black;"><p>Reg_SZ</p></td>
 <td style="border:1px solid black;"><p>The HTTP(S) URL of the server to which reporting information will be sent for client computers that use the WSUS server configured by the <strong>WUServer</strong> key. This policy is paired with <strong>WUServer</strong>; both must be set to the same value in order for them to be valid.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>DisableWindowsUpdateAccess</strong></p></td>
 <td style="border:1px solid black;"><p>Reg_DWORD</p></td>
@@ -122,8 +122,8 @@ The keys and their value ranges are listed in the following table.
 <td style="border:1px solid black;"><p><strong>AUOptions</strong></p></td>
 <td style="border:1px solid black;"><p>Reg_DWORD</p></td>
 <td style="border:1px solid black;"><p>Range = 2|3|4|5</p>
-<p>2 = Notify before download.</p>  
-<p>3 = Automatically download and notify of installation.</p>  
+<p>2 = Notify before download.</p>
+<p>3 = Automatically download and notify of installation.</p>
 <p>4 = Automatically download and schedule installation. (Only valid if values exist for <strong>ScheduledInstallDay</strong> and <strong>ScheduledInstallTime</strong>.)</p>
 <p>5 = Automatic Updates is required, but end users can configure it.</p></td>
 </tr>
@@ -205,7 +205,7 @@ The keys and their value ranges are listed in the following table.
 <td style="border:1px solid black;"><p><strong>ScheduledInstallDay</strong></p></td>
 <td style="border:1px solid black;"><p>Reg_DWORD</p></td>
 <td style="border:1px solid black;"><p>Range = 0|1|2|3|4|5|6|7</p>
-<p>0 = Every day.</p>  
+<p>0 = Every day.</p>
 <p>1 through 7 = The days of the week from Sunday (1) to Saturday (7).</p>
 <p>(Only valid if <strong>AUOptions</strong> = 4.)</p></td>
 </tr>
@@ -213,12 +213,12 @@ The keys and their value ranges are listed in the following table.
 <td style="border:1px solid black;"><p><strong>ScheduledInstallTime</strong></p></td>
 <td style="border:1px solid black;"><p>Reg_DWORD</p></td>
 <td style="border:1px solid black;"><p>Range = n, where n = the time of day in 24-hour format (0–23).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>UseWUServer</strong></p></td>
 <td style="border:1px solid black;"><p>Reg_DWORD</p></td>
 <td style="border:1px solid black;"><p>Range = 0|1</p>
-<p>1 = This machine gets its updates from a WSUS server.</p>  
+<p>1 = This machine gets its updates from a WSUS server.</p>
 <p>0 = This machine gets its updates from Microsoft Update.</p>
 <p>The <strong>WUServer</strong> value is not respected unless this key is set.</p></td>
 </tr>
@@ -305,16 +305,16 @@ When the admin creates and sets the **NoAutoRebootWithLoggedOnUsers** registry k
 <tr class="odd">
 <td style="border:1px solid black;"><p>The <strong>No</strong> button will be active.</p></td>
 <td style="border:1px solid black;"><p>The <strong>No</strong> button will be inactive.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>The <strong>Yes</strong> button will be active if the logged-on user is the only administrator logged on at the time the restart dialog appears.</p></td>
 <td style="border:1px solid black;"><p>The <strong>Yes</strong> button will now be active only if the logged-on user is the only non-administrator logged on at the time the restart dialog appears. However, the <strong>Yes</strong> button will be inactive if the user’s local security policy prohibits restarting.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>The restart countdown progress bar and the text underneath the progress bar will not display.</p></td>
 <td style="border:1px solid black;"><p>The restart countdown progress bar and the text underneath the progress bar will not display.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Example 1: Non-administrator user on a workstation
@@ -364,18 +364,18 @@ The following table shows the difference in behavior with **NoAutoRebootWithLogg
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<tr>  
-<th colspan="2">  
+<table style="border:1px solid black;">
+<tr>
+<th colspan="2">
 Scenario following a scheduled installation  
-</th>  
-<th colspan="2">  
+</th>
+<th colspan="2">
 With NoAutoRebootWithLoggedOnUsers enabled  
-</th>  
-<th colspan="2">  
+</th>
+<th colspan="2">
 With NoAutoRebootWithLoggedOnUsers disabled or not configured  
-</th>  
-</tr>  
+</th>
+</tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 No users logged on

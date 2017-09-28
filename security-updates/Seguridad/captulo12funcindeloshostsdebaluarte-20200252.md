@@ -59,8 +59,8 @@ Las funciones de servidor descritas anteriormente en esta guía utilizaban la di
 <td style="border:1px solid black;"><p>SSLF-Bastion Host.inf</p></td>
 <td style="border:1px solid black;"><p>SSLF-Bastion Host.inf</p></td>
 <td style="border:1px solid black;"><p>SSLF-Bastion Host.inf</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Principio de la página](#mainsection)
@@ -78,23 +78,23 @@ El archivo SSLF-Bastion Host.inf incluye las asignaciones de derechos de usuario
 **Tabla 12.2 Configuración recomendada de las asignaciones de derechos de usuario**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Asignación de derechos de usuario</p></th>  
-<th><p>Configuración</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Asignación de derechos de usuario</p></th>
+<th><p>Configuración</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Denegar el acceso desde la red a este equipo</p></td>
 <td style="border:1px solid black;"><p>INICIO DE SESIÓN ANÓNIMO; Administrador integrado; Support_388945a0; Invitado; todas las cuentas de servicio que NO sean del sistema operativo</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Denegar el acceso desde la red a este equipo
@@ -136,22 +136,22 @@ Además, es posible que se haya cambiado el nombre de la cuenta de administrador
 **Tabla 12.3 Asignaciones de derechos de usuario agregadas manualmente**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Configuración</p></th>  
-<th><p>Cliente heredado</p></th>  
-<th><p>Cliente de empresa</p></th>  
-<th><p>Seguridad especializada: Funcionalidad limitada</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Configuración</p></th>
+<th><p>Cliente heredado</p></th>
+<th><p>Cliente de empresa</p></th>
+<th><p>Seguridad especializada: Funcionalidad limitada</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Denegar el acceso desde la red a este equipo</p></td>
 <td style="border:1px solid black;"><p>Administrador integrado; Support_388945a0;</p>
@@ -211,8 +211,8 @@ El valor de este cambio en la configuración se ha reducido en los últimos año
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
 <td style="border:1px solid black;"><p>Habilitada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Este servicio ayuda a Microsoft a realizar un seguimiento de los errores así como a solucionarlos. Puede configurar este servicio para generar informes para los errores del sistema operativo, componentes de Windows o de programa. Sólo está disponible en Windows XP Professional y Windows Server 2003.

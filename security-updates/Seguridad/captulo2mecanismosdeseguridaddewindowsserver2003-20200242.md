@@ -366,33 +366,33 @@ En la siguiente tabla se incluyen las funciones de servidor y los archivos de pl
 <td style="border:1px solid black;"><p>Servidor de archivos</p></td>
 <td style="border:1px solid black;"><p>Todos los servidores de archivos bloqueados.</p></td>
 <td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>File Server.inf</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servidor de impresión</p></td>
 <td style="border:1px solid black;"><p>Todos los servidores de impresión bloqueados.</p></td>
 <td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>Print Server.inf</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servidor web</p></td>
 <td style="border:1px solid black;"><p>Todos los servidores web de IIS bloqueados.</p></td>
 <td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>Web Server.inf</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servidor IAS</p></td>
 <td style="border:1px solid black;"><p>Todos los servidores IAS bloqueados.</p></td>
 <td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>IAS Server.inf</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servidor de Servicios de Certificate Server</p></td>
 <td style="border:1px solid black;"><p>Todos los servidores de entidad de certificación (CA) bloqueados.</p></td>
 <td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>CA Server.inf</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Host de baluarte</p></td>
 <td style="border:1px solid black;"><p>Todos los servidores expuestos a Internet.</p></td>
 <td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>Bastion Host.inf</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Todos los archivos de plantilla, excepto los de los servidores host de baluarte, se aplican a las UO secundarias correspondientes. Cada una de estas UO secundarias requieren que se aplique la configuración específica para definir la función que cumplirá cada equipo en la organización.
@@ -414,51 +414,51 @@ Las UO y directivas recomendadas que se explicaron en la sección anterior crean
 **Tabla 2.2 UO y grupos administrativos**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nombre de UO</p></th>  
-<th><p>Grupo administrativo</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nombre de UO</p></th>
+<th><p>Grupo administrativo</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Controladores de dominio</p></td>
 <td style="border:1px solid black;"><p>Ingeniería de dominio</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servidores miembro</p></td>
 <td style="border:1px solid black;"><p>Ingeniería de dominio</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Infraestructura</p></td>
 <td style="border:1px solid black;"><p>Administraciones de infraestructura</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Archivo</p></td>
 <td style="border:1px solid black;"><p>Administraciones de infraestructura</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Imprimir</p></td>
 <td style="border:1px solid black;"><p>Administraciones de infraestructura</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>IAS</p></td>
 <td style="border:1px solid black;"><p>Ingeniería de dominio</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Web</p></td>
 <td style="border:1px solid black;"><p>Servicios web</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Entidad emisora</p></td>
 <td style="border:1px solid black;"><p>Administradores de organización</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Los miembros de **Ingeniería de dominio**, que son los responsables de la infraestructura y seguridad de Active Directory, crearon cada uno de los grupos administrativos como un grupo global dentro del dominio. Utilizaron el GPO correspondiente para agregar cada uno de estos grupos administrativos al grupo restringido apropiado. Los grupos administrativos que aparecen en la tabla sólo serán miembros del grupo de **administradores locales** para los equipos ubicados en las UO que contengan específicamente equipos relacionados con sus funciones de trabajo.

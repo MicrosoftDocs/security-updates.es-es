@@ -183,20 +183,20 @@ Utilice la siguiente información para completar los parámetros de entrada del 
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>input_file</em></p></td>
 <td style="border:1px solid black;"><p>Nombre del archivo de lista de revocaciones compatible con XrML que ha preparado.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>key_file</em></p></td>
 <td style="border:1px solid black;"><p>Nombre del archivo que contiene las claves privada y pública que ha generado.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>container_name</em></p></td>
 <td style="border:1px solid black;"><p>Nombre del contenedor de la clave</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>output_file</em></p></td>
 <td style="border:1px solid black;"><p>Nombre del archivo de lista de revocaciones firmado que la herramienta creará.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc720208.note(WS.10).gif)Nota |  
@@ -215,47 +215,47 @@ RLsigner.exe proporciona información básica de error y éxito en el código de
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Código de retorno</th>  
-<th>Descripción</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Código de retorno</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>0</p></td>
 <td style="border:1px solid black;"><p>Éxito</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>-1</p></td>
 <td style="border:1px solid black;"><p>No se puede leer el archivo de origen.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>-2</p></td>
 <td style="border:1px solid black;"><p>No se puede leer el archivo de clave.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>-3</p></td>
 <td style="border:1px solid black;"><p>El archivo de clave no es válido.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>-4</p></td>
 <td style="border:1px solid black;"><p>El archivo de origen no es válido.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>-5</p></td>
 <td style="border:1px solid black;"><p>No se puede escribir el archivo de salida.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>-6</p></td>
 <td style="border:1px solid black;"><p>Error desconocido</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Es posible que desee programar la firma de las listas de revocaciones basándose en el intervalo de actualización que especificó en el servidor.

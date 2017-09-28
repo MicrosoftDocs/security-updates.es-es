@@ -36,28 +36,28 @@ En la tabla siguiente, se enumeran los permisos otorgados a los servidores por l
 <td style="border:1px solid black;"><p>Certificados de cuenta de permisos</p></td>
 <td style="border:1px solid black;"><p>Sí</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Licencias de publicación</p></td>
 <td style="border:1px solid black;"><p>Sí</p></td>
 <td style="border:1px solid black;"><p>Sí</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Licencias de uso</p></td>
 <td style="border:1px solid black;"><p>Sí</p></td>
 <td style="border:1px solid black;"><p>Sí</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Certificados emisores de licencias de servidor subordinados</p></td>
 <td style="border:1px solid black;"><p>Sí</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Certificados emisores de licencias de cliente</p></td>
 <td style="border:1px solid black;"><p>Sí</p></td>
 <td style="border:1px solid black;"><p>Sí</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc720184.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |  

@@ -33,70 +33,70 @@ En la tabla siguiente, se enumeran los atributos de Active Directory almacenados
 <tr class="odd">
 <td style="border:1px solid black;"><p>GroupAliases</p></td>
 <td style="border:1px solid black;"><ul>
-<li>GroupName: alias de un grupo<br />  
-<br />  
-</li>  
-<li>GroupID: Id. único de este grupo<br />  
-<br />  
+<li>GroupName: alias de un grupo<br />
+<br />
+</li>
+<li>GroupID: Id. único de este grupo<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>GroupIdentifiers</p></td>
 <td style="border:1px solid black;"><ul>
-<li>GroupDN: nombre distintivo de Active Directory para este grupo<br />  
-<br />  
-</li>  
-<li>GroupID: Id. único de este grupo<br />  
-<br />  
-</li>  
-<li>Expiration: fecha y hora en que caduca la información almacenada sobre este grupo<br />  
-<br />  
+<li>GroupDN: nombre distintivo de Active Directory para este grupo<br />
+<br />
+</li>
+<li>GroupID: Id. único de este grupo<br />
+<br />
+</li>
+<li>Expiration: fecha y hora en que caduca la información almacenada sobre este grupo<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>GroupMembership</p></td>
 <td style="border:1px solid black;"><ul>
-<li>GroupID: Id. único de este grupo<br />  
-<br />  
-</li>  
-<li>ParentID: Id. único del grupo del que este grupo es un integrante<br />  
-<br />  
+<li>GroupID: Id. único de este grupo<br />
+<br />
+</li>
+<li>ParentID: Id. único del grupo del que este grupo es un integrante<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>PrincipalAliases</p></td>
 <td style="border:1px solid black;"><ul>
-<li>PrincipalName: alias de la entidad principal<br />  
-<br />  
-</li>  
-<li>PrincipalID: Id. único de esta entidad principal<br />  
-<br />  
+<li>PrincipalName: alias de la entidad principal<br />
+<br />
+</li>
+<li>PrincipalID: Id. único de esta entidad principal<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>PrincipalIdentifiers</p></td>
 <td style="border:1px solid black;"><ul>
-<li>PrincipalID: Id. único de esta entidad principal<br />  
-<br />  
-</li>  
-<li>Expiration: fecha y hora en que caduca la información almacenada sobre esta entidad principal<br />  
-<br />  
+<li>PrincipalID: Id. único de esta entidad principal<br />
+<br />
+</li>
+<li>Expiration: fecha y hora en que caduca la información almacenada sobre esta entidad principal<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>PrincipalMembership</p></td>
 <td style="border:1px solid black;"><p>Todas las filas de esta tabla incluyen el Id. único de una entidad principal y el Id. único del grupo del que es integrante.</p>
-<ul>  
-<li>PrincipalID: Id. único de esta entidad principal<br />  
-<br />  
-</li>  
-<li>ParentID: Id. único de un grupo del que esta entidad principal es un integrante.<br />  
-<br />  
+<ul>
+<li>PrincipalID: Id. único de esta entidad principal<br />
+<br />
+</li>
+<li>ParentID: Id. único de un grupo del que esta entidad principal es un integrante.<br />
+<br />
 </li>
 </ul></td>
 </tr>

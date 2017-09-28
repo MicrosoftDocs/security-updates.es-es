@@ -62,28 +62,28 @@ En la tabla siguiente se ofrece un resumen razonable de los costos asociados a l
 <tr class="odd">
 <td style="border:1px solid black;"><p>Costos de personal relacionados con la pérdida, incluida la recuperación de datos y los costos de notificación a los clientes.</p></td>
 <td style="border:1px solid black;"><p>45.000 dólares</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Costos adicionales, como relaciones públicas y con los inversores, y llamadas adicionales al centro de llamadas.</p></td>
 <td style="border:1px solid black;"><p>135.000 dólares</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Costos de los clientes afectados (seguimiento de crédito de dichos clientes).</p></td>
 <td style="border:1px solid black;"><p>80.000 dólares</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Gastos jurídicos, incluidas multas, honorarios de abogados y costos relacionados con una demanda civil.</p></td>
 <td style="border:1px solid black;"><p>165.000 dólares</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Pérdida de ingresos de clientes (250 clientes perdidos a 700 dólares cada uno)</p></td>
 <td style="border:1px solid black;"><p>175.000 dólares</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Total</p></td>
 <td style="border:1px solid black;"><p>600.000 dólares</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Lamentablemente, los equipos portátiles son blanco fácil para los ladrones. En las noticias aparecen cada vez más historias de compañías que han perdido accidentalmente, o les han robado, equipos portátiles con información confidencial personal o de clientes. Aunque la historia anterior es ficticia, un mayor número de organizaciones reales ha tomado conciencia de que los costos de una divulgación de ese tipo son enormes, en ocasiones de una magnitud mayor a la indicada en nuestra historia.

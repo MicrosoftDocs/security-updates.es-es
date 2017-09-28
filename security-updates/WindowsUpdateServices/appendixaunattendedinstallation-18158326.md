@@ -49,44 +49,44 @@ WSUS Setup accepts the following command-line parameters.
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/q</strong></p></td>
 <td style="border:1px solid black;"><p>Perform silent installation.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>/u</strong></p></td>
 <td style="border:1px solid black;"><p>Uninstall the product. Also uninstalls the WMSDE instance if it is installed.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/d</strong></p></td>
 <td style="border:1px solid black;"><p>Use the existing database server (the SQL_INSTANCE property will define the instance to use).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>/o</strong></p></td>
 <td style="border:1px solid black;"><p>Overwrite the existing database.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/?</strong></p></td>
 <td style="border:1px solid black;"><p>Display command-line Help</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>/v</strong></p></td>
 <td style="border:1px solid black;"><p>Passes specified values to the Windows Installer package (.msi file). The property Name value pairs should conform to the format specified by Windows Installer. The properties should be enclosed in quotation marks with a leading and trailing space.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/f</strong></p></td>
 <td style="border:1px solid black;"><p>Install WSUS in a special mode designed to be used with remote SQL. This option is used to set up the front-end of the WSUS installation, which includes IIS and the update storage location. For more information about remote SQL, see <a href="https://technet.microsoft.com/9e01d057-6b39-4eb7-b151-dff7ad0cd638">Appendix C: Remote SQL</a>.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>/b</strong></p></td>
 <td style="border:1px solid black;"><p>Install WSUS in a special mode designed to be used with remote SQL. This option is used to set up the database on the back-end SQL server. For more information about remote SQL, see <a href="https://technet.microsoft.com/9e01d057-6b39-4eb7-b151-dff7ad0cd638">Appendix C: Remote SQL</a>.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/l</strong></p></td>
 <td style="border:1px solid black;"><p>This option used in combination with a language variable allows you to force the setup wizard to use a different language than the one detected as the default. Use a colon followed by a language variable from the Language Variables table below to set the language.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>/g</strong></p></td>
 <td style="border:1px solid black;"><p>Use this option to perform an upgrade from the RC1 version of WSUS.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Use the following properties to configure WSUS by using the command-line parameter **/v**.
@@ -94,18 +94,18 @@ Use the following properties to configure WSUS by using the command-line paramet
 ### WSUS Setup Properties
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Windows Installer Property</th>  
-<th>Description</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Windows Installer Property</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CONTENT_DIR</p></td>
 <td style="border:1px solid black;"><p>The directory where content will be stored. Must be an NTFS drive and can be a non-local mapped network drive.</p>
@@ -119,7 +119,7 @@ Use the following properties to configure WSUS by using the command-line paramet
 <tr class="odd">
 <td style="border:1px solid black;"><p>INSTANCE_NAME</p></td>
 <td style="border:1px solid black;"><p>The name of the SQL Server instance to be used. If an existing instance is not present, the default is &quot;WSUS.&quot;</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>WMSDE_DIR</p></td>
 <td style="border:1px solid black;"><p>The directory where WMSDE database will be stored. The directory must be on an NTFS drive.</p>
@@ -128,12 +128,12 @@ Use the following properties to configure WSUS by using the command-line paramet
 <tr class="odd">
 <td style="border:1px solid black;"><p>RETAIN_DATA</p></td>
 <td style="border:1px solid black;"><p>This option is used during uninstallation to define what data should be left.</p>
-<p>RETAIN_DATA=0 - Delete everything.</p>  
-<p>RETAIN_DATA=1 – Leave the database.</p>  
-<p>RETAIN_DATA=2 – Leave logs.</p>  
-<p>RETAIN_DATA=3 - Leave the database and logs.</p>  
-<p>RETAIN_DATA=4 – Leave content.</p>  
-<p>RETAIN_DATA=5 - Leave the database and content.</p>  
+<p>RETAIN_DATA=0 - Delete everything.</p>
+<p>RETAIN_DATA=1 – Leave the database.</p>
+<p>RETAIN_DATA=2 – Leave logs.</p>
+<p>RETAIN_DATA=3 - Leave the database and logs.</p>
+<p>RETAIN_DATA=4 – Leave content.</p>
+<p>RETAIN_DATA=5 - Leave the database and content.</p>
 <p>RETAIN_DATA=6 – Leave logs and content.</p>
 <p>RETAIN_DATA=7 - Leave everything (default).</p></td>
 </tr>
@@ -145,12 +145,12 @@ Use the following properties to configure WSUS by using the command-line paramet
 <tr class="odd">
 <td style="border:1px solid black;"><p>REPLICA_PARENT_PORT</p></td>
 <td style="border:1px solid black;"><p>Set to the ID of the replica parent port.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>REPLICA_PARENT</p></td>
 <td style="border:1px solid black;"><p>Set to the name of the replica's parent server.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Use the following properties in combination with the **/l** option.
@@ -158,89 +158,89 @@ Use the following properties in combination with the **/l** option.
 ### Language Variables
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Variable</th>  
-<th>Language name</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Language name</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CHS</p></td>
 <td style="border:1px solid black;"><p>Simplified Chinese</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CHT</p></td>
 <td style="border:1px solid black;"><p>Traditional Chinese</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CSY</p></td>
 <td style="border:1px solid black;"><p>Czech</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>DEU</p></td>
 <td style="border:1px solid black;"><p>German</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ENU</p></td>
 <td style="border:1px solid black;"><p>English</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ESN</p></td>
 <td style="border:1px solid black;"><p>Spanish</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>FRA</p></td>
 <td style="border:1px solid black;"><p>French</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>HUN</p></td>
 <td style="border:1px solid black;"><p>Hungarian</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ITA</p></td>
 <td style="border:1px solid black;"><p>Italian</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>JPN</p></td>
 <td style="border:1px solid black;"><p>Japanese</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>KOR</p></td>
 <td style="border:1px solid black;"><p>Korean</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>NLD</p></td>
 <td style="border:1px solid black;"><p>Dutch</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>PLK</p></td>
 <td style="border:1px solid black;"><p>Polish</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>PTB</p></td>
 <td style="border:1px solid black;"><p>Portuguese-Brazil</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>PTG</p></td>
 <td style="border:1px solid black;"><p>Portuguese-Portugal</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>RUS</p></td>
 <td style="border:1px solid black;"><p>Russian</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SVE</p></td>
 <td style="border:1px solid black;"><p>Swedish</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>TRK</p></td>
 <td style="border:1px solid black;"><p>Turkish</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

@@ -96,30 +96,30 @@ Esta guía usa las convenciones de estilo descritas en la tabla siguiente.
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Negrita</strong></p></td>
 <td style="border:1px solid black;"><p>Significa caracteres escritos exactamente como se muestran, incluidos comandos, modificadores y nombres de archivos. Los elementos de la interfaz de usuario también se muestran en negrita.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>Cursiva</em></p></td>
 <td style="border:1px solid black;"><p>Los títulos de libros y otras publicaciones importantes aparecen en <em>cursiva</em>.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>&lt;Cursiva&gt;</em></p></td>
 <td style="border:1px solid black;"><p>Los marcadores de posición en cursiva y entre corchetes angulares – <em>&lt;nombre de archivo&gt;</em> – representan variables.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><pre><code>Fuente monoespaciada</code></pre>
 <br />
 </td>
 <td style="border:1px solid black;"><p>Muestra ejemplos de códigos y scripts.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Nota</strong></p></td>
 <td style="border:1px solid black;"><p>Avisa al lector de que hay información adicional.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Importante</strong></p></td>
 <td style="border:1px solid black;"><p>Avisa al lector de que hay información adicional fundamental.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Principio de la página](#mainsection)

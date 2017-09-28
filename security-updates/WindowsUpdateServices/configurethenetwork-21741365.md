@@ -54,7 +54,7 @@ If there is a corporate firewall between WSUS and the Internet, you might need t
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">The steps for configuring the firewall are meant for a corporate firewall positioned between WSUS and the Internet. Because WSUS initiates all its network traffic, there is no need to configure Windows Firewall on the WSUS server.
-<p></p>  
+<p></p>
 Although the connection between Microsoft Update and WSUS requires ports 80 and 443 to be open, you can configure multiple WSUS servers to synchronize with a custom port.
 <p></p></td>
 </tr>

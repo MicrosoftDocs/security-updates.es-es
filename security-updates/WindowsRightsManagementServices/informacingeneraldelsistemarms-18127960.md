@@ -31,57 +31,57 @@ En la tabla siguiente se muestran los tipos de servidores que intervienen en una
 <tr class="odd">
 <td style="border:1px solid black;"><p>Certificación raíz</p></td>
 <td style="border:1px solid black;"><p>Ejecuta los siguientes servicios de RMS:</p>
-<ul>  
-<li><strong>Subinscripción</strong>. Subinscribe servidores de licencias.<br />  
-<br />  
-</li>  
-<li><strong>Proxy de activación</strong>. Actúa como un proxy de Internet para solicitudes de clientes de cajas de seguridad y certificados de equipo de RMS.<br />  
-<br />  
-</li>  
-<li><strong>Certificación</strong>. Emite certificados de cuenta de permisos.<br />  
-<br />  
-</li>  
-<li><strong>Publicación</strong>. Emite licencias de publicación.<br />  
-<br />  
-</li>  
-<li><strong>Licencias</strong>. Emite licencias de uso.<br />  
-<br />  
-</li>  
+<ul>
+<li><strong>Subinscripción</strong>. Subinscribe servidores de licencias.<br />
+<br />
+</li>
+<li><strong>Proxy de activación</strong>. Actúa como un proxy de Internet para solicitudes de clientes de cajas de seguridad y certificados de equipo de RMS.<br />
+<br />
+</li>
+<li><strong>Certificación</strong>. Emite certificados de cuenta de permisos.<br />
+<br />
+</li>
+<li><strong>Publicación</strong>. Emite licencias de publicación.<br />
+<br />
+</li>
+<li><strong>Licencias</strong>. Emite licencias de uso.<br />
+<br />
+</li>
 </ul>
 <p>En todas las instalaciones se deberá contar al menos con un servidor o clúster de certificación raíz. Sólo puede haber un clúster de certificación raíz en cada bosque de Active Directory.</p></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Licencias (opcional)</p></td>
 <td style="border:1px solid black;"><p>Ejecuta los siguientes servicios de RMS:</p>
-<ul>  
-<li><strong>Publicación</strong>. Emite licencias de publicación.<br />  
-<br />  
-</li>  
-<li><strong>Licencias</strong>. Emite licencias de uso.<br />  
-<br />  
-</li>  
+<ul>
+<li><strong>Publicación</strong>. Emite licencias de publicación.<br />
+<br />
+</li>
+<li><strong>Licencias</strong>. Emite licencias de uso.<br />
+<br />
+</li>
 </ul>
 <p>Con frecuencia, los servidores de licencias se implementan para cubrir las necesidades de pequeños departamentos o para descargar solicitudes de licencias del clúster de certificación raíz. Los servidores de licencias son opcionales.</p></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servidor de base de datos, como SQL Server</p></td>
 <td style="border:1px solid black;"><ul>
-<li>Ejecuta las bases de datos de configuración, registro y servicios de directorio de RMS.<br />  
-<br />  
-</li>  
-<li>Almacena certificados de cuenta de permisos en la base de datos de configuración del clúster de certificación raíz.<br />  
-<br />  
+<li>Ejecuta las bases de datos de configuración, registro y servicios de directorio de RMS.<br />
+<br />
+</li>
+<li>Almacena certificados de cuenta de permisos en la base de datos de configuración del clúster de certificación raíz.<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Controlador de dominio y catálogo global</p></td>
 <td style="border:1px solid black;"><ul>
-<li>Proporciona autenticación de usuarios y servicios de directorio.<br />  
-<br />  
-</li>  
-<li>Almacena la ubicación de detección de servicios del clúster de certificación raíz.<br />  
-<br />  
+<li>Proporciona autenticación de usuarios y servicios de directorio.<br />
+<br />
+</li>
+<li>Almacena la ubicación de detección de servicios del clúster de certificación raíz.<br />
+<br />
 </li>
 </ul></td>
 </tr>

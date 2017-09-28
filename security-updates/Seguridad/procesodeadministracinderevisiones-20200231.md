@@ -238,28 +238,28 @@ La información de los boletines de seguridad en el sitio web de Microsoft se or
 <tr class="odd">
 <td style="border:1px solid black;"><p>Resumen</p></td>
 <td style="border:1px solid black;"><p>Consulte inmediatamente la sección Resumen de un boletín de seguridad. Los elementos Nivel de gravedad máxima, Consecuencia de la vulnerabilidad, Software afectado y Recomendación incluyen información que le ayudará a determinar lo susceptible que es su entorno a la vulnerabilidad.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Detalles de la vulnerabilidad</p></td>
 <td style="border:1px solid black;"><p>La sección Detalles de la vulnerabilidad proporciona una descripción técnica detallada de las vulnerabilidades. En esta sección también se describen los factores atenuantes y la gravedad de la vulnerabilidad de todos los productos afectados.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Soluciones provisionales</p></td>
 <td style="border:1px solid black;"><p>La sección Soluciones provisionales incluye información acerca de las soluciones que Microsoft ha probado para ayudar a mitigar las amenazas hasta que haya actualizado su entorno. Se debe leer esta sección como parte de la valoración de riesgos.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Preguntas más frecuentes</p></td>
 <td style="border:1px solid black;"><p>La sección Preguntas más frecuentes proporciona respuestas a las preguntas específicas de la vulnerabilidad o revisión. Es un buen lugar de partida después de leer la sección Resumen.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Información sobre la actualización de seguridad</p></td>
 <td style="border:1px solid black;"><p>En esta sección se enumeran elementos como los requisitos previos, la información de instalación específica para la plataforma, la información de implementación, la información de reinicio, la información de desinstalación, la información de archivo (incluidos los nombres de archivo, el tamaño, las versiones, la carpeta de destino) y los pasos de comprobación de la actualización.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Artículo de Knowledge Base</p></td>
 <td style="border:1px solid black;"><p>Consulte el artículo de KB identificado en el título de un boletín de seguridad. En el artículo de KB se proporciona información adicional acerca de las vulnerabilidades y cualquier actualización recomendada en el boletín de seguridad. El número entre paréntesis a la derecha del título del boletín de seguridad indica el artículo de KB correspondiente al boletín de seguridad. Use este número para buscar el artículo en el sitio web de soporte técnico de Microsoft en <a href="http://www.support.microsoft.com/" class="uri">http://www.support.microsoft.com/</a>.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Para obtener más información sobre el proceso de publicación del boletín de seguridad, consulte las notas del producto acerca de la modernización de la publicación del boletín de seguridad en <http://www.microsoft.com/technet/security/bulletin/revsbwp.mspx>.

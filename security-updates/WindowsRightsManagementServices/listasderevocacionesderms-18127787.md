@@ -39,28 +39,28 @@ En la tabla siguiente, se describen las entidades que se pueden especificar en l
 <tr class="odd">
 <td style="border:1px solid black;"><p>Un grupo de licencias o certificados</p></td>
 <td style="border:1px solid black;"><p>Id. o clave pública del emisor</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Un grupo de manifiestos de aplicaciones</p></td>
 <td style="border:1px solid black;"><p>Id. o clave pública del emisor</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Una licencia o un certificado determinado</p></td>
 <td style="border:1px solid black;"><p>Id. o algoritmo hash de la licencia</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Un manifiesto de aplicación determinado</p></td>
 <td style="border:1px solid black;"><p>Id. o algoritmo hash de la licencia</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Una entidad principal determinada</p></td>
 <td style="border:1px solid black;"><p>Id. o clave pública de la entidad principal</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Un fragmento de contenido determinado</p></td>
 <td style="border:1px solid black;"><p>Id. del contenido</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc720287.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |  
@@ -72,33 +72,33 @@ Las listas de revocaciones son archivos XrML que especifican los parámetros sig
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Parámetro</th>  
-<th>Descripción</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Parámetro</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ISSUEDTIME</p></td>
 <td style="border:1px solid black;"><p>Hora del sistema en que se creó el archivo XrML. Este parámetro lo usa la condición REFRESH que se incluye en una licencia de uso para determinar la antigüedad de la lista de revocaciones.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ISSUER</p></td>
 <td style="border:1px solid black;"><p>Nombre, Id. y dirección del emisor de la lista de revocaciones.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>PUBLICKEY</p></td>
 <td style="border:1px solid black;"><p>Clave pública del emisor de la lista de revocaciones.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>REVOCATIONLIST</p></td>
 <td style="border:1px solid black;"><p>Nombre, tipo e Id. de cada entidad revocada.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

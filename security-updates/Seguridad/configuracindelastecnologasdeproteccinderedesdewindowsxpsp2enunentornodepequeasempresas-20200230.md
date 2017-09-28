@@ -129,73 +129,73 @@ Esta sección describe la configuración de Firewall de Windows en un GPO y la c
 <td style="border:1px solid black;"><p>Protección de todas las conexiones de red</p></td>
 <td style="border:1px solid black;"><p>Especifica que todas las conexiones de red tienen habilitado Firewall de Windows.</p></td>
 <td style="border:1px solid black;"><p>Habilitado.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>No permitir excepciones</p></td>
 <td style="border:1px solid black;"><p>Especifica que todo el tráfico no solicitado se descarta, incluido el tráfico permitido.</p></td>
 <td style="border:1px solid black;"><p>No configurado.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Definir excepciones de programas</p></td>
 <td style="border:1px solid black;"><p>Define el tráfico permitido en términos de nombres de archivos de programas.</p></td>
 <td style="border:1px solid black;"><p>Habilitado y configurado con los programas (aplicaciones y servicios) utilizados por los equipos basados en Windows XP SP2 de su red.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Permitir excepciones de programas locales</p></td>
 <td style="border:1px solid black;"><p>Habilita la configuración local de excepciones de programa.</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Permitir excepción de administración remota</p></td>
 <td style="border:1px solid black;"><p>Permite efectuar la configuración remota mediante el uso de herramientas.</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado, a menos que quiera administrar sus equipos con complementos MMC de forma remota.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Permitir excepción de impresión y archivos compartidos</p></td>
 <td style="border:1px solid black;"><p>Especifica si se permite el tráfico generado al compartir impresoras y archivos.</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Permitir excepciones ICMP</p></td>
 <td style="border:1px solid black;"><p>Especifica los tipos de mensajes ICMP que se permiten.</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Permitir excepción de escritorio remoto</p></td>
 <td style="border:1px solid black;"><p>Especifica si el equipo puede aceptar una solicitud de conexión basada en escritorio remoto.</p></td>
 <td style="border:1px solid black;"><p>Habilitado.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Permitir excepción del marco UPnP</p></td>
 <td style="border:1px solid black;"><p>Especifica si el equipo puede recibir mensajes UPnP no solicitados.</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Prohibir notificaciones</p></td>
 <td style="border:1px solid black;"><p>Deshabilita las notificaciones.</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Permitir registro</p></td>
 <td style="border:1px solid black;"><p>Habilita el registro del tráfico y configura los parámetros de los archivos de registro.</p></td>
 <td style="border:1px solid black;"><p>No configurado.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Prohibir respuesta de unidifusión para solicitudes de difusión o multidifusión</p></td>
 <td style="border:1px solid black;"><p>Descarta los paquetes de unidifusión recibidos como respuesta a un mensaje de solicitud de difusión o multidifusión.</p></td>
 <td style="border:1px solid black;"><p>Habilitado.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Definir excepciones de puerto</p></td>
 <td style="border:1px solid black;"><p>Especifica el tráfico permitido en términos de TCP y UDP.</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Permitir excepciones de puerto local</p></td>
 <td style="border:1px solid black;"><p>Permite la configuración local de excepciones de puerto.</p></td>
 <td style="border:1px solid black;"><p>Deshabilitado.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Para obtener más detalles, consulte "[Cómo configurar Firewall de Windows en un entorno de pequeñas empresas mediante Directiva de grupo](http://www.microsoft.com/spain/empresas/seguridad/articulos/fwgrppol.mspx)" en www.microsoft.com/spain/empresas/seguridad/articulos/fwgrppol.mspx.
@@ -213,20 +213,20 @@ Internet Explorer clasifica los sitios Web en cuatro zonas de seguridad, cada un
 **Tabla 2. Descripciones de las zonas de seguridad y configuración de seguridad predeterminada**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Zona de seguridad</p></th>  
-<th><p>Nivel de seguridad predeterminado</p></th>  
-<th><p>Descripción</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Zona de seguridad</p></th>
+<th><p>Nivel de seguridad predeterminado</p></th>
+<th><p>Descripción</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Zona Internet</p></td>
 <td style="border:1px solid black;"><p>Medio</p></td>
@@ -238,7 +238,7 @@ Internet Explorer clasifica los sitios Web en cuatro zonas de seguridad, cada un
 <td style="border:1px solid black;"><p>Zona Intranet local</p></td>
 <td style="border:1px solid black;"><p>Medio-bajo</p></td>
 <td style="border:1px solid black;"><p>Todos los sitios de esta zona están dentro del servidor de seguridad.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Zona Sitios de confianza</p></td>
 <td style="border:1px solid black;"><p>Bajo</p></td>
@@ -249,8 +249,8 @@ Para esta zona, Microsoft recomienda que utilice el protocolo HTTPS o que se ase
 <td style="border:1px solid black;"><p>Zona Sitios restringidos</p></td>
 <td style="border:1px solid black;"><p>Alto</p></td>
 <td style="border:1px solid black;"><p>Esta zona está diseñada para permitir la adición de sitios que no se consideren de confianza. Controla y restringe las características Web, pero no bloquea el acceso al sitio. El usuario puede agregar sitios o venir determinados por Directiva de grupo. Para bloquear el acceso a los sitios Web, debe utilizar un servidor proxy que admita esa característica.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Aumento de la seguridad
@@ -260,43 +260,43 @@ Cada zona de seguridad contiene más de 30 parámetros de configuración que se 
 **Tabla 3. Parámetros de configuración de la directiva de zonas de seguridad**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Zona de seguridad</p></th>  
-<th><p>Configuración de directiva</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Zona de seguridad</p></th>
+<th><p>Configuración de directiva</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Zona Internet</p></td>
 <td style="border:1px solid black;"><p>Usar el bloqueador de elementos emergentes = Habilitado<br />
-Pedir intervención del usuario automática para controles ActiveX = Deshabilitado<br />  
+Pedir intervención del usuario automática para controles ActiveX = Deshabilitado<br />
 Descarga de controles ActiveX firmados = Pedir datos<br />
 Descarga de archivos = Habilitado</p></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Zona Intranet local</p></td>
 <td style="border:1px solid black;"><p>Usar el bloqueador de elementos emergentes = Deshabilitado<br />
-Pedir intervención del usuario automática para controles ActiveX = Habilitado<br />  
+Pedir intervención del usuario automática para controles ActiveX = Habilitado<br />
 Descarga de controles ActiveX firmados = Pedir datos<br />
 Descarga de archivos = Deshabilitado</p></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Zona Sitios de confianza</p></td>
 <td style="border:1px solid black;"><p>Usar el bloqueador de elementos emergentes = Deshabilitado<br />
-Pedir intervención del usuario automática para controles ActiveX = Habilitado<br />  
+Pedir intervención del usuario automática para controles ActiveX = Habilitado<br />
 Descarga de controles ActiveX firmados = Habilitado<br />
 Descarga de archivos = Habilitado</p></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Zona Sitios restringidos</p></td>
 <td style="border:1px solid black;"><p>Usar el bloqueador de elementos emergentes = Habilitado<br />
-Pedir intervención del usuario automática para controles ActiveX = Deshabilitado<br />  
+Pedir intervención del usuario automática para controles ActiveX = Deshabilitado<br />
 Descarga de controles ActiveX firmados = Deshabilitado<br />
 Descarga de archivos = Deshabilitado</p></td>
 </tr>

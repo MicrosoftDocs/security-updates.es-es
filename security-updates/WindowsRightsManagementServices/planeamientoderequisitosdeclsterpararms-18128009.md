@@ -29,11 +29,11 @@ Si utiliza RMS en una implementación de clúster, asegúrese de tener en cuenta
 <tr class="odd">
 <td style="border:1px solid black;"><p>Un gran número de escritorios utilizan RMS.</p></td>
 <td style="border:1px solid black;"><p>Puede utilizar Windows Update, una secuencia de comandos o un método de distribución de software como Systems Management Server (SMS) o Directiva de grupo para instalar y activar el software de cliente de los Servicios de Microsoft Windows Rights Management.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Gran número de solicitudes de clientes.</p></td>
 <td style="border:1px solid black;"><p>Utilice un servidor de equilibrio de carga, el servicio de equilibrio de carga (NLB) o equilibrio de carga de hardware para distribuir las solicitudes por el clúster.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Dos adaptadores de red que utilizan direcciones IP virtuales para prestar servicio a solicitudes de la extranet y de la intranet.</p></td>
 <td style="border:1px solid black;"><p>Asegúrese de que todo registro de DNS que se haga para exponer la dirección IP virtual a la extranet también se hace para exponer la dirección a la intranet.</p>

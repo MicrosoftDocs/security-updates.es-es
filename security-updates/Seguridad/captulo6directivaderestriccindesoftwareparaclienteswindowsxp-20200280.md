@@ -472,110 +472,110 @@ Para el diseño de GPO que se define en esta guía, se quitan los tipos de archi
 <td style="border:1px solid black;"><p>Extensión de proyectos de Microsoft Access</p></td>
 <td style="border:1px solid black;"><p>.msc</p></td>
 <td style="border:1px solid black;"><p>Documento de la consola común de Microsoft</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>.adp</p></td>
 <td style="border:1px solid black;"><p>Proyecto de Microsoft Access</p></td>
 <td style="border:1px solid black;"><p>.msi</p></td>
 <td style="border:1px solid black;"><p>Paquete de Windows Installer</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>.bas</p></td>
 <td style="border:1px solid black;"><p>Módulo de clase de Visual Basic</p></td>
 <td style="border:1px solid black;"><p>.msp</p></td>
 <td style="border:1px solid black;"><p>Revisión de Windows Installer</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>.bat</p></td>
 <td style="border:1px solid black;"><p>Archivo por lotes</p></td>
 <td style="border:1px solid black;"><p>.mst</p></td>
 <td style="border:1px solid black;"><p>Archivo de origen de prueba de Microsoft Visual</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>.chm</p></td>
 <td style="border:1px solid black;"><p>Archivo de ayuda HTML compilado</p></td>
 <td style="border:1px solid black;"><p>.ocx</p></td>
 <td style="border:1px solid black;"><p>Control ActiveX</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>.cmd</p></td>
 <td style="border:1px solid black;"><p>Secuencia de comandos de Windows NT</p></td>
 <td style="border:1px solid black;"><p>.pcd</p></td>
 <td style="border:1px solid black;"><p>Imagen de CD de fotografías</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>.com</p></td>
 <td style="border:1px solid black;"><p>Aplicación MS-DOS</p></td>
 <td style="border:1px solid black;"><p>.pif</p></td>
 <td style="border:1px solid black;"><p>Acceso directo al programa MS-DOS</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>.cpl</p></td>
 <td style="border:1px solid black;"><p>Extensión del Panel de control</p></td>
 <td style="border:1px solid black;"><p>.reg</p></td>
 <td style="border:1px solid black;"><p>Entrada de registro</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>.crt</p></td>
 <td style="border:1px solid black;"><p>Certificado de seguridad</p></td>
 <td style="border:1px solid black;"><p>.scr</p></td>
 <td style="border:1px solid black;"><p>Protector de pantalla</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>.exe</p></td>
 <td style="border:1px solid black;"><p>Aplicación</p></td>
 <td style="border:1px solid black;"><p>.sct</p></td>
 <td style="border:1px solid black;"><p>Componente de secuencia de comandos de Windows</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>.hlp</p></td>
 <td style="border:1px solid black;"><p>Archivo de ayuda de Windows</p></td>
 <td style="border:1px solid black;"><p>.shs</p></td>
 <td style="border:1px solid black;"><p>Objeto de recorte de Shell</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>.hta</p></td>
 <td style="border:1px solid black;"><p>Aplicación HTML</p></td>
 <td style="border:1px solid black;"><p>.url</p></td>
 <td style="border:1px solid black;"><p>Acceso directo a Internet (Uniform Resource Locator)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>.inf</p></td>
 <td style="border:1px solid black;"><p>Archivo de información de instalación</p></td>
 <td style="border:1px solid black;"><p>.vb</p></td>
 <td style="border:1px solid black;"><p>Archivo de Visual Basic</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>.ins</p></td>
 <td style="border:1px solid black;"><p>Configuración de comunicaciones de Internet</p></td>
 <td style="border:1px solid black;"><p>.vbe</p></td>
 <td style="border:1px solid black;"><p>Archivo de secuencia de comandos codificado de VBScript</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>.isp</p></td>
 <td style="border:1px solid black;"><p>Configuración de comunicaciones de Internet</p></td>
 <td style="border:1px solid black;"><p>.vbs</p></td>
 <td style="border:1px solid black;"><p>Archivo de secuencia de comandos de VBScript</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>.js</p></td>
 <td style="border:1px solid black;"><p>Archivo JScript</p></td>
 <td style="border:1px solid black;"><p>.wsc</p></td>
 <td style="border:1px solid black;"><p>Componente de secuencia de comandos de Windows</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>.jse</p></td>
 <td style="border:1px solid black;"><p>Archivo de secuencia de comandos codificado de JScript</p></td>
 <td style="border:1px solid black;"><p>.wsf</p></td>
 <td style="border:1px solid black;"><p>Archivo de secuencia de comandos de Windows</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>.mde</p></td>
 <td style="border:1px solid black;"><p>Base de datos MDE de Microsoft Access</p></td>
 <td style="border:1px solid black;"><p>.wsh</p></td>
 <td style="border:1px solid black;"><p>Archivo de configuración de Windows Scripting Host</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ### Editores de confianza
@@ -593,39 +593,39 @@ La siguiente tabla muestra las opciones de editores de confianza relacionadas co
 **Tabla 6.3 Configuración y tareas de los editores de confianza**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nombre de la configuración</p></th>  
-<th><p>Tarea</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nombre de la configuración</p></th>
+<th><p>Tarea</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Administradores de organización</p></td>
 <td style="border:1px solid black;"><p>Utilizar para permitir que sólo los administradores de organización tomen decisiones sobre el contenido activo firmado.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Administradores de equipo local</p></td>
 <td style="border:1px solid black;"><p>Utilizar para permitir que los administradores de equipos locales tomen todas las decisiones sobre el contenido activo firmado.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Usuarios finales</p></td>
 <td style="border:1px solid black;"><p>Utilizar para permitir que los usuarios tomen decisiones sobre el contenido activo firmado.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Editor</p></td>
 <td style="border:1px solid black;"><p>Utilizar para asegurar que el certificado que utiliza el editor de software no se ha revocado.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Marca de hora</p></td>
 <td style="border:1px solid black;"><p>Utilizar para asegurar que el certificado que utiliza la organización para marcar la hora en el contenido activo no se ha revocado.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Principio de la página](#mainsection)
@@ -653,54 +653,54 @@ En esta sección se describen los pasos que deben seguirse al diseñar e impleme
 **Tabla 6.4 Consideraciones importantes sobre el diseño de directivas**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Decisión</p></th>  
-<th><p>Factores que deben considerarse</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Decisión</p></th>
+<th><p>Factores que deben considerarse</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Equipos portátiles o estaciones de trabajo</p></td>
 <td style="border:1px solid black;"><p>Investigar las necesidades de los usuarios móviles de su entorno para averiguar si los equipos portátiles precisan una directiva distinta a la del resto. Los equipos portátiles tienden a necesitar más flexibilidad que los de escritorio.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Recursos compartidos del servidor, secuencias de comandos de inicio de sesión y unidades principales</p></td>
 <td style="border:1px solid black;"><p>Necesitará definir una regla de ruta para todas las aplicaciones que se inicien desde un recurso compartido del servidor o un directorio principal. Puede agregar archivos de comandos de inicio de sesión a la regla de ruta. Si una secuencia de comandos llama a otra, agregue también a la regla de ruta las ubicaciones de los ejecutables.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>GPO o directiva de seguridad local</p></td>
 <td style="border:1px solid black;"><p>En esta guía se utiliza un GPO para el diseño. Sin embargo, debe considerar las repercusiones que tendrá la directiva local sobre el diseño.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Directiva de usuario o equipo</p></td>
 <td style="border:1px solid black;"><p>Este diseño se aplica a todas las configuraciones en el nivel de equipo.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nivel de seguridad predeterminado</p></td>
 <td style="border:1px solid black;"><p>Se recomienda configurar el parámetro predeterminado como <strong>No permitido</strong> y después configurar el resto de la directiva de acuerdo al parámetro. La configuración predeterminada <strong>Irrestricto</strong> también está disponible.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Reglas adicionales</p></td>
 <td style="border:1px solid black;"><p>Necesitará aplicar reglas de ruta de sistema operativo adicionales según sea necesario cuando utilice la directiva predeterminada <strong>No permitido</strong>. En la configuración <strong>No permitido</strong>, se crean automáticamente las cuatro reglas.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Opciones de directiva</p></td>
 <td style="border:1px solid black;"><p>Si utiliza una directiva de seguridad local y no desea que la directiva se aplique a los administradores en los equipos cliente de su entorno, seleccione la opción de obligatoriedad de directiva de <strong>omisión de administradores</strong>.</p>
-<p>Si desea comprobar las DLL además de los archivos ejecutables y las secuencias de comandos, seleccione la opción de obligatoriedad de directiva de <strong>comprobación de DLL</strong>.</p>  
+<p>Si desea comprobar las DLL además de los archivos ejecutables y las secuencias de comandos, seleccione la opción de obligatoriedad de directiva de <strong>comprobación de DLL</strong>.</p>
 <p>Si desea establecer reglas para tipos de archivo que no se encuentran en la lista predeterminada de tipos de archivo designados, utilice la opción para agregarlas según sea necesario en el cuadro de diálogo <strong>Propiedades de Tipos de archivo designados</strong>.</p>
 <p>Si desea cambiar el responsable que puede tomar decisiones sobre la descarga de controles ActiveX y otro contenido firmado, active la casilla de verificación <strong>Editor</strong> en la ficha <strong>General</strong> del cuadro de diálogo <strong>Propiedades de Editores de confianza</strong>.</p></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Aplicar la directiva a un sitio, dominio o unidad organizativa (UO)</p></td>
 <td style="border:1px solid black;"><p>La directiva residirá en la UO donde se ubican los equipos portátiles y de escritorio.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Nota**: aunque en esta guía se recomienda aplicar la directiva de restricción de software en el nivel de equipo, hay muchos casos en los que tendrá sentido aplicarla en el nivel de usuario. Por ejemplo, es posible que una organización con equipos compartidos, como los servidores de aplicación de Servicios de Terminal Server o las estaciones de trabajo de un centro de llamadas, desee permitir a determinados usuarios la ejecución de un conjunto de aplicaciones, pero bloquear el acceso de otros usuarios.
@@ -780,150 +780,150 @@ Una vez probada a fondo la directiva, aplíquela a la unidad organizativa Equipo
 **Tabla 6.5 Niveles de seguridad**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Regla predeterminada en la UI</p></th>  
-<th><p>Descripción</p></th>  
-<th><p>Configuración</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Regla predeterminada en la UI</p></th>
+<th><p>Descripción</p></th>
+<th><p>Configuración</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>No permitido</p></td>
 <td style="border:1px solid black;"><p>No se ejecutará el software, independientemente de los derechos de acceso del usuario.</p></td>
 <td style="border:1px solid black;"><p>Utilizar esta regla predeterminada</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Tabla 6.6 Reglas adicionales**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Regla de ruta</p></th>  
-<th><p>Configuración</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Regla de ruta</p></th>
+<th><p>Configuración</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>%HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\Current Version\SystemRoot%</p></td>
 <td style="border:1px solid black;"><p>Irrestricto</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>%HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\Current Version\SystemRoot%\*.exe</p></td>
 <td style="border:1px solid black;"><p>Irrestricto</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>%HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\Current Version\SystemRoot%\System32\*.exe</p></td>
 <td style="border:1px solid black;"><p>Irrestricto</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>%HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\Current Version\ProgramFilesDir%</p></td>
 <td style="border:1px solid black;"><p>Irrestricto</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>*.vbs</p></td>
 <td style="border:1px solid black;"><p>No permitido</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>G:\Group Applications</p></td>
 <td style="border:1px solid black;"><p>Irrestricto</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Logon.bat o secuencia de comandos de inicio de sesión</p></td>
 <td style="border:1px solid black;"><p>Irrestricto</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>*\Archivos de programa</p></td>
 <td style="border:1px solid black;"><p>Irrestricto</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Tabla 6.7 Obligatoriedad para los archivos y usuarios**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Opciones de obligatoriedad</p></th>  
-<th><p>Recomendación</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Opciones de obligatoriedad</p></th>
+<th><p>Recomendación</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Aplicar directivas de restricción de software a:</p></td>
 <td style="border:1px solid black;"><p>Todos los archivos de software excepto bibliotecas (tales como DLLs).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Aplicar directivas de restricción de software a los siguientes usuarios:</p></td>
 <td style="border:1px solid black;"><p>Todos los usuarios excepto los administradores locales.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Tabla 6.8 Tipos de archivo designados**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Tipos de archivo</p></th>  
-<th><p>Recomendación</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Tipos de archivo</p></th>
+<th><p>Recomendación</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Propiedades de Tipos de archivo designados</p></td>
 <td style="border:1px solid black;"><p>Quitar los tipos de archivo .mdb y .lnk, y agregar el tipo de archivo .ocx.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Tabla 6.9 Editores de confianza**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Editores de confianza</p></th>  
-<th><p>Recomendación</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Editores de confianza</p></th>
+<th><p>Recomendación</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Permitir a los siguientes usuarios seleccionar editores de confianza:</p></td>
 <td style="border:1px solid black;"><p><strong>Administradores de equipo local</strong></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Determinar si el certificado se ha revocado.</p></td>
 <td style="border:1px solid black;"><p>Seleccionar la opción <strong>Editor</strong>.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Principio de la página](#mainsection)

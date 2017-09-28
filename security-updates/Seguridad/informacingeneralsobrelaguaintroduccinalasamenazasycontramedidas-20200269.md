@@ -3093,36 +3093,36 @@ Puede restringir el acceso a canalizaciones con nombre como COMNAP y LOCATOR, pa
 <tr class="odd">
 <td style="border:1px solid black;"><p>COMNAP</p></td>
 <td style="border:1px solid black;"><p>Canalización con nombre SNABase. La arquitectura de redes de sistemas (SNA) es una recopilación de protocolos de red que se desarrolló en un principio para los equipos de grandes sistemas de IBM.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>COMNODE</p></td>
 <td style="border:1px solid black;"><p>Canalización con nombre SNA Server.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SQL\QUERY</p></td>
 <td style="border:1px solid black;"><p>Canalización con nombre predeterminada para SQL Server.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SPOOLSS</p></td>
 <td style="border:1px solid black;"><p>Canalización con nombre para el servicio de cola de impresión.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>EPMAPPER</p></td>
 <td style="border:1px solid black;"><p>Canalización con nombre de asignador de puntos finales.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>LOCATOR</p></td>
 <td style="border:1px solid black;"><p>Canalización con nombre del servicio Localizador de llamada a procedimiento remoto.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>TrkWks</p></td>
 <td style="border:1px solid black;"><p>Canalización con nombre de Cliente de seguimiento de vínculos distribuidos.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>TrkSvr</p></td>
 <td style="border:1px solid black;"><p>Canalización con nombre de Servidor de seguimiento de vínculos distribuidos.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ##### Contramedida
@@ -8685,81 +8685,81 @@ La configuración del registro de la tabla siguiente se agregó al archivo de pl
 **Tabla 10.1 Entradas del Registro relacionadas con TCP/IP en Windows Server 2003 con SP1 y Windows XP con SP2**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Entrada de registro</p></th>  
-<th><p>Formato</p></th>  
-<th><p>XP SP2 predeterminado</p></th>  
-<th><p>2003 SP1 predeterminado</p></th>  
-<th><p>Valor más seguro (decimal)</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Entrada de registro</p></th>
+<th><p>Formato</p></th>
+<th><p>XP SP2 predeterminado</p></th>
+<th><p>2003 SP1 predeterminado</p></th>
+<th><p>Valor más seguro (decimal)</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DisableIPSourceRouting</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>1</p></td>
 <td style="border:1px solid black;"><p>1</p></td>
 <td style="border:1px solid black;"><p>2</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>EnableDeadGWDetect</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>1</p></td>
 <td style="border:1px solid black;"><p>1</p></td>
 <td style="border:1px solid black;"><p>0</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>EnableICMPRedirect</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>1</p></td>
 <td style="border:1px solid black;"><p>1</p></td>
 <td style="border:1px solid black;"><p>0</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>KeepAliveTime</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>7200000</p></td>
 <td style="border:1px solid black;"><p>7200000</p></td>
 <td style="border:1px solid black;"><p>300.000</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>PerformRouterDiscovery</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>2</p></td>
 <td style="border:1px solid black;"><p>2</p></td>
 <td style="border:1px solid black;"><p>0</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SynAttackProtect</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>0</p></td>
 <td style="border:1px solid black;"><p>1</p></td>
 <td style="border:1px solid black;"><p>1</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>TcpMaxConnectResponseRetransmissions</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>2</p></td>
 <td style="border:1px solid black;"><p>2</p></td>
 <td style="border:1px solid black;"><p>2</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>TcpMaxDataRetransmissions</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>5</p></td>
 <td style="border:1px solid black;"><p>5</p></td>
 <td style="border:1px solid black;"><p>3</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### DisableIPSourceRouting: IP source routing protection level (protects against packet spoofing)
@@ -9011,81 +9011,81 @@ Se recomiendan también las entradas del registro en la tabla siguiente. La info
 **Tabla 10.2 Entradas que no son de TCP/IP agregadas al registro en Windows Server 2003**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Entrada de registro</p></th>  
-<th><p>Formato</p></th>  
-<th><p>Valor más seguro (decimal)</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Entrada de registro</p></th>
+<th><p>Formato</p></th>
+<th><p>Valor más seguro (decimal)</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>MSS: (AutoAdminLogon) Enable Automatic Logon (not recommended)</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>No definido, excepto para entornos muy seguros, que deben utilizar 0.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>MSS: (AutoReboot) Allow Windows to automatically restart after a system crash (recommended except for highly secure environments)</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>No definido, excepto para entornos muy seguros, que deben utilizar 0.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>MSS: (AutoShareWks) Enable Administrative Shares (not recommended except for highly secure environments)</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>No definido, excepto para entornos muy seguros, que deben utilizar 1.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>MSS: (DisableSavePassword) Prevent the dial-up passsword from being saved (recommended)</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>1</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>MSS: (Hidden) Hide Computer From the Browse List (not recommended except for highly secure environments)</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>No definido, excepto para entornos muy seguros, que deben utilizar 1.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>MSS: (NoDefaultExempt) Enable NoDefaultExempt for IPSec Filtering (recommended)</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>1 para equipos con Windows XP, 3 para equipos con Windows Server 2003.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>MSS: (NoDriveTypeAutoRun) Disable Autorun for all drives (recommended)</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>0xFF</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>MSS: (NoNameReleaseOnDemand) Allow the computer to ignore NetBIOS name release requests except from WINS servers (Only recommended for servers)</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>1</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>MSS: (NtfsDisable8dot3NameCreation) Enable the computer to stop generating 8.3 style filenames (recommended)</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>1</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>MSS: (SafeDllSearchMode) Enable Safe DLL search mode (recommended)</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>1</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>MSS: (ScreenSaverGracePeriod) The time in seconds before the screen saver grace period expires (0 recommended)</p></td>
 <td style="border:1px solid black;"><p>Cadena</p></td>
 <td style="border:1px solid black;"><p>0</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>MSS: (WarningLevel) Percentage threshold for the security event log at which the system will generate a warning</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>0</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Disable Automatic Logon: Disable Automatic Logon
@@ -10043,30 +10043,30 @@ Si se empieza por los filtros IPSec más restrictivos y se abren puertos adicion
 **Tabla 11.1: Ejemplo de mapa de tráfico de red**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Servicio</p></th>  
-<th><p>Protocolo</p></th>  
-<th><p>Puerto de origen</p></th>  
-<th><p>Puerto de destino</p></th>  
-<th><p>Dirección de origen</p></th>  
-<th><p>Dirección de destino</p></th>  
-<th><p>Acción</p></th>  
-<th><p>Reflejo</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Servicio</p></th>
+<th><p>Protocolo</p></th>
+<th><p>Puerto de origen</p></th>
+<th><p>Puerto de destino</p></th>
+<th><p>Dirección de origen</p></th>
+<th><p>Dirección de destino</p></th>
+<th><p>Acción</p></th>
+<th><p>Reflejo</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servidor HTTP</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -10076,7 +10076,7 @@ Si se empieza por los filtros IPSec más restrictivos y se abren puertos adicion
 <td style="border:1px solid black;"><p>YO</p></td>
 <td style="border:1px solid black;"><p>PERMITIR</p></td>
 <td style="border:1px solid black;"><p>SÍ</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servidor HTTPS</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -10086,7 +10086,7 @@ Si se empieza por los filtros IPSec más restrictivos y se abren puertos adicion
 <td style="border:1px solid black;"><p>YO</p></td>
 <td style="border:1px solid black;"><p>PERMITIR</p></td>
 <td style="border:1px solid black;"><p>SÍ</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Cliente DNS</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -10096,7 +10096,7 @@ Si se empieza por los filtros IPSec más restrictivos y se abren puertos adicion
 <td style="border:1px solid black;"><p>DNS</p></td>
 <td style="border:1px solid black;"><p>PERMITIR</p></td>
 <td style="border:1px solid black;"><p>SÍ</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Bloquear todo</p></td>
 <td style="border:1px solid black;"><p>CUALQUIERA</p></td>
@@ -10106,8 +10106,8 @@ Si se empieza por los filtros IPSec más restrictivos y se abren puertos adicion
 <td style="border:1px solid black;"><p>CUALQUIERA</p></td>
 <td style="border:1px solid black;"><p>BLOQUEAR</p></td>
 <td style="border:1px solid black;"><p>SÍ</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 En este ejemplo de mapa de tráfico, el servidor web proporcionará servicios HTTP y HTTPS a los equipos desde cualquier dirección IP de origen con el fin de permitir el tráfico adecuado. El servicio IPSec interpreta el destino YO para crear un filtro para cada una de las direcciones IP del equipo. Cada uno de estos filtros se reflejará para permitir que el tráfico regrese al equipo de origen. Este enfoque significa que la regla del servidor HTTP permitirá que el tráfico que se origina en cualquier host de cualquier puerto de origen se conecte al puerto 80 del servidor IIS. El reflejo de esta regla permitirá que el tráfico TCP del puerto 80 del servidor IIS vaya a cualquier puerto de cualquier host.
@@ -10127,30 +10127,30 @@ Si se requiere un servicio de cliente que no puede restringirse para la conexió
 **Tabla 11.2: Ejemplo de mapa de tráfico de red que permite la exploración web saliente**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Servicio</p></th>  
-<th><p>Protocolo</p></th>  
-<th><p>Puerto de origen</p></th>  
-<th><p>Puerto de destino</p></th>  
-<th><p>Dirección de origen</p></th>  
-<th><p>Dirección de destino</p></th>  
-<th><p>Acción</p></th>  
-<th><p>Reflejo</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Servicio</p></th>
+<th><p>Protocolo</p></th>
+<th><p>Puerto de origen</p></th>
+<th><p>Puerto de destino</p></th>
+<th><p>Dirección de origen</p></th>
+<th><p>Dirección de destino</p></th>
+<th><p>Acción</p></th>
+<th><p>Reflejo</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ICMP entrante para TCP PMTU</p></td>
 <td style="border:1px solid black;"><p>ICMP</p></td>
@@ -10160,7 +10160,7 @@ Si se requiere un servicio de cliente que no puede restringirse para la conexió
 <td style="border:1px solid black;"><p>YO</p></td>
 <td style="border:1px solid black;"><p>PERMITIR</p></td>
 <td style="border:1px solid black;"><p>NO</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>HTTP de servidor IIS entrante: 80</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -10170,7 +10170,7 @@ Si se requiere un servicio de cliente que no puede restringirse para la conexió
 <td style="border:1px solid black;"><p>YO</p></td>
 <td style="border:1px solid black;"><p>PERMITIR</p></td>
 <td style="border:1px solid black;"><p>SÍ</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>FTP de servidor IIS entrante: 21</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -10180,7 +10180,7 @@ Si se requiere un servicio de cliente que no puede restringirse para la conexió
 <td style="border:1px solid black;"><p>YO</p></td>
 <td style="border:1px solid black;"><p>PERMITIR</p></td>
 <td style="border:1px solid black;"><p>SÍ</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servidor de terminal entrante</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -10190,7 +10190,7 @@ Si se requiere un servicio de cliente que no puede restringirse para la conexió
 <td style="border:1px solid black;"><p>YO</p></td>
 <td style="border:1px solid black;"><p>PERMITIR</p></td>
 <td style="border:1px solid black;"><p>SÍ</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Todo el tráfico de Me a los DC del dominio</p></td>
 <td style="border:1px solid black;"><p>CUALQUIERA</p></td>
@@ -10200,7 +10200,7 @@ Si se requiere un servicio de cliente que no puede restringirse para la conexió
 <td style="border:1px solid black;"><p>Nombre de dominio</p></td>
 <td style="border:1px solid black;"><p>PERMITIR</p></td>
 <td style="border:1px solid black;"><p>SÍ</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>UDP/TCP de DNS saliente</p></td>
 <td style="border:1px solid black;"><p>UDP</p></td>
@@ -10210,7 +10210,7 @@ Si se requiere un servicio de cliente que no puede restringirse para la conexió
 <td style="border:1px solid black;"><p>DNS</p></td>
 <td style="border:1px solid black;"><p>PERMITIR</p></td>
 <td style="border:1px solid black;"><p>SÍ</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>UDP/TCP de DNS saliente</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -10220,7 +10220,7 @@ Si se requiere un servicio de cliente que no puede restringirse para la conexió
 <td style="border:1px solid black;"><p>DNS</p></td>
 <td style="border:1px solid black;"><p>PERMITIR</p></td>
 <td style="border:1px solid black;"><p>SÍ</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>WINS saliente</p></td>
 <td style="border:1px solid black;"><p>UDP</p></td>
@@ -10230,7 +10230,7 @@ Si se requiere un servicio de cliente que no puede restringirse para la conexió
 <td style="border:1px solid black;"><p>WINS</p></td>
 <td style="border:1px solid black;"><p>PERMITIR</p></td>
 <td style="border:1px solid black;"><p>SÍ</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DHCP saliente</p></td>
 <td style="border:1px solid black;"><p>UDP</p></td>
@@ -10240,7 +10240,7 @@ Si se requiere un servicio de cliente que no puede restringirse para la conexió
 <td style="border:1px solid black;"><p>DHCP</p></td>
 <td style="border:1px solid black;"><p>PERMITIR</p></td>
 <td style="border:1px solid black;"><p>SÍ</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>HTTP saliente: 80</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -10250,7 +10250,7 @@ Si se requiere un servicio de cliente que no puede restringirse para la conexió
 <td style="border:1px solid black;"><p>CUALQUIERA</p></td>
 <td style="border:1px solid black;"><p>PERMITIR</p></td>
 <td style="border:1px solid black;"><p>SÍ</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Bloquear todo</p></td>
 <td style="border:1px solid black;"><p>CUALQUIERA</p></td>
@@ -10260,8 +10260,8 @@ Si se requiere un servicio de cliente que no puede restringirse para la conexió
 <td style="border:1px solid black;"><p>CUALQUIERA</p></td>
 <td style="border:1px solid black;"><p>BLOQUEAR</p></td>
 <td style="border:1px solid black;"><p>SÍ</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Aunque este ejemplo de mapa de tráfico parece correcto, el resultado real es que la directiva no proporciona ninguna seguridad frente a un atacante que inicie una conexión entrante desde Cualquier dirección IP mediante el puerto TCP de origen 80. Este atacante puede obtener acceso a cualquier puerto TCP abierto a través del filtro de permiso entrante, y se permite la respuesta a través del filtro de permiso saliente de vuelta al puerto TCP de destino 80.
@@ -10284,30 +10284,30 @@ La regla se define para bloquear los ataques específicos del puerto TCP de orig
 **Tabla 11.3: Ejemplo de mapa de tráfico de red revisado que permite la exploración web saliente**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Servicio</p></th>  
-<th><p>Protocolo</p></th>  
-<th><p>Puerto de origen</p></th>  
-<th><p>Puerto de destino</p></th>  
-<th><p>Dirección de origen</p></th>  
-<th><p>Dirección de destino</p></th>  
-<th><p>Acción</p></th>  
-<th><p>Reflejo</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Servicio</p></th>
+<th><p>Protocolo</p></th>
+<th><p>Puerto de origen</p></th>
+<th><p>Puerto de destino</p></th>
+<th><p>Dirección de origen</p></th>
+<th><p>Dirección de destino</p></th>
+<th><p>Acción</p></th>
+<th><p>Reflejo</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ICMP entrante para TCP PMTU</p></td>
 <td style="border:1px solid black;"><p>ICMP</p></td>
@@ -10317,7 +10317,7 @@ La regla se define para bloquear los ataques específicos del puerto TCP de orig
 <td style="border:1px solid black;"><p>YO</p></td>
 <td style="border:1px solid black;"><p>PERMITIR</p></td>
 <td style="border:1px solid black;"><p>NO</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>HTTP de servidor IIS entrante: 80</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -10327,7 +10327,7 @@ La regla se define para bloquear los ataques específicos del puerto TCP de orig
 <td style="border:1px solid black;"><p>YO</p></td>
 <td style="border:1px solid black;"><p>PERMITIR</p></td>
 <td style="border:1px solid black;"><p>SÍ</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>FTP de servidor IIS entrante: 21</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -10337,7 +10337,7 @@ La regla se define para bloquear los ataques específicos del puerto TCP de orig
 <td style="border:1px solid black;"><p>YO</p></td>
 <td style="border:1px solid black;"><p>PERMITIR</p></td>
 <td style="border:1px solid black;"><p>SÍ</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servidor de terminal entrante</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -10347,7 +10347,7 @@ La regla se define para bloquear los ataques específicos del puerto TCP de orig
 <td style="border:1px solid black;"><p>YO</p></td>
 <td style="border:1px solid black;"><p>PERMITIR</p></td>
 <td style="border:1px solid black;"><p>SÍ</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Todo el tráfico de Me a los DC del dominio</p></td>
 <td style="border:1px solid black;"><p>CUALQUIERA</p></td>
@@ -10357,7 +10357,7 @@ La regla se define para bloquear los ataques específicos del puerto TCP de orig
 <td style="border:1px solid black;"><p>Nombre de dominio</p></td>
 <td style="border:1px solid black;"><p>PERMITIR</p></td>
 <td style="border:1px solid black;"><p>SÍ</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>UDP/TCP de DNS saliente</p></td>
 <td style="border:1px solid black;"><p>UDP</p></td>
@@ -10367,7 +10367,7 @@ La regla se define para bloquear los ataques específicos del puerto TCP de orig
 <td style="border:1px solid black;"><p>DNS</p></td>
 <td style="border:1px solid black;"><p>PERMITIR</p></td>
 <td style="border:1px solid black;"><p>SÍ</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>UDP/TCP de DNS saliente</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -10377,7 +10377,7 @@ La regla se define para bloquear los ataques específicos del puerto TCP de orig
 <td style="border:1px solid black;"><p>DNS</p></td>
 <td style="border:1px solid black;"><p>PERMITIR</p></td>
 <td style="border:1px solid black;"><p>SÍ</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>WINS saliente</p></td>
 <td style="border:1px solid black;"><p>UDP</p></td>
@@ -10387,7 +10387,7 @@ La regla se define para bloquear los ataques específicos del puerto TCP de orig
 <td style="border:1px solid black;"><p>WINS</p></td>
 <td style="border:1px solid black;"><p>PERMITIR</p></td>
 <td style="border:1px solid black;"><p>SÍ</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DHCP saliente</p></td>
 <td style="border:1px solid black;"><p>UDP</p></td>
@@ -10397,7 +10397,7 @@ La regla se define para bloquear los ataques específicos del puerto TCP de orig
 <td style="border:1px solid black;"><p>DHCP</p></td>
 <td style="border:1px solid black;"><p>PERMITIR</p></td>
 <td style="border:1px solid black;"><p>SÍ</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>HTTP saliente: 80</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -10407,7 +10407,7 @@ La regla se define para bloquear los ataques específicos del puerto TCP de orig
 <td style="border:1px solid black;"><p>CUALQUIERA</p></td>
 <td style="border:1px solid black;"><p>PERMITIR</p></td>
 <td style="border:1px solid black;"><p>SÍ</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Mitigación del ataque 80 de origen entrante</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -10417,7 +10417,7 @@ La regla se define para bloquear los ataques específicos del puerto TCP de orig
 <td style="border:1px solid black;"><p>YO</p></td>
 <td style="border:1px solid black;"><p>BLOQUEAR</p></td>
 <td style="border:1px solid black;"><p>NO</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Mitigación del ataque 80 de origen entrante</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -10427,7 +10427,7 @@ La regla se define para bloquear los ataques específicos del puerto TCP de orig
 <td style="border:1px solid black;"><p>YO</p></td>
 <td style="border:1px solid black;"><p>BLOQUEAR</p></td>
 <td style="border:1px solid black;"><p>NO</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Mitigación del ataque 80 de origen entrante</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -10437,7 +10437,7 @@ La regla se define para bloquear los ataques específicos del puerto TCP de orig
 <td style="border:1px solid black;"><p>YO</p></td>
 <td style="border:1px solid black;"><p>BLOQUEAR</p></td>
 <td style="border:1px solid black;"><p>NO</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Mitigación del ataque 80 de origen entrante</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -10447,7 +10447,7 @@ La regla se define para bloquear los ataques específicos del puerto TCP de orig
 <td style="border:1px solid black;"><p>YO</p></td>
 <td style="border:1px solid black;"><p>BLOQUEAR</p></td>
 <td style="border:1px solid black;"><p>NO</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Mitigación del ataque 80 de origen entrante</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -10457,7 +10457,7 @@ La regla se define para bloquear los ataques específicos del puerto TCP de orig
 <td style="border:1px solid black;"><p>YO</p></td>
 <td style="border:1px solid black;"><p>BLOQUEAR</p></td>
 <td style="border:1px solid black;"><p>NO</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Bloquear todo</p></td>
 <td style="border:1px solid black;"><p>CUALQUIERA</p></td>
@@ -10467,8 +10467,8 @@ La regla se define para bloquear los ataques específicos del puerto TCP de orig
 <td style="border:1px solid black;"><p>CUALQUIERA</p></td>
 <td style="border:1px solid black;"><p>BLOQUEAR</p></td>
 <td style="border:1px solid black;"><p>SÍ</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Este ejemplo muestra cómo crear filtros unidireccionales que bloqueen el tráfico entre un puerto de origen 80 y cualquier puerto activo del equipo, lo que bloquearía un ataque de entrada. Impide que se suplante la conexión de un puerto de origen 80 a los puertos necesarios para RPC, NetBT y SMB (CIFS).

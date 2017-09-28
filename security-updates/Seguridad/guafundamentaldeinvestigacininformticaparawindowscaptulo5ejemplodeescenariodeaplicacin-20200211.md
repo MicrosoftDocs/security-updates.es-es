@@ -407,20 +407,20 @@ La tabla siguiente muestra una lista de los equipos y los sistemas operativos qu
 <tr class="odd">
 <td style="border:1px solid black;"><p>WNB-HQ-DC</p></td>
 <td style="border:1px solid black;"><p>Windows Server® 2003 R2</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>WNB-HQ-FS1</p></td>
 <td style="border:1px solid black;"><p>Windows Server 2003 R2</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>HQ-IT-PC10</p></td>
 <td style="border:1px solid black;"><p>Windows XP Profesional SP2</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>HQLOAN164</p></td>
 <td style="border:1px solid black;"><p>Windows XP Profesional SP2</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Después que instalar el sistema operativo en cada equipo, ejecute Dcpromo en WNB-HQ-DC para instalar Active Directory y DNS.
@@ -432,35 +432,35 @@ La tabla siguiente muestra una lista de los grupos y los usuarios que deberán d
 **Tabla 5.2. Grupos y usuarios mencionados en el laboratorio del escenario de aplicación**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Grupos</p></th>  
-<th><p>Usuarios</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Grupos</p></th>
+<th><p>Usuarios</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Administrador de sistemas de la empresa</p></td>
 <td style="border:1px solid black;"><p>Ray Chow</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Administradores del dominio</p></td>
 <td style="border:1px solid black;"><p>Ray Chow</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Administradores de RR.HH.</p></td>
 <td style="border:1px solid black;"><p>Hembra Gottfried, Roland Winkler, Jill Shrader</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Branch01Mgrs</p></td>
 <td style="border:1px solid black;"><p>Mike Danseglio, Nuria Gonzalez</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 En el servidor de archivos WNB-HQ-FS1, el grupo de administradores del dominio está agregado como miembro del grupo de administradores local.
@@ -472,24 +472,24 @@ La tabla siguiente muestra una lista de los nombres de dispositivo, las estructu
 **Tabla 5.3. Dispositivos, carpetas y archivos utilizados en el laboratorio del escenario de aplicación**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Dispositivo (equipo o lápiz USB)</p></th>  
-<th><p>Carpetas</p></th>  
-<th><p>Archivos</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Dispositivo (equipo o lápiz USB)</p></th>
+<th><p>Carpetas</p></th>
+<th><p>Archivos</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>WNB-HQ-FS1 (servidor de archivos)</p></td>
 <td style="border:1px solid black;"><p>\RR.HH.\Interno\Beneficios</p>
-<p>\RR.HH.\Interno\Nóminas</p>  
+<p>\RR.HH.\Interno\Nóminas</p>
 <p>\RR.HH.\Interno\Análisis</p>
 <p>\Herramientas</p></td>
 <td style="border:1px solid black;"><p>090806PR-A139.xls</p>
@@ -506,15 +506,15 @@ La tabla siguiente muestra una lista de los nombres de dispositivo, las estructu
 <td style="border:1px solid black;"><p>HQ-IT-PC10 (equipo de Ray Chow)</p></td>
 <td style="border:1px solid black;"><p>\Herramientas</p></td>
 <td style="border:1px solid black;"><p>(Esta carpeta contiene todas las herramientas SysInternal y la herramienta FCIV, tal como se enumeran en la sección &quot;Herramientas&quot; del <a href="http://www.microsoft.com/a9a5c2a9-cce3-4edb-a92c-10983899240a.mspx">Apéndice: Recursos</a>.)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Lápiz USB (lápiz USB de Ray Chow)</p></td>
 <td style="border:1px solid black;"><p>\Evidencia</p>
 <p>\Evidencia_archivos</p>
 <p>\Herramientas</p></td>
 <td style="border:1px solid black;"><p>(Esta carpeta contiene todas las herramientas SysInternal y la herramienta FCIV, tal como se enumeran en la sección &quot;Herramientas&quot; del<a href="http://www.microsoft.com/a9a5c2a9-cce3-4edb-a92c-10983899240a.mspx">Apéndice: Recursos</a>.)</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Asignar recursos compartidos y permisos
@@ -524,18 +524,18 @@ La tabla siguiente muestra una lista de las carpetas de archivo y comparte los p
 **Tabla 5.4. Carpetas y permisos de recursos compartidos del laboratorio del escenario de aplicación**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Carpeta</p></th>  
-<th><p>Permisos de recursos compartidos</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Carpeta</p></th>
+<th><p>Permisos de recursos compartidos</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>\RR.HH.</p></td>
 <td style="border:1px solid black;"><p>Branch01Mgrs (control total, de modificación, de lectura)</p>
@@ -544,8 +544,8 @@ La tabla siguiente muestra una lista de las carpetas de archivo y comparte los p
 <tr class="even">
 <td style="border:1px solid black;"><p>\Herramientas</p></td>
 <td style="border:1px solid black;"><p>No compartido; sólo para uso local por usuarios que tienen credenciales administrativas del servidor.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Configurar auditorías.

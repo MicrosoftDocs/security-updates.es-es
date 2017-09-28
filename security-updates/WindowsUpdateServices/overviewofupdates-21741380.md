@@ -66,38 +66,38 @@ Update classifications represent the type of update. For any given product or pr
 <tr class="odd">
 <td style="border:1px solid black;"><p>Critical updates</p></td>
 <td style="border:1px solid black;"><p>Broadly released fixes for specific problems addressing critical, non-security related bugs.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Definition updates</p></td>
 <td style="border:1px solid black;"><p>Updates to virus or other definition files.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Drivers</p></td>
 <td style="border:1px solid black;"><p>Software components designed to support new hardware.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Feature packs</p></td>
 <td style="border:1px solid black;"><p>New feature releases, usually rolled into products at the next release.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Security updates</p></td>
 <td style="border:1px solid black;"><p>Broadly released fixes for specific products, addressing security issues.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Service packs</p></td>
 <td style="border:1px solid black;"><p>Cumulative sets of all hotfixes, security updates, critical updates, and updates created since the release of the product. Service packs might also contain a limited number of customer-requested design changes or features.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tools</p></td>
 <td style="border:1px solid black;"><p>Utilities or features that aid in accomplishing a task or set of tasks.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Update rollups</p></td>
 <td style="border:1px solid black;"><p>Cumulative set of hotfixes, security updates, critical updates, and updates packaged together for easy deployment. A rollup generally targets a specific area, such as security, or a specific component, such as Internet Information Services (IIS).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Updates</p></td>
 <td style="border:1px solid black;"><p>Broadly released fixes for specific problems addressing non-critical, non-security related bugs.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

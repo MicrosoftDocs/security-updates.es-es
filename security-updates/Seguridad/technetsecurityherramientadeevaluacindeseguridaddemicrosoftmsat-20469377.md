@@ -98,12 +98,12 @@ La siguiente tabla especifica las áreas incluidas dentro de la evaluación de r
 <tr class="odd">
 <td style="border:1px solid black;">Implementación y uso</td>
 <td style="border:1px solid black;">Cuando las aplicaciones de negocio críticas se encuentran implementadas en producción, se debe proteger la seguridad y disponibilidad de dichas aplicaciones y de los servidores que las alojan. Es esencial un mantenimiento continúo que asegure que se resuelvan los problemas de seguridad y que no se producen nuevas vulnerabilidades en el entorno.</td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;">Diseño de aplicaciones</td>
 <td style="border:1px solid black;">Un diseño que no cumple adecuadamente los mecanismos de autentificación, autorización y validación de datos puede permitir que un atacante aproveche una vulnerabilidad de seguridad y obtenga acceso a información confidencial.<br />
-<br />  
-Las metodologías de desarrollo de aplicaciones seguras son clave para cerciorarse de que tanto las aplicaciones desarrolladas internamente como las desarrolladas por terceros cumplen los modelos de seguridad y no dejan a la empresa abierta a posibles ataques.<br />  
+<br />
+Las metodologías de desarrollo de aplicaciones seguras son clave para cerciorarse de que tanto las aplicaciones desarrolladas internamente como las desarrolladas por terceros cumplen los modelos de seguridad y no dejan a la empresa abierta a posibles ataques.<br />
 <br />
 La integridad y la confidencialidad de los datos son dos de las grandes preocupaciones de cualquier empresa. La pérdida o robo de datos puede influir negativamente en sus beneficios y reputación. Es importante comprender cómo las aplicaciones gestionan los datos críticos y cómo esos datos son protegidos.</td>
 </tr>

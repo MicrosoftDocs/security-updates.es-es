@@ -207,16 +207,16 @@ El resultado del proceso de decisión se puede parecer al que se muestra en la s
 <tr class="odd">
 <td style="border:1px solid black;"><p>Escritorio estándar</p></td>
 <td style="border:1px solid black;"><p>Los equipos usarán el cifrado de BitLocker con un TPM o una llave de inicio USB, según la funcionalidad del hardware. Esta configuración se usará para controlar la exposición de datos y para administrar la retirada de activos.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Equipo portátil estándar</p></td>
 <td style="border:1px solid black;"><p>Todos los equipos nuevos usarán un TPM y un NIP. Los equipos sin TPM usarán llaves de inicio en las unidades USB, pero todos los equipos nuevos se comprarán con dispositivos TPM. Esta configuración se usará para controlar la exposición de datos y para administrar la retirada de activos.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Equipos portátiles de ejecutivos</p></td>
 <td style="border:1px solid black;"><p>Todos los equipos usarán un TPM con un NIP. Se reemplazarán los equipos existentes que no sean compatibles con TPM.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ##### Elementos importantes para BitLocker con TPM

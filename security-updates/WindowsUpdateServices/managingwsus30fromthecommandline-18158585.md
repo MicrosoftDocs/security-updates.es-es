@@ -42,11 +42,11 @@ You must be an administrator to run the **wsusutil** utility. This utility is in
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>configuressl</strong></p></td>
 <td style="border:1px solid black;"><p>Updates the WSUS server registry key after the IIS configuration has changed.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>healthmonitoring</strong></p></td>
 <td style="border:1px solid black;"><p>Configures health monitoring values in the database. If new values are not specified, the current values are displayed.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>export</strong></p></td>
 <td style="border:1px solid black;"><p>Part of the export/import process used to synchronize a downstream WSUS without using a network connection.</p>
@@ -60,36 +60,36 @@ You must be an administrator to run the **wsusutil** utility. This utility is in
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>movecontent</strong></p></td>
 <td style="border:1px solid black;"><p>Changes the file system location where the WSUS server stores update files, and optionally copies any update files from the old location to the new location</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>listfrontendservers</strong></p></td>
 <td style="border:1px solid black;"><p>Lists the front-end servers related to this WSUS server.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>deletefrontendserver</strong></p></td>
 <td style="border:1px solid black;"><p>Deletes the specified front-end server from the WSUS database.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>checkhealth</strong></p></td>
 <td style="border:1px solid black;"><p>Checks the health of the WSUS serve. Results will appear in the Application Event log.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>reset</strong></p></td>
 <td style="border:1px solid black;"><p>Checks that every update metadata row in the database has corresponding update files stored in the file system. If update files are missing or have been corrupted, downloads the update files again.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>listinactiveapprovals</strong></p></td>
 <td style="border:1px solid black;"><p>Returns a list of update titles with approvals that are in a permanently inactive state because of a change in server language settings.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>removeinactiveapprovals</strong></p></td>
 <td style="border:1px solid black;"><p>Removes approvals for updates that are in a permanently inactive state because of a change in WSUS server language settings.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>usecustomwebsite</strong></p></td>
 <td style="border:1px solid black;"><p>Changes the port number used by the WSUS Web services from 80 to 8530 or vice versa.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### configuressl
@@ -109,23 +109,23 @@ The following command updates the server certificateName:
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Parameter</th>  
-<th>Description</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>ServerCertificateName</em></p></td>
 <td style="border:1px solid black;"><p>An optional parameter. When present, it provides the name in the <strong>Issued to</strong> field of the server certificate.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Output
@@ -147,15 +147,15 @@ This command sets and gets the different parameters for WSUS health monitoring.
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<tr>  
-<th colspan="2">  
+<table style="border:1px solid black;">
+<tr>
+<th colspan="2">
 Parameter  
-</th>  
-<th colspan="2">  
+</th>
+<th colspan="2">
 Description  
-</th>  
-</tr>  
+</th>
+</tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **IntervalsInMinutes*** \[DetectInterval\] \[RefreshInterval\]*
@@ -453,12 +453,12 @@ For more information about exporting and importing updates, see "Set Up a Discon
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>package</em></p></td>
 <td style="border:1px solid black;"><p>The path and file name of the package .cab to create.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>logfile</em></p></td>
 <td style="border:1px solid black;"><p>The path and file name of the log file to create.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc708604.note(WS.10).gif)Nota                                                    |  
@@ -476,27 +476,27 @@ For background and procedural information about exporting and importing updates,
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Parameter</th>  
-<th>Description</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>package</em></p></td>
 <td style="border:1px solid black;"><p>The path and file name of the package .cab to import.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>logfile</em></p></td>
 <td style="border:1px solid black;"><p>The path and file name of the log file to import.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc708604.note(WS.10).gif)Nota                                                    |  
@@ -544,31 +544,31 @@ If the hard disk fails, you must do the following:
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Parameter</th>  
-<th>Description</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>contentpath</em></p></td>
 <td style="border:1px solid black;"><p>The new root for content files. The path must exist.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>logfile</em></p></td>
 <td style="border:1px solid black;"><p>The path and file name of the log file to create.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>-skipcopy</em></p></td>
 <td style="border:1px solid black;"><p>Indicates that only the server configuration should be changed, and that the content files should not be copied.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### listfrontendservers
@@ -586,23 +586,23 @@ This command deletes the given front-end server.
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Parameter</th>  
-<th>Description</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>serverName</em></p></td>
 <td style="border:1px solid black;"><p>The name of the front-end server to be deleted.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc708604.Important(WS.10).gif)Importante                                                                   |  

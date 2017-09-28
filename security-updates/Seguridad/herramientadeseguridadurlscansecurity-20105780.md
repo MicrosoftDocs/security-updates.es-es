@@ -76,56 +76,56 @@ UrlScan 2.5 no se incluye con IIS6.0 porque IIS6.0 ya incorpora ciertas funciona
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Funcionalidad de UrlScan 2.5</strong></p></td>
 <td style="border:1px solid black;"><p><strong>Característica incluida en IIS 6.0</strong></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>DenyExtensions:</strong> esta característica se incorporó a UrlScan para limitar la superficie de ataque del servidor al prevenir que se ejecutasen ciertas peticiones concretas en el servidor mediante código ISAPI o CGI en base a la extensión de los nombres de archivos.</p></td>
 <td style="border:1px solid black;"><p>IIS 6.0 limita la superficie de ataque del servidor al permitir a los administradores especificar qué codigo ISAPI o CGI puede ejecutarse en el servidor. Puesto que IIS 6.0 especifica el código directamente, no es necesario conocer qué extensiones de nombre de archivo en la URL son capaces de invocar esa ejecución.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>DenyVerbs:</strong> El código WebDAV puede invocarse en un servidor web basándose en el uso de ciertos verbos HTTP. Esta funcionalidad se incorpora a UrlScan para limitar la superficie de ataque del servidor al impedir la ejecución de peticiones que pueden invocar WebDAV.</p></td>
 <td style="border:1px solid black;"><p>IIS 6.0 permite a los administradores activar o desactivar de forma explícita WebDAV. Puesto que esta acción afecta al código ejecutable WebDAV directamente, no es necesario revisar cada verbo HTTP asociado con cada petición.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>DenyHeaders:</strong> El código WebDAV puede ser invocado en un servidor web en base a la presencia de ciertas cabeceras HTTP. Esta funcionalidad se incluye en UrlScan para limitar el área de ataque del servidor al impedir que ciertas peticiones puedan invocar WebDAV.</p></td>
 <td style="border:1px solid black;"><p>IIS 6.0 permite a los administradores activar o desactivar de forma explícita WebDAV. Puesto que esta acción afecta al código ejecutable WebDAV directamente, no es necesario revisar cada cabecera HTTP asociada con cada petición.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>NormalizeUrlBeforeScan:</strong> Esta funcionalidad permite a los administradores especificar si IIS puede procesar la URL en bruto, tal y como se la envía el cliente, o la URL normalizada (canónica) que se procesa en el servidor.<br />
 <strong>Nota:</strong> No resulta práctico poner el valor a cero en un servidor en producción. Cuando este valor se deja en 0, todas las extensiones de nombre de archivo y otras verificaciones de URL en el archivo UrlScan.ini deben contener todas las posibles variantes de codificación de cada carácter. El número de combinaciones resultante hace prácticamente imposible asumir esta actividad en un servidor en producción.</p></td>
 <td style="border:1px solid black;"><p>El mecanismo de bloqueo incorporado a IIS 6.0 se basa en que el código que se puede ejecutar no depende de la URL de la petición del cliente. Por este motivo, la directiva <strong>NormalizeUrlBeforeScan</strong> no es necesaria en IIS 6.0.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>VerifyNormalization:</strong> UrlScan fue diseñado para correr sobre diversas verisones de IIS. El código que controla la normalización de URL ha sido mejorada en versiones posteriores de IIS y Service Packs. Esta funcionalidad permite a UrlScan detectar riesgos potenciales con la normalización de URL en sistemas no actualizados.</p></td>
 <td style="border:1px solid black;"><p>El compontente HTTP.SYS usado en IIS 6.0 mejora sensiblemente el código de normalización, el cual ha sido específicamente diseñado para proteger al servidor de ataques basados en la normalización de URL.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>DenyUrlSequences:</strong> Esta característica se incorpora a UrlScan para detectar secuencias utilizadas en ataques a servidores basados en URL.</p></td>
 <td style="border:1px solid black;"><p>En IIS 6.0 no es necesario denegar secuencias URL. Por diseño, IIS 6.0 no es sensible a ataques basados en URL que utilicen ninguna secuencia de caracteres indicada en la sección <strong>DenyUrlSequences</strong> del archivo UrlScan.ini proporcionado por Microsoft.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>AllowDotInPath:</strong> El mecanismo de bloqueo de UrlScan depende de una notificación de filtrado que tiene lugar muy al comienzo del procesado de una petición web. En ese momento UrlScan no puede saber con seguridad cómo va a interpretar IIS la cadena URL para extraer el valor PATH_INFO. Podría suceder que PATH_INFO pueda verse influida por la presencia de una extensión de nombre de archivo contenida en el URL. Poniendo el valor <strong>AllowDotInPath</strong> a 0 se obliga a UrlScan a rechazar cualquier petición donde la extensión del nombre de archivo sea ambigua debido a la existencia de un punto en el path.</p></td>
 <td style="border:1px solid black;"><p>La función <strong>AllowDotInPath</strong> no es necesaria en IIS 6.0 porque IIS 6.0 no depende de notificaciones de filtro para activar su mecanismo de bloqueo.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>RemoveServerHeader:</strong> Esta funcionalidad permite a UrlScan a eliminar o alterar la identidad del servidor desde la cabecera &quot;Server&quot; de la respuesta al cliente.</p></td>
 <td style="border:1px solid black;"><p>IIS 6.0 no incluye la funcionalidad <strong>RemoveServerHeader</strong> porque no ofrece una protección real. Muchos ataques a servidores no se dirigen específicamente a un sistema operativo. Asimismo, es posible detectar la identidad de un servidor y la información acerca de su sistema operativo mediante procedimientos ajenos al contenido de la cabecera Server.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>EnableLogging</strong>, <strong>PerProcessLogging</strong> y <strong>PerDayLogging:</strong> UrlScan no forma parte del núcleo de IIS; más bien es una utilidad add-on que produce sus propios archivos de log. Estos parámetros controlan la manera en que UrlScan produce y nombra sus propios archivos de log.</p></td>
 <td style="border:1px solid black;"><p>IIS 6.0 registra toda su actividad de bloqueo en los logs W3SVC. Las peticiones rechazadas por bloqueo o código ejecutable se identifican como errores 404 con nivel de sub-error 2 (404.2) en los logs. Las peticiones de archivos que se bloquean por no identificados se registran como error 404 con subnivel de error 3 (404.3).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>AllowLateScanning:</strong> esta funcionalidad permite a los administradores especificar si UrlScan debe examinar URLs antes o después de otros filtros. Existen unos cuantos filtros que modifican las cadenas URL, y lo deseable sería que UrlScan examine lso URL después de ser modificados. Un ejemplo de filtros de este tipo es FrontPage Server Extensions.</p></td>
 <td style="border:1px solid black;"><p>The <strong>AllowLateScanning</strong> no es necesario en IIS 6.0 debido a que IIS 6.0 no depende de notificaciones de filtros para activar sus mecanismos de bloqueo. El mecanismo de bloqueo incluido en IIS 6.0 se basa en el código ejecutable que se puede ejecutar, y no en el URL de la petición del cliente.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>RejectResponseUrl:</strong> esta funcionalildad opera conjuntamente con <strong>UseFastPathReject</strong>. Si <strong>UseFastPathReject</strong> se pone a 0, las peticiones rechazadas se re-mapean al URL especificado en <strong>RejectResponseUrl</strong>. Si este URL no existe, el cliente recibirá un mensaje de error 404, igual que si hubiese solicitado una página inexistente. Si el URL especificado no existe, el servidor puede adaptar la respuesta a enviar al cliente.</p></td>
 <td style="border:1px solid black;"><p>En IIS 6.0, una petición rechazada debido a un bloqueo sobre código ejecutable, genera un mensaje de error 404.2. Un archivo estático rechazado debido a un tipo desconocido MIME, genera un error 404.3. Los administradores pueden utilizar el mecanismo de particularización de errores de IIS para controlar estas respuestas.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>UseFastPathReject:</strong> El mecanismo de bloqueo de UrlScan depende de una notificación de filtrado que tiene lugar muy al comienzo del procesado de una petición web. Por ello, si UrlScan rechaza la petición directamente desde esta notificación, el mensaje de respuesta 404 habitual no puede generarse. En lugar de ello, el cliente recibirá una respuesta escueta 404 en vez del mensaje de explicación más amplio que normalmente se devuelve. Si <strong>UseFastPathReject</strong> se pone en 0, UrlScan re-mapea la petición al URL especificado por <strong>RejectResponseUrl</strong>.</p></td>
 <td style="border:1px solid black;"><p>En IIS 6.0, una petición rechazada debido a un bloqueo sobre código ejecutable, genera un mensaje de error 404.2. Un archivo estático rechazado debido a un tipo desconocido MIME, genera un error 404.3. Los administradores pueden utilizar el mecanismo de particularización de errores de IIS para controlar estas respuestas.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>AllowHighBitCharacters:</strong> Esta funcionalidad permite la detección de caracteres no ASCII en los URLs.</p></td>
 <td style="border:1px solid black;"><p>El rango de caracteres permitidos está controlado por HTTP.SYS. Este valor puede cambiarse modificando las siguientes claves del registro: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\HTTP\Parameters\EnableNonUTF8<br />
@@ -134,15 +134,15 @@ UrlScan 2.5 no se incluye con IIS6.0 porque IIS6.0 ya incorpora ciertas funciona
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>MaxAllowedContentLength:</strong> Esta característica permite a UrlScan poner límites al tamaño de las peticiones enviadas al servidor.</p></td>
 <td style="border:1px solid black;"><p>IIS 6.0 incluye la posibilidad de limitar el tamaño de las peticiones; este valor es configurable modificando las propiedades <strong>MaxRequestEntityAllowed</strong> y <strong>ASPMaxRequestEntityAllowed</strong> de la metabase.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>MaxUrl</strong>, <strong>MaxQueryString</strong> y <strong>MaxHeader:</strong> Estos valores permiten a UrlScan limitar los tamaños de los URLs, cadenas de consulta y cabeceras específicas que se envían al servidor.</p></td>
 <td style="border:1px solid black;"><p>El componente HTTP.SYS de IIS 6.0 permite establecer límites en varias partes de las peticiones. Los valores pueden cambiarse modificando los valores <strong>AllowRestrictedChars</strong>, <strong>MaxFieldLength</strong>, <strong>UrlSegmentMaxLength</strong> y <strong>UrlSegmentMaxCount</strong> dentro de las siguientes claves del registro:</p>
-<ul>  
-<li><p>HKEY_LOCAL_MACHINE\System\CurrentControlSet\ Services\HTTP\Parameters\AllowRestrictedChars</p></li>  
-<li><p>HKEY_LOCAL_MACHINE\System\CurrentControlSet\ Services\HTTP\Parameters\MaxFieldLength</p></li>  
-<li><p>HKEY_LOCAL_MACHINE\System\CurrentControlSet\ Services\HTTP\Parameters\UrlSegmentMaxLength</p></li>  
-<li><p>HKEY_LOCAL_MACHINE\System\CurrentControlSet\ Services\HTTP\Parameters\UrlSegmentMaxCount</p></li>  
+<ul>
+<li><p>HKEY_LOCAL_MACHINE\System\CurrentControlSet\ Services\HTTP\Parameters\AllowRestrictedChars</p></li>
+<li><p>HKEY_LOCAL_MACHINE\System\CurrentControlSet\ Services\HTTP\Parameters\MaxFieldLength</p></li>
+<li><p>HKEY_LOCAL_MACHINE\System\CurrentControlSet\ Services\HTTP\Parameters\UrlSegmentMaxLength</p></li>
+<li><p>HKEY_LOCAL_MACHINE\System\CurrentControlSet\ Services\HTTP\Parameters\UrlSegmentMaxCount</p></li>
 </ul>
 <p><strong>Aviso:</strong> Modificar de forma incorrecta el registro puede dañar seriamente su sistema. Antes de modificar cualquier clave del registro, se debe realizar una copia de seguridad del mismo y de los datos importantes almacenados en la máquina.</p></td>
 </tr>
@@ -208,7 +208,7 @@ Al instalar UrlScan 2.5 sobre IIS, el instalador asigna permisos para UrlScan.dl
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Archivo/Directorio</strong></p></td>
 <td style="border:1px solid black;"><p><strong>Permisos</strong></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>..\inetsrv\urlscan\urlscan.dll</p></td>
 <td style="border:1px solid black;"><p>Read y Execute (sólo en IIS 6.0): LocalService, IIS_WPG, y NetworkService<br />

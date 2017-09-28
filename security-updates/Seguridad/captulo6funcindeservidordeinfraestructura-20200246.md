@@ -55,8 +55,8 @@ En la siguiente tabla se incluyen los nombres de las plantillas de seguridad de 
 <td style="border:1px solid black;"><p>LC-Infrastructure Server.inf</p></td>
 <td style="border:1px solid black;"><p>EC-Infrastructure Server.inf</p></td>
 <td style="border:1px solid black;"><p>SSLF-Infrastructure Server.inf</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Para obtener más información acerca de la configuración de la directiva en el MSBP, consulte el capítulo 4, “Directiva de línea de base de servidores miembro”. Para obtener más información acerca de todas las configuraciones predeterminadas de la directiva, consulte la guía complementaria, [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159)*, *que está disponible en * *http://go.microsoft.com/fwlink/?LinkId=15159.

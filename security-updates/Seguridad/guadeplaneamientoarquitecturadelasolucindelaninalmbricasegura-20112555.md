@@ -210,15 +210,15 @@ A partir de estos requisitos, pueden determinarse los criterios de compatibilida
 <tr class="odd">
 <td style="border:1px solid black;"><p>Seguridad</p></td>
 <td style="border:1px solid black;"><p>–autenticación sólida de los clientes inalámbricos.</p>
-<p>–control de acceso que solamente permita el acceso de red a clientes autorizados.</p>  
-<p>–cifrado eficaz del tráfico de red inalámbrica.</p>  
+<p>–control de acceso que solamente permita el acceso de red a clientes autorizados.</p>
+<p>–cifrado eficaz del tráfico de red inalámbrica.</p>
 <p>–administración segura de las claves de cifrado.</p>
 <p>–resistencia a ataques de denegación de servicio.</p></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Escalabilidad</p></td>
 <td style="border:1px solid black;"><p>Diseño básico con escalabilidad ascendente y descendente para abarcar un amplio espectro de tamaños de organización</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>–Número mínimo/máximo de usuarios admitidos</p></td>
 <td style="border:1px solid black;"><p>–de 500 a 15000 (o más) usuarios de WLAN.</p>
@@ -232,7 +232,7 @@ A partir de estos requisitos, pueden determinarse los criterios de compatibilida
 <tr class="odd">
 <td style="border:1px solid black;"><p>Reutilización de componentes (uso de la infraestructura existente)</p></td>
 <td style="border:1px solid black;"><p>Utilización de Active Directory, servicios de red y clientes con Microsoft Windows® XP</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Reutilización de componentes (capacidad de uso por parte de aplicaciones futuras)</p></td>
 <td style="border:1px solid black;"><p>–compatibilidad con otras aplicaciones de acceso a la red (acceso a red por cable 802.1X y VPN) mediante la infraestructura de autenticación.</p>
@@ -241,7 +241,7 @@ A partir de estos requisitos, pueden determinarse los criterios de compatibilida
 <tr class="odd">
 <td style="border:1px solid black;"><p>Disponibilidad</p></td>
 <td style="border:1px solid black;"><p>Resistencia a errores de componentes individuales o de vínculo de red</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Extensibilidad</p></td>
 <td style="border:1px solid black;"><p>–extensible para admitir capacidad y normas futuras (por ejemplo, 802.11i, WPA y 802.11a para WLAN).</p>
@@ -250,16 +250,16 @@ A partir de estos requisitos, pueden determinarse los criterios de compatibilida
 <tr class="odd">
 <td style="border:1px solid black;"><p>Capacidad de administración</p></td>
 <td style="border:1px solid black;"><p>Integración con las soluciones de administración corporativa existentes (incluye la supervisión del sistema y del servicio, la creación de copias de seguridad, la administración de la configuración, etc.)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Estructura de la organización de TI</p></td>
 <td style="border:1px solid black;"><p>Favorece las TI centralizadas (departamento con un mínimo de cinco empleados y, normalmente, con 20 o 30 empleados de TI)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Cumplimiento de las normas</p></td>
 <td style="border:1px solid black;"><p>Cumplimiento de los principales estándares actuales y oferta de una ruta de migración clara a futuras normas importantes</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Principio de la página](#mainsection)
