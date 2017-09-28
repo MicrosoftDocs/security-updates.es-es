@@ -564,7 +564,7 @@ Utilice una contraseña segura para la cuenta Administrador integrada. Una contr
 
 **Tabla 3.1 Tipos de caracteres para una contraseña de administrador segura**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -572,30 +572,30 @@ Utilice una contraseña segura para la cuenta Administrador integrada. Una contr
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Tipos de caracteres</p></th>
-<th><p>Ejemplo</p></th>
+<th>Tipos de caracteres</th>
+<th>Ejemplo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Letras mayúsculas</p></td>
-<td style="border:1px solid black;"><p>A, B, C ...</p></td>
+<td style="border:1px solid black;">Letras mayúsculas</td>
+<td style="border:1px solid black;">A, B, C ...</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Letras minúsculas</p></td>
-<td style="border:1px solid black;"><p>a, b, c ...</p></td>
+<td style="border:1px solid black;">Letras minúsculas</td>
+<td style="border:1px solid black;">a, b, c ...</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Números</p></td>
-<td style="border:1px solid black;"><p>0, 1, 2, 3 ...</p></td>
+<td style="border:1px solid black;">Números</td>
+<td style="border:1px solid black;">0, 1, 2, 3 ...</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Símbolos de teclado no alfanuméricos</p></td>
-<td style="border:1px solid black;"><p>` ~ ! @ # $ % ^ &amp; * ( ) _ + - = { } | [ ] \ : &quot; ; ' &lt; &gt; ? , . /</p></td>
+<td style="border:1px solid black;">Símbolos de teclado no alfanuméricos</td>
+<td style="border:1px solid black;">` ~ ! @ # $ % ^ &amp; * ( ) _ + - = { } | [ ] \ : &quot; ; ' &lt; &gt; ? , . /</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Caracteres Unicode</p></td>
-<td style="border:1px solid black;"><p>€, G, ƒ, ?</p></td>
+<td style="border:1px solid black;">Caracteres Unicode</td>
+<td style="border:1px solid black;">€, G, ƒ, ?</td>
 </tr>
 </tbody>
 </table>

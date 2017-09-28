@@ -286,7 +286,7 @@ La escala de gravedad de los errores se describe en la tabla siguiente. La escal
 
 **Tabla D.1: Clasificación de la gravedad de los errores**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -295,51 +295,51 @@ La escala de gravedad de los errores se describe en la tabla siguiente. La escal
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Gravedad</p></th>
-<th><p>Tipos más habituales</p></th>
-<th><p>Condiciones necesarias</p></th>
+<th>Gravedad</th>
+<th>Tipos más habituales</th>
+<th>Condiciones necesarias</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>– El error bloquea la compilación o realización de pruebas adicionales.<br />
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">– El error bloquea la compilación o realización de pruebas adicionales.<br />
 – El error causa una accesibilidad del usuario inesperada.<br />
 – Los pasos definidos en la documentación no están claros.<br />
 – Los resultados o el comportamiento de una función o un proceso contradicen los resultados esperados (según lo documentado en la especificación funcional).<br />
-– Existe un error de coincidencia grande entre los archivos de plantillas de seguridad y la especificación funcional.</p></td>
-<td style="border:1px solid black;"><p>– La solución no funciona.<br />
+– Existe un error de coincidencia grande entre los archivos de plantillas de seguridad y la especificación funcional.</td>
+<td style="border:1px solid black;">– La solución no funciona.<br />
 – El usuario no puede empezar a usar partes importantes del equipo o la red.<br />
 – El usuario tiene privilegios que no debería tener permitidos.<br />
 – Se bloquea el acceso del usuario a determinados servidores en los que se debería permitir.<br />
 – No se obtienen los resultados esperados.<br />
-– Las pruebas no pueden continuar sin solucionarse.</p></td>
+– Las pruebas no pueden continuar sin solucionarse.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>2</p></td>
-<td style="border:1px solid black;"><p>– Los pasos definidos en la guía no son claros.<br />
+<td style="border:1px solid black;">2</td>
+<td style="border:1px solid black;">– Los pasos definidos en la guía no son claros.<br />
 – Falta funcionalidad documentada (en este caso, la prueba se bloquea).<br />
 – La documentación falta o no es adecuada.<br />
-– Existe una incoherencia entre los archivos de plantillas de seguridad y el contenido de la guía, pero el archivo de plantilla de seguridad está sincronizado con la especificación funcional.</p></td>
-<td style="border:1px solid black;"><p>– El usuario no encuentra una solución sencilla para resolver la situación.<br />
+– Existe una incoherencia entre los archivos de plantillas de seguridad y el contenido de la guía, pero el archivo de plantilla de seguridad está sincronizado con la especificación funcional.</td>
+<td style="border:1px solid black;">– El usuario no encuentra una solución sencilla para resolver la situación.<br />
 – El usuario no encuentra fácilmente un solución.<br />
-– El equipo o la red no pueden cumplir los requisitos principales de la empresa.</p></td>
+– El equipo o la red no pueden cumplir los requisitos principales de la empresa.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>3</p></td>
-<td style="border:1px solid black;"><p>– Problema de formato documentado.<br />
+<td style="border:1px solid black;">3</td>
+<td style="border:1px solid black;">– Problema de formato documentado.<br />
 – Errores menores de documentación e imprecisiones.<br />
-– Faltas de ortografía.</p></td>
-<td style="border:1px solid black;"><p>– El usuario ha encontrado una solución sencilla para resolver la situación.<br />
+– Faltas de ortografía.</td>
+<td style="border:1px solid black;">– El usuario ha encontrado una solución sencilla para resolver la situación.<br />
 – El usuario puede solucionar de un modo sencillo la situación.<br />
 – El error no produce una mala experiencia para el usuario.<br />
-– Los requisitos principales de la empresa siguen siendo funcionales.</p></td>
+– Los requisitos principales de la empresa siguen siendo funcionales.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>4</p></td>
-<td style="border:1px solid black;"><p>– Sugerencias.<br />
-– Mejoras futuras.</p></td>
-<td style="border:1px solid black;"><p>– Claramente no relacionadas con esta versión.</p></td>
+<td style="border:1px solid black;">4</td>
+<td style="border:1px solid black;">– Sugerencias.<br />
+– Mejoras futuras.</td>
+<td style="border:1px solid black;">– Claramente no relacionadas con esta versión.</td>
 </tr>
 </tbody>
 </table>

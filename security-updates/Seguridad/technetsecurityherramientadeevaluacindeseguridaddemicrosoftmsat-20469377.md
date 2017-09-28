@@ -86,7 +86,7 @@ La siguiente tabla especifica las áreas incluidas dentro de la evaluación de r
 | Gestión y monitorización | La gestión, monitorización y recogida de datos adecuada son críticas para el mantenimiento y análisis de entornos tecnológicos. Estas herramientas son incluso más importantes si se ha producido un ataque y se requiere un análisis del incidente. |
 | Estaciones de trabajo    | La seguridad de las estaciones de trabajo individuales es un factor clave en la defensa de cualquier entorno, especialmente si se permite el acceso remoto. Las estaciones de trabajo deberían disponer de protección para resistir un ataque común. |
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <thead>
 <tr class="header">
@@ -109,7 +109,7 @@ La integridad y la confidencialidad de los datos son dos de las grandes preocupa
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 | Operaciones                        | Importancia para la seguridad                                                                                                                                                                                                                                                                                                                                  |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

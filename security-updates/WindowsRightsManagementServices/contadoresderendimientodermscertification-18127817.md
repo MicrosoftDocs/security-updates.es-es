@@ -13,7 +13,7 @@ En la siguiente tabla, se listan los contadores de rendimiento disponibles para 
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,68 +27,68 @@ En la siguiente tabla, se listan los contadores de rendimiento disponibles para 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Certification AddNewUser Processing Time</p></td>
-<td style="border:1px solid black;"><p>Tiempo de procesamiento, en microsegundos, utilizado por el servicio de certificación de cuentas cuando se actualiza la base de datos con la nueva información de usuario.</p></td>
+<td style="border:1px solid black;">Certification AddNewUser Processing Time</td>
+<td style="border:1px solid black;">Tiempo de procesamiento, en microsegundos, utilizado por el servicio de certificación de cuentas cuando se actualiza la base de datos con la nueva información de usuario.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certification AssociateUserAndMachine Processing Time</p></td>
-<td style="border:1px solid black;"><p>Tiempo de procesamiento, en microsegundos, utilizado por el servicio de certificación de cuentas cuando se vincula la base de datos de equipos y usuarios.</p></td>
+<td style="border:1px solid black;">Certification AssociateUserAndMachine Processing Time</td>
+<td style="border:1px solid black;">Tiempo de procesamiento, en microsegundos, utilizado por el servicio de certificación de cuentas cuando se vincula la base de datos de equipos y usuarios.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Certification Failure Processing Time</p></td>
-<td style="border:1px solid black;"><p>Tiempo, en microsegundos, utilizado para procesar solicitudes de certificación no aceptadas.</p></td>
+<td style="border:1px solid black;">Certification Failure Processing Time</td>
+<td style="border:1px solid black;">Tiempo, en microsegundos, utilizado para procesar solicitudes de certificación no aceptadas.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certification GetUser Processing Time</p></td>
-<td style="border:1px solid black;"><p>Tiempo de procesamiento, en microsegundos, que utiliza el servicio de certificación de cuentas cuando recupera información de claves de usuario de la base de datos.</p></td>
+<td style="border:1px solid black;">Certification GetUser Processing Time</td>
+<td style="border:1px solid black;">Tiempo de procesamiento, en microsegundos, que utiliza el servicio de certificación de cuentas cuando recupera información de claves de usuario de la base de datos.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Certification Quota Extension Failure Processing Time</p></td>
-<td style="border:1px solid black;"><p>Tiempo, en microsegundos, utilizado por el servicio de certificación de cuentas para procesar solicitudes no aceptadas de certificados de cuenta de permisos adicionales que sobrepasan el límite establecido.</p></td>
+<td style="border:1px solid black;">Certification Quota Extension Failure Processing Time</td>
+<td style="border:1px solid black;">Tiempo, en microsegundos, utilizado por el servicio de certificación de cuentas para procesar solicitudes no aceptadas de certificados de cuenta de permisos adicionales que sobrepasan el límite establecido.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certification Quota Extension Total Processing Time</p></td>
-<td style="border:1px solid black;"><p>Tiempo, en microsegundos, que utiliza el servicio de certificación de cuentas para procesar solicitudes de certificados de cuenta de permisos adicionales que sobrepasan el límite establecido.</p></td>
+<td style="border:1px solid black;">Certification Quota Extension Total Processing Time</td>
+<td style="border:1px solid black;">Tiempo, en microsegundos, que utiliza el servicio de certificación de cuentas para procesar solicitudes de certificados de cuenta de permisos adicionales que sobrepasan el límite establecido.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Certification Failures</p></td>
-<td style="border:1px solid black;"><p>Número total de solicitudes que se realizan al servicio de certificación de cuentas y que no reciben un certificado de cuenta de permisos.</p></td>
+<td style="border:1px solid black;">Certification Failures</td>
+<td style="border:1px solid black;">Número total de solicitudes que se realizan al servicio de certificación de cuentas y que no reciben un certificado de cuenta de permisos.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certification Requests</p></td>
-<td style="border:1px solid black;"><p>Número total de solicitudes de certificados de cuenta de permisos que se realizan al servidor de certificación.</p></td>
+<td style="border:1px solid black;">Certification Requests</td>
+<td style="border:1px solid black;">Número total de solicitudes de certificados de cuenta de permisos que se realizan al servidor de certificación.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Certification Total Processing Time</p></td>
-<td style="border:1px solid black;"><p>El tiempo de procesamiento, en microsegundos , utilizado para procesar solicitudes de certificación.</p></td>
+<td style="border:1px solid black;">Certification Total Processing Time</td>
+<td style="border:1px solid black;">El tiempo de procesamiento, en microsegundos , utilizado para procesar solicitudes de certificación.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certification Update Quota Processing Time</p></td>
-<td style="border:1px solid black;"><p>Tiempo de procesamiento, en microsegundos, utilizado para actualizar la base de datos de cuotas.</p></td>
+<td style="border:1px solid black;">Certification Update Quota Processing Time</td>
+<td style="border:1px solid black;">Tiempo de procesamiento, en microsegundos, utilizado para actualizar la base de datos de cuotas.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Certification User Certificate Enabling Bits Addition Processing Time</p></td>
-<td style="border:1px solid black;"><p>Tiempo de procesamiento, en microsegundos, utilizado para generar la clave de contenido del certificado de usuario XrML de certificación.</p></td>
+<td style="border:1px solid black;">Certification User Certificate Enabling Bits Addition Processing Time</td>
+<td style="border:1px solid black;">Tiempo de procesamiento, en microsegundos, utilizado para generar la clave de contenido del certificado de usuario XrML de certificación.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certification User Certificate Generation Processing Time</p></td>
-<td style="border:1px solid black;"><p>Tiempo de procesamiento, en microsegundos, utilizado para generar el certificado de usuario.</p></td>
+<td style="border:1px solid black;">Certification User Certificate Generation Processing Time</td>
+<td style="border:1px solid black;">Tiempo de procesamiento, en microsegundos, utilizado para generar el certificado de usuario.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Precertification Failure Processing Time</p></td>
-<td style="border:1px solid black;"><p>Tiempo total, en microsegundos, utilizado para procesar las solicitudes de certificación preliminar de errores.</p></td>
+<td style="border:1px solid black;">Precertification Failure Processing Time</td>
+<td style="border:1px solid black;">Tiempo total, en microsegundos, utilizado para procesar las solicitudes de certificación preliminar de errores.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Precertification Service Failures</p></td>
-<td style="border:1px solid black;"><p>Número total de solicitudes no aceptadas que se han realizado al servicio de certificación preliminar.</p></td>
+<td style="border:1px solid black;">Precertification Service Failures</td>
+<td style="border:1px solid black;">Número total de solicitudes no aceptadas que se han realizado al servicio de certificación preliminar.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Precertification Requests</p></td>
-<td style="border:1px solid black;"><p>Número total de solicitudes que se han realizado al servicio de certificación preliminar.</p></td>
+<td style="border:1px solid black;">Precertification Requests</td>
+<td style="border:1px solid black;">Número total de solicitudes que se han realizado al servicio de certificación preliminar.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Precertification Total Processing Time</p></td>
-<td style="border:1px solid black;"><p>Tiempo, en microsegundos, utilizado para procesar las solicitudes de certificación preliminar.</p></td>
+<td style="border:1px solid black;">Precertification Total Processing Time</td>
+<td style="border:1px solid black;">Tiempo, en microsegundos, utilizado para procesar las solicitudes de certificación preliminar.</td>
 </tr>
 </tbody>
 </table>

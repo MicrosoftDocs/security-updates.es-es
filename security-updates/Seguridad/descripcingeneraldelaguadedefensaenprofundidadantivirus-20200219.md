@@ -149,7 +149,7 @@ En la tabla siguiente se indican las convenciones de estilo que se utilizan en l
 
 **Tabla 1.1: Convenciones de estilo**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -157,66 +157,66 @@ En la tabla siguiente se indican las convenciones de estilo que se utilizan en l
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
-<th><p>Significado</p></th>
+<th>Elemento</th>
+<th>Significado</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Negrita</strong></p></td>
-<td style="border:1px solid black;"><p>Los nombres de archivo y los elementos de la interfaz de usuario aparecen en negrita.</p></td>
+<td style="border:1px solid black;"><strong>Negrita</strong></td>
+<td style="border:1px solid black;">Los nombres de archivo y los elementos de la interfaz de usuario aparecen en negrita.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><em>Cursiva</em><br />
+<td style="border:1px solid black;"><em>Cursiva</em><br />
 o<br />
-<em>&lt;Cursiva&gt;</em></p></td>
-<td style="border:1px solid black;"><p>La cursiva se aplica a caracteres que escribe el usuario y que pueden cambiar. Los caracteres en cursiva que aparecen entre corchetes angulares representan marcadores de posición variables en los que el usuario debe facilitar valores específicos. Ejemplo:</p>
-<p><em>  &lt;Nombredearchivo.ext&gt;</em> indica que debería sustituir el texto<em> </em><br />
+<em>&lt;Cursiva&gt;</em></td>
+<td style="border:1px solid black;">La cursiva se aplica a caracteres que escribe el usuario y que pueden cambiar. Los caracteres en cursiva que aparecen entre corchetes angulares representan marcadores de posición variables en los que el usuario debe facilitar valores específicos. Ejemplo:
+<em>  &lt;Nombredearchivo.ext&gt;</em> indica que debería sustituir el texto<em> </em><br />
 <em>Nombredearchivo.ext</em> en cursiva por otro nombre de archivo que sea adecuado para la<br />
 configuración.<br />
-</p>
-<p>La cursiva también se utiliza para representar nuevos términos. Ejemplo:</p>
-<p><em>  Identidad digital:</em> atributos descriptivos e identificador único de<br />
-  una persona, grupo, dispositivo o servicio.</p></td>
+
+La cursiva también se utiliza para representar nuevos términos. Ejemplo:
+<em>  Identidad digital:</em> atributos descriptivos e identificador único de<br />
+  una persona, grupo, dispositivo o servicio.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Fuente de texto de la pantalla</p></td>
-<td style="border:1px solid black;"><p>Esta fuente define el texto de salida que se muestra en la pantalla.</p></td>
+<td style="border:1px solid black;">Fuente de texto de la pantalla</td>
+<td style="border:1px solid black;">Esta fuente define el texto de salida que se muestra en la pantalla.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><pre><code>Fuente de código Monospace</code></pre>
 <br />
 </td>
-<td style="border:1px solid black;"><p>Esta fuente se utiliza para definir ejemplos de código. Ejemplo:<br />
-  public override void Install(IDictionary savedState)</p></td>
+<td style="border:1px solid black;">Esta fuente se utiliza para definir ejemplos de código. Ejemplo:<br />
+  public override void Install(IDictionary savedState)</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><pre><code>Fuente de comandos Monospace</code></pre>
 <br />
 </td>
-<td style="border:1px solid black;"><p>Esta fuente se utiliza para definir comandos, modificadores y atributos que el usuario escribe en un símbolo del sistema. Ejemplo:<br />
+<td style="border:1px solid black;">Esta fuente se utiliza para definir comandos, modificadores y atributos que el usuario escribe en un símbolo del sistema. Ejemplo:<br />
   En el símbolo del sistema, escriba lo siguiente:<br />
-  CScript SetUrlAuth.vbs</p></td>
+  CScript SetUrlAuth.vbs</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>%SystemRoot%</p></td>
-<td style="border:1px solid black;"><p>La carpeta en la que se ha instalado el sistema operativo Windows.</p></td>
+<td style="border:1px solid black;">%SystemRoot%</td>
+<td style="border:1px solid black;">La carpeta en la que se ha instalado el sistema operativo Windows.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Nota</strong></p></td>
-<td style="border:1px solid black;"><p>Avisa al lector de que hay información adicional.</p></td>
+<td style="border:1px solid black;"><strong>Nota</strong></td>
+<td style="border:1px solid black;">Avisa al lector de que hay información adicional.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Importante</strong></p></td>
-<td style="border:1px solid black;"><p>Avisa al lector de que hay información adicional que resulta esencial para completar una tarea.</p></td>
+<td style="border:1px solid black;"><strong>Importante</strong></td>
+<td style="border:1px solid black;">Avisa al lector de que hay información adicional que resulta esencial para completar una tarea.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Precaución</strong></p></td>
-<td style="border:1px solid black;"><p>Avisa al lector de que si no se realiza o pasa por alto una determinada acción, se podrá producir una pérdida de datos.</p></td>
+<td style="border:1px solid black;"><strong>Precaución</strong></td>
+<td style="border:1px solid black;">Avisa al lector de que si no se realiza o pasa por alto una determinada acción, se podrá producir una pérdida de datos.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Advertencia</strong></p></td>
-<td style="border:1px solid black;"><p>Avisa al lector de que si no se realiza o pasa por alto una determinada acción, el usuario o el hardware podría resultar dañado físicamente.</p></td>
+<td style="border:1px solid black;"><strong>Advertencia</strong></td>
+<td style="border:1px solid black;">Avisa al lector de que si no se realiza o pasa por alto una determinada acción, el usuario o el hardware podría resultar dañado físicamente.</td>
 </tr>
 </tbody>
 </table>
@@ -1848,7 +1848,7 @@ Otro comportamiento común del software malintencionado es el uso de carpetas co
   
 **Tabla 4.1: Recursos compartidos de carpeta predeterminados de Windows XP**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1857,38 +1857,38 @@ Otro comportamiento común del software malintencionado es el uso de carpetas co
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Carpeta compartida</p></th>
-<th><p>Ruta compartida</p></th>
-<th><p>Comentarios</p></th>
+<th>Carpeta compartida</th>
+<th>Ruta compartida</th>
+<th>Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ADMIN$</p></td>
-<td style="border:1px solid black;"><p>C:\Windows</p></td>
-<td style="border:1px solid black;"><p>Administración remota</p></td>
+<td style="border:1px solid black;">ADMIN$</td>
+<td style="border:1px solid black;">C:\Windows</td>
+<td style="border:1px solid black;">Administración remota</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>C$</p></td>
-<td style="border:1px solid black;"><p>C:\</p></td>
-<td style="border:1px solid black;"><p>Recurso compartido predeterminado</p></td>
+<td style="border:1px solid black;">C$</td>
+<td style="border:1px solid black;">C:\</td>
+<td style="border:1px solid black;">Recurso compartido predeterminado</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>&lt;n&gt;$</p></td>
-<td style="border:1px solid black;"><p>&lt;n:&gt;\</p></td>
-<td style="border:1px solid black;"><p>Representa un recurso compartido para la raíz de cada unidad fija del sistema.</p></td>
+<td style="border:1px solid black;">&lt;n&gt;$</td>
+<td style="border:1px solid black;">&lt;n:&gt;\</td>
+<td style="border:1px solid black;">Representa un recurso compartido para la raíz de cada unidad fija del sistema.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SharedDocs</p></td>
-<td style="border:1px solid black;"><p>C:\Documents and Settings\All Users\Documents</p></td>
-<td style="border:1px solid black;"><p>Se agregará si se ha habilitado el uso compartido de archivos locales.</p></td>
+<td style="border:1px solid black;">SharedDocs</td>
+<td style="border:1px solid black;">C:\Documents and Settings\All Users\Documents</td>
+<td style="border:1px solid black;">Se agregará si se ha habilitado el uso compartido de archivos locales.</td>
 </tr>
 </tbody>
 </table>
   
 **Tabla 4.2: Recursos compartidos de carpeta predeterminados de Windows Server 2003 y Windows 2000 Server**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1897,36 +1897,36 @@ Otro comportamiento común del software malintencionado es el uso de carpetas co
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Carpeta compartida</p></th>
-<th><p>Ruta compartida</p></th>
-<th><p>Comentarios</p></th>
+<th>Carpeta compartida</th>
+<th>Ruta compartida</th>
+<th>Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ADMIN$</p></td>
-<td style="border:1px solid black;"><p>C:\Windows</p></td>
-<td style="border:1px solid black;"><p>Administración remota</p></td>
+<td style="border:1px solid black;">ADMIN$</td>
+<td style="border:1px solid black;">C:\Windows</td>
+<td style="border:1px solid black;">Administración remota</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>C$</p></td>
-<td style="border:1px solid black;"><p>C:\</p></td>
-<td style="border:1px solid black;"><p>Recurso compartido predeterminado</p></td>
+<td style="border:1px solid black;">C$</td>
+<td style="border:1px solid black;">C:\</td>
+<td style="border:1px solid black;">Recurso compartido predeterminado</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>&lt;n&gt;$</p></td>
-<td style="border:1px solid black;"><p>&lt;n:&gt;\</p></td>
-<td style="border:1px solid black;"><p>Representa un recurso compartido para la raíz de cada unidad fija del sistema.</p></td>
+<td style="border:1px solid black;">&lt;n&gt;$</td>
+<td style="border:1px solid black;">&lt;n:&gt;\</td>
+<td style="border:1px solid black;">Representa un recurso compartido para la raíz de cada unidad fija del sistema.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SharedDocs</p></td>
-<td style="border:1px solid black;"><p>C:\Documents and Settings\All Users\Documents</p></td>
-<td style="border:1px solid black;"><p>Se agregará si se ha habilitado el uso compartido de archivos locales.</p></td>
+<td style="border:1px solid black;">SharedDocs</td>
+<td style="border:1px solid black;">C:\Documents and Settings\All Users\Documents</td>
+<td style="border:1px solid black;">Se agregará si se ha habilitado el uso compartido de archivos locales.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Wwwroot$</p></td>
-<td style="border:1px solid black;"><p>C:\inetpub\wwwroot</p></td>
-<td style="border:1px solid black;"><p>Se configurará si Servicios de Internet Information Server (IIS) se ha instalado como servidor Web.</p></td>
+<td style="border:1px solid black;">Wwwroot$</td>
+<td style="border:1px solid black;">C:\inetpub\wwwroot</td>
+<td style="border:1px solid black;">Se configurará si Servicios de Internet Information Server (IIS) se ha instalado como servidor Web.</td>
 </tr>
 </tbody>
 </table>
@@ -2013,7 +2013,7 @@ El factor principal a considerar en la elección de una opción u otra es el niv
   
 **Tabla 4.3: Ventajas y desventajas de la limpieza y la reconstrucción del sistema**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -2021,26 +2021,26 @@ El factor principal a considerar en la elección de una opción u otra es el niv
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Limpieza</p></th>
-<th><p>Reconstrucción</p></th>
+<th>Limpieza</th>
+<th>Reconstrucción</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Proceso sencillo, si se dispone de herramientas de limpieza.</p></td>
-<td style="border:1px solid black;"><p>Proceso más complejo, especialmente si no se cuenta con una solución de copia de seguridad o recuperación antes de la infección.</p></td>
+<td style="border:1px solid black;">Proceso sencillo, si se dispone de herramientas de limpieza.</td>
+<td style="border:1px solid black;">Proceso más complejo, especialmente si no se cuenta con una solución de copia de seguridad o recuperación antes de la infección.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>La limpieza de los datos se realiza en menos pasos.</p></td>
-<td style="border:1px solid black;"><p>Los pasos a seguir son más numerosos: capturar, realizar copias de seguridad, limpiar, examinar y restaurar los datos.</p></td>
+<td style="border:1px solid black;">La limpieza de los datos se realiza en menos pasos.</td>
+<td style="border:1px solid black;">Los pasos a seguir son más numerosos: capturar, realizar copias de seguridad, limpiar, examinar y restaurar los datos.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Las herramientas de eliminación utilizan menos recursos que la reconstrucción completa del sistema.</p></td>
-<td style="border:1px solid black;"><p>El proceso de reconstrucción puede requerir una cantidad de tiempo significativa y consumir muchos recursos.</p></td>
+<td style="border:1px solid black;">Las herramientas de eliminación utilizan menos recursos que la reconstrucción completa del sistema.</td>
+<td style="border:1px solid black;">El proceso de reconstrucción puede requerir una cantidad de tiempo significativa y consumir muchos recursos.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Existe el riesgo de que el sistema aún esté infectado.</p></td>
-<td style="border:1px solid black;"><p>Escaso riesgo de que el sistema aún esté infectado si se restaura a partir de medios limpios y datos administrados de forma correcta.</p></td>
+<td style="border:1px solid black;">Existe el riesgo de que el sistema aún esté infectado.</td>
+<td style="border:1px solid black;">Escaso riesgo de que el sistema aún esté infectado si se restaura a partir de medios limpios y datos administrados de forma correcta.</td>
 </tr>
 </tbody>
 </table>

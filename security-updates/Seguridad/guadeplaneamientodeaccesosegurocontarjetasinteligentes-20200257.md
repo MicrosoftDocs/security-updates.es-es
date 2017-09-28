@@ -465,7 +465,7 @@ Windows XP y la familia Windows Server 2003 admiten los lectores de tarjetas i
 
 **Tabla 2.1: Lectores de tarjetas inteligentes compatibles con Windows Server 2003**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -474,106 +474,106 @@ Windows XP y la familia Windows Server 2003 admiten los lectores de tarjetas i
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Marca</p></th>
-<th><p>Modelo</p></th>
-<th><p>Interfaz</p></th>
+<th>Marca</th>
+<th>Modelo</th>
+<th>Interfaz</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>American Express</p></td>
-<td style="border:1px solid black;"><p>GCR435</p></td>
-<td style="border:1px solid black;"><p>USB</p></td>
+<td style="border:1px solid black;">American Express</td>
+<td style="border:1px solid black;">GCR435</td>
+<td style="border:1px solid black;">USB</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Bull</p></td>
-<td style="border:1px solid black;"><p>SmarTLP3</p></td>
-<td style="border:1px solid black;"><p>Serie</p></td>
+<td style="border:1px solid black;">Bull</td>
+<td style="border:1px solid black;">SmarTLP3</td>
+<td style="border:1px solid black;">Serie</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Compaq</p></td>
-<td style="border:1px solid black;"><p>Lector serie</p></td>
-<td style="border:1px solid black;"><p>Serie</p></td>
+<td style="border:1px solid black;">Compaq</td>
+<td style="border:1px solid black;">Lector serie</td>
+<td style="border:1px solid black;">Serie</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gemplus</p></td>
-<td style="border:1px solid black;"><p>GCR410P</p></td>
-<td style="border:1px solid black;"><p>Serie</p></td>
+<td style="border:1px solid black;">Gemplus</td>
+<td style="border:1px solid black;">GCR410P</td>
+<td style="border:1px solid black;">Serie</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gemplus</p></td>
-<td style="border:1px solid black;"><p>GPR400</p></td>
-<td style="border:1px solid black;"><p>PCMCIA</p></td>
+<td style="border:1px solid black;">Gemplus</td>
+<td style="border:1px solid black;">GPR400</td>
+<td style="border:1px solid black;">PCMCIA</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gemplus</p></td>
-<td style="border:1px solid black;"><p>GemPC430</p></td>
-<td style="border:1px solid black;"><p>USB</p></td>
+<td style="border:1px solid black;">Gemplus</td>
+<td style="border:1px solid black;">GemPC430</td>
+<td style="border:1px solid black;">USB</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Hewlett Packard</p></td>
-<td style="border:1px solid black;"><p>ProtectTools</p></td>
-<td style="border:1px solid black;"><p>Serie</p></td>
+<td style="border:1px solid black;">Hewlett Packard</td>
+<td style="border:1px solid black;">ProtectTools</td>
+<td style="border:1px solid black;">Serie</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Litronic</p></td>
-<td style="border:1px solid black;"><p>220P</p></td>
-<td style="border:1px solid black;"><p>Serie</p></td>
+<td style="border:1px solid black;">Litronic</td>
+<td style="border:1px solid black;">220P</td>
+<td style="border:1px solid black;">Serie</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Schlumberger</p></td>
-<td style="border:1px solid black;"><p>Reflex 20</p></td>
-<td style="border:1px solid black;"><p>PCMCIA</p></td>
+<td style="border:1px solid black;">Schlumberger</td>
+<td style="border:1px solid black;">Reflex 20</td>
+<td style="border:1px solid black;">PCMCIA</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Schlumberger</p></td>
-<td style="border:1px solid black;"><p>Reflex 72</p></td>
-<td style="border:1px solid black;"><p>Serie</p></td>
+<td style="border:1px solid black;">Schlumberger</td>
+<td style="border:1px solid black;">Reflex 72</td>
+<td style="border:1px solid black;">Serie</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Schlumberger</p></td>
-<td style="border:1px solid black;"><p>Reflex Lite</p></td>
-<td style="border:1px solid black;"><p>Serie</p></td>
+<td style="border:1px solid black;">Schlumberger</td>
+<td style="border:1px solid black;">Reflex Lite</td>
+<td style="border:1px solid black;">Serie</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SConnection Manager Microsystems</p></td>
-<td style="border:1px solid black;"><p>SCR111</p></td>
-<td style="border:1px solid black;"><p>Serie</p></td>
+<td style="border:1px solid black;">SConnection Manager Microsystems</td>
+<td style="border:1px solid black;">SCR111</td>
+<td style="border:1px solid black;">Serie</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SConnection Manager Microsystems</p></td>
-<td style="border:1px solid black;"><p>SCR200</p></td>
-<td style="border:1px solid black;"><p>Serie</p></td>
+<td style="border:1px solid black;">SConnection Manager Microsystems</td>
+<td style="border:1px solid black;">SCR200</td>
+<td style="border:1px solid black;">Serie</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SConnection Manager Microsystems</p></td>
-<td style="border:1px solid black;"><p>SCR120</p></td>
-<td style="border:1px solid black;"><p>PCMCIA</p></td>
+<td style="border:1px solid black;">SConnection Manager Microsystems</td>
+<td style="border:1px solid black;">SCR120</td>
+<td style="border:1px solid black;">PCMCIA</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SConnection Manager Microsystems</p></td>
-<td style="border:1px solid black;"><p>SCR300</p></td>
-<td style="border:1px solid black;"><p>USB</p></td>
+<td style="border:1px solid black;">SConnection Manager Microsystems</td>
+<td style="border:1px solid black;">SCR300</td>
+<td style="border:1px solid black;">USB</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Systemneeds</p></td>
-<td style="border:1px solid black;"><p>Externo</p></td>
-<td style="border:1px solid black;"><p>Serie</p></td>
+<td style="border:1px solid black;">Systemneeds</td>
+<td style="border:1px solid black;">Externo</td>
+<td style="border:1px solid black;">Serie</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Omnikey AG</p></td>
-<td style="border:1px solid black;"><p>2010</p></td>
-<td style="border:1px solid black;"><p>Serie</p></td>
+<td style="border:1px solid black;">Omnikey AG</td>
+<td style="border:1px solid black;">2010</td>
+<td style="border:1px solid black;">Serie</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Omnikey AG</p></td>
-<td style="border:1px solid black;"><p>2020</p></td>
-<td style="border:1px solid black;"><p>USB</p></td>
+<td style="border:1px solid black;">Omnikey AG</td>
+<td style="border:1px solid black;">2020</td>
+<td style="border:1px solid black;">USB</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Omnikey AG</p></td>
-<td style="border:1px solid black;"><p>4000</p></td>
-<td style="border:1px solid black;"><p>PCMCIA</p></td>
+<td style="border:1px solid black;">Omnikey AG</td>
+<td style="border:1px solid black;">4000</td>
+<td style="border:1px solid black;">PCMCIA</td>
 </tr>
 </tbody>
 </table>
@@ -1508,7 +1508,7 @@ El equipo de TI de Woodgrove creó un nuevo grupo de seguridad, con el nombre Re
   
 **Tabla 4.1: Condiciones de la directiva de acceso remoto de Woodgrove National Bank**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1517,21 +1517,21 @@ El equipo de TI de Woodgrove creó un nuevo grupo de seguridad, con el nombre Re
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Requisito</p></th>
-<th><p>Condiciones de la directiva</p></th>
-<th><p>Tipo de autenticación</p></th>
+<th>Requisito</th>
+<th>Condiciones de la directiva</th>
+<th>Tipo de autenticación</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Requerir la autenticación con tarjetas inteligentes para los miembros del grupo de usuarios de acceso remoto</p></td>
-<td style="border:1px solid black;"><p>Los grupos de Windows coinciden con &quot;WOODGROVE\RemoteSmartCardUsers&quot;</p></td>
-<td style="border:1px solid black;"><p>EAP - tarjeta inteligente u otro certificado únicamente.</p></td>
+<td style="border:1px solid black;">Requerir la autenticación con tarjetas inteligentes para los miembros del grupo de usuarios de acceso remoto</td>
+<td style="border:1px solid black;">Los grupos de Windows coinciden con &quot;WOODGROVE\RemoteSmartCardUsers&quot;</td>
+<td style="border:1px solid black;">EAP - tarjeta inteligente u otro certificado únicamente.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>No requerir la autenticación con tarjetas inteligentes para los miembros del grupo de exclusiones temporales</p></td>
-<td style="border:1px solid black;"><p>Los grupos de Windows coinciden con &quot;WOODGROVE\RemoteSmartCardUsersTempException&quot;</p></td>
-<td style="border:1px solid black;"><p>MSCHAP v2</p></td>
+<td style="border:1px solid black;">No requerir la autenticación con tarjetas inteligentes para los miembros del grupo de exclusiones temporales</td>
+<td style="border:1px solid black;">Los grupos de Windows coinciden con &quot;WOODGROVE\RemoteSmartCardUsersTempException&quot;</td>
+<td style="border:1px solid black;">MSCHAP v2</td>
 </tr>
 </tbody>
 </table>

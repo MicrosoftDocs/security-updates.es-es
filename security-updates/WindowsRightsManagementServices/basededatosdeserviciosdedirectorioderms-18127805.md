@@ -17,7 +17,7 @@ En la tabla siguiente, se enumeran los atributos de Active Directory almacenados
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -31,7 +31,7 @@ En la tabla siguiente, se enumeran los atributos de Active Directory almacenados
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>GroupAliases</p></td>
+<td style="border:1px solid black;">GroupAliases</td>
 <td style="border:1px solid black;"><ul>
 <li>GroupName: alias de un grupo<br />
 <br />
@@ -42,7 +42,7 @@ En la tabla siguiente, se enumeran los atributos de Active Directory almacenados
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>GroupIdentifiers</p></td>
+<td style="border:1px solid black;">GroupIdentifiers</td>
 <td style="border:1px solid black;"><ul>
 <li>GroupDN: nombre distintivo de Active Directory para este grupo<br />
 <br />
@@ -56,7 +56,7 @@ En la tabla siguiente, se enumeran los atributos de Active Directory almacenados
 </ul></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>GroupMembership</p></td>
+<td style="border:1px solid black;">GroupMembership</td>
 <td style="border:1px solid black;"><ul>
 <li>GroupID: Id. único de este grupo<br />
 <br />
@@ -67,7 +67,7 @@ En la tabla siguiente, se enumeran los atributos de Active Directory almacenados
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PrincipalAliases</p></td>
+<td style="border:1px solid black;">PrincipalAliases</td>
 <td style="border:1px solid black;"><ul>
 <li>PrincipalName: alias de la entidad principal<br />
 <br />
@@ -78,7 +78,7 @@ En la tabla siguiente, se enumeran los atributos de Active Directory almacenados
 </ul></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PrincipalIdentifiers</p></td>
+<td style="border:1px solid black;">PrincipalIdentifiers</td>
 <td style="border:1px solid black;"><ul>
 <li>PrincipalID: Id. único de esta entidad principal<br />
 <br />
@@ -89,8 +89,8 @@ En la tabla siguiente, se enumeran los atributos de Active Directory almacenados
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PrincipalMembership</p></td>
-<td style="border:1px solid black;"><p>Todas las filas de esta tabla incluyen el Id. único de una entidad principal y el Id. único del grupo del que es integrante.</p>
+<td style="border:1px solid black;">PrincipalMembership</td>
+<td style="border:1px solid black;">Todas las filas de esta tabla incluyen el Id. único de una entidad principal y el Id. único del grupo del que es integrante.
 <ul>
 <li>PrincipalID: Id. único de esta entidad principal<br />
 <br />

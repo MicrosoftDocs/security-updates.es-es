@@ -128,7 +128,7 @@ En la siguiente tabla se enumeran parámetros específicos de organización toma
 
 **Tabla 7.1: Elementos de configuración definidos por el usuario**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -137,56 +137,56 @@ En la siguiente tabla se enumeran parámetros específicos de organización toma
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento de configuración</p></th>
-<th><p>Configuración</p></th>
-<th><p>Referencia a la secuencia de comandos</p></th>
+<th>Elemento de configuración</th>
+<th>Configuración</th>
+<th>Referencia a la secuencia de comandos</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nombre DNS del dominio raíz del bosque de Active Directory</p></td>
-<td style="border:1px solid black;"><p>woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Nombre DNS del dominio raíz del bosque de Active Directory</td>
+<td style="border:1px solid black;">woodgrovebank.com</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nombre distintivo (DN) de raíz de bosque</p></td>
-<td style="border:1px solid black;"><p>DC=woodgrovebank,DC=com</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Nombre distintivo (DN) de raíz de bosque</td>
+<td style="border:1px solid black;">DC=woodgrovebank,DC=com</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nombre NetBIOS (servicio básico de entrada y salida de red) del dominio</p></td>
-<td style="border:1px solid black;"><p>WOODGROVEBANK</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Nombre NetBIOS (servicio básico de entrada y salida de red) del dominio</td>
+<td style="border:1px solid black;">WOODGROVEBANK</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nombre NetBIOS de grupo de trabajo de entidad emisora raíz</p></td>
-<td style="border:1px solid black;"><p>WGB-Root</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Nombre NetBIOS de grupo de trabajo de entidad emisora raíz</td>
+<td style="border:1px solid black;">WGB-Root</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nombre de servidor de entidad emisora raíz</p></td>
-<td style="border:1px solid black;"><p>HQ-CA-01</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Nombre de servidor de entidad emisora raíz</td>
+<td style="border:1px solid black;">HQ-CA-01</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nombre de servidor de CA emisora</p></td>
-<td style="border:1px solid black;"><p>HQ-CA-02</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Nombre de servidor de CA emisora</td>
+<td style="border:1px solid black;">HQ-CA-02</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nombre común (CN) X.500 de entidad emisora raíz</p></td>
-<td style="border:1px solid black;"><p>Entidad emisora raíz WoodGrove Bank</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Nombre común (CN) X.500 de entidad emisora raíz</td>
+<td style="border:1px solid black;">Entidad emisora raíz WoodGrove Bank</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CN X.500 de CA emisora</p></td>
-<td style="border:1px solid black;"><p>CA emisora WoodGrove Bank 1</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">CN X.500 de CA emisora</td>
+<td style="border:1px solid black;">CA emisora WoodGrove Bank 1</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nombre completo de host del servidor Web utilizado para publicar información acerca del certificado de entidad emisora y la revocación</p></td>
-<td style="border:1px solid black;"><p>www.woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Nombre completo de host del servidor Web utilizado para publicar información acerca del certificado de entidad emisora y la revocación</td>
+<td style="border:1px solid black;">www.woodgrovebank.com</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 </tbody>
 </table>
@@ -197,7 +197,7 @@ La configuración especificada en esta tabla no se debe cambiar en su instalaci�
   
 **Tabla 7.2: Elementos de configuración que recomienda la solución**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -206,9 +206,9 @@ La configuración especificada en esta tabla no se debe cambiar en su instalaci�
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento de configuración</p></th>
-<th><p>Configuración</p></th>
-<th><p>Referencia a la secuencia de comandos</p></th>
+<th>Elemento de configuración</th>
+<th>Configuración</th>
+<th>Referencia a la secuencia de comandos</th>
 </tr>
 </thead>
 <tbody>
@@ -218,34 +218,34 @@ La configuración especificada en esta tabla no se debe cambiar en su instalaci�
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Contenedor de configuración de los administradores de servicios de claves públicas.</p></td>
-<td style="border:1px solid black;"><p>Administradores de PKI de empresa</p></td>
-<td style="border:1px solid black;"><p>ca_setup.wsf</p></td>
+<td style="border:1px solid black;">Contenedor de configuración de los administradores de servicios de claves públicas.</td>
+<td style="border:1px solid black;">Administradores de PKI de empresa</td>
+<td style="border:1px solid black;">ca_setup.wsf</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Grupo administrativo que puede publicar listas de revocación de certificados (CRL) y certificados de entidad emisora en el contenedor de configuración de la empresa.</p></td>
-<td style="border:1px solid black;"><p>Editores de PKI de empresa</p></td>
-<td style="border:1px solid black;"><p>ca_setup.wsf</p></td>
+<td style="border:1px solid black;">Grupo administrativo que puede publicar listas de revocación de certificados (CRL) y certificados de entidad emisora en el contenedor de configuración de la empresa.</td>
+<td style="border:1px solid black;">Editores de PKI de empresa</td>
+<td style="border:1px solid black;">ca_setup.wsf</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Grupo administrativo que configura y mantiene las entidades emisoras; también controla la posibilidad de asignar todas las demás funciones de entidad emisora y de renovar el certificado de entidad emisora.</p></td>
-<td style="border:1px solid black;"><p>Administradores de entidad emisora</p></td>
-<td style="border:1px solid black;"><p>ca_setup.wsf</p></td>
+<td style="border:1px solid black;">Grupo administrativo que configura y mantiene las entidades emisoras; también controla la posibilidad de asignar todas las demás funciones de entidad emisora y de renovar el certificado de entidad emisora.</td>
+<td style="border:1px solid black;">Administradores de entidad emisora</td>
+<td style="border:1px solid black;">ca_setup.wsf</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Grupo administrativo que aprueba las solicitudes de inscripción y revocación de certificados. Ésta es una función de oficial de entidad emisora</p></td>
-<td style="border:1px solid black;"><p>Administradores de certificados</p></td>
-<td style="border:1px solid black;"><p>ca_setup.wsf</p></td>
+<td style="border:1px solid black;">Grupo administrativo que aprueba las solicitudes de inscripción y revocación de certificados. Ésta es una función de oficial de entidad emisora</td>
+<td style="border:1px solid black;">Administradores de certificados</td>
+<td style="border:1px solid black;">ca_setup.wsf</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Grupo administrativo que administra las auditorías y los registros de seguridad de la entidad emisora.</p></td>
-<td style="border:1px solid black;"><p>Auditores de entidad emisora</p></td>
-<td style="border:1px solid black;"><p>ca_setup.wsf</p></td>
+<td style="border:1px solid black;">Grupo administrativo que administra las auditorías y los registros de seguridad de la entidad emisora.</td>
+<td style="border:1px solid black;">Auditores de entidad emisora</td>
+<td style="border:1px solid black;">ca_setup.wsf</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Grupo administrativo que administra las copias de seguridad de la entidad emisora.</p></td>
-<td style="border:1px solid black;"><p>Operadores de copia de seguridad de CA</p></td>
-<td style="border:1px solid black;"><p>ca_setup.wsf</p></td>
+<td style="border:1px solid black;">Grupo administrativo que administra las copias de seguridad de la entidad emisora.</td>
+<td style="border:1px solid black;">Operadores de copia de seguridad de CA</td>
+<td style="border:1px solid black;">ca_setup.wsf</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><strong>Configuración de IIS</strong></td>
@@ -253,14 +253,14 @@ La configuración especificada en esta tabla no se debe cambiar en su instalaci�
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nombre del directorio virtual de Servicios de Internet Information Server (IIS) utilizado para publicar información de certificados de entidad emisora y lista CRL.</p></td>
-<td style="border:1px solid black;"><p>pki</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Nombre del directorio virtual de Servicios de Internet Information Server (IIS) utilizado para publicar información de certificados de entidad emisora y lista CRL.</td>
+<td style="border:1px solid black;">pki</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ruta de acceso física de CA emisora que se asigna al directorio virtual de IIS.</p></td>
-<td style="border:1px solid black;"><p>C:\CAWWWPub</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Ruta de acceso física de CA emisora que se asigna al directorio virtual de IIS.</td>
+<td style="border:1px solid black;">C:\CAWWWPub</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>Parámetros comunes de entidad emisora</strong></td>
@@ -268,14 +268,14 @@ La configuración especificada en esta tabla no se debe cambiar en su instalaci�
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Unidad y ruta de acceso para guardar los archivos de solicitud de Servicios de Certificate Server.</p></td>
-<td style="border:1px solid black;"><p>C:\CAConfig</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Unidad y ruta de acceso para guardar los archivos de solicitud de Servicios de Certificate Server.</td>
+<td style="border:1px solid black;">C:\CAConfig</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Unidad y ruta de acceso para guardar los registros de base de datos de Servicios de Certificate Server.</p></td>
-<td style="border:1px solid black;"><p>%windir%\System32\CertLog</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Unidad y ruta de acceso para guardar los registros de base de datos de Servicios de Certificate Server.</td>
+<td style="border:1px solid black;">%windir%\System32\CertLog</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><strong>Configuración de entidad emisora raíz</strong></td>
@@ -283,60 +283,60 @@ La configuración especificada en esta tabla no se debe cambiar en su instalaci�
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Longitud de clave de entidad emisora raíz</p>
-<p>(consulte la nota que se encuentra después de la tabla).</p></td>
-<td style="border:1px solid black;"><p>4096</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Longitud de clave de entidad emisora raíz
+(consulte la nota que se encuentra después de la tabla).</td>
+<td style="border:1px solid black;">4096</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Período de validez del certificado de entidad emisora raíz.</p></td>
-<td style="border:1px solid black;"><p>16</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Período de validez del certificado de entidad emisora raíz.</td>
+<td style="border:1px solid black;">16</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Unidades del valor anterior.</p></td>
-<td style="border:1px solid black;"><p>Años</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Unidades del valor anterior.</td>
+<td style="border:1px solid black;">Años</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Período máximo de validez de los certificados emitidos por la entidad emisora raíz.</p></td>
-<td style="border:1px solid black;"><p>8</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Período máximo de validez de los certificados emitidos por la entidad emisora raíz.</td>
+<td style="border:1px solid black;">8</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Unidades del valor anterior.</p></td>
-<td style="border:1px solid black;"><p>Años</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Unidades del valor anterior.</td>
+<td style="border:1px solid black;">Años</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Intervalo de publicación de lista CRL para la entidad emisora raíz.</p></td>
-<td style="border:1px solid black;"><p>6</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Intervalo de publicación de lista CRL para la entidad emisora raíz.</td>
+<td style="border:1px solid black;">6</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Unidades del valor anterior.</p></td>
-<td style="border:1px solid black;"><p>meses</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Unidades del valor anterior.</td>
+<td style="border:1px solid black;">meses</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Período de coincidencia de lista CRL (tiempo transcurrido entre la publicación de una nueva lista CRL y la fecha de caducidad de una lista CRL antigua).</p></td>
-<td style="border:1px solid black;"><p>10</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Período de coincidencia de lista CRL (tiempo transcurrido entre la publicación de una nueva lista CRL y la fecha de caducidad de una lista CRL antigua).</td>
+<td style="border:1px solid black;">10</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Unidades del valor anterior.</p></td>
-<td style="border:1px solid black;"><p>Días</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Unidades del valor anterior.</td>
+<td style="border:1px solid black;">Días</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Período de publicación de diferencia entre listas CRL para entidad emisora raíz — 0 = deshabilitar diferencia entre listas CRL.</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Período de publicación de diferencia entre listas CRL para entidad emisora raíz — 0 = deshabilitar diferencia entre listas CRL.</td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Unidades del valor anterior.</p></td>
-<td style="border:1px solid black;"><p>Horas</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Unidades del valor anterior.</td>
+<td style="border:1px solid black;">Horas</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><strong>Parámetros de CA emisora</strong></td>
@@ -344,74 +344,74 @@ La configuración especificada en esta tabla no se debe cambiar en su instalaci�
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Unidad y ruta de acceso para guardar la base de datos de Servicios de Certificate Server.</p></td>
-<td style="border:1px solid black;"><p>D:\CertLog</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Unidad y ruta de acceso para guardar la base de datos de Servicios de Certificate Server.</td>
+<td style="border:1px solid black;">D:\CertLog</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Longitud de clave de CA emisora.</p></td>
-<td style="border:1px solid black;"><p>2048</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Longitud de clave de CA emisora.</td>
+<td style="border:1px solid black;">2048</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Período de validez del certificado de CA emisora.</p></td>
-<td style="border:1px solid black;"><p>8</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Período de validez del certificado de CA emisora.</td>
+<td style="border:1px solid black;">8</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Unidades del valor anterior.</p></td>
-<td style="border:1px solid black;"><p>Años</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Unidades del valor anterior.</td>
+<td style="border:1px solid black;">Años</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Período máximo de validez de certificados emitidos por la CA emisora.</p></td>
-<td style="border:1px solid black;"><p>4</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Período máximo de validez de certificados emitidos por la CA emisora.</td>
+<td style="border:1px solid black;">4</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Unidades del valor anterior.</p></td>
-<td style="border:1px solid black;"><p>Años</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Unidades del valor anterior.</td>
+<td style="border:1px solid black;">Años</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Intervalo de publicación de lista CRL para CA emisora.</p></td>
-<td style="border:1px solid black;"><p>7</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Intervalo de publicación de lista CRL para CA emisora.</td>
+<td style="border:1px solid black;">7</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Unidades del valor anterior.</p></td>
-<td style="border:1px solid black;"><p>Días</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Unidades del valor anterior.</td>
+<td style="border:1px solid black;">Días</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Período de coincidencia de lista CRL (tiempo transcurrido entre la publicación de una nueva lista CRL y la fecha de caducidad de una lista CRL antigua).</p></td>
-<td style="border:1px solid black;"><p>4</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Período de coincidencia de lista CRL (tiempo transcurrido entre la publicación de una nueva lista CRL y la fecha de caducidad de una lista CRL antigua).</td>
+<td style="border:1px solid black;">4</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Unidades del valor anterior.</p></td>
-<td style="border:1px solid black;"><p>Días</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Unidades del valor anterior.</td>
+<td style="border:1px solid black;">Días</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Período de publicación de diferencia entre listas CRL para CA emisora — 0 = deshabilitar diferencia entre listas CRL.</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Período de publicación de diferencia entre listas CRL para CA emisora — 0 = deshabilitar diferencia entre listas CRL.</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Unidades del valor anterior.</p></td>
-<td style="border:1px solid black;"><p>Días</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Unidades del valor anterior.</td>
+<td style="border:1px solid black;">Días</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Período de coincidencia de diferencia entre listas CRL (tiempo transcurrido entre la publicación de una nueva diferencia entre listas CRL y la fecha de caducidad de una diferencia entre una lista CRL antigua).</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Período de coincidencia de diferencia entre listas CRL (tiempo transcurrido entre la publicación de una nueva diferencia entre listas CRL y la fecha de caducidad de una diferencia entre una lista CRL antigua).</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Unidades del valor anterior.</p></td>
-<td style="border:1px solid black;"><p>Días</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Unidades del valor anterior.</td>
+<td style="border:1px solid black;">Días</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>Varios</strong></td>
@@ -419,9 +419,9 @@ La configuración especificada en esta tabla no se debe cambiar en su instalaci�
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ruta de acceso de las secuencias de comandos de instalación.</p></td>
-<td style="border:1px solid black;"><p>C:\MSSScripts</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Ruta de acceso de las secuencias de comandos de instalación.</td>
+<td style="border:1px solid black;">C:\MSSScripts</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 </tbody>
 </table>
@@ -446,7 +446,7 @@ En la tabla siguiente se muestra una especificación de hardware recomendada par
   
 **Tabla 7.3: Especificación de hardware sugerido para el servidor de entidad emisora raíz**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -454,33 +454,33 @@ En la tabla siguiente se muestra una especificación de hardware recomendada par
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
-<th><p>Requisito</p></th>
+<th>Elemento</th>
+<th>Requisito</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CPU</p></td>
-<td style="border:1px solid black;"><p>Procesador a 733 MHz o superior</p></td>
+<td style="border:1px solid black;">CPU</td>
+<td style="border:1px solid black;">Procesador a 733 MHz o superior</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Memoria</p></td>
-<td style="border:1px solid black;"><p>256 MB</p></td>
+<td style="border:1px solid black;">Memoria</td>
+<td style="border:1px solid black;">256 MB</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Interfaces de red</p></td>
-<td style="border:1px solid black;"><p>Ninguna (o deshabilitada)</p></td>
+<td style="border:1px solid black;">Interfaces de red</td>
+<td style="border:1px solid black;">Ninguna (o deshabilitada)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Almacenamiento en disco</p></td>
-<td style="border:1px solid black;"><p>Controlador RAID (matriz redundante de discos independientes) IDE (electrónica integrada de dispositivos) o SCSI (interfaz estándar de equipos pequeños)</p>
-<p>2 x 18 GB (SCSI) o 2 x 20 GB (IDE) configurados como volumen RAID 1 (unidad C)</p>
-<p>Medios de almacenamiento local extraíbles (CD-RW o cinta para copia de seguridad)</p>
-<p>Unidad de disco de 1,44 MB para la transferencia de datos</p></td>
+<td style="border:1px solid black;">Almacenamiento en disco</td>
+<td style="border:1px solid black;">Controlador RAID (matriz redundante de discos independientes) IDE (electrónica integrada de dispositivos) o SCSI (interfaz estándar de equipos pequeños)
+2 x 18 GB (SCSI) o 2 x 20 GB (IDE) configurados como volumen RAID 1 (unidad C)
+Medios de almacenamiento local extraíbles (CD-RW o cinta para copia de seguridad)
+Unidad de disco de 1,44 MB para la transferencia de datos</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 ##### Hardware de servidor de CA emisora
 
@@ -488,7 +488,7 @@ Aunque existen requisitos de rendimiento para la entidad emisora, no son de gran
 
 **Tabla 7.4: Especificación de hardware sugerido para el servidor de CA emisora**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -496,33 +496,33 @@ Aunque existen requisitos de rendimiento para la entidad emisora, no son de gran
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
-<th><p>Requisito</p></th>
+<th>Elemento</th>
+<th>Requisito</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CPU</p></td>
-<td style="border:1px solid black;"><p>Procesador a 733 MHz o superior</p></td>
+<td style="border:1px solid black;">CPU</td>
+<td style="border:1px solid black;">Procesador a 733 MHz o superior</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Memoria</p></td>
-<td style="border:1px solid black;"><p>256 MB</p></td>
+<td style="border:1px solid black;">Memoria</td>
+<td style="border:1px solid black;">256 MB</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Interfaces de red</p></td>
-<td style="border:1px solid black;"><p>2 tarjetas de interfaz de red (NIC) independientes, unidas para obtener mayor resistencia</p></td>
+<td style="border:1px solid black;">Interfaces de red</td>
+<td style="border:1px solid black;">2 tarjetas de interfaz de red (NIC) independientes, unidas para obtener mayor resistencia</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Almacenamiento en disco</p></td>
-<td style="border:1px solid black;"><p>Controlador RAID IDE o SCSI</p>
-<p>2 x 18 GB (SCSI) o 2 x 20-GB (IDE) configurados como volúmenes RAID 1 (unidades C y D)</p>
-<p>Medios de almacenamiento local extraíbles (CD-RW o cinta para copia de seguridad) si no existe un servicio de copia de seguridad de red</p>
-<p>Unidad de disco de 1,44 MB para la transferencia de datos</p></td>
+<td style="border:1px solid black;">Almacenamiento en disco</td>
+<td style="border:1px solid black;">Controlador RAID IDE o SCSI
+2 x 18 GB (SCSI) o 2 x 20-GB (IDE) configurados como volúmenes RAID 1 (unidades C y D)
+Medios de almacenamiento local extraíbles (CD-RW o cinta para copia de seguridad) si no existe un servicio de copia de seguridad de red
+Unidad de disco de 1,44 MB para la transferencia de datos</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 **Importante:** la especificación de servidor de esta tabla está ajustada a una población de 5.000 usuarios aproximadamente. Si tiene más usuarios, al menos debe duplicar la capacidad de disco de la unidad secundario (aproximadamente 2 GB por 1000 usuarios) y duplicar la memoria instalada. Para obtener directrices acerca del uso de disco, consulte "Determinación de los requisitos de almacenamiento y copia de seguridad para una entidad emisora" del capítulo 11, "Administración de la infraestructura de claves públicas".
 
@@ -752,7 +752,7 @@ IIS se instala con el administrador de componentes opcionales de Windows (al que
 
 **Tabla 7.5: Componentes opcionales que deben instalarse**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -760,34 +760,34 @@ IIS se instala con el administrador de componentes opcionales de Windows (al que
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Componente</p></th>
-<th><p>Estado de instalación</p></th>
+<th>Componente</th>
+<th>Estado de instalación</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servidor de aplicaciones</p></td>
-<td style="border:1px solid black;"><p>Seleccionado</p></td>
+<td style="border:1px solid black;">Servidor de aplicaciones</td>
+<td style="border:1px solid black;">Seleccionado</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>      Habilitar el acceso de red COM+</p></td>
-<td style="border:1px solid black;"><p>Seleccionado</p></td>
+<td style="border:1px solid black;">      Habilitar el acceso de red COM+</td>
+<td style="border:1px solid black;">Seleccionado</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>      Servicios de Internet Information Server</p></td>
-<td style="border:1px solid black;"><p>Seleccionado</p></td>
+<td style="border:1px solid black;">      Servicios de Internet Information Server</td>
+<td style="border:1px solid black;">Seleccionado</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>            Archivos comunes</p></td>
-<td style="border:1px solid black;"><p>Seleccionado</p></td>
+<td style="border:1px solid black;">            Archivos comunes</td>
+<td style="border:1px solid black;">Seleccionado</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>            Administrador de servicios de Internet Information Server</p></td>
-<td style="border:1px solid black;"><p>Seleccionado</p></td>
+<td style="border:1px solid black;">            Administrador de servicios de Internet Information Server</td>
+<td style="border:1px solid black;">Seleccionado</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>            Servicio World Wide Web</p></td>
-<td style="border:1px solid black;"><p>Seleccionado</p></td>
+<td style="border:1px solid black;">            Servicio World Wide Web</td>
+<td style="border:1px solid black;">Seleccionado</td>
 </tr>
 </tbody>
 </table>
@@ -826,7 +826,7 @@ Debe crear un directorio virtual en IIS para utilizarlo como ubicación del prot
   
     **Tabla 7.6: Permisos de directorio virtual**
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
@@ -835,43 +835,43 @@ Debe crear un directorio virtual en IIS para utilizarlo como ubicación del prot
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>Usuario/grupo</p></th>
-    <th><p>Permiso</p></th>
-    <th><p>Permitir o denegar</p></th>
+    <th>Usuario/grupo</th>
+    <th>Permiso</th>
+    <th>Permitir o denegar</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Administradores</p></td>
-    <td style="border:1px solid black;"><p>control total</p></td>
-    <td style="border:1px solid black;"><p>Permitir</p></td>
+    <td style="border:1px solid black;">Administradores</td>
+    <td style="border:1px solid black;">control total</td>
+    <td style="border:1px solid black;">Permitir</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Sistema</p></td>
-    <td style="border:1px solid black;"><p>control total</p></td>
-    <td style="border:1px solid black;"><p>Permitir</p></td>
+    <td style="border:1px solid black;">Sistema</td>
+    <td style="border:1px solid black;">control total</td>
+    <td style="border:1px solid black;">Permitir</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Propietarios del creador</p></td>
-    <td style="border:1px solid black;"><p>Control total (sólo subcarpetas y archivos)</p></td>
-    <td style="border:1px solid black;"><p>Permitir</p></td>
+    <td style="border:1px solid black;">Propietarios del creador</td>
+    <td style="border:1px solid black;">Control total (sólo subcarpetas y archivos)</td>
+    <td style="border:1px solid black;">Permitir</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Usuarios</p></td>
-    <td style="border:1px solid black;"><p>Leer</p>
-    <p>Listar el contenido de la carpeta</p></td>
-    <td style="border:1px solid black;"><p>Permitir</p></td>
+    <td style="border:1px solid black;">Usuarios</td>
+    <td style="border:1px solid black;">Leer
+    Listar el contenido de la carpeta</td>
+    <td style="border:1px solid black;">Permitir</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>IIS_WPG</p></td>
-    <td style="border:1px solid black;"><p>Leer</p>
-    <p>Listar el contenido de la carpeta</p></td>
-    <td style="border:1px solid black;"><p>Permitir</p></td>
+    <td style="border:1px solid black;">IIS_WPG</td>
+    <td style="border:1px solid black;">Leer
+    Listar el contenido de la carpeta</td>
+    <td style="border:1px solid black;">Permitir</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Cuenta de invitado para Internet</p></td>
-    <td style="border:1px solid black;"><p>Escritura</p></td>
-    <td style="border:1px solid black;"><p>Denegar</p></td>
+    <td style="border:1px solid black;">Cuenta de invitado para Internet</td>
+    <td style="border:1px solid black;">Escritura</td>
+    <td style="border:1px solid black;">Denegar</td>
     </tr>
     </tbody>
     </table>
@@ -1100,7 +1100,7 @@ Esta secuencia de comandos crea los grupos de seguridad que se enumeran en la ta
   
 **Tabla 7.7: Nombres y finalidades de los grupos**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1108,34 +1108,34 @@ Esta secuencia de comandos crea los grupos de seguridad que se enumeran en la ta
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nombre de grupo</p></th>
-<th><p>Finalidad</p></th>
+<th>Nombre de grupo</th>
+<th>Finalidad</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Administradores de PKI de empresa</p></td>
-<td style="border:1px solid black;"><p>Contenedor de configuración de los administradores de servicios de claves públicas.</p></td>
+<td style="border:1px solid black;">Administradores de PKI de empresa</td>
+<td style="border:1px solid black;">Contenedor de configuración de los administradores de servicios de claves públicas.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Editores de PKI de empresa</p></td>
-<td style="border:1px solid black;"><p>Pueden publicar listas CRL y certificados de entidad emisora en el contenedor de configuración de la empresa</p></td>
+<td style="border:1px solid black;">Editores de PKI de empresa</td>
+<td style="border:1px solid black;">Pueden publicar listas CRL y certificados de entidad emisora en el contenedor de configuración de la empresa</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Administradores de entidad emisora</p></td>
-<td style="border:1px solid black;"><p>Tienen capacidades de administración total para la CA, incluida la determinación de la propiedad de otras funciones</p></td>
+<td style="border:1px solid black;">Administradores de entidad emisora</td>
+<td style="border:1px solid black;">Tienen capacidades de administración total para la CA, incluida la determinación de la propiedad de otras funciones</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Administradores de certificados</p></td>
-<td style="border:1px solid black;"><p>Administran la emisión y revocación de certificados</p></td>
+<td style="border:1px solid black;">Administradores de certificados</td>
+<td style="border:1px solid black;">Administran la emisión y revocación de certificados</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Auditores de entidad emisora</p></td>
-<td style="border:1px solid black;"><p>Administran los datos de auditoría de la CA</p></td>
+<td style="border:1px solid black;">Auditores de entidad emisora</td>
+<td style="border:1px solid black;">Administran los datos de auditoría de la CA</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Operadores de copia de seguridad de CA</p></td>
-<td style="border:1px solid black;"><p>Tienen permisos de copia de seguridad y restauración de claves y datos de la CA</p></td>
+<td style="border:1px solid black;">Operadores de copia de seguridad de CA</td>
+<td style="border:1px solid black;">Tienen permisos de copia de seguridad y restauración de claves y datos de la CA</td>
 </tr>
 </tbody>
 </table>
@@ -1166,7 +1166,7 @@ La secuencia de comandos crea las cuentas de dominio que se describen en la tabl
   
 **Tabla 7.8: Nombres y finalidades de las cuentas**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1174,34 +1174,34 @@ La secuencia de comandos crea las cuentas de dominio que se describen en la tabl
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Cuenta de usuario</p></th>
-<th><p>Finalidad de la cuenta</p></th>
+<th>Cuenta de usuario</th>
+<th>Finalidad de la cuenta</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>EntPKIAdmin</p></td>
-<td style="border:1px solid black;"><p>Contenedor de configuración de administrador de servicios de claves públicas</p></td>
+<td style="border:1px solid black;">EntPKIAdmin</td>
+<td style="border:1px solid black;">Contenedor de configuración de administrador de servicios de claves públicas</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>EntPKIPub</p></td>
-<td style="border:1px solid black;"><p>Pueden publicar listas CRL y certificados de entidad emisora en el contenedor de configuración de la empresa</p></td>
+<td style="border:1px solid black;">EntPKIPub</td>
+<td style="border:1px solid black;">Pueden publicar listas CRL y certificados de entidad emisora en el contenedor de configuración de la empresa</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CAAdmin</p></td>
-<td style="border:1px solid black;"><p>Tiene capacidades de administración total para la CA, incluida la determinación de la propiedad de otras funciones</p></td>
+<td style="border:1px solid black;">CAAdmin</td>
+<td style="border:1px solid black;">Tiene capacidades de administración total para la CA, incluida la determinación de la propiedad de otras funciones</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CertManager</p></td>
-<td style="border:1px solid black;"><p>Administra la emisión y revocación de certificados</p></td>
+<td style="border:1px solid black;">CertManager</td>
+<td style="border:1px solid black;">Administra la emisión y revocación de certificados</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CAAuditor</p></td>
-<td style="border:1px solid black;"><p>Administra los datos de auditoría de la CA</p></td>
+<td style="border:1px solid black;">CAAuditor</td>
+<td style="border:1px solid black;">Administra los datos de auditoría de la CA</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CABackup</p></td>
-<td style="border:1px solid black;"><p>Tiene permisos de copia de seguridad y restauración de claves y datos de la CA</p></td>
+<td style="border:1px solid black;">CABackup</td>
+<td style="border:1px solid black;">Tiene permisos de copia de seguridad y restauración de claves y datos de la CA</td>
 </tr>
 </tbody>
 </table>
@@ -1226,7 +1226,7 @@ Muchas organizaciones sólo utilizarán tres funciones: administrador de entidad
   
 **Tabla 7.9: Asignación de grupos del modelo de administración simplificada**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1234,26 +1234,26 @@ Muchas organizaciones sólo utilizarán tres funciones: administrador de entidad
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Cuenta de usuario de función de administración simplificada</p></th>
-<th><p>Pertenencia a grupos de la cuenta de usuario</p></th>
+<th>Cuenta de usuario de función de administración simplificada</th>
+<th>Pertenencia a grupos de la cuenta de usuario</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CAAdmin</p></td>
-<td style="border:1px solid black;"><p>Administradores de PKI de empresa</p>
-<p>Administradores de entidad emisora</p>
-<p>Administradores de certificados</p>
-<p>Administradores (administradores locales de la entidad emisora)</p></td>
+<td style="border:1px solid black;">CAAdmin</td>
+<td style="border:1px solid black;">Administradores de PKI de empresa
+Administradores de entidad emisora
+Administradores de certificados
+Administradores (administradores locales de la entidad emisora)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CAAuditor</p></td>
-<td style="border:1px solid black;"><p>Auditores de entidad emisora</p>
-<p>Administradores (administradores locales de la entidad emisora)</p></td>
+<td style="border:1px solid black;">CAAuditor</td>
+<td style="border:1px solid black;">Auditores de entidad emisora
+Administradores (administradores locales de la entidad emisora)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CABackup</p></td>
-<td style="border:1px solid black;"><p>Operadores de copia de seguridad de CA</p></td>
+<td style="border:1px solid black;">CABackup</td>
+<td style="border:1px solid black;">Operadores de copia de seguridad de CA</td>
 </tr>
 </tbody>
 </table>
@@ -1268,7 +1268,7 @@ Debe otorgar los permisos de grupo de administradores de PKI de empresa para cre
   
 **Tabla 7.10: Estructura de UO de ejemplo**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1276,30 +1276,30 @@ Debe otorgar los permisos de grupo de administradores de PKI de empresa para cre
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>UO</p></th>
-<th><p>Finalidad</p></th>
+<th>UO</th>
+<th>Finalidad</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servicios de Certificate Server</p></td>
-<td style="border:1px solid black;"><p>UO principal.</p></td>
+<td style="border:1px solid black;">Servicios de Certificate Server</td>
+<td style="border:1px solid black;">UO principal.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>\—Administración de Servicios de Certificate Server</p></td>
-<td style="border:1px solid black;"><p>Contiene grupos administrativos para la administración de la configuración de la entidad emisora y la PKI de empresa.</p></td>
+<td style="border:1px solid black;">\—Administración de Servicios de Certificate Server</td>
+<td style="border:1px solid black;">Contiene grupos administrativos para la administración de la configuración de la entidad emisora y la PKI de empresa.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>\—Administración de plantillas de certificados</p></td>
-<td style="border:1px solid black;"><p>Contiene grupos para administrar plantillas de certificados individuales.</p></td>
+<td style="border:1px solid black;">\—Administración de plantillas de certificados</td>
+<td style="border:1px solid black;">Contiene grupos para administrar plantillas de certificados individuales.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>\—Inscripción de plantillas de certificados</p></td>
-<td style="border:1px solid black;"><p>Contiene grupos que poseen permisos de inscripción o inscripción automática en plantillas del mismo nombre. El control de estos grupos puede delegarse al personal adecuado para permitir un régimen de inscripción flexible sin tocar las plantillas.</p></td>
+<td style="border:1px solid black;">\—Inscripción de plantillas de certificados</td>
+<td style="border:1px solid black;">Contiene grupos que poseen permisos de inscripción o inscripción automática en plantillas del mismo nombre. El control de estos grupos puede delegarse al personal adecuado para permitir un régimen de inscripción flexible sin tocar las plantillas.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>\—Usuarios de prueba de Servicios de Certificate Server</p></td>
-<td style="border:1px solid black;"><p>Contiene cuentas de prueba temporales.</p></td>
+<td style="border:1px solid black;">\—Usuarios de prueba de Servicios de Certificate Server</td>
+<td style="border:1px solid black;">Contiene cuentas de prueba temporales.</td>
 </tr>
 </tbody>
 </table>
@@ -1490,7 +1490,7 @@ Dado que la entidad emisora raíz no forma parte de un dominio, las capacidades 
   
     **Tabla 7.11: Nombres y finalidades de los grupos**
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
@@ -1498,26 +1498,26 @@ Dado que la entidad emisora raíz no forma parte de un dominio, las capacidades 
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>Nombre de grupo</p></th>
-    <th><p>Finalidad</p></th>
+    <th>Nombre de grupo</th>
+    <th>Finalidad</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Administradores de entidad emisora</p></td>
-    <td style="border:1px solid black;"><p>Tienen capacidades de administración total para la CA, incluida la determinación de la propiedad de otras funciones.</p></td>
+    <td style="border:1px solid black;">Administradores de entidad emisora</td>
+    <td style="border:1px solid black;">Tienen capacidades de administración total para la CA, incluida la determinación de la propiedad de otras funciones.</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Administradores de certificados</p></td>
-    <td style="border:1px solid black;"><p>Administran la emisión y revocación de certificados.</p></td>
+    <td style="border:1px solid black;">Administradores de certificados</td>
+    <td style="border:1px solid black;">Administran la emisión y revocación de certificados.</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Auditores de entidad emisora</p></td>
-    <td style="border:1px solid black;"><p>Administran los datos de auditoría de la CA.</p></td>
+    <td style="border:1px solid black;">Auditores de entidad emisora</td>
+    <td style="border:1px solid black;">Administran los datos de auditoría de la CA.</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Operadores de copia de seguridad de CA</p></td>
-    <td style="border:1px solid black;"><p>Tienen permisos de copia de seguridad y restauración de claves y datos de la CA.</p></td>
+    <td style="border:1px solid black;">Operadores de copia de seguridad de CA</td>
+    <td style="border:1px solid black;">Tienen permisos de copia de seguridad y restauración de claves y datos de la CA.</td>
     </tr>
     </tbody>
     </table>
@@ -1534,7 +1534,7 @@ Dado que la entidad emisora raíz no forma parte de un dominio, las capacidades 
   
     **Tabla 7.12: Nombres y finalidades de las cuentas**
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
@@ -1542,26 +1542,26 @@ Dado que la entidad emisora raíz no forma parte de un dominio, las capacidades 
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>Nombre de cuenta</p></th>
-    <th><p>Finalidad</p></th>
+    <th>Nombre de cuenta</th>
+    <th>Finalidad</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>CAAdmin</p></td>
-    <td style="border:1px solid black;"><p>Tiene capacidades de administración total para la CA, incluida la determinación de la propiedad de otras funciones.</p></td>
+    <td style="border:1px solid black;">CAAdmin</td>
+    <td style="border:1px solid black;">Tiene capacidades de administración total para la CA, incluida la determinación de la propiedad de otras funciones.</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>CertManager</p></td>
-    <td style="border:1px solid black;"><p>Administra la emisión y revocación de certificados.</p></td>
+    <td style="border:1px solid black;">CertManager</td>
+    <td style="border:1px solid black;">Administra la emisión y revocación de certificados.</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>CAAuditor</p></td>
-    <td style="border:1px solid black;"><p>Administra los datos de auditoría de la CA.</p></td>
+    <td style="border:1px solid black;">CAAuditor</td>
+    <td style="border:1px solid black;">Administra los datos de auditoría de la CA.</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>CABackup</p></td>
-    <td style="border:1px solid black;"><p>Tiene permisos de copia de seguridad y restauración de claves y datos de la CA.</p></td>
+    <td style="border:1px solid black;">CABackup</td>
+    <td style="border:1px solid black;">Tiene permisos de copia de seguridad y restauración de claves y datos de la CA.</td>
     </tr>
     </tbody>
     </table>
@@ -1572,7 +1572,7 @@ Dado que la entidad emisora raíz no forma parte de un dominio, las capacidades 
   
     **Tabla 7.13: Nombres de cuenta y pertenencia a grupos**
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
@@ -1580,27 +1580,27 @@ Dado que la entidad emisora raíz no forma parte de un dominio, las capacidades 
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>Nombre de cuenta</p></th>
-    <th><p>Pertenencia al grupo</p></th>
+    <th>Nombre de cuenta</th>
+    <th>Pertenencia al grupo</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>CAAdmin</p></td>
-    <td style="border:1px solid black;"><p>Administradores de entidad emisora</p></td>
+    <td style="border:1px solid black;">CAAdmin</td>
+    <td style="border:1px solid black;">Administradores de entidad emisora</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>CertManager</p></td>
-    <td style="border:1px solid black;"><p>Administradores de certificados</p></td>
+    <td style="border:1px solid black;">CertManager</td>
+    <td style="border:1px solid black;">Administradores de certificados</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>CAAuditor</p></td>
-    <td style="border:1px solid black;"><p>–Auditores de entidad emisora</p>
-    <p>–Administradores</p></td>
+    <td style="border:1px solid black;">CAAuditor</td>
+    <td style="border:1px solid black;">–Auditores de entidad emisora
+    –Administradores</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>CABackup</p></td>
-    <td style="border:1px solid black;"><p>Operadores de copia de seguridad de CA</p></td>
+    <td style="border:1px solid black;">CABackup</td>
+    <td style="border:1px solid black;">Operadores de copia de seguridad de CA</td>
     </tr>
     </tbody>
     </table>
@@ -1613,7 +1613,7 @@ La mayoría de las organizaciones no necesita una estructura de administración 
   
 **Tabla 7.14: Asignación de grupos del modelo de administración simplificada**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1621,25 +1621,25 @@ La mayoría de las organizaciones no necesita una estructura de administración 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Función de administración simplificada</p></th>
-<th><p>Pertenencia al grupo</p></th>
+<th>Función de administración simplificada</th>
+<th>Pertenencia al grupo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CAAdmin</p></td>
-<td style="border:1px solid black;"><p>Administradores de entidad emisora</p>
-<p>Administradores de certificados</p>
-<p>Administradores</p></td>
+<td style="border:1px solid black;">CAAdmin</td>
+<td style="border:1px solid black;">Administradores de entidad emisora
+Administradores de certificados
+Administradores</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Auditor de entidad emisora</p></td>
-<td style="border:1px solid black;"><p>Auditores de entidad emisora</p>
-<p>Administradores</p></td>
+<td style="border:1px solid black;">Auditor de entidad emisora</td>
+<td style="border:1px solid black;">Auditores de entidad emisora
+Administradores</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CABackup</p></td>
-<td style="border:1px solid black;"><p>Operadores de copia de seguridad de CA</p></td>
+<td style="border:1px solid black;">CABackup</td>
+<td style="border:1px solid black;">Operadores de copia de seguridad de CA</td>
 </tr>
 </tbody>
 </table>
@@ -1792,7 +1792,7 @@ El procedimiento siguiente describe cómo se pueden crear unidades organizativas
   
     **Tabla 7.15: Asignación de GPO a plantillas de seguridad y UO**
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
@@ -1801,33 +1801,33 @@ El procedimiento siguiente describe cómo se pueden crear unidades organizativas
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>UO</p></th>
-    <th><p>GPO</p></th>
-    <th><p>Plantilla de seguridad</p></th>
+    <th>UO</th>
+    <th>GPO</th>
+    <th>Plantilla de seguridad</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Servidores miembro</p></td>
-    <td style="border:1px solid black;"><p>Cliente empresarial: Línea base de servidor miembro</p></td>
-    <td style="border:1px solid black;"><p>Enterprise Client — Member Server Baseline.inf</p></td>
+    <td style="border:1px solid black;">Servidores miembro</td>
+    <td style="border:1px solid black;">Cliente empresarial: Línea base de servidor miembro</td>
+    <td style="border:1px solid black;">Enterprise Client — Member Server Baseline.inf</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Entidad emisora</p></td>
-    <td style="border:1px solid black;"><p>Cliente empresarial: Servicios de Certificate Server</p></td>
-    <td style="border:1px solid black;"><p>Enterprise Client — Certificate Services.inf</p></td>
+    <td style="border:1px solid black;">Entidad emisora</td>
+    <td style="border:1px solid black;">Cliente empresarial: Servicios de Certificate Server</td>
+    <td style="border:1px solid black;">Enterprise Client — Certificate Services.inf</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Entidad emisora</p></td>
-    <td style="border:1px solid black;"><p>(Opcional; consulte la nota anterior)</p>
-    <p>Cliente empresarial: directivas de cuenta de Servicios de Certificate Server</p></td>
-    <td style="border:1px solid black;"><p>Enterprise Client — Domain.inf</p></td>
+    <td style="border:1px solid black;">Entidad emisora</td>
+    <td style="border:1px solid black;">(Opcional; consulte la nota anterior)
+    Cliente empresarial: directivas de cuenta de Servicios de Certificate Server</td>
+    <td style="border:1px solid black;">Enterprise Client — Domain.inf</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Entidad emisora</p></td>
-    <td style="border:1px solid black;"><p>(Opcional; si IIS está en la entidad emisora)</p>
-    <p>Cliente empresarial: IIS de Servicios de Certificate Server</p></td>
-    <td style="border:1px solid black;"><p>Enterprise Client — IIS Server.inf</p></td>
+    <td style="border:1px solid black;">Entidad emisora</td>
+    <td style="border:1px solid black;">(Opcional; si IIS está en la entidad emisora)
+    Cliente empresarial: IIS de Servicios de Certificate Server</td>
+    <td style="border:1px solid black;">Enterprise Client — IIS Server.inf</td>
     </tr>
     </tbody>
     </table>
@@ -1878,7 +1878,7 @@ Después de crear los GPO e importar las plantillas, debe personalizar la config
   
     **Tabla 7.16: Permisos de carpeta de base de datos de entidad emisora**
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
@@ -1887,31 +1887,31 @@ Después de crear los GPO e importar las plantillas, debe personalizar la config
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>Usuario/grupo</p></th>
-    <th><p>Permiso</p></th>
-    <th><p>Permitir o denegar</p></th>
+    <th>Usuario/grupo</th>
+    <th>Permiso</th>
+    <th>Permitir o denegar</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Administradores</p></td>
-    <td style="border:1px solid black;"><p>control total</p></td>
-    <td style="border:1px solid black;"><p>Permitir</p></td>
+    <td style="border:1px solid black;">Administradores</td>
+    <td style="border:1px solid black;">control total</td>
+    <td style="border:1px solid black;">Permitir</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Sistema</p></td>
-    <td style="border:1px solid black;"><p>control total</p></td>
-    <td style="border:1px solid black;"><p>Permitir</p></td>
+    <td style="border:1px solid black;">Sistema</td>
+    <td style="border:1px solid black;">control total</td>
+    <td style="border:1px solid black;">Permitir</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Operadores de copia de seguridad</p></td>
-    <td style="border:1px solid black;"><p>control total</p></td>
-    <td style="border:1px solid black;"><p>Permitir</p></td>
+    <td style="border:1px solid black;">Operadores de copia de seguridad</td>
+    <td style="border:1px solid black;">control total</td>
+    <td style="border:1px solid black;">Permitir</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Propietario del creador</p></td>
-    <td style="border:1px solid black;"><p>control total</p></td>
-    <td style="border:1px solid black;"><p>Permitir</p></td>
+    <td style="border:1px solid black;">Propietario del creador</td>
+    <td style="border:1px solid black;">control total</td>
+    <td style="border:1px solid black;">Permitir</td>
     </tr>
     </tbody>
     </table>
@@ -1920,7 +1920,7 @@ Después de crear los GPO e importar las plantillas, debe personalizar la config
   
     **Tabla 7.17: Auditoría de carpeta de base de datos de entidad emisora**
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
@@ -1929,81 +1929,81 @@ Después de crear los GPO e importar las plantillas, debe personalizar la config
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>Permiso</p></th>
-    <th><p>Correcto</p></th>
-    <th><p>Fallido</p></th>
+    <th>Permiso</th>
+    <th>Correcto</th>
+    <th>Fallido</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>control total</p></td>
-    <td style="border:1px solid black;"><p> </p></td>
-    <td style="border:1px solid black;"><p>Sí</p></td>
+    <td style="border:1px solid black;">control total</td>
+    <td style="border:1px solid black;"> </td>
+    <td style="border:1px solid black;">Sí</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Recorrer carpeta/Ejecutar archivo</p></td>
-    <td style="border:1px solid black;"><p> </p></td>
-    <td style="border:1px solid black;"><p>Sí</p></td>
+    <td style="border:1px solid black;">Recorrer carpeta/Ejecutar archivo</td>
+    <td style="border:1px solid black;"> </td>
+    <td style="border:1px solid black;">Sí</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Listar carpeta/Leer datos</p></td>
-    <td style="border:1px solid black;"><p> </p></td>
-    <td style="border:1px solid black;"><p>Sí</p></td>
+    <td style="border:1px solid black;">Listar carpeta/Leer datos</td>
+    <td style="border:1px solid black;"> </td>
+    <td style="border:1px solid black;">Sí</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Atributos de lectura</p></td>
-    <td style="border:1px solid black;"><p> </p></td>
-    <td style="border:1px solid black;"><p>Sí</p></td>
+    <td style="border:1px solid black;">Atributos de lectura</td>
+    <td style="border:1px solid black;"> </td>
+    <td style="border:1px solid black;">Sí</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Atributos extendidos de lectura</p></td>
-    <td style="border:1px solid black;"><p> </p></td>
-    <td style="border:1px solid black;"><p>Sí</p></td>
+    <td style="border:1px solid black;">Atributos extendidos de lectura</td>
+    <td style="border:1px solid black;"> </td>
+    <td style="border:1px solid black;">Sí</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Crear archivos/Escribir datos</p></td>
-    <td style="border:1px solid black;"><p>Sí</p></td>
-    <td style="border:1px solid black;"><p>Sí</p></td>
+    <td style="border:1px solid black;">Crear archivos/Escribir datos</td>
+    <td style="border:1px solid black;">Sí</td>
+    <td style="border:1px solid black;">Sí</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Crear carpetas/Anexar datos</p></td>
-    <td style="border:1px solid black;"><p>Sí</p></td>
-    <td style="border:1px solid black;"><p>Sí</p></td>
+    <td style="border:1px solid black;">Crear carpetas/Anexar datos</td>
+    <td style="border:1px solid black;">Sí</td>
+    <td style="border:1px solid black;">Sí</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Atributos de escritura</p></td>
-    <td style="border:1px solid black;"><p>Sí</p></td>
-    <td style="border:1px solid black;"><p>Sí</p></td>
+    <td style="border:1px solid black;">Atributos de escritura</td>
+    <td style="border:1px solid black;">Sí</td>
+    <td style="border:1px solid black;">Sí</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Atributos extendidos de escritura</p></td>
-    <td style="border:1px solid black;"><p>Sí</p></td>
-    <td style="border:1px solid black;"><p>Sí</p></td>
+    <td style="border:1px solid black;">Atributos extendidos de escritura</td>
+    <td style="border:1px solid black;">Sí</td>
+    <td style="border:1px solid black;">Sí</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Eliminar subcarpetas y archivos</p></td>
-    <td style="border:1px solid black;"><p>Sí</p></td>
-    <td style="border:1px solid black;"><p>Sí</p></td>
+    <td style="border:1px solid black;">Eliminar subcarpetas y archivos</td>
+    <td style="border:1px solid black;">Sí</td>
+    <td style="border:1px solid black;">Sí</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Eliminar</p></td>
-    <td style="border:1px solid black;"><p>Sí</p></td>
-    <td style="border:1px solid black;"><p>Sí</p></td>
+    <td style="border:1px solid black;">Eliminar</td>
+    <td style="border:1px solid black;">Sí</td>
+    <td style="border:1px solid black;">Sí</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Permisos de lectura</p></td>
-    <td style="border:1px solid black;"><p> </p></td>
-    <td style="border:1px solid black;"><p>Sí</p></td>
+    <td style="border:1px solid black;">Permisos de lectura</td>
+    <td style="border:1px solid black;"> </td>
+    <td style="border:1px solid black;">Sí</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Cambiar permisos</p></td>
-    <td style="border:1px solid black;"><p>Sí</p></td>
-    <td style="border:1px solid black;"><p>Sí</p></td>
+    <td style="border:1px solid black;">Cambiar permisos</td>
+    <td style="border:1px solid black;">Sí</td>
+    <td style="border:1px solid black;">Sí</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Tomar posesión</p></td>
-    <td style="border:1px solid black;"><p>Sí</p></td>
-    <td style="border:1px solid black;"><p>Sí</p></td>
+    <td style="border:1px solid black;">Tomar posesión</td>
+    <td style="border:1px solid black;">Sí</td>
+    <td style="border:1px solid black;">Sí</td>
     </tr>
     </tbody>
     </table>
@@ -2052,7 +2052,7 @@ Esta configuración debe establecerse en el GPO de seguridad de Servicios de Cer
   
 **Tabla 7.18: Configuración para Configuración de equipo\\Plantillas administrativas\\Componentes de Windows\\Servicios de Terminal Server**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -2061,91 +2061,91 @@ Esta configuración debe establecerse en el GPO de seguridad de Servicios de Cer
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ruta de configuración</p></th>
-<th><p>Directiva</p></th>
-<th><p>Configuración</p></th>
+<th>Ruta de configuración</th>
+<th>Directiva</th>
+<th>Configuración</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Denegar el cierre de sesión a un administrador con una sesión iniciada en la consola</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Denegar el cierre de sesión a un administrador con una sesión iniciada en la consola</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>No permitir a los administradores locales personalizar permisos</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">No permitir a los administradores locales personalizar permisos</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Establece reglas para el control remoto de sesiones de usuario de Servicios de Terminal Server</p></td>
-<td style="border:1px solid black;"><p>Control remoto no permitido</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Establece reglas para el control remoto de sesiones de usuario de Servicios de Terminal Server</td>
+<td style="border:1px solid black;">Control remoto no permitido</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Redirección de datos cliente-servidor</p></td>
-<td style="border:1px solid black;"><p>Permitir redirección de zona horaria</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Redirección de datos cliente-servidor</td>
+<td style="border:1px solid black;">Permitir redirección de zona horaria</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>No permitir redirección del portapapeles</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">No permitir redirección del portapapeles</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Permitir redirección de audio</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Permitir redirección de audio</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>No permitir redirección de puertos COM</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">No permitir redirección de puertos COM</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>No permitir redirección de impresoras de cliente</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">No permitir redirección de impresoras de cliente</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>No permitir redirección de puertos LPT</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">No permitir redirección de puertos LPT</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>No permitir redirección de unidad</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">No permitir redirección de unidad</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>No establecer impresora predeterminada de cliente como impresora predeterminada para una sesión</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">No establecer impresora predeterminada de cliente como impresora predeterminada para una sesión</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Cifrado y seguridad</p></td>
-<td style="border:1px solid black;"><p>Pedir siempre al cliente la contraseña al conectarse</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Cifrado y seguridad</td>
+<td style="border:1px solid black;">Pedir siempre al cliente la contraseña al conectarse</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Establecer el nivel de cifrado de conexión de cliente</p></td>
-<td style="border:1px solid black;"><p>Alta</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Establecer el nivel de cifrado de conexión de cliente</td>
+<td style="border:1px solid black;">Alta</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Cifrado y seguridad\Seguridad de llamada a procedimiento remoto</p></td>
-<td style="border:1px solid black;"><p>Servidor seguro (requerir seguridad)</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Cifrado y seguridad\Seguridad de llamada a procedimiento remoto</td>
+<td style="border:1px solid black;">Servidor seguro (requerir seguridad)</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Sesiones</p></td>
-<td style="border:1px solid black;"><p>Establecer el límite de tiempo para sesiones desconectadas</p></td>
-<td style="border:1px solid black;"><p>10 minutos</p></td>
+<td style="border:1px solid black;">Sesiones</td>
+<td style="border:1px solid black;">Establecer el límite de tiempo para sesiones desconectadas</td>
+<td style="border:1px solid black;">10 minutos</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Permitir reconexiones sólo desde el cliente original</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Permitir reconexiones sólo desde el cliente original</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 </tbody>
 </table>
@@ -2255,7 +2255,7 @@ Puede comprobar que la instalación de los Servicios de Certificate Server ha si
   
     **Tabla 7.19: Propiedades y extensiones de certificado de entidad emisora raíz**
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
@@ -2263,35 +2263,35 @@ Puede comprobar que la instalación de los Servicios de Certificate Server ha si
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>Atributo del certificado</p></th>
-    <th><p>Opción requerida</p></th>
+    <th>Atributo del certificado</th>
+    <th>Opción requerida</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Campos Emisor y Asunto</p></td>
-    <td style="border:1px solid black;"><p>Ambos campos deben ser idénticos y deben mostrar el nombre común completo de la entidad emisora y el sufijo DN especificados durante la instalación.</p></td>
+    <td style="border:1px solid black;">Campos Emisor y Asunto</td>
+    <td style="border:1px solid black;">Ambos campos deben ser idénticos y deben mostrar el nombre común completo de la entidad emisora y el sufijo DN especificados durante la instalación.</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>No antes de - No después de</p></td>
-    <td style="border:1px solid black;"><p>16 años.</p></td>
+    <td style="border:1px solid black;">No antes de - No después de</td>
+    <td style="border:1px solid black;">16 años.</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Longitud de la clave pública</p></td>
-    <td style="border:1px solid black;"><p>RSA (4096 bits).</p></td>
+    <td style="border:1px solid black;">Longitud de la clave pública</td>
+    <td style="border:1px solid black;">RSA (4096 bits).</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Uso de claves</p></td>
-    <td style="border:1px solid black;"><p>Firma digital, Firma de certificados, Firma CRL sin conexión, Firma CRL (86).</p></td>
+    <td style="border:1px solid black;">Uso de claves</td>
+    <td style="border:1px solid black;">Firma digital, Firma de certificados, Firma CRL sin conexión, Firma CRL (86).</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Restricciones básicas (esenciales)</p></td>
-    <td style="border:1px solid black;"><p>Tipo de asunto=CA</p>
-    <p>Restricción de longitud de ruta=Ninguna</p></td>
+    <td style="border:1px solid black;">Restricciones básicas (esenciales)</td>
+    <td style="border:1px solid black;">Tipo de asunto=CA
+    Restricción de longitud de ruta=Ninguna</td>
     </tr>
     </tbody>
     </table>
-<p> </p>
+ 
 
     La presencia del tipo de sujeto Restricciones básicas es muy importante porque este valor distingue el certificado de entidad emisora del certificado de una entidad final. Además, no deben enumerarse extensiones CDP o AIA.
 
@@ -2307,7 +2307,7 @@ El procedimiento de configuración de la entidad emisora aplica una serie de par
 
 **Tabla 7.20: Propiedades de la entidad emisora que se deben configurar**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -2315,41 +2315,41 @@ El procedimiento de configuración de la entidad emisora aplica una serie de par
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Propiedad de la CA</p></th>
-<th><p>Descripción de la opción</p></th>
+<th>Propiedad de la CA</th>
+<th>Descripción de la opción</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Direcciones URL de punto de distribución de la CRL</p></td>
-<td style="border:1px solid black;"><p>Especifica las ubicaciones HTTP, LDAP y FILE desde las que se puede obtener una lista CRL actual.</p>
-<p>La ubicación FILE es una carpeta local que utiliza la entidad emisora para almacenar las listas CRL que emite. Los certificados que se emiten sólo incluyen las ubicaciones HTTP y LDAP.</p>
-<p>La dirección URL de HTTP se muestra secuencialmente antes que LDAP, de modo que los clientes que utilicen certificados de entidad emisora raíz no dependen de Active Directory para obtener listas CRL.</p></td>
+<td style="border:1px solid black;">Direcciones URL de punto de distribución de la CRL</td>
+<td style="border:1px solid black;">Especifica las ubicaciones HTTP, LDAP y FILE desde las que se puede obtener una lista CRL actual.
+La ubicación FILE es una carpeta local que utiliza la entidad emisora para almacenar las listas CRL que emite. Los certificados que se emiten sólo incluyen las ubicaciones HTTP y LDAP.
+La dirección URL de HTTP se muestra secuencialmente antes que LDAP, de modo que los clientes que utilicen certificados de entidad emisora raíz no dependen de Active Directory para obtener listas CRL.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Direcciones URL de AIA</p></td>
-<td style="border:1px solid black;"><p>Ubicaciones donde se pueden obtener los certificados de entidad emisora.</p>
-<p>Al igual que con los CDP, la ubicación del archivo sólo se utiliza para publicar el certificado de entidad emisora y la dirección URL de HTTP tiene prioridad sobre la de LDAP.</p></td>
+<td style="border:1px solid black;">Direcciones URL de AIA</td>
+<td style="border:1px solid black;">Ubicaciones donde se pueden obtener los certificados de entidad emisora.
+Al igual que con los CDP, la ubicación del archivo sólo se utiliza para publicar el certificado de entidad emisora y la dirección URL de HTTP tiene prioridad sobre la de LDAP.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Período de validez</p></td>
-<td style="border:1px solid black;"><p>Período de validez máximo de los certificados emitidos (no es el mismo que el período de validez del certificado de entidad emisora, que se establece en CAPolicy.inf o mediante la CA principal).</p></td>
+<td style="border:1px solid black;">Período de validez</td>
+<td style="border:1px solid black;">Período de validez máximo de los certificados emitidos (no es el mismo que el período de validez del certificado de entidad emisora, que se establece en CAPolicy.inf o mediante la CA principal).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Período de la CRL</p></td>
-<td style="border:1px solid black;"><p>Frecuencia de publicación de la CRL.</p></td>
+<td style="border:1px solid black;">Período de la CRL</td>
+<td style="border:1px solid black;">Frecuencia de publicación de la CRL.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Período de coincidencia de lista CRL</p></td>
-<td style="border:1px solid black;"><p>Período de coincidencia desde la emisión de una nueva CRL y la fecha de caducidad de la CRL anterior.</p></td>
+<td style="border:1px solid black;">Período de coincidencia de lista CRL</td>
+<td style="border:1px solid black;">Período de coincidencia desde la emisión de una nueva CRL y la fecha de caducidad de la CRL anterior.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Período de diferencia entre listas CRL</p></td>
-<td style="border:1px solid black;"><p>Frecuencia de publicación de diferencia entre listas CRL (en la entidad emisora raíz, la diferencia entre listas CRL está deshabilitada).</p></td>
+<td style="border:1px solid black;">Período de diferencia entre listas CRL</td>
+<td style="border:1px solid black;">Frecuencia de publicación de diferencia entre listas CRL (en la entidad emisora raíz, la diferencia entre listas CRL está deshabilitada).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Auditoría de CA</p></td>
-<td style="border:1px solid black;"><p>Configuración de auditoría de CA. De forma predeterminada, toda la auditoría está habilitada.</p></td>
+<td style="border:1px solid black;">Auditoría de CA</td>
+<td style="border:1px solid black;">Configuración de auditoría de CA. De forma predeterminada, toda la auditoría está habilitada.</td>
 </tr>
 </tbody>
 </table>
@@ -2386,7 +2386,7 @@ Para utilizar las funciones administrativas en la entidad emisora (como auditor 
   
     **Tabla 7.21: Entradas de permisos de entidad emisora de certificados que deben agregarse**
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
@@ -2395,21 +2395,21 @@ Para utilizar las funciones administrativas en la entidad emisora (como auditor 
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>Nombre de grupo</p></th>
-    <th><p>Permiso</p></th>
-    <th><p>Permitir o denegar</p></th>
+    <th>Nombre de grupo</th>
+    <th>Permiso</th>
+    <th>Permitir o denegar</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Administradores de entidad emisora</p></td>
-    <td style="border:1px solid black;"><p>Administración de entidad emisora de certificados</p></td>
-    <td style="border:1px solid black;"><p>Permitir</p></td>
+    <td style="border:1px solid black;">Administradores de entidad emisora</td>
+    <td style="border:1px solid black;">Administración de entidad emisora de certificados</td>
+    <td style="border:1px solid black;">Permitir</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Administradores de certificados</p></td>
-    <td style="border:1px solid black;"><p>Emisión y administración de certificados</p></td>
-    <td style="border:1px solid black;"><p>Permitir</p></td>
+    <td style="border:1px solid black;">Administradores de certificados</td>
+    <td style="border:1px solid black;">Emisión y administración de certificados</td>
+    <td style="border:1px solid black;">Permitir</td>
     </tr>
     </tbody>
     </table>
@@ -2709,7 +2709,7 @@ Puede comprobar que la instalación de los Servicios de Certificate Server ha si
   
     **Tabla 7.22: Propiedades y extensiones de certificado de CA emisora**
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
@@ -2717,43 +2717,43 @@ Puede comprobar que la instalación de los Servicios de Certificate Server ha si
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>Atributo del certificado</p></th>
-    <th><p>Opción requerida</p></th>
+    <th>Atributo del certificado</th>
+    <th>Opción requerida</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Emisor</p></td>
-    <td style="border:1px solid black;"><p>Nombre común de entidad emisora raíz (más sufijo DN)</p></td>
+    <td style="border:1px solid black;">Emisor</td>
+    <td style="border:1px solid black;">Nombre común de entidad emisora raíz (más sufijo DN)</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Asunto</p></td>
-    <td style="border:1px solid black;"><p>Nombre común de CA emisora (más sufijo DN)</p></td>
+    <td style="border:1px solid black;">Asunto</td>
+    <td style="border:1px solid black;">Nombre común de CA emisora (más sufijo DN)</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>No antes de - No después de</p></td>
-    <td style="border:1px solid black;"><p>8 años</p></td>
+    <td style="border:1px solid black;">No antes de - No después de</td>
+    <td style="border:1px solid black;">8 años</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Longitud de la clave pública</p></td>
-    <td style="border:1px solid black;"><p>2048 bits</p></td>
+    <td style="border:1px solid black;">Longitud de la clave pública</td>
+    <td style="border:1px solid black;">2048 bits</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Uso de claves</p></td>
-    <td style="border:1px solid black;"><p>Firma digital, Firma de certificados, Firma CRL sin conexión, Firma CRL (86)</p></td>
+    <td style="border:1px solid black;">Uso de claves</td>
+    <td style="border:1px solid black;">Firma digital, Firma de certificados, Firma CRL sin conexión, Firma CRL (86)</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Restricciones básicas (esenciales)</p></td>
-    <td style="border:1px solid black;"><p>Tipo de asunto=CA</p>
-    <p>Restricción de longitud de ruta=Ninguna</p></td>
+    <td style="border:1px solid black;">Restricciones básicas (esenciales)</td>
+    <td style="border:1px solid black;">Tipo de asunto=CA
+    Restricción de longitud de ruta=Ninguna</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Puntos de distribución de CRL</p></td>
-    <td style="border:1px solid black;"><p>2 entradas — Direcciones URL HTTP y LDAP</p></td>
+    <td style="border:1px solid black;">Puntos de distribución de CRL</td>
+    <td style="border:1px solid black;">2 entradas — Direcciones URL HTTP y LDAP</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Acceso a la información de entidad emisora</p></td>
-    <td style="border:1px solid black;"><p>2 entradas — Direcciones URL HTTP y LDAP</p></td>
+    <td style="border:1px solid black;">Acceso a la información de entidad emisora</td>
+    <td style="border:1px solid black;">2 entradas — Direcciones URL HTTP y LDAP</td>
     </tr>
     </tbody>
     </table>
@@ -2774,7 +2774,7 @@ El procedimiento de configuración de la entidad emisora aplica una serie de par
   
 **Tabla 7.23: Propiedades de la entidad emisora que se deben configurar**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -2782,45 +2782,45 @@ El procedimiento de configuración de la entidad emisora aplica una serie de par
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Propiedad de la CA</p></th>
-<th><p>Descripción de la opción</p></th>
+<th>Propiedad de la CA</th>
+<th>Descripción de la opción</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Direcciones URL de punto de distribución de la CRL</p></td>
-<td style="border:1px solid black;"><p>Especifica las ubicaciones HTTP, LDAP y FILE desde las que se puede obtener una lista CRL actual.</p>
-<p>La ubicación FILE es una carpeta local que utiliza la entidad emisora para almacenar las listas CRL que emite. Los certificados que se emiten sólo incluyen las ubicaciones HTTP y LDAP.</p>
-<p>La dirección URL de LDAP se enumera de forma secuencial antes de la HTTP, de modo que los controladores de dominio serán los destinatarios preferidos de descargas de listas CRL, pero consulte la nota que sigue a la tabla.</p></td>
+<td style="border:1px solid black;">Direcciones URL de punto de distribución de la CRL</td>
+<td style="border:1px solid black;">Especifica las ubicaciones HTTP, LDAP y FILE desde las que se puede obtener una lista CRL actual.
+La ubicación FILE es una carpeta local que utiliza la entidad emisora para almacenar las listas CRL que emite. Los certificados que se emiten sólo incluyen las ubicaciones HTTP y LDAP.
+La dirección URL de LDAP se enumera de forma secuencial antes de la HTTP, de modo que los controladores de dominio serán los destinatarios preferidos de descargas de listas CRL, pero consulte la nota que sigue a la tabla.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Direcciones URL de AIA</p></td>
-<td style="border:1px solid black;"><p>Ubicaciones donde se pueden obtener los certificados de entidad emisora.</p>
-<p>Al igual que con los CDP, la ubicación del archivo sólo se utiliza para publicar el certificado de entidad emisora y la dirección URL de LDAP tiene prioridad sobre la de HTTP, pero consulte la nota que sigue a la tabla.</p></td>
+<td style="border:1px solid black;">Direcciones URL de AIA</td>
+<td style="border:1px solid black;">Ubicaciones donde se pueden obtener los certificados de entidad emisora.
+Al igual que con los CDP, la ubicación del archivo sólo se utiliza para publicar el certificado de entidad emisora y la dirección URL de LDAP tiene prioridad sobre la de HTTP, pero consulte la nota que sigue a la tabla.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Período de validez</p></td>
-<td style="border:1px solid black;"><p>Período de validez máximo de los certificados emitidos (no es el mismo que el período de validez del certificado de entidad emisora, que se establece en CAPolicy.inf o mediante la CA principal).</p></td>
+<td style="border:1px solid black;">Período de validez</td>
+<td style="border:1px solid black;">Período de validez máximo de los certificados emitidos (no es el mismo que el período de validez del certificado de entidad emisora, que se establece en CAPolicy.inf o mediante la CA principal).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Período de la CRL</p></td>
-<td style="border:1px solid black;"><p>Frecuencia de publicación de la CRL.</p></td>
+<td style="border:1px solid black;">Período de la CRL</td>
+<td style="border:1px solid black;">Frecuencia de publicación de la CRL.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Período de coincidencia de lista CRL</p></td>
-<td style="border:1px solid black;"><p>Período de coincidencia desde la emisión de una nueva CRL y la fecha de caducidad de la CRL anterior.</p></td>
+<td style="border:1px solid black;">Período de coincidencia de lista CRL</td>
+<td style="border:1px solid black;">Período de coincidencia desde la emisión de una nueva CRL y la fecha de caducidad de la CRL anterior.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Período de diferencia entre listas CRL</p></td>
-<td style="border:1px solid black;"><p>Frecuencia de publicación de diferencia entre listas CRL.</p></td>
+<td style="border:1px solid black;">Período de diferencia entre listas CRL</td>
+<td style="border:1px solid black;">Frecuencia de publicación de diferencia entre listas CRL.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Coincidencia de diferencia entre listas CRL</p></td>
-<td style="border:1px solid black;"><p>Período de coincidencia desde la emisión de una nueva CRL y la fecha de caducidad de la CRL anterior.</p></td>
+<td style="border:1px solid black;">Coincidencia de diferencia entre listas CRL</td>
+<td style="border:1px solid black;">Período de coincidencia desde la emisión de una nueva CRL y la fecha de caducidad de la CRL anterior.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Auditoría de CA</p></td>
-<td style="border:1px solid black;"><p>Configuración de auditoría de CA. De forma predeterminada, toda la auditoría está habilitada.</p></td>
+<td style="border:1px solid black;">Auditoría de CA</td>
+<td style="border:1px solid black;">Configuración de auditoría de CA. De forma predeterminada, toda la auditoría está habilitada.</td>
 </tr>
 </tbody>
 </table>
@@ -2851,7 +2851,7 @@ Para utilizar las funciones administrativas en la entidad emisora (como auditor 
   
     **Tabla 7.24: Entradas de permisos de entidad emisora de certificados que deben agregarse**
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
@@ -2860,21 +2860,21 @@ Para utilizar las funciones administrativas en la entidad emisora (como auditor 
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>Nombre de grupo</p></th>
-    <th><p>Permiso</p></th>
-    <th><p>Permitir o denegar</p></th>
+    <th>Nombre de grupo</th>
+    <th>Permiso</th>
+    <th>Permitir o denegar</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Administradores de entidad emisora</p></td>
-    <td style="border:1px solid black;"><p>Administración de entidad emisora de certificados</p></td>
-    <td style="border:1px solid black;"><p>Permitir</p></td>
+    <td style="border:1px solid black;">Administradores de entidad emisora</td>
+    <td style="border:1px solid black;">Administración de entidad emisora de certificados</td>
+    <td style="border:1px solid black;">Permitir</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Administradores de certificados</p></td>
-    <td style="border:1px solid black;"><p>Emisión y administración de certificados</p></td>
-    <td style="border:1px solid black;"><p>Permitir</p></td>
+    <td style="border:1px solid black;">Administradores de certificados</td>
+    <td style="border:1px solid black;">Emisión y administración de certificados</td>
+    <td style="border:1px solid black;">Permitir</td>
     </tr>
     </tbody>
     </table>

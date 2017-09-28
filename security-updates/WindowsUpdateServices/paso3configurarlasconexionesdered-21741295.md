@@ -21,7 +21,7 @@ Antes de iniciar el proceso de configuración, asegúrese de que conoce las resp
 
 De manera predeterminada, WSUS 3.0 SP2 está configurado para utilizar Microsoft Update como la ubicación desde la que obtener las actualizaciones. Si tiene un servidor proxy en la red, puede configurar WSUS 3.0 SP2 para que lo use. Si hay un firewall corporativo entre WSUS e Internet, necesitará configurar el firewall para asegurarse de que WSUS puede obtener las actualizaciones.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -34,11 +34,11 @@ De manera predeterminada, WSUS 3.0 SP2 está configurado para utilizar Microsoft
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Aunque debe tener conexión a Internet para descargar las actualizaciones de Microsoft Update, WSUS ofrece la posibilidad de importar actualizaciones en redes que no estén conectadas a Internet.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 El paso 3 contiene los procedimientos siguientes:
 
@@ -63,7 +63,7 @@ El paso 3 contiene los procedimientos siguientes:
     -   http://wustat.windows.com
     -   http://ntservicepack.microsoft.com
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -76,11 +76,11 @@ El paso 3 contiene los procedimientos siguientes:
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Estas instrucciones para configurar el firewall están dirigidas a un firewall corporativo ubicado entre WSUS e Internet. Dado que WSUS inicia todo su tráfico de red, no hay necesidad de configurar el firewall de Windows en el servidor WSUS.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Aunque la conexión entre Microsoft Update y WSUS requiere que los puertos 80 y 443 estén abiertos, puede configurar varios servidores WSUS para sincronizar con un puerto personalizado.
 
@@ -111,7 +111,7 @@ En los dos procedimientos siguientes se supone que utiliza el complemento de adm
 **Para iniciar la consola de administración de WSUS**
 -   Para iniciar la consola de administración de WSUS, haga clic en **Inicio**, seleccione **Todos los programas**, **Herramientas administrativas** y, a continuación, haga clic en **Microsoft Windows Server Update Services 3.0**.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -124,11 +124,11 @@ En los dos procedimientos siguientes se supone que utiliza el complemento de adm
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Para usar todas las características de la consola, debe ser miembro de los grupos de seguridad de administradores de WSUS o de administradores locales del servidor en el que está instalado WSUS. Los miembros del grupo de seguridad de informadores de WSUS tienen acceso de sólo lectura en la consola de administración.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 **Para especificar un origen de actualización y un servidor proxy**
 1.  En la consola de WSUS, haga clic en **Opciones** en el panel izquierdo situado bajo el nombre de este servidor y, a continuación, en **Actualizar origen y servidor proxy** en el panel central.

@@ -28,7 +28,7 @@ Una vez terminada la evaluación, MSAT ofrece un informe complementario que reco
 </td>
 </tr>
 </table>
-<p> </p>
+ 
 
 P. ¿Cúales son los objetivos de la Evaluación de Seguridad de Microsoft?
 ------------------------------------------------------------------------
@@ -43,7 +43,7 @@ MSAT está orientado a facilitar un marco de trabajo común que ayude a obtener 
 </td>
 </tr>
 </table>
-<p> </p>
+ 
 
 P. ¿Quién ha desarrollado esta herramienta?
 -------------------------------------------
@@ -58,7 +58,7 @@ MSAT ha sido desarrollado por un equipo con amplia experiencia compuesto por pro
 </td>
 </tr>
 </table>
-<p> </p>
+ 
 
 P. ¿Es MSAT sólo un intento más para vender productos Microsoft?
 ----------------------------------------------------------------
@@ -73,7 +73,7 @@ No. La finalidad de MSAT es ayudar a los clientes a comprender los riesgos de ne
 </td>
 </tr>
 </table>
-<p> </p>
+ 
 
 P. ¿Qué tipo de orientaciones proporciona MSAT?
 -----------------------------------------------
@@ -88,7 +88,7 @@ Los informes elaborados por MSAT proporcionan una orientación prescriptiva basa
 </td>
 </tr>
 </table>
-<p> </p>
+ 
 
 P. ¿Realiza MSAT un escáner de mi sistema?
 ------------------------------------------
@@ -103,7 +103,7 @@ No. MSAT es un cuestionario interactivo que ofrece informes y orientaciones basa
 </td>
 </tr>
 </table>
-<p> </p>
+ 
 
 P. ¿Qué información recopila la herramienta?
 --------------------------------------------
@@ -118,7 +118,7 @@ MSAT únicamente recopila información genérica, como el tamaño de la compañ�
 </td>
 </tr>
 </table>
-<p> </p>
+ 
 
 P. ¿Por qué debería fiarme de esta herramienta?
 -----------------------------------------------
@@ -133,7 +133,7 @@ MSAT no pretende reemplazar a ningún consultor con conocimientos del negocio. P
 </td>
 </tr>
 </table>
-<p> </p>
+ 
 
 P. ¿Qué significa tener un alto Perfil de Riesgo de Negocio (BRP)?
 ------------------------------------------------------------------
@@ -151,7 +151,7 @@ El BRP mide el riesgo asociado a la forma en que el cliente está llevando a cab
 </td>
 </tr>
 </table>
-<p> </p>
+ 
 
 P. Mi cliente dispone de muchas defensas. ¿Por qué sigue teniendo un BRP alto?
 ------------------------------------------------------------------------------
@@ -166,7 +166,7 @@ El nivel de BRP no se ve afectado por las técnicas de minimización de riesgos 
 </td>
 </tr>
 </table>
-<p> </p>
+ 
 
 P. ¿Qué va a hacer Microsoft con la información de la evaluación si se envían los datos?
 ----------------------------------------------------------------------------------------
@@ -184,7 +184,7 @@ La función de Comparación le permite comparar dos de sus evaluaciones, con lo 
 </td>
 </tr>
 </table>
-<p> </p>
+ 
 
 P. ¿Es necesario que algún partner de Microsoft me asista mientras utilizo MSAT?
 --------------------------------------------------------------------------------
@@ -202,6 +202,6 @@ Los partners asociados al Programa de Evaluación de Seguridad de Microsoft han 
 </td>
 </tr>
 </table>
-<p> </p>
+ 
 
 [<img src="images/cc185713.arrow_px_up(es-es,TechNet.10).gif" alt="Principio de la página" width="7" height="9" />](#top) [Principio de la página](#top)

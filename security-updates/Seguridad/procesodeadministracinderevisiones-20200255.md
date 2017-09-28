@@ -136,7 +136,7 @@ Las siguientes tablas pueden ayudarle a valorar la prioridad de la solicitud en 
 
 **Tabla 1: Prioridades de actualización e intervalos de tiempo de implementación recomendados**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -152,24 +152,24 @@ Las siguientes tablas pueden ayudarle a valorar la prioridad de la solicitud en 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Emergencia</p></td>
-<td style="border:1px solid black;"><p>Antes de 24 horas</p></td>
-<td style="border:1px solid black;"><p>Antes de 2 semanas</p></td>
+<td style="border:1px solid black;">Emergencia</td>
+<td style="border:1px solid black;">Antes de 24 horas</td>
+<td style="border:1px solid black;">Antes de 2 semanas</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Alta</p></td>
-<td style="border:1px solid black;"><p>Antes de 1 mes</p></td>
-<td style="border:1px solid black;"><p>Antes de 2 meses</p></td>
+<td style="border:1px solid black;">Alta</td>
+<td style="border:1px solid black;">Antes de 1 mes</td>
+<td style="border:1px solid black;">Antes de 2 meses</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Media</p></td>
-<td style="border:1px solid black;"><p>Según la disponibilidad, implemente un nuevo Service Pack o conjunto de actualizaciones que incluya una revisión para esta vulnerabilidad antes de 4 meses.</p></td>
-<td style="border:1px solid black;"><p>Implemente la actualización de software antes de 6 meses</p></td>
+<td style="border:1px solid black;">Media</td>
+<td style="border:1px solid black;">Según la disponibilidad, implemente un nuevo Service Pack o conjunto de actualizaciones que incluya una revisión para esta vulnerabilidad antes de 4 meses.</td>
+<td style="border:1px solid black;">Implemente la actualización de software antes de 6 meses</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Baja</p></td>
-<td style="border:1px solid black;"><p>Según la disponibilidad, implemente un nuevo Service Pack o conjunto de actualizaciones que incluya una revisión para esta vulnerabilidad antes de 1 año.</p></td>
-<td style="border:1px solid black;"><p>Implemente la actualización de software antes de 1 año, o bien, puede optar por no implementarla.</p></td>
+<td style="border:1px solid black;">Baja</td>
+<td style="border:1px solid black;">Según la disponibilidad, implemente un nuevo Service Pack o conjunto de actualizaciones que incluya una revisión para esta vulnerabilidad antes de 1 año.</td>
+<td style="border:1px solid black;">Implemente la actualización de software antes de 1 año, o bien, puede optar por no implementarla.</td>
 </tr>
 </tbody>
 </table>
@@ -178,7 +178,7 @@ En la tabla 2 se proporcionan ejemplos de factores que pueden aumentar o disminu
   
 **Tabla 2: Factores que afectan a las prioridades de actualización**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -192,20 +192,20 @@ En la tabla 2 se proporcionan ejemplos de factores que pueden aumentar o disminu
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Resultarán afectados activos de gran valor o exposición.</p></td>
-<td style="border:1px solid black;"><p>Aumento</p></td>
+<td style="border:1px solid black;">Resultarán afectados activos de gran valor o exposición.</td>
+<td style="border:1px solid black;">Aumento</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Activos que han sido objetivos de ataques en repetidas ocasiones.</p></td>
-<td style="border:1px solid black;"><p>Aumento</p></td>
+<td style="border:1px solid black;">Activos que han sido objetivos de ataques en repetidas ocasiones.</td>
+<td style="border:1px solid black;">Aumento</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Factores atenuantes aplicados, como contramedidas que minimizan la amenaza.</p></td>
-<td style="border:1px solid black;"><p>Más baja</p></td>
+<td style="border:1px solid black;">Factores atenuantes aplicados, como contramedidas que minimizan la amenaza.</td>
+<td style="border:1px solid black;">Más baja</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Resultarán afectados activos de poco valor o exposición.</p></td>
-<td style="border:1px solid black;"><p>Más baja</p></td>
+<td style="border:1px solid black;">Resultarán afectados activos de poco valor o exposición.</td>
+<td style="border:1px solid black;">Más baja</td>
 </tr>
 </tbody>
 </table>

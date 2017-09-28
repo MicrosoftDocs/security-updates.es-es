@@ -15,7 +15,7 @@ En la tabla siguiente se muestran los tipos de servidores que intervienen en una
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -29,8 +29,8 @@ En la tabla siguiente se muestran los tipos de servidores que intervienen en una
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Certificación raíz</p></td>
-<td style="border:1px solid black;"><p>Ejecuta los siguientes servicios de RMS:</p>
+<td style="border:1px solid black;">Certificación raíz</td>
+<td style="border:1px solid black;">Ejecuta los siguientes servicios de RMS:
 <ul>
 <li><strong>Subinscripción</strong>. Subinscribe servidores de licencias.<br />
 <br />
@@ -48,11 +48,11 @@ En la tabla siguiente se muestran los tipos de servidores que intervienen en una
 <br />
 </li>
 </ul>
-<p>En todas las instalaciones se deberá contar al menos con un servidor o clúster de certificación raíz. Sólo puede haber un clúster de certificación raíz en cada bosque de Active Directory.</p></td>
+En todas las instalaciones se deberá contar al menos con un servidor o clúster de certificación raíz. Sólo puede haber un clúster de certificación raíz en cada bosque de Active Directory.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Licencias (opcional)</p></td>
-<td style="border:1px solid black;"><p>Ejecuta los siguientes servicios de RMS:</p>
+<td style="border:1px solid black;">Licencias (opcional)</td>
+<td style="border:1px solid black;">Ejecuta los siguientes servicios de RMS:
 <ul>
 <li><strong>Publicación</strong>. Emite licencias de publicación.<br />
 <br />
@@ -61,10 +61,10 @@ En la tabla siguiente se muestran los tipos de servidores que intervienen en una
 <br />
 </li>
 </ul>
-<p>Con frecuencia, los servidores de licencias se implementan para cubrir las necesidades de pequeños departamentos o para descargar solicitudes de licencias del clúster de certificación raíz. Los servidores de licencias son opcionales.</p></td>
+Con frecuencia, los servidores de licencias se implementan para cubrir las necesidades de pequeños departamentos o para descargar solicitudes de licencias del clúster de certificación raíz. Los servidores de licencias son opcionales.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servidor de base de datos, como SQL Server</p></td>
+<td style="border:1px solid black;">Servidor de base de datos, como SQL Server</td>
 <td style="border:1px solid black;"><ul>
 <li>Ejecuta las bases de datos de configuración, registro y servicios de directorio de RMS.<br />
 <br />
@@ -75,7 +75,7 @@ En la tabla siguiente se muestran los tipos de servidores que intervienen en una
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Controlador de dominio y catálogo global</p></td>
+<td style="border:1px solid black;">Controlador de dominio y catálogo global</td>
 <td style="border:1px solid black;"><ul>
 <li>Proporciona autenticación de usuarios y servicios de directorio.<br />
 <br />
@@ -87,7 +87,7 @@ En la tabla siguiente se muestran los tipos de servidores que intervienen en una
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 RMS utiliza los servicios de subinscripción y de activación alojados por Microsoft para proporcionar una raíz común de confianza al sistema. Para obtener más información, vea "[Jerarquía de confianza de RMS](https://technet.microsoft.com/2d44182f-a653-4383-aba1-dade53f7cf9a)", más adelante en este tema.
 

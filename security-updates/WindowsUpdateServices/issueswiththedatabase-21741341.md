@@ -11,7 +11,7 @@ Issues with the Database
 
 If you have problems with the SQL Server database or Windows Internal Database, make sure that the WSUS database in question is in the correct SQL instance before starting to troubleshoot SQL issues.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -24,11 +24,11 @@ If you have problems with the SQL Server database or Windows Internal Database, 
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">You will need to use the <strong>sqlcmd</strong> utility. For more information about the <strong>sqlcmd</strong> utility, see <a href="http://go.microsoft.com/fwlink/?linkid=81183">sqlcmd Utility</a> (http://go.microsoft.com/fwlink/?LinkId=81183).
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Troubleshooting Database Issues
 -------------------------------

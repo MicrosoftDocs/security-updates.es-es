@@ -18,7 +18,7 @@ Throttling
 
 Versions of BITs use the computer's network card to measure network traffic. BITS 3.0 can also use the Internet gateway device to monitor traffic if the computer is correctly configured; see [Background Intelligent Transfer Service](http://go.microsoft.com/fwlink/?linkid=79389) (http://go.microsoft.com/fwlink/?LinkId=79389) for details. However, in some situations the network card in itself does not give an accurate measurement of the actual state of network traffic. For example, if a computer has a fast network card but a slow network connection (such as a dial-up connection), BITS will give an overly optimistic measurement. It is possible to use Group Policy (in both BITS 2.0 and 3.0) to throttle or limit the network bandwidth that BITS uses for downloads or uploads.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -31,11 +31,11 @@ Versions of BITs use the computer's network card to measure network traffic. BIT
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">BITS bandwidth limitations are system wide, not application specific. You cannot use this setting to limit only WSUS download bandwidth, because the BITS settings will affect BITS in any application.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 **To set BITS bandwidth limitations**
 1.  Start the Group Policy Object Editor (click **Start**, click **Run**, and then type **gpedit.msc**).
@@ -52,7 +52,7 @@ Versions of BITs use the computer's network card to measure network traffic. BIT
 
 7.  Click **OK**.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -65,11 +65,11 @@ Versions of BITs use the computer's network card to measure network traffic. BIT
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">You must be an administrator to perform this procedure.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Peer caching
 ------------
@@ -84,7 +84,7 @@ This feature of BITS can optimize the bandwidth used by WSUS in several ways.
 2.  Peer caching decreases the amount of data transferred across the WAN when some or all of the clients of a WSUS server are located in different locations.
 3.  Peer caching decreases the amount of data transferred across the Internet if WSUS clients in the same subnet are configured to download updates from Microsoft Update.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -97,11 +97,11 @@ This feature of BITS can optimize the bandwidth used by WSUS in several ways.
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">BITS peer caching requires computers to be running Windows Vista or Windows Server 2008, and to be part of an Active Directory Domain.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 For more information about peer caching and peer servers, see [Peer Caching](http://go.microsoft.com/fwlink/?linkid=79432) (http://go.microsoft.com/fwlink/?LinkId=79432).
 
@@ -118,7 +118,7 @@ For more information about peer caching and peer servers, see [Peer Caching](htt
 
 6.  Enable the **Limit age of items in the BITs Peercache** setting, and set the number of days (the default is 90), and then click **OK**.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -131,7 +131,7 @@ For more information about peer caching and peer servers, see [Peer Caching](htt
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">You must be an administrator to perform this procedure.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>

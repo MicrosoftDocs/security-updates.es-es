@@ -43,7 +43,7 @@ En la siguiente tabla se enumeran las entradas que puede agregar para anular el 
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -59,14 +59,14 @@ En la siguiente tabla se enumeran las entradas que puede agregar para anular el 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SubEnrollmentURL</p></td>
-<td style="border:1px solid black;"><p>Cadena</p></td>
-<td style="border:1px solid black;"><p>http(o https)://<em>nombre_de_servidor</em>/_wmcs/certification/subenrollservice.asmx</p></td>
+<td style="border:1px solid black;">SubEnrollmentURL</td>
+<td style="border:1px solid black;">Cadena</td>
+<td style="border:1px solid black;">http(o https)://<em>nombre_de_servidor</em>/_wmcs/certification/subenrollservice.asmx</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>GicURL</p></td>
-<td style="border:1px solid black;"><p>Cadena</p></td>
-<td style="border:1px solid black;"><p>http(o https)://<em>nombre_de_servidor</em>/_wmcs/certification/certification.asmx</p></td>
+<td style="border:1px solid black;">GicURL</td>
+<td style="border:1px solid black;">Cadena</td>
+<td style="border:1px solid black;">http(o https)://<em>nombre_de_servidor</em>/_wmcs/certification/certification.asmx</td>
 </tr>
 </tbody>
 </table>
@@ -98,7 +98,7 @@ En la siguiente tabla se enumeran las claves del Registro que puede agregar en u
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -114,19 +114,19 @@ En la siguiente tabla se enumeran las claves del Registro que puede agregar en u
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Activation</p></td>
-<td style="border:1px solid black;"><p>Cadena</p></td>
-<td style="border:1px solid black;"><p>http(o https)://<em>nombre_del_clúster_RMS</em>/_wmcs/Certification donde <em>nombre_del_clúster_RMS</em> es el nombre del clúster de RMS.</p></td>
+<td style="border:1px solid black;">Activation</td>
+<td style="border:1px solid black;">Cadena</td>
+<td style="border:1px solid black;">http(o https)://<em>nombre_del_clúster_RMS</em>/_wmcs/Certification donde <em>nombre_del_clúster_RMS</em> es el nombre del clúster de RMS.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>EnterprisePublishing</p></td>
-<td style="border:1px solid black;"><p>Cadena</p></td>
-<td style="border:1px solid black;"><p>http(o https)://<em>nombre_del_clúster_RMS</em>/_wmcs/Licensing donde <em>nombre_del_clúster_RMS</em> es el nombre del clúster de RMS.</p></td>
+<td style="border:1px solid black;">EnterprisePublishing</td>
+<td style="border:1px solid black;">Cadena</td>
+<td style="border:1px solid black;">http(o https)://<em>nombre_del_clúster_RMS</em>/_wmcs/Licensing donde <em>nombre_del_clúster_RMS</em> es el nombre del clúster de RMS.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CloudPublishing</p></td>
-<td style="border:1px solid black;"><p>Cadena</p></td>
-<td style="border:1px solid black;"><p>http(o https)://<em>nombre_de_clúster_completo</em>/_wmcs/Licensing donde <em>nombre_de_clúster_completo</em> es el nombre de dominio completo del clúster de RMS.</p></td>
+<td style="border:1px solid black;">CloudPublishing</td>
+<td style="border:1px solid black;">Cadena</td>
+<td style="border:1px solid black;">http(o https)://<em>nombre_de_clúster_completo</em>/_wmcs/Licensing donde <em>nombre_de_clúster_completo</em> es el nombre de dominio completo del clúster de RMS.</td>
 </tr>
 </tbody>
 </table>

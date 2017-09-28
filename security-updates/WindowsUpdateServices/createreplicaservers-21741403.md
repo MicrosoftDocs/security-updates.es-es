@@ -32,7 +32,7 @@ You can roll up computer and update status from replica servers to their upstrea
 
 2.  Select the **Roll up status from replica downstream servers** check box, and then click **OK**.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -45,8 +45,8 @@ You can roll up computer and update status from replica servers to their upstrea
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">During the client scan, if the server detects the client changed group membership (or name, or IP address, or operating system version), it marks the client as needing a full rollup. The downstream server will roll up these changes to the upstream server during the next rollup after client scan.
-<p></p>
-<p></p></td>
+
+</td>
 </tr>
 </tbody>
 </table>

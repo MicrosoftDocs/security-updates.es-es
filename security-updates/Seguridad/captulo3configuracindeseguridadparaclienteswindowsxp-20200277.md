@@ -42,7 +42,7 @@ En la siguiente tabla se definen los archivos de infraestructura (.inf) disponib
 
 **Tabla 3.1. Plantillas de seguridad de línea de base**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -51,21 +51,21 @@ En la siguiente tabla se definen los archivos de infraestructura (.inf) disponib
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Descripción</p></th>
-<th><p>EC</p></th>
-<th><p>SSLF</p></th>
+<th>Descripción</th>
+<th>EC</th>
+<th>SSLF</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Plantillas de seguridad de línea de base para equipos de escritorio</p></td>
-<td style="border:1px solid black;"><p>EC-Desktop.inf</p></td>
-<td style="border:1px solid black;"><p>SSLF-Desktop.inf</p></td>
+<td style="border:1px solid black;">Plantillas de seguridad de línea de base para equipos de escritorio</td>
+<td style="border:1px solid black;">EC-Desktop.inf</td>
+<td style="border:1px solid black;">SSLF-Desktop.inf</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Plantillas de seguridad de línea de base para equipos portátiles</p></td>
-<td style="border:1px solid black;"><p>EC-Laptop.inf</p></td>
-<td style="border:1px solid black;"><p>SSLF-Laptop.inf</p></td>
+<td style="border:1px solid black;">Plantillas de seguridad de línea de base para equipos portátiles</td>
+<td style="border:1px solid black;">EC-Laptop.inf</td>
+<td style="border:1px solid black;">SSLF-Laptop.inf</td>
 </tr>
 </tbody>
 </table>
@@ -102,7 +102,7 @@ La tabla siguiente resume las recomendaciones sobre la configuración de directi
   
 **Tabla 3.2 Recomendaciones para la configuración de la directiva de auditoría**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -113,76 +113,76 @@ La tabla siguiente resume las recomendaciones sobre la configuración de directi
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuración</p></th>
-<th><p>EC: Escritorio</p></th>
-<th><p>EC: Portátil</p></th>
-<th><p>SSLF: Escritorio</p></th>
-<th><p>SSLF: Portátil</p></th>
+<th>Configuración</th>
+<th>EC: Escritorio</th>
+<th>EC: Portátil</th>
+<th>SSLF: Escritorio</th>
+<th>SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Auditar eventos de inicio de sesión de cuenta</p></td>
-<td style="border:1px solid black;"><p>Correcto</p></td>
-<td style="border:1px solid black;"><p>Correcto</p></td>
-<td style="border:1px solid black;"><p>Correcto, Erróneo</p></td>
-<td style="border:1px solid black;"><p>Correcto, Erróneo</p></td>
+<td style="border:1px solid black;">Auditar eventos de inicio de sesión de cuenta</td>
+<td style="border:1px solid black;">Correcto</td>
+<td style="border:1px solid black;">Correcto</td>
+<td style="border:1px solid black;">Correcto, Erróneo</td>
+<td style="border:1px solid black;">Correcto, Erróneo</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Auditar la administración de cuentas</p></td>
-<td style="border:1px solid black;"><p>Correcto</p></td>
-<td style="border:1px solid black;"><p>Correcto</p></td>
-<td style="border:1px solid black;"><p>Correcto, Erróneo</p></td>
-<td style="border:1px solid black;"><p>Correcto, Erróneo</p></td>
+<td style="border:1px solid black;">Auditar la administración de cuentas</td>
+<td style="border:1px solid black;">Correcto</td>
+<td style="border:1px solid black;">Correcto</td>
+<td style="border:1px solid black;">Correcto, Erróneo</td>
+<td style="border:1px solid black;">Correcto, Erróneo</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Auditar el acceso del servicio de directorio</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
+<td style="border:1px solid black;">Auditar el acceso del servicio de directorio</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Auditar eventos de inicio de sesión</p></td>
-<td style="border:1px solid black;"><p>Correcto</p></td>
-<td style="border:1px solid black;"><p>Correcto</p></td>
-<td style="border:1px solid black;"><p>Correcto, Erróneo</p></td>
-<td style="border:1px solid black;"><p>Correcto, Erróneo</p></td>
+<td style="border:1px solid black;">Auditar eventos de inicio de sesión</td>
+<td style="border:1px solid black;">Correcto</td>
+<td style="border:1px solid black;">Correcto</td>
+<td style="border:1px solid black;">Correcto, Erróneo</td>
+<td style="border:1px solid black;">Correcto, Erróneo</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Auditar el acceso a objetos</p></td>
-<td style="border:1px solid black;"><p>Sin auditoría</p></td>
-<td style="border:1px solid black;"><p>Sin auditoría</p></td>
-<td style="border:1px solid black;"><p>Erróneo</p></td>
-<td style="border:1px solid black;"><p>Erróneo</p></td>
+<td style="border:1px solid black;">Auditar el acceso a objetos</td>
+<td style="border:1px solid black;">Sin auditoría</td>
+<td style="border:1px solid black;">Sin auditoría</td>
+<td style="border:1px solid black;">Erróneo</td>
+<td style="border:1px solid black;">Erróneo</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Auditar el cambio de directivas</p></td>
-<td style="border:1px solid black;"><p>Correcto</p></td>
-<td style="border:1px solid black;"><p>Correcto</p></td>
-<td style="border:1px solid black;"><p>Correcto</p></td>
-<td style="border:1px solid black;"><p>Correcto</p></td>
+<td style="border:1px solid black;">Auditar el cambio de directivas</td>
+<td style="border:1px solid black;">Correcto</td>
+<td style="border:1px solid black;">Correcto</td>
+<td style="border:1px solid black;">Correcto</td>
+<td style="border:1px solid black;">Correcto</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Auditar el uso de privilegios</p></td>
-<td style="border:1px solid black;"><p>Sin auditoría</p></td>
-<td style="border:1px solid black;"><p>Sin auditoría</p></td>
-<td style="border:1px solid black;"><p>Erróneo</p></td>
-<td style="border:1px solid black;"><p>Erróneo</p></td>
+<td style="border:1px solid black;">Auditar el uso de privilegios</td>
+<td style="border:1px solid black;">Sin auditoría</td>
+<td style="border:1px solid black;">Sin auditoría</td>
+<td style="border:1px solid black;">Erróneo</td>
+<td style="border:1px solid black;">Erróneo</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Auditar el seguimiento de procesos</p></td>
-<td style="border:1px solid black;"><p>Sin auditoría</p></td>
-<td style="border:1px solid black;"><p>Sin auditoría</p></td>
-<td style="border:1px solid black;"><p>Sin auditoría</p></td>
-<td style="border:1px solid black;"><p>Sin auditoría</p></td>
+<td style="border:1px solid black;">Auditar el seguimiento de procesos</td>
+<td style="border:1px solid black;">Sin auditoría</td>
+<td style="border:1px solid black;">Sin auditoría</td>
+<td style="border:1px solid black;">Sin auditoría</td>
+<td style="border:1px solid black;">Sin auditoría</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Auditar eventos del sistema</p></td>
-<td style="border:1px solid black;"><p>Correcto</p></td>
-<td style="border:1px solid black;"><p>Correcto</p></td>
-<td style="border:1px solid black;"><p>Correcto</p></td>
-<td style="border:1px solid black;"><p>Correcto</p></td>
+<td style="border:1px solid black;">Auditar eventos del sistema</td>
+<td style="border:1px solid black;">Correcto</td>
+<td style="border:1px solid black;">Correcto</td>
+<td style="border:1px solid black;">Correcto</td>
+<td style="border:1px solid black;">Correcto</td>
 </tr>
 </tbody>
 </table>
@@ -318,7 +318,7 @@ IIS/3648346f-e4f5-474b-86c7-5a86e85fa1ff.mspx.
   
 **Tabla 3.3 Recomendaciones para la configuración de asignaciones de derechos de usuario: Primera parte**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -329,141 +329,141 @@ IIS/3648346f-e4f5-474b-86c7-5a86e85fa1ff.mspx.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuración</p></th>
-<th><p>EC: Escritorio</p></th>
-<th><p>EC: Portátil</p></th>
-<th><p>SSLF: Escritorio</p></th>
-<th><p>SSLF: Portátil</p></th>
+<th>Configuración</th>
+<th>EC: Escritorio</th>
+<th>EC: Portátil</th>
+<th>SSLF: Escritorio</th>
+<th>SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tener acceso a este equipo desde la red</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
+<td style="border:1px solid black;">Tener acceso a este equipo desde la red</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Actuar como parte del sistema operativo</p></td>
-<td style="border:1px solid black;"><p>Ninguno</p></td>
-<td style="border:1px solid black;"><p>Ninguno</p></td>
-<td style="border:1px solid black;"><p>Ninguno</p></td>
-<td style="border:1px solid black;"><p>Ninguno</p></td>
+<td style="border:1px solid black;">Actuar como parte del sistema operativo</td>
+<td style="border:1px solid black;">Ninguno</td>
+<td style="border:1px solid black;">Ninguno</td>
+<td style="border:1px solid black;">Ninguno</td>
+<td style="border:1px solid black;">Ninguno</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ajustar las cuotas de memoria para un proceso</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Administradores, Servicio local, Servicio de red</p></td>
-<td style="border:1px solid black;"><p>Administradores, Servicio local, Servicio de red</p></td>
+<td style="border:1px solid black;">Ajustar las cuotas de memoria para un proceso</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Administradores, Servicio local, Servicio de red</td>
+<td style="border:1px solid black;">Administradores, Servicio local, Servicio de red</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Permitir el inicio de sesión local</p></td>
-<td style="border:1px solid black;"><p>Usuarios, Administradores</p></td>
-<td style="border:1px solid black;"><p>Usuarios, Administradores</p></td>
-<td style="border:1px solid black;"><p>Usuarios, Administradores</p></td>
-<td style="border:1px solid black;"><p>Usuarios, Administradores</p></td>
+<td style="border:1px solid black;">Permitir el inicio de sesión local</td>
+<td style="border:1px solid black;">Usuarios, Administradores</td>
+<td style="border:1px solid black;">Usuarios, Administradores</td>
+<td style="border:1px solid black;">Usuarios, Administradores</td>
+<td style="border:1px solid black;">Usuarios, Administradores</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Permitir inicio de sesión a través de Servicios de Terminal Server</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Ninguno</p></td>
-<td style="border:1px solid black;"><p>Ninguno</p></td>
+<td style="border:1px solid black;">Permitir inicio de sesión a través de Servicios de Terminal Server</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Ninguno</td>
+<td style="border:1px solid black;">Ninguno</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Realizar copias de seguridad de archivos y directorios</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
+<td style="border:1px solid black;">Realizar copias de seguridad de archivos y directorios</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Omitir la comprobación de recorrido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Administradores, Usuarios</p></td>
-<td style="border:1px solid black;"><p>Administradores, Usuarios</p></td>
+<td style="border:1px solid black;">Omitir la comprobación de recorrido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Administradores, Usuarios</td>
+<td style="border:1px solid black;">Administradores, Usuarios</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Cambiar la hora del sistema</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
+<td style="border:1px solid black;">Cambiar la hora del sistema</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Crear un archivo de paginación</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
+<td style="border:1px solid black;">Crear un archivo de paginación</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Crear objetos compartidos permanentes</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Ninguno</p></td>
-<td style="border:1px solid black;"><p>Ninguno</p></td>
+<td style="border:1px solid black;">Crear objetos compartidos permanentes</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Ninguno</td>
+<td style="border:1px solid black;">Ninguno</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Crear un objeto Token</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Ninguno</p></td>
-<td style="border:1px solid black;"><p>Ninguno</p></td>
+<td style="border:1px solid black;">Crear un objeto Token</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Ninguno</td>
+<td style="border:1px solid black;">Ninguno</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Depurar programas</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Ninguno</p></td>
-<td style="border:1px solid black;"><p>Ninguno</p></td>
+<td style="border:1px solid black;">Depurar programas</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Ninguno</td>
+<td style="border:1px solid black;">Ninguno</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Denegar el acceso desde la red a este equipo</p></td>
-<td style="border:1px solid black;"><p>Support_<br />
-388945a0, Invitado</p></td>
-<td style="border:1px solid black;"><p>Support_<br />
-388945a0, Invitado</p></td>
-<td style="border:1px solid black;"><p>Support_<br />
-388945a0, Invitado</p></td>
-<td style="border:1px solid black;"><p>Support_<br />
-388945a0, Invitado</p></td>
+<td style="border:1px solid black;">Denegar el acceso desde la red a este equipo</td>
+<td style="border:1px solid black;">Support_<br />
+388945a0, Invitado</td>
+<td style="border:1px solid black;">Support_<br />
+388945a0, Invitado</td>
+<td style="border:1px solid black;">Support_<br />
+388945a0, Invitado</td>
+<td style="border:1px solid black;">Support_<br />
+388945a0, Invitado</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Denegar el inicio de sesión como trabajo por lotes</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Support_<br />
-388945a0, Invitado</p></td>
-<td style="border:1px solid black;"><p>Support_<br />
-388945a0, Invitado</p></td>
+<td style="border:1px solid black;">Denegar el inicio de sesión como trabajo por lotes</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Support_<br />
+388945a0, Invitado</td>
+<td style="border:1px solid black;">Support_<br />
+388945a0, Invitado</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Denegar el inicio de sesión localmente</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Support_<br />
+<td style="border:1px solid black;">Denegar el inicio de sesión localmente</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Support_<br />
 388945a0,<br />
-Invitado, cualquier cuenta de servicio</p></td>
-<td style="border:1px solid black;"><p>Support_<br />
-388945a0, Invitado, cualquier cuenta de servicio</p></td>
+Invitado, cualquier cuenta de servicio</td>
+<td style="border:1px solid black;">Support_<br />
+388945a0, Invitado, cualquier cuenta de servicio</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Denegar inicio de sesión a través de Servicios de Terminal Server</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Todos</p></td>
-<td style="border:1px solid black;"><p>Todos</p></td>
+<td style="border:1px solid black;">Denegar inicio de sesión a través de Servicios de Terminal Server</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Todos</td>
+<td style="border:1px solid black;">Todos</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Habilitar la opción De confianza para la delegación en las cuentas de usuario y de equipo</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Ninguno</p></td>
-<td style="border:1px solid black;"><p>Ninguno</p></td>
+<td style="border:1px solid black;">Habilitar la opción De confianza para la delegación en las cuentas de usuario y de equipo</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Ninguno</td>
+<td style="border:1px solid black;">Ninguno</td>
 </tr>
 </tbody>
 </table>
@@ -582,7 +582,7 @@ Por ese motivo, el parámetro **Habilitar la opción De confianza para la delega
   
 **Tabla 3.4 Recomendaciones para la configuración de asignaciones de derechos de usuario: Segunda parte**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -593,132 +593,132 @@ Por ese motivo, el parámetro **Habilitar la opción De confianza para la delega
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuración</p></th>
-<th><p>EC: Escritorio</p></th>
-<th><p>EC: Portátil</p></th>
-<th><p>SSLF: Escritorio</p></th>
-<th><p>SSLF: Portátil</p></th>
+<th>Configuración</th>
+<th>EC: Escritorio</th>
+<th>EC: Portátil</th>
+<th>SSLF: Escritorio</th>
+<th>SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Forzar el apagado de un sistema remoto</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
+<td style="border:1px solid black;">Forzar el apagado de un sistema remoto</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Generar auditorías de seguridad</p></td>
-<td style="border:1px solid black;"><p>Servicio local, Servicio de red</p></td>
-<td style="border:1px solid black;"><p>Servicio local, Servicio de red</p></td>
-<td style="border:1px solid black;"><p>Servicio local, Servicio de red</p></td>
-<td style="border:1px solid black;"><p>Servicio local, Servicio de red</p></td>
+<td style="border:1px solid black;">Generar auditorías de seguridad</td>
+<td style="border:1px solid black;">Servicio local, Servicio de red</td>
+<td style="border:1px solid black;">Servicio local, Servicio de red</td>
+<td style="border:1px solid black;">Servicio local, Servicio de red</td>
+<td style="border:1px solid black;">Servicio local, Servicio de red</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Aumentar la prioridad de programación</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
+<td style="border:1px solid black;">Aumentar la prioridad de programación</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Cargar y descargar controladores de dispositivo</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
+<td style="border:1px solid black;">Cargar y descargar controladores de dispositivo</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Bloquear páginas en la memoria</p></td>
-<td style="border:1px solid black;"><p>Ninguno</p></td>
-<td style="border:1px solid black;"><p>Ninguno</p></td>
-<td style="border:1px solid black;"><p>Ninguno</p></td>
-<td style="border:1px solid black;"><p>Ninguno</p></td>
+<td style="border:1px solid black;">Bloquear páginas en la memoria</td>
+<td style="border:1px solid black;">Ninguno</td>
+<td style="border:1px solid black;">Ninguno</td>
+<td style="border:1px solid black;">Ninguno</td>
+<td style="border:1px solid black;">Ninguno</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Iniciar sesión como proceso por lotes</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Ninguno</p></td>
-<td style="border:1px solid black;"><p>Ninguno</p></td>
+<td style="border:1px solid black;">Iniciar sesión como proceso por lotes</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Ninguno</td>
+<td style="border:1px solid black;">Ninguno</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Iniciar sesión como servicio</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Servicio de red, Servicio local</p></td>
-<td style="border:1px solid black;"><p>Servicio de red, Servicio local</p></td>
+<td style="border:1px solid black;">Iniciar sesión como servicio</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Servicio de red, Servicio local</td>
+<td style="border:1px solid black;">Servicio de red, Servicio local</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Administrar registros de auditoría y de seguridad</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
+<td style="border:1px solid black;">Administrar registros de auditoría y de seguridad</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Modificar variables de entorno del firmware</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
+<td style="border:1px solid black;">Modificar variables de entorno del firmware</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Realizar tareas de mantenimiento de volúmenes</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
+<td style="border:1px solid black;">Realizar tareas de mantenimiento de volúmenes</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Hacer perfil de un solo proceso</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
+<td style="border:1px solid black;">Hacer perfil de un solo proceso</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Perfilar el rendimiento del sistema</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
+<td style="border:1px solid black;">Perfilar el rendimiento del sistema</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Quitar el equipo de la estación de acoplamiento</p></td>
-<td style="border:1px solid black;"><p>Administradores, Usuarios</p></td>
-<td style="border:1px solid black;"><p>Administradores, Usuarios</p></td>
-<td style="border:1px solid black;"><p>Administradores, Usuarios</p></td>
-<td style="border:1px solid black;"><p>Administradores, Usuarios</p></td>
+<td style="border:1px solid black;">Quitar el equipo de la estación de acoplamiento</td>
+<td style="border:1px solid black;">Administradores, Usuarios</td>
+<td style="border:1px solid black;">Administradores, Usuarios</td>
+<td style="border:1px solid black;">Administradores, Usuarios</td>
+<td style="border:1px solid black;">Administradores, Usuarios</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Reemplazar un token a nivel de proceso</p></td>
-<td style="border:1px solid black;"><p>Servicio local, Servicio de red</p></td>
-<td style="border:1px solid black;"><p>Servicio local, Servicio de red</p></td>
-<td style="border:1px solid black;"><p>Servicio local, Servicio de red</p></td>
-<td style="border:1px solid black;"><p>Servicio local, Servicio de red</p></td>
+<td style="border:1px solid black;">Reemplazar un token a nivel de proceso</td>
+<td style="border:1px solid black;">Servicio local, Servicio de red</td>
+<td style="border:1px solid black;">Servicio local, Servicio de red</td>
+<td style="border:1px solid black;">Servicio local, Servicio de red</td>
+<td style="border:1px solid black;">Servicio local, Servicio de red</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Restaurar archivos y directorios</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
+<td style="border:1px solid black;">Restaurar archivos y directorios</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Cerrar el sistema</p></td>
-<td style="border:1px solid black;"><p>Administradores, Usuarios</p></td>
-<td style="border:1px solid black;"><p>Administradores, Usuarios</p></td>
-<td style="border:1px solid black;"><p>Administradores, Usuarios</p></td>
-<td style="border:1px solid black;"><p>Administradores, Usuarios</p></td>
+<td style="border:1px solid black;">Cerrar el sistema</td>
+<td style="border:1px solid black;">Administradores, Usuarios</td>
+<td style="border:1px solid black;">Administradores, Usuarios</td>
+<td style="border:1px solid black;">Administradores, Usuarios</td>
+<td style="border:1px solid black;">Administradores, Usuarios</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tomar posesión de archivos u otros objetos</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
+<td style="border:1px solid black;">Tomar posesión de archivos u otros objetos</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
 </tr>
 </tbody>
 </table>
@@ -847,7 +847,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
   
 **Tabla 3.5 Recomendaciones para la configuración de opciones de seguridad: Cuentas**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -858,48 +858,48 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuración</p></th>
-<th><p>EC: Escritorio</p></th>
-<th><p>EC: Portátil</p></th>
-<th><p>SSLF: Escritorio</p></th>
-<th><p>SSLF: Portátil</p></th>
+<th>Configuración</th>
+<th>EC: Escritorio</th>
+<th>EC: Portátil</th>
+<th>SSLF: Escritorio</th>
+<th>SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Cuentas: estado de la cuenta de administrador</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Cuentas: estado de la cuenta de administrador</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Cuentas: estado de la cuenta de invitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Cuentas: estado de la cuenta de invitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Cuentas: limitar el uso de cuentas locales con contraseña en blanco sólo para iniciar la consola</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Cuentas: limitar el uso de cuentas locales con contraseña en blanco sólo para iniciar la consola</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Cuentas: cambiar el nombre de la cuenta del administrador</p></td>
-<td style="border:1px solid black;"><p>Recomendado</p></td>
-<td style="border:1px solid black;"><p>Recomendado</p></td>
-<td style="border:1px solid black;"><p>Recomendado</p></td>
-<td style="border:1px solid black;"><p>Recomendado</p></td>
+<td style="border:1px solid black;">Cuentas: cambiar el nombre de la cuenta del administrador</td>
+<td style="border:1px solid black;">Recomendado</td>
+<td style="border:1px solid black;">Recomendado</td>
+<td style="border:1px solid black;">Recomendado</td>
+<td style="border:1px solid black;">Recomendado</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Cuentas: cambiar el nombre de la cuenta de invitado</p></td>
-<td style="border:1px solid black;"><p>Recomendado</p></td>
-<td style="border:1px solid black;"><p>Recomendado</p></td>
-<td style="border:1px solid black;"><p>Recomendado</p></td>
-<td style="border:1px solid black;"><p>Recomendado</p></td>
+<td style="border:1px solid black;">Cuentas: cambiar el nombre de la cuenta de invitado</td>
+<td style="border:1px solid black;">Recomendado</td>
+<td style="border:1px solid black;">Recomendado</td>
+<td style="border:1px solid black;">Recomendado</td>
+<td style="border:1px solid black;">Recomendado</td>
 </tr>
 </tbody>
 </table>
@@ -944,7 +944,7 @@ La tabla siguiente resume la configuración de auditoría recomendada. Se propor
   
 **Tabla 3.6 Recomendaciones para la configuración de opciones de seguridad: Auditoría**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -955,34 +955,34 @@ La tabla siguiente resume la configuración de auditoría recomendada. Se propor
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuración</p></th>
-<th><p>EC: Escritorio</p></th>
-<th><p>EC: Portátil</p></th>
-<th><p>SSLF: Escritorio</p></th>
-<th><p>SSLF: Portátil</p></th>
+<th>Configuración</th>
+<th>EC: Escritorio</th>
+<th>EC: Portátil</th>
+<th>SSLF: Escritorio</th>
+<th>SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Auditoría: auditar el acceso de objetos globales del sistema</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Auditoría: auditar el acceso de objetos globales del sistema</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Auditoría: auditar el uso del privilegio de copia de seguridad y restauración</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Auditoría: auditar el uso del privilegio de copia de seguridad y restauración</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Auditoría: apagar el sistema de inmediato si no puede registrar auditorías de seguridad</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
+<td style="border:1px solid black;">Auditoría: apagar el sistema de inmediato si no puede registrar auditorías de seguridad</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
 </tr>
 </tbody>
 </table>
@@ -1011,7 +1011,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
   
 **Tabla 3.7 Recomendaciones para la configuración de opciones de seguridad: Dispositivos**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1022,55 +1022,55 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuración</p></th>
-<th><p>EC: Escritorio</p></th>
-<th><p>EC: Portátil</p></th>
-<th><p>SSLF: Escritorio</p></th>
-<th><p>SSLF: Portátil</p></th>
+<th>Configuración</th>
+<th>EC: Escritorio</th>
+<th>EC: Portátil</th>
+<th>SSLF: Escritorio</th>
+<th>SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Dispositivos: permitir el desbloqueo sin tener que iniciar sesión</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Dispositivos: permitir el desbloqueo sin tener que iniciar sesión</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Dispositivos: permitir formatear y expulsar medios extraíbles</p></td>
-<td style="border:1px solid black;"><p>Administradores, Interactive Users</p></td>
-<td style="border:1px solid black;"><p>Administradores, Interactive Users</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
+<td style="border:1px solid black;">Dispositivos: permitir formatear y expulsar medios extraíbles</td>
+<td style="border:1px solid black;">Administradores, Interactive Users</td>
+<td style="border:1px solid black;">Administradores, Interactive Users</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Dispositivos: impedir que los usuarios instalen controladores de impresora</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Dispositivos: impedir que los usuarios instalen controladores de impresora</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Dispositivos: restringir el acceso al CD-ROM sólo al usuario con sesión iniciada localmente</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Dispositivos: restringir el acceso al CD-ROM sólo al usuario con sesión iniciada localmente</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Dispositivos: restringir el acceso a la unidad de disquete sólo al usuario con sesión iniciada localmente</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Dispositivos: restringir el acceso a la unidad de disquete sólo al usuario con sesión iniciada localmente</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Dispositivos: comportamiento de instalación de controlador no firmado</p></td>
-<td style="border:1px solid black;"><p>Avisar pero permitir la instalación</p></td>
-<td style="border:1px solid black;"><p>Avisar pero permitir la instalación</p></td>
-<td style="border:1px solid black;"><p>Avisar pero permitir la instalación</p></td>
-<td style="border:1px solid black;"><p>Avisar pero permitir la instalación</p></td>
+<td style="border:1px solid black;">Dispositivos: comportamiento de instalación de controlador no firmado</td>
+<td style="border:1px solid black;">Avisar pero permitir la instalación</td>
+<td style="border:1px solid black;">Avisar pero permitir la instalación</td>
+<td style="border:1px solid black;">Avisar pero permitir la instalación</td>
+<td style="border:1px solid black;">Avisar pero permitir la instalación</td>
 </tr>
 </tbody>
 </table>
@@ -1119,7 +1119,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
   
 **Tabla 3.8 Recomendaciones para la configuración de opciones de seguridad: Miembro de dominio**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1130,55 +1130,55 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuración</p></th>
-<th><p>EC: Escritorio</p></th>
-<th><p>EC: Portátil</p></th>
-<th><p>SSLF: Escritorio</p></th>
-<th><p>SSLF: Portátil</p></th>
+<th>Configuración</th>
+<th>EC: Escritorio</th>
+<th>EC: Portátil</th>
+<th>SSLF: Escritorio</th>
+<th>SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Miembro de dominio: descifrar o firmar digitalmente datos de un canal seguro (siempre)</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Miembro de dominio: descifrar o firmar digitalmente datos de un canal seguro (siempre)</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Miembro de dominio: descifrar digitalmente datos de un canal seguro (cuando sea posible)</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Miembro de dominio: descifrar digitalmente datos de un canal seguro (cuando sea posible)</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Miembro de dominio: firmar digitalmente datos de un canal seguro (cuando sea posible)</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Miembro de dominio: firmar digitalmente datos de un canal seguro (cuando sea posible)</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Miembro de dominio: deshabilitar los cambios de contraseña de cuentas de equipo</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Miembro de dominio: deshabilitar los cambios de contraseña de cuentas de equipo</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Miembro de dominio: duración máxima de contraseña de cuenta de equipo</p></td>
-<td style="border:1px solid black;"><p>30 días</p></td>
-<td style="border:1px solid black;"><p>30 días</p></td>
-<td style="border:1px solid black;"><p>30 días</p></td>
-<td style="border:1px solid black;"><p>30 días</p></td>
+<td style="border:1px solid black;">Miembro de dominio: duración máxima de contraseña de cuenta de equipo</td>
+<td style="border:1px solid black;">30 días</td>
+<td style="border:1px solid black;">30 días</td>
+<td style="border:1px solid black;">30 días</td>
+<td style="border:1px solid black;">30 días</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Miembro de dominio: requerir clave de sesión protegida (Windows 2000 o más reciente)</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Miembro de dominio: requerir clave de sesión protegida (Windows 2000 o más reciente)</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 </tbody>
 </table>
@@ -1227,7 +1227,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
   
 **Tabla 3.9 Recomendaciones para la configuración de opciones de seguridad: Inicio de sesión interactivo**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1238,73 +1238,73 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuración</p></th>
-<th><p>EC: Escritorio</p></th>
-<th><p>EC: Portátil</p></th>
-<th><p>SSLF: Escritorio</p></th>
-<th><p>SSLF: Portátil</p></th>
+<th>Configuración</th>
+<th>EC: Escritorio</th>
+<th>EC: Portátil</th>
+<th>SSLF: Escritorio</th>
+<th>SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Inicio de sesión interactivo: no mostrar el último nombre de usuario</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Inicio de sesión interactivo: no mostrar el último nombre de usuario</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Inicio de sesión interactivo: no requerir Ctrl+Alt+Supr</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Inicio de sesión interactivo: no requerir Ctrl+Alt+Supr</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Inicio de sesión interactivo: texto del mensaje para los usuarios que intentan iniciar una sesión</p></td>
-<td style="border:1px solid black;"><p>El acceso a este sistema está restringido a usuarios autorizados. Individuals attempting unauthorized access will be prosecuted.</p></td>
-<td style="border:1px solid black;"><p>El acceso a este sistema está restringido a usuarios autorizados. Individuals attempting unauthorized access will be prosecuted.</p></td>
-<td style="border:1px solid black;"><p>El acceso a este sistema está restringido a usuarios autorizados. Individuals attempting unauthorized access will be prosecuted.</p></td>
-<td style="border:1px solid black;"><p>El acceso a este sistema está restringido a usuarios autorizados. Individuals attempting unauthorized access will be prosecuted.</p></td>
+<td style="border:1px solid black;">Inicio de sesión interactivo: texto del mensaje para los usuarios que intentan iniciar una sesión</td>
+<td style="border:1px solid black;">El acceso a este sistema está restringido a usuarios autorizados. Individuals attempting unauthorized access will be prosecuted.</td>
+<td style="border:1px solid black;">El acceso a este sistema está restringido a usuarios autorizados. Individuals attempting unauthorized access will be prosecuted.</td>
+<td style="border:1px solid black;">El acceso a este sistema está restringido a usuarios autorizados. Individuals attempting unauthorized access will be prosecuted.</td>
+<td style="border:1px solid black;">El acceso a este sistema está restringido a usuarios autorizados. Individuals attempting unauthorized access will be prosecuted.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Inicio de sesión interactivo: título del mensaje para los usuarios que intentan iniciar una sesión</p></td>
-<td style="border:1px solid black;"><p>CONTINUAR SIN LA AUTORIZACIÓN PERTINENTE CONSTITUYE UN<br />
-DELITO.</p></td>
-<td style="border:1px solid black;"><p>CONTINUAR SIN LA AUTORIZACIÓN PERTINENTE CONSTITUYE UN<br />
-DELITO.</p></td>
-<td style="border:1px solid black;"><p>CONTINUAR SIN LA AUTORIZACIÓN PERTINENTE CONSTITUYE UN<br />
-DELITO.</p></td>
-<td style="border:1px solid black;"><p>CONTINUAR SIN LA AUTORIZACIÓN PERTINENTE CONSTITUYE UN<br />
-DELITO.</p></td>
+<td style="border:1px solid black;">Inicio de sesión interactivo: título del mensaje para los usuarios que intentan iniciar una sesión</td>
+<td style="border:1px solid black;">CONTINUAR SIN LA AUTORIZACIÓN PERTINENTE CONSTITUYE UN<br />
+DELITO.</td>
+<td style="border:1px solid black;">CONTINUAR SIN LA AUTORIZACIÓN PERTINENTE CONSTITUYE UN<br />
+DELITO.</td>
+<td style="border:1px solid black;">CONTINUAR SIN LA AUTORIZACIÓN PERTINENTE CONSTITUYE UN<br />
+DELITO.</td>
+<td style="border:1px solid black;">CONTINUAR SIN LA AUTORIZACIÓN PERTINENTE CONSTITUYE UN<br />
+DELITO.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Inicio de sesión interactivo: núm. de inicios de sesión previos en la caché (en caso que el controlador de dominio no esté disponible)</p></td>
-<td style="border:1px solid black;"><p>2</p></td>
-<td style="border:1px solid black;"><p>2</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>2</p></td>
+<td style="border:1px solid black;">Inicio de sesión interactivo: núm. de inicios de sesión previos en la caché (en caso que el controlador de dominio no esté disponible)</td>
+<td style="border:1px solid black;">2</td>
+<td style="border:1px solid black;">2</td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">2</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Inicio de sesión interactivo: pedir al usuario cambiar la contraseña antes de que caduque</p></td>
-<td style="border:1px solid black;"><p>14 días</p></td>
-<td style="border:1px solid black;"><p>14 días</p></td>
-<td style="border:1px solid black;"><p>14 días</p></td>
-<td style="border:1px solid black;"><p>14 días</p></td>
+<td style="border:1px solid black;">Inicio de sesión interactivo: pedir al usuario cambiar la contraseña antes de que caduque</td>
+<td style="border:1px solid black;">14 días</td>
+<td style="border:1px solid black;">14 días</td>
+<td style="border:1px solid black;">14 días</td>
+<td style="border:1px solid black;">14 días</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Inicio de sesión interactivo: requerir la autenticación del controlador de dominio para desbloquear el equipo</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Inicio de sesión interactivo: requerir la autenticación del controlador de dominio para desbloquear el equipo</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Inicio de sesión interactivo: comportamiento de extracción de tarjeta inteligente</p></td>
-<td style="border:1px solid black;"><p>Bloquear estación de trabajo</p></td>
-<td style="border:1px solid black;"><p>Bloquear estación de trabajo</p></td>
-<td style="border:1px solid black;"><p>Bloquear estación de trabajo</p></td>
-<td style="border:1px solid black;"><p>Bloquear estación de trabajo</p></td>
+<td style="border:1px solid black;">Inicio de sesión interactivo: comportamiento de extracción de tarjeta inteligente</td>
+<td style="border:1px solid black;">Bloquear estación de trabajo</td>
+<td style="border:1px solid black;">Bloquear estación de trabajo</td>
+<td style="border:1px solid black;">Bloquear estación de trabajo</td>
+<td style="border:1px solid black;">Bloquear estación de trabajo</td>
 </tr>
 </tbody>
 </table>
@@ -1367,7 +1367,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
   
 **Tabla 3.10 Recomendaciones para la configuración de opciones de seguridad: Cliente de redes de Microsoft**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1378,34 +1378,34 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuración</p></th>
-<th><p>EC: Escritorio</p></th>
-<th><p>EC: Portátil</p></th>
-<th><p>SSLF: Escritorio</p></th>
-<th><p>SSLF: Portátil</p></th>
+<th>Configuración</th>
+<th>EC: Escritorio</th>
+<th>EC: Portátil</th>
+<th>SSLF: Escritorio</th>
+<th>SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Cliente de redes de Microsoft: firmar digitalmente las comunicaciones (siempre)</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Cliente de redes de Microsoft: firmar digitalmente las comunicaciones (siempre)</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Cliente de redes de Microsoft: firmar digitalmente las comunicaciones (si el servidor lo permite)</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Cliente de redes de Microsoft: firmar digitalmente las comunicaciones (si el servidor lo permite)</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Cliente de redes de Microsoft: enviar contraseña no cifrada para conectar SMB de otros fabricantes</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Cliente de redes de Microsoft: enviar contraseña no cifrada para conectar SMB de otros fabricantes</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 </tbody>
 </table>
@@ -1438,7 +1438,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
   
 **Tabla 3.11 Recomendaciones para la configuración de opciones de seguridad: Servidores de red Microsoft**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1449,34 +1449,34 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuración</p></th>
-<th><p>EC: Escritorio</p></th>
-<th><p>EC: Portátil</p></th>
-<th><p>SSLF: Escritorio</p></th>
-<th><p>SSLF: Portátil</p></th>
+<th>Configuración</th>
+<th>EC: Escritorio</th>
+<th>EC: Portátil</th>
+<th>SSLF: Escritorio</th>
+<th>SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servidor de red de Microsoft: tiempo de inactividad requerido antes de suspender la sesión</p></td>
-<td style="border:1px solid black;"><p>15 minutos</p></td>
-<td style="border:1px solid black;"><p>15 minutos</p></td>
-<td style="border:1px solid black;"><p>15 minutos</p></td>
-<td style="border:1px solid black;"><p>15 minutos</p></td>
+<td style="border:1px solid black;">Servidor de red de Microsoft: tiempo de inactividad requerido antes de suspender la sesión</td>
+<td style="border:1px solid black;">15 minutos</td>
+<td style="border:1px solid black;">15 minutos</td>
+<td style="border:1px solid black;">15 minutos</td>
+<td style="border:1px solid black;">15 minutos</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Servidor de red de Microsoft: firmar digitalmente las comunicaciones (siempre)</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Servidor de red de Microsoft: firmar digitalmente las comunicaciones (siempre)</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servidor de red de Microsoft: firmar digitalmente las comunicaciones (si el servidor lo permite)</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Servidor de red de Microsoft: firmar digitalmente las comunicaciones (si el servidor lo permite)</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 </tbody>
 </table>
@@ -1507,7 +1507,7 @@ En la tabla siguiente se resume la configuración recomendada de las opciones de
   
 **Tabla 3.12 Recomendaciones para la configuración de opciones de seguridad: Acceso de red**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1518,76 +1518,76 @@ En la tabla siguiente se resume la configuración recomendada de las opciones de
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuración</p></th>
-<th><p>EC: Escritorio</p></th>
-<th><p>EC: Portátil</p></th>
-<th><p>SSLF: Escritorio</p></th>
-<th><p>SSLF: Portátil</p></th>
+<th>Configuración</th>
+<th>EC: Escritorio</th>
+<th>EC: Portátil</th>
+<th>SSLF: Escritorio</th>
+<th>SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Acceso de red: permitir traducción SID/nombre anónima</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Acceso de red: permitir traducción SID/nombre anónima</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Acceso a redes: no permitir enumeraciones anónimas de cuentas SAM</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Acceso a redes: no permitir enumeraciones anónimas de cuentas SAM</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Acceso a redes: no permitir enumeraciones anónimas de cuentas y recursos compartidos SAM</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Acceso a redes: no permitir enumeraciones anónimas de cuentas y recursos compartidos SAM</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Acceso a redes: no permitir el almacenamiento de credenciales o .NET Passports para la autenticación del dominio</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Acceso a redes: no permitir el almacenamiento de credenciales o .NET Passports para la autenticación del dominio</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Acceso de red: deja los permisos de Todos para aplicarse a usuarios anónimos</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Acceso de red: deja los permisos de Todos para aplicarse a usuarios anónimos</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Acceso de red: canalizaciones con nombre accesibles anónimamente</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>* Consulte la siguiente descripción de configuración para ver la lista completa de canalizaciones con nombre</p></td>
-<td style="border:1px solid black;"><p>* Consulte la siguiente descripción de configuración para ver la lista completa de canalizaciones con nombre</p></td>
+<td style="border:1px solid black;">Acceso de red: canalizaciones con nombre accesibles anónimamente</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">* Consulte la siguiente descripción de configuración para ver la lista completa de canalizaciones con nombre</td>
+<td style="border:1px solid black;">* Consulte la siguiente descripción de configuración para ver la lista completa de canalizaciones con nombre</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Acceso de red: rutas de Registro accesibles remotamente</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>* Consulte la siguiente descripción de configuración para ver la lista completa de rutas de acceso</p></td>
-<td style="border:1px solid black;"><p>* Consulte la siguiente descripción de configuración para ver la lista completa de rutas de acceso</p></td>
+<td style="border:1px solid black;">Acceso de red: rutas de Registro accesibles remotamente</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">* Consulte la siguiente descripción de configuración para ver la lista completa de rutas de acceso</td>
+<td style="border:1px solid black;">* Consulte la siguiente descripción de configuración para ver la lista completa de rutas de acceso</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Acceso de red: recursos compartidos accesibles anónimamente</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>comcfg, dfs$</p></td>
-<td style="border:1px solid black;"><p>comcfg, dfs$</p></td>
+<td style="border:1px solid black;">Acceso de red: recursos compartidos accesibles anónimamente</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">comcfg, dfs$</td>
+<td style="border:1px solid black;">comcfg, dfs$</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Acceso de red: modelo de seguridad y para compartir para cuentas locales</p></td>
-<td style="border:1px solid black;"><p>Clásico: usuarios locales autenticados como ellos mismos</p></td>
-<td style="border:1px solid black;"><p>Clásico: usuarios locales autenticados como ellos mismos</p></td>
-<td style="border:1px solid black;"><p>Clásico: usuarios locales autenticados como ellos mismos</p></td>
-<td style="border:1px solid black;"><p>Clásico: usuarios locales autenticados como ellos mismos</p></td>
+<td style="border:1px solid black;">Acceso de red: modelo de seguridad y para compartir para cuentas locales</td>
+<td style="border:1px solid black;">Clásico: usuarios locales autenticados como ellos mismos</td>
+<td style="border:1px solid black;">Clásico: usuarios locales autenticados como ellos mismos</td>
+<td style="border:1px solid black;">Clásico: usuarios locales autenticados como ellos mismos</td>
+<td style="border:1px solid black;">Clásico: usuarios locales autenticados como ellos mismos</td>
 </tr>
 </tbody>
 </table>
@@ -1686,7 +1686,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
   
 **Tabla 3.13 Recomendaciones para la configuración de opciones de seguridad: Seguridad de red**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1697,60 +1697,60 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuración</p></th>
-<th><p>EC: Escritorio</p></th>
-<th><p>EC: Portátil</p></th>
-<th><p>SSLF: Escritorio</p></th>
-<th><p>SSLF: Portátil</p></th>
+<th>Configuración</th>
+<th>EC: Escritorio</th>
+<th>EC: Portátil</th>
+<th>SSLF: Escritorio</th>
+<th>SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Seguridad de red: no almacenar valor de hash de LAN Manager en el próximo cambio de contraseña</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Seguridad de red: no almacenar valor de hash de LAN Manager en el próximo cambio de contraseña</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Seguridad de red: nivel de autenticación de LAN Manager</p></td>
-<td style="border:1px solid black;"><p>Enviar sólo respuesta NTLMv2\rechazar LM</p></td>
-<td style="border:1px solid black;"><p>Enviar sólo respuesta NTLMv2\rechazar LM</p></td>
-<td style="border:1px solid black;"><p>Enviar sólo respuesta NT Lan Manager versión 2\rechazar Lan Manager y NT Lan Manager</p></td>
-<td style="border:1px solid black;"><p>Enviar sólo respuesta NT Lan Manager versión 2\rechazar Lan Manager y NT Lan Manager</p></td>
+<td style="border:1px solid black;">Seguridad de red: nivel de autenticación de LAN Manager</td>
+<td style="border:1px solid black;">Enviar sólo respuesta NTLMv2\rechazar LM</td>
+<td style="border:1px solid black;">Enviar sólo respuesta NTLMv2\rechazar LM</td>
+<td style="border:1px solid black;">Enviar sólo respuesta NT Lan Manager versión 2\rechazar Lan Manager y NT Lan Manager</td>
+<td style="border:1px solid black;">Enviar sólo respuesta NT Lan Manager versión 2\rechazar Lan Manager y NT Lan Manager</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Seguridad de red: requisitos de firma de cliente LDAP</p></td>
-<td style="border:1px solid black;"><p>Negociar firma</p></td>
-<td style="border:1px solid black;"><p>Negociar firma</p></td>
-<td style="border:1px solid black;"><p>Negociar firma</p></td>
-<td style="border:1px solid black;"><p>Negociar firma</p></td>
+<td style="border:1px solid black;">Seguridad de red: requisitos de firma de cliente LDAP</td>
+<td style="border:1px solid black;">Negociar firma</td>
+<td style="border:1px solid black;">Negociar firma</td>
+<td style="border:1px solid black;">Negociar firma</td>
+<td style="border:1px solid black;">Negociar firma</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Seguridad de red: seguridad mínima de sesión para clientes basados en NTLM SSP (incluyendo RPC seguro)</p></td>
-<td style="border:1px solid black;"><p>Necesita confidencialidad de mensaje, Necesita integridad de mensaje, Necesita seguridad<br />
-de sesión NTLMv2, Necesita codificación de 128 bits</p></td>
-<td style="border:1px solid black;"><p>Necesita confidencialidad de mensaje, Necesita integridad de mensaje, Necesita seguridad<br />
-de sesión NTLMv2, Necesita codificación de 128 bits</p></td>
-<td style="border:1px solid black;"><p>Necesita confidencialidad de mensaje, Necesita integridad de mensaje, Necesita seguridad<br />
-de sesión NTLMv2, Necesita codificación de 128 bits</p></td>
-<td style="border:1px solid black;"><p>Necesita confidencialidad de mensaje, Necesita integridad de mensaje, Necesita seguridad<br />
-de sesión NTLMv2, Necesita codificación de 128 bits</p></td>
+<td style="border:1px solid black;">Seguridad de red: seguridad mínima de sesión para clientes basados en NTLM SSP (incluyendo RPC seguro)</td>
+<td style="border:1px solid black;">Necesita confidencialidad de mensaje, Necesita integridad de mensaje, Necesita seguridad<br />
+de sesión NTLMv2, Necesita codificación de 128 bits</td>
+<td style="border:1px solid black;">Necesita confidencialidad de mensaje, Necesita integridad de mensaje, Necesita seguridad<br />
+de sesión NTLMv2, Necesita codificación de 128 bits</td>
+<td style="border:1px solid black;">Necesita confidencialidad de mensaje, Necesita integridad de mensaje, Necesita seguridad<br />
+de sesión NTLMv2, Necesita codificación de 128 bits</td>
+<td style="border:1px solid black;">Necesita confidencialidad de mensaje, Necesita integridad de mensaje, Necesita seguridad<br />
+de sesión NTLMv2, Necesita codificación de 128 bits</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Seguridad de red: seguridad mínima de sesión para servidores basados en NTLM SSP (incluyendo RPC seguro)</p></td>
-<td style="border:1px solid black;"><p>Necesita confidencialidad de mensaje, Necesita integridad de mensaje, Necesita seguridad<br />
-de sesión NTLMv2, Necesita codificación de 128 bits</p></td>
-<td style="border:1px solid black;"><p>Necesita confidencialidad de mensaje, Necesita integridad de mensaje, Necesita seguridad<br />
-de sesión NTLMv2, Necesita codificación de 128 bits</p></td>
-<td style="border:1px solid black;"><p>Necesita confidencialidad de mensaje, Necesita integridad de mensaje, Necesita seguridad<br />
-de sesión NTLMv2, Necesita codificación de 128 bits</p></td>
-<td style="border:1px solid black;"><p>Necesita confidencialidad de mensaje, Necesita integridad de mensaje, Necesita seguridad<br />
-de sesión NTLMv2, Necesita codificación de 128 bits</p></td>
+<td style="border:1px solid black;">Seguridad de red: seguridad mínima de sesión para servidores basados en NTLM SSP (incluyendo RPC seguro)</td>
+<td style="border:1px solid black;">Necesita confidencialidad de mensaje, Necesita integridad de mensaje, Necesita seguridad<br />
+de sesión NTLMv2, Necesita codificación de 128 bits</td>
+<td style="border:1px solid black;">Necesita confidencialidad de mensaje, Necesita integridad de mensaje, Necesita seguridad<br />
+de sesión NTLMv2, Necesita codificación de 128 bits</td>
+<td style="border:1px solid black;">Necesita confidencialidad de mensaje, Necesita integridad de mensaje, Necesita seguridad<br />
+de sesión NTLMv2, Necesita codificación de 128 bits</td>
+<td style="border:1px solid black;">Necesita confidencialidad de mensaje, Necesita integridad de mensaje, Necesita seguridad<br />
+de sesión NTLMv2, Necesita codificación de 128 bits</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 ##### Seguridad de red: no almacenar valor de hash de LAN Manager en el próximo cambio de contraseña
 
@@ -1812,7 +1812,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 
 **Tabla 3.14 Recomendaciones para la configuración de opciones de seguridad: Consola de recuperación**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1823,27 +1823,27 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuración</p></th>
-<th><p>EC: Escritorio</p></th>
-<th><p>EC: Portátil</p></th>
-<th><p>SSLF: Escritorio</p></th>
-<th><p>SSLF: Portátil</p></th>
+<th>Configuración</th>
+<th>EC: Escritorio</th>
+<th>EC: Portátil</th>
+<th>SSLF: Escritorio</th>
+<th>SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Consola de recuperación: permitir el inicio de sesión administrativo automático</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Consola de recuperación: permitir el inicio de sesión administrativo automático</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Consola de recuperación: permitir la copia de disquetes y el acceso a todas las unidades y carpetas</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Consola de recuperación: permitir la copia de disquetes y el acceso a todas las unidades y carpetas</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 </tbody>
 </table>
@@ -1874,7 +1874,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
   
 **Tabla 3.15 Recomendaciones para la configuración de opciones de seguridad: Apagado**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1885,27 +1885,27 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuración</p></th>
-<th><p>EC: Escritorio</p></th>
-<th><p>EC: Portátil</p></th>
-<th><p>SSLF: Escritorio</p></th>
-<th><p>SSLF: Portátil</p></th>
+<th>Configuración</th>
+<th>EC: Escritorio</th>
+<th>EC: Portátil</th>
+<th>SSLF: Escritorio</th>
+<th>SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Apagado: permitir apagar el sistema sin tener que iniciar sesión</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Apagado: permitir apagar el sistema sin tener que iniciar sesión</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Apagado: borrar el archivo de paginación de la memoria virtual</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Apagado: borrar el archivo de paginación de la memoria virtual</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 </tbody>
 </table>
@@ -1928,7 +1928,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
   
 **Tabla 3.16 Recomendaciones para la configuración de opciones de seguridad: Criptografía de sistema**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1939,20 +1939,20 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuración</p></th>
-<th><p>EC: Escritorio</p></th>
-<th><p>EC: Portátil</p></th>
-<th><p>SSLF: Escritorio</p></th>
-<th><p>SSLF: Portátil</p></th>
+<th>Configuración</th>
+<th>EC: Escritorio</th>
+<th>EC: Portátil</th>
+<th>SSLF: Escritorio</th>
+<th>SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Criptografía de sistema: usar algoritmos que cumplan la norma FIPS para cifrado, firma y operaciones hash</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Criptografía de sistema: usar algoritmos que cumplan la norma FIPS para cifrado, firma y operaciones hash</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 </tbody>
 </table>
@@ -1971,7 +1971,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
   
 **Tabla 3.17 Recomendaciones para la configuración de opciones de seguridad: Objetos de sistema**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1982,34 +1982,34 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuración</p></th>
-<th><p>EC: Escritorio</p></th>
-<th><p>EC: Portátil</p></th>
-<th><p>SSLF: Escritorio</p></th>
-<th><p>SSLF: Portátil</p></th>
+<th>Configuración</th>
+<th>EC: Escritorio</th>
+<th>EC: Portátil</th>
+<th>SSLF: Escritorio</th>
+<th>SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Objetos de sistema: propietario predeterminado para objetos creados por miembros del grupo de administradores</p></td>
-<td style="border:1px solid black;"><p>Creador de objetos</p></td>
-<td style="border:1px solid black;"><p>Creador de objetos</p></td>
-<td style="border:1px solid black;"><p>Creador de objetos</p></td>
-<td style="border:1px solid black;"><p>Creador de objetos</p></td>
+<td style="border:1px solid black;">Objetos de sistema: propietario predeterminado para objetos creados por miembros del grupo de administradores</td>
+<td style="border:1px solid black;">Creador de objetos</td>
+<td style="border:1px solid black;">Creador de objetos</td>
+<td style="border:1px solid black;">Creador de objetos</td>
+<td style="border:1px solid black;">Creador de objetos</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Objetos de sistema: requerir diferenciación de mayúsculas y minúsculas para subsistemas no basados en Windows</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Objetos de sistema: requerir diferenciación de mayúsculas y minúsculas para subsistemas no basados en Windows</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Objetos de sistema: reforzar los permisos predeterminados de los objetos internos del sistema</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Objetos de sistema: reforzar los permisos predeterminados de los objetos internos del sistema</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 </tbody>
 </table>
@@ -2048,7 +2048,7 @@ En la tabla siguiente se resume la configuración de seguridad recomendada para 
   
 **Tabla 3.18 Recomendaciones para la configuración de seguridad del registro de eventos**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -2059,76 +2059,76 @@ En la tabla siguiente se resume la configuración de seguridad recomendada para 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuración</p></th>
-<th><p>EC: Escritorio</p></th>
-<th><p>EC: Portátil</p></th>
-<th><p>SSLF: Escritorio</p></th>
-<th><p>SSLF: Portátil</p></th>
+<th>Configuración</th>
+<th>EC: Escritorio</th>
+<th>EC: Portátil</th>
+<th>SSLF: Escritorio</th>
+<th>SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tamaño máximo del registro de la aplicación</p></td>
-<td style="border:1px solid black;"><p>16.384 KB</p></td>
-<td style="border:1px solid black;"><p>16.384 KB</p></td>
-<td style="border:1px solid black;"><p>16.384 KB</p></td>
-<td style="border:1px solid black;"><p>16.384 KB</p></td>
+<td style="border:1px solid black;">Tamaño máximo del registro de la aplicación</td>
+<td style="border:1px solid black;">16.384 KB</td>
+<td style="border:1px solid black;">16.384 KB</td>
+<td style="border:1px solid black;">16.384 KB</td>
+<td style="border:1px solid black;">16.384 KB</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tamaño máximo del registro de seguridad</p></td>
-<td style="border:1px solid black;"><p>81.920 KB</p></td>
-<td style="border:1px solid black;"><p>81.920 KB</p></td>
-<td style="border:1px solid black;"><p>81.920 KB</p></td>
-<td style="border:1px solid black;"><p>81.920 KB</p></td>
+<td style="border:1px solid black;">Tamaño máximo del registro de seguridad</td>
+<td style="border:1px solid black;">81.920 KB</td>
+<td style="border:1px solid black;">81.920 KB</td>
+<td style="border:1px solid black;">81.920 KB</td>
+<td style="border:1px solid black;">81.920 KB</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tamaño máximo del registro del sistema</p></td>
-<td style="border:1px solid black;"><p>16.384 KB</p></td>
-<td style="border:1px solid black;"><p>16.384 KB</p></td>
-<td style="border:1px solid black;"><p>16.384 KB</p></td>
-<td style="border:1px solid black;"><p>16.384 KB</p></td>
+<td style="border:1px solid black;">Tamaño máximo del registro del sistema</td>
+<td style="border:1px solid black;">16.384 KB</td>
+<td style="border:1px solid black;">16.384 KB</td>
+<td style="border:1px solid black;">16.384 KB</td>
+<td style="border:1px solid black;">16.384 KB</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Evitar que el grupo de invitados locales tenga acceso al registro de aplicaciones</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Evitar que el grupo de invitados locales tenga acceso al registro de aplicaciones</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Evitar que el grupo de invitados locales tenga acceso al registro de seguridad</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Evitar que el grupo de invitados locales tenga acceso al registro de seguridad</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Evitar que el grupo de invitados locales tenga acceso al registro del sistema</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Evitar que el grupo de invitados locales tenga acceso al registro del sistema</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Método de retención del registro de la aplicación</p></td>
-<td style="border:1px solid black;"><p>Según se necesite</p></td>
-<td style="border:1px solid black;"><p>Según se necesite</p></td>
-<td style="border:1px solid black;"><p>Según se necesite</p></td>
-<td style="border:1px solid black;"><p>Según se necesite</p></td>
+<td style="border:1px solid black;">Método de retención del registro de la aplicación</td>
+<td style="border:1px solid black;">Según se necesite</td>
+<td style="border:1px solid black;">Según se necesite</td>
+<td style="border:1px solid black;">Según se necesite</td>
+<td style="border:1px solid black;">Según se necesite</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Método de retención del registro de seguridad</p></td>
-<td style="border:1px solid black;"><p>Según se necesite</p></td>
-<td style="border:1px solid black;"><p>Según se necesite</p></td>
-<td style="border:1px solid black;"><p>Según se necesite</p></td>
-<td style="border:1px solid black;"><p>Según se necesite</p></td>
+<td style="border:1px solid black;">Método de retención del registro de seguridad</td>
+<td style="border:1px solid black;">Según se necesite</td>
+<td style="border:1px solid black;">Según se necesite</td>
+<td style="border:1px solid black;">Según se necesite</td>
+<td style="border:1px solid black;">Según se necesite</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Método de retención del registro del sistema</p></td>
-<td style="border:1px solid black;"><p>Según se necesite</p></td>
-<td style="border:1px solid black;"><p>Según se necesite</p></td>
-<td style="border:1px solid black;"><p>Según se necesite</p></td>
-<td style="border:1px solid black;"><p>Según se necesite</p></td>
+<td style="border:1px solid black;">Método de retención del registro del sistema</td>
+<td style="border:1px solid black;">Según se necesite</td>
+<td style="border:1px solid black;">Según se necesite</td>
+<td style="border:1px solid black;">Según se necesite</td>
+<td style="border:1px solid black;">Según se necesite</td>
 </tr>
 </tbody>
 </table>
@@ -2197,7 +2197,7 @@ El parámetro Grupos restringidos permite administrar la pertenencia a los grupo
   
 **Tabla 3.19 Recomendaciones sobre grupos restringidos**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -2208,34 +2208,34 @@ El parámetro Grupos restringidos permite administrar la pertenencia a los grupo
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Grupo local</p></th>
-<th><p>EC: Escritorio</p></th>
-<th><p>EC: Portátil</p></th>
-<th><p>SSLF: Escritorio</p></th>
-<th><p>SSLF: Portátil</p></th>
+<th>Grupo local</th>
+<th>EC: Escritorio</th>
+<th>EC: Portátil</th>
+<th>SSLF: Escritorio</th>
+<th>SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Operadores de copia de seguridad</p></td>
-<td style="border:1px solid black;"><p>Ningún miembro</p></td>
-<td style="border:1px solid black;"><p>Ningún miembro</p></td>
-<td style="border:1px solid black;"><p>Ningún miembro</p></td>
-<td style="border:1px solid black;"><p>Ningún miembro</p></td>
+<td style="border:1px solid black;">Operadores de copia de seguridad</td>
+<td style="border:1px solid black;">Ningún miembro</td>
+<td style="border:1px solid black;">Ningún miembro</td>
+<td style="border:1px solid black;">Ningún miembro</td>
+<td style="border:1px solid black;">Ningún miembro</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Usuarios avanzados</p></td>
-<td style="border:1px solid black;"><p>Ningún miembro</p></td>
-<td style="border:1px solid black;"><p>Ningún miembro</p></td>
-<td style="border:1px solid black;"><p>Ningún miembro</p></td>
-<td style="border:1px solid black;"><p>Ningún miembro</p></td>
+<td style="border:1px solid black;">Usuarios avanzados</td>
+<td style="border:1px solid black;">Ningún miembro</td>
+<td style="border:1px solid black;">Ningún miembro</td>
+<td style="border:1px solid black;">Ningún miembro</td>
+<td style="border:1px solid black;">Ningún miembro</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Usuarios de Escritorio remoto</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Ningún miembro</p></td>
-<td style="border:1px solid black;"><p>Ningún miembro</p></td>
+<td style="border:1px solid black;">Usuarios de Escritorio remoto</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Ningún miembro</td>
+<td style="border:1px solid black;">Ningún miembro</td>
 </tr>
 </tbody>
 </table>
@@ -2312,166 +2312,166 @@ En la tabla siguiente se resume la configuración recomendada de servicios del s
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nombre del servicio</p></th>
-<th><p>Nombre para mostrar</p></th>
-<th><p>EC: Escritorio</p></th>
-<th><p>EC: Portátil</p></th>
-<th><p>SSLF: Escritorio</p></th>
-<th><p>SSLF: Portátil</p></th>
+<th>Nombre del servicio</th>
+<th>Nombre para mostrar</th>
+<th>EC: Escritorio</th>
+<th>EC: Portátil</th>
+<th>SSLF: Escritorio</th>
+<th>SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servicio de alerta</p></td>
-<td style="border:1px solid black;"><p>Servicio de alerta</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Servicio de alerta</td>
+<td style="border:1px solid black;">Servicio de alerta</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ClipSrv</p></td>
-<td style="border:1px solid black;"><p>Portafolios</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">ClipSrv</td>
+<td style="border:1px solid black;">Portafolios</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Examinador</p></td>
-<td style="border:1px solid black;"><p>Examinador de equipos</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Examinador</td>
+<td style="border:1px solid black;">Examinador de equipos</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Fax</p></td>
-<td style="border:1px solid black;"><p>Fax</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Fax</td>
+<td style="border:1px solid black;">Fax</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSFtpsvr</p></td>
-<td style="border:1px solid black;"><p>Publicación FTP</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">MSFtpsvr</td>
+<td style="border:1px solid black;">Publicación FTP</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IISADMIN</p></td>
-<td style="border:1px solid black;"><p>Administración IIS</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">IISADMIN</td>
+<td style="border:1px solid black;">Administración IIS</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>cisvc</p></td>
-<td style="border:1px solid black;"><p>Servicio de Index Server</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">cisvc</td>
+<td style="border:1px solid black;">Servicio de Index Server</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Messenger</p></td>
-<td style="border:1px solid black;"><p>Messenger</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Messenger</td>
+<td style="border:1px solid black;">Messenger</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>mnmsrvc</p></td>
-<td style="border:1px solid black;"><p>Escritorio remoto compartido de NetMeeting®</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">mnmsrvc</td>
+<td style="border:1px solid black;">Escritorio remoto compartido de NetMeeting®</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>RDSessMgr</p></td>
-<td style="border:1px solid black;"><p>Administrador de sesión de Ayuda de escritorio remoto</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">RDSessMgr</td>
+<td style="border:1px solid black;">Administrador de sesión de Ayuda de escritorio remoto</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RemoteAccess</p></td>
-<td style="border:1px solid black;"><p>Enrutamiento y acceso remoto</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">RemoteAccess</td>
+<td style="border:1px solid black;">Enrutamiento y acceso remoto</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SNMP</p></td>
-<td style="border:1px solid black;"><p>Servicio SNMP</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">SNMP</td>
+<td style="border:1px solid black;">Servicio SNMP</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SNMPTRAP</p></td>
-<td style="border:1px solid black;"><p>Servicio de captura SNMP</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">SNMPTRAP</td>
+<td style="border:1px solid black;">Servicio de captura SNMP</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SSDPSrv</p></td>
-<td style="border:1px solid black;"><p>Servicio de descubrimientos SSDP</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">SSDPSrv</td>
+<td style="border:1px solid black;">Servicio de descubrimientos SSDP</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Programación</p></td>
-<td style="border:1px solid black;"><p>Programador de tareas</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Programación</td>
+<td style="border:1px solid black;">Programador de tareas</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>TlntSvr</p></td>
-<td style="border:1px solid black;"><p>Telnet</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">TlntSvr</td>
+<td style="border:1px solid black;">Telnet</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>TermService</p></td>
-<td style="border:1px solid black;"><p>Servicios de Terminal Server</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">TermService</td>
+<td style="border:1px solid black;">Servicios de Terminal Server</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Upnphost</p></td>
-<td style="border:1px solid black;"><p>Host de dispositivo Plug and Play universal</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Upnphost</td>
+<td style="border:1px solid black;">Host de dispositivo Plug and Play universal</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>W3SVC</p></td>
-<td style="border:1px solid black;"><p>Publicación de World Wide Web</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">W3SVC</td>
+<td style="border:1px solid black;">Publicación de World Wide Web</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 </tbody>
 </table>
@@ -2608,7 +2608,7 @@ La información adicional de cada configuración se proporciona en las subseccio
   
 **Tabla 3.21 Parámetros adicionales del Registro**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -2619,136 +2619,136 @@ La información adicional de cada configuración se proporciona en las subseccio
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nombre de la configuración</p></th>
-<th><p>Escritorio EC<br />
-</p></th>
-<th><p>Equipo portátil EC<br />
-</p></th>
-<th><p>Escritorio SSLF<br />
-</p></th>
-<th><p>Equipo portátil SSLF<br />
-</p></th>
+<th>Nombre de la configuración</th>
+<th>Escritorio EC<br />
+</th>
+<th>Equipo portátil EC<br />
+</th>
+<th>Escritorio SSLF<br />
+</th>
+<th>Equipo portátil SSLF<br />
+</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (AutoAdminLogon) Enable Automatic Logon (not recommended)</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">MSS: (AutoAdminLogon) Enable Automatic Logon (not recommended)</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSS: (DisableIPSourceRouting) IP source routing protection level (protects against packet spoofing)</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Highest Protection, source routing is completely disabled.</p></td>
-<td style="border:1px solid black;"><p>Highest Protection, source routing is completely disabled.</p></td>
+<td style="border:1px solid black;">MSS: (DisableIPSourceRouting) IP source routing protection level (protects against packet spoofing)</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Highest Protection, source routing is completely disabled.</td>
+<td style="border:1px solid black;">Highest Protection, source routing is completely disabled.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (EnableDeadGWDetect) Allow automatic detection of dead network gateways (could lead to DoS)</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">MSS: (EnableDeadGWDetect) Allow automatic detection of dead network gateways (could lead to DoS)</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSS: (EnableICMPRedirect) Allow ICMP redirects to override OSPF generated routes</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">MSS: (EnableICMPRedirect) Allow ICMP redirects to override OSPF generated routes</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (Hidden) Hide Computer From the Browse List (not recommended except for highly secure environments)</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">MSS: (Hidden) Hide Computer From the Browse List (not recommended except for highly secure environments)</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSS: (KeepAliveTime)How often keep-alive packets are sent in milliseconds</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>30000 or 5 minutes (recommended)</p></td>
-<td style="border:1px solid black;"><p>30000 or 5 minutes (recommended)</p></td>
+<td style="border:1px solid black;">MSS: (KeepAliveTime)How often keep-alive packets are sent in milliseconds</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">30000 or 5 minutes (recommended)</td>
+<td style="border:1px solid black;">30000 or 5 minutes (recommended)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (NoDefaultExempt) Enable NoDefaultExempt for IPSec Filtering (recommended)</p></td>
-<td style="border:1px solid black;"><p>El tráfico de multidifusión, difusión e ISAKMP está exento (mejor para Windows XP)</p></td>
-<td style="border:1px solid black;"><p>El tráfico de multidifusión, difusión e ISAKMP está exento (mejor para Windows XP)</p></td>
-<td style="border:1px solid black;"><p>El tráfico de multidifusión, difusión e ISAKMP está exento (mejor para Windows XP)</p></td>
-<td style="border:1px solid black;"><p>El tráfico de multidifusión, difusión e ISAKMP está exento (mejor para Windows XP)</p></td>
+<td style="border:1px solid black;">MSS: (NoDefaultExempt) Enable NoDefaultExempt for IPSec Filtering (recommended)</td>
+<td style="border:1px solid black;">El tráfico de multidifusión, difusión e ISAKMP está exento (mejor para Windows XP)</td>
+<td style="border:1px solid black;">El tráfico de multidifusión, difusión e ISAKMP está exento (mejor para Windows XP)</td>
+<td style="border:1px solid black;">El tráfico de multidifusión, difusión e ISAKMP está exento (mejor para Windows XP)</td>
+<td style="border:1px solid black;">El tráfico de multidifusión, difusión e ISAKMP está exento (mejor para Windows XP)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSS: (NoDriveTypeAutoRun) Disable Autorun for all drives (recommended)</p></td>
-<td style="border:1px solid black;"><p>255, disable autorun for all drives</p></td>
-<td style="border:1px solid black;"><p>255, disable autorun for all drives</p></td>
-<td style="border:1px solid black;"><p>255, disable autorun for all drives</p></td>
-<td style="border:1px solid black;"><p>255, disable autorun for all drives</p></td>
+<td style="border:1px solid black;">MSS: (NoDriveTypeAutoRun) Disable Autorun for all drives (recommended)</td>
+<td style="border:1px solid black;">255, disable autorun for all drives</td>
+<td style="border:1px solid black;">255, disable autorun for all drives</td>
+<td style="border:1px solid black;">255, disable autorun for all drives</td>
+<td style="border:1px solid black;">255, disable autorun for all drives</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (NoNameReleaseOnDemand) Allow the computer to ignore NetBIOS name release requests except from WINS servers</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">MSS: (NoNameReleaseOnDemand) Allow the computer to ignore NetBIOS name release requests except from WINS servers</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSS: (NtfsDisable8dot3NameCreation) Enable the computer to stop generating 8.3 style filenames (recommended)</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">MSS: (NtfsDisable8dot3NameCreation) Enable the computer to stop generating 8.3 style filenames (recommended)</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (PerformRouterDiscovery) Allow IRDP to detect and configure Default Gateway addresses (could lead to DoS)</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">MSS: (PerformRouterDiscovery) Allow IRDP to detect and configure Default Gateway addresses (could lead to DoS)</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSS: (SafeDllSearchMode) Enable Safe DLL search mode (recommended)</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">MSS: (SafeDllSearchMode) Enable Safe DLL search mode (recommended)</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (ScreenSaverGracePeriod) The time in seconds before the screen saver grace period expires (0 recommended)</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
+<td style="border:1px solid black;">MSS: (ScreenSaverGracePeriod) The time in seconds before the screen saver grace period expires (0 recommended)</td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">0</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSS: (SynAttackProtect) Syn attack protection level (protects against DoS)</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Connections timeout sooner if attack is detected</p></td>
-<td style="border:1px solid black;"><p>Connections timeout sooner if attack is detected</p></td>
+<td style="border:1px solid black;">MSS: (SynAttackProtect) Syn attack protection level (protects against DoS)</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Connections timeout sooner if attack is detected</td>
+<td style="border:1px solid black;">Connections timeout sooner if attack is detected</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (TCPMaxConnectResponseRetransmissions) SYN-ACK retransmissions when a connection request is not acknowledged</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>3 &amp; 6 seconds, half-open connections dropped after 21 seconds</p></td>
-<td style="border:1px solid black;"><p>3 &amp; 6 seconds, half-open connections dropped after 21 seconds</p></td>
+<td style="border:1px solid black;">MSS: (TCPMaxConnectResponseRetransmissions) SYN-ACK retransmissions when a connection request is not acknowledged</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">3 &amp; 6 seconds, half-open connections dropped after 21 seconds</td>
+<td style="border:1px solid black;">3 &amp; 6 seconds, half-open connections dropped after 21 seconds</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSS: (TCPMaxDataRetransmissions) How many times unacknowledged data is retransmitted (3 recommended, 5 is default)</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">MSS: (TCPMaxDataRetransmissions) How many times unacknowledged data is retransmitted (3 recommended, 5 is default)</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">3</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (WarningLevel) Percentage threshold for the security event log at which the system will generate a warning</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>90</p></td>
-<td style="border:1px solid black;"><p>90</p></td>
+<td style="border:1px solid black;">MSS: (WarningLevel) Percentage threshold for the security event log at which the system will generate a warning</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">90</td>
+<td style="border:1px solid black;">90</td>
 </tr>
 </tbody>
 </table>
@@ -3043,7 +3043,7 @@ Puede configurar en el cuadro de diálogo **Permisos** los permisos de archivos 
   
 **Tabla 3.22 Permisos de archivo avanzados y descripciones**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -3051,62 +3051,62 @@ Puede configurar en el cuadro de diálogo **Permisos** los permisos de archivos 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nombre de permiso avanzado</p></th>
-<th><p>Descripción</p></th>
+<th>Nombre de permiso avanzado</th>
+<th>Descripción</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Recorrer carpeta/Ejecutar archivo</p></td>
-<td style="border:1px solid black;"><p>Permite o rechaza las peticiones de usuarios para desplazarse de unas carpetas a otras con el fin de llegar a otros archivos o carpetas, incluso si el usuario no posee permiso para recorrer las carpetas (se aplica únicamente a las carpetas).</p></td>
+<td style="border:1px solid black;">Recorrer carpeta/Ejecutar archivo</td>
+<td style="border:1px solid black;">Permite o rechaza las peticiones de usuarios para desplazarse de unas carpetas a otras con el fin de llegar a otros archivos o carpetas, incluso si el usuario no posee permiso para recorrer las carpetas (se aplica únicamente a las carpetas).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Listar carpeta/Leer datos</p></td>
-<td style="border:1px solid black;"><p>Permite o rechaza las peticiones de usuarios para visualizar nombres de archivos y subcarpetas que se encuentren dentro de la carpeta especificada. Sólo afecta al contenido de esa carpeta y no influye en si la carpeta en la que establece el permiso se va a enumerar (se aplica sólo a carpetas).</p></td>
+<td style="border:1px solid black;">Listar carpeta/Leer datos</td>
+<td style="border:1px solid black;">Permite o rechaza las peticiones de usuarios para visualizar nombres de archivos y subcarpetas que se encuentren dentro de la carpeta especificada. Sólo afecta al contenido de esa carpeta y no influye en si la carpeta en la que establece el permiso se va a enumerar (se aplica sólo a carpetas).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Atributos de lectura</p></td>
-<td style="border:1px solid black;"><p>Permite o deniega la capacidad de ver datos en archivos (se aplica sólo a archivos).</p></td>
+<td style="border:1px solid black;">Atributos de lectura</td>
+<td style="border:1px solid black;">Permite o deniega la capacidad de ver datos en archivos (se aplica sólo a archivos).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Atributos extendidos de lectura</p></td>
-<td style="border:1px solid black;"><p>Permite o rechaza las peticiones de usuarios para visualizar los atributos de un archivo o carpeta como, por ejemplo, los de sólo lectura y los ocultos. Los atributos vienen definidos por NTFS.</p></td>
+<td style="border:1px solid black;">Atributos extendidos de lectura</td>
+<td style="border:1px solid black;">Permite o rechaza las peticiones de usuarios para visualizar los atributos de un archivo o carpeta como, por ejemplo, los de sólo lectura y los ocultos. Los atributos vienen definidos por NTFS.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Crear archivos/Escribir datos</p></td>
-<td style="border:1px solid black;"><p>Crear archivos permite o deniega la creación de archivos en la carpeta (se aplica sólo a carpetas). Escribir datos permite o deniega la posibilidad de realizar cambios en el archivo y sobrescribir el contenido existente (se aplica sólo a archivos).</p></td>
+<td style="border:1px solid black;">Crear archivos/Escribir datos</td>
+<td style="border:1px solid black;">Crear archivos permite o deniega la creación de archivos en la carpeta (se aplica sólo a carpetas). Escribir datos permite o deniega la posibilidad de realizar cambios en el archivo y sobrescribir el contenido existente (se aplica sólo a archivos).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Crear carpetas/Anexar datos</p></td>
-<td style="border:1px solid black;"><p>Crear carpetas permite o deniega solicitudes de usuario para crear carpetas en una carpeta especificada (se aplica sólo a carpetas). Anexar datos permite o deniega la posibilidad de realizar cambios al final del archivo pero no de cambiar, eliminar o sobrescribir los datos existentes (se aplica sólo a archivos).</p></td>
+<td style="border:1px solid black;">Crear carpetas/Anexar datos</td>
+<td style="border:1px solid black;">Crear carpetas permite o deniega solicitudes de usuario para crear carpetas en una carpeta especificada (se aplica sólo a carpetas). Anexar datos permite o deniega la posibilidad de realizar cambios al final del archivo pero no de cambiar, eliminar o sobrescribir los datos existentes (se aplica sólo a archivos).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Atributos de escritura</p></td>
-<td style="border:1px solid black;"><p>Permite o deniega solicitudes de usuario para realizar cambios al final del archivo, pero no cambiar, eliminar o sobrescribir los datos existentes (se aplica sólo a archivos).</p></td>
+<td style="border:1px solid black;">Atributos de escritura</td>
+<td style="border:1px solid black;">Permite o deniega solicitudes de usuario para realizar cambios al final del archivo, pero no cambiar, eliminar o sobrescribir los datos existentes (se aplica sólo a archivos).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Atributos extendidos de escritura</p></td>
-<td style="border:1px solid black;"><p>Permite o rechaza las peticiones de usuarios para cambiar los atributos de un archivo o carpeta como, por ejemplo, de sólo lectura u ocultos. Los atributos vienen definidos por NTFS.</p></td>
+<td style="border:1px solid black;">Atributos extendidos de escritura</td>
+<td style="border:1px solid black;">Permite o rechaza las peticiones de usuarios para cambiar los atributos de un archivo o carpeta como, por ejemplo, de sólo lectura u ocultos. Los atributos vienen definidos por NTFS.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Eliminar subcarpetas y archivos</p></td>
-<td style="border:1px solid black;"><p>Permite o deniega la capacidad de eliminar subcarpetas y archivos, incluso si no se ha asignado el permiso Eliminar en la subcarpeta o el archivo (se aplica a carpetas).</p></td>
+<td style="border:1px solid black;">Eliminar subcarpetas y archivos</td>
+<td style="border:1px solid black;">Permite o deniega la capacidad de eliminar subcarpetas y archivos, incluso si no se ha asignado el permiso Eliminar en la subcarpeta o el archivo (se aplica a carpetas).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Eliminar</p></td>
-<td style="border:1px solid black;"><p>Permite o deniega solicitudes de usuario para eliminar subcarpetas y archivos, incluso si no se ha asignado el permiso Eliminar para la subcarpeta o el archivo (se aplica a carpetas).</p></td>
+<td style="border:1px solid black;">Eliminar</td>
+<td style="border:1px solid black;">Permite o deniega solicitudes de usuario para eliminar subcarpetas y archivos, incluso si no se ha asignado el permiso Eliminar para la subcarpeta o el archivo (se aplica a carpetas).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Leer permisos</p></td>
-<td style="border:1px solid black;"><p>Se permiten o rechazan las peticiones de usuarios para leer los permisos de los archivos o carpetas, como por ejemplo los de control total, lectura y escritura.</p></td>
+<td style="border:1px solid black;">Leer permisos</td>
+<td style="border:1px solid black;">Se permiten o rechazan las peticiones de usuarios para leer los permisos de los archivos o carpetas, como por ejemplo los de control total, lectura y escritura.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Cambiar permisos</p></td>
-<td style="border:1px solid black;"><p>Se permiten o rechazan las peticiones de usuarios para cambiar los permisos de los archivos o carpetas, como por ejemplo los de control total, lectura y escritura.</p></td>
+<td style="border:1px solid black;">Cambiar permisos</td>
+<td style="border:1px solid black;">Se permiten o rechazan las peticiones de usuarios para cambiar los permisos de los archivos o carpetas, como por ejemplo los de control total, lectura y escritura.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tomar posesión</p></td>
-<td style="border:1px solid black;"><p>Permite o deniega la toma de posesión del archivo o la carpeta. El propietario de un archivo o carpeta puede en cualquier momento cambiar los permisos para éstos, a pesar de que exista alguno que protege el archivo o carpeta.</p></td>
+<td style="border:1px solid black;">Tomar posesión</td>
+<td style="border:1px solid black;">Permite o deniega la toma de posesión del archivo o la carpeta. El propietario de un archivo o carpeta puede en cualquier momento cambiar los permisos para éstos, a pesar de que exista alguno que protege el archivo o carpeta.</td>
 </tr>
 </tbody>
 </table>

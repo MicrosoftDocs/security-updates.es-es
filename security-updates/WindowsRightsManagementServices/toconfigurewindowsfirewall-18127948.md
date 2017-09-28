@@ -19,7 +19,7 @@ On the Active Directory domain controllers, the following Windows Firewall excep
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -33,12 +33,12 @@ On the Active Directory domain controllers, the following Windows Firewall excep
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>TCP 389</p></td>
-<td style="border:1px solid black;"><p>Lightweight Directory Access Protocol (LDAP), used by Active Directory</p></td>
+<td style="border:1px solid black;">TCP 389</td>
+<td style="border:1px solid black;">Lightweight Directory Access Protocol (LDAP), used by Active Directory</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>TCP 3268</p></td>
-<td style="border:1px solid black;"><p>Active Directory global catalog</p></td>
+<td style="border:1px solid black;">TCP 3268</td>
+<td style="border:1px solid black;">Active Directory global catalog</td>
 </tr>
 </tbody>
 </table>
@@ -47,7 +47,7 @@ The following table shows the port exceptions that should be made on the RMS ser
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -61,12 +61,12 @@ The following table shows the port exceptions that should be made on the RMS ser
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>TCP 80</p></td>
-<td style="border:1px solid black;"><p>HTTP</p></td>
+<td style="border:1px solid black;">TCP 80</td>
+<td style="border:1px solid black;">HTTP</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>TCP 443</p></td>
-<td style="border:1px solid black;"><p>HTTPS or Secure Sockets Layer communication (SSL)</p></td>
+<td style="border:1px solid black;">TCP 443</td>
+<td style="border:1px solid black;">HTTPS or Secure Sockets Layer communication (SSL)</td>
 </tr>
 </tbody>
 </table>
@@ -75,7 +75,7 @@ If the logging database server is not on a server in the RMS cluster, the follow
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -89,12 +89,12 @@ If the logging database server is not on a server in the RMS cluster, the follow
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>TCP 1433</p></td>
-<td style="border:1px solid black;"><p>Default SQL Server listening port</p></td>
+<td style="border:1px solid black;">TCP 1433</td>
+<td style="border:1px solid black;">Default SQL Server listening port</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>TCP 445</p></td>
-<td style="border:1px solid black;"><p>SQL Server Named Pipes (used for provisioning the RMS server)</p></td>
+<td style="border:1px solid black;">TCP 445</td>
+<td style="border:1px solid black;">SQL Server Named Pipes (used for provisioning the RMS server)</td>
 </tr>
 </tbody>
 </table>

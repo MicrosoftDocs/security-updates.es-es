@@ -742,7 +742,7 @@ Las tecnologías de protección de datos de Microsoft no vinculan las claves de 
 
 #### Requisitos del Estándar PCI DSS y soluciones de tecnología asociadas
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -750,58 +750,58 @@ Las tecnologías de protección de datos de Microsoft no vinculan las claves de 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Requisito</p></th>
-<th><p>Secciones de la solución de tecnología</p></th>
+<th>Requisito</th>
+<th>Secciones de la solución de tecnología</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Requisito 1</p></td>
-<td style="border:1px solid black;"><p><a href="#_risk_assessment">Evaluación de riesgos</a>; <a href="#_network_security">Seguridad de red</a></p></td>
+<td style="border:1px solid black;">Requisito 1</td>
+<td style="border:1px solid black;"><a href="#_risk_assessment">Evaluación de riesgos</a>; <a href="#_network_security">Seguridad de red</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Requisito 2</p></td>
-<td style="border:1px solid black;"><p><a href="#_network_security">Seguridad de red</a></p></td>
+<td style="border:1px solid black;">Requisito 2</td>
+<td style="border:1px solid black;"><a href="#_network_security">Seguridad de red</a></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Requisito 3</p></td>
-<td style="border:1px solid black;"><p><a href="#_document_management">Administración de documentos</a>; <a href="#_risk_assessment">Evaluación de riesgos</a>; <a href="#_data_classification_and_protection">Clasificación y protección de datos</a></p></td>
+<td style="border:1px solid black;">Requisito 3</td>
+<td style="border:1px solid black;"><a href="#_document_management">Administración de documentos</a>; <a href="#_risk_assessment">Evaluación de riesgos</a>; <a href="#_data_classification_and_protection">Clasificación y protección de datos</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Requisito 4</p></td>
-<td style="border:1px solid black;"><p><a href="#_risk_assessment">Evaluación de riesgos</a>; <a href="#_messaging_and_collaboration">Mensajería y colaboración</a>; <a href="#_data_classification_and_protection">Clasificación y protección de datos</a>; <a href="#_network_security">Seguridad de red</a></p></td>
+<td style="border:1px solid black;">Requisito 4</td>
+<td style="border:1px solid black;"><a href="#_risk_assessment">Evaluación de riesgos</a>; <a href="#_messaging_and_collaboration">Mensajería y colaboración</a>; <a href="#_data_classification_and_protection">Clasificación y protección de datos</a>; <a href="#_network_security">Seguridad de red</a></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Requisito 5</p></td>
-<td style="border:1px solid black;"><p><a href="#_risk_assessment">Evaluación de riesgos</a>; <a href="#_malicious_software_prevention">Prevención de software malintencionado</a></p></td>
+<td style="border:1px solid black;">Requisito 5</td>
+<td style="border:1px solid black;"><a href="#_risk_assessment">Evaluación de riesgos</a>; <a href="#_malicious_software_prevention">Prevención de software malintencionado</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Requisito 6</p></td>
-<td style="border:1px solid black;"><p><a href="#_document_management">Administración de documentos</a>; <a href="#_risk_assessment">Evaluación de riesgos</a>; <a href="#_change_management">Administración de cambios</a>; <a href="#_host_control">Control de host</a>; <a href="#_malicious_software_prevention">Prevención de software malintencionado</a>; <a href="#_application_security">Seguridad de las aplicaciones</a>; <a href="#_authentication,_authorization,_and_">Autenticación, autorización y control de acceso</a></p></td>
+<td style="border:1px solid black;">Requisito 6</td>
+<td style="border:1px solid black;"><a href="#_document_management">Administración de documentos</a>; <a href="#_risk_assessment">Evaluación de riesgos</a>; <a href="#_change_management">Administración de cambios</a>; <a href="#_host_control">Control de host</a>; <a href="#_malicious_software_prevention">Prevención de software malintencionado</a>; <a href="#_application_security">Seguridad de las aplicaciones</a>; <a href="#_authentication,_authorization,_and_">Autenticación, autorización y control de acceso</a></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Requisito 7</p></td>
-<td style="border:1px solid black;"><p><a href="#_document_management">Administración de documentos</a>; <a href="#_risk_assessment">Evaluación de riesgos</a>; <a href="#_identity_management">Administración de identidades</a>; <a href="#_authentication,_authorization,_and_">Autenticación, autorización y control de acceso</a>; <a href="#_data_classification_and_protection">Clasificación y protección de datos</a></p></td>
+<td style="border:1px solid black;">Requisito 7</td>
+<td style="border:1px solid black;"><a href="#_document_management">Administración de documentos</a>; <a href="#_risk_assessment">Evaluación de riesgos</a>; <a href="#_identity_management">Administración de identidades</a>; <a href="#_authentication,_authorization,_and_">Autenticación, autorización y control de acceso</a>; <a href="#_data_classification_and_protection">Clasificación y protección de datos</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Requisito 8</p></td>
-<td style="border:1px solid black;"><p><a href="#_risk_assessment">Evaluación de riesgos</a>; <a href="#_authentication,_authorization,_and_">Autenticación, autorización y control de acceso</a></p></td>
+<td style="border:1px solid black;">Requisito 8</td>
+<td style="border:1px solid black;"><a href="#_risk_assessment">Evaluación de riesgos</a>; <a href="#_authentication,_authorization,_and_">Autenticación, autorización y control de acceso</a></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Requisito 9</p></td>
-<td style="border:1px solid black;"><p><a href="#_document_management">Administración de documentos</a></p></td>
+<td style="border:1px solid black;">Requisito 9</td>
+<td style="border:1px solid black;"><a href="#_document_management">Administración de documentos</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Requisito 10</p></td>
-<td style="border:1px solid black;"><p><a href="#_document_management">Administración de documentos</a>; <a href="#_change_management">Administración de cambios</a>; <a href="#_monitoring,_auditing,_and_reporting">Supervisión, auditoría y generación de informes</a>; <a href="#_network_security">Seguridad de red</a></p></td>
+<td style="border:1px solid black;">Requisito 10</td>
+<td style="border:1px solid black;"><a href="#_document_management">Administración de documentos</a>; <a href="#_change_management">Administración de cambios</a>; <a href="#_monitoring,_auditing,_and_reporting">Supervisión, auditoría y generación de informes</a>; <a href="#_network_security">Seguridad de red</a></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Requisito 11</p></td>
-<td style="border:1px solid black;"><p><a href="#_risk_assessment">Evaluación de riesgos</a>; <a href="#_host_control">Control de host</a>; <a href="#_vulnerability_identification">Identificación de vulnerabilidades</a></p></td>
+<td style="border:1px solid black;">Requisito 11</td>
+<td style="border:1px solid black;"><a href="#_risk_assessment">Evaluación de riesgos</a>; <a href="#_host_control">Control de host</a>; <a href="#_vulnerability_identification">Identificación de vulnerabilidades</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Requisito 12</p></td>
-<td style="border:1px solid black;"><p><a href="#_document_management">Administración de documentos</a></p></td>
+<td style="border:1px solid black;">Requisito 12</td>
+<td style="border:1px solid black;"><a href="#_document_management">Administración de documentos</a></td>
 </tr>
 </tbody>
 </table>

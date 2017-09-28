@@ -236,7 +236,7 @@ En la siguiente tabla se incluye una descripción detallada de los escenarios de
 
 **Tabla 2.1: Escenarios de vulnerabilidad de seguridad**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -245,31 +245,31 @@ En la siguiente tabla se incluye una descripción detallada de los escenarios de
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Escenario</p></th>
-<th><p>Descripción</p></th>
-<th><p>Nivel de riesgo</p></th>
+<th>Escenario</th>
+<th>Descripción</th>
+<th>Nivel de riesgo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>1</strong></p></td>
-<td style="border:1px solid black;"><p>La cuenta A ejecuta un servicio en el servidor 1. Una vez descubierta la contraseña de la cuenta A en el servidor 1, el usuario tiene acceso al controlador de dominio 1, que pasa a ser vulnerable. Se trata de un caso de prioridad <em>máxima</em>; no se deben utilizar cuentas de dominio con privilegios equivalentes a los de administrador en un controlador de dominio para ejecutar servicios en un servidor miembro.</p></td>
-<td style="border:1px solid black;"><p><strong>Máximo</strong></p></td>
+<td style="border:1px solid black;"><strong>1</strong></td>
+<td style="border:1px solid black;">La cuenta A ejecuta un servicio en el servidor 1. Una vez descubierta la contraseña de la cuenta A en el servidor 1, el usuario tiene acceso al controlador de dominio 1, que pasa a ser vulnerable. Se trata de un caso de prioridad <em>máxima</em>; no se deben utilizar cuentas de dominio con privilegios equivalentes a los de administrador en un controlador de dominio para ejecutar servicios en un servidor miembro.</td>
+<td style="border:1px solid black;"><strong>Máximo</strong></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>2</strong></p></td>
-<td style="border:1px solid black;"><p>La cuenta B ejecuta un servicio en el servidor 2. Esta cuenta también tiene acceso al servidor 1, donde la cuenta A está ejecutando un servicio. Una vez que la contraseña de la cuenta B se descubre en el servidor 2, el usuario obtiene el mismo estado de inicio que en el escenario 1, por lo que el controlador de dominio 1 es vulnerable. Esta lógica se puede aplicar a la cuenta C que ejecuta un servicio en el servidor 3 que, a su vez, puede facilitar el acceso al servidor 2, donde la cuenta B está ejecutando un servicio, y así sucesivamente. Éste es un caso de prioridad <em>elevada</em>, no máxima, ya que, al resolver el problema del escenario 1, el problema del escenario 2 se limita únicamente a los servidores miembros.</p></td>
-<td style="border:1px solid black;"><p><strong>Elevado</strong></p></td>
+<td style="border:1px solid black;"><strong>2</strong></td>
+<td style="border:1px solid black;">La cuenta B ejecuta un servicio en el servidor 2. Esta cuenta también tiene acceso al servidor 1, donde la cuenta A está ejecutando un servicio. Una vez que la contraseña de la cuenta B se descubre en el servidor 2, el usuario obtiene el mismo estado de inicio que en el escenario 1, por lo que el controlador de dominio 1 es vulnerable. Esta lógica se puede aplicar a la cuenta C que ejecuta un servicio en el servidor 3 que, a su vez, puede facilitar el acceso al servidor 2, donde la cuenta B está ejecutando un servicio, y así sucesivamente. Éste es un caso de prioridad <em>elevada</em>, no máxima, ya que, al resolver el problema del escenario 1, el problema del escenario 2 se limita únicamente a los servidores miembros.</td>
+<td style="border:1px solid black;"><strong>Elevado</strong></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>3</strong></p></td>
-<td style="border:1px solid black;"><p>La cuenta D ejecuta un servicio en el servidor 4 o 5. Una vez descubierta la contraseña de la cuenta D en el servidor, el usuario tiene acceso a todos los servidores miembros en los que la cuenta D tiene privilegios. Se trata de un caso de prioridad <em>media</em> (no existe la naturaleza transitiva del escenario 2).</p></td>
-<td style="border:1px solid black;"><p><strong>Medio</strong></p></td>
+<td style="border:1px solid black;"><strong>3</strong></td>
+<td style="border:1px solid black;">La cuenta D ejecuta un servicio en el servidor 4 o 5. Una vez descubierta la contraseña de la cuenta D en el servidor, el usuario tiene acceso a todos los servidores miembros en los que la cuenta D tiene privilegios. Se trata de un caso de prioridad <em>media</em> (no existe la naturaleza transitiva del escenario 2).</td>
+<td style="border:1px solid black;"><strong>Medio</strong></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>4</strong></p></td>
-<td style="border:1px solid black;"><p>La cuenta E ejecuta un servicio en el servidor 5 y solamente tiene acceso a dicho servidor.</p></td>
-<td style="border:1px solid black;"><p><strong>Bajo</strong></p></td>
+<td style="border:1px solid black;"><strong>4</strong></td>
+<td style="border:1px solid black;">La cuenta E ejecuta un servicio en el servidor 5 y solamente tiene acceso a dicho servidor.</td>
+<td style="border:1px solid black;"><strong>Bajo</strong></td>
 </tr>
 </tbody>
 </table>
@@ -334,7 +334,7 @@ Diversos servicios aún inician la sesión como sistema local, incluyendo Actual
   
 **Tabla 2.2: Nueva configuración de la cuenta de servicios en Windows Server 2003**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -342,78 +342,78 @@ Diversos servicios aún inician la sesión como sistema local, incluyendo Actual
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nombre del servicio</p></th>
-<th><p>Inicia la sesión como</p></th>
+<th>Nombre del servicio</th>
+<th>Inicia la sesión como</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servicio de alerta</p></td>
-<td style="border:1px solid black;"><p>Servicio local</p></td>
+<td style="border:1px solid black;">Servicio de alerta</td>
+<td style="border:1px solid black;">Servicio local</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Servicio de puerta de enlace de capa de aplicación</p></td>
-<td style="border:1px solid black;"><p>Servicio local</p></td>
+<td style="border:1px solid black;">Servicio de puerta de enlace de capa de aplicación</td>
+<td style="border:1px solid black;">Servicio local</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Registro remoto</p></td>
-<td style="border:1px solid black;"><p>Servicio local</p></td>
+<td style="border:1px solid black;">Registro remoto</td>
+<td style="border:1px solid black;">Servicio local</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tarjeta inteligente</p></td>
-<td style="border:1px solid black;"><p>Servicio local</p></td>
+<td style="border:1px solid black;">Tarjeta inteligente</td>
+<td style="border:1px solid black;">Servicio local</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ayuda de NetBIOS sobre TCP/IP</p></td>
-<td style="border:1px solid black;"><p>Servicio local</p></td>
+<td style="border:1px solid black;">Ayuda de NetBIOS sobre TCP/IP</td>
+<td style="border:1px solid black;">Servicio local</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Telnet</p></td>
-<td style="border:1px solid black;"><p>Servicio local</p></td>
+<td style="border:1px solid black;">Telnet</td>
+<td style="border:1px solid black;">Servicio local</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Sistema de alimentación ininterrumpida</p></td>
-<td style="border:1px solid black;"><p>Servicio local</p></td>
+<td style="border:1px solid black;">Sistema de alimentación ininterrumpida</td>
+<td style="border:1px solid black;">Servicio local</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Cliente Web</p></td>
-<td style="border:1px solid black;"><p>Servicio local</p></td>
+<td style="border:1px solid black;">Cliente Web</td>
+<td style="border:1px solid black;">Servicio local</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Adquisición de imágenes de Windows (WIA)</p></td>
-<td style="border:1px solid black;"><p>Servicio local</p></td>
+<td style="border:1px solid black;">Adquisición de imágenes de Windows (WIA)</td>
+<td style="border:1px solid black;">Servicio local</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Horario de Windows</p></td>
-<td style="border:1px solid black;"><p>Servicio local</p></td>
+<td style="border:1px solid black;">Horario de Windows</td>
+<td style="border:1px solid black;">Servicio local</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servicio de Descubrimiento automático de proxy Web WinHTTP</p></td>
-<td style="border:1px solid black;"><p>Servicio local</p></td>
+<td style="border:1px solid black;">Servicio de Descubrimiento automático de proxy Web WinHTTP</td>
+<td style="border:1px solid black;">Servicio local</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Cliente DHCP</p></td>
-<td style="border:1px solid black;"><p>Servicio de red</p></td>
+<td style="border:1px solid black;">Cliente DHCP</td>
+<td style="border:1px solid black;">Servicio de red</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Coordinador de transacciones distribuidas</p></td>
-<td style="border:1px solid black;"><p>Servicio de red</p></td>
+<td style="border:1px solid black;">Coordinador de transacciones distribuidas</td>
+<td style="border:1px solid black;">Servicio de red</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Cliente DNS</p></td>
-<td style="border:1px solid black;"><p>Servicio de red</p></td>
+<td style="border:1px solid black;">Cliente DNS</td>
+<td style="border:1px solid black;">Servicio de red</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Registro de licencias</p></td>
-<td style="border:1px solid black;"><p>Servicio de red</p></td>
+<td style="border:1px solid black;">Registro de licencias</td>
+<td style="border:1px solid black;">Servicio de red</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Registros y alertas de rendimiento</p></td>
-<td style="border:1px solid black;"><p>Servicio de red</p></td>
+<td style="border:1px solid black;">Registros y alertas de rendimiento</td>
+<td style="border:1px solid black;">Servicio de red</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Localizador de llamadas a procedimiento remoto (RPC)</p></td>
-<td style="border:1px solid black;"><p>Servicio de red</p></td>
+<td style="border:1px solid black;">Localizador de llamadas a procedimiento remoto (RPC)</td>
+<td style="border:1px solid black;">Servicio de red</td>
 </tr>
 </tbody>
 </table>

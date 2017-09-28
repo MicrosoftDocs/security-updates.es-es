@@ -17,7 +17,7 @@ The WSUS database stores the following types of information:
 -   Metadata that describes each update
 -   Information about client computers, updates, and client interaction with updates
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -30,11 +30,11 @@ The WSUS database stores the following types of information:
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">You should not attempt to manage WSUS by accessing data directly in the database. Manage WSUS by using the WSUS console, or programmatically by calling WSUS APIs.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Each WSUS server requires its own database. If there are multiple WSUS servers in your environment, you must have multiple WSUS databases. WSUS does not support storing multiple WSUS databases on a SQL Server instance. The only exception is the case of a network load balanced cluster using a SQL Server failover cluster, as described in [Appendix C: Configure WSUS for Network Load Balancing](https://technet.microsoft.com/ad30cc5d-ceaa-41a0-9e22-7b1ca15e2852).
 

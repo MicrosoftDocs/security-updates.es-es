@@ -13,7 +13,7 @@ The central access point in the WSUS administrative console for managing compute
 
 You can also manage computer groups on the **Computers** page, which includes creating the groups and assigning computers to them. For more information about managing computer groups, see [Managing the Computer Groups](https://technet.microsoft.com/838a2c30-baba-4f07-92e7-2e1b5535643f).
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -26,7 +26,7 @@ You can also manage computer groups on the **Computers** page, which includes cr
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">You must first configure client computers to contact the WSUS server before you can manage them from that server. Until you perform this task, your WSUS server will not recognize your client computers and they will not be displayed in the list on the <strong>Computers</strong> page. For more information about setting up client computers, see the <a href="http://go.microsoft.com/fwlink/?linkid=139832">WSUS Deployment Guide</a> (http://go.microsoft.com/fwlink/?LinkID=139832).
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>

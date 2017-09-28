@@ -391,7 +391,7 @@ La tabla siguiente muestra una lista de los equipos y los sistemas operativos qu
 
 **Tabla 5.1. Equipos y sistemas operativos utilizados en el laboratorio del escenario de aplicación**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -399,26 +399,26 @@ La tabla siguiente muestra una lista de los equipos y los sistemas operativos qu
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nombre del equipo</p></th>
-<th><p>Sistema operativo</p></th>
+<th>Nombre del equipo</th>
+<th>Sistema operativo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>WNB-HQ-DC</p></td>
-<td style="border:1px solid black;"><p>Windows Server® 2003 R2</p></td>
+<td style="border:1px solid black;">WNB-HQ-DC</td>
+<td style="border:1px solid black;">Windows Server® 2003 R2</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>WNB-HQ-FS1</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003 R2</p></td>
+<td style="border:1px solid black;">WNB-HQ-FS1</td>
+<td style="border:1px solid black;">Windows Server 2003 R2</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>HQ-IT-PC10</p></td>
-<td style="border:1px solid black;"><p>Windows XP Profesional SP2</p></td>
+<td style="border:1px solid black;">HQ-IT-PC10</td>
+<td style="border:1px solid black;">Windows XP Profesional SP2</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>HQLOAN164</p></td>
-<td style="border:1px solid black;"><p>Windows XP Profesional SP2</p></td>
+<td style="border:1px solid black;">HQLOAN164</td>
+<td style="border:1px solid black;">Windows XP Profesional SP2</td>
 </tr>
 </tbody>
 </table>
@@ -431,7 +431,7 @@ La tabla siguiente muestra una lista de los grupos y los usuarios que deberán d
   
 **Tabla 5.2. Grupos y usuarios mencionados en el laboratorio del escenario de aplicación**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -439,26 +439,26 @@ La tabla siguiente muestra una lista de los grupos y los usuarios que deberán d
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Grupos</p></th>
-<th><p>Usuarios</p></th>
+<th>Grupos</th>
+<th>Usuarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Administrador de sistemas de la empresa</p></td>
-<td style="border:1px solid black;"><p>Ray Chow</p></td>
+<td style="border:1px solid black;">Administrador de sistemas de la empresa</td>
+<td style="border:1px solid black;">Ray Chow</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Administradores del dominio</p></td>
-<td style="border:1px solid black;"><p>Ray Chow</p></td>
+<td style="border:1px solid black;">Administradores del dominio</td>
+<td style="border:1px solid black;">Ray Chow</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Administradores de RR.HH.</p></td>
-<td style="border:1px solid black;"><p>Hembra Gottfried, Roland Winkler, Jill Shrader</p></td>
+<td style="border:1px solid black;">Administradores de RR.HH.</td>
+<td style="border:1px solid black;">Hembra Gottfried, Roland Winkler, Jill Shrader</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Branch01Mgrs</p></td>
-<td style="border:1px solid black;"><p>Mike Danseglio, Nuria Gonzalez</p></td>
+<td style="border:1px solid black;">Branch01Mgrs</td>
+<td style="border:1px solid black;">Mike Danseglio, Nuria Gonzalez</td>
 </tr>
 </tbody>
 </table>
@@ -471,7 +471,7 @@ La tabla siguiente muestra una lista de los nombres de dispositivo, las estructu
   
 **Tabla 5.3. Dispositivos, carpetas y archivos utilizados en el laboratorio del escenario de aplicación**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -480,39 +480,39 @@ La tabla siguiente muestra una lista de los nombres de dispositivo, las estructu
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Dispositivo (equipo o lápiz USB)</p></th>
-<th><p>Carpetas</p></th>
-<th><p>Archivos</p></th>
+<th>Dispositivo (equipo o lápiz USB)</th>
+<th>Carpetas</th>
+<th>Archivos</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>WNB-HQ-FS1 (servidor de archivos)</p></td>
-<td style="border:1px solid black;"><p>\RR.HH.\Interno\Beneficios</p>
-<p>\RR.HH.\Interno\Nóminas</p>
-<p>\RR.HH.\Interno\Análisis</p>
-<p>\Herramientas</p></td>
-<td style="border:1px solid black;"><p>090806PR-A139.xls</p>
-<p>(Esta carpeta contiene todas las herramientas SysInternal y la herramienta FCIV, tal como se enumeran en la sección &quot;Herramientas&quot; del <a href="http://www.microsoft.com/spain/technet/security/guidance/disasterrecovery/computer_investigation/a9a5c2a9-cce3-4edb-a92c-10983899240a.mspx">Apéndice: Recursos</a>.)</p></td>
+<td style="border:1px solid black;">WNB-HQ-FS1 (servidor de archivos)</td>
+<td style="border:1px solid black;">\RR.HH.\Interno\Beneficios
+\RR.HH.\Interno\Nóminas
+\RR.HH.\Interno\Análisis
+\Herramientas</td>
+<td style="border:1px solid black;">090806PR-A139.xls
+(Esta carpeta contiene todas las herramientas SysInternal y la herramienta FCIV, tal como se enumeran en la sección &quot;Herramientas&quot; del <a href="http://www.microsoft.com/spain/technet/security/guidance/disasterrecovery/computer_investigation/a9a5c2a9-cce3-4edb-a92c-10983899240a.mspx">Apéndice: Recursos</a>.)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>HQLOAN164 (equipo de Mike Danseglio)</p></td>
-<td style="border:1px solid black;"><p>Documents and Settings\mdanseglio\Mis Documentos\Personal</p>
-<p>Documents and Settings\mdanseglio\Mis Documentos\Personal\xxxpixset</p></td>
-<td style="border:1px solid black;"><p>090806PR-A139.xls</p>
-<p>(Esta carpeta contiene varios archivos .jpg que incluyen xxx como parte del nombre de archivo. Varios archivos xxx*.* fueron eliminados de esta carpeta y se encuentran en la papelera de reciclaje).</p></td>
+<td style="border:1px solid black;">HQLOAN164 (equipo de Mike Danseglio)</td>
+<td style="border:1px solid black;">Documents and Settings\mdanseglio\Mis Documentos\Personal
+Documents and Settings\mdanseglio\Mis Documentos\Personal\xxxpixset</td>
+<td style="border:1px solid black;">090806PR-A139.xls
+(Esta carpeta contiene varios archivos .jpg que incluyen xxx como parte del nombre de archivo. Varios archivos xxx*.* fueron eliminados de esta carpeta y se encuentran en la papelera de reciclaje).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>HQ-IT-PC10 (equipo de Ray Chow)</p></td>
-<td style="border:1px solid black;"><p>\Herramientas</p></td>
-<td style="border:1px solid black;"><p>(Esta carpeta contiene todas las herramientas SysInternal y la herramienta FCIV, tal como se enumeran en la sección &quot;Herramientas&quot; del <a href="http://www.microsoft.com/a9a5c2a9-cce3-4edb-a92c-10983899240a.mspx">Apéndice: Recursos</a>.)</p></td>
+<td style="border:1px solid black;">HQ-IT-PC10 (equipo de Ray Chow)</td>
+<td style="border:1px solid black;">\Herramientas</td>
+<td style="border:1px solid black;">(Esta carpeta contiene todas las herramientas SysInternal y la herramienta FCIV, tal como se enumeran en la sección &quot;Herramientas&quot; del <a href="http://www.microsoft.com/a9a5c2a9-cce3-4edb-a92c-10983899240a.mspx">Apéndice: Recursos</a>.)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Lápiz USB (lápiz USB de Ray Chow)</p></td>
-<td style="border:1px solid black;"><p>\Evidencia</p>
-<p>\Evidencia_archivos</p>
-<p>\Herramientas</p></td>
-<td style="border:1px solid black;"><p>(Esta carpeta contiene todas las herramientas SysInternal y la herramienta FCIV, tal como se enumeran en la sección &quot;Herramientas&quot; del<a href="http://www.microsoft.com/a9a5c2a9-cce3-4edb-a92c-10983899240a.mspx">Apéndice: Recursos</a>.)</p></td>
+<td style="border:1px solid black;">Lápiz USB (lápiz USB de Ray Chow)</td>
+<td style="border:1px solid black;">\Evidencia
+\Evidencia_archivos
+\Herramientas</td>
+<td style="border:1px solid black;">(Esta carpeta contiene todas las herramientas SysInternal y la herramienta FCIV, tal como se enumeran en la sección &quot;Herramientas&quot; del<a href="http://www.microsoft.com/a9a5c2a9-cce3-4edb-a92c-10983899240a.mspx">Apéndice: Recursos</a>.)</td>
 </tr>
 </tbody>
 </table>
@@ -523,7 +523,7 @@ La tabla siguiente muestra una lista de las carpetas de archivo y comparte los p
   
 **Tabla 5.4. Carpetas y permisos de recursos compartidos del laboratorio del escenario de aplicación**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -531,19 +531,19 @@ La tabla siguiente muestra una lista de las carpetas de archivo y comparte los p
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Carpeta</p></th>
-<th><p>Permisos de recursos compartidos</p></th>
+<th>Carpeta</th>
+<th>Permisos de recursos compartidos</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>\RR.HH.</p></td>
-<td style="border:1px solid black;"><p>Branch01Mgrs (control total, de modificación, de lectura)</p>
-<p>HR MGRS (control total, de modificación, de lectura)</p></td>
+<td style="border:1px solid black;">\RR.HH.</td>
+<td style="border:1px solid black;">Branch01Mgrs (control total, de modificación, de lectura)
+HR MGRS (control total, de modificación, de lectura)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>\Herramientas</p></td>
-<td style="border:1px solid black;"><p>No compartido; sólo para uso local por usuarios que tienen credenciales administrativas del servidor.</p></td>
+<td style="border:1px solid black;">\Herramientas</td>
+<td style="border:1px solid black;">No compartido; sólo para uso local por usuarios que tienen credenciales administrativas del servidor.</td>
 </tr>
 </tbody>
 </table>

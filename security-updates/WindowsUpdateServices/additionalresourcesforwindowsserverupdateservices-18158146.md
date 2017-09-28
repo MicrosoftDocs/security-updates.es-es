@@ -31,7 +31,7 @@ WSUS Server Error Codes
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -41,186 +41,186 @@ WSUS Server Error Codes
 </colgroup>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Hexadecimal Error Code</strong></p></td>
-<td style="border:1px solid black;"><p><strong>Decimal Error Code</strong></p></td>
-<td style="border:1px solid black;"><p><strong>Error String</strong></p></td>
-<td style="border:1px solid black;"><p><strong>Description</strong></p></td>
+<td style="border:1px solid black;"><strong>Hexadecimal Error Code</strong></td>
+<td style="border:1px solid black;"><strong>Decimal Error Code</strong></td>
+<td style="border:1px solid black;"><strong>Error String</strong></td>
+<td style="border:1px solid black;"><strong>Description</strong></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x00000000</p></td>
-<td style="border:1px solid black;"><p>-4294967296</p></td>
-<td style="border:1px solid black;"><p>Success</p></td>
-<td style="border:1px solid black;"><p> Success</p></td>
+<td style="border:1px solid black;">0x00000000</td>
+<td style="border:1px solid black;">-4294967296</td>
+<td style="border:1px solid black;">Success</td>
+<td style="border:1px solid black;"> Success</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x00000001</p></td>
-<td style="border:1px solid black;"><p>-4294967295</p></td>
-<td style="border:1px solid black;"><p>ERROR_INVALID_FUNCTION</p></td>
-<td style="border:1px solid black;"><p>Invalid function. </p></td>
+<td style="border:1px solid black;">0x00000001</td>
+<td style="border:1px solid black;">-4294967295</td>
+<td style="border:1px solid black;">ERROR_INVALID_FUNCTION</td>
+<td style="border:1px solid black;">Invalid function. </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x0000007B</p></td>
-<td style="border:1px solid black;"><p>-4294967173</p></td>
-<td style="border:1px solid black;"><p>Error_Invalid_Name</p></td>
-<td style="border:1px solid black;"><p>The filename, directory name,or volume label syntax is incorrect</p></td>
+<td style="border:1px solid black;">0x0000007B</td>
+<td style="border:1px solid black;">-4294967173</td>
+<td style="border:1px solid black;">Error_Invalid_Name</td>
+<td style="border:1px solid black;">The filename, directory name,or volume label syntax is incorrect</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x00000275</p></td>
-<td style="border:1px solid black;"><p>-4294966667</p></td>
-<td style="border:1px solid black;"><p>Error_cant_enable_Deny_only</p></td>
-<td style="border:1px solid black;"><p>A group marked use for deny only can not be enabled</p></td>
+<td style="border:1px solid black;">0x00000275</td>
+<td style="border:1px solid black;">-4294966667</td>
+<td style="border:1px solid black;">Error_cant_enable_Deny_only</td>
+<td style="border:1px solid black;">A group marked use for deny only can not be enabled</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x0000041D</p></td>
-<td style="border:1px solid black;"><p>-4294966243</p></td>
-<td style="border:1px solid black;"><p>ERROR_SERVICE_</p>
-<p>REQUEST_TIMEOUT</p></td>
-<td style="border:1px solid black;"><p>The service did not respond to the start or control request in a timely fashion.</p></td>
+<td style="border:1px solid black;">0x0000041D</td>
+<td style="border:1px solid black;">-4294966243</td>
+<td style="border:1px solid black;">ERROR_SERVICE_
+REQUEST_TIMEOUT</td>
+<td style="border:1px solid black;">The service did not respond to the start or control request in a timely fashion.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x000004C3</p></td>
-<td style="border:1px solid black;"><p>-4294966077</p></td>
-<td style="border:1px solid black;"><p>Error_Session_Credential_Conflict</p></td>
-<td style="border:1px solid black;"><p>Multiple connections to a server or shared resource by the same user,using more than one user name, are not allowed. </p></td>
+<td style="border:1px solid black;">0x000004C3</td>
+<td style="border:1px solid black;">-4294966077</td>
+<td style="border:1px solid black;">Error_Session_Credential_Conflict</td>
+<td style="border:1px solid black;">Multiple connections to a server or shared resource by the same user,using more than one user name, are not allowed. </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x000004C5</p></td>
-<td style="border:1px solid black;"><p>-4294966075</p></td>
-<td style="border:1px solid black;"><p>Error_Dup_Domainename</p></td>
-<td style="border:1px solid black;"><p>The workgroup or domain name is already in use by another computer on the network.</p></td>
+<td style="border:1px solid black;">0x000004C5</td>
+<td style="border:1px solid black;">-4294966075</td>
+<td style="border:1px solid black;">Error_Dup_Domainename</td>
+<td style="border:1px solid black;">The workgroup or domain name is already in use by another computer on the network.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x000005D5</p></td>
-<td style="border:1px solid black;"><p>-4294965803</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">0x000005D5</td>
+<td style="border:1px solid black;">-4294965803</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x00000619</p></td>
-<td style="border:1px solid black;"><p>-4294965735</p></td>
-<td style="border:1px solid black;"><p>error_Invalid_HW_Profile</p></td>
-<td style="border:1px solid black;"><p>The specified hardware profile configuration is invalid</p></td>
+<td style="border:1px solid black;">0x00000619</td>
+<td style="border:1px solid black;">-4294965735</td>
+<td style="border:1px solid black;">error_Invalid_HW_Profile</td>
+<td style="border:1px solid black;">The specified hardware profile configuration is invalid</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x00000641</p></td>
-<td style="border:1px solid black;"><p>-4294965695</p></td>
-<td style="border:1px solid black;"><p>Error_Install_Service_failure</p></td>
-<td style="border:1px solid black;"><p>The Windows Installer Service could not be accessed. This can occur if you are running Windows in safe mode, or if the Microsoft Windows Installer is not correctly installed.</p></td>
+<td style="border:1px solid black;">0x00000641</td>
+<td style="border:1px solid black;">-4294965695</td>
+<td style="border:1px solid black;">Error_Install_Service_failure</td>
+<td style="border:1px solid black;">The Windows Installer Service could not be accessed. This can occur if you are running Windows in safe mode, or if the Microsoft Windows Installer is not correctly installed.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x00000643</p></td>
-<td style="border:1px solid black;"><p>-4294965693</p></td>
-<td style="border:1px solid black;"><p>ERROR_INSTALL_FAILURE</p></td>
-<td style="border:1px solid black;"><p>Fatal error during installation</p></td>
+<td style="border:1px solid black;">0x00000643</td>
+<td style="border:1px solid black;">-4294965693</td>
+<td style="border:1px solid black;">ERROR_INSTALL_FAILURE</td>
+<td style="border:1px solid black;">Fatal error during installation</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x00000652</p></td>
-<td style="border:1px solid black;"><p>-4294965678</p></td>
-<td style="border:1px solid black;"><p>ERROR_INSTALL_</p>
-<p>ALREADY_RUNNING</p></td>
-<td style="border:1px solid black;"><p>Another installation is already in progress. Complete that installation before proceeding with this install.</p></td>
+<td style="border:1px solid black;">0x00000652</td>
+<td style="border:1px solid black;">-4294965678</td>
+<td style="border:1px solid black;">ERROR_INSTALL_
+ALREADY_RUNNING</td>
+<td style="border:1px solid black;">Another installation is already in progress. Complete that installation before proceeding with this install.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x000006D9</p></td>
-<td style="border:1px solid black;"><p>-4294965543</p></td>
-<td style="border:1px solid black;"><p>EPT_S_Not_Registered</p></td>
-<td style="border:1px solid black;"><p>There are no more endpoints available from the endpoint mapper.</p></td>
+<td style="border:1px solid black;">0x000006D9</td>
+<td style="border:1px solid black;">-4294965543</td>
+<td style="border:1px solid black;">EPT_S_Not_Registered</td>
+<td style="border:1px solid black;">There are no more endpoints available from the endpoint mapper.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x000006F6</p></td>
-<td style="border:1px solid black;"><p>-4294965514</p></td>
-<td style="border:1px solid black;"><p>RPC_X_BYTE_Count_TOO_Small</p></td>
-<td style="border:1px solid black;"><p>The byte count is too small</p></td>
+<td style="border:1px solid black;">0x000006F6</td>
+<td style="border:1px solid black;">-4294965514</td>
+<td style="border:1px solid black;">RPC_X_BYTE_Count_TOO_Small</td>
+<td style="border:1px solid black;">The byte count is too small</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x00000963</p></td>
-<td style="border:1px solid black;"><p>-4294964893</p></td>
-<td style="border:1px solid black;"><p>NERR_BADPasswordCore</p></td>
-<td style="border:1px solid black;"><p>This share name or password is invalid</p></td>
+<td style="border:1px solid black;">0x00000963</td>
+<td style="border:1px solid black;">-4294964893</td>
+<td style="border:1px solid black;">NERR_BADPasswordCore</td>
+<td style="border:1px solid black;">This share name or password is invalid</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x00000BC2</p></td>
-<td style="border:1px solid black;"><p>-4294964286</p></td>
-<td style="border:1px solid black;"><p>Error_Success_Reboot_Required</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">0x00000BC2</td>
+<td style="border:1px solid black;">-4294964286</td>
+<td style="border:1px solid black;">Error_Success_Reboot_Required</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x00000C0B</p></td>
-<td style="border:1px solid black;"><p>-4294964213</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">0x00000C0B</td>
+<td style="border:1px solid black;">-4294964213</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x00000CC4</p></td>
-<td style="border:1px solid black;"><p>-4294964028</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">0x00000CC4</td>
+<td style="border:1px solid black;">-4294964028</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x00000D47</p></td>
-<td style="border:1px solid black;"><p>-4294963897</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">0x00000D47</td>
+<td style="border:1px solid black;">-4294963897</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x00000E5C</p></td>
-<td style="border:1px solid black;"><p>-4294963620</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">0x00000E5C</td>
+<td style="border:1px solid black;">-4294963620</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x00000E74</p></td>
-<td style="border:1px solid black;"><p>-4294963596</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">0x00000E74</td>
+<td style="border:1px solid black;">-4294963596</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x0000109F</p></td>
-<td style="border:1px solid black;"><p>-4294963041</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">0x0000109F</td>
+<td style="border:1px solid black;">-4294963041</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x00001112</p></td>
-<td style="border:1px solid black;"><p>-4294962926</p></td>
-<td style="border:1px solid black;"><p>Error_No_Media_In_Drive</p></td>
-<td style="border:1px solid black;"><p>No media in drive</p></td>
+<td style="border:1px solid black;">0x00001112</td>
+<td style="border:1px solid black;">-4294962926</td>
+<td style="border:1px solid black;">Error_No_Media_In_Drive</td>
+<td style="border:1px solid black;">No media in drive</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x0000117A</p></td>
-<td style="border:1px solid black;"><p>-4294962822</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">0x0000117A</td>
+<td style="border:1px solid black;">-4294962822</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x00001190</p></td>
-<td style="border:1px solid black;"><p>-4294962800</p></td>
-<td style="border:1px solid black;"><p>Error_Shutdown_IS_Scheduled</p></td>
-<td style="border:1px solid black;"><p>A system shutdown has already been scheduled</p></td>
+<td style="border:1px solid black;">0x00001190</td>
+<td style="border:1px solid black;">-4294962800</td>
+<td style="border:1px solid black;">Error_Shutdown_IS_Scheduled</td>
+<td style="border:1px solid black;">A system shutdown has already been scheduled</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x00001234</p></td>
-<td style="border:1px solid black;"><p>-4294962636</p></td>
-<td style="border:1px solid black;"><p>Error_Port_Unreachable</p></td>
-<td style="border:1px solid black;"><p>No Service is operating at the destination network endpoint on the remote system</p></td>
+<td style="border:1px solid black;">0x00001234</td>
+<td style="border:1px solid black;">-4294962636</td>
+<td style="border:1px solid black;">Error_Port_Unreachable</td>
+<td style="border:1px solid black;">No Service is operating at the destination network endpoint on the remote system</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x00001396</p></td>
-<td style="border:1px solid black;"><p>-4294962282</p></td>
-<td style="border:1px solid black;"><p>Error_Wrong_Target_Name</p></td>
-<td style="border:1px solid black;"><p>Logon failure: The target account name is incorrect.</p></td>
+<td style="border:1px solid black;">0x00001396</td>
+<td style="border:1px solid black;">-4294962282</td>
+<td style="border:1px solid black;">Error_Wrong_Target_Name</td>
+<td style="border:1px solid black;">Logon failure: The target account name is incorrect.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x000013D7</p></td>
-<td style="border:1px solid black;"><p>-4294962217</p></td>
-<td style="border:1px solid black;"><p>Error_Cluster_restype_Note_Supported</p></td>
-<td style="border:1px solid black;"><p>The specified node does not support a resource of this type. This amy be due to version inconsistancies or due to the absence of the resource DLL on this node.</p></td>
+<td style="border:1px solid black;">0x000013D7</td>
+<td style="border:1px solid black;">-4294962217</td>
+<td style="border:1px solid black;">Error_Cluster_restype_Note_Supported</td>
+<td style="border:1px solid black;">The specified node does not support a resource of this type. This amy be due to version inconsistancies or due to the absence of the resource DLL on this node.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x00001449</p></td>
-<td style="border:1px solid black;"><p>-4294962103</p></td>
-<td style="border:1px solid black;"><p>Error_Invalid_Showwin_Command</p></td>
-<td style="border:1px solid black;"><p>Cannot show or remove the window in the way specified</p></td>
+<td style="border:1px solid black;">0x00001449</td>
+<td style="border:1px solid black;">-4294962103</td>
+<td style="border:1px solid black;">Error_Invalid_Showwin_Command</td>
+<td style="border:1px solid black;">Cannot show or remove the window in the way specified</td>
 </tr>
 </tbody>
 </table>
@@ -230,7 +230,7 @@ Windows Update Client Error Codes
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -239,1191 +239,1191 @@ Windows Update Client Error Codes
 </colgroup>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Hexadecimal error code</strong></p></td>
-<td style="border:1px solid black;"><p><strong>Error String</strong></p></td>
-<td style="border:1px solid black;"><p><strong>Description</strong></p></td>
+<td style="border:1px solid black;"><strong>Hexadecimal error code</strong></td>
+<td style="border:1px solid black;"><strong>Error String</strong></td>
+<td style="border:1px solid black;"><strong>Description</strong></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x00240001</p></td>
-<td style="border:1px solid black;"><p>WU_S_SERVICE_STOP</p></td>
-<td style="border:1px solid black;"><p>Service stopped.</p></td>
+<td style="border:1px solid black;">0x00240001</td>
+<td style="border:1px solid black;">WU_S_SERVICE_STOP</td>
+<td style="border:1px solid black;">Service stopped.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x00240002</p></td>
-<td style="border:1px solid black;"><p>WU_S_SELFUPDATE</p></td>
-<td style="border:1px solid black;"><p>Agent selfupdates</p></td>
+<td style="border:1px solid black;">0x00240002</td>
+<td style="border:1px solid black;">WU_S_SELFUPDATE</td>
+<td style="border:1px solid black;">Agent selfupdates</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x00240003</p></td>
-<td style="border:1px solid black;"><p>WU_S_UPDATE_ERROR</p></td>
-<td style="border:1px solid black;"><p>Overall operation completed but error occurred while processing one or more specified updates.</p></td>
+<td style="border:1px solid black;">0x00240003</td>
+<td style="border:1px solid black;">WU_S_UPDATE_ERROR</td>
+<td style="border:1px solid black;">Overall operation completed but error occurred while processing one or more specified updates.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x00240004</p></td>
-<td style="border:1px solid black;"><p>WU_S_</p>
-<p>MARKED_FOR_DISCONNECT</p></td>
-<td style="border:1px solid black;"><p>The system needs to be rebooted to complete installtation.</p></td>
+<td style="border:1px solid black;">0x00240004</td>
+<td style="border:1px solid black;">WU_S_
+MARKED_FOR_DISCONNECT</td>
+<td style="border:1px solid black;">The system needs to be rebooted to complete installtation.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x00240006</p></td>
-<td style="border:1px solid black;"><p>WU_S_</p>
-<p>ALREADY_INSTALLED</p></td>
-<td style="border:1px solid black;"><p>The update to be installed is already installed.</p></td>
+<td style="border:1px solid black;">0x00240006</td>
+<td style="border:1px solid black;">WU_S_
+ALREADY_INSTALLED</td>
+<td style="border:1px solid black;">The update to be installed is already installed.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x00240007</p></td>
-<td style="border:1px solid black;"><p>WU_S_</p>
-<p>ALREADY_UNINSTALLED</p></td>
-<td style="border:1px solid black;"><p>The update to be uninstalled is already not installed</p></td>
+<td style="border:1px solid black;">0x00240007</td>
+<td style="border:1px solid black;">WU_S_
+ALREADY_UNINSTALLED</td>
+<td style="border:1px solid black;">The update to be uninstalled is already not installed</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x00240008</p></td>
-<td style="border:1px solid black;"><p>WU_S_</p>
-<p>ALREADY_DOWNLOADED</p></td>
-<td style="border:1px solid black;"><p>The update to be downloaded is already downloaded.</p></td>
+<td style="border:1px solid black;">0x00240008</td>
+<td style="border:1px solid black;">WU_S_
+ALREADY_DOWNLOADED</td>
+<td style="border:1px solid black;">The update to be downloaded is already downloaded.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80240001</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>NO_SERVICE</p></td>
-<td style="border:1px solid black;"><p>Service stopped. For whatever reason, WSUS agent cannot provide the service.</p></td>
+<td style="border:1px solid black;">0x80240001</td>
+<td style="border:1px solid black;">WU_E_
+NO_SERVICE</td>
+<td style="border:1px solid black;">Service stopped. For whatever reason, WSUS agent cannot provide the service.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80240002</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>MAX_CAPACITY_REACHED</p></td>
-<td style="border:1px solid black;"><p>Maximum capacity of the service is reached.</p></td>
+<td style="border:1px solid black;">0x80240002</td>
+<td style="border:1px solid black;">WU_E_
+MAX_CAPACITY_REACHED</td>
+<td style="border:1px solid black;">Maximum capacity of the service is reached.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80240003</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>UNKNOWN_ID</p></td>
-<td style="border:1px solid black;"><p>Id not found.</p></td>
+<td style="border:1px solid black;">0x80240003</td>
+<td style="border:1px solid black;">WU_E_
+UNKNOWN_ID</td>
+<td style="border:1px solid black;">Id not found.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80240004</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>NOT_INITIALIZED</p></td>
-<td style="border:1px solid black;"><p>Object is not correctly initialized.</p></td>
+<td style="border:1px solid black;">0x80240004</td>
+<td style="border:1px solid black;">WU_E_
+NOT_INITIALIZED</td>
+<td style="border:1px solid black;">Object is not correctly initialized.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80240005</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>RANGEOVERLAP</p></td>
-<td style="border:1px solid black;"><p>Update handler attempted to request a byte range that overlapped a previously requested byte range.</p></td>
+<td style="border:1px solid black;">0x80240005</td>
+<td style="border:1px solid black;">WU_E_
+RANGEOVERLAP</td>
+<td style="border:1px solid black;">Update handler attempted to request a byte range that overlapped a previously requested byte range.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80240006</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>TOOMANYRANGES</p></td>
-<td style="border:1px solid black;"><p>Update handler attempted to request too many ranges (more than 2^31 - 1).</p></td>
+<td style="border:1px solid black;">0x80240006</td>
+<td style="border:1px solid black;">WU_E_
+TOOMANYRANGES</td>
+<td style="border:1px solid black;">Update handler attempted to request too many ranges (more than 2^31 - 1).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80240007</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>INVALIDINDEX</p></td>
-<td style="border:1px solid black;"><p>An attempt was made to use an invalid index.</p></td>
+<td style="border:1px solid black;">0x80240007</td>
+<td style="border:1px solid black;">WU_E_
+INVALIDINDEX</td>
+<td style="border:1px solid black;">An attempt was made to use an invalid index.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80240008</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>ITEMNOTFOUND</p></td>
-<td style="border:1px solid black;"><p>A query was made for an item with a particular key and that key was not found</p></td>
+<td style="border:1px solid black;">0x80240008</td>
+<td style="border:1px solid black;">WU_E_
+ITEMNOTFOUND</td>
+<td style="border:1px solid black;">A query was made for an item with a particular key and that key was not found</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80240009</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>OPERATIONINPROGRESS</p></td>
-<td style="border:1px solid black;"><p>The caller attempted to perform an operation on an interface while another operation was in progress.</p></td>
+<td style="border:1px solid black;">0x80240009</td>
+<td style="border:1px solid black;">WU_E_
+OPERATIONINPROGRESS</td>
+<td style="border:1px solid black;">The caller attempted to perform an operation on an interface while another operation was in progress.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024000A</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>COULDNOTCANCEL</p></td>
-<td style="border:1px solid black;"><p>The caller attempted to cancel an operation that is not cancelable.</p></td>
+<td style="border:1px solid black;">0x8024000A</td>
+<td style="border:1px solid black;">WU_E_
+COULDNOTCANCEL</td>
+<td style="border:1px solid black;">The caller attempted to cancel an operation that is not cancelable.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024000B</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>CALL_CANCELLED</p></td>
-<td style="border:1px solid black;"><p>Call has been cancelled.</p></td>
+<td style="border:1px solid black;">0x8024000B</td>
+<td style="border:1px solid black;">WU_E_
+CALL_CANCELLED</td>
+<td style="border:1px solid black;">Call has been cancelled.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024000C</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>NOOP</p></td>
-<td style="border:1px solid black;"><p>No operation is needed.</p></td>
+<td style="border:1px solid black;">0x8024000C</td>
+<td style="border:1px solid black;">WU_E_
+NOOP</td>
+<td style="border:1px solid black;">No operation is needed.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024000D</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>XML_MISSINGDATA</p></td>
-<td style="border:1px solid black;"><p>The WSUS agent is attempting to parse an update's XML blob and has not found expected data.</p></td>
+<td style="border:1px solid black;">0x8024000D</td>
+<td style="border:1px solid black;">WU_E_
+XML_MISSINGDATA</td>
+<td style="border:1px solid black;">The WSUS agent is attempting to parse an update's XML blob and has not found expected data.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024000E</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>XML_INVALID</p></td>
-<td style="border:1px solid black;"><p>The WSUS agent is attempting to parse an update's XML blob and has encountered data that is invalid.</p></td>
+<td style="border:1px solid black;">0x8024000E</td>
+<td style="border:1px solid black;">WU_E_
+XML_INVALID</td>
+<td style="border:1px solid black;">The WSUS agent is attempting to parse an update's XML blob and has encountered data that is invalid.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024000F</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>CYCLE_DETECTED</p></td>
-<td style="border:1px solid black;"><p>Cycle detected in metadata.</p></td>
+<td style="border:1px solid black;">0x8024000F</td>
+<td style="border:1px solid black;">WU_E_
+CYCLE_DETECTED</td>
+<td style="border:1px solid black;">Cycle detected in metadata.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80240010</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>TOO_DEEP_RELATION</p></td>
-<td style="border:1px solid black;"><p>Too deep relationship found.</p></td>
+<td style="border:1px solid black;">0x80240010</td>
+<td style="border:1px solid black;">WU_E_
+TOO_DEEP_RELATION</td>
+<td style="border:1px solid black;">Too deep relationship found.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80240011</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>INVALID_RELATIONSHIP</p></td>
-<td style="border:1px solid black;"><p>Relationship data wrong for an update.</p></td>
+<td style="border:1px solid black;">0x80240011</td>
+<td style="border:1px solid black;">WU_E_
+INVALID_RELATIONSHIP</td>
+<td style="border:1px solid black;">Relationship data wrong for an update.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80240012</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>REG_VALUE_INVALID</p></td>
-<td style="border:1px solid black;"><p>Registry value was read but is invalid.</p></td>
+<td style="border:1px solid black;">0x80240012</td>
+<td style="border:1px solid black;">WU_E_
+REG_VALUE_INVALID</td>
+<td style="border:1px solid black;">Registry value was read but is invalid.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80240013</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>DUPLICATE_ITEM</p></td>
-<td style="border:1px solid black;"><p>Attempt was made to add a duplicate item to a list.</p></td>
+<td style="border:1px solid black;">0x80240013</td>
+<td style="border:1px solid black;">WU_E_
+DUPLICATE_ITEM</td>
+<td style="border:1px solid black;">Attempt was made to add a duplicate item to a list.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80240016</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>INSTALL_NOT_ALLOWED</p></td>
-<td style="border:1px solid black;"><p>Attempt was made to install while another install is going on or reboot is pending</p></td>
+<td style="border:1px solid black;">0x80240016</td>
+<td style="border:1px solid black;">WU_E_
+INSTALL_NOT_ALLOWED</td>
+<td style="border:1px solid black;">Attempt was made to install while another install is going on or reboot is pending</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80240017</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>NOT_APPLICABLE</p></td>
-<td style="border:1px solid black;"><p>Install is not needed because no updates are applicable.</p></td>
+<td style="border:1px solid black;">0x80240017</td>
+<td style="border:1px solid black;">WU_E_
+NOT_APPLICABLE</td>
+<td style="border:1px solid black;">Install is not needed because no updates are applicable.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80240018</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>NO_USERTOKEN</p></td>
-<td style="border:1px solid black;"><p>Operation failed due to missing user token.</p></td>
+<td style="border:1px solid black;">0x80240018</td>
+<td style="border:1px solid black;">WU_E_
+NO_USERTOKEN</td>
+<td style="border:1px solid black;">Operation failed due to missing user token.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80240019</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>EXCLUSIVE_INSTALL_CONFILCT</p></td>
-<td style="border:1px solid black;"><p>Attempt was made to install an exclusive update with other updates at the same time.</p></td>
+<td style="border:1px solid black;">0x80240019</td>
+<td style="border:1px solid black;">WU_E_
+EXCLUSIVE_INSTALL_CONFILCT</td>
+<td style="border:1px solid black;">Attempt was made to install an exclusive update with other updates at the same time.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024001A</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>POLICY_NOT_SET</p></td>
-<td style="border:1px solid black;"><p>Policy value is not set.</p></td>
+<td style="border:1px solid black;">0x8024001A</td>
+<td style="border:1px solid black;">WU_E_
+POLICY_NOT_SET</td>
+<td style="border:1px solid black;">Policy value is not set.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024001B</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>SELFUPDATE_IN_PROGRESS</p></td>
-<td style="border:1px solid black;"><p>Self-update in progress.</p></td>
+<td style="border:1px solid black;">0x8024001B</td>
+<td style="border:1px solid black;">WU_E_
+SELFUPDATE_IN_PROGRESS</td>
+<td style="border:1px solid black;">Self-update in progress.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024001D</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>INVALID_UPDATE</p></td>
-<td style="border:1px solid black;"><p>An update had invalid metadata.</p></td>
+<td style="border:1px solid black;">0x8024001D</td>
+<td style="border:1px solid black;">WU_E_
+INVALID_UPDATE</td>
+<td style="border:1px solid black;">An update had invalid metadata.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024001E</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>SERVICE_STOP</p></td>
-<td style="border:1px solid black;"><p>Call was aborted due to service stop or system shut down.</p></td>
+<td style="border:1px solid black;">0x8024001E</td>
+<td style="border:1px solid black;">WU_E_
+SERVICE_STOP</td>
+<td style="border:1px solid black;">Call was aborted due to service stop or system shut down.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024001F</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>NO_CONNECTION</p></td>
-<td style="border:1px solid black;"><p>No network connection is available to finish the operation.</p></td>
+<td style="border:1px solid black;">0x8024001F</td>
+<td style="border:1px solid black;">WU_E_
+NO_CONNECTION</td>
+<td style="border:1px solid black;">No network connection is available to finish the operation.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80240020</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>NO_INTERACTIVE_USER</p></td>
-<td style="border:1px solid black;"><p>Interactive user is missing to finish the operation.</p></td>
+<td style="border:1px solid black;">0x80240020</td>
+<td style="border:1px solid black;">WU_E_
+NO_INTERACTIVE_USER</td>
+<td style="border:1px solid black;">Interactive user is missing to finish the operation.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80240021</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>TIME_OUT</p></td>
-<td style="border:1px solid black;"><p>Operation timed out.</p></td>
+<td style="border:1px solid black;">0x80240021</td>
+<td style="border:1px solid black;">WU_E_
+TIME_OUT</td>
+<td style="border:1px solid black;">Operation timed out.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80240022</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>ALL_UPDATES_FAILED</p></td>
-<td style="border:1px solid black;"><p>Operation failed on all specified updates.</p></td>
+<td style="border:1px solid black;">0x80240022</td>
+<td style="border:1px solid black;">WU_E_
+ALL_UPDATES_FAILED</td>
+<td style="border:1px solid black;">Operation failed on all specified updates.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80240023</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>EULAS_DECLINED</p></td>
-<td style="border:1px solid black;"><p>EULAs for all the updates are declined.</p></td>
+<td style="border:1px solid black;">0x80240023</td>
+<td style="border:1px solid black;">WU_E_
+EULAS_DECLINED</td>
+<td style="border:1px solid black;">EULAs for all the updates are declined.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80240024</p></td>
-<td style="border:1px solid black;"><p>WU_E_NO_UPDATE</p></td>
-<td style="border:1px solid black;"><p>There are no updates.</p></td>
+<td style="border:1px solid black;">0x80240024</td>
+<td style="border:1px solid black;">WU_E_NO_UPDATE</td>
+<td style="border:1px solid black;">There are no updates.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80240025</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>USER_ACCESS_DISABLED</p></td>
-<td style="border:1px solid black;"><p>User access to Windows Update is prevented by Group Policy setting.</p></td>
+<td style="border:1px solid black;">0x80240025</td>
+<td style="border:1px solid black;">WU_E_
+USER_ACCESS_DISABLED</td>
+<td style="border:1px solid black;">User access to Windows Update is prevented by Group Policy setting.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80240026</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>INVALID_UPDATE_TYPE</p></td>
-<td style="border:1px solid black;"><p>Invalid type of update.</p></td>
+<td style="border:1px solid black;">0x80240026</td>
+<td style="border:1px solid black;">WU_E_
+INVALID_UPDATE_TYPE</td>
+<td style="border:1px solid black;">Invalid type of update.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80240027</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>URL_TOO_LONG</p></td>
-<td style="border:1px solid black;"><p>URL is too long.</p></td>
+<td style="border:1px solid black;">0x80240027</td>
+<td style="border:1px solid black;">WU_E_
+URL_TOO_LONG</td>
+<td style="border:1px solid black;">URL is too long.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80240028</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>UNINSTALL_NOT_ALLOWED</p></td>
-<td style="border:1px solid black;"><p>Uninstall is not allowed due to non-managed environment.</p></td>
+<td style="border:1px solid black;">0x80240028</td>
+<td style="border:1px solid black;">WU_E_
+UNINSTALL_NOT_ALLOWED</td>
+<td style="border:1px solid black;">Uninstall is not allowed due to non-managed environment.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80240029</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>INVALID_PRODUCT_LICENSE</p></td>
-<td style="border:1px solid black;"><p>A product with an invalid license was found on the system.</p></td>
+<td style="border:1px solid black;">0x80240029</td>
+<td style="border:1px solid black;">WU_E_
+INVALID_PRODUCT_LICENSE</td>
+<td style="border:1px solid black;">A product with an invalid license was found on the system.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024002A</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>MISSING_HANDLER</p></td>
-<td style="border:1px solid black;"><p>A component required for detecting applicable updates was missing.</p></td>
+<td style="border:1px solid black;">0x8024002A</td>
+<td style="border:1px solid black;">WU_E_
+MISSING_HANDLER</td>
+<td style="border:1px solid black;">A component required for detecting applicable updates was missing.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024002B</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>LEGACYSERVER</p></td>
-<td style="border:1px solid black;"><p>The WSUS server we are talking to is a Legacy SUS Server (SUS 1.0)</p></td>
+<td style="border:1px solid black;">0x8024002B</td>
+<td style="border:1px solid black;">WU_E_
+LEGACYSERVER</td>
+<td style="border:1px solid black;">The WSUS server we are talking to is a Legacy SUS Server (SUS 1.0)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024002C</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>BIN_SOURCE_ABSENT</p></td>
-<td style="border:1px solid black;"><p>A binary-delta update failed because the source was required.</p></td>
+<td style="border:1px solid black;">0x8024002C</td>
+<td style="border:1px solid black;">WU_E_
+BIN_SOURCE_ABSENT</td>
+<td style="border:1px solid black;">A binary-delta update failed because the source was required.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024002D</p></td>
-<td style="border:1px solid black;"><p>WU_E_FF_</p>
-<p>SOURCE_ABSENT</p></td>
-<td style="border:1px solid black;"><p>A full-file update failed because the source was required.</p></td>
+<td style="border:1px solid black;">0x8024002D</td>
+<td style="border:1px solid black;">WU_E_FF_
+SOURCE_ABSENT</td>
+<td style="border:1px solid black;">A full-file update failed because the source was required.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024002E</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>WU_DISABLED</p></td>
-<td style="border:1px solid black;"><p>Non-managed server access is disallowed.</p></td>
+<td style="border:1px solid black;">0x8024002E</td>
+<td style="border:1px solid black;">WU_E_
+WU_DISABLED</td>
+<td style="border:1px solid black;">Non-managed server access is disallowed.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024002F</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>CALL_CANCELLED_BY_POLICY</p></td>
-<td style="border:1px solid black;"><p>Call cancelled because of DisableWindowsUpdateAccess policy takes effect.</p></td>
+<td style="border:1px solid black;">0x8024002F</td>
+<td style="border:1px solid black;">WU_E_
+CALL_CANCELLED_BY_POLICY</td>
+<td style="border:1px solid black;">Call cancelled because of DisableWindowsUpdateAccess policy takes effect.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80240030</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>INVALID_PROXY_SERVER</p></td>
-<td style="border:1px solid black;"><p>Invalid format for proxy list.</p></td>
+<td style="border:1px solid black;">0x80240030</td>
+<td style="border:1px solid black;">WU_E_
+INVALID_PROXY_SERVER</td>
+<td style="border:1px solid black;">Invalid format for proxy list.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80240031</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>INVALID_FILE</p></td>
-<td style="border:1px solid black;"><p>File is not of the right format.</p></td>
+<td style="border:1px solid black;">0x80240031</td>
+<td style="border:1px solid black;">WU_E_
+INVALID_FILE</td>
+<td style="border:1px solid black;">File is not of the right format.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80240032</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>INVALID_CRITERIA</p></td>
-<td style="border:1px solid black;"><p>Invalid criteria string.</p></td>
+<td style="border:1px solid black;">0x80240032</td>
+<td style="border:1px solid black;">WU_E_
+INVALID_CRITERIA</td>
+<td style="border:1px solid black;">Invalid criteria string.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80240033</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>EULA_UNAVAILABLE</p></td>
-<td style="border:1px solid black;"><p>EULA download failure.</p></td>
+<td style="border:1px solid black;">0x80240033</td>
+<td style="border:1px solid black;">WU_E_
+EULA_UNAVAILABLE</td>
+<td style="border:1px solid black;">EULA download failure.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80240034</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>DOWNLOAD_FAILED</p></td>
-<td style="border:1px solid black;"><p>Failed to download.</p></td>
+<td style="border:1px solid black;">0x80240034</td>
+<td style="border:1px solid black;">WU_E_
+DOWNLOAD_FAILED</td>
+<td style="border:1px solid black;">Failed to download.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80240035</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>UPDATE_NOT_PROCESSED</p></td>
-<td style="border:1px solid black;"><p>INTERNAL ONLY: The update was not processed.</p></td>
+<td style="border:1px solid black;">0x80240035</td>
+<td style="border:1px solid black;">WU_E_
+UPDATE_NOT_PROCESSED</td>
+<td style="border:1px solid black;">INTERNAL ONLY: The update was not processed.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80240036</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>INVALID_OPERATION</p></td>
-<td style="border:1px solid black;"><p>The operation is invalid for the object's current state.</p></td>
+<td style="border:1px solid black;">0x80240036</td>
+<td style="border:1px solid black;">WU_E_
+INVALID_OPERATION</td>
+<td style="border:1px solid black;">The operation is invalid for the object's current state.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80240037</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>NOT_SUPPORTED</p></td>
-<td style="border:1px solid black;"><p>The invoked functionality is not supported.</p></td>
+<td style="border:1px solid black;">0x80240037</td>
+<td style="border:1px solid black;">WU_E_
+NOT_SUPPORTED</td>
+<td style="border:1px solid black;">The invoked functionality is not supported.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80240FFF</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>UNEXPECTED</p></td>
-<td style="border:1px solid black;"><p>Unexpected failure.</p></td>
+<td style="border:1px solid black;">0x80240FFF</td>
+<td style="border:1px solid black;">WU_E_
+UNEXPECTED</td>
+<td style="border:1px solid black;">Unexpected failure.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80241001</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>MSI_WRONG_VERSION</p></td>
-<td style="border:1px solid black;"><p>The Windows Installer version on the machine is less than what we expect (WSUS requires Windows Installer 3.0)</p></td>
+<td style="border:1px solid black;">0x80241001</td>
+<td style="border:1px solid black;">WU_E_
+MSI_WRONG_VERSION</td>
+<td style="border:1px solid black;">The Windows Installer version on the machine is less than what we expect (WSUS requires Windows Installer 3.0)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80241002</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>MSI_NOT_CONFIGURED</p></td>
-<td style="border:1px solid black;"><p>Windows Installer is not configured.</p></td>
+<td style="border:1px solid black;">0x80241002</td>
+<td style="border:1px solid black;">WU_E_
+MSI_NOT_CONFIGURED</td>
+<td style="border:1px solid black;">Windows Installer is not configured.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80241003</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>MSP_DISABLED</p></td>
-<td style="border:1px solid black;"><p>Windows Installer updating is disabled by policy.</p></td>
+<td style="border:1px solid black;">0x80241003</td>
+<td style="border:1px solid black;">WU_E_
+MSP_DISABLED</td>
+<td style="border:1px solid black;">Windows Installer updating is disabled by policy.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80241FFF</p></td>
-<td style="border:1px solid black;"><p>WU_E_</p>
-<p>MSP_UNEXPECTED</p></td>
-<td style="border:1px solid black;"><p>Unexpected MSP failure.</p></td>
+<td style="border:1px solid black;">0x80241FFF</td>
+<td style="border:1px solid black;">WU_E_
+MSP_UNEXPECTED</td>
+<td style="border:1px solid black;">Unexpected MSP failure.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80244000</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>SOAPCLIENT_BASE</p></td>
-<td style="border:1px solid black;"><p>Used as a base to map SOAP client errors.</p></td>
+<td style="border:1px solid black;">0x80244000</td>
+<td style="border:1px solid black;">WU_E_PT_
+SOAPCLIENT_BASE</td>
+<td style="border:1px solid black;">Used as a base to map SOAP client errors.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80244001</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>SOAPCLIENT_INITIALIZE_ERROR</p></td>
-<td style="border:1px solid black;"><p>Initialization failed; most likely an MSXML installation problem.</p></td>
+<td style="border:1px solid black;">0x80244001</td>
+<td style="border:1px solid black;">WU_E_PT_
+SOAPCLIENT_INITIALIZE_ERROR</td>
+<td style="border:1px solid black;">Initialization failed; most likely an MSXML installation problem.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80244002</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>SOAPCLIENT_OUTOFMEMORY</p></td>
-<td style="border:1px solid black;"><p>SOAP client out of memory.</p></td>
+<td style="border:1px solid black;">0x80244002</td>
+<td style="border:1px solid black;">WU_E_PT_
+SOAPCLIENT_OUTOFMEMORY</td>
+<td style="border:1px solid black;">SOAP client out of memory.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80244003</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>SOAPCLIENT_GENERATE</p></td>
-<td style="border:1px solid black;"><p>SOAP client failed in generating the response.</p></td>
+<td style="border:1px solid black;">0x80244003</td>
+<td style="border:1px solid black;">WU_E_PT_
+SOAPCLIENT_GENERATE</td>
+<td style="border:1px solid black;">SOAP client failed in generating the response.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80244004</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>SOAPCLIENT_CONNECT</p></td>
-<td style="border:1px solid black;"><p>SOAP client failed connecting to server.</p></td>
+<td style="border:1px solid black;">0x80244004</td>
+<td style="border:1px solid black;">WU_E_PT_
+SOAPCLIENT_CONNECT</td>
+<td style="border:1px solid black;">SOAP client failed connecting to server.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80244005</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>SOAPCLIENT_SEND</p></td>
-<td style="border:1px solid black;"><p>SOAP client failed in sending message. Deprecated in favor of the more specific underlying WinHTTP errors, which will be returned when the client encounters an error communicating with the server.</p></td>
+<td style="border:1px solid black;">0x80244005</td>
+<td style="border:1px solid black;">WU_E_PT_
+SOAPCLIENT_SEND</td>
+<td style="border:1px solid black;">SOAP client failed in sending message. Deprecated in favor of the more specific underlying WinHTTP errors, which will be returned when the client encounters an error communicating with the server.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80244006</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>SOAPCLIENT_SERVER</p></td>
-<td style="border:1px solid black;"><p>SOAP server error.</p></td>
+<td style="border:1px solid black;">0x80244006</td>
+<td style="border:1px solid black;">WU_E_PT_
+SOAPCLIENT_SERVER</td>
+<td style="border:1px solid black;">SOAP server error.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80244007</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>SOAPCLIENT_SOAPFAULT</p></td>
-<td style="border:1px solid black;"><p>Fault was returned by the server.</p></td>
+<td style="border:1px solid black;">0x80244007</td>
+<td style="border:1px solid black;">WU_E_PT_
+SOAPCLIENT_SOAPFAULT</td>
+<td style="border:1px solid black;">Fault was returned by the server.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80244008</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>SOAPCLIENT_PARSEFAULT</p></td>
-<td style="border:1px solid black;"><p>Failed in parsing SOAP.</p></td>
+<td style="border:1px solid black;">0x80244008</td>
+<td style="border:1px solid black;">WU_E_PT_
+SOAPCLIENT_PARSEFAULT</td>
+<td style="border:1px solid black;">Failed in parsing SOAP.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80244009</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>SOAPCLIENT_READ</p></td>
-<td style="border:1px solid black;"><p>Failed in reading response.</p></td>
+<td style="border:1px solid black;">0x80244009</td>
+<td style="border:1px solid black;">WU_E_PT_
+SOAPCLIENT_READ</td>
+<td style="border:1px solid black;">Failed in reading response.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024400B</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>SOAP_VERSION</p></td>
-<td style="border:1px solid black;"><p>Invalid namespace for the SOAP envelope.</p></td>
+<td style="border:1px solid black;">0x8024400B</td>
+<td style="border:1px solid black;">WU_E_PT_
+SOAP_VERSION</td>
+<td style="border:1px solid black;">Invalid namespace for the SOAP envelope.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024400C</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>SOAP_MUST_UNDERSTAND</p></td>
-<td style="border:1px solid black;"><p>Child of header with mustUnderstand = 1 wasn't understood or obeyed/</p></td>
+<td style="border:1px solid black;">0x8024400C</td>
+<td style="border:1px solid black;">WU_E_PT_
+SOAP_MUST_UNDERSTAND</td>
+<td style="border:1px solid black;">Child of header with mustUnderstand = 1 wasn't understood or obeyed/</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024400D</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>SOAP_CLIENT</p></td>
-<td style="border:1px solid black;"><p>The message was malformed or incomplete.</p></td>
+<td style="border:1px solid black;">0x8024400D</td>
+<td style="border:1px solid black;">WU_E_PT_
+SOAP_CLIENT</td>
+<td style="border:1px solid black;">The message was malformed or incomplete.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024400E</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>SOAP_SERVER</p></td>
-<td style="border:1px solid black;"><p>The message was OK but server couldn't process at the moment. Same message may succeed at a later time.</p></td>
+<td style="border:1px solid black;">0x8024400E</td>
+<td style="border:1px solid black;">WU_E_PT_
+SOAP_SERVER</td>
+<td style="border:1px solid black;">The message was OK but server couldn't process at the moment. Same message may succeed at a later time.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024400F</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>WMI_ERROR</p></td>
-<td style="border:1px solid black;"><p>An unspecified error occurred using WMI/</p></td>
+<td style="border:1px solid black;">0x8024400F</td>
+<td style="border:1px solid black;">WU_E_PT_
+WMI_ERROR</td>
+<td style="border:1px solid black;">An unspecified error occurred using WMI/</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80244010</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>EXCEEDED_MAX_SERVER_TRIPS</p></td>
-<td style="border:1px solid black;"><p>The maximum allowed number of round trips to the server was exceeded.</p></td>
+<td style="border:1px solid black;">0x80244010</td>
+<td style="border:1px solid black;">WU_E_PT_
+EXCEEDED_MAX_SERVER_TRIPS</td>
+<td style="border:1px solid black;">The maximum allowed number of round trips to the server was exceeded.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80244011</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>SUS_SERVER_NOT_SET</p></td>
-<td style="border:1px solid black;"><p>WSUS server policy value is missing in the registry.</p></td>
+<td style="border:1px solid black;">0x80244011</td>
+<td style="border:1px solid black;">WU_E_PT_
+SUS_SERVER_NOT_SET</td>
+<td style="border:1px solid black;">WSUS server policy value is missing in the registry.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80244012</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>DOUBLE_INITIALIZATION</p></td>
-<td style="border:1px solid black;"><p>Object is initialized second time.</p></td>
+<td style="border:1px solid black;">0x80244012</td>
+<td style="border:1px solid black;">WU_E_PT_
+DOUBLE_INITIALIZATION</td>
+<td style="border:1px solid black;">Object is initialized second time.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80244013</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>INVALID_COMPUTER_NAME</p></td>
-<td style="border:1px solid black;"><p>Cannot determine computer name.</p></td>
+<td style="border:1px solid black;">0x80244013</td>
+<td style="border:1px solid black;">WU_E_PT_
+INVALID_COMPUTER_NAME</td>
+<td style="border:1px solid black;">Cannot determine computer name.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80244014</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>INVALID_COMPUTER_LSID</p></td>
-<td style="border:1px solid black;"><p>Cannot determine computer LSID.</p></td>
+<td style="border:1px solid black;">0x80244014</td>
+<td style="border:1px solid black;">WU_E_PT_
+INVALID_COMPUTER_LSID</td>
+<td style="border:1px solid black;">Cannot determine computer LSID.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80244015</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>REFRESH_CACHE_REQUIRED</p></td>
-<td style="border:1px solid black;"><p>Server replied with InvalidCookie or ServerChanged. Caller should refresh its internal state then repeat the call to Protocol Talker.</p></td>
+<td style="border:1px solid black;">0x80244015</td>
+<td style="border:1px solid black;">WU_E_PT_
+REFRESH_CACHE_REQUIRED</td>
+<td style="border:1px solid black;">Server replied with InvalidCookie or ServerChanged. Caller should refresh its internal state then repeat the call to Protocol Talker.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80244016</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>HTTP_STATUS_BAD_REQUEST</p></td>
-<td style="border:1px solid black;"><p>Http status 400 - invalid syntax.</p></td>
+<td style="border:1px solid black;">0x80244016</td>
+<td style="border:1px solid black;">WU_E_PT_
+HTTP_STATUS_BAD_REQUEST</td>
+<td style="border:1px solid black;">Http status 400 - invalid syntax.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80244017</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>HTTP_STATUS_DENIED</p></td>
-<td style="border:1px solid black;"><p>Http status 401 - access denied.</p></td>
+<td style="border:1px solid black;">0x80244017</td>
+<td style="border:1px solid black;">WU_E_PT_
+HTTP_STATUS_DENIED</td>
+<td style="border:1px solid black;">Http status 401 - access denied.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80244019</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>HTTP_STATUS_NOT_FOUND</p></td>
-<td style="border:1px solid black;"><p>Http status 404 - object not found.</p></td>
+<td style="border:1px solid black;">0x80244019</td>
+<td style="border:1px solid black;">WU_E_PT_
+HTTP_STATUS_NOT_FOUND</td>
+<td style="border:1px solid black;">Http status 404 - object not found.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024401A</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>HTTP_STATUS_BAD_METHOD</p></td>
-<td style="border:1px solid black;"><p>Http status 405 - method is not allowed.</p></td>
+<td style="border:1px solid black;">0x8024401A</td>
+<td style="border:1px solid black;">WU_E_PT_
+HTTP_STATUS_BAD_METHOD</td>
+<td style="border:1px solid black;">Http status 405 - method is not allowed.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024401B</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>HTTP_STATUS_PROXY_AUTH_REQ</p></td>
-<td style="border:1px solid black;"><p>Http status 407 - proxy authentication required.</p></td>
+<td style="border:1px solid black;">0x8024401B</td>
+<td style="border:1px solid black;">WU_E_PT_
+HTTP_STATUS_PROXY_AUTH_REQ</td>
+<td style="border:1px solid black;">Http status 407 - proxy authentication required.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024401C</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>HTTP_STATUS_REQUEST_TIMEOUT</p></td>
-<td style="border:1px solid black;"><p>Http status 408 - server timed out waiting for request.</p></td>
+<td style="border:1px solid black;">0x8024401C</td>
+<td style="border:1px solid black;">WU_E_PT_
+HTTP_STATUS_REQUEST_TIMEOUT</td>
+<td style="border:1px solid black;">Http status 408 - server timed out waiting for request.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024401D</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>HTTP_STATUS_CONFLICT</p></td>
-<td style="border:1px solid black;"><p>Http status 409 - user should resubmit with more info.</p></td>
+<td style="border:1px solid black;">0x8024401D</td>
+<td style="border:1px solid black;">WU_E_PT_
+HTTP_STATUS_CONFLICT</td>
+<td style="border:1px solid black;">Http status 409 - user should resubmit with more info.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024401E</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>HTTP_STATUS_GONE</p></td>
-<td style="border:1px solid black;"><p>Http status 410 - the resource is no longer available.</p></td>
+<td style="border:1px solid black;">0x8024401E</td>
+<td style="border:1px solid black;">WU_E_PT_
+HTTP_STATUS_GONE</td>
+<td style="border:1px solid black;">Http status 410 - the resource is no longer available.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024401F</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>HTTP_STATUS_SERVER_ERROR</p></td>
-<td style="border:1px solid black;"><p>Http status 500 - internal server error.</p></td>
+<td style="border:1px solid black;">0x8024401F</td>
+<td style="border:1px solid black;">WU_E_PT_
+HTTP_STATUS_SERVER_ERROR</td>
+<td style="border:1px solid black;">Http status 500 - internal server error.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80244020</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>HTTP_STATUS_NOT_SUPPORTED</p></td>
-<td style="border:1px solid black;"><p>Http status 501 - required not supported.</p></td>
+<td style="border:1px solid black;">0x80244020</td>
+<td style="border:1px solid black;">WU_E_PT_
+HTTP_STATUS_NOT_SUPPORTED</td>
+<td style="border:1px solid black;">Http status 501 - required not supported.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80244021</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>HTTP_STATUS_BAD_GATEWAY</p></td>
-<td style="border:1px solid black;"><p>Http status 502 - error response received from gateway.</p></td>
+<td style="border:1px solid black;">0x80244021</td>
+<td style="border:1px solid black;">WU_E_PT_
+HTTP_STATUS_BAD_GATEWAY</td>
+<td style="border:1px solid black;">Http status 502 - error response received from gateway.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80244022</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>HTTP_STATUS_SERVICE_UNAVAIL</p></td>
-<td style="border:1px solid black;"><p>Http status 503 - temporarily overloaded.</p></td>
+<td style="border:1px solid black;">0x80244022</td>
+<td style="border:1px solid black;">WU_E_PT_
+HTTP_STATUS_SERVICE_UNAVAIL</td>
+<td style="border:1px solid black;">Http status 503 - temporarily overloaded.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80244023</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>HTTP_STATUS_GATEWAY_TIMEOUT</p></td>
-<td style="border:1px solid black;"><p>Http status 504 - timed out waiting for gateway.</p></td>
+<td style="border:1px solid black;">0x80244023</td>
+<td style="border:1px solid black;">WU_E_PT_
+HTTP_STATUS_GATEWAY_TIMEOUT</td>
+<td style="border:1px solid black;">Http status 504 - timed out waiting for gateway.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80244024</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>HTTP_STATUS_VERSION_NOT_SUP</p></td>
-<td style="border:1px solid black;"><p>Http status 505 - HTTP version not supported.</p></td>
+<td style="border:1px solid black;">0x80244024</td>
+<td style="border:1px solid black;">WU_E_PT_
+HTTP_STATUS_VERSION_NOT_SUP</td>
+<td style="border:1px solid black;">Http status 505 - HTTP version not supported.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80244025</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>FILE_LOCATIONS_CHANGED</p></td>
-<td style="border:1px solid black;"><p>Server replied with FileLocationsChange.</p></td>
+<td style="border:1px solid black;">0x80244025</td>
+<td style="border:1px solid black;">WU_E_PT_
+FILE_LOCATIONS_CHANGED</td>
+<td style="border:1px solid black;">Server replied with FileLocationsChange.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80244026</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_REGISTRATION</p>
-<p>_NOT_SUPPORTED</p></td>
-<td style="border:1px solid black;"><p>Client doesn't support registration with non-WSUS server.</p></td>
+<td style="border:1px solid black;">0x80244026</td>
+<td style="border:1px solid black;">WU_E_PT_REGISTRATION
+_NOT_SUPPORTED</td>
+<td style="border:1px solid black;">Client doesn't support registration with non-WSUS server.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80244027</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_NO_</p>
-<p>AUTH_PLUGINS_REQUESTED</p></td>
-<td style="border:1px solid black;"><p>Server returned an empty AuthInfo list.</p></td>
+<td style="border:1px solid black;">0x80244027</td>
+<td style="border:1px solid black;">WU_E_PT_NO_
+AUTH_PLUGINS_REQUESTED</td>
+<td style="border:1px solid black;">Server returned an empty AuthInfo list.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80244028</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_NO_</p>
-<p>AUTH_COOKIES_CREATED</p></td>
-<td style="border:1px solid black;"><p>The client was unable to create any valid auth cookies.</p></td>
+<td style="border:1px solid black;">0x80244028</td>
+<td style="border:1px solid black;">WU_E_PT_NO_
+AUTH_COOKIES_CREATED</td>
+<td style="border:1px solid black;">The client was unable to create any valid auth cookies.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80244029</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>INVALID_CONFIG_PROP</p></td>
-<td style="border:1px solid black;"><p>One of the ConfigurationProperty values was wrong.</p></td>
+<td style="border:1px solid black;">0x80244029</td>
+<td style="border:1px solid black;">WU_E_PT_
+INVALID_CONFIG_PROP</td>
+<td style="border:1px solid black;">One of the ConfigurationProperty values was wrong.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024402A</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>CONFIG_PROP_MISSING</p></td>
-<td style="border:1px solid black;"><p>One of the ConfigurationProperty values was missing.</p></td>
+<td style="border:1px solid black;">0x8024402A</td>
+<td style="border:1px solid black;">WU_E_PT_
+CONFIG_PROP_MISSING</td>
+<td style="border:1px solid black;">One of the ConfigurationProperty values was missing.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024402B</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>HTTP_STATUS_NOT_MAPPED</p></td>
-<td style="border:1px solid black;"><p>Http status other than 200, but not mapped above.</p></td>
+<td style="border:1px solid black;">0x8024402B</td>
+<td style="border:1px solid black;">WU_E_PT_
+HTTP_STATUS_NOT_MAPPED</td>
+<td style="border:1px solid black;">Http status other than 200, but not mapped above.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024402C</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>WINHTTP_NAME_NOT_RESOLVED</p></td>
-<td style="border:1px solid black;"><p>Winhttp SendRequest/ReceiveResponse failed with 0x2ee7 error. Either the proxy server or target server name can not be resolved. Corresponding to ERROR_WINHTTP_NAME_NOT_RESOLVED. Stop/Restart service or reboot the machine if you see this error frequently.</p></td>
+<td style="border:1px solid black;">0x8024402C</td>
+<td style="border:1px solid black;">WU_E_PT_
+WINHTTP_NAME_NOT_RESOLVED</td>
+<td style="border:1px solid black;">Winhttp SendRequest/ReceiveResponse failed with 0x2ee7 error. Either the proxy server or target server name can not be resolved. Corresponding to ERROR_WINHTTP_NAME_NOT_RESOLVED. Stop/Restart service or reboot the machine if you see this error frequently.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024502D</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_</p>
-<p>SAME_REDIR_ID</p></td>
-<td style="border:1px solid black;"><p>During recovery Protocol Talker failed to download a wuredir.cab with a newer redirectorId from the server.</p></td>
+<td style="border:1px solid black;">0x8024502D</td>
+<td style="border:1px solid black;">WU_E_PT_
+SAME_REDIR_ID</td>
+<td style="border:1px solid black;">During recovery Protocol Talker failed to download a wuredir.cab with a newer redirectorId from the server.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024502E</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_NO_MANAGED_RECOVER</p></td>
-<td style="border:1px solid black;"><p>A redirector recovery action was specified, but the server is managed.</p></td>
+<td style="border:1px solid black;">0x8024502E</td>
+<td style="border:1px solid black;">WU_E_PT_NO_MANAGED_RECOVER</td>
+<td style="border:1px solid black;">A redirector recovery action was specified, but the server is managed.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80244FFF</p></td>
-<td style="border:1px solid black;"><p>WU_E_PT_UNEXPECTED</p></td>
-<td style="border:1px solid black;"><p>Unexpected protocol talker failure.</p></td>
+<td style="border:1px solid black;">0x80244FFF</td>
+<td style="border:1px solid black;">WU_E_PT_UNEXPECTED</td>
+<td style="border:1px solid black;">Unexpected protocol talker failure.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80245001</p></td>
-<td style="border:1px solid black;"><p>WU_E_REDIRECTOR_LOAD_XML</p></td>
-<td style="border:1px solid black;"><p>The XML extracted from the wuredir.cab failed to load into the DOM.</p></td>
+<td style="border:1px solid black;">0x80245001</td>
+<td style="border:1px solid black;">WU_E_REDIRECTOR_LOAD_XML</td>
+<td style="border:1px solid black;">The XML extracted from the wuredir.cab failed to load into the DOM.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80245002</p></td>
-<td style="border:1px solid black;"><p>WU_E_REDIRECTOR_S_FALSE</p></td>
-<td style="border:1px solid black;"><p>An expected XML element node, map, attribute, value, etc. could not be found.</p></td>
+<td style="border:1px solid black;">0x80245002</td>
+<td style="border:1px solid black;">WU_E_REDIRECTOR_S_FALSE</td>
+<td style="border:1px solid black;">An expected XML element node, map, attribute, value, etc. could not be found.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80245003</p></td>
-<td style="border:1px solid black;"><p>WU_E_REDIRECTOR_UNEXPECTED</p></td>
-<td style="border:1px solid black;"><p>Unexpected redirector failure.</p></td>
+<td style="border:1px solid black;">0x80245003</td>
+<td style="border:1px solid black;">WU_E_REDIRECTOR_UNEXPECTED</td>
+<td style="border:1px solid black;">Unexpected redirector failure.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024C001</p></td>
-<td style="border:1px solid black;"><p>WU_E_DRV_PRUNED</p></td>
-<td style="border:1px solid black;"><p>Driver was pruned.</p></td>
+<td style="border:1px solid black;">0x8024C001</td>
+<td style="border:1px solid black;">WU_E_DRV_PRUNED</td>
+<td style="border:1px solid black;">Driver was pruned.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024C002</p></td>
-<td style="border:1px solid black;"><p>WU_E_DRV_NOPROP_OR_LEGACY</p></td>
-<td style="border:1px solid black;"><p>A property wasn't found. Depending on the context this may not be an error. For example, it is expected that legacy drivers will be missing properties we require.</p></td>
+<td style="border:1px solid black;">0x8024C002</td>
+<td style="border:1px solid black;">WU_E_DRV_NOPROP_OR_LEGACY</td>
+<td style="border:1px solid black;">A property wasn't found. Depending on the context this may not be an error. For example, it is expected that legacy drivers will be missing properties we require.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024C003</p></td>
-<td style="border:1px solid black;"><p>WU_E_DRV_REG_MISMATCH</p></td>
-<td style="border:1px solid black;"><p>The registry type we read didn't match what was expected.</p></td>
+<td style="border:1px solid black;">0x8024C003</td>
+<td style="border:1px solid black;">WU_E_DRV_REG_MISMATCH</td>
+<td style="border:1px solid black;">The registry type we read didn't match what was expected.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024C004</p></td>
-<td style="border:1px solid black;"><p>WU_E_DRV_NO_METADATA</p></td>
-<td style="border:1px solid black;"><p>The driver update didn't have a metadata blob.</p></td>
+<td style="border:1px solid black;">0x8024C004</td>
+<td style="border:1px solid black;">WU_E_DRV_NO_METADATA</td>
+<td style="border:1px solid black;">The driver update didn't have a metadata blob.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024C005</p></td>
-<td style="border:1px solid black;"><p>WU_E_DRV_MISSING_ATTRIBUTE</p></td>
-<td style="border:1px solid black;"><p>The driver update metadata was missing a required attribute.</p></td>
+<td style="border:1px solid black;">0x8024C005</td>
+<td style="border:1px solid black;">WU_E_DRV_MISSING_ATTRIBUTE</td>
+<td style="border:1px solid black;">The driver update metadata was missing a required attribute.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024C006</p></td>
-<td style="border:1px solid black;"><p>WU_E_DRV_SYNC_FAILED</p></td>
-<td style="border:1px solid black;"><p>A driver sync operation failed.</p></td>
+<td style="border:1px solid black;">0x8024C006</td>
+<td style="border:1px solid black;">WU_E_DRV_SYNC_FAILED</td>
+<td style="border:1px solid black;">A driver sync operation failed.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024C007</p></td>
-<td style="border:1px solid black;"><p>WU_E_DRV_NO_PRINTER_CONTENT</p></td>
-<td style="border:1px solid black;"><p>No printer driver content following SyncApplicablePrinters.</p></td>
+<td style="border:1px solid black;">0x8024C007</td>
+<td style="border:1px solid black;">WU_E_DRV_NO_PRINTER_CONTENT</td>
+<td style="border:1px solid black;">No printer driver content following SyncApplicablePrinters.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024CFFF</p></td>
-<td style="border:1px solid black;"><p>WU_E_DRV_UNEXPECTED</p></td>
-<td style="border:1px solid black;"><p>Unexpected driver utility failure.</p></td>
+<td style="border:1px solid black;">0x8024CFFF</td>
+<td style="border:1px solid black;">WU_E_DRV_UNEXPECTED</td>
+<td style="border:1px solid black;">Unexpected driver utility failure.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80248000</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_SHUTDOWN</p></td>
-<td style="border:1px solid black;"><p>The call failed because the SUS agent is shutting down.</p></td>
+<td style="border:1px solid black;">0x80248000</td>
+<td style="border:1px solid black;">WU_E_DS_SHUTDOWN</td>
+<td style="border:1px solid black;">The call failed because the SUS agent is shutting down.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80248001</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_INUSE</p></td>
-<td style="border:1px solid black;"><p>The call failed because the data store is in use and the operation can only be executed on an idle data store.</p></td>
+<td style="border:1px solid black;">0x80248001</td>
+<td style="border:1px solid black;">WU_E_DS_INUSE</td>
+<td style="border:1px solid black;">The call failed because the data store is in use and the operation can only be executed on an idle data store.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80248002</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_INVALID</p></td>
-<td style="border:1px solid black;"><p>The data store is in an invalid state. This can occur if we attempt to validate the database schema and find a mismatch between the current state and the state we expect.</p></td>
+<td style="border:1px solid black;">0x80248002</td>
+<td style="border:1px solid black;">WU_E_DS_INVALID</td>
+<td style="border:1px solid black;">The data store is in an invalid state. This can occur if we attempt to validate the database schema and find a mismatch between the current state and the state we expect.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80248003</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_TABLEMISSING</p></td>
-<td style="border:1px solid black;"><p>The data store has a missing table.</p></td>
+<td style="border:1px solid black;">0x80248003</td>
+<td style="border:1px solid black;">WU_E_DS_TABLEMISSING</td>
+<td style="border:1px solid black;">The data store has a missing table.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80248004</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_TABLEINCORRECT</p></td>
-<td style="border:1px solid black;"><p>The data store has a table whose columns are not what WSUS expects.</p></td>
+<td style="border:1px solid black;">0x80248004</td>
+<td style="border:1px solid black;">WU_E_DS_TABLEINCORRECT</td>
+<td style="border:1px solid black;">The data store has a table whose columns are not what WSUS expects.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80248005</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_INVALIDTABLENAME</p></td>
-<td style="border:1px solid black;"><p>The caller tried to open a table that is not in the data store.</p></td>
+<td style="border:1px solid black;">0x80248005</td>
+<td style="border:1px solid black;">WU_E_DS_INVALIDTABLENAME</td>
+<td style="border:1px solid black;">The caller tried to open a table that is not in the data store.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80248006</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_BADVERSION</p></td>
-<td style="border:1px solid black;"><p>The data store's version does not match what the client expects.</p></td>
+<td style="border:1px solid black;">0x80248006</td>
+<td style="border:1px solid black;">WU_E_DS_BADVERSION</td>
+<td style="border:1px solid black;">The data store's version does not match what the client expects.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80248007</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_NODATA</p></td>
-<td style="border:1px solid black;"><p>The caller asked for data that is not in the data store.</p></td>
+<td style="border:1px solid black;">0x80248007</td>
+<td style="border:1px solid black;">WU_E_DS_NODATA</td>
+<td style="border:1px solid black;">The caller asked for data that is not in the data store.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80248008</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_MISSINGDATA</p></td>
-<td style="border:1px solid black;"><p>The data store is in an invalid state because data that should be present is missing. This error can occur if we encounter a column in a table that is NULL when it is not allowed to be NULL.</p></td>
+<td style="border:1px solid black;">0x80248008</td>
+<td style="border:1px solid black;">WU_E_DS_MISSINGDATA</td>
+<td style="border:1px solid black;">The data store is in an invalid state because data that should be present is missing. This error can occur if we encounter a column in a table that is NULL when it is not allowed to be NULL.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80248009</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_MISSINGREF</p></td>
-<td style="border:1px solid black;"><p>The data store is in an invalid state because data that should be present is missing. This will occur if we try to fetch a linked row from another table and the linked row does not exist. This can happen with EULAs, files, and/or localized properties referenced by an update.</p></td>
+<td style="border:1px solid black;">0x80248009</td>
+<td style="border:1px solid black;">WU_E_DS_MISSINGREF</td>
+<td style="border:1px solid black;">The data store is in an invalid state because data that should be present is missing. This will occur if we try to fetch a linked row from another table and the linked row does not exist. This can happen with EULAs, files, and/or localized properties referenced by an update.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024800A</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_</p>
-<p>UNKNOWNHANDLER</p></td>
-<td style="border:1px solid black;"><p>The caller attempted to add an update that used an unknown update handler.</p></td>
+<td style="border:1px solid black;">0x8024800A</td>
+<td style="border:1px solid black;">WU_E_DS_
+UNKNOWNHANDLER</td>
+<td style="border:1px solid black;">The caller attempted to add an update that used an unknown update handler.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024800B</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_</p>
-<p>CANTDELETE</p></td>
-<td style="border:1px solid black;"><p>The caller attempted to delete an update that is referenced by one or more services.</p></td>
+<td style="border:1px solid black;">0x8024800B</td>
+<td style="border:1px solid black;">WU_E_DS_
+CANTDELETE</td>
+<td style="border:1px solid black;">The caller attempted to delete an update that is referenced by one or more services.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024800C</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_</p>
-<p>LOCKTIMEOUTEXPIRED</p></td>
-<td style="border:1px solid black;"><p>The caller attempted to access an update that is still locked after the timeout has expired.</p></td>
+<td style="border:1px solid black;">0x8024800C</td>
+<td style="border:1px solid black;">WU_E_DS_
+LOCKTIMEOUTEXPIRED</td>
+<td style="border:1px solid black;">The caller attempted to access an update that is still locked after the timeout has expired.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024800D</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_</p>
-<p>NOCATEGORIES</p></td>
-<td style="border:1px solid black;"><p>The caller attempted to add a non-top level category update that contained no parent categories.</p></td>
+<td style="border:1px solid black;">0x8024800D</td>
+<td style="border:1px solid black;">WU_E_DS_
+NOCATEGORIES</td>
+<td style="border:1px solid black;">The caller attempted to add a non-top level category update that contained no parent categories.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024800E</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_</p>
-<p>ROWEXISTS</p></td>
-<td style="border:1px solid black;"><p>The caller attempted to add a row whose primary key matched an existing row.</p></td>
+<td style="border:1px solid black;">0x8024800E</td>
+<td style="border:1px solid black;">WU_E_DS_
+ROWEXISTS</td>
+<td style="border:1px solid black;">The caller attempted to add a row whose primary key matched an existing row.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024800F</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_</p>
-<p>STOREFILELOCKED</p></td>
-<td style="border:1px solid black;"><p>We attempted to initialize the data store, but it was locked by another process.</p></td>
+<td style="border:1px solid black;">0x8024800F</td>
+<td style="border:1px solid black;">WU_E_DS_
+STOREFILELOCKED</td>
+<td style="border:1px solid black;">We attempted to initialize the data store, but it was locked by another process.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80248010</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_</p>
-<p>CANNOTREGISTER</p></td>
-<td style="border:1px solid black;"><p>The caller is attempting to register the data store with COM, but the store cannot be loaded into the current process.</p></td>
+<td style="border:1px solid black;">0x80248010</td>
+<td style="border:1px solid black;">WU_E_DS_
+CANNOTREGISTER</td>
+<td style="border:1px solid black;">The caller is attempting to register the data store with COM, but the store cannot be loaded into the current process.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80248011</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_</p>
-<p>UNABLETOSTART</p></td>
-<td style="border:1px solid black;"><p>Could not create an out-of-proc data store object.</p></td>
+<td style="border:1px solid black;">0x80248011</td>
+<td style="border:1px solid black;">WU_E_DS_
+UNABLETOSTART</td>
+<td style="border:1px solid black;">Could not create an out-of-proc data store object.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80248012</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_</p>
-<p>MISSINGFILEFORURL</p></td>
-<td style="border:1px solid black;"><p>A file URL was passed in for a file that does not exist in the data store.</p></td>
+<td style="border:1px solid black;">0x80248012</td>
+<td style="border:1px solid black;">WU_E_DS_
+MISSINGFILEFORURL</td>
+<td style="border:1px solid black;">A file URL was passed in for a file that does not exist in the data store.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80248013</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_</p>
-<p>DUPLICATEUPDATEID</p></td>
-<td style="border:1px solid black;"><p>The server has passed the same update to the client with two different revision ids.</p></td>
+<td style="border:1px solid black;">0x80248013</td>
+<td style="border:1px solid black;">WU_E_DS_
+DUPLICATEUPDATEID</td>
+<td style="border:1px solid black;">The server has passed the same update to the client with two different revision ids.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80248014</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_</p>
-<p>UNKNOWNSERVICE</p></td>
-<td style="border:1px solid black;"><p>The caller has requested some action on a service that is not known to the data store.</p></td>
+<td style="border:1px solid black;">0x80248014</td>
+<td style="border:1px solid black;">WU_E_DS_
+UNKNOWNSERVICE</td>
+<td style="border:1px solid black;">The caller has requested some action on a service that is not known to the data store.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80248015</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_</p>
-<p>SERVICEEXPIRED</p></td>
-<td style="border:1px solid black;"><p>The caller has requested a service whose registration has expired.</p></td>
+<td style="border:1px solid black;">0x80248015</td>
+<td style="border:1px solid black;">WU_E_DS_
+SERVICEEXPIRED</td>
+<td style="border:1px solid black;">The caller has requested a service whose registration has expired.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80248016</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_</p>
-<p>DECLINENOTALLOWED</p></td>
-<td style="border:1px solid black;"><p>An update cannot be declined while it is deployed with a deadline by 1 or more services or if it is a mandatory update.</p></td>
+<td style="border:1px solid black;">0x80248016</td>
+<td style="border:1px solid black;">WU_E_DS_
+DECLINENOTALLOWED</td>
+<td style="border:1px solid black;">An update cannot be declined while it is deployed with a deadline by 1 or more services or if it is a mandatory update.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80248017</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_</p>
-<p>TABLESESSIONMISMATCH</p></td>
-<td style="border:1px solid black;"><p>The caller attempted to close a table in a session it was not associated with.</p></td>
+<td style="border:1px solid black;">0x80248017</td>
+<td style="border:1px solid black;">WU_E_DS_
+TABLESESSIONMISMATCH</td>
+<td style="border:1px solid black;">The caller attempted to close a table in a session it was not associated with.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80248019</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_</p>
-<p>NEEDWINDOWSSERVICE</p></td>
-<td style="border:1px solid black;"><p>The caller attempted to remove the Windows Update Service without having another service configured that delivers updates to Windows.</p></td>
+<td style="border:1px solid black;">0x80248019</td>
+<td style="border:1px solid black;">WU_E_DS_
+NEEDWINDOWSSERVICE</td>
+<td style="border:1px solid black;">The caller attempted to remove the Windows Update Service without having another service configured that delivers updates to Windows.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024801A</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_</p>
-<p>INVALIDOPERATION</p></td>
-<td style="border:1px solid black;"><p>The attempted operation was not allowed.</p></td>
+<td style="border:1px solid black;">0x8024801A</td>
+<td style="border:1px solid black;">WU_E_DS_
+INVALIDOPERATION</td>
+<td style="border:1px solid black;">The attempted operation was not allowed.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024801B</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_</p>
-<p>SCHEMAMISMATCH</p></td>
-<td style="border:1px solid black;"><p>The schema of a table in a backup XML file cannot be reconciled with the current store schema.</p></td>
+<td style="border:1px solid black;">0x8024801B</td>
+<td style="border:1px solid black;">WU_E_DS_
+SCHEMAMISMATCH</td>
+<td style="border:1px solid black;">The schema of a table in a backup XML file cannot be reconciled with the current store schema.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024801C</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_</p>
-<p>RESETREQUIRED</p></td>
-<td style="border:1px solid black;"><p>The data store required a reset and either the state of the current session was too complex to retry (it is in a caller-initiated transaction or a caller acquired a section lock) or the reset failed. In either case, the only option is to release the session and try again with a newly acquired session. Once a session returns this error, it will always return this error.</p></td>
+<td style="border:1px solid black;">0x8024801C</td>
+<td style="border:1px solid black;">WU_E_DS_
+RESETREQUIRED</td>
+<td style="border:1px solid black;">The data store required a reset and either the state of the current session was too complex to retry (it is in a caller-initiated transaction or a caller acquired a section lock) or the reset failed. In either case, the only option is to release the session and try again with a newly acquired session. Once a session returns this error, it will always return this error.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024801D</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_</p>
-<p>IMPERSONATED</p></td>
-<td style="border:1px solid black;"><p>The data store cannot be called while impersonating.</p></td>
+<td style="border:1px solid black;">0x8024801D</td>
+<td style="border:1px solid black;">WU_E_DS_
+IMPERSONATED</td>
+<td style="border:1px solid black;">The data store cannot be called while impersonating.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80248FFF</p></td>
-<td style="border:1px solid black;"><p>WU_E_DS_</p>
-<p>UNEXPECTED</p></td>
-<td style="border:1px solid black;"><p>Unexpected data store failure.</p></td>
+<td style="border:1px solid black;">0x80248FFF</td>
+<td style="border:1px solid black;">WU_E_DS_
+UNEXPECTED</td>
+<td style="border:1px solid black;">Unexpected data store failure.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024A000</p></td>
-<td style="border:1px solid black;"><p>WU_E_AU_</p>
-<p>NOSERVICE</p></td>
-<td style="border:1px solid black;"><p>AU was unable to service incoming AU calls.</p></td>
+<td style="border:1px solid black;">0x8024A000</td>
+<td style="border:1px solid black;">WU_E_AU_
+NOSERVICE</td>
+<td style="border:1px solid black;">AU was unable to service incoming AU calls.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024A002</p></td>
-<td style="border:1px solid black;"><p>WU_E_AU_</p>
-<p>NONLEGACYSERVER</p></td>
-<td style="border:1px solid black;"><p>The legacy AU client stopped because the WSUS server has been upgraded.</p></td>
+<td style="border:1px solid black;">0x8024A002</td>
+<td style="border:1px solid black;">WU_E_AU_
+NONLEGACYSERVER</td>
+<td style="border:1px solid black;">The legacy AU client stopped because the WSUS server has been upgraded.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024A003</p></td>
-<td style="border:1px solid black;"><p>WU_E_AU_</p>
-<p>LEGACYCLIENTDISABLED</p></td>
-<td style="border:1px solid black;"><p>The legacy AU client stopped because it was disabled.</p></td>
+<td style="border:1px solid black;">0x8024A003</td>
+<td style="border:1px solid black;">WU_E_AU_
+LEGACYCLIENTDISABLED</td>
+<td style="border:1px solid black;">The legacy AU client stopped because it was disabled.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024A004</p></td>
-<td style="border:1px solid black;"><p>WU_E_AU_</p>
-<p>PAUSED</p></td>
-<td style="border:1px solid black;"><p>AU was unable to service incoming AU calls because it was paused.</p></td>
+<td style="border:1px solid black;">0x8024A004</td>
+<td style="border:1px solid black;">WU_E_AU_
+PAUSED</td>
+<td style="border:1px solid black;">AU was unable to service incoming AU calls because it was paused.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024AFFF</p></td>
-<td style="border:1px solid black;"><p>WU_E_AU_</p>
-<p>UNEXPECTED</p></td>
-<td style="border:1px solid black;"><p>Unexpected Automatic Updates failure.</p></td>
+<td style="border:1px solid black;">0x8024AFFF</td>
+<td style="border:1px solid black;">WU_E_AU_
+UNEXPECTED</td>
+<td style="border:1px solid black;">Unexpected Automatic Updates failure.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024200</p></td>
-<td style="border:1px solid black;"><p>WU_E_UH_</p>
-<p>REMOTEUNAVAILABLE</p></td>
-<td style="border:1px solid black;"><p>The caller requested a remote object, but no remote process is available.</p></td>
+<td style="border:1px solid black;">0x8024200</td>
+<td style="border:1px solid black;">WU_E_UH_
+REMOTEUNAVAILABLE</td>
+<td style="border:1px solid black;">The caller requested a remote object, but no remote process is available.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80242001</p></td>
-<td style="border:1px solid black;"><p>WU_E_UH_</p>
-<p>LOCALONLY</p></td>
-<td style="border:1px solid black;"><p>The caller requested a remote object, but the specified handler is local only.</p></td>
+<td style="border:1px solid black;">0x80242001</td>
+<td style="border:1px solid black;">WU_E_UH_
+LOCALONLY</td>
+<td style="border:1px solid black;">The caller requested a remote object, but the specified handler is local only.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80242002</p></td>
-<td style="border:1px solid black;"><p>WU_E_UH_</p>
-<p>UNKNOWNHANDLER</p></td>
-<td style="border:1px solid black;"><p>The caller requested an unknown handler object.</p></td>
+<td style="border:1px solid black;">0x80242002</td>
+<td style="border:1px solid black;">WU_E_UH_
+UNKNOWNHANDLER</td>
+<td style="border:1px solid black;">The caller requested an unknown handler object.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80242003</p></td>
-<td style="border:1px solid black;"><p>WU_E_UH_</p>
-<p>REMOTEALREADYACTIVE</p></td>
-<td style="border:1px solid black;"><p>The caller requested an unknown handler object.</p></td>
+<td style="border:1px solid black;">0x80242003</td>
+<td style="border:1px solid black;">WU_E_UH_
+REMOTEALREADYACTIVE</td>
+<td style="border:1px solid black;">The caller requested an unknown handler object.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80242004</p></td>
-<td style="border:1px solid black;"><p>WU_E_UH_</p>
-<p>DOESNOTSUPPORTACTION</p></td>
-<td style="border:1px solid black;"><p>The update does not support the current action (install or uninstall).</p></td>
+<td style="border:1px solid black;">0x80242004</td>
+<td style="border:1px solid black;">WU_E_UH_
+DOESNOTSUPPORTACTION</td>
+<td style="border:1px solid black;">The update does not support the current action (install or uninstall).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80242005</p></td>
-<td style="border:1px solid black;"><p>WU_E_UH_</p>
-<p>WRONGHANDLER</p></td>
-<td style="border:1px solid black;"><p>The caller tried to use the wrong handler for an action.</p></td>
+<td style="border:1px solid black;">0x80242005</td>
+<td style="border:1px solid black;">WU_E_UH_
+WRONGHANDLER</td>
+<td style="border:1px solid black;">The caller tried to use the wrong handler for an action.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80242006</p></td>
-<td style="border:1px solid black;"><p>WU_E_UH_</p>
-<p>INVALIDMETADATA</p></td>
-<td style="border:1px solid black;"><p>The caller passed an update with invalid metadata to the handler.</p></td>
+<td style="border:1px solid black;">0x80242006</td>
+<td style="border:1px solid black;">WU_E_UH_
+INVALIDMETADATA</td>
+<td style="border:1px solid black;">The caller passed an update with invalid metadata to the handler.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80242007</p></td>
-<td style="border:1px solid black;"><p>WU_E_UH_</p>
-<p>INSTALLERHUNG</p></td>
-<td style="border:1px solid black;"><p>The installer took too long and was terminated.</p></td>
+<td style="border:1px solid black;">0x80242007</td>
+<td style="border:1px solid black;">WU_E_UH_
+INSTALLERHUNG</td>
+<td style="border:1px solid black;">The installer took too long and was terminated.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80242008</p></td>
-<td style="border:1px solid black;"><p>WU_E_UH_</p>
-<p>OPERATIONCANCELLED</p></td>
-<td style="border:1px solid black;"><p>The install was canceled via a handler method (as opposed to, for example, an installer running with UI that was cancelled externally to WSUS).</p></td>
+<td style="border:1px solid black;">0x80242008</td>
+<td style="border:1px solid black;">WU_E_UH_
+OPERATIONCANCELLED</td>
+<td style="border:1px solid black;">The install was canceled via a handler method (as opposed to, for example, an installer running with UI that was cancelled externally to WSUS).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80242009</p></td>
-<td style="border:1px solid black;"><p>WU_E_UH_</p>
-<p>BADHANDLERXML</p></td>
-<td style="border:1px solid black;"><p>The XML contained in the handler specific data for the update is invalid.</p></td>
+<td style="border:1px solid black;">0x80242009</td>
+<td style="border:1px solid black;">WU_E_UH_
+BADHANDLERXML</td>
+<td style="border:1px solid black;">The XML contained in the handler specific data for the update is invalid.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024200A</p></td>
-<td style="border:1px solid black;"><p>WU_E_UH_</p>
-<p>CANREQUIREINPUT</p></td>
-<td style="border:1px solid black;"><p>The update may require user input so can not be installed in this context.</p></td>
+<td style="border:1px solid black;">0x8024200A</td>
+<td style="border:1px solid black;">WU_E_UH_
+CANREQUIREINPUT</td>
+<td style="border:1px solid black;">The update may require user input so can not be installed in this context.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024200</p></td>
-<td style="border:1px solid black;"><p>WU_E_UH_</p>
-<p>INSTALLERFAILURE</p></td>
-<td style="border:1px solid black;"><p>At least one update passed to the handler failed to install.</p></td>
+<td style="border:1px solid black;">0x8024200</td>
+<td style="border:1px solid black;">WU_E_UH_
+INSTALLERFAILURE</td>
+<td style="border:1px solid black;">At least one update passed to the handler failed to install.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024200C</p></td>
-<td style="border:1px solid black;"><p>WU_E_UH_</p>
-<p>FALLBACKTOSELFCONTAINED</p></td>
-<td style="border:1px solid black;"><p>Handler should fall back to self-contained from delta.</p></td>
+<td style="border:1px solid black;">0x8024200C</td>
+<td style="border:1px solid black;">WU_E_UH_
+FALLBACKTOSELFCONTAINED</td>
+<td style="border:1px solid black;">Handler should fall back to self-contained from delta.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024200D</p></td>
-<td style="border:1px solid black;"><p>WU_E_UH_</p>
-<p>NEEDANOTHERDOWNLOAD</p></td>
-<td style="border:1px solid black;"><p>The installer requires more data to be downloaded.</p></td>
+<td style="border:1px solid black;">0x8024200D</td>
+<td style="border:1px solid black;">WU_E_UH_
+NEEDANOTHERDOWNLOAD</td>
+<td style="border:1px solid black;">The installer requires more data to be downloaded.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024200E</p></td>
-<td style="border:1px solid black;"><p>WU_E_UH_</p>
-<p>NOTIFYFAILURE</p></td>
-<td style="border:1px solid black;"><p>The attempted operation was not allowed.</p></td>
+<td style="border:1px solid black;">0x8024200E</td>
+<td style="border:1px solid black;">WU_E_UH_
+NOTIFYFAILURE</td>
+<td style="border:1px solid black;">The attempted operation was not allowed.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80242FFF</p></td>
-<td style="border:1px solid black;"><p>WU_E_UH_</p>
-<p>UNEXPECTED</p></td>
-<td style="border:1px solid black;"><p>Unexpected update handler failure.</p></td>
+<td style="border:1px solid black;">0x80242FFF</td>
+<td style="border:1px solid black;">WU_E_UH_
+UNEXPECTED</td>
+<td style="border:1px solid black;">Unexpected update handler failure.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80246001</p></td>
-<td style="border:1px solid black;"><p>WU_E_DM_</p>
-<p>URLNOTAVAILABLE</p></td>
-<td style="border:1px solid black;"><p>The requested file does not have an URL.</p></td>
+<td style="border:1px solid black;">0x80246001</td>
+<td style="border:1px solid black;">WU_E_DM_
+URLNOTAVAILABLE</td>
+<td style="border:1px solid black;">The requested file does not have an URL.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80246002</p></td>
-<td style="border:1px solid black;"><p>WU_E_DM_</p>
-<p>INCORRECTFILEHASH</p></td>
-<td style="border:1px solid black;"><p>The file digest did not match the expected value.</p></td>
+<td style="border:1px solid black;">0x80246002</td>
+<td style="border:1px solid black;">WU_E_DM_
+INCORRECTFILEHASH</td>
+<td style="border:1px solid black;">The file digest did not match the expected value.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80246003</p></td>
-<td style="border:1px solid black;"><p>WU_E_DM_</p>
-<p>UNKNOWNALGORITHM</p></td>
-<td style="border:1px solid black;"><p>The file metadata requested an unknown hash algorithm.</p></td>
+<td style="border:1px solid black;">0x80246003</td>
+<td style="border:1px solid black;">WU_E_DM_
+UNKNOWNALGORITHM</td>
+<td style="border:1px solid black;">The file metadata requested an unknown hash algorithm.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80246004</p></td>
-<td style="border:1px solid black;"><p>WU_E_DM_</p>
-<p>NEEDDOWNLOADREQUEST</p></td>
-<td style="border:1px solid black;"><p>A download request from a download handler is required.</p></td>
+<td style="border:1px solid black;">0x80246004</td>
+<td style="border:1px solid black;">WU_E_DM_
+NEEDDOWNLOADREQUEST</td>
+<td style="border:1px solid black;">A download request from a download handler is required.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80246005</p></td>
-<td style="border:1px solid black;"><p>WU_E_DM_</p>
-<p>NONETWORK</p></td>
-<td style="border:1px solid black;"><p>Network connection was not available.</p></td>
+<td style="border:1px solid black;">0x80246005</td>
+<td style="border:1px solid black;">WU_E_DM_
+NONETWORK</td>
+<td style="border:1px solid black;">Network connection was not available.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80246006</p></td>
-<td style="border:1px solid black;"><p>WU_E_DM_</p>
-<p>WRONGBITSVERSION</p></td>
-<td style="border:1px solid black;"><p>The version of BITS installed on the machine is not compatible.</p></td>
+<td style="border:1px solid black;">0x80246006</td>
+<td style="border:1px solid black;">WU_E_DM_
+WRONGBITSVERSION</td>
+<td style="border:1px solid black;">The version of BITS installed on the machine is not compatible.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80246007</p></td>
-<td style="border:1px solid black;"><p>WU_E_DM_</p>
-<p>NOTDOWNLOADED</p></td>
-<td style="border:1px solid black;"><p>The update has not been downloaded.</p></td>
+<td style="border:1px solid black;">0x80246007</td>
+<td style="border:1px solid black;">WU_E_DM_
+NOTDOWNLOADED</td>
+<td style="border:1px solid black;">The update has not been downloaded.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80246008</p></td>
-<td style="border:1px solid black;"><p>WU_E_DM_</p>
-<p>FAILTOCONNECTTOBITS</p></td>
-<td style="border:1px solid black;"><p>Failed to create the IBackgroundCopyManager interface to BITS. The BITS service may have been disabled.</p></td>
+<td style="border:1px solid black;">0x80246008</td>
+<td style="border:1px solid black;">WU_E_DM_
+FAILTOCONNECTTOBITS</td>
+<td style="border:1px solid black;">Failed to create the IBackgroundCopyManager interface to BITS. The BITS service may have been disabled.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80246009</p></td>
-<td style="border:1px solid black;"><p>WU_E_DM_</p>
-<p>BITSTRANSFERERROR</p></td>
-<td style="border:1px solid black;"><p>A BITS transfer error occurred, but the exact error could not be retrieved.</p></td>
+<td style="border:1px solid black;">0x80246009</td>
+<td style="border:1px solid black;">WU_E_DM_
+BITSTRANSFERERROR</td>
+<td style="border:1px solid black;">A BITS transfer error occurred, but the exact error could not be retrieved.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80246FFF</p></td>
-<td style="border:1px solid black;"><p>WU_E_DM_</p>
-<p>UNEXPECTED</p></td>
-<td style="border:1px solid black;"><p>Unexpected download manager failure.</p></td>
+<td style="border:1px solid black;">0x80246FFF</td>
+<td style="border:1px solid black;">WU_E_DM_
+UNEXPECTED</td>
+<td style="border:1px solid black;">Unexpected download manager failure.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024D001</p></td>
-<td style="border:1px solid black;"><p>WU_E_SETUP_</p>
-<p>INVALID_INFDATA</p></td>
-<td style="border:1px solid black;"><p>Setup failed due to invalid data in the INF file.</p></td>
+<td style="border:1px solid black;">0x8024D001</td>
+<td style="border:1px solid black;">WU_E_SETUP_
+INVALID_INFDATA</td>
+<td style="border:1px solid black;">Setup failed due to invalid data in the INF file.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024D002</p></td>
-<td style="border:1px solid black;"><p>WU_E_SETUP_</p>
-<p>INVALID_IDENTDATA</p></td>
-<td style="border:1px solid black;"><p>Setup failed due to invalid data in the wuident file.</p></td>
+<td style="border:1px solid black;">0x8024D002</td>
+<td style="border:1px solid black;">WU_E_SETUP_
+INVALID_IDENTDATA</td>
+<td style="border:1px solid black;">Setup failed due to invalid data in the wuident file.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024D003</p></td>
-<td style="border:1px solid black;"><p>WU_E_SETUP_</p>
-<p>ALREADY_INITIALIZED</p></td>
-<td style="border:1px solid black;"><p>Setup failed due to multiple initialization.</p></td>
+<td style="border:1px solid black;">0x8024D003</td>
+<td style="border:1px solid black;">WU_E_SETUP_
+ALREADY_INITIALIZED</td>
+<td style="border:1px solid black;">Setup failed due to multiple initialization.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024D004</p></td>
-<td style="border:1px solid black;"><p>WU_E_SETUP_NOT_</p>
-<p>INITIALIZED</p></td>
-<td style="border:1px solid black;"><p>Setup has not been initialized correctly.</p></td>
+<td style="border:1px solid black;">0x8024D004</td>
+<td style="border:1px solid black;">WU_E_SETUP_NOT_
+INITIALIZED</td>
+<td style="border:1px solid black;">Setup has not been initialized correctly.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024D005</p></td>
-<td style="border:1px solid black;"><p>WU_E_SETUP_SOURCE_</p>
-<p>VERSION_MISMATCH</p></td>
-<td style="border:1px solid black;"><p>Setup failed as the version specified in the INF file doesn't match the source binary version.</p></td>
+<td style="border:1px solid black;">0x8024D005</td>
+<td style="border:1px solid black;">WU_E_SETUP_SOURCE_
+VERSION_MISMATCH</td>
+<td style="border:1px solid black;">Setup failed as the version specified in the INF file doesn't match the source binary version.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024D006</p></td>
-<td style="border:1px solid black;"><p>WU_E_SETUP_TARGET_</p>
-<p>VERSION_GREATER</p></td>
-<td style="border:1px solid black;"><p>Setup failed as the target version on the system is higher than source binary version.</p></td>
+<td style="border:1px solid black;">0x8024D006</td>
+<td style="border:1px solid black;">WU_E_SETUP_TARGET_
+VERSION_GREATER</td>
+<td style="border:1px solid black;">Setup failed as the target version on the system is higher than source binary version.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024DFFF</p></td>
-<td style="border:1px solid black;"><p>WU_E_SETUP_</p>
-<p>UNEXPECTED</p></td>
-<td style="border:1px solid black;"><p>Unexpected setup failure.</p></td>
+<td style="border:1px solid black;">0x8024DFFF</td>
+<td style="border:1px solid black;">WU_E_SETUP_
+UNEXPECTED</td>
+<td style="border:1px solid black;">Unexpected setup failure.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024E001</p></td>
-<td style="border:1px solid black;"><p>WU_E_EE_UNKNOWN_</p>
-<p>EXPRESSION</p></td>
-<td style="border:1px solid black;"><p>An expression handler was passed an expression that it doesn't know about.</p></td>
+<td style="border:1px solid black;">0x8024E001</td>
+<td style="border:1px solid black;">WU_E_EE_UNKNOWN_
+EXPRESSION</td>
+<td style="border:1px solid black;">An expression handler was passed an expression that it doesn't know about.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024E002</p></td>
-<td style="border:1px solid black;"><p>WU_E_EE_INVALID_</p>
-<p>EXPRESSION</p></td>
-<td style="border:1px solid black;"><p>An expression handler was passed an expression that is bad.</p></td>
+<td style="border:1px solid black;">0x8024E002</td>
+<td style="border:1px solid black;">WU_E_EE_INVALID_
+EXPRESSION</td>
+<td style="border:1px solid black;">An expression handler was passed an expression that is bad.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024E003</p></td>
-<td style="border:1px solid black;"><p>WU_E_EE_MISSING_</p>
-<p>METADATA</p></td>
-<td style="border:1px solid black;"><p>An expression handler was passed an expression that requires an applicabilitymetadata blob, but did not receive one or received too many.</p></td>
+<td style="border:1px solid black;">0x8024E003</td>
+<td style="border:1px solid black;">WU_E_EE_MISSING_
+METADATA</td>
+<td style="border:1px solid black;">An expression handler was passed an expression that requires an applicabilitymetadata blob, but did not receive one or received too many.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024E004</p></td>
-<td style="border:1px solid black;"><p>WU_E_EE_INVALID_</p>
-<p>VERSION</p></td>
-<td style="border:1px solid black;"><p>Invalid version of the serialized expression data.</p></td>
+<td style="border:1px solid black;">0x8024E004</td>
+<td style="border:1px solid black;">WU_E_EE_INVALID_
+VERSION</td>
+<td style="border:1px solid black;">Invalid version of the serialized expression data.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024E005</p></td>
-<td style="border:1px solid black;"><p>WU_E_EE_NOT_</p>
-<p>INITIALIZED</p></td>
-<td style="border:1px solid black;"><p>The Expression Evaluator has not been initialized correctly.</p></td>
+<td style="border:1px solid black;">0x8024E005</td>
+<td style="border:1px solid black;">WU_E_EE_NOT_
+INITIALIZED</td>
+<td style="border:1px solid black;">The Expression Evaluator has not been initialized correctly.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024E006</p></td>
-<td style="border:1px solid black;"><p>WU_E_EE_INVALID_</p>
-<p>ATTRIBUTEDATA</p></td>
-<td style="border:1px solid black;"><p>An invalid attribute data was passed to an expression evaluator.</p></td>
+<td style="border:1px solid black;">0x8024E006</td>
+<td style="border:1px solid black;">WU_E_EE_INVALID_
+ATTRIBUTEDATA</td>
+<td style="border:1px solid black;">An invalid attribute data was passed to an expression evaluator.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>x8024EFFF</p></td>
-<td style="border:1px solid black;"><p>WU_E_EE_UNEXPECTED</p></td>
-<td style="border:1px solid black;"><p>Unexpected expression evaluator failure.</p></td>
+<td style="border:1px solid black;">x8024EFFF</td>
+<td style="border:1px solid black;">WU_E_EE_UNEXPECTED</td>
+<td style="border:1px solid black;">Unexpected expression evaluator failure.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80243FFF</p></td>
-<td style="border:1px solid black;"><p>WU_E_AUCLIENT_</p>
-<p>UNEXPECTED</p></td>
-<td style="border:1px solid black;"><p>Unexpected UI [AU Client] failure.</p></td>
+<td style="border:1px solid black;">0x80243FFF</td>
+<td style="border:1px solid black;">WU_E_AUCLIENT_
+UNEXPECTED</td>
+<td style="border:1px solid black;">Unexpected UI [AU Client] failure.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024F001</p></td>
-<td style="border:1px solid black;"><p>WU_E_REPORTER_</p>
-<p>EVENTCACHECORRUPT</p></td>
-<td style="border:1px solid black;"><p>Event cache file was corrupt/malformed.</p></td>
+<td style="border:1px solid black;">0x8024F001</td>
+<td style="border:1px solid black;">WU_E_REPORTER_
+EVENTCACHECORRUPT</td>
+<td style="border:1px solid black;">Event cache file was corrupt/malformed.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024F002</p></td>
-<td style="border:1px solid black;"><p>WU_E_REPORTER_</p>
-<p>EVENTNAMESPACEPARSEFAILED</p></td>
-<td style="border:1px solid black;"><p>Event namespace descriptor XML could not be parsed.</p></td>
+<td style="border:1px solid black;">0x8024F002</td>
+<td style="border:1px solid black;">WU_E_REPORTER_
+EVENTNAMESPACEPARSEFAILED</td>
+<td style="border:1px solid black;">Event namespace descriptor XML could not be parsed.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024F003</p></td>
-<td style="border:1px solid black;"><p>WU_E_INVALID_EVENT</p></td>
-<td style="border:1px solid black;"><p>Event was reported with invalid/ malformed data.</p></td>
+<td style="border:1px solid black;">0x8024F003</td>
+<td style="border:1px solid black;">WU_E_INVALID_EVENT</td>
+<td style="border:1px solid black;">Event was reported with invalid/ malformed data.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8024F004</p></td>
-<td style="border:1px solid black;"><p>WU_E_SERVER_BUSY</p></td>
-<td style="border:1px solid black;"><p>Event was rejected by server because server was too busy.</p></td>
+<td style="border:1px solid black;">0x8024F004</td>
+<td style="border:1px solid black;">WU_E_SERVER_BUSY</td>
+<td style="border:1px solid black;">Event was rejected by server because server was too busy.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8024FFFF</p></td>
-<td style="border:1px solid black;"><p>WU_E_REPORTER_</p>
-<p>UNEXPECTED</p></td>
-<td style="border:1px solid black;"><p>Unexpected reporter failure.</p></td>
+<td style="border:1px solid black;">0x8024FFFF</td>
+<td style="border:1px solid black;">WU_E_REPORTER_
+UNEXPECTED</td>
+<td style="border:1px solid black;">Unexpected reporter failure.</td>
 </tr>
 </tbody>
 </table>
@@ -1433,7 +1433,7 @@ BITS Error Codes
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1443,335 +1443,335 @@ BITS Error Codes
 </colgroup>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Hexadecimal Error Code</strong></p></td>
-<td style="border:1px solid black;"><p><strong>Decimal Error Code</strong></p></td>
-<td style="border:1px solid black;"><p><strong>Error String</strong></p></td>
-<td style="border:1px solid black;"><p><strong>Description</strong></p></td>
+<td style="border:1px solid black;"><strong>Hexadecimal Error Code</strong></td>
+<td style="border:1px solid black;"><strong>Decimal Error Code</strong></td>
+<td style="border:1px solid black;"><strong>Error String</strong></td>
+<td style="border:1px solid black;"><strong>Description</strong></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80072EE2</p></td>
-<td style="border:1px solid black;"><p>-2147012894</p></td>
-<td style="border:1px solid black;"><p>ERROR_INTERNET_</p>
-<p>TIMEOUT</p></td>
-<td style="border:1px solid black;"><p>Some network problem. Server/proxy not reachable. We have also seen this with MS Proxy 2.0 (BITS 1.5 and below) and SunOne 3.6 proxy (BITS 2.0) because these proxies don't support HTTP 1.1 very well.</p></td>
+<td style="border:1px solid black;">0x80072EE2</td>
+<td style="border:1px solid black;">-2147012894</td>
+<td style="border:1px solid black;">ERROR_INTERNET_
+TIMEOUT</td>
+<td style="border:1px solid black;">Some network problem. Server/proxy not reachable. We have also seen this with MS Proxy 2.0 (BITS 1.5 and below) and SunOne 3.6 proxy (BITS 2.0) because these proxies don't support HTTP 1.1 very well.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80070422</p></td>
-<td style="border:1px solid black;"><p>-2147023838</p></td>
-<td style="border:1px solid black;"><p>ERROR_SERVICE_</p>
-<p>DISABLED</p></td>
-<td style="border:1px solid black;"><p>In almost all cases user has probably disabled BITS service incorrectly thinking that it would improve the computer perfomance.</p></td>
+<td style="border:1px solid black;">0x80070422</td>
+<td style="border:1px solid black;">-2147023838</td>
+<td style="border:1px solid black;">ERROR_SERVICE_
+DISABLED</td>
+<td style="border:1px solid black;">In almost all cases user has probably disabled BITS service incorrectly thinking that it would improve the computer perfomance.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80190194</p></td>
-<td style="border:1px solid black;"><p>-2145844844</p></td>
-<td style="border:1px solid black;"><p>BG_E_HTTP_</p>
-<p>ERROR_404</p></td>
-<td style="border:1px solid black;"><p>The URL is not found on the server. May be an issue with server cluster.</p></td>
+<td style="border:1px solid black;">0x80190194</td>
+<td style="border:1px solid black;">-2145844844</td>
+<td style="border:1px solid black;">BG_E_HTTP_
+ERROR_404</td>
+<td style="border:1px solid black;">The URL is not found on the server. May be an issue with server cluster.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x800704DD</p></td>
-<td style="border:1px solid black;"><p>-2147023651</p></td>
-<td style="border:1px solid black;"><p>ERROR_NOT_</p>
-<p>LOGGED_ON</p></td>
-<td style="border:1px solid black;"><p>This error could occur if the installation is initiated with &quot;Run As&quot; command or from a Terminal services session (only on win2k).</p></td>
+<td style="border:1px solid black;">0x800704DD</td>
+<td style="border:1px solid black;">-2147023651</td>
+<td style="border:1px solid black;">ERROR_NOT_
+LOGGED_ON</td>
+<td style="border:1px solid black;">This error could occur if the installation is initiated with &quot;Run As&quot; command or from a Terminal services session (only on win2k).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80072EE7</p></td>
-<td style="border:1px solid black;"><p>-2147012889</p></td>
-<td style="border:1px solid black;"><p>ERROR_INTERNET_</p>
-<p>NAME_NOT_RESOLVED</p></td>
-<td style="border:1px solid black;"><p>The server/proxy is unreachable. Probably because of the incorrect IE proxy settings of the user. If the user is able to download the URL via IE and cannot download through BITS then it is definitely a BITS problem. If the user has set autoproxy detection wpad should resolve to the machine that has the autoproxy script.</p></td>
+<td style="border:1px solid black;">0x80072EE7</td>
+<td style="border:1px solid black;">-2147012889</td>
+<td style="border:1px solid black;">ERROR_INTERNET_
+NAME_NOT_RESOLVED</td>
+<td style="border:1px solid black;">The server/proxy is unreachable. Probably because of the incorrect IE proxy settings of the user. If the user is able to download the URL via IE and cannot download through BITS then it is definitely a BITS problem. If the user has set autoproxy detection wpad should resolve to the machine that has the autoproxy script.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80072EFD</p></td>
-<td style="border:1px solid black;"><p>-2147012867</p></td>
-<td style="border:1px solid black;"><p>ERROR_INTERNET_</p>
-<p>CANNOT_CONNECT</p></td>
-<td style="border:1px solid black;"><p>The web server is not running or the web server is running on a different port or the proxy is unreachable probably because of incorrect IE proxy settings of the user. If the user is able to download the URL via IE and cannot download through BITS then it is definitely a BITS problem. If the user has set autoproxy detection wpad should resolve to the machine that has the autoproxy script.</p></td>
+<td style="border:1px solid black;">0x80072EFD</td>
+<td style="border:1px solid black;">-2147012867</td>
+<td style="border:1px solid black;">ERROR_INTERNET_
+CANNOT_CONNECT</td>
+<td style="border:1px solid black;">The web server is not running or the web server is running on a different port or the proxy is unreachable probably because of incorrect IE proxy settings of the user. If the user is able to download the URL via IE and cannot download through BITS then it is definitely a BITS problem. If the user has set autoproxy detection wpad should resolve to the machine that has the autoproxy script.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80070433</p></td>
-<td style="border:1px solid black;"><p>-2147023821</p></td>
-<td style="border:1px solid black;"><p>ERROR_SERVICE_</p>
-<p>DEPENDENCY_DELETED</p></td>
-<td style="border:1px solid black;"><p>One of the services BITS depends on could not be started. BITS depends on Rpcss on all Oses. BITS depends on SENS and WMI on win2k. If SENS is disabled BITS cannot start. BITS 1.0 and 1.2 incorrectly depend on lanmanworkstation.</p></td>
+<td style="border:1px solid black;">0x80070433</td>
+<td style="border:1px solid black;">-2147023821</td>
+<td style="border:1px solid black;">ERROR_SERVICE_
+DEPENDENCY_DELETED</td>
+<td style="border:1px solid black;">One of the services BITS depends on could not be started. BITS depends on Rpcss on all Oses. BITS depends on SENS and WMI on win2k. If SENS is disabled BITS cannot start. BITS 1.0 and 1.2 incorrectly depend on lanmanworkstation.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x801901F7</p></td>
-<td style="border:1px solid black;"><p>-2145844745</p></td>
-<td style="border:1px solid black;"><p>BG_E_HTTP_ERROR_503</p></td>
-<td style="border:1px solid black;"><p>The server is overloaded. BITS will retry automatically.</p></td>
+<td style="border:1px solid black;">0x801901F7</td>
+<td style="border:1px solid black;">-2145844745</td>
+<td style="border:1px solid black;">BG_E_HTTP_ERROR_503</td>
+<td style="border:1px solid black;">The server is overloaded. BITS will retry automatically.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80200013</p></td>
-<td style="border:1px solid black;"><p>-2145386477</p></td>
-<td style="border:1px solid black;"><p>BG_E_INSUFFICIENT_</p>
-<p>RANGE_SUPPORT</p></td>
-<td style="border:1px solid black;"><p>The proxy doesn't support HTTP range requests. Or the URL is a dynamic URL. BITS supports only static URLs.</p></td>
+<td style="border:1px solid black;">0x80200013</td>
+<td style="border:1px solid black;">-2145386477</td>
+<td style="border:1px solid black;">BG_E_INSUFFICIENT_
+RANGE_SUPPORT</td>
+<td style="border:1px solid black;">The proxy doesn't support HTTP range requests. Or the URL is a dynamic URL. BITS supports only static URLs.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80200010</p></td>
-<td style="border:1px solid black;"><p>-2145386480</p></td>
-<td style="border:1px solid black;"><p>BG_E_NETWORK_</p>
-<p>DISCONNECTED</p></td>
-<td style="border:1px solid black;"><p>Network is disconnected</p></td>
+<td style="border:1px solid black;">0x80200010</td>
+<td style="border:1px solid black;">-2145386480</td>
+<td style="border:1px solid black;">BG_E_NETWORK_
+DISCONNECTED</td>
+<td style="border:1px solid black;">Network is disconnected</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80072EFE</p></td>
-<td style="border:1px solid black;"><p>-2147012866</p></td>
-<td style="border:1px solid black;"><p>ERROR_INTERNET_</p>
-<p>CONNECTION_</p>
-<p>ABORTED</p></td>
-<td style="border:1px solid black;"><p>Some network problem or the server/proxy reset the socket connection.</p></td>
+<td style="border:1px solid black;">0x80072EFE</td>
+<td style="border:1px solid black;">-2147012866</td>
+<td style="border:1px solid black;">ERROR_INTERNET_
+CONNECTION_
+ABORTED</td>
+<td style="border:1px solid black;">Some network problem or the server/proxy reset the socket connection.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8007042C</p></td>
-<td style="border:1px solid black;"><p>-2147023828</p></td>
-<td style="border:1px solid black;"><p>ERROR_SERVICE_</p>
-<p>DEPENDENCY_FAIL</p></td>
-<td style="border:1px solid black;"><p>One of the services BITS depends on could not started. BITS depends on Rpcss on all Oses. BITS depends on SENS and WMI on win2k. If SENS is disabled BITS cannot start. BITS 1.0 and 1.2 incorrectly depend on lanmanworkstation.</p></td>
+<td style="border:1px solid black;">0x8007042C</td>
+<td style="border:1px solid black;">-2147023828</td>
+<td style="border:1px solid black;">ERROR_SERVICE_
+DEPENDENCY_FAIL</td>
+<td style="border:1px solid black;">One of the services BITS depends on could not started. BITS depends on Rpcss on all Oses. BITS depends on SENS and WMI on win2k. If SENS is disabled BITS cannot start. BITS 1.0 and 1.2 incorrectly depend on lanmanworkstation.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80080005</p></td>
-<td style="border:1px solid black;"><p>-2146959355</p></td>
-<td style="border:1px solid black;"><p>CO_E_SERVER_</p>
-<p>EXEC_FAILURE</p></td>
-<td style="border:1px solid black;"><p>BITS service could not be started.</p></td>
+<td style="border:1px solid black;">0x80080005</td>
+<td style="border:1px solid black;">-2146959355</td>
+<td style="border:1px solid black;">CO_E_SERVER_
+EXEC_FAILURE</td>
+<td style="border:1px solid black;">BITS service could not be started.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80070424</p></td>
-<td style="border:1px solid black;"><p>-2147023836</p></td>
-<td style="border:1px solid black;"><p>ERROR_SERVICE_</p>
-<p>DOES_NOT_EXIST</p></td>
-<td style="border:1px solid black;"><p>BITS service is deleted.</p></td>
+<td style="border:1px solid black;">0x80070424</td>
+<td style="border:1px solid black;">-2147023836</td>
+<td style="border:1px solid black;">ERROR_SERVICE_
+DOES_NOT_EXIST</td>
+<td style="border:1px solid black;">BITS service is deleted.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80190197</p></td>
-<td style="border:1px solid black;"><p>-2145844841</p></td>
-<td style="border:1px solid black;"><p>BG_E_HTTP_</p>
-<p>ERROR_407</p></td>
-<td style="border:1px solid black;"><p>The proxy requires credentials to authenticate the user but the credentials are not supplied. BITS 1.2 and below supported only implicit credentials (NTLM authentication)</p></td>
+<td style="border:1px solid black;">0x80190197</td>
+<td style="border:1px solid black;">-2145844841</td>
+<td style="border:1px solid black;">BG_E_HTTP_
+ERROR_407</td>
+<td style="border:1px solid black;">The proxy requires credentials to authenticate the user but the credentials are not supplied. BITS 1.2 and below supported only implicit credentials (NTLM authentication)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80070020</p></td>
-<td style="border:1px solid black;"><p>-2147024864</p></td>
-<td style="border:1px solid black;"><p>ERROR_SHARING_</p>
-<p>VIOLATION</p></td>
-<td style="border:1px solid black;"><p>BITS failed to create/write to a file.</p></td>
+<td style="border:1px solid black;">0x80070020</td>
+<td style="border:1px solid black;">-2147024864</td>
+<td style="border:1px solid black;">ERROR_SHARING_
+VIOLATION</td>
+<td style="border:1px solid black;">BITS failed to create/write to a file.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80040155</p></td>
-<td style="border:1px solid black;"><p>-2147221163</p></td>
-<td style="border:1px solid black;"><p>REGDB_E_</p>
-<p>IIDNOTREG</p></td>
-<td style="border:1px solid black;"><p>BITS interfaces are unregistered or the registry settings are messed up.</p></td>
+<td style="border:1px solid black;">0x80040155</td>
+<td style="border:1px solid black;">-2147221163</td>
+<td style="border:1px solid black;">REGDB_E_
+IIDNOTREG</td>
+<td style="border:1px solid black;">BITS interfaces are unregistered or the registry settings are messed up.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80190193</p></td>
-<td style="border:1px solid black;"><p>-2145844845</p></td>
-<td style="border:1px solid black;"><p>BG_E_HTTP_</p>
-<p>ERROR_403</p></td>
-<td style="border:1px solid black;"><p>Something wrong with server</p></td>
+<td style="border:1px solid black;">0x80190193</td>
+<td style="border:1px solid black;">-2145844845</td>
+<td style="border:1px solid black;">BG_E_HTTP_
+ERROR_403</td>
+<td style="border:1px solid black;">Something wrong with server</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80040154</p></td>
-<td style="border:1px solid black;"><p>-2147221164</p></td>
-<td style="border:1px solid black;"><p>REGDB_E_</p>
-<p>CLASSNOTREG</p></td>
-<td style="border:1px solid black;"><p>BITS interfaces are unregistered or the registry settings are invalid.</p></td>
+<td style="border:1px solid black;">0x80040154</td>
+<td style="border:1px solid black;">-2147221164</td>
+<td style="border:1px solid black;">REGDB_E_
+CLASSNOTREG</td>
+<td style="border:1px solid black;">BITS interfaces are unregistered or the registry settings are invalid.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8020001B</p></td>
-<td style="border:1px solid black;"><p>-2145386469</p></td>
-<td style="border:1px solid black;"><p>BG_E_INVALID_</p>
-<p>SERVER_RESPONSE</p></td>
-<td style="border:1px solid black;"><p>The proxy doesn't support HTTP 1.1 correctly.</p></td>
+<td style="border:1px solid black;">0x8020001B</td>
+<td style="border:1px solid black;">-2145386469</td>
+<td style="border:1px solid black;">BG_E_INVALID_
+SERVER_RESPONSE</td>
+<td style="border:1px solid black;">The proxy doesn't support HTTP 1.1 correctly.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8007043B</p></td>
-<td style="border:1px solid black;"><p>-2147023813</p></td>
-<td style="border:1px solid black;"><p>ERROR_</p>
-<p>SERVICE_NOT_IN_EXE</p></td>
-<td style="border:1px solid black;"><p>The user has messed up with service groups and removed BITS from the netsvcs service group</p></td>
+<td style="border:1px solid black;">0x8007043B</td>
+<td style="border:1px solid black;">-2147023813</td>
+<td style="border:1px solid black;">ERROR_
+SERVICE_NOT_IN_EXE</td>
+<td style="border:1px solid black;">The user has messed up with service groups and removed BITS from the netsvcs service group</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80190198</p></td>
-<td style="border:1px solid black;"><p>-2145844840</p></td>
-<td style="border:1px solid black;"><p>BG_E_HTTP_</p>
-<p>ERROR_408</p></td>
-<td style="border:1px solid black;"><p>Unable to reach the server</p></td>
+<td style="border:1px solid black;">0x80190198</td>
+<td style="border:1px solid black;">-2145844840</td>
+<td style="border:1px solid black;">BG_E_HTTP_
+ERROR_408</td>
+<td style="border:1px solid black;">Unable to reach the server</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80070005</p></td>
-<td style="border:1px solid black;"><p>-2147024891</p></td>
-<td style="border:1px solid black;"><p>E_ACCESSDENIED</p></td>
-<td style="border:1px solid black;"><p>Access denied.</p></td>
+<td style="border:1px solid black;">0x80070005</td>
+<td style="border:1px solid black;">-2147024891</td>
+<td style="border:1px solid black;">E_ACCESSDENIED</td>
+<td style="border:1px solid black;">Access denied.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80072AFC</p></td>
-<td style="border:1px solid black;"><p>-2147013892</p></td>
-<td style="border:1px solid black;"><p>WSANO_DATA</p></td>
-<td style="border:1px solid black;"><p>The machine is not able to resolve the proxy/server. WSANO_DATA means that the name-resolution component recognizes the hostname, but has no IP addresses associated with it. An example is when the network is disconnected after a successful lookup, and the now-unreachable IP address is trimmed from the DNS cache.</p></td>
+<td style="border:1px solid black;">0x80072AFC</td>
+<td style="border:1px solid black;">-2147013892</td>
+<td style="border:1px solid black;">WSANO_DATA</td>
+<td style="border:1px solid black;">The machine is not able to resolve the proxy/server. WSANO_DATA means that the name-resolution component recognizes the hostname, but has no IP addresses associated with it. An example is when the network is disconnected after a successful lookup, and the now-unreachable IP address is trimmed from the DNS cache.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80200011</p></td>
-<td style="border:1px solid black;"><p>-2145386479</p></td>
-<td style="border:1px solid black;"><p>BG_E_MISSING_</p>
-<p>FILE_SIZE</p></td>
-<td style="border:1px solid black;"><p>The proxy doesn't support HTTP 1.1 correctly. Or the URL is a dynamic URL. BITS supports only static URLs</p></td>
+<td style="border:1px solid black;">0x80200011</td>
+<td style="border:1px solid black;">-2145386479</td>
+<td style="border:1px solid black;">BG_E_MISSING_
+FILE_SIZE</td>
+<td style="border:1px solid black;">The proxy doesn't support HTTP 1.1 correctly. Or the URL is a dynamic URL. BITS supports only static URLs</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80070057</p></td>
-<td style="border:1px solid black;"><p>2147942487</p></td>
-<td style="border:1px solid black;"><p>E_INVALIDARG</p></td>
-<td style="border:1px solid black;"><p>  If we see this error when BITS service is started or if there is an entry in the eventlog that says that BITS service could not be started because of this error code then it means that system-wide proxy settings configured using the proxycfg.exe tool are corrupted. 2. BITS 1.5 and below returned this error code when invalid proxy information is supplied. BITS 2.0 returns a more informative BG_E_INVALID_PROXY_INFO error. Any other API when called with incorrect parameters could give this error</p>
-<p>Workaround:</p>
-<p>1. Ensure the APIs are correctly called and the proxy information is correctly supplied. Upgrade to BITS 2.0</p></td>
+<td style="border:1px solid black;">0x80070057</td>
+<td style="border:1px solid black;">2147942487</td>
+<td style="border:1px solid black;">E_INVALIDARG</td>
+<td style="border:1px solid black;">  If we see this error when BITS service is started or if there is an entry in the eventlog that says that BITS service could not be started because of this error code then it means that system-wide proxy settings configured using the proxycfg.exe tool are corrupted. 2. BITS 1.5 and below returned this error code when invalid proxy information is supplied. BITS 2.0 returns a more informative BG_E_INVALID_PROXY_INFO error. Any other API when called with incorrect parameters could give this error
+Workaround:
+1. Ensure the APIs are correctly called and the proxy information is correctly supplied. Upgrade to BITS 2.0</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x801901F4</p></td>
-<td style="border:1px solid black;"><p>-2145844748</p></td>
-<td style="border:1px solid black;"><p>BG_E_HTTP_</p>
-<p>RROR_500</p></td>
-<td style="border:1px solid black;"><p>Server error.</p></td>
+<td style="border:1px solid black;">0x801901F4</td>
+<td style="border:1px solid black;">-2145844748</td>
+<td style="border:1px solid black;">BG_E_HTTP_
+RROR_500</td>
+<td style="border:1px solid black;">Server error.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80070070</p></td>
-<td style="border:1px solid black;"><p>-2147024784</p></td>
-<td style="border:1px solid black;"><p>ERROR_</p>
-<p>DISK_FULL</p></td>
-<td style="border:1px solid black;"><p>The disk is full.</p></td>
+<td style="border:1px solid black;">0x80070070</td>
+<td style="border:1px solid black;">-2147024784</td>
+<td style="border:1px solid black;">ERROR_
+DISK_FULL</td>
+<td style="border:1px solid black;">The disk is full.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80190190</p></td>
-<td style="border:1px solid black;"><p>-2145844848</p></td>
-<td style="border:1px solid black;"><p>BG_E_HTTP_</p>
-<p>ERROR_400</p></td>
-<td style="border:1px solid black;"><p>The download URL is invalid</p></td>
+<td style="border:1px solid black;">0x80190190</td>
+<td style="border:1px solid black;">-2145844848</td>
+<td style="border:1px solid black;">BG_E_HTTP_
+ERROR_400</td>
+<td style="border:1px solid black;">The download URL is invalid</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80190195</p></td>
-<td style="border:1px solid black;"><p>-2145844843</p></td>
-<td style="border:1px solid black;"><p>BG_E_HTTP_</p>
-<p>ERROR_405</p></td>
-<td style="border:1px solid black;"><p>Proxy doesn't support HTTP 1.1 or more specifically rejects HTTP HEAD requests.</p></td>
+<td style="border:1px solid black;">0x80190195</td>
+<td style="border:1px solid black;">-2145844843</td>
+<td style="border:1px solid black;">BG_E_HTTP_
+ERROR_405</td>
+<td style="border:1px solid black;">Proxy doesn't support HTTP 1.1 or more specifically rejects HTTP HEAD requests.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x801901A0</p></td>
-<td style="border:1px solid black;"><p>-21458448</p></td>
-<td style="border:1px solid black;"><p>BG_E_HTTP_</p>
-<p>ERROR_416</p></td>
-<td style="border:1px solid black;"><p>HTTP error 416.</p></td>
+<td style="border:1px solid black;">0x801901A0</td>
+<td style="border:1px solid black;">-21458448</td>
+<td style="border:1px solid black;">BG_E_HTTP_
+ERROR_416</td>
+<td style="border:1px solid black;">HTTP error 416.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8007041D</p></td>
-<td style="border:1px solid black;"><p>-2147023843</p></td>
-<td style="border:1px solid black;"><p>ERROR_SERVICE_</p>
-<p>REQUEST_</p>
-<p>TIMEOUT</p></td>
-<td style="border:1px solid black;"><p>Service is taking a lot of time to start. We have seen this in service stress conditions.</p></td>
+<td style="border:1px solid black;">0x8007041D</td>
+<td style="border:1px solid black;">-2147023843</td>
+<td style="border:1px solid black;">ERROR_SERVICE_
+REQUEST_
+TIMEOUT</td>
+<td style="border:1px solid black;">Service is taking a lot of time to start. We have seen this in service stress conditions.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8020000D</p></td>
-<td style="border:1px solid black;"><p>-2145386483</p></td>
-<td style="border:1px solid black;"><p>BG_E_</p>
-<p>DESTINATION_</p>
-<p>LOCKED</p></td>
-<td style="border:1px solid black;"><p>Some other program like chkdsk is currently running which locked the disk and so BITS is not able to write to the disk.</p></td>
+<td style="border:1px solid black;">0x8020000D</td>
+<td style="border:1px solid black;">-2145386483</td>
+<td style="border:1px solid black;">BG_E_
+DESTINATION_
+LOCKED</td>
+<td style="border:1px solid black;">Some other program like chkdsk is currently running which locked the disk and so BITS is not able to write to the disk.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x800706BA</p></td>
-<td style="border:1px solid black;"><p>-2147023174</p></td>
-<td style="border:1px solid black;"><p>RPC_S_SERVER_</p>
-<p>UNAVAILABLE</p></td>
-<td style="border:1px solid black;"><p>Probably the BITS service is stopped while the app is trying to access it.</p></td>
+<td style="border:1px solid black;">0x800706BA</td>
+<td style="border:1px solid black;">-2147023174</td>
+<td style="border:1px solid black;">RPC_S_SERVER_
+UNAVAILABLE</td>
+<td style="border:1px solid black;">Probably the BITS service is stopped while the app is trying to access it.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80072AF9</p></td>
-<td style="border:1px solid black;"><p>-2147013895</p></td>
-<td style="border:1px solid black;"><p>WSAHOST_</p>
-<p>NOT_FOUND</p></td>
-<td style="border:1px solid black;"><p>Machine not able to resolve proxy/server. We have also seen this problem on Windows XP RTM (BITS 1.0) with a modem connection in the lab. This error could occur if the proxy server is not resolvable without the fully qualified domain suffix. This problem has been fixed in BITS 1.2 and above</p></td>
+<td style="border:1px solid black;">0x80072AF9</td>
+<td style="border:1px solid black;">-2147013895</td>
+<td style="border:1px solid black;">WSAHOST_
+NOT_FOUND</td>
+<td style="border:1px solid black;">Machine not able to resolve proxy/server. We have also seen this problem on Windows XP RTM (BITS 1.0) with a modem connection in the lab. This error could occur if the proxy server is not resolvable without the fully qualified domain suffix. This problem has been fixed in BITS 1.2 and above</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8019019B</p></td>
-<td style="border:1px solid black;"><p>-2145844837</p></td>
-<td style="border:1px solid black;"><p>BG_E_HTTP_</p>
-<p>ERROR_411</p></td>
-<td style="border:1px solid black;"><p>Proxy incorrectly expecting content-length in the HTTP requests.</p></td>
+<td style="border:1px solid black;">0x8019019B</td>
+<td style="border:1px solid black;">-2145844837</td>
+<td style="border:1px solid black;">BG_E_HTTP_
+ERROR_411</td>
+<td style="border:1px solid black;">Proxy incorrectly expecting content-length in the HTTP requests.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8007043C</p></td>
-<td style="border:1px solid black;"><p>-2147023812</p></td>
-<td style="border:1px solid black;"><p>ERROR_NOT_</p>
-<p>SAFEBOOT_SERVICE</p></td>
-<td style="border:1px solid black;"><p>The service is not supported in the safe boot mode.</p></td>
+<td style="border:1px solid black;">0x8007043C</td>
+<td style="border:1px solid black;">-2147023812</td>
+<td style="border:1px solid black;">ERROR_NOT_
+SAFEBOOT_SERVICE</td>
+<td style="border:1px solid black;">The service is not supported in the safe boot mode.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x800700E7</p></td>
-<td style="border:1px solid black;"><p>-2147024665</p></td>
-<td style="border:1px solid black;"><p>ERROR_PIPE_BUSY</p></td>
-<td style="border:1px solid black;"><p>SCM is under stress.</p></td>
+<td style="border:1px solid black;">0x800700E7</td>
+<td style="border:1px solid black;">-2147024665</td>
+<td style="border:1px solid black;">ERROR_PIPE_BUSY</td>
+<td style="border:1px solid black;">SCM is under stress.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x800704CF.</p></td>
-<td style="border:1px solid black;"><p>-2147023665</p></td>
-<td style="border:1px solid black;"><p>ERROR_NETWORK_</p>
-<p>UNREACHABLE</p></td>
-<td style="border:1px solid black;"><p>Network problems.</p></td>
+<td style="border:1px solid black;">0x800704CF.</td>
+<td style="border:1px solid black;">-2147023665</td>
+<td style="border:1px solid black;">ERROR_NETWORK_
+UNREACHABLE</td>
+<td style="border:1px solid black;">Network problems.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x800703EB</p></td>
-<td style="border:1px solid black;"><p>-2147023893</p></td>
-<td style="border:1px solid black;"><p>ERROR_CAN_</p>
-<p>NOT_COMPLETE</p></td>
-<td style="border:1px solid black;"><p>Probably BITS service is stopped.</p></td>
+<td style="border:1px solid black;">0x800703EB</td>
+<td style="border:1px solid black;">-2147023893</td>
+<td style="border:1px solid black;">ERROR_CAN_
+NOT_COMPLETE</td>
+<td style="border:1px solid black;">Probably BITS service is stopped.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8007041F</p></td>
-<td style="border:1px solid black;"><p>-2147023841</p></td>
-<td style="border:1px solid black;"><p>ERROR_SERVICE_</p>
-<p>DATABASE_LOCKED</p></td>
-<td style="border:1px solid black;"><p>SCM is under stress.</p></td>
+<td style="border:1px solid black;">0x8007041F</td>
+<td style="border:1px solid black;">-2147023841</td>
+<td style="border:1px solid black;">ERROR_SERVICE_
+DATABASE_LOCKED</td>
+<td style="border:1px solid black;">SCM is under stress.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x80072EE4</p></td>
-<td style="border:1px solid black;"><p>-2147012892</p></td>
-<td style="border:1px solid black;"><p>ERROR_INTERNET_</p>
-<p>INTERNAL_ERROR</p></td>
-<td style="border:1px solid black;"><p>Internal winhttp error</p></td>
+<td style="border:1px solid black;">0x80072EE4</td>
+<td style="border:1px solid black;">-2147012892</td>
+<td style="border:1px solid black;">ERROR_INTERNET_
+INTERNAL_ERROR</td>
+<td style="border:1px solid black;">Internal winhttp error</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x80072EF1</p></td>
-<td style="border:1px solid black;"><p>-2147012879</p></td>
-<td style="border:1px solid black;"><p>ERROR_INTERNET_</p>
-<p>OPERATION_</p>
-<p>CANCELLED</p></td>
-<td style="border:1px solid black;"><p>Internal winhttp error</p></td>
+<td style="border:1px solid black;">0x80072EF1</td>
+<td style="border:1px solid black;">-2147012879</td>
+<td style="border:1px solid black;">ERROR_INTERNET_
+OPERATION_
+CANCELLED</td>
+<td style="border:1px solid black;">Internal winhttp error</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Internal winhttp error</p></td>
-<td style="border:1px solid black;"><p>-2147012744</p></td>
-<td style="border:1px solid black;"><p>ERROR_WINHTTP_</p>
-<p>INVALID_SERVER_</p>
-<p>RESPONSE</p></td>
-<td style="border:1px solid black;"><p>Winhttp received some error while communicating with proxy/server. Or the proxy server doesn’t support HTTP 1.1 correctly. We have seen this with MS proxy 2.0. INVALID_</p>
-<p>SERVER_RESPONSE indicates a syntax error in the response headers, which could be caused by a flaky proxy, data corruption along the way, or the connection being broken by a graceful close.</p></td>
+<td style="border:1px solid black;">Internal winhttp error</td>
+<td style="border:1px solid black;">-2147012744</td>
+<td style="border:1px solid black;">ERROR_WINHTTP_
+INVALID_SERVER_
+RESPONSE</td>
+<td style="border:1px solid black;">Winhttp received some error while communicating with proxy/server. Or the proxy server doesn’t support HTTP 1.1 correctly. We have seen this with MS proxy 2.0. INVALID_
+SERVER_RESPONSE indicates a syntax error in the response headers, which could be caused by a flaky proxy, data corruption along the way, or the connection being broken by a graceful close.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x8020002E</p></td>
-<td style="border:1px solid black;"><p>-2145386450</p></td>
-<td style="border:1px solid black;"><p>BG_E_CONNECTION_</p>
-<p>CLOSED</p></td>
-<td style="border:1px solid black;"><p>You should only see this error in the Windows Server 2008 builds. It was included in some Windows XP SP2 builds by mistake and later removed. Instead you should see one of the WINHTTP connection errors. Anyway the reason is that the proxy/server is not reachable</p></td>
+<td style="border:1px solid black;">0x8020002E</td>
+<td style="border:1px solid black;">-2145386450</td>
+<td style="border:1px solid black;">BG_E_CONNECTION_
+CLOSED</td>
+<td style="border:1px solid black;">You should only see this error in the Windows Server 2008 builds. It was included in some Windows XP SP2 builds by mistake and later removed. Instead you should see one of the WINHTTP connection errors. Anyway the reason is that the proxy/server is not reachable</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x8020003F</p></td>
-<td style="border:1px solid black;"><p>-2145386433</p></td>
-<td style="border:1px solid black;"><p>BG_E_INVALID_</p>
-<p>PROXY_INFO</p></td>
-<td style="border:1px solid black;"><p>Invalid proxy settings.</p></td>
+<td style="border:1px solid black;">0x8020003F</td>
+<td style="border:1px solid black;">-2145386433</td>
+<td style="border:1px solid black;">BG_E_INVALID_
+PROXY_INFO</td>
+<td style="border:1px solid black;">Invalid proxy settings.</td>
 </tr>
 </tbody>
 </table>

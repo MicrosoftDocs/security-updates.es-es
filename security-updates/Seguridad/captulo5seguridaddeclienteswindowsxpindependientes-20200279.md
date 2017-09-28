@@ -55,7 +55,7 @@ En la siguiente tabla se muestran las extensiones de complemento de Directiva de
 
 **Tabla 5.1 Extensiones del complemento de directiva de grupo**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -63,38 +63,38 @@ En la siguiente tabla se muestran las extensiones de complemento de Directiva de
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Extensión del complemento de directiva de grupo</p></th>
-<th><p>Disponible en LGPO</p></th>
+<th>Extensión del complemento de directiva de grupo</th>
+<th>Disponible en LGPO</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Instalación de software</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">Instalación de software</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Secuencias de comandos</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
+<td style="border:1px solid black;">Secuencias de comandos</td>
+<td style="border:1px solid black;">Sí</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Configuración de seguridad</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
+<td style="border:1px solid black;">Configuración de seguridad</td>
+<td style="border:1px solid black;">Sí</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Plantillas administrativas</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
+<td style="border:1px solid black;">Plantillas administrativas</td>
+<td style="border:1px solid black;">Sí</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Redireccionamiento de carpetas</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">Redireccionamiento de carpetas</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Mantenimiento de Internet Explorer</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
+<td style="border:1px solid black;">Mantenimiento de Internet Explorer</td>
+<td style="border:1px solid black;">Sí</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servicios de instalación remota</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">Servicios de instalación remota</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 </tbody>
 </table>
@@ -228,7 +228,7 @@ En la lista siguiente se explican los parámetros de la herramienta Secedit.exe.
   
     **Tabla 5.2 Áreas de seguridad**
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
@@ -236,34 +236,34 @@ En la lista siguiente se explican los parámetros de la herramienta Secedit.exe.
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>Nombre de área</p></th>
-    <th><p>Descripción</p></th>
+    <th>Nombre de área</th>
+    <th>Descripción</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>SECURITYPOLICY</p></td>
-    <td style="border:1px solid black;"><p>Incluye directivas de cuentas, directivas de auditoría, configuración del registro de eventos y opciones de seguridad.</p></td>
+    <td style="border:1px solid black;">SECURITYPOLICY</td>
+    <td style="border:1px solid black;">Incluye directivas de cuentas, directivas de auditoría, configuración del registro de eventos y opciones de seguridad.</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>GROUP_MGMT</p></td>
-    <td style="border:1px solid black;"><p>Incluye la configuración de grupo restringido.</p></td>
+    <td style="border:1px solid black;">GROUP_MGMT</td>
+    <td style="border:1px solid black;">Incluye la configuración de grupo restringido.</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>USER_RIGHTS</p></td>
-    <td style="border:1px solid black;"><p>Incluye la configuración de asignación de derechos de usuario.</p></td>
+    <td style="border:1px solid black;">USER_RIGHTS</td>
+    <td style="border:1px solid black;">Incluye la configuración de asignación de derechos de usuario.</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>REGKEYS</p></td>
-    <td style="border:1px solid black;"><p>Incluye permisos del Registro.</p></td>
+    <td style="border:1px solid black;">REGKEYS</td>
+    <td style="border:1px solid black;">Incluye permisos del Registro.</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>FILESTORE</p></td>
-    <td style="border:1px solid black;"><p>Incluye permisos del sistema de archivos.</p></td>
+    <td style="border:1px solid black;">FILESTORE</td>
+    <td style="border:1px solid black;">Incluye permisos del sistema de archivos.</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>SERVICES</p></td>
-    <td style="border:1px solid black;"><p>Incluye la configuración del servicio del sistema.</p></td>
+    <td style="border:1px solid black;">SERVICES</td>
+    <td style="border:1px solid black;">Incluye la configuración del servicio del sistema.</td>
     </tr>
     </tbody>
     </table>
@@ -287,7 +287,7 @@ En las siguientes tablas se incluye una lista de las secuencias de comandos y lo
   
 **Tabla 5.3 Secuencias de comandos y archivos para equipos cliente independientes**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -295,61 +295,61 @@ En las siguientes tablas se incluye una lista de las secuencias de comandos y lo
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nombres de las secuencias de comandos y los archivos</p></th>
-<th><p>Descripción</p></th>
+<th>Nombres de las secuencias de comandos y los archivos</th>
+<th>Descripción</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Standalone-EC-Desktop.cmd</p></td>
-<td style="border:1px solid black;"><p>Secuencia de comandos para equipos cliente independientes que se utiliza para establecer la directiva de Cliente de empresa en equipos cliente de escritorio.</p></td>
+<td style="border:1px solid black;">Standalone-EC-Desktop.cmd</td>
+<td style="border:1px solid black;">Secuencia de comandos para equipos cliente independientes que se utiliza para establecer la directiva de Cliente de empresa en equipos cliente de escritorio.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Standalone-EC-Laptop.cmd</p></td>
-<td style="border:1px solid black;"><p>Secuencia de comandos para equipos cliente independientes que se utiliza para establecer la directiva de Cliente de empresa en equipos cliente portátiles.</p></td>
+<td style="border:1px solid black;">Standalone-EC-Laptop.cmd</td>
+<td style="border:1px solid black;">Secuencia de comandos para equipos cliente independientes que se utiliza para establecer la directiva de Cliente de empresa en equipos cliente portátiles.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Standalone-SSLF-Desktop.cmd</p></td>
-<td style="border:1px solid black;"><p>Secuencia de comandos para equipos cliente independientes que se utiliza para establecer la directiva de Seguridad especializada: Funcionalidad limitada en equipos cliente de escritorio.</p></td>
+<td style="border:1px solid black;">Standalone-SSLF-Desktop.cmd</td>
+<td style="border:1px solid black;">Secuencia de comandos para equipos cliente independientes que se utiliza para establecer la directiva de Seguridad especializada: Funcionalidad limitada en equipos cliente de escritorio.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Standalone-SSLF-Laptop.cmd</p></td>
-<td style="border:1px solid black;"><p>Secuencia de comandos para equipos cliente independientes que se utiliza para establecer la directiva de Seguridad especializada: Funcionalidad limitada en equipos cliente portátiles.</p></td>
+<td style="border:1px solid black;">Standalone-SSLF-Laptop.cmd</td>
+<td style="border:1px solid black;">Secuencia de comandos para equipos cliente independientes que se utiliza para establecer la directiva de Seguridad especializada: Funcionalidad limitada en equipos cliente portátiles.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Standalone-EC-Account.inf</p></td>
-<td style="border:1px solid black;"><p>Plantilla de la directiva de cuentas para el entorno Cliente de empresa.</p></td>
+<td style="border:1px solid black;">Standalone-EC-Account.inf</td>
+<td style="border:1px solid black;">Plantilla de la directiva de cuentas para el entorno Cliente de empresa.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Standalone-SSLF-Account.inf</p></td>
-<td style="border:1px solid black;"><p>Plantilla de la directiva de cuentas para el entorno Seguridad especializada: Funcionalidad limitada.</p></td>
+<td style="border:1px solid black;">Standalone-SSLF-Account.inf</td>
+<td style="border:1px solid black;">Plantilla de la directiva de cuentas para el entorno Seguridad especializada: Funcionalidad limitada.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>EC-Desktop.inf</p></td>
-<td style="border:1px solid black;"><p>Plantilla de seguridad para los equipos cliente de escritorio del entorno Cliente de empresa.</p></td>
+<td style="border:1px solid black;">EC-Desktop.inf</td>
+<td style="border:1px solid black;">Plantilla de seguridad para los equipos cliente de escritorio del entorno Cliente de empresa.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>EC-Laptop.inf</p></td>
-<td style="border:1px solid black;"><p>Plantilla de seguridad para los equipos cliente portátiles del entorno Cliente de empresa.</p></td>
+<td style="border:1px solid black;">EC-Laptop.inf</td>
+<td style="border:1px solid black;">Plantilla de seguridad para los equipos cliente portátiles del entorno Cliente de empresa.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SSLF-Desktop.inf</p></td>
-<td style="border:1px solid black;"><p>Plantilla de seguridad para los equipos cliente de escritorio del entorno Seguridad especializada: Funcionalidad limitada.</p></td>
+<td style="border:1px solid black;">SSLF-Desktop.inf</td>
+<td style="border:1px solid black;">Plantilla de seguridad para los equipos cliente de escritorio del entorno Seguridad especializada: Funcionalidad limitada.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SSLF-Laptop.inf</p></td>
-<td style="border:1px solid black;"><p>Plantilla de seguridad para los equipos cliente portátiles del entorno Seguridad especializada: Funcionalidad limitada.</p></td>
+<td style="border:1px solid black;">SSLF-Laptop.inf</td>
+<td style="border:1px solid black;">Plantilla de seguridad para los equipos cliente portátiles del entorno Seguridad especializada: Funcionalidad limitada.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>XP Default Security.sdb</p></td>
-<td style="border:1px solid black;"><p>Base de datos de directiva predeterminada.</p></td>
+<td style="border:1px solid black;">XP Default Security.sdb</td>
+<td style="border:1px solid black;">Base de datos de directiva predeterminada.</td>
 </tr>
 </tbody>
 </table>
   
 **Tabla 5.4 Secuencias de comandos y archivos para equipos heredados**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -357,59 +357,59 @@ En las siguientes tablas se incluye una lista de las secuencias de comandos y lo
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nombres de las secuencias de comandos y los archivos</p></th>
-<th><p>Descripción</p></th>
+<th>Nombres de las secuencias de comandos y los archivos</th>
+<th>Descripción</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Legacy-EC-Desktop.cmd</p></td>
-<td style="border:1px solid black;"><p>Secuencia de comandos para equipos heredados que se utiliza para establecer la directiva de Cliente de empresa en equipos cliente de escritorio.</p></td>
+<td style="border:1px solid black;">Legacy-EC-Desktop.cmd</td>
+<td style="border:1px solid black;">Secuencia de comandos para equipos heredados que se utiliza para establecer la directiva de Cliente de empresa en equipos cliente de escritorio.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Legacy-EC-Laptop.cmd</p></td>
-<td style="border:1px solid black;"><p>Secuencia de comandos para equipos heredados que se utiliza para establecer la directiva de Cliente de empresa en equipos cliente portátiles.</p></td>
+<td style="border:1px solid black;">Legacy-EC-Laptop.cmd</td>
+<td style="border:1px solid black;">Secuencia de comandos para equipos heredados que se utiliza para establecer la directiva de Cliente de empresa en equipos cliente portátiles.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Legacy-SSLF-Desktop.cmd</p></td>
-<td style="border:1px solid black;"><p>Secuencia de comandos para equipos heredados que se utiliza para establecer la directiva de Seguridad especializada: Funcionalidad limitada en equipos cliente de escritorio.</p></td>
+<td style="border:1px solid black;">Legacy-SSLF-Desktop.cmd</td>
+<td style="border:1px solid black;">Secuencia de comandos para equipos heredados que se utiliza para establecer la directiva de Seguridad especializada: Funcionalidad limitada en equipos cliente de escritorio.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Legacy-SSLF-Laptop.cmd</p></td>
-<td style="border:1px solid black;"><p>Secuencia de comandos para equipos heredados que se utiliza para establecer la directiva de Seguridad especializada: Funcionalidad limitada en equipos cliente portátiles.</p></td>
+<td style="border:1px solid black;">Legacy-SSLF-Laptop.cmd</td>
+<td style="border:1px solid black;">Secuencia de comandos para equipos heredados que se utiliza para establecer la directiva de Seguridad especializada: Funcionalidad limitada en equipos cliente portátiles.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Legacy-EC-Account.inf</p></td>
-<td style="border:1px solid black;"><p>Plantilla de directiva de cuentas de empresa para equipos heredados.</p></td>
+<td style="border:1px solid black;">Legacy-EC-Account.inf</td>
+<td style="border:1px solid black;">Plantilla de directiva de cuentas de empresa para equipos heredados.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Legacy-SSLF-Account.inf</p></td>
-<td style="border:1px solid black;"><p>Plantilla de directiva de cuentas del entorno Seguridad especializada: Funcionalidad limitada para equipos heredados.</p></td>
+<td style="border:1px solid black;">Legacy-SSLF-Account.inf</td>
+<td style="border:1px solid black;">Plantilla de directiva de cuentas del entorno Seguridad especializada: Funcionalidad limitada para equipos heredados.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Legacy-EC-Desktop.inf</p></td>
-<td style="border:1px solid black;"><p>Plantilla de seguridad para los equipos cliente de escritorio heredados del entorno Cliente de empresa.</p></td>
+<td style="border:1px solid black;">Legacy-EC-Desktop.inf</td>
+<td style="border:1px solid black;">Plantilla de seguridad para los equipos cliente de escritorio heredados del entorno Cliente de empresa.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Legacy-EC-Laptop.inf</p></td>
-<td style="border:1px solid black;"><p>Plantilla de seguridad para los equipos cliente portátiles heredados del entorno Cliente de empresa.</p></td>
+<td style="border:1px solid black;">Legacy-EC-Laptop.inf</td>
+<td style="border:1px solid black;">Plantilla de seguridad para los equipos cliente portátiles heredados del entorno Cliente de empresa.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Legacy-SSLF-Desktop.inf</p></td>
-<td style="border:1px solid black;"><p>Plantilla de seguridad para los equipos cliente de escritorio heredados del entorno Seguridad especializada: Funcionalidad limitada.</p></td>
+<td style="border:1px solid black;">Legacy-SSLF-Desktop.inf</td>
+<td style="border:1px solid black;">Plantilla de seguridad para los equipos cliente de escritorio heredados del entorno Seguridad especializada: Funcionalidad limitada.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Legacy-SSLF-Laptop.inf</p></td>
-<td style="border:1px solid black;"><p>Plantilla de seguridad para los equipos cliente portátiles heredados del entorno Seguridad especializada: Funcionalidad limitada.</p></td>
+<td style="border:1px solid black;">Legacy-SSLF-Laptop.inf</td>
+<td style="border:1px solid black;">Plantilla de seguridad para los equipos cliente portátiles heredados del entorno Seguridad especializada: Funcionalidad limitada.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>XP Default Security.sdb</p></td>
-<td style="border:1px solid black;"><p>Base de datos de directiva predeterminada.<br />
-<strong>Nota:</strong> asegúrese de que la base de datos tiene privilegios de escritura. No se puede establecer como de sólo lectura.</p></td>
+<td style="border:1px solid black;">XP Default Security.sdb</td>
+<td style="border:1px solid black;">Base de datos de directiva predeterminada.<br />
+<strong>Nota:</strong> asegúrese de que la base de datos tiene privilegios de escritura. No se puede establecer como de sólo lectura.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 [](#mainsection)[Principio de la página](#mainsection)
 

@@ -21,7 +21,7 @@ Puede utilizar las siguientes cifras durante el planeamiento de la capacidad par
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -39,22 +39,22 @@ Puede utilizar las siguientes cifras durante el planeamiento de la capacidad par
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Solicitud de licencia</p></td>
-<td style="border:1px solid black;"><p>Repetida para cada usuario y cada fragmento de contenido</p></td>
-<td style="border:1px solid black;"><p>64</p></td>
-<td style="border:1px solid black;"><p>18</p></td>
+<td style="border:1px solid black;">Solicitud de licencia</td>
+<td style="border:1px solid black;">Repetida para cada usuario y cada fragmento de contenido</td>
+<td style="border:1px solid black;">64</td>
+<td style="border:1px solid black;">18</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certificación de cuenta de permisos</p></td>
-<td style="border:1px solid black;"><p>Sólo tráfico de inicialización de RMS</p></td>
-<td style="border:1px solid black;"><p>12</p></td>
-<td style="border:1px solid black;"><p>16</p></td>
+<td style="border:1px solid black;">Certificación de cuenta de permisos</td>
+<td style="border:1px solid black;">Sólo tráfico de inicialización de RMS</td>
+<td style="border:1px solid black;">12</td>
+<td style="border:1px solid black;">16</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Inscripción de clientes</p></td>
-<td style="border:1px solid black;"><p>Sólo tráfico de inicialización de RMS</p></td>
-<td style="border:1px solid black;"><p>17</p></td>
-<td style="border:1px solid black;"><p>16</p></td>
+<td style="border:1px solid black;">Inscripción de clientes</td>
+<td style="border:1px solid black;">Sólo tráfico de inicialización de RMS</td>
+<td style="border:1px solid black;">17</td>
+<td style="border:1px solid black;">16</td>
 </tr>
 </tbody>
 </table>
@@ -65,7 +65,7 @@ En la siguiente tabla se proporcionan datos de línea de base sobre el uso del a
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -81,14 +81,14 @@ En la siguiente tabla se proporcionan datos de línea de base sobre el uso del a
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Establecimiento de conexión de RMS (ldap_bind)</p></td>
-<td style="border:1px solid black;"><p>1600</p></td>
-<td style="border:1px solid black;"><p>200</p></td>
+<td style="border:1px solid black;">Establecimiento de conexión de RMS (ldap_bind)</td>
+<td style="border:1px solid black;">1600</td>
+<td style="border:1px solid black;">200</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Evaluación de pertenencia a grupos de RMS (ldap_search)</p></td>
-<td style="border:1px solid black;"><p>200</p></td>
-<td style="border:1px solid black;"><p>100</p></td>
+<td style="border:1px solid black;">Evaluación de pertenencia a grupos de RMS (ldap_search)</td>
+<td style="border:1px solid black;">200</td>
+<td style="border:1px solid black;">100</td>
 </tr>
 </tbody>
 </table>

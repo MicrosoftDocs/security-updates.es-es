@@ -22,7 +22,7 @@ You can approve the installation of updates for all the computers in your WSUS n
 -   Set a deadline for automatic installation. When you select this option, you set specific times and dates to install updates, overriding any settings on the client computers. In addition, you can specify a past date for the deadline if you want to approve an update immediately (to be installed the next time client computers contact the WSUS server).
 -   Remove an installed update if that update supports removal.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -35,13 +35,13 @@ You can approve the installation of updates for all the computers in your WSUS n
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">You cannot set a deadline for automatic installation for an update if user input is required (for example, specifying a setting relevant to the update). To determine whether an update will require user input, look at the <strong>May request user input</strong> field in the update properties for an update displayed on the <strong>Updates</strong> page. Also check for a message in the <strong>Approve Updates</strong> box that says, &quot;<strong>The selected update requires user input and does not support an installation deadline</strong>.&quot;
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -54,11 +54,11 @@ You can approve the installation of updates for all the computers in your WSUS n
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">If there are updates to the WSUS server component, you cannot approve other updates to client systems until the WSUS update is approved. You will see this warning message in the Approve Updates dialog box: &quot;There are WSUS updates that have not been approved. You should approve the WSUS updates before approving this update.&quot; In this case, you should click the WSUS Updates node and make sure that all of the updates in that view have been approved before returning to the general updates.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 **To approve updates**
 1.  In the WSUS administrative console, click **Updates**.
@@ -93,7 +93,7 @@ You can approve the installation of updates for all the computers in your WSUS n
 
 8.  Click **OK** after setting all your approvals**.** The **Approval Progress** window will display the progress toward completing the approval. When the process is complete, the **Close** button will be available. Click **Close**.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -106,11 +106,11 @@ You can approve the installation of updates for all the computers in your WSUS n
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">For more information about downloading and installing updates, see <a href="https://technet.microsoft.com/4fab785e-6f4c-418d-98dc-5addaf945b79">Best Practices with Windows Server Update Services 3.0 SP2</a>.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Declining Updates
 -----------------
@@ -145,7 +145,7 @@ Approving Updates for Removal
 
 You can approve an update for removal (that is, to uninstall an already-installed update). This option is available only if the update is already installed and supports removal. You can specify a deadline for the update to be uninstalled, or specify a past date for the deadline if you want to remove the update immediately (the next time client computers contact the WSUS server).
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -158,11 +158,11 @@ You can approve an update for removal (that is, to uninstall an already-installe
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Not all updates support removal. You can see whether an update supports removal by selecting an individual update and looking at the <strong>Details</strong> pane. Under <strong>Additional Details</strong>, you will see the <strong>Removable</strong> category. If the update cannot be removed through WSUS, in many cases it can be removed with <strong>Add or Remove Programs</strong> from <strong>Control Panel</strong>.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 **To approve updates for removal**
 1.  In the WSUS administrative console, click **Updates**.
@@ -199,7 +199,7 @@ You can create rules that your WSUS server will automatically apply during synch
 
 6.  Click **OK**.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -212,18 +212,18 @@ You can create rules that your WSUS server will automatically apply during synch
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Automatic approval rules will not apply to updates requiring an End User License Agreement (EULA) that has not yet been accepted on the server. If you find that applying an automatic approval rule does not cause all the relevant updates to be approved, you should approve these updates manually.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Automatically Approving Revisions to Updates and Declining Expired Updates
 --------------------------------------------------------------------------
 
 The **Automatic Approvals** section of the **Options** pane contains a default option to automatically approve revisions to approved updates. You can also set your WSUS server to automatically decline expired updates. If you choose not to approve the revised version of an update automatically, your WSUS server will use the older revision, and you must manually approve the update revision.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -236,11 +236,11 @@ The **Automatic Approvals** section of the **Options** pane contains a default o
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">A revision is a version of an update that has changed (for example, it might have expired or have updated applicability rules).
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 **To automatically approve revisions to updates and decline expired updates**
 1.  In the WSUS administration console, click **Options**, and then click **Automatic Approvals**.
@@ -249,7 +249,7 @@ The **Automatic Approvals** section of the **Options** pane contains a default o
 
 3.  Click **OK**.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -262,11 +262,11 @@ The **Automatic Approvals** section of the **Options** pane contains a default o
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Keeping the default values for these options allows you maintain good performance on your WSUS network. If you do not want expired updates to be declined automatically, you should make sure to decline them manually on a periodic basis.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Approving Superseding or Superseded Updates
 -------------------------------------------

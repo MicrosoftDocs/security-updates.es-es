@@ -72,7 +72,7 @@ En la tabla siguiente se incluye la configuración de opciones de seguridad reco
 
 **Tabla 11.1 Configuración recomendada de opciones de seguridad**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -80,14 +80,14 @@ En la tabla siguiente se incluye la configuración de opciones de seguridad reco
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuración</p></th>
-<th><p>Cliente de empresa</p></th>
+<th>Configuración</th>
+<th>Cliente de empresa</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Criptografía de sistema: usar algoritmos que cumplan la norma FIPS para cifrado, firma y operaciones hash</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Criptografía de sistema: usar algoritmos que cumplan la norma FIPS para cifrado, firma y operaciones hash</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 </tbody>
 </table>
@@ -146,7 +146,7 @@ La tabla siguiente incluye las ACL de sistema de archivos para servidores de Ser
   
 **Tabla 11.2 Listas ACL de sistema de archivos**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -154,42 +154,42 @@ La tabla siguiente incluye las ACL de sistema de archivos para servidores de Ser
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ruta de ACL en la IU</p></th>
-<th><p>Cliente de empresa</p></th>
+<th>Ruta de ACL en la IU</th>
+<th>Cliente de empresa</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>%SystemRoot%\system32\CertLog (se propaga a todas las subcarpetas)</p></td>
-<td style="border:1px solid black;"><p>Administradores (control total)</p>
-<p>SISTEMA (control total)</p></td>
+<td style="border:1px solid black;">%SystemRoot%\system32\CertLog (se propaga a todas las subcarpetas)</td>
+<td style="border:1px solid black;">Administradores (control total)
+SISTEMA (control total)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>%SystemRoot%\system32\CertSrv (se propaga a todas las subcarpetas)</p></td>
-<td style="border:1px solid black;"><p>Administradores (control total)</p>
-<p>SISTEMA (control total)</p>
-<p>Usuarios (Leer y ejecutar, Listar el contenido de la carpeta y Leer)</p></td>
+<td style="border:1px solid black;">%SystemRoot%\system32\CertSrv (se propaga a todas las subcarpetas)</td>
+<td style="border:1px solid black;">Administradores (control total)
+SISTEMA (control total)
+Usuarios (Leer y ejecutar, Listar el contenido de la carpeta y Leer)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>D:\CertLog</p></td>
-<td style="border:1px solid black;"><p>Administradores (control total)</p>
-<p>SISTEMA (control total)</p></td>
+<td style="border:1px solid black;">D:\CertLog</td>
+<td style="border:1px solid black;">Administradores (control total)
+SISTEMA (control total)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>D:\CertSrv</p></td>
-<td style="border:1px solid black;"><p>Administradores (control total)</p>
-<p>SISTEMA (control total)</p>
-<p>Usuarios (Leer y ejecutar, Listar el contenido de la carpeta y Leer)</p></td>
+<td style="border:1px solid black;">D:\CertSrv</td>
+<td style="border:1px solid black;">Administradores (control total)
+SISTEMA (control total)
+Usuarios (Leer y ejecutar, Listar el contenido de la carpeta y Leer)</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Debido a que las entidades emisoras de certificados contienen información confidencial, se habilita la auditoría de archivos en las carpetas de Servicios de Certificate Server enumeradas en la tabla anterior. Las entradas de auditoría se configuran tal como se muestra en la siguiente tabla:
 
 **Tabla 11.3 Configuración de auditoría de archivos de Servicios de Certificate Server y Registro**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -198,31 +198,31 @@ Debido a que las entidades emisoras de certificados contienen información confi
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ruta del archivo o del Registro</p></th>
-<th><p>Tipo de auditoría</p></th>
-<th><p>Configuración de auditoría</p></th>
+<th>Ruta del archivo o del Registro</th>
+<th>Tipo de auditoría</th>
+<th>Configuración de auditoría</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>%SystemRoot%\system32\CertLog</p></td>
-<td style="border:1px solid black;"><p>Error</p></td>
-<td style="border:1px solid black;"><p>Todos (Control total)</p></td>
+<td style="border:1px solid black;">%SystemRoot%\system32\CertLog</td>
+<td style="border:1px solid black;">Error</td>
+<td style="border:1px solid black;">Todos (Control total)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>%SystemRoot%\system32\CertSrv</p></td>
-<td style="border:1px solid black;"><p>Correcto</p></td>
-<td style="border:1px solid black;"><p>Todos (Modificar)</p></td>
+<td style="border:1px solid black;">%SystemRoot%\system32\CertSrv</td>
+<td style="border:1px solid black;">Correcto</td>
+<td style="border:1px solid black;">Todos (Modificar)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>D:\CertSrv</p></td>
-<td style="border:1px solid black;"><p>Correcto</p></td>
-<td style="border:1px solid black;"><p>Todos (Modificar)</p></td>
+<td style="border:1px solid black;">D:\CertSrv</td>
+<td style="border:1px solid black;">Correcto</td>
+<td style="border:1px solid black;">Todos (Modificar)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>D:\CertLog</p></td>
-<td style="border:1px solid black;"><p>Correcto</p></td>
-<td style="border:1px solid black;"><p>Todos (Modificar)</p></td>
+<td style="border:1px solid black;">D:\CertLog</td>
+<td style="border:1px solid black;">Correcto</td>
+<td style="border:1px solid black;">Todos (Modificar)</td>
 </tr>
 </tbody>
 </table>

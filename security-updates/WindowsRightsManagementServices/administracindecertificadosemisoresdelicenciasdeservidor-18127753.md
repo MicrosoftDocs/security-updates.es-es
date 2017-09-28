@@ -15,7 +15,7 @@ Debe supervisar tres sucesos que RMS expondrá en el registro de sucesos del sis
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -31,19 +31,19 @@ Debe supervisar tres sucesos que RMS expondrá en el registro de sucesos del sis
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>16</p></td>
-<td style="border:1px solid black;"><p>LicensorCertExpiresInOneMonthEvent</p></td>
-<td style="border:1px solid black;"><p>Advertencia. El servicio continúa funcionando con normalidad.</p></td>
+<td style="border:1px solid black;">16</td>
+<td style="border:1px solid black;">LicensorCertExpiresInOneMonthEvent</td>
+<td style="border:1px solid black;">Advertencia. El servicio continúa funcionando con normalidad.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>17</p></td>
-<td style="border:1px solid black;"><p>LicensorCertExpiresInOneWeekEvent</p></td>
-<td style="border:1px solid black;"><p>Advertencia. El servicio continúa funcionando con normalidad.</p></td>
+<td style="border:1px solid black;">17</td>
+<td style="border:1px solid black;">LicensorCertExpiresInOneWeekEvent</td>
+<td style="border:1px solid black;">Advertencia. El servicio continúa funcionando con normalidad.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>18</p></td>
-<td style="border:1px solid black;"><p>LicensorCertExpiredEvent</p></td>
-<td style="border:1px solid black;"><p>Error. Se desactiva el servicio.</p></td>
+<td style="border:1px solid black;">18</td>
+<td style="border:1px solid black;">LicensorCertExpiredEvent</td>
+<td style="border:1px solid black;">Error. Se desactiva el servicio.</td>
 </tr>
 </tbody>
 </table>

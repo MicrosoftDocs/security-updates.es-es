@@ -18,7 +18,7 @@ You can generate three main reports from the **Reports** page, as described in t
 
 ### Reports Available on Reports Page
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -32,20 +32,20 @@ You can generate three main reports from the **Reports** page, as described in t
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Status of Updates</p></td>
-<td style="border:1px solid black;"><p>View the status of all approved updates by computer group and computer.</p></td>
+<td style="border:1px solid black;">Status of Updates</td>
+<td style="border:1px solid black;">View the status of all approved updates by computer group and computer.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Status of Computers</p></td>
-<td style="border:1px solid black;"><p>View the status of client computers and the status of updates on those computers (for example, a summary of updates that have been installed or are needed for a particular computer).</p></td>
+<td style="border:1px solid black;">Status of Computers</td>
+<td style="border:1px solid black;">View the status of client computers and the status of updates on those computers (for example, a summary of updates that have been installed or are needed for a particular computer).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Synchronization Results</p></td>
-<td style="border:1px solid black;"><p>View a list of new updates, update revisions, and errors that occurred during synchronization.</p></td>
+<td style="border:1px solid black;">Synchronization Results</td>
+<td style="border:1px solid black;">View a list of new updates, update revisions, and errors that occurred during synchronization.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Settings Summary</p></td>
-<td style="border:1px solid black;"><p>View or print a summary of the settings configured through the <strong>Options</strong> page.</p></td>
+<td style="border:1px solid black;">Settings Summary</td>
+<td style="border:1px solid black;">View or print a summary of the settings configured through the <strong>Options</strong> page.</td>
 </tr>
 </tbody>
 </table>
@@ -78,7 +78,7 @@ The columns displayed in the update summary view are described in the following 
   
 ### Description of Columns Displayed in Update Summary View
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -92,28 +92,28 @@ The columns displayed in the update summary view are described in the following 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Title</p></td>
-<td style="border:1px solid black;"><p>The name of the update.</p>
-<p>To view the properties for an update, click an update in this column. The update properties box provides the following information:</p>
-<p>The <strong>Details</strong> tab contains general information about the update.</p>
-<p>The <strong>Status</strong> tab contains status information for the update by computer group. This is also what you see in computer group view. You can also expand this view into computer view by expanding a computer group.</p>
-<p>The <strong>Revisions</strong> tab displays information about changes to the update.</p></td>
+<td style="border:1px solid black;">Title</td>
+<td style="border:1px solid black;">The name of the update.
+To view the properties for an update, click an update in this column. The update properties box provides the following information:
+The <strong>Details</strong> tab contains general information about the update.
+The <strong>Status</strong> tab contains status information for the update by computer group. This is also what you see in computer group view. You can also expand this view into computer view by expanding a computer group.
+The <strong>Revisions</strong> tab displays information about changes to the update.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Installed</p></td>
-<td style="border:1px solid black;"><p>The number of computers on which the update has been installed.</p></td>
+<td style="border:1px solid black;">Installed</td>
+<td style="border:1px solid black;">The number of computers on which the update has been installed.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Needed</p></td>
-<td style="border:1px solid black;"><p>The number of computers for which the update is applicable but not installed. For these computers, a detect-only action has been performed for the update. If an update requires a restart, then a computer that has installed the update will continue to appear in the Needed column until it is restarted.</p></td>
+<td style="border:1px solid black;">Needed</td>
+<td style="border:1px solid black;">The number of computers for which the update is applicable but not installed. For these computers, a detect-only action has been performed for the update. If an update requires a restart, then a computer that has installed the update will continue to appear in the Needed column until it is restarted.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Failed</p></td>
-<td style="border:1px solid black;"><p>The number of computers that last reported a failed download, installation, or removal (uninstallation).</p></td>
+<td style="border:1px solid black;">Failed</td>
+<td style="border:1px solid black;">The number of computers that last reported a failed download, installation, or removal (uninstallation).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Last Updated</p></td>
-<td style="border:1px solid black;"><p>The date that the latest action for this update occurred.</p></td>
+<td style="border:1px solid black;">Last Updated</td>
+<td style="border:1px solid black;">The date that the latest action for this update occurred.</td>
 </tr>
 </tbody>
 </table>
@@ -126,7 +126,7 @@ The columns displayed in the computer group view are described in the following 
   
 ### Description of Columns Displayed in Computer Group View
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -140,28 +140,28 @@ The columns displayed in the computer group view are described in the following 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Computer Group</p></td>
-<td style="border:1px solid black;"><p>The name of the computer group to which the update has been targeted.</p></td>
+<td style="border:1px solid black;">Computer Group</td>
+<td style="border:1px solid black;">The name of the computer group to which the update has been targeted.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Approval</p></td>
-<td style="border:1px solid black;"><p>The action that this update has been approved for, specific to the group.</p></td>
+<td style="border:1px solid black;">Approval</td>
+<td style="border:1px solid black;">The action that this update has been approved for, specific to the group.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Deadline</p></td>
-<td style="border:1px solid black;"><p>The deadline for the action, if you have set a deadline.</p></td>
+<td style="border:1px solid black;">Deadline</td>
+<td style="border:1px solid black;">The deadline for the action, if you have set a deadline.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Installed</p></td>
-<td style="border:1px solid black;"><p>The number of computers on which the update has been installed.</p></td>
+<td style="border:1px solid black;">Installed</td>
+<td style="border:1px solid black;">The number of computers on which the update has been installed.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Needed</p></td>
-<td style="border:1px solid black;"><p>The number of computers for which the update is applicable but not installed. For these computers, a detect-only action has been performed for the update. If an update requires a restart, then a computer that has installed the update will continue to appear in the Needed column until it is restarted.</p></td>
+<td style="border:1px solid black;">Needed</td>
+<td style="border:1px solid black;">The number of computers for which the update is applicable but not installed. For these computers, a detect-only action has been performed for the update. If an update requires a restart, then a computer that has installed the update will continue to appear in the Needed column until it is restarted.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Failed</p></td>
-<td style="border:1px solid black;"><p>The number of computers that last reported a failed download, installation, or removal (uninstallation).</p></td>
+<td style="border:1px solid black;">Failed</td>
+<td style="border:1px solid black;">The number of computers that last reported a failed download, installation, or removal (uninstallation).</td>
 </tr>
 </tbody>
 </table>
@@ -174,7 +174,7 @@ The columns displayed in this view are described in the following table.
   
 ### Description of Columns Displayed in Computer View
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -188,13 +188,13 @@ The columns displayed in this view are described in the following table.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Computer Name</p></td>
-<td style="border:1px solid black;"><p>Name of the computer</p>
-<p>To see the properties for the computer, click the computer name. The computer properties dialog box that appears displays details and status for the computer. The <strong>Status</strong> tab displays the result of the last communication between the WSUS server and the computer, and the status of updates for which an action has been approved on the computer.</p></td>
+<td style="border:1px solid black;">Computer Name</td>
+<td style="border:1px solid black;">Name of the computer
+To see the properties for the computer, click the computer name. The computer properties dialog box that appears displays details and status for the computer. The <strong>Status</strong> tab displays the result of the last communication between the WSUS server and the computer, and the status of updates for which an action has been approved on the computer.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Status</p></td>
-<td style="border:1px solid black;"><p>The status will be one of the following:</p>
+<td style="border:1px solid black;">Status</td>
+<td style="border:1px solid black;">The status will be one of the following:
 <ul>
 <li>Failed - The download, installation, or removal action for the update on this computer was not completed.<br />
 <br />
@@ -212,11 +212,11 @@ The columns displayed in this view are described in the following table.
 <br />
 </li>
 </ul>
-<p>To see details for an event, click the result in the <strong>Status</strong> column.</p></td>
+To see details for an event, click the result in the <strong>Status</strong> column.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 #### Printing the report
 
@@ -237,7 +237,7 @@ The Status of Computers report provides both a cumulative and individual update 
 
 ### Description of Status Displayed in Status of Computers Report
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -251,28 +251,28 @@ The Status of Computers report provides both a cumulative and individual update 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Installed</p></td>
-<td style="border:1px solid black;"><p>The update was installed on the computer.</p></td>
+<td style="border:1px solid black;">Installed</td>
+<td style="border:1px solid black;">The update was installed on the computer.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Needed</p></td>
-<td style="border:1px solid black;"><p>A detection was performed on the computer for the update, which determined that the update should be installed on the computer.</p></td>
+<td style="border:1px solid black;">Needed</td>
+<td style="border:1px solid black;">A detection was performed on the computer for the update, which determined that the update should be installed on the computer.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Not needed</p></td>
-<td style="border:1px solid black;"><p>Either the update is already installed on the computer, or the update does not belong to a product or classification you specified when configuring synchronization options.</p></td>
+<td style="border:1px solid black;">Not needed</td>
+<td style="border:1px solid black;">Either the update is already installed on the computer, or the update does not belong to a product or classification you specified when configuring synchronization options.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Unknown</p></td>
-<td style="border:1px solid black;"><p>Typically, this means that since the time that the update was synchronized to the WSUS server, the computer has not yet contacted the WSUS server.</p></td>
+<td style="border:1px solid black;">Unknown</td>
+<td style="border:1px solid black;">Typically, this means that since the time that the update was synchronized to the WSUS server, the computer has not yet contacted the WSUS server.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Failed</p></td>
-<td style="border:1px solid black;"><p>An error occurred when either a detection or an installation was attempted on the computer for the update.</p></td>
+<td style="border:1px solid black;">Failed</td>
+<td style="border:1px solid black;">An error occurred when either a detection or an installation was attempted on the computer for the update.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Last contacted</p></td>
-<td style="border:1px solid black;"><p>This is the date on which the computer last contacted the WSUS server.</p></td>
+<td style="border:1px solid black;">Last contacted</td>
+<td style="border:1px solid black;">This is the date on which the computer last contacted the WSUS server.</td>
 </tr>
 </tbody>
 </table>
@@ -312,7 +312,7 @@ The report has four components, which are described in the following table.
   
 ### Components of Synchronization Results Report
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -326,25 +326,25 @@ The report has four components, which are described in the following table.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Last Synchronization</p></td>
-<td style="border:1px solid black;"><p>Displays information about the last time the WSUS server synchronized with Microsoft Update or another WSUS server, and if it was a successful synchronization.</p></td>
+<td style="border:1px solid black;">Last Synchronization</td>
+<td style="border:1px solid black;">Displays information about the last time the WSUS server synchronized with Microsoft Update or another WSUS server, and if it was a successful synchronization.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Synchronization Summary</p></td>
-<td style="border:1px solid black;"><p>Displays summary information about new updates and errors that occurred during synchronization.</p></td>
+<td style="border:1px solid black;">Synchronization Summary</td>
+<td style="border:1px solid black;">Displays summary information about new updates and errors that occurred during synchronization.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Errors</p></td>
-<td style="border:1px solid black;"><p>For each error, displays the date of the error, a description of the error, and the update ID associated with the error.</p></td>
+<td style="border:1px solid black;">Errors</td>
+<td style="border:1px solid black;">For each error, displays the date of the error, a description of the error, and the update ID associated with the error.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>New Updates</p></td>
-<td style="border:1px solid black;"><p>Displays the updates that have been synchronized to the WSUS server for the given time period.</p>
-<p>You can view the properties for each new update by clicking the update in the <strong>New Updates</strong> list. The update properties dialog box that appears contains details, status, and revision for the update. It is identical to the update properties box that appears in the Status of Updates report when you click an update in the list. It is also identical to the properties tabs associated with each update on the <strong>Updates</strong> page.</p></td>
+<td style="border:1px solid black;">New Updates</td>
+<td style="border:1px solid black;">Displays the updates that have been synchronized to the WSUS server for the given time period.
+You can view the properties for each new update by clicking the update in the <strong>New Updates</strong> list. The update properties dialog box that appears contains details, status, and revision for the update. It is identical to the update properties box that appears in the Status of Updates report when you click an update in the list. It is also identical to the properties tabs associated with each update on the <strong>Updates</strong> page.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 #### Settings Summary Report
 
@@ -359,7 +359,7 @@ The following table describes the components of the **Settings Summary** report.
 
 ### Components of Settings Summary Report
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -373,48 +373,48 @@ The following table describes the components of the **Settings Summary** report.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Synchronization Schedule</p></td>
-<td style="border:1px solid black;"><p>The time that your WSUS server automatically synchronizes to the update source.</p></td>
+<td style="border:1px solid black;">Synchronization Schedule</td>
+<td style="border:1px solid black;">The time that your WSUS server automatically synchronizes to the update source.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Products and Classifications</p></td>
-<td style="border:1px solid black;"><p>The update products and classifications that you want to synchronize with your server.</p></td>
+<td style="border:1px solid black;">Products and Classifications</td>
+<td style="border:1px solid black;">The update products and classifications that you want to synchronize with your server.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Update source</p></td>
-<td style="border:1px solid black;"><p>The location from which the server synchronizes.</p></td>
+<td style="border:1px solid black;">Update source</td>
+<td style="border:1px solid black;">The location from which the server synchronizes.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Proxy server</p></td>
-<td style="border:1px solid black;"><p>The proxy server used during synchronization.</p></td>
+<td style="border:1px solid black;">Proxy server</td>
+<td style="border:1px solid black;">The proxy server used during synchronization.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Update Files</p></td>
-<td style="border:1px solid black;"><p>The location where update files are stored (on the WSUS server or on Microsoft Update). Also, the download options you have selected.</p></td>
+<td style="border:1px solid black;">Update Files</td>
+<td style="border:1px solid black;">The location where update files are stored (on the WSUS server or on Microsoft Update). Also, the download options you have selected.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Languages</p></td>
-<td style="border:1px solid black;"><p>The languages for the updates that synchronize to the server. Only updates available in the languages specified are synchronized with the WSUS server.</p></td>
+<td style="border:1px solid black;">Languages</td>
+<td style="border:1px solid black;">The languages for the updates that synchronize to the server. Only updates available in the languages specified are synchronized with the WSUS server.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Automatic Approval</p></td>
-<td style="border:1px solid black;"><p>The automatic approval settings for specific update classifications, targeted by computer group.</p></td>
+<td style="border:1px solid black;">Automatic Approval</td>
+<td style="border:1px solid black;">The automatic approval settings for specific update classifications, targeted by computer group.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Revisions to Updates</p></td>
-<td style="border:1px solid black;"><p>The approval action that your WSUS server will perform when revisions to existing updates are available; whether update revisions are automatically approved by your server, or whether they must be manually approved.</p></td>
+<td style="border:1px solid black;">Revisions to Updates</td>
+<td style="border:1px solid black;">The approval action that your WSUS server will perform when revisions to existing updates are available; whether update revisions are automatically approved by your server, or whether they must be manually approved.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Downstream servers</p></td>
-<td style="border:1px solid black;"><p>The servers which receive updates from the WSUS server.</p></td>
+<td style="border:1px solid black;">Downstream servers</td>
+<td style="border:1px solid black;">The servers which receive updates from the WSUS server.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Client computer Options</p></td>
-<td style="border:1px solid black;"><p>The method you have selected for assigning computers to groups.</p></td>
+<td style="border:1px solid black;">Client computer Options</td>
+<td style="border:1px solid black;">The method you have selected for assigning computers to groups.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Database</p></td>
-<td style="border:1px solid black;"><p>The name of the database used by the WSUS server.</p></td>
+<td style="border:1px solid black;">Database</td>
+<td style="border:1px solid black;">The name of the database used by the WSUS server.</td>
 </tr>
 </tbody>
 </table>

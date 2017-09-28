@@ -36,7 +36,7 @@ Besides bandwidth, another consideration when choosing to download express insta
 
 5.  Click **OK**.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -49,11 +49,11 @@ Besides bandwidth, another consideration when choosing to download express insta
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">If your WSUS server is running in replica mode, you will not be able to perform this task. For more information about replica mode, see <a href="https://technet.microsoft.com/bbcd889e-3d5d-4e68-9357-fa85b4685fed">Running WSUS 3.0 SP2 in Replica Mode</a>.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Updates, Update Files, and Languages
 ------------------------------------
@@ -88,7 +88,7 @@ You create the new path for local WSUS update storage before moving the content.
 
     where D:\\WSUS1 is the new path for local WSUS update storage, and D:\\move.log is the path to the log file.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -101,7 +101,7 @@ You create the new path for local WSUS update storage before moving the content.
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">If you do not want to use WSUSutil.exe to change the location of local WSUS update storage, you can also use NTFS functionality to add a partition to the current location of local WSUS update storage. For more information about NTFS, see <a href="http://go.microsoft.com/fwlink/?linkid=79488">NTFS technical documentation</a> (http://go.microsoft.com/fwlink/?LinkId=79488).
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>

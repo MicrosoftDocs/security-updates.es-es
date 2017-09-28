@@ -11,7 +11,7 @@ Install the WSUS 3.0 SP2 Administration Console
 
 After installing WSUS 3.0 SP2 on a server, you can manage WSUS 3.0 SP2 from any computer on your network, as long as the domain of that computer has a trust relationship with the domain of the server. You will need to perform a separate installation, from the same downloaded installation package, on every machine from which you want to run the WSUS 3.0 SP2 administration console.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -24,11 +24,11 @@ After installing WSUS 3.0 SP2 on a server, you can manage WSUS 3.0 SP2 from any 
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">The WSUS 3.0 SP2 administration console can be used to manage any WSUS server that has a trust relationship with the administration console computer.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 WSUS Administration Console Software Prerequisites
 --------------------------------------------------
@@ -43,7 +43,7 @@ Install the Console
 
 To install the WSUS 3.0 SP2 administration console, use the same installation package you downloaded to install the WSUS server.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -56,11 +56,11 @@ To install the WSUS 3.0 SP2 administration console, use the same installation pa
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">The latest version of the WSUS setup executable is available on the <a href="http://go.microsoft.com/fwlink/?linkid=74472">WSUS Web site</a> (http://go.microsoft.com/fwlink/?LinkId=74472).
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 The console-only installation process can be run from the setup UI from the command line. For more information about command-line installation, see [Appendix A: Unattended Installations](https://technet.microsoft.com/2443408e-5bd2-4b1f-b0a5-7ee1452fe5bc) later in this guide.
 

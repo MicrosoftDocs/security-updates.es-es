@@ -3077,7 +3077,7 @@ Puede restringir el acceso a canalizaciones con nombre como COMNAP y LOCATOR, pa
 
 **Tabla 5.1: Canalizaciones con nombre predeterminadas a las que se puede tener acceso anónimamente**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -3085,42 +3085,42 @@ Puede restringir el acceso a canalizaciones con nombre como COMNAP y LOCATOR, pa
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Canalización con nombre</p></th>
-<th><p>Finalidad</p></th>
+<th>Canalización con nombre</th>
+<th>Finalidad</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>COMNAP</p></td>
-<td style="border:1px solid black;"><p>Canalización con nombre SNABase. La arquitectura de redes de sistemas (SNA) es una recopilación de protocolos de red que se desarrolló en un principio para los equipos de grandes sistemas de IBM.</p></td>
+<td style="border:1px solid black;">COMNAP</td>
+<td style="border:1px solid black;">Canalización con nombre SNABase. La arquitectura de redes de sistemas (SNA) es una recopilación de protocolos de red que se desarrolló en un principio para los equipos de grandes sistemas de IBM.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>COMNODE</p></td>
-<td style="border:1px solid black;"><p>Canalización con nombre SNA Server.</p></td>
+<td style="border:1px solid black;">COMNODE</td>
+<td style="border:1px solid black;">Canalización con nombre SNA Server.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SQL\QUERY</p></td>
-<td style="border:1px solid black;"><p>Canalización con nombre predeterminada para SQL Server.</p></td>
+<td style="border:1px solid black;">SQL\QUERY</td>
+<td style="border:1px solid black;">Canalización con nombre predeterminada para SQL Server.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SPOOLSS</p></td>
-<td style="border:1px solid black;"><p>Canalización con nombre para el servicio de cola de impresión.</p></td>
+<td style="border:1px solid black;">SPOOLSS</td>
+<td style="border:1px solid black;">Canalización con nombre para el servicio de cola de impresión.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>EPMAPPER</p></td>
-<td style="border:1px solid black;"><p>Canalización con nombre de asignador de puntos finales.</p></td>
+<td style="border:1px solid black;">EPMAPPER</td>
+<td style="border:1px solid black;">Canalización con nombre de asignador de puntos finales.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>LOCATOR</p></td>
-<td style="border:1px solid black;"><p>Canalización con nombre del servicio Localizador de llamada a procedimiento remoto.</p></td>
+<td style="border:1px solid black;">LOCATOR</td>
+<td style="border:1px solid black;">Canalización con nombre del servicio Localizador de llamada a procedimiento remoto.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>TrkWks</p></td>
-<td style="border:1px solid black;"><p>Canalización con nombre de Cliente de seguimiento de vínculos distribuidos.</p></td>
+<td style="border:1px solid black;">TrkWks</td>
+<td style="border:1px solid black;">Canalización con nombre de Cliente de seguimiento de vínculos distribuidos.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>TrkSvr</p></td>
-<td style="border:1px solid black;"><p>Canalización con nombre de Servidor de seguimiento de vínculos distribuidos.</p></td>
+<td style="border:1px solid black;">TrkSvr</td>
+<td style="border:1px solid black;">Canalización con nombre de Servidor de seguimiento de vínculos distribuidos.</td>
 </tr>
 </tbody>
 </table>
@@ -8684,7 +8684,7 @@ La configuración del registro de la tabla siguiente se agregó al archivo de pl
   
 **Tabla 10.1 Entradas del Registro relacionadas con TCP/IP en Windows Server 2003 con SP1 y Windows XP con SP2**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -8695,69 +8695,69 @@ La configuración del registro de la tabla siguiente se agregó al archivo de pl
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Entrada de registro</p></th>
-<th><p>Formato</p></th>
-<th><p>XP SP2 predeterminado</p></th>
-<th><p>2003 SP1 predeterminado</p></th>
-<th><p>Valor más seguro (decimal)</p></th>
+<th>Entrada de registro</th>
+<th>Formato</th>
+<th>XP SP2 predeterminado</th>
+<th>2003 SP1 predeterminado</th>
+<th>Valor más seguro (decimal)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DisableIPSourceRouting</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>2</p></td>
+<td style="border:1px solid black;">DisableIPSourceRouting</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">2</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>EnableDeadGWDetect</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
+<td style="border:1px solid black;">EnableDeadGWDetect</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">0</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>EnableICMPRedirect</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
+<td style="border:1px solid black;">EnableICMPRedirect</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">0</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>KeepAliveTime</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>7200000</p></td>
-<td style="border:1px solid black;"><p>7200000</p></td>
-<td style="border:1px solid black;"><p>300.000</p></td>
+<td style="border:1px solid black;">KeepAliveTime</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">7200000</td>
+<td style="border:1px solid black;">7200000</td>
+<td style="border:1px solid black;">300.000</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PerformRouterDiscovery</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>2</p></td>
-<td style="border:1px solid black;"><p>2</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
+<td style="border:1px solid black;">PerformRouterDiscovery</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">2</td>
+<td style="border:1px solid black;">2</td>
+<td style="border:1px solid black;">0</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SynAttackProtect</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">SynAttackProtect</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>TcpMaxConnectResponseRetransmissions</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>2</p></td>
-<td style="border:1px solid black;"><p>2</p></td>
-<td style="border:1px solid black;"><p>2</p></td>
+<td style="border:1px solid black;">TcpMaxConnectResponseRetransmissions</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">2</td>
+<td style="border:1px solid black;">2</td>
+<td style="border:1px solid black;">2</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>TcpMaxDataRetransmissions</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">TcpMaxDataRetransmissions</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">5</td>
+<td style="border:1px solid black;">5</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 </tbody>
 </table>
@@ -9010,7 +9010,7 @@ Se recomiendan también las entradas del registro en la tabla siguiente. La info
   
 **Tabla 10.2 Entradas que no son de TCP/IP agregadas al registro en Windows Server 2003**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -9019,71 +9019,71 @@ Se recomiendan también las entradas del registro en la tabla siguiente. La info
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Entrada de registro</p></th>
-<th><p>Formato</p></th>
-<th><p>Valor más seguro (decimal)</p></th>
+<th>Entrada de registro</th>
+<th>Formato</th>
+<th>Valor más seguro (decimal)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (AutoAdminLogon) Enable Automatic Logon (not recommended)</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>No definido, excepto para entornos muy seguros, que deben utilizar 0.</p></td>
+<td style="border:1px solid black;">MSS: (AutoAdminLogon) Enable Automatic Logon (not recommended)</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">No definido, excepto para entornos muy seguros, que deben utilizar 0.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSS: (AutoReboot) Allow Windows to automatically restart after a system crash (recommended except for highly secure environments)</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>No definido, excepto para entornos muy seguros, que deben utilizar 0.</p></td>
+<td style="border:1px solid black;">MSS: (AutoReboot) Allow Windows to automatically restart after a system crash (recommended except for highly secure environments)</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">No definido, excepto para entornos muy seguros, que deben utilizar 0.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (AutoShareWks) Enable Administrative Shares (not recommended except for highly secure environments)</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>No definido, excepto para entornos muy seguros, que deben utilizar 1.</p></td>
+<td style="border:1px solid black;">MSS: (AutoShareWks) Enable Administrative Shares (not recommended except for highly secure environments)</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">No definido, excepto para entornos muy seguros, que deben utilizar 1.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSS: (DisableSavePassword) Prevent the dial-up passsword from being saved (recommended)</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">MSS: (DisableSavePassword) Prevent the dial-up passsword from being saved (recommended)</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (Hidden) Hide Computer From the Browse List (not recommended except for highly secure environments)</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>No definido, excepto para entornos muy seguros, que deben utilizar 1.</p></td>
+<td style="border:1px solid black;">MSS: (Hidden) Hide Computer From the Browse List (not recommended except for highly secure environments)</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">No definido, excepto para entornos muy seguros, que deben utilizar 1.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSS: (NoDefaultExempt) Enable NoDefaultExempt for IPSec Filtering (recommended)</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1 para equipos con Windows XP, 3 para equipos con Windows Server 2003.</p></td>
+<td style="border:1px solid black;">MSS: (NoDefaultExempt) Enable NoDefaultExempt for IPSec Filtering (recommended)</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1 para equipos con Windows XP, 3 para equipos con Windows Server 2003.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (NoDriveTypeAutoRun) Disable Autorun for all drives (recommended)</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>0xFF</p></td>
+<td style="border:1px solid black;">MSS: (NoDriveTypeAutoRun) Disable Autorun for all drives (recommended)</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">0xFF</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSS: (NoNameReleaseOnDemand) Allow the computer to ignore NetBIOS name release requests except from WINS servers (Only recommended for servers)</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">MSS: (NoNameReleaseOnDemand) Allow the computer to ignore NetBIOS name release requests except from WINS servers (Only recommended for servers)</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (NtfsDisable8dot3NameCreation) Enable the computer to stop generating 8.3 style filenames (recommended)</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">MSS: (NtfsDisable8dot3NameCreation) Enable the computer to stop generating 8.3 style filenames (recommended)</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSS: (SafeDllSearchMode) Enable Safe DLL search mode (recommended)</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">MSS: (SafeDllSearchMode) Enable Safe DLL search mode (recommended)</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (ScreenSaverGracePeriod) The time in seconds before the screen saver grace period expires (0 recommended)</p></td>
-<td style="border:1px solid black;"><p>Cadena</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
+<td style="border:1px solid black;">MSS: (ScreenSaverGracePeriod) The time in seconds before the screen saver grace period expires (0 recommended)</td>
+<td style="border:1px solid black;">Cadena</td>
+<td style="border:1px solid black;">0</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSS: (WarningLevel) Percentage threshold for the security event log at which the system will generate a warning</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
+<td style="border:1px solid black;">MSS: (WarningLevel) Percentage threshold for the security event log at which the system will generate a warning</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">0</td>
 </tr>
 </tbody>
 </table>
@@ -10042,7 +10042,7 @@ Si se empieza por los filtros IPSec más restrictivos y se abren puertos adicion
   
 **Tabla 11.1: Ejemplo de mapa de tráfico de red**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="12%" />
@@ -10056,56 +10056,56 @@ Si se empieza por los filtros IPSec más restrictivos y se abren puertos adicion
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Servicio</p></th>
-<th><p>Protocolo</p></th>
-<th><p>Puerto de origen</p></th>
-<th><p>Puerto de destino</p></th>
-<th><p>Dirección de origen</p></th>
-<th><p>Dirección de destino</p></th>
-<th><p>Acción</p></th>
-<th><p>Reflejo</p></th>
+<th>Servicio</th>
+<th>Protocolo</th>
+<th>Puerto de origen</th>
+<th>Puerto de destino</th>
+<th>Dirección de origen</th>
+<th>Dirección de destino</th>
+<th>Acción</th>
+<th>Reflejo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servidor HTTP</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>80</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>YO</p></td>
-<td style="border:1px solid black;"><p>PERMITIR</p></td>
-<td style="border:1px solid black;"><p>SÍ</p></td>
+<td style="border:1px solid black;">Servidor HTTP</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">80</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">YO</td>
+<td style="border:1px solid black;">PERMITIR</td>
+<td style="border:1px solid black;">SÍ</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Servidor HTTPS</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>443</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>YO</p></td>
-<td style="border:1px solid black;"><p>PERMITIR</p></td>
-<td style="border:1px solid black;"><p>SÍ</p></td>
+<td style="border:1px solid black;">Servidor HTTPS</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">443</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">YO</td>
+<td style="border:1px solid black;">PERMITIR</td>
+<td style="border:1px solid black;">SÍ</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Cliente DNS</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>53</p></td>
-<td style="border:1px solid black;"><p>YO</p></td>
-<td style="border:1px solid black;"><p>DNS</p></td>
-<td style="border:1px solid black;"><p>PERMITIR</p></td>
-<td style="border:1px solid black;"><p>SÍ</p></td>
+<td style="border:1px solid black;">Cliente DNS</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">53</td>
+<td style="border:1px solid black;">YO</td>
+<td style="border:1px solid black;">DNS</td>
+<td style="border:1px solid black;">PERMITIR</td>
+<td style="border:1px solid black;">SÍ</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Bloquear todo</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>BLOQUEAR</p></td>
-<td style="border:1px solid black;"><p>SÍ</p></td>
+<td style="border:1px solid black;">Bloquear todo</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">BLOQUEAR</td>
+<td style="border:1px solid black;">SÍ</td>
 </tr>
 </tbody>
 </table>
@@ -10126,7 +10126,7 @@ Si se requiere un servicio de cliente que no puede restringirse para la conexió
   
 **Tabla 11.2: Ejemplo de mapa de tráfico de red que permite la exploración web saliente**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="12%" />
@@ -10140,126 +10140,126 @@ Si se requiere un servicio de cliente que no puede restringirse para la conexió
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Servicio</p></th>
-<th><p>Protocolo</p></th>
-<th><p>Puerto de origen</p></th>
-<th><p>Puerto de destino</p></th>
-<th><p>Dirección de origen</p></th>
-<th><p>Dirección de destino</p></th>
-<th><p>Acción</p></th>
-<th><p>Reflejo</p></th>
+<th>Servicio</th>
+<th>Protocolo</th>
+<th>Puerto de origen</th>
+<th>Puerto de destino</th>
+<th>Dirección de origen</th>
+<th>Dirección de destino</th>
+<th>Acción</th>
+<th>Reflejo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ICMP entrante para TCP PMTU</p></td>
-<td style="border:1px solid black;"><p>ICMP</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>YO</p></td>
-<td style="border:1px solid black;"><p>PERMITIR</p></td>
-<td style="border:1px solid black;"><p>NO</p></td>
+<td style="border:1px solid black;">ICMP entrante para TCP PMTU</td>
+<td style="border:1px solid black;">ICMP</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">YO</td>
+<td style="border:1px solid black;">PERMITIR</td>
+<td style="border:1px solid black;">NO</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>HTTP de servidor IIS entrante: 80</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>80</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>YO</p></td>
-<td style="border:1px solid black;"><p>PERMITIR</p></td>
-<td style="border:1px solid black;"><p>SÍ</p></td>
+<td style="border:1px solid black;">HTTP de servidor IIS entrante: 80</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">80</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">YO</td>
+<td style="border:1px solid black;">PERMITIR</td>
+<td style="border:1px solid black;">SÍ</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>FTP de servidor IIS entrante: 21</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>21</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>YO</p></td>
-<td style="border:1px solid black;"><p>PERMITIR</p></td>
-<td style="border:1px solid black;"><p>SÍ</p></td>
+<td style="border:1px solid black;">FTP de servidor IIS entrante: 21</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">21</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">YO</td>
+<td style="border:1px solid black;">PERMITIR</td>
+<td style="border:1px solid black;">SÍ</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Servidor de terminal entrante</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>3389</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>YO</p></td>
-<td style="border:1px solid black;"><p>PERMITIR</p></td>
-<td style="border:1px solid black;"><p>SÍ</p></td>
+<td style="border:1px solid black;">Servidor de terminal entrante</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">3389</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">YO</td>
+<td style="border:1px solid black;">PERMITIR</td>
+<td style="border:1px solid black;">SÍ</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Todo el tráfico de Me a los DC del dominio</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>YO</p></td>
-<td style="border:1px solid black;"><p>Nombre de dominio</p></td>
-<td style="border:1px solid black;"><p>PERMITIR</p></td>
-<td style="border:1px solid black;"><p>SÍ</p></td>
+<td style="border:1px solid black;">Todo el tráfico de Me a los DC del dominio</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">YO</td>
+<td style="border:1px solid black;">Nombre de dominio</td>
+<td style="border:1px solid black;">PERMITIR</td>
+<td style="border:1px solid black;">SÍ</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>UDP/TCP de DNS saliente</p></td>
-<td style="border:1px solid black;"><p>UDP</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>53</p></td>
-<td style="border:1px solid black;"><p>YO</p></td>
-<td style="border:1px solid black;"><p>DNS</p></td>
-<td style="border:1px solid black;"><p>PERMITIR</p></td>
-<td style="border:1px solid black;"><p>SÍ</p></td>
+<td style="border:1px solid black;">UDP/TCP de DNS saliente</td>
+<td style="border:1px solid black;">UDP</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">53</td>
+<td style="border:1px solid black;">YO</td>
+<td style="border:1px solid black;">DNS</td>
+<td style="border:1px solid black;">PERMITIR</td>
+<td style="border:1px solid black;">SÍ</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>UDP/TCP de DNS saliente</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>53</p></td>
-<td style="border:1px solid black;"><p>YO</p></td>
-<td style="border:1px solid black;"><p>DNS</p></td>
-<td style="border:1px solid black;"><p>PERMITIR</p></td>
-<td style="border:1px solid black;"><p>SÍ</p></td>
+<td style="border:1px solid black;">UDP/TCP de DNS saliente</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">53</td>
+<td style="border:1px solid black;">YO</td>
+<td style="border:1px solid black;">DNS</td>
+<td style="border:1px solid black;">PERMITIR</td>
+<td style="border:1px solid black;">SÍ</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>WINS saliente</p></td>
-<td style="border:1px solid black;"><p>UDP</p></td>
-<td style="border:1px solid black;"><p>137</p></td>
-<td style="border:1px solid black;"><p>137</p></td>
-<td style="border:1px solid black;"><p>YO</p></td>
-<td style="border:1px solid black;"><p>WINS</p></td>
-<td style="border:1px solid black;"><p>PERMITIR</p></td>
-<td style="border:1px solid black;"><p>SÍ</p></td>
+<td style="border:1px solid black;">WINS saliente</td>
+<td style="border:1px solid black;">UDP</td>
+<td style="border:1px solid black;">137</td>
+<td style="border:1px solid black;">137</td>
+<td style="border:1px solid black;">YO</td>
+<td style="border:1px solid black;">WINS</td>
+<td style="border:1px solid black;">PERMITIR</td>
+<td style="border:1px solid black;">SÍ</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DHCP saliente</p></td>
-<td style="border:1px solid black;"><p>UDP</p></td>
-<td style="border:1px solid black;"><p>68</p></td>
-<td style="border:1px solid black;"><p>67</p></td>
-<td style="border:1px solid black;"><p>YO</p></td>
-<td style="border:1px solid black;"><p>DHCP</p></td>
-<td style="border:1px solid black;"><p>PERMITIR</p></td>
-<td style="border:1px solid black;"><p>SÍ</p></td>
+<td style="border:1px solid black;">DHCP saliente</td>
+<td style="border:1px solid black;">UDP</td>
+<td style="border:1px solid black;">68</td>
+<td style="border:1px solid black;">67</td>
+<td style="border:1px solid black;">YO</td>
+<td style="border:1px solid black;">DHCP</td>
+<td style="border:1px solid black;">PERMITIR</td>
+<td style="border:1px solid black;">SÍ</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>HTTP saliente: 80</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>80</p></td>
-<td style="border:1px solid black;"><p>YO</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>PERMITIR</p></td>
-<td style="border:1px solid black;"><p>SÍ</p></td>
+<td style="border:1px solid black;">HTTP saliente: 80</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">80</td>
+<td style="border:1px solid black;">YO</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">PERMITIR</td>
+<td style="border:1px solid black;">SÍ</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Bloquear todo</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>BLOQUEAR</p></td>
-<td style="border:1px solid black;"><p>SÍ</p></td>
+<td style="border:1px solid black;">Bloquear todo</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">BLOQUEAR</td>
+<td style="border:1px solid black;">SÍ</td>
 </tr>
 </tbody>
 </table>
@@ -10283,7 +10283,7 @@ La regla se define para bloquear los ataques específicos del puerto TCP de orig
   
 **Tabla 11.3: Ejemplo de mapa de tráfico de red revisado que permite la exploración web saliente**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="12%" />
@@ -10297,176 +10297,176 @@ La regla se define para bloquear los ataques específicos del puerto TCP de orig
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Servicio</p></th>
-<th><p>Protocolo</p></th>
-<th><p>Puerto de origen</p></th>
-<th><p>Puerto de destino</p></th>
-<th><p>Dirección de origen</p></th>
-<th><p>Dirección de destino</p></th>
-<th><p>Acción</p></th>
-<th><p>Reflejo</p></th>
+<th>Servicio</th>
+<th>Protocolo</th>
+<th>Puerto de origen</th>
+<th>Puerto de destino</th>
+<th>Dirección de origen</th>
+<th>Dirección de destino</th>
+<th>Acción</th>
+<th>Reflejo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ICMP entrante para TCP PMTU</p></td>
-<td style="border:1px solid black;"><p>ICMP</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>YO</p></td>
-<td style="border:1px solid black;"><p>PERMITIR</p></td>
-<td style="border:1px solid black;"><p>NO</p></td>
+<td style="border:1px solid black;">ICMP entrante para TCP PMTU</td>
+<td style="border:1px solid black;">ICMP</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">YO</td>
+<td style="border:1px solid black;">PERMITIR</td>
+<td style="border:1px solid black;">NO</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>HTTP de servidor IIS entrante: 80</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>80</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>YO</p></td>
-<td style="border:1px solid black;"><p>PERMITIR</p></td>
-<td style="border:1px solid black;"><p>SÍ</p></td>
+<td style="border:1px solid black;">HTTP de servidor IIS entrante: 80</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">80</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">YO</td>
+<td style="border:1px solid black;">PERMITIR</td>
+<td style="border:1px solid black;">SÍ</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>FTP de servidor IIS entrante: 21</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>21</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>YO</p></td>
-<td style="border:1px solid black;"><p>PERMITIR</p></td>
-<td style="border:1px solid black;"><p>SÍ</p></td>
+<td style="border:1px solid black;">FTP de servidor IIS entrante: 21</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">21</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">YO</td>
+<td style="border:1px solid black;">PERMITIR</td>
+<td style="border:1px solid black;">SÍ</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Servidor de terminal entrante</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>3389</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>YO</p></td>
-<td style="border:1px solid black;"><p>PERMITIR</p></td>
-<td style="border:1px solid black;"><p>SÍ</p></td>
+<td style="border:1px solid black;">Servidor de terminal entrante</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">3389</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">YO</td>
+<td style="border:1px solid black;">PERMITIR</td>
+<td style="border:1px solid black;">SÍ</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Todo el tráfico de Me a los DC del dominio</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>YO</p></td>
-<td style="border:1px solid black;"><p>Nombre de dominio</p></td>
-<td style="border:1px solid black;"><p>PERMITIR</p></td>
-<td style="border:1px solid black;"><p>SÍ</p></td>
+<td style="border:1px solid black;">Todo el tráfico de Me a los DC del dominio</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">YO</td>
+<td style="border:1px solid black;">Nombre de dominio</td>
+<td style="border:1px solid black;">PERMITIR</td>
+<td style="border:1px solid black;">SÍ</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>UDP/TCP de DNS saliente</p></td>
-<td style="border:1px solid black;"><p>UDP</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>53</p></td>
-<td style="border:1px solid black;"><p>YO</p></td>
-<td style="border:1px solid black;"><p>DNS</p></td>
-<td style="border:1px solid black;"><p>PERMITIR</p></td>
-<td style="border:1px solid black;"><p>SÍ</p></td>
+<td style="border:1px solid black;">UDP/TCP de DNS saliente</td>
+<td style="border:1px solid black;">UDP</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">53</td>
+<td style="border:1px solid black;">YO</td>
+<td style="border:1px solid black;">DNS</td>
+<td style="border:1px solid black;">PERMITIR</td>
+<td style="border:1px solid black;">SÍ</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>UDP/TCP de DNS saliente</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>53</p></td>
-<td style="border:1px solid black;"><p>YO</p></td>
-<td style="border:1px solid black;"><p>DNS</p></td>
-<td style="border:1px solid black;"><p>PERMITIR</p></td>
-<td style="border:1px solid black;"><p>SÍ</p></td>
+<td style="border:1px solid black;">UDP/TCP de DNS saliente</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">53</td>
+<td style="border:1px solid black;">YO</td>
+<td style="border:1px solid black;">DNS</td>
+<td style="border:1px solid black;">PERMITIR</td>
+<td style="border:1px solid black;">SÍ</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>WINS saliente</p></td>
-<td style="border:1px solid black;"><p>UDP</p></td>
-<td style="border:1px solid black;"><p>137</p></td>
-<td style="border:1px solid black;"><p>137</p></td>
-<td style="border:1px solid black;"><p>YO</p></td>
-<td style="border:1px solid black;"><p>WINS</p></td>
-<td style="border:1px solid black;"><p>PERMITIR</p></td>
-<td style="border:1px solid black;"><p>SÍ</p></td>
+<td style="border:1px solid black;">WINS saliente</td>
+<td style="border:1px solid black;">UDP</td>
+<td style="border:1px solid black;">137</td>
+<td style="border:1px solid black;">137</td>
+<td style="border:1px solid black;">YO</td>
+<td style="border:1px solid black;">WINS</td>
+<td style="border:1px solid black;">PERMITIR</td>
+<td style="border:1px solid black;">SÍ</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DHCP saliente</p></td>
-<td style="border:1px solid black;"><p>UDP</p></td>
-<td style="border:1px solid black;"><p>68</p></td>
-<td style="border:1px solid black;"><p>67</p></td>
-<td style="border:1px solid black;"><p>YO</p></td>
-<td style="border:1px solid black;"><p>DHCP</p></td>
-<td style="border:1px solid black;"><p>PERMITIR</p></td>
-<td style="border:1px solid black;"><p>SÍ</p></td>
+<td style="border:1px solid black;">DHCP saliente</td>
+<td style="border:1px solid black;">UDP</td>
+<td style="border:1px solid black;">68</td>
+<td style="border:1px solid black;">67</td>
+<td style="border:1px solid black;">YO</td>
+<td style="border:1px solid black;">DHCP</td>
+<td style="border:1px solid black;">PERMITIR</td>
+<td style="border:1px solid black;">SÍ</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>HTTP saliente: 80</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>80</p></td>
-<td style="border:1px solid black;"><p>YO</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>PERMITIR</p></td>
-<td style="border:1px solid black;"><p>SÍ</p></td>
+<td style="border:1px solid black;">HTTP saliente: 80</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">80</td>
+<td style="border:1px solid black;">YO</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">PERMITIR</td>
+<td style="border:1px solid black;">SÍ</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Mitigación del ataque 80 de origen entrante</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>80</p></td>
-<td style="border:1px solid black;"><p>135</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>YO</p></td>
-<td style="border:1px solid black;"><p>BLOQUEAR</p></td>
-<td style="border:1px solid black;"><p>NO</p></td>
+<td style="border:1px solid black;">Mitigación del ataque 80 de origen entrante</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">80</td>
+<td style="border:1px solid black;">135</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">YO</td>
+<td style="border:1px solid black;">BLOQUEAR</td>
+<td style="border:1px solid black;">NO</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Mitigación del ataque 80 de origen entrante</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>80</p></td>
-<td style="border:1px solid black;"><p>139</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>YO</p></td>
-<td style="border:1px solid black;"><p>BLOQUEAR</p></td>
-<td style="border:1px solid black;"><p>NO</p></td>
+<td style="border:1px solid black;">Mitigación del ataque 80 de origen entrante</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">80</td>
+<td style="border:1px solid black;">139</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">YO</td>
+<td style="border:1px solid black;">BLOQUEAR</td>
+<td style="border:1px solid black;">NO</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Mitigación del ataque 80 de origen entrante</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>80</p></td>
-<td style="border:1px solid black;"><p>445</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>YO</p></td>
-<td style="border:1px solid black;"><p>BLOQUEAR</p></td>
-<td style="border:1px solid black;"><p>NO</p></td>
+<td style="border:1px solid black;">Mitigación del ataque 80 de origen entrante</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">80</td>
+<td style="border:1px solid black;">445</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">YO</td>
+<td style="border:1px solid black;">BLOQUEAR</td>
+<td style="border:1px solid black;">NO</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Mitigación del ataque 80 de origen entrante</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>80</p></td>
-<td style="border:1px solid black;"><p>1025</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>YO</p></td>
-<td style="border:1px solid black;"><p>BLOQUEAR</p></td>
-<td style="border:1px solid black;"><p>NO</p></td>
+<td style="border:1px solid black;">Mitigación del ataque 80 de origen entrante</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">80</td>
+<td style="border:1px solid black;">1025</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">YO</td>
+<td style="border:1px solid black;">BLOQUEAR</td>
+<td style="border:1px solid black;">NO</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Mitigación del ataque 80 de origen entrante</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>80</p></td>
-<td style="border:1px solid black;"><p>1046</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>YO</p></td>
-<td style="border:1px solid black;"><p>BLOQUEAR</p></td>
-<td style="border:1px solid black;"><p>NO</p></td>
+<td style="border:1px solid black;">Mitigación del ataque 80 de origen entrante</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">80</td>
+<td style="border:1px solid black;">1046</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">YO</td>
+<td style="border:1px solid black;">BLOQUEAR</td>
+<td style="border:1px solid black;">NO</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Bloquear todo</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>CUALQUIERA</p></td>
-<td style="border:1px solid black;"><p>BLOQUEAR</p></td>
-<td style="border:1px solid black;"><p>SÍ</p></td>
+<td style="border:1px solid black;">Bloquear todo</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">CUALQUIERA</td>
+<td style="border:1px solid black;">BLOQUEAR</td>
+<td style="border:1px solid black;">SÍ</td>
 </tr>
 </tbody>
 </table>

@@ -13,7 +13,7 @@ Los sistemas RMS incluyen tecnologías de servidor y de cliente. En la tabla sig
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,12 +27,12 @@ Los sistemas RMS incluyen tecnologías de servidor y de cliente. En la tabla sig
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servicios Web de RMS</p></td>
-<td style="border:1px solid black;"><p>Ofrecen funciones básicas de servidor, se ocupan de la certificación de cuentas, de las licencias y las subinscripciones, así como de las funciones de administración de RMS.</p></td>
+<td style="border:1px solid black;">Servicios Web de RMS</td>
+<td style="border:1px solid black;">Ofrecen funciones básicas de servidor, se ocupan de la certificación de cuentas, de las licencias y las subinscripciones, así como de las funciones de administración de RMS.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tecnologías de cliente de RMS</p></td>
-<td style="border:1px solid black;"><p>Permiten a los usuarios del sistema crear, publicar y utilizar contenido protegido con RMS.</p></td>
+<td style="border:1px solid black;">Tecnologías de cliente de RMS</td>
+<td style="border:1px solid black;">Permiten a los usuarios del sistema crear, publicar y utilizar contenido protegido con RMS.</td>
 </tr>
 </tbody>
 </table>

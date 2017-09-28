@@ -24,7 +24,7 @@ The following table describes non-deployment tasks you might have to perform as 
 
 ### Database management tasks
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -38,7 +38,7 @@ The following table describes non-deployment tasks you might have to perform as 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSDE</p></td>
+<td style="border:1px solid black;">MSDE</td>
 <td style="border:1px solid black;"><ul>
 <li>Make space in the database when the 2-GB limit is reached. For more information, see <a href="https://technet.microsoft.com/2686bd2b-910a-479b-961e-cea2a2028024">Managing WSUS from the Command Line</a>.<br />
 <br />
@@ -52,7 +52,7 @@ The following table describes non-deployment tasks you might have to perform as 
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>WMSDE</p></td>
+<td style="border:1px solid black;">WMSDE</td>
 <td style="border:1px solid black;"><ul>
 <li>Backup / restore. For more information, see <a href="https://technet.microsoft.com/c0f1a661-eb48-4156-81a2-267d846f844f">Backing Up Windows Server Update Services</a>.<br />
 <br />
@@ -63,7 +63,7 @@ The following table describes non-deployment tasks you might have to perform as 
 </ul></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SQL Server 2000</p></td>
+<td style="border:1px solid black;">SQL Server 2000</td>
 <td style="border:1px solid black;"><ul>
 <li>Backup / restore.<br />
 <br />
@@ -75,7 +75,7 @@ The following table describes non-deployment tasks you might have to perform as 
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 **In this section**
 

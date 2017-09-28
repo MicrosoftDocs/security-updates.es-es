@@ -17,7 +17,7 @@ Hardware and database software requirements are driven by the number of client c
 
 ### Minimum hardware recommendations
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -37,67 +37,67 @@ Hardware and database software requirements are driven by the number of client c
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CPU</p></td>
-<td style="border:1px solid black;"><p>1 GHz</p></td>
-<td style="border:1px solid black;"><p>1.5 GHz or faster</p></td>
-<td style="border:1px solid black;"><p>3 GHz hyper threaded processor, x64 hardware</p></td>
-<td style="border:1px solid black;"><p>3 GHz hyper threaded dual processor</p></td>
+<td style="border:1px solid black;">CPU</td>
+<td style="border:1px solid black;">1 GHz</td>
+<td style="border:1px solid black;">1.5 GHz or faster</td>
+<td style="border:1px solid black;">3 GHz hyper threaded processor, x64 hardware</td>
+<td style="border:1px solid black;">3 GHz hyper threaded dual processor</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Graphics card</p></td>
-<td style="border:1px solid black;"><p>16 MB hardware accelerated PCI/AGP video card capable of 1-24*86*16bpp</p></td>
-<td style="border:1px solid black;"><p>16 MB hardware accelerated PCI/AGP video card capable of 1-24*86*16bpp</p></td>
-<td style="border:1px solid black;"><p>16 MB hardware accelerated PCI/AGP video card capable of 1-24*86*16bpp</p></td>
-<td style="border:1px solid black;"><p>16 MB hardware accelerated PCI/AGP video card capable of 1-24*86*16bpp</p></td>
+<td style="border:1px solid black;">Graphics card</td>
+<td style="border:1px solid black;">16 MB hardware accelerated PCI/AGP video card capable of 1-24*86*16bpp</td>
+<td style="border:1px solid black;">16 MB hardware accelerated PCI/AGP video card capable of 1-24*86*16bpp</td>
+<td style="border:1px solid black;">16 MB hardware accelerated PCI/AGP video card capable of 1-24*86*16bpp</td>
+<td style="border:1px solid black;">16 MB hardware accelerated PCI/AGP video card capable of 1-24*86*16bpp</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RAM</p></td>
-<td style="border:1px solid black;"><p>1 GB</p></td>
-<td style="border:1px solid black;"><p>2 GB</p></td>
-<td style="border:1px solid black;"><p>2 GB</p></td>
-<td style="border:1px solid black;"><p>4 GB</p></td>
+<td style="border:1px solid black;">RAM</td>
+<td style="border:1px solid black;">1 GB</td>
+<td style="border:1px solid black;">2 GB</td>
+<td style="border:1px solid black;">2 GB</td>
+<td style="border:1px solid black;">4 GB</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Page file</p></td>
-<td style="border:1px solid black;"><p>At least 1.5 times physical memory</p></td>
-<td style="border:1px solid black;"><p>At least 1.5 times physical memory</p></td>
-<td style="border:1px solid black;"><p>At least 1.5 times physical memory</p></td>
-<td style="border:1px solid black;"><p>At least 1.5 times physical memory</p></td>
+<td style="border:1px solid black;">Page file</td>
+<td style="border:1px solid black;">At least 1.5 times physical memory</td>
+<td style="border:1px solid black;">At least 1.5 times physical memory</td>
+<td style="border:1px solid black;">At least 1.5 times physical memory</td>
+<td style="border:1px solid black;">At least 1.5 times physical memory</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>I/O subsystem</p></td>
-<td style="border:1px solid black;"><p>Fast ATA/IDE 100 hard disk or equivalent SCSI drives</p></td>
-<td style="border:1px solid black;"><p>Fast ATA/IDE 100 hard disk or equivalent SCSI drives</p></td>
-<td style="border:1px solid black;"><p>Fast ATA/IDE 100 hard disk or equivalent SCSI drives</p></td>
-<td style="border:1px solid black;"><p>Fast ATA/IDE 100 hard disk or equivalent SCSI drives</p></td>
+<td style="border:1px solid black;">I/O subsystem</td>
+<td style="border:1px solid black;">Fast ATA/IDE 100 hard disk or equivalent SCSI drives</td>
+<td style="border:1px solid black;">Fast ATA/IDE 100 hard disk or equivalent SCSI drives</td>
+<td style="border:1px solid black;">Fast ATA/IDE 100 hard disk or equivalent SCSI drives</td>
+<td style="border:1px solid black;">Fast ATA/IDE 100 hard disk or equivalent SCSI drives</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Network card</p></td>
-<td style="border:1px solid black;"><p>10 MB</p></td>
-<td style="border:1px solid black;"><p>100 MB</p></td>
-<td style="border:1px solid black;"><p>1 GB</p></td>
-<td style="border:1px solid black;"><p>1 GB</p></td>
+<td style="border:1px solid black;">Network card</td>
+<td style="border:1px solid black;">10 MB</td>
+<td style="border:1px solid black;">100 MB</td>
+<td style="border:1px solid black;">1 GB</td>
+<td style="border:1px solid black;">1 GB</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Hard drive—system partition</p></td>
-<td style="border:1px solid black;"><p>1 GB</p></td>
-<td style="border:1px solid black;"><p>1 GB</p></td>
-<td style="border:1px solid black;"><p>1 GB</p></td>
-<td style="border:1px solid black;"><p>1 GB</p></td>
+<td style="border:1px solid black;">Hard drive—system partition</td>
+<td style="border:1px solid black;">1 GB</td>
+<td style="border:1px solid black;">1 GB</td>
+<td style="border:1px solid black;">1 GB</td>
+<td style="border:1px solid black;">1 GB</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Hard drive—content storage</p></td>
-<td style="border:1px solid black;"><p>20 GB</p></td>
-<td style="border:1px solid black;"><p>30 GB</p></td>
-<td style="border:1px solid black;"><p>30 GB</p></td>
-<td style="border:1px solid black;"><p>30 GB</p></td>
+<td style="border:1px solid black;">Hard drive—content storage</td>
+<td style="border:1px solid black;">20 GB</td>
+<td style="border:1px solid black;">30 GB</td>
+<td style="border:1px solid black;">30 GB</td>
+<td style="border:1px solid black;">30 GB</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Hard drive—SQL Server installation</p></td>
-<td style="border:1px solid black;"><p>2 GB</p></td>
-<td style="border:1px solid black;"><p>2 GB</p></td>
-<td style="border:1px solid black;"><p>2 GB</p></td>
-<td style="border:1px solid black;"><p>2 GB</p></td>
+<td style="border:1px solid black;">Hard drive—SQL Server installation</td>
+<td style="border:1px solid black;">2 GB</td>
+<td style="border:1px solid black;">2 GB</td>
+<td style="border:1px solid black;">2 GB</td>
+<td style="border:1px solid black;">2 GB</td>
 </tr>
 </tbody>
 </table>

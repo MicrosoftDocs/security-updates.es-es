@@ -17,7 +17,7 @@ En la tabla siguiente, se enumeran los permisos otorgados a los servidores por l
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -33,29 +33,29 @@ En la tabla siguiente, se enumeran los permisos otorgados a los servidores por l
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Certificados de cuenta de permisos</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">Certificados de cuenta de permisos</td>
+<td style="border:1px solid black;">Sí</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Licencias de publicación</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
+<td style="border:1px solid black;">Licencias de publicación</td>
+<td style="border:1px solid black;">Sí</td>
+<td style="border:1px solid black;">Sí</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Licencias de uso</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
+<td style="border:1px solid black;">Licencias de uso</td>
+<td style="border:1px solid black;">Sí</td>
+<td style="border:1px solid black;">Sí</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certificados emisores de licencias de servidor subordinados</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">Certificados emisores de licencias de servidor subordinados</td>
+<td style="border:1px solid black;">Sí</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Certificados emisores de licencias de cliente</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
+<td style="border:1px solid black;">Certificados emisores de licencias de cliente</td>
+<td style="border:1px solid black;">Sí</td>
+<td style="border:1px solid black;">Sí</td>
 </tr>
 </tbody>
 </table>

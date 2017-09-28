@@ -31,7 +31,7 @@ Puede utilizar BitLocker, EFS, RMS y el control de dispositivos para contribuir 
 
 **Tabla 3.1 Comparación de tecnologías de protección de datos en Windows Vista**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -42,90 +42,90 @@ Puede utilizar BitLocker, EFS, RMS y el control de dispositivos para contribuir 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Entorno</p></th>
-<th><p>    BitLocker</p></th>
-<th><p>        EFS</p></th>
-<th><p>        RMS</p></th>
-<th><p>Control de dispositivos</p></th>
+<th>Entorno</th>
+<th>    BitLocker</th>
+<th>        EFS</th>
+<th>        RMS</th>
+<th>Control de dispositivos</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Protección de datos en equipos portátiles</p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></p></td>
+<td style="border:1px solid black;">Protección de datos en equipos portátiles</td>
+<td style="border:1px solid black;">          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></td>
+<td style="border:1px solid black;">          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Protección de datos en servidores de sucursales</p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></p></td>
+<td style="border:1px solid black;">Protección de datos en servidores de sucursales</td>
+<td style="border:1px solid black;">          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Protección local de archivos y carpetas de usuario único</p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Protección local de archivos y carpetas de usuario único</td>
+<td style="border:1px solid black;">          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></td>
+<td style="border:1px solid black;">          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Protección de datos en equipos de escritorio</p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></p></td>
+<td style="border:1px solid black;">Protección de datos en equipos de escritorio</td>
+<td style="border:1px solid black;">          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></td>
+<td style="border:1px solid black;">          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Protección de archivos y carpetas en equipos compartidos</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Protección de archivos y carpetas en equipos compartidos</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Protección remota de archivos y carpetas</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Protección remota de archivos y carpetas</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Protección de administrador de redes no confiables</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Protección de administrador de redes no confiables</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Aplicación de directivas de uso remoto para documentos</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Aplicación de directivas de uso remoto para documentos</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Protección del contenido durante desplazamientos</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Protección del contenido durante desplazamientos</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Protección del contenido durante colaboraciones</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Protección del contenido durante colaboraciones</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Protección contra robo de datos</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></p></td>
+<td style="border:1px solid black;">Protección contra robo de datos</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">          <img src="images/Bb629455.check(es-es,MSDN.10).gif" /></td>
 </tr>
 </tbody>
 </table>
@@ -240,7 +240,7 @@ Hay dos plantillas de directiva de grupo que Microsoft recomienda para administr
   
 **Tabla 3.2 Configuración del cifrado de unidad BitLocker**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -249,41 +249,41 @@ Hay dos plantillas de directiva de grupo que Microsoft recomienda para administr
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parámetro de directiva</p></th>
-<th><p>Descripción</p></th>
-<th><p>Configuración predeterminada en Windows Vista</p></th>
+<th>Parámetro de directiva</th>
+<th>Descripción</th>
+<th>Configuración predeterminada en Windows Vista</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Activar copia de seguridad de BitLocker en servicios de dominio de Active Directory</p></td>
-<td style="border:1px solid black;"><p>Permite la copia de seguridad de la información de recuperación de BitLocker en Active Directory. Esta información incluye la contraseña de recuperación y algunos datos de identificación únicos.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">Activar copia de seguridad de BitLocker en servicios de dominio de Active Directory</td>
+<td style="border:1px solid black;">Permite la copia de seguridad de la información de recuperación de BitLocker en Active Directory. Esta información incluye la contraseña de recuperación y algunos datos de identificación únicos.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Configuración del Panel de control: configurar carpeta de recuperación</p></td>
-<td style="border:1px solid black;"><p>Determina si el Asistente para instalar BitLocker pedirá al usuario que guarde la clave de recuperación en una carpeta. Especifica la ruta predeterminada que se muestra cuando el Asistente para instalar BitLocker solicita al usuario que escriba la ubicación de la carpeta en la que desea guardar la clave de recuperación.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">Configuración del Panel de control: configurar carpeta de recuperación</td>
+<td style="border:1px solid black;">Determina si el Asistente para instalar BitLocker pedirá al usuario que guarde la clave de recuperación en una carpeta. Especifica la ruta predeterminada que se muestra cuando el Asistente para instalar BitLocker solicita al usuario que escriba la ubicación de la carpeta en la que desea guardar la clave de recuperación.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Configuración del Panel de control: configurar opciones de recuperación</p></td>
-<td style="border:1px solid black;"><p>Determina si el Asistente para instalar BitLocker pedirá al usuario que cree una contraseña de recuperación. Esta contraseña es una secuencia de 48 dígitos generada de forma aleatoria.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">Configuración del Panel de control: configurar opciones de recuperación</td>
+<td style="border:1px solid black;">Determina si el Asistente para instalar BitLocker pedirá al usuario que cree una contraseña de recuperación. Esta contraseña es una secuencia de 48 dígitos generada de forma aleatoria.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Configuración del Panel de control: habilitar opciones de inicio avanzadas</p></td>
-<td style="border:1px solid black;"><p>Determina si el Asistente para instalar BitLocker pedirá al usuario que cree un PIN en el equipo. El PIN es una secuencia de 4 a 20 dígitos que el usuario debe escribir cada vez que se inicia el equipo. No es posible utilizar directivas para establecer el número de dígitos.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">Configuración del Panel de control: habilitar opciones de inicio avanzadas</td>
+<td style="border:1px solid black;">Determina si el Asistente para instalar BitLocker pedirá al usuario que cree un PIN en el equipo. El PIN es una secuencia de 4 a 20 dígitos que el usuario debe escribir cada vez que se inicia el equipo. No es posible utilizar directivas para establecer el número de dígitos.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Configurar método de cifrado</p></td>
-<td style="border:1px solid black;"><p>Determina el algoritmo de cifrado y el tamaño de la clave que utiliza BitLocker. Esta configuración de directiva se aplica a discos completamente descifrados. Si el disco ya está cifrado o si el cifrado se está llevando a cabo, la modificación del método de cifrado no tendrá efecto alguno.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">Configurar método de cifrado</td>
+<td style="border:1px solid black;">Determina el algoritmo de cifrado y el tamaño de la clave que utiliza BitLocker. Esta configuración de directiva se aplica a discos completamente descifrados. Si el disco ya está cifrado o si el cifrado se está llevando a cabo, la modificación del método de cifrado no tendrá efecto alguno.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Configurar perfil de validación de la plataforma TPM</p></td>
-<td style="border:1px solid black;"><p>Determina el modo en que TPM protege la clave de cifrado del volumen de disco. Este parámetro de directiva no es aplicable si el equipo no cuenta con un TPM compatible. Además, la modificación de esta directiva no afecta de ningún modo a las copias existentes de la clave de cifrado.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">Configurar perfil de validación de la plataforma TPM</td>
+<td style="border:1px solid black;">Determina el modo en que TPM protege la clave de cifrado del volumen de disco. Este parámetro de directiva no es aplicable si el equipo no cuenta con un TPM compatible. Además, la modificación de esta directiva no afecta de ningún modo a las copias existentes de la clave de cifrado.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 </tbody>
 </table>
@@ -296,7 +296,7 @@ La tabla siguiente proporciona información sobre la configuración de directiva
   
 **Tabla 3.3 Configuración de Módulo de plataforma segura**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -305,31 +305,31 @@ La tabla siguiente proporciona información sobre la configuración de directiva
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parámetro de directiva</p></th>
-<th><p>Descripción</p></th>
-<th><p>Configuración predeterminada en Windows Vista</p></th>
+<th>Parámetro de directiva</th>
+<th>Descripción</th>
+<th>Configuración predeterminada en Windows Vista</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Activar copia de seguridad de TPM en servicios de dominio de Active Directory</p></td>
-<td style="border:1px solid black;"><p>Administra la copia de seguridad de la información de recuperación de TPM en Active Directory. Esta información incluye una derivación criptográfica de la contraseña de propietario de TPM.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">Activar copia de seguridad de TPM en servicios de dominio de Active Directory</td>
+<td style="border:1px solid black;">Administra la copia de seguridad de la información de recuperación de TPM en Active Directory. Esta información incluye una derivación criptográfica de la contraseña de propietario de TPM.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Configurar lista de comandos TPM bloqueados</p></td>
-<td style="border:1px solid black;"><p>Administra la lista de directiva de grupo que enumera los comandos TPM bloqueados por Windows.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">Configurar lista de comandos TPM bloqueados</td>
+<td style="border:1px solid black;">Administra la lista de directiva de grupo que enumera los comandos TPM bloqueados por Windows.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Omitir lista predeterminada de comandos TPM bloqueados</p></td>
-<td style="border:1px solid black;"><p>Administra la aplicación de la lista predeterminada del equipo que enumera los comandos TPM bloqueados.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">Omitir lista predeterminada de comandos TPM bloqueados</td>
+<td style="border:1px solid black;">Administra la aplicación de la lista predeterminada del equipo que enumera los comandos TPM bloqueados.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Omitir lista local de comandos TPM bloqueados</p></td>
-<td style="border:1px solid black;"><p>Administra la aplicación de la lista local del equipo que enumera los comandos TPM bloqueados.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">Omitir lista local de comandos TPM bloqueados</td>
+<td style="border:1px solid black;">Administra la aplicación de la lista local del equipo que enumera los comandos TPM bloqueados.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 </tbody>
 </table>
@@ -470,7 +470,7 @@ Además, hay cuatro plantillas de directiva de grupo que incluyen parámetros de
   
 **Tabla 3.4 Configuración de directiva de grupo para EFS**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -479,50 +479,50 @@ Además, hay cuatro plantillas de directiva de grupo que incluyen parámetros de
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Plantilla y parámetro de configuración</p></th>
-<th><p>Ruta y descripción</p></th>
-<th><p>Configuración predeterminada en Windows Vista</p></th>
+<th>Plantilla y parámetro de configuración</th>
+<th>Ruta y descripción</th>
+<th>Configuración predeterminada en Windows Vista</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>GroupPolicy.admx</strong><br />
-Procesamiento de directivas de recuperación EFS</p></td>
-<td style="border:1px solid black;"><p><strong>Configuración del equipo\</strong><br />
+<td style="border:1px solid black;"><strong>GroupPolicy.admx</strong><br />
+Procesamiento de directivas de recuperación EFS</td>
+<td style="border:1px solid black;"><strong>Configuración del equipo\</strong><br />
 <strong>Plantillas administrativas\</strong><br />
 <strong>Sistema\Directiva de grupo</strong><br />
-Determina cuándo se actualizan las directivas de cifrado.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+Determina cuándo se actualizan las directivas de cifrado.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>EncryptFilesonMove.admx</strong><br />
-No cifrar automáticamente archivos trasladados a carpetas cifradas</p></td>
-<td style="border:1px solid black;"><p><strong>Configuración del equipo\</strong><br />
+<td style="border:1px solid black;"><strong>EncryptFilesonMove.admx</strong><br />
+No cifrar automáticamente archivos trasladados a carpetas cifradas</td>
+<td style="border:1px solid black;"><strong>Configuración del equipo\</strong><br />
 <strong>Plantillas administrativas\</strong><br />
 <strong>Sistema\</strong><br />
-Impide que Windows Explorer cifre archivos que se han trasladado a una carpeta cifrada.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+Impide que Windows Explorer cifre archivos que se han trasladado a una carpeta cifrada.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>OfflineFiles.admx</strong><br />
-Cifrar la memoria caché de archivos sin conexión</p></td>
-<td style="border:1px solid black;"><p><strong>Configuración del equipo\</strong><br />
+<td style="border:1px solid black;"><strong>OfflineFiles.admx</strong><br />
+Cifrar la memoria caché de archivos sin conexión</td>
+<td style="border:1px solid black;"><strong>Configuración del equipo\</strong><br />
 <strong>Plantillas administrativas\</strong><br />
 <strong>Red\Archivos sin conexión\</strong><br />
-Determina el cifrado de los archivos de conexión.</p>
-<p><strong>Nota</strong>   En Windows XP, estos archivos están cifrados con la clave del sistema, mientras que, en Windows Vista, el cifrado se lleva a cabo con la clave del usuario.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+Determina el cifrado de los archivos de conexión.
+<strong>Nota</strong>   En Windows XP, estos archivos están cifrados con la clave del sistema, mientras que, en Windows Vista, el cifrado se lleva a cabo con la clave del usuario.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Search.admx</strong><br />
-Permitir la indización de archivos cifrados</p></td>
-<td style="border:1px solid black;"><p><strong>Configuración del equipo\</strong><br />
+<td style="border:1px solid black;"><strong>Search.admx</strong><br />
+Permitir la indización de archivos cifrados</td>
+<td style="border:1px solid black;"><strong>Configuración del equipo\</strong><br />
 <strong>Plantillas administrativas\</strong><br />
 <strong>Componentes de Windows\</strong><br />
 <strong>Búsqueda</strong><br />
-Este parámetro permite la indización de elementos cifrados por parte de la Búsqueda de Windows.</p>
-<p><strong>Nota</strong>   Pueden darse problemas de seguridad si se aplica la indización a los archivos cifrados y el índice no está bien protegido por EFS o por algún otro medio.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+Este parámetro permite la indización de elementos cifrados por parte de la Búsqueda de Windows.
+<strong>Nota</strong>   Pueden darse problemas de seguridad si se aplica la indización a los archivos cifrados y el índice no está bien protegido por EFS o por algún otro medio.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 </tbody>
 </table>
@@ -681,7 +681,7 @@ Con el fin de administrar el control de la instalación de dispositivos, Microso
   
 **Tabla 3.5 Configuración del control de dispositivos USB**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -690,69 +690,69 @@ Con el fin de administrar el control de la instalación de dispositivos, Microso
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parámetro de directiva</p></th>
-<th><p>Descripción</p></th>
-<th><p>Configuración predeterminada en Windows Vista</p></th>
+<th>Parámetro de directiva</th>
+<th>Descripción</th>
+<th>Configuración predeterminada en Windows Vista</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Permitir a los administradores invalidar directivas de instalación de dispositivos</p></td>
-<td style="border:1px solid black;"><p>Permite a los miembros del grupo Administradores instalar y actualizar los controladores para cualquier dispositivo, independientemente de otros parámetros de directiva. De lo contrario, los administradores estarán sujetos a todas las directivas que restringen la instalación de dispositivos.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">Permitir a los administradores invalidar directivas de instalación de dispositivos</td>
+<td style="border:1px solid black;">Permite a los miembros del grupo Administradores instalar y actualizar los controladores para cualquier dispositivo, independientemente de otros parámetros de directiva. De lo contrario, los administradores estarán sujetos a todas las directivas que restringen la instalación de dispositivos.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Permitir la instalación de dispositivos mediante controladores que coinciden con estas clases de instalación de dispositivos</p></td>
-<td style="border:1px solid black;"><p>Especifica una lista de GUID de clases de instalación de dispositivos que describen los dispositivos que pueden instalar los usuarios, a menos que lo impidan específicamente los parámetros de directiva siguientes:<br />
+<td style="border:1px solid black;">Permitir la instalación de dispositivos mediante controladores que coinciden con estas clases de instalación de dispositivos</td>
+<td style="border:1px solid black;">Especifica una lista de GUID de clases de instalación de dispositivos que describen los dispositivos que pueden instalar los usuarios, a menos que lo impidan específicamente los parámetros de directiva siguientes:<br />
 <strong>Impedir la instalación de dispositivos que coinciden con estos Id. de dispositivos</strong><br />
 <strong>Impedir la instalación de dispositivos para estas clases de dispositivos</strong><br />
 <strong>Impedir la instalación de dispositivos extraíbles</strong><br />
-Utilice este parámetro de configuración sólo cuando esté habilitado el parámetro <strong>Impedir la instalación de dispositivos no descritos por otros parámetros de directiva</strong>.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+Utilice este parámetro de configuración sólo cuando esté habilitado el parámetro <strong>Impedir la instalación de dispositivos no descritos por otros parámetros de directiva</strong>.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Impedir la instalación de dispositivos mediante controladores que coinciden con estas clases de instalación de dispositivos</p></td>
-<td style="border:1px solid black;"><p>Especifica un mensaje personalizado que se muestra al usuario en el título del globo de notificación cuando esta directiva impide la instalación de un dispositivo.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">Impedir la instalación de dispositivos mediante controladores que coinciden con estas clases de instalación de dispositivos</td>
+<td style="border:1px solid black;">Especifica un mensaje personalizado que se muestra al usuario en el título del globo de notificación cuando esta directiva impide la instalación de un dispositivo.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Mostrar un mensaje personalizado cuando la directiva impide la instalación (título del globo)</p></td>
-<td style="border:1px solid black;"><p>Especifica un mensaje personalizado que se muestra al usuario en el título del globo de notificación cuando un parámetro de directiva impide la instalación.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">Mostrar un mensaje personalizado cuando la directiva impide la instalación (título del globo)</td>
+<td style="border:1px solid black;">Especifica un mensaje personalizado que se muestra al usuario en el título del globo de notificación cuando un parámetro de directiva impide la instalación.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Mostrar un mensaje personalizado cuando la directiva impide la instalación (título del globo)</p></td>
-<td style="border:1px solid black;"><p>Especifica un mensaje personalizado que se muestra al usuario en el texto del globo de notificación cuando la directiva impide la instalación de un dispositivo.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">Mostrar un mensaje personalizado cuando la directiva impide la instalación (título del globo)</td>
+<td style="border:1px solid black;">Especifica un mensaje personalizado que se muestra al usuario en el texto del globo de notificación cuando la directiva impide la instalación de un dispositivo.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Permitir la instalación de dispositivos que coinciden con cualquiera de estos Id. de dispositivos</p></td>
-<td style="border:1px solid black;"><p>Especifica una lista de Id. de hardware Plug and Play e Id. compatibles que describen los dispositivos que se pueden instalar, a menos que los parámetros siguientes lo impidan de forma específica:<br />
+<td style="border:1px solid black;">Permitir la instalación de dispositivos que coinciden con cualquiera de estos Id. de dispositivos</td>
+<td style="border:1px solid black;">Especifica una lista de Id. de hardware Plug and Play e Id. compatibles que describen los dispositivos que se pueden instalar, a menos que los parámetros siguientes lo impidan de forma específica:<br />
 <strong>Impedir la instalación de dispositivos que coinciden con estos Id. de dispositivos</strong><br />
 <strong>Impedir la instalación de dispositivos para estas clases de dispositivos</strong><br />
 <strong>Impedir la instalación de dispositivos extraíbles</strong><br />
-Utilice este parámetro de configuración sólo cuando esté habilitado el parámetro <strong>Impedir la instalación de dispositivos no descritos por otros parámetros de directiva</strong>.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+Utilice este parámetro de configuración sólo cuando esté habilitado el parámetro <strong>Impedir la instalación de dispositivos no descritos por otros parámetros de directiva</strong>.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Impedir la instalación de dispositivos que coinciden con estos Id. de dispositivos</p></td>
-<td style="border:1px solid black;"><p>Especifica una lista de Id. de hardware Plug and Play e Id. compatibles para los dispositivos que los usuarios no pueden instalar.<br />
-<strong>Nota</strong>   Este parámetro de directiva tiene prioridad sobre cualquier otro parámetro de directiva que permite la instalación del dispositivo.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">Impedir la instalación de dispositivos que coinciden con estos Id. de dispositivos</td>
+<td style="border:1px solid black;">Especifica una lista de Id. de hardware Plug and Play e Id. compatibles para los dispositivos que los usuarios no pueden instalar.<br />
+<strong>Nota</strong>   Este parámetro de directiva tiene prioridad sobre cualquier otro parámetro de directiva que permite la instalación del dispositivo.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Impedir la instalación de dispositivos extraíbles</p></td>
-<td style="border:1px solid black;"><p>Si habilita este parámetro de configuración, los usuarios no podrán instalar dispositivos extraíbles y los dispositivos extraíbles existentes no podrán recibir actualizaciones de controladores.<br />
+<td style="border:1px solid black;">Impedir la instalación de dispositivos extraíbles</td>
+<td style="border:1px solid black;">Si habilita este parámetro de configuración, los usuarios no podrán instalar dispositivos extraíbles y los dispositivos extraíbles existentes no podrán recibir actualizaciones de controladores.<br />
 <strong>Nota</strong>   Este parámetro de directiva tiene prioridad sobre cualquier otro parámetro de directiva que permite la instalación del dispositivo.<br />
-Para que se aplique esta directiva, los controladores del dispositivo deben identificar correctamente que el dispositivo es extraíble. Para obtener más información, consulte la <a href="http://www.microsoft.com/technet/windowsvista/library/9fe5bf05-a4a9-44e2-a0c3-b4b4eaaa37f3.mspx"><em>Guía paso a paso para controlar la instalación y el uso de dispositivos mediante la directiva de grupo</em></a> (en inglés).</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+Para que se aplique esta directiva, los controladores del dispositivo deben identificar correctamente que el dispositivo es extraíble. Para obtener más información, consulte la <a href="http://www.microsoft.com/technet/windowsvista/library/9fe5bf05-a4a9-44e2-a0c3-b4b4eaaa37f3.mspx"><em>Guía paso a paso para controlar la instalación y el uso de dispositivos mediante la directiva de grupo</em></a> (en inglés).</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Impedir la instalación de dispositivos no descritos por otros parámetros de directiva</p></td>
-<td style="border:1px solid black;"><p>Si habilita este parámetro de configuración, cualquier dispositivo que no aparezca descrito por alguno de los parámetros siguientes no podrá recibir actualizaciones de controladores:<br />
+<td style="border:1px solid black;">Impedir la instalación de dispositivos no descritos por otros parámetros de directiva</td>
+<td style="border:1px solid black;">Si habilita este parámetro de configuración, cualquier dispositivo que no aparezca descrito por alguno de los parámetros siguientes no podrá recibir actualizaciones de controladores:<br />
 <strong>Permitir la instalación de dispositivos que coinciden con estos Id. de dispositivos</strong><br />
-<strong>Permitir la instalación de dispositivos para estas clases de dispositivos</strong></p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<strong>Permitir la instalación de dispositivos para estas clases de dispositivos</strong></td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 </tbody>
 </table>
@@ -767,7 +767,7 @@ Además de contribuir al control de la instalación de dispositivos, Windows Vis
   
 **Tabla 3.6 Configuración de dispositivos**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -776,81 +776,81 @@ Además de contribuir al control de la instalación de dispositivos, Windows Vis
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parámetro de directiva</p></th>
-<th><p>Descripción</p></th>
-<th><p>Configuración predeterminada en Windows Vista</p></th>
+<th>Parámetro de directiva</th>
+<th>Descripción</th>
+<th>Configuración predeterminada en Windows Vista</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Todas las clases de almacenamiento extraíble: denegar todo acceso</p></td>
-<td style="border:1px solid black;"><p>Configura el acceso a todas las clases de dispositivos de almacenamiento extraíbles.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">Todas las clases de almacenamiento extraíble: denegar todo acceso</td>
+<td style="border:1px solid black;">Configura el acceso a todas las clases de dispositivos de almacenamiento extraíbles.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Todos los medios de almacenamiento extraíbles: permitir acceso directo en sesiones remotas</p></td>
-<td style="border:1px solid black;"><p>Este parámetro de configuración otorga a las cuentas de usuario estándar el acceso a los dispositivos de almacenamiento extraíbles en sesiones remotas. La configuración predeterminada no permite este acceso para sesiones remotas.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">Todos los medios de almacenamiento extraíbles: permitir acceso directo en sesiones remotas</td>
+<td style="border:1px solid black;">Este parámetro de configuración otorga a las cuentas de usuario estándar el acceso a los dispositivos de almacenamiento extraíbles en sesiones remotas. La configuración predeterminada no permite este acceso para sesiones remotas.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CD y DVD: denegar acceso de lectura</p></td>
-<td style="border:1px solid black;"><p>Este parámetro de configuración deniega el acceso de lectura para la clase de almacenamiento extraíble de CD y DVD. La configuración predeterminada permite el acceso de lectura.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">CD y DVD: denegar acceso de lectura</td>
+<td style="border:1px solid black;">Este parámetro de configuración deniega el acceso de lectura para la clase de almacenamiento extraíble de CD y DVD. La configuración predeterminada permite el acceso de lectura.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CD y DVD: denegar acceso de escritura</p></td>
-<td style="border:1px solid black;"><p>Este parámetro de configuración deniega el acceso de escritura para la clase de almacenamiento extraíble de CD y DVD. La configuración predeterminada permite el acceso de escritura para esta clase de dispositivo.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">CD y DVD: denegar acceso de escritura</td>
+<td style="border:1px solid black;">Este parámetro de configuración deniega el acceso de escritura para la clase de almacenamiento extraíble de CD y DVD. La configuración predeterminada permite el acceso de escritura para esta clase de dispositivo.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Clases personalizadas: denegar acceso de lectura</p></td>
-<td style="border:1px solid black;"><p>Este parámetro de configuración deniega el acceso de lectura para las clases de dispositivos personalizadas. La configuración predeterminada permite el acceso de lectura.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">Clases personalizadas: denegar acceso de lectura</td>
+<td style="border:1px solid black;">Este parámetro de configuración deniega el acceso de lectura para las clases de dispositivos personalizadas. La configuración predeterminada permite el acceso de lectura.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Clases personalizadas: denegar acceso de escritura</p></td>
-<td style="border:1px solid black;"><p>Este parámetro de configuración deniega el acceso de escritura a las clases de dispositivos personalizadas. La configuración predeterminada permite el acceso de escritura a esta clase de dispositivo.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">Clases personalizadas: denegar acceso de escritura</td>
+<td style="border:1px solid black;">Este parámetro de configuración deniega el acceso de escritura a las clases de dispositivos personalizadas. La configuración predeterminada permite el acceso de escritura a esta clase de dispositivo.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Unidades de disquete: denegar acceso de lectura</p></td>
-<td style="border:1px solid black;"><p>Este parámetro de configuración deniega el acceso de lectura a las unidades de disquete. La configuración predeterminada permite el acceso de lectura.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">Unidades de disquete: denegar acceso de lectura</td>
+<td style="border:1px solid black;">Este parámetro de configuración deniega el acceso de lectura a las unidades de disquete. La configuración predeterminada permite el acceso de lectura.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Unidades de disquete: denegar acceso de escritura</p></td>
-<td style="border:1px solid black;"><p>Este parámetro de configuración deniega el acceso de escritura a las unidades de disquete. La configuración predeterminada permite el acceso de escritura a esta clase de dispositivo.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">Unidades de disquete: denegar acceso de escritura</td>
+<td style="border:1px solid black;">Este parámetro de configuración deniega el acceso de escritura a las unidades de disquete. La configuración predeterminada permite el acceso de escritura a esta clase de dispositivo.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Discos extraíbles: denegar acceso de lectura</p></td>
-<td style="border:1px solid black;"><p>Este parámetro de configuración deniega el acceso de lectura a las unidades extraíbles. La configuración predeterminada permite el acceso de lectura.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">Discos extraíbles: denegar acceso de lectura</td>
+<td style="border:1px solid black;">Este parámetro de configuración deniega el acceso de lectura a las unidades extraíbles. La configuración predeterminada permite el acceso de lectura.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Discos extraíbles: denegar acceso de escritura</p></td>
-<td style="border:1px solid black;"><p>Este parámetro de configuración deniega el acceso de escritura a las unidades extraíbles. La configuración predeterminada permite el acceso de escritura a esta clase de dispositivo.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">Discos extraíbles: denegar acceso de escritura</td>
+<td style="border:1px solid black;">Este parámetro de configuración deniega el acceso de escritura a las unidades extraíbles. La configuración predeterminada permite el acceso de escritura a esta clase de dispositivo.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Unidades de cinta: denegar acceso de lectura</p></td>
-<td style="border:1px solid black;"><p>Este parámetro de configuración deniega el acceso de lectura a las unidades de cinta. La configuración predeterminada permite el acceso de lectura.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">Unidades de cinta: denegar acceso de lectura</td>
+<td style="border:1px solid black;">Este parámetro de configuración deniega el acceso de lectura a las unidades de cinta. La configuración predeterminada permite el acceso de lectura.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Unidades de cinta: denegar acceso de escritura</p></td>
-<td style="border:1px solid black;"><p>Este parámetro de configuración deniega el acceso de escritura a las unidades de cinta. La configuración predeterminada permite el acceso de escritura a esta clase de dispositivo.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">Unidades de cinta: denegar acceso de escritura</td>
+<td style="border:1px solid black;">Este parámetro de configuración deniega el acceso de escritura a las unidades de cinta. La configuración predeterminada permite el acceso de escritura a esta clase de dispositivo.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Dispositivos WPD: denegar acceso de lectura</p></td>
-<td style="border:1px solid black;"><p>Este parámetro de configuración deniega el acceso de lectura a los dispositivos portátiles de Windows, como reproductores multimedia y teléfonos móviles. La configuración predeterminada permite el acceso de lectura.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">Dispositivos WPD: denegar acceso de lectura</td>
+<td style="border:1px solid black;">Este parámetro de configuración deniega el acceso de lectura a los dispositivos portátiles de Windows, como reproductores multimedia y teléfonos móviles. La configuración predeterminada permite el acceso de lectura.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Dispositivos WPD: denegar acceso de escritura</p></td>
-<td style="border:1px solid black;"><p>Este parámetro de configuración deniega el acceso de escritura a los dispositivos portátiles de Windows, como reproductores multimedia y teléfonos móviles. La configuración predeterminada permite el acceso de escritura a esta clase de dispositivo.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">Dispositivos WPD: denegar acceso de escritura</td>
+<td style="border:1px solid black;">Este parámetro de configuración deniega el acceso de escritura a los dispositivos portátiles de Windows, como reproductores multimedia y teléfonos móviles. La configuración predeterminada permite el acceso de escritura a esta clase de dispositivo.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 </tbody>
 </table>
@@ -865,7 +865,7 @@ La plantilla Autoplay.admx incluye los parámetros de configuración siguientes 
   
 **Tabla 3.7 Configuración de directivas de reproducción automática**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -874,21 +874,21 @@ La plantilla Autoplay.admx incluye los parámetros de configuración siguientes 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parámetro de directiva</p></th>
-<th><p>Descripción</p></th>
-<th><p>Configuración predeterminada en Windows Vista</p></th>
+<th>Parámetro de directiva</th>
+<th>Descripción</th>
+<th>Configuración predeterminada en Windows Vista</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Desactivar reproducción automática</p></td>
-<td style="border:1px solid black;"><p>Permite deshabilitar la característica de reproducción automática para unidades de CD, DVD-ROM y extraíbles o para todas las unidades.</p></td>
-<td style="border:1px solid black;"><p>No configurado ‡</p></td>
+<td style="border:1px solid black;">Desactivar reproducción automática</td>
+<td style="border:1px solid black;">Permite deshabilitar la característica de reproducción automática para unidades de CD, DVD-ROM y extraíbles o para todas las unidades.</td>
+<td style="border:1px solid black;">No configurado ‡</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Comportamiento predeterminado para la ejecución automática</p></td>
-<td style="border:1px solid black;"><p>Este parámetro configura el comportamiento predeterminado para comandos de ejecución automática. De forma predeterminada, Windows Vista pregunta al usuario si debe ejecutarse el comando de ejecución automática.</p></td>
-<td style="border:1px solid black;"><p>Sin configurar</p></td>
+<td style="border:1px solid black;">Comportamiento predeterminado para la ejecución automática</td>
+<td style="border:1px solid black;">Este parámetro configura el comportamiento predeterminado para comandos de ejecución automática. De forma predeterminada, Windows Vista pregunta al usuario si debe ejecutarse el comando de ejecución automática.</td>
+<td style="border:1px solid black;">Sin configurar</td>
 </tr>
 </tbody>
 </table>

@@ -222,7 +222,7 @@ En la siguiente tabla se muestra la configuración recomendada de Agregar o quit
 
 **Tabla 1. Configuración recomendada para subcomponentes y servicios IIS**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -231,61 +231,61 @@ En la siguiente tabla se muestra la configuración recomendada de Agregar o quit
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Subcomponente o servicio</p></th>
-<th><p>Configuración predeterminada</p></th>
-<th><p>Configuración del servidor Web</p></th>
+<th>Subcomponente o servicio</th>
+<th>Configuración predeterminada</th>
+<th>Configuración del servidor Web</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Extensión de servidor de Servicio de transferencia inteligente en segundo plano (BITS)</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Sin cambios</p></td>
+<td style="border:1px solid black;">Extensión de servidor de Servicio de transferencia inteligente en segundo plano (BITS)</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Sin cambios</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Archivos comunes</p></td>
-<td style="border:1px solid black;"><p>Habilitado</p></td>
-<td style="border:1px solid black;"><p>Sin cambios</p></td>
+<td style="border:1px solid black;">Archivos comunes</td>
+<td style="border:1px solid black;">Habilitado</td>
+<td style="border:1px solid black;">Sin cambios</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servicio FTP</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Sin cambios</p></td>
+<td style="border:1px solid black;">Servicio FTP</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Sin cambios</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Extensiones de servidor de FrontPage 2002</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Sin cambios</p></td>
+<td style="border:1px solid black;">Extensiones de servidor de FrontPage 2002</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Sin cambios</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Administrador de Internet Information Services</p></td>
-<td style="border:1px solid black;"><p>Habilitado</p></td>
-<td style="border:1px solid black;"><p>Sin cambios</p></td>
+<td style="border:1px solid black;">Administrador de Internet Information Services</td>
+<td style="border:1px solid black;">Habilitado</td>
+<td style="border:1px solid black;">Sin cambios</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Impresión de Internet</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Sin cambios</p></td>
+<td style="border:1px solid black;">Impresión de Internet</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Sin cambios</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servicio NNTP</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Sin cambios</p></td>
+<td style="border:1px solid black;">Servicio NNTP</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Sin cambios</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Servicio SMTP</p></td>
-<td style="border:1px solid black;"><p>Habilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Servicio SMTP</td>
+<td style="border:1px solid black;">Habilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servicio World Wide Web</p></td>
-<td style="border:1px solid black;"><p>Habilitado</p></td>
-<td style="border:1px solid black;"><p>Sin cambios</p></td>
+<td style="border:1px solid black;">Servicio World Wide Web</td>
+<td style="border:1px solid black;">Habilitado</td>
+<td style="border:1px solid black;">Sin cambios</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Extensión de servidor de Servicio de transferencia inteligente en segundo plano (BITS)</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Sin cambios</p></td>
+<td style="border:1px solid black;">Extensión de servidor de Servicio de transferencia inteligente en segundo plano (BITS)</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Sin cambios</td>
 </tr>
 </tbody>
 </table>

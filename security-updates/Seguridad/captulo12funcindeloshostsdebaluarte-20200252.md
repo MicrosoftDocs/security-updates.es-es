@@ -40,7 +40,7 @@ Las funciones de servidor descritas anteriormente en esta guía utilizaban la di
 
 **Tabla 12.1 Plantillas de seguridad de servidor host de baluarte**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -49,16 +49,16 @@ Las funciones de servidor descritas anteriormente en esta guía utilizaban la di
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Cliente heredado</p></th>
-<th><p>Cliente de empresa</p></th>
-<th><p>Seguridad especializada: Funcionalidad limitada</p></th>
+<th>Cliente heredado</th>
+<th>Cliente de empresa</th>
+<th>Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SSLF-Bastion Host.inf</p></td>
-<td style="border:1px solid black;"><p>SSLF-Bastion Host.inf</p></td>
-<td style="border:1px solid black;"><p>SSLF-Bastion Host.inf</p></td>
+<td style="border:1px solid black;">SSLF-Bastion Host.inf</td>
+<td style="border:1px solid black;">SSLF-Bastion Host.inf</td>
+<td style="border:1px solid black;">SSLF-Bastion Host.inf</td>
 </tr>
 </tbody>
 </table>
@@ -77,7 +77,7 @@ El archivo SSLF-Bastion Host.inf incluye las asignaciones de derechos de usuario
   
 **Tabla 12.2 Configuración recomendada de las asignaciones de derechos de usuario**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -85,14 +85,14 @@ El archivo SSLF-Bastion Host.inf incluye las asignaciones de derechos de usuario
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Asignación de derechos de usuario</p></th>
-<th><p>Configuración</p></th>
+<th>Asignación de derechos de usuario</th>
+<th>Configuración</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Denegar el acceso desde la red a este equipo</p></td>
-<td style="border:1px solid black;"><p>INICIO DE SESIÓN ANÓNIMO; Administrador integrado; Support_388945a0; Invitado; todas las cuentas de servicio que NO sean del sistema operativo</p></td>
+<td style="border:1px solid black;">Denegar el acceso desde la red a este equipo</td>
+<td style="border:1px solid black;">INICIO DE SESIÓN ANÓNIMO; Administrador integrado; Support_388945a0; Invitado; todas las cuentas de servicio que NO sean del sistema operativo</td>
 </tr>
 </tbody>
 </table>
@@ -135,7 +135,7 @@ Además, es posible que se haya cambiado el nombre de la cuenta de administrador
   
 **Tabla 12.3 Asignaciones de derechos de usuario agregadas manualmente**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -145,25 +145,25 @@ Además, es posible que se haya cambiado el nombre de la cuenta de administrador
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuración</p></th>
-<th><p>Cliente heredado</p></th>
-<th><p>Cliente de empresa</p></th>
-<th><p>Seguridad especializada: Funcionalidad limitada</p></th>
+<th>Configuración</th>
+<th>Cliente heredado</th>
+<th>Cliente de empresa</th>
+<th>Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Denegar el acceso desde la red a este equipo</p></td>
-<td style="border:1px solid black;"><p>Administrador integrado; Support_388945a0;</p>
-<p>Invitado; todas las cuentas de servicios que NO sean del sistema operativo</p></td>
-<td style="border:1px solid black;"><p>Administrador integrado; Support_388945a0;</p>
-<p>Invitado; todas las cuentas de servicios que NO sean del sistema operativo</p></td>
-<td style="border:1px solid black;"><p>Administrador integrado; Support_388945a0;</p>
-<p>Invitado; todas las cuentas de servicios que NO sean del sistema operativo</p></td>
+<td style="border:1px solid black;">Denegar el acceso desde la red a este equipo</td>
+<td style="border:1px solid black;">Administrador integrado; Support_388945a0;
+Invitado; todas las cuentas de servicios que NO sean del sistema operativo</td>
+<td style="border:1px solid black;">Administrador integrado; Support_388945a0;
+Invitado; todas las cuentas de servicios que NO sean del sistema operativo</td>
+<td style="border:1px solid black;">Administrador integrado; Support_388945a0;
+Invitado; todas las cuentas de servicios que NO sean del sistema operativo</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 **Importante**: “Todas las cuentas de servicio del sistema que no sean del sistema operativo” incluye las cuentas de servicio que se utilizan para aplicaciones específicas en una empresa, pero NO incluye las cuentas de SISTEMA LOCAL, SERVICIO LOCAL ni de SERVICIO DE RED (las cuentas incorporadas que el sistema operativo utiliza).
 
@@ -189,7 +189,7 @@ El valor de este cambio en la configuración se ha reducido en los últimos año
 
 **Tabla 12.4 Configuración recomendada de informes de errores**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -199,18 +199,18 @@ El valor de este cambio en la configuración se ha reducido en los últimos año
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuración</p></th>
-<th><p>Cliente heredado</p></th>
-<th><p>Cliente de empresa</p></th>
-<th><p>Seguridad especializada: Funcionalidad limitada</p></th>
+<th>Configuración</th>
+<th>Cliente heredado</th>
+<th>Cliente de empresa</th>
+<th>Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Desactivar Informe de errores de Windows</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Desactivar Informe de errores de Windows</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 </tbody>
 </table>

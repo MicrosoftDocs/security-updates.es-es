@@ -68,7 +68,7 @@ En los procedimientos del paso 3, ha completado la configuración del servidor q
 
 4.  Haga clic en **Finalizar**.
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="100%" />
@@ -81,11 +81,11 @@ En los procedimientos del paso 3, ha completado la configuración del servidor q
     <tbody>
     <tr class="odd">
     <td style="border:1px solid black;">No se pueden guardar los cambios en la configuración realizados mientras el servidor está sincronizando. Espere hasta que haya terminado la sincronización para hacer los cambios.
-    <p></p></td>
+    </td>
     </tr>
     </tbody>
     </table>
-<p> </p>
+ 
 
 Si está utilizando la consola de administración de WSUS
 -------------------------------------------------------

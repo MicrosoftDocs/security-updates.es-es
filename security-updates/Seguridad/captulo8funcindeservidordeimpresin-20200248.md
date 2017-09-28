@@ -36,7 +36,7 @@ En la siguiente tabla se muestran los nombres de las plantillas de seguridad de 
 
 **Tabla 8.1 Plantillas de seguridad de servidor de impresión para los tres entornos**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -45,16 +45,16 @@ En la siguiente tabla se muestran los nombres de las plantillas de seguridad de 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Cliente heredado</p></th>
-<th><p>Cliente de empresa</p></th>
-<th><p>Seguridad especializada: Funcionalidad limitada</p></th>
+<th>Cliente heredado</th>
+<th>Cliente de empresa</th>
+<th>Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>LC-Print Server.inf</p></td>
-<td style="border:1px solid black;"><p>EC-Print Server.inf</p></td>
-<td style="border:1px solid black;"><p>SSLF-Print Server.inf</p></td>
+<td style="border:1px solid black;">LC-Print Server.inf</td>
+<td style="border:1px solid black;">EC-Print Server.inf</td>
+<td style="border:1px solid black;">SSLF-Print Server.inf</td>
 </tr>
 </tbody>
 </table>
@@ -85,7 +85,7 @@ La mayoría de los parámetros de configuración para los servidores de impresi�
   
 **Tabla 8.2 Configuración recomendada para firmar digitalmente las comunicaciones (siempre)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -95,18 +95,18 @@ La mayoría de los parámetros de configuración para los servidores de impresi�
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuración</p></th>
-<th><p>Cliente heredado</p></th>
-<th><p>Cliente de empresa</p></th>
-<th><p>Seguridad especializada: Funcionalidad limitada</p></th>
+<th>Configuración</th>
+<th>Cliente heredado</th>
+<th>Cliente de empresa</th>
+<th>Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servidor de red de Microsoft: firmar digitalmente las comunicaciones (siempre)</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Servidor de red de Microsoft: firmar digitalmente las comunicaciones (siempre)</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 </tbody>
 </table>

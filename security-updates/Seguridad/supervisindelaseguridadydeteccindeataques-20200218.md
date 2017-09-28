@@ -171,7 +171,7 @@ Los encabezados de los eventos se componen de los campos siguientes:
 
 **Tabla 1. El encabezado del evento**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -179,42 +179,42 @@ Los encabezados de los eventos se componen de los campos siguientes:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Campo</p></th>
-<th><p>Definición</p></th>
+<th>Campo</th>
+<th>Definición</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Fecha</p></td>
-<td style="border:1px solid black;"><p>Fecha en la que se ha producido el evento.</p></td>
+<td style="border:1px solid black;">Fecha</td>
+<td style="border:1px solid black;">Fecha en la que se ha producido el evento.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Hora</p></td>
-<td style="border:1px solid black;"><p>Hora local en la que se ha producido el evento.</p></td>
+<td style="border:1px solid black;">Hora</td>
+<td style="border:1px solid black;">Hora local en la que se ha producido el evento.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tipo</p></td>
-<td style="border:1px solid black;"><p>Clasificación del tipo o gravedad del evento. Los eventos de auditorías de seguridad pertenecen a los tipos Auditoría de aciertos o Auditoría de errores.</p></td>
+<td style="border:1px solid black;">Tipo</td>
+<td style="border:1px solid black;">Clasificación del tipo o gravedad del evento. Los eventos de auditorías de seguridad pertenecen a los tipos Auditoría de aciertos o Auditoría de errores.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Origen</p></td>
-<td style="border:1px solid black;"><p>Aplicación que registró el evento. Puede ser un programa propiamente dicho, como SQL Server, un nombre de controlador o un componente del sistema como, por ejemplo, Seguridad.</p></td>
+<td style="border:1px solid black;">Origen</td>
+<td style="border:1px solid black;">Aplicación que registró el evento. Puede ser un programa propiamente dicho, como SQL Server, un nombre de controlador o un componente del sistema como, por ejemplo, Seguridad.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Categoría</p></td>
-<td style="border:1px solid black;"><p>Clasificación del origen del evento. Esta clasificación se aplica a los registros de auditoría de seguridad, ya que se corresponden con un tipo de evento que se puede configurar en la directiva de grupo.</p></td>
+<td style="border:1px solid black;">Categoría</td>
+<td style="border:1px solid black;">Clasificación del origen del evento. Esta clasificación se aplica a los registros de auditoría de seguridad, ya que se corresponden con un tipo de evento que se puede configurar en la directiva de grupo.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Id. de evento</p></td>
-<td style="border:1px solid black;"><p>Este código identifica el tipo de evento específico. En la figura anterior, el Id. de evento es 680. Este Id. de evento indica que se ha pasado un conjunto de credenciales al sistema de autenticación por medio de un proceso local, un proceso remoto o un usuario.</p></td>
+<td style="border:1px solid black;">Id. de evento</td>
+<td style="border:1px solid black;">Este código identifica el tipo de evento específico. En la figura anterior, el Id. de evento es 680. Este Id. de evento indica que se ha pasado un conjunto de credenciales al sistema de autenticación por medio de un proceso local, un proceso remoto o un usuario.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Usuario</p></td>
-<td style="border:1px solid black;"><p>Usuario en cuyo nombre se ha producido el evento. Este nombre es el Id. de cliente si el evento lo produjo un proceso o el Id. principal si no se está produciendo una suplantación. En los eventos de seguridad, se muestra la información principal y de suplantación, si es posible y existe.</p></td>
+<td style="border:1px solid black;">Usuario</td>
+<td style="border:1px solid black;">Usuario en cuyo nombre se ha producido el evento. Este nombre es el Id. de cliente si el evento lo produjo un proceso o el Id. principal si no se está produciendo una suplantación. En los eventos de seguridad, se muestra la información principal y de suplantación, si es posible y existe.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Equipo</p></td>
-<td style="border:1px solid black;"><p>Nombre del equipo en el que se produjo el evento.</p></td>
+<td style="border:1px solid black;">Equipo</td>
+<td style="border:1px solid black;">Nombre del equipo en el que se produjo el evento.</td>
 </tr>
 </tbody>
 </table>
@@ -559,7 +559,7 @@ Una de las decisiones que deben tomar las empresas es el tiempo que se deben gua
   
 **Tabla 2. Límites de almacenamiento para análisis de investigación**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -568,31 +568,31 @@ Una de las decisiones que deben tomar las empresas es el tiempo que se deben gua
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Factores de almacenamiento</p></th>
-<th><p>Límites de almacenamiento</p></th>
-<th><p>Comentarios</p></th>
+<th>Factores de almacenamiento</th>
+<th>Límites de almacenamiento</th>
+<th>Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Almacenamiento en línea (base de datos)</p></td>
-<td style="border:1px solid black;"><p>21 días</p></td>
-<td style="border:1px solid black;"><p>Proporciona acceso rápido a los detalles del evento</p></td>
+<td style="border:1px solid black;">Almacenamiento en línea (base de datos)</td>
+<td style="border:1px solid black;">21 días</td>
+<td style="border:1px solid black;">Proporciona acceso rápido a los detalles del evento</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Almacenamiento sin conexión (copia de seguridad)</p></td>
-<td style="border:1px solid black;"><p>180 días</p></td>
-<td style="border:1px solid black;"><p>Límite de archivado razonable para la mayoría de las organizaciones</p></td>
+<td style="border:1px solid black;">Almacenamiento sin conexión (copia de seguridad)</td>
+<td style="border:1px solid black;">180 días</td>
+<td style="border:1px solid black;">Límite de archivado razonable para la mayoría de las organizaciones</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Entorno regulado</p></td>
-<td style="border:1px solid black;"><p>7 años</p></td>
-<td style="border:1px solid black;"><p>Requisito de archivado para empresas reguladas</p></td>
+<td style="border:1px solid black;">Entorno regulado</td>
+<td style="border:1px solid black;">7 años</td>
+<td style="border:1px solid black;">Requisito de archivado para empresas reguladas</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Agencias de inteligencia</p></td>
-<td style="border:1px solid black;"><p>Permanente</p></td>
-<td style="border:1px solid black;"><p>Requisitos organizativos de defensa e inteligencia</p></td>
+<td style="border:1px solid black;">Agencias de inteligencia</td>
+<td style="border:1px solid black;">Permanente</td>
+<td style="border:1px solid black;">Requisitos organizativos de defensa e inteligencia</td>
 </tr>
 </tbody>
 </table>
@@ -778,7 +778,7 @@ En la siguiente tabla, se incluyen los eventos de auditorías de inicio de sesi�
   
 **Tabla 3. Eventos de uso de equipos no autorizados**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -787,61 +787,61 @@ En la siguiente tabla, se incluyen los eventos de auditorías de inicio de sesi�
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Id. de evento</p></th>
-<th><p>Evento</p></th>
-<th><p>Comentarios</p></th>
+<th>Id. de evento</th>
+<th>Evento</th>
+<th>Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>528</p></td>
-<td style="border:1px solid black;"><p>Inicio de sesión realizado</p></td>
-<td style="border:1px solid black;"><p>Compruebe el nombre de la estación de trabajo y el nombre de la cuenta de usuario. Asegúrese de que la dirección de red de origen reside en una red.</p></td>
+<td style="border:1px solid black;">528</td>
+<td style="border:1px solid black;">Inicio de sesión realizado</td>
+<td style="border:1px solid black;">Compruebe el nombre de la estación de trabajo y el nombre de la cuenta de usuario. Asegúrese de que la dirección de red de origen reside en una red.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>529</p></td>
-<td style="border:1px solid black;"><p>Error de inicio de sesión: nombre de usuario desconocido o contraseña incorrecta</p></td>
-<td style="border:1px solid black;"><p>Compruebe los intentos en los que el nombre de la cuenta de destino sea igual al administrador o la cuenta de administrador predeterminada con un nuevo nombre. Compruebe también si se han producido muchos errores de inicio de sesión que estén por debajo del umbral de bloqueo de la cuenta.</p></td>
+<td style="border:1px solid black;">529</td>
+<td style="border:1px solid black;">Error de inicio de sesión: nombre de usuario desconocido o contraseña incorrecta</td>
+<td style="border:1px solid black;">Compruebe los intentos en los que el nombre de la cuenta de destino sea igual al administrador o la cuenta de administrador predeterminada con un nuevo nombre. Compruebe también si se han producido muchos errores de inicio de sesión que estén por debajo del umbral de bloqueo de la cuenta.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>530</p></td>
-<td style="border:1px solid black;"><p>Error de inicio de sesión: restricciones de tiempo</p></td>
-<td style="border:1px solid black;"><p>Indica un intento de inicio de sesión fuera del intervalo de tiempo permitido. Compruebe el nombre de la cuenta de usuario y el nombre de la estación de trabajo.</p></td>
+<td style="border:1px solid black;">530</td>
+<td style="border:1px solid black;">Error de inicio de sesión: restricciones de tiempo</td>
+<td style="border:1px solid black;">Indica un intento de inicio de sesión fuera del intervalo de tiempo permitido. Compruebe el nombre de la cuenta de usuario y el nombre de la estación de trabajo.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>531</p></td>
-<td style="border:1px solid black;"><p>Error de inicio de sesión: la cuenta está desactivada.</p></td>
-<td style="border:1px solid black;"><p>Compruebe el nombre de la cuenta de destino y el nombre de la estación de trabajo. Este evento puede indicar intentos de intrusión de antiguos usuarios y debería dar lugar a una investigación.</p></td>
+<td style="border:1px solid black;">531</td>
+<td style="border:1px solid black;">Error de inicio de sesión: la cuenta está desactivada.</td>
+<td style="border:1px solid black;">Compruebe el nombre de la cuenta de destino y el nombre de la estación de trabajo. Este evento puede indicar intentos de intrusión de antiguos usuarios y debería dar lugar a una investigación.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>532</p></td>
-<td style="border:1px solid black;"><p>Error de inicio de sesión: la cuenta de usuario especificada ha caducado</p></td>
-<td style="border:1px solid black;"><p>Compruebe el nombre de la cuenta de destino y el nombre de la estación de trabajo. Este evento puede indicar intentos de intrusión de empleados contratados o temporales y debería dar lugar a una investigación.</p></td>
+<td style="border:1px solid black;">532</td>
+<td style="border:1px solid black;">Error de inicio de sesión: la cuenta de usuario especificada ha caducado</td>
+<td style="border:1px solid black;">Compruebe el nombre de la cuenta de destino y el nombre de la estación de trabajo. Este evento puede indicar intentos de intrusión de empleados contratados o temporales y debería dar lugar a una investigación.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>533</p></td>
-<td style="border:1px solid black;"><p>Error de inicio de sesión: el usuario no tiene permiso para iniciar una sesión en este equipo</p></td>
-<td style="border:1px solid black;"><p>Indica que es posible que un usuario esté intentando iniciar sesión en estaciones de trabajo restringidas.</p></td>
+<td style="border:1px solid black;">533</td>
+<td style="border:1px solid black;">Error de inicio de sesión: el usuario no tiene permiso para iniciar una sesión en este equipo</td>
+<td style="border:1px solid black;">Indica que es posible que un usuario esté intentando iniciar sesión en estaciones de trabajo restringidas.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>534</p></td>
-<td style="border:1px solid black;"><p>Error de inicio de sesión: tipo de inicio de sesión no permitido</p></td>
-<td style="border:1px solid black;"><p>Compruebe el nombre de la cuenta de destino, el nombre de la estación de trabajo y el tipo de inicio de sesión. Este evento indica un error en el intento de iniciar sesión de manera interactiva con credenciales de cuenta de servicio cuando la configuración de la directiva de grupo impide los inicios de sesión interactivos en esas cuentas.</p></td>
+<td style="border:1px solid black;">534</td>
+<td style="border:1px solid black;">Error de inicio de sesión: tipo de inicio de sesión no permitido</td>
+<td style="border:1px solid black;">Compruebe el nombre de la cuenta de destino, el nombre de la estación de trabajo y el tipo de inicio de sesión. Este evento indica un error en el intento de iniciar sesión de manera interactiva con credenciales de cuenta de servicio cuando la configuración de la directiva de grupo impide los inicios de sesión interactivos en esas cuentas.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>535</p></td>
-<td style="border:1px solid black;"><p>Error de inicio de sesión: la contraseña ha caducado</p></td>
-<td style="border:1px solid black;"><p>Indica que un usuario está intentando iniciar sesión con una cuenta que posee una contraseña expirada. Debería iniciarse una investigación si se repite sin que haya un cambio de contraseña correspondiente o una llamada al servicio de soporte técnico.</p></td>
+<td style="border:1px solid black;">535</td>
+<td style="border:1px solid black;">Error de inicio de sesión: la contraseña ha caducado</td>
+<td style="border:1px solid black;">Indica que un usuario está intentando iniciar sesión con una cuenta que posee una contraseña expirada. Debería iniciarse una investigación si se repite sin que haya un cambio de contraseña correspondiente o una llamada al servicio de soporte técnico.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>536</p></td>
-<td style="border:1px solid black;"><p>Error de inicio de sesión: el componente de inicio de sesión de red no está activado</p></td>
-<td style="border:1px solid black;"><p>Compruebe que el servicio de inicio de sesión de red funciona. De lo contrario, el evento debería dar lugar a una investigación.</p></td>
+<td style="border:1px solid black;">536</td>
+<td style="border:1px solid black;">Error de inicio de sesión: el componente de inicio de sesión de red no está activado</td>
+<td style="border:1px solid black;">Compruebe que el servicio de inicio de sesión de red funciona. De lo contrario, el evento debería dar lugar a una investigación.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>540</p></td>
-<td style="border:1px solid black;"><p>Inicio de sesión realizado</p></td>
-<td style="border:1px solid black;"><p>Este evento es el equivalente al evento 528, pero en la red.</p></td>
+<td style="border:1px solid black;">540</td>
+<td style="border:1px solid black;">Inicio de sesión realizado</td>
+<td style="border:1px solid black;">Este evento es el equivalente al evento 528, pero en la red.</td>
 </tr>
 </tbody>
 </table>
@@ -859,7 +859,7 @@ Otro malware puede adoptar la forma de archivos adjuntos de correo electrónico 
   
 **Tabla 4. Evento 592**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -868,16 +868,16 @@ Otro malware puede adoptar la forma de archivos adjuntos de correo electrónico 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Id. de evento</p></th>
-<th><p>Evento</p></th>
-<th><p>Comentarios</p></th>
+<th>Id. de evento</th>
+<th>Evento</th>
+<th>Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>592</p></td>
-<td style="border:1px solid black;"><p>Creación de un proceso nuevo</p></td>
-<td style="border:1px solid black;"><p>Compruebe las entradas del nombre de archivo de imagen y el nombre de usuario para buscar procesos no autorizados, momentos de inicio inesperados o saber si hay programas que se inician y se detienen en rápida sucesión.</p></td>
+<td style="border:1px solid black;">592</td>
+<td style="border:1px solid black;">Creación de un proceso nuevo</td>
+<td style="border:1px solid black;">Compruebe las entradas del nombre de archivo de imagen y el nombre de usuario para buscar procesos no autorizados, momentos de inicio inesperados o saber si hay programas que se inician y se detienen en rápida sucesión.</td>
 </tr>
 </tbody>
 </table>
@@ -907,7 +907,7 @@ Los eventos de auditoría de acceso a objetos de la tabla siguiente se encargan 
   
 **Tabla 5. Eventos de cambio de permisos de archivos**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -916,21 +916,21 @@ Los eventos de auditoría de acceso a objetos de la tabla siguiente se encargan 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Id. de evento</p></th>
-<th><p>Evento</p></th>
-<th><p>Comentarios</p></th>
+<th>Id. de evento</th>
+<th>Evento</th>
+<th>Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>560</p></td>
-<td style="border:1px solid black;"><p>Acceso concedido a objeto existente</p></td>
-<td style="border:1px solid black;"><p>Indica que se ha concedido la solicitud de acceso a un objeto. Compruebe el Id. de inicio de sesión principal, el nombre de usuario de cliente y el nombre de usuario principal para detectar un acceso no autorizado. Compruebe el campo de accesos para determinar el tipo de operación. Este evento sólo detecta solicitudes de acceso, no si se ha producido un acceso propiamente dicho.</p></td>
+<td style="border:1px solid black;">560</td>
+<td style="border:1px solid black;">Acceso concedido a objeto existente</td>
+<td style="border:1px solid black;">Indica que se ha concedido la solicitud de acceso a un objeto. Compruebe el Id. de inicio de sesión principal, el nombre de usuario de cliente y el nombre de usuario principal para detectar un acceso no autorizado. Compruebe el campo de accesos para determinar el tipo de operación. Este evento sólo detecta solicitudes de acceso, no si se ha producido un acceso propiamente dicho.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>567</p></td>
-<td style="border:1px solid black;"><p>Se ha utilizado un permiso asociado a un identificador</p></td>
-<td style="border:1px solid black;"><p>Indica la primera instancia de un tipo de acceso a un objeto y que los permisos se han cambiado si el campo Acceso incluye “WRITE_DAC.” Compare los campos de identificador para establecer una correlación con el evento 560.</p></td>
+<td style="border:1px solid black;">567</td>
+<td style="border:1px solid black;">Se ha utilizado un permiso asociado a un identificador</td>
+<td style="border:1px solid black;">Indica la primera instancia de un tipo de acceso a un objeto y que los permisos se han cambiado si el campo Acceso incluye “WRITE_DAC.” Compare los campos de identificador para establecer una correlación con el evento 560.</td>
 </tr>
 </tbody>
 </table>
@@ -940,7 +940,7 @@ Los cambios de contraseñas sólo se deberían producir en un marco de procedimi
   
 **Tabla 6. Eventos de restablecimiento de contraseñas**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -949,26 +949,26 @@ Los cambios de contraseñas sólo se deberían producir en un marco de procedimi
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Id. de evento</p></th>
-<th><p>Evento</p></th>
-<th><p>Comentarios</p></th>
+<th>Id. de evento</th>
+<th>Evento</th>
+<th>Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>627</p></td>
-<td style="border:1px solid black;"><p>Intento de cambio de contraseña</p></td>
-<td style="border:1px solid black;"><p>Indica una solicitud de cambio de contraseña en la cual el solicitante ha suministrado la contraseña original. Compare el nombre de cuenta principal con el nombre de cuenta de destino para determinar si la cuenta solicitante es la cuenta cambiada.</p></td>
+<td style="border:1px solid black;">627</td>
+<td style="border:1px solid black;">Intento de cambio de contraseña</td>
+<td style="border:1px solid black;">Indica una solicitud de cambio de contraseña en la cual el solicitante ha suministrado la contraseña original. Compare el nombre de cuenta principal con el nombre de cuenta de destino para determinar si la cuenta solicitante es la cuenta cambiada.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>628</p></td>
-<td style="border:1px solid black;"><p>Contraseña de cuenta de usuario establecida o restablecida</p></td>
-<td style="border:1px solid black;"><p>Indica que se ha restablecido una contraseña desde una interfaz administrativa, en lugar de utilizar un proceso de cambio de contraseña. El solicitante debería ser una cuenta autorizada como, por ejemplo, una cuenta del departamento de soporte o una cuenta de restablecimiento de contraseñas del servicio automático.</p></td>
+<td style="border:1px solid black;">628</td>
+<td style="border:1px solid black;">Contraseña de cuenta de usuario establecida o restablecida</td>
+<td style="border:1px solid black;">Indica que se ha restablecido una contraseña desde una interfaz administrativa, en lugar de utilizar un proceso de cambio de contraseña. El solicitante debería ser una cuenta autorizada como, por ejemplo, una cuenta del departamento de soporte o una cuenta de restablecimiento de contraseñas del servicio automático.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>698</p></td>
-<td style="border:1px solid black;"><p>Cambio de la contraseña del modo de restauración de servicios de directorio</p></td>
-<td style="border:1px solid black;"><p>Indica un intento de cambiar la contraseña del modo de restauración de servicios de directorio en un controlador de dominio. Compruebe la IP de la estación de trabajo y el nombre de la cuenta. Este evento garantiza una investigación inmediata.</p></td>
+<td style="border:1px solid black;">698</td>
+<td style="border:1px solid black;">Cambio de la contraseña del modo de restauración de servicios de directorio</td>
+<td style="border:1px solid black;">Indica un intento de cambiar la contraseña del modo de restauración de servicios de directorio en un controlador de dominio. Compruebe la IP de la estación de trabajo y el nombre de la cuenta. Este evento garantiza una investigación inmediata.</td>
 </tr>
 </tbody>
 </table>
@@ -978,7 +978,7 @@ Cualquier modificación de una cuenta, ya sea para agregarla, eliminarla o cambi
   
 **Tabla 7. Eventos de cambio de cuentas de usuario**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -987,31 +987,31 @@ Cualquier modificación de una cuenta, ya sea para agregarla, eliminarla o cambi
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Id. de evento</p></th>
-<th><p>Evento</p></th>
-<th><p>Comentarios</p></th>
+<th>Id. de evento</th>
+<th>Evento</th>
+<th>Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>624</p></td>
-<td style="border:1px solid black;"><p>Creación de una cuenta de usuario</p></td>
-<td style="border:1px solid black;"><p>Indica que se ha creado una cuenta de red.</p></td>
+<td style="border:1px solid black;">624</td>
+<td style="border:1px solid black;">Creación de una cuenta de usuario</td>
+<td style="border:1px solid black;">Indica que se ha creado una cuenta de red.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>630</p></td>
-<td style="border:1px solid black;"><p>Eliminación de una cuenta de usuario</p></td>
-<td style="border:1px solid black;"><p>Indica que se ha eliminado de una cuenta de red.</p></td>
+<td style="border:1px solid black;">630</td>
+<td style="border:1px solid black;">Eliminación de una cuenta de usuario</td>
+<td style="border:1px solid black;">Indica que se ha eliminado de una cuenta de red.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>642</p></td>
-<td style="border:1px solid black;"><p>Cambio de una cuenta de usuario</p></td>
-<td style="border:1px solid black;"><p>Indica cambios de cuentas de usuario relacionados con la seguridad que no cubren los eventos 627 a 630.</p></td>
+<td style="border:1px solid black;">642</td>
+<td style="border:1px solid black;">Cambio de una cuenta de usuario</td>
+<td style="border:1px solid black;">Indica cambios de cuentas de usuario relacionados con la seguridad que no cubren los eventos 627 a 630.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>685</p></td>
-<td style="border:1px solid black;"><p>Cambio del nombre de una cuenta de usuario</p></td>
-<td style="border:1px solid black;"><p>Indica un cambio de nombre de cuenta de usuario.</p></td>
+<td style="border:1px solid black;">685</td>
+<td style="border:1px solid black;">Cambio del nombre de una cuenta de usuario</td>
+<td style="border:1px solid black;">Indica un cambio de nombre de cuenta de usuario.</td>
 </tr>
 </tbody>
 </table>
@@ -1035,7 +1035,7 @@ Los eventos de auditoría de administración de cuentas de la tabla siguiente de
   
 **Tabla 8. Eventos de cambios de pertenencia a grupos**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1044,34 +1044,34 @@ Los eventos de auditoría de administración de cuentas de la tabla siguiente de
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Id. de evento</p></th>
-<th><p>Evento</p></th>
-<th><p>Comentarios</p></th>
+<th>Id. de evento</th>
+<th>Evento</th>
+<th>Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>631, 632,<br />
-633, 634</p></td>
-<td style="border:1px solid black;"><p>Cambio del grupo global con seguridad habilitada</p></td>
-<td style="border:1px solid black;"><p>Examine el campo del nombre de cuenta de destino para determinar si el grupo cambiado era global o tenía amplios privilegios de acceso.</p></td>
+<td style="border:1px solid black;">631, 632,<br />
+633, 634</td>
+<td style="border:1px solid black;">Cambio del grupo global con seguridad habilitada</td>
+<td style="border:1px solid black;">Examine el campo del nombre de cuenta de destino para determinar si el grupo cambiado era global o tenía amplios privilegios de acceso.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>635, 636,<br />
-637, 638</p></td>
-<td style="border:1px solid black;"><p>Cambio del grupo local con seguridad habilitada</p></td>
-<td style="border:1px solid black;"><p>Examine el campo del nombre de cuenta de destino para determinar si el grupo cambiado era de administradores, operadores de servidores u operadores de copia de seguridad.</p></td>
+<td style="border:1px solid black;">635, 636,<br />
+637, 638</td>
+<td style="border:1px solid black;">Cambio del grupo local con seguridad habilitada</td>
+<td style="border:1px solid black;">Examine el campo del nombre de cuenta de destino para determinar si el grupo cambiado era de administradores, operadores de servidores u operadores de copia de seguridad.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>639, 641,<br />
-668</p></td>
-<td style="border:1px solid black;"><p>Cambio de grupo con seguridad habilitada</p></td>
-<td style="border:1px solid black;"><p>Indica un cambio en un grupo que no es una eliminación, una creación ni un cambio de pertenencia. Examine el nombre de cuenta de destino para asegurarse de que no se ha modificado un grupo con grandes privilegios.</p></td>
+<td style="border:1px solid black;">639, 641,<br />
+668</td>
+<td style="border:1px solid black;">Cambio de grupo con seguridad habilitada</td>
+<td style="border:1px solid black;">Indica un cambio en un grupo que no es una eliminación, una creación ni un cambio de pertenencia. Examine el nombre de cuenta de destino para asegurarse de que no se ha modificado un grupo con grandes privilegios.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>659, 660, 661, 662</p></td>
-<td style="border:1px solid black;"><p>Cambio de grupo universal con seguridad habilitada</p></td>
-<td style="border:1px solid black;"><p>Examine el campo del nombre de cuenta de destino para asegurarse de que no se ha modificado un grupo con grandes privilegios como, por ejemplo, el de administradores de la organización.</p></td>
+<td style="border:1px solid black;">659, 660, 661, 662</td>
+<td style="border:1px solid black;">Cambio de grupo universal con seguridad habilitada</td>
+<td style="border:1px solid black;">Examine el campo del nombre de cuenta de destino para asegurarse de que no se ha modificado un grupo con grandes privilegios como, por ejemplo, el de administradores de la organización.</td>
 </tr>
 </tbody>
 </table>
@@ -1089,7 +1089,7 @@ En la tabla siguiente se incluyen los eventos que identifican el uso de cuentas 
   
 **Tabla 9. Eventos de inicio de sesión no autorizados**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1098,37 +1098,37 @@ En la tabla siguiente se incluyen los eventos que identifican el uso de cuentas 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Id. de evento</p></th>
-<th><p>Evento</p></th>
-<th><p>Comentarios</p></th>
+<th>Id. de evento</th>
+<th>Evento</th>
+<th>Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>528</p>
-<p>540</p></td>
-<td style="border:1px solid black;"><p>Inicio de sesión realizado</p></td>
-<td style="border:1px solid black;"><p>El evento 528 es un evento común. Sin embargo, el evento 540 debería dar lugar a un examen del nombre de cuenta de destino para determinar si ha sido provocado por la cuenta de administrador predeterminada.</p></td>
+<td style="border:1px solid black;">528
+540</td>
+<td style="border:1px solid black;">Inicio de sesión realizado</td>
+<td style="border:1px solid black;">El evento 528 es un evento común. Sin embargo, el evento 540 debería dar lugar a un examen del nombre de cuenta de destino para determinar si ha sido provocado por la cuenta de administrador predeterminada.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>529</p></td>
-<td style="border:1px solid black;"><p>Error de inicio de sesión: nombre de usuario o contraseña desconocidos</p></td>
-<td style="border:1px solid black;"><p>Investigue siempre si el nombre de cuenta de destino pertenece al administrador o es la cuenta de administrador predeterminada con otro nombre. Investigue también si los errores de inicio de sesión están por debajo del umbral de bloqueo. Asimismo, compruebe si hay algún intento en el que el nombre de cuenta de destino sea el administrador o raíz, y si el nombre de dominio es desconocido.</p></td>
+<td style="border:1px solid black;">529</td>
+<td style="border:1px solid black;">Error de inicio de sesión: nombre de usuario o contraseña desconocidos</td>
+<td style="border:1px solid black;">Investigue siempre si el nombre de cuenta de destino pertenece al administrador o es la cuenta de administrador predeterminada con otro nombre. Investigue también si los errores de inicio de sesión están por debajo del umbral de bloqueo. Asimismo, compruebe si hay algún intento en el que el nombre de cuenta de destino sea el administrador o raíz, y si el nombre de dominio es desconocido.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>531</p></td>
-<td style="border:1px solid black;"><p>Error de inicio de sesión: cuenta deshabilitada</p></td>
-<td style="border:1px solid black;"><p>Examine el nombre de cuenta de destino y el nombre de estación de trabajo para determinar el origen. Este evento debería dar lugar a una investigación, ya que es posible que se haya producido un intento de intrusión por parte de antiguos usuarios de cuentas.</p></td>
+<td style="border:1px solid black;">531</td>
+<td style="border:1px solid black;">Error de inicio de sesión: cuenta deshabilitada</td>
+<td style="border:1px solid black;">Examine el nombre de cuenta de destino y el nombre de estación de trabajo para determinar el origen. Este evento debería dar lugar a una investigación, ya que es posible que se haya producido un intento de intrusión por parte de antiguos usuarios de cuentas.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>532</p></td>
-<td style="border:1px solid black;"><p>Error de inicio de sesión: cuenta caducada</p></td>
-<td style="border:1px solid black;"><p>Examine el nombre de cuenta de destino y el nombre de estación de trabajo para determinar el origen. Este evento debería dar lugar a una investigación, ya que es posible que se haya producido un intento de intrusión por parte de antiguos usuarios de cuentas.</p></td>
+<td style="border:1px solid black;">532</td>
+<td style="border:1px solid black;">Error de inicio de sesión: cuenta caducada</td>
+<td style="border:1px solid black;">Examine el nombre de cuenta de destino y el nombre de estación de trabajo para determinar el origen. Este evento debería dar lugar a una investigación, ya que es posible que se haya producido un intento de intrusión por parte de antiguos usuarios de cuentas.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>576</p></td>
-<td style="border:1px solid black;"><p>Privilegios especiales asignados al nuevo inicio de sesión</p></td>
-<td style="border:1px solid black;"><p>Indica una asignación de privilegios que puede otorgar un nuevo privilegio administrativo de cuenta o la capacidad de modificar la pista de auditoría. Compare el campo de Id. de inicio de sesión con los eventos 528 o 540 para determinar fácilmente si una cuenta ha obtenido el nivel de administrador.</p></td>
+<td style="border:1px solid black;">576</td>
+<td style="border:1px solid black;">Privilegios especiales asignados al nuevo inicio de sesión</td>
+<td style="border:1px solid black;">Indica una asignación de privilegios que puede otorgar un nuevo privilegio administrativo de cuenta o la capacidad de modificar la pista de auditoría. Compare el campo de Id. de inicio de sesión con los eventos 528 o 540 para determinar fácilmente si una cuenta ha obtenido el nivel de administrador.</td>
 </tr>
 </tbody>
 </table>
@@ -1154,7 +1154,7 @@ En la tabla siguiente, se incluyen los eventos de auditoría de inicio de sesió
   
 **Tabla 10. Eventos de inicio de sesión con credenciales de cuentas de servicio**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1163,31 +1163,31 @@ En la tabla siguiente, se incluyen los eventos de auditoría de inicio de sesió
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Id. de evento</p></th>
-<th><p>Evento</p></th>
-<th><p>Comentarios</p></th>
+<th>Id. de evento</th>
+<th>Evento</th>
+<th>Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>528</p></td>
-<td style="border:1px solid black;"><p>Inicio de sesión realizado: ataque a consola o Terminal Services</p></td>
-<td style="border:1px solid black;"><p>Indica que se está produciendo un ataque si el tipo de inicio de sesión 10, una cuenta de servicio o la cuenta local del sistema están asociados a este evento. Este evento debería dar lugar a una investigación inmediata.</p></td>
+<td style="border:1px solid black;">528</td>
+<td style="border:1px solid black;">Inicio de sesión realizado: ataque a consola o Terminal Services</td>
+<td style="border:1px solid black;">Indica que se está produciendo un ataque si el tipo de inicio de sesión 10, una cuenta de servicio o la cuenta local del sistema están asociados a este evento. Este evento debería dar lugar a una investigación inmediata.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>534</p></td>
-<td style="border:1px solid black;"><p>Error de inicio de sesión: tipo de inicio de sesión no permitido</p></td>
-<td style="border:1px solid black;"><p>Indica un error en el intento de iniciar sesión de manera interactiva con credenciales de cuentas de servicio cuando lo prohíbe la configuración de directiva de grupo. Compruebe el nombre de cuenta de destino, el nombre de estación de trabajo y el tipo de inicio de sesión cuando se produzca este evento.</p></td>
+<td style="border:1px solid black;">534</td>
+<td style="border:1px solid black;">Error de inicio de sesión: tipo de inicio de sesión no permitido</td>
+<td style="border:1px solid black;">Indica un error en el intento de iniciar sesión de manera interactiva con credenciales de cuentas de servicio cuando lo prohíbe la configuración de directiva de grupo. Compruebe el nombre de cuenta de destino, el nombre de estación de trabajo y el tipo de inicio de sesión cuando se produzca este evento.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>600</p></td>
-<td style="border:1px solid black;"><p>Se asignó un símbolo (token) principal a un proceso</p></td>
-<td style="border:1px solid black;"><p>Indica que un servicio está utilizando una cuenta con nombre para iniciar sesión en un sistema que ejecuta Windows XP o posterior. Establezca una correlación con la información de los eventos 672, 673, 528 y 592 para investigarlo.</p></td>
+<td style="border:1px solid black;">600</td>
+<td style="border:1px solid black;">Se asignó un símbolo (token) principal a un proceso</td>
+<td style="border:1px solid black;">Indica que un servicio está utilizando una cuenta con nombre para iniciar sesión en un sistema que ejecuta Windows XP o posterior. Establezca una correlación con la información de los eventos 672, 673, 528 y 592 para investigarlo.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>601</p></td>
-<td style="border:1px solid black;"><p>Intento de un usuario de instalar un servicio</p></td>
-<td style="border:1px solid black;"><p>Este evento no se debería producir con frecuencia en un entorno empresarial que tenga una directiva de aplicaciones y un proceso de estandarización del sistema aceptables y bien definidos. Este evento debería dar lugar a una investigación si los procesos de control de cambios no se correlacionan en dichos entornos.</p></td>
+<td style="border:1px solid black;">601</td>
+<td style="border:1px solid black;">Intento de un usuario de instalar un servicio</td>
+<td style="border:1px solid black;">Este evento no se debería producir con frecuencia en un entorno empresarial que tenga una directiva de aplicaciones y un proceso de estandarización del sistema aceptables y bien definidos. Este evento debería dar lugar a una investigación si los procesos de control de cambios no se correlacionan en dichos entornos.</td>
 </tr>
 </tbody>
 </table>
@@ -1199,7 +1199,7 @@ La siguiente tabla incluye los eventos de seguimiento de procesos que pueden ide
   
 **Tabla 11. Eventos de ejecución de programas no autorizados**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1208,21 +1208,21 @@ La siguiente tabla incluye los eventos de seguimiento de procesos que pueden ide
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Id. de evento</p></th>
-<th><p>Evento</p></th>
-<th><p>Comentarios</p></th>
+<th>Id. de evento</th>
+<th>Evento</th>
+<th>Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>592</p></td>
-<td style="border:1px solid black;"><p>Creación de un proceso nuevo</p></td>
-<td style="border:1px solid black;"><p>Indica que se ha creado un proceso nuevo. Examine los campos del nombre de archivo de imagen y de nombre de usuario, y compárelos con la lista de programas autorizados si hay una directiva de programas permisible establecida en la empresa. Busque también instancias en las que se haya utilizado LocalSystem para abrir un símbolo del sistema, ya que éste es un método común de evadir una pista de auditoría.</p></td>
+<td style="border:1px solid black;">592</td>
+<td style="border:1px solid black;">Creación de un proceso nuevo</td>
+<td style="border:1px solid black;">Indica que se ha creado un proceso nuevo. Examine los campos del nombre de archivo de imagen y de nombre de usuario, y compárelos con la lista de programas autorizados si hay una directiva de programas permisible establecida en la empresa. Busque también instancias en las que se haya utilizado LocalSystem para abrir un símbolo del sistema, ya que éste es un método común de evadir una pista de auditoría.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>602</p></td>
-<td style="border:1px solid black;"><p>Creación de un trabajo programado</p></td>
-<td style="border:1px solid black;"><p>Examine el campo del nombre de destino y el tiempo de la tarea si esos eventos se producen en momentos inesperados.</p></td>
+<td style="border:1px solid black;">602</td>
+<td style="border:1px solid black;">Creación de un trabajo programado</td>
+<td style="border:1px solid black;">Examine el campo del nombre de destino y el tiempo de la tarea si esos eventos se producen en momentos inesperados.</td>
 </tr>
 </tbody>
 </table>
@@ -1234,7 +1234,7 @@ La tabla siguiente de eventos de auditoría de acceso a objetos indica intentos 
   
 **Tabla 12. Eventos de intentos de acceso a recursos no autorizados**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1243,21 +1243,21 @@ La tabla siguiente de eventos de auditoría de acceso a objetos indica intentos 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Id. de evento</p></th>
-<th><p>Evento</p></th>
-<th><p>Comentarios</p></th>
+<th>Id. de evento</th>
+<th>Evento</th>
+<th>Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>560</p></td>
-<td style="border:1px solid black;"><p>Acceso denegado a objeto existente</p></td>
-<td style="border:1px solid black;"><p>Examine el campo del nombre de objeto para determinar el recurso al que se ha tenido acceso y establezca una correlación entre los campos del nombre de usuario principal y de dominio principal o los campos de nombre de usuario de cliente y dominio de cliente para determinar el origen.</p></td>
+<td style="border:1px solid black;">560</td>
+<td style="border:1px solid black;">Acceso denegado a objeto existente</td>
+<td style="border:1px solid black;">Examine el campo del nombre de objeto para determinar el recurso al que se ha tenido acceso y establezca una correlación entre los campos del nombre de usuario principal y de dominio principal o los campos de nombre de usuario de cliente y dominio de cliente para determinar el origen.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>568</p></td>
-<td style="border:1px solid black;"><p>Intento de crear un vínculo físico a un archivo auditado</p></td>
-<td style="border:1px solid black;"><p>Indica que un usuario o programa ha intentado crear un vínculo físico a un archivo u objeto. Un vínculo físico establecido permite que una cuenta manipule un archivo sin crear una pista de auditoría si esa cuenta tiene derechos sobre el objeto.</p></td>
+<td style="border:1px solid black;">568</td>
+<td style="border:1px solid black;">Intento de crear un vínculo físico a un archivo auditado</td>
+<td style="border:1px solid black;">Indica que un usuario o programa ha intentado crear un vínculo físico a un archivo u objeto. Un vínculo físico establecido permite que una cuenta manipule un archivo sin crear una pista de auditoría si esa cuenta tiene derechos sobre el objeto.</td>
 </tr>
 </tbody>
 </table>
@@ -1293,7 +1293,7 @@ Los eventos de seguimiento de procesos que se incluyen en la tabla siguiente se 
   
 **Tabla 13. Eventos de uso de plataformas no autorizadas**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1302,26 +1302,26 @@ Los eventos de seguimiento de procesos que se incluyen en la tabla siguiente se 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Id. de evento</p></th>
-<th><p>Evento</p></th>
-<th><p>Comentarios</p></th>
+<th>Id. de evento</th>
+<th>Evento</th>
+<th>Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>529</p></td>
-<td style="border:1px solid black;"><p>Error de inicio de sesión: nombre de usuario o contraseña desconocidos</p></td>
-<td style="border:1px solid black;"><p>Compruebe los intentos en los que el campo del nombre de cuenta de destino sea igual al administrador o raíz, o en los que el nombre de dominio sea desconocido.</p></td>
+<td style="border:1px solid black;">529</td>
+<td style="border:1px solid black;">Error de inicio de sesión: nombre de usuario o contraseña desconocidos</td>
+<td style="border:1px solid black;">Compruebe los intentos en los que el campo del nombre de cuenta de destino sea igual al administrador o raíz, o en los que el nombre de dominio sea desconocido.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>533</p></td>
-<td style="border:1px solid black;"><p>Error de inicio de sesión: el usuario no está autorizado a iniciar una sesión en este equipo</p></td>
-<td style="border:1px solid black;"><p>Indica que es posible que un usuario esté intentando iniciar sesión en estaciones de trabajo restringidas.</p></td>
+<td style="border:1px solid black;">533</td>
+<td style="border:1px solid black;">Error de inicio de sesión: el usuario no está autorizado a iniciar una sesión en este equipo</td>
+<td style="border:1px solid black;">Indica que es posible que un usuario esté intentando iniciar sesión en estaciones de trabajo restringidas.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>592</p></td>
-<td style="border:1px solid black;"><p>Creación de un proceso nuevo</p></td>
-<td style="border:1px solid black;"><p>Compruebe los campos de nombre de archivo de imagen y nombre de usuario para asegurarse de que el programa está autorizado para ese uso por esa cuenta.</p></td>
+<td style="border:1px solid black;">592</td>
+<td style="border:1px solid black;">Creación de un proceso nuevo</td>
+<td style="border:1px solid black;">Compruebe los campos de nombre de archivo de imagen y nombre de usuario para asegurarse de que el programa está autorizado para ese uso por esa cuenta.</td>
 </tr>
 </tbody>
 </table>
@@ -1333,7 +1333,7 @@ Los eventos de auditoría de cambios de directiva de la tabla siguiente identifi
   
 **Tabla 14. Eventos de cambio de relaciones de confianza**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1342,18 +1342,18 @@ Los eventos de auditoría de cambios de directiva de la tabla siguiente identifi
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Id. de evento</p></th>
-<th><p>Evento</p></th>
-<th><p>Comentarios</p></th>
+<th>Id. de evento</th>
+<th>Evento</th>
+<th>Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>610<br />
+<td style="border:1px solid black;">610<br />
 611<br />
-620</p></td>
-<td style="border:1px solid black;"><p>Se han creado, eliminado o modificado relaciones de confianza con otro dominio</p></td>
-<td style="border:1px solid black;"><p>Estos eventos se generan en el controlador de dominio que ha establecido la relación de confianza. Este evento debería dar lugar a una investigación inmediata si no se correlaciona con un proceso de solicitud de control de cambios establecido. Examine el campo de nombre de usuario para determinar la cuenta solicitante.</p></td>
+620</td>
+<td style="border:1px solid black;">Se han creado, eliminado o modificado relaciones de confianza con otro dominio</td>
+<td style="border:1px solid black;">Estos eventos se generan en el controlador de dominio que ha establecido la relación de confianza. Este evento debería dar lugar a una investigación inmediata si no se correlaciona con un proceso de solicitud de control de cambios establecido. Examine el campo de nombre de usuario para determinar la cuenta solicitante.</td>
 </tr>
 </tbody>
 </table>
@@ -1395,7 +1395,7 @@ En la tabla siguiente, se incluyen los eventos de auditoría de cambio de direct
   
 **Tabla 15. Eventos de cambio de directivas**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1404,28 +1404,28 @@ En la tabla siguiente, se incluyen los eventos de auditoría de cambio de direct
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Id. de evento</p></th>
-<th><p>Evento</p></th>
-<th><p>Comentarios</p></th>
+<th>Id. de evento</th>
+<th>Evento</th>
+<th>Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>612</p></td>
-<td style="border:1px solid black;"><p>Cambio de directiva de auditoría</p></td>
-<td style="border:1px solid black;"><p>Indica un cambio en una directiva de auditoría. Estos eventos se deberían correlacionar con una directiva de control de cambios establecida para determinar si estaban autorizados.</p></td>
+<td style="border:1px solid black;">612</td>
+<td style="border:1px solid black;">Cambio de directiva de auditoría</td>
+<td style="border:1px solid black;">Indica un cambio en una directiva de auditoría. Estos eventos se deberían correlacionar con una directiva de control de cambios establecida para determinar si estaban autorizados.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>613<br />
+<td style="border:1px solid black;">613<br />
 614<br />
-615</p></td>
-<td style="border:1px solid black;"><p>Cambio de directiva IPsec</p></td>
-<td style="border:1px solid black;"><p>Indica un cambio en la directiva IPsec. Se debería investigar si el cambio se realiza fuera del inicio de un sistema.</p></td>
+615</td>
+<td style="border:1px solid black;">Cambio de directiva IPsec</td>
+<td style="border:1px solid black;">Indica un cambio en la directiva IPsec. Se debería investigar si el cambio se realiza fuera del inicio de un sistema.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>618</p></td>
-<td style="border:1px solid black;"><p>Directiva de recuperación de datos cifrados</p></td>
-<td style="border:1px solid black;"><p>Estos eventos se producen cuando se está utilizando una directiva de recuperación de datos cifrados. Si se produce alguno al margen de las directivas especificadas, se debería realizar una investigación.</p></td>
+<td style="border:1px solid black;">618</td>
+<td style="border:1px solid black;">Directiva de recuperación de datos cifrados</td>
+<td style="border:1px solid black;">Estos eventos se producen cuando se está utilizando una directiva de recuperación de datos cifrados. Si se produce alguno al margen de las directivas especificadas, se debería realizar una investigación.</td>
 </tr>
 </tbody>
 </table>
@@ -1443,7 +1443,7 @@ En la tabla siguiente, se incluyen los eventos que se pueden producir a causa de
   
 **Tabla 16. Eventos de ataque a las credenciales de autenticación**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1452,56 +1452,56 @@ En la tabla siguiente, se incluyen los eventos que se pueden producir a causa de
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Id. de evento</p></th>
-<th><p>Evento</p></th>
-<th><p>Comentarios</p></th>
+<th>Id. de evento</th>
+<th>Evento</th>
+<th>Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>529</p></td>
-<td style="border:1px solid black;"><p>Error de inicio de sesión: nombre de usuario o contraseña desconocidos</p></td>
-<td style="border:1px solid black;"><p>Compruebe los intentos en los que el nombre de cuenta de destino sea igual a la cuenta de nivel de administrador o de algún otro nivel administrativo que no tenga autorización para cambiar las contraseñas. Compruebe si se han producido muchos errores de inicio de sesión que estén por debajo del umbral de bloqueo. Establezca una correlación entre el evento 529 y el evento 539 para identificar patrones de bloqueos de cuentas continuos.</p></td>
+<td style="border:1px solid black;">529</td>
+<td style="border:1px solid black;">Error de inicio de sesión: nombre de usuario o contraseña desconocidos</td>
+<td style="border:1px solid black;">Compruebe los intentos en los que el nombre de cuenta de destino sea igual a la cuenta de nivel de administrador o de algún otro nivel administrativo que no tenga autorización para cambiar las contraseñas. Compruebe si se han producido muchos errores de inicio de sesión que estén por debajo del umbral de bloqueo. Establezca una correlación entre el evento 529 y el evento 539 para identificar patrones de bloqueos de cuentas continuos.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>534</p></td>
-<td style="border:1px solid black;"><p>Error de inicio de sesión: tipo de inicio de sesión no permitido</p></td>
-<td style="border:1px solid black;"><p>Indica que un usuario ha intentado iniciar sesión con un tipo de cuenta que no está permitido (por ejemplo, de red, interactivo, por lotes o de servicio). Compruebe los campos de nombre de cuenta de destino, nombre de la estación de trabajo y tipo de inicio de sesión.</p></td>
+<td style="border:1px solid black;">534</td>
+<td style="border:1px solid black;">Error de inicio de sesión: tipo de inicio de sesión no permitido</td>
+<td style="border:1px solid black;">Indica que un usuario ha intentado iniciar sesión con un tipo de cuenta que no está permitido (por ejemplo, de red, interactivo, por lotes o de servicio). Compruebe los campos de nombre de cuenta de destino, nombre de la estación de trabajo y tipo de inicio de sesión.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>539</p></td>
-<td style="border:1px solid black;"><p>Cuenta bloqueada</p></td>
-<td style="border:1px solid black;"><p>Indica un intento de iniciar sesión con una cuenta que se ha bloqueado. Establezca una correlación con el evento 529 para detectar patrones de bloqueos continuados.</p></td>
+<td style="border:1px solid black;">539</td>
+<td style="border:1px solid black;">Cuenta bloqueada</td>
+<td style="border:1px solid black;">Indica un intento de iniciar sesión con una cuenta que se ha bloqueado. Establezca una correlación con el evento 529 para detectar patrones de bloqueos continuados.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>553</p></td>
-<td style="border:1px solid black;"><p>Ataque de reproducción detectado</p></td>
-<td style="border:1px solid black;"><p>Indica que un paquete de autenticación, normalmente Kerberos, ha detectado un intento de inicio de sesión mediante la reproducción de las credenciales de un usuario. Aunque este evento podría ser una señal de que la configuración de la red es incorrecta, debería dar lugar a una investigación inmediata.</p></td>
+<td style="border:1px solid black;">553</td>
+<td style="border:1px solid black;">Ataque de reproducción detectado</td>
+<td style="border:1px solid black;">Indica que un paquete de autenticación, normalmente Kerberos, ha detectado un intento de inicio de sesión mediante la reproducción de las credenciales de un usuario. Aunque este evento podría ser una señal de que la configuración de la red es incorrecta, debería dar lugar a una investigación inmediata.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>627</p></td>
-<td style="border:1px solid black;"><p>Intento de cambio de contraseña</p></td>
-<td style="border:1px solid black;"><p>Indica que alguien que no es el propietario de la cuenta ha intentado cambiar una contraseña cuando el campo de nombre de cuenta principal no coincide con el campo de nombre de cuenta de destino.</p></td>
+<td style="border:1px solid black;">627</td>
+<td style="border:1px solid black;">Intento de cambio de contraseña</td>
+<td style="border:1px solid black;">Indica que alguien que no es el propietario de la cuenta ha intentado cambiar una contraseña cuando el campo de nombre de cuenta principal no coincide con el campo de nombre de cuenta de destino.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>628</p></td>
-<td style="border:1px solid black;"><p>Contraseña de cuenta de usuario establecida o restablecida</p></td>
-<td style="border:1px solid black;"><p>Esta actividad se debería restringir a cuentas autorizadas como, por ejemplo, una cuenta del departamento de soporte o una cuenta de restablecimiento de contraseñas de autoservicio.</p></td>
+<td style="border:1px solid black;">628</td>
+<td style="border:1px solid black;">Contraseña de cuenta de usuario establecida o restablecida</td>
+<td style="border:1px solid black;">Esta actividad se debería restringir a cuentas autorizadas como, por ejemplo, una cuenta del departamento de soporte o una cuenta de restablecimiento de contraseñas de autoservicio.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>644</p></td>
-<td style="border:1px solid black;"><p>Cuenta de usuario bloqueada automáticamente</p></td>
-<td style="border:1px solid black;"><p>Indica un bloqueo de cuenta debido a que el número de errores secuenciales en los intentos de inicio de sesión es mayor que el límite de bloqueo de la cuenta. Establezca una correlación con los eventos 529, 675, 681 y 676 (sólo Windows 2000 Server). Consulte también la entrada del evento 12294 en esta tabla.</p></td>
+<td style="border:1px solid black;">644</td>
+<td style="border:1px solid black;">Cuenta de usuario bloqueada automáticamente</td>
+<td style="border:1px solid black;">Indica un bloqueo de cuenta debido a que el número de errores secuenciales en los intentos de inicio de sesión es mayor que el límite de bloqueo de la cuenta. Establezca una correlación con los eventos 529, 675, 681 y 676 (sólo Windows 2000 Server). Consulte también la entrada del evento 12294 en esta tabla.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>675</p></td>
-<td style="border:1px solid black;"><p>Error de preautenticación</p></td>
-<td style="border:1px solid black;"><p>Indica un posible problema de sincronización temporal o que hay cuentas de equipos que no se han unido correctamente al dominio. Establezca una correlación con el evento 529 para determinar la razón exacta del error de inicio de sesión.</p></td>
+<td style="border:1px solid black;">675</td>
+<td style="border:1px solid black;">Error de preautenticación</td>
+<td style="border:1px solid black;">Indica un posible problema de sincronización temporal o que hay cuentas de equipos que no se han unido correctamente al dominio. Establezca una correlación con el evento 529 para determinar la razón exacta del error de inicio de sesión.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>12294</p></td>
-<td style="border:1px solid black;"><p>Intento de bloqueo de cuenta</p></td>
-<td style="border:1px solid black;"><p>Indica un posible ataque de fuerza bruta contra la cuenta de administrador predeterminada. Dado que en esta cuenta no se aplican las directivas de bloqueo de cuentas, se registra como un evento 12294 de SAM en el registro de sucesos del sistema. Si se produce este evento, se debería realizar una investigación, porque puede indicar el uso de un sistema operativo no autorizado. Compruebe si en el campo de nombre de dominio hay dominios desconocidos.</p></td>
+<td style="border:1px solid black;">12294</td>
+<td style="border:1px solid black;">Intento de bloqueo de cuenta</td>
+<td style="border:1px solid black;">Indica un posible ataque de fuerza bruta contra la cuenta de administrador predeterminada. Dado que en esta cuenta no se aplican las directivas de bloqueo de cuentas, se registra como un evento 12294 de SAM en el registro de sucesos del sistema. Si se produce este evento, se debería realizar una investigación, porque puede indicar el uso de un sistema operativo no autorizado. Compruebe si en el campo de nombre de dominio hay dominios desconocidos.</td>
 </tr>
 </tbody>
 </table>
@@ -1517,7 +1517,7 @@ Además de los eventos que ya se han mencionado, entre los eventos más importan
   
 **Tabla 17. Eventos causados por vulnerabilidades de elevación de privilegios**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1526,27 +1526,27 @@ Además de los eventos que ya se han mencionado, entre los eventos más importan
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Id. de evento</p></th>
-<th><p>Evento</p></th>
-<th><p>Comentarios</p></th>
+<th>Id. de evento</th>
+<th>Evento</th>
+<th>Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>528</p>
-<p>538</p></td>
-<td style="border:1px solid black;"><p>Inicio de sesión y cierre de sesión local</p></td>
-<td style="border:1px solid black;"><p>Correlacione el campo de Id. de inicio de sesión cuando se produzcan esos eventos en los equipos perimetrales. Se debería realizar una investigación inmediata si los campos de nombre de cuenta de usuario, hora o nombre de estación de trabajo contienen valores inesperados.</p></td>
+<td style="border:1px solid black;">528
+538</td>
+<td style="border:1px solid black;">Inicio de sesión y cierre de sesión local</td>
+<td style="border:1px solid black;">Correlacione el campo de Id. de inicio de sesión cuando se produzcan esos eventos en los equipos perimetrales. Se debería realizar una investigación inmediata si los campos de nombre de cuenta de usuario, hora o nombre de estación de trabajo contienen valores inesperados.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>551</p></td>
-<td style="border:1px solid black;"><p>El usuario inicia el cierre de sesión</p></td>
-<td style="border:1px solid black;"><p>Este evento se puede considerar equivalente al evento 538, porque una pérdida de símbolos (tokens) puede producir un error en el evento de auditoría 538, pero en su lugar hace que se produzca el evento 551.</p></td>
+<td style="border:1px solid black;">551</td>
+<td style="border:1px solid black;">El usuario inicia el cierre de sesión</td>
+<td style="border:1px solid black;">Este evento se puede considerar equivalente al evento 538, porque una pérdida de símbolos (tokens) puede producir un error en el evento de auditoría 538, pero en su lugar hace que se produzca el evento 551.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>576</p></td>
-<td style="border:1px solid black;"><p>Inicio de sesión con privilegios</p></td>
-<td style="border:1px solid black;"><p>Indica un inicio de sesión de una cuenta de administrador, es decir, un inicio de sesión de una cuenta con privilegios suficientes para alterar la base informática de confianza (TCP, del inglés Trusted Computing Base), o con privilegios suficientes para hacerse con el control de un equipo que ejecuta Windows Server 2003 con SP1 o posterior. En versiones anteriores de Windows, este evento sólo era interesante si estaba asociado a privilegios confidenciales como, por ejemplo, SeSecurityPrivilege o SeDebugPrivilege.</p></td>
+<td style="border:1px solid black;">576</td>
+<td style="border:1px solid black;">Inicio de sesión con privilegios</td>
+<td style="border:1px solid black;">Indica un inicio de sesión de una cuenta de administrador, es decir, un inicio de sesión de una cuenta con privilegios suficientes para alterar la base informática de confianza (TCP, del inglés Trusted Computing Base), o con privilegios suficientes para hacerse con el control de un equipo que ejecuta Windows Server 2003 con SP1 o posterior. En versiones anteriores de Windows, este evento sólo era interesante si estaba asociado a privilegios confidenciales como, por ejemplo, SeSecurityPrivilege o SeDebugPrivilege.</td>
 </tr>
 </tbody>
 </table>
@@ -1562,7 +1562,7 @@ En la tabla siguiente, se incluyen varios tipos de evento que ayudan a identific
   
 **Tabla 18. Eventos de burla de auditorías de eventos**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1571,71 +1571,71 @@ En la tabla siguiente, se incluyen varios tipos de evento que ayudan a identific
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Id. de evento</p></th>
-<th><p>Evento</p></th>
-<th><p>Comentarios</p></th>
+<th>Id. de evento</th>
+<th>Evento</th>
+<th>Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>512</p></td>
-<td style="border:1px solid black;"><p>Inicio de Windows</p></td>
-<td style="border:1px solid black;"><p>Normalmente se produce después del evento 513. Se deberían investigar los reinicios inesperados.</p></td>
+<td style="border:1px solid black;">512</td>
+<td style="border:1px solid black;">Inicio de Windows</td>
+<td style="border:1px solid black;">Normalmente se produce después del evento 513. Se deberían investigar los reinicios inesperados.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>513</p></td>
-<td style="border:1px solid black;"><p>Cierre de Windows</p></td>
-<td style="border:1px solid black;"><p>Normalmente se produce antes del evento 512. Los equipos de gran valor sólo debería reiniciarlos el personal autorizado e, incluso entonces, únicamente de acuerdo con un control de cambios establecido u otro procedimiento. Si este evento se produce en algún servidor, se debería realizar una investigación inmediata.</p></td>
+<td style="border:1px solid black;">513</td>
+<td style="border:1px solid black;">Cierre de Windows</td>
+<td style="border:1px solid black;">Normalmente se produce antes del evento 512. Los equipos de gran valor sólo debería reiniciarlos el personal autorizado e, incluso entonces, únicamente de acuerdo con un control de cambios establecido u otro procedimiento. Si este evento se produce en algún servidor, se debería realizar una investigación inmediata.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>516</p></td>
-<td style="border:1px solid black;"><p>Error de auditoría</p></td>
-<td style="border:1px solid black;"><p>Este evento se puede producir cuando hay demasiados eventos que están desbordando el búfer de registros de auditoría o cuando el registro de seguridad no está configurado para sobrescribirse. Aunque estos problemas se pueden evitar limitando los tipos de evento que se supervisan en la mayoría de los equipos, los equipos de gran valor o vulnerables necesitan una supervisión más detallada para protegerlos.</p></td>
+<td style="border:1px solid black;">516</td>
+<td style="border:1px solid black;">Error de auditoría</td>
+<td style="border:1px solid black;">Este evento se puede producir cuando hay demasiados eventos que están desbordando el búfer de registros de auditoría o cuando el registro de seguridad no está configurado para sobrescribirse. Aunque estos problemas se pueden evitar limitando los tipos de evento que se supervisan en la mayoría de los equipos, los equipos de gran valor o vulnerables necesitan una supervisión más detallada para protegerlos.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>517</p></td>
-<td style="border:1px solid black;"><p>Limpieza del registro de sucesos de seguridad</p></td>
-<td style="border:1px solid black;"><p>Los registros de sucesos de seguridad no se deberían limpiar nunca sin autorización. Compruebe los campos de nombre de usuario del cliente y dominio del cliente para establecer una correlación cruzada con los registros de aprobación de procedimientos y personal autorizado.</p></td>
+<td style="border:1px solid black;">517</td>
+<td style="border:1px solid black;">Limpieza del registro de sucesos de seguridad</td>
+<td style="border:1px solid black;">Los registros de sucesos de seguridad no se deberían limpiar nunca sin autorización. Compruebe los campos de nombre de usuario del cliente y dominio del cliente para establecer una correlación cruzada con los registros de aprobación de procedimientos y personal autorizado.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>520</p></td>
-<td style="border:1px solid black;"><p>Cambio de la hora del sistema</p></td>
-<td style="border:1px solid black;"><p>Esta actividad puede servir para desorientar las investigaciones o dar a los atacantes una coartada falsa. Compruebe los campos de nombre de usuario del cliente y dominio del cliente para establecer una correlación cruzada con el personal autorizado, además de comprobar el nombre del proceso para asegurarse de que es %windir%\system32\svchost.exe.</p></td>
+<td style="border:1px solid black;">520</td>
+<td style="border:1px solid black;">Cambio de la hora del sistema</td>
+<td style="border:1px solid black;">Esta actividad puede servir para desorientar las investigaciones o dar a los atacantes una coartada falsa. Compruebe los campos de nombre de usuario del cliente y dominio del cliente para establecer una correlación cruzada con el personal autorizado, además de comprobar el nombre del proceso para asegurarse de que es %windir%\system32\svchost.exe.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>521</p></td>
-<td style="border:1px solid black;"><p>No se pueden registrar eventos</p></td>
-<td style="border:1px solid black;"><p>Se produce cuando Windows no puede escribir eventos en el registro de sucesos. Este evento se debería investigar siempre que se produzca en sistemas de gran valor.</p></td>
+<td style="border:1px solid black;">521</td>
+<td style="border:1px solid black;">No se pueden registrar eventos</td>
+<td style="border:1px solid black;">Se produce cuando Windows no puede escribir eventos en el registro de sucesos. Este evento se debería investigar siempre que se produzca en sistemas de gran valor.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>608</p></td>
-<td style="border:1px solid black;"><p>Se ha asignado un privilegio de cuenta de usuario</p></td>
-<td style="border:1px solid black;"><p>Se produce cuando se asigna un privilegio nuevo a una cuenta de usuario. El registro de sucesos registra esta acción junto con el identificador de seguridad (SID) de la cuenta de usuario, no junto al nombre de cuenta de usuario.</p></td>
+<td style="border:1px solid black;">608</td>
+<td style="border:1px solid black;">Se ha asignado un privilegio de cuenta de usuario</td>
+<td style="border:1px solid black;">Se produce cuando se asigna un privilegio nuevo a una cuenta de usuario. El registro de sucesos registra esta acción junto con el identificador de seguridad (SID) de la cuenta de usuario, no junto al nombre de cuenta de usuario.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>609</p></td>
-<td style="border:1px solid black;"><p>Se ha quitado un privilegio de cuenta de usuario</p></td>
-<td style="border:1px solid black;"><p>Se produce cuando se quita un privilegio de una cuenta de usuario. El registro de sucesos registra esta acción junto con el SID de la cuenta de usuario, no junto al nombre de la cuenta de usuario.</p></td>
+<td style="border:1px solid black;">609</td>
+<td style="border:1px solid black;">Se ha quitado un privilegio de cuenta de usuario</td>
+<td style="border:1px solid black;">Se produce cuando se quita un privilegio de una cuenta de usuario. El registro de sucesos registra esta acción junto con el SID de la cuenta de usuario, no junto al nombre de la cuenta de usuario.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>612</p></td>
-<td style="border:1px solid black;"><p>Cambio de directiva de auditoría</p></td>
-<td style="border:1px solid black;"><p>Aunque este evento no indica necesariamente que haya un problema, un atacante puede modificar las directivas de auditoría. Este evento se debería supervisar en controladores de dominio y equipos de gran valor.</p></td>
+<td style="border:1px solid black;">612</td>
+<td style="border:1px solid black;">Cambio de directiva de auditoría</td>
+<td style="border:1px solid black;">Aunque este evento no indica necesariamente que haya un problema, un atacante puede modificar las directivas de auditoría. Este evento se debería supervisar en controladores de dominio y equipos de gran valor.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>621</p></td>
-<td style="border:1px solid black;"><p>Se ha concedido acceso al sistema a una cuenta</p></td>
-<td style="border:1px solid black;"><p>Se produce cuando se concede acceso al sistema a un usuario. Hay que comprobar los campos de nombre de usuario y cuenta modificada si el permiso de acceso es interactivo.</p></td>
+<td style="border:1px solid black;">621</td>
+<td style="border:1px solid black;">Se ha concedido acceso al sistema a una cuenta</td>
+<td style="border:1px solid black;">Se produce cuando se concede acceso al sistema a un usuario. Hay que comprobar los campos de nombre de usuario y cuenta modificada si el permiso de acceso es interactivo.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>622</p></td>
-<td style="border:1px solid black;"><p>Se ha quitado el acceso al sistema de un sistema</p></td>
-<td style="border:1px solid black;"><p>Este evento puede indicar que un atacante ha intentado quitar pruebas relacionadas con el evento 621 o está intentando denegar el servicio a alguna otra cuenta o cuentas.</p></td>
+<td style="border:1px solid black;">622</td>
+<td style="border:1px solid black;">Se ha quitado el acceso al sistema de un sistema</td>
+<td style="border:1px solid black;">Este evento puede indicar que un atacante ha intentado quitar pruebas relacionadas con el evento 621 o está intentando denegar el servicio a alguna otra cuenta o cuentas.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>643</p></td>
-<td style="border:1px solid black;"><p>Cambio de la directiva de seguridad de dominio</p></td>
-<td style="border:1px solid black;"><p>Se produce cuando se realiza un intento de modificar la directiva de contraseñas u otras configuraciones de directivas de seguridad del dominio. Compruebe el nombre de usuario y establezca una correlación con cualquier registro de autorización.</p></td>
+<td style="border:1px solid black;">643</td>
+<td style="border:1px solid black;">Cambio de la directiva de seguridad de dominio</td>
+<td style="border:1px solid black;">Se produce cuando se realiza un intento de modificar la directiva de contraseñas u otras configuraciones de directivas de seguridad del dominio. Compruebe el nombre de usuario y establezca una correlación con cualquier registro de autorización.</td>
 </tr>
 </tbody>
 </table>
@@ -1684,7 +1684,7 @@ Los eventos de la tabla siguiente suelen excluirse de las consultas de supervisi
   
 **Tabla A1. Eventos innecesarios**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1693,87 +1693,87 @@ Los eventos de la tabla siguiente suelen excluirse de las consultas de supervisi
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Id. de evento</p></th>
-<th><p>Evento</p></th>
-<th><p>Comentarios</p></th>
+<th>Id. de evento</th>
+<th>Evento</th>
+<th>Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>538</p></td>
-<td style="border:1px solid black;"><p>Cierre de sesión de usuario</p></td>
-<td style="border:1px solid black;"><p>Este evento no indica necesariamente la hora a la que un usuario ha dejado de utilizar un sistema. Por ejemplo, si el equipo se cierra o pierde la conexión de red, puede que no registre ningún evento de cierre de sesión.</p></td>
+<td style="border:1px solid black;">538</td>
+<td style="border:1px solid black;">Cierre de sesión de usuario</td>
+<td style="border:1px solid black;">Este evento no indica necesariamente la hora a la que un usuario ha dejado de utilizar un sistema. Por ejemplo, si el equipo se cierra o pierde la conexión de red, puede que no registre ningún evento de cierre de sesión.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>562</p></td>
-<td style="border:1px solid black;"><p>Se ha cerrado un identificador de objeto</p></td>
-<td style="border:1px solid black;"><p>Siempre se registra como realizado correctamente.</p></td>
+<td style="border:1px solid black;">562</td>
+<td style="border:1px solid black;">Se ha cerrado un identificador de objeto</td>
+<td style="border:1px solid black;">Siempre se registra como realizado correctamente.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>571</p></td>
-<td style="border:1px solid black;"><p>Contexto de cliente eliminado por el Administrador de autorización</p></td>
-<td style="border:1px solid black;"><p>Se espera que se produzca cuando se utiliza el Administrador de autorización.</p></td>
+<td style="border:1px solid black;">571</td>
+<td style="border:1px solid black;">Contexto de cliente eliminado por el Administrador de autorización</td>
+<td style="border:1px solid black;">Se espera que se produzca cuando se utiliza el Administrador de autorización.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>573</p></td>
-<td style="border:1px solid black;"><p>Un proceso genera eventos de auditoría que no son del sistema con la interfaz de programación de aplicaciones de autorización (API AuthZ)</p></td>
-<td style="border:1px solid black;"><p>Actividad esperada.</p></td>
+<td style="border:1px solid black;">573</td>
+<td style="border:1px solid black;">Un proceso genera eventos de auditoría que no son del sistema con la interfaz de programación de aplicaciones de autorización (API AuthZ)</td>
+<td style="border:1px solid black;">Actividad esperada.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>577<br />
-578</p></td>
-<td style="border:1px solid black;"><p>Se ha llamado a un servicio de privilegios, operación de objeto con privilegios</p></td>
-<td style="border:1px solid black;"><p>Se trata de eventos de gran volumen, que normalmente no contienen información suficiente para tomar medidas, ya que no describen qué operación se ha producido.</p></td>
+<td style="border:1px solid black;">577<br />
+578</td>
+<td style="border:1px solid black;">Se ha llamado a un servicio de privilegios, operación de objeto con privilegios</td>
+<td style="border:1px solid black;">Se trata de eventos de gran volumen, que normalmente no contienen información suficiente para tomar medidas, ya que no describen qué operación se ha producido.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>594</p></td>
-<td style="border:1px solid black;"><p>Se ha duplicado un identificador de objeto</p></td>
-<td style="border:1px solid black;"><p>Actividad esperada.</p></td>
+<td style="border:1px solid black;">594</td>
+<td style="border:1px solid black;">Se ha duplicado un identificador de objeto</td>
+<td style="border:1px solid black;">Actividad esperada.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>595</p></td>
-<td style="border:1px solid black;"><p>Se ha obtenido acceso indirecto a un objeto</p></td>
-<td style="border:1px solid black;"><p>Actividad esperada.</p></td>
+<td style="border:1px solid black;">595</td>
+<td style="border:1px solid black;">Se ha obtenido acceso indirecto a un objeto</td>
+<td style="border:1px solid black;">Actividad esperada.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>596</p></td>
-<td style="border:1px solid black;"><p>Copia de seguridad de clave maestra de protección de datos</p></td>
-<td style="border:1px solid black;"><p>Actividad esperada. Se produce cada 90 días de acuerdo con la configuración predeterminada.</p></td>
+<td style="border:1px solid black;">596</td>
+<td style="border:1px solid black;">Copia de seguridad de clave maestra de protección de datos</td>
+<td style="border:1px solid black;">Actividad esperada. Se produce cada 90 días de acuerdo con la configuración predeterminada.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>597</p></td>
-<td style="border:1px solid black;"><p>Recuperación de la clave maestra de protección de datos</p></td>
-<td style="border:1px solid black;"><p>Actividad esperada.</p></td>
+<td style="border:1px solid black;">597</td>
+<td style="border:1px solid black;">Recuperación de la clave maestra de protección de datos</td>
+<td style="border:1px solid black;">Actividad esperada.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>672</p></td>
-<td style="border:1px solid black;"><p>Solicitud de vale Kerberos AS</p></td>
-<td style="border:1px solid black;"><p>No contiene información adicional si ya se están recopilando datos de auditoría de los eventos de inicio de sesión 528 y 540. Este evento registra que se ha concedido un TGT Kerberos. El acceso no se produce hasta que se concede un vale de servicio, lo que se audita por medio del evento 673. Si PATYPE es PKINIT, se trata de un inicio de sesión de tarjeta inteligente.</p></td>
+<td style="border:1px solid black;">672</td>
+<td style="border:1px solid black;">Solicitud de vale Kerberos AS</td>
+<td style="border:1px solid black;">No contiene información adicional si ya se están recopilando datos de auditoría de los eventos de inicio de sesión 528 y 540. Este evento registra que se ha concedido un TGT Kerberos. El acceso no se produce hasta que se concede un vale de servicio, lo que se audita por medio del evento 673. Si PATYPE es PKINIT, se trata de un inicio de sesión de tarjeta inteligente.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>680</p></td>
-<td style="border:1px solid black;"><p>Inicio de sesión de la cuenta</p></td>
-<td style="border:1px solid black;"><p>Actividad ya registrada por otros eventos.</p></td>
+<td style="border:1px solid black;">680</td>
+<td style="border:1px solid black;">Inicio de sesión de la cuenta</td>
+<td style="border:1px solid black;">Actividad ya registrada por otros eventos.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>697</p></td>
-<td style="border:1px solid black;"><p>Se ha llamado a la API de comprobación de directivas de contraseñas</p></td>
-<td style="border:1px solid black;"><p>Actividad esperada.</p></td>
+<td style="border:1px solid black;">697</td>
+<td style="border:1px solid black;">Se ha llamado a la API de comprobación de directivas de contraseñas</td>
+<td style="border:1px solid black;">Actividad esperada.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>768</p></td>
-<td style="border:1px solid black;"><p>Colisión de espacios de nombres del bosque</p></td>
-<td style="border:1px solid black;"><p>Este evento no está relacionado con la seguridad.</p></td>
+<td style="border:1px solid black;">768</td>
+<td style="border:1px solid black;">Colisión de espacios de nombres del bosque</td>
+<td style="border:1px solid black;">Este evento no está relacionado con la seguridad.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>769<br />
+<td style="border:1px solid black;">769<br />
 770<br />
-771</p></td>
-<td style="border:1px solid black;"><p>Información de bosque de confianza agregada, eliminada o modificada</p></td>
-<td style="border:1px solid black;"><p>Actividad esperada. Estos eventos no se deben confundir con la adición, modificación o eliminación de la propia confianza.</p></td>
+771</td>
+<td style="border:1px solid black;">Información de bosque de confianza agregada, eliminada o modificada</td>
+<td style="border:1px solid black;">Actividad esperada. Estos eventos no se deben confundir con la adición, modificación o eliminación de la propia confianza.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>832<br />
+<td style="border:1px solid black;">832<br />
 833<br />
 834<br />
 835<br />
@@ -1782,9 +1782,9 @@ Los eventos de la tabla siguiente suelen excluirse de las consultas de supervisi
 838<br />
 839<br />
 840<br />
-841</p></td>
-<td style="border:1px solid black;"><p>Varios eventos de replicación de Active Directory</p></td>
-<td style="border:1px solid black;"><p>Estos eventos no están relacionados con la seguridad.</p></td>
+841</td>
+<td style="border:1px solid black;">Varios eventos de replicación de Active Directory</td>
+<td style="border:1px solid black;">Estos eventos no están relacionados con la seguridad.</td>
 </tr>
 </tbody>
 </table>
@@ -1797,7 +1797,7 @@ Los sucesos que se enumeran en la tabla siguiente a menudo se excluyen de las co
   
 **Tabla A.2: Reducción de la carga de almacenamiento mediante la eliminación de sucesos**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1806,123 +1806,123 @@ Los sucesos que se enumeran en la tabla siguiente a menudo se excluyen de las co
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Id. de suceso</p></th>
-<th><p>Incidencia</p></th>
-<th><p>Comentarios</p></th>
+<th>Id. de suceso</th>
+<th>Incidencia</th>
+<th>Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>538</p></td>
-<td style="border:1px solid black;"><p>Cierre de sesión del usuario</p></td>
-<td style="border:1px solid black;"><p>Este suceso no indica necesariamente la hora en que el usuario dejó de utilizar el equipo. Por ejemplo, si el usuario apaga el equipo sin antes cerrar la sesión o si se interrumpe la conexión de red a un recurso compartido, puede que el equipo no registre el cierre de sesión o que lo haga sólo cuando detecte la interrupción de la conexión.</p></td>
+<td style="border:1px solid black;">538</td>
+<td style="border:1px solid black;">Cierre de sesión del usuario</td>
+<td style="border:1px solid black;">Este suceso no indica necesariamente la hora en que el usuario dejó de utilizar el equipo. Por ejemplo, si el usuario apaga el equipo sin antes cerrar la sesión o si se interrumpe la conexión de red a un recurso compartido, puede que el equipo no registre el cierre de sesión o que lo haga sólo cuando detecte la interrupción de la conexión.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>551</p></td>
-<td style="border:1px solid black;"><p>El usuario inicia el cierre de sesión</p></td>
-<td style="border:1px solid black;"><p>Utiliza el suceso 538, que confirma el cierre de sesión.</p></td>
+<td style="border:1px solid black;">551</td>
+<td style="border:1px solid black;">El usuario inicia el cierre de sesión</td>
+<td style="border:1px solid black;">Utiliza el suceso 538, que confirma el cierre de sesión.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>562</p></td>
-<td style="border:1px solid black;"><p>Identificador para un objeto cerrado</p></td>
-<td style="border:1px solid black;"><p>Siempre registra una operación correcta.</p></td>
+<td style="border:1px solid black;">562</td>
+<td style="border:1px solid black;">Identificador para un objeto cerrado</td>
+<td style="border:1px solid black;">Siempre registra una operación correcta.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>571</p></td>
-<td style="border:1px solid black;"><p>El Administrador de autorización ha eliminado el contexto cliente.</p></td>
-<td style="border:1px solid black;"><p>Normal cuando el Administrador de autorización está en uso.</p></td>
+<td style="border:1px solid black;">571</td>
+<td style="border:1px solid black;">El Administrador de autorización ha eliminado el contexto cliente.</td>
+<td style="border:1px solid black;">Normal cuando el Administrador de autorización está en uso.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>573</p></td>
-<td style="border:1px solid black;"><p>Proceso que genera un suceso de auditoría que no es del sistema con la interfaz de programación de aplicaciones de autorización (API AuthZ)</p></td>
-<td style="border:1px solid black;"><p>Comportamiento típico.</p></td>
+<td style="border:1px solid black;">573</td>
+<td style="border:1px solid black;">Proceso que genera un suceso de auditoría que no es del sistema con la interfaz de programación de aplicaciones de autorización (API AuthZ)</td>
+<td style="border:1px solid black;">Comportamiento típico.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>577</p>
-<p>578</p></td>
-<td style="border:1px solid black;"><p>Se ha llamado al servicio de privilegio, operación de objeto privilegiado</p></td>
-<td style="border:1px solid black;"><p>Estos sucesos de gran volumen no suelen contener información que permita comprender lo ocurrido ni actuar en los sucesos.</p></td>
+<td style="border:1px solid black;">577
+578</td>
+<td style="border:1px solid black;">Se ha llamado al servicio de privilegio, operación de objeto privilegiado</td>
+<td style="border:1px solid black;">Estos sucesos de gran volumen no suelen contener información que permita comprender lo ocurrido ni actuar en los sucesos.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>594</p></td>
-<td style="border:1px solid black;"><p>Se ha duplicado un identificador para un objeto</p></td>
-<td style="border:1px solid black;"><p>Comportamiento típico.</p></td>
+<td style="border:1px solid black;">594</td>
+<td style="border:1px solid black;">Se ha duplicado un identificador para un objeto</td>
+<td style="border:1px solid black;">Comportamiento típico.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>595</p></td>
-<td style="border:1px solid black;"><p>Se ha obtenido acceso indirecto a un objeto</p></td>
-<td style="border:1px solid black;"><p>Comportamiento típico.</p></td>
+<td style="border:1px solid black;">595</td>
+<td style="border:1px solid black;">Se ha obtenido acceso indirecto a un objeto</td>
+<td style="border:1px solid black;">Comportamiento típico.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>596</p></td>
-<td style="border:1px solid black;"><p>Copia de seguridad de clave de sesión de protección de datos</p></td>
-<td style="border:1px solid black;"><p>Tiene lugar automáticamente cada 90 días con la configuración predeterminada.</p></td>
+<td style="border:1px solid black;">596</td>
+<td style="border:1px solid black;">Copia de seguridad de clave de sesión de protección de datos</td>
+<td style="border:1px solid black;">Tiene lugar automáticamente cada 90 días con la configuración predeterminada.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>597</p></td>
-<td style="border:1px solid black;"><p>Recuperación de clave de sesión de protección de datos</p></td>
-<td style="border:1px solid black;"><p>Comportamiento típico.</p></td>
+<td style="border:1px solid black;">597</td>
+<td style="border:1px solid black;">Recuperación de clave de sesión de protección de datos</td>
+<td style="border:1px solid black;">Comportamiento típico.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>624</p>
-<p>642</p></td>
-<td style="border:1px solid black;"><p>Suceso 624 cuando <strong>Usuario</strong> es igual a <em>Sistema</em>, seguido de 642 cuando <strong>Nombre de cuenta de destino</strong> es igual a <em>IUSR_nombreEquipo</em> o <em>IWAM_nombreEquipo</em>, y <strong>Nombre de usuario que llama</strong> es igual a <em>nombreEquipo$</em></p></td>
-<td style="border:1px solid black;"><p>Esta secuencia de sucesos indica que un administrador tiene instalado IIS en el equipo.</p></td>
+<td style="border:1px solid black;">624
+642</td>
+<td style="border:1px solid black;">Suceso 624 cuando <strong>Usuario</strong> es igual a <em>Sistema</em>, seguido de 642 cuando <strong>Nombre de cuenta de destino</strong> es igual a <em>IUSR_nombreEquipo</em> o <em>IWAM_nombreEquipo</em>, y <strong>Nombre de usuario que llama</strong> es igual a <em>nombreEquipo$</em></td>
+<td style="border:1px solid black;">Esta secuencia de sucesos indica que un administrador tiene instalado IIS en el equipo.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>624</p>
-<p>630</p>
-<p>642</p></td>
-<td style="border:1px solid black;"><p><strong>Usuario</strong> es igual a <em>Sistema</em> y los tres sucesos presentan la misma marca de hora, <strong>Nombre de cuenta de destino/nueva</strong> es igual a <em>Asistente de ayuda</em> y <strong>Nombre de usuario que llama</strong> es igual a <em>nombreCD$</em>.</p></td>
-<td style="border:1px solid black;"><p>Esta secuencia se genera cuando un administrador instala Active Directory en un equipo que ejecuta Windows Server 2003.</p></td>
+<td style="border:1px solid black;">624
+630
+642</td>
+<td style="border:1px solid black;"><strong>Usuario</strong> es igual a <em>Sistema</em> y los tres sucesos presentan la misma marca de hora, <strong>Nombre de cuenta de destino/nueva</strong> es igual a <em>Asistente de ayuda</em> y <strong>Nombre de usuario que llama</strong> es igual a <em>nombreCD$</em>.</td>
+<td style="border:1px solid black;">Esta secuencia se genera cuando un administrador instala Active Directory en un equipo que ejecuta Windows Server 2003.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>624 o</p>
-<p>642</p></td>
-<td style="border:1px solid black;"><p><strong>Usuario</strong> es igual a <em>nombreExchangeServer$</em> y <strong>Nombre de cuenta de destino</strong> es un identificador único global (GUID)</p></td>
-<td style="border:1px solid black;"><p>Este suceso tiene lugar cuando Exchange Server se conecta y genera automáticamente buzones de sistema.</p></td>
+<td style="border:1px solid black;">624 o
+642</td>
+<td style="border:1px solid black;"><strong>Usuario</strong> es igual a <em>nombreExchangeServer$</em> y <strong>Nombre de cuenta de destino</strong> es un identificador único global (GUID)</td>
+<td style="border:1px solid black;">Este suceso tiene lugar cuando Exchange Server se conecta y genera automáticamente buzones de sistema.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>624</p></td>
-<td style="border:1px solid black;"><p><strong>Nombre de usuario que llama</strong> es cualquier usuario y <strong>Nombre de cuenta nueva</strong> es <em>nombreEquipo$</em>.</p></td>
-<td style="border:1px solid black;"><p>Un usuario del dominio ha creado o conectado un equipo nuevo en el dominio. Este suceso se acepta si los usuarios tienen derecho a unir equipos a un dominio; de lo contrario, el suceso no se debe investigar.</p></td>
+<td style="border:1px solid black;">624</td>
+<td style="border:1px solid black;"><strong>Nombre de usuario que llama</strong> es cualquier usuario y <strong>Nombre de cuenta nueva</strong> es <em>nombreEquipo$</em>.</td>
+<td style="border:1px solid black;">Un usuario del dominio ha creado o conectado un equipo nuevo en el dominio. Este suceso se acepta si los usuarios tienen derecho a unir equipos a un dominio; de lo contrario, el suceso no se debe investigar.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>627</p></td>
-<td style="border:1px solid black;"><p><strong>Usuario</strong> es igual a <strong>Sistema</strong> y <strong>Nombre de cuenta de destino</strong> es igual a <strong>TsInternetUser</strong>. <strong>Nombre de usuario que llama</strong> suele ser <strong>nombreCD$</strong>.</p></td>
-<td style="border:1px solid black;"><p>Estos sucesos se producen como resultado del comportamiento normal de un equipo que ejecuta Servicios de Terminal Server.</p></td>
+<td style="border:1px solid black;">627</td>
+<td style="border:1px solid black;"><strong>Usuario</strong> es igual a <strong>Sistema</strong> y <strong>Nombre de cuenta de destino</strong> es igual a <strong>TsInternetUser</strong>. <strong>Nombre de usuario que llama</strong> suele ser <strong>nombreCD$</strong>.</td>
+<td style="border:1px solid black;">Estos sucesos se producen como resultado del comportamiento normal de un equipo que ejecuta Servicios de Terminal Server.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>672</p></td>
-<td style="border:1px solid black;"><p>Solicitud de vale AS Kerberos</p></td>
-<td style="border:1px solid black;"><p>Si recopila sucesos 528 y 540 procedentes de todos los equipos, puede que el suceso 672 no contenga información útil adicional, ya que sólo registra la concesión de un vale TGT Kerberos. Se debe producir la concesión de un vale de servicio (suceso 673) para que pueda tener lugar cualquier acceso.</p></td>
+<td style="border:1px solid black;">672</td>
+<td style="border:1px solid black;">Solicitud de vale AS Kerberos</td>
+<td style="border:1px solid black;">Si recopila sucesos 528 y 540 procedentes de todos los equipos, puede que el suceso 672 no contenga información útil adicional, ya que sólo registra la concesión de un vale TGT Kerberos. Se debe producir la concesión de un vale de servicio (suceso 673) para que pueda tener lugar cualquier acceso.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>680</p></td>
-<td style="border:1px solid black;"><p>Inicio de sesión de cuenta</p></td>
-<td style="border:1px solid black;"><p>Si recopila sucesos 528 y 540 procedentes de todos los equipos, puede que el suceso 680 no contenga información útil adicional, ya que sólo registra la validación de las credenciales de la cuenta. Un suceso de inicio de sesión independiente registra el contenido al que el usuario obtuvo acceso.</p></td>
+<td style="border:1px solid black;">680</td>
+<td style="border:1px solid black;">Inicio de sesión de cuenta</td>
+<td style="border:1px solid black;">Si recopila sucesos 528 y 540 procedentes de todos los equipos, puede que el suceso 680 no contenga información útil adicional, ya que sólo registra la validación de las credenciales de la cuenta. Un suceso de inicio de sesión independiente registra el contenido al que el usuario obtuvo acceso.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>697</p></td>
-<td style="border:1px solid black;"><p>API de comprobación de directiva de contraseña llamada</p></td>
-<td style="border:1px solid black;"><p>Comportamiento típico.</p></td>
+<td style="border:1px solid black;">697</td>
+<td style="border:1px solid black;">API de comprobación de directiva de contraseña llamada</td>
+<td style="border:1px solid black;">Comportamiento típico.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>768</p></td>
-<td style="border:1px solid black;"><p>Colisión de espacio de nombres de bosque</p></td>
-<td style="border:1px solid black;"><p>La seguridad no se ve afectada.</p></td>
+<td style="border:1px solid black;">768</td>
+<td style="border:1px solid black;">Colisión de espacio de nombres de bosque</td>
+<td style="border:1px solid black;">La seguridad no se ve afectada.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>769</p>
-<p>770</p>
-<p>771</p></td>
-<td style="border:1px solid black;"><p>Se ha agregado, eliminado o modificado información de confianza del bosque</p></td>
-<td style="border:1px solid black;"><p>Estos sucesos indican el funcionamiento normal de las confianzas entre bosques. No se deben confundir con la adición, eliminación o modificación de la confianza en sí.</p></td>
+<td style="border:1px solid black;">769
+770
+771</td>
+<td style="border:1px solid black;">Se ha agregado, eliminado o modificado información de confianza del bosque</td>
+<td style="border:1px solid black;">Estos sucesos indican el funcionamiento normal de las confianzas entre bosques. No se deben confundir con la adición, eliminación o modificación de la confianza en sí.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>De 832 a 841</p></td>
-<td style="border:1px solid black;"><p>Varios problemas de replicación de Active Directory</p></td>
-<td style="border:1px solid black;"><p>La seguridad no se ve afectada.</p></td>
+<td style="border:1px solid black;">De 832 a 841</td>
+<td style="border:1px solid black;">Varios problemas de replicación de Active Directory</td>
+<td style="border:1px solid black;">La seguridad no se ve afectada.</td>
 </tr>
 </tbody>
 </table>
@@ -1935,7 +1935,7 @@ Este apéndice se debería utilizar para comprobar la configuración actual del 
   
 **Tabla B1. Configuración de auditorías de seguridad de la directiva de grupo**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1944,101 +1944,101 @@ Este apéndice se debería utilizar para comprobar la configuración actual del 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ruta de acceso de directiva</p></th>
-<th><p>Directiva</p></th>
-<th><p>Configuración de directiva y comentarios</p></th>
+<th>Ruta de acceso de directiva</th>
+<th>Directiva</th>
+<th>Configuración de directiva y comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Directivas locales/Directiva de auditoría</p></td>
-<td style="border:1px solid black;"><p>Auditar eventos de inicio de sesión de cuenta</p></td>
-<td style="border:1px solid black;"><p>Habilite con cuidado la auditoría de aciertos en todos los equipos, porque este evento registra quién ha tenido acceso al equipo. Habilite con cuidado la auditoría de errores, porque un atacante con acceso de red sin credenciales podría iniciar un ataque de denegación de servicio (DoS), lo que obligaría al equipo a consumir recursos mientras registra estos eventos. Habilite la auditoría de aciertos también con cuidado, porque esta configuración podría provocar ataques DoS si los equipos están configurados para cerrarse cuando los registros de auditoría están llenos. Establezca una correlación entre los inicios de sesión del administrador y cualquier otra entrada sospechosa.</p></td>
+<td style="border:1px solid black;">Directivas locales/Directiva de auditoría</td>
+<td style="border:1px solid black;">Auditar eventos de inicio de sesión de cuenta</td>
+<td style="border:1px solid black;">Habilite con cuidado la auditoría de aciertos en todos los equipos, porque este evento registra quién ha tenido acceso al equipo. Habilite con cuidado la auditoría de errores, porque un atacante con acceso de red sin credenciales podría iniciar un ataque de denegación de servicio (DoS), lo que obligaría al equipo a consumir recursos mientras registra estos eventos. Habilite la auditoría de aciertos también con cuidado, porque esta configuración podría provocar ataques DoS si los equipos están configurados para cerrarse cuando los registros de auditoría están llenos. Establezca una correlación entre los inicios de sesión del administrador y cualquier otra entrada sospechosa.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Directivas locales/Directiva de auditoría</p></td>
-<td style="border:1px solid black;"><p>Auditar la administración de cuentas</p></td>
-<td style="border:1px solid black;"><p>Habilite los eventos correctos e incorrectos. Compare todas las entradas de auditoría de aciertos con las autorizaciones del administrador. Todos los errores se deberían considerar sospechosos.</p></td>
+<td style="border:1px solid black;">Directivas locales/Directiva de auditoría</td>
+<td style="border:1px solid black;">Auditar la administración de cuentas</td>
+<td style="border:1px solid black;">Habilite los eventos correctos e incorrectos. Compare todas las entradas de auditoría de aciertos con las autorizaciones del administrador. Todos los errores se deberían considerar sospechosos.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Directivas locales/Directiva de auditoría</p></td>
-<td style="border:1px solid black;"><p>Auditar el acceso del servicio de directorio</p></td>
-<td style="border:1px solid black;"><p>La directiva de grupo de los controladores de dominio predeterminados habilita esta opción de manera predeterminada. Configure las opciones de auditoría en objetos de directorio confidenciales por medio de listas de control de acceso del sistema (SACL) en Usuarios y equipos de Active Directory o en el editor de interfaces de servicios de Active Directory (Editor ADSI). Debería planear la implementación de listas SACL y debería probarlas en un entorno de laboratorio realista antes de implementarlas en un entorno de producción. Este método impide la sobrecarga de los registros de seguridad por haber demasiados datos.</p></td>
+<td style="border:1px solid black;">Directivas locales/Directiva de auditoría</td>
+<td style="border:1px solid black;">Auditar el acceso del servicio de directorio</td>
+<td style="border:1px solid black;">La directiva de grupo de los controladores de dominio predeterminados habilita esta opción de manera predeterminada. Configure las opciones de auditoría en objetos de directorio confidenciales por medio de listas de control de acceso del sistema (SACL) en Usuarios y equipos de Active Directory o en el editor de interfaces de servicios de Active Directory (Editor ADSI). Debería planear la implementación de listas SACL y debería probarlas en un entorno de laboratorio realista antes de implementarlas en un entorno de producción. Este método impide la sobrecarga de los registros de seguridad por haber demasiados datos.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Directivas locales/Directiva de auditoría</p></td>
-<td style="border:1px solid black;"><p>Auditar eventos de inicio de sesión</p></td>
-<td style="border:1px solid black;"><p>Habilite con cuidado la auditoría de aciertos en todos los equipos, porque este evento registra quién ha tenido acceso al equipo. Habilite con cuidado la auditoría de errores, porque un atacante con acceso de red sin credenciales podría realizar un ataque DoS para generar muchísimos errores.</p></td>
+<td style="border:1px solid black;">Directivas locales/Directiva de auditoría</td>
+<td style="border:1px solid black;">Auditar eventos de inicio de sesión</td>
+<td style="border:1px solid black;">Habilite con cuidado la auditoría de aciertos en todos los equipos, porque este evento registra quién ha tenido acceso al equipo. Habilite con cuidado la auditoría de errores, porque un atacante con acceso de red sin credenciales podría realizar un ataque DoS para generar muchísimos errores.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Directivas locales/Directiva de auditoría</p></td>
-<td style="border:1px solid black;"><p>Auditar el acceso a objetos</p></td>
-<td style="border:1px solid black;"><p>Tenga cuidado al habilitar esta opción, porque podría producir un volumen muy alto de auditorías. Configure las opciones de auditoría únicamente para carpetas de gran valor a través de SACL y sólo audite los tipos de acceso específicos que sean de interés. Si es posible, sólo audite los eventos de escritura de auditoría y no los de acceso de lectura.</p></td>
+<td style="border:1px solid black;">Directivas locales/Directiva de auditoría</td>
+<td style="border:1px solid black;">Auditar el acceso a objetos</td>
+<td style="border:1px solid black;">Tenga cuidado al habilitar esta opción, porque podría producir un volumen muy alto de auditorías. Configure las opciones de auditoría únicamente para carpetas de gran valor a través de SACL y sólo audite los tipos de acceso específicos que sean de interés. Si es posible, sólo audite los eventos de escritura de auditoría y no los de acceso de lectura.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Directivas locales/Directiva de auditoría</p></td>
-<td style="border:1px solid black;"><p>Auditar el cambio de directivas</p></td>
-<td style="border:1px solid black;"><p>Habilite las auditorías de aciertos y de errores. Establezca una correlación cruzada entre los eventos correctos y las autorizaciones administrativas.</p></td>
+<td style="border:1px solid black;">Directivas locales/Directiva de auditoría</td>
+<td style="border:1px solid black;">Auditar el cambio de directivas</td>
+<td style="border:1px solid black;">Habilite las auditorías de aciertos y de errores. Establezca una correlación cruzada entre los eventos correctos y las autorizaciones administrativas.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Directivas locales/Directiva de auditoría</p></td>
-<td style="border:1px solid black;"><p>Auditar el uso de privilegios</p></td>
-<td style="border:1px solid black;"><p>No habilite las auditorías para el uso de privilegios por el gran volumen de eventos que generaría esta configuración.</p></td>
+<td style="border:1px solid black;">Directivas locales/Directiva de auditoría</td>
+<td style="border:1px solid black;">Auditar el uso de privilegios</td>
+<td style="border:1px solid black;">No habilite las auditorías para el uso de privilegios por el gran volumen de eventos que generaría esta configuración.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Directivas locales/Directiva de auditoría</p></td>
-<td style="border:1px solid black;"><p>Auditar el seguimiento de procesos</p></td>
-<td style="border:1px solid black;"><p>Habilite esta opción en equipos vulnerables e investigue inmediatamente las actividades inesperadas de aplicaciones mediante el aislamiento del sistema si es necesario. No habilite esta opción en servidores web CGI (Common Gateway Interface), sistemas de prueba, servidores que ejecutan procesos por lotes ni estaciones de trabajo de desarrollo, porque los registros de sucesos podrían llenarse.</p></td>
+<td style="border:1px solid black;">Directivas locales/Directiva de auditoría</td>
+<td style="border:1px solid black;">Auditar el seguimiento de procesos</td>
+<td style="border:1px solid black;">Habilite esta opción en equipos vulnerables e investigue inmediatamente las actividades inesperadas de aplicaciones mediante el aislamiento del sistema si es necesario. No habilite esta opción en servidores web CGI (Common Gateway Interface), sistemas de prueba, servidores que ejecutan procesos por lotes ni estaciones de trabajo de desarrollo, porque los registros de sucesos podrían llenarse.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Directivas locales/Directiva de auditoría</p></td>
-<td style="border:1px solid black;"><p>Auditar eventos del sistema</p></td>
-<td style="border:1px solid black;"><p>Habilite las auditorías de aciertos y de errores.</p></td>
+<td style="border:1px solid black;">Directivas locales/Directiva de auditoría</td>
+<td style="border:1px solid black;">Auditar eventos del sistema</td>
+<td style="border:1px solid black;">Habilite las auditorías de aciertos y de errores.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Directivas locales/Asignación de derechos de usuario</p></td>
-<td style="border:1px solid black;"><p>Generar auditorías de seguridad</p></td>
-<td style="border:1px solid black;"><p>Esta opción se asigna de manera predeterminada al sistema local, el servidor local y el servicio de red. Este derecho no se debería aplicar a ninguna cuenta que no sea una cuenta de servicio. Un atacante podría utilizar esta opción para generar eventos falsos o imprecisos en el registro de seguridad.</p></td>
+<td style="border:1px solid black;">Directivas locales/Asignación de derechos de usuario</td>
+<td style="border:1px solid black;">Generar auditorías de seguridad</td>
+<td style="border:1px solid black;">Esta opción se asigna de manera predeterminada al sistema local, el servidor local y el servicio de red. Este derecho no se debería aplicar a ninguna cuenta que no sea una cuenta de servicio. Un atacante podría utilizar esta opción para generar eventos falsos o imprecisos en el registro de seguridad.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Directivas locales/Asignación de derechos de usuario</p></td>
-<td style="border:1px solid black;"><p>Administrar registro de seguridad y auditoría</p></td>
-<td style="border:1px solid black;"><p>Utilice esta opción para evitar que los administradores realicen cambios en las configuraciones de auditoría de los archivos, las carpetas y el Registro. Piense en la posibilidad de crear un grupo de seguridad para los administradores que tienen permiso para cambiar la configuración de auditoría y quitar el grupo de administradores de la configuración de la directiva de seguridad local. Sólo los miembros de un grupo de seguridad deberían ser capaces de configurar la auditoría.</p></td>
+<td style="border:1px solid black;">Directivas locales/Asignación de derechos de usuario</td>
+<td style="border:1px solid black;">Administrar registro de seguridad y auditoría</td>
+<td style="border:1px solid black;">Utilice esta opción para evitar que los administradores realicen cambios en las configuraciones de auditoría de los archivos, las carpetas y el Registro. Piense en la posibilidad de crear un grupo de seguridad para los administradores que tienen permiso para cambiar la configuración de auditoría y quitar el grupo de administradores de la configuración de la directiva de seguridad local. Sólo los miembros de un grupo de seguridad deberían ser capaces de configurar la auditoría.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Directivas locales/Opciones de seguridad</p></td>
-<td style="border:1px solid black;"><p>Auditoría: auditar el acceso de objetos globales del sistema</p></td>
-<td style="border:1px solid black;"><p>Esta opción agrega listas SACL a objetos del sistema con nombre como, por ejemplo, exclusiones mutuas, semáforos y dispositivos de MS-DOS. La configuración predeterminada de Windows Server 2003 no tiene habilitada esta opción. No la habilite, porque produce un gran volumen de eventos.</p></td>
+<td style="border:1px solid black;">Directivas locales/Opciones de seguridad</td>
+<td style="border:1px solid black;">Auditoría: auditar el acceso de objetos globales del sistema</td>
+<td style="border:1px solid black;">Esta opción agrega listas SACL a objetos del sistema con nombre como, por ejemplo, exclusiones mutuas, semáforos y dispositivos de MS-DOS. La configuración predeterminada de Windows Server 2003 no tiene habilitada esta opción. No la habilite, porque produce un gran volumen de eventos.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Directivas locales/Opciones de seguridad</p></td>
-<td style="border:1px solid black;"><p>Auditoría: auditar el uso del privilegio de copias de seguridad y restauración</p></td>
-<td style="border:1px solid black;"><p>Las operaciones de copia de seguridad y restauración ofrecen la oportunidad de robar datos al burlar las listas ACL. No habilite esta opción, porque produce un gran volumen de eventos.</p></td>
+<td style="border:1px solid black;">Directivas locales/Opciones de seguridad</td>
+<td style="border:1px solid black;">Auditoría: auditar el uso del privilegio de copias de seguridad y restauración</td>
+<td style="border:1px solid black;">Las operaciones de copia de seguridad y restauración ofrecen la oportunidad de robar datos al burlar las listas ACL. No habilite esta opción, porque produce un gran volumen de eventos.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Directivas locales/Opciones de seguridad</p></td>
-<td style="border:1px solid black;"><p>Auditoría: apagar el sistema de inmediato si no puede registrar auditorías de seguridad</p></td>
-<td style="border:1px solid black;"><p>Habilite esta opción únicamente después de pensarlo mucho y sólo en equipos de gran valor, porque los atacantes podrían utilizarla para realizar ataques DoS.</p></td>
+<td style="border:1px solid black;">Directivas locales/Opciones de seguridad</td>
+<td style="border:1px solid black;">Auditoría: apagar el sistema de inmediato si no puede registrar auditorías de seguridad</td>
+<td style="border:1px solid black;">Habilite esta opción únicamente después de pensarlo mucho y sólo en equipos de gran valor, porque los atacantes podrían utilizarla para realizar ataques DoS.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Registro de sucesos</p></td>
-<td style="border:1px solid black;"><p>Tamaño máximo del registro de seguridad</p></td>
-<td style="border:1px solid black;"><p>Opción recomendada dependiendo de los volúmenes de eventos previsto y de las opciones de conservación de los registros de seguridad. Esta opción sólo puede utilizar incrementos de 64 KB y el tamaño medio de los eventos es 0,5 KB. En entornos de gran volumen, se puede configurar hasta en 250 MB, pero el tamaño total combinado de todos los registros de sucesos no puede superar 300 MB.</p></td>
+<td style="border:1px solid black;">Registro de sucesos</td>
+<td style="border:1px solid black;">Tamaño máximo del registro de seguridad</td>
+<td style="border:1px solid black;">Opción recomendada dependiendo de los volúmenes de eventos previsto y de las opciones de conservación de los registros de seguridad. Esta opción sólo puede utilizar incrementos de 64 KB y el tamaño medio de los eventos es 0,5 KB. En entornos de gran volumen, se puede configurar hasta en 250 MB, pero el tamaño total combinado de todos los registros de sucesos no puede superar 300 MB.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Registro de sucesos</p></td>
-<td style="border:1px solid black;"><p>Evitar que el grupo de invitados locales tenga acceso al registro de seguridad</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003 habilita esta opción de manera predeterminada. No hay que cambiarla.</p></td>
+<td style="border:1px solid black;">Registro de sucesos</td>
+<td style="border:1px solid black;">Evitar que el grupo de invitados locales tenga acceso al registro de seguridad</td>
+<td style="border:1px solid black;">Windows Server 2003 habilita esta opción de manera predeterminada. No hay que cambiarla.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Registro de sucesos</p></td>
-<td style="border:1px solid black;"><p>Conservar el registro de seguridad</p></td>
-<td style="border:1px solid black;"><p>Habilite únicamente esta opción si el método de conservación seleccionado es “Sobrescribir sucesos por días”. Si se utiliza un sistema de correlación de eventos que sondea los eventos, asegúrese de que el número de días es al menos tres veces la frecuencia de sondeo para permitir errores del ciclo de sondeo.</p></td>
+<td style="border:1px solid black;">Registro de sucesos</td>
+<td style="border:1px solid black;">Conservar el registro de seguridad</td>
+<td style="border:1px solid black;">Habilite únicamente esta opción si el método de conservación seleccionado es “Sobrescribir sucesos por días”. Si se utiliza un sistema de correlación de eventos que sondea los eventos, asegúrese de que el número de días es al menos tres veces la frecuencia de sondeo para permitir errores del ciclo de sondeo.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Registro de sucesos</p></td>
-<td style="border:1px solid black;"><p>Método de retención del registro de seguridad</p></td>
-<td style="border:1px solid black;"><p>Habilite la opción No sobrescribir sucesos en entornos de alta seguridad. Si es así, establezca procesos para vaciar y archivar los registros regularmente, especialmente si está habilitada la opción Apagar el sistema de inmediato si no puede registrar auditorías de seguridad.</p></td>
+<td style="border:1px solid black;">Registro de sucesos</td>
+<td style="border:1px solid black;">Método de retención del registro de seguridad</td>
+<td style="border:1px solid black;">Habilite la opción No sobrescribir sucesos en entornos de alta seguridad. Si es así, establezca procesos para vaciar y archivar los registros regularmente, especialmente si está habilitada la opción Apagar el sistema de inmediato si no puede registrar auditorías de seguridad.</td>
 </tr>
 </tbody>
 </table>
@@ -2047,7 +2047,7 @@ Para configurar correctamente los valores de auditoría de seguridad de Directiv
   
 **Tabla B.2: Configuración de la auditoría de seguridad de Directiva de grupo**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -2056,110 +2056,110 @@ Para configurar correctamente los valores de auditoría de seguridad de Directiv
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ruta de directiva</p></th>
-<th><p>Directiva</p></th>
-<th><p>Configuración de la directiva y comentarios</p></th>
+<th>Ruta de directiva</th>
+<th>Directiva</th>
+<th>Configuración de la directiva y comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Directivas locales/</p>
-<p>Directiva de auditoría</p></td>
-<td style="border:1px solid black;"><p><strong>Auditar sucesos de inicio de sesión de cuenta</strong></p></td>
-<td style="border:1px solid black;"><p>Habilite la operación de auditoría correcta en todos los equipos, ya que este suceso registra a la persona que tuvo acceso al equipo. Habilite el error de auditoría con precaución. Un atacante con acceso a la red, aunque sin credenciales, podría iniciar un ataque de denegación del servicio (DoS), a medida que el equipo consume recursos para generar estos sucesos. Habilite la operación de auditoría correcta con precaución, porque este valor puede dar lugar a ataques DoS si los equipos se apagan cuando los registros de auditoría están llenos. Establezca la correlación de los inicios de sesión de administrador con las entradas sospechosas.</p></td>
+<td style="border:1px solid black;">Directivas locales/
+Directiva de auditoría</td>
+<td style="border:1px solid black;"><strong>Auditar sucesos de inicio de sesión de cuenta</strong></td>
+<td style="border:1px solid black;">Habilite la operación de auditoría correcta en todos los equipos, ya que este suceso registra a la persona que tuvo acceso al equipo. Habilite el error de auditoría con precaución. Un atacante con acceso a la red, aunque sin credenciales, podría iniciar un ataque de denegación del servicio (DoS), a medida que el equipo consume recursos para generar estos sucesos. Habilite la operación de auditoría correcta con precaución, porque este valor puede dar lugar a ataques DoS si los equipos se apagan cuando los registros de auditoría están llenos. Establezca la correlación de los inicios de sesión de administrador con las entradas sospechosas.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Directivas locales/</p>
-<p>Directiva de auditoría</p></td>
-<td style="border:1px solid black;"><p><strong>Auditar la administración de cuentas</strong></p></td>
-<td style="border:1px solid black;"><p>Habilite las operaciones correcta e incorrecta. Establezca la correlación de las entradas de auditoría correctas con autorizaciones de administrador. Considere todos los errores sospechosos.</p></td>
+<td style="border:1px solid black;">Directivas locales/
+Directiva de auditoría</td>
+<td style="border:1px solid black;"><strong>Auditar la administración de cuentas</strong></td>
+<td style="border:1px solid black;">Habilite las operaciones correcta e incorrecta. Establezca la correlación de las entradas de auditoría correctas con autorizaciones de administrador. Considere todos los errores sospechosos.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Directivas locales/</p>
-<p>Directiva de auditoría</p></td>
-<td style="border:1px solid black;"><p><strong>Auditar el acceso del servicio de directorio</strong></p></td>
-<td style="border:1px solid black;"><p>La Directiva de grupo predeterminada de controladores de dominio habilita este valor de forma predeterminada. Configure los valores de auditoría en objetos de directorio confidenciales a través de listas de control de acceso al sistema (SACL) en Usuarios y equipos de Active Directory o en el editor de la Interfaz de servicios de Active Directory (Edición de ADSI). Debe planear la implementación de SACL y probarlas en un entorno de laboratorio real antes de implementarlas en un entorno de producción. De este modo, evitará la sobrecarga de datos en los registros de seguridad.</p></td>
+<td style="border:1px solid black;">Directivas locales/
+Directiva de auditoría</td>
+<td style="border:1px solid black;"><strong>Auditar el acceso del servicio de directorio</strong></td>
+<td style="border:1px solid black;">La Directiva de grupo predeterminada de controladores de dominio habilita este valor de forma predeterminada. Configure los valores de auditoría en objetos de directorio confidenciales a través de listas de control de acceso al sistema (SACL) en Usuarios y equipos de Active Directory o en el editor de la Interfaz de servicios de Active Directory (Edición de ADSI). Debe planear la implementación de SACL y probarlas en un entorno de laboratorio real antes de implementarlas en un entorno de producción. De este modo, evitará la sobrecarga de datos en los registros de seguridad.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Directivas locales/</p>
-<p>Directiva de auditoría</p></td>
-<td style="border:1px solid black;"><p><strong>Auditar sucesos de inicio de sesión</strong></p></td>
-<td style="border:1px solid black;"><p>Habilite la operación de auditoría correcta en todos los equipos, ya que este suceso registra a la persona que tuvo acceso al equipo. Habilite el error de auditoría con precaución, porque un atacante con acceso a la red, aunque sin credenciales, podría ocasionar que el equipo consumiera recursos para generar estos sucesos.</p></td>
+<td style="border:1px solid black;">Directivas locales/
+Directiva de auditoría</td>
+<td style="border:1px solid black;"><strong>Auditar sucesos de inicio de sesión</strong></td>
+<td style="border:1px solid black;">Habilite la operación de auditoría correcta en todos los equipos, ya que este suceso registra a la persona que tuvo acceso al equipo. Habilite el error de auditoría con precaución, porque un atacante con acceso a la red, aunque sin credenciales, podría ocasionar que el equipo consumiera recursos para generar estos sucesos.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Directivas locales/</p>
-<p>Directiva de auditoría</p></td>
-<td style="border:1px solid black;"><p><strong>Auditar el acceso a objetos</strong></p></td>
-<td style="border:1px solid black;"><p>Preste atención al habilitar este valor, ya que podría dar lugar a un gran volumen de auditoría. Configure los valores de auditoría sólo en las carpetas más valiosas a través de SACL y audite sólo el número mínimo de tipos de acceso en los que esté interesado. Audite sólo accesos de escritura (y no de lectura) si el modelo de amenaza lo permite.</p></td>
+<td style="border:1px solid black;">Directivas locales/
+Directiva de auditoría</td>
+<td style="border:1px solid black;"><strong>Auditar el acceso a objetos</strong></td>
+<td style="border:1px solid black;">Preste atención al habilitar este valor, ya que podría dar lugar a un gran volumen de auditoría. Configure los valores de auditoría sólo en las carpetas más valiosas a través de SACL y audite sólo el número mínimo de tipos de acceso en los que esté interesado. Audite sólo accesos de escritura (y no de lectura) si el modelo de amenaza lo permite.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Directivas locales/</p>
-<p>Directiva de auditoría</p></td>
-<td style="border:1px solid black;"><p><strong>Auditar el cambio de directivas</strong></p></td>
-<td style="border:1px solid black;"><p>Habilite la auditoría de sucesos correctos e incorrectos. Establezca referencias cruzadas de las operaciones correctas con autorizaciones de administrador. Considere todos los errores sospechosos.</p></td>
+<td style="border:1px solid black;">Directivas locales/
+Directiva de auditoría</td>
+<td style="border:1px solid black;"><strong>Auditar el cambio de directivas</strong></td>
+<td style="border:1px solid black;">Habilite la auditoría de sucesos correctos e incorrectos. Establezca referencias cruzadas de las operaciones correctas con autorizaciones de administrador. Considere todos los errores sospechosos.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Directivas locales/</p>
-<p>Directiva de auditoría</p></td>
-<td style="border:1px solid black;"><p><strong>Auditar el uso de privilegios</strong></p></td>
-<td style="border:1px solid black;"><p>No habilite la auditoría del uso de privilegios, ya que esta acción genera un alto volumen de sucesos.</p></td>
+<td style="border:1px solid black;">Directivas locales/
+Directiva de auditoría</td>
+<td style="border:1px solid black;"><strong>Auditar el uso de privilegios</strong></td>
+<td style="border:1px solid black;">No habilite la auditoría del uso de privilegios, ya que esta acción genera un alto volumen de sucesos.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Directivas locales/</p>
-<p>Directiva de auditoría</p></td>
-<td style="border:1px solid black;"><p><strong>Auditar el seguimiento de procesos</strong></p></td>
-<td style="border:1px solid black;"><p>No habilite este valor en servidores Web CGI (Common Gateway Interface), equipos de prueba, servidores que ejecutan procesos por lotes o estaciones de trabajo de desarrolladores. Habilite este valor en equipos vulnerables y actúe inmediatamente en los casos de actividad de aplicaciones inesperada. Para ello, aísle físicamente el equipo si es necesario. Este valor puede ocasionar que los registros de sucesos se llenen.</p></td>
+<td style="border:1px solid black;">Directivas locales/
+Directiva de auditoría</td>
+<td style="border:1px solid black;"><strong>Auditar el seguimiento de procesos</strong></td>
+<td style="border:1px solid black;">No habilite este valor en servidores Web CGI (Common Gateway Interface), equipos de prueba, servidores que ejecutan procesos por lotes o estaciones de trabajo de desarrolladores. Habilite este valor en equipos vulnerables y actúe inmediatamente en los casos de actividad de aplicaciones inesperada. Para ello, aísle físicamente el equipo si es necesario. Este valor puede ocasionar que los registros de sucesos se llenen.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Directivas locales/</p>
-<p>Directiva de auditoría</p></td>
-<td style="border:1px solid black;"><p><strong>Auditar sucesos del sistema</strong></p></td>
-<td style="border:1px solid black;"><p>Habilite la auditoría de sucesos correctos e incorrectos.</p></td>
+<td style="border:1px solid black;">Directivas locales/
+Directiva de auditoría</td>
+<td style="border:1px solid black;"><strong>Auditar sucesos del sistema</strong></td>
+<td style="border:1px solid black;">Habilite la auditoría de sucesos correctos e incorrectos.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Directivas locales/ Asignación de derechos de usuario</p></td>
-<td style="border:1px solid black;"><p><strong>Generar auditorías de seguridad</strong></p></td>
-<td style="border:1px solid black;"><p>Este valor se asigna de forma predeterminada al sistema local, al servicio local y al servicio de red. Este derecho no se debe aplicar a cuentas distintas a las de servicio. Un atacante puede utilizar este valor para generar sucesos falsos o imprecisos en el registro de seguridad.</p></td>
+<td style="border:1px solid black;">Directivas locales/ Asignación de derechos de usuario</td>
+<td style="border:1px solid black;"><strong>Generar auditorías de seguridad</strong></td>
+<td style="border:1px solid black;">Este valor se asigna de forma predeterminada al sistema local, al servicio local y al servicio de red. Este derecho no se debe aplicar a cuentas distintas a las de servicio. Un atacante puede utilizar este valor para generar sucesos falsos o imprecisos en el registro de seguridad.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Directivas locales/ Asignación de derechos de usuario</p></td>
-<td style="border:1px solid black;"><p><strong>Administrar los registros de auditoría y seguridad</strong></p></td>
-<td style="border:1px solid black;"><p>Utilice este valor para determinar qué administradores pueden modificar la configuración de auditoría de archivos, carpetas y registro. Considere la creación de un grupo de seguridad para los administradores que pueden cambiar la configuración de auditoría y eliminar el grupo de administradores de la configuración de Directiva de seguridad local. Sólo los miembros del nuevo grupo de seguridad podrán configurar la auditoría.</p></td>
+<td style="border:1px solid black;">Directivas locales/ Asignación de derechos de usuario</td>
+<td style="border:1px solid black;"><strong>Administrar los registros de auditoría y seguridad</strong></td>
+<td style="border:1px solid black;">Utilice este valor para determinar qué administradores pueden modificar la configuración de auditoría de archivos, carpetas y registro. Considere la creación de un grupo de seguridad para los administradores que pueden cambiar la configuración de auditoría y eliminar el grupo de administradores de la configuración de Directiva de seguridad local. Sólo los miembros del nuevo grupo de seguridad podrán configurar la auditoría.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Directivas locales/ Opciones de seguridad</p></td>
-<td style="border:1px solid black;"><p><strong>Auditoría: auditar el acceso de objetos globales del sistema</strong></p></td>
-<td style="border:1px solid black;"><p>Este valor agrega SACL a objetos con nombre del sistema, como exclusiones mutuas (sucesos exclusivos mutuos), semáforos y dispositivos de MS-DOS. La configuración predeterminada de Windows Server 2003 no habilita esta opción. No habilite este valor, ya que genera un volumen de sucesos muy elevado.</p></td>
+<td style="border:1px solid black;">Directivas locales/ Opciones de seguridad</td>
+<td style="border:1px solid black;"><strong>Auditoría: auditar el acceso de objetos globales del sistema</strong></td>
+<td style="border:1px solid black;">Este valor agrega SACL a objetos con nombre del sistema, como exclusiones mutuas (sucesos exclusivos mutuos), semáforos y dispositivos de MS-DOS. La configuración predeterminada de Windows Server 2003 no habilita esta opción. No habilite este valor, ya que genera un volumen de sucesos muy elevado.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Directivas locales/ Opciones de seguridad</p></td>
-<td style="border:1px solid black;"><p><strong>Auditoría: auditar el uso del privilegio de copia de seguridad y restauración</strong></p></td>
-<td style="border:1px solid black;"><p>Las operaciones de copia de seguridad y restauración permiten obtener datos protegidos por las ACL. No habilite este valor, ya que genera un volumen de sucesos muy elevado.</p></td>
+<td style="border:1px solid black;">Directivas locales/ Opciones de seguridad</td>
+<td style="border:1px solid black;"><strong>Auditoría: auditar el uso del privilegio de copia de seguridad y restauración</strong></td>
+<td style="border:1px solid black;">Las operaciones de copia de seguridad y restauración permiten obtener datos protegidos por las ACL. No habilite este valor, ya que genera un volumen de sucesos muy elevado.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Directivas locales/ Opciones de seguridad</p></td>
-<td style="border:1px solid black;"><p><strong>Auditoría: apagar el sistema de inmediato si no puede registrar auditorías de seguridad</strong></p></td>
-<td style="border:1px solid black;"><p>Tras considerarlo cuidadosamente, habilite este valor sólo en equipos muy valiosos, ya que un atacante puede utilizar esta característica para realizar ataques DoS.</p></td>
+<td style="border:1px solid black;">Directivas locales/ Opciones de seguridad</td>
+<td style="border:1px solid black;"><strong>Auditoría: apagar el sistema de inmediato si no puede registrar auditorías de seguridad</strong></td>
+<td style="border:1px solid black;">Tras considerarlo cuidadosamente, habilite este valor sólo en equipos muy valiosos, ya que un atacante puede utilizar esta característica para realizar ataques DoS.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Registro de sucesos</p></td>
-<td style="border:1px solid black;"><p><strong>Tamaño máximo del registro de seguridad</strong></p></td>
-<td style="border:1px solid black;"><p>El tamaño máximo del registro de seguridad debe ser múltiplo de 64 kB. El tamaño medio de un suceso es de 0,5 kB. La configuración recomendada depende de los volúmenes de los sucesos proyectados y de la configuración de retención de los registros de seguridad. En el caso de los entornos con un gran volumen de sucesos, establezca el tamaño del archivo de registro en el mayor valor posible, incluso hasta 250 MB. El tamaño total de todos los registros de sucesos no puede ser superior a 300 MB. No intente superar este valor.</p></td>
+<td style="border:1px solid black;">Registro de sucesos</td>
+<td style="border:1px solid black;"><strong>Tamaño máximo del registro de seguridad</strong></td>
+<td style="border:1px solid black;">El tamaño máximo del registro de seguridad debe ser múltiplo de 64 kB. El tamaño medio de un suceso es de 0,5 kB. La configuración recomendada depende de los volúmenes de los sucesos proyectados y de la configuración de retención de los registros de seguridad. En el caso de los entornos con un gran volumen de sucesos, establezca el tamaño del archivo de registro en el mayor valor posible, incluso hasta 250 MB. El tamaño total de todos los registros de sucesos no puede ser superior a 300 MB. No intente superar este valor.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Registro de sucesos</p></td>
-<td style="border:1px solid black;"><p><strong>Evitar que el grupo de invitados locales tenga acceso al registro de seguridad</strong></p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003 habilita este valor de forma predeterminada. No lo cambie.</p></td>
+<td style="border:1px solid black;">Registro de sucesos</td>
+<td style="border:1px solid black;"><strong>Evitar que el grupo de invitados locales tenga acceso al registro de seguridad</strong></td>
+<td style="border:1px solid black;">Windows Server 2003 habilita este valor de forma predeterminada. No lo cambie.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Registro de sucesos</p></td>
-<td style="border:1px solid black;"><p><strong>Conservar el registro de seguridad</strong></p></td>
-<td style="border:1px solid black;"><p>Habilite este valor sólo si selecciona el método de retención &quot;Sobrescribir sucesos por días&quot;. Si utiliza un sistema de correlación de sucesos que sondea sucesos, asegúrese de que el número de días es, al menos, tres veces la frecuencia de sondeo, con el fin de permitir ciclos de sondeo de error.</p></td>
+<td style="border:1px solid black;">Registro de sucesos</td>
+<td style="border:1px solid black;"><strong>Conservar el registro de seguridad</strong></td>
+<td style="border:1px solid black;">Habilite este valor sólo si selecciona el método de retención &quot;Sobrescribir sucesos por días&quot;. Si utiliza un sistema de correlación de sucesos que sondea sucesos, asegúrese de que el número de días es, al menos, tres veces la frecuencia de sondeo, con el fin de permitir ciclos de sondeo de error.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Registro de sucesos</p></td>
-<td style="border:1px solid black;"><p><strong>Método de retención del registro de seguridad</strong></p></td>
-<td style="border:1px solid black;"><p>En los entornos con nivel de seguridad alto, habilite el valor No sobrescribir sucesos. En este caso, establezca procedimientos para vaciar y archivar los registros con regularidad, sobre todo si el equipo se apaga cuando el registro de seguridad está lleno.</p></td>
+<td style="border:1px solid black;">Registro de sucesos</td>
+<td style="border:1px solid black;"><strong>Método de retención del registro de seguridad</strong></td>
+<td style="border:1px solid black;">En los entornos con nivel de seguridad alto, habilite el valor No sobrescribir sucesos. En este caso, establezca procedimientos para vaciar y archivar los registros con regularidad, sobre todo si el equipo se apaga cuando el registro de seguridad está lleno.</td>
 </tr>
 </tbody>
 </table>

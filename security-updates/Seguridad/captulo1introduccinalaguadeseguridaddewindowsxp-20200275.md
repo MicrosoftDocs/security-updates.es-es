@@ -186,7 +186,7 @@ En esta guía se utilizan las siguientes convenciones de estilo.
 
 **Tabla 1.1: Convenciones de estilo**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -194,34 +194,34 @@ En esta guía se utilizan las siguientes convenciones de estilo.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
-<th><p>Significado</p></th>
+<th>Elemento</th>
+<th>Significado</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Negrita</strong></p></td>
-<td style="border:1px solid black;"><p>Caracteres que se escriben exactamente tal y como se muestran, incluidos comandos, modificadores y nombres de archivo. Los elementos de la interfaz de usuario también aparecen en negrita.</p></td>
+<td style="border:1px solid black;"><strong>Negrita</strong></td>
+<td style="border:1px solid black;">Caracteres que se escriben exactamente tal y como se muestran, incluidos comandos, modificadores y nombres de archivo. Los elementos de la interfaz de usuario también aparecen en negrita.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><em>Cursiva</em></p></td>
-<td style="border:1px solid black;"><p>Los títulos de libros y otras publicaciones importantes aparecen en <em>cursiva.</em></p></td>
+<td style="border:1px solid black;"><em>Cursiva</em></td>
+<td style="border:1px solid black;">Los títulos de libros y otras publicaciones importantes aparecen en <em>cursiva.</em></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><em>&lt;Cursiva&gt;</em></p></td>
-<td style="border:1px solid black;"><p>Los marcadores de posición establecidos en cursiva y entre corchetes angulares, &lt; <em>nombre de archivo</em>&gt;, representan variables.</p></td>
+<td style="border:1px solid black;"><em>&lt;Cursiva&gt;</em></td>
+<td style="border:1px solid black;">Los marcadores de posición establecidos en cursiva y entre corchetes angulares, &lt; <em>nombre de archivo</em>&gt;, representan variables.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><pre><code>Monospace font</code></pre></td>
-<td style="border:1px solid black;"><p>Define ejemplos de código y de secuencias de comandos.</p></td>
+<td style="border:1px solid black;">Define ejemplos de código y de secuencias de comandos.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Nota</strong></p></td>
-<td style="border:1px solid black;"><p>Avisa al lector de que hay información adicional.</p></td>
+<td style="border:1px solid black;"><strong>Nota</strong></td>
+<td style="border:1px solid black;">Avisa al lector de que hay información adicional.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Importante</p></td>
-<td style="border:1px solid black;"><p>Avisa al lector de que hay información adicional básica.</p></td>
+<td style="border:1px solid black;">Importante</td>
+<td style="border:1px solid black;">Avisa al lector de que hay información adicional básica.</td>
 </tr>
 </tbody>
 </table>

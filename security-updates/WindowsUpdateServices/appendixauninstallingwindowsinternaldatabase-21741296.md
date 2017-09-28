@@ -11,7 +11,7 @@ Appendix A: Uninstalling Windows Internal Database
 
 It is not usually necessary to uninstall Windows Internal Database, which WSUS installs as the default SQL Server version. It is not possible to remove this application with **Add or Remove Programs**, and it will not be uninstalled automatically when WSUS is uninstalled. If you wish to do so, you will need to call the **msiexec** executable with the correct key for the operating system platform.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -24,11 +24,11 @@ It is not usually necessary to uninstall Windows Internal Database, which WSUS i
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Uninstalling Windows Internal Database is not recommended, because it may affect other applications that may be using the same database instance (such as Windows SharePoint Services).
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 **To uninstall Windows Internal Database**
 1.  Open a command shell.
@@ -38,7 +38,7 @@ It is not usually necessary to uninstall Windows Internal Database, which WSUS i
     -   On 32-bit platforms**: msiexec /x {CEB5780F-1A70-44A9-850F-DE6C4F6AA8FB} callerid=ocsetup.exe**
     -   On 64-bit platforms: **msiexec /x {BDD79957-5801-4A2D-B09E-852E7FA64D01} callerid=ocsetup.exe**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -51,7 +51,7 @@ It is not usually necessary to uninstall Windows Internal Database, which WSUS i
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">The removal of the application may not remove the default .mdb and .ldb files, which will cause a subsequent WSUS 3.0 installation to fail. These files can be deleted from the %windir%\SYSMSI\SSEE directory.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>

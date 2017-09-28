@@ -454,7 +454,7 @@ La tabla siguiente define los criterios de gravedad y prioridad de los errores u
 
 **Tabla 13.1: Clasificación de errores**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -463,31 +463,31 @@ La tabla siguiente define los criterios de gravedad y prioridad de los errores u
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Calificación</p></th>
-<th><p>Definición de gravedad</p></th>
-<th><p>Definición de prioridad</p></th>
+<th>Calificación</th>
+<th>Definición de gravedad</th>
+<th>Definición de prioridad</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>El error provoca el bloqueo del sistema o la pérdida de datos.</p></td>
-<td style="border:1px solid black;"><p>El error debe corregirse lo antes posible. El error bloquea el progreso en esta área.</p></td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">El error provoca el bloqueo del sistema o la pérdida de datos.</td>
+<td style="border:1px solid black;">El error debe corregirse lo antes posible. El error bloquea el progreso en esta área.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>2</p></td>
-<td style="border:1px solid black;"><p>El error causa problemas graves en la funcionalidad u otros aspectos importantes; el producto se bloquea en casos poco claros.</p></td>
-<td style="border:1px solid black;"><p>El error debe corregirse antes del lanzamiento del producto.</p></td>
+<td style="border:1px solid black;">2</td>
+<td style="border:1px solid black;">El error causa problemas graves en la funcionalidad u otros aspectos importantes; el producto se bloquea en casos poco claros.</td>
+<td style="border:1px solid black;">El error debe corregirse antes del lanzamiento del producto.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>3</p></td>
-<td style="border:1px solid black;"><p>El error provoca problemas de menor importancia en la funcionalidad que pueden influir en la calidad.</p></td>
-<td style="border:1px solid black;"><p>Si hay tiempo, el error debe corregirse; no es muy importante. Puede posponerse.</p></td>
+<td style="border:1px solid black;">3</td>
+<td style="border:1px solid black;">El error provoca problemas de menor importancia en la funcionalidad que pueden influir en la calidad.</td>
+<td style="border:1px solid black;">Si hay tiempo, el error debe corregirse; no es muy importante. Puede posponerse.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>4</p></td>
-<td style="border:1px solid black;"><p>El error contiene fallos tipográficos, frases poco claras o mensajes de error en campos de visibilidad reducida.</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
+<td style="border:1px solid black;">4</td>
+<td style="border:1px solid black;">El error contiene fallos tipográficos, frases poco claras o mensajes de error en campos de visibilidad reducida.</td>
+<td style="border:1px solid black;">No está definido</td>
 </tr>
 </tbody>
 </table>

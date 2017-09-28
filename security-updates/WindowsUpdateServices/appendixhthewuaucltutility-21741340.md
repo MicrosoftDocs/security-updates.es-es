@@ -18,7 +18,7 @@ The following are the command line for wuauclt.
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -32,16 +32,16 @@ The following are the command line for wuauclt.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>/a /ResetAuthorization</p></td>
-<td style="border:1px solid black;"><p>Initiates an asynchronous background search for applicable updates. If Automatic Updates is disabled, this option has no effect.</p></td>
+<td style="border:1px solid black;">/a /ResetAuthorization</td>
+<td style="border:1px solid black;">Initiates an asynchronous background search for applicable updates. If Automatic Updates is disabled, this option has no effect.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>/r /ReportNow</p></td>
-<td style="border:1px solid black;"><p>Sends all queued reporting events to the server asynchronously.</p></td>
+<td style="border:1px solid black;">/r /ReportNow</td>
+<td style="border:1px solid black;">Sends all queued reporting events to the server asynchronously.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>/? /h /help</p></td>
-<td style="border:1px solid black;"><p>Shows this help information.</p></td>
+<td style="border:1px solid black;">/? /h /help</td>
+<td style="border:1px solid black;">Shows this help information.</td>
 </tr>
 </tbody>
 </table>

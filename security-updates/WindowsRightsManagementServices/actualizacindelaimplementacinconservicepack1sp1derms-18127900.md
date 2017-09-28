@@ -76,7 +76,7 @@ Debido a que RMS SP1 proporciona numerosas mejoras de rendimiento, debe instalar
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -94,34 +94,34 @@ Debido a que RMS SP1 proporciona numerosas mejoras de rendimiento, debe instalar
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>1.0</p></td>
-<td style="border:1px solid black;"><p>Todas las características anteriores.</p>
-<p>Sin inscripción sin conexión del servidor. El servidor se debe inscribir a través de Internet.</p>
-<p>Sin clientes de activación automática.</p></td>
-<td style="border:1px solid black;"><p>Todas las características anteriores.</p>
-<p>Sin inscripción sin conexión del servidor.</p>
-<p>Clientes de activación automática.</p></td>
-<td style="border:1px solid black;"><p>Todas las características anteriores.</p>
-<p>Los clientes de SP1 se activan automáticamente.</p>
-<p>Los clientes de la versión 1 se deben activar a través de Internet.</p></td>
+<td style="border:1px solid black;">1.0</td>
+<td style="border:1px solid black;">Todas las características anteriores.
+Sin inscripción sin conexión del servidor. El servidor se debe inscribir a través de Internet.
+Sin clientes de activación automática.</td>
+<td style="border:1px solid black;">Todas las características anteriores.
+Sin inscripción sin conexión del servidor.
+Clientes de activación automática.</td>
+<td style="border:1px solid black;">Todas las características anteriores.
+Los clientes de SP1 se activan automáticamente.
+Los clientes de la versión 1 se deben activar a través de Internet.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SP1</p></td>
-<td style="border:1px solid black;"><p>Todas las características anteriores.</p>
-<p>Inscripción sin conexión del servidor.</p>
-<p>Sin clientes de activación automática.</p></td>
-<td style="border:1px solid black;"><p>Todas las características de SP1.</p>
-<p>Inscripción sin conexión del servidor.</p>
-<p>Clientes de activación automática.</p>
-<p>Caja de seguridad del servidor.</p></td>
-<td style="border:1px solid black;"><p>Todas las características anteriores, además de las de SP1.</p>
-<p>Inscripción sin conexión del servidor.</p>
-<p>Los clientes de SP1 se activan automáticamente.</p>
-<p>Los clientes de la versión 1 se deben activar a través de Internet.</p></td>
+<td style="border:1px solid black;">SP1</td>
+<td style="border:1px solid black;">Todas las características anteriores.
+Inscripción sin conexión del servidor.
+Sin clientes de activación automática.</td>
+<td style="border:1px solid black;">Todas las características de SP1.
+Inscripción sin conexión del servidor.
+Clientes de activación automática.
+Caja de seguridad del servidor.</td>
+<td style="border:1px solid black;">Todas las características anteriores, además de las de SP1.
+Inscripción sin conexión del servidor.
+Los clientes de SP1 se activan automáticamente.
+Los clientes de la versión 1 se deben activar a través de Internet.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 <span id="BKMK_6"></span>
 Quitar RMS con SP1

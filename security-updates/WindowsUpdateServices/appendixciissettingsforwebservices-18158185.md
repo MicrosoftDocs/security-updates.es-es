@@ -27,7 +27,7 @@ The following virtual directories (vroots) are created in IIS (in the Default We
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -41,69 +41,69 @@ The following virtual directories (vroots) are created in IIS (in the Default We
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ClientWebService</p></td>
-<td style="border:1px solid black;"><p>Directory: %ProgramFiles%Update Services\WebServices\ClientWebService</p>
-<p>Application Pool: WsusPool</p>
-<p>Security: Anonymous Access Enabled</p>
-<p>Execute Permissions: Scripts Only</p></td>
+<td style="border:1px solid black;">ClientWebService</td>
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\ClientWebService
+Application Pool: WsusPool
+Security: Anonymous Access Enabled
+Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Content</p></td>
-<td style="border:1px solid black;"><p>Directory[the location of the WSUS content directory]</p>
-<p>Security: Anonymous Access Enabled</p>
-<p>Execute Permissions: None</p></td>
+<td style="border:1px solid black;">Content</td>
+<td style="border:1px solid black;">Directory[the location of the WSUS content directory]
+Security: Anonymous Access Enabled
+Execute Permissions: None</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DssAuthWebService</p></td>
-<td style="border:1px solid black;"><p>Directory: %ProgramFiles%Update Services\WebServices\DssAuthWebService</p>
-<p>Application Pool: WsusPool</p>
-<p>Security: Anonymous Access Enabled</p>
-<p>Execute Permissions: Scripts Only</p></td>
+<td style="border:1px solid black;">DssAuthWebService</td>
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\DssAuthWebService
+Application Pool: WsusPool
+Security: Anonymous Access Enabled
+Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Inventory</p></td>
-<td style="border:1px solid black;"><p>Directory: %ProgramFiles%Update Services\ Inventory</p>
-<p>Application Pool: WsusPool</p>
-<p>Security: Anonymous Access Enabled</p>
-<p>Execute Permissions: Scripts Only</p></td>
+<td style="border:1px solid black;">Inventory</td>
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\ Inventory
+Application Pool: WsusPool
+Security: Anonymous Access Enabled
+Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ReportingWebService</p></td>
-<td style="border:1px solid black;"><p>Directory: %ProgramFiles%Update Services\WebServices\ReportingWebService</p>
-<p>Application Pool: WsusPool</p>
-<p>Security: Anonymous Access Enabled</p>
-<p>Execute Permissions: Scripts Only</p></td>
+<td style="border:1px solid black;">ReportingWebService</td>
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\ReportingWebService
+Application Pool: WsusPool
+Security: Anonymous Access Enabled
+Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ServerSyncWebService</p></td>
-<td style="border:1px solid black;"><p>Directory: %ProgramFiles%Update Services\WebServices\ServerSyncWebService</p>
-<p>Application Pool: WsusPool</p>
-<p>Security: Anonymous Access Enabled</p>
-<p>Execute Permissions: Scripts Only</p></td>
+<td style="border:1px solid black;">ServerSyncWebService</td>
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\ServerSyncWebService
+Application Pool: WsusPool
+Security: Anonymous Access Enabled
+Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SimpleAuthWebService</p></td>
-<td style="border:1px solid black;"><p>Directory: %ProgramFiles%Update Services\WebServices\SimpleAuthWebService</p>
-<p>Application Pool: WsusPool</p>
-<p>Security: Anonymous Access Enabled</p>
-<p>Execute Permissions: Scripts Only</p></td>
+<td style="border:1px solid black;">SimpleAuthWebService</td>
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\SimpleAuthWebService
+Application Pool: WsusPool
+Security: Anonymous Access Enabled
+Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ApiRemoting30</p></td>
-<td style="border:1px solid black;"><p>Directory: %ProgramFiles%Update Services\Administration</p>
-<p>Application Pool: WsusPool</p>
-<p>Security: Integrated Windows Authentication, Digest Authentication</p>
-<p>Execute Permissions: Scripts Only</p></td>
+<td style="border:1px solid black;">ApiRemoting30</td>
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\Administration
+Application Pool: WsusPool
+Security: Integrated Windows Authentication, Digest Authentication
+Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SelfUpdate</p></td>
-<td style="border:1px solid black;"><p>Directory: %ProgramFiles%Update Services\SelfUpdate</p>
-<p>Security: Anonymous Access Enabled</p>
-<p>Execute Permissions: Scripts Only</p></td>
+<td style="border:1px solid black;">SelfUpdate</td>
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\SelfUpdate
+Security: Anonymous Access Enabled
+Execute Permissions: Scripts Only</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Using the adsutil IIS utility
 -----------------------------
@@ -178,7 +178,7 @@ The properties listed below are a partial list.
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -192,385 +192,385 @@ The properties listed below are a partial list.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>KeyType</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;IIsWebService&quot;</p></td>
+<td style="border:1px solid black;">KeyType</td>
+<td style="border:1px solid black;">(STRING) &quot;IIsWebService&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MaxConnections</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 4294967295</p></td>
+<td style="border:1px solid black;">MaxConnections</td>
+<td style="border:1px solid black;">(INTEGER) 4294967295</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AnonymousUserName</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;IUSR_&lt;machinename&gt;&quot;</p></td>
+<td style="border:1px solid black;">AnonymousUserName</td>
+<td style="border:1px solid black;">(STRING) &quot;IUSR_&lt;machinename&gt;&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ConnectionTimeout</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 120</p></td>
+<td style="border:1px solid black;">ConnectionTimeout</td>
+<td style="border:1px solid black;">(INTEGER) 120</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AllowKeepAlive</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AllowKeepAlive</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DefaultDoc</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;Default.htm,Default.asp,index.htm&quot;</p></td>
+<td style="border:1px solid black;">DefaultDoc</td>
+<td style="border:1px solid black;">(STRING) &quot;Default.htm,Default.asp,index.htm&quot;</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CacheISAPI</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">CacheISAPI</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CGITimeout</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 300</p></td>
+<td style="border:1px solid black;">CGITimeout</td>
+<td style="border:1px solid black;">(INTEGER) 300</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ContentIndexed</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">ContentIndexed</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DownlevelAdminInstance</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 1</p></td>
+<td style="border:1px solid black;">DownlevelAdminInstance</td>
+<td style="border:1px solid black;">(INTEGER) 1</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AspBufferingOn</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AspBufferingOn</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AspLogErrorRequests</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AspLogErrorRequests</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AspScriptErrorSentToBrowser</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AspScriptErrorSentToBrowser</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AspScriptErrorMessage</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;An error occurred on the server when</p>
-<p>processing the URL. Please contact the system administrator&quot;</p></td>
+<td style="border:1px solid black;">AspScriptErrorMessage</td>
+<td style="border:1px solid black;">(STRING) &quot;An error occurred on the server when
+processing the URL. Please contact the system administrator&quot;</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AspAllowOutOfProcComponents</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True &gt;</p></td>
+<td style="border:1px solid black;">AspAllowOutOfProcComponents</td>
+<td style="border:1px solid black;">(BOOLEAN) True &gt;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AspScriptFileCacheSize</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 500</p></td>
+<td style="border:1px solid black;">AspScriptFileCacheSize</td>
+<td style="border:1px solid black;">(INTEGER) 500</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AspDiskTemplateCacheDirectory</p></td>
-<td style="border:1px solid black;"><p>(EXPANDSZ) &quot;%windir%\system32\inetsrv\ASP</p>
-<p>Compiled Templates&quot;</p></td>
+<td style="border:1px solid black;">AspDiskTemplateCacheDirectory</td>
+<td style="border:1px solid black;">(EXPANDSZ) &quot;%windir%\system32\inetsrv\ASP
+Compiled Templates&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AspMaxDiskTemplateCacheFiles</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 2000</p></td>
+<td style="border:1px solid black;">AspMaxDiskTemplateCacheFiles</td>
+<td style="border:1px solid black;">(INTEGER) 2000</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AspScriptEngineCacheMax</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 250</p></td>
+<td style="border:1px solid black;">AspScriptEngineCacheMax</td>
+<td style="border:1px solid black;">(INTEGER) 250</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AspScriptTimeout</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 90</p></td>
+<td style="border:1px solid black;">AspScriptTimeout</td>
+<td style="border:1px solid black;">(INTEGER) 90</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AspSessionTimeout</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 20</p></td>
+<td style="border:1px solid black;">AspSessionTimeout</td>
+<td style="border:1px solid black;">(INTEGER) 20</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AspEnableParentPaths</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AspEnableParentPaths</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AspAllowSessionState</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AspAllowSessionState</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AspScriptLanguage</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;VBScript&quot;</p></td>
+<td style="border:1px solid black;">AspScriptLanguage</td>
+<td style="border:1px solid black;">(STRING) &quot;VBScript&quot;</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AspExceptionCatchEnable</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True&lt;br&gt;</p></td>
+<td style="border:1px solid black;">AspExceptionCatchEnable</td>
+<td style="border:1px solid black;">(BOOLEAN) True&lt;br&gt;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AspCodepage</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 0</p></td>
+<td style="border:1px solid black;">AspCodepage</td>
+<td style="border:1px solid black;">(INTEGER) 0</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AspLCID</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 2048</p></td>
+<td style="border:1px solid black;">AspLCID</td>
+<td style="border:1px solid black;">(INTEGER) 2048</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AspQueueTimeout</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 4294967295</p></td>
+<td style="border:1px solid black;">AspQueueTimeout</td>
+<td style="border:1px solid black;">(INTEGER) 4294967295</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AspEnableAspHtmlFallback</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AspEnableAspHtmlFallback</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AspEnableChunkedEncoding</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AspEnableChunkedEncoding</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AspEnableTypelibCache</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AspEnableTypelibCache</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AspErrorsToNTLog</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AspErrorsToNTLog</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AspProcessorThreadMax</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 25</p></td>
+<td style="border:1px solid black;">AspProcessorThreadMax</td>
+<td style="border:1px solid black;">(INTEGER) 25</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AspTrackThreadingModel</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AspTrackThreadingModel</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AspRequestQueueMax</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 3000</p></td>
+<td style="border:1px solid black;">AspRequestQueueMax</td>
+<td style="border:1px solid black;">(INTEGER) 3000</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AspEnableApplicationRestart</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AspEnableApplicationRestart</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AspQueueConnectionTestTime</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 3</p></td>
+<td style="border:1px solid black;">AspQueueConnectionTestTime</td>
+<td style="border:1px solid black;">(INTEGER) 3</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AspSessionMax</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 4294967295</p></td>
+<td style="border:1px solid black;">AspSessionMax</td>
+<td style="border:1px solid black;">(INTEGER) 4294967295</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AppAllowDebugging</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AppAllowDebugging</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AppAllowClientDebug</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AppAllowClientDebug</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PasswordChangeFlags</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 6</p></td>
+<td style="border:1px solid black;">PasswordChangeFlags</td>
+<td style="border:1px solid black;">(INTEGER) 6</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthChangeUnsecure</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthChangeUnsecure</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AuthChangeDisable</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AuthChangeDisable</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthAdvNotifyDisable</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AuthAdvNotifyDisable</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DirBrowseFlags</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 1073741886</p></td>
+<td style="border:1px solid black;">DirBrowseFlags</td>
+<td style="border:1px solid black;">(INTEGER) 1073741886</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>EnableDirBrowsing</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">EnableDirBrowsing</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DirBrowseShowDate</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">DirBrowseShowDate</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DirBrowseShowTime</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">DirBrowseShowTime</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DirBrowseShowSize</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">DirBrowseShowSize</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DirBrowseShowExtension</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">DirBrowseShowExtension</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DirBrowseShowLongDate</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">DirBrowseShowLongDate</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>EnableDefaultDoc</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">EnableDefaultDoc</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AuthFlags</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 1</p></td>
+<td style="border:1px solid black;">AuthFlags</td>
+<td style="border:1px solid black;">(INTEGER) 1</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthBasic</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthBasic</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AuthAnonymous</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AuthAnonymous</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthNTLM</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthNTLM</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AuthMD5</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthMD5</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthPassport</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthPassport</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>InProcessIsapiApps</p></td>
-<td style="border:1px solid black;"><p>(LIST) (6 Items)</p>
-<p>&quot;%windir%\system32\inetsrv\httpext.dll&quot;</p>
-<p>&quot;%windir%\system32\inetsrv\httpodbc.dll&quot;</p>
-<p>&quot;%windir%\system32\inetsrv\ssinc.dll&quot;</p>
-<p>&quot;%windir%\system32\msw3prt.dll&quot;</p>
-<p>&quot;%windir%\Microsoft.NET\Framework\v2.0.50727\aspnet_isapi.dll&quot;</p></td>
+<td style="border:1px solid black;">InProcessIsapiApps</td>
+<td style="border:1px solid black;">(LIST) (6 Items)
+&quot;%windir%\system32\inetsrv\httpext.dll&quot;
+&quot;%windir%\system32\inetsrv\httpodbc.dll&quot;
+&quot;%windir%\system32\inetsrv\ssinc.dll&quot;
+&quot;%windir%\system32\msw3prt.dll&quot;
+&quot;%windir%\Microsoft.NET\Framework\v2.0.50727\aspnet_isapi.dll&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>LogOdbcDataSource</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;HTTPLOG&quot;&gt;</p></td>
+<td style="border:1px solid black;">LogOdbcDataSource</td>
+<td style="border:1px solid black;">(STRING) &quot;HTTPLOG&quot;&gt;</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>LogOdbcTableName</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;InternetLog&quot;</p></td>
+<td style="border:1px solid black;">LogOdbcTableName</td>
+<td style="border:1px solid black;">(STRING) &quot;InternetLog&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>LogOdbcUserName</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;InternetAdmin&quot;</p></td>
+<td style="border:1px solid black;">LogOdbcUserName</td>
+<td style="border:1px solid black;">(STRING) &quot;InternetAdmin&quot;</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>WAMUserName</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;IWAM_&lt;machinename&gt;&quot;&gt;</p></td>
+<td style="border:1px solid black;">WAMUserName</td>
+<td style="border:1px solid black;">(STRING) &quot;IWAM_&lt;machinename&gt;&quot;&gt;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthChangeURL</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;/iisadmpwd/achg.asp&quot;</p></td>
+<td style="border:1px solid black;">AuthChangeURL</td>
+<td style="border:1px solid black;">(STRING) &quot;/iisadmpwd/achg.asp&quot;</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AuthExpiredURL</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;/iisadmpwd/aexp.asp&quot;</p></td>
+<td style="border:1px solid black;">AuthExpiredURL</td>
+<td style="border:1px solid black;">(STRING) &quot;/iisadmpwd/aexp.asp&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthNotifyPwdExpURL</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;/iisadmpwd/anot.asp&quot;</p></td>
+<td style="border:1px solid black;">AuthNotifyPwdExpURL</td>
+<td style="border:1px solid black;">(STRING) &quot;/iisadmpwd/anot.asp&quot;</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AuthExpiredUnsecureURL</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;/iisadmpwd/aexp3.asp&quot;</p></td>
+<td style="border:1px solid black;">AuthExpiredUnsecureURL</td>
+<td style="border:1px solid black;">(STRING) &quot;/iisadmpwd/aexp3.asp&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthNotifyPwdExpUnsecureURL</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;/iisadmpwd/anot3.asp&quot;</p></td>
+<td style="border:1px solid black;">AuthNotifyPwdExpUnsecureURL</td>
+<td style="border:1px solid black;">(STRING) &quot;/iisadmpwd/anot3.asp&quot;</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AppPoolId</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;DefaultAppPool&quot;</p></td>
+<td style="border:1px solid black;">AppPoolId</td>
+<td style="border:1px solid black;">(STRING) &quot;DefaultAppPool&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IIs5IsolationModeEnabled</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">IIs5IsolationModeEnabled</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MaxGlobalBandwidth</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 4294967295</p></td>
+<td style="border:1px solid black;">MaxGlobalBandwidth</td>
+<td style="border:1px solid black;">(INTEGER) 4294967295</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MinFileBytesPerSec</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 240</p></td>
+<td style="border:1px solid black;">MinFileBytesPerSec</td>
+<td style="border:1px solid black;">(INTEGER) 240</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>LogInUTF8</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">LogInUTF8</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AspAppServiceFlags</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 0</p></td>
+<td style="border:1px solid black;">AspAppServiceFlags</td>
+<td style="border:1px solid black;">(INTEGER) 0</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AspEnableTracker</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AspEnableTracker</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AspEnableSxs</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AspEnableSxs</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AspUsePartition</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AspUsePartition</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AspKeepSessionIDSecure</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 0</p></td>
+<td style="border:1px solid black;">AspKeepSessionIDSecure</td>
+<td style="border:1px solid black;">(INTEGER) 0</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AspExecuteInMTA</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 0</p></td>
+<td style="border:1px solid black;">AspExecuteInMTA</td>
+<td style="border:1px solid black;">(INTEGER) 0</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CentralBinaryLoggingEnabled</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">CentralBinaryLoggingEnabled</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AspRunOnEndAnonymously</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AspRunOnEndAnonymously</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AspBufferingLimit</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 4194304</p></td>
+<td style="border:1px solid black;">AspBufferingLimit</td>
+<td style="border:1px solid black;">(INTEGER) 4194304</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AspCalcLineNumber</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AspCalcLineNumber</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ApplicationDependencies</p></td>
-<td style="border:1px solid black;"><p>(LIST) (6 Items)</p>
-<p>&quot;Active Server Pages;ASP&quot;</p>
-<p>&quot;Internet Data Connector;HTTPODBC&quot;</p>
-<p>&quot;Server Side Includes;SSINC&quot;</p>
-<p>&quot;WebDAV;WEBDAV&quot;</p>
-<p>&quot;ASP.NET v1.1.4322;ASP.NET v1.1.4322&quot;</p></td>
+<td style="border:1px solid black;">ApplicationDependencies</td>
+<td style="border:1px solid black;">(LIST) (6 Items)
+&quot;Active Server Pages;ASP&quot;
+&quot;Internet Data Connector;HTTPODBC&quot;
+&quot;Server Side Includes;SSINC&quot;
+&quot;WebDAV;WEBDAV&quot;
+&quot;ASP.NET v1.1.4322;ASP.NET v1.1.4322&quot;</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>WebSvcExtRestrictionList</p></td>
-<td style="border:1px solid black;"><p>(LIST) (8 Items)</p>
-<p>&quot;0,*.dll&quot;</p>
-<p>&quot;0,*.exe&quot;&gt;</p>
-<p>&quot;0,&lt;windir&gt;\system32\inetsrv\asp.dll,0,ASP,Active Server Pages&quot;&gt;</p>
-<p>&quot;0,&lt;windir&gt;\system32\inetsrv\httpodbc.dll,0,HTTPODBC,Internet Data</p>
-<p>Connector&quot;</p>
-<p>&quot;0,&lt;windir&gt;\system32\inetsrv\ssinc.dll,0,SSINC,Server Side Includes&quot;</p>
-<p>&quot;0,&lt;windir&gt;\system32\inetsrv\httpext.dll,0,WEBDAV,WebDAV&quot;&gt;</p>
-<p>&quot;1,&lt;windir&gt;\Microsoft.NET\Framework\v2.0.50727\aspnet_isapi.dll,0,ASP.NET</p>
-<p>v2.0.50727,ASP.NET v2.0.50727&quot;</p></td>
+<td style="border:1px solid black;">WebSvcExtRestrictionList</td>
+<td style="border:1px solid black;">(LIST) (8 Items)
+&quot;0,*.dll&quot;
+&quot;0,*.exe&quot;&gt;
+&quot;0,&lt;windir&gt;\system32\inetsrv\asp.dll,0,ASP,Active Server Pages&quot;&gt;
+&quot;0,&lt;windir&gt;\system32\inetsrv\httpodbc.dll,0,HTTPODBC,Internet Data
+Connector&quot;
+&quot;0,&lt;windir&gt;\system32\inetsrv\ssinc.dll,0,SSINC,Server Side Includes&quot;
+&quot;0,&lt;windir&gt;\system32\inetsrv\httpext.dll,0,WEBDAV,WebDAV&quot;&gt;
+&quot;1,&lt;windir&gt;\Microsoft.NET\Framework\v2.0.50727\aspnet_isapi.dll,0,ASP.NET
+v2.0.50727,ASP.NET v2.0.50727&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AspMaxRequestEntityAllowed</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 204800</p></td>
+<td style="border:1px solid black;">AspMaxRequestEntityAllowed</td>
+<td style="border:1px solid black;">(INTEGER) 204800</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[/w3svc/1]</p></td>
-<td style="border:1px solid black;"><p><strong>n/a</strong></p></td>
+<td style="border:1px solid black;">[/w3svc/1]</td>
+<td style="border:1px solid black;"><strong>n/a</strong></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[/w3svc/AppPools]</p></td>
-<td style="border:1px solid black;"><p><strong>n/a</strong></p></td>
+<td style="border:1px solid black;">[/w3svc/AppPools]</td>
+<td style="border:1px solid black;"><strong>n/a</strong></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[/w3svc/Filters]</p></td>
-<td style="border:1px solid black;"><p><strong>n/a</strong></p></td>
+<td style="border:1px solid black;">[/w3svc/Filters]</td>
+<td style="border:1px solid black;"><strong>n/a</strong></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[/w3svc/Info]</p></td>
-<td style="border:1px solid black;"><p><strong>n/a</strong></p></td>
+<td style="border:1px solid black;">[/w3svc/Info]</td>
+<td style="border:1px solid black;"><strong>n/a</strong></td>
 </tr>
 </tbody>
 </table>
@@ -586,7 +586,7 @@ The properties listed below comprise a partial list.
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -600,52 +600,52 @@ The properties listed below comprise a partial list.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>KeyType</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;IIsWebServer&quot;</p></td>
+<td style="border:1px solid black;">KeyType</td>
+<td style="border:1px solid black;">(STRING) &quot;IIsWebServer&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ServerState</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 2</p></td>
+<td style="border:1px solid black;">ServerState</td>
+<td style="border:1px solid black;">(INTEGER) 2</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ServerComment</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;Default Website&quot;</p></td>
+<td style="border:1px solid black;">ServerComment</td>
+<td style="border:1px solid black;">(STRING) &quot;Default Website&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ServerSize</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 1</p></td>
+<td style="border:1px solid black;">ServerSize</td>
+<td style="border:1px solid black;">(INTEGER) 1</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ServerBindings</p></td>
-<td style="border:1px solid black;"><p>(LIST) (1 Items) &quot;:80:&quot; (or 8530)</p></td>
+<td style="border:1px solid black;">ServerBindings</td>
+<td style="border:1px solid black;">(LIST) (1 Items) &quot;:80:&quot; (or 8530)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SecureBindings</p></td>
-<td style="border:1px solid black;"><p>(LIST) (1 Items) &quot;:443:&quot; (or 8531)</p></td>
+<td style="border:1px solid black;">SecureBindings</td>
+<td style="border:1px solid black;">(LIST) (1 Items) &quot;:443:&quot; (or 8531)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ConnectionTimeout</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 180</p></td>
+<td style="border:1px solid black;">ConnectionTimeout</td>
+<td style="border:1px solid black;">(INTEGER) 180</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DefaultDoc</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;Default.htm,Default.asp,index.htm,iisstart.htm&quot;</p></td>
+<td style="border:1px solid black;">DefaultDoc</td>
+<td style="border:1px solid black;">(STRING) &quot;Default.htm,Default.asp,index.htm,iisstart.htm&quot;</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AspBufferingOn</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AspBufferingOn</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>LogPluginClsid</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;{FF160663-DE82-11CF-BC0A-00AA006111E0}&quot;</p></td>
+<td style="border:1px solid black;">LogPluginClsid</td>
+<td style="border:1px solid black;">(STRING) &quot;{FF160663-DE82-11CF-BC0A-00AA006111E0}&quot;</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Win32Error</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 0</p></td>
+<td style="border:1px solid black;">Win32Error</td>
+<td style="border:1px solid black;">(INTEGER) 0</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AppPoolId</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;DefaultAppPool&quot;</p></td>
+<td style="border:1px solid black;">AppPoolId</td>
+<td style="border:1px solid black;">(STRING) &quot;DefaultAppPool&quot;</td>
 </tr>
 </tbody>
 </table>
@@ -655,7 +655,7 @@ Properties of the API Remoting Web service
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -669,104 +669,104 @@ Properties of the API Remoting Web service
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>KeyType</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;IIsWebVirtualDir&quot;</p></td>
+<td style="border:1px solid black;">KeyType</td>
+<td style="border:1px solid black;">(STRING) &quot;IIsWebVirtualDir&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AppRoot</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;/LM/W3SVC/<em>WebSiteID</em>/ROOT/ApiRemoting30&quot;</p></td>
+<td style="border:1px solid black;">AppRoot</td>
+<td style="border:1px solid black;">(STRING) &quot;/LM/W3SVC/<em>WebSiteID</em>/ROOT/ApiRemoting30&quot;</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AppFriendlyName</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;ApiRemoting30&quot;</p></td>
+<td style="border:1px solid black;">AppFriendlyName</td>
+<td style="border:1px solid black;">(STRING) &quot;ApiRemoting30&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AppIsolated</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 2</p></td>
+<td style="border:1px solid black;">AppIsolated</td>
+<td style="border:1px solid black;">(INTEGER) 2</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Path</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;&lt;WSUSInstallDir&gt;\WebServices\ApiRemoting30&quot;</p></td>
+<td style="border:1px solid black;">Path</td>
+<td style="border:1px solid black;">(STRING) &quot;&lt;WSUSInstallDir&gt;\WebServices\ApiRemoting30&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessFlags</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 513</p></td>
+<td style="border:1px solid black;">AccessFlags</td>
+<td style="border:1px solid black;">(INTEGER) 513</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessExecute</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessExecute</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessSource</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessSource</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessRead</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AccessRead</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessWrite</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessWrite</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessScript</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AccessScript</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessNoRemoteExecute</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteExecute</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessNoRemoteRead</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteRead</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessNoRemoteWrite</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteWrite</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessNoRemoteScript</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteScript</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessNoPhysicalDir</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoPhysicalDir</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AspScriptErrorSentToBrowser</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AspScriptErrorSentToBrowser</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AspEnableParentPaths</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AspEnableParentPaths</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AuthFlags</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 21</p></td>
+<td style="border:1px solid black;">AuthFlags</td>
+<td style="border:1px solid black;">(INTEGER) 21</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthBasic</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthBasic</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AuthAnonymous</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AuthAnonymous</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthNTLM</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AuthNTLM</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AuthMD5</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AuthMD5</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthPassport</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthPassport</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AppPoolId</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;WsusPool&quot;</p></td>
+<td style="border:1px solid black;">AppPoolId</td>
+<td style="border:1px solid black;">(STRING) &quot;WsusPool&quot;</td>
 </tr>
 </tbody>
 </table>
@@ -776,7 +776,7 @@ Properties of the Client Web service
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -790,104 +790,104 @@ Properties of the Client Web service
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>KeyType</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;IIsWebVirtualDir&quot;</p></td>
+<td style="border:1px solid black;">KeyType</td>
+<td style="border:1px solid black;">(STRING) &quot;IIsWebVirtualDir&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AppRoot</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;/LM/W3SVC/<em>WebSiteID</em>/ROOT/ClientWebService&quot;</p></td>
+<td style="border:1px solid black;">AppRoot</td>
+<td style="border:1px solid black;">(STRING) &quot;/LM/W3SVC/<em>WebSiteID</em>/ROOT/ClientWebService&quot;</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AppFriendlyName</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;ClientWebService&quot;</p></td>
+<td style="border:1px solid black;">AppFriendlyName</td>
+<td style="border:1px solid black;">(STRING) &quot;ClientWebService&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AppIsolated</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 2</p></td>
+<td style="border:1px solid black;">AppIsolated</td>
+<td style="border:1px solid black;">(INTEGER) 2</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Path</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;&lt;WSUSInstallDir&gt;\WebServices\ClientWebService&quot;</p></td>
+<td style="border:1px solid black;">Path</td>
+<td style="border:1px solid black;">(STRING) &quot;&lt;WSUSInstallDir&gt;\WebServices\ClientWebService&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessFlags</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 513</p></td>
+<td style="border:1px solid black;">AccessFlags</td>
+<td style="border:1px solid black;">(INTEGER) 513</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessExecute</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessExecute</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessSource</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessSource</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessRead</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AccessRead</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessWrite</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessWrite</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessScript</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AccessScript</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessNoRemoteExecute</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteExecute</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessNoRemoteRead</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteRead</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessNoRemoteWrite</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteWrite</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessNoRemoteScript</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteScript</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessNoPhysicalDir</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoPhysicalDir</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AspScriptErrorSentToBrowser</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AspScriptErrorSentToBrowser</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AspEnableParentPaths</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AspEnableParentPaths</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AuthFlags</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 1</p></td>
+<td style="border:1px solid black;">AuthFlags</td>
+<td style="border:1px solid black;">(INTEGER) 1</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthBasic</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthBasic</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AuthAnonymous</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AuthAnonymous</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthNTLM</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthNTLM</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AuthMD5</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthMD5</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthPassport</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthPassport</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AppPoolId</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;WsusPool&quot;</p></td>
+<td style="border:1px solid black;">AppPoolId</td>
+<td style="border:1px solid black;">(STRING) &quot;WsusPool&quot;</td>
 </tr>
 </tbody>
 </table>
@@ -897,7 +897,7 @@ Properties of the Downstream Server Authentication Web service
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -911,104 +911,104 @@ Properties of the Downstream Server Authentication Web service
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>KeyType</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;IIsWebVirtualDir&quot;</p></td>
+<td style="border:1px solid black;">KeyType</td>
+<td style="border:1px solid black;">(STRING) &quot;IIsWebVirtualDir&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AppRoot</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;/LM/W3SVC/<em>WebSiteID</em>/ROOT/DssAuthWebService&quot;</p></td>
+<td style="border:1px solid black;">AppRoot</td>
+<td style="border:1px solid black;">(STRING) &quot;/LM/W3SVC/<em>WebSiteID</em>/ROOT/DssAuthWebService&quot;</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AppFriendlyName</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot; DssAuthWebService &quot;</p></td>
+<td style="border:1px solid black;">AppFriendlyName</td>
+<td style="border:1px solid black;">(STRING) &quot; DssAuthWebService &quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AppIsolated</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 2</p></td>
+<td style="border:1px solid black;">AppIsolated</td>
+<td style="border:1px solid black;">(INTEGER) 2</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Path</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;&lt;WSUSInstallDir&gt;\WebServices\DssAuthWebService&quot;</p></td>
+<td style="border:1px solid black;">Path</td>
+<td style="border:1px solid black;">(STRING) &quot;&lt;WSUSInstallDir&gt;\WebServices\DssAuthWebService&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessFlags</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 513</p></td>
+<td style="border:1px solid black;">AccessFlags</td>
+<td style="border:1px solid black;">(INTEGER) 513</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessExecute</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessExecute</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessSource</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessSource</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessRead</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AccessRead</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessWrite</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessWrite</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessScript</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AccessScript</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessNoRemoteExecute</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteExecute</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessNoRemoteRead</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteRead</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessNoRemoteWrite</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteWrite</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessNoRemoteScript</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteScript</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessNoPhysicalDir</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoPhysicalDir</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AspScriptErrorSentToBrowser</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AspScriptErrorSentToBrowser</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AspEnableParentPaths</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AspEnableParentPaths</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AuthFlags</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 1</p></td>
+<td style="border:1px solid black;">AuthFlags</td>
+<td style="border:1px solid black;">(INTEGER) 1</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthBasic</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthBasic</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AuthAnonymous</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AuthAnonymous</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthNTLM</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthNTLM</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AuthMD5</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthMD5</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthPassport</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthPassport</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AppPoolId</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;WsusPool&quot;</p></td>
+<td style="border:1px solid black;">AppPoolId</td>
+<td style="border:1px solid black;">(STRING) &quot;WsusPool&quot;</td>
 </tr>
 </tbody>
 </table>
@@ -1018,7 +1018,7 @@ Properties of the Inventory Collection Web service
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1032,104 +1032,104 @@ Properties of the Inventory Collection Web service
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>KeyType</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;IIsWebVirtualDir&quot;</p></td>
+<td style="border:1px solid black;">KeyType</td>
+<td style="border:1px solid black;">(STRING) &quot;IIsWebVirtualDir&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AppRoot</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;/LM/W3SVC/<em>WebSiteID</em>/ROOT/Inventory&quot;</p></td>
+<td style="border:1px solid black;">AppRoot</td>
+<td style="border:1px solid black;">(STRING) &quot;/LM/W3SVC/<em>WebSiteID</em>/ROOT/Inventory&quot;</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AppFriendlyName</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;Inventory&quot;</p></td>
+<td style="border:1px solid black;">AppFriendlyName</td>
+<td style="border:1px solid black;">(STRING) &quot;Inventory&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AppIsolated</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 2</p></td>
+<td style="border:1px solid black;">AppIsolated</td>
+<td style="border:1px solid black;">(INTEGER) 2</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Path</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;&lt;WSUSInstallDir&gt;\WebServices\Inventory&quot;</p></td>
+<td style="border:1px solid black;">Path</td>
+<td style="border:1px solid black;">(STRING) &quot;&lt;WSUSInstallDir&gt;\WebServices\Inventory&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessFlags</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 513</p></td>
+<td style="border:1px solid black;">AccessFlags</td>
+<td style="border:1px solid black;">(INTEGER) 513</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessExecute</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessExecute</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessSource</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessSource</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessRead</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AccessRead</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessWrite</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessWrite</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessScript</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AccessScript</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessNoRemoteExecute</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteExecute</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessNoRemoteRead</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteRead</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessNoRemoteWrite</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteWrite</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessNoRemoteScript</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteScript</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessNoPhysicalDir</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoPhysicalDir</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AspScriptErrorSentToBrowser</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AspScriptErrorSentToBrowser</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AspEnableParentPaths</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AspEnableParentPaths</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AuthFlags</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 1</p></td>
+<td style="border:1px solid black;">AuthFlags</td>
+<td style="border:1px solid black;">(INTEGER) 1</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthBasic</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthBasic</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AuthAnonymous</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AuthAnonymous</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthNTLM</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthNTLM</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AuthMD5</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthMD5</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthPassport</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthPassport</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AppPoolId</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;WsusPool&quot;</p></td>
+<td style="border:1px solid black;">AppPoolId</td>
+<td style="border:1px solid black;">(STRING) &quot;WsusPool&quot;</td>
 </tr>
 </tbody>
 </table>
@@ -1139,7 +1139,7 @@ Checking the properties of the Reporting Web service
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1153,104 +1153,104 @@ Checking the properties of the Reporting Web service
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>KeyType</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;IIsWebVirtualDir&quot;</p></td>
+<td style="border:1px solid black;">KeyType</td>
+<td style="border:1px solid black;">(STRING) &quot;IIsWebVirtualDir&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AppRoot</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;/LM/W3SVC/<em>WebSiteID</em>/ROOT/ReportingWebService&quot;</p></td>
+<td style="border:1px solid black;">AppRoot</td>
+<td style="border:1px solid black;">(STRING) &quot;/LM/W3SVC/<em>WebSiteID</em>/ROOT/ReportingWebService&quot;</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AppFriendlyName</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot; ReportingWebService &quot;</p></td>
+<td style="border:1px solid black;">AppFriendlyName</td>
+<td style="border:1px solid black;">(STRING) &quot; ReportingWebService &quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AppIsolated</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 2</p></td>
+<td style="border:1px solid black;">AppIsolated</td>
+<td style="border:1px solid black;">(INTEGER) 2</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Path</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;&lt;WSUSInstallDir&gt;\WebServices\ReportingWebService&quot;</p></td>
+<td style="border:1px solid black;">Path</td>
+<td style="border:1px solid black;">(STRING) &quot;&lt;WSUSInstallDir&gt;\WebServices\ReportingWebService&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessFlags</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 513</p></td>
+<td style="border:1px solid black;">AccessFlags</td>
+<td style="border:1px solid black;">(INTEGER) 513</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessExecute</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessExecute</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessSource</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessSource</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessRead</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AccessRead</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessWrite</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessWrite</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessScript</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AccessScript</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessNoRemoteExecute</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteExecute</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessNoRemoteRead</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteRead</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessNoRemoteWrite</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteWrite</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessNoRemoteScript</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteScript</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessNoPhysicalDir</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoPhysicalDir</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AspScriptErrorSentToBrowser</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AspScriptErrorSentToBrowser</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AspEnableParentPaths</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AspEnableParentPaths</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AuthFlags</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 1</p></td>
+<td style="border:1px solid black;">AuthFlags</td>
+<td style="border:1px solid black;">(INTEGER) 1</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthBasic</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthBasic</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AuthAnonymous</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AuthAnonymous</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthNTLM</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthNTLM</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AuthMD5</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthMD5</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthPassport</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthPassport</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AppPoolId</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;WsusPool&quot;</p></td>
+<td style="border:1px solid black;">AppPoolId</td>
+<td style="border:1px solid black;">(STRING) &quot;WsusPool&quot;</td>
 </tr>
 </tbody>
 </table>
@@ -1260,7 +1260,7 @@ Properties of the Selfupdate Web service
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1274,56 +1274,56 @@ Properties of the Selfupdate Web service
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>KeyType</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;IIsWebVirtualDir&quot;</p></td>
+<td style="border:1px solid black;">KeyType</td>
+<td style="border:1px solid black;">(STRING) &quot;IIsWebVirtualDir&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Path</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;&lt;WSUSInstallDir&gt;\WebServices\ServerSyncWebService&quot;</p></td>
+<td style="border:1px solid black;">Path</td>
+<td style="border:1px solid black;">(STRING) &quot;&lt;WSUSInstallDir&gt;\WebServices\ServerSyncWebService&quot;</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessFlags</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 513</p></td>
+<td style="border:1px solid black;">AccessFlags</td>
+<td style="border:1px solid black;">(INTEGER) 513</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessExecute</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessExecute</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessSource</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessSource</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessRead</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AccessRead</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessWrite</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessWrite</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessScript</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AccessScript</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessNoRemoteExecute</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteExecute</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessNoRemoteRead</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteRead</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessNoRemoteWrite</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteWrite</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessNoRemoteScript</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteScript</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessNoPhysicalDir</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoPhysicalDir</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 </tbody>
 </table>
@@ -1333,7 +1333,7 @@ Properties of the Server Synchronization Web service
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1347,104 +1347,104 @@ Properties of the Server Synchronization Web service
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>KeyType</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;IIsWebVirtualDir&quot;</p></td>
+<td style="border:1px solid black;">KeyType</td>
+<td style="border:1px solid black;">(STRING) &quot;IIsWebVirtualDir&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AppRoot</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;/LM/W3SVC/<em>WebSiteID</em>/ROOT/ServerSyncWebService&quot;</p></td>
+<td style="border:1px solid black;">AppRoot</td>
+<td style="border:1px solid black;">(STRING) &quot;/LM/W3SVC/<em>WebSiteID</em>/ROOT/ServerSyncWebService&quot;</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AppFriendlyName</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot; ServerSyncWebService &quot;</p></td>
+<td style="border:1px solid black;">AppFriendlyName</td>
+<td style="border:1px solid black;">(STRING) &quot; ServerSyncWebService &quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AppIsolated</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 2</p></td>
+<td style="border:1px solid black;">AppIsolated</td>
+<td style="border:1px solid black;">(INTEGER) 2</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Path</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;&lt;WSUSInstallDir&gt;\WebServices\ServerSyncWebService&quot;</p></td>
+<td style="border:1px solid black;">Path</td>
+<td style="border:1px solid black;">(STRING) &quot;&lt;WSUSInstallDir&gt;\WebServices\ServerSyncWebService&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessFlags</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 513</p></td>
+<td style="border:1px solid black;">AccessFlags</td>
+<td style="border:1px solid black;">(INTEGER) 513</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessExecute</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessExecute</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessSource</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessSource</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessRead</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AccessRead</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessWrite</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessWrite</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessScript</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AccessScript</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessNoRemoteExecute</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteExecute</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessNoRemoteRead</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteRead</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessNoRemoteWrite</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteWrite</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessNoRemoteScript</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteScript</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessNoPhysicalDir</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoPhysicalDir</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AspScriptErrorSentToBrowser</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AspScriptErrorSentToBrowser</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AspEnableParentPaths</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AspEnableParentPaths</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AuthFlags</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 1</p></td>
+<td style="border:1px solid black;">AuthFlags</td>
+<td style="border:1px solid black;">(INTEGER) 1</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthBasic</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthBasic</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AuthAnonymous</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AuthAnonymous</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthNTLM</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthNTLM</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AuthMD5</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthMD5</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthPassport</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthPassport</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AppPoolId</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;WsusPool&quot;</p></td>
+<td style="border:1px solid black;">AppPoolId</td>
+<td style="border:1px solid black;">(STRING) &quot;WsusPool&quot;</td>
 </tr>
 </tbody>
 </table>
@@ -1454,7 +1454,7 @@ Properties of the Simple Authorization Web service
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1468,104 +1468,104 @@ Properties of the Simple Authorization Web service
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>KeyType</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;IIsWebVirtualDir&quot;</p></td>
+<td style="border:1px solid black;">KeyType</td>
+<td style="border:1px solid black;">(STRING) &quot;IIsWebVirtualDir&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AppRoot</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;/LM/W3SVC/<em>WebSiteID</em>/ROOT/SimpleAuthWebService&quot;</p></td>
+<td style="border:1px solid black;">AppRoot</td>
+<td style="border:1px solid black;">(STRING) &quot;/LM/W3SVC/<em>WebSiteID</em>/ROOT/SimpleAuthWebService&quot;</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AppFriendlyName</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;SimpleAuthWebService&quot;</p></td>
+<td style="border:1px solid black;">AppFriendlyName</td>
+<td style="border:1px solid black;">(STRING) &quot;SimpleAuthWebService&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AppIsolated</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 2</p></td>
+<td style="border:1px solid black;">AppIsolated</td>
+<td style="border:1px solid black;">(INTEGER) 2</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Path</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;&lt;WSUSInstallDir&gt;\WebServices\SimpleAuthWebService&quot;</p></td>
+<td style="border:1px solid black;">Path</td>
+<td style="border:1px solid black;">(STRING) &quot;&lt;WSUSInstallDir&gt;\WebServices\SimpleAuthWebService&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessFlags</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 513</p></td>
+<td style="border:1px solid black;">AccessFlags</td>
+<td style="border:1px solid black;">(INTEGER) 513</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessExecute</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessExecute</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessSource</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessSource</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessRead</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AccessRead</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessWrite</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessWrite</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessScript</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AccessScript</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessNoRemoteExecute</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteExecute</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessNoRemoteRead</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteRead</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessNoRemoteWrite</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteWrite</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AccessNoRemoteScript</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoRemoteScript</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AccessNoPhysicalDir</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AccessNoPhysicalDir</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AspScriptErrorSentToBrowser</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AspScriptErrorSentToBrowser</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AspEnableParentPaths</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AspEnableParentPaths</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AuthFlags</p></td>
-<td style="border:1px solid black;"><p>(INTEGER) 1</p></td>
+<td style="border:1px solid black;">AuthFlags</td>
+<td style="border:1px solid black;">(INTEGER) 1</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthBasic</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthBasic</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AuthAnonymous</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) True</p></td>
+<td style="border:1px solid black;">AuthAnonymous</td>
+<td style="border:1px solid black;">(BOOLEAN) True</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthNTLM</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthNTLM</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AuthMD5</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthMD5</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthPassport</p></td>
-<td style="border:1px solid black;"><p>(BOOLEAN) False</p></td>
+<td style="border:1px solid black;">AuthPassport</td>
+<td style="border:1px solid black;">(BOOLEAN) False</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AppPoolId</p></td>
-<td style="border:1px solid black;"><p>(STRING) &quot;WsusPool&quot;</p></td>
+<td style="border:1px solid black;">AppPoolId</td>
+<td style="border:1px solid black;">(STRING) &quot;WsusPool&quot;</td>
 </tr>
 </tbody>
 </table>

@@ -50,7 +50,7 @@ Utilice la siguiente lista de comprobación para implementar un solo servidor de
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -64,29 +64,29 @@ Utilice la siguiente lista de comprobación para implementar un solo servidor de
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Revisar conceptos e información de planeamiento.</p></td>
-<td style="border:1px solid black;"><p>&quot;Preparación de una implementación de RMS&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Revisar conceptos e información de planeamiento.</td>
+<td style="border:1px solid black;">&quot;Preparación de una implementación de RMS&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Revisar los requisitos del sistema y comprobar que todo el hardware y el software necesario están disponibles.</p></td>
-<td style="border:1px solid black;"><p>&quot;Requisitos previos de infraestructura para RMS&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=37537">Planeamiento de una implementación de RMS</a>.</p>
-<p>&quot;Planeamiento de la infraestructura de servidor de base de datos&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=37537">Planeamiento de una implementación de RMS</a>.</p></td>
+<td style="border:1px solid black;">Revisar los requisitos del sistema y comprobar que todo el hardware y el software necesario están disponibles.</td>
+<td style="border:1px solid black;">&quot;Requisitos previos de infraestructura para RMS&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=37537">Planeamiento de una implementación de RMS</a>.
+&quot;Planeamiento de la infraestructura de servidor de base de datos&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=37537">Planeamiento de una implementación de RMS</a>.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Configurar la infraestructura, incluidos los requisitos previos de hardware y de software, las cuentas administrativas y la compatibilidad con directivas de grupo, según corresponda.</p></td>
-<td style="border:1px solid black;"><p>&quot;Preparación de una implementación de RMS&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Configurar la infraestructura, incluidos los requisitos previos de hardware y de software, las cuentas administrativas y la compatibilidad con directivas de grupo, según corresponda.</td>
+<td style="border:1px solid black;">&quot;Preparación de una implementación de RMS&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Instale y configure RMS en el servidor.</p></td>
-<td style="border:1px solid black;"><p>&quot;Configuración de servicios de certificación y emisión de licencias en el primer servidor&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Instale y configure RMS en el servidor.</td>
+<td style="border:1px solid black;">&quot;Configuración de servicios de certificación y emisión de licencias en el primer servidor&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Probar la implementación.</p></td>
-<td style="border:1px solid black;"><p>&quot;Configuración de un entorno de prueba&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Probar la implementación.</td>
+<td style="border:1px solid black;">&quot;Configuración de un entorno de prueba&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Implemente el servicio RMS en el entorno de producción.</p></td>
-<td style="border:1px solid black;"><p>&quot;Definición del ámbito de la implementación de RMS&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Implemente el servicio RMS en el entorno de producción.</td>
+<td style="border:1px solid black;">&quot;Definición del ámbito de la implementación de RMS&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -99,7 +99,7 @@ Utilice la siguiente lista de comprobación para implementar clústeres de licen
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -113,43 +113,43 @@ Utilice la siguiente lista de comprobación para implementar clústeres de licen
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Revisar conceptos e información de planeamiento.</p></td>
-<td style="border:1px solid black;"><p>&quot;Preparación de una implementación de RMS&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Revisar conceptos e información de planeamiento.</td>
+<td style="border:1px solid black;">&quot;Preparación de una implementación de RMS&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Revisar los requisitos del sistema y comprobar que todo el hardware y el software necesario están disponibles.</p></td>
-<td style="border:1px solid black;"><p>&quot;Requisitos previos de infraestructura para RMS&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=37537">Planeamiento de una implementación de RMS</a>.</p>
-<p>&quot;Planeamiento de la infraestructura de servidor de base de datos&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=37537">Planeamiento de una implementación de RMS</a>.</p></td>
+<td style="border:1px solid black;">Revisar los requisitos del sistema y comprobar que todo el hardware y el software necesario están disponibles.</td>
+<td style="border:1px solid black;">&quot;Requisitos previos de infraestructura para RMS&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=37537">Planeamiento de una implementación de RMS</a>.
+&quot;Planeamiento de la infraestructura de servidor de base de datos&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=37537">Planeamiento de una implementación de RMS</a>.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Revisar el plan de implementación para comprender la topología y los componentes que se instalarán.</p></td>
-<td style="border:1px solid black;"><p>&quot;Determinación de la topología de RMS&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=37537">Planeamiento de una implementación de RMS</a>.</p></td>
+<td style="border:1px solid black;">Revisar el plan de implementación para comprender la topología y los componentes que se instalarán.</td>
+<td style="border:1px solid black;">&quot;Determinación de la topología de RMS&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=37537">Planeamiento de una implementación de RMS</a>.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Configurar la infraestructura, incluidos los requisitos previos de hardware y de software, las cuentas administrativas y la compatibilidad con directivas de grupo, según corresponda.</p></td>
-<td style="border:1px solid black;"><p>&quot;Preparación de una implementación de RMS&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Configurar la infraestructura, incluidos los requisitos previos de hardware y de software, las cuentas administrativas y la compatibilidad con directivas de grupo, según corresponda.</td>
+<td style="border:1px solid black;">&quot;Preparación de una implementación de RMS&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Instale y configure RMS en los servidores que están en el clúster de certificación raíz.</p></td>
-<td style="border:1px solid black;"><p>&quot;Configuración de servicios de certificación y emisión de licencias en el primer servidor&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</p>
-<p>&quot;Adición de servidores para permitir la certificación y emisión de licencias&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Instale y configure RMS en los servidores que están en el clúster de certificación raíz.</td>
+<td style="border:1px solid black;">&quot;Configuración de servicios de certificación y emisión de licencias en el primer servidor&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.
+&quot;Adición de servidores para permitir la certificación y emisión de licencias&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Instale y configure RMS en los servidores que están en los clústeres de licencias.</p></td>
-<td style="border:1px solid black;"><p>&quot;Configuración de servicios de certificación y emisión de licencias en el primer servidor&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</p>
-<p>&quot;Adición de servidores para permitir la certificación y emisión de licencias&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Instale y configure RMS en los servidores que están en los clústeres de licencias.</td>
+<td style="border:1px solid black;">&quot;Configuración de servicios de certificación y emisión de licencias en el primer servidor&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.
+&quot;Adición de servidores para permitir la certificación y emisión de licencias&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Configurar el equilibrio de carga.</p></td>
-<td style="border:1px solid black;"><p>&quot;Expansión de la infraestructura básica para permitir los clústeres&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Configurar el equilibrio de carga.</td>
+<td style="border:1px solid black;">&quot;Expansión de la infraestructura básica para permitir los clústeres&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Probar la implementación.</p></td>
-<td style="border:1px solid black;"><p>&quot;Configuración de un entorno de prueba&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Probar la implementación.</td>
+<td style="border:1px solid black;">&quot;Configuración de un entorno de prueba&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Implemente el servicio RMS en el entorno de producción.</p></td>
-<td style="border:1px solid black;"><p>&quot;Definición del ámbito de la implementación de RMS&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Implemente el servicio RMS en el entorno de producción.</td>
+<td style="border:1px solid black;">&quot;Definición del ámbito de la implementación de RMS&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -162,7 +162,7 @@ Utilice la lista de comprobación siguiente para implementar RMS entre bosques.
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -176,16 +176,16 @@ Utilice la lista de comprobación siguiente para implementar RMS entre bosques.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Revisar conceptos e información de planeamiento.</p></td>
-<td style="border:1px solid black;"><p>&quot;Preparación de una implementación de RMS&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Revisar conceptos e información de planeamiento.</td>
+<td style="border:1px solid black;">&quot;Preparación de una implementación de RMS&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Configurar los permisos necesarios basándose en el modelo de confianza.</p></td>
-<td style="border:1px solid black;"><p>&quot;Implementación de RMS entre bosques&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Configurar los permisos necesarios basándose en el modelo de confianza.</td>
+<td style="border:1px solid black;">&quot;Implementación de RMS entre bosques&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Defina los atributos de Active Directory adecuados para sus bosques.</p></td>
-<td style="border:1px solid black;"><p>&quot;Implementación de RMS entre bosques&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Defina los atributos de Active Directory adecuados para sus bosques.</td>
+<td style="border:1px solid black;">&quot;Implementación de RMS entre bosques&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -211,7 +211,7 @@ Utilice la lista de comprobación siguiente para implementar una plantilla de di
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -225,21 +225,21 @@ Utilice la lista de comprobación siguiente para implementar una plantilla de di
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Revisar los conceptos pertinentes.</p></td>
-<td style="border:1px solid black;"><p>&quot;Plantillas de directiva de permisos&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42496">Referencia técnica de RMS</a>.</p></td>
+<td style="border:1px solid black;">Revisar los conceptos pertinentes.</td>
+<td style="border:1px solid black;">&quot;Plantillas de directiva de permisos&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42496">Referencia técnica de RMS</a>.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Especificar la ubicación de la plantilla de directiva de permisos.</p></td>
-<td style="border:1px solid black;"><p>&quot;Para especificar la ubicación de las plantillas de directiva de permisos&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42495">Operación de un servidor de RMS.</a></p></td>
+<td style="border:1px solid black;">Especificar la ubicación de la plantilla de directiva de permisos.</td>
+<td style="border:1px solid black;">&quot;Para especificar la ubicación de las plantillas de directiva de permisos&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42495">Operación de un servidor de RMS.</a></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Crear la plantilla de directiva de permisos.</p></td>
-<td style="border:1px solid black;"><p>&quot;Creación y modificación de plantillas de directiva de permisos&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42495">Operación de un servidor de RMS.</a></p>
-<p>&quot;Para agregar una plantilla de directiva de permisos&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42495">Operación de un servidor de RMS.</a></p></td>
+<td style="border:1px solid black;">Crear la plantilla de directiva de permisos.</td>
+<td style="border:1px solid black;">&quot;Creación y modificación de plantillas de directiva de permisos&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42495">Operación de un servidor de RMS.</a>
+&quot;Para agregar una plantilla de directiva de permisos&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42495">Operación de un servidor de RMS.</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Distribuir la plantilla de directiva de permisos.</p></td>
-<td style="border:1px solid black;"><p>&quot;Distribución de plantillas de directiva de permisos&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42495">Operación de un servidor de RMS.</a></p></td>
+<td style="border:1px solid black;">Distribuir la plantilla de directiva de permisos.</td>
+<td style="border:1px solid black;">&quot;Distribución de plantillas de directiva de permisos&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42495">Operación de un servidor de RMS.</a></td>
 </tr>
 </tbody>
 </table>
@@ -252,7 +252,7 @@ Utilice la lista de comprobación siguiente para implementar una nueva versión 
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -266,13 +266,13 @@ Utilice la lista de comprobación siguiente para implementar una nueva versión 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Revisar los conceptos pertinentes.</p></td>
-<td style="border:1px solid black;"><p>&quot;Planeamiento de la distribución de clientes&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a></p>
-<p>&quot;Exclusión de versiones de la caja de seguridad&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42495">Operación de un servidor de RMS.</a></p></td>
+<td style="border:1px solid black;">Revisar los conceptos pertinentes.</td>
+<td style="border:1px solid black;">&quot;Planeamiento de la distribución de clientes&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42494">Implementación de un sistema RMS</a>
+&quot;Exclusión de versiones de la caja de seguridad&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42495">Operación de un servidor de RMS.</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Para imponer a todos los clientes la actualización a la versión más reciente de cliente, excluya la versión obsoleta de la caja de seguridad.</p></td>
-<td style="border:1px solid black;"><p>&quot;Para excluir versiones de la caja de seguridad&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42495">Operación de un servidor de RMS.</a></p></td>
+<td style="border:1px solid black;">Para imponer a todos los clientes la actualización a la versión más reciente de cliente, excluya la versión obsoleta de la caja de seguridad.</td>
+<td style="border:1px solid black;">&quot;Para excluir versiones de la caja de seguridad&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42495">Operación de un servidor de RMS.</a></td>
 </tr>
 </tbody>
 </table>
@@ -285,7 +285,7 @@ Utilice la lista de comprobación siguiente para agregar un dominio de usuario d
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -299,13 +299,13 @@ Utilice la lista de comprobación siguiente para agregar un dominio de usuario d
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Revisar los conceptos pertinentes.</p></td>
-<td style="border:1px solid black;"><p>&quot;Dominios de usuarios de confianza&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42496">Referencia técnica de RMS</a>.</p>
-<p>&quot;Adición y desinstalación de dominios de usuarios de confianza&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42495">Operación de un servidor de RMS.</a></p></td>
+<td style="border:1px solid black;">Revisar los conceptos pertinentes.</td>
+<td style="border:1px solid black;">&quot;Dominios de usuarios de confianza&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42496">Referencia técnica de RMS</a>.
+&quot;Adición y desinstalación de dominios de usuarios de confianza&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42495">Operación de un servidor de RMS.</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Obtener el certificado emisor de licencias de servidor del dominio de usuario que se desea agregar. El administrador de la instalación debe proporcionarlo. A continuación, se debe agregar el dominio de usuario a la instalación.</p></td>
-<td style="border:1px solid black;"><p>&quot;Para agregar un dominio de usuario de confianza&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42495">Operación de un servidor de RMS.</a></p></td>
+<td style="border:1px solid black;">Obtener el certificado emisor de licencias de servidor del dominio de usuario que se desea agregar. El administrador de la instalación debe proporcionarlo. A continuación, se debe agregar el dominio de usuario a la instalación.</td>
+<td style="border:1px solid black;">&quot;Para agregar un dominio de usuario de confianza&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42495">Operación de un servidor de RMS.</a></td>
 </tr>
 </tbody>
 </table>
@@ -318,7 +318,7 @@ Utilice la lista de comprobación siguiente para agregar un dominio de publicaci
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -332,13 +332,13 @@ Utilice la lista de comprobación siguiente para agregar un dominio de publicaci
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Revisar los conceptos pertinentes.</p></td>
-<td style="border:1px solid black;"><p>&quot;Dominios de publicación de confianza&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42496">Referencia técnica de RMS</a>.</p>
-<p>&quot;Adición y desinstalación de dominios de publicación de confianza&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42495">Operación de un servidor de RMS.</a></p></td>
+<td style="border:1px solid black;">Revisar los conceptos pertinentes.</td>
+<td style="border:1px solid black;">&quot;Dominios de publicación de confianza&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42496">Referencia técnica de RMS</a>.
+&quot;Adición y desinstalación de dominios de publicación de confianza&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42495">Operación de un servidor de RMS.</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Obtener el certificado emisor de licencias de servidor cifradas y la clave privada del dominio de publicación que se desea agregar; a continuación, se debe agregar el dominio a la instalación.</p></td>
-<td style="border:1px solid black;"><p>&quot;Para agregar un dominio de publicación de confianza&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42495">Operación de un servidor de RMS.</a></p></td>
+<td style="border:1px solid black;">Obtener el certificado emisor de licencias de servidor cifradas y la clave privada del dominio de publicación que se desea agregar; a continuación, se debe agregar el dominio a la instalación.</td>
+<td style="border:1px solid black;">&quot;Para agregar un dominio de publicación de confianza&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=42495">Operación de un servidor de RMS.</a></td>
 </tr>
 </tbody>
 </table>

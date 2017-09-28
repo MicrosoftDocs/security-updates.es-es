@@ -13,7 +13,7 @@ You can access update status from various locations in the WSUS console. The fol
 
 ### Update Status Definitions
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,12 +27,12 @@ You can access update status from various locations in the WSUS console. The fol
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Installed</p></td>
-<td style="border:1px solid black;"><p>The update is installed on the computer.</p></td>
+<td style="border:1px solid black;">Installed</td>
+<td style="border:1px solid black;">The update is installed on the computer.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Needed</p></td>
-<td style="border:1px solid black;"><p>When referring to the status of one computer, Needed means the update is compatible with (and should be installed on) the computer. When referring to status for a computer group, the <strong>Needed</strong> column displays the number of computers in the group to which the update is applicable. A positive Needed result means that the update was determined to be applicable, but has not been installed the last time client computers contacted the WSUS server,. Any of the following could be true when the status for an update is Needed:</p>
+<td style="border:1px solid black;">Needed</td>
+<td style="border:1px solid black;">When referring to the status of one computer, Needed means the update is compatible with (and should be installed on) the computer. When referring to status for a computer group, the <strong>Needed</strong> column displays the number of computers in the group to which the update is applicable. A positive Needed result means that the update was determined to be applicable, but has not been installed the last time client computers contacted the WSUS server,. Any of the following could be true when the status for an update is Needed:
 <ul>
 <li>You have approved the update for installation, but the client computers have not yet contacted the WSUS server since you made this change.<br />
 <br />
@@ -52,20 +52,20 @@ You can access update status from various locations in the WSUS console. The fol
 </ul></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Installed/Not Applicable</p></td>
-<td style="border:1px solid black;"><p>When referring to the status of one computer, Installed/Not Applicable means the update is not applicable to or required by that computer. When referring to the status for a computer group, the Installed/Not Applicable column displays the number of computers in the group for which the update is not applicable or not required.</p></td>
+<td style="border:1px solid black;">Installed/Not Applicable</td>
+<td style="border:1px solid black;">When referring to the status of one computer, Installed/Not Applicable means the update is not applicable to or required by that computer. When referring to the status for a computer group, the Installed/Not Applicable column displays the number of computers in the group for which the update is not applicable or not required.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>No status</p></td>
-<td style="border:1px solid black;"><p>This usually means that since the time that the update was synchronized to the WSUS server, the computer has not contacted the WSUS server.</p></td>
+<td style="border:1px solid black;">No status</td>
+<td style="border:1px solid black;">This usually means that since the time that the update was synchronized to the WSUS server, the computer has not contacted the WSUS server.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Failed</p></td>
-<td style="border:1px solid black;"><p>An error occurred when either a detection or an installation was attempted on the computer for the update.</p></td>
+<td style="border:1px solid black;">Failed</td>
+<td style="border:1px solid black;">An error occurred when either a detection or an installation was attempted on the computer for the update.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Last contacted</p></td>
-<td style="border:1px solid black;"><p>This is the date on which the computer last contacted the WSUS server.</p></td>
+<td style="border:1px solid black;">Last contacted</td>
+<td style="border:1px solid black;">This is the date on which the computer last contacted the WSUS server.</td>
 </tr>
 </tbody>
 </table>

@@ -572,7 +572,7 @@ En la siguiente tabla se muestran algunas directrices de solución de problemas 
 
 **Tabla 1. Directrices de solución de problemas de tarjeta inteligente VPN**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -580,57 +580,57 @@ En la siguiente tabla se muestran algunas directrices de solución de problemas 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Problema</p></th>
-<th><p>Solución</p></th>
+<th>Problema</th>
+<th>Solución</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>No existen certificados relevantes disponibles en la CA.</p></td>
-<td style="border:1px solid black;"><p>Habilitar plantillas de certificados en Sitios y servicios de Active Directory.</p>
-<p>Asignar permisos de inscripción.</p></td>
+<td style="border:1px solid black;">No existen certificados relevantes disponibles en la CA.</td>
+<td style="border:1px solid black;">Habilitar plantillas de certificados en Sitios y servicios de Active Directory.
+Asignar permisos de inscripción.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>No se pueden asignar certificados a la tarjeta inteligente.</p></td>
-<td style="border:1px solid black;"><p>Instalar el editor de tarjetas inteligentes.</p>
-<p>Asignar certificado de agente de inscripción.</p></td>
+<td style="border:1px solid black;">No se pueden asignar certificados a la tarjeta inteligente.</td>
+<td style="border:1px solid black;">Instalar el editor de tarjetas inteligentes.
+Asignar certificado de agente de inscripción.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>El servidor VPN no puede autenticar clientes remotos.</p></td>
-<td style="border:1px solid black;"><p>Configurar el servidor para admitir la autenticación EAP-TLS.</p>
-<p>Asegurarse de que el cliente confía en el certificado usado en el servidor.</p></td>
+<td style="border:1px solid black;">El servidor VPN no puede autenticar clientes remotos.</td>
+<td style="border:1px solid black;">Configurar el servidor para admitir la autenticación EAP-TLS.
+Asegurarse de que el cliente confía en el certificado usado en el servidor.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>El cliente intenta crear una conexión antes de crear la VPN.</p></td>
-<td style="border:1px solid black;"><p>Configurar el cliente de modo que no cree una conexión inicial.</p></td>
+<td style="border:1px solid black;">El cliente intenta crear una conexión antes de crear la VPN.</td>
+<td style="border:1px solid black;">Configurar el cliente de modo que no cree una conexión inicial.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>El cliente no intenta crear una conexión antes de crear la VPN.</p></td>
-<td style="border:1px solid black;"><p>Configurar el cliente para crear una conexión inicial.</p></td>
+<td style="border:1px solid black;">El cliente no intenta crear una conexión antes de crear la VPN.</td>
+<td style="border:1px solid black;">Configurar el cliente para crear una conexión inicial.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Cuando el cliente intenta crear la VPN, aparece un mensaje para pedirle el nombre de usuario, el nombre de dominio y la contraseña.</p></td>
-<td style="border:1px solid black;"><p>Asegurarse de que la conexión VPN está configurada para usar una tarjeta inteligente.</p>
-<p>Asegurarse de que los valores HideUserName, HideDomain y HidePassword están habilitados.</p></td>
+<td style="border:1px solid black;">Cuando el cliente intenta crear la VPN, aparece un mensaje para pedirle el nombre de usuario, el nombre de dominio y la contraseña.</td>
+<td style="border:1px solid black;">Asegurarse de que la conexión VPN está configurada para usar una tarjeta inteligente.
+Asegurarse de que los valores HideUserName, HideDomain y HidePassword están habilitados.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>El cliente no tiene un objeto de conexión en las conexiones de red.</p></td>
-<td style="border:1px solid black;"><p>Asegurarse de que se ha distribuido el perfil de Connection Manager al cliente.</p>
-<p>Asegurarse de que se ejecuta el perfil ejecutable de Connection Manager.</p></td>
+<td style="border:1px solid black;">El cliente no tiene un objeto de conexión en las conexiones de red.</td>
+<td style="border:1px solid black;">Asegurarse de que se ha distribuido el perfil de Connection Manager al cliente.
+Asegurarse de que se ejecuta el perfil ejecutable de Connection Manager.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>El cliente no conecta con el servidor VPN.</p></td>
-<td style="border:1px solid black;"><p>Asegurarse de que la conexión del cliente está configurada con el nombre de servidor VPN correcto.</p>
-<p>Asegurarse de que el cliente ha seleccionado el servidor correcto de la lista de servidores VPN.</p></td>
+<td style="border:1px solid black;">El cliente no conecta con el servidor VPN.</td>
+<td style="border:1px solid black;">Asegurarse de que la conexión del cliente está configurada con el nombre de servidor VPN correcto.
+Asegurarse de que el cliente ha seleccionado el servidor correcto de la lista de servidores VPN.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>El cliente no puede autenticarse con el servidor VPN.</p></td>
-<td style="border:1px solid black;"><p>Asegurarse de que el cliente está conectado al servidor VPN correcto.</p>
-<p>Asegurarse de que el servidor VPN confía en el certificado de la tarjeta inteligente.</p></td>
+<td style="border:1px solid black;">El cliente no puede autenticarse con el servidor VPN.</td>
+<td style="border:1px solid black;">Asegurarse de que el cliente está conectado al servidor VPN correcto.
+Asegurarse de que el servidor VPN confía en el certificado de la tarjeta inteligente.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Para obtener más información sobre la solución de problemas generales de las conexiones VPN, consulte el tema **[Solución de problemas de VPN](http://technet2.microsoft.com/windowsserver/en/library/4543aff5-e10f-487c-92ad-bb5518a736201033.mspx) de Microsoft TechNet en http://technet2.microsoft.com/WindowsServer/en/Library/4543aff5-e10f-487c-92ad-bb5518a736201033.mspx (puede estar en inglés).
 

@@ -158,7 +158,7 @@ El aislamiento físico de equipos y redes no es un concepto nuevo. Se ha venido 
 
 **Tabla 1. Métodos de aislamiento de la red**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -167,38 +167,38 @@ El aislamiento físico de equipos y redes no es un concepto nuevo. Se ha venido 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nivel OSI</p></th>
-<th><p>Método</p></th>
-<th><p>Problemas</p></th>
+<th>Nivel OSI</th>
+<th>Método</th>
+<th>Problemas</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nivel 1</p></td>
-<td style="border:1px solid black;"><p>Use un cableado distinto para los segmentos que se deben aislar de la red de confianza.</p></td>
+<td style="border:1px solid black;">Nivel 1</td>
+<td style="border:1px solid black;">Use un cableado distinto para los segmentos que se deben aislar de la red de confianza.</td>
 <td style="border:1px solid black;"><ul>
-<li><p>Costos asociados al uso de un nuevo cable para cada nueva conexión.</p></li>
-<li><p>Mayor trabajo administrativo por el tendido de nuevos cables cuando se trasladen los usuarios.</p></li>
-<li><p>Falta de flexibilidad y difícil administración si la empresa crece.</p></li>
-<li><p>Mayor posibilidad de descuidos y errores debido a los mayores requisitos de administración.</p></li>
+<li>Costos asociados al uso de un nuevo cable para cada nueva conexión.</li>
+<li>Mayor trabajo administrativo por el tendido de nuevos cables cuando se trasladen los usuarios.</li>
+<li>Falta de flexibilidad y difícil administración si la empresa crece.</li>
+<li>Mayor posibilidad de descuidos y errores debido a los mayores requisitos de administración.</li>
 </ul>
 <br />
 </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nivel 2</p></td>
-<td style="border:1px solid black;"><p>Use VLAN para crear subredes lógicas aisladas de la red de confianza.</p></td>
+<td style="border:1px solid black;">Nivel 2</td>
+<td style="border:1px solid black;">Use VLAN para crear subredes lógicas aisladas de la red de confianza.</td>
 <td style="border:1px solid black;"><ul>
-<li><p>Mayor costo relacionado con la actualización de las redes de conmutadores (switch fabric) para admitir las redes VLAN.</p></li>
-<li><p>Más trabajo administrativo resultante del seguimiento de los cambios de red, los traslados de usuarios y las respuestas a las peticiones de conexiones de invitados.</p></li>
-<li><p>Posibilidad de descuidos y errores cuando se trasladan varios usuarios o se usan dispositivos móviles.</p></li>
+<li>Mayor costo relacionado con la actualización de las redes de conmutadores (switch fabric) para admitir las redes VLAN.</li>
+<li>Más trabajo administrativo resultante del seguimiento de los cambios de red, los traslados de usuarios y las respuestas a las peticiones de conexiones de invitados.</li>
+<li>Posibilidad de descuidos y errores cuando se trasladan varios usuarios o se usan dispositivos móviles.</li>
 </ul>
 <br />
 </td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Como demuestra esta tabla, las redes de las empresas modernas necesitan una solución más flexible que les permita cumplir los estándares de seguridad que facilitan la protección frente a los sistemas no administrados. Si bien existen algunas soluciones de terceros para este problema, suponen la instalación del cliente en todas las estaciones de trabajo administradas y un grado adicional de complejidad para la red. Afortunadamente, las versiones actuales de Microsoft Windows tienen funciones integradas que permiten resolver este problema sin necesidad de software ni curvas de aprendizaje administrativas adicionales.
 

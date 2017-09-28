@@ -28,7 +28,7 @@ You should approve updates to test the functionality of your WSUS deployment. Th
 
 8.  You will see the **Approval Progress** window while the updates are being approved. If there is any problem, such as a conflict among the selected updates, it will be reported here. You may click **Cancel** to exit the approval process at any time. When the approval process completes successfully, close the window.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -41,7 +41,7 @@ You should approve updates to test the functionality of your WSUS deployment. Th
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">If you want to install an update immediately, you can specify a deadline at the current time or in the past. You can find more information about how clients install updates with deadlines in <a href="https://technet.microsoft.com/f4aff13a-07f0-4939-881f-95191a025fcc">Client Behavior with Update Deadlines</a>.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>

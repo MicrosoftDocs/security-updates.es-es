@@ -18,7 +18,7 @@ The table in this section shows the return codes (hexadecimal values) returned b
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -34,89 +34,89 @@ The table in this section shows the return codes (hexadecimal values) returned b
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x001450</p></td>
-<td style="border:1px solid black;"><p>SUS_LAUNCH_ERROR</p></td>
-<td style="border:1px solid black;"><p>Setup Launch Conditions not satisfied.</p></td>
+<td style="border:1px solid black;">0x001450</td>
+<td style="border:1px solid black;">SUS_LAUNCH_ERROR</td>
+<td style="border:1px solid black;">Setup Launch Conditions not satisfied.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x001451</p></td>
-<td style="border:1px solid black;"><p>SUS_UNKNOWN_ERROR</p></td>
-<td style="border:1px solid black;"><p>Unknown error.</p></td>
+<td style="border:1px solid black;">0x001451</td>
+<td style="border:1px solid black;">SUS_UNKNOWN_ERROR</td>
+<td style="border:1px solid black;">Unknown error.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x001452</p></td>
-<td style="border:1px solid black;"><p>SUS_REBOOT_REQUIRED</p></td>
-<td style="border:1px solid black;"><p>Reboot required to complete the installation. This most commonly occurs when installing wMSDE.</p></td>
+<td style="border:1px solid black;">0x001452</td>
+<td style="border:1px solid black;">SUS_REBOOT_REQUIRED</td>
+<td style="border:1px solid black;">Reboot required to complete the installation. This most commonly occurs when installing wMSDE.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x001453</p></td>
-<td style="border:1px solid black;"><p>SUS_INVALID_COMMANDLINE</p></td>
-<td style="border:1px solid black;"><p>Invalid CommandLine</p></td>
+<td style="border:1px solid black;">0x001453</td>
+<td style="border:1px solid black;">SUS_INVALID_COMMANDLINE</td>
+<td style="border:1px solid black;">Invalid CommandLine</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x001454</p></td>
-<td style="border:1px solid black;"><p>SUS_LOWSQLVERSION</p></td>
-<td style="border:1px solid black;"><p>Low SQL version—SQL 2005 is required.</p></td>
+<td style="border:1px solid black;">0x001454</td>
+<td style="border:1px solid black;">SUS_LOWSQLVERSION</td>
+<td style="border:1px solid black;">Low SQL version—SQL 2005 is required.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x001455</p></td>
-<td style="border:1px solid black;"><p>SUS_TRIGGERSNOTSET</p></td>
-<td style="border:1px solid black;"><p>SQL triggers are not set. When installing on an existing SQL instance, that instance must support nested triggers.</p></td>
+<td style="border:1px solid black;">0x001455</td>
+<td style="border:1px solid black;">SUS_TRIGGERSNOTSET</td>
+<td style="border:1px solid black;">SQL triggers are not set. When installing on an existing SQL instance, that instance must support nested triggers.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x001456</p></td>
-<td style="border:1px solid black;"><p>SUS_INVALIDPATH</p></td>
-<td style="border:1px solid black;"><p>Invalid content path specified.</p></td>
+<td style="border:1px solid black;">0x001456</td>
+<td style="border:1px solid black;">SUS_INVALIDPATH</td>
+<td style="border:1px solid black;">Invalid content path specified.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x001457</p></td>
-<td style="border:1px solid black;"><p>SUS_NETWORKPATH</p></td>
-<td style="border:1px solid black;"><p>Specified content path is a network path.</p></td>
+<td style="border:1px solid black;">0x001457</td>
+<td style="border:1px solid black;">SUS_NETWORKPATH</td>
+<td style="border:1px solid black;">Specified content path is a network path.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x001458</p></td>
-<td style="border:1px solid black;"><p>SUS_NONNTFS_PATH</p></td>
-<td style="border:1px solid black;"><p>Specified content path is not NTFS.</p></td>
+<td style="border:1px solid black;">0x001458</td>
+<td style="border:1px solid black;">SUS_NONNTFS_PATH</td>
+<td style="border:1px solid black;">Specified content path is not NTFS.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x001459</p></td>
-<td style="border:1px solid black;"><p>SUS_NONFIXEDDRIVE</p></td>
-<td style="border:1px solid black;"><p>Specified content path is not on a fixed drive.</p></td>
+<td style="border:1px solid black;">0x001459</td>
+<td style="border:1px solid black;">SUS_NONFIXEDDRIVE</td>
+<td style="border:1px solid black;">Specified content path is not on a fixed drive.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x00145a</p></td>
-<td style="border:1px solid black;"><p>SUS_NONTFS_DRIVES_PRESENT</p></td>
-<td style="border:1px solid black;"><p>No NTFS drives present on the system.</p></td>
+<td style="border:1px solid black;">0x00145a</td>
+<td style="border:1px solid black;">SUS_NONTFS_DRIVES_PRESENT</td>
+<td style="border:1px solid black;">No NTFS drives present on the system.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x00145b</p></td>
-<td style="border:1px solid black;"><p>SUS_INSUFFICIENT_SPACE</p></td>
-<td style="border:1px solid black;"><p>Not enough space is available at the given path. At least 6 GB of space is required.</p></td>
+<td style="border:1px solid black;">0x00145b</td>
+<td style="border:1px solid black;">SUS_INSUFFICIENT_SPACE</td>
+<td style="border:1px solid black;">Not enough space is available at the given path. At least 6 GB of space is required.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x00145c</p></td>
-<td style="border:1px solid black;"><p>SUS_NEED_SERVER_AND_PORT</p></td>
-<td style="border:1px solid black;"><p>Need both server name and port for replica mode.</p></td>
+<td style="border:1px solid black;">0x00145c</td>
+<td style="border:1px solid black;">SUS_NEED_SERVER_AND_PORT</td>
+<td style="border:1px solid black;">Need both server name and port for replica mode.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x00145d</p></td>
-<td style="border:1px solid black;"><p>SUS_MSCOM_SERVER</p></td>
-<td style="border:1px solid black;"><p>Specified server name ends in &quot;.microsoft.com&quot;.</p></td>
+<td style="border:1px solid black;">0x00145d</td>
+<td style="border:1px solid black;">SUS_MSCOM_SERVER</td>
+<td style="border:1px solid black;">Specified server name ends in &quot;.microsoft.com&quot;.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x001460</p></td>
-<td style="border:1px solid black;"><p>SUS_ERROR_PREREQCHECK_FAIL</p></td>
-<td style="border:1px solid black;"><p>Prerequisite check failed.</p></td>
+<td style="border:1px solid black;">0x001460</td>
+<td style="border:1px solid black;">SUS_ERROR_PREREQCHECK_FAIL</td>
+<td style="border:1px solid black;">Prerequisite check failed.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>0x001461</p></td>
-<td style="border:1px solid black;"><p>SUS_LOWDBSCHEMAUPGRADE_VERSION</p></td>
-<td style="border:1px solid black;"><p>This database schema is too old to be upgraded.</p></td>
+<td style="border:1px solid black;">0x001461</td>
+<td style="border:1px solid black;">SUS_LOWDBSCHEMAUPGRADE_VERSION</td>
+<td style="border:1px solid black;">This database schema is too old to be upgraded.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0x001462</p></td>
-<td style="border:1px solid black;"><p>SUS_UPGRADE_REQUIRED</p></td>
-<td style="border:1px solid black;"><p>Setup needs to upgrade from a previous version. Use the /G to avoid this error.</p></td>
+<td style="border:1px solid black;">0x001462</td>
+<td style="border:1px solid black;">SUS_UPGRADE_REQUIRED</td>
+<td style="border:1px solid black;">Setup needs to upgrade from a previous version. Use the /G to avoid this error.</td>
 </tr>
 </tbody>
 </table>

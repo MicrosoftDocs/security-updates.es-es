@@ -15,7 +15,7 @@ En la tabla siguiente, se enumeran los parámetros de la etiqueta REFRESH.
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -29,20 +29,20 @@ En la tabla siguiente, se enumeran los parámetros de la etiqueta REFRESH.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ID</p></td>
-<td style="border:1px solid black;"><p>Id. de la lista de revocaciones.</p></td>
+<td style="border:1px solid black;">ID</td>
+<td style="border:1px solid black;">Id. de la lista de revocaciones.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ADDRESS</p></td>
-<td style="border:1px solid black;"><p>Dirección URL o ruta UNC en que se puede obtener la lista de revocaciones.</p></td>
+<td style="border:1px solid black;">ADDRESS</td>
+<td style="border:1px solid black;">Dirección URL o ruta UNC en que se puede obtener la lista de revocaciones.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PUBLICKEY</p></td>
-<td style="border:1px solid black;"><p>Clave pública del emisor de la lista de revocaciones. Esta clave pública corresponde a la clave privada que se utilizó para firmar la lista de revocaciones.</p></td>
+<td style="border:1px solid black;">PUBLICKEY</td>
+<td style="border:1px solid black;">Clave pública del emisor de la lista de revocaciones. Esta clave pública corresponde a la clave privada que se utilizó para firmar la lista de revocaciones.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>INTERVALTIME</p></td>
-<td style="border:1px solid black;"><p>Duración máxima de la lista de revocaciones expresada en días. Si la lista de revocaciones de la caché es más antigua que el intervalo INTERVALTIME admitido, el cliente de RMS obtiene la lista de revocaciones más reciente de la dirección URL especificada en el parámetro ADDRESS, lo que garantiza la utilización de una lista de revocaciones actualizada.</p></td>
+<td style="border:1px solid black;">INTERVALTIME</td>
+<td style="border:1px solid black;">Duración máxima de la lista de revocaciones expresada en días. Si la lista de revocaciones de la caché es más antigua que el intervalo INTERVALTIME admitido, el cliente de RMS obtiene la lista de revocaciones más reciente de la dirección URL especificada en el parámetro ADDRESS, lo que garantiza la utilización de una lista de revocaciones actualizada.</td>
 </tr>
 </tbody>
 </table>

@@ -19,7 +19,7 @@ La lista de control de acceso predeterminada de este servicio se muestra en la s
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -33,8 +33,8 @@ La lista de control de acceso predeterminada de este servicio se muestra en la s
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SYSTEM</p></td>
-<td style="border:1px solid black;"><p>Control total</p></td>
+<td style="border:1px solid black;">SYSTEM</td>
+<td style="border:1px solid black;">Control total</td>
 </tr>
 </tbody>
 </table>

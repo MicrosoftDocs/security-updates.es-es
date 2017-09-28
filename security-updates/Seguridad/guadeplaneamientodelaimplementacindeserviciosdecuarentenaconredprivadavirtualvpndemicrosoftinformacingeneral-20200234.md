@@ -915,7 +915,7 @@ La tabla siguiente incluye algunas de las capacidades de Connection Manager para
 
 **Tabla 4.1: Características de Connection Manager utilizadas por el departamento de TI de Woodgrove**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -923,18 +923,18 @@ La tabla siguiente incluye algunas de las capacidades de Connection Manager para
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Característica</p></th>
-<th><p>Capacidad</p></th>
+<th>Característica</th>
+<th>Capacidad</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Transmisión de la imagen de marca</p></td>
-<td style="border:1px solid black;"><p>Gráficos, iconos, mensajes y ayuda personalizados dotan al paquete del aspecto y el diseño corporativos. Los paquetes de Connection Manager pueden proporcionar números de asistencia técnica locales para los usuarios que viajan.</p></td>
+<td style="border:1px solid black;">Transmisión de la imagen de marca</td>
+<td style="border:1px solid black;">Gráficos, iconos, mensajes y ayuda personalizados dotan al paquete del aspecto y el diseño corporativos. Los paquetes de Connection Manager pueden proporcionar números de asistencia técnica locales para los usuarios que viajan.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Acciones personalizadas</p></td>
-<td style="border:1px solid black;"><p>Registro y actualizaciones de aplicaciones.</p></td>
+<td style="border:1px solid black;">Acciones personalizadas</td>
+<td style="border:1px solid black;">Registro y actualizaciones de aplicaciones.</td>
 </tr>
 </tbody>
 </table>
@@ -959,7 +959,7 @@ La tabla siguiente muestra los puertos TCP/IP que abre el filtro IP de cuarenten
   
 **Tabla 4.2: Puertos TCP/IP abiertos en el filtro de cuarentena de VPN**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -968,36 +968,36 @@ La tabla siguiente muestra los puertos TCP/IP que abre el filtro IP de cuarenten
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Número de puerto</p></th>
-<th><p>Uso</p></th>
-<th><p>Comentarios</p></th>
+<th>Número de puerto</th>
+<th>Uso</th>
+<th>Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>UDP 67, 68</p></td>
-<td style="border:1px solid black;"><p>DHCP</p></td>
-<td style="border:1px solid black;"><p>Solicita una dirección IP para el cliente</p></td>
+<td style="border:1px solid black;">UDP 67, 68</td>
+<td style="border:1px solid black;">DHCP</td>
+<td style="border:1px solid black;">Solicita una dirección IP para el cliente</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>UDP 53</p></td>
-<td style="border:1px solid black;"><p>DNS</p></td>
-<td style="border:1px solid black;"><p>Resolución de nombres</p></td>
+<td style="border:1px solid black;">UDP 53</td>
+<td style="border:1px solid black;">DNS</td>
+<td style="border:1px solid black;">Resolución de nombres</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>UDP 137</p></td>
-<td style="border:1px solid black;"><p>WINS</p></td>
-<td style="border:1px solid black;"><p>Resolución de nombres NetBIOS</p></td>
+<td style="border:1px solid black;">UDP 137</td>
+<td style="border:1px solid black;">WINS</td>
+<td style="border:1px solid black;">Resolución de nombres NetBIOS</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>TCP 139, 445</p></td>
-<td style="border:1px solid black;"><p>Uso compartido de archivos</p></td>
-<td style="border:1px solid black;"><p>Sólo se debe habilitar si es absolutamente necesario, proporciona sesión de NetBIOS y uso compartidos de archivos SMB</p></td>
+<td style="border:1px solid black;">TCP 139, 445</td>
+<td style="border:1px solid black;">Uso compartido de archivos</td>
+<td style="border:1px solid black;">Sólo se debe habilitar si es absolutamente necesario, proporciona sesión de NetBIOS y uso compartidos de archivos SMB</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>TCP 7250</p></td>
-<td style="border:1px solid black;"><p>RQC, RQS</p></td>
-<td style="border:1px solid black;"><p>Permite la comunicación entre el agente de cliente de los servicios de cuarentena de VPN y el componente de escucha del servidor</p></td>
+<td style="border:1px solid black;">TCP 7250</td>
+<td style="border:1px solid black;">RQC, RQS</td>
+<td style="border:1px solid black;">Permite la comunicación entre el agente de cliente de los servicios de cuarentena de VPN y el componente de escucha del servidor</td>
 </tr>
 </tbody>
 </table>
@@ -1196,7 +1196,7 @@ Estas secuencias de comandos son ejemplos y es posible que deba modificarlos ant
   
 **Tabla A.1: Ejemplos de secuencias de comandos para servicios de cuarentena**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1204,38 +1204,38 @@ Estas secuencias de comandos son ejemplos y es posible que deba modificarlos ant
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nombre de la secuencia de comandos</p></th>
-<th><p>Descripción</p></th>
+<th>Nombre de la secuencia de comandos</th>
+<th>Descripción</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Qsamples.cmd</p></td>
-<td style="border:1px solid black;"><p>Se trata del archivo de nivel superior al que se llama como acción posterior a la conexión desde el perfil de Connection Manager y que inicia las demás secuencias de comandos.</p></td>
+<td style="border:1px solid black;">Qsamples.cmd</td>
+<td style="border:1px solid black;">Se trata del archivo de nivel superior al que se llama como acción posterior a la conexión desde el perfil de Connection Manager y que inicia las demás secuencias de comandos.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AV.Bat</p></td>
-<td style="border:1px solid black;"><p>Comprueba si el software antivirus del cliente es la versión más reciente e incluye los archivos de firmas de virus más actuales. Esta secuencia de comandos únicamente valida el software antivirus eTrust. Póngase en contacto con su proveedor para obtener ayuda sobre cómo desarrollar una secuencia de comandos parecida para los demás paquetes de software antivirus.</p></td>
+<td style="border:1px solid black;">AV.Bat</td>
+<td style="border:1px solid black;">Comprueba si el software antivirus del cliente es la versión más reciente e incluye los archivos de firmas de virus más actuales. Esta secuencia de comandos únicamente valida el software antivirus eTrust. Póngase en contacto con su proveedor para obtener ayuda sobre cómo desarrollar una secuencia de comandos parecida para los demás paquetes de software antivirus.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CheckHotFixes.vbs</p></td>
-<td style="border:1px solid black;"><p>Comprueba si se han realizado las actualizaciones críticas en el equipo cliente. El administrador debe facilitar una lista de actualizaciones obligatorias.</p></td>
+<td style="border:1px solid black;">CheckHotFixes.vbs</td>
+<td style="border:1px solid black;">Comprueba si se han realizado las actualizaciones críticas en el equipo cliente. El administrador debe facilitar una lista de actualizaciones obligatorias.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ICS.vbs</p></td>
-<td style="border:1px solid black;"><p>Comprueba si existe una Conexión compartida a Internet y la deshabilita, si fuese necesario.</p></td>
+<td style="border:1px solid black;">ICS.vbs</td>
+<td style="border:1px solid black;">Comprueba si existe una Conexión compartida a Internet y la deshabilita, si fuese necesario.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Passwd.vbs</p></td>
-<td style="border:1px solid black;"><p>Comprueba si la contraseña cumple la directiva de la empresa.</p></td>
+<td style="border:1px solid black;">Passwd.vbs</td>
+<td style="border:1px solid black;">Comprueba si la contraseña cumple la directiva de la empresa.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ScrSaver.vbs</p></td>
-<td style="border:1px solid black;"><p>Comprueba la configuración de salvapantallas del usuario actual y se asegura de que esté habilitada y protegida mediante contraseña.</p></td>
+<td style="border:1px solid black;">ScrSaver.vbs</td>
+<td style="border:1px solid black;">Comprueba la configuración de salvapantallas del usuario actual y se asegura de que esté habilitada y protegida mediante contraseña.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>WF.vbs</p></td>
-<td style="border:1px solid black;"><p>Comprueba si existe el servidor de seguridad Windows Firewall en todas las interfaces de red y lo activa, si fuera necesario.</p></td>
+<td style="border:1px solid black;">WF.vbs</td>
+<td style="border:1px solid black;">Comprueba si existe el servidor de seguridad Windows Firewall en todas las interfaces de red y lo activa, si fuera necesario.</td>
 </tr>
 </tbody>
 </table>
@@ -1269,7 +1269,7 @@ En la tabla siguiente se muestran los parámetros del agente cliente de cuarente
   
 **Tabla A.2 Parámetros del agente RQC**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1277,34 +1277,34 @@ En la tabla siguiente se muestran los parámetros del agente cliente de cuarente
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parámetro</p></th>
-<th><p>Descripción</p></th>
+<th>Parámetro</th>
+<th>Descripción</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>ConnName</strong></p></td>
-<td style="border:1px solid black;"><p>Especifica el nombre de la conexión al servidor de acceso remoto en el host. El valor de este parámetro puede heredarse de la variable %DialRasEntry% del perfil de Connection Manager.</p></td>
+<td style="border:1px solid black;"><strong>ConnName</strong></td>
+<td style="border:1px solid black;">Especifica el nombre de la conexión al servidor de acceso remoto en el host. El valor de este parámetro puede heredarse de la variable %DialRasEntry% del perfil de Connection Manager.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>TunnelConnName</strong></p></td>
-<td style="border:1px solid black;"><p>Especifica el nombre de la conexión de túnel al servidor de acceso remoto en el host. El valor de este parámetro se puede heredar de la variable %TunnelRasEntry% del perfil de Connection Manager.</p></td>
+<td style="border:1px solid black;"><strong>TunnelConnName</strong></td>
+<td style="border:1px solid black;">Especifica el nombre de la conexión de túnel al servidor de acceso remoto en el host. El valor de este parámetro se puede heredar de la variable %TunnelRasEntry% del perfil de Connection Manager.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Port</strong></p></td>
-<td style="border:1px solid black;"><p>Especifica el puerto al que se envía la cadena de cuarentena. El puerto predeterminado utilizado por el agente de cuarentena de acceso remoto (RQS) en el servidor de acceso remoto es el puerto TCP 7250. Sólo debe especificar un número de puerto distinto para RQC si RQS utiliza un número de puerto diferente.</p></td>
+<td style="border:1px solid black;"><strong>Port</strong></td>
+<td style="border:1px solid black;">Especifica el puerto al que se envía la cadena de cuarentena. El puerto predeterminado utilizado por el agente de cuarentena de acceso remoto (RQS) en el servidor de acceso remoto es el puerto TCP 7250. Sólo debe especificar un número de puerto distinto para RQC si RQS utiliza un número de puerto diferente.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Domain</strong></p></td>
-<td style="border:1px solid black;"><p>Especifica el dominio del usuario que se conecta. El valor de este parámetro se puede heredar de la variable %Domain% del perfil de Connection Manager.</p></td>
+<td style="border:1px solid black;"><strong>Domain</strong></td>
+<td style="border:1px solid black;">Especifica el dominio del usuario que se conecta. El valor de este parámetro se puede heredar de la variable %Domain% del perfil de Connection Manager.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>UserName</strong></p></td>
-<td style="border:1px solid black;"><p>Especifica el nombre de usuario del usuario que se conecta. El valor de este parámetro se puede heredar de la variable %UserName% del perfil de Connection Manager.</p></td>
+<td style="border:1px solid black;"><strong>UserName</strong></td>
+<td style="border:1px solid black;">Especifica el nombre de usuario del usuario que se conecta. El valor de este parámetro se puede heredar de la variable %UserName% del perfil de Connection Manager.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>String</strong></p></td>
-<td style="border:1px solid black;"><p>Especifica una cadena de texto que contiene la versión de la secuencia de comandos creada por el administrador. Se admiten todos los caracteres excepto la secuencia de caracteres /0.</p></td>
+<td style="border:1px solid black;"><strong>String</strong></td>
+<td style="border:1px solid black;">Especifica una cadena de texto que contiene la versión de la secuencia de comandos creada por el administrador. Se admiten todos los caracteres excepto la secuencia de caracteres /0.</td>
 </tr>
 </tbody>
 </table>

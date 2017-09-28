@@ -18,7 +18,7 @@ The elements of the prerequisites schema are listed in the following table.
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -32,36 +32,36 @@ The elements of the prerequisites schema are listed in the following table.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PrereqResults</p></td>
-<td style="border:1px solid black;"><p>Root element.</p></td>
+<td style="border:1px solid black;">PrereqResults</td>
+<td style="border:1px solid black;">Root element.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Result</p></td>
-<td style="border:1px solid black;"><p>The result of a single prerequisite check. There may be 0…<em>n</em><strong>Result</strong> elements, one for each prerequisite.</p></td>
+<td style="border:1px solid black;">Result</td>
+<td style="border:1px solid black;">The result of a single prerequisite check. There may be 0…<em>n</em><strong>Result</strong> elements, one for each prerequisite.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Status</p></td>
-<td style="border:1px solid black;"><p>The localized description of the status code.</p></td>
+<td style="border:1px solid black;">Status</td>
+<td style="border:1px solid black;">The localized description of the status code.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Check</p></td>
-<td style="border:1px solid black;"><p>The product or component to be checked.</p></td>
+<td style="border:1px solid black;">Check</td>
+<td style="border:1px solid black;">The product or component to be checked.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Components</p></td>
-<td style="border:1px solid black;"><p>The component(s) for which this is a prerequisite. There may be 0…<em>n</em><strong>Component</strong> elements in a Components element.</p></td>
+<td style="border:1px solid black;">Components</td>
+<td style="border:1px solid black;">The component(s) for which this is a prerequisite. There may be 0…<em>n</em><strong>Component</strong> elements in a Components element.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Component</p></td>
-<td style="border:1px solid black;"><p>One of the component(s) for which this is a prerequisite.</p></td>
+<td style="border:1px solid black;">Component</td>
+<td style="border:1px solid black;">One of the component(s) for which this is a prerequisite.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Description</p></td>
-<td style="border:1px solid black;"><p>The description of the problem.</p></td>
+<td style="border:1px solid black;">Description</td>
+<td style="border:1px solid black;">The description of the problem.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Resolution</p></td>
-<td style="border:1px solid black;"><p>The way the customer may resolve the problem.</p></td>
+<td style="border:1px solid black;">Resolution</td>
+<td style="border:1px solid black;">The way the customer may resolve the problem.</td>
 </tr>
 </tbody>
 </table>

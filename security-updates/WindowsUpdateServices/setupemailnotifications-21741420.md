@@ -34,7 +34,7 @@ The WSUS 3.0 SP2 server can be configured to send e-mail notifications of new up
 
 11. Click **Apply** to save these settings.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -47,11 +47,11 @@ The WSUS 3.0 SP2 server can be configured to send e-mail notifications of new up
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">If both the WSUS administrative console and the WSUS server have the same settings for Daylight Savings Time adjustments, notifications will appear at the correct time. If the adjustments for Daylight Savings Time are different, then notifications will be off by the difference in the Daylight Savings Time adjustment.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 **Set up the e-mail server**
 1.  Click the **E-Mail Server** tab.
@@ -68,7 +68,7 @@ The WSUS 3.0 SP2 server can be configured to send e-mail notifications of new up
 
 7.  Enter the user name and password in the respective boxes.
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="100%" />
@@ -81,11 +81,11 @@ The WSUS 3.0 SP2 server can be configured to send e-mail notifications of new up
     <tbody>
     <tr class="odd">
     <td style="border:1px solid black;">You can change authentication credentials only on a WSUS server, not from a remote administration console.
-    <p></p></td>
+    </td>
     </tr>
     </tbody>
     </table>
-<p> </p>
+ 
 
 8.  Click **Apply** to save this information.
 

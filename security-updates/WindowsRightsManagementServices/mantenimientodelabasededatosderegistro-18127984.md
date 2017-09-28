@@ -38,7 +38,7 @@ Para saber cómo funciona esta estimación, supongamos que una organización de 
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -54,24 +54,24 @@ Para saber cómo funciona esta estimación, supongamos que una organización de 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Se han establecido correctamente los servicios en línea del servidor de RMS</p></td>
-<td style="border:1px solid black;"><p>1,7 MB</p></td>
-<td style="border:1px solid black;"><p>1,7 MB</p></td>
+<td style="border:1px solid black;">Se han establecido correctamente los servicios en línea del servidor de RMS</td>
+<td style="border:1px solid black;">1,7 MB</td>
+<td style="border:1px solid black;">1,7 MB</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Se inscriben 5.000 empleados (5.000*0,06)</p></td>
-<td style="border:1px solid black;"><p>300 MB</p></td>
-<td style="border:1px solid black;"><p>301,7 MB</p></td>
+<td style="border:1px solid black;">Se inscriben 5.000 empleados (5.000*0,06)</td>
+<td style="border:1px solid black;">300 MB</td>
+<td style="border:1px solid black;">301,7 MB</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Mensajes de correo electrónico protegidos a los que se ha obtenido acceso (25.000*0,19)</p></td>
-<td style="border:1px solid black;"><p>4.750 MB</p></td>
-<td style="border:1px solid black;"><p>5.051,7 MB</p></td>
+<td style="border:1px solid black;">Mensajes de correo electrónico protegidos a los que se ha obtenido acceso (25.000*0,19)</td>
+<td style="border:1px solid black;">4.750 MB</td>
+<td style="border:1px solid black;">5.051,7 MB</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Documentos protegidos a los que se ha obtenido acceso (15.000*0,19)</p></td>
-<td style="border:1px solid black;"><p>2.850 MB</p></td>
-<td style="border:1px solid black;"><p>7.901,7 MB</p></td>
+<td style="border:1px solid black;">Documentos protegidos a los que se ha obtenido acceso (15.000*0,19)</td>
+<td style="border:1px solid black;">2.850 MB</td>
+<td style="border:1px solid black;">7.901,7 MB</td>
 </tr>
 </tbody>
 </table>

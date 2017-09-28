@@ -46,7 +46,7 @@ Lamentablemente, estos esfuerzos no pusieron fin a sus problemas. Aunque no hubo
 
 En la tabla siguiente se ofrece un resumen razonable de los costos asociados a la historia anterior.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -54,34 +54,34 @@ En la tabla siguiente se ofrece un resumen razonable de los costos asociados a l
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento de costo</p></th>
-<th><p>Importe</p></th>
+<th>Elemento de costo</th>
+<th>Importe</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Costos de personal relacionados con la pérdida, incluida la recuperación de datos y los costos de notificación a los clientes.</p></td>
-<td style="border:1px solid black;"><p>45.000 dólares</p></td>
+<td style="border:1px solid black;">Costos de personal relacionados con la pérdida, incluida la recuperación de datos y los costos de notificación a los clientes.</td>
+<td style="border:1px solid black;">45.000 dólares</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Costos adicionales, como relaciones públicas y con los inversores, y llamadas adicionales al centro de llamadas.</p></td>
-<td style="border:1px solid black;"><p>135.000 dólares</p></td>
+<td style="border:1px solid black;">Costos adicionales, como relaciones públicas y con los inversores, y llamadas adicionales al centro de llamadas.</td>
+<td style="border:1px solid black;">135.000 dólares</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Costos de los clientes afectados (seguimiento de crédito de dichos clientes).</p></td>
-<td style="border:1px solid black;"><p>80.000 dólares</p></td>
+<td style="border:1px solid black;">Costos de los clientes afectados (seguimiento de crédito de dichos clientes).</td>
+<td style="border:1px solid black;">80.000 dólares</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gastos jurídicos, incluidas multas, honorarios de abogados y costos relacionados con una demanda civil.</p></td>
-<td style="border:1px solid black;"><p>165.000 dólares</p></td>
+<td style="border:1px solid black;">Gastos jurídicos, incluidas multas, honorarios de abogados y costos relacionados con una demanda civil.</td>
+<td style="border:1px solid black;">165.000 dólares</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Pérdida de ingresos de clientes (250 clientes perdidos a 700 dólares cada uno)</p></td>
-<td style="border:1px solid black;"><p>175.000 dólares</p></td>
+<td style="border:1px solid black;">Pérdida de ingresos de clientes (250 clientes perdidos a 700 dólares cada uno)</td>
+<td style="border:1px solid black;">175.000 dólares</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Total</p></td>
-<td style="border:1px solid black;"><p>600.000 dólares</p></td>
+<td style="border:1px solid black;">Total</td>
+<td style="border:1px solid black;">600.000 dólares</td>
 </tr>
 </tbody>
 </table>

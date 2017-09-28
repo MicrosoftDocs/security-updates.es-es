@@ -25,7 +25,7 @@ Limiting bandwidth on all Web sites
 
 5.  Click **OK**.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -38,11 +38,11 @@ Limiting bandwidth on all Web sites
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">You must be logged on as an administrator or have run IIS as an administrator to perform this procedure.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Limiting bandwidth on a specific Web site
 -----------------------------------------
@@ -58,7 +58,7 @@ Limiting bandwidth on a specific Web site
 
 5.  Click **OK**.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -71,7 +71,7 @@ Limiting bandwidth on a specific Web site
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">You must be logged on as an administrator or have run IIS as an administrator to perform this procedure.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>

@@ -13,7 +13,7 @@ En la siguiente tabla, se listan los contadores de rendimiento disponibles para 
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,16 +27,16 @@ En la siguiente tabla, se listan los contadores de rendimiento disponibles para 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Logging Failures</p></td>
-<td style="border:1px solid black;"><p>Número total de intentos de registro que no se han procesado completamente.</p></td>
+<td style="border:1px solid black;">Logging Failures</td>
+<td style="border:1px solid black;">Número total de intentos de registro que no se han procesado completamente.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Logging Processing Time</p></td>
-<td style="border:1px solid black;"><p>Tiempo, en microsegundos, utilizado para procesar solicitudes de registro.</p></td>
+<td style="border:1px solid black;">Logging Processing Time</td>
+<td style="border:1px solid black;">Tiempo, en microsegundos, utilizado para procesar solicitudes de registro.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Logging Requests</p></td>
-<td style="border:1px solid black;"><p>Número total de solicitudes de registro que ha recibido el servicio de registro.</p></td>
+<td style="border:1px solid black;">Logging Requests</td>
+<td style="border:1px solid black;">Número total de solicitudes de registro que ha recibido el servicio de registro.</td>
 </tr>
 </tbody>
 </table>

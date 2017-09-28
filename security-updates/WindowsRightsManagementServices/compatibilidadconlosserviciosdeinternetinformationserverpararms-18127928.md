@@ -25,7 +25,7 @@ En la tabla siguiente, se enumeran los directorios virtuales que se crean en IIS
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -41,99 +41,99 @@ En la tabla siguiente, se enumeran los directorios virtuales que se crean en IIS
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>_wmcs</p></td>
-<td style="border:1px solid black;"><p>Directorio virtual de administración del clúster de RMS</p></td>
-<td style="border:1px solid black;"><p>No aplicable</p></td>
+<td style="border:1px solid black;">_wmcs</td>
+<td style="border:1px solid black;">Directorio virtual de administración del clúster de RMS</td>
+<td style="border:1px solid black;">No aplicable</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certification</p></td>
-<td style="border:1px solid black;"><p>Directorio virtual que contiene los servicios que permiten la certificación de RMS</p></td>
-<td style="border:1px solid black;"><p>No aplicable</p></td>
+<td style="border:1px solid black;">Certification</td>
+<td style="border:1px solid black;">Directorio virtual que contiene los servicios que permiten la certificación de RMS</td>
+<td style="border:1px solid black;">No aplicable</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Proxy de activación</p></td>
-<td style="border:1px solid black;"><p>Activation.asmx</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Proxy de activación</td>
+<td style="border:1px solid black;">Activation.asmx</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Certificación de cuentas</p></td>
-<td style="border:1px solid black;"><p>Certification.asmx</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Certificación de cuentas</td>
+<td style="border:1px solid black;">Certification.asmx</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Precertificación</p></td>
-<td style="border:1px solid black;"><p>Precertification.asmx</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Precertificación</td>
+<td style="border:1px solid black;">Precertification.asmx</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Localización de servicios</p></td>
-<td style="border:1px solid black;"><p>ServiceLocator.asmx</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Localización de servicios</td>
+<td style="border:1px solid black;">ServiceLocator.asmx</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Servidor</p></td>
-<td style="border:1px solid black;"><p>Server.asmx</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Servidor</td>
+<td style="border:1px solid black;">Server.asmx</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Certificación de servidores</p></td>
-<td style="border:1px solid black;"><p>ServerCertification.asmx</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Certificación de servidores</td>
+<td style="border:1px solid black;">ServerCertification.asmx</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Certificación de dispositivos móviles</p></td>
-<td style="border:1px solid black;"><p>MobileDeviceCertfication.asmx</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Certificación de dispositivos móviles</td>
+<td style="border:1px solid black;">MobileDeviceCertfication.asmx</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Inscripción</p></td>
-<td style="border:1px solid black;"><p>SubEnrollService.asmx</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Inscripción</td>
+<td style="border:1px solid black;">SubEnrollService.asmx</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Licencias</p></td>
-<td style="border:1px solid black;"><p>Directorio virtual que contiene los servicios que hacen posible la emisión de licencias de RMS</p></td>
-<td style="border:1px solid black;"><p>No aplicable</p></td>
+<td style="border:1px solid black;">Licencias</td>
+<td style="border:1px solid black;">Directorio virtual que contiene los servicios que hacen posible la emisión de licencias de RMS</td>
+<td style="border:1px solid black;">No aplicable</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Licencias</p></td>
-<td style="border:1px solid black;"><p>License.asmx</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Licencias</td>
+<td style="border:1px solid black;">License.asmx</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Publicación</p></td>
-<td style="border:1px solid black;"><p>Publish.asmx</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Publicación</td>
+<td style="border:1px solid black;">Publish.asmx</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Servidor</p></td>
-<td style="border:1px solid black;"><p>Server.asmx</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Servidor</td>
+<td style="border:1px solid black;">Server.asmx</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Localización de servicios</p></td>
-<td style="border:1px solid black;"><p>ServiceLocator.asmx</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Localización de servicios</td>
+<td style="border:1px solid black;">ServiceLocator.asmx</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Admin</p></td>
-<td style="border:1px solid black;"><p>Directorio virtual que contiene los servicios que permiten la administración de RMS</p></td>
-<td style="border:1px solid black;"><p>No aplicable</p></td>
+<td style="border:1px solid black;">Admin</td>
+<td style="border:1px solid black;">Directorio virtual que contiene los servicios que permiten la administración de RMS</td>
+<td style="border:1px solid black;">No aplicable</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Administración</p></td>
-<td style="border:1px solid black;"><p>AdminSvc.asmx</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Administración</td>
+<td style="border:1px solid black;">AdminSvc.asmx</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DrmRemote</p></td>
-<td style="border:1px solid black;"><p>Interfaz de .NET Remoting</p></td>
-<td style="border:1px solid black;"><p>No aplicable</p></td>
+<td style="border:1px solid black;">DrmRemote</td>
+<td style="border:1px solid black;">Interfaz de .NET Remoting</td>
+<td style="border:1px solid black;">No aplicable</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DirectoryServices</p></td>
-<td style="border:1px solid black;"><p>Éste es un subdirectorio de DrmRemote</p></td>
-<td style="border:1px solid black;"><p>No aplicable</p></td>
+<td style="border:1px solid black;">DirectoryServices</td>
+<td style="border:1px solid black;">Éste es un subdirectorio de DrmRemote</td>
+<td style="border:1px solid black;">No aplicable</td>
 </tr>
 </tbody>
 </table>

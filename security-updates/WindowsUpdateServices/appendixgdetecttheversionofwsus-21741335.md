@@ -27,7 +27,7 @@ has an InstallType subkey with the following possible values:
 
 **FullInstall = 128**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -40,11 +40,11 @@ has an InstallType subkey with the following possible values:
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">You can upgrade from WSUS 2.0 to WSUS 3.0 SP2 for installations with the <strong>Frontend</strong> and <strong>FullInstall</strong> values. For the <strong>Backend</strong> value, you would uninstall WSUS, leaving the database behind. This database will be upgraded when the front-end WSUS server that points to the database is upgraded.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 WSUS 3.0 SP2 pre-release candidate versions
 -------------------------------------------

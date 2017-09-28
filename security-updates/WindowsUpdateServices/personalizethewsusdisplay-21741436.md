@@ -18,7 +18,7 @@ You can configure different aspects of the way WSUS server information is displa
 
 3.  Click **OK**.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -31,11 +31,11 @@ You can configure different aspects of the way WSUS server information is displa
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Computer and update status will roll up from downstream replica servers only. It is not possible to get rolled-up status from a downstream autonomous server.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 **To display validation errors as pop-up windows**
 1.  From the WSUS Administration console, click **Options**, and then click **Personalization**.
@@ -44,7 +44,7 @@ You can configure different aspects of the way WSUS server information is displa
 
 3.  Click **OK**.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -57,11 +57,11 @@ You can configure different aspects of the way WSUS server information is displa
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">If you choose this option, errors will appear as pop-up windows and not as links in the UI.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 **To display different information in the To Do section**
 1.  From the WSUS Administration console, click **Options**, and then click **Personalization**.

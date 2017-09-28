@@ -123,7 +123,7 @@ Un equipo adecuado del CSIRT está formado por varios miembros clave.
 
 **Miembros asociados al CSIRT**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -131,35 +131,35 @@ Un equipo adecuado del CSIRT está formado por varios miembros clave.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Miembro asociado</p></th>
-<th><p>Descripción de su función</p></th>
+<th>Miembro asociado</th>
+<th>Descripción de su función</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Contacto de TI</p></td>
-<td style="border:1px solid black;"><p>Este miembro es principalmente responsable de coordinar la comunicación entre el coordinador de incidentes del CSIRT y el resto del grupo de TI. El contacto de TI quizás no tenga la experiencia técnica específica para responder a un incidente concreto; sin embargo, será el responsable principal de encontrar a la persona del grupo de TI adecuada para tratar con eventos de seguridad particulares.</p></td>
+<td style="border:1px solid black;">Contacto de TI</td>
+<td style="border:1px solid black;">Este miembro es principalmente responsable de coordinar la comunicación entre el coordinador de incidentes del CSIRT y el resto del grupo de TI. El contacto de TI quizás no tenga la experiencia técnica específica para responder a un incidente concreto; sin embargo, será el responsable principal de encontrar a la persona del grupo de TI adecuada para tratar con eventos de seguridad particulares.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Representante legal</p></td>
-<td style="border:1px solid black;"><p>Este miembro es un abogado muy familiarizado con las directivas de respuesta a incidentes establecidas. El representante legal determina cómo proceder durante un incidente con responsabilidad legal mínima y capacidad máxima para procesar a los delincuentes.</p>
-<p>Antes de que ocurra un incidente, el representante legal debe tener información sobre las labores de supervisión y las directivas de respuesta para garantizar que la organización no sufre riesgos legales durante una operación de limpieza o contención. Es muy importante tener en cuenta las implicaciones legales de apagar un sistema y posiblemente infringir los contratos de nivel de servicios o de suscripción establecidos con sus clientes, o de no apagar un sistema en peligro y ser responsable de daños causados por ataques iniciados desde ese sistema.</p>
-<p>Cualquier comunicación con las autoridades legales u organismos de investigación externas debe estar coordinada con el representante legal.</p></td>
+<td style="border:1px solid black;">Representante legal</td>
+<td style="border:1px solid black;">Este miembro es un abogado muy familiarizado con las directivas de respuesta a incidentes establecidas. El representante legal determina cómo proceder durante un incidente con responsabilidad legal mínima y capacidad máxima para procesar a los delincuentes.
+Antes de que ocurra un incidente, el representante legal debe tener información sobre las labores de supervisión y las directivas de respuesta para garantizar que la organización no sufre riesgos legales durante una operación de limpieza o contención. Es muy importante tener en cuenta las implicaciones legales de apagar un sistema y posiblemente infringir los contratos de nivel de servicios o de suscripción establecidos con sus clientes, o de no apagar un sistema en peligro y ser responsable de daños causados por ataques iniciados desde ese sistema.
+Cualquier comunicación con las autoridades legales u organismos de investigación externas debe estar coordinada con el representante legal.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Encargado de relaciones públicas</p></td>
-<td style="border:1px solid black;"><p>Generalmente, este miembro forma parte del departamento de relaciones públicas y es responsable de proteger y promocionar la imagen de la organización.</p>
-<p>Puede que este individuo no sea quien dé la cara ante los medios y clientes, pero es responsable de escribir el mensaje (el contenido y objetivo del mensaje son generalmente responsabilidad de la dirección). Todas las preguntas de los medios deben dirigirse al departamento de relaciones públicas.</p></td>
+<td style="border:1px solid black;">Encargado de relaciones públicas</td>
+<td style="border:1px solid black;">Generalmente, este miembro forma parte del departamento de relaciones públicas y es responsable de proteger y promocionar la imagen de la organización.
+Puede que este individuo no sea quien dé la cara ante los medios y clientes, pero es responsable de escribir el mensaje (el contenido y objetivo del mensaje son generalmente responsabilidad de la dirección). Todas las preguntas de los medios deben dirigirse al departamento de relaciones públicas.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Administración</p></td>
-<td style="border:1px solid black;"><p>Dependiendo del incidente concreto, puede que se implique sólo a los jefes de departamento o tal vez sea necesario que intervengan directivos de toda la organización. El directivo adecuado variará según la repercusión, la ubicación, la gravedad y el tipo de incidente.</p>
-<p>Si tiene un contacto en la dirección, podrá identificar rápidamente al individuo más apropiado para las circunstancias concretas. La dirección es responsable de aprobar y dirigir la directiva de seguridad.</p>
-<p>También es responsable de determinar la repercusión total (tanto financiera como en otros aspectos) del incidente en la organización. La dirección indica al encargado del departamento de comunicaciones qué información se debe divulgar a los medios y determina el nivel de interacción entre el representante legal y las autoridades competentes.</p></td>
+<td style="border:1px solid black;">Administración</td>
+<td style="border:1px solid black;">Dependiendo del incidente concreto, puede que se implique sólo a los jefes de departamento o tal vez sea necesario que intervengan directivos de toda la organización. El directivo adecuado variará según la repercusión, la ubicación, la gravedad y el tipo de incidente.
+Si tiene un contacto en la dirección, podrá identificar rápidamente al individuo más apropiado para las circunstancias concretas. La dirección es responsable de aprobar y dirigir la directiva de seguridad.
+También es responsable de determinar la repercusión total (tanto financiera como en otros aspectos) del incidente en la organización. La dirección indica al encargado del departamento de comunicaciones qué información se debe divulgar a los medios y determina el nivel de interacción entre el representante legal y las autoridades competentes.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 #### Respuesta a un incidente
 
@@ -178,8 +178,8 @@ En caso de incidente, el CSIRT coordinará una respuesta desde el CSIRT principa
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Actividad</p></th>
-<th><p>Función</p></th>
+<th>Actividad</th>
+<th>Función</th>
 <th></th>
 <th></th>
 <th></th>
@@ -189,75 +189,75 @@ En caso de incidente, el CSIRT coordinará una respuesta desde el CSIRT principa
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;"><p><strong>Coordinador de incidentes del CSIRT</strong></p></td>
-<td style="border:1px solid black;"><p><strong>Contacto de TI</strong></p></td>
-<td style="border:1px solid black;"><p><strong>Representante legal</strong></p></td>
-<td style="border:1px solid black;"><p><strong>Encargado del departamento de comunicaciones</strong></p></td>
-<td style="border:1px solid black;"><p><strong>Administración</strong></p></td>
+<td style="border:1px solid black;"><strong>Coordinador de incidentes del CSIRT</strong></td>
+<td style="border:1px solid black;"><strong>Contacto de TI</strong></td>
+<td style="border:1px solid black;"><strong>Representante legal</strong></td>
+<td style="border:1px solid black;"><strong>Encargado del departamento de comunicaciones</strong></td>
+<td style="border:1px solid black;"><strong>Administración</strong></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Evaluación inicial</p></td>
-<td style="border:1px solid black;"><p>Propietario</p></td>
-<td style="border:1px solid black;"><p>Asesoramiento</p></td>
-<td style="border:1px solid black;"><p>Ninguno</p></td>
-<td style="border:1px solid black;"><p>Ninguno</p></td>
-<td style="border:1px solid black;"><p>Ninguno</p></td>
+<td style="border:1px solid black;">Evaluación inicial</td>
+<td style="border:1px solid black;">Propietario</td>
+<td style="border:1px solid black;">Asesoramiento</td>
+<td style="border:1px solid black;">Ninguno</td>
+<td style="border:1px solid black;">Ninguno</td>
+<td style="border:1px solid black;">Ninguno</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Respuesta inicial</p></td>
-<td style="border:1px solid black;"><p>Propietario</p></td>
-<td style="border:1px solid black;"><p>Implementación</p></td>
-<td style="border:1px solid black;"><p>Actualizaciones</p></td>
-<td style="border:1px solid black;"><p>Actualizaciones</p></td>
-<td style="border:1px solid black;"><p>Actualizaciones</p></td>
+<td style="border:1px solid black;">Respuesta inicial</td>
+<td style="border:1px solid black;">Propietario</td>
+<td style="border:1px solid black;">Implementación</td>
+<td style="border:1px solid black;">Actualizaciones</td>
+<td style="border:1px solid black;">Actualizaciones</td>
+<td style="border:1px solid black;">Actualizaciones</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Reunir pruebas forenses</p></td>
-<td style="border:1px solid black;"><p>Implementación</p></td>
-<td style="border:1px solid black;"><p>Asesoramiento</p></td>
-<td style="border:1px solid black;"><p>Propietario</p></td>
-<td style="border:1px solid black;"><p>Ninguno</p></td>
-<td style="border:1px solid black;"><p>Ninguno</p></td>
+<td style="border:1px solid black;">Reunir pruebas forenses</td>
+<td style="border:1px solid black;">Implementación</td>
+<td style="border:1px solid black;">Asesoramiento</td>
+<td style="border:1px solid black;">Propietario</td>
+<td style="border:1px solid black;">Ninguno</td>
+<td style="border:1px solid black;">Ninguno</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Implementar una solución temporal</p></td>
-<td style="border:1px solid black;"><p>Propietario</p></td>
-<td style="border:1px solid black;"><p>Implementación</p></td>
-<td style="border:1px solid black;"><p>Actualizaciones</p></td>
-<td style="border:1px solid black;"><p>Actualizaciones</p></td>
-<td style="border:1px solid black;"><p>Asesoramiento</p></td>
+<td style="border:1px solid black;">Implementar una solución temporal</td>
+<td style="border:1px solid black;">Propietario</td>
+<td style="border:1px solid black;">Implementación</td>
+<td style="border:1px solid black;">Actualizaciones</td>
+<td style="border:1px solid black;">Actualizaciones</td>
+<td style="border:1px solid black;">Asesoramiento</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Enviar comunicaciones</p></td>
-<td style="border:1px solid black;"><p>Asesoramiento</p></td>
-<td style="border:1px solid black;"><p>Asesoramiento</p></td>
-<td style="border:1px solid black;"><p>Asesoramiento</p></td>
-<td style="border:1px solid black;"><p>Implementación</p></td>
-<td style="border:1px solid black;"><p>Propietario</p></td>
+<td style="border:1px solid black;">Enviar comunicaciones</td>
+<td style="border:1px solid black;">Asesoramiento</td>
+<td style="border:1px solid black;">Asesoramiento</td>
+<td style="border:1px solid black;">Asesoramiento</td>
+<td style="border:1px solid black;">Implementación</td>
+<td style="border:1px solid black;">Propietario</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Consultar a las autoridades locales pertinentes</p></td>
-<td style="border:1px solid black;"><p>Actualizaciones</p></td>
-<td style="border:1px solid black;"><p>Actualizaciones</p></td>
-<td style="border:1px solid black;"><p>Implementación</p></td>
-<td style="border:1px solid black;"><p>Actualizaciones</p></td>
-<td style="border:1px solid black;"><p>Propietario</p></td>
+<td style="border:1px solid black;">Consultar a las autoridades locales pertinentes</td>
+<td style="border:1px solid black;">Actualizaciones</td>
+<td style="border:1px solid black;">Actualizaciones</td>
+<td style="border:1px solid black;">Implementación</td>
+<td style="border:1px solid black;">Actualizaciones</td>
+<td style="border:1px solid black;">Propietario</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Implementar soluciones permanentes</p></td>
-<td style="border:1px solid black;"><p>Propietario</p></td>
-<td style="border:1px solid black;"><p>Implementación</p></td>
-<td style="border:1px solid black;"><p>Actualizaciones</p></td>
-<td style="border:1px solid black;"><p>Actualizaciones</p></td>
-<td style="border:1px solid black;"><p>Actualizaciones</p></td>
+<td style="border:1px solid black;">Implementar soluciones permanentes</td>
+<td style="border:1px solid black;">Propietario</td>
+<td style="border:1px solid black;">Implementación</td>
+<td style="border:1px solid black;">Actualizaciones</td>
+<td style="border:1px solid black;">Actualizaciones</td>
+<td style="border:1px solid black;">Actualizaciones</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Determinar la repercusión financiera en el negocio</p></td>
-<td style="border:1px solid black;"><p>Actualizaciones</p></td>
-<td style="border:1px solid black;"><p>Actualizaciones</p></td>
-<td style="border:1px solid black;"><p>Asesoramiento</p></td>
-<td style="border:1px solid black;"><p>Actualizaciones</p></td>
-<td style="border:1px solid black;"><p>Propietario</p></td>
+<td style="border:1px solid black;">Determinar la repercusión financiera en el negocio</td>
+<td style="border:1px solid black;">Actualizaciones</td>
+<td style="border:1px solid black;">Actualizaciones</td>
+<td style="border:1px solid black;">Asesoramiento</td>
+<td style="border:1px solid black;">Actualizaciones</td>
+<td style="border:1px solid black;">Propietario</td>
 </tr>
 </tbody>
 </table>

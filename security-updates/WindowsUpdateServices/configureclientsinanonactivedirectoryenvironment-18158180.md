@@ -30,7 +30,7 @@ The keys and their value ranges are listed in the following table.
 
 ### Windows Update registry keys
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -46,51 +46,51 @@ The keys and their value ranges are listed in the following table.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>AcceptTrustedPublisherCerts</strong></p></td>
-<td style="border:1px solid black;"><p>Reg_DWORD</p></td>
-<td style="border:1px solid black;"><p>Range = 1|0</p>
-<p>1 = Enabled. The WSUS server will distribute signed third-party updates if available.</p>
-<p>0 = Disabled. The WSUS server will not distribute third-party updates.</p></td>
+<td style="border:1px solid black;"><strong>AcceptTrustedPublisherCerts</strong></td>
+<td style="border:1px solid black;">Reg_DWORD</td>
+<td style="border:1px solid black;">Range = 1|0
+1 = Enabled. The WSUS server will distribute signed third-party updates if available.
+0 = Disabled. The WSUS server will not distribute third-party updates.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>ElevateNonAdmins</strong></p></td>
-<td style="border:1px solid black;"><p>Reg_DWORD</p></td>
-<td style="border:1px solid black;"><p>Range = 1|0</p>
-<p>1 = Users in the Users security group are allowed to approve or disapprove updates.</p>
-<p>0 = Only users in the Administrators user group can approve or disapprove updates.</p></td>
+<td style="border:1px solid black;"><strong>ElevateNonAdmins</strong></td>
+<td style="border:1px solid black;">Reg_DWORD</td>
+<td style="border:1px solid black;">Range = 1|0
+1 = Users in the Users security group are allowed to approve or disapprove updates.
+0 = Only users in the Administrators user group can approve or disapprove updates.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>TargetGroup</strong></p></td>
-<td style="border:1px solid black;"><p>Reg_SZ</p></td>
-<td style="border:1px solid black;"><p>Name of the computer group to which the computer belongs, used to implement client-side targeting (for example, &quot;TestServers.&quot;) This policy is paired with <strong>TargetGroupEnabled</strong>.</p></td>
+<td style="border:1px solid black;"><strong>TargetGroup</strong></td>
+<td style="border:1px solid black;">Reg_SZ</td>
+<td style="border:1px solid black;">Name of the computer group to which the computer belongs, used to implement client-side targeting (for example, &quot;TestServers.&quot;) This policy is paired with <strong>TargetGroupEnabled</strong>.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>TargetGroupEnabled</strong></p></td>
-<td style="border:1px solid black;"><p>Reg_DWORD</p></td>
-<td style="border:1px solid black;"><p>Range = 1|0</p>
-<p>1 = Use client-side targeting.</p>
-<p>0 = Do not use client-side targeting. This policy is paired with <strong>TargetGroup</strong>.</p></td>
+<td style="border:1px solid black;"><strong>TargetGroupEnabled</strong></td>
+<td style="border:1px solid black;">Reg_DWORD</td>
+<td style="border:1px solid black;">Range = 1|0
+1 = Use client-side targeting.
+0 = Do not use client-side targeting. This policy is paired with <strong>TargetGroup</strong>.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>WUServer</strong></p></td>
-<td style="border:1px solid black;"><p>Reg_SZ</p></td>
-<td style="border:1px solid black;"><p>HTTP(S) URL of the WSUS server used by Automatic Updates and (by default) API callers. This policy is paired with <strong>WUStatusServer</strong>; both must be set to the same value in order for them to be valid.</p></td>
+<td style="border:1px solid black;"><strong>WUServer</strong></td>
+<td style="border:1px solid black;">Reg_SZ</td>
+<td style="border:1px solid black;">HTTP(S) URL of the WSUS server used by Automatic Updates and (by default) API callers. This policy is paired with <strong>WUStatusServer</strong>; both must be set to the same value in order for them to be valid.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>WUStatusServer</strong></p></td>
-<td style="border:1px solid black;"><p>Reg_SZ</p></td>
-<td style="border:1px solid black;"><p>The HTTP(S) URL of the server to which reporting information will be sent for client computers that use the WSUS server configured by the <strong>WUServer</strong> key. This policy is paired with <strong>WUServer</strong>; both must be set to the same value in order for them to be valid.</p></td>
+<td style="border:1px solid black;"><strong>WUStatusServer</strong></td>
+<td style="border:1px solid black;">Reg_SZ</td>
+<td style="border:1px solid black;">The HTTP(S) URL of the server to which reporting information will be sent for client computers that use the WSUS server configured by the <strong>WUServer</strong> key. This policy is paired with <strong>WUServer</strong>; both must be set to the same value in order for them to be valid.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>DisableWindowsUpdateAccess</strong></p></td>
-<td style="border:1px solid black;"><p>Reg_DWORD</p></td>
-<td style="border:1px solid black;"><p>Range = 1|0</p>
-<p>1 = Disables access to Windows Update.</p>
-<p>0 = Enables access to Windows Update.</p></td>
+<td style="border:1px solid black;"><strong>DisableWindowsUpdateAccess</strong></td>
+<td style="border:1px solid black;">Reg_DWORD</td>
+<td style="border:1px solid black;">Range = 1|0
+1 = Disables access to Windows Update.
+0 = Enables access to Windows Update.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Automatic Update configuration options
 --------------------------------------
@@ -103,7 +103,7 @@ The keys and their value ranges are listed in the following table.
 
 ### Automatic Updates Configuration Registry Keys
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -119,112 +119,112 @@ The keys and their value ranges are listed in the following table.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>AUOptions</strong></p></td>
-<td style="border:1px solid black;"><p>Reg_DWORD</p></td>
-<td style="border:1px solid black;"><p>Range = 2|3|4|5</p>
-<p>2 = Notify before download.</p>
-<p>3 = Automatically download and notify of installation.</p>
-<p>4 = Automatically download and schedule installation. (Only valid if values exist for <strong>ScheduledInstallDay</strong> and <strong>ScheduledInstallTime</strong>.)</p>
-<p>5 = Automatic Updates is required, but end users can configure it.</p></td>
+<td style="border:1px solid black;"><strong>AUOptions</strong></td>
+<td style="border:1px solid black;">Reg_DWORD</td>
+<td style="border:1px solid black;">Range = 2|3|4|5
+2 = Notify before download.
+3 = Automatically download and notify of installation.
+4 = Automatically download and schedule installation. (Only valid if values exist for <strong>ScheduledInstallDay</strong> and <strong>ScheduledInstallTime</strong>.)
+5 = Automatic Updates is required, but end users can configure it.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>AutoInstallMinorUpdates</strong></p></td>
-<td style="border:1px solid black;"><p>Reg_DWORD</p></td>
-<td style="border:1px solid black;"><p>Range = 0|1</p>
-<p>0 = Treat minor updates as other updates are treated.</p>
-<p>1 = Silently install minor updates.</p></td>
+<td style="border:1px solid black;"><strong>AutoInstallMinorUpdates</strong></td>
+<td style="border:1px solid black;">Reg_DWORD</td>
+<td style="border:1px solid black;">Range = 0|1
+0 = Treat minor updates as other updates are treated.
+1 = Silently install minor updates.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>DetectionFrequency</strong></p></td>
-<td style="border:1px solid black;"><p>Reg_DWORD</p></td>
-<td style="border:1px solid black;"><p>Range = n, where n = time in hours (1–22).</p>
-<p>Time between detection cycles.</p></td>
+<td style="border:1px solid black;"><strong>DetectionFrequency</strong></td>
+<td style="border:1px solid black;">Reg_DWORD</td>
+<td style="border:1px solid black;">Range = n, where n = time in hours (1–22).
+Time between detection cycles.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>DetectionFrequencyEnabled</strong></p></td>
-<td style="border:1px solid black;"><p>Reg_DWORD</p></td>
-<td style="border:1px solid black;"><p>Range = 0|1</p>
-<p>1 = Enable DetectionFrequency.</p>
-<p>0 = Disable custom DetectionFrequency (use default value of 22 hours).</p></td>
+<td style="border:1px solid black;"><strong>DetectionFrequencyEnabled</strong></td>
+<td style="border:1px solid black;">Reg_DWORD</td>
+<td style="border:1px solid black;">Range = 0|1
+1 = Enable DetectionFrequency.
+0 = Disable custom DetectionFrequency (use default value of 22 hours).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>NoAutoRebootWithLoggedOnUsers</strong></p></td>
-<td style="border:1px solid black;"><p>Reg_DWORD</p></td>
-<td style="border:1px solid black;"><p>Range = 0|1</p>
-<p>1 = Logged-on user gets to choose whether or not to restart his or her computer.</p>
-<p>0 = Automatic Updates notifies user that the computer will restart in 5 minutes.</p></td>
+<td style="border:1px solid black;"><strong>NoAutoRebootWithLoggedOnUsers</strong></td>
+<td style="border:1px solid black;">Reg_DWORD</td>
+<td style="border:1px solid black;">Range = 0|1
+1 = Logged-on user gets to choose whether or not to restart his or her computer.
+0 = Automatic Updates notifies user that the computer will restart in 5 minutes.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>NoAutoUpdate</strong></p></td>
-<td style="border:1px solid black;"><p>Reg_DWORD</p></td>
-<td style="border:1px solid black;"><p>Range = 0|1</p>
-<p>0 = Enable Automatic Updates.</p>
-<p>1 = Disable Automatic Updates.</p></td>
+<td style="border:1px solid black;"><strong>NoAutoUpdate</strong></td>
+<td style="border:1px solid black;">Reg_DWORD</td>
+<td style="border:1px solid black;">Range = 0|1
+0 = Enable Automatic Updates.
+1 = Disable Automatic Updates.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>RebootRelaunchTimeout</strong></p></td>
-<td style="border:1px solid black;"><p>Reg_DWORD</p></td>
-<td style="border:1px solid black;"><p>Range = n, where n = time in minutes (1–1,440).</p>
-<p>Time between prompting again for a scheduled restart.</p></td>
+<td style="border:1px solid black;"><strong>RebootRelaunchTimeout</strong></td>
+<td style="border:1px solid black;">Reg_DWORD</td>
+<td style="border:1px solid black;">Range = n, where n = time in minutes (1–1,440).
+Time between prompting again for a scheduled restart.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>RebootRelaunchTimeoutEnabled</strong></p></td>
-<td style="border:1px solid black;"><p>Reg_DWORD</p></td>
-<td style="border:1px solid black;"><p>Range = 0|1</p>
-<p>1 = Enable <strong>RebootRelaunchTimeout</strong></p>
-<p>0 = Disable custom <strong>RebootRelaunchTimeout</strong>(use default value of 10 minutes)</p></td>
+<td style="border:1px solid black;"><strong>RebootRelaunchTimeoutEnabled</strong></td>
+<td style="border:1px solid black;">Reg_DWORD</td>
+<td style="border:1px solid black;">Range = 0|1
+1 = Enable <strong>RebootRelaunchTimeout</strong>
+0 = Disable custom <strong>RebootRelaunchTimeout</strong>(use default value of 10 minutes)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>RebootWarningTimeout</strong></p></td>
-<td style="border:1px solid black;"><p>Reg_DWORD</p></td>
-<td style="border:1px solid black;"><p>Range = n, where n = time in minutes (1–30).</p>
-<p>Length, in minutes, of the restart warning countdown, after installing updates with a deadline or scheduled updates.</p></td>
+<td style="border:1px solid black;"><strong>RebootWarningTimeout</strong></td>
+<td style="border:1px solid black;">Reg_DWORD</td>
+<td style="border:1px solid black;">Range = n, where n = time in minutes (1–30).
+Length, in minutes, of the restart warning countdown, after installing updates with a deadline or scheduled updates.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>RebootWarningTimeoutEnabled</strong></p></td>
-<td style="border:1px solid black;"><p>Reg_DWORD</p></td>
-<td style="border:1px solid black;"><p>Range = 0|1</p>
-<p>1 = Enable <strong>RebootWarningTimeout</strong></p>
-<p>0 = Disable custom <strong>RebootWarningTimeout</strong> (use default value of 5 minutes)</p></td>
+<td style="border:1px solid black;"><strong>RebootWarningTimeoutEnabled</strong></td>
+<td style="border:1px solid black;">Reg_DWORD</td>
+<td style="border:1px solid black;">Range = 0|1
+1 = Enable <strong>RebootWarningTimeout</strong>
+0 = Disable custom <strong>RebootWarningTimeout</strong> (use default value of 5 minutes)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>RescheduleWaitTime</strong></p></td>
-<td style="border:1px solid black;"><p>Reg_DWORD</p></td>
-<td style="border:1px solid black;"><p>Range = n, where n = time in minutes (1–60).</p>
-<p>Time, in minutes, that Automatic Updates should wait at startup before applying updates from a missed scheduled installation time.</p>
-<p>Note that this policy applies only to scheduled installations, not deadlines. Updates whose deadlines have expired should always be installed as soon as possible.</p></td>
+<td style="border:1px solid black;"><strong>RescheduleWaitTime</strong></td>
+<td style="border:1px solid black;">Reg_DWORD</td>
+<td style="border:1px solid black;">Range = n, where n = time in minutes (1–60).
+Time, in minutes, that Automatic Updates should wait at startup before applying updates from a missed scheduled installation time.
+Note that this policy applies only to scheduled installations, not deadlines. Updates whose deadlines have expired should always be installed as soon as possible.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>RescheduleWaitTimeEnabled</strong></p></td>
-<td style="border:1px solid black;"><p>Reg_DWORD</p></td>
-<td style="border:1px solid black;"><p>Range = 0|1</p>
-<p>1 = Enable <strong>RescheduleWaitTime</strong></p>
-<p>0 = Disable <strong>RescheduleWaitTime</strong> (attempt the missed installation during the next scheduled installation time).</p></td>
+<td style="border:1px solid black;"><strong>RescheduleWaitTimeEnabled</strong></td>
+<td style="border:1px solid black;">Reg_DWORD</td>
+<td style="border:1px solid black;">Range = 0|1
+1 = Enable <strong>RescheduleWaitTime</strong>
+0 = Disable <strong>RescheduleWaitTime</strong> (attempt the missed installation during the next scheduled installation time).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>ScheduledInstallDay</strong></p></td>
-<td style="border:1px solid black;"><p>Reg_DWORD</p></td>
-<td style="border:1px solid black;"><p>Range = 0|1|2|3|4|5|6|7</p>
-<p>0 = Every day.</p>
-<p>1 through 7 = The days of the week from Sunday (1) to Saturday (7).</p>
-<p>(Only valid if <strong>AUOptions</strong> = 4.)</p></td>
+<td style="border:1px solid black;"><strong>ScheduledInstallDay</strong></td>
+<td style="border:1px solid black;">Reg_DWORD</td>
+<td style="border:1px solid black;">Range = 0|1|2|3|4|5|6|7
+0 = Every day.
+1 through 7 = The days of the week from Sunday (1) to Saturday (7).
+(Only valid if <strong>AUOptions</strong> = 4.)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>ScheduledInstallTime</strong></p></td>
-<td style="border:1px solid black;"><p>Reg_DWORD</p></td>
-<td style="border:1px solid black;"><p>Range = n, where n = the time of day in 24-hour format (0–23).</p></td>
+<td style="border:1px solid black;"><strong>ScheduledInstallTime</strong></td>
+<td style="border:1px solid black;">Reg_DWORD</td>
+<td style="border:1px solid black;">Range = n, where n = the time of day in 24-hour format (0–23).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>UseWUServer</strong></p></td>
-<td style="border:1px solid black;"><p>Reg_DWORD</p></td>
-<td style="border:1px solid black;"><p>Range = 0|1</p>
-<p>1 = This machine gets its updates from a WSUS server.</p>
-<p>0 = This machine gets its updates from Microsoft Update.</p>
-<p>The <strong>WUServer</strong> value is not respected unless this key is set.</p></td>
+<td style="border:1px solid black;"><strong>UseWUServer</strong></td>
+<td style="border:1px solid black;">Reg_DWORD</td>
+<td style="border:1px solid black;">Range = 0|1
+1 = This machine gets its updates from a WSUS server.
+0 = This machine gets its updates from Microsoft Update.
+The <strong>WUServer</strong> value is not respected unless this key is set.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Automatic Updates scenarios
 ---------------------------
@@ -289,7 +289,7 @@ When the admin creates and sets the **NoAutoRebootWithLoggedOnUsers** registry k
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -303,16 +303,16 @@ When the admin creates and sets the **NoAutoRebootWithLoggedOnUsers** registry k
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>The <strong>No</strong> button will be active.</p></td>
-<td style="border:1px solid black;"><p>The <strong>No</strong> button will be inactive.</p></td>
+<td style="border:1px solid black;">The <strong>No</strong> button will be active.</td>
+<td style="border:1px solid black;">The <strong>No</strong> button will be inactive.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>The <strong>Yes</strong> button will be active if the logged-on user is the only administrator logged on at the time the restart dialog appears.</p></td>
-<td style="border:1px solid black;"><p>The <strong>Yes</strong> button will now be active only if the logged-on user is the only non-administrator logged on at the time the restart dialog appears. However, the <strong>Yes</strong> button will be inactive if the user’s local security policy prohibits restarting.</p></td>
+<td style="border:1px solid black;">The <strong>Yes</strong> button will be active if the logged-on user is the only administrator logged on at the time the restart dialog appears.</td>
+<td style="border:1px solid black;">The <strong>Yes</strong> button will now be active only if the logged-on user is the only non-administrator logged on at the time the restart dialog appears. However, the <strong>Yes</strong> button will be inactive if the user’s local security policy prohibits restarting.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>The restart countdown progress bar and the text underneath the progress bar will not display.</p></td>
-<td style="border:1px solid black;"><p>The restart countdown progress bar and the text underneath the progress bar will not display.</p></td>
+<td style="border:1px solid black;">The restart countdown progress bar and the text underneath the progress bar will not display.</td>
+<td style="border:1px solid black;">The restart countdown progress bar and the text underneath the progress bar will not display.</td>
 </tr>
 </tbody>
 </table>
@@ -363,7 +363,7 @@ The following table shows the difference in behavior with **NoAutoRebootWithLogg
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <tr>
 <th colspan="2">
@@ -475,7 +475,7 @@ Restart notification that does not allow the user to initiate the restart or pos
 </td>
 </tr>
 </table>
-<p> </p>
+ 
 Note: After all users log off, Automatic Updates will restart the computer to complete the installation of the update.
 
 #### Interaction with other settings

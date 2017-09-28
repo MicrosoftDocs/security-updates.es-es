@@ -85,7 +85,7 @@ If BITS jobs fail, look in the event log to find errors. You can use the followi
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -101,39 +101,39 @@ If BITS jobs fail, look in the event log to find errors. You can use the followi
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>E_INVALIDARG</p></td>
-<td style="border:1px solid black;"><p>0x80070057</p></td>
-<td style="border:1px solid black;"><p>An incorrect proxy server name was specified in the user’s Internet Explorer proxy settings. This error is also seen when credentials are supplied for authentication schemes that are not NTLM/Negotiate, but the user name or password is null. Change the user’s IE settings to be a valid proxy server or Change the credentials not to be NULL user name/password for schemes other than NTLM/Negotiate.</p></td>
+<td style="border:1px solid black;">E_INVALIDARG</td>
+<td style="border:1px solid black;">0x80070057</td>
+<td style="border:1px solid black;">An incorrect proxy server name was specified in the user’s Internet Explorer proxy settings. This error is also seen when credentials are supplied for authentication schemes that are not NTLM/Negotiate, but the user name or password is null. Change the user’s IE settings to be a valid proxy server or Change the credentials not to be NULL user name/password for schemes other than NTLM/Negotiate.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ERROR_WINHTTP_NAME_NOT_RESOLVED</p></td>
-<td style="border:1px solid black;"><p>0x80072ee7</p></td>
-<td style="border:1px solid black;"><p>The server/proxy could not be resolved by BITS. Internet Explorer on the same machine in the context of the job owner would see the same problem. Try downloading the same file via the web browser using the context of the job owner.</p></td>
+<td style="border:1px solid black;">ERROR_WINHTTP_NAME_NOT_RESOLVED</td>
+<td style="border:1px solid black;">0x80072ee7</td>
+<td style="border:1px solid black;">The server/proxy could not be resolved by BITS. Internet Explorer on the same machine in the context of the job owner would see the same problem. Try downloading the same file via the web browser using the context of the job owner.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ERROR_HTTP_INVALID_SERVER_RESPONSE</p></td>
-<td style="border:1px solid black;"><p>0x80072f78</p></td>
-<td style="border:1px solid black;"><p>This is a transient error and the job will continue downloading.</p></td>
+<td style="border:1px solid black;">ERROR_HTTP_INVALID_SERVER_RESPONSE</td>
+<td style="border:1px solid black;">0x80072f78</td>
+<td style="border:1px solid black;">This is a transient error and the job will continue downloading.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>BG_E_INSUFFICIENT_RANGE_SUPPORT</p></td>
-<td style="border:1px solid black;"><p>0x80200013</p></td>
-<td style="border:1px solid black;"><p>BITS uses range headers in HTTP requests to request parts of a file. If the server or proxy server doesn’t understand Range requests and returns the full file instead of the requested range, BITS puts the job into the ERROR state with this error. Capture the network traffic during the error and examine if HTTP GET requests with “Range” header are getting valid responses. Check proxy servers to ensure that they are configured correctly to support Range requests.</p></td>
+<td style="border:1px solid black;">BG_E_INSUFFICIENT_RANGE_SUPPORT</td>
+<td style="border:1px solid black;">0x80200013</td>
+<td style="border:1px solid black;">BITS uses range headers in HTTP requests to request parts of a file. If the server or proxy server doesn’t understand Range requests and returns the full file instead of the requested range, BITS puts the job into the ERROR state with this error. Capture the network traffic during the error and examine if HTTP GET requests with “Range” header are getting valid responses. Check proxy servers to ensure that they are configured correctly to support Range requests.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>BG_E_MISSING_FILE_SIZE</p></td>
-<td style="border:1px solid black;"><p>0x80200011</p></td>
-<td style="border:1px solid black;"><p>When BITS sends a HEAD request and the server/proxy does not return Content-Length header in the response, BITS puts the job in ERROR state with this error. Check the proxy server and WSUS server to ensure that they are configured correctly. Some versions of the Apache 2.0 proxy server are known to exhibit this behavior.</p></td>
+<td style="border:1px solid black;">BG_E_MISSING_FILE_SIZE</td>
+<td style="border:1px solid black;">0x80200011</td>
+<td style="border:1px solid black;">When BITS sends a HEAD request and the server/proxy does not return Content-Length header in the response, BITS puts the job in ERROR state with this error. Check the proxy server and WSUS server to ensure that they are configured correctly. Some versions of the Apache 2.0 proxy server are known to exhibit this behavior.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>BG_E_HTTP_ERROR_403</p></td>
-<td style="border:1px solid black;"><p>0x80190193</p></td>
-<td style="border:1px solid black;"><p>When the server returns HTTP 403 response in any of the requests, BITS puts the job in ERROR state with this error code. HTTP 403 corresponds to “Forbidden: Access is denied.&quot; Check access permissions for the account running the job.</p></td>
+<td style="border:1px solid black;">BG_E_HTTP_ERROR_403</td>
+<td style="border:1px solid black;">0x80190193</td>
+<td style="border:1px solid black;">When the server returns HTTP 403 response in any of the requests, BITS puts the job in ERROR state with this error code. HTTP 403 corresponds to “Forbidden: Access is denied.&quot; Check access permissions for the account running the job.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ERROR_NOT_LOGGED_ON</p></td>
-<td style="border:1px solid black;"><p>0x800704dd</p></td>
-<td style="border:1px solid black;"><p>The SENS service is not receiving user logon notifications. BITS (version 2.0 and up) depends on logon notifications from Service Control Manager, which in turn depends on the SENS service. Ensure that the SENS service is started and running correctly.</p></td>
+<td style="border:1px solid black;">ERROR_NOT_LOGGED_ON</td>
+<td style="border:1px solid black;">0x800704dd</td>
+<td style="border:1px solid black;">The SENS service is not receiving user logon notifications. BITS (version 2.0 and up) depends on logon notifications from Service Control Manager, which in turn depends on the SENS service. Ensure that the SENS service is started and running correctly.</td>
 </tr>
 </tbody>
 </table>
@@ -144,7 +144,7 @@ If the BITS service fail to start, use the following table to diagnose the cause
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -153,24 +153,24 @@ If the BITS service fail to start, use the following table to diagnose the cause
 </colgroup>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ERROR_SERVICE_DOES_NOT_EXIST</p></td>
-<td style="border:1px solid black;"><p>0x80070424</p></td>
-<td style="border:1px solid black;"><p>See the section on repairing the BITS configuration below.</p></td>
+<td style="border:1px solid black;">ERROR_SERVICE_DOES_NOT_EXIST</td>
+<td style="border:1px solid black;">0x80070424</td>
+<td style="border:1px solid black;">See the section on repairing the BITS configuration below.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ERROR_SERVICE_NOT_IN_EXE</p></td>
-<td style="border:1px solid black;"><p>0x8007043B</p></td>
-<td style="border:1px solid black;"><p>BITS is not listed as one of the services in the netsvcs svchost group (does not apply to Windows 2000).</p></td>
+<td style="border:1px solid black;">ERROR_SERVICE_NOT_IN_EXE</td>
+<td style="border:1px solid black;">0x8007043B</td>
+<td style="border:1px solid black;">BITS is not listed as one of the services in the netsvcs svchost group (does not apply to Windows 2000).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ERROR_SERVICE_DISABLED</p></td>
-<td style="border:1px solid black;"><p>0x80070422</p></td>
-<td style="border:1px solid black;"><p>BITS has been disabled. Enable the BITS service.</p></td>
+<td style="border:1px solid black;">ERROR_SERVICE_DISABLED</td>
+<td style="border:1px solid black;">0x80070422</td>
+<td style="border:1px solid black;">BITS has been disabled. Enable the BITS service.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ERROR_SERVICE_DEPENDENCY_DELETED ERROR_SERVICE_DEPENDENCY_FAIL</p></td>
-<td style="border:1px solid black;"><p>0x80070433, 0x8007042c</p></td>
-<td style="border:1px solid black;"><p>A service appearing in the BITS service dependency list cannot be started. Make sure the dependency list for the BITS service is correct:</p>
+<td style="border:1px solid black;">ERROR_SERVICE_DEPENDENCY_DELETED ERROR_SERVICE_DEPENDENCY_FAIL</td>
+<td style="border:1px solid black;">0x80070433, 0x8007042c</td>
+<td style="border:1px solid black;">A service appearing in the BITS service dependency list cannot be started. Make sure the dependency list for the BITS service is correct:
 <ul>
 <li>Windows Vista: RpcSs, EventSystem (also http.sys and LanManWorkstation when peercaching is enabled)<br />
 <br />
@@ -187,19 +187,19 @@ If the BITS service fail to start, use the following table to diagnose the cause
 </ul></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ERROR_PATH_NOT_FOUND</p></td>
-<td style="border:1px solid black;"><p>0x80070003</p></td>
-<td style="border:1px solid black;"><p>Pre-Windows Vista: %ALLUSERSPROFILE%\Microsoft\Network doesn’t exist</p></td>
+<td style="border:1px solid black;">ERROR_PATH_NOT_FOUND</td>
+<td style="border:1px solid black;">0x80070003</td>
+<td style="border:1px solid black;">Pre-Windows Vista: %ALLUSERSPROFILE%\Microsoft\Network doesn’t exist</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ERROR_FILE_NOT_FOUND</p></td>
-<td style="border:1px solid black;"><p>0x80070002</p></td>
-<td style="border:1px solid black;"><p>The “Parameters” key is missing. Ensure that the following keys and values exist: HKLM\SYSTEM\CurrentControlSet\Services\BITS\Parameters\ServiceDll= %SystemRoot%\System32\qmgr.dll</p></td>
+<td style="border:1px solid black;">ERROR_FILE_NOT_FOUND</td>
+<td style="border:1px solid black;">0x80070002</td>
+<td style="border:1px solid black;">The “Parameters” key is missing. Ensure that the following keys and values exist: HKLM\SYSTEM\CurrentControlSet\Services\BITS\Parameters\ServiceDll= %SystemRoot%\System32\qmgr.dll</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>REGDB_E_CLASSNOTREG, EVENT_E_INTERNALERROR</p></td>
-<td style="border:1px solid black;"><p>0x80040154, 0x80040206</p></td>
-<td style="border:1px solid black;"><p>BITS for Windows 2000 is dependent on SENS and EventSystem services. If the COM+ catalog is corrupted, BITS may fail with this error code. See KB article Q315296 for details.</p></td>
+<td style="border:1px solid black;">REGDB_E_CLASSNOTREG, EVENT_E_INTERNALERROR</td>
+<td style="border:1px solid black;">0x80040154, 0x80040206</td>
+<td style="border:1px solid black;">BITS for Windows 2000 is dependent on SENS and EventSystem services. If the COM+ catalog is corrupted, BITS may fail with this error code. See KB article Q315296 for details.</td>
 </tr>
 </tbody>
 </table>

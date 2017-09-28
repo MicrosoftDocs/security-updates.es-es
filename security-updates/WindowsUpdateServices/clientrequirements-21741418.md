@@ -28,7 +28,7 @@ The following table shows the supported methods to clear the SUSClientID registr
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -44,8 +44,8 @@ The following table shows the supported methods to clear the SUSClientID registr
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>WSUS 2.0</p></td>
-<td style="border:1px solid black;"><p>NO</p></td>
+<td style="border:1px solid black;">WSUS 2.0</td>
+<td style="border:1px solid black;">NO</td>
 <td style="border:1px solid black;"><ul>
 <li>Clear the SUSClientID registry value on the image source before deployment.<br />
 <br />
@@ -56,8 +56,8 @@ The following table shows the supported methods to clear the SUSClientID registr
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>WSUS 2.0</p></td>
-<td style="border:1px solid black;"><p>YES</p></td>
+<td style="border:1px solid black;">WSUS 2.0</td>
+<td style="border:1px solid black;">YES</td>
 <td style="border:1px solid black;"><ul>
 <li>Clear the SUSClientID registry value on the image source before deployment.<br />
 <br />
@@ -68,8 +68,8 @@ The following table shows the supported methods to clear the SUSClientID registr
 </ul></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>WSUS 3.0</p></td>
-<td style="border:1px solid black;"><p>NO</p></td>
+<td style="border:1px solid black;">WSUS 3.0</td>
+<td style="border:1px solid black;">NO</td>
 <td style="border:1px solid black;"><ul>
 <li>Clear the SUSClientID registry value on the image source before deployment.<br />
 <br />
@@ -83,8 +83,8 @@ The following table shows the supported methods to clear the SUSClientID registr
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>WSUS 3.0</p></td>
-<td style="border:1px solid black;"><p>YES</p></td>
+<td style="border:1px solid black;">WSUS 3.0</td>
+<td style="border:1px solid black;">YES</td>
 <td style="border:1px solid black;"><ul>
 <li>Clear the SUSClientID registry value on the image source before deployment.<br />
 <br />
@@ -96,6 +96,6 @@ The following table shows the supported methods to clear the SUSClientID registr
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 For more information and step-by-step instructions to manually clear the SUSClientID registry value, refer to KB article 903262 at [http://go.microsoft.com/fwlink/?LinkId=147910](http://go.microsoft.com/fwlink/?linkid=147910).

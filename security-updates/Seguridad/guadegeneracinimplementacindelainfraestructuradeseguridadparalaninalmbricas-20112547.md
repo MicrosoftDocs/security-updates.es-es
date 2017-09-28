@@ -119,7 +119,7 @@ En la siguiente tabla se enumeran parámetros específicos de organización toma
 
 **Tabla 9.1: Elementos de configuración definidos por el usuario**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -127,30 +127,30 @@ En la siguiente tabla se enumeran parámetros específicos de organización toma
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento de configuración</p></th>
-<th><p>Configuración</p></th>
+<th>Elemento de configuración</th>
+<th>Configuración</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nombre DNS del dominio raíz del bosque de Active Directory</p></td>
-<td style="border:1px solid black;"><p><em>woodgrovebank.com</em></p></td>
+<td style="border:1px solid black;">Nombre DNS del dominio raíz del bosque de Active Directory</td>
+<td style="border:1px solid black;"><em>woodgrovebank.com</em></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nombre de dominio NetBIOS (servicio básico de entrada y salida de red)</p></td>
-<td style="border:1px solid black;"><p><em>WOODGROVEBANK</em></p></td>
+<td style="border:1px solid black;">Nombre de dominio NetBIOS (servicio básico de entrada y salida de red)</td>
+<td style="border:1px solid black;"><em>WOODGROVEBANK</em></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nombre del servidor IAS principal</p></td>
-<td style="border:1px solid black;"><p><em>HQ-IAS-01</em></p></td>
+<td style="border:1px solid black;">Nombre del servidor IAS principal</td>
+<td style="border:1px solid black;"><em>HQ-IAS-01</em></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nombre del servidor IAS secundario</p></td>
-<td style="border:1px solid black;"><p><em>HQ-IAS-02</em></p></td>
+<td style="border:1px solid black;">Nombre del servidor IAS secundario</td>
+<td style="border:1px solid black;"><em>HQ-IAS-02</em></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nombre del servidor IAS de sucursal opcional</p></td>
-<td style="border:1px solid black;"><p><em>BO-IAS-03</em></p></td>
+<td style="border:1px solid black;">Nombre del servidor IAS de sucursal opcional</td>
+<td style="border:1px solid black;"><em>BO-IAS-03</em></td>
 </tr>
 </tbody>
 </table>
@@ -161,7 +161,7 @@ La configuración especificada en esta tabla no se debe cambiar en su instalaci�
   
 **Tabla 9.2: Elementos de configuración que recomienda la solución**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -169,102 +169,102 @@ La configuración especificada en esta tabla no se debe cambiar en su instalaci�
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento de configuración</p></th>
-<th><p>Configuración</p></th>
+<th>Elemento de configuración</th>
+<th>Configuración</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Cuentas] Grupo global de Active Directory que controla la implementación de certificados de autenticación de usuario de 802.1X</p></td>
-<td style="border:1px solid black;"><p>Inscribir automáticamente la autenticación del cliente: certificado de usuario</p></td>
+<td style="border:1px solid black;">[Cuentas] Grupo global de Active Directory que controla la implementación de certificados de autenticación de usuario de 802.1X</td>
+<td style="border:1px solid black;">Inscribir automáticamente la autenticación del cliente: certificado de usuario</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Cuentas] Nombre anterior a Windows 2000 del grupo global de Active Directory que controla la implementación de certificados de autenticación de usuario de 802.1X</p></td>
-<td style="border:1px solid black;"><p>Inscribir automáticamente la autenticación del cliente: certificado de usuario</p></td>
+<td style="border:1px solid black;">[Cuentas] Nombre anterior a Windows 2000 del grupo global de Active Directory que controla la implementación de certificados de autenticación de usuario de 802.1X</td>
+<td style="border:1px solid black;">Inscribir automáticamente la autenticación del cliente: certificado de usuario</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Cuentas] Grupo global de Active Directory que controla la implementación de certificados de autenticación de equipo de 802.1X</p></td>
-<td style="border:1px solid black;"><p>Inscribir automáticamente la autenticación del cliente: certificado del equipo</p></td>
+<td style="border:1px solid black;">[Cuentas] Grupo global de Active Directory que controla la implementación de certificados de autenticación de equipo de 802.1X</td>
+<td style="border:1px solid black;">Inscribir automáticamente la autenticación del cliente: certificado del equipo</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Cuentas] Nombre anterior a Windows 2000 del grupo global de Active Directory que controla la implementación de certificados de autenticación de equipo de 802.1X</p></td>
-<td style="border:1px solid black;"><p>Inscribir automáticamente la autenticación del cliente: certificado del equipo</p></td>
+<td style="border:1px solid black;">[Cuentas] Nombre anterior a Windows 2000 del grupo global de Active Directory que controla la implementación de certificados de autenticación de equipo de 802.1X</td>
+<td style="border:1px solid black;">Inscribir automáticamente la autenticación del cliente: certificado del equipo</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Cuentas] Grupo global de Active Directory que contiene servidores IAS que requieren certificados de autenticación 802.1X</p></td>
-<td style="border:1px solid black;"><p>Inscribir automáticamente el certificado de autenticación de servidor IAS y RAS</p></td>
+<td style="border:1px solid black;">[Cuentas] Grupo global de Active Directory que contiene servidores IAS que requieren certificados de autenticación 802.1X</td>
+<td style="border:1px solid black;">Inscribir automáticamente el certificado de autenticación de servidor IAS y RAS</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Cuentas] Nombre anterior a Windows 2000 del grupo global de Active Directory que contiene servidores IAS que requieren certificados de autenticación 802.1X</p></td>
-<td style="border:1px solid black;"><p>Inscribir automáticamente el certificado de autenticación de servidor IAS y RAS</p></td>
+<td style="border:1px solid black;">[Cuentas] Nombre anterior a Windows 2000 del grupo global de Active Directory que contiene servidores IAS que requieren certificados de autenticación 802.1X</td>
+<td style="border:1px solid black;">Inscribir automáticamente el certificado de autenticación de servidor IAS y RAS</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Cuentas] Grupo global de Active Directory que contiene los usuarios que pueden obtener acceso a la red inalámbrica</p></td>
-<td style="border:1px solid black;"><p>Directiva de acceso remoto: usuarios inalámbricos</p></td>
+<td style="border:1px solid black;">[Cuentas] Grupo global de Active Directory que contiene los usuarios que pueden obtener acceso a la red inalámbrica</td>
+<td style="border:1px solid black;">Directiva de acceso remoto: usuarios inalámbricos</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Cuentas] Nombre anterior a Windows 2000 para el grupo global de Active Directory que contiene los usuarios que pueden obtener acceso a la red inalámbrica</p></td>
-<td style="border:1px solid black;"><p>Directiva de acceso remoto: usuarios inalámbricos</p></td>
+<td style="border:1px solid black;">[Cuentas] Nombre anterior a Windows 2000 para el grupo global de Active Directory que contiene los usuarios que pueden obtener acceso a la red inalámbrica</td>
+<td style="border:1px solid black;">Directiva de acceso remoto: usuarios inalámbricos</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Cuentas] Grupo global de Active Directory que contiene los equipos que pueden obtener acceso a la red inalámbrica</p></td>
-<td style="border:1px solid black;"><p>Directiva de acceso remoto: equipos inalámbricos</p></td>
+<td style="border:1px solid black;">[Cuentas] Grupo global de Active Directory que contiene los equipos que pueden obtener acceso a la red inalámbrica</td>
+<td style="border:1px solid black;">Directiva de acceso remoto: equipos inalámbricos</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Cuentas] Grupo global de Active Directory que contiene los equipos que pueden obtener acceso a la red inalámbrica</p></td>
-<td style="border:1px solid black;"><p>Directiva de acceso remoto: equipos inalámbricos</p></td>
+<td style="border:1px solid black;">[Cuentas] Grupo global de Active Directory que contiene los equipos que pueden obtener acceso a la red inalámbrica</td>
+<td style="border:1px solid black;">Directiva de acceso remoto: equipos inalámbricos</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Cuentas] Grupo universal de Active Directory que contiene el grupo de usuarios inalámbricos y el grupo de equipos inalámbricos</p></td>
-<td style="border:1px solid black;"><p>Directiva de acceso remoto - Acceso inalámbrico</p></td>
+<td style="border:1px solid black;">[Cuentas] Grupo universal de Active Directory que contiene el grupo de usuarios inalámbricos y el grupo de equipos inalámbricos</td>
+<td style="border:1px solid black;">Directiva de acceso remoto - Acceso inalámbrico</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Cuentas] Grupo universal de Active Directory que contiene el grupo de usuarios inalámbricos y el grupo de equipos inalámbricos</p></td>
-<td style="border:1px solid black;"><p>Directiva de acceso remoto - Acceso inalámbrico</p></td>
+<td style="border:1px solid black;">[Cuentas] Grupo universal de Active Directory que contiene el grupo de usuarios inalámbricos y el grupo de equipos inalámbricos</td>
+<td style="border:1px solid black;">Directiva de acceso remoto - Acceso inalámbrico</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Cuentas] Grupo global de Active Directory que contiene los equipos que requieren la configuración de las propiedades de red inalámbrica</p></td>
-<td style="border:1px solid black;"><p>Directiva de red inalámbrica - Equipo</p></td>
+<td style="border:1px solid black;">[Cuentas] Grupo global de Active Directory que contiene los equipos que requieren la configuración de las propiedades de red inalámbrica</td>
+<td style="border:1px solid black;">Directiva de red inalámbrica - Equipo</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Cuentas] Grupo global de Active Directory que contiene los equipos que requieren la configuración de las propiedades de red inalámbrica</p></td>
-<td style="border:1px solid black;"><p>Directiva de red inalámbrica - Equipo</p></td>
+<td style="border:1px solid black;">[Cuentas] Grupo global de Active Directory que contiene los equipos que requieren la configuración de las propiedades de red inalámbrica</td>
+<td style="border:1px solid black;">Directiva de red inalámbrica - Equipo</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Certificados] Plantilla de certificado utilizada para generar certificados para la autenticación del cliente usuario</p></td>
-<td style="border:1px solid black;"><p>Autenticación de cliente: usuario</p></td>
+<td style="border:1px solid black;">[Certificados] Plantilla de certificado utilizada para generar certificados para la autenticación del cliente usuario</td>
+<td style="border:1px solid black;">Autenticación de cliente: usuario</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Certificados] Plantilla de certificado utilizada para generar certificados para la autenticación del equipo cliente</p></td>
-<td style="border:1px solid black;"><p>Autenticación de cliente: equipo</p></td>
+<td style="border:1px solid black;">[Certificados] Plantilla de certificado utilizada para generar certificados para la autenticación del equipo cliente</td>
+<td style="border:1px solid black;">Autenticación de cliente: equipo</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Certificados] Plantilla de certificado utilizada para generar certificados de autenticación de servidor para que IAS los utilice</p></td>
-<td style="border:1px solid black;"><p>Autenticación de servidor IAS y RAS</p></td>
+<td style="border:1px solid black;">[Certificados] Plantilla de certificado utilizada para generar certificados de autenticación de servidor para que IAS los utilice</td>
+<td style="border:1px solid black;">Autenticación de servidor IAS y RAS</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Secuencias de comandos] Ruta para las secuencias de comandos de instalación</p></td>
-<td style="border:1px solid black;"><p>C:\MSSScripts</p></td>
+<td style="border:1px solid black;">[Secuencias de comandos] Ruta para las secuencias de comandos de instalación</td>
+<td style="border:1px solid black;">C:\MSSScripts</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Config] Ruta para archivos de copia de seguridad de la configuración</p></td>
-<td style="border:1px solid black;"><p>D:\IASConfig</p></td>
+<td style="border:1px solid black;">[Config] Ruta para archivos de copia de seguridad de la configuración</td>
+<td style="border:1px solid black;">D:\IASConfig</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Registros de solicitudes] Ubicación de los registros de textos de autenticación y auditoría IAS</p></td>
-<td style="border:1px solid black;"><p>D:\IASLogs</p></td>
+<td style="border:1px solid black;">[Registros de solicitudes] Ubicación de los registros de textos de autenticación y auditoría IAS</td>
+<td style="border:1px solid black;">D:\IASLogs</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Directiva de acceso remoto] Nombre de directiva</p></td>
-<td style="border:1px solid black;"><p>Permitir acceso inalámbrico</p></td>
+<td style="border:1px solid black;">[Directiva de acceso remoto] Nombre de directiva</td>
+<td style="border:1px solid black;">Permitir acceso inalámbrico</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Directiva de grupo] Nombre del objeto Directiva de grupo (GPO) de Active Directory</p></td>
-<td style="border:1px solid black;"><p>Directiva de red inalámbrica</p></td>
+<td style="border:1px solid black;">[Directiva de grupo] Nombre del objeto Directiva de grupo (GPO) de Active Directory</td>
+<td style="border:1px solid black;">Directiva de red inalámbrica</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Directiva de grupo] Directiva de red inalámbrica del GPO</p></td>
-<td style="border:1px solid black;"><p>Configuración inalámbrica de equipo cliente</p></td>
+<td style="border:1px solid black;">[Directiva de grupo] Directiva de red inalámbrica del GPO</td>
+<td style="border:1px solid black;">Configuración inalámbrica de equipo cliente</td>
 </tr>
 </tbody>
 </table>
@@ -575,7 +575,7 @@ La directiva de acceso remoto de IAS utiliza los grupos de seguridad basados en 
   
 **Tabla 9.3: Grupos de seguridad de Active Directory**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -583,22 +583,22 @@ La directiva de acceso remoto de IAS utiliza los grupos de seguridad basados en 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Grupo de seguridad</p></th>
-<th><p>Descripción</p></th>
+<th>Grupo de seguridad</th>
+<th>Descripción</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Directiva de acceso remoto: usuarios inalámbricos</p></td>
-<td style="border:1px solid black;"><p>Grupo global de los usuarios que requieren acceso a la WLAN.</p></td>
+<td style="border:1px solid black;">Directiva de acceso remoto: usuarios inalámbricos</td>
+<td style="border:1px solid black;">Grupo global de los usuarios que requieren acceso a la WLAN.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Directiva de acceso remoto: equipos inalámbricos</p></td>
-<td style="border:1px solid black;"><p>Grupo global de los equipos que requieren acceso a la WLAN.</p></td>
+<td style="border:1px solid black;">Directiva de acceso remoto: equipos inalámbricos</td>
+<td style="border:1px solid black;">Grupo global de los equipos que requieren acceso a la WLAN.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Directiva de acceso remoto - Acceso inalámbrico</p></td>
-<td style="border:1px solid black;"><p>Grupo universal que debe contener los dos grupos globales anteriores.</p></td>
+<td style="border:1px solid black;">Directiva de acceso remoto - Acceso inalámbrico</td>
+<td style="border:1px solid black;">Grupo universal que debe contener los dos grupos globales anteriores.</td>
 </tr>
 </tbody>
 </table>

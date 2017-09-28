@@ -164,7 +164,7 @@ La tabla siguiente describe las convenciones estilísticas utilizadas en este ma
 
 **Tabla 1.1: Convenciones de estilo**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -172,49 +172,49 @@ La tabla siguiente describe las convenciones estilísticas utilizadas en este ma
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
-<th><p>Significado</p></th>
+<th>Elemento</th>
+<th>Significado</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Negrita</strong></p></td>
-<td style="border:1px solid black;"><p>Caracteres que se escriben exactamente tal y como se muestran, incluidos comandos y modificadores. Los elementos de la interfaz de usuario que aparecen en el texto con carácter normativo también se muestran en negrita.</p></td>
+<td style="border:1px solid black;"><strong>Negrita</strong></td>
+<td style="border:1px solid black;">Caracteres que se escriben exactamente tal y como se muestran, incluidos comandos y modificadores. Los elementos de la interfaz de usuario que aparecen en el texto con carácter normativo también se muestran en negrita.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><em>Cursiva</em></p></td>
-<td style="border:1px solid black;"><p>Este tipo de fuente se utiliza en dos contextos:</p>
-<p>cuando aparece en la sección de texto principal, indica el título de otro documento.</p>
-<p>cuando se utiliza como parte de comandos o código (o en texto que hace referencia a comandos o código), indica un marcador de posición para variables que deben reemplazarse por valores específicos. Por ejemplo, <em>nombre_de_archivo.ext</em> indica que debe reemplazar el <em>nombre_de_archivo.ext</em> en cursiva con el nombre de archivo de su elección.</p></td>
+<td style="border:1px solid black;"><em>Cursiva</em></td>
+<td style="border:1px solid black;">Este tipo de fuente se utiliza en dos contextos:
+cuando aparece en la sección de texto principal, indica el título de otro documento.
+cuando se utiliza como parte de comandos o código (o en texto que hace referencia a comandos o código), indica un marcador de posición para variables que deben reemplazarse por valores específicos. Por ejemplo, <em>nombre_de_archivo.ext</em> indica que debe reemplazar el <em>nombre_de_archivo.ext</em> en cursiva con el nombre de archivo de su elección.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Texto de pantalla</p></td>
-<td style="border:1px solid black;"><p>Utilizado para texto que se muestra en pantalla (por ejemplo, el resultado de una herramienta de línea de comandos) y para comandos que necesitan especificarse en la línea de comandos.</p>
-<p>Algunos comandos no caben en el espacio de la página restringido por los márgenes. En este caso, el texto de comando se divide en varias líneas con sangría (esto aparece indicado por una nota que sigue al comando).</p></td>
+<td style="border:1px solid black;">Texto de pantalla</td>
+<td style="border:1px solid black;">Utilizado para texto que se muestra en pantalla (por ejemplo, el resultado de una herramienta de línea de comandos) y para comandos que necesitan especificarse en la línea de comandos.
+Algunos comandos no caben en el espacio de la página restringido por los márgenes. En este caso, el texto de comando se divide en varias líneas con sangría (esto aparece indicado por una nota que sigue al comando).</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><pre><code>Monospace font</code></pre></td>
-<td style="border:1px solid black;"><p>Ejemplos de código y contenido de los archivos de configuración.</p></td>
+<td style="border:1px solid black;">Ejemplos de código y contenido de los archivos de configuración.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>%SystemRoot%</p></td>
-<td style="border:1px solid black;"><p>La carpeta en la que se ha instalado el sistema operativo Windows.</p></td>
+<td style="border:1px solid black;">%SystemRoot%</td>
+<td style="border:1px solid black;">La carpeta en la que se ha instalado el sistema operativo Windows.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Nota</strong></p></td>
-<td style="border:1px solid black;"><p>Avisa al lector de que hay información adicional.</p></td>
+<td style="border:1px solid black;"><strong>Nota</strong></td>
+<td style="border:1px solid black;">Avisa al lector de que hay información adicional.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Importante</strong></p></td>
-<td style="border:1px solid black;"><p>Avisa al lector de información adicional esencial para completar la tarea.</p></td>
+<td style="border:1px solid black;"><strong>Importante</strong></td>
+<td style="border:1px solid black;">Avisa al lector de información adicional esencial para completar la tarea.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Precaución</strong></p></td>
-<td style="border:1px solid black;"><p>Avisa al lector de que si no se realiza o pasa por alto una determinada acción, se podrá producir una pérdida de datos.</p></td>
+<td style="border:1px solid black;"><strong>Precaución</strong></td>
+<td style="border:1px solid black;">Avisa al lector de que si no se realiza o pasa por alto una determinada acción, se podrá producir una pérdida de datos.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Advertencia</strong></p></td>
-<td style="border:1px solid black;"><p>Avisa al lector de que si no se realiza o pasa por alto una determinada acción, el usuario o el hardware podría resultar dañado físicamente.</p></td>
+<td style="border:1px solid black;"><strong>Advertencia</strong></td>
+<td style="border:1px solid black;">Avisa al lector de que si no se realiza o pasa por alto una determinada acción, el usuario o el hardware podría resultar dañado físicamente.</td>
 </tr>
 </tbody>
 </table>

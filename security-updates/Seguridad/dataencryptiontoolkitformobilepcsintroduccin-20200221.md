@@ -80,7 +80,7 @@ Esta sección ofrece una introducción a los capítulos de esta guía.
 
 Esta guía usa las convenciones de estilo descritas en la tabla siguiente.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -88,36 +88,36 @@ Esta guía usa las convenciones de estilo descritas en la tabla siguiente.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
-<th><p>Significado</p></th>
+<th>Elemento</th>
+<th>Significado</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Negrita</strong></p></td>
-<td style="border:1px solid black;"><p>Significa caracteres escritos exactamente como se muestran, incluidos comandos, modificadores y nombres de archivos. Los elementos de la interfaz de usuario también se muestran en negrita.</p></td>
+<td style="border:1px solid black;"><strong>Negrita</strong></td>
+<td style="border:1px solid black;">Significa caracteres escritos exactamente como se muestran, incluidos comandos, modificadores y nombres de archivos. Los elementos de la interfaz de usuario también se muestran en negrita.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><em>Cursiva</em></p></td>
-<td style="border:1px solid black;"><p>Los títulos de libros y otras publicaciones importantes aparecen en <em>cursiva</em>.</p></td>
+<td style="border:1px solid black;"><em>Cursiva</em></td>
+<td style="border:1px solid black;">Los títulos de libros y otras publicaciones importantes aparecen en <em>cursiva</em>.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><em>&lt;Cursiva&gt;</em></p></td>
-<td style="border:1px solid black;"><p>Los marcadores de posición en cursiva y entre corchetes angulares – <em>&lt;nombre de archivo&gt;</em> – representan variables.</p></td>
+<td style="border:1px solid black;"><em>&lt;Cursiva&gt;</em></td>
+<td style="border:1px solid black;">Los marcadores de posición en cursiva y entre corchetes angulares – <em>&lt;nombre de archivo&gt;</em> – representan variables.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><pre><code>Fuente monoespaciada</code></pre>
 <br />
 </td>
-<td style="border:1px solid black;"><p>Muestra ejemplos de códigos y scripts.</p></td>
+<td style="border:1px solid black;">Muestra ejemplos de códigos y scripts.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Nota</strong></p></td>
-<td style="border:1px solid black;"><p>Avisa al lector de que hay información adicional.</p></td>
+<td style="border:1px solid black;"><strong>Nota</strong></td>
+<td style="border:1px solid black;">Avisa al lector de que hay información adicional.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Importante</strong></p></td>
-<td style="border:1px solid black;"><p>Avisa al lector de que hay información adicional fundamental.</p></td>
+<td style="border:1px solid black;"><strong>Importante</strong></td>
+<td style="border:1px solid black;">Avisa al lector de que hay información adicional fundamental.</td>
 </tr>
 </tbody>
 </table>

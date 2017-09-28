@@ -121,7 +121,7 @@ La información adicional para cada configuración se proporciona en las subsecc
 
 **Tabla 3.1 Recomendaciones sobre la configuración de la directiva de contraseñas**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -131,48 +131,48 @@ La información adicional para cada configuración se proporciona en las subsecc
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuración</p></th>
-<th><p>Cliente heredado</p></th>
-<th><p>Cliente de empresa</p></th>
-<th><p>Seguridad especializada: Funcionalidad limitada</p></th>
+<th>Configuración</th>
+<th>Cliente heredado</th>
+<th>Cliente de empresa</th>
+<th>Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Forzar el historial de contraseñas</p></td>
-<td style="border:1px solid black;"><p>Se recuerdan 24 contraseñas</p></td>
-<td style="border:1px solid black;"><p>Se recuerdan 24 contraseñas</p></td>
-<td style="border:1px solid black;"><p>Se recuerdan 24 contraseñas</p></td>
+<td style="border:1px solid black;">Forzar el historial de contraseñas</td>
+<td style="border:1px solid black;">Se recuerdan 24 contraseñas</td>
+<td style="border:1px solid black;">Se recuerdan 24 contraseñas</td>
+<td style="border:1px solid black;">Se recuerdan 24 contraseñas</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Vigencia máxima de la contraseña</p></td>
-<td style="border:1px solid black;"><p>42 días</p></td>
-<td style="border:1px solid black;"><p>42 días</p></td>
-<td style="border:1px solid black;"><p>42 días</p></td>
+<td style="border:1px solid black;">Vigencia máxima de la contraseña</td>
+<td style="border:1px solid black;">42 días</td>
+<td style="border:1px solid black;">42 días</td>
+<td style="border:1px solid black;">42 días</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Vigencia mínima de la contraseña</p></td>
-<td style="border:1px solid black;"><p>1 día</p></td>
-<td style="border:1px solid black;"><p>1 día</p></td>
-<td style="border:1px solid black;"><p>1 día</p></td>
+<td style="border:1px solid black;">Vigencia mínima de la contraseña</td>
+<td style="border:1px solid black;">1 día</td>
+<td style="border:1px solid black;">1 día</td>
+<td style="border:1px solid black;">1 día</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Longitud mínima de la contraseña</p></td>
-<td style="border:1px solid black;"><p>8 caracteres</p></td>
-<td style="border:1px solid black;"><p>8 caracteres</p></td>
-<td style="border:1px solid black;"><p>12 caracteres</p></td>
+<td style="border:1px solid black;">Longitud mínima de la contraseña</td>
+<td style="border:1px solid black;">8 caracteres</td>
+<td style="border:1px solid black;">8 caracteres</td>
+<td style="border:1px solid black;">12 caracteres</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Las contraseñas deben cumplir los requerimientos de complejidad</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Las contraseñas deben cumplir los requerimientos de complejidad</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Almacenar contraseña usando cifrado reversible para todos los usuarios del dominio</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Almacenar contraseña usando cifrado reversible para todos los usuarios del dominio</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 </tbody>
 </table>
@@ -268,7 +268,7 @@ La información adicional para cada configuración se proporciona en las subsecc
   
 **Tabla 3.2 Configuración de la directiva de bloqueo de cuentas**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -278,30 +278,30 @@ La información adicional para cada configuración se proporciona en las subsecc
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuración</p></th>
-<th><p>Cliente heredado</p></th>
-<th><p>Cliente de empresa</p></th>
-<th><p>Seguridad especializada: Funcionalidad limitada</p></th>
+<th>Configuración</th>
+<th>Cliente heredado</th>
+<th>Cliente de empresa</th>
+<th>Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Duración del bloqueo de cuenta</p></td>
-<td style="border:1px solid black;"><p>30 minutos</p></td>
-<td style="border:1px solid black;"><p>30 minutos</p></td>
-<td style="border:1px solid black;"><p>15 minutos</p></td>
+<td style="border:1px solid black;">Duración del bloqueo de cuenta</td>
+<td style="border:1px solid black;">30 minutos</td>
+<td style="border:1px solid black;">30 minutos</td>
+<td style="border:1px solid black;">15 minutos</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Umbral de bloqueos de la cuenta</p></td>
-<td style="border:1px solid black;"><p>50 intentos de inicio de sesión no válidos</p></td>
-<td style="border:1px solid black;"><p>50 intentos de inicio de sesión no válidos</p></td>
-<td style="border:1px solid black;"><p>10 intentos de inicio de sesión no válidos</p></td>
+<td style="border:1px solid black;">Umbral de bloqueos de la cuenta</td>
+<td style="border:1px solid black;">50 intentos de inicio de sesión no válidos</td>
+<td style="border:1px solid black;">50 intentos de inicio de sesión no válidos</td>
+<td style="border:1px solid black;">10 intentos de inicio de sesión no válidos</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Restablecer la cuenta de bloqueos después de</p></td>
-<td style="border:1px solid black;"><p>30 minutos</p></td>
-<td style="border:1px solid black;"><p>30 minutos</p></td>
-<td style="border:1px solid black;"><p>15 minutos</p></td>
+<td style="border:1px solid black;">Restablecer la cuenta de bloqueos después de</td>
+<td style="border:1px solid black;">30 minutos</td>
+<td style="border:1px solid black;">30 minutos</td>
+<td style="border:1px solid black;">15 minutos</td>
 </tr>
 </tbody>
 </table>
@@ -366,7 +366,7 @@ En la tabla siguiente se resume la configuración recomendada para las opciones 
   
 **Figura 3.3 Configuración de opciones de seguridad**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -376,30 +376,30 @@ En la tabla siguiente se resume la configuración recomendada para las opciones 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuración</p></th>
-<th><p>Cliente heredado</p></th>
-<th><p>Cliente de empresa</p></th>
-<th><p>Seguridad especializada: Funcionalidad limitada</p></th>
+<th>Configuración</th>
+<th>Cliente heredado</th>
+<th>Cliente de empresa</th>
+<th>Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servidor de red de Microsoft: desconectar a los clientes cuando termine el tiempo de sesión</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Servidor de red de Microsoft: desconectar a los clientes cuando termine el tiempo de sesión</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Acceso de red: permitir traducción SID/nombre anónima</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Acceso de red: permitir traducción SID/nombre anónima</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Seguridad de red: forzar el cierre de sesión cuando expire la hora de inicio de sesión</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Seguridad de red: forzar el cierre de sesión cuando expire la hora de inicio de sesión</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 </tbody>
 </table>

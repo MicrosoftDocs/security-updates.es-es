@@ -167,7 +167,7 @@ Utilice la siguiente información para completar los parámetros de entrada del 
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -181,20 +181,20 @@ Utilice la siguiente información para completar los parámetros de entrada del 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><em>input_file</em></p></td>
-<td style="border:1px solid black;"><p>Nombre del archivo de lista de revocaciones compatible con XrML que ha preparado.</p></td>
+<td style="border:1px solid black;"><em>input_file</em></td>
+<td style="border:1px solid black;">Nombre del archivo de lista de revocaciones compatible con XrML que ha preparado.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><em>key_file</em></p></td>
-<td style="border:1px solid black;"><p>Nombre del archivo que contiene las claves privada y pública que ha generado.</p></td>
+<td style="border:1px solid black;"><em>key_file</em></td>
+<td style="border:1px solid black;">Nombre del archivo que contiene las claves privada y pública que ha generado.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><em>container_name</em></p></td>
-<td style="border:1px solid black;"><p>Nombre del contenedor de la clave</p></td>
+<td style="border:1px solid black;"><em>container_name</em></td>
+<td style="border:1px solid black;">Nombre del contenedor de la clave</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><em>output_file</em></p></td>
-<td style="border:1px solid black;"><p>Nombre del archivo de lista de revocaciones firmado que la herramienta creará.</p></td>
+<td style="border:1px solid black;"><em>output_file</em></td>
+<td style="border:1px solid black;">Nombre del archivo de lista de revocaciones firmado que la herramienta creará.</td>
 </tr>
 </tbody>
 </table>
@@ -214,7 +214,7 @@ RLsigner.exe proporciona información básica de error y éxito en el código de
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -228,32 +228,32 @@ RLsigner.exe proporciona información básica de error y éxito en el código de
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>Éxito</p></td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">Éxito</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>-1</p></td>
-<td style="border:1px solid black;"><p>No se puede leer el archivo de origen.</p></td>
+<td style="border:1px solid black;">-1</td>
+<td style="border:1px solid black;">No se puede leer el archivo de origen.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>-2</p></td>
-<td style="border:1px solid black;"><p>No se puede leer el archivo de clave.</p></td>
+<td style="border:1px solid black;">-2</td>
+<td style="border:1px solid black;">No se puede leer el archivo de clave.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>-3</p></td>
-<td style="border:1px solid black;"><p>El archivo de clave no es válido.</p></td>
+<td style="border:1px solid black;">-3</td>
+<td style="border:1px solid black;">El archivo de clave no es válido.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>-4</p></td>
-<td style="border:1px solid black;"><p>El archivo de origen no es válido.</p></td>
+<td style="border:1px solid black;">-4</td>
+<td style="border:1px solid black;">El archivo de origen no es válido.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>-5</p></td>
-<td style="border:1px solid black;"><p>No se puede escribir el archivo de salida.</p></td>
+<td style="border:1px solid black;">-5</td>
+<td style="border:1px solid black;">No se puede escribir el archivo de salida.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>-6</p></td>
-<td style="border:1px solid black;"><p>Error desconocido</p></td>
+<td style="border:1px solid black;">-6</td>
+<td style="border:1px solid black;">Error desconocido</td>
 </tr>
 </tbody>
 </table>

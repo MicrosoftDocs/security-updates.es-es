@@ -17,7 +17,7 @@ El archivo de aplicación del servicio proxy de activación, Activation.asmx, es
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -31,20 +31,20 @@ El archivo de aplicación del servicio proxy de activación, Activation.asmx, es
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Control total</p></td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Control total</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Invitados</p></td>
-<td style="border:1px solid black;"><p>Leer y ejecutar</p></td>
+<td style="border:1px solid black;">Invitados</td>
+<td style="border:1px solid black;">Leer y ejecutar</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Grupo de servicio RMS</p></td>
-<td style="border:1px solid black;"><p>Leer y ejecutar</p></td>
+<td style="border:1px solid black;">Grupo de servicio RMS</td>
+<td style="border:1px solid black;">Leer y ejecutar</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SYSTEM</p></td>
-<td style="border:1px solid black;"><p>Control total</p></td>
+<td style="border:1px solid black;">SYSTEM</td>
+<td style="border:1px solid black;">Control total</td>
 </tr>
 </tbody>
 </table>

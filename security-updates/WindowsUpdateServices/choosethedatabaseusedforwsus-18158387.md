@@ -35,7 +35,7 @@ WSUS does support running database software on a computer separate from WSUS, bu
 
 ### Database Software Recommendations by Operating System
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -49,12 +49,12 @@ WSUS does support running database software on a computer separate from WSUS, bu
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
-<td style="border:1px solid black;"><p>If you are installing WSUS on Windows Server 2003 and do not want to use SQL Server 2000, WMSDE is the recommended database software option.</p></td>
+<td style="border:1px solid black;">Windows Server 2003</td>
+<td style="border:1px solid black;">If you are installing WSUS on Windows Server 2003 and do not want to use SQL Server 2000, WMSDE is the recommended database software option.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
-<td style="border:1px solid black;"><p>If you are installing WSUS on Windows 2000 and do not want to use SQL Server 2000, MSDE is the recommended database software option.</p></td>
+<td style="border:1px solid black;">Windows 2000 Server</td>
+<td style="border:1px solid black;">If you are installing WSUS on Windows 2000 and do not want to use SQL Server 2000, MSDE is the recommended database software option.</td>
 </tr>
 </tbody>
 </table>

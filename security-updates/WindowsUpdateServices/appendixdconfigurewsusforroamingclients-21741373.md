@@ -34,7 +34,7 @@ Set up as many DNS host (A) resource records as there are planned WSUS servers.
 
 6.  Repeat this procedure for the rest of the planned WSUS servers.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -47,11 +47,11 @@ Set up as many DNS host (A) resource records as there are planned WSUS servers.
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Make sure that each of the planned WSUS servers has the same host name.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Step 3: Set up the DNS server for netmask ordering and round robin
 ------------------------------------------------------------------
@@ -63,7 +63,7 @@ Step 3: Set up the DNS server for netmask ordering and round robin
 
 3.  Click **OK**.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -76,11 +76,11 @@ Step 3: Set up the DNS server for netmask ordering and round robin
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">With netmask ordering, you restrict name resolution to computers in the same subnet, if there are any. With round robin, if there are multiple name resolutions, the result that is returned will rotate through the list of available hosts. Therefore, if there is a subnet without a WSUS server, host name resolution for clients in that subnet will rotate through the list of WSUS servers in the other subnets.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Step 4: Configure the WSUS servers
 ----------------------------------

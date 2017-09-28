@@ -52,7 +52,7 @@ Update classifications represent the type of update. For any given product or pr
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -66,50 +66,50 @@ Update classifications represent the type of update. For any given product or pr
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Connectors</p></td>
-<td style="border:1px solid black;"><p>Software components designed to support connection between software</p></td>
+<td style="border:1px solid black;">Connectors</td>
+<td style="border:1px solid black;">Software components designed to support connection between software</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Critical Updates</p></td>
-<td style="border:1px solid black;"><p>Broadly released fixes for specific problems addressing critical, non-security related bugs</p></td>
+<td style="border:1px solid black;">Critical Updates</td>
+<td style="border:1px solid black;">Broadly released fixes for specific problems addressing critical, non-security related bugs</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Development Kits</p></td>
-<td style="border:1px solid black;"><p>Software to aid the writing of new applications that usually includes a visual builder, an editor, and a compiler</p></td>
+<td style="border:1px solid black;">Development Kits</td>
+<td style="border:1px solid black;">Software to aid the writing of new applications that usually includes a visual builder, an editor, and a compiler</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Drivers</p></td>
-<td style="border:1px solid black;"><p>Software components designed to support new hardware</p></td>
+<td style="border:1px solid black;">Drivers</td>
+<td style="border:1px solid black;">Software components designed to support new hardware</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Feature Packs</p></td>
-<td style="border:1px solid black;"><p>New product functionality usually included in the next full product release</p></td>
+<td style="border:1px solid black;">Feature Packs</td>
+<td style="border:1px solid black;">New product functionality usually included in the next full product release</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Guidance</p></td>
-<td style="border:1px solid black;"><p>Scripts, sample code, and technical guidance designed to help in the deployment and use of a product or technology</p></td>
+<td style="border:1px solid black;">Guidance</td>
+<td style="border:1px solid black;">Scripts, sample code, and technical guidance designed to help in the deployment and use of a product or technology</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Security Updates</p></td>
-<td style="border:1px solid black;"><p>Broadly released fixes for specific products, addressing security issues</p></td>
+<td style="border:1px solid black;">Security Updates</td>
+<td style="border:1px solid black;">Broadly released fixes for specific products, addressing security issues</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Service Packs</p></td>
-<td style="border:1px solid black;"><p>Cumulative sets of all hotfixes, security updates, critical updates, and updates created since the release of the product</p>
-<p>Service packs might also contain a limited number of customer requested design changes or features.</p></td>
+<td style="border:1px solid black;">Service Packs</td>
+<td style="border:1px solid black;">Cumulative sets of all hotfixes, security updates, critical updates, and updates created since the release of the product
+Service packs might also contain a limited number of customer requested design changes or features.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tools</p></td>
-<td style="border:1px solid black;"><p>Utilities or features that aid in accomplishing a task or set of tasks</p></td>
+<td style="border:1px solid black;">Tools</td>
+<td style="border:1px solid black;">Utilities or features that aid in accomplishing a task or set of tasks</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Update Rollups</p></td>
-<td style="border:1px solid black;"><p>Cumulative set of hotfixes, security updates, critical updates, and updates packaged together for easy deployment</p>
-<p>A rollup generally targets a specific area, such as security, or a specific component, such as Internet Information Services (IIS).</p></td>
+<td style="border:1px solid black;">Update Rollups</td>
+<td style="border:1px solid black;">Cumulative set of hotfixes, security updates, critical updates, and updates packaged together for easy deployment
+A rollup generally targets a specific area, such as security, or a specific component, such as Internet Information Services (IIS).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Updates</p></td>
-<td style="border:1px solid black;"><p>Broadly released fixes for specific problems addressing a non-critical, non-security related bugs</p></td>
+<td style="border:1px solid black;">Updates</td>
+<td style="border:1px solid black;">Broadly released fixes for specific problems addressing a non-critical, non-security related bugs</td>
 </tr>
 </tbody>
 </table>

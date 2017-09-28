@@ -13,7 +13,7 @@ Hardware and database software requirements are driven by the number of client c
 
 ### Hardware Recommendations for 500 or Fewer Clients
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -29,31 +29,31 @@ Hardware and database software requirements are driven by the number of client c
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CPU</p></td>
-<td style="border:1px solid black;"><p>750 MHz</p></td>
-<td style="border:1px solid black;"><p>1 GHz or faster</p></td>
+<td style="border:1px solid black;">CPU</td>
+<td style="border:1px solid black;">750 MHz</td>
+<td style="border:1px solid black;">1 GHz or faster</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>RAM</p></td>
-<td style="border:1px solid black;"><p>512 MB</p></td>
-<td style="border:1px solid black;"><p>1 GB</p></td>
+<td style="border:1px solid black;">RAM</td>
+<td style="border:1px solid black;">512 MB</td>
+<td style="border:1px solid black;">1 GB</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Hard drive</p></td>
-<td style="border:1px solid black;"><p>6 GB</p></td>
-<td style="border:1px solid black;"><p>100 GB</p></td>
+<td style="border:1px solid black;">Hard drive</td>
+<td style="border:1px solid black;">6 GB</td>
+<td style="border:1px solid black;">100 GB</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Database</p></td>
-<td style="border:1px solid black;"><p>WMSDE/MSDE</p></td>
-<td style="border:1px solid black;"><p>WMSDE/MSDE</p></td>
+<td style="border:1px solid black;">Database</td>
+<td style="border:1px solid black;">WMSDE/MSDE</td>
+<td style="border:1px solid black;">WMSDE/MSDE</td>
 </tr>
 </tbody>
 </table>
   
 ### Hardware Recommendations for 500 to 15,000 Clients
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -69,24 +69,24 @@ Hardware and database software requirements are driven by the number of client c
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CPU</p></td>
-<td style="border:1px solid black;"><p>1 GHz or faster</p></td>
-<td style="border:1px solid black;"><p>3 GHz dual processor computer or faster (use dual processors for over 10,000 clients)</p></td>
+<td style="border:1px solid black;">CPU</td>
+<td style="border:1px solid black;">1 GHz or faster</td>
+<td style="border:1px solid black;">3 GHz dual processor computer or faster (use dual processors for over 10,000 clients)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>RAM</p></td>
-<td style="border:1px solid black;"><p>1 GB</p></td>
-<td style="border:1px solid black;"><p>1 GB</p></td>
+<td style="border:1px solid black;">RAM</td>
+<td style="border:1px solid black;">1 GB</td>
+<td style="border:1px solid black;">1 GB</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Hard drive</p></td>
-<td style="border:1px solid black;"><p>100 GB</p></td>
-<td style="border:1px solid black;"><p>100 GB</p></td>
+<td style="border:1px solid black;">Hard drive</td>
+<td style="border:1px solid black;">100 GB</td>
+<td style="border:1px solid black;">100 GB</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Database</p></td>
-<td style="border:1px solid black;"><p>WMSDE/SQL Server 2000 with SP3a</p></td>
-<td style="border:1px solid black;"><p>WMSDE/SQL Server 2000 with Service Pack 3a</p></td>
+<td style="border:1px solid black;">Database</td>
+<td style="border:1px solid black;">WMSDE/SQL Server 2000 with SP3a</td>
+<td style="border:1px solid black;">WMSDE/SQL Server 2000 with Service Pack 3a</td>
 </tr>
 </tbody>
 </table>

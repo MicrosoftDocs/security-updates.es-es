@@ -52,7 +52,7 @@ Realizará los dos primeros procedimientos en el GPO basado en dominios a su ele
 
 2.  Haga clic en **Habilitada** y escriba la dirección URL de HTTP del mismo servidor WSUS en los cuadros **Establecer el servicio de actualización de la intranet para detectar actualizaciones** y **Establecer el servidor de estadísticas de la intranet**. Por ejemplo, escriba *http://nombreServidor* en ambos cuadro y, a continuación, haga clic en **Aceptar**.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -65,11 +65,11 @@ Realizará los dos primeros procedimientos en el GPO basado en dominios a su ele
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Si utiliza el objeto de directiva de grupo local para dirigir el equipo a WSUS, esta configuración entra en vigor inmediatamente y este equipo aparece en la consola administrativa de WSUS transcurrido un breve período de tiempo. Puede acelerar este proceso si inicia manualmente un ciclo de detección.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Tras configurar un equipo cliente, transcurrirán unos minutos antes de que aparezca en la página **Equipos** de la consola administrativa de WSUS. Para los equipos cliente configurados con una directiva de grupo basada en dominios, tardará alrededor de 20 minutos después de que la directiva de grupo se actualice (es decir, se aplique cualquier configuración de directiva nueva al equipo cliente). De forma predeterminada, la directiva de grupo se actualiza en segundo plano cada 90 minutos, con un intervalo aleatorio de 0 a 30 minutos. Si desea actualizar la directiva de grupo antes, puede ir a un símbolo del sistema del equipo cliente y escribir **gpupdate /force**.
 

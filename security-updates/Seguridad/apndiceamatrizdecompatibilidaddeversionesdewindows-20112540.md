@@ -29,7 +29,7 @@ Donde una versión de sistema operativo no se muestre en una función, no funcio
 
 **Tabla A.1: Estado de compatibilidad de las versiones de sistema operativo de la solución**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -39,139 +39,139 @@ Donde una versión de sistema operativo no se muestre en una función, no funcio
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Función</p></th>
-<th><p>Versión del sistema operativo</p></th>
-<th><p>Estado</p></th>
-<th><p>Notas</p></th>
+<th>Función</th>
+<th>Versión del sistema operativo</th>
+<th>Estado</th>
+<th>Notas</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Cliente inalámbrico</p></td>
-<td style="border:1px solid black;"><p>-Windows XP Professional</p>
-<p>-Windows XP Professional Tablet Edition</p></td>
-<td style="border:1px solid black;"><p>Compatible y probado</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Cliente inalámbrico</td>
+<td style="border:1px solid black;">-Windows XP Professional
+-Windows XP Professional Tablet Edition</td>
+<td style="border:1px solid black;">Compatible y probado</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Microsoft Windows 2000</p></td>
-<td style="border:1px solid black;"><p>Compatible</p></td>
-<td style="border:1px solid black;"><p>Se necesita obtener el cliente 802.1X de Microsoft.com.</p>
-<p>Los certificados de usuario se implementan manualmente o mediante secuencias de comandos.</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Microsoft Windows 2000</td>
+<td style="border:1px solid black;">Compatible</td>
+<td style="border:1px solid black;">Se necesita obtener el cliente 802.1X de Microsoft.com.
+Los certificados de usuario se implementan manualmente o mediante secuencias de comandos.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>-Microsoft Windows NT® versión 4.0</p>
-<p>-Windows 9<em>x</em></p></td>
-<td style="border:1px solid black;"><p>Compatible</p></td>
-<td style="border:1px solid black;"><p>Se necesita obtener el cliente 802.1X mediante soporte técnico Premier.</p>
-<p>Los certificados se implementan manualmente o mediante secuencias de comandos.</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">-Microsoft Windows NT® versión 4.0
+-Windows 9<em>x</em></td>
+<td style="border:1px solid black;">Compatible</td>
+<td style="border:1px solid black;">Se necesita obtener el cliente 802.1X mediante soporte técnico Premier.
+Los certificados se implementan manualmente o mediante secuencias de comandos.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Otras plataformas</p></td>
-<td style="border:1px solid black;"><p>Desconocido</p></td>
-<td style="border:1px solid black;"><p>Los clientes necesitan admitir 802.1X y el protocolo EAP – TLS (Protocolo de autenticación extensible - Protocolo de seguridad de la capa de transporte).</p>
-<p>Los certificados se implementan manualmente o mediante secuencias de comandos.</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Otras plataformas</td>
+<td style="border:1px solid black;">Desconocido</td>
+<td style="border:1px solid black;">Los clientes necesitan admitir 802.1X y el protocolo EAP – TLS (Protocolo de autenticación extensible - Protocolo de seguridad de la capa de transporte).
+Los certificados se implementan manualmente o mediante secuencias de comandos.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Entidad emisora de certificados (CA) raíz</p></td>
-<td style="border:1px solid black;"><p>Microsoft Windows Server™ 2003, Standard Edition</p></td>
-<td style="border:1px solid black;"><p>Compatible y probado</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Entidad emisora de certificados (CA) raíz</td>
+<td style="border:1px solid black;">Microsoft Windows Server™ 2003, Standard Edition</td>
+<td style="border:1px solid black;">Compatible y probado</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>-Windows Server 2003, Enterprise Edition</p>
-<p>-Windows 2000 Server</p></td>
-<td style="border:1px solid black;"><p>Compatible</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">-Windows Server 2003, Enterprise Edition
+-Windows 2000 Server</td>
+<td style="border:1px solid black;">Compatible</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Entidad emisora de certificados de otros fabricantes</p></td>
-<td style="border:1px solid black;"><p>Desconocido</p></td>
-<td style="border:1px solid black;"><p>Debe admitir la revocación.</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Entidad emisora de certificados de otros fabricantes</td>
+<td style="border:1px solid black;">Desconocido</td>
+<td style="border:1px solid black;">Debe admitir la revocación.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Entidad emisora de certificados</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003, Enterprise Edition</p></td>
-<td style="border:1px solid black;"><p>Compatible y probado</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Entidad emisora de certificados</td>
+<td style="border:1px solid black;">Windows Server 2003, Enterprise Edition</td>
+<td style="border:1px solid black;">Compatible y probado</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>-Otras versiones de Windows Server</p>
-<p>-Entidades emisoras de certificados de otros fabricantes</p></td>
-<td style="border:1px solid black;"><p>No compatibles</p></td>
-<td style="border:1px solid black;"><p>Se pueden generar certificados utilizables.</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">-Otras versiones de Windows Server
+-Entidades emisoras de certificados de otros fabricantes</td>
+<td style="border:1px solid black;">No compatibles</td>
+<td style="border:1px solid black;">Se pueden generar certificados utilizables.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Servidor RADIUS</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003, Standard Edition o Enterprise Edition</p></td>
-<td style="border:1px solid black;"><p>Compatible y probado</p></td>
-<td style="border:1px solid black;"><p>Standard Edition sólo admite hasta 50 puntos de acceso inalámbricos.</p></td>
+<td style="border:1px solid black;">Servidor RADIUS</td>
+<td style="border:1px solid black;">Windows Server 2003, Standard Edition o Enterprise Edition</td>
+<td style="border:1px solid black;">Compatible y probado</td>
+<td style="border:1px solid black;">Standard Edition sólo admite hasta 50 puntos de acceso inalámbricos.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
-<td style="border:1px solid black;"><p>Compatible</p></td>
-<td style="border:1px solid black;"><p>Se puede utilizar el Servicio de autenticación de Internet (IAS) de Windows 2000 para 802.1X inalámbrico con pérdida de funcionalidad.</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Windows 2000 Server</td>
+<td style="border:1px solid black;">Compatible</td>
+<td style="border:1px solid black;">Se puede utilizar el Servicio de autenticación de Internet (IAS) de Windows 2000 para 802.1X inalámbrico con pérdida de funcionalidad.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Otras plataformas</p></td>
-<td style="border:1px solid black;"><p>No compatibles</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Otras plataformas</td>
+<td style="border:1px solid black;">No compatibles</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Controladores de dominio</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003, Standard Edition o Enterprise Edition</p></td>
-<td style="border:1px solid black;"><p>Compatible y probado</p></td>
-<td style="border:1px solid black;"><p>El servicio de directorio Active Directory® debe tener esquema de Windows 2003 y un dominio en modo nativo de Windows 2000 o superior.</p></td>
+<td style="border:1px solid black;">Controladores de dominio</td>
+<td style="border:1px solid black;">Windows Server 2003, Standard Edition o Enterprise Edition</td>
+<td style="border:1px solid black;">Compatible y probado</td>
+<td style="border:1px solid black;">El servicio de directorio Active Directory® debe tener esquema de Windows 2003 y un dominio en modo nativo de Windows 2000 o superior.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
-<td style="border:1px solid black;"><p>Compatible</p></td>
-<td style="border:1px solid black;"><p>Active Directory debe tener esquema de Windows 2003 y un dominio en modo nativo de Windows 2000 o superior.</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Windows 2000 Server</td>
+<td style="border:1px solid black;">Compatible</td>
+<td style="border:1px solid black;">Active Directory debe tener esquema de Windows 2003 y un dominio en modo nativo de Windows 2000 o superior.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servidor Web</p></td>
-<td style="border:1px solid black;"><p>Servicios de Internet Information Server (IIS): Windows Server 2003</p></td>
-<td style="border:1px solid black;"><p>Compatible y probado</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Servidor Web</td>
+<td style="border:1px solid black;">Servicios de Internet Information Server (IIS): Windows Server 2003</td>
+<td style="border:1px solid black;">Compatible y probado</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>IIS: Windows 2000</p></td>
-<td style="border:1px solid black;"><p>Compatible</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">IIS: Windows 2000</td>
+<td style="border:1px solid black;">Compatible</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Otras plataformas</p></td>
-<td style="border:1px solid black;"><p>No compatibles</p></td>
-<td style="border:1px solid black;"><p>La mayoría de los servidores Web funcionarán para la lista de revocación de certificados (CRL) y la publicación de certificados de entidad emisora. Se requiere la compatibilidad con Páginas Active Server (ASP) para las páginas de inscripción de entidad emisora.</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Otras plataformas</td>
+<td style="border:1px solid black;">No compatibles</td>
+<td style="border:1px solid black;">La mayoría de los servidores Web funcionarán para la lista de revocación de certificados (CRL) y la publicación de certificados de entidad emisora. Se requiere la compatibilidad con Páginas Active Server (ASP) para las páginas de inscripción de entidad emisora.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Servidores de infraestructura, como DNS (sistema de nombres de dominio) y DHCP (protocolo de configuración dinámica de host)</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003, Standard Edition o Enterprise Edition</p></td>
-<td style="border:1px solid black;"><p>Compatible y probado</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Servidores de infraestructura, como DNS (sistema de nombres de dominio) y DHCP (protocolo de configuración dinámica de host)</td>
+<td style="border:1px solid black;">Windows Server 2003, Standard Edition o Enterprise Edition</td>
+<td style="border:1px solid black;">Compatible y probado</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
-<td style="border:1px solid black;"><p>Compatible</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Windows 2000 Server</td>
+<td style="border:1px solid black;">Compatible</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Otras plataformas</p></td>
-<td style="border:1px solid black;"><p>Desconocido</p></td>
-<td style="border:1px solid black;"><p>Las soluciones de DHCP, DNS y de administración de otros fabricantes funcionarán correctamente con esta solución siempre que cumplan los requisitos básicos para cliente de Windows y Active Directory.</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Otras plataformas</td>
+<td style="border:1px solid black;">Desconocido</td>
+<td style="border:1px solid black;">Las soluciones de DHCP, DNS y de administración de otros fabricantes funcionarán correctamente con esta solución siempre que cumplan los requisitos básicos para cliente de Windows y Active Directory.</td>
 </tr>
 </tbody>
 </table>

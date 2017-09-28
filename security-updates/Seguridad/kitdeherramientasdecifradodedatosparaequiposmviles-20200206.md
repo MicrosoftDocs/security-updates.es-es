@@ -191,7 +191,7 @@ El resultado del proceso de decisión se puede parecer al que se muestra en la s
 
 **Tabla 1.1. Directiva y directrices de configuración de BitLocker**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -199,22 +199,22 @@ El resultado del proceso de decisión se puede parecer al que se muestra en la s
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Tipo de sistema</p></th>
-<th><p>Directiva y configuración de BitLocker</p></th>
+<th>Tipo de sistema</th>
+<th>Directiva y configuración de BitLocker</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Escritorio estándar</p></td>
-<td style="border:1px solid black;"><p>Los equipos usarán el cifrado de BitLocker con un TPM o una llave de inicio USB, según la funcionalidad del hardware. Esta configuración se usará para controlar la exposición de datos y para administrar la retirada de activos.</p></td>
+<td style="border:1px solid black;">Escritorio estándar</td>
+<td style="border:1px solid black;">Los equipos usarán el cifrado de BitLocker con un TPM o una llave de inicio USB, según la funcionalidad del hardware. Esta configuración se usará para controlar la exposición de datos y para administrar la retirada de activos.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Equipo portátil estándar</p></td>
-<td style="border:1px solid black;"><p>Todos los equipos nuevos usarán un TPM y un NIP. Los equipos sin TPM usarán llaves de inicio en las unidades USB, pero todos los equipos nuevos se comprarán con dispositivos TPM. Esta configuración se usará para controlar la exposición de datos y para administrar la retirada de activos.</p></td>
+<td style="border:1px solid black;">Equipo portátil estándar</td>
+<td style="border:1px solid black;">Todos los equipos nuevos usarán un TPM y un NIP. Los equipos sin TPM usarán llaves de inicio en las unidades USB, pero todos los equipos nuevos se comprarán con dispositivos TPM. Esta configuración se usará para controlar la exposición de datos y para administrar la retirada de activos.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Equipos portátiles de ejecutivos</p></td>
-<td style="border:1px solid black;"><p>Todos los equipos usarán un TPM con un NIP. Se reemplazarán los equipos existentes que no sean compatibles con TPM.</p></td>
+<td style="border:1px solid black;">Equipos portátiles de ejecutivos</td>
+<td style="border:1px solid black;">Todos los equipos usarán un TPM con un NIP. Se reemplazarán los equipos existentes que no sean compatibles con TPM.</td>
 </tr>
 </tbody>
 </table>

@@ -50,7 +50,7 @@ Update classifications represent the type of update. For any given product or pr
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -64,40 +64,40 @@ Update classifications represent the type of update. For any given product or pr
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Critical updates</p></td>
-<td style="border:1px solid black;"><p>Broadly released fixes for specific problems addressing critical, non-security related bugs.</p></td>
+<td style="border:1px solid black;">Critical updates</td>
+<td style="border:1px solid black;">Broadly released fixes for specific problems addressing critical, non-security related bugs.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Definition updates</p></td>
-<td style="border:1px solid black;"><p>Updates to virus or other definition files.</p></td>
+<td style="border:1px solid black;">Definition updates</td>
+<td style="border:1px solid black;">Updates to virus or other definition files.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Drivers</p></td>
-<td style="border:1px solid black;"><p>Software components designed to support new hardware.</p></td>
+<td style="border:1px solid black;">Drivers</td>
+<td style="border:1px solid black;">Software components designed to support new hardware.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Feature packs</p></td>
-<td style="border:1px solid black;"><p>New feature releases, usually rolled into products at the next release.</p></td>
+<td style="border:1px solid black;">Feature packs</td>
+<td style="border:1px solid black;">New feature releases, usually rolled into products at the next release.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Security updates</p></td>
-<td style="border:1px solid black;"><p>Broadly released fixes for specific products, addressing security issues.</p></td>
+<td style="border:1px solid black;">Security updates</td>
+<td style="border:1px solid black;">Broadly released fixes for specific products, addressing security issues.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Service packs</p></td>
-<td style="border:1px solid black;"><p>Cumulative sets of all hotfixes, security updates, critical updates, and updates created since the release of the product. Service packs might also contain a limited number of customer-requested design changes or features.</p></td>
+<td style="border:1px solid black;">Service packs</td>
+<td style="border:1px solid black;">Cumulative sets of all hotfixes, security updates, critical updates, and updates created since the release of the product. Service packs might also contain a limited number of customer-requested design changes or features.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tools</p></td>
-<td style="border:1px solid black;"><p>Utilities or features that aid in accomplishing a task or set of tasks.</p></td>
+<td style="border:1px solid black;">Tools</td>
+<td style="border:1px solid black;">Utilities or features that aid in accomplishing a task or set of tasks.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Update rollups</p></td>
-<td style="border:1px solid black;"><p>Cumulative set of hotfixes, security updates, critical updates, and updates packaged together for easy deployment. A rollup generally targets a specific area, such as security, or a specific component, such as Internet Information Services (IIS).</p></td>
+<td style="border:1px solid black;">Update rollups</td>
+<td style="border:1px solid black;">Cumulative set of hotfixes, security updates, critical updates, and updates packaged together for easy deployment. A rollup generally targets a specific area, such as security, or a specific component, such as Internet Information Services (IIS).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Updates</p></td>
-<td style="border:1px solid black;"><p>Broadly released fixes for specific problems addressing non-critical, non-security related bugs.</p></td>
+<td style="border:1px solid black;">Updates</td>
+<td style="border:1px solid black;">Broadly released fixes for specific problems addressing non-critical, non-security related bugs.</td>
 </tr>
 </tbody>
 </table>

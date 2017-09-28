@@ -22,7 +22,7 @@ En la siguiente tabla se describen los servicios web de RMS.
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -36,36 +36,36 @@ En la siguiente tabla se describen los servicios web de RMS.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Subinscripción</p></td>
-<td style="border:1px solid black;"><p>Proporciona certificados de emisor de licencias de servidor subordinado a los servidores en clústeres de sólo licencias. Estos certificados permiten que el clúster de sólo licencias pueda emitir licencias de publicación y de uso.</p></td>
+<td style="border:1px solid black;">Subinscripción</td>
+<td style="border:1px solid black;">Proporciona certificados de emisor de licencias de servidor subordinado a los servidores en clústeres de sólo licencias. Estos certificados permiten que el clúster de sólo licencias pueda emitir licencias de publicación y de uso.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certificación de cuenta</p></td>
-<td style="border:1px solid black;"><p>Proporciona certificados de cuenta de derechos a los usuarios. Estos certificados son necesarios para que los usuarios obtengan licencias de publicación y uso con el fin de crear y usar contenido protegido por derechos.</p></td>
+<td style="border:1px solid black;">Certificación de cuenta</td>
+<td style="border:1px solid black;">Proporciona certificados de cuenta de derechos a los usuarios. Estos certificados son necesarios para que los usuarios obtengan licencias de publicación y uso con el fin de crear y usar contenido protegido por derechos.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Proxy de activación</p></td>
-<td style="border:1px solid black;"><p>Este servicio se retiene por compatibilidad con el cliente de la versión 1 de RMS. Pasa solicitudes de activación de equipo al servicio de activación de Microsoft y devuelve cajas de seguridad y certificados de equipo de RMS a los clientes de la versión 1 de RMS. Este servicio no lo usan los clientes de RMS Service Pack 1 (SP1) o posterior.</p></td>
+<td style="border:1px solid black;">Proxy de activación</td>
+<td style="border:1px solid black;">Este servicio se retiene por compatibilidad con el cliente de la versión 1 de RMS. Pasa solicitudes de activación de equipo al servicio de activación de Microsoft y devuelve cajas de seguridad y certificados de equipo de RMS a los clientes de la versión 1 de RMS. Este servicio no lo usan los clientes de RMS Service Pack 1 (SP1) o posterior.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Publicar</p></td>
-<td style="border:1px solid black;"><p>Emite licencias de publicación, que permiten a los autores crear y distribuir contenido protegido por derechos. También emite certificados de emisor de licencias de cliente, que permiten a los usuarios publicar contenido protegido por derechos sin estar conectados a la red interna que hospeda RMS.</p></td>
+<td style="border:1px solid black;">Publicar</td>
+<td style="border:1px solid black;">Emite licencias de publicación, que permiten a los autores crear y distribuir contenido protegido por derechos. También emite certificados de emisor de licencias de cliente, que permiten a los usuarios publicar contenido protegido por derechos sin estar conectados a la red interna que hospeda RMS.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Licencias</p></td>
-<td style="border:1px solid black;"><p>Emite licencias de uso, que permiten a los usuarios usar contenido protegido por derechos.</p></td>
+<td style="border:1px solid black;">Licencias</td>
+<td style="border:1px solid black;">Emite licencias de uso, que permiten a los usuarios usar contenido protegido por derechos.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Administración</p></td>
-<td style="border:1px solid black;"><p>Permite al administrador administrar RMS.</p></td>
+<td style="border:1px solid black;">Administración</td>
+<td style="border:1px solid black;">Permite al administrador administrar RMS.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DrmRemote</p></td>
-<td style="border:1px solid black;"><p>Permite que los servicios web se comuniquen entre sí y con otros componentes del sistema RMS mediante la exposición de .NET Remoting.</p></td>
+<td style="border:1px solid black;">DrmRemote</td>
+<td style="border:1px solid black;">Permite que los servicios web se comuniquen entre sí y con otros componentes del sistema RMS mediante la exposición de .NET Remoting.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Retiro</p></td>
-<td style="border:1px solid black;"><p>Desprotege el contenido protegido por derechos anteriormente y lo devuelve al cliente. Este servicio se instala con RMS, pero el servicio no tiene una raíz virtual correspondiente en IIS hasta que lo habilita el administrador. Al habilitar este servicio se deshabilitan los demás.</p></td>
+<td style="border:1px solid black;">Retiro</td>
+<td style="border:1px solid black;">Desprotege el contenido protegido por derechos anteriormente y lo devuelve al cliente. Este servicio se instala con RMS, pero el servicio no tiene una raíz virtual correspondiente en IIS hasta que lo habilita el administrador. Al habilitar este servicio se deshabilitan los demás.</td>
 </tr>
 </tbody>
 </table>

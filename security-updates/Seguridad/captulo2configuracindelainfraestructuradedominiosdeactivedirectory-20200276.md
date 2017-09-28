@@ -182,7 +182,7 @@ En la siguiente tabla se resumen las recomendaciones acerca de la configuración
 
 **Tabla 2.1 Recomendaciones sobre la configuración de la directiva de contraseñas**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -192,48 +192,48 @@ En la siguiente tabla se resumen las recomendaciones acerca de la configuración
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuración</p></th>
-<th><p>Configuración predeterminada del controlador de dominio</p></th>
-<th><p>EC</p></th>
-<th><p>SSLF</p></th>
+<th>Configuración</th>
+<th>Configuración predeterminada del controlador de dominio</th>
+<th>EC</th>
+<th>SSLF</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Forzar el historial de contraseñas</p></td>
-<td style="border:1px solid black;"><p>24 contraseñas</p></td>
-<td style="border:1px solid black;"><p>24 contraseñas</p></td>
-<td style="border:1px solid black;"><p>24 contraseñas</p></td>
+<td style="border:1px solid black;">Forzar el historial de contraseñas</td>
+<td style="border:1px solid black;">24 contraseñas</td>
+<td style="border:1px solid black;">24 contraseñas</td>
+<td style="border:1px solid black;">24 contraseñas</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Vigencia máxima de la contraseña</p></td>
-<td style="border:1px solid black;"><p>42 días</p></td>
-<td style="border:1px solid black;"><p>90 días</p></td>
-<td style="border:1px solid black;"><p>90 días</p></td>
+<td style="border:1px solid black;">Vigencia máxima de la contraseña</td>
+<td style="border:1px solid black;">42 días</td>
+<td style="border:1px solid black;">90 días</td>
+<td style="border:1px solid black;">90 días</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Vigencia mínima de la contraseña</p></td>
-<td style="border:1px solid black;"><p>1 día</p></td>
-<td style="border:1px solid black;"><p>1 día</p></td>
-<td style="border:1px solid black;"><p>1 día</p></td>
+<td style="border:1px solid black;">Vigencia mínima de la contraseña</td>
+<td style="border:1px solid black;">1 día</td>
+<td style="border:1px solid black;">1 día</td>
+<td style="border:1px solid black;">1 día</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Longitud mínima de la contraseña</p></td>
-<td style="border:1px solid black;"><p>7 caracteres</p></td>
-<td style="border:1px solid black;"><p>8 caracteres</p></td>
-<td style="border:1px solid black;"><p>12 caracteres</p></td>
+<td style="border:1px solid black;">Longitud mínima de la contraseña</td>
+<td style="border:1px solid black;">7 caracteres</td>
+<td style="border:1px solid black;">8 caracteres</td>
+<td style="border:1px solid black;">12 caracteres</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Las contraseñas deben cumplir los requerimientos de complejidad</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Las contraseñas deben cumplir los requerimientos de complejidad</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Almacenar contraseña usando cifrado reversible para todos los usuarios del dominio</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Almacenar contraseña usando cifrado reversible para todos los usuarios del dominio</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 </tbody>
 </table>
@@ -308,7 +308,7 @@ La tabla siguiente incluye las recomendaciones sobre la configuración de la dir
   
 **Tabla 2.2 Recomendaciones sobre la configuración de la directiva de bloqueo de cuentas**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -318,30 +318,30 @@ La tabla siguiente incluye las recomendaciones sobre la configuración de la dir
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuración</p></th>
-<th><p>Configuración predeterminada del controlador de dominio</p></th>
-<th><p>EC</p></th>
-<th><p>SSLF</p></th>
+<th>Configuración</th>
+<th>Configuración predeterminada del controlador de dominio</th>
+<th>EC</th>
+<th>SSLF</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Duración del bloqueo de cuenta</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>15 minutos</p></td>
-<td style="border:1px solid black;"><p>15 minutos</p></td>
+<td style="border:1px solid black;">Duración del bloqueo de cuenta</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">15 minutos</td>
+<td style="border:1px solid black;">15 minutos</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Umbral de bloqueos de la cuenta</p></td>
-<td style="border:1px solid black;"><p>0 intentos de inicio de sesión incorrectos</p></td>
-<td style="border:1px solid black;"><p>50 intentos de inicio de sesión no válidos</p></td>
-<td style="border:1px solid black;"><p>10 intentos de inicio de sesión no válidos</p></td>
+<td style="border:1px solid black;">Umbral de bloqueos de la cuenta</td>
+<td style="border:1px solid black;">0 intentos de inicio de sesión incorrectos</td>
+<td style="border:1px solid black;">50 intentos de inicio de sesión no válidos</td>
+<td style="border:1px solid black;">10 intentos de inicio de sesión no válidos</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Restablecer la cuenta de bloqueos después de</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>15 minutos</p></td>
-<td style="border:1px solid black;"><p>15 minutos</p></td>
+<td style="border:1px solid black;">Restablecer la cuenta de bloqueos después de</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">15 minutos</td>
+<td style="border:1px solid black;">15 minutos</td>
 </tr>
 </tbody>
 </table>
@@ -392,7 +392,7 @@ Esta configuración de directiva permite al usuario agregar un equipo a un domin
   
 **Tabla 2.3 Recomendaciones sobre la configuración de asignaciones de derechos de usuario**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -402,18 +402,18 @@ Esta configuración de directiva permite al usuario agregar un equipo a un domin
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuración</p></th>
-<th><p>Configuración predeterminada del controlador de dominio</p></th>
-<th><p>EC</p></th>
-<th><p>SSLF</p></th>
+<th>Configuración</th>
+<th>Configuración predeterminada del controlador de dominio</th>
+<th>EC</th>
+<th>SSLF</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Agregar estaciones de trabajo al dominio</p></td>
-<td style="border:1px solid black;"><p>Usuarios autenticados</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
-<td style="border:1px solid black;"><p>Administradores</p></td>
+<td style="border:1px solid black;">Agregar estaciones de trabajo al dominio</td>
+<td style="border:1px solid black;">Usuarios autenticados</td>
+<td style="border:1px solid black;">Administradores</td>
+<td style="border:1px solid black;">Administradores</td>
 </tr>
 </tbody>
 </table>
@@ -440,7 +440,7 @@ En la siguiente tabla se resumen las recomendaciones acerca de la configuración
   
 **Tabla 2.4 Recomendaciones sobre la configuración de las opciones de seguridad**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -450,30 +450,30 @@ En la siguiente tabla se resumen las recomendaciones acerca de la configuración
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Configuración</p></th>
-<th><p>Predeterminada de miembro de dominio</p></th>
-<th><p>EC</p></th>
-<th><p>SSLF</p></th>
+<th>Configuración</th>
+<th>Predeterminada de miembro de dominio</th>
+<th>EC</th>
+<th>SSLF</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servidor de red de Microsoft: desconectar a los clientes cuando termine el tiempo de sesión</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Servidor de red de Microsoft: desconectar a los clientes cuando termine el tiempo de sesión</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Acceso de red: permitir traducción SID/nombre anónima</p></td>
-<td style="border:1px solid black;"><p>No está definido</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
+<td style="border:1px solid black;">Acceso de red: permitir traducción SID/nombre anónima</td>
+<td style="border:1px solid black;">No está definido</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Deshabilitado</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Seguridad de red: forzar el cierre de sesión cuando expire la hora de inicio de sesión</p></td>
-<td style="border:1px solid black;"><p>Deshabilitado</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
-<td style="border:1px solid black;"><p>Habilitada</p></td>
+<td style="border:1px solid black;">Seguridad de red: forzar el cierre de sesión cuando expire la hora de inicio de sesión</td>
+<td style="border:1px solid black;">Deshabilitado</td>
+<td style="border:1px solid black;">Habilitada</td>
+<td style="border:1px solid black;">Habilitada</td>
 </tr>
 </tbody>
 </table>

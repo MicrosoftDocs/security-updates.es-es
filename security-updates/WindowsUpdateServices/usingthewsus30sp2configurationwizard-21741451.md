@@ -28,7 +28,7 @@ The Configuration Wizard allows you to configure the following areas:
 -   [Choose Update Classifications](#bkmk_classifications)
 -   [Configure the Synchronization Schedule](#bkmk_syncschedule)
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -41,11 +41,11 @@ The Configuration Wizard allows you to configure the following areas:
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">You will need to configure the upstream server and proxy server before configuring the updates.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 <span id="BKMK_upstream"></span>
 Choose the upstream server
@@ -75,7 +75,7 @@ Specify the proxy server
 
 3.  At this point you are finished with proxy server configuration. Click **Next** to go to the **Connect to Upstream Server** page.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -88,11 +88,11 @@ Specify the proxy server
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">The proxy server should be configured to accept both HTTP and HTTPS resources.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 <span id="BKMK_connectupstream"></span>
 Connect to the upstream server
@@ -105,7 +105,7 @@ Connect to the upstream server
 
 3.  After the connection has completed successfully, click **Next**. If you have chosen to store updates locally, you will go to the **Choose Languages** page, or you can select a different page from the left pane.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -118,11 +118,11 @@ Connect to the upstream server
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">If the connection to your upstream WSUS server (either Microsoft Update or an intranet WSUS server) fails, you will see a message at the bottom of the screen. Typically it will say something like &quot;An HTTP error occurred.&quot; For more information, click the <strong>Details</strong> link.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 <span id="BKMK_languages"></span>
 Choose update languages
@@ -144,7 +144,7 @@ If you are configuring a downstream server, use the following procedure.
 
 2.  If the upstream server will download update files in all languages, and you want the downstream server to do the same, select **Download updates in all languages supported by the upstream server**. This setting will cause the upstream server to download updates in all languages, including languages that were not originally set up for the upstream server.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -157,11 +157,11 @@ If you are configuring a downstream server, use the following procedure.
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Selecting the <strong>Download updates in all languages</strong> option on a downstream server will modify the upstream server's behavior to download update files in all languages, no matter how the upstream server was originally configured.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 <span id="BKMK_products"></span>
 Choose update products

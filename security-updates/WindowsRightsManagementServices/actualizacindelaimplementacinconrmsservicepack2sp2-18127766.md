@@ -75,7 +75,7 @@ Debido a que RMS con SP2 proporciona numerosas mejoras de rendimiento, debe inst
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -93,35 +93,35 @@ Debido a que RMS con SP2 proporciona numerosas mejoras de rendimiento, debe inst
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>1.0</p></td>
-<td style="border:1px solid black;"><p>Todas las características anteriores.</p>
-<p>Sin inscripción sin conexión del servidor. El servidor se debe inscribir a través de Internet.</p>
-<p>Sin clientes de activación automática.</p></td>
-<td style="border:1px solid black;"><p>Todas las características anteriores.</p>
-<p>Sin inscripción sin conexión del servidor.</p>
-<p>Clientes de activación automática.</p></td>
-<td style="border:1px solid black;"><p>Todas las características anteriores.</p>
-<p>Los clientes de SP2 se activan automáticamente.</p>
-<p>Los clientes de la versión 1 se deben activar a través de Internet.</p></td>
+<td style="border:1px solid black;">1.0</td>
+<td style="border:1px solid black;">Todas las características anteriores.
+Sin inscripción sin conexión del servidor. El servidor se debe inscribir a través de Internet.
+Sin clientes de activación automática.</td>
+<td style="border:1px solid black;">Todas las características anteriores.
+Sin inscripción sin conexión del servidor.
+Clientes de activación automática.</td>
+<td style="border:1px solid black;">Todas las características anteriores.
+Los clientes de SP2 se activan automáticamente.
+Los clientes de la versión 1 se deben activar a través de Internet.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SP2</p></td>
-<td style="border:1px solid black;"><p>Todas las características anteriores.</p>
-<p>Inscripción sin conexión del servidor.</p>
-<p>Sin clientes de activación automática.</p></td>
-<td style="border:1px solid black;"><p>Todas las características de SP1.</p>
-<p>Inscripción sin conexión del servidor.</p>
-<p>Clientes de activación automática.</p>
-<p>Caja de seguridad del servidor.</p>
-<p>Microsoft SQL Server™ 2005 se admite de forma predeterminada.</p></td>
-<td style="border:1px solid black;"><p>Todas las características anteriores, además de las de SP2.</p>
-<p>Inscripción sin conexión del servidor.</p>
-<p>Los clientes de SP2 se activan automáticamente.</p>
-<p>Los clientes de la versión 1 se deben activar a través de Internet.</p></td>
+<td style="border:1px solid black;">SP2</td>
+<td style="border:1px solid black;">Todas las características anteriores.
+Inscripción sin conexión del servidor.
+Sin clientes de activación automática.</td>
+<td style="border:1px solid black;">Todas las características de SP1.
+Inscripción sin conexión del servidor.
+Clientes de activación automática.
+Caja de seguridad del servidor.
+Microsoft SQL Server™ 2005 se admite de forma predeterminada.</td>
+<td style="border:1px solid black;">Todas las características anteriores, además de las de SP2.
+Inscripción sin conexión del servidor.
+Los clientes de SP2 se activan automáticamente.
+Los clientes de la versión 1 se deben activar a través de Internet.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 <span id="bkmk_RemovingRMS"></span>
 Quitar RMS con SP2

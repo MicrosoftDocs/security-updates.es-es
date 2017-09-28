@@ -194,7 +194,7 @@ A partir de estos requisitos, pueden determinarse los criterios de compatibilida
 
 **Tabla 3.1: Criterios de diseño de la solución**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -202,62 +202,62 @@ A partir de estos requisitos, pueden determinarse los criterios de compatibilida
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Factor de diseño</p></th>
-<th><p>Criterios</p></th>
+<th>Factor de diseño</th>
+<th>Criterios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Seguridad</p></td>
-<td style="border:1px solid black;"><p>–autenticación sólida de los clientes inalámbricos.</p>
-<p>–control de acceso que solamente permita el acceso de red a clientes autorizados.</p>
-<p>–cifrado eficaz del tráfico de red inalámbrica.</p>
-<p>–administración segura de las claves de cifrado.</p>
-<p>–resistencia a ataques de denegación de servicio.</p></td>
+<td style="border:1px solid black;">Seguridad</td>
+<td style="border:1px solid black;">–autenticación sólida de los clientes inalámbricos.
+–control de acceso que solamente permita el acceso de red a clientes autorizados.
+–cifrado eficaz del tráfico de red inalámbrica.
+–administración segura de las claves de cifrado.
+–resistencia a ataques de denegación de servicio.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Escalabilidad</p></td>
-<td style="border:1px solid black;"><p>Diseño básico con escalabilidad ascendente y descendente para abarcar un amplio espectro de tamaños de organización</p></td>
+<td style="border:1px solid black;">Escalabilidad</td>
+<td style="border:1px solid black;">Diseño básico con escalabilidad ascendente y descendente para abarcar un amplio espectro de tamaños de organización</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>–Número mínimo/máximo de usuarios admitidos</p></td>
-<td style="border:1px solid black;"><p>–de 500 a 15000 (o más) usuarios de WLAN.</p>
-<p>–de 500 a 15000 (o más) usuarios de certificados.</p></td>
+<td style="border:1px solid black;">–Número mínimo/máximo de usuarios admitidos</td>
+<td style="border:1px solid black;">–de 500 a 15000 (o más) usuarios de WLAN.
+–de 500 a 15000 (o más) usuarios de certificados.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>–Número de sitios admitidos</p></td>
-<td style="border:1px solid black;"><p>–múltiples sitios grandes, con controladores de dominio de autenticación locales y servicio de autenticación de Internet (IAS, Internet Authentication Service) de Microsoft, admitidos con resistencia a errores de red de área extensa (WAN, Wide Area Network).</p>
-<p>–múltiples sitios pequeños admitidos sin resistencia a errores de WAN.</p></td>
+<td style="border:1px solid black;">–Número de sitios admitidos</td>
+<td style="border:1px solid black;">–múltiples sitios grandes, con controladores de dominio de autenticación locales y servicio de autenticación de Internet (IAS, Internet Authentication Service) de Microsoft, admitidos con resistencia a errores de red de área extensa (WAN, Wide Area Network).
+–múltiples sitios pequeños admitidos sin resistencia a errores de WAN.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Reutilización de componentes (uso de la infraestructura existente)</p></td>
-<td style="border:1px solid black;"><p>Utilización de Active Directory, servicios de red y clientes con Microsoft Windows® XP</p></td>
+<td style="border:1px solid black;">Reutilización de componentes (uso de la infraestructura existente)</td>
+<td style="border:1px solid black;">Utilización de Active Directory, servicios de red y clientes con Microsoft Windows® XP</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Reutilización de componentes (capacidad de uso por parte de aplicaciones futuras)</p></td>
-<td style="border:1px solid black;"><p>–compatibilidad con otras aplicaciones de acceso a la red (acceso a red por cable 802.1X y VPN) mediante la infraestructura de autenticación.</p>
-<p>–compatibilidad con una amplia variedad de aplicaciones, como el sistema de archivos cifrados (EFS, Encrypting File System) y VPN, mediante PKI.</p></td>
+<td style="border:1px solid black;">Reutilización de componentes (capacidad de uso por parte de aplicaciones futuras)</td>
+<td style="border:1px solid black;">–compatibilidad con otras aplicaciones de acceso a la red (acceso a red por cable 802.1X y VPN) mediante la infraestructura de autenticación.
+–compatibilidad con una amplia variedad de aplicaciones, como el sistema de archivos cifrados (EFS, Encrypting File System) y VPN, mediante PKI.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Disponibilidad</p></td>
-<td style="border:1px solid black;"><p>Resistencia a errores de componentes individuales o de vínculo de red</p></td>
+<td style="border:1px solid black;">Disponibilidad</td>
+<td style="border:1px solid black;">Resistencia a errores de componentes individuales o de vínculo de red</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Extensibilidad</p></td>
-<td style="border:1px solid black;"><p>–extensible para admitir capacidad y normas futuras (por ejemplo, 802.11i, WPA y 802.11a para WLAN).</p>
-<p>–infraestructura de servicios de Certificate Server extensible para admitir la mayoría de los usos comunes de certificados de claves públicas (correo electrónico seguro, inicio de sesión con tarjeta inteligente, firma de código y Seguridad de servicio Web, entre otros).</p></td>
+<td style="border:1px solid black;">Extensibilidad</td>
+<td style="border:1px solid black;">–extensible para admitir capacidad y normas futuras (por ejemplo, 802.11i, WPA y 802.11a para WLAN).
+–infraestructura de servicios de Certificate Server extensible para admitir la mayoría de los usos comunes de certificados de claves públicas (correo electrónico seguro, inicio de sesión con tarjeta inteligente, firma de código y Seguridad de servicio Web, entre otros).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Capacidad de administración</p></td>
-<td style="border:1px solid black;"><p>Integración con las soluciones de administración corporativa existentes (incluye la supervisión del sistema y del servicio, la creación de copias de seguridad, la administración de la configuración, etc.)</p></td>
+<td style="border:1px solid black;">Capacidad de administración</td>
+<td style="border:1px solid black;">Integración con las soluciones de administración corporativa existentes (incluye la supervisión del sistema y del servicio, la creación de copias de seguridad, la administración de la configuración, etc.)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Estructura de la organización de TI</p></td>
-<td style="border:1px solid black;"><p>Favorece las TI centralizadas (departamento con un mínimo de cinco empleados y, normalmente, con 20 o 30 empleados de TI)</p></td>
+<td style="border:1px solid black;">Estructura de la organización de TI</td>
+<td style="border:1px solid black;">Favorece las TI centralizadas (departamento con un mínimo de cinco empleados y, normalmente, con 20 o 30 empleados de TI)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Cumplimiento de las normas</p></td>
-<td style="border:1px solid black;"><p>Cumplimiento de los principales estándares actuales y oferta de una ruta de migración clara a futuras normas importantes</p></td>
+<td style="border:1px solid black;">Cumplimiento de las normas</td>
+<td style="border:1px solid black;">Cumplimiento de los principales estándares actuales y oferta de una ruta de migración clara a futuras normas importantes</td>
 </tr>
 </tbody>
 </table>

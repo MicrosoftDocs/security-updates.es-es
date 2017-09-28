@@ -36,7 +36,7 @@ En la siguiente tabla se incluyen los nombres de las plantillas de seguridad de 
 
 **Tabla 7.1 Plantillas de seguridad de servidor de archivos**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -45,16 +45,16 @@ En la siguiente tabla se incluyen los nombres de las plantillas de seguridad de 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Cliente heredado</p></th>
-<th><p>Cliente de empresa</p></th>
-<th><p>Seguridad especializada: Funcionalidad limitada</p></th>
+<th>Cliente heredado</th>
+<th>Cliente de empresa</th>
+<th>Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>LC-File Server.inf</p></td>
-<td style="border:1px solid black;"><p>EC-File Server.inf</p></td>
-<td style="border:1px solid black;"><p>SSLF-File Server.inf</p></td>
+<td style="border:1px solid black;">LC-File Server.inf</td>
+<td style="border:1px solid black;">EC-File Server.inf</td>
+<td style="border:1px solid black;">SSLF-File Server.inf</td>
 </tr>
 </tbody>
 </table>

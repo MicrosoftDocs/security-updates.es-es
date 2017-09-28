@@ -123,7 +123,7 @@ La plantilla de GPO de Active Directory permite controlar una serie de parámet
 
 **Tabla 2.1. Configuración relacionada con EFS de las plantillas de GPO de Active Directory**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -132,51 +132,51 @@ La plantilla de GPO de Active Directory permite controlar una serie de parámet
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nombre de parámetro</p></th>
-<th><p>Disponibilidad</p></th>
-<th><p>Opción predeterminada</p></th>
+<th>Nombre de parámetro</th>
+<th>Disponibilidad</th>
+<th>Opción predeterminada</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Habilitar EFS</p></td>
-<td style="border:1px solid black;"><p>Windows XP, Windows Vista</p></td>
-<td style="border:1px solid black;"><p>Permitir</p></td>
+<td style="border:1px solid black;">Habilitar EFS</td>
+<td style="border:1px solid black;">Windows XP, Windows Vista</td>
+<td style="border:1px solid black;">Permitir</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Cifrar documentos</p></td>
-<td style="border:1px solid black;"><p>Windows Vista</p></td>
-<td style="border:1px solid black;"><p>Desactivado</p></td>
+<td style="border:1px solid black;">Cifrar documentos</td>
+<td style="border:1px solid black;">Windows Vista</td>
+<td style="border:1px solid black;">Desactivado</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Requerir tarjeta inteligente</p></td>
-<td style="border:1px solid black;"><p>Windows Vista</p></td>
-<td style="border:1px solid black;"><p>Desactivado</p></td>
+<td style="border:1px solid black;">Requerir tarjeta inteligente</td>
+<td style="border:1px solid black;">Windows Vista</td>
+<td style="border:1px solid black;">Desactivado</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Crear claves de usuario con capacidad de almacenamiento en caché desde la tarjeta inteligente</p></td>
-<td style="border:1px solid black;"><p>Windows Vista</p></td>
-<td style="border:1px solid black;"><p>Desactivado</p></td>
+<td style="border:1px solid black;">Crear claves de usuario con capacidad de almacenamiento en caché desde la tarjeta inteligente</td>
+<td style="border:1px solid black;">Windows Vista</td>
+<td style="border:1px solid black;">Desactivado</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Habilitar cifrado de archivo de paginación</p></td>
-<td style="border:1px solid black;"><p>Windows Vista</p></td>
-<td style="border:1px solid black;"><p>Desactivado</p></td>
+<td style="border:1px solid black;">Habilitar cifrado de archivo de paginación</td>
+<td style="border:1px solid black;">Windows Vista</td>
+<td style="border:1px solid black;">Desactivado</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Inscripción automática de certificados</p></td>
-<td style="border:1px solid black;"><p>Windows XP, Windows Vista</p></td>
-<td style="border:1px solid black;"><p>Activado</p></td>
+<td style="border:1px solid black;">Inscripción automática de certificados</td>
+<td style="border:1px solid black;">Windows XP, Windows Vista</td>
+<td style="border:1px solid black;">Activado</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tamaño de clave para certificados autofirmados</p></td>
-<td style="border:1px solid black;"><p>Windows Vista</p></td>
-<td style="border:1px solid black;"><p>2048 bits</p></td>
+<td style="border:1px solid black;">Tamaño de clave para certificados autofirmados</td>
+<td style="border:1px solid black;">Windows Vista</td>
+<td style="border:1px solid black;">2048 bits</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Plantilla de EFS para solicitudes automáticas de certificados</p></td>
-<td style="border:1px solid black;"><p>Windows Vista</p></td>
-<td style="border:1px solid black;"><p>Ninguna</p></td>
+<td style="border:1px solid black;">Plantilla de EFS para solicitudes automáticas de certificados</td>
+<td style="border:1px solid black;">Windows Vista</td>
+<td style="border:1px solid black;">Ninguna</td>
 </tr>
 </tbody>
 </table>

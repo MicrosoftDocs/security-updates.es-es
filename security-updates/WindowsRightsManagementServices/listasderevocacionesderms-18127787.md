@@ -23,7 +23,7 @@ En la tabla siguiente, se describen las entidades que se pueden especificar en l
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -37,28 +37,28 @@ En la tabla siguiente, se describen las entidades que se pueden especificar en l
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Un grupo de licencias o certificados</p></td>
-<td style="border:1px solid black;"><p>Id. o clave pública del emisor</p></td>
+<td style="border:1px solid black;">Un grupo de licencias o certificados</td>
+<td style="border:1px solid black;">Id. o clave pública del emisor</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Un grupo de manifiestos de aplicaciones</p></td>
-<td style="border:1px solid black;"><p>Id. o clave pública del emisor</p></td>
+<td style="border:1px solid black;">Un grupo de manifiestos de aplicaciones</td>
+<td style="border:1px solid black;">Id. o clave pública del emisor</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Una licencia o un certificado determinado</p></td>
-<td style="border:1px solid black;"><p>Id. o algoritmo hash de la licencia</p></td>
+<td style="border:1px solid black;">Una licencia o un certificado determinado</td>
+<td style="border:1px solid black;">Id. o algoritmo hash de la licencia</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Un manifiesto de aplicación determinado</p></td>
-<td style="border:1px solid black;"><p>Id. o algoritmo hash de la licencia</p></td>
+<td style="border:1px solid black;">Un manifiesto de aplicación determinado</td>
+<td style="border:1px solid black;">Id. o algoritmo hash de la licencia</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Una entidad principal determinada</p></td>
-<td style="border:1px solid black;"><p>Id. o clave pública de la entidad principal</p></td>
+<td style="border:1px solid black;">Una entidad principal determinada</td>
+<td style="border:1px solid black;">Id. o clave pública de la entidad principal</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Un fragmento de contenido determinado</p></td>
-<td style="border:1px solid black;"><p>Id. del contenido</p></td>
+<td style="border:1px solid black;">Un fragmento de contenido determinado</td>
+<td style="border:1px solid black;">Id. del contenido</td>
 </tr>
 </tbody>
 </table>
@@ -71,7 +71,7 @@ Las listas de revocaciones son archivos XrML que especifican los parámetros sig
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -85,20 +85,20 @@ Las listas de revocaciones son archivos XrML que especifican los parámetros sig
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ISSUEDTIME</p></td>
-<td style="border:1px solid black;"><p>Hora del sistema en que se creó el archivo XrML. Este parámetro lo usa la condición REFRESH que se incluye en una licencia de uso para determinar la antigüedad de la lista de revocaciones.</p></td>
+<td style="border:1px solid black;">ISSUEDTIME</td>
+<td style="border:1px solid black;">Hora del sistema en que se creó el archivo XrML. Este parámetro lo usa la condición REFRESH que se incluye en una licencia de uso para determinar la antigüedad de la lista de revocaciones.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ISSUER</p></td>
-<td style="border:1px solid black;"><p>Nombre, Id. y dirección del emisor de la lista de revocaciones.</p></td>
+<td style="border:1px solid black;">ISSUER</td>
+<td style="border:1px solid black;">Nombre, Id. y dirección del emisor de la lista de revocaciones.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PUBLICKEY</p></td>
-<td style="border:1px solid black;"><p>Clave pública del emisor de la lista de revocaciones.</p></td>
+<td style="border:1px solid black;">PUBLICKEY</td>
+<td style="border:1px solid black;">Clave pública del emisor de la lista de revocaciones.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>REVOCATIONLIST</p></td>
-<td style="border:1px solid black;"><p>Nombre, tipo e Id. de cada entidad revocada.</p></td>
+<td style="border:1px solid black;">REVOCATIONLIST</td>
+<td style="border:1px solid black;">Nombre, tipo e Id. de cada entidad revocada.</td>
 </tr>
 </tbody>
 </table>

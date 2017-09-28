@@ -46,7 +46,7 @@ All of the following server configuration settings are stored inside the WSUS da
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -62,32 +62,32 @@ All of the following server configuration settings are stored inside the WSUS da
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Update Storage</p></td>
-<td style="border:1px solid black;"><p><em>tbConfigurationA.SyncToMu</em></p>
-<p><em>tbConfigurationA.UpstreamServerName</em></p></td>
-<td style="border:1px solid black;"><p>The first database location specifies the update source for client computers. The values possible are:</p>
-<p>0 – WSUS server</p>
-<p>1 – Microsoft Update</p>
-<p>The second database location specifies the name of the upstream WSUS server, if you have chosen one as the update source.</p></td>
+<td style="border:1px solid black;">Update Storage</td>
+<td style="border:1px solid black;"><em>tbConfigurationA.SyncToMu</em>
+<em>tbConfigurationA.UpstreamServerName</em></td>
+<td style="border:1px solid black;">The first database location specifies the update source for client computers. The values possible are:
+0 – WSUS server
+1 – Microsoft Update
+The second database location specifies the name of the upstream WSUS server, if you have chosen one as the update source.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Express (PSF) file download</p></td>
-<td style="border:1px solid black;"><p><em>tbConfigurationC.DownloadExpressPackages</em></p></td>
-<td style="border:1px solid black;"><p>This setting controls whether or not express installation files are downloaded. The values possible are:</p>
-<p>0 – Do not download express files (default) option.</p>
-<p>1 – Download express files.</p>
-<p>On the WSUS console, this is configured on the Advanced Synchronization Options box.</p></td>
+<td style="border:1px solid black;">Express (PSF) file download</td>
+<td style="border:1px solid black;"><em>tbConfigurationC.DownloadExpressPackages</em></td>
+<td style="border:1px solid black;">This setting controls whether or not express installation files are downloaded. The values possible are:
+0 – Do not download express files (default) option.
+1 – Download express files.
+On the WSUS console, this is configured on the Advanced Synchronization Options box.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Language options</p></td>
-<td style="border:1px solid black;"><p><em>tbLanguage.Enabled</em></p></td>
-<td style="border:1px solid black;"><p>This setting controls which language binaries are to be downloaded. By default, all languages are enabled.</p>
-<p>On the WSUS console this is configured on the Advanced Synchronization Options box.</p></td>
+<td style="border:1px solid black;">Language options</td>
+<td style="border:1px solid black;"><em>tbLanguage.Enabled</em></td>
+<td style="border:1px solid black;">This setting controls which language binaries are to be downloaded. By default, all languages are enabled.
+On the WSUS console this is configured on the Advanced Synchronization Options box.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>BITS download priority</p></td>
-<td style="border:1px solid black;"><p><em>tbConfigurationC.BitsDownloadPriorityForeground</em></p></td>
-<td style="border:1px solid black;"><p>This internal setting specifies whether or not to use foreground priority for BITS downloads. The default is to use throttled downloads. This setting was added to handle issues with certain proxy servers that did not correctly handle HTTP 1.1 restartable downloads.</p></td>
+<td style="border:1px solid black;">BITS download priority</td>
+<td style="border:1px solid black;"><em>tbConfigurationC.BitsDownloadPriorityForeground</em></td>
+<td style="border:1px solid black;">This internal setting specifies whether or not to use foreground priority for BITS downloads. The default is to use throttled downloads. This setting was added to handle issues with certain proxy servers that did not correctly handle HTTP 1.1 restartable downloads.</td>
 </tr>
 </tbody>
 </table>
@@ -99,7 +99,7 @@ The following virtual directories (vroots) are created in IIS (in the Default We
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -113,62 +113,62 @@ The following virtual directories (vroots) are created in IIS (in the Default We
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ClientWebService</p></td>
-<td style="border:1px solid black;"><p>Directory: %ProgramFiles%Update Services\WebServices\ClientWebService</p>
-<p>Application Pool: WsusPool</p>
-<p>Security: Anonymous Access Enabled.</p>
-<p>Execute Permissions: Scripts Only</p></td>
+<td style="border:1px solid black;">ClientWebService</td>
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\ClientWebService
+Application Pool: WsusPool
+Security: Anonymous Access Enabled.
+Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Content</p></td>
-<td style="border:1px solid black;"><p>Directory: e:\wsus\wsuscontent</p>
-<p>Security: Anonymous Access Enabled</p>
-<p>Execute Permissions: None</p></td>
+<td style="border:1px solid black;">Content</td>
+<td style="border:1px solid black;">Directory: e:\wsus\wsuscontent
+Security: Anonymous Access Enabled
+Execute Permissions: None</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DssAuthWebService</p></td>
-<td style="border:1px solid black;"><p>Directory: %ProgramFiles%Update Services\WebServices\DssAuthWebService</p>
-<p>Application Pool: WsusPool</p>
-<p>Security: Anonymous Access Enabled.</p>
-<p>Execute Permissions: Scripts Only</p></td>
+<td style="border:1px solid black;">DssAuthWebService</td>
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\DssAuthWebService
+Application Pool: WsusPool
+Security: Anonymous Access Enabled.
+Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ReportingWebService</p></td>
-<td style="border:1px solid black;"><p>Directory: %ProgramFiles%Update Services\WebServices\ReportingWebService</p>
-<p>Application Pool: WsusPool</p>
-<p>Security: Anonymous Access Enabled.</p>
-<p>Execute Permissions: Scripts Only</p></td>
+<td style="border:1px solid black;">ReportingWebService</td>
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\ReportingWebService
+Application Pool: WsusPool
+Security: Anonymous Access Enabled.
+Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ServerSyncWebService</p></td>
-<td style="border:1px solid black;"><p>Directory: %ProgramFiles%Update Services\WebServices\ServerSyncWebService</p>
-<p>Application Pool: WsusPool</p>
-<p>Security: Anonymous Access Enabled.</p>
-<p>Execute Permissions: Scripts Only</p></td>
+<td style="border:1px solid black;">ServerSyncWebService</td>
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\ServerSyncWebService
+Application Pool: WsusPool
+Security: Anonymous Access Enabled.
+Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SimpleAuthWebService</p></td>
-<td style="border:1px solid black;"><p>Directory: %ProgramFiles%Update Services\WebServices\SimpleAuthWebService</p>
-<p>Application Pool: WsusPool</p>
-<p>Security: Anonymous Access Enabled.</p>
-<p>Execute Permissions: Scripts Only</p></td>
+<td style="border:1px solid black;">SimpleAuthWebService</td>
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\SimpleAuthWebService
+Application Pool: WsusPool
+Security: Anonymous Access Enabled.
+Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>WSUSAdmin</p></td>
-<td style="border:1px solid black;"><p>Directory: %ProgramFiles%Update Services\Administration</p>
-<p>Application Pool: WsusPool</p>
-<p>Security: Integrated Windows Authentication.</p>
-<p>Execute Permissions: Scripts Only</p></td>
+<td style="border:1px solid black;">WSUSAdmin</td>
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\Administration
+Application Pool: WsusPool
+Security: Integrated Windows Authentication.
+Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SelfUpdate</p></td>
-<td style="border:1px solid black;"><p>Directory: %ProgramFiles%Update Services\SelfUpdate</p>
-<p>Security: Anonymous Access Enabled, Integrated Windows Authentication.</p>
-<p>Execute Permissions: Scripts Only</p></td>
+<td style="border:1px solid black;">SelfUpdate</td>
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\SelfUpdate
+Security: Anonymous Access Enabled, Integrated Windows Authentication.
+Execute Permissions: Scripts Only</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 #### Permissions
 

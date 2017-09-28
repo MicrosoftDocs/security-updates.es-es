@@ -112,7 +112,7 @@ Antes de adentrarnos en el funcionamiento de las soluciones de seguridad de WLAN
 
 **Tabla 2.1: Principales amenazas físicas para WLAN**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -120,38 +120,38 @@ Antes de adentrarnos en el funcionamiento de las soluciones de seguridad de WLAN
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Amenaza</p></th>
-<th><p>Descripción de la amenaza</p></th>
+<th>Amenaza</th>
+<th>Descripción de la amenaza</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Interceptación (revelación de datos)</p></td>
-<td style="border:1px solid black;"><p>La interceptación de datos trasmitidos puede resultar en la revelación de datos confidenciales y de credenciales de usuario sin protección, además de la usurpación de la identidad. Permite también que usuarios malintencionados con cierto grado de sofisticación puedan recopilar información sobre su entorno de TI y la utilicen para atacar sistemas o datos que, de otra forma, no serían vulnerables.</p></td>
+<td style="border:1px solid black;">Interceptación (revelación de datos)</td>
+<td style="border:1px solid black;">La interceptación de datos trasmitidos puede resultar en la revelación de datos confidenciales y de credenciales de usuario sin protección, además de la usurpación de la identidad. Permite también que usuarios malintencionados con cierto grado de sofisticación puedan recopilar información sobre su entorno de TI y la utilicen para atacar sistemas o datos que, de otra forma, no serían vulnerables.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Interceptación y modificación de datos transmitidos</p></td>
-<td style="border:1px solid black;"><p>si un atacante consigue acceso a la red, puede introducir un equipo falso que intercepte y modifique las comunicaciones entre dos usuarios o equipos legítimos.</p></td>
+<td style="border:1px solid black;">Interceptación y modificación de datos transmitidos</td>
+<td style="border:1px solid black;">si un atacante consigue acceso a la red, puede introducir un equipo falso que intercepte y modifique las comunicaciones entre dos usuarios o equipos legítimos.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Imitación</p></td>
-<td style="border:1px solid black;"><p>El acceso fácil a la red interna permite a posibles atacantes falsificar datos aparentemente legítimos de modos que no sería posible hacerlo desde fuera de la red; por ejemplo, pueden imitarse mensajes de correo electrónico. Los usuarios, incluso los administradores de sistemas, suelen confiar en los elementos originados dentro de la red corporativa mucho más que en los procedentes del exterior.</p></td>
+<td style="border:1px solid black;">Imitación</td>
+<td style="border:1px solid black;">El acceso fácil a la red interna permite a posibles atacantes falsificar datos aparentemente legítimos de modos que no sería posible hacerlo desde fuera de la red; por ejemplo, pueden imitarse mensajes de correo electrónico. Los usuarios, incluso los administradores de sistemas, suelen confiar en los elementos originados dentro de la red corporativa mucho más que en los procedentes del exterior.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Denegación del servicio (DoS)</p></td>
-<td style="border:1px solid black;"><p>Un atacante puede provocar un ataque de denegación de servicio de varios modos. Por ejemplo, la interrupción de las señales de radio se puede conseguir utilizando algo tan simple como un microondas. Existen ataques más complejos cuyo objetivo son los protocolos inalámbricos de nivel bajo, y otros menos complejos cuyo objetivo son las redes mediante un gran incremento del tráfico aleatorio en la WLAN.</p></td>
+<td style="border:1px solid black;">Denegación del servicio (DoS)</td>
+<td style="border:1px solid black;">Un atacante puede provocar un ataque de denegación de servicio de varios modos. Por ejemplo, la interrupción de las señales de radio se puede conseguir utilizando algo tan simple como un microondas. Existen ataques más complejos cuyo objetivo son los protocolos inalámbricos de nivel bajo, y otros menos complejos cuyo objetivo son las redes mediante un gran incremento del tráfico aleatorio en la WLAN.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Carga libre (robo de recursos)</p></td>
-<td style="border:1px solid black;"><p>Es posible que el objetivo del intruso sea algo tan simple como el uso de su red como punto de libre acceso a Internet. Aunque este tipo de amenaza no es tan preocupante como las anteriores, la carga libre no sólo reducirá el nivel de servicio disponible para los usuarios legítimos, sino que podría dar lugar a la introducción de virus y otras amenazas.</p></td>
+<td style="border:1px solid black;">Carga libre (robo de recursos)</td>
+<td style="border:1px solid black;">Es posible que el objetivo del intruso sea algo tan simple como el uso de su red como punto de libre acceso a Internet. Aunque este tipo de amenaza no es tan preocupante como las anteriores, la carga libre no sólo reducirá el nivel de servicio disponible para los usuarios legítimos, sino que podría dar lugar a la introducción de virus y otras amenazas.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Amenazas accidentales</p></td>
-<td style="border:1px solid black;"><p>Algunas características de WLAN facilitan la incidencia de amenazas no intencionadas. Por ejemplo, un visitante autorizado podría iniciar su equipo portátil sin la intención de conectarse a la red pero la conexión a la WLAN de la compañía se produce de forma automática. Así, el equipo portátil del visitante se convierte en un punto de entrada de virus en la red. Este tipo de amenaza sólo se da en WLAN desprotegidas.</p></td>
+<td style="border:1px solid black;">Amenazas accidentales</td>
+<td style="border:1px solid black;">Algunas características de WLAN facilitan la incidencia de amenazas no intencionadas. Por ejemplo, un visitante autorizado podría iniciar su equipo portátil sin la intención de conectarse a la red pero la conexión a la WLAN de la compañía se produce de forma automática. Así, el equipo portátil del visitante se convierte en un punto de entrada de virus en la red. Este tipo de amenaza sólo se da en WLAN desprotegidas.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>WLAN falsas</p></td>
-<td style="border:1px solid black;"><p>Aunque su organización no disponga oficialmente de una WLAN, existe el riesgo de amenazas por parte de WLAN no administradas que pueden hacer su aparición en la red. Hoy día es posible comprar hardware de WLAN muy barato, con lo que pueden introducirse vulnerabilidades no intencionadas en la red.</p></td>
+<td style="border:1px solid black;">WLAN falsas</td>
+<td style="border:1px solid black;">Aunque su organización no disponga oficialmente de una WLAN, existe el riesgo de amenazas por parte de WLAN no administradas que pueden hacer su aparición en la red. Hoy día es posible comprar hardware de WLAN muy barato, con lo que pueden introducirse vulnerabilidades no intencionadas en la red.</td>
 </tr>
 </tbody>
 </table>
@@ -304,7 +304,7 @@ Una tabla incluida anteriormente en este capítulo ofrecía una descripción de 
   
 **Tabla 2.2: Amenazas contra la seguridad evaluadas en función de la solución propuesta**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -312,48 +312,48 @@ Una tabla incluida anteriormente en este capítulo ofrecía una descripción de 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Amenaza</p></th>
-<th><p>Mitigación</p></th>
+<th>Amenaza</th>
+<th>Mitigación</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Interceptación (revelación de datos)</p></td>
-<td style="border:1px solid black;"><p>La asignación y modificación dinámicas de las claves de cifrado con regularidad y el hecho de que las claves sean exclusivas para cada sesión de usuario implica que no se puede descubrir las claves y el acceso a los datos de ninguna forma conocida (siempre y cuando la actualización de claves se lleve a cabo con frecuencia).</p>
-<p>WPA ofrece mayor seguridad, ya que las claves de cifrado son diferentes para cada paquete. La clave global (que protege el tráfico de difusión) cambia para cada paquete.</p></td>
+<td style="border:1px solid black;">Interceptación (revelación de datos)</td>
+<td style="border:1px solid black;">La asignación y modificación dinámicas de las claves de cifrado con regularidad y el hecho de que las claves sean exclusivas para cada sesión de usuario implica que no se puede descubrir las claves y el acceso a los datos de ninguna forma conocida (siempre y cuando la actualización de claves se lleve a cabo con frecuencia).
+WPA ofrece mayor seguridad, ya que las claves de cifrado son diferentes para cada paquete. La clave global (que protege el tráfico de difusión) cambia para cada paquete.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Interceptación y modificación de datos transmitidos</p></td>
-<td style="border:1px solid black;"><p>Puesto que entre el cliente inalámbrico y el punto de acceso inalámbrico se utiliza el cifrado mediante claves dinámicas, ningún usuario malintencionado puede interceptar los datos y modificarlos.</p>
-<p>La autenticación mutua entre el cliente, el servidor RADIUS y el AP inalámbrico hace que sea muy difícil que un atacante pueda suplantar a alguno de ellos.</p>
-<p>WPA mejora la integridad de los datos con el protocolo Michael.</p></td>
+<td style="border:1px solid black;">Interceptación y modificación de datos transmitidos</td>
+<td style="border:1px solid black;">Puesto que entre el cliente inalámbrico y el punto de acceso inalámbrico se utiliza el cifrado mediante claves dinámicas, ningún usuario malintencionado puede interceptar los datos y modificarlos.
+La autenticación mutua entre el cliente, el servidor RADIUS y el AP inalámbrico hace que sea muy difícil que un atacante pueda suplantar a alguno de ellos.
+WPA mejora la integridad de los datos con el protocolo Michael.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Imitación</p></td>
-<td style="border:1px solid black;"><p>La autenticación segura en la red impide que usuarios no autorizados se conecten a la red e introduzcan datos falsos desde el interior.</p></td>
+<td style="border:1px solid black;">Imitación</td>
+<td style="border:1px solid black;">La autenticación segura en la red impide que usuarios no autorizados se conecten a la red e introduzcan datos falsos desde el interior.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Denegación de servicio (DoS)</p></td>
-<td style="border:1px solid black;"><p>Pueden evitarse los ataques de exceso de datos, entre otros ataques de denegación de servicio, mediante el control de acceso a la WLAN con el protocolo 802.1X. No existe ningún modo de defensa contra ataques DoS de 802.11 de bajo nivel en WEP dinámica ni WPA. El estándar 802.11i se ocupará de esta cuestión.</p>
-<p>Sin embargo, este estándar tampoco será inmune a trastornos de la capa física (nivel de radio) de las redes.</p>
-<p>Estas vulnerabilidades son características de las WLAN 802.11 actuales y comunes en el resto de las opciones mencionadas anteriormente en este capítulo.</p></td>
+<td style="border:1px solid black;">Denegación de servicio (DoS)</td>
+<td style="border:1px solid black;">Pueden evitarse los ataques de exceso de datos, entre otros ataques de denegación de servicio, mediante el control de acceso a la WLAN con el protocolo 802.1X. No existe ningún modo de defensa contra ataques DoS de 802.11 de bajo nivel en WEP dinámica ni WPA. El estándar 802.11i se ocupará de esta cuestión.
+Sin embargo, este estándar tampoco será inmune a trastornos de la capa física (nivel de radio) de las redes.
+Estas vulnerabilidades son características de las WLAN 802.11 actuales y comunes en el resto de las opciones mencionadas anteriormente en este capítulo.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Carga libre (robo de recursos)</p></td>
-<td style="border:1px solid black;"><p>El requisito de autenticación segura impide el uso no autorizado de la red.</p></td>
+<td style="border:1px solid black;">Carga libre (robo de recursos)</td>
+<td style="border:1px solid black;">El requisito de autenticación segura impide el uso no autorizado de la red.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Amenazas accidentales</p></td>
-<td style="border:1px solid black;"><p>El requisito de autenticación segura impide la conexión accidental a la WLAN.</p></td>
+<td style="border:1px solid black;">Amenazas accidentales</td>
+<td style="border:1px solid black;">El requisito de autenticación segura impide la conexión accidental a la WLAN.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>WLAN falsas</p></td>
-<td style="border:1px solid black;"><p>Si bien la solución no se ocupa directamente de los puntos de acceso inalámbricos falsos, la implementación de una solución inalámbrica segura como ésta elimina prácticamente los motivos para establecer una WLAN falsa.</p>
-<p>Sin embargo, debería considerar la creación y publicación de una directiva clara que prohíba el uso de WLAN no autorizadas. Puede forzar su implementación mediante herramientas de software que exploran la red en busca de direcciones de hardware de punto de acceso inalámbrico y equipos de detección de WLAN de mano.</p></td>
+<td style="border:1px solid black;">WLAN falsas</td>
+<td style="border:1px solid black;">Si bien la solución no se ocupa directamente de los puntos de acceso inalámbricos falsos, la implementación de una solución inalámbrica segura como ésta elimina prácticamente los motivos para establecer una WLAN falsa.
+Sin embargo, debería considerar la creación y publicación de una directiva clara que prohíba el uso de WLAN no autorizadas. Puede forzar su implementación mediante herramientas de software que exploran la red en busca de direcciones de hardware de punto de acceso inalámbrico y equipos de detección de WLAN de mano.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 #### Otros enfoques a la seguridad de WLAN
 
@@ -373,7 +373,7 @@ Las diferencias clave entre estos enfoques y la solución basada en el protocolo
 
 **Tabla 2.3: Comparación de los enfoques de seguridad de WLAN**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -384,72 +384,72 @@ Las diferencias clave entre estos enfoques y la solución basada en el protocolo
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Característica</p></th>
-<th><p>WLAN 802.1X</p></th>
-<th><p>WEP estática</p></th>
-<th><p>VPN</p></th>
-<th><p>IPsec</p></th>
+<th>Característica</th>
+<th>WLAN 802.1X</th>
+<th>WEP estática</th>
+<th>VPN</th>
+<th>IPsec</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Autenticación</p>
-<p>segura (1)</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>Sí,</p>
-<p>pero no en el caso de VPN que utilizan autenticación de clave compartida.</p></td>
-<td style="border:1px solid black;"><p>Sí,</p>
-<p>siempre y cuando se use la autenticación de certificados o de Kerberos.</p></td>
+<td style="border:1px solid black;">Autenticación
+segura (1)</td>
+<td style="border:1px solid black;">Sí</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">Sí,
+pero no en el caso de VPN que utilizan autenticación de clave compartida.</td>
+<td style="border:1px solid black;">Sí,
+siempre y cuando se use la autenticación de certificados o de Kerberos.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Cifrado de datos seguro</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
+<td style="border:1px solid black;">Cifrado de datos seguro</td>
+<td style="border:1px solid black;">Sí</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">Sí</td>
+<td style="border:1px solid black;">Sí</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Transparencia en conexión y reconexión a WLAN</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
+<td style="border:1px solid black;">Transparencia en conexión y reconexión a WLAN</td>
+<td style="border:1px solid black;">Sí</td>
+<td style="border:1px solid black;">Sí</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">Sí</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Autenticación de usuarios</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
+<td style="border:1px solid black;">Autenticación de usuarios</td>
+<td style="border:1px solid black;">Sí</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">Sí</td>
+<td style="border:1px solid black;">Sí</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Autenticación de equipos (2)</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
+<td style="border:1px solid black;">Autenticación de equipos (2)</td>
+<td style="border:1px solid black;">Sí</td>
+<td style="border:1px solid black;">Sí</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">Sí</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tráfico de difusión y multidifusión protegido</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">Tráfico de difusión y multidifusión protegido</td>
+<td style="border:1px solid black;">Sí</td>
+<td style="border:1px solid black;">Sí</td>
+<td style="border:1px solid black;">Sí</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Se requieren dispositivos de red adicionales</p></td>
-<td style="border:1px solid black;"><p>Servidores RADIUS</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>Servidores VPN, servidores RADIUS</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">Se requieren dispositivos de red adicionales</td>
+<td style="border:1px solid black;">Servidores RADIUS</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">Servidores VPN, servidores RADIUS</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Garantiza el acceso a la WLAN</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
-<td style="border:1px solid black;"><p>Sí</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">Garantiza el acceso a la WLAN</td>
+<td style="border:1px solid black;">Sí</td>
+<td style="border:1px solid black;">Sí</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 </tbody>
 </table>

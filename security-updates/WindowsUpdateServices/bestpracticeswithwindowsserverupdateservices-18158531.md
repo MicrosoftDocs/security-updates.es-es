@@ -31,7 +31,7 @@ However, if you are aware of and want to protect computers against immediate sec
 
 ### Policies for Configuring Automatic Updates Behavior
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -45,8 +45,8 @@ However, if you are aware of and want to protect computers against immediate sec
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Configure Automatic Updates</p></td>
-<td style="border:1px solid black;"><p>By enabling this setting you enable your computer to receive updates through Automatic Updates on a computer or computer group. To complete this setting, you must then select one of the following four options:</p>
+<td style="border:1px solid black;">Configure Automatic Updates</td>
+<td style="border:1px solid black;">By enabling this setting you enable your computer to receive updates through Automatic Updates on a computer or computer group. To complete this setting, you must then select one of the following four options:
 <ul>
 <li>Notify before downloading any updates and notify again before installing them.<br />
 <br />
@@ -63,16 +63,16 @@ However, if you are aware of and want to protect computers against immediate sec
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>No auto-restart for scheduled Automatic Updates installations</p></td>
-<td style="border:1px solid black;"><p>Specifies that to complete a scheduled installation, Automatic Updates will wait for the computer to be restarted by any user who is logged on, instead of causing the computer to restart automatically.</p></td>
+<td style="border:1px solid black;">No auto-restart for scheduled Automatic Updates installations</td>
+<td style="border:1px solid black;">Specifies that to complete a scheduled installation, Automatic Updates will wait for the computer to be restarted by any user who is logged on, instead of causing the computer to restart automatically.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Automatic Updates detection frequency</p></td>
-<td style="border:1px solid black;"><p>Configures the frequency with which computers contact the WSUS server. The exact time between contact will actually be the number of hours you specify here, minus zero to twenty percent of the hours specified. For example, if this policy is used to specify a 20-hour contact frequency, then all client computers to which this policy is applied will check for updates anywhere between 16 and 20 hours. If you leave this policy set to <strong>Disabled</strong> or <strong>Not Configured</strong>, Windows will check for available updates at the default interval of 22 hours.</p></td>
+<td style="border:1px solid black;">Automatic Updates detection frequency</td>
+<td style="border:1px solid black;">Configures the frequency with which computers contact the WSUS server. The exact time between contact will actually be the number of hours you specify here, minus zero to twenty percent of the hours specified. For example, if this policy is used to specify a 20-hour contact frequency, then all client computers to which this policy is applied will check for updates anywhere between 16 and 20 hours. If you leave this policy set to <strong>Disabled</strong> or <strong>Not Configured</strong>, Windows will check for available updates at the default interval of 22 hours.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Allow Automatic Updates immediate installation</p></td>
-<td style="border:1px solid black;"><p>Specifies whether Automatic Updates should automatically install certain updates that neither interrupt Windows services nor restart Windows.</p></td>
+<td style="border:1px solid black;">Allow Automatic Updates immediate installation</td>
+<td style="border:1px solid black;">Specifies whether Automatic Updates should automatically install certain updates that neither interrupt Windows services nor restart Windows.</td>
 </tr>
 </tbody>
 </table>

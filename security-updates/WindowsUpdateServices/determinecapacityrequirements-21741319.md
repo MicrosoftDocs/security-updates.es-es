@@ -44,7 +44,7 @@ Be aware that your organization’s performance results may vary if you choose t
 
 ### Sample Configuration and Maximum Supported Capacity
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -62,17 +62,17 @@ Be aware that your organization’s performance results may vary if you choose t
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Single server, non-NLB</p></td>
-<td style="border:1px solid black;"><p>100,000 clients</p></td>
-<td style="border:1px solid black;"><p>Hardware: Intel Core 2 Quad CPU Q6600, 2.40 GHz, 4GB RAM</p>
-<p>Software: Win2K3 Standard x64 SP2</p></td>
-<td style="border:1px solid black;"><p>Delta sync at 7 hour frequency</p>
-<p>Avg. requests per client: 10</p>
-<p>Transaction rate: 6 clients per second</p></td>
+<td style="border:1px solid black;">Single server, non-NLB</td>
+<td style="border:1px solid black;">100,000 clients</td>
+<td style="border:1px solid black;">Hardware: Intel Core 2 Quad CPU Q6600, 2.40 GHz, 4GB RAM
+Software: Win2K3 Standard x64 SP2</td>
+<td style="border:1px solid black;">Delta sync at 7 hour frequency
+Avg. requests per client: 10
+Transaction rate: 6 clients per second</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Performance notes:
 

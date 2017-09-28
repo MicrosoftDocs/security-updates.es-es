@@ -28,7 +28,7 @@ You can generate three kinds of reports, as described in the following table.
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -42,16 +42,16 @@ You can generate three kinds of reports, as described in the following table.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Update Reports</p></td>
-<td style="border:1px solid black;"><p>View update status.</p></td>
+<td style="border:1px solid black;">Update Reports</td>
+<td style="border:1px solid black;">View update status.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Computer Reports</p></td>
-<td style="border:1px solid black;"><p>View computer status.</p></td>
+<td style="border:1px solid black;">Computer Reports</td>
+<td style="border:1px solid black;">View computer status.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Synchronization Reports</p></td>
-<td style="border:1px solid black;"><p>View the results of the last synchronization.</p></td>
+<td style="border:1px solid black;">Synchronization Reports</td>
+<td style="border:1px solid black;">View the results of the last synchronization.</td>
 </tr>
 </tbody>
 </table>
@@ -81,7 +81,7 @@ The Update Status Summary view contains the elements listed in the following tab
   
 ### Description of elements displayed in the Update Status Summary view
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -95,56 +95,56 @@ The Update Status Summary view contains the elements listed in the following tab
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Updates Report tree view</p></td>
-<td style="border:1px solid black;"><p>The tree listing all the updates in the report.</p></td>
+<td style="border:1px solid black;">Updates Report tree view</td>
+<td style="border:1px solid black;">The tree listing all the updates in the report.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Title</p></td>
-<td style="border:1px solid black;"><p>The title of the update.</p></td>
+<td style="border:1px solid black;">Title</td>
+<td style="border:1px solid black;">The title of the update.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Description</p></td>
-<td style="border:1px solid black;"><p>The description of the update.</p></td>
+<td style="border:1px solid black;">Description</td>
+<td style="border:1px solid black;">The description of the update.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Classification</p></td>
-<td style="border:1px solid black;"><p>The classification of the update.</p></td>
+<td style="border:1px solid black;">Classification</td>
+<td style="border:1px solid black;">The classification of the update.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Products</p></td>
-<td style="border:1px solid black;"><p>The products to which the update applies.</p></td>
+<td style="border:1px solid black;">Products</td>
+<td style="border:1px solid black;">The products to which the update applies.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSRC Severity Rating</p></td>
-<td style="border:1px solid black;"><p>Microsoft Security Response Center rating.</p></td>
+<td style="border:1px solid black;">MSRC Severity Rating</td>
+<td style="border:1px solid black;">Microsoft Security Response Center rating.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSRC Number</p></td>
-<td style="border:1px solid black;"><p>Microsoft Security Response Center identification number.</p></td>
+<td style="border:1px solid black;">MSRC Number</td>
+<td style="border:1px solid black;">Microsoft Security Response Center identification number.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>More information</p></td>
-<td style="border:1px solid black;"><p>Redirection to the relevant Web site.</p></td>
+<td style="border:1px solid black;">More information</td>
+<td style="border:1px solid black;">Redirection to the relevant Web site.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Approval Summary for Computer Group</p></td>
-<td style="border:1px solid black;"><p>The listing of groups and approvals.</p></td>
+<td style="border:1px solid black;">Approval Summary for Computer Group</td>
+<td style="border:1px solid black;">The listing of groups and approvals.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Group</p></td>
-<td style="border:1px solid black;"><p>The computer group.</p></td>
+<td style="border:1px solid black;">Group</td>
+<td style="border:1px solid black;">The computer group.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Approval</p></td>
-<td style="border:1px solid black;"><p>Approval status (Approved, Not approved, Declined).</p></td>
+<td style="border:1px solid black;">Approval</td>
+<td style="border:1px solid black;">Approval status (Approved, Not approved, Declined).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Deadline</p></td>
-<td style="border:1px solid black;"><p>The date by which the update must be installed.</p></td>
+<td style="border:1px solid black;">Deadline</td>
+<td style="border:1px solid black;">The date by which the update must be installed.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Administrator</p></td>
-<td style="border:1px solid black;"><p>The administrative action.</p></td>
+<td style="border:1px solid black;">Administrator</td>
+<td style="border:1px solid black;">The administrative action.</td>
 </tr>
 </tbody>
 </table>
@@ -183,7 +183,7 @@ The report has four components, which are described in the following table.
   
 ### Components of Synchronization Results Report
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -197,26 +197,26 @@ The report has four components, which are described in the following table.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Report Options</p></td>
-<td style="border:1px solid black;"><p>Shows the start and end dates of the period shown in the report, as well as the date of the report and the server for which the report was made.</p></td>
+<td style="border:1px solid black;">Report Options</td>
+<td style="border:1px solid black;">Shows the start and end dates of the period shown in the report, as well as the date of the report and the server for which the report was made.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Synchronization Summary</p></td>
-<td style="border:1px solid black;"><p>Displays summary information of the numbers of new, revised, and expired updates in each synchronization.</p></td>
+<td style="border:1px solid black;">Synchronization Summary</td>
+<td style="border:1px solid black;">Displays summary information of the numbers of new, revised, and expired updates in each synchronization.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>New Updates</p></td>
-<td style="border:1px solid black;"><p>Displays the new updates that have been synchronized to the WSUS server during the report's time period.</p>
-<p>You can view the properties for each update by clicking the update. An update status report will be generated for that individual report.</p></td>
+<td style="border:1px solid black;">New Updates</td>
+<td style="border:1px solid black;">Displays the new updates that have been synchronized to the WSUS server during the report's time period.
+You can view the properties for each update by clicking the update. An update status report will be generated for that individual report.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Revised Updates</p></td>
-<td style="border:1px solid black;"><p>Displays the revised updates that have been synchronized to the WSUS server during the report's time period.</p>
-<p>You can view the properties for each update by clicking the update. An update status report will be generated for that individual report.</p></td>
+<td style="border:1px solid black;">Revised Updates</td>
+<td style="border:1px solid black;">Displays the revised updates that have been synchronized to the WSUS server during the report's time period.
+You can view the properties for each update by clicking the update. An update status report will be generated for that individual report.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Expired Updates</p></td>
-<td style="border:1px solid black;"><p>Displays the updates that have been expired during the report's time period..</p></td>
+<td style="border:1px solid black;">Expired Updates</td>
+<td style="border:1px solid black;">Displays the updates that have been expired during the report's time period..</td>
 </tr>
 </tbody>
 </table>

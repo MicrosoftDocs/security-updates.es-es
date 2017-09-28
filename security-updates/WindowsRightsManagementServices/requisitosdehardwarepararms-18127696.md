@@ -13,7 +13,7 @@ En la siguiente tabla se describen los requisitos mínimos de hardware y recomen
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,20 +27,20 @@ En la siguiente tabla se describen los requisitos mínimos de hardware y recomen
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PC con un procesador Pentium III (800 MHz o superior)</p></td>
-<td style="border:1px solid black;"><p>PC con dos procesadores Pentium 4 (1500 MHz o superior)</p></td>
+<td style="border:1px solid black;">PC con un procesador Pentium III (800 MHz o superior)</td>
+<td style="border:1px solid black;">PC con dos procesadores Pentium 4 (1500 MHz o superior)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>256 MB de RAM</p></td>
-<td style="border:1px solid black;"><p>512 MB de RAM</p></td>
+<td style="border:1px solid black;">256 MB de RAM</td>
+<td style="border:1px solid black;">512 MB de RAM</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>20 GB de espacio libre en el disco duro</p></td>
-<td style="border:1px solid black;"><p>40 GB de espacio libre en el disco duro</p></td>
+<td style="border:1px solid black;">20 GB de espacio libre en el disco duro</td>
+<td style="border:1px solid black;">40 GB de espacio libre en el disco duro</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Un adaptador de red</p></td>
-<td style="border:1px solid black;"><p>Un adaptador de red</p></td>
+<td style="border:1px solid black;">Un adaptador de red</td>
+<td style="border:1px solid black;">Un adaptador de red</td>
 </tr>
 </tbody>
 </table>

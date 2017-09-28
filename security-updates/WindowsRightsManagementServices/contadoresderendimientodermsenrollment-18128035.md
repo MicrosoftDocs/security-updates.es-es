@@ -13,7 +13,7 @@ En la siguiente tabla, se listan los contadores de rendimiento disponibles para 
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,16 +27,16 @@ En la siguiente tabla, se listan los contadores de rendimiento disponibles para 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SubEnroll Failures</p></td>
-<td style="border:1px solid black;"><p>Número total de solicitudes de subinscripción que no se han procesado completamente.</p></td>
+<td style="border:1px solid black;">SubEnroll Failures</td>
+<td style="border:1px solid black;">Número total de solicitudes de subinscripción que no se han procesado completamente.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SubEnroll Processing Time</p></td>
-<td style="border:1px solid black;"><p>Tiempo medio de procesamiento, en microsegundos, utilizado por solicitud de subinscripción.</p></td>
+<td style="border:1px solid black;">SubEnroll Processing Time</td>
+<td style="border:1px solid black;">Tiempo medio de procesamiento, en microsegundos, utilizado por solicitud de subinscripción.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SubEnroll Requests</p></td>
-<td style="border:1px solid black;"><p>Número total de solicitudes de subinscripción que ha recibido el servicio de inscripción.</p></td>
+<td style="border:1px solid black;">SubEnroll Requests</td>
+<td style="border:1px solid black;">Número total de solicitudes de subinscripción que ha recibido el servicio de inscripción.</td>
 </tr>
 </tbody>
 </table>

@@ -52,7 +52,7 @@ The upper part of the "Express Installation Files Feature" illustration shows an
 
 The file sizes in the "Express Installation Files Feature" illustration are for illustrative purposes only. Each update and express installation file varies in size, depending on what files need to be updated. Further, the size of each file actually distributed to clients by using express installation files varies depending upon the state of the computer being updated.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -65,11 +65,11 @@ The file sizes in the "Express Installation Files Feature" illustration are for 
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Express installation files are often larger than the updates they are meant to distribute. On the other hand, it is always less expensive to distribute updates within a network using express installation files than to distribute full update files.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Not all updates are good candidates for distribution using express installation files. If you select this option, you obtain express installation files for any updates being distributed this way. If you are not storing updates locally, you cannot use the express installation files feature. By default, WSUS does not use express installation files. To enable this option, see [Advanced Synchronization Options](https://technet.microsoft.com/e29686d0-f4ef-4d04-9d88-ac4891b76a4d).
 

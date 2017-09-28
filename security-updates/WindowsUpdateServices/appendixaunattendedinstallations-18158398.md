@@ -31,7 +31,7 @@ If you need help with WSUSutil.exe, you can use the **/help** command to display
 
 ### WSUS setup command-line parameters
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -45,31 +45,31 @@ If you need help with WSUSutil.exe, you can use the **/help** command to display
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>/q</strong></p></td>
-<td style="border:1px solid black;"><p>Perform silent installation.</p></td>
+<td style="border:1px solid black;"><strong>/q</strong></td>
+<td style="border:1px solid black;">Perform silent installation.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>/u</strong></p></td>
-<td style="border:1px solid black;"><p>Uninstall the product. Also uninstalls the Windows Internal Database instance if it is installed.</p></td>
+<td style="border:1px solid black;"><strong>/u</strong></td>
+<td style="border:1px solid black;">Uninstall the product. Also uninstalls the Windows Internal Database instance if it is installed.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>/p</strong></p></td>
-<td style="border:1px solid black;"><p>Prerequisite check only. Does not install the product, but inspects the system and reports any prerequisites that are missing.</p></td>
+<td style="border:1px solid black;"><strong>/p</strong></td>
+<td style="border:1px solid black;">Prerequisite check only. Does not install the product, but inspects the system and reports any prerequisites that are missing.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>/?, /h</strong></p></td>
-<td style="border:1px solid black;"><p>Display command-line parameters and their descriptions.</p></td>
+<td style="border:1px solid black;"><strong>/?, /h</strong></td>
+<td style="border:1px solid black;">Display command-line parameters and their descriptions.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>/g</strong></p></td>
-<td style="border:1px solid black;"><p>Upgrade from the 2.0 version of WSUS. The only valid parameter with this option is /q (silent installation). The only valid property with this option is DEFAULT_WEBSITE.</p></td>
+<td style="border:1px solid black;"><strong>/g</strong></td>
+<td style="border:1px solid black;">Upgrade from the 2.0 version of WSUS. The only valid parameter with this option is /q (silent installation). The only valid property with this option is DEFAULT_WEBSITE.</td>
 </tr>
 </tbody>
 </table>
   
 ### WSUS setup properties
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -83,64 +83,64 @@ If you need help with WSUSutil.exe, you can use the **/help** command to display
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CONTENT_LOCAL</p></td>
-<td style="border:1px solid black;"><p>0=content hosted locally, 1=host on Microsoft Update</p></td>
+<td style="border:1px solid black;">CONTENT_LOCAL</td>
+<td style="border:1px solid black;">0=content hosted locally, 1=host on Microsoft Update</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CONTENT_DIR</p></td>
-<td style="border:1px solid black;"><p>Path to content directory. Default is <em>WSUSInstallationDrive</em><strong>\WSUS\WSUSContent</strong>, where <em>WSUSInstallationDrive</em> is the local drive with the largest amount of free space.</p></td>
+<td style="border:1px solid black;">CONTENT_DIR</td>
+<td style="border:1px solid black;">Path to content directory. Default is <em>WSUSInstallationDrive</em><strong>\WSUS\WSUSContent</strong>, where <em>WSUSInstallationDrive</em> is the local drive with the largest amount of free space.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>WYUKON_DATA_DIR</p></td>
-<td style="border:1px solid black;"><p>Path to Windows Internal Database data directory.</p></td>
+<td style="border:1px solid black;">WYUKON_DATA_DIR</td>
+<td style="border:1px solid black;">Path to Windows Internal Database data directory.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SQLINSTANCE_NAME</p></td>
-<td style="border:1px solid black;"><p>The name should appear in the format <em>ServerName</em>\<em>SQLInstanceName</em>. If the database instance is on the local machine, use the %COMPUTERNAME% environment variable. If an existing instance is not present, the default is %COMPUTERNAME%\WSUS.</p></td>
+<td style="border:1px solid black;">SQLINSTANCE_NAME</td>
+<td style="border:1px solid black;">The name should appear in the format <em>ServerName</em>\<em>SQLInstanceName</em>. If the database instance is on the local machine, use the %COMPUTERNAME% environment variable. If an existing instance is not present, the default is %COMPUTERNAME%\WSUS.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DEFAULT_WEBSITE</p></td>
-<td style="border:1px solid black;"><p>0=port 8530, 1=port 80</p></td>
+<td style="border:1px solid black;">DEFAULT_WEBSITE</td>
+<td style="border:1px solid black;">0=port 8530, 1=port 80</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PREREQ_CHECK_LOG</p></td>
-<td style="border:1px solid black;"><p>Path and file name for log file</p></td>
+<td style="border:1px solid black;">PREREQ_CHECK_LOG</td>
+<td style="border:1px solid black;">Path and file name for log file</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CONSOLE_INSTALL</p></td>
-<td style="border:1px solid black;"><p>0=install the WSUS server, 1=install console only</p></td>
+<td style="border:1px solid black;">CONSOLE_INSTALL</td>
+<td style="border:1px solid black;">0=install the WSUS server, 1=install console only</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ENABLE_INVENTORY</p></td>
-<td style="border:1px solid black;"><p>0=do not install inventory features, 1=install inventory features</p></td>
+<td style="border:1px solid black;">ENABLE_INVENTORY</td>
+<td style="border:1px solid black;">0=do not install inventory features, 1=install inventory features</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DELETE_DATABASE</p></td>
-<td style="border:1px solid black;"><p>0=retain database, 1=remove database</p></td>
+<td style="border:1px solid black;">DELETE_DATABASE</td>
+<td style="border:1px solid black;">0=retain database, 1=remove database</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DELETE_CONTENT</p></td>
-<td style="border:1px solid black;"><p>0=retain content files, 1=remove content files</p></td>
+<td style="border:1px solid black;">DELETE_CONTENT</td>
+<td style="border:1px solid black;">0=retain content files, 1=remove content files</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DELETE_LOGS</p></td>
-<td style="border:1px solid black;"><p>0=retain log files, 1=remove log files (used with the /u install switch).</p></td>
+<td style="border:1px solid black;">DELETE_LOGS</td>
+<td style="border:1px solid black;">0=retain log files, 1=remove log files (used with the /u install switch).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CREATE_DATABASE</p></td>
-<td style="border:1px solid black;"><p>0=use current database, 1=create database</p></td>
+<td style="border:1px solid black;">CREATE_DATABASE</td>
+<td style="border:1px solid black;">0=use current database, 1=create database</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PROGRESS_WINDOW_HANDLE</p></td>
-<td style="border:1px solid black;"><p>Window handle to return Microsoft© Windows© Installer progress messages.</p></td>
+<td style="border:1px solid black;">PROGRESS_WINDOW_HANDLE</td>
+<td style="border:1px solid black;">Window handle to return Microsoft© Windows© Installer progress messages.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MU_ROLLUP</p></td>
-<td style="border:1px solid black;"><p>1=join Microsoft Update Improvement Program, 0=don't join</p></td>
+<td style="border:1px solid black;">MU_ROLLUP</td>
+<td style="border:1px solid black;">1=join Microsoft Update Improvement Program, 0=don't join</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>FRONTEND_SETUP</p></td>
-<td style="border:1px solid black;"><p>1=do not write the content location to the database, 0=write the content location to the database (for NLB)</p></td>
+<td style="border:1px solid black;">FRONTEND_SETUP</td>
+<td style="border:1px solid black;">1=do not write the content location to the database, 0=write the content location to the database (for NLB)</td>
 </tr>
 </tbody>
 </table>

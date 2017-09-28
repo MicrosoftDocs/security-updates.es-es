@@ -329,7 +329,7 @@ En la siguiente tabla se incluyen las funciones de servidor y los archivos de pl
 
 **Tabla 2.1 Funciones de servidor de Windows Server 2003**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -338,59 +338,59 @@ En la siguiente tabla se incluyen las funciones de servidor y los archivos de pl
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Función de servidor</p></th>
-<th><p>Descripción</p></th>
-<th><p>Nombre de archivo de la plantilla de seguridad</p></th>
+<th>Función de servidor</th>
+<th>Descripción</th>
+<th>Nombre de archivo de la plantilla de seguridad</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servidor miembro</p></td>
-<td style="border:1px solid black;"><p>Todos los servidores que son miembros del dominio y residen en la UO Servidores miembro o en UO secundarias.</p></td>
-<td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>Member Server Baseline.inf<br />
-</p></td>
+<td style="border:1px solid black;">Servidor miembro</td>
+<td style="border:1px solid black;">Todos los servidores que son miembros del dominio y residen en la UO Servidores miembro o en UO secundarias.</td>
+<td style="border:1px solid black;"><em>&lt;Env&gt;-</em>Member Server Baseline.inf<br />
+</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Controlador de dominio</p></td>
-<td style="border:1px solid black;"><p>Todos los controladores de dominio de Active Directory. Estos servidores son también servidores DNS.</p></td>
-<td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>Domain Controller.inf<br />
-</p></td>
+<td style="border:1px solid black;">Controlador de dominio</td>
+<td style="border:1px solid black;">Todos los controladores de dominio de Active Directory. Estos servidores son también servidores DNS.</td>
+<td style="border:1px solid black;"><em>&lt;Env&gt;-</em>Domain Controller.inf<br />
+</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servidor de infraestructura</p></td>
-<td style="border:1px solid black;"><p>Todos los servidores WINS y DHCP bloqueados.</p></td>
-<td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>Infrastructure Server.inf<br />
-</p></td>
+<td style="border:1px solid black;">Servidor de infraestructura</td>
+<td style="border:1px solid black;">Todos los servidores WINS y DHCP bloqueados.</td>
+<td style="border:1px solid black;"><em>&lt;Env&gt;-</em>Infrastructure Server.inf<br />
+</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Servidor de archivos</p></td>
-<td style="border:1px solid black;"><p>Todos los servidores de archivos bloqueados.</p></td>
-<td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>File Server.inf</p></td>
+<td style="border:1px solid black;">Servidor de archivos</td>
+<td style="border:1px solid black;">Todos los servidores de archivos bloqueados.</td>
+<td style="border:1px solid black;"><em>&lt;Env&gt;-</em>File Server.inf</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servidor de impresión</p></td>
-<td style="border:1px solid black;"><p>Todos los servidores de impresión bloqueados.</p></td>
-<td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>Print Server.inf</p></td>
+<td style="border:1px solid black;">Servidor de impresión</td>
+<td style="border:1px solid black;">Todos los servidores de impresión bloqueados.</td>
+<td style="border:1px solid black;"><em>&lt;Env&gt;-</em>Print Server.inf</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Servidor web</p></td>
-<td style="border:1px solid black;"><p>Todos los servidores web de IIS bloqueados.</p></td>
-<td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>Web Server.inf</p></td>
+<td style="border:1px solid black;">Servidor web</td>
+<td style="border:1px solid black;">Todos los servidores web de IIS bloqueados.</td>
+<td style="border:1px solid black;"><em>&lt;Env&gt;-</em>Web Server.inf</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servidor IAS</p></td>
-<td style="border:1px solid black;"><p>Todos los servidores IAS bloqueados.</p></td>
-<td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>IAS Server.inf</p></td>
+<td style="border:1px solid black;">Servidor IAS</td>
+<td style="border:1px solid black;">Todos los servidores IAS bloqueados.</td>
+<td style="border:1px solid black;"><em>&lt;Env&gt;-</em>IAS Server.inf</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Servidor de Servicios de Certificate Server</p></td>
-<td style="border:1px solid black;"><p>Todos los servidores de entidad de certificación (CA) bloqueados.</p></td>
-<td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>CA Server.inf</p></td>
+<td style="border:1px solid black;">Servidor de Servicios de Certificate Server</td>
+<td style="border:1px solid black;">Todos los servidores de entidad de certificación (CA) bloqueados.</td>
+<td style="border:1px solid black;"><em>&lt;Env&gt;-</em>CA Server.inf</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Host de baluarte</p></td>
-<td style="border:1px solid black;"><p>Todos los servidores expuestos a Internet.</p></td>
-<td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>Bastion Host.inf</p></td>
+<td style="border:1px solid black;">Host de baluarte</td>
+<td style="border:1px solid black;">Todos los servidores expuestos a Internet.</td>
+<td style="border:1px solid black;"><em>&lt;Env&gt;-</em>Bastion Host.inf</td>
 </tr>
 </tbody>
 </table>
@@ -413,7 +413,7 @@ Las UO y directivas recomendadas que se explicaron en la sección anterior crean
   
 **Tabla 2.2 UO y grupos administrativos**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -421,42 +421,42 @@ Las UO y directivas recomendadas que se explicaron en la sección anterior crean
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nombre de UO</p></th>
-<th><p>Grupo administrativo</p></th>
+<th>Nombre de UO</th>
+<th>Grupo administrativo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Controladores de dominio</p></td>
-<td style="border:1px solid black;"><p>Ingeniería de dominio</p></td>
+<td style="border:1px solid black;">Controladores de dominio</td>
+<td style="border:1px solid black;">Ingeniería de dominio</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Servidores miembro</p></td>
-<td style="border:1px solid black;"><p>Ingeniería de dominio</p></td>
+<td style="border:1px solid black;">Servidores miembro</td>
+<td style="border:1px solid black;">Ingeniería de dominio</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Infraestructura</p></td>
-<td style="border:1px solid black;"><p>Administraciones de infraestructura</p></td>
+<td style="border:1px solid black;">Infraestructura</td>
+<td style="border:1px solid black;">Administraciones de infraestructura</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Archivo</p></td>
-<td style="border:1px solid black;"><p>Administraciones de infraestructura</p></td>
+<td style="border:1px solid black;">Archivo</td>
+<td style="border:1px solid black;">Administraciones de infraestructura</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Imprimir</p></td>
-<td style="border:1px solid black;"><p>Administraciones de infraestructura</p></td>
+<td style="border:1px solid black;">Imprimir</td>
+<td style="border:1px solid black;">Administraciones de infraestructura</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IAS</p></td>
-<td style="border:1px solid black;"><p>Ingeniería de dominio</p></td>
+<td style="border:1px solid black;">IAS</td>
+<td style="border:1px solid black;">Ingeniería de dominio</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Web</p></td>
-<td style="border:1px solid black;"><p>Servicios web</p></td>
+<td style="border:1px solid black;">Web</td>
+<td style="border:1px solid black;">Servicios web</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Entidad emisora</p></td>
-<td style="border:1px solid black;"><p>Administradores de organización</p></td>
+<td style="border:1px solid black;">Entidad emisora</td>
+<td style="border:1px solid black;">Administradores de organización</td>
 </tr>
 </tbody>
 </table>

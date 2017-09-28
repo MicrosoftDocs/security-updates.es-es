@@ -116,7 +116,7 @@ La información de esta guía se basa en información ofrecida por expertos reco
 
 En esta guía se utilizan las convenciones de estilo descritas en la tabla siguiente.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -124,36 +124,36 @@ En esta guía se utilizan las convenciones de estilo descritas en la tabla sigui
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
-<th><p>Significado</p></th>
+<th>Elemento</th>
+<th>Significado</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Fuente negrita</strong></p></td>
-<td style="border:1px solid black;"><p>Denota los caracteres escritos tal como se muestra, incluidos comandos, conmutadores y nombres de archivo. Los elementos de la interfaz de usuario también se muestran en negrita.</p></td>
+<td style="border:1px solid black;"><strong>Fuente negrita</strong></td>
+<td style="border:1px solid black;">Denota los caracteres escritos tal como se muestra, incluidos comandos, conmutadores y nombres de archivo. Los elementos de la interfaz de usuario también se muestran en negrita.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><em>Fuente cursiva</em></p></td>
-<td style="border:1px solid black;"><p>Los títulos de libros y otras publicaciones importantes se muestran en cursiva.</p></td>
+<td style="border:1px solid black;"><em>Fuente cursiva</em></td>
+<td style="border:1px solid black;">Los títulos de libros y otras publicaciones importantes se muestran en cursiva.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><em>&lt;Cursiva&gt;</em></p></td>
-<td style="border:1px solid black;"><p>Los marcadores de posición destacados en cursiva y entre corchetes angulares &lt;Cursiva&gt; representan variables.</p></td>
+<td style="border:1px solid black;"><em>&lt;Cursiva&gt;</em></td>
+<td style="border:1px solid black;">Los marcadores de posición destacados en cursiva y entre corchetes angulares &lt;Cursiva&gt; representan variables.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><pre><code>Monospace font </code></pre>
 <br />
 </td>
-<td style="border:1px solid black;"><p>Define ejemplos de código y secuencias de comandos.</p></td>
+<td style="border:1px solid black;">Define ejemplos de código y secuencias de comandos.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Nota</strong></p></td>
-<td style="border:1px solid black;"><p>Informa al lector de la información suplementaria.</p></td>
+<td style="border:1px solid black;"><strong>Nota</strong></td>
+<td style="border:1px solid black;">Informa al lector de la información suplementaria.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Importante</strong></p></td>
-<td style="border:1px solid black;"><p>Informa al lector de la información suplementaria fundamental.</p></td>
+<td style="border:1px solid black;"><strong>Importante</strong></td>
+<td style="border:1px solid black;">Informa al lector de la información suplementaria fundamental.</td>
 </tr>
 </tbody>
 </table>

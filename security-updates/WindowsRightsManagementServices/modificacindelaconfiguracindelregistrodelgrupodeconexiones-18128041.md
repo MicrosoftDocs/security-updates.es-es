@@ -23,7 +23,7 @@ En la siguiente tabla, se muestran las entradas que puede agregar para omitir la
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -43,94 +43,94 @@ En la siguiente tabla, se muestran las entradas que puede agregar para omitir la
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>GC</p></td>
-<td style="border:1px solid black;"><p>Cadena</p></td>
-<td style="border:1px solid black;"><p>nombre-1, ..., nombre-n</p></td>
-<td style="border:1px solid black;"><p>Lista separada por comas de catálogos globales (usando nombres DNS). Esta clave limita RMS a que utilice sólo los catálogos globales especificados.</p></td>
-<td style="border:1px solid black;"><p>Si no desea que RMS cree una lista de consultas, utilice esta configuración para especificar los catálogos globales que se utilizarán.</p></td>
+<td style="border:1px solid black;">GC</td>
+<td style="border:1px solid black;">Cadena</td>
+<td style="border:1px solid black;">nombre-1, ..., nombre-n</td>
+<td style="border:1px solid black;">Lista separada por comas de catálogos globales (usando nombres DNS). Esta clave limita RMS a que utilice sólo los catálogos globales especificados.</td>
+<td style="border:1px solid black;">Si no desea que RMS cree una lista de consultas, utilice esta configuración para especificar los catálogos globales que se utilizarán.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MinGC</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>Número mínimo de catálogos globales que deben estar disponibles para que se pueda iniciar RMS.</p></td>
+<td style="border:1px solid black;">MinGC</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">Número mínimo de catálogos globales que deben estar disponibles para que se pueda iniciar RMS.</td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MaxGC</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>15</p></td>
-<td style="border:1px solid black;"><p>Número máximo de catálogos globales que el algoritmo de detección de topologías agregará a la lista de consultas.</p></td>
+<td style="border:1px solid black;">MaxGC</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">15</td>
+<td style="border:1px solid black;">Número máximo de catálogos globales que el algoritmo de detección de topologías agregará a la lista de consultas.</td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ThreshHoldAlive</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>Número mínimo de conexiones que deben responder antes de que DiscoveryServices empiece a buscar catálogos globales para agregarlos a la lista de consultas de forma que RMS pueda aceptar solicitudes.</p></td>
+<td style="border:1px solid black;">ThreshHoldAlive</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">Número mínimo de conexiones que deben responder antes de que DiscoveryServices empiece a buscar catálogos globales para agregarlos a la lista de consultas de forma que RMS pueda aceptar solicitudes.</td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RetryDown</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
-<td style="border:1px solid black;"><p>Número de veces que se intentará restablecer una conexión que no responde antes de declarar que no responde.</p></td>
+<td style="border:1px solid black;">RetryDown</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">5</td>
+<td style="border:1px solid black;">Número de veces que se intentará restablecer una conexión que no responde antes de declarar que no responde.</td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>TimeRetryDown</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>300</p></td>
-<td style="border:1px solid black;"><p>Número de segundos que se esperará antes de intentar restablecer una conexión que no responde.</p></td>
-<td style="border:1px solid black;"><p>No tiene que cambiar esta configuración predeterminada, excepto en circunstancias inusuales.</p></td>
+<td style="border:1px solid black;">TimeRetryDown</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">300</td>
+<td style="border:1px solid black;">Número de segundos que se esperará antes de intentar restablecer una conexión que no responde.</td>
+<td style="border:1px solid black;">No tiene que cambiar esta configuración predeterminada, excepto en circunstancias inusuales.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>TimeRetrySlow</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>30</p></td>
-<td style="border:1px solid black;"><p>Número de segundos que se esperará antes de reintentar una conexión lenta.</p></td>
-<td style="border:1px solid black;"><p>No tiene que cambiar esta configuración predeterminada, excepto en circunstancias inusuales.</p></td>
+<td style="border:1px solid black;">TimeRetrySlow</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">30</td>
+<td style="border:1px solid black;">Número de segundos que se esperará antes de reintentar una conexión lenta.</td>
+<td style="border:1px solid black;">No tiene que cambiar esta configuración predeterminada, excepto en circunstancias inusuales.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>WtRoundRobin</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>Peso de la operación por turnos durante el equilibrio de carga.</p></td>
-<td style="border:1px solid black;"><p>Importancia relativa de la operación por turnos en el equilibrio de carga. Un valor de 1 es el valor más pequeño.</p></td>
+<td style="border:1px solid black;">WtRoundRobin</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">Peso de la operación por turnos durante el equilibrio de carga.</td>
+<td style="border:1px solid black;">Importancia relativa de la operación por turnos en el equilibrio de carga. Un valor de 1 es el valor más pequeño.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>WtThreadCount</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>100</p></td>
-<td style="border:1px solid black;"><p>Peso del número de subprocesos por conexión durante el equilibrio de carga.</p></td>
-<td style="border:1px solid black;"><p>Importancia relativa de un número bajo de subprocesos.</p></td>
+<td style="border:1px solid black;">WtThreadCount</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">100</td>
+<td style="border:1px solid black;">Peso del número de subprocesos por conexión durante el equilibrio de carga.</td>
+<td style="border:1px solid black;">Importancia relativa de un número bajo de subprocesos.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>WtSlow</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1,000</p></td>
-<td style="border:1px solid black;"><p>Peso de una conexión lenta durante el equilibrio de carga.</p></td>
-<td style="border:1px solid black;"><p>Importancia relativa de que la conexión no sea lenta.</p></td>
+<td style="border:1px solid black;">WtSlow</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1,000</td>
+<td style="border:1px solid black;">Peso de una conexión lenta durante el equilibrio de carga.</td>
+<td style="border:1px solid black;">Importancia relativa de que la conexión no sea lenta.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>TimeOutForGC</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
-<td style="border:1px solid black;"><p>Número de segundos que se esperará antes de considerar que una solicitud excede el tiempo de espera para agregar un catálogo global a la lista de consultas.</p></td>
+<td style="border:1px solid black;">TimeOutForGC</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">5</td>
+<td style="border:1px solid black;">Número de segundos que se esperará antes de considerar que una solicitud excede el tiempo de espera para agregar un catálogo global a la lista de consultas.</td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>LdapTimeOut</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
-<td style="border:1px solid black;"><p>Número de segundos que se esperará antes de considerar que las API de LDAP exceden el tiempo de espera.</p></td>
+<td style="border:1px solid black;">LdapTimeOut</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">5</td>
+<td style="border:1px solid black;">Número de segundos que se esperará antes de considerar que las API de LDAP exceden el tiempo de espera.</td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>TopDownExpansionLDAPTimeOut</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>40</p></td>
-<td style="border:1px solid black;"><p>Número de segundos que se esperará antes de considerar que las consultas LDAP de expansión arriba-abajo exceden el tiempo de espera.</p></td>
+<td style="border:1px solid black;">TopDownExpansionLDAPTimeOut</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">40</td>
+<td style="border:1px solid black;">Número de segundos que se esperará antes de considerar que las consultas LDAP de expansión arriba-abajo exceden el tiempo de espera.</td>
 <td style="border:1px solid black;"></td>
 </tr>
 </tbody>

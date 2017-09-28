@@ -79,7 +79,7 @@ On the **Updates** page, you can do the following:
     6.  The languages supported by the update
     7.  The update ID
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -92,7 +92,7 @@ On the **Updates** page, you can do the following:
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">You can perform this procedure on only one update at a time. If you select multiple updates, the first update in the list will be displayed in the <strong>Properties</strong> pane.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>

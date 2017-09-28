@@ -60,7 +60,7 @@ Although WSUS does not provide a built-in backup tool, you can use the Backup Ut
 
 8.  When the message appears that informs you that restoring is complete, click **Close**.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -73,12 +73,12 @@ Although WSUS does not provide a built-in backup tool, you can use the Backup Ut
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">You should restore the backup file to only one WSUS server. The backed-up information includes the Server ID, so if you restore the same backup file to two or more WSUS servers there will be two or more WSUS servers with the same ID. If you attempt to roll up information from downstream servers with duplicate IDs to an upstream server, you will get information from only one of these downstream servers.
-<p></p>
-<p></p></td>
+
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 After restoring the WSUS database you must recycle the WSUS Application Pool in IIS, as described in the next procedure. This will ensure that the restored database will sync up correctly with IIS, through which you manage the WSUS Web site and Web services. For more information about application pools, see IIS Help.
 

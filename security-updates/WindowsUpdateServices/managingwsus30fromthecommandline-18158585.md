@@ -26,7 +26,7 @@ You must be an administrator to run the **wsusutil** utility. This utility is in
 
 ### Summary of wsusutil Commands
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -40,54 +40,54 @@ You must be an administrator to run the **wsusutil** utility. This utility is in
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>configuressl</strong></p></td>
-<td style="border:1px solid black;"><p>Updates the WSUS server registry key after the IIS configuration has changed.</p></td>
+<td style="border:1px solid black;"><strong>configuressl</strong></td>
+<td style="border:1px solid black;">Updates the WSUS server registry key after the IIS configuration has changed.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>healthmonitoring</strong></p></td>
-<td style="border:1px solid black;"><p>Configures health monitoring values in the database. If new values are not specified, the current values are displayed.</p></td>
+<td style="border:1px solid black;"><strong>healthmonitoring</strong></td>
+<td style="border:1px solid black;">Configures health monitoring values in the database. If new values are not specified, the current values are displayed.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>export</strong></p></td>
-<td style="border:1px solid black;"><p>Part of the export/import process used to synchronize a downstream WSUS without using a network connection.</p>
-<p>Exports update metadata to an export package file. You cannot use this parameter to export update files, update approvals, or server settings.</p></td>
+<td style="border:1px solid black;"><strong>export</strong></td>
+<td style="border:1px solid black;">Part of the export/import process used to synchronize a downstream WSUS without using a network connection.
+Exports update metadata to an export package file. You cannot use this parameter to export update files, update approvals, or server settings.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>import</strong></p></td>
-<td style="border:1px solid black;"><p>The second part of the export/import process.</p>
-<p>Imports update metadata to a server from an export package file created on another WSUS server. This synchronizes the destination WSUS server without using a network connection.</p></td>
+<td style="border:1px solid black;"><strong>import</strong></td>
+<td style="border:1px solid black;">The second part of the export/import process.
+Imports update metadata to a server from an export package file created on another WSUS server. This synchronizes the destination WSUS server without using a network connection.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>movecontent</strong></p></td>
-<td style="border:1px solid black;"><p>Changes the file system location where the WSUS server stores update files, and optionally copies any update files from the old location to the new location</p></td>
+<td style="border:1px solid black;"><strong>movecontent</strong></td>
+<td style="border:1px solid black;">Changes the file system location where the WSUS server stores update files, and optionally copies any update files from the old location to the new location</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>listfrontendservers</strong></p></td>
-<td style="border:1px solid black;"><p>Lists the front-end servers related to this WSUS server.</p></td>
+<td style="border:1px solid black;"><strong>listfrontendservers</strong></td>
+<td style="border:1px solid black;">Lists the front-end servers related to this WSUS server.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>deletefrontendserver</strong></p></td>
-<td style="border:1px solid black;"><p>Deletes the specified front-end server from the WSUS database.</p></td>
+<td style="border:1px solid black;"><strong>deletefrontendserver</strong></td>
+<td style="border:1px solid black;">Deletes the specified front-end server from the WSUS database.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>checkhealth</strong></p></td>
-<td style="border:1px solid black;"><p>Checks the health of the WSUS serve. Results will appear in the Application Event log.</p></td>
+<td style="border:1px solid black;"><strong>checkhealth</strong></td>
+<td style="border:1px solid black;">Checks the health of the WSUS serve. Results will appear in the Application Event log.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>reset</strong></p></td>
-<td style="border:1px solid black;"><p>Checks that every update metadata row in the database has corresponding update files stored in the file system. If update files are missing or have been corrupted, downloads the update files again.</p></td>
+<td style="border:1px solid black;"><strong>reset</strong></td>
+<td style="border:1px solid black;">Checks that every update metadata row in the database has corresponding update files stored in the file system. If update files are missing or have been corrupted, downloads the update files again.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>listinactiveapprovals</strong></p></td>
-<td style="border:1px solid black;"><p>Returns a list of update titles with approvals that are in a permanently inactive state because of a change in server language settings.</p></td>
+<td style="border:1px solid black;"><strong>listinactiveapprovals</strong></td>
+<td style="border:1px solid black;">Returns a list of update titles with approvals that are in a permanently inactive state because of a change in server language settings.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>removeinactiveapprovals</strong></p></td>
-<td style="border:1px solid black;"><p>Removes approvals for updates that are in a permanently inactive state because of a change in WSUS server language settings.</p></td>
+<td style="border:1px solid black;"><strong>removeinactiveapprovals</strong></td>
+<td style="border:1px solid black;">Removes approvals for updates that are in a permanently inactive state because of a change in WSUS server language settings.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>usecustomwebsite</strong></p></td>
-<td style="border:1px solid black;"><p>Changes the port number used by the WSUS Web services from 80 to 8530 or vice versa.</p></td>
+<td style="border:1px solid black;"><strong>usecustomwebsite</strong></td>
+<td style="border:1px solid black;">Changes the port number used by the WSUS Web services from 80 to 8530 or vice versa.</td>
 </tr>
 </tbody>
 </table>
@@ -108,7 +108,7 @@ The following command updates the server certificateName:
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -122,8 +122,8 @@ The following command updates the server certificateName:
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><em>ServerCertificateName</em></p></td>
-<td style="border:1px solid black;"><p>An optional parameter. When present, it provides the name in the <strong>Issued to</strong> field of the server certificate.</p></td>
+<td style="border:1px solid black;"><em>ServerCertificateName</em></td>
+<td style="border:1px solid black;">An optional parameter. When present, it provides the name in the <strong>Issued to</strong> field of the server certificate.</td>
 </tr>
 </tbody>
 </table>
@@ -146,7 +146,7 @@ This command sets and gets the different parameters for WSUS health monitoring.
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <tr>
 <th colspan="2">
@@ -407,7 +407,7 @@ If on, health monitoring should check the Downstream Server Authentication Web s
 </td>
 </tr>
 </table>
-<p> </p>
+ 
 
 #### Output
 
@@ -437,7 +437,7 @@ For more information about exporting and importing updates, see "Set Up a Discon
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -451,12 +451,12 @@ For more information about exporting and importing updates, see "Set Up a Discon
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><em>package</em></p></td>
-<td style="border:1px solid black;"><p>The path and file name of the package .cab to create.</p></td>
+<td style="border:1px solid black;"><em>package</em></td>
+<td style="border:1px solid black;">The path and file name of the package .cab to create.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><em>logfile</em></p></td>
-<td style="border:1px solid black;"><p>The path and file name of the log file to create.</p></td>
+<td style="border:1px solid black;"><em>logfile</em></td>
+<td style="border:1px solid black;">The path and file name of the log file to create.</td>
 </tr>
 </tbody>
 </table>
@@ -475,7 +475,7 @@ For background and procedural information about exporting and importing updates,
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -489,12 +489,12 @@ For background and procedural information about exporting and importing updates,
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><em>package</em></p></td>
-<td style="border:1px solid black;"><p>The path and file name of the package .cab to import.</p></td>
+<td style="border:1px solid black;"><em>package</em></td>
+<td style="border:1px solid black;">The path and file name of the package .cab to import.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><em>logfile</em></p></td>
-<td style="border:1px solid black;"><p>The path and file name of the log file to import.</p></td>
+<td style="border:1px solid black;"><em>logfile</em></td>
+<td style="border:1px solid black;">The path and file name of the log file to import.</td>
 </tr>
 </tbody>
 </table>
@@ -543,7 +543,7 @@ If the hard disk fails, you must do the following:
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -557,16 +557,16 @@ If the hard disk fails, you must do the following:
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><em>contentpath</em></p></td>
-<td style="border:1px solid black;"><p>The new root for content files. The path must exist.</p></td>
+<td style="border:1px solid black;"><em>contentpath</em></td>
+<td style="border:1px solid black;">The new root for content files. The path must exist.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><em>logfile</em></p></td>
-<td style="border:1px solid black;"><p>The path and file name of the log file to create.</p></td>
+<td style="border:1px solid black;"><em>logfile</em></td>
+<td style="border:1px solid black;">The path and file name of the log file to create.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><em>-skipcopy</em></p></td>
-<td style="border:1px solid black;"><p>Indicates that only the server configuration should be changed, and that the content files should not be copied.</p></td>
+<td style="border:1px solid black;"><em>-skipcopy</em></td>
+<td style="border:1px solid black;">Indicates that only the server configuration should be changed, and that the content files should not be copied.</td>
 </tr>
 </tbody>
 </table>
@@ -585,7 +585,7 @@ This command deletes the given front-end server.
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -599,8 +599,8 @@ This command deletes the given front-end server.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><em>serverName</em></p></td>
-<td style="border:1px solid black;"><p>The name of the front-end server to be deleted.</p></td>
+<td style="border:1px solid black;"><em>serverName</em></td>
+<td style="border:1px solid black;">The name of the front-end server to be deleted.</td>
 </tr>
 </tbody>
 </table>

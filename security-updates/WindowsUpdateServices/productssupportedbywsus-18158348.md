@@ -20,7 +20,7 @@ Microsoft Exchange
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -63,14 +63,14 @@ Microsoft Exchange
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Microsoft Internet Security and Acceleration Server
 ---------------------------------------------------
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -113,14 +113,14 @@ Microsoft Internet Security and Acceleration Server
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Microsoft Office
 ----------------
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -169,14 +169,14 @@ Microsoft Office
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Microsoft Small Business Server
 -------------------------------
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -222,14 +222,14 @@ Microsoft Small Business Server
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Microsoft SQL Server
 --------------------
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -272,14 +272,14 @@ Microsoft SQL Server
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Microsoft System Center Data Protection Manager
 -----------------------------------------------
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -322,7 +322,7 @@ Microsoft System Center Data Protection Manager
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 #### About Microsoft System Center Data Protection Manager
 
@@ -333,7 +333,7 @@ Microsoft Windows
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -394,7 +394,7 @@ Microsoft Windows
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 #### About Windows Defender
 
