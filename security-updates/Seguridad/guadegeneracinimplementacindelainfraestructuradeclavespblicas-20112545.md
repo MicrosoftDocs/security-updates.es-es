@@ -137,9 +137,9 @@ En la siguiente tabla se enumeran parámetros específicos de organización toma
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento de configuración</th>
-<th>Configuración</th>
-<th>Referencia a la secuencia de comandos</th>
+<th style="border:1px solid black;" >Elemento de configuración</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Referencia a la secuencia de comandos</th>
 </tr>
 </thead>
 <tbody>
@@ -206,9 +206,9 @@ La configuración especificada en esta tabla no se debe cambiar en su instalaci�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento de configuración</th>
-<th>Configuración</th>
-<th>Referencia a la secuencia de comandos</th>
+<th style="border:1px solid black;" >Elemento de configuración</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Referencia a la secuencia de comandos</th>
 </tr>
 </thead>
 <tbody>
@@ -454,8 +454,8 @@ En la tabla siguiente se muestra una especificación de hardware recomendada par
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento</th>
-<th>Requisito</th>
+<th style="border:1px solid black;" >Elemento</th>
+<th style="border:1px solid black;" >Requisito</th>
 </tr>
 </thead>
 <tbody>
@@ -496,8 +496,8 @@ Aunque existen requisitos de rendimiento para la entidad emisora, no son de gran
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento</th>
-<th>Requisito</th>
+<th style="border:1px solid black;" >Elemento</th>
+<th style="border:1px solid black;" >Requisito</th>
 </tr>
 </thead>
 <tbody>
@@ -760,8 +760,8 @@ IIS se instala con el administrador de componentes opcionales de Windows (al que
 </colgroup>
 <thead>
 <tr class="header">
-<th>Componente</th>
-<th>Estado de instalación</th>
+<th style="border:1px solid black;" >Componente</th>
+<th style="border:1px solid black;" >Estado de instalación</th>
 </tr>
 </thead>
 <tbody>
@@ -835,9 +835,9 @@ Debe crear un directorio virtual en IIS para utilizarlo como ubicación del prot
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Usuario/grupo</th>
-    <th>Permiso</th>
-    <th>Permitir o denegar</th>
+    <th style="border:1px solid black;" >Usuario/grupo</th>
+    <th style="border:1px solid black;" >Permiso</th>
+    <th style="border:1px solid black;" >Permitir o denegar</th>
     </tr>
     </thead>
     <tbody>
@@ -1108,8 +1108,8 @@ Esta secuencia de comandos crea los grupos de seguridad que se enumeran en la ta
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre de grupo</th>
-<th>Finalidad</th>
+<th style="border:1px solid black;" >Nombre de grupo</th>
+<th style="border:1px solid black;" >Finalidad</th>
 </tr>
 </thead>
 <tbody>
@@ -1174,8 +1174,8 @@ La secuencia de comandos crea las cuentas de dominio que se describen en la tabl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cuenta de usuario</th>
-<th>Finalidad de la cuenta</th>
+<th style="border:1px solid black;" >Cuenta de usuario</th>
+<th style="border:1px solid black;" >Finalidad de la cuenta</th>
 </tr>
 </thead>
 <tbody>
@@ -1234,8 +1234,8 @@ Muchas organizaciones sólo utilizarán tres funciones: administrador de entidad
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cuenta de usuario de función de administración simplificada</th>
-<th>Pertenencia a grupos de la cuenta de usuario</th>
+<th style="border:1px solid black;" >Cuenta de usuario de función de administración simplificada</th>
+<th style="border:1px solid black;" >Pertenencia a grupos de la cuenta de usuario</th>
 </tr>
 </thead>
 <tbody>
@@ -1276,8 +1276,8 @@ Debe otorgar los permisos de grupo de administradores de PKI de empresa para cre
 </colgroup>
 <thead>
 <tr class="header">
-<th>UO</th>
-<th>Finalidad</th>
+<th style="border:1px solid black;" >UO</th>
+<th style="border:1px solid black;" >Finalidad</th>
 </tr>
 </thead>
 <tbody>
@@ -1498,8 +1498,8 @@ Dado que la entidad emisora raíz no forma parte de un dominio, las capacidades 
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Nombre de grupo</th>
-    <th>Finalidad</th>
+    <th style="border:1px solid black;" >Nombre de grupo</th>
+    <th style="border:1px solid black;" >Finalidad</th>
     </tr>
     </thead>
     <tbody>
@@ -1542,8 +1542,8 @@ Dado que la entidad emisora raíz no forma parte de un dominio, las capacidades 
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Nombre de cuenta</th>
-    <th>Finalidad</th>
+    <th style="border:1px solid black;" >Nombre de cuenta</th>
+    <th style="border:1px solid black;" >Finalidad</th>
     </tr>
     </thead>
     <tbody>
@@ -1580,8 +1580,8 @@ Dado que la entidad emisora raíz no forma parte de un dominio, las capacidades 
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Nombre de cuenta</th>
-    <th>Pertenencia al grupo</th>
+    <th style="border:1px solid black;" >Nombre de cuenta</th>
+    <th style="border:1px solid black;" >Pertenencia al grupo</th>
     </tr>
     </thead>
     <tbody>
@@ -1621,8 +1621,8 @@ La mayoría de las organizaciones no necesita una estructura de administración 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Función de administración simplificada</th>
-<th>Pertenencia al grupo</th>
+<th style="border:1px solid black;" >Función de administración simplificada</th>
+<th style="border:1px solid black;" >Pertenencia al grupo</th>
 </tr>
 </thead>
 <tbody>
@@ -1801,9 +1801,9 @@ El procedimiento siguiente describe cómo se pueden crear unidades organizativas
     </colgroup>
     <thead>
     <tr class="header">
-    <th>UO</th>
-    <th>GPO</th>
-    <th>Plantilla de seguridad</th>
+    <th style="border:1px solid black;" >UO</th>
+    <th style="border:1px solid black;" >GPO</th>
+    <th style="border:1px solid black;" >Plantilla de seguridad</th>
     </tr>
     </thead>
     <tbody>
@@ -1887,9 +1887,9 @@ Después de crear los GPO e importar las plantillas, debe personalizar la config
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Usuario/grupo</th>
-    <th>Permiso</th>
-    <th>Permitir o denegar</th>
+    <th style="border:1px solid black;" >Usuario/grupo</th>
+    <th style="border:1px solid black;" >Permiso</th>
+    <th style="border:1px solid black;" >Permitir o denegar</th>
     </tr>
     </thead>
     <tbody>
@@ -1929,9 +1929,9 @@ Después de crear los GPO e importar las plantillas, debe personalizar la config
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Permiso</th>
-    <th>Correcto</th>
-    <th>Fallido</th>
+    <th style="border:1px solid black;" >Permiso</th>
+    <th style="border:1px solid black;" >Correcto</th>
+    <th style="border:1px solid black;" >Fallido</th>
     </tr>
     </thead>
     <tbody>
@@ -2061,9 +2061,9 @@ Esta configuración debe establecerse en el GPO de seguridad de Servicios de Cer
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ruta de configuración</th>
-<th>Directiva</th>
-<th>Configuración</th>
+<th style="border:1px solid black;" >Ruta de configuración</th>
+<th style="border:1px solid black;" >Directiva</th>
+<th style="border:1px solid black;" >Configuración</th>
 </tr>
 </thead>
 <tbody>
@@ -2263,8 +2263,8 @@ Puede comprobar que la instalación de los Servicios de Certificate Server ha si
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Atributo del certificado</th>
-    <th>Opción requerida</th>
+    <th style="border:1px solid black;" >Atributo del certificado</th>
+    <th style="border:1px solid black;" >Opción requerida</th>
     </tr>
     </thead>
     <tbody>
@@ -2315,8 +2315,8 @@ El procedimiento de configuración de la entidad emisora aplica una serie de par
 </colgroup>
 <thead>
 <tr class="header">
-<th>Propiedad de la CA</th>
-<th>Descripción de la opción</th>
+<th style="border:1px solid black;" >Propiedad de la CA</th>
+<th style="border:1px solid black;" >Descripción de la opción</th>
 </tr>
 </thead>
 <tbody>
@@ -2395,9 +2395,9 @@ Para utilizar las funciones administrativas en la entidad emisora (como auditor 
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Nombre de grupo</th>
-    <th>Permiso</th>
-    <th>Permitir o denegar</th>
+    <th style="border:1px solid black;" >Nombre de grupo</th>
+    <th style="border:1px solid black;" >Permiso</th>
+    <th style="border:1px solid black;" >Permitir o denegar</th>
     </tr>
     </thead>
     <tbody>
@@ -2717,8 +2717,8 @@ Puede comprobar que la instalación de los Servicios de Certificate Server ha si
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Atributo del certificado</th>
-    <th>Opción requerida</th>
+    <th style="border:1px solid black;" >Atributo del certificado</th>
+    <th style="border:1px solid black;" >Opción requerida</th>
     </tr>
     </thead>
     <tbody>
@@ -2782,8 +2782,8 @@ El procedimiento de configuración de la entidad emisora aplica una serie de par
 </colgroup>
 <thead>
 <tr class="header">
-<th>Propiedad de la CA</th>
-<th>Descripción de la opción</th>
+<th style="border:1px solid black;" >Propiedad de la CA</th>
+<th style="border:1px solid black;" >Descripción de la opción</th>
 </tr>
 </thead>
 <tbody>
@@ -2860,9 +2860,9 @@ Para utilizar las funciones administrativas en la entidad emisora (como auditor 
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Nombre de grupo</th>
-    <th>Permiso</th>
-    <th>Permitir o denegar</th>
+    <th style="border:1px solid black;" >Nombre de grupo</th>
+    <th style="border:1px solid black;" >Permiso</th>
+    <th style="border:1px solid black;" >Permitir o denegar</th>
     </tr>
     </thead>
     <tbody>

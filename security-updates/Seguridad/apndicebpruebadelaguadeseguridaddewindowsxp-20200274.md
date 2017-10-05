@@ -361,9 +361,9 @@ La escala de gravedad de los errores se describe en la tabla siguiente. La escal
 </colgroup>
 <thead>
 <tr class="header">
-<th>Gravedad</th>
-<th>Tipos más habituales</th>
-<th>Condiciones necesarias</th>
+<th style="border:1px solid black;" >Gravedad</th>
+<th style="border:1px solid black;" >Tipos más habituales</th>
+<th style="border:1px solid black;" >Condiciones necesarias</th>
 </tr>
 </thead>
 <tbody>

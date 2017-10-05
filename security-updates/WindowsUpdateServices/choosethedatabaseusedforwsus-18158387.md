@@ -43,8 +43,8 @@ WSUS does support running database software on a computer separate from WSUS, bu
 </colgroup>
 <thead>
 <tr class="header">
-<th>Operating System</th>
-<th>Recommendation</th>
+<th style="border:1px solid black;" >Operating System</th>
+<th style="border:1px solid black;" >Recommendation</th>
 </tr>
 </thead>
 <tbody>

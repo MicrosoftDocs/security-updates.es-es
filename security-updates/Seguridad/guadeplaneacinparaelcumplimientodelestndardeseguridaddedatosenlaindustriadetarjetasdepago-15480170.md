@@ -750,8 +750,8 @@ Las tecnologías de protección de datos de Microsoft no vinculan las claves de 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Requisito</th>
-<th>Secciones de la solución de tecnología</th>
+<th style="border:1px solid black;" >Requisito</th>
+<th style="border:1px solid black;" >Secciones de la solución de tecnología</th>
 </tr>
 </thead>
 <tbody>

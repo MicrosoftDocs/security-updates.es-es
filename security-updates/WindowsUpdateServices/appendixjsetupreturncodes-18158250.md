@@ -27,9 +27,9 @@ The table in this section shows the return codes (hexadecimal values) returned b
 </colgroup>
 <thead>
 <tr class="header">
-<th>Return Code</th>
-<th>Return String</th>
-<th>Meaning</th>
+<th style="border:1px solid black;" >Return Code</th>
+<th style="border:1px solid black;" >Return String</th>
+<th style="border:1px solid black;" >Meaning</th>
 </tr>
 </thead>
 <tbody>

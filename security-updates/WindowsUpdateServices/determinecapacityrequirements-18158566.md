@@ -22,9 +22,9 @@ Hardware and database software requirements are driven by the number of client c
 </colgroup>
 <thead>
 <tr class="header">
-<th>Requirement</th>
-<th>Minimum</th>
-<th>Recommended</th>
+<th style="border:1px solid black;" >Requirement</th>
+<th style="border:1px solid black;" >Minimum</th>
+<th style="border:1px solid black;" >Recommended</th>
 </tr>
 </thead>
 <tbody>
@@ -62,9 +62,9 @@ Hardware and database software requirements are driven by the number of client c
 </colgroup>
 <thead>
 <tr class="header">
-<th>Requirement</th>
-<th>Minimum</th>
-<th>Recommended</th>
+<th style="border:1px solid black;" >Requirement</th>
+<th style="border:1px solid black;" >Minimum</th>
+<th style="border:1px solid black;" >Recommended</th>
 </tr>
 </thead>
 <tbody>

@@ -42,11 +42,11 @@ Puede utilizar BitLocker, EFS, RMS y el control de dispositivos para contribuir 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Entorno</th>
-<th>    BitLocker</th>
-<th>        EFS</th>
-<th>        RMS</th>
-<th>Control de dispositivos</th>
+<th style="border:1px solid black;" >Entorno</th>
+<th style="border:1px solid black;" >    BitLocker</th>
+<th style="border:1px solid black;" >        EFS</th>
+<th style="border:1px solid black;" >        RMS</th>
+<th style="border:1px solid black;" >Control de dispositivos</th>
 </tr>
 </thead>
 <tbody>
@@ -249,9 +249,9 @@ Hay dos plantillas de directiva de grupo que Microsoft recomienda para administr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro de directiva</th>
-<th>Descripción</th>
-<th>Configuración predeterminada en Windows Vista</th>
+<th style="border:1px solid black;" >Parámetro de directiva</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Configuración predeterminada en Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -305,9 +305,9 @@ La tabla siguiente proporciona información sobre la configuración de directiva
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro de directiva</th>
-<th>Descripción</th>
-<th>Configuración predeterminada en Windows Vista</th>
+<th style="border:1px solid black;" >Parámetro de directiva</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Configuración predeterminada en Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -479,9 +479,9 @@ Además, hay cuatro plantillas de directiva de grupo que incluyen parámetros de
 </colgroup>
 <thead>
 <tr class="header">
-<th>Plantilla y parámetro de configuración</th>
-<th>Ruta y descripción</th>
-<th>Configuración predeterminada en Windows Vista</th>
+<th style="border:1px solid black;" >Plantilla y parámetro de configuración</th>
+<th style="border:1px solid black;" >Ruta y descripción</th>
+<th style="border:1px solid black;" >Configuración predeterminada en Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -690,9 +690,9 @@ Con el fin de administrar el control de la instalación de dispositivos, Microso
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro de directiva</th>
-<th>Descripción</th>
-<th>Configuración predeterminada en Windows Vista</th>
+<th style="border:1px solid black;" >Parámetro de directiva</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Configuración predeterminada en Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -776,9 +776,9 @@ Además de contribuir al control de la instalación de dispositivos, Windows Vis
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro de directiva</th>
-<th>Descripción</th>
-<th>Configuración predeterminada en Windows Vista</th>
+<th style="border:1px solid black;" >Parámetro de directiva</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Configuración predeterminada en Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -874,9 +874,9 @@ La plantilla Autoplay.admx incluye los parámetros de configuración siguientes 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro de directiva</th>
-<th>Descripción</th>
-<th>Configuración predeterminada en Windows Vista</th>
+<th style="border:1px solid black;" >Parámetro de directiva</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Configuración predeterminada en Windows Vista</th>
 </tr>
 </thead>
 <tbody>

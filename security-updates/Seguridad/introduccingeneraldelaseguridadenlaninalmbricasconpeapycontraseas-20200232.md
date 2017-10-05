@@ -230,8 +230,8 @@ La siguiente tabla describe las convenciones de estilo utilizadas en la guía.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento</th>
-<th>Significado</th>
+<th style="border:1px solid black;" >Elemento</th>
+<th style="border:1px solid black;" >Significado</th>
 </tr>
 </thead>
 <tbody>
@@ -499,8 +499,8 @@ La organización descrita en la sección anterior generalmente cumplirá con los
 </colgroup>
 <thead>
 <tr class="header">
-<th>Factor de diseño</th>
-<th>Criterios</th>
+<th style="border:1px solid black;" >Factor de diseño</th>
+<th style="border:1px solid black;" >Criterios</th>
 </tr>
 </thead>
 <tbody>
@@ -572,10 +572,10 @@ La siguiente tabla recoge una indicación de los requisitos de autenticación WL
 </colgroup>
 <thead>
 <tr class="header">
-<th>Número de usuarios de WLAN</th>
-<th>Nuevas autenticaciones por segundo</th>
-<th>Nuevas autenticaciones por segundo en hora máxima</th>
-<th>Reautenticaciones por segundo</th>
+<th style="border:1px solid black;" >Número de usuarios de WLAN</th>
+<th style="border:1px solid black;" >Nuevas autenticaciones por segundo</th>
+<th style="border:1px solid black;" >Nuevas autenticaciones por segundo en hora máxima</th>
+<th style="border:1px solid black;" >Reautenticaciones por segundo</th>
 </tr>
 </thead>
 <tbody>
@@ -729,9 +729,9 @@ La siguiente tabla refleja el número aproximado de autenticaciones que se produ
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo de autenticación</th>
-<th>Nuevas autenticaciones</th>
-<th>Autenticaciones de reconexión rápida</th>
+<th style="border:1px solid black;" >Tipo de autenticación</th>
+<th style="border:1px solid black;" >Nuevas autenticaciones</th>
+<th style="border:1px solid black;" >Autenticaciones de reconexión rápida</th>
 </tr>
 </thead>
 <tbody>
@@ -819,8 +819,8 @@ La directiva de acceso remoto en esta solución se configura tal y como se muest
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento de configuración</th>
-<th>Configuración</th>
+<th style="border:1px solid black;" >Elemento de configuración</th>
+<th style="border:1px solid black;" >Configuración</th>
 </tr>
 </thead>
 <tbody>
@@ -954,10 +954,10 @@ Tal y como se describe en la sección "Directivas de RADIUS", la directiva de ac
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupo universal de nivel superior (acceso concedido en la directiva de acceso remoto)</th>
-<th>Miembros de primer nivel
+<th style="border:1px solid black;" >Grupo universal de nivel superior (acceso concedido en la directiva de acceso remoto)</th>
+<th style="border:1px solid black;" >Miembros de primer nivel
 (grupos globales de dominio)</th>
-<th>Miembros de segundo nivel
+<th style="border:1px solid black;" >Miembros de segundo nivel
 (grupos globales de dominio)</th>
 </tr>
 </thead>
@@ -990,9 +990,9 @@ Si resulta excesivamente permisivo para la organización que todos los usuarios 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupo universal de nivel superior (acceso concedido en la directiva de acceso remoto)</th>
-<th>Miembros de primer nivel (grupos globales de dominio)</th>
-<th>Miembros de segundo nivel
+<th style="border:1px solid black;" >Grupo universal de nivel superior (acceso concedido en la directiva de acceso remoto)</th>
+<th style="border:1px solid black;" >Miembros de primer nivel (grupos globales de dominio)</th>
+<th style="border:1px solid black;" >Miembros de segundo nivel
 (grupos globales de dominio)</th>
 </tr>
 </thead>
@@ -1039,8 +1039,8 @@ La tabla que sigue a continuación muestra las ventajas y los inconvenientes pri
 </colgroup>
 <thead>
 <tr class="header">
-<th>Entidad emisora interna</th>
-<th>Entidad emisora comercial</th>
+<th style="border:1px solid black;" >Entidad emisora interna</th>
+<th style="border:1px solid black;" >Entidad emisora comercial</th>
 </tr>
 </thead>
 <tbody>
@@ -1226,10 +1226,10 @@ La siguiente tabla refleja el modo en que los grupos de seguridad descritos en l
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupo universal de nivel superior (acceso concedido en la directiva de acceso remoto)</th>
-<th>Miembros de primer nivel
+<th style="border:1px solid black;" >Grupo universal de nivel superior (acceso concedido en la directiva de acceso remoto)</th>
+<th style="border:1px solid black;" >Miembros de primer nivel
 (grupos globales de dominio)</th>
-<th>Miembros de segundo nivel
+<th style="border:1px solid black;" >Miembros de segundo nivel
 (globales de dominio)</th>
 </tr>
 </thead>
@@ -1578,9 +1578,9 @@ Necesita las siguientes herramientas para llevar a cabo los procedimientos descr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Herramienta</th>
-<th>Descripción</th>
-<th>Fuente</th>
+<th style="border:1px solid black;" >Herramienta</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Fuente</th>
 </tr>
 </thead>
 <tbody>
@@ -1748,10 +1748,10 @@ Utilice el procedimiento que se ofrece más adelante en esta sección para crear
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupo de seguridad</th>
-<th>Finalidad</th>
-<th>Tipo de grupo</th>
-<th>Miembros</th>
+<th style="border:1px solid black;" >Grupo de seguridad</th>
+<th style="border:1px solid black;" >Finalidad</th>
+<th style="border:1px solid black;" >Tipo de grupo</th>
+<th style="border:1px solid black;" >Miembros</th>
 </tr>
 </thead>
 <tbody>
@@ -1825,8 +1825,8 @@ Si piensa activar el registro de RADIUS, deberá asignar un disco físico indepe
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento</th>
-<th>Requisito</th>
+<th style="border:1px solid black;" >Elemento</th>
+<th style="border:1px solid black;" >Requisito</th>
 </tr>
 </thead>
 <tbody>
@@ -1959,8 +1959,8 @@ La tabla siguiente muestra los servicios configurados para iniciarse automática
 </colgroup>
 <thead>
 <tr class="header">
-<th>Servicio</th>
-<th>Configuración de directiva</th>
+<th style="border:1px solid black;" >Servicio</th>
+<th style="border:1px solid black;" >Configuración de directiva</th>
 </tr>
 </thead>
 <tbody>
@@ -2003,8 +2003,8 @@ La tabla siguiente muestra las categorías de auditoría donde se activa la audi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Directiva de auditoría</th>
-<th>Valor de configuración</th>
+<th style="border:1px solid black;" >Directiva de auditoría</th>
+<th style="border:1px solid black;" >Valor de configuración</th>
 </tr>
 </thead>
 <tbody>
@@ -2338,9 +2338,9 @@ Necesita las siguientes herramientas para llevar a cabo los procedimientos de es
 </colgroup>
 <thead>
 <tr class="header">
-<th>Herramienta</th>
-<th>Descripción</th>
-<th>Fuente</th>
+<th style="border:1px solid black;" >Herramienta</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Fuente</th>
 </tr>
 </thead>
 <tbody>
@@ -2394,8 +2394,8 @@ En la siguiente tabla se muestran los parámetros utilizados en la instalación 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetros de configuración de la entidad emisora</th>
-<th>Valor de configuración</th>
+<th style="border:1px solid black;" >Parámetros de configuración de la entidad emisora</th>
+<th style="border:1px solid black;" >Valor de configuración</th>
 </tr>
 </thead>
 <tbody>
@@ -2534,8 +2534,8 @@ Puede comprobar que la instalación de los Servicios de Certificate Server ha si
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Atributo del certificado</th>
-    <th>Valor de configuración requerido</th>
+    <th style="border:1px solid black;" >Atributo del certificado</th>
+    <th style="border:1px solid black;" >Valor de configuración requerido</th>
     </tr>
     </thead>
     <tbody>
@@ -2582,8 +2582,8 @@ Este procedimiento establece un número de parámetros en la entidad emisora de 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Propiedad de la entidad emisora</th>
-<th>Descripción del valor de configuración</th>
+<th style="border:1px solid black;" >Propiedad de la entidad emisora</th>
+<th style="border:1px solid black;" >Descripción del valor de configuración</th>
 </tr>
 </thead>
 <tbody>
@@ -2813,9 +2813,9 @@ Para realizar los procedimientos de este capítulo son necesarias las siguientes
 </colgroup>
 <thead>
 <tr class="header">
-<th>Herramienta</th>
-<th>Descripción</th>
-<th>Fuente</th>
+<th style="border:1px solid black;" >Herramienta</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Fuente</th>
 </tr>
 </thead>
 <tbody>
@@ -2851,8 +2851,8 @@ En la siguiente tabla se muestran los parámetros principales utilizados en la i
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento de configuración</th>
-<th>Valor de configuración</th>
+<th style="border:1px solid black;" >Elemento de configuración</th>
+<th style="border:1px solid black;" >Valor de configuración</th>
 </tr>
 </thead>
 <tbody>
@@ -3401,8 +3401,8 @@ La siguiente tabla muestra la configuración que debe establecer en los puntos d
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento</th>
-<th>Configuración</th>
+<th style="border:1px solid black;" >Elemento</th>
+<th style="border:1px solid black;" >Configuración</th>
 </tr>
 </thead>
 <tbody>
@@ -3538,9 +3538,9 @@ Además de habilitar los parámetros 802.1X, debe configurar también los puntos
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento</th>
-<th>Valor de configuración recomendado</th>
-<th>Notas</th>
+<th style="border:1px solid black;" >Elemento</th>
+<th style="border:1px solid black;" >Valor de configuración recomendado</th>
+<th style="border:1px solid black;" >Notas</th>
 </tr>
 </thead>
 <tbody>
@@ -3761,9 +3761,9 @@ En la tabla siguiente se enumeran las herramientas necesarias para implementar l
 </colgroup>
 <thead>
 <tr class="header">
-<th>Herramienta</th>
-<th>Descripción</th>
-<th>Fuente</th>
+<th style="border:1px solid black;" >Herramienta</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Fuente</th>
 </tr>
 </thead>
 <tbody>
@@ -3794,8 +3794,8 @@ En la tabla siguiente se enumeran algunas de las principales configuraciones que
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento de configuración</th>
-<th>Valor de configuración</th>
+<th style="border:1px solid black;" >Elemento de configuración</th>
+<th style="border:1px solid black;" >Valor de configuración</th>
 </tr>
 </thead>
 <tbody>
@@ -4630,8 +4630,8 @@ La siguiente tabla muestra las tareas que se deben realizar para poner en funcio
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre de la tarea</th>
-<th>Sección</th>
+<th style="border:1px solid black;" >Nombre de la tarea</th>
+<th style="border:1px solid black;" >Sección</th>
 </tr>
 </thead>
 <tbody>
@@ -4669,9 +4669,9 @@ La siguiente tabla muestra las tareas que se deben realizar con regularidad para
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre de la tarea</th>
-<th>Frecuencia</th>
-<th>Sección</th>
+<th style="border:1px solid black;" >Nombre de la tarea</th>
+<th style="border:1px solid black;" >Frecuencia</th>
+<th style="border:1px solid black;" >Sección</th>
 </tr>
 </thead>
 <tbody>
@@ -4697,8 +4697,8 @@ En la tabla siguiente se enumeran las herramientas o tecnologías utilizadas en 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre del elemento</th>
-<th>Fuente</th>
+<th style="border:1px solid black;" >Nombre del elemento</th>
+<th style="border:1px solid black;" >Fuente</th>
 </tr>
 </thead>
 <tbody>
@@ -4779,8 +4779,8 @@ En la tabla siguiente se enumeran las herramientas o tecnologías utilizadas en 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre del elemento</th>
-<th>Fuente</th>
+<th style="border:1px solid black;" >Nombre del elemento</th>
+<th style="border:1px solid black;" >Fuente</th>
 </tr>
 </thead>
 <tbody>
@@ -4957,11 +4957,11 @@ La secuencia de comandos de supervisión y la de copia de seguridad de IAS regis
 </colgroup>
 <thead>
 <tr class="header">
-<th>Suceso IAS</th>
-<th>Importancia</th>
-<th>Categoría del suceso</th>
-<th>Origen del suceso</th>
-<th>Id. de suceso</th>
+<th style="border:1px solid black;" >Suceso IAS</th>
+<th style="border:1px solid black;" >Importancia</th>
+<th style="border:1px solid black;" >Categoría del suceso</th>
+<th style="border:1px solid black;" >Origen del suceso</th>
+<th style="border:1px solid black;" >Id. de suceso</th>
 </tr>
 </thead>
 <tbody>
@@ -5080,11 +5080,11 @@ La secuencia de comandos de supervisión de la entidad emisora de certificados r
 </colgroup>
 <thead>
 <tr class="header">
-<th>Suceso de la entidad emisora</th>
-<th>Importancia</th>
-<th>Categoría del suceso</th>
-<th>Origen del suceso</th>
-<th>Id. de suceso</th>
+<th style="border:1px solid black;" >Suceso de la entidad emisora</th>
+<th style="border:1px solid black;" >Importancia</th>
+<th style="border:1px solid black;" >Categoría del suceso</th>
+<th style="border:1px solid black;" >Origen del suceso</th>
+<th style="border:1px solid black;" >Id. de suceso</th>
 </tr>
 </thead>
 <tbody>
@@ -5387,10 +5387,10 @@ La siguiente tabla recoge indicaciones de los requisitos de autenticación WLAN 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Número de usuarios de WLAN</th>
-<th>Nuevas autenticaciones por segundo</th>
-<th>Nuevas autenticaciones por segundo en hora máxima</th>
-<th>Reautenticaciones por segundo</th>
+<th style="border:1px solid black;" >Número de usuarios de WLAN</th>
+<th style="border:1px solid black;" >Nuevas autenticaciones por segundo</th>
+<th style="border:1px solid black;" >Nuevas autenticaciones por segundo en hora máxima</th>
+<th style="border:1px solid black;" >Reautenticaciones por segundo</th>
 </tr>
 </thead>
 <tbody>
@@ -5433,8 +5433,8 @@ Las pruebas se llevaron a cabo con el registro de RADIUS activado (en un disco a
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo de autenticación</th>
-<th>Autenticaciones por segundo</th>
+<th style="border:1px solid black;" >Tipo de autenticación</th>
+<th style="border:1px solid black;" >Autenticaciones por segundo</th>
 </tr>
 </thead>
 <tbody>
@@ -5500,9 +5500,9 @@ La siguiente tabla clasifica los distintos tipos de problemas de conexión basad
 </colgroup>
 <thead>
 <tr class="header">
-<th>Síntoma</th>
-<th>Posible(s) problema(s)</th>
-<th>Procedimientos de diagnóstico que seguir</th>
+<th style="border:1px solid black;" >Síntoma</th>
+<th style="border:1px solid black;" >Posible(s) problema(s)</th>
+<th style="border:1px solid black;" >Procedimientos de diagnóstico que seguir</th>
 </tr>
 </thead>
 <tbody>
@@ -5554,8 +5554,8 @@ Esta sección se centra en los problemas de rendimiento asociados con la infraes
 </colgroup>
 <thead>
 <tr class="header">
-<th>Síntoma</th>
-<th>Posible solución</th>
+<th style="border:1px solid black;" >Síntoma</th>
+<th style="border:1px solid black;" >Posible solución</th>
 </tr>
 </thead>
 <tbody>
@@ -5651,8 +5651,8 @@ La siguiente tabla recoge una serie de comprobaciones que se deben realizar si s
 </colgroup>
 <thead>
 <tr class="header">
-<th>Comprobaciones</th>
-<th>Detalles</th>
+<th style="border:1px solid black;" >Comprobaciones</th>
+<th style="border:1px solid black;" >Detalles</th>
 </tr>
 </thead>
 <tbody>
@@ -5715,8 +5715,8 @@ La tabla siguiente contiene una serie de comprobaciones que puede poner en prác
 </colgroup>
 <thead>
 <tr class="header">
-<th>Comprobación</th>
-<th>Detalle</th>
+<th style="border:1px solid black;" >Comprobación</th>
+<th style="border:1px solid black;" >Detalle</th>
 </tr>
 </thead>
 <tbody>
@@ -5765,8 +5765,8 @@ La tabla siguiente enumera una serie de comprobaciones que ha de realizar en Act
 </colgroup>
 <thead>
 <tr class="header">
-<th>Comprobación</th>
-<th>Detalle</th>
+<th style="border:1px solid black;" >Comprobación</th>
+<th style="border:1px solid black;" >Detalle</th>
 </tr>
 </thead>
 <tbody>
@@ -5807,8 +5807,8 @@ La tabla siguiente enumera una serie de comprobaciones que ha de realizar en los
 </colgroup>
 <thead>
 <tr class="header">
-<th>Comprobación</th>
-<th>Detalle</th>
+<th style="border:1px solid black;" >Comprobación</th>
+<th style="border:1px solid black;" >Detalle</th>
 </tr>
 </thead>
 <tbody>
@@ -5853,8 +5853,8 @@ El origen de los errores de WLAN puede radicar en problemas de conectividad WAN 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Comprobación</th>
-<th>Detalle</th>
+<th style="border:1px solid black;" >Comprobación</th>
+<th style="border:1px solid black;" >Detalle</th>
 </tr>
 </thead>
 <tbody>
@@ -5905,11 +5905,11 @@ Consultar estos sucesos es útil para solucionar los problemas en la autenticaci
 </colgroup>
 <thead>
 <tr class="header">
-<th>Suceso IAS</th>
-<th>Importancia</th>
-<th>Categoría del suceso</th>
-<th>Origen del suceso</th>
-<th>Id. de suceso</th>
+<th style="border:1px solid black;" >Suceso IAS</th>
+<th style="border:1px solid black;" >Importancia</th>
+<th style="border:1px solid black;" >Categoría del suceso</th>
+<th style="border:1px solid black;" >Origen del suceso</th>
+<th style="border:1px solid black;" >Id. de suceso</th>
 </tr>
 </thead>
 <tbody>
@@ -5963,8 +5963,8 @@ Si la autenticación da error, los códigos y descripciones del motivo suelen in
 </colgroup>
 <thead>
 <tr class="header">
-<th>Código de motivo</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Código de motivo</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -6292,8 +6292,8 @@ A modo de referencia, la siguiente tabla contempla la asignación entre los cap�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Solución EAP-TLS</th>
-<th>Solución PEAP</th>
+<th style="border:1px solid black;" >Solución EAP-TLS</th>
+<th style="border:1px solid black;" >Solución PEAP</th>
 </tr>
 </thead>
 <tbody>
@@ -6570,10 +6570,10 @@ La siguiente tabla muestra el estado de las distintas versiones de cliente y ser
 </colgroup>
 <thead>
 <tr class="header">
-<th>Función</th>
-<th>Versión del sistema operativo</th>
-<th>Estado de compatibilidad</th>
-<th>Notas</th>
+<th style="border:1px solid black;" >Función</th>
+<th style="border:1px solid black;" >Versión del sistema operativo</th>
+<th style="border:1px solid black;" >Estado de compatibilidad</th>
+<th style="border:1px solid black;" >Notas</th>
 </tr>
 </thead>
 <tbody>
@@ -6754,8 +6754,8 @@ En la tabla siguiente se incluyen todos los archivos que se proporcionan con la 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre de archivo</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre de archivo</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -6896,8 +6896,8 @@ En cada uno de los archivos .wsf, el primer trabajo se define para enumerar los 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre del trabajo</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre del trabajo</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -6980,8 +6980,8 @@ En cada uno de los archivos .wsf, el primer trabajo se define para enumerar los 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre del trabajo</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre del trabajo</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -7193,8 +7193,8 @@ Antes de ver cómo funcionan las soluciones de seguridad de las WLAN modernas, m
 </colgroup>
 <thead>
 <tr class="header">
-<th>Amenaza</th>
-<th>Descripción de la amenaza</th>
+<th style="border:1px solid black;" >Amenaza</th>
+<th style="border:1px solid black;" >Descripción de la amenaza</th>
 </tr>
 </thead>
 <tbody>
@@ -7385,8 +7385,8 @@ Las principales amenazas de la seguridad para las WLAN se detallaron con anterio
 </colgroup>
 <thead>
 <tr class="header">
-<th>Amenaza</th>
-<th>Mitigación</th>
+<th style="border:1px solid black;" >Amenaza</th>
+<th style="border:1px solid black;" >Mitigación</th>
 </tr>
 </thead>
 <tbody>
@@ -7457,11 +7457,11 @@ Los factores diferenciadores más importantes entre estos enfoques y una soluci�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Característica</th>
-<th>WLAN 802.1X</th>
-<th>WEP estática</th>
-<th>VPN</th>
-<th>IPSec</th>
+<th style="border:1px solid black;" >Característica</th>
+<th style="border:1px solid black;" >WLAN 802.1X</th>
+<th style="border:1px solid black;" >WEP estática</th>
+<th style="border:1px solid black;" >VPN</th>
+<th style="border:1px solid black;" >IPSec</th>
 </tr>
 </thead>
 <tbody>

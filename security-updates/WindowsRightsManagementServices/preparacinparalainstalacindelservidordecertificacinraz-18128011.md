@@ -24,9 +24,9 @@ Cuando haya instalado el controlador de dominio y configurado los servidores de 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Componente de infraestructura</th>
-<th>Para preparar el servidor para la instalación de RMS</th>
-<th>Notas para la implementación en un entorno de producción</th>
+<th style="border:1px solid black;" >Componente de infraestructura</th>
+<th style="border:1px solid black;" >Para preparar el servidor para la instalación de RMS</th>
+<th style="border:1px solid black;" >Notas para la implementación en un entorno de producción</th>
 </tr>
 </thead>
 <tbody>

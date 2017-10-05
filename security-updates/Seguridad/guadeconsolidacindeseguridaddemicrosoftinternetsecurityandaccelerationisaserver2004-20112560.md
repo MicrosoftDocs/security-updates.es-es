@@ -102,9 +102,9 @@ En la siguiente tabla se enumeran los servicios principales que se deben habilit
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre del servicio</th>
-<th>Razón principal</th>
-<th>Modo de inicio</th>
+<th style="border:1px solid black;" >Nombre del servicio</th>
+<th style="border:1px solid black;" >Razón principal</th>
+<th style="border:1px solid black;" >Modo de inicio</th>
 </tr>
 </thead>
 <tbody>
@@ -260,10 +260,10 @@ El equipo servidor ISA puede funcionar en capacidades, o funciones, adicionales 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Función de servidor</th>
-<th>Escenario de uso</th>
-<th>Servicios necesarios</th>
-<th>Modo de inicio</th>
+<th style="border:1px solid black;" >Función de servidor</th>
+<th style="border:1px solid black;" >Escenario de uso</th>
+<th style="border:1px solid black;" >Servicios necesarios</th>
+<th style="border:1px solid black;" >Modo de inicio</th>
 </tr>
 </thead>
 <tbody>
@@ -339,10 +339,10 @@ Las tareas de servidor son similares a las funciones de servidor y con frecuenci
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tarea de servidor</th>
-<th>Escenario de uso</th>
-<th>Servicios necesarios</th>
-<th>Modo de inicio</th>
+<th style="border:1px solid black;" >Tarea de servidor</th>
+<th style="border:1px solid black;" >Escenario de uso</th>
+<th style="border:1px solid black;" >Servicios necesarios</th>
+<th style="border:1px solid black;" >Modo de inicio</th>
 </tr>
 </thead>
 <tbody>
@@ -480,10 +480,10 @@ Los servidores pueden ser clientes de otros servidores. Las funciones de cliente
 </colgroup>
 <thead>
 <tr class="header">
-<th>Función de cliente</th>
-<th>Escenario de uso</th>
-<th>Servicios necesarios</th>
-<th>Modo de inicio</th>
+<th style="border:1px solid black;" >Función de cliente</th>
+<th style="border:1px solid black;" >Escenario de uso</th>
+<th style="border:1px solid black;" >Servicios necesarios</th>
+<th style="border:1px solid black;" >Modo de inicio</th>
 </tr>
 </thead>
 <tbody>
@@ -599,9 +599,9 @@ Puede crear una plantilla mediante el complemento Plantillas de seguridad de Mic
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Nombre del servicio</th>
-    <th>Nombre abreviado</th>
-    <th>Modo de inicio</th>
+    <th style="border:1px solid black;" >Nombre del servicio</th>
+    <th style="border:1px solid black;" >Nombre abreviado</th>
+    <th style="border:1px solid black;" >Modo de inicio</th>
     </tr>
     </thead>
     <tbody>
@@ -887,8 +887,8 @@ Al igual que con cualquier aplicación de su entorno, cuando defina los permisos
 </colgroup>
 <thead>
 <tr class="header">
-<th>Función</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Función</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -943,10 +943,10 @@ Cada función del servidor ISA tiene asociada una lista específica de tareas de
 </colgroup>
 <thead>
 <tr class="header">
-<th>Actividad</th>
-<th>Permisos de Supervisión básica</th>
-<th>Permisos de Supervisión ampliada</th>
-<th>Permisos de Administrador total</th>
+<th style="border:1px solid black;" >Actividad</th>
+<th style="border:1px solid black;" >Permisos de Supervisión básica</th>
+<th style="border:1px solid black;" >Permisos de Supervisión ampliada</th>
+<th style="border:1px solid black;" >Permisos de Administrador total</th>
 </tr>
 </thead>
 <tbody>
@@ -1173,9 +1173,9 @@ En la siguiente tabla se muestran las reglas de directiva del sistema que se apl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupo de configuración</th>
-<th>Nombre de regla</th>
-<th>Descripción de la regla</th>
+<th style="border:1px solid black;" >Grupo de configuración</th>
+<th style="border:1px solid black;" >Nombre de regla</th>
+<th style="border:1px solid black;" >Descripción de la regla</th>
 </tr>
 </thead>
 <tbody>
@@ -1238,9 +1238,9 @@ En la siguiente tabla se muestran las reglas de directiva del sistema que se apl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupo de configuración</th>
-<th>Nombre de regla</th>
-<th>Descripción de la regla</th>
+<th style="border:1px solid black;" >Grupo de configuración</th>
+<th style="border:1px solid black;" >Nombre de regla</th>
+<th style="border:1px solid black;" >Descripción de la regla</th>
 </tr>
 </thead>
 <tbody>
@@ -1354,9 +1354,9 @@ El servidor ISA normalmente se administra desde un equipo remoto. Determine cuid
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupo de configuración</th>
-<th>Nombre de regla</th>
-<th>Descripción de la regla</th>
+<th style="border:1px solid black;" >Grupo de configuración</th>
+<th style="border:1px solid black;" >Nombre de regla</th>
+<th style="border:1px solid black;" >Descripción de la regla</th>
 </tr>
 </thead>
 <tbody>
@@ -1429,9 +1429,9 @@ En la siguiente tabla se proporciona una descripción de los grupos de configura
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupo de configuración</th>
-<th>Nombre de regla</th>
-<th>Descripción de la regla</th>
+<th style="border:1px solid black;" >Grupo de configuración</th>
+<th style="border:1px solid black;" >Nombre de regla</th>
+<th style="border:1px solid black;" >Descripción de la regla</th>
 </tr>
 </thead>
 <tbody>
@@ -1493,9 +1493,9 @@ Si ha instalado el componente Recurso compartido de cliente firewall al instalar
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupo de configuración</th>
-<th>Nombre de regla</th>
-<th>Descripción de la regla</th>
+<th style="border:1px solid black;" >Grupo de configuración</th>
+<th style="border:1px solid black;" >Nombre de regla</th>
+<th style="border:1px solid black;" >Descripción de la regla</th>
 </tr>
 </thead>
 <tbody>
@@ -1532,9 +1532,9 @@ En la siguiente tabla se muestran los grupos de configuración de directiva del 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupo de configuración</th>
-<th>Nombre de regla</th>
-<th>Descripción de la regla</th>
+<th style="border:1px solid black;" >Grupo de configuración</th>
+<th style="border:1px solid black;" >Nombre de regla</th>
+<th style="border:1px solid black;" >Descripción de la regla</th>
 </tr>
 </thead>
 <tbody>
@@ -1571,9 +1571,9 @@ Cuando se crea un comprobador de conectividad, el grupo de configuración Compro
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupo de configuración</th>
-<th>Nombre de regla</th>
-<th>Descripción de la regla</th>
+<th style="border:1px solid black;" >Grupo de configuración</th>
+<th style="border:1px solid black;" >Nombre de regla</th>
+<th style="border:1px solid black;" >Descripción de la regla</th>
 </tr>
 </thead>
 <tbody>
@@ -1616,9 +1616,9 @@ De forma predeterminada, el grupo de configuración SMTP está habilitado, lo qu
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupo de configuración</th>
-<th>Nombre de regla</th>
-<th>Descripción de la regla</th>
+<th style="border:1px solid black;" >Grupo de configuración</th>
+<th style="border:1px solid black;" >Nombre de regla</th>
+<th style="border:1px solid black;" >Descripción de la regla</th>
 </tr>
 </thead>
 <tbody>
@@ -1643,9 +1643,9 @@ De forma predeterminada, la característica de trabajos de descarga programada e
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupo de configuración</th>
-<th>Nombre de regla</th>
-<th>Descripción de la regla</th>
+<th style="border:1px solid black;" >Grupo de configuración</th>
+<th style="border:1px solid black;" >Nombre de regla</th>
+<th style="border:1px solid black;" >Descripción de la regla</th>
 </tr>
 </thead>
 <tbody>
@@ -1678,9 +1678,9 @@ De forma predeterminada, el grupo de configuración Sitios permitidos está habi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupo de configuración</th>
-<th>Nombre de regla</th>
-<th>Descripción de la regla</th>
+<th style="border:1px solid black;" >Grupo de configuración</th>
+<th style="border:1px solid black;" >Nombre de regla</th>
+<th style="border:1px solid black;" >Descripción de la regla</th>
 </tr>
 </thead>
 <tbody>

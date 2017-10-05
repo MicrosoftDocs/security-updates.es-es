@@ -30,8 +30,8 @@ Los requisitos de hardware para ejecutar RMS con SP2 se indican en la siguiente 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Requisito</th>
-<th>Recomendación</th>
+<th style="border:1px solid black;" >Requisito</th>
+<th style="border:1px solid black;" >Recomendación</th>
 </tr>
 </thead>
 <tbody>
@@ -66,8 +66,8 @@ Los requisitos software para los servidores en los que se ejecuta RMS con SP2 se
 </colgroup>
 <thead>
 <tr class="header">
-<th>Componente</th>
-<th>Requisito</th>
+<th style="border:1px solid black;" >Componente</th>
+<th style="border:1px solid black;" >Requisito</th>
 </tr>
 </thead>
 <tbody>
@@ -117,8 +117,8 @@ Los requisitos de infraestructura para los servidores en los que se ejecuta RMS 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Componente</th>
-<th>Requisitos</th>
+<th style="border:1px solid black;" >Componente</th>
+<th style="border:1px solid black;" >Requisitos</th>
 </tr>
 </thead>
 <tbody>
@@ -156,8 +156,8 @@ En la siguiente tabla se muestran los permisos de usuario necesarios para realiz
 </colgroup>
 <thead>
 <tr class="header">
-<th>Actividad</th>
-<th>Requisitos de cuenta</th>
+<th style="border:1px solid black;" >Actividad</th>
+<th style="border:1px solid black;" >Requisitos de cuenta</th>
 </tr>
 </thead>
 <tbody>
@@ -204,8 +204,8 @@ Si utiliza RMS en una implementación de clúster, tenga en cuenta los elementos
 </colgroup>
 <thead>
 <tr class="header">
-<th>Condición</th>
-<th>Recomendación</th>
+<th style="border:1px solid black;" >Condición</th>
+<th style="border:1px solid black;" >Recomendación</th>
 </tr>
 </thead>
 <tbody>

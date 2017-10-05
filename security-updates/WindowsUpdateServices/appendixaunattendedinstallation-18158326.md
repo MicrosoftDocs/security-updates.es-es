@@ -41,8 +41,8 @@ WSUS Setup accepts the following command-line parameters.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Option</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Option</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>
@@ -101,8 +101,8 @@ Use the following properties to configure WSUS by using the command-line paramet
 </colgroup>
 <thead>
 <tr class="header">
-<th>Windows Installer Property</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Windows Installer Property</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>
@@ -165,8 +165,8 @@ Use the following properties in combination with the **/l** option.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Variable</th>
-<th>Language name</th>
+<th style="border:1px solid black;" >Variable</th>
+<th style="border:1px solid black;" >Language name</th>
 </tr>
 </thead>
 <tbody>

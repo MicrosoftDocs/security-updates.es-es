@@ -50,9 +50,9 @@ En la siguiente tabla se muestran los nombres de las plantillas de seguridad de 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -164,9 +164,9 @@ En la siguiente tabla se describen brevemente los subcomponentes del servidor de
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre del componente en la IU</th>
-<th>Configuración</th>
-<th>Lógica de la configuración</th>
+<th style="border:1px solid black;" >Nombre del componente en la IU</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Lógica de la configuración</th>
 </tr>
 </thead>
 <tbody>
@@ -222,9 +222,9 @@ En la siguiente tabla se describen brevemente los subcomponentes de IIS y se ofr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre del componente en la IU</th>
-<th>Configuración</th>
-<th>Lógica de la configuración</th>
+<th style="border:1px solid black;" >Nombre del componente en la IU</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Lógica de la configuración</th>
 </tr>
 </thead>
 <tbody>
@@ -294,9 +294,9 @@ En la siguiente tabla se describen brevemente los subcomponentes de Message Queu
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre del componente en la IU</th>
-<th>Opción de instalación</th>
-<th>Lógica de la configuración</th>
+<th style="border:1px solid black;" >Nombre del componente en la IU</th>
+<th style="border:1px solid black;" >Opción de instalación</th>
+<th style="border:1px solid black;" >Lógica de la configuración</th>
 </tr>
 </thead>
 <tbody>
@@ -351,9 +351,9 @@ En la siguiente tabla se describen brevemente los subcomponentes de Extensiones 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre del componente en la IU</th>
-<th>Opción de instalación</th>
-<th>Lógica de la configuración</th>
+<th style="border:1px solid black;" >Nombre del componente en la IU</th>
+<th style="border:1px solid black;" >Opción de instalación</th>
+<th style="border:1px solid black;" >Lógica de la configuración</th>
 </tr>
 </thead>
 <tbody>
@@ -388,9 +388,9 @@ En la tabla siguiente se describen brevemente los subcomponentes del Servicio Wo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre del componente en la IU</th>
-<th>Opción de instalación</th>
-<th>Lógica de la configuración</th>
+<th style="border:1px solid black;" >Nombre del componente en la IU</th>
+<th style="border:1px solid black;" >Opción de instalación</th>
+<th style="border:1px solid black;" >Lógica de la configuración</th>
 </tr>
 </thead>
 <tbody>
@@ -454,8 +454,8 @@ En la tabla siguiente se enumeran las extensiones de servicio web predefinidas y
 </colgroup>
 <thead>
 <tr class="header">
-<th>Extensión de servicio web</th>
-<th>Habilitar la extensión cuando</th>
+<th style="border:1px solid black;" >Extensión de servicio web</th>
+<th style="border:1px solid black;" >Habilitar la extensión cuando</th>
 </tr>
 </thead>
 <tbody>
@@ -530,8 +530,8 @@ En la siguiente tabla se ofrecen algunas recomendaciones acerca de los permisos 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo de archivo</th>
-<th>Permisos de NTFS recomendados</th>
+<th style="border:1px solid black;" >Tipo de archivo</th>
+<th style="border:1px solid black;" >Permisos de NTFS recomendados</th>
 </tr>
 </thead>
 <tbody>
@@ -581,8 +581,8 @@ En la tabla siguiente se enumeran los permisos de sitio web que admite IIS 6.0 y
 </colgroup>
 <thead>
 <tr class="header">
-<th>Permiso de sitio web</th>
-<th>Permiso otorgado</th>
+<th style="border:1px solid black;" >Permiso de sitio web</th>
+<th style="border:1px solid black;" >Permiso otorgado</th>
 </tr>
 </thead>
 <tbody>
@@ -663,10 +663,10 @@ Asimismo, puede haber cambiado el nombre de la cuenta de Administrador integrada
 </colgroup>
 <thead>
 <tr class="header">
-<th>Predeterminada del servidor miembro</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Predeterminada del servidor miembro</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>

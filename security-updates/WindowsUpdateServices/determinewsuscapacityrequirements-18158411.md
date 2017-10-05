@@ -28,11 +28,11 @@ Hardware and database software requirements are driven by the number of client c
 </colgroup>
 <thead>
 <tr class="header">
-<th>Hardware</th>
-<th>Low-end 500 or fewer clients</th>
-<th>Typical 500–3,000 clients</th>
-<th>High-end 3,000–20,000 clients, or rollup of 30,000 clients</th>
-<th>Super high-end 10,000 clients, or rollup of 100,000 clients</th>
+<th style="border:1px solid black;" >Hardware</th>
+<th style="border:1px solid black;" >Low-end 500 or fewer clients</th>
+<th style="border:1px solid black;" >Typical 500–3,000 clients</th>
+<th style="border:1px solid black;" >High-end 3,000–20,000 clients, or rollup of 30,000 clients</th>
+<th style="border:1px solid black;" >Super high-end 10,000 clients, or rollup of 100,000 clients</th>
 </tr>
 </thead>
 <tbody>

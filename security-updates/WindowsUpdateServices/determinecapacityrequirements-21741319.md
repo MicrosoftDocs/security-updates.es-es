@@ -54,10 +54,10 @@ Be aware that your organization’s performance results may vary if you choose t
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuration</th>
-<th>Maximum Supported Capacity</th>
-<th>Hardware and Software</th>
-<th>Client Synchronizations and Updates</th>
+<th style="border:1px solid black;" >Configuration</th>
+<th style="border:1px solid black;" >Maximum Supported Capacity</th>
+<th style="border:1px solid black;" >Hardware and Software</th>
+<th style="border:1px solid black;" >Client Synchronizations and Updates</th>
 </tr>
 </thead>
 <tbody>

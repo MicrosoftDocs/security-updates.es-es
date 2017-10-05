@@ -35,7 +35,7 @@ You should approve updates to test the functionality of your WSUS deployment. Th
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939862.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="images/Dd939862.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>

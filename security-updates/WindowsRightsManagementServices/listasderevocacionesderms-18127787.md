@@ -31,8 +31,8 @@ En la tabla siguiente, se describen las entidades que se pueden especificar en l
 </colgroup>
 <thead>
 <tr class="header">
-<th>Entidad</th>
-<th>Identificador</th>
+<th style="border:1px solid black;" >Entidad</th>
+<th style="border:1px solid black;" >Identificador</th>
 </tr>
 </thead>
 <tbody>
@@ -79,8 +79,8 @@ Las listas de revocaciones son archivos XrML que especifican los parámetros sig
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>

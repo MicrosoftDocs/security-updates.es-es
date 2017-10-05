@@ -572,8 +572,8 @@ Utilice una contraseña segura para la cuenta Administrador integrada. Una contr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipos de caracteres</th>
-<th>Ejemplo</th>
+<th style="border:1px solid black;" >Tipos de caracteres</th>
+<th style="border:1px solid black;" >Ejemplo</th>
 </tr>
 </thead>
 <tbody>

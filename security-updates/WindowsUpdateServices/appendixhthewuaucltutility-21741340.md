@@ -26,8 +26,8 @@ The following are the command line for wuauclt.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Option</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Option</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>

@@ -119,8 +119,8 @@ En la siguiente tabla se enumeran parámetros específicos de organización toma
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento de configuración</th>
-<th>Configuración</th>
+<th style="border:1px solid black;" >Elemento de configuración</th>
+<th style="border:1px solid black;" >Configuración</th>
 </tr>
 </thead>
 <tbody>
@@ -161,8 +161,8 @@ La configuración especificada en esta tabla no se debe cambiar en instalaciones
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento de configuración</th>
-<th>Configuración</th>
+<th style="border:1px solid black;" >Elemento de configuración</th>
+<th style="border:1px solid black;" >Configuración</th>
 </tr>
 </thead>
 <tbody>
@@ -255,8 +255,8 @@ Las especificaciones de hardware siguientes se utilizaron para probar esta soluc
 </colgroup>
 <thead>
 <tr class="header">
-<th>Recurso</th>
-<th>Requisito</th>
+<th style="border:1px solid black;" >Recurso</th>
+<th style="border:1px solid black;" >Requisito</th>
 </tr>
 </thead>
 <tbody>
@@ -559,9 +559,9 @@ Debe seguir el siguiente procedimiento para importar la plantilla Cliente empres
     </colgroup>
     <thead>
     <tr class="header">
-    <th>UO</th>
-    <th>GPO</th>
-    <th>Plantilla de seguridad</th>
+    <th style="border:1px solid black;" >UO</th>
+    <th style="border:1px solid black;" >GPO</th>
+    <th style="border:1px solid black;" >Plantilla de seguridad</th>
     </tr>
     </thead>
     <tbody>
@@ -695,9 +695,9 @@ Debe establecerse la siguiente configuración de Servicios de Terminal Server en
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ruta de acceso</th>
-<th>Directiva</th>
-<th>Configuración</th>
+<th style="border:1px solid black;" >Ruta de acceso</th>
+<th style="border:1px solid black;" >Directiva</th>
+<th style="border:1px solid black;" >Configuración</th>
 </tr>
 </thead>
 <tbody>
@@ -824,8 +824,8 @@ IAS se instala con el administrador de componentes opcionales de Windows (al que
 </colgroup>
 <thead>
 <tr class="header">
-<th>Componente opcional que se instalará</th>
-<th>Estado de instalación</th>
+<th style="border:1px solid black;" >Componente opcional que se instalará</th>
+<th style="border:1px solid black;" >Estado de instalación</th>
 </tr>
 </thead>
 <tbody>

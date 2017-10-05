@@ -111,9 +111,9 @@ Puede usar una matriz de vectores de ataque, objetivos de los ataques, descripci
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objetivos de los ataques</th>
-<th>Descripción</th>
-<th>Costo</th>
+<th style="border:1px solid black;" >Objetivos de los ataques</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Costo</th>
 </tr>
 </thead>
 <tbody>
@@ -181,9 +181,9 @@ Los dos métodos más habituales de engañar a un usuario para que haga clic en 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objetivos de los ataques</th>
-<th>Descripción</th>
-<th>Costo</th>
+<th style="border:1px solid black;" >Objetivos de los ataques</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Costo</th>
 </tr>
 </thead>
 <tbody>
@@ -236,9 +236,9 @@ El pirata informático (de color rojo) se hace pasar por otro usuario conocido y
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objetivos de los ataques</th>
-<th>Descripción</th>
-<th>Costo</th>
+<th style="border:1px solid black;" >Objetivos de los ataques</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Costo</th>
 </tr>
 </thead>
 <tbody>
@@ -310,9 +310,9 @@ Las solicitudes de información o acceso telefónico constituyen una forma de at
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objetivos de los ataques</th>
-<th>Descripción</th>
-<th>Costo</th>
+<th style="border:1px solid black;" >Objetivos de los ataques</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Costo</th>
 </tr>
 </thead>
 <tbody>
@@ -352,9 +352,9 @@ El departamento de soporte es una de las defensas fundamentales frente a los pir
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objetivos de los ataques</th>
-<th>Descripción</th>
-<th>Costo</th>
+<th style="border:1px solid black;" >Objetivos de los ataques</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Costo</th>
 </tr>
 </thead>
 <tbody>
@@ -402,9 +402,9 @@ Los medios electrónicos pueden ser incluso más útiles. Si las compañías no 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objetivos de los ataques</th>
-<th>Descripción</th>
-<th>Costo</th>
+<th style="border:1px solid black;" >Objetivos de los ataques</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Costo</th>
 </tr>
 </thead>
 <tbody>
@@ -499,9 +499,9 @@ La seguridad de los trabajadores en casa suele estar limitada a la tecnología. 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objetivos de los ataques</th>
-<th>Descripción</th>
-<th>Costo</th>
+<th style="border:1px solid black;" >Objetivos de los ataques</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Costo</th>
 </tr>
 </thead>
 <tbody>
@@ -617,9 +617,9 @@ No siempre es necesario tener información o incluso conocer a un objetivo para 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objetivos de los ataques</th>
-<th>Descripción</th>
-<th>Costo</th>
+<th style="border:1px solid black;" >Objetivos de los ataques</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Costo</th>
 </tr>
 </thead>
 <tbody>
@@ -701,9 +701,9 @@ Este grupo, el comité de control de seguridad, representa a los moderadores de 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vector de ataque</th>
-<th>Descripción de uso de la compañía</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Vector de ataque</th>
+<th style="border:1px solid black;" >Descripción de uso de la compañía</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -834,11 +834,11 @@ Según la evaluación comercial de la matriz Vulnerabilidades vectoriales de ata
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vector de ataque</th>
-<th>Posible requisito de directiva</th>
-<th>Tipo de riesgo Información confidencial Credibilidad comercial Disponibilidad comercial Recursos Dinero</th>
-<th>Nivel de riesgo Alto = 5 Bajo = 1</th>
-<th>Acción</th>
+<th style="border:1px solid black;" >Vector de ataque</th>
+<th style="border:1px solid black;" >Posible requisito de directiva</th>
+<th style="border:1px solid black;" >Tipo de riesgo Información confidencial Credibilidad comercial Disponibilidad comercial Recursos Dinero</th>
+<th style="border:1px solid black;" >Nivel de riesgo Alto = 5 Bajo = 1</th>
+<th style="border:1px solid black;" >Acción</th>
 </tr>
 </thead>
 <tbody>
@@ -1014,9 +1014,9 @@ El comité de control de seguridad tiene las principales áreas de seguridad y l
 </colgroup>
 <thead>
 <tr class="header">
-<th>Requisito de directiva</th>
-<th>Procedimiento / documento necesario</th>
-<th>Acción / fecha</th>
+<th style="border:1px solid black;" >Requisito de directiva</th>
+<th style="border:1px solid black;" >Procedimiento / documento necesario</th>
+<th style="border:1px solid black;" >Acción / fecha</th>
 </tr>
 </thead>
 <tbody>
@@ -1192,9 +1192,9 @@ Se presentó una serie de tablas para capturar las vulnerabilidades de la ingeni
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vector de ataque</th>
-<th>Descripción de uso de la compañía</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Vector de ataque</th>
+<th style="border:1px solid black;" >Descripción de uso de la compañía</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1294,11 +1294,11 @@ Se presentó una serie de tablas para capturar las vulnerabilidades de la ingeni
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vector de ataque</th>
-<th>Posible requisito de directiva</th>
-<th>Tipo de riesgo Información confidencial Credibilidad comercial Disponibilidad comercial Recursos Dinero</th>
-<th>Nivel de riesgo Alto = 5 Bajo = 1</th>
-<th>Acción</th>
+<th style="border:1px solid black;" >Vector de ataque</th>
+<th style="border:1px solid black;" >Posible requisito de directiva</th>
+<th style="border:1px solid black;" >Tipo de riesgo Información confidencial Credibilidad comercial Disponibilidad comercial Recursos Dinero</th>
+<th style="border:1px solid black;" >Nivel de riesgo Alto = 5 Bajo = 1</th>
+<th style="border:1px solid black;" >Acción</th>
 </tr>
 </thead>
 <tbody>
@@ -1387,9 +1387,9 @@ Se presentó una serie de tablas para capturar las vulnerabilidades de la ingeni
 </colgroup>
 <thead>
 <tr class="header">
-<th>Requisito de directiva</th>
-<th>Procedimiento / documento necesario</th>
-<th>Acción en / fecha</th>
+<th style="border:1px solid black;" >Requisito de directiva</th>
+<th style="border:1px solid black;" >Procedimiento / documento necesario</th>
+<th style="border:1px solid black;" >Acción en / fecha</th>
 </tr>
 </thead>
 <tbody>
@@ -1437,9 +1437,9 @@ Se presentó una serie de tablas para capturar las vulnerabilidades de la ingeni
 </colgroup>
 <thead>
 <tr class="header">
-<th>Acción</th>
-<th>Descripción</th>
-<th>Acción en / fecha</th>
+<th style="border:1px solid black;" >Acción</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Acción en / fecha</th>
 </tr>
 </thead>
 <tbody>
@@ -1546,8 +1546,8 @@ Se presentó una serie de tablas para capturar las vulnerabilidades de la ingeni
 </colgroup>
 <thead>
 <tr class="header">
-<th>Término</th>
-<th>Definición</th>
+<th style="border:1px solid black;" >Término</th>
+<th style="border:1px solid black;" >Definición</th>
 </tr>
 </thead>
 <tbody>

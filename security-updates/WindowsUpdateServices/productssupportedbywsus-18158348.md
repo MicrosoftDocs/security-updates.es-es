@@ -29,9 +29,9 @@ Microsoft Exchange
 </colgroup>
 <thead>
 <tr class="header">
-<th>Versions</th>
-<th>Update Classifications</th>
-<th>Notes</th>
+<th style="border:1px solid black;" >Versions</th>
+<th style="border:1px solid black;" >Update Classifications</th>
+<th style="border:1px solid black;" >Notes</th>
 </tr>
 </thead>
 <tbody>
@@ -79,9 +79,9 @@ Microsoft Internet Security and Acceleration Server
 </colgroup>
 <thead>
 <tr class="header">
-<th>Versions</th>
-<th>Update Classifications</th>
-<th>Notes</th>
+<th style="border:1px solid black;" >Versions</th>
+<th style="border:1px solid black;" >Update Classifications</th>
+<th style="border:1px solid black;" >Notes</th>
 </tr>
 </thead>
 <tbody>
@@ -129,9 +129,9 @@ Microsoft Office
 </colgroup>
 <thead>
 <tr class="header">
-<th>Versions</th>
-<th>Update Classifications</th>
-<th>Notes</th>
+<th style="border:1px solid black;" >Versions</th>
+<th style="border:1px solid black;" >Update Classifications</th>
+<th style="border:1px solid black;" >Notes</th>
 </tr>
 </thead>
 <tbody>
@@ -185,9 +185,9 @@ Microsoft Small Business Server
 </colgroup>
 <thead>
 <tr class="header">
-<th>Versions</th>
-<th>Update Classifications</th>
-<th>Notes</th>
+<th style="border:1px solid black;" >Versions</th>
+<th style="border:1px solid black;" >Update Classifications</th>
+<th style="border:1px solid black;" >Notes</th>
 </tr>
 </thead>
 <tbody>
@@ -238,9 +238,9 @@ Microsoft SQL Server
 </colgroup>
 <thead>
 <tr class="header">
-<th>Versions</th>
-<th>Update Classifications</th>
-<th>Notes</th>
+<th style="border:1px solid black;" >Versions</th>
+<th style="border:1px solid black;" >Update Classifications</th>
+<th style="border:1px solid black;" >Notes</th>
 </tr>
 </thead>
 <tbody>
@@ -288,9 +288,9 @@ Microsoft System Center Data Protection Manager
 </colgroup>
 <thead>
 <tr class="header">
-<th>Versions</th>
-<th>Update Classifications</th>
-<th>Notes</th>
+<th style="border:1px solid black;" >Versions</th>
+<th style="border:1px solid black;" >Update Classifications</th>
+<th style="border:1px solid black;" >Notes</th>
 </tr>
 </thead>
 <tbody>
@@ -342,9 +342,9 @@ Microsoft Windows
 </colgroup>
 <thead>
 <tr class="header">
-<th>Versions</th>
-<th>Update Classifications</th>
-<th>Notes</th>
+<th style="border:1px solid black;" >Versions</th>
+<th style="border:1px solid black;" >Update Classifications</th>
+<th style="border:1px solid black;" >Notes</th>
 </tr>
 </thead>
 <tbody>

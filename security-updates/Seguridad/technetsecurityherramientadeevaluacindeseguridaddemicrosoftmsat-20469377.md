@@ -90,8 +90,8 @@ La siguiente tabla especifica las áreas incluidas dentro de la evaluación de r
 <table style="border:1px solid black;">
 <thead>
 <tr class="header">
-<th>Aplicaciones</th>
-<th>Importancia para la seguridad</th>
+<th style="border:1px solid black;" >Aplicaciones</th>
+<th style="border:1px solid black;" >Importancia para la seguridad</th>
 </tr>
 </thead>
 <tbody>

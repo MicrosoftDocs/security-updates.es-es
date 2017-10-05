@@ -28,9 +28,9 @@ Los pasos siguientes se indican como ejemplo de algunos de los elementos que deb
 </colgroup>
 <thead>
 <tr class="header">
-<th>Servidor</th>
-<th>Paso</th>
-<th>Notas</th>
+<th style="border:1px solid black;" >Servidor</th>
+<th style="border:1px solid black;" >Paso</th>
+<th style="border:1px solid black;" >Notas</th>
 </tr>
 </thead>
 <tbody>

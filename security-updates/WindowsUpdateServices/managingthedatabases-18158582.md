@@ -32,8 +32,8 @@ The following table describes non-deployment tasks you might have to perform as 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Database</th>
-<th>Tasks</th>
+<th style="border:1px solid black;" >Database</th>
+<th style="border:1px solid black;" >Tasks</th>
 </tr>
 </thead>
 <tbody>

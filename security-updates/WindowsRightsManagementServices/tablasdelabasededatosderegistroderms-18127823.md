@@ -28,10 +28,10 @@ En la siguiente tabla, se muestra una entrada de cada registro.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre</th>
-<th>Tipo de datos</th>
-<th>Valores NULL</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre</th>
+<th style="border:1px solid black;" >Tipo de datos</th>
+<th style="border:1px solid black;" >Valores NULL</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -157,10 +157,10 @@ En la siguiente tabla, se muestran datos adicionales para un registro. Normalmen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre</th>
-<th>Tipo de datos</th>
-<th>Valores NULL</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre</th>
+<th style="border:1px solid black;" >Tipo de datos</th>
+<th style="border:1px solid black;" >Valores NULL</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -208,10 +208,10 @@ En la siguiente tabla, se muestran los campos que registra el servicio de escuch
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre</th>
-<th>Tipo de datos</th>
-<th>Valores NULL</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre</th>
+<th style="border:1px solid black;" >Tipo de datos</th>
+<th style="border:1px solid black;" >Valores NULL</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>

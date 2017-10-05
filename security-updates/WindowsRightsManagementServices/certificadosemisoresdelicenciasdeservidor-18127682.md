@@ -26,9 +26,9 @@ En la tabla siguiente, se enumeran los permisos otorgados a los servidores por l
 </colgroup>
 <thead>
 <tr class="header">
-<th>Otorga el permiso para emitir</th>
-<th>Certificado emisor de licencias de servidor concedido a un servidor de certificación raíz</th>
-<th>Certificado emisor de licencias de servidor concedido a un servidor de licencias</th>
+<th style="border:1px solid black;" >Otorga el permiso para emitir</th>
+<th style="border:1px solid black;" >Certificado emisor de licencias de servidor concedido a un servidor de certificación raíz</th>
+<th style="border:1px solid black;" >Certificado emisor de licencias de servidor concedido a un servidor de licencias</th>
 </tr>
 </thead>
 <tbody>

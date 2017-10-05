@@ -21,8 +21,8 @@ Los requisitos de software para ejecutar servidores RMS aparecen en la siguiente
 </colgroup>
 <thead>
 <tr class="header">
-<th>Software</th>
-<th>Requisito</th>
+<th style="border:1px solid black;" >Software</th>
+<th style="border:1px solid black;" >Requisito</th>
 </tr>
 </thead>
 <tbody>

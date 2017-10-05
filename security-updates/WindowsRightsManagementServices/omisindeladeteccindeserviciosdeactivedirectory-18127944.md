@@ -52,9 +52,9 @@ En la siguiente tabla se enumeran las entradas que puede agregar para anular el 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre</th>
-<th>Tipo</th>
-<th>valor</th>
+<th style="border:1px solid black;" >Nombre</th>
+<th style="border:1px solid black;" >Tipo</th>
+<th style="border:1px solid black;" >valor</th>
 </tr>
 </thead>
 <tbody>
@@ -107,9 +107,9 @@ En la siguiente tabla se enumeran las claves del Registro que puede agregar en u
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre</th>
-<th>Tipo</th>
-<th>valor</th>
+<th style="border:1px solid black;" >Nombre</th>
+<th style="border:1px solid black;" >Tipo</th>
+<th style="border:1px solid black;" >valor</th>
 </tr>
 </thead>
 <tbody>

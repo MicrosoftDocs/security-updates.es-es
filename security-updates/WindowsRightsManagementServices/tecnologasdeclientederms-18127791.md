@@ -23,10 +23,10 @@ Los equipos cliente que se encuentran en una implementación de RMS utilizan las
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tecnología</th>
-<th>Descripción</th>
-<th>Emitido por</th>
-<th>Para más información</th>
+<th style="border:1px solid black;" >Tecnología</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Emitido por</th>
+<th style="border:1px solid black;" >Para más información</th>
 </tr>
 </thead>
 <tbody>

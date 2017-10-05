@@ -101,9 +101,9 @@ Los tipos de certificados requeridos se muestran en la tabla siguiente. Aunque n
 </colgroup>
 <thead>
 <tr class="header">
-<th>Aplicación</th>
-<th>Tipo de certificado</th>
-<th>Número de certificados</th>
+<th style="border:1px solid black;" >Aplicación</th>
+<th style="border:1px solid black;" >Tipo de certificado</th>
+<th style="border:1px solid black;" >Número de certificados</th>
 </tr>
 </thead>
 <tbody>
@@ -143,9 +143,9 @@ En el futuro, la PKI podría ampliarse y emitir certificados para las aplicacion
 </colgroup>
 <thead>
 <tr class="header">
-<th>Aplicación</th>
-<th>Tipo de certificado</th>
-<th>Número de certificados</th>
+<th style="border:1px solid black;" >Aplicación</th>
+<th style="border:1px solid black;" >Tipo de certificado</th>
+<th style="border:1px solid black;" >Número de certificados</th>
 </tr>
 </thead>
 <tbody>
@@ -246,12 +246,12 @@ Para esta solución, las categorías de cliente se resumen en las tablas siguien
 </colgroup>
 <thead>
 <tr class="header">
-<th>Certificado</th>
-<th>Tipo de cliente</th>
-<th>Plataforma</th>
-<th>Ubicación</th>
-<th>Dominio</th>
-<th>Operaciones del certificado</th>
+<th style="border:1px solid black;" >Certificado</th>
+<th style="border:1px solid black;" >Tipo de cliente</th>
+<th style="border:1px solid black;" >Plataforma</th>
+<th style="border:1px solid black;" >Ubicación</th>
+<th style="border:1px solid black;" >Dominio</th>
+<th style="border:1px solid black;" >Operaciones del certificado</th>
 </tr>
 </thead>
 <tbody>
@@ -302,12 +302,12 @@ En esta aplicación, los usuarios de los certificados serán el mismo conjunto d
 </colgroup>
 <thead>
 <tr class="header">
-<th>Certificado</th>
-<th>Tipo de cliente</th>
-<th>Plataforma</th>
-<th>Ubicación</th>
-<th>Dominio</th>
-<th>Operaciones del certificado</th>
+<th style="border:1px solid black;" >Certificado</th>
+<th style="border:1px solid black;" >Tipo de cliente</th>
+<th style="border:1px solid black;" >Plataforma</th>
+<th style="border:1px solid black;" >Ubicación</th>
+<th style="border:1px solid black;" >Dominio</th>
+<th style="border:1px solid black;" >Operaciones del certificado</th>
 </tr>
 </thead>
 <tbody>
@@ -380,9 +380,9 @@ Para esta solución, la tabla siguiente define tres niveles de seguridad.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nivel</th>
-<th>Requisitos de registro</th>
-<th>Requisitos de almacenamiento de claves</th>
+<th style="border:1px solid black;" >Nivel</th>
+<th style="border:1px solid black;" >Requisitos de registro</th>
+<th style="border:1px solid black;" >Requisitos de almacenamiento de claves</th>
 </tr>
 </thead>
 <tbody>
@@ -430,9 +430,9 @@ La razón de esta distinción es que, a estos tipos de sujetos diferentes, se le
 </colgroup>
 <thead>
 <tr class="header">
-<th>Categoría de seguridad de certificado</th>
-<th>Características de ejemplo de categoría de seguridad</th>
-<th>Tipos de certificado de ejemplo</th>
+<th style="border:1px solid black;" >Categoría de seguridad de certificado</th>
+<th style="border:1px solid black;" >Características de ejemplo de categoría de seguridad</th>
+<th style="border:1px solid black;" >Tipos de certificado de ejemplo</th>
 </tr>
 </thead>
 <tbody>
@@ -551,14 +551,14 @@ Las categorías de seguridad de certificados definidas en la sección anterior p
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo de certificado</th>
-<th>Categoría de seguridad</th>
-<th>Plataforma</th>
-<th>Ubicación lógica</th>
-<th>Aprobación</th>
-<th>Clave
+<th style="border:1px solid black;" >Tipo de certificado</th>
+<th style="border:1px solid black;" >Categoría de seguridad</th>
+<th style="border:1px solid black;" >Plataforma</th>
+<th style="border:1px solid black;" >Ubicación lógica</th>
+<th style="border:1px solid black;" >Aprobación</th>
+<th style="border:1px solid black;" >Clave
 Tamaño</th>
-<th>Período de validez</th>
+<th style="border:1px solid black;" >Período de validez</th>
 </tr>
 </thead>
 <tbody>
@@ -873,8 +873,8 @@ Los requisitos de disponibilidad de cada una de ellas se detallan en la tabla si
 </colgroup>
 <thead>
 <tr class="header">
-<th>Servicio de entidad emisora</th>
-<th>Requisito de disponibilidad</th>
+<th style="border:1px solid black;" >Servicio de entidad emisora</th>
+<th style="border:1px solid black;" >Requisito de disponibilidad</th>
 </tr>
 </thead>
 <tbody>
@@ -994,10 +994,10 @@ Las funciones implementadas y sus asignaciones a los grupos de seguridad (donde 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre de la función</th>
-<th>Grupo de seguridad</th>
-<th>Ámbito</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre de la función</th>
+<th style="border:1px solid black;" >Grupo de seguridad</th>
+<th style="border:1px solid black;" >Ámbito</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -1356,10 +1356,10 @@ La vigencia de esta clave y los períodos de renovación para las entidades emis
 </colgroup>
 <thead>
 <tr class="header">
-<th>Sujeto de certificado</th>
-<th>Longitud de clave</th>
-<th>Vigencia de clave</th>
-<th>Intervalo de renovación</th>
+<th style="border:1px solid black;" >Sujeto de certificado</th>
+<th style="border:1px solid black;" >Longitud de clave</th>
+<th style="border:1px solid black;" >Vigencia de clave</th>
+<th style="border:1px solid black;" >Intervalo de renovación</th>
 </tr>
 </thead>
 <tbody>
@@ -1418,14 +1418,14 @@ En la tabla siguiente se indican los tipos de certificados identificados previam
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo de certificado</th>
-<th>Directiva de emisión</th>
-<th>Método de aprobación</th>
-<th>Clave</th>
-<th>Período de validez</th>
-<th>Almacenamiento de claves</th>
-<th>Exportación de claves</th>
-<th>CSP</th>
+<th style="border:1px solid black;" >Tipo de certificado</th>
+<th style="border:1px solid black;" >Directiva de emisión</th>
+<th style="border:1px solid black;" >Método de aprobación</th>
+<th style="border:1px solid black;" >Clave</th>
+<th style="border:1px solid black;" >Período de validez</th>
+<th style="border:1px solid black;" >Almacenamiento de claves</th>
+<th style="border:1px solid black;" >Exportación de claves</th>
+<th style="border:1px solid black;" >CSP</th>
 </tr>
 </thead>
 <tbody>
@@ -1485,8 +1485,8 @@ Los requisitos de aplicación para la lista de certificados requeridos en esta s
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro del certificado</th>
-<th>Valor obligatorio</th>
+<th style="border:1px solid black;" >Parámetro del certificado</th>
+<th style="border:1px solid black;" >Valor obligatorio</th>
 </tr>
 </thead>
 <tbody>
@@ -1544,8 +1544,8 @@ Microsoft Enhanced Cryptographic Provider v1.0</td>
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro del certificado</th>
-<th>Valor obligatorio</th>
+<th style="border:1px solid black;" >Parámetro del certificado</th>
+<th style="border:1px solid black;" >Valor obligatorio</th>
 </tr>
 </thead>
 <tbody>
@@ -1603,8 +1603,8 @@ Cifrado de clave</td>
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro del certificado</th>
-<th>Valor obligatorio</th>
+<th style="border:1px solid black;" >Parámetro del certificado</th>
+<th style="border:1px solid black;" >Valor obligatorio</th>
 </tr>
 </thead>
 <tbody>
@@ -1765,9 +1765,9 @@ Los tres niveles de seguridad definidos anteriormente corresponden a las tres di
 </colgroup>
 <thead>
 <tr class="header">
-<th>Directiva (de emisión) de certificados</th>
-<th>Requisitos de registro</th>
-<th>Requisitos mínimos de almacenamiento de claves</th>
+<th style="border:1px solid black;" >Directiva (de emisión) de certificados</th>
+<th style="border:1px solid black;" >Requisitos de registro</th>
+<th style="border:1px solid black;" >Requisitos mínimos de almacenamiento de claves</th>
 </tr>
 </thead>
 <tbody>
@@ -1824,8 +1824,8 @@ También debería documentar el uso de los códigos de razón de revocación que
 </colgroup>
 <thead>
 <tr class="header">
-<th>Código de razón</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Código de razón</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -1887,9 +1887,9 @@ También hay varios parámetros técnicos que rigen la revocación de certificad
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Valor seleccionado</th>
-<th>Motivo</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Valor seleccionado</th>
+<th style="border:1px solid black;" >Motivo</th>
 </tr>
 </thead>
 <tbody>
@@ -1932,9 +1932,9 @@ También hay varios parámetros técnicos que rigen la revocación de certificad
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Valor seleccionado</th>
-<th>Motivo</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Valor seleccionado</th>
+<th style="border:1px solid black;" >Motivo</th>
 </tr>
 </thead>
 <tbody>

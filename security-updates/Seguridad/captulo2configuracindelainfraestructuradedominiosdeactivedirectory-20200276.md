@@ -192,10 +192,10 @@ En la siguiente tabla se resumen las recomendaciones acerca de la configuración
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Configuración predeterminada del controlador de dominio</th>
-<th>EC</th>
-<th>SSLF</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Configuración predeterminada del controlador de dominio</th>
+<th style="border:1px solid black;" >EC</th>
+<th style="border:1px solid black;" >SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -318,10 +318,10 @@ La tabla siguiente incluye las recomendaciones sobre la configuración de la dir
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Configuración predeterminada del controlador de dominio</th>
-<th>EC</th>
-<th>SSLF</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Configuración predeterminada del controlador de dominio</th>
+<th style="border:1px solid black;" >EC</th>
+<th style="border:1px solid black;" >SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -402,10 +402,10 @@ Esta configuración de directiva permite al usuario agregar un equipo a un domin
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Configuración predeterminada del controlador de dominio</th>
-<th>EC</th>
-<th>SSLF</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Configuración predeterminada del controlador de dominio</th>
+<th style="border:1px solid black;" >EC</th>
+<th style="border:1px solid black;" >SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -450,10 +450,10 @@ En la siguiente tabla se resumen las recomendaciones acerca de la configuración
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Predeterminada de miembro de dominio</th>
-<th>EC</th>
-<th>SSLF</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Predeterminada de miembro de dominio</th>
+<th style="border:1px solid black;" >EC</th>
+<th style="border:1px solid black;" >SSLF</th>
 </tr>
 </thead>
 <tbody>

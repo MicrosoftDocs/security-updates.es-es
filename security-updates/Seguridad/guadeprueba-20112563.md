@@ -463,9 +463,9 @@ La tabla siguiente define los criterios de gravedad y prioridad de los errores u
 </colgroup>
 <thead>
 <tr class="header">
-<th>Calificación</th>
-<th>Definición de gravedad</th>
-<th>Definición de prioridad</th>
+<th style="border:1px solid black;" >Calificación</th>
+<th style="border:1px solid black;" >Definición de gravedad</th>
+<th style="border:1px solid black;" >Definición de prioridad</th>
 </tr>
 </thead>
 <tbody>

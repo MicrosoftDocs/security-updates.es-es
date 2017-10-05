@@ -48,7 +48,7 @@ If there is a corporate firewall between WSUS and the Internet, you might need t
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939870.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="images/Dd939870.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>

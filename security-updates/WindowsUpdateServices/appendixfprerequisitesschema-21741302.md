@@ -26,8 +26,8 @@ The elements of the prerequisites schema are listed in the following table.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Schema Element</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Schema Element</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>

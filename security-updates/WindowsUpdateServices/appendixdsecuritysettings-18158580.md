@@ -33,9 +33,9 @@ Audit Policy Settings
 </colgroup>
 <thead>
 <tr class="header">
-<th>Option</th>
-<th>Security Setting</th>
-<th>Setting Rationale</th>
+<th style="border:1px solid black;" >Option</th>
+<th style="border:1px solid black;" >Security Setting</th>
+<th style="border:1px solid black;" >Setting Rationale</th>
 </tr>
 </thead>
 <tbody>
@@ -104,9 +104,9 @@ Security Options Settings
 </colgroup>
 <thead>
 <tr class="header">
-<th>Option</th>
-<th>Security Setting</th>
-<th>Setting Rationale</th>
+<th style="border:1px solid black;" >Option</th>
+<th style="border:1px solid black;" >Security Setting</th>
+<th style="border:1px solid black;" >Setting Rationale</th>
 </tr>
 </thead>
 <tbody>
@@ -450,9 +450,9 @@ Event Log Settings
 </colgroup>
 <thead>
 <tr class="header">
-<th>Option</th>
-<th>Security Setting</th>
-<th>Setting Rationale</th>
+<th style="border:1px solid black;" >Option</th>
+<th style="border:1px solid black;" >Security Setting</th>
+<th style="border:1px solid black;" >Setting Rationale</th>
 </tr>
 </thead>
 <tbody>
@@ -536,9 +536,9 @@ Enabled Operating System Services
 </colgroup>
 <thead>
 <tr class="header">
-<th>Option</th>
-<th>Security Setting</th>
-<th>Setting Rationale</th>
+<th style="border:1px solid black;" >Option</th>
+<th style="border:1px solid black;" >Security Setting</th>
+<th style="border:1px solid black;" >Setting Rationale</th>
 </tr>
 </thead>
 <tbody>
@@ -845,8 +845,8 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Security Setting</th>
-<th>Setting Rationale</th>
+<th style="border:1px solid black;" >Security Setting</th>
+<th style="border:1px solid black;" >Setting Rationale</th>
 </tr>
 </thead>
 <tbody>
@@ -869,8 +869,8 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Security Setting</th>
-<th>Setting Rationale</th>
+<th style="border:1px solid black;" >Security Setting</th>
+<th style="border:1px solid black;" >Setting Rationale</th>
 </tr>
 </thead>
 <tbody>
@@ -893,8 +893,8 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Security Setting</th>
-<th>Setting Rationale</th>
+<th style="border:1px solid black;" >Security Setting</th>
+<th style="border:1px solid black;" >Setting Rationale</th>
 </tr>
 </thead>
 <tbody>
@@ -917,8 +917,8 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Security Setting</th>
-<th>Setting Rationale</th>
+<th style="border:1px solid black;" >Security Setting</th>
+<th style="border:1px solid black;" >Setting Rationale</th>
 </tr>
 </thead>
 <tbody>
@@ -941,8 +941,8 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Security Setting</th>
-<th>Setting Rationale</th>
+<th style="border:1px solid black;" >Security Setting</th>
+<th style="border:1px solid black;" >Setting Rationale</th>
 </tr>
 </thead>
 <tbody>
@@ -965,8 +965,8 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Security Setting</th>
-<th>Setting Rationale</th>
+<th style="border:1px solid black;" >Security Setting</th>
+<th style="border:1px solid black;" >Setting Rationale</th>
 </tr>
 </thead>
 <tbody>
@@ -989,8 +989,8 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Security Setting</th>
-<th>Setting Rationale</th>
+<th style="border:1px solid black;" >Security Setting</th>
+<th style="border:1px solid black;" >Setting Rationale</th>
 </tr>
 </thead>
 <tbody>
@@ -1013,8 +1013,8 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Security Setting</th>
-<th>Setting Rationale</th>
+<th style="border:1px solid black;" >Security Setting</th>
+<th style="border:1px solid black;" >Setting Rationale</th>
 </tr>
 </thead>
 <tbody>
@@ -1045,9 +1045,9 @@ Use the following settings in URLScan to help protect the administrative Web pag
 </colgroup>
 <thead>
 <tr class="header">
-<th>Option</th>
-<th>ISEC Setting</th>
-<th>Setting Rationale</th>
+<th style="border:1px solid black;" >Option</th>
+<th style="border:1px solid black;" >ISEC Setting</th>
+<th style="border:1px solid black;" >Setting Rationale</th>
 </tr>
 </thead>
 <tbody>
@@ -1193,8 +1193,8 @@ Use access control permissions to secure the SQL Server 2000 registry keys.
 </colgroup>
 <thead>
 <tr class="header">
-<th>ISEC Setting</th>
-<th>Rationale</th>
+<th style="border:1px solid black;" >ISEC Setting</th>
+<th style="border:1px solid black;" >Rationale</th>
 </tr>
 </thead>
 <tbody>
@@ -1224,9 +1224,9 @@ Unnecessary SQL Server 2000 Stored Procedures
 </colgroup>
 <thead>
 <tr class="header">
-<th>Description</th>
-<th>Stored Procedures</th>
-<th>Rationale</th>
+<th style="border:1px solid black;" >Description</th>
+<th style="border:1px solid black;" >Stored Procedures</th>
+<th style="border:1px solid black;" >Rationale</th>
 </tr>
 </thead>
 <tbody>

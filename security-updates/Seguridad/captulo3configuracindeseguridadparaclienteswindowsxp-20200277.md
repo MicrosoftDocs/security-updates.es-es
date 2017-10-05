@@ -51,9 +51,9 @@ En la siguiente tabla se definen los archivos de infraestructura (.inf) disponib
 </colgroup>
 <thead>
 <tr class="header">
-<th>Descripción</th>
-<th>EC</th>
-<th>SSLF</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >EC</th>
+<th style="border:1px solid black;" >SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -113,11 +113,11 @@ La tabla siguiente resume las recomendaciones sobre la configuración de directi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -329,11 +329,11 @@ IIS/3648346f-e4f5-474b-86c7-5a86e85fa1ff.mspx.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -593,11 +593,11 @@ Por ese motivo, el parámetro **Habilitar la opción De confianza para la delega
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -858,11 +858,11 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -955,11 +955,11 @@ La tabla siguiente resume la configuración de auditoría recomendada. Se propor
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1022,11 +1022,11 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1130,11 +1130,11 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1238,11 +1238,11 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1378,11 +1378,11 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1449,11 +1449,11 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1518,11 +1518,11 @@ En la tabla siguiente se resume la configuración recomendada de las opciones de
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1697,11 +1697,11 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1823,11 +1823,11 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1885,11 +1885,11 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1939,11 +1939,11 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1982,11 +1982,11 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -2059,11 +2059,11 @@ En la tabla siguiente se resume la configuración de seguridad recomendada para 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -2208,11 +2208,11 @@ El parámetro Grupos restringidos permite administrar la pertenencia a los grupo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupo local</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Grupo local</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -2312,12 +2312,12 @@ En la tabla siguiente se resume la configuración recomendada de servicios del s
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre del servicio</th>
-<th>Nombre para mostrar</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Nombre del servicio</th>
+<th style="border:1px solid black;" >Nombre para mostrar</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -2619,14 +2619,14 @@ La información adicional de cada configuración se proporciona en las subseccio
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre de la configuración</th>
-<th>Escritorio EC<br />
+<th style="border:1px solid black;" >Nombre de la configuración</th>
+<th style="border:1px solid black;" >Escritorio EC<br />
 </th>
-<th>Equipo portátil EC<br />
+<th style="border:1px solid black;" >Equipo portátil EC<br />
 </th>
-<th>Escritorio SSLF<br />
+<th style="border:1px solid black;" >Escritorio SSLF<br />
 </th>
-<th>Equipo portátil SSLF<br />
+<th style="border:1px solid black;" >Equipo portátil SSLF<br />
 </th>
 </tr>
 </thead>
@@ -3051,8 +3051,8 @@ Puede configurar en el cuadro de diálogo **Permisos** los permisos de archivos 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre de permiso avanzado</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre de permiso avanzado</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>

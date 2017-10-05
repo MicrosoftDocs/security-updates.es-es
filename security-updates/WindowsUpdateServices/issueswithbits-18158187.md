@@ -94,9 +94,9 @@ If BITS jobs fail, look in the event log to find errors. You can use the followi
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Error name</strong></th>
-<th><strong>Error code</strong></th>
-<th><strong>Description</strong></th>
+<th style="border:1px solid black;" ><strong>Error name</strong></th>
+<th style="border:1px solid black;" ><strong>Error code</strong></th>
+<th style="border:1px solid black;" ><strong>Description</strong></th>
 </tr>
 </thead>
 <tbody>

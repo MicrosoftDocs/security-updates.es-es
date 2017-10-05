@@ -37,9 +37,9 @@ The following table shows the supported methods to clear the SUSClientID registr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Server</th>
-<th>Virtual Machine</th>
-<th>Action</th>
+<th style="border:1px solid black;" >Server</th>
+<th style="border:1px solid black;" >Virtual Machine</th>
+<th style="border:1px solid black;" >Action</th>
 </tr>
 </thead>
 <tbody>

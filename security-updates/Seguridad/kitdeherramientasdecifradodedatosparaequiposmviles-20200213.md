@@ -132,9 +132,9 @@ La plantilla de GPO de Active Directory permite controlar una serie de parámet
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre de parámetro</th>
-<th>Disponibilidad</th>
-<th>Opción predeterminada</th>
+<th style="border:1px solid black;" >Nombre de parámetro</th>
+<th style="border:1px solid black;" >Disponibilidad</th>
+<th style="border:1px solid black;" >Opción predeterminada</th>
 </tr>
 </thead>
 <tbody>

@@ -28,7 +28,7 @@ De manera predeterminada, WSUS 3.0 SP2 está configurado para utilizar Microsoft
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939815.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>
@@ -70,7 +70,7 @@ El paso 3 contiene los procedimientos siguientes:
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939815.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>
@@ -118,7 +118,7 @@ En los dos procedimientos siguientes se supone que utiliza el complemento de adm
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939815.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>

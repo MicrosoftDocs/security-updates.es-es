@@ -122,10 +122,10 @@ Esta solución está diseñada para las organizaciones que han implementado Acti
 </colgroup>
 <thead>
 <tr class="header">
-<th>Característica</th>
-<th>Modo nativo de Windows Server 2003</th>
-<th>Modo nativo de Windows 2000</th>
-<th>Modo mixto
+<th style="border:1px solid black;" >Característica</th>
+<th style="border:1px solid black;" >Modo nativo de Windows Server 2003</th>
+<th style="border:1px solid black;" >Modo nativo de Windows 2000</th>
+<th style="border:1px solid black;" >Modo mixto
 - o bien -
 Microsoft Windows NT® 4.0</th>
 </tr>
@@ -201,9 +201,9 @@ En la tabla siguiente se muestran algunas de las capacidades de los servidores c
 </colgroup>
 <thead>
 <tr class="header">
-<th>Función RADIUS de IAS</th>
-<th>Capacidades</th>
-<th>Escenario</th>
+<th style="border:1px solid black;" >Función RADIUS de IAS</th>
+<th style="border:1px solid black;" >Capacidades</th>
+<th style="border:1px solid black;" >Escenario</th>
 </tr>
 </thead>
 <tbody>
@@ -255,9 +255,9 @@ La tabla siguiente muestra varias opciones para garantizar que los clientes RADI
 </colgroup>
 <thead>
 <tr class="header">
-<th>Método de conmutación por error y equilibrio de carga</th>
-<th>Ventajas</th>
-<th>Inconvenientes</th>
+<th style="border:1px solid black;" >Método de conmutación por error y equilibrio de carga</th>
+<th style="border:1px solid black;" >Ventajas</th>
+<th style="border:1px solid black;" >Inconvenientes</th>
 </tr>
 </thead>
 <tbody>
@@ -368,8 +368,8 @@ Las organizaciones que carecen de SQL Server 2000 o de personal para realizar la
 </colgroup>
 <thead>
 <tr class="header">
-<th>Decisiones sobre el diseño del registro IAS</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Decisiones sobre el diseño del registro IAS</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -460,9 +460,9 @@ La intensidad de las comunicaciones entre IAS y los controladores de dominio de 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ubicación de IAS</th>
-<th>Ventajas</th>
-<th>Inconvenientes</th>
+<th style="border:1px solid black;" >Ubicación de IAS</th>
+<th style="border:1px solid black;" >Ventajas</th>
+<th style="border:1px solid black;" >Inconvenientes</th>
 </tr>
 </thead>
 <tbody>
@@ -499,9 +499,9 @@ Esta solución requiere la versión Windows Server 2003 de IAS, de modo que nec
 </colgroup>
 <thead>
 <tr class="header">
-<th>Asunto</th>
-<th>Requisito previo</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Asunto</th>
+<th style="border:1px solid black;" >Requisito previo</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -557,8 +557,8 @@ Por lo tanto, al crear un modelo para el número de autenticaciones que atender�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo de autenticación</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Tipo de autenticación</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -603,8 +603,8 @@ Los cálculos del número de autenticaciones que IAS puede atender se representa
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo de autenticación</th>
-<th>Autenticaciones por segundo</th>
+<th style="border:1px solid black;" >Tipo de autenticación</th>
+<th style="border:1px solid black;" >Autenticaciones por segundo</th>
 </tr>
 </thead>
 <tbody>
@@ -657,8 +657,8 @@ La tabla siguiente muestra el hardware de servidores IAS utilizado durante la pr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Recurso</th>
-<th>Configuración</th>
+<th style="border:1px solid black;" >Recurso</th>
+<th style="border:1px solid black;" >Configuración</th>
 </tr>
 </thead>
 <tbody>
@@ -736,9 +736,9 @@ Sin embargo, sigue siendo importante planear los tipos de administración necesa
 </colgroup>
 <thead>
 <tr class="header">
-<th>Función del personal</th>
-<th>Descripción de la función</th>
-<th>Tareas</th>
+<th style="border:1px solid black;" >Función del personal</th>
+<th style="border:1px solid black;" >Descripción de la función</th>
+<th style="border:1px solid black;" >Tareas</th>
 </tr>
 </thead>
 <tbody>
@@ -779,9 +779,9 @@ La tabla siguiente muestra los permisos de recursos necesarios para realizar las
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tarea</th>
-<th>Pertenencia al grupo</th>
-<th>Permiso o derechos necesarios</th>
+<th style="border:1px solid black;" >Tarea</th>
+<th style="border:1px solid black;" >Pertenencia al grupo</th>
+<th style="border:1px solid black;" >Permiso o derechos necesarios</th>
 </tr>
 </thead>
 <tbody>
@@ -839,9 +839,9 @@ La tabla siguiente enumera las posibles amenazas a las que está expuesta una in
 </colgroup>
 <thead>
 <tr class="header">
-<th>Amenaza/Vulnerabilidad</th>
-<th>Síntoma</th>
-<th>Herramienta de supervisión</th>
+<th style="border:1px solid black;" >Amenaza/Vulnerabilidad</th>
+<th style="border:1px solid black;" >Síntoma</th>
+<th style="border:1px solid black;" >Herramienta de supervisión</th>
 </tr>
 </thead>
 <tbody>
@@ -892,9 +892,9 @@ La tabla siguiente enumera las posibles amenazas a las que se expone la infraest
 </colgroup>
 <thead>
 <tr class="header">
-<th>Amenaza/Vulnerabilidad</th>
-<th>Síntoma</th>
-<th>Herramienta de auditoría</th>
+<th style="border:1px solid black;" >Amenaza/Vulnerabilidad</th>
+<th style="border:1px solid black;" >Síntoma</th>
+<th style="border:1px solid black;" >Herramienta de auditoría</th>
 </tr>
 </thead>
 <tbody>

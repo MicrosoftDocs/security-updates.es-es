@@ -338,9 +338,9 @@ En la siguiente tabla se incluyen las funciones de servidor y los archivos de pl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Función de servidor</th>
-<th>Descripción</th>
-<th>Nombre de archivo de la plantilla de seguridad</th>
+<th style="border:1px solid black;" >Función de servidor</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Nombre de archivo de la plantilla de seguridad</th>
 </tr>
 </thead>
 <tbody>
@@ -421,8 +421,8 @@ Las UO y directivas recomendadas que se explicaron en la sección anterior crean
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre de UO</th>
-<th>Grupo administrativo</th>
+<th style="border:1px solid black;" >Nombre de UO</th>
+<th style="border:1px solid black;" >Grupo administrativo</th>
 </tr>
 </thead>
 <tbody>

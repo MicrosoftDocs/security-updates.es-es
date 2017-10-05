@@ -25,8 +25,8 @@ En la tabla siguiente, se enumeran los atributos de Active Directory almacenados
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tabla</th>
-<th>Atributo</th>
+<th style="border:1px solid black;" >Tabla</th>
+<th style="border:1px solid black;" >Atributo</th>
 </tr>
 </thead>
 <tbody>

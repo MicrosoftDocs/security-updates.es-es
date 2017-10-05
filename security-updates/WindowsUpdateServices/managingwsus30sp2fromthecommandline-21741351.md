@@ -18,7 +18,7 @@ The **wsusutil** command-line utility is used in managing WSUS servers and is lo
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939838.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="images/Dd939838.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>
@@ -42,7 +42,7 @@ You must be an administrator to run the **wsusutil** utility. This utility is in
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939838.Tip(WS.10).gif" />Sugerencia</th>
+<th style="border:1px solid black;" ><img src="images/Dd939838.Tip(WS.10).gif" />Sugerencia</th>
 </tr>
 </thead>
 <tbody>
@@ -64,8 +64,8 @@ You must be an administrator to run the **wsusutil** utility. This utility is in
 </colgroup>
 <thead>
 <tr class="header">
-<th>Command</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Command</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>
@@ -146,8 +146,8 @@ The following command updates the server certificateName:
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parameter</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Parameter</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>
@@ -177,7 +177,7 @@ This command sets and gets the different parameters for WSUS health monitoring.
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939838.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="images/Dd939838.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>
@@ -490,8 +490,8 @@ For more information about exporting and importing updates, see the [Set Up a Di
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parameter</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Parameter</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>
@@ -513,7 +513,7 @@ For more information about exporting and importing updates, see the [Set Up a Di
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939838.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="images/Dd939838.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>
@@ -543,8 +543,8 @@ For background and procedural information about exporting and importing updates,
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parameter</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Parameter</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>
@@ -566,7 +566,7 @@ For background and procedural information about exporting and importing updates,
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939838.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="images/Dd939838.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>
@@ -595,7 +595,7 @@ The destination folder to which update files are moved must be on an NTFS partit
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939838.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="images/Dd939838.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>
@@ -641,8 +641,8 @@ If the hard disk fails, you must do the following:
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parameter</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Parameter</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>
@@ -683,8 +683,8 @@ This command deletes the given front-end server.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parameter</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Parameter</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>
@@ -702,7 +702,7 @@ This command deletes the given front-end server.
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939838.Important(WS.10).gif" />Importante</th>
+<th style="border:1px solid black;" ><img src="images/Dd939838.Important(WS.10).gif" />Importante</th>
 </tr>
 </thead>
 <tbody>
@@ -757,7 +757,7 @@ If you set this value to **true**, WSUS Setup will use port 8530 for its Defaul
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939838.Important(WS.10).gif" />Importante</th>
+<th style="border:1px solid black;" ><img src="images/Dd939838.Important(WS.10).gif" />Importante</th>
 </tr>
 </thead>
 <tbody>
@@ -776,7 +776,7 @@ If you set this value to **true**, WSUS Setup will use port 8530 for its Defaul
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939838.Important(WS.10).gif" />Importante</th>
+<th style="border:1px solid black;" ><img src="images/Dd939838.Important(WS.10).gif" />Importante</th>
 </tr>
 </thead>
 <tbody>
@@ -795,7 +795,7 @@ If you set this value to **true**, WSUS Setup will use port 8530 for its Defaul
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939838.Important(WS.10).gif" />Importante</th>
+<th style="border:1px solid black;" ><img src="images/Dd939838.Important(WS.10).gif" />Importante</th>
 </tr>
 </thead>
 <tbody>

@@ -24,7 +24,7 @@ Setting up WSUS for remote SQL is a three-step process:
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939912.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="images/Dd939912.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>
@@ -84,7 +84,7 @@ If you plan to run the SQL Server service remotely under a domain account, you w
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939912.Important(WS.10).gif" />Importante</th>
+<th style="border:1px solid black;" ><img src="images/Dd939912.Important(WS.10).gif" />Importante</th>
 </tr>
 </thead>
 <tbody>
@@ -135,7 +135,7 @@ Run WSUS Setup from the command line, using the **SQLINSTANCE\_NAME=***servernam
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939912.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="images/Dd939912.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>

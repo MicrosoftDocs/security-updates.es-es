@@ -23,8 +23,8 @@ El tamaño de una entrada de registro típica es aproximadamente 300 bytes. La s
 </colgroup>
 <thead>
 <tr class="header">
-<th>Campo</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Campo</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>

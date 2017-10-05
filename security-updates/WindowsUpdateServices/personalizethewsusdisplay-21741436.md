@@ -25,7 +25,7 @@ You can configure different aspects of the way WSUS server information is displa
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939895.Important(WS.10).gif" />Importante</th>
+<th style="border:1px solid black;" ><img src="images/Dd939895.Important(WS.10).gif" />Importante</th>
 </tr>
 </thead>
 <tbody>
@@ -51,7 +51,7 @@ You can configure different aspects of the way WSUS server information is displa
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939895.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="images/Dd939895.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>

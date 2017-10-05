@@ -39,9 +39,9 @@ En la siguiente tabla se enumeran los archivos .adm, además de mostrarse las ap
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre de archivo</th>
-<th>Sistema operativo</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre de archivo</th>
+<th style="border:1px solid black;" >Sistema operativo</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -139,11 +139,11 @@ Microsoft NetMeeting permite que los usuarios mantengan reuniones virtuales en l
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -194,11 +194,11 @@ En la tabla siguiente se resumen muchas de las recomendaciones sobre la configur
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -365,11 +365,11 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -412,11 +412,11 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -457,11 +457,11 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -504,11 +504,11 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -551,11 +551,11 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -596,11 +596,11 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -641,11 +641,11 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -688,11 +688,11 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -733,11 +733,11 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -805,11 +805,11 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -852,11 +852,11 @@ Puede establecer la siguiente configuración recomendada en la ubicación que se
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -910,11 +910,11 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -957,11 +957,11 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1026,11 +1026,11 @@ La tabla siguiente resume la configuración recomendada de Windows Update. La in
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1162,11 +1162,11 @@ La tabla siguiente resume la configuración de sistema recomendada. La informaci
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1226,11 +1226,11 @@ La tabla siguiente resume la configuración recomendada de inicio de sesión. La
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1292,11 +1292,11 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1343,11 +1343,11 @@ La tabla siguiente resume la configuración recomendada de Asistencia remota. La
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1445,11 +1445,11 @@ La tabla siguiente resume la configuración recomendada de Informe de errores. L
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1525,11 +1525,11 @@ La tabla siguiente resume la configuración recomendada de Llamada a procedimien
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1591,11 +1591,11 @@ La tabla siguiente resume la configuración recomendada de las comunicaciones de
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1747,11 +1747,11 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1872,11 +1872,11 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>EC: Escritorio</th>
-<th>EC: Portátil</th>
-<th>SSLF: Escritorio</th>
-<th>SSLF: Portátil</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >EC: Escritorio</th>
+<th style="border:1px solid black;" >EC: Portátil</th>
+<th style="border:1px solid black;" >SSLF: Escritorio</th>
+<th style="border:1px solid black;" >SSLF: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -2142,9 +2142,9 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Equipo de EC</th>
-<th>Equipo de SSLF</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Equipo de EC</th>
+<th style="border:1px solid black;" >Equipo de SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -2409,9 +2409,9 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Equipo de EC</th>
-<th>Equipo de SSLF</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Equipo de EC</th>
+<th style="border:1px solid black;" >Equipo de SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -2483,9 +2483,9 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Equipo de EC</th>
-<th>Equipo de SSLF</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Equipo de EC</th>
+<th style="border:1px solid black;" >Equipo de SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -2545,9 +2545,9 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Equipo de EC</th>
-<th>Equipo de SSLF</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Equipo de EC</th>
+<th style="border:1px solid black;" >Equipo de SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -2584,9 +2584,9 @@ La tabla siguiente resume los parámetros de configuración recomendados para **
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Equipo de EC</th>
-<th>Equipo de SSLF</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Equipo de EC</th>
+<th style="border:1px solid black;" >Equipo de SSLF</th>
 </tr>
 </thead>
 <tbody>

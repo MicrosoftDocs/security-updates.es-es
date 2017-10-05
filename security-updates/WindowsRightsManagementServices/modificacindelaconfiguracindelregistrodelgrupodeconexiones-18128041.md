@@ -34,11 +34,11 @@ En la siguiente tabla, se muestran las entradas que puede agregar para omitir la
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre</th>
-<th>Tipo</th>
-<th>Valor predeterminado</th>
-<th>Descripción</th>
-<th>Notas</th>
+<th style="border:1px solid black;" >Nombre</th>
+<th style="border:1px solid black;" >Tipo</th>
+<th style="border:1px solid black;" >Valor predeterminado</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Notas</th>
 </tr>
 </thead>
 <tbody>

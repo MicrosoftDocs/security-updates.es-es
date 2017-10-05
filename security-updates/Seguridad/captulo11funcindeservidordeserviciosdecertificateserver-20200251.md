@@ -80,8 +80,8 @@ En la tabla siguiente se incluye la configuración de opciones de seguridad reco
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Cliente de empresa</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
 </tr>
 </thead>
 <tbody>
@@ -154,8 +154,8 @@ La tabla siguiente incluye las ACL de sistema de archivos para servidores de Ser
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ruta de ACL en la IU</th>
-<th>Cliente de empresa</th>
+<th style="border:1px solid black;" >Ruta de ACL en la IU</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
 </tr>
 </thead>
 <tbody>
@@ -198,9 +198,9 @@ Debido a que las entidades emisoras de certificados contienen información confi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ruta del archivo o del Registro</th>
-<th>Tipo de auditoría</th>
-<th>Configuración de auditoría</th>
+<th style="border:1px solid black;" >Ruta del archivo o del Registro</th>
+<th style="border:1px solid black;" >Tipo de auditoría</th>
+<th style="border:1px solid black;" >Configuración de auditoría</th>
 </tr>
 </thead>
 <tbody>

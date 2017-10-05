@@ -39,8 +39,8 @@ If you need help with WSUSutil.exe, you can use the **/help** command to display
 </colgroup>
 <thead>
 <tr class="header">
-<th>Option</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Option</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>
@@ -77,8 +77,8 @@ If you need help with WSUSutil.exe, you can use the **/help** command to display
 </colgroup>
 <thead>
 <tr class="header">
-<th>Property</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Property</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>

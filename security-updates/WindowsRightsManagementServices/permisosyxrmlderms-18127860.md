@@ -21,8 +21,8 @@ En la siguiente tabla, se muestra cómo se corresponden los permisos que puede s
 </colgroup>
 <thead>
 <tr class="header">
-<th>Permisos</th>
-<th>Elementos XrML</th>
+<th style="border:1px solid black;" >Permisos</th>
+<th style="border:1px solid black;" >Elementos XrML</th>
 </tr>
 </thead>
 <tbody>

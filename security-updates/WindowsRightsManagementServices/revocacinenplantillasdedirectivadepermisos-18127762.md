@@ -23,8 +23,8 @@ En la tabla siguiente, se enumeran los parámetros de la etiqueta REFRESH.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>

@@ -41,7 +41,7 @@ Set up as many DNS host (A) resource records as there are planned WSUS servers.
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939865.Important(WS.10).gif" />Importante</th>
+<th style="border:1px solid black;" ><img src="images/Dd939865.Important(WS.10).gif" />Importante</th>
 </tr>
 </thead>
 <tbody>
@@ -70,7 +70,7 @@ Step 3: Set up the DNS server for netmask ordering and round robin
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939865.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="images/Dd939865.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>

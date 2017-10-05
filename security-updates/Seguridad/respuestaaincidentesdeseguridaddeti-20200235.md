@@ -131,8 +131,8 @@ Un equipo adecuado del CSIRT está formado por varios miembros clave.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Miembro asociado</th>
-<th>Descripción de su función</th>
+<th style="border:1px solid black;" >Miembro asociado</th>
+<th style="border:1px solid black;" >Descripción de su función</th>
 </tr>
 </thead>
 <tbody>
@@ -178,12 +178,12 @@ En caso de incidente, el CSIRT coordinará una respuesta desde el CSIRT principa
 </colgroup>
 <thead>
 <tr class="header">
-<th>Actividad</th>
-<th>Función</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
+<th style="border:1px solid black;" >Actividad</th>
+<th style="border:1px solid black;" >Función</th>
+<th style="border:1px solid black;" ></th>
+<th style="border:1px solid black;" ></th>
+<th style="border:1px solid black;" ></th>
+<th style="border:1px solid black;" ></th>
 </tr>
 </thead>
 <tbody>

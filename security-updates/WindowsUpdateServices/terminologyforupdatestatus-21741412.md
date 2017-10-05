@@ -21,8 +21,8 @@ You can access update status from various locations in the WSUS console. The fol
 </colgroup>
 <thead>
 <tr class="header">
-<th>Status</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Status</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>

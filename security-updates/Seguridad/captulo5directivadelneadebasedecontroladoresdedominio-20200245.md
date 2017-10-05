@@ -50,9 +50,9 @@ Las plantillas de controladores de dominio están diseñadas exclusivamente para
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -84,10 +84,10 @@ La configuración de la directiva de auditoría para los controladores de domini
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -120,8 +120,8 @@ La tabla siguiente incluye eventos de seguridad importantes que la configuració
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de evento</th>
-<th>Descripción del evento</th>
+<th style="border:1px solid black;" >Id. de evento</th>
+<th style="border:1px solid black;" >Descripción del evento</th>
 </tr>
 </thead>
 <tbody>
@@ -158,10 +158,10 @@ La tabla siguiente resume la configuración recomendada de asignaciones de derec
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -327,10 +327,10 @@ La mayor parte de la configuración de las opciones de seguridad para controlado
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -389,10 +389,10 @@ La configuración **Controlador de dominio: no permitir los cambios de contrase�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -439,10 +439,10 @@ Como se ha descrito en el capítulo anterior, la configuración **Grupos restrin
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupo local</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Grupo local</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -527,10 +527,10 @@ Además, si ha cambiado el nombre de la cuenta integrada del administrador segú
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -597,9 +597,9 @@ La utilidad System Key (Syskey) proporciona una línea de defensa adicional fren
 </colgroup>
 <thead>
 <tr class="header">
-<th>Opción Clave del sistema</th>
-<th>Nivel de seguridad</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Opción Clave del sistema</th>
+<th style="border:1px solid black;" >Nivel de seguridad</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -729,10 +729,10 @@ A menos que sea absolutamente necesario, nunca configure un servicio para que se
 </colgroup>
 <thead>
 <tr class="header">
-<th>Predeterminado</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Predeterminado</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -766,8 +766,8 @@ Los tres niveles disponibles de cifrado se describen en la tabla siguiente:
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nivel de cifrado</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nivel de cifrado</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -802,10 +802,10 @@ Los tres niveles disponibles de cifrado se describen en la tabla siguiente:
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>

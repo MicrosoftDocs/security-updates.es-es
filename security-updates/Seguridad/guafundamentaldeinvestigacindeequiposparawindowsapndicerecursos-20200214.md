@@ -71,8 +71,8 @@ En la tabla siguiente se proporciona una lista de hojas de cálculo y muestras q
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre de documento</th>
-<th>Ubicación</th>
+<th style="border:1px solid black;" >Nombre de documento</th>
+<th style="border:1px solid black;" >Ubicación</th>
 </tr>
 </thead>
 <tbody>
@@ -135,8 +135,8 @@ La información de la tabla siguiente le puede ayudar a determinar la autoridad 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo de crimen</th>
-<th>Organizaciones adecuadas</th>
+<th style="border:1px solid black;" >Tipo de crimen</th>
+<th style="border:1px solid black;" >Organizaciones adecuadas</th>
 </tr>
 </thead>
 <tbody>
@@ -252,8 +252,8 @@ En esta sección se proporciona información acerca de las herramientas de [Wind
 </colgroup>
 <thead>
 <tr class="header">
-<th>Icono</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Icono</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -283,9 +283,9 @@ En las tablas siguientes se proporciona información acerca de varias herramient
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo de herramienta</th>
-<th>Nombre</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Tipo de herramienta</th>
+<th style="border:1px solid black;" >Nombre</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -455,9 +455,9 @@ En las tablas siguientes se proporciona información acerca de varias herramient
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo de herramienta</th>
-<th>Nombre</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Tipo de herramienta</th>
+<th style="border:1px solid black;" >Nombre</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>

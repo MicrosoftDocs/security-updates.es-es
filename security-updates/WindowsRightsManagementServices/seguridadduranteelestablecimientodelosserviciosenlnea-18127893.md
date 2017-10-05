@@ -24,9 +24,9 @@ Durante el establecimiento de servicios en línea, RMS utiliza las cuentas que s
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cuenta</th>
-<th>Finalidad</th>
-<th>Permisos</th>
+<th style="border:1px solid black;" >Cuenta</th>
+<th style="border:1px solid black;" >Finalidad</th>
+<th style="border:1px solid black;" >Permisos</th>
 </tr>
 </thead>
 <tbody>

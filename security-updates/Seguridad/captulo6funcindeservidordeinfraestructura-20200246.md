@@ -45,9 +45,9 @@ En la siguiente tabla se incluyen los nombres de las plantillas de seguridad de 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>

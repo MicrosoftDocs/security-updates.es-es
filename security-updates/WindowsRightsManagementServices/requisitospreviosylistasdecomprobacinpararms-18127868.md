@@ -58,8 +58,8 @@ Utilice la siguiente lista de comprobación para implementar un solo servidor de
 </colgroup>
 <thead>
 <tr class="header">
-<th>Paso</th>
-<th>Referencia</th>
+<th style="border:1px solid black;" >Paso</th>
+<th style="border:1px solid black;" >Referencia</th>
 </tr>
 </thead>
 <tbody>
@@ -107,8 +107,8 @@ Utilice la siguiente lista de comprobación para implementar clústeres de licen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Paso</th>
-<th>Referencia</th>
+<th style="border:1px solid black;" >Paso</th>
+<th style="border:1px solid black;" >Referencia</th>
 </tr>
 </thead>
 <tbody>
@@ -170,8 +170,8 @@ Utilice la lista de comprobación siguiente para implementar RMS entre bosques.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Paso</th>
-<th>Referencia</th>
+<th style="border:1px solid black;" >Paso</th>
+<th style="border:1px solid black;" >Referencia</th>
 </tr>
 </thead>
 <tbody>
@@ -219,8 +219,8 @@ Utilice la lista de comprobación siguiente para implementar una plantilla de di
 </colgroup>
 <thead>
 <tr class="header">
-<th>Paso</th>
-<th>Referencia</th>
+<th style="border:1px solid black;" >Paso</th>
+<th style="border:1px solid black;" >Referencia</th>
 </tr>
 </thead>
 <tbody>
@@ -260,8 +260,8 @@ Utilice la lista de comprobación siguiente para implementar una nueva versión 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Paso</th>
-<th>Referencia</th>
+<th style="border:1px solid black;" >Paso</th>
+<th style="border:1px solid black;" >Referencia</th>
 </tr>
 </thead>
 <tbody>
@@ -293,8 +293,8 @@ Utilice la lista de comprobación siguiente para agregar un dominio de usuario d
 </colgroup>
 <thead>
 <tr class="header">
-<th>Paso</th>
-<th>Referencia</th>
+<th style="border:1px solid black;" >Paso</th>
+<th style="border:1px solid black;" >Referencia</th>
 </tr>
 </thead>
 <tbody>
@@ -326,8 +326,8 @@ Utilice la lista de comprobación siguiente para agregar un dominio de publicaci
 </colgroup>
 <thead>
 <tr class="header">
-<th>Paso</th>
-<th>Referencia</th>
+<th style="border:1px solid black;" >Paso</th>
+<th style="border:1px solid black;" >Referencia</th>
 </tr>
 </thead>
 <tbody>

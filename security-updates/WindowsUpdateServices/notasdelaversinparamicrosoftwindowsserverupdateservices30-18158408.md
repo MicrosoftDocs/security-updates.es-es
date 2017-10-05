@@ -171,8 +171,8 @@ Asegúrese de que el servidor WSUS 3.0 cumple los requisitos de esta lista antes
 </colgroup>
 <thead>
 <tr class="header">
-<th>Requisito</th>
-<th>Detalles</th>
+<th style="border:1px solid black;" >Requisito</th>
+<th style="border:1px solid black;" >Detalles</th>
 </tr>
 </thead>
 <tbody>
@@ -255,8 +255,8 @@ Puede realizar instalaciones desatendidas de WSUS 3.0 si utiliza parámetros de 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Opción</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Opción</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -295,8 +295,8 @@ Esta tabla muestra las propiedades de línea de comandos para WSUS 3.0.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Propiedad</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Propiedad</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -564,8 +564,8 @@ WSUS 3.0 es compatible con Windows Server 2008 tanto en la versión de 32 bits 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Requisito</th>
-<th>Detalles</th>
+<th style="border:1px solid black;" >Requisito</th>
+<th style="border:1px solid black;" >Detalles</th>
 </tr>
 </thead>
 <tbody>

@@ -172,8 +172,8 @@ La tabla siguiente describe las convenciones estilísticas utilizadas en este ma
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento</th>
-<th>Significado</th>
+<th style="border:1px solid black;" >Elemento</th>
+<th style="border:1px solid black;" >Significado</th>
 </tr>
 </thead>
 <tbody>

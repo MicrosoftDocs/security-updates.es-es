@@ -40,9 +40,9 @@ Debido a que WPA utiliza el protocolo 802.1X para la autenticación de red, el s
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento de la solución</th>
-<th>Consideración</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Elemento de la solución</th>
+<th style="border:1px solid black;" >Consideración</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>

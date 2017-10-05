@@ -114,10 +114,10 @@ En la tabla siguiente se indican los tipos de EAP que se pueden utilizar en una 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Característica</th>
-<th>PEAP</th>
-<th>EAP-TLS</th>
-<th>EAP-MD5</th>
+<th style="border:1px solid black;" >Característica</th>
+<th style="border:1px solid black;" >PEAP</th>
+<th style="border:1px solid black;" >EAP-TLS</th>
+<th style="border:1px solid black;" >EAP-MD5</th>
 </tr>
 </thead>
 <tbody>
@@ -220,8 +220,8 @@ Windows XP Professional contiene algunas funciones que sólo funcionan correctam
 </colgroup>
 <thead>
 <tr class="header">
-<th>Característica</th>
-<th>Escenario que requiere autenticación de equipos</th>
+<th style="border:1px solid black;" >Característica</th>
+<th style="border:1px solid black;" >Escenario que requiere autenticación de equipos</th>
 </tr>
 </thead>
 <tbody>
@@ -267,9 +267,9 @@ Windows proporciona amplio soporte para validar certificados al realizar operaci
 </colgroup>
 <thead>
 <tr class="header">
-<th>Validación IAS de credenciales de certificados de cliente</th>
-<th>Comportamiento predeterminado</th>
-<th>Configuración utilizada en esta solución</th>
+<th style="border:1px solid black;" >Validación IAS de credenciales de certificados de cliente</th>
+<th style="border:1px solid black;" >Comportamiento predeterminado</th>
+<th style="border:1px solid black;" >Configuración utilizada en esta solución</th>
 </tr>
 </thead>
 <tbody>
@@ -314,9 +314,9 @@ Windows XP Professional realiza también la siguiente validación de credenciale
 </colgroup>
 <thead>
 <tr class="header">
-<th>Validación de credenciales de certificados de servidor en Windows XP</th>
-<th>Comportamiento predeterminado</th>
-<th>Configuración utilizada en esta solución</th>
+<th style="border:1px solid black;" >Validación de credenciales de certificados de servidor en Windows XP</th>
+<th style="border:1px solid black;" >Comportamiento predeterminado</th>
+<th style="border:1px solid black;" >Configuración utilizada en esta solución</th>
 </tr>
 </thead>
 <tbody>
@@ -358,9 +358,9 @@ No obstante, debe considerar la posibilidad de habilitar las siguientes opciones
 </colgroup>
 <thead>
 <tr class="header">
-<th>Validación de credenciales de certificados de servidor en Windows XP</th>
-<th>Comportamiento predeterminado</th>
-<th>Configuración utilizada en esta solución</th>
+<th style="border:1px solid black;" >Validación de credenciales de certificados de servidor en Windows XP</th>
+<th style="border:1px solid black;" >Comportamiento predeterminado</th>
+<th style="border:1px solid black;" >Configuración utilizada en esta solución</th>
 </tr>
 </thead>
 <tbody>
@@ -449,8 +449,8 @@ La tabla siguiente contiene algunos ejemplos de los distintos tipos de usuarios 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo de grupo de usuarios</th>
-<th>Ejemplo de restricción de la conexión</th>
+<th style="border:1px solid black;" >Tipo de grupo de usuarios</th>
+<th style="border:1px solid black;" >Ejemplo de restricción de la conexión</th>
 </tr>
 </thead>
 <tbody>
@@ -556,9 +556,9 @@ Consulte a sus administradores de GPO del dominio para determinar la estrategia 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Consideración de la directiva de red inalámbrica</th>
-<th>Estrategia de la solución</th>
-<th>Detalles de la solución</th>
+<th style="border:1px solid black;" >Consideración de la directiva de red inalámbrica</th>
+<th style="border:1px solid black;" >Estrategia de la solución</th>
+<th style="border:1px solid black;" >Detalles de la solución</th>
 </tr>
 </thead>
 <tbody>
@@ -634,9 +634,9 @@ Esta solución utiliza una única directiva de acceso remoto que otorga acceso i
 </colgroup>
 <thead>
 <tr class="header">
-<th>Condición de la directiva</th>
-<th>Condición equivalente</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Condición de la directiva</th>
+<th style="border:1px solid black;" >Condición equivalente</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -670,9 +670,9 @@ En la tabla siguiente se detallan las opciones del perfil de la directiva de acc
 </colgroup>
 <thead>
 <tr class="header">
-<th>Opción de perfil</th>
-<th>Valor de perfil</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Opción de perfil</th>
+<th style="border:1px solid black;" >Valor de perfil</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -726,9 +726,9 @@ Esta solución utiliza IAS como servidor RADIUS y, por tanto, las solicitudes de
 </colgroup>
 <thead>
 <tr class="header">
-<th>Condición de la directiva</th>
-<th>Condición equivalente</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Condición de la directiva</th>
+<th style="border:1px solid black;" >Condición equivalente</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -755,9 +755,9 @@ En la tabla siguiente se muestra la configuración de perfil utilizada en la dir
 </colgroup>
 <thead>
 <tr class="header">
-<th>Opción de perfil</th>
-<th>Valor de perfil</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Opción de perfil</th>
+<th style="border:1px solid black;" >Valor de perfil</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -796,9 +796,9 @@ En la tabla siguiente se muestra la configuración general de la directiva de re
 </colgroup>
 <thead>
 <tr class="header">
-<th>Opción</th>
-<th>Configuración</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Opción</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -835,9 +835,9 @@ En la tabla siguiente se describe la configuración de las propiedades de la red
 </colgroup>
 <thead>
 <tr class="header">
-<th>Opción</th>
-<th>Configuración</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Opción</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -894,9 +894,9 @@ La tabla siguiente contiene la configuración de 802.1X para la red 802.1X que s
 </colgroup>
 <thead>
 <tr class="header">
-<th>Opción</th>
-<th>Configuración</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Opción</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -951,9 +951,9 @@ A continuación se describe la configuración de EAP para la red 802.1X que se a
 </colgroup>
 <thead>
 <tr class="header">
-<th>Opción</th>
-<th>Configuración</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Opción</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1008,9 +1008,9 @@ En la tabla siguiente se detalla la configuración de la autenticación de equip
 </colgroup>
 <thead>
 <tr class="header">
-<th>Opción</th>
-<th>Configuración</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Opción</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>

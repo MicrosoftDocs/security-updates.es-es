@@ -20,7 +20,7 @@ If you want to do an unattended installation, see [Appendix A: Unattended Instal
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939811.Important(WS.10).gif" />Importante</th>
+<th style="border:1px solid black;" ><img src="images/Dd939811.Important(WS.10).gif" />Importante</th>
 </tr>
 </thead>
 <tbody>

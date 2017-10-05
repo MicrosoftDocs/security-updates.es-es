@@ -258,8 +258,8 @@ En la tabla siguiente se enumeran las distintas categorías de sucesos de seguri
 </colgroup>
 <thead>
 <tr class="header">
-<th>Categoría</th>
-<th>Efecto</th>
+<th style="border:1px solid black;" >Categoría</th>
+<th style="border:1px solid black;" >Efecto</th>
 </tr>
 </thead>
 <tbody>
@@ -649,9 +649,9 @@ Una decisión empresarial clave es cuánto tiempo se deben conservar los datos f
 </colgroup>
 <thead>
 <tr class="header">
-<th>Factores de almacenamiento</th>
-<th>Límite de almacenamiento</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Factores de almacenamiento</th>
+<th style="border:1px solid black;" >Límite de almacenamiento</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1005,9 +1005,9 @@ En la siguiente tabla, se incluyen los sucesos de auditoría que pueden causar l
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de suceso</th>
-<th>Incidencia</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de suceso</th>
+<th style="border:1px solid black;" >Incidencia</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1041,9 +1041,9 @@ En la siguiente tabla se incluyen los sucesos de auditoría que causan los resta
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de suceso</th>
-<th>Incidencia</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de suceso</th>
+<th style="border:1px solid black;" >Incidencia</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1092,9 +1092,9 @@ En la siguiente tabla se incluyen los sucesos que identifican cambios en cuentas
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de suceso</th>
-<th>Incidencia</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de suceso</th>
+<th style="border:1px solid black;" >Incidencia</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1142,9 +1142,9 @@ En la siguiente tabla se incluyen los sucesos que identifican cambios en grupos.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de suceso</th>
-<th>Incidencia</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de suceso</th>
+<th style="border:1px solid black;" >Incidencia</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1194,9 +1194,9 @@ En la siguiente tabla se incluyen los sucesos que identifican el uso de cuentas 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de suceso</th>
-<th>Incidencia</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de suceso</th>
+<th style="border:1px solid black;" >Incidencia</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1251,9 +1251,9 @@ En la siguiente tabla se incluyen los sucesos que identifican el uso no autoriza
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de suceso</th>
-<th>Incidencia</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de suceso</th>
+<th style="border:1px solid black;" >Incidencia</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1299,9 +1299,9 @@ En la siguiente tabla se incluyen los sucesos que identifican el uso de programa
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de suceso</th>
-<th>Incidencia</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de suceso</th>
+<th style="border:1px solid black;" >Incidencia</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1333,9 +1333,9 @@ Este caso requiere la identificación de errores de auditoría en el Id. de suce
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de suceso</th>
-<th>Incidencia</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de suceso</th>
+<th style="border:1px solid black;" >Incidencia</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1413,9 +1413,9 @@ En la siguiente tabla se incluyen los sucesos que identifican el uso de sistemas
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de suceso</th>
-<th>Incidencia</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de suceso</th>
+<th style="border:1px solid black;" >Incidencia</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1463,9 +1463,9 @@ En la siguiente tabla se incluyen los sucesos que se identifican como probableme
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de suceso</th>
-<th>Incidencia</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de suceso</th>
+<th style="border:1px solid black;" >Incidencia</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1559,9 +1559,9 @@ En la siguiente tabla se incluyen los sucesos que identifican acciones en relaci
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de suceso</th>
-<th>Incidencia</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de suceso</th>
+<th style="border:1px solid black;" >Incidencia</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1622,9 +1622,9 @@ En la siguiente tabla se enumeran los sucesos que identifican cambios en directi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de suceso</th>
-<th>Incidencia</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de suceso</th>
+<th style="border:1px solid black;" >Incidencia</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1697,9 +1697,9 @@ En la siguiente tabla se incluyen los sucesos que son resultado de ataques que t
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de suceso</th>
-<th>Incidencia</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de suceso</th>
+<th style="border:1px solid black;" >Incidencia</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1774,9 +1774,9 @@ Entre las incidencias normales de aprovechamiento de vulnerabilidades, se incluy
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de suceso</th>
-<th>Incidencia</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de suceso</th>
+<th style="border:1px solid black;" >Incidencia</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1815,9 +1815,9 @@ En la siguiente tabla se incluyen los sucesos que se pueden producir por instala
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de suceso</th>
-<th>Incidencia</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de suceso</th>
+<th style="border:1px solid black;" >Incidencia</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1870,9 +1870,9 @@ La supervisión de la seguridad debe indicar quién intenta establecer conexión
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de suceso</th>
-<th>Incidencia</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de suceso</th>
+<th style="border:1px solid black;" >Incidencia</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>

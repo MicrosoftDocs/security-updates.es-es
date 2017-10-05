@@ -98,8 +98,8 @@ En la tabla siguiente se muestran las tareas que se deben llevar a cabo para pon
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre de tarea</th>
-<th>Función de administración de servicio</th>
+<th style="border:1px solid black;" >Nombre de tarea</th>
+<th style="border:1px solid black;" >Función de administración de servicio</th>
 </tr>
 </thead>
 <tbody>
@@ -184,8 +184,8 @@ Puede haber tareas que no tenga que llevar a cabo, pero revise la información s
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre de tarea</th>
-<th>Frecuencia</th>
+<th style="border:1px solid black;" >Nombre de tarea</th>
+<th style="border:1px solid black;" >Frecuencia</th>
 </tr>
 </thead>
 <tbody>
@@ -250,8 +250,8 @@ En las tablas siguientes se enumeran las herramientas o tecnologías utilizadas 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre de elemento</th>
-<th>Fuente</th>
+<th style="border:1px solid black;" >Nombre de elemento</th>
+<th style="border:1px solid black;" >Fuente</th>
 </tr>
 </thead>
 <tbody>
@@ -330,8 +330,8 @@ dispositivo de copia de seguridad local</td>
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre de elemento</th>
-<th>Fuente</th>
+<th style="border:1px solid black;" >Nombre de elemento</th>
+<th style="border:1px solid black;" >Fuente</th>
 </tr>
 </thead>
 <tbody>
@@ -382,9 +382,9 @@ Las funciones de la siguiente tabla son esenciales para la administración de un
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre de la función</th>
-<th>Ámbito</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre de la función</th>
+<th style="border:1px solid black;" >Ámbito</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -426,9 +426,9 @@ Las funciones operativas de la siguiente tabla no son esenciales para la adminis
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre de la función</th>
-<th>Ámbito</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre de la función</th>
+<th style="border:1px solid black;" >Ámbito</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -483,10 +483,10 @@ En los servidores IAS, los grupos de seguridad locales y de dominio se utilizan 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre de la función</th>
-<th>Grupo de seguridad del dominio</th>
-<th>Grupo de seguridad local</th>
-<th>Capacidades</th>
+<th style="border:1px solid black;" >Nombre de la función</th>
+<th style="border:1px solid black;" >Grupo de seguridad del dominio</th>
+<th style="border:1px solid black;" >Grupo de seguridad local</th>
+<th style="border:1px solid black;" >Capacidades</th>
 </tr>
 </thead>
 <tbody>
@@ -765,8 +765,8 @@ En este documento, se utilizan las categorías de alerta siguientes. De ellas, s
 </colgroup>
 <thead>
 <tr class="header">
-<th>Categoría de alerta</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Categoría de alerta</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -836,9 +836,9 @@ Los siguientes contadores de rendimiento son los más útiles para identificar l
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objeto de rendimiento</th>
-<th>Contador de rendimiento</th>
-<th>Instancia</th>
+<th style="border:1px solid black;" >Objeto de rendimiento</th>
+<th style="border:1px solid black;" >Contador de rendimiento</th>
+<th style="border:1px solid black;" >Instancia</th>
 </tr>
 </thead>
 <tbody>
@@ -1534,8 +1534,8 @@ Las pruebas internas de Microsoft han demostrado que IAS puede alcanzar picos de
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo de autenticación</th>
-<th>Autenticaciones por segundo</th>
+<th style="border:1px solid black;" >Tipo de autenticación</th>
+<th style="border:1px solid black;" >Autenticaciones por segundo</th>
 </tr>
 </thead>
 <tbody>
@@ -1638,8 +1638,8 @@ En las tablas siguientes encontrará los valores de información de configuraci�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento de configuración</th>
-<th>Configuración</th>
+<th style="border:1px solid black;" >Elemento de configuración</th>
+<th style="border:1px solid black;" >Configuración</th>
 </tr>
 </thead>
 <tbody>
@@ -1674,8 +1674,8 @@ En las tablas siguientes encontrará los valores de información de configuraci�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento de configuración</th>
-<th>Configuración</th>
+<th style="border:1px solid black;" >Elemento de configuración</th>
+<th style="border:1px solid black;" >Configuración</th>
 </tr>
 </thead>
 <tbody>

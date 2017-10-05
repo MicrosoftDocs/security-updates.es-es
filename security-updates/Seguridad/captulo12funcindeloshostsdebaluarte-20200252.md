@@ -49,9 +49,9 @@ Las funciones de servidor descritas anteriormente en esta guía utilizaban la di
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -85,8 +85,8 @@ El archivo SSLF-Bastion Host.inf incluye las asignaciones de derechos de usuario
 </colgroup>
 <thead>
 <tr class="header">
-<th>Asignación de derechos de usuario</th>
-<th>Configuración</th>
+<th style="border:1px solid black;" >Asignación de derechos de usuario</th>
+<th style="border:1px solid black;" >Configuración</th>
 </tr>
 </thead>
 <tbody>
@@ -145,10 +145,10 @@ Además, es posible que se haya cambiado el nombre de la cuenta de administrador
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -199,10 +199,10 @@ El valor de este cambio en la configuración se ha reducido en los últimos año
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>

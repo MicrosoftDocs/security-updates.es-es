@@ -31,9 +31,9 @@ Running WSUSutil.exe
 </colgroup>
 <thead>
 <tr class="header">
-<th>Command</th>
-<th>What it enables you to do</th>
-<th>When you might use it</th>
+<th style="border:1px solid black;" >Command</th>
+<th style="border:1px solid black;" >What it enables you to do</th>
+<th style="border:1px solid black;" >When you might use it</th>
 </tr>
 </thead>
 <tbody>
@@ -143,8 +143,8 @@ The parameters are defined in the following table.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parameter</th>
-<th>Definition</th>
+<th style="border:1px solid black;" >Parameter</th>
+<th style="border:1px solid black;" >Definition</th>
 </tr>
 </thead>
 <tbody>
@@ -185,8 +185,8 @@ The parameters are defined in the following table:
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parameter</th>
-<th>Definition</th>
+<th style="border:1px solid black;" >Parameter</th>
+<th style="border:1px solid black;" >Definition</th>
 </tr>
 </thead>
 <tbody>
@@ -227,8 +227,8 @@ The parameters are defined in the following table:
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parameter</th>
-<th>Definition</th>
+<th style="border:1px solid black;" >Parameter</th>
+<th style="border:1px solid black;" >Definition</th>
 </tr>
 </thead>
 <tbody>
@@ -306,8 +306,8 @@ The parameters are defined in the following table.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parameter</th>
-<th>Definition</th>
+<th style="border:1px solid black;" >Parameter</th>
+<th style="border:1px solid black;" >Definition</th>
 </tr>
 </thead>
 <tbody>

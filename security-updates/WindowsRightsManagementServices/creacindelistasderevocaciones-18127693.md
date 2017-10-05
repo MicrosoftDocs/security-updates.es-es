@@ -175,8 +175,8 @@ Utilice la siguiente información para completar los parámetros de entrada del 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -222,8 +222,8 @@ RLsigner.exe proporciona información básica de error y éxito en el código de
 </colgroup>
 <thead>
 <tr class="header">
-<th>Código de retorno</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Código de retorno</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>

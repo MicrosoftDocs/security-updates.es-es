@@ -21,8 +21,8 @@ En la tabla siguiente se muestran las claves que se utilizan en un sistema RMS.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Clave</th>
-<th>Uso</th>
+<th style="border:1px solid black;" >Clave</th>
+<th style="border:1px solid black;" >Uso</th>
 </tr>
 </thead>
 <tbody>

@@ -59,7 +59,7 @@ Realizará los dos primeros procedimientos en el GPO basado en dominios a su ele
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939830.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="images/Dd939830.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>

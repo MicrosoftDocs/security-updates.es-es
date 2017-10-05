@@ -145,9 +145,9 @@ Las siguientes tablas pueden ayudarle a valorar la prioridad de la solicitud en 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Prioridad</th>
-<th>Intervalo de tiempo recomendado</th>
-<th>Intervalo de tiempo mínimo recomendado</th>
+<th style="border:1px solid black;" >Prioridad</th>
+<th style="border:1px solid black;" >Intervalo de tiempo recomendado</th>
+<th style="border:1px solid black;" >Intervalo de tiempo mínimo recomendado</th>
 </tr>
 </thead>
 <tbody>
@@ -186,8 +186,8 @@ En la tabla 2 se proporcionan ejemplos de factores que pueden aumentar o disminu
 </colgroup>
 <thead>
 <tr class="header">
-<th>Factor de entorno o de organización</th>
-<th>Ajuste de prioridad</th>
+<th style="border:1px solid black;" >Factor de entorno o de organización</th>
+<th style="border:1px solid black;" >Ajuste de prioridad</th>
 </tr>
 </thead>
 <tbody>

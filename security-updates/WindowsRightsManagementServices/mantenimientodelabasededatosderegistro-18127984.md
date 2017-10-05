@@ -47,9 +47,9 @@ Para saber cómo funciona esta estimación, supongamos que una organización de 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Acción</th>
-<th>Crecimiento del registro</th>
-<th>Tamaño acumulativo del registro</th>
+<th style="border:1px solid black;" >Acción</th>
+<th style="border:1px solid black;" >Crecimiento del registro</th>
+<th style="border:1px solid black;" >Tamaño acumulativo del registro</th>
 </tr>
 </thead>
 <tbody>

@@ -120,8 +120,8 @@ Antes de adentrarnos en el funcionamiento de las soluciones de seguridad de WLAN
 </colgroup>
 <thead>
 <tr class="header">
-<th>Amenaza</th>
-<th>Descripción de la amenaza</th>
+<th style="border:1px solid black;" >Amenaza</th>
+<th style="border:1px solid black;" >Descripción de la amenaza</th>
 </tr>
 </thead>
 <tbody>
@@ -312,8 +312,8 @@ Una tabla incluida anteriormente en este capítulo ofrecía una descripción de 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Amenaza</th>
-<th>Mitigación</th>
+<th style="border:1px solid black;" >Amenaza</th>
+<th style="border:1px solid black;" >Mitigación</th>
 </tr>
 </thead>
 <tbody>
@@ -384,11 +384,11 @@ Las diferencias clave entre estos enfoques y la solución basada en el protocolo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Característica</th>
-<th>WLAN 802.1X</th>
-<th>WEP estática</th>
-<th>VPN</th>
-<th>IPsec</th>
+<th style="border:1px solid black;" >Característica</th>
+<th style="border:1px solid black;" >WLAN 802.1X</th>
+<th style="border:1px solid black;" >WEP estática</th>
+<th style="border:1px solid black;" >VPN</th>
+<th style="border:1px solid black;" >IPsec</th>
 </tr>
 </thead>
 <tbody>

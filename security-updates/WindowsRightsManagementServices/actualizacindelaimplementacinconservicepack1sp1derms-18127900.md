@@ -86,10 +86,10 @@ Debido a que RMS SP1 proporciona numerosas mejoras de rendimiento, debe instalar
 </colgroup>
 <thead>
 <tr class="header">
-<th>Versión de servidor de RMS</th>
-<th>Características admitidas con los clientes de la versión 1</th>
-<th>Características admitidas con los clientes de SP1</th>
-<th>Características admitidas en entornos de clientes mixtos (versión 1 y SP1)</th>
+<th style="border:1px solid black;" >Versión de servidor de RMS</th>
+<th style="border:1px solid black;" >Características admitidas con los clientes de la versión 1</th>
+<th style="border:1px solid black;" >Características admitidas con los clientes de SP1</th>
+<th style="border:1px solid black;" >Características admitidas en entornos de clientes mixtos (versión 1 y SP1)</th>
 </tr>
 </thead>
 <tbody>

@@ -85,10 +85,10 @@ Debido a que RMS con SP2 proporciona numerosas mejoras de rendimiento, debe inst
 </colgroup>
 <thead>
 <tr class="header">
-<th>Versión de servidor de RMS</th>
-<th>Características admitidas con los clientes de la versión 1</th>
-<th>Características admitidas con los clientes de SP2</th>
-<th>Características admitidas en entornos de clientes mixtos</th>
+<th style="border:1px solid black;" >Versión de servidor de RMS</th>
+<th style="border:1px solid black;" >Características admitidas con los clientes de la versión 1</th>
+<th style="border:1px solid black;" >Características admitidas con los clientes de SP2</th>
+<th style="border:1px solid black;" >Características admitidas en entornos de clientes mixtos</th>
 </tr>
 </thead>
 <tbody>

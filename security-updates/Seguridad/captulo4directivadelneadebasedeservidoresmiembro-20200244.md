@@ -92,9 +92,9 @@ Muchas de las siguientes configuraciones que aparecen en la directiva MSBP del e
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -155,10 +155,10 @@ Para obtener un resumen de la configuración recomendada en esta sección, consu
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -231,8 +231,8 @@ La tabla siguiente incluye los eventos de seguridad importantes que esta configu
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de evento</th>
-<th>Descripción del evento</th>
+<th style="border:1px solid black;" >Id. de evento</th>
+<th style="border:1px solid black;" >Descripción del evento</th>
 </tr>
 </thead>
 <tbody>
@@ -307,8 +307,8 @@ La tabla siguiente incluye los eventos de seguridad importantes que esta configu
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de evento</th>
-<th>Descripción del evento</th>
+<th style="border:1px solid black;" >Id. de evento</th>
+<th style="border:1px solid black;" >Descripción del evento</th>
 </tr>
 </thead>
 <tbody>
@@ -509,8 +509,8 @@ La tabla siguiente incluye los eventos de seguridad importantes que esta configu
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de evento</th>
-<th>Descripción del evento</th>
+<th style="border:1px solid black;" >Id. de evento</th>
+<th style="border:1px solid black;" >Descripción del evento</th>
 </tr>
 </thead>
 <tbody>
@@ -659,8 +659,8 @@ La tabla siguiente incluye los eventos de seguridad importantes que esta configu
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de evento</th>
-<th>Descripción del evento</th>
+<th style="border:1px solid black;" >Id. de evento</th>
+<th style="border:1px solid black;" >Descripción del evento</th>
 </tr>
 </thead>
 <tbody>
@@ -856,8 +856,8 @@ La tabla siguiente incluye los eventos de seguridad importantes que esta configu
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de evento</th>
-<th>Descripción del evento</th>
+<th style="border:1px solid black;" >Id. de evento</th>
+<th style="border:1px solid black;" >Descripción del evento</th>
 </tr>
 </thead>
 <tbody>
@@ -988,8 +988,8 @@ La tabla siguiente incluye los eventos de seguridad importantes que esta configu
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de evento</th>
-<th>Descripción del evento</th>
+<th style="border:1px solid black;" >Id. de evento</th>
+<th style="border:1px solid black;" >Descripción del evento</th>
 </tr>
 </thead>
 <tbody>
@@ -1027,8 +1027,8 @@ La tabla siguiente incluye los eventos de seguridad importantes que esta configu
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de evento</th>
-<th>Descripción del evento</th>
+<th style="border:1px solid black;" >Id. de evento</th>
+<th style="border:1px solid black;" >Descripción del evento</th>
 </tr>
 </thead>
 <tbody>
@@ -1096,8 +1096,8 @@ La tabla siguiente incluye los eventos de tipo Correcto más útiles para esta c
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de evento</th>
-<th>Descripción del evento</th>
+<th style="border:1px solid black;" >Id. de evento</th>
+<th style="border:1px solid black;" >Descripción del evento</th>
 </tr>
 </thead>
 <tbody>
@@ -1193,10 +1193,10 @@ La tabla siguiente incluye recomendaciones de configuración de las asignaciones
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -1701,10 +1701,10 @@ En las tablas de las siguientes secciones se resume la configuración recomendad
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -1761,10 +1761,10 @@ Esta configuración de directiva determina si las cuentas locales que no están 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -1825,10 +1825,10 @@ Se ha determinado que la cantidad de carga administrativa necesaria para habilit
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -1921,10 +1921,10 @@ Esta configuración de directiva determina lo que ocurre ante un intento de inst
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -2021,10 +2021,10 @@ Por lo tanto, debido a que los tres entornos de seguridad descritos en esta guí
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -2173,10 +2173,10 @@ Esta configuración de directiva determina lo que ocurre cuando se quita la tarj
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -2233,10 +2233,10 @@ Si se habilita, se permitirá al redirector SMB enviar contraseñas de texto sin
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -2305,10 +2305,10 @@ Esta configuración de directiva determina si se desconectará a los usuarios qu
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -2530,10 +2530,10 @@ Esta configuración de directiva determina cómo se autentican los inicios de se
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -2592,8 +2592,8 @@ Esta configuración de directiva determina qué protocolo de autenticación desa
 </colgroup>
 <thead>
 <tr class="header">
-<th>Valor</th>
-<th>Protocolo</th>
+<th style="border:1px solid black;" >Valor</th>
+<th style="border:1px solid black;" >Protocolo</th>
 </tr>
 </thead>
 <tbody>
@@ -2666,10 +2666,10 @@ Esta configuración de directiva permite a un servidor solicitar la negociación
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -2722,10 +2722,10 @@ Para una seguridad máxima, **Consola de recuperación: permitir la copia de dis
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -2772,10 +2772,10 @@ Por estas razones, **Apagado: borrar el archivo de paginación de la memoria vir
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -2820,10 +2820,10 @@ Por estas razones, **Criptografía de sistema: usar algoritmos que cumplan la no
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -2880,10 +2880,10 @@ Esta configuración de directiva determina la seguridad de la lista de control d
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -2940,10 +2940,10 @@ La tabla siguiente incluye recomendaciones de configuración del registro de eve
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -3101,11 +3101,11 @@ subclave.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Entrada del Registro</th>
-<th>Formato</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Entrada del Registro</th>
+<th style="border:1px solid black;" >Formato</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -3185,11 +3185,11 @@ La siguiente tabla incluye otras entradas del Registro recomendadas que no son e
 </colgroup>
 <thead>
 <tr class="header">
-<th>Entrada del Registro</th>
-<th>Formato</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Entrada del Registro</th>
+<th style="border:1px solid black;" >Formato</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -3538,10 +3538,10 @@ Además, la cuenta de administrador integrada puede tener un nombre nuevo si ha 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre del parámetro en IU</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Nombre del parámetro en IU</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -3656,10 +3656,10 @@ Puede establecer esta configuración en la siguiente ubicación de la directiva 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre del parámetro en IU</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Nombre del parámetro en IU</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>
@@ -3684,8 +3684,8 @@ Los tres niveles disponibles de cifrado se describen en la tabla siguiente:
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nivel de cifrado</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nivel de cifrado</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -3720,10 +3720,10 @@ Los tres niveles disponibles de cifrado se describen en la tabla siguiente:
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Cliente heredado</th>
-<th>Cliente de empresa</th>
-<th>Seguridad especializada: Funcionalidad limitada</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Cliente heredado</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Seguridad especializada: Funcionalidad limitada</th>
 </tr>
 </thead>
 <tbody>

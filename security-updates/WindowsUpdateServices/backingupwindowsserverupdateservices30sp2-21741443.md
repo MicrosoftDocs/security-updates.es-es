@@ -67,7 +67,7 @@ Although WSUS does not provide a built-in backup tool, you can use the Backup Ut
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939904.Important(WS.10).gif" />Importante</th>
+<th style="border:1px solid black;" ><img src="images/Dd939904.Important(WS.10).gif" />Importante</th>
 </tr>
 </thead>
 <tbody>

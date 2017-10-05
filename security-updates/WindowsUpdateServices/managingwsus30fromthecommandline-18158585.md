@@ -34,8 +34,8 @@ You must be an administrator to run the **wsusutil** utility. This utility is in
 </colgroup>
 <thead>
 <tr class="header">
-<th>Command</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Command</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>
@@ -116,8 +116,8 @@ The following command updates the server certificateName:
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parameter</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Parameter</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>
@@ -445,8 +445,8 @@ For more information about exporting and importing updates, see "Set Up a Discon
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parameter</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Parameter</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>
@@ -483,8 +483,8 @@ For background and procedural information about exporting and importing updates,
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parameter</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Parameter</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>
@@ -551,8 +551,8 @@ If the hard disk fails, you must do the following:
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parameter</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Parameter</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>
@@ -593,8 +593,8 @@ This command deletes the given front-end server.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parameter</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Parameter</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>

@@ -399,8 +399,8 @@ La tabla siguiente muestra una lista de los equipos y los sistemas operativos qu
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre del equipo</th>
-<th>Sistema operativo</th>
+<th style="border:1px solid black;" >Nombre del equipo</th>
+<th style="border:1px solid black;" >Sistema operativo</th>
 </tr>
 </thead>
 <tbody>
@@ -439,8 +439,8 @@ La tabla siguiente muestra una lista de los grupos y los usuarios que deberán d
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupos</th>
-<th>Usuarios</th>
+<th style="border:1px solid black;" >Grupos</th>
+<th style="border:1px solid black;" >Usuarios</th>
 </tr>
 </thead>
 <tbody>
@@ -480,9 +480,9 @@ La tabla siguiente muestra una lista de los nombres de dispositivo, las estructu
 </colgroup>
 <thead>
 <tr class="header">
-<th>Dispositivo (equipo o lápiz USB)</th>
-<th>Carpetas</th>
-<th>Archivos</th>
+<th style="border:1px solid black;" >Dispositivo (equipo o lápiz USB)</th>
+<th style="border:1px solid black;" >Carpetas</th>
+<th style="border:1px solid black;" >Archivos</th>
 </tr>
 </thead>
 <tbody>
@@ -531,8 +531,8 @@ La tabla siguiente muestra una lista de las carpetas de archivo y comparte los p
 </colgroup>
 <thead>
 <tr class="header">
-<th>Carpeta</th>
-<th>Permisos de recursos compartidos</th>
+<th style="border:1px solid black;" >Carpeta</th>
+<th style="border:1px solid black;" >Permisos de recursos compartidos</th>
 </tr>
 </thead>
 <tbody>

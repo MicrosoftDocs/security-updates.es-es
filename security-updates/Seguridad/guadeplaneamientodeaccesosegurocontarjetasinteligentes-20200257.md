@@ -474,9 +474,9 @@ Windows XP y la familia Windows Server 2003 admiten los lectores de tarjetas i
 </colgroup>
 <thead>
 <tr class="header">
-<th>Marca</th>
-<th>Modelo</th>
-<th>Interfaz</th>
+<th style="border:1px solid black;" >Marca</th>
+<th style="border:1px solid black;" >Modelo</th>
+<th style="border:1px solid black;" >Interfaz</th>
 </tr>
 </thead>
 <tbody>
@@ -1517,9 +1517,9 @@ El equipo de TI de Woodgrove creó un nuevo grupo de seguridad, con el nombre Re
 </colgroup>
 <thead>
 <tr class="header">
-<th>Requisito</th>
-<th>Condiciones de la directiva</th>
-<th>Tipo de autenticación</th>
+<th style="border:1px solid black;" >Requisito</th>
+<th style="border:1px solid black;" >Condiciones de la directiva</th>
+<th style="border:1px solid black;" >Tipo de autenticación</th>
 </tr>
 </thead>
 <tbody>

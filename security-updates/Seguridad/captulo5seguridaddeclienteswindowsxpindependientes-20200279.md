@@ -63,8 +63,8 @@ En la siguiente tabla se muestran las extensiones de complemento de Directiva de
 </colgroup>
 <thead>
 <tr class="header">
-<th>Extensión del complemento de directiva de grupo</th>
-<th>Disponible en LGPO</th>
+<th style="border:1px solid black;" >Extensión del complemento de directiva de grupo</th>
+<th style="border:1px solid black;" >Disponible en LGPO</th>
 </tr>
 </thead>
 <tbody>
@@ -236,8 +236,8 @@ En la lista siguiente se explican los parámetros de la herramienta Secedit.exe.
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Nombre de área</th>
-    <th>Descripción</th>
+    <th style="border:1px solid black;" >Nombre de área</th>
+    <th style="border:1px solid black;" >Descripción</th>
     </tr>
     </thead>
     <tbody>
@@ -295,8 +295,8 @@ En las siguientes tablas se incluye una lista de las secuencias de comandos y lo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombres de las secuencias de comandos y los archivos</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombres de las secuencias de comandos y los archivos</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -357,8 +357,8 @@ En las siguientes tablas se incluye una lista de las secuencias de comandos y lo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombres de las secuencias de comandos y los archivos</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombres de las secuencias de comandos y los archivos</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>

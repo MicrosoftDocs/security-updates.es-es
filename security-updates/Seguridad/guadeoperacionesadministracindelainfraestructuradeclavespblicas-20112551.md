@@ -97,9 +97,9 @@ En esta tabla se muestran las tareas que deben realizarse para colocar las opera
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre de tarea</th>
-<th>Clúster de funciones</th>
-<th>SMF</th>
+<th style="border:1px solid black;" >Nombre de tarea</th>
+<th style="border:1px solid black;" >Clúster de funciones</th>
+<th style="border:1px solid black;" >SMF</th>
 </tr>
 </thead>
 <tbody>
@@ -212,9 +212,9 @@ Es posible que algunas tareas no sean necesarias; sin embargo, debe revisar el d
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre de tarea</th>
-<th>Frecuencia</th>
-<th>SMF</th>
+<th style="border:1px solid black;" >Nombre de tarea</th>
+<th style="border:1px solid black;" >Frecuencia</th>
+<th style="border:1px solid black;" >SMF</th>
 </tr>
 </thead>
 <tbody>
@@ -285,8 +285,8 @@ En la tabla siguiente se enumeran las herramientas o tecnologías utilizadas en 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre de elemento</th>
-<th>Fuente</th>
+<th style="border:1px solid black;" >Nombre de elemento</th>
+<th style="border:1px solid black;" >Fuente</th>
 </tr>
 </thead>
 <tbody>
@@ -392,8 +392,8 @@ dispositivo de copia de seguridad local</td>
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre de elemento</th>
-<th>Fuente</th>
+<th style="border:1px solid black;" >Nombre de elemento</th>
+<th style="border:1px solid black;" >Fuente</th>
 </tr>
 </thead>
 <tbody>
@@ -441,9 +441,9 @@ Las funciones importantes de Servicios de Certificate Server son fundamentales p
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre de la función</th>
-<th>Ámbito</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre de la función</th>
+<th style="border:1px solid black;" >Ámbito</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -520,9 +520,9 @@ Las funciones operativas de la siguiente tabla no son esenciales para la adminis
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre de la función</th>
-<th>Ámbito</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre de la función</th>
+<th style="border:1px solid black;" >Ámbito</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -574,10 +574,10 @@ En las entidades emisoras de certificados en línea, los grupos de seguridad de 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre de la función</th>
-<th>Grupo de seguridad del dominio (entidades emisoras en línea)</th>
-<th>Grupo de seguridad local (entidades emisoras en línea)</th>
-<th>Capacidades</th>
+<th style="border:1px solid black;" >Nombre de la función</th>
+<th style="border:1px solid black;" >Grupo de seguridad del dominio (entidades emisoras en línea)</th>
+<th style="border:1px solid black;" >Grupo de seguridad local (entidades emisoras en línea)</th>
+<th style="border:1px solid black;" >Capacidades</th>
 </tr>
 </thead>
 <tbody>
@@ -703,9 +703,9 @@ Esta tarea no es de carácter normativo puesto que depende principalmente de su 
 </colgroup>
 <thead>
 <tr class="header">
-<th>UO</th>
-<th>Grupos</th>
-<th>Finalidad</th>
+<th style="border:1px solid black;" >UO</th>
+<th style="border:1px solid black;" >Grupos</th>
+<th style="border:1px solid black;" >Finalidad</th>
 </tr>
 </thead>
 <tbody>
@@ -1772,8 +1772,8 @@ En este capítulo, se utilizan las categorías de alerta siguientes. De ellas, s
 </colgroup>
 <thead>
 <tr class="header">
-<th>Categoría de alerta</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Categoría de alerta</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -1843,9 +1843,9 @@ Los siguientes contadores de rendimiento son los más útiles para la identifica
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objeto de rendimiento</th>
-<th>Contador de rendimiento</th>
-<th>Instancia</th>
+<th style="border:1px solid black;" >Objeto de rendimiento</th>
+<th style="border:1px solid black;" >Contador de rendimiento</th>
+<th style="border:1px solid black;" >Instancia</th>
 </tr>
 </thead>
 <tbody>
@@ -1936,9 +1936,9 @@ La columna Gravedad se relaciona con las categorías de alerta definidas anterio
 </colgroup>
 <thead>
 <tr class="header">
-<th>Estado de Servicios de Certificate Server</th>
-<th>Importancia</th>
-<th>Gravedad</th>
+<th style="border:1px solid black;" >Estado de Servicios de Certificate Server</th>
+<th style="border:1px solid black;" >Importancia</th>
+<th style="border:1px solid black;" >Gravedad</th>
 </tr>
 </thead>
 <tbody>
@@ -2026,9 +2026,9 @@ Las secuencias de comandos están diseñadas para ejecutarse en la entidad emiso
 </colgroup>
 <thead>
 <tr class="header">
-<th>Evento</th>
-<th>Secuencia de comandos o método de detección</th>
-<th>Origen e
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Secuencia de comandos o método de detección</th>
+<th style="border:1px solid black;" >Origen e
 Id. de suceso</th>
 </tr>
 </thead>
@@ -2227,10 +2227,10 @@ Las categorías de alerta Correcto y Erróneo de la siguiente tabla se relaciona
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de suceso</th>
-<th>Descripción del suceso</th>
-<th>Categoría de alerta Correcto</th>
-<th>Categoría de alerta Erróneo</th>
+<th style="border:1px solid black;" >Id. de suceso</th>
+<th style="border:1px solid black;" >Descripción del suceso</th>
+<th style="border:1px solid black;" >Categoría de alerta Correcto</th>
+<th style="border:1px solid black;" >Categoría de alerta Erróneo</th>
 </tr>
 </thead>
 <tbody>
@@ -2602,10 +2602,10 @@ Sólo la entidad emisora tiene trabajos automatizados en ejecución. La entidad 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Descripción del trabajo</th>
-<th>Programación</th>
-<th>Ejecutado por</th>
-<th>Tarea de referencia</th>
+<th style="border:1px solid black;" >Descripción del trabajo</th>
+<th style="border:1px solid black;" >Programación</th>
+<th style="border:1px solid black;" >Ejecutado por</th>
+<th style="border:1px solid black;" >Tarea de referencia</th>
 </tr>
 </thead>
 <tbody>
@@ -3818,9 +3818,9 @@ La siguiente tabla enumera algunos de los principales incidentes de compatibilid
 </colgroup>
 <thead>
 <tr class="header">
-<th>Incidente</th>
-<th>Descripción</th>
-<th>Proceso de compatibilidad</th>
+<th style="border:1px solid black;" >Incidente</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Proceso de compatibilidad</th>
 </tr>
 </thead>
 <tbody>
@@ -4085,8 +4085,8 @@ En las tablas siguientes encontrará los valores de configuración específicos 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento de configuración</th>
-<th>Configuración</th>
+<th style="border:1px solid black;" >Elemento de configuración</th>
+<th style="border:1px solid black;" >Configuración</th>
 </tr>
 </thead>
 <tbody>
@@ -4131,8 +4131,8 @@ En las tablas siguientes encontrará los valores de configuración específicos 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento de configuración</th>
-<th>Configuración</th>
+<th style="border:1px solid black;" >Elemento de configuración</th>
+<th style="border:1px solid black;" >Configuración</th>
 </tr>
 </thead>
 <tbody>

@@ -22,9 +22,9 @@ En la tabla siguiente, se muestran los certificados y las licencias utilizados e
 </colgroup>
 <thead>
 <tr class="header">
-<th>Certificado o licencia</th>
-<th>Finalidad</th>
-<th>Contenido</th>
+<th style="border:1px solid black;" >Certificado o licencia</th>
+<th style="border:1px solid black;" >Finalidad</th>
+<th style="border:1px solid black;" >Contenido</th>
 </tr>
 </thead>
 <tbody>

@@ -21,8 +21,8 @@ Los sistemas RMS incluyen tecnologías de servidor y de cliente. En la tabla sig
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tecnología</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Tecnología</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>

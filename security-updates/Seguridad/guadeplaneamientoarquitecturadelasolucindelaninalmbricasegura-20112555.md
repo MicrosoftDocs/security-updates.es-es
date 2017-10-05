@@ -202,8 +202,8 @@ A partir de estos requisitos, pueden determinarse los criterios de compatibilida
 </colgroup>
 <thead>
 <tr class="header">
-<th>Factor de diseño</th>
-<th>Criterios</th>
+<th style="border:1px solid black;" >Factor de diseño</th>
+<th style="border:1px solid black;" >Criterios</th>
 </tr>
 </thead>
 <tbody>

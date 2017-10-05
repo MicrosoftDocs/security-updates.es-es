@@ -119,9 +119,9 @@ Esta sección describe la configuración de Firewall de Windows en un GPO y la c
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración</th>
-<th>Descripción</th>
-<th>Perfil de dominio</th>
+<th style="border:1px solid black;" >Configuración</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Perfil de dominio</th>
 </tr>
 </thead>
 <tbody>
@@ -221,9 +221,9 @@ Internet Explorer clasifica los sitios Web en cuatro zonas de seguridad, cada un
 </colgroup>
 <thead>
 <tr class="header">
-<th>Zona de seguridad</th>
-<th>Nivel de seguridad predeterminado</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Zona de seguridad</th>
+<th style="border:1px solid black;" >Nivel de seguridad predeterminado</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -267,8 +267,8 @@ Cada zona de seguridad contiene más de 30 parámetros de configuración que se 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Zona de seguridad</th>
-<th>Configuración de directiva</th>
+<th style="border:1px solid black;" >Zona de seguridad</th>
+<th style="border:1px solid black;" >Configuración de directiva</th>
 </tr>
 </thead>
 <tbody>

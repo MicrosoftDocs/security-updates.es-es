@@ -34,7 +34,7 @@ Often it is possible to resolve BITS issues simply by stopping the service and r
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939934.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="images/Dd939934.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>
@@ -110,9 +110,9 @@ If BITS jobs fail, look in the event log to find errors. You can use the followi
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Error name</strong></th>
-<th><strong>Error code</strong></th>
-<th><strong>Description</strong></th>
+<th style="border:1px solid black;" ><strong>Error name</strong></th>
+<th style="border:1px solid black;" ><strong>Error code</strong></th>
+<th style="border:1px solid black;" ><strong>Description</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -223,7 +223,7 @@ To repair corrupted BITS service configuration, you can enter the BITS service c
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939934.Important(WS.10).gif" />Importante</th>
+<th style="border:1px solid black;" ><img src="images/Dd939934.Important(WS.10).gif" />Importante</th>
 </tr>
 </thead>
 <tbody>

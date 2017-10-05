@@ -21,8 +21,8 @@ En la siguiente tabla, se especifican los permisos de usuario necesarios para ll
 </colgroup>
 <thead>
 <tr class="header">
-<th>Actividad</th>
-<th>Cuenta de usuario y permisos</th>
+<th style="border:1px solid black;" >Actividad</th>
+<th style="border:1px solid black;" >Cuenta de usuario y permisos</th>
 </tr>
 </thead>
 <tbody>

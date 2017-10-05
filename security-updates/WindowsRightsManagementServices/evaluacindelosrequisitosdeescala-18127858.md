@@ -31,10 +31,10 @@ Puede utilizar las siguientes cifras durante el planeamiento de la capacidad par
 </colgroup>
 <thead>
 <tr class="header">
-<th>Transacción</th>
-<th>Incidencia</th>
-<th>Uso de ancho de banda de cliente a servidor (KB)</th>
-<th>Uso de ancho de banda de servidor a cliente (KB)</th>
+<th style="border:1px solid black;" >Transacción</th>
+<th style="border:1px solid black;" >Incidencia</th>
+<th style="border:1px solid black;" >Uso de ancho de banda de cliente a servidor (KB)</th>
+<th style="border:1px solid black;" >Uso de ancho de banda de servidor a cliente (KB)</th>
 </tr>
 </thead>
 <tbody>
@@ -74,9 +74,9 @@ En la siguiente tabla se proporcionan datos de línea de base sobre el uso del a
 </colgroup>
 <thead>
 <tr class="header">
-<th>Transacción</th>
-<th>Uso del ancho de banda de RMS al catálogo global (bytes)</th>
-<th>Uso del ancho de banda del catálogo global a RMS (bytes)</th>
+<th style="border:1px solid black;" >Transacción</th>
+<th style="border:1px solid black;" >Uso del ancho de banda de RMS al catálogo global (bytes)</th>
+<th style="border:1px solid black;" >Uso del ancho de banda del catálogo global a RMS (bytes)</th>
 </tr>
 </thead>
 <tbody>

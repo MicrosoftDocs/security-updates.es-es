@@ -31,9 +31,9 @@ Enable audit events to ensure that adequate logs are collected for system activi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Option</th>
-<th>Security setting</th>
-<th>Setting rationale</th>
+<th style="border:1px solid black;" >Option</th>
+<th style="border:1px solid black;" >Security setting</th>
+<th style="border:1px solid black;" >Setting rationale</th>
 </tr>
 </thead>
 <tbody>
@@ -100,9 +100,9 @@ Configure Windows Server security settings to help ensure optional security and 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Option</th>
-<th>Security setting</th>
-<th>Setting rationale</th>
+<th style="border:1px solid black;" >Option</th>
+<th style="border:1px solid black;" >Security setting</th>
+<th style="border:1px solid black;" >Setting rationale</th>
 </tr>
 </thead>
 <tbody>
@@ -436,7 +436,7 @@ Configure Windows Server security settings to help ensure optional security and 
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939800.Important(WS.10).gif" />Importante</th>
+<th style="border:1px solid black;" ><img src="images/Dd939800.Important(WS.10).gif" />Importante</th>
 </tr>
 </thead>
 <tbody>
@@ -463,9 +463,9 @@ Configure Event Log settings to help ensure an adequate level of activity monito
 </colgroup>
 <thead>
 <tr class="header">
-<th>Option</th>
-<th>Security setting</th>
-<th>Setting rationale</th>
+<th style="border:1px solid black;" >Option</th>
+<th style="border:1px solid black;" >Security setting</th>
+<th style="border:1px solid black;" >Setting rationale</th>
 </tr>
 </thead>
 <tbody>
@@ -547,9 +547,9 @@ Enable only services that are required for WSUS.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Option</th>
-<th>Security setting</th>
-<th>Setting rationale</th>
+<th style="border:1px solid black;" >Option</th>
+<th style="border:1px solid black;" >Security setting</th>
+<th style="border:1px solid black;" >Setting rationale</th>
 </tr>
 </thead>
 <tbody>
@@ -851,9 +851,9 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Registry key</th>
-<th>Security setting</th>
-<th>Setting rationale</th>
+<th style="border:1px solid black;" >Registry key</th>
+<th style="border:1px solid black;" >Security setting</th>
+<th style="border:1px solid black;" >Setting rationale</th>
 </tr>
 </thead>
 <tbody>
@@ -969,8 +969,8 @@ Use access control permissions to secure the SQL Server registry keys.
 </colgroup>
 <thead>
 <tr class="header">
-<th>ISEC setting</th>
-<th>Rationale</th>
+<th style="border:1px solid black;" >ISEC setting</th>
+<th style="border:1px solid black;" >Rationale</th>
 </tr>
 </thead>
 <tbody>
@@ -998,9 +998,9 @@ Remove all stored procedures that are unnecessary and that have the ability to c
 </colgroup>
 <thead>
 <tr class="header">
-<th>Description</th>
-<th>Stored procedures</th>
-<th>Rationale</th>
+<th style="border:1px solid black;" >Description</th>
+<th style="border:1px solid black;" >Stored procedures</th>
+<th style="border:1px solid black;" >Rationale</th>
 </tr>
 </thead>
 <tbody>

@@ -24,7 +24,7 @@ You can generate different kinds of update reports from different places in the 
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939891.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="images/Dd939891.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>
@@ -51,8 +51,8 @@ You can generate three kinds of reports as described in the following table.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Report name</th>
-<th>Function</th>
+<th style="border:1px solid black;" >Report name</th>
+<th style="border:1px solid black;" >Function</th>
 </tr>
 </thead>
 <tbody>
@@ -84,7 +84,7 @@ The report displays information from the most recent contact between client comp
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939891.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="images/Dd939891.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>
@@ -121,8 +121,8 @@ The Update Status Summary view contains the elements listed in the following tab
 </colgroup>
 <thead>
 <tr class="header">
-<th>Column name</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Column name</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>
@@ -226,8 +226,8 @@ The report has four components, which are described in the following table.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Component name</th>
-<th>Purpose</th>
+<th style="border:1px solid black;" >Component name</th>
+<th style="border:1px solid black;" >Purpose</th>
 </tr>
 </thead>
 <tbody>
@@ -276,7 +276,7 @@ You can print a report in its original format, or you can export it to Microsoft
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939891.Important(WS.10).gif" />Importante</th>
+<th style="border:1px solid black;" ><img src="images/Dd939891.Important(WS.10).gif" />Importante</th>
 </tr>
 </thead>
 <tbody>

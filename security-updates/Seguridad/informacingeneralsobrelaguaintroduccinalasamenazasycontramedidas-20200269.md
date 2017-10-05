@@ -3085,8 +3085,8 @@ Puede restringir el acceso a canalizaciones con nombre como COMNAP y LOCATOR, pa
 </colgroup>
 <thead>
 <tr class="header">
-<th>Canalización con nombre</th>
-<th>Finalidad</th>
+<th style="border:1px solid black;" >Canalización con nombre</th>
+<th style="border:1px solid black;" >Finalidad</th>
 </tr>
 </thead>
 <tbody>
@@ -8695,11 +8695,11 @@ La configuración del registro de la tabla siguiente se agregó al archivo de pl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Entrada de registro</th>
-<th>Formato</th>
-<th>XP SP2 predeterminado</th>
-<th>2003 SP1 predeterminado</th>
-<th>Valor más seguro (decimal)</th>
+<th style="border:1px solid black;" >Entrada de registro</th>
+<th style="border:1px solid black;" >Formato</th>
+<th style="border:1px solid black;" >XP SP2 predeterminado</th>
+<th style="border:1px solid black;" >2003 SP1 predeterminado</th>
+<th style="border:1px solid black;" >Valor más seguro (decimal)</th>
 </tr>
 </thead>
 <tbody>
@@ -9019,9 +9019,9 @@ Se recomiendan también las entradas del registro en la tabla siguiente. La info
 </colgroup>
 <thead>
 <tr class="header">
-<th>Entrada de registro</th>
-<th>Formato</th>
-<th>Valor más seguro (decimal)</th>
+<th style="border:1px solid black;" >Entrada de registro</th>
+<th style="border:1px solid black;" >Formato</th>
+<th style="border:1px solid black;" >Valor más seguro (decimal)</th>
 </tr>
 </thead>
 <tbody>
@@ -10056,14 +10056,14 @@ Si se empieza por los filtros IPSec más restrictivos y se abren puertos adicion
 </colgroup>
 <thead>
 <tr class="header">
-<th>Servicio</th>
-<th>Protocolo</th>
-<th>Puerto de origen</th>
-<th>Puerto de destino</th>
-<th>Dirección de origen</th>
-<th>Dirección de destino</th>
-<th>Acción</th>
-<th>Reflejo</th>
+<th style="border:1px solid black;" >Servicio</th>
+<th style="border:1px solid black;" >Protocolo</th>
+<th style="border:1px solid black;" >Puerto de origen</th>
+<th style="border:1px solid black;" >Puerto de destino</th>
+<th style="border:1px solid black;" >Dirección de origen</th>
+<th style="border:1px solid black;" >Dirección de destino</th>
+<th style="border:1px solid black;" >Acción</th>
+<th style="border:1px solid black;" >Reflejo</th>
 </tr>
 </thead>
 <tbody>
@@ -10140,14 +10140,14 @@ Si se requiere un servicio de cliente que no puede restringirse para la conexió
 </colgroup>
 <thead>
 <tr class="header">
-<th>Servicio</th>
-<th>Protocolo</th>
-<th>Puerto de origen</th>
-<th>Puerto de destino</th>
-<th>Dirección de origen</th>
-<th>Dirección de destino</th>
-<th>Acción</th>
-<th>Reflejo</th>
+<th style="border:1px solid black;" >Servicio</th>
+<th style="border:1px solid black;" >Protocolo</th>
+<th style="border:1px solid black;" >Puerto de origen</th>
+<th style="border:1px solid black;" >Puerto de destino</th>
+<th style="border:1px solid black;" >Dirección de origen</th>
+<th style="border:1px solid black;" >Dirección de destino</th>
+<th style="border:1px solid black;" >Acción</th>
+<th style="border:1px solid black;" >Reflejo</th>
 </tr>
 </thead>
 <tbody>
@@ -10297,14 +10297,14 @@ La regla se define para bloquear los ataques específicos del puerto TCP de orig
 </colgroup>
 <thead>
 <tr class="header">
-<th>Servicio</th>
-<th>Protocolo</th>
-<th>Puerto de origen</th>
-<th>Puerto de destino</th>
-<th>Dirección de origen</th>
-<th>Dirección de destino</th>
-<th>Acción</th>
-<th>Reflejo</th>
+<th style="border:1px solid black;" >Servicio</th>
+<th style="border:1px solid black;" >Protocolo</th>
+<th style="border:1px solid black;" >Puerto de origen</th>
+<th style="border:1px solid black;" >Puerto de destino</th>
+<th style="border:1px solid black;" >Dirección de origen</th>
+<th style="border:1px solid black;" >Dirección de destino</th>
+<th style="border:1px solid black;" >Acción</th>
+<th style="border:1px solid black;" >Reflejo</th>
 </tr>
 </thead>
 <tbody>

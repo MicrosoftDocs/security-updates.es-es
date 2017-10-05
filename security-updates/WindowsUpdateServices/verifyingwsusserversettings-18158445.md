@@ -55,9 +55,9 @@ All of the following server configuration settings are stored inside the WSUS da
 </colgroup>
 <thead>
 <tr class="header">
-<th>What is configured</th>
-<th>Database storage location</th>
-<th>Description</th>
+<th style="border:1px solid black;" >What is configured</th>
+<th style="border:1px solid black;" >Database storage location</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>
@@ -107,8 +107,8 @@ The following virtual directories (vroots) are created in IIS (in the Default We
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vroot in IIS</th>
-<th>Properties</th>
+<th style="border:1px solid black;" >Vroot in IIS</th>
+<th style="border:1px solid black;" >Properties</th>
 </tr>
 </thead>
 <tbody>

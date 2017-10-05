@@ -59,10 +59,10 @@ En la tabla siguiente se muestra un par de ejemplos de posibles configuraciones 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -124,11 +124,11 @@ En la siguiente tabla se resumen las recomendaciones acerca de la configuración
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>Valor predeterminado del controlador de dominio</th>
-<th>GPO de dominio de VSG para EC</th>
-<th>GPO de dominio de VSG para SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >Valor predeterminado del controlador de dominio</th>
+<th style="border:1px solid black;" >GPO de dominio de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de dominio de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -265,11 +265,11 @@ La tabla siguiente incluye las recomendaciones sobre la configuración de la dir
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>Valor predeterminado del controlador de dominio</th>
-<th>GPO de dominio de VSG para EC</th>
-<th>GPO de dominio de VSG para SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >Valor predeterminado del controlador de dominio</th>
+<th style="border:1px solid black;" >GPO de dominio de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de dominio de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -434,10 +434,10 @@ En Windows Vista, la categoría de auditoría del sistema contiene las subcatego
 </colgroup>
 <thead>
 <tr class="header">
-<th>Subcategoría</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Subcategoría</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -496,10 +496,10 @@ En Windows Vista, la categoría de auditoría de eventos de inicio/cierre de ses
 </colgroup>
 <thead>
 <tr class="header">
-<th>Subcategoría</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Subcategoría</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -587,10 +587,10 @@ La categoría de auditoría de eventos de acceso a objetos contiene las subcateg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Subcategoría</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Subcategoría</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -729,10 +729,10 @@ La categoría de auditoría de eventos de **uso de privilegios** contiene las su
 </colgroup>
 <thead>
 <tr class="header">
-<th>Subcategoría</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Subcategoría</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -778,10 +778,10 @@ La categoría de auditoría de eventos de seguimiento detallado contiene las sub
 </colgroup>
 <thead>
 <tr class="header">
-<th>Subcategoría</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Subcategoría</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -832,10 +832,10 @@ La categoría de auditoría de eventos de **cambio de directiva** contiene las s
 </colgroup>
 <thead>
 <tr class="header">
-<th>Subcategoría</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Subcategoría</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -898,10 +898,10 @@ La categoría de auditoría de eventos de **administración de cuentas** contien
 </colgroup>
 <thead>
 <tr class="header">
-<th>Subcategoría</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Subcategoría</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -964,10 +964,10 @@ La categoría de auditoría de eventos de acceso DS contiene las subcategorías 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Subcategoría</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Subcategoría</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -1018,10 +1018,10 @@ La categoría de auditoría de eventos de **inicio de sesión de cuenta** contie
 </colgroup>
 <thead>
 <tr class="header">
-<th>Subcategoría</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Subcategoría</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -1139,10 +1139,10 @@ En la tabla siguiente se resumen las recomendaciones sobre la configuración de 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -1237,10 +1237,10 @@ En la tabla siguiente se resumen las recomendaciones sobre la asignación de der
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -1497,10 +1497,10 @@ En la tabla siguiente se resumen las recomendaciones sobre la asignación de der
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -1792,10 +1792,10 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -1877,10 +1877,10 @@ La tabla siguiente resume la configuración de auditoría recomendada. En las su
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -1949,10 +1949,10 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -2038,10 +2038,10 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -2132,10 +2132,10 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -2260,10 +2260,10 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -2323,10 +2323,10 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -2398,9 +2398,9 @@ En la tabla siguiente se resume la configuración de MSS recomendada en cada uno
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -2619,10 +2619,10 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -2849,10 +2849,10 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -2957,10 +2957,10 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -3013,10 +3013,10 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -3067,10 +3067,10 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -3106,10 +3106,10 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -3158,10 +3158,10 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -3335,10 +3335,10 @@ En la siguiente tabla se resumen las recomendaciones sobre la configuración de 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -3441,10 +3441,10 @@ Este perfil se aplica cuando el equipo está conectado a una red y realiza la au
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -3525,10 +3525,10 @@ Este perfil sólo se aplica si el usuario con privilegios de administrador local
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -3607,10 +3607,10 @@ Este perfil constituye el tipo de ubicación de red predeterminado cuando el equ
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Valor predeterminado de Windows Vista</th>
-<th>GPO de equipos de VSG para EC</th>
-<th>GPO de equipos de VSG para SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Valor predeterminado de Windows Vista</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para EC</th>
+<th style="border:1px solid black;" >GPO de equipos de VSG para SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -3764,11 +3764,11 @@ Los valores de esta sección sirven para configurar el perfil de dominio de Fire
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Cliente de empresa - Escritorio</th>
-<th>Cliente de empresa - Portátil</th>
-<th>SSLF - Escritorio</th>
-<th>SSLF - Portátil</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Cliente de empresa - Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa - Portátil</th>
+<th style="border:1px solid black;" >SSLF - Escritorio</th>
+<th style="border:1px solid black;" >SSLF - Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -3892,11 +3892,11 @@ Puede establecer esta configuración recomendada de equipos en la siguiente ubic
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Cliente de empresa - Escritorio</th>
-<th>Cliente de empresa - Portátil</th>
-<th>SSLF - Escritorio</th>
-<th>SSLF - Portátil</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Cliente de empresa - Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa - Portátil</th>
+<th style="border:1px solid black;" >SSLF - Escritorio</th>
+<th style="border:1px solid black;" >SSLF - Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -4137,11 +4137,11 @@ La tabla siguiente resume la configuración recomendada de inicio de sesión. En
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Cliente de empresa - Escritorio</th>
-<th>Cliente de empresa - Portátil</th>
-<th>SSLF - Escritorio</th>
-<th>SSLF - Portátil</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Cliente de empresa - Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa - Portátil</th>
+<th style="border:1px solid black;" >SSLF - Escritorio</th>
+<th style="border:1px solid black;" >SSLF - Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -4199,11 +4199,11 @@ Puede establecer esta configuración recomendada de equipos en la siguiente ubic
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Cliente de empresa - Escritorio</th>
-<th>Cliente de empresa - Portátil</th>
-<th>SSLF - Escritorio</th>
-<th>SSLF - Portátil</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Cliente de empresa - Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa - Portátil</th>
+<th style="border:1px solid black;" >SSLF - Escritorio</th>
+<th style="border:1px solid black;" >SSLF - Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -4249,11 +4249,11 @@ La tabla siguiente resume la configuración recomendada de Asistencia remota. En
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Cliente de empresa - Escritorio</th>
-<th>Cliente de empresa - Portátil</th>
-<th>SSLF - Escritorio</th>
-<th>SSLF - Portátil</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Cliente de empresa - Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa - Portátil</th>
+<th style="border:1px solid black;" >SSLF - Escritorio</th>
+<th style="border:1px solid black;" >SSLF - Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -4345,11 +4345,11 @@ La tabla siguiente resume la configuración recomendada de Llamada a procedimien
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Cliente de empresa - Escritorio</th>
-<th>Cliente de empresa - Portátil</th>
-<th>SSLF - Escritorio</th>
-<th>SSLF - Portátil</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Cliente de empresa - Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa - Portátil</th>
+<th style="border:1px solid black;" >SSLF - Escritorio</th>
+<th style="border:1px solid black;" >SSLF - Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -4409,11 +4409,11 @@ La tabla siguiente resume la configuración recomendada de las comunicaciones de
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Cliente de empresa - Escritorio</th>
-<th>Cliente de empresa - Portátil</th>
-<th>SSLF - Escritorio</th>
-<th>SSLF - Portátil</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Cliente de empresa - Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa - Portátil</th>
+<th style="border:1px solid black;" >SSLF - Escritorio</th>
+<th style="border:1px solid black;" >SSLF - Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -4554,11 +4554,11 @@ Reproducción automática es una característica de Windows que permite abrir o 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Cliente de empresa - Escritorio</th>
-<th>Cliente de empresa - Portátil</th>
-<th>SSLF - Escritorio</th>
-<th>SSLF - Portátil</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Cliente de empresa - Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa - Portátil</th>
+<th style="border:1px solid black;" >SSLF - Escritorio</th>
+<th style="border:1px solid black;" >SSLF - Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -4601,11 +4601,11 @@ Esta configuración controla la interfaz que ven los usuarios cuando se les pide
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Cliente de empresa - Escritorio</th>
-<th>Cliente de empresa - Portátil</th>
-<th>SSLF - Escritorio</th>
-<th>SSLF - Portátil</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Cliente de empresa - Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa - Portátil</th>
+<th style="border:1px solid black;" >SSLF - Escritorio</th>
+<th style="border:1px solid black;" >SSLF - Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -4673,11 +4673,11 @@ En la tabla siguiente se resumen muchas de las recomendaciones sobre la configur
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Cliente de empresa - Escritorio</th>
-<th>Cliente de empresa - Portátil</th>
-<th>SSLF - Escritorio</th>
-<th>SSLF - Portátil</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Cliente de empresa - Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa - Portátil</th>
+<th style="border:1px solid black;" >SSLF - Escritorio</th>
+<th style="border:1px solid black;" >SSLF - Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -4849,11 +4849,11 @@ Puede establecer esta configuración recomendada de equipos en la siguiente ubic
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Cliente de empresa - Escritorio</th>
-<th>Cliente de empresa - Portátil</th>
-<th>SSLF - Escritorio</th>
-<th>SSLF - Portátil</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Cliente de empresa - Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa - Portátil</th>
+<th style="border:1px solid black;" >SSLF - Escritorio</th>
+<th style="border:1px solid black;" >SSLF - Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -4896,11 +4896,11 @@ Puede establecer esta configuración recomendada de equipos en la siguiente ubic
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Cliente de empresa - Escritorio</th>
-<th>Cliente de empresa - Portátil</th>
-<th>SSLF - Escritorio</th>
-<th>SSLF - Portátil</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Cliente de empresa - Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa - Portátil</th>
+<th style="border:1px solid black;" >SSLF - Escritorio</th>
+<th style="border:1px solid black;" >SSLF - Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -4941,11 +4941,11 @@ Puede establecer esta configuración recomendada de equipos en la siguiente ubic
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Cliente de empresa - Escritorio</th>
-<th>Cliente de empresa - Portátil</th>
-<th>SSLF - Escritorio</th>
-<th>SSLF - Portátil</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Cliente de empresa - Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa - Portátil</th>
+<th style="border:1px solid black;" >SSLF - Escritorio</th>
+<th style="border:1px solid black;" >SSLF - Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -4988,11 +4988,11 @@ Puede establecer esta configuración recomendada de equipos en la siguiente ubic
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Cliente de empresa - Escritorio</th>
-<th>Cliente de empresa - Portátil</th>
-<th>SSLF - Escritorio</th>
-<th>SSLF - Portátil</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Cliente de empresa - Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa - Portátil</th>
+<th style="border:1px solid black;" >SSLF - Escritorio</th>
+<th style="border:1px solid black;" >SSLF - Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -5035,11 +5035,11 @@ Puede establecer esta configuración recomendada de equipos en la siguiente ubic
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Cliente de empresa - Escritorio</th>
-<th>Cliente de empresa - Portátil</th>
-<th>SSLF - Escritorio</th>
-<th>SSLF - Portátil</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Cliente de empresa - Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa - Portátil</th>
+<th style="border:1px solid black;" >SSLF - Escritorio</th>
+<th style="border:1px solid black;" >SSLF - Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -5080,11 +5080,11 @@ Puede establecer la configuración recomendada para los equipos en la ubicación
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Cliente de empresa - Escritorio</th>
-<th>Cliente de empresa - Portátil</th>
-<th>SSLF - Escritorio</th>
-<th>SSLF - Portátil</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Cliente de empresa - Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa - Portátil</th>
+<th style="border:1px solid black;" >SSLF - Escritorio</th>
+<th style="border:1px solid black;" >SSLF - Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -5125,11 +5125,11 @@ Puede establecer la configuración recomendada para los equipos en la ubicación
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Cliente de empresa - Escritorio</th>
-<th>Cliente de empresa - Portátil</th>
-<th>SSLF - Escritorio</th>
-<th>SSLF - Portátil</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Cliente de empresa - Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa - Portátil</th>
+<th style="border:1px solid black;" >SSLF - Escritorio</th>
+<th style="border:1px solid black;" >SSLF - Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -5170,11 +5170,11 @@ Puede establecer la configuración recomendada para los equipos en la ubicación
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Cliente de empresa - Escritorio</th>
-<th>Cliente de empresa - Portátil</th>
-<th>SSLF - Escritorio</th>
-<th>SSLF - Portátil</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Cliente de empresa - Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa - Portátil</th>
+<th style="border:1px solid black;" >SSLF - Escritorio</th>
+<th style="border:1px solid black;" >SSLF - Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -5215,11 +5215,11 @@ Puede establecer esta configuración recomendada de equipos en la siguiente ubic
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Cliente de empresa - Escritorio</th>
-<th>Cliente de empresa - Portátil</th>
-<th>SSLF - Escritorio</th>
-<th>SSLF - Portátil</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Cliente de empresa - Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa - Portátil</th>
+<th style="border:1px solid black;" >SSLF - Escritorio</th>
+<th style="border:1px solid black;" >SSLF - Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -5284,11 +5284,11 @@ Microsoft NetMeeting® permite que los usuarios mantengan reuniones virtuales en
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Cliente de empresa - Escritorio</th>
-<th>Cliente de empresa - Portátil</th>
-<th>SSLF - Escritorio</th>
-<th>SSLF - Portátil</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Cliente de empresa - Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa - Portátil</th>
+<th style="border:1px solid black;" >SSLF - Escritorio</th>
+<th style="border:1px solid black;" >SSLF - Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -5338,11 +5338,11 @@ Puede establecer la configuración recomendada para los equipos en la ubicación
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Cliente de empresa - Escritorio</th>
-<th>Cliente de empresa - Portátil</th>
-<th>SSLF - Escritorio</th>
-<th>SSLF - Portátil</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Cliente de empresa - Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa - Portátil</th>
+<th style="border:1px solid black;" >SSLF - Escritorio</th>
+<th style="border:1px solid black;" >SSLF - Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -5382,11 +5382,11 @@ Puede establecer la configuración recomendada para los equipos en la ubicación
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Cliente de empresa - Escritorio</th>
-<th>Cliente de empresa - Portátil</th>
-<th>SSLF - Escritorio</th>
-<th>SSLF - Portátil</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Cliente de empresa - Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa - Portátil</th>
+<th style="border:1px solid black;" >SSLF - Escritorio</th>
+<th style="border:1px solid black;" >SSLF - Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -5424,11 +5424,11 @@ Puede establecer la configuración recomendada para los equipos en la ubicación
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Cliente de empresa - Escritorio</th>
-<th>Cliente de empresa - Portátil</th>
-<th>SSLF - Escritorio</th>
-<th>SSLF - Portátil</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Cliente de empresa - Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa - Portátil</th>
+<th style="border:1px solid black;" >SSLF - Escritorio</th>
+<th style="border:1px solid black;" >SSLF - Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -5468,12 +5468,12 @@ Puede establecer la configuración recomendada para los equipos en la ubicación
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Cliente de empresa - Escritorio</th>
-<th>Portátil<br />
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Cliente de empresa - Escritorio</th>
+<th style="border:1px solid black;" >Portátil<br />
 EC</th>
-<th>SSLF - Escritorio</th>
-<th>SSLF - Portátil</th>
+<th style="border:1px solid black;" >SSLF - Escritorio</th>
+<th style="border:1px solid black;" >SSLF - Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -5528,11 +5528,11 @@ Puede establecer la configuración recomendada para los equipos en la ubicación
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Cliente de empresa - Escritorio</th>
-<th>Cliente de empresa - Portátil</th>
-<th>SSLF - Escritorio</th>
-<th>SSLF - Portátil</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Cliente de empresa - Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa - Portátil</th>
+<th style="border:1px solid black;" >SSLF - Escritorio</th>
+<th style="border:1px solid black;" >SSLF - Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -5597,11 +5597,11 @@ La tabla siguiente resume la configuración recomendada de Windows Update. En la
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Cliente de empresa - Escritorio</th>
-<th>Cliente de empresa - Portátil</th>
-<th>SSLF - Escritorio</th>
-<th>SSLF - Portátil</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Cliente de empresa - Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa - Portátil</th>
+<th style="border:1px solid black;" >SSLF - Escritorio</th>
+<th style="border:1px solid black;" >SSLF - Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -5729,9 +5729,9 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Equipo de EC</th>
-<th>Equipo de SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Equipo de EC</th>
+<th style="border:1px solid black;" >Equipo de SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -5767,9 +5767,9 @@ En la tabla siguiente se resumen los valores de configuración recomendados para
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Equipo de EC</th>
-<th>Equipo de SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Equipo de EC</th>
+<th style="border:1px solid black;" >Equipo de SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -5814,9 +5814,9 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Equipo de EC</th>
-<th>Equipo de SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Equipo de EC</th>
+<th style="border:1px solid black;" >Equipo de SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -5883,9 +5883,9 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Usuario de EC</th>
-<th>Usuario de SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Usuario de EC</th>
+<th style="border:1px solid black;" >Usuario de SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -6078,9 +6078,9 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Usuario de EC</th>
-<th>Usuario de SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Usuario de EC</th>
+<th style="border:1px solid black;" >Usuario de SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -6117,9 +6117,9 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Usuario de EC</th>
-<th>Usuario de SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Usuario de EC</th>
+<th style="border:1px solid black;" >Usuario de SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -6178,9 +6178,9 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Usuario de EC</th>
-<th>Usuario de SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Usuario de EC</th>
+<th style="border:1px solid black;" >Usuario de SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -6257,9 +6257,9 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Usuario de EC</th>
-<th>Usuario de SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Usuario de EC</th>
+<th style="border:1px solid black;" >Usuario de SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -6300,9 +6300,9 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Usuario de EC</th>
-<th>Usuario de SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Usuario de EC</th>
+<th style="border:1px solid black;" >Usuario de SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -6428,9 +6428,9 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Usuario de EC</th>
-<th>Usuario de SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Usuario de EC</th>
+<th style="border:1px solid black;" >Usuario de SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -6799,9 +6799,9 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Usuario de EC</th>
-<th>Usuario de SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Usuario de EC</th>
+<th style="border:1px solid black;" >Usuario de SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -6930,9 +6930,9 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Equipo de EC</th>
-<th>Equipo de SSLF</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Equipo de EC</th>
+<th style="border:1px solid black;" >Equipo de SSLF</th>
 </tr>
 </thead>
 <tbody>

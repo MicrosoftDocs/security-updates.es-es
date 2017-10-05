@@ -923,8 +923,8 @@ La tabla siguiente incluye algunas de las capacidades de Connection Manager para
 </colgroup>
 <thead>
 <tr class="header">
-<th>Característica</th>
-<th>Capacidad</th>
+<th style="border:1px solid black;" >Característica</th>
+<th style="border:1px solid black;" >Capacidad</th>
 </tr>
 </thead>
 <tbody>
@@ -968,9 +968,9 @@ La tabla siguiente muestra los puertos TCP/IP que abre el filtro IP de cuarenten
 </colgroup>
 <thead>
 <tr class="header">
-<th>Número de puerto</th>
-<th>Uso</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Número de puerto</th>
+<th style="border:1px solid black;" >Uso</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1204,8 +1204,8 @@ Estas secuencias de comandos son ejemplos y es posible que deba modificarlos ant
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre de la secuencia de comandos</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre de la secuencia de comandos</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -1277,8 +1277,8 @@ En la tabla siguiente se muestran los parámetros del agente cliente de cuarente
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>

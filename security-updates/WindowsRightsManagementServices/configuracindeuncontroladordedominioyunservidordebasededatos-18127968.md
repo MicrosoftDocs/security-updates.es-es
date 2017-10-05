@@ -30,9 +30,9 @@ Si decide utilizar MSDE 2000 como servidor de bases de datos, debe tener en cuen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Componente de infraestructura</th>
-<th>Pasos para configurar un controlador de dominio y un servidor de base de datos</th>
-<th>Notas para la implementación en un entorno de producción</th>
+<th style="border:1px solid black;" >Componente de infraestructura</th>
+<th style="border:1px solid black;" >Pasos para configurar un controlador de dominio y un servidor de base de datos</th>
+<th style="border:1px solid black;" >Notas para la implementación en un entorno de producción</th>
 </tr>
 </thead>
 <tbody>

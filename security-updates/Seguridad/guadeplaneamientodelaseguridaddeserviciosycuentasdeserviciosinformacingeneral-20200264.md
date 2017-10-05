@@ -245,9 +245,9 @@ En la siguiente tabla se incluye una descripción detallada de los escenarios de
 </colgroup>
 <thead>
 <tr class="header">
-<th>Escenario</th>
-<th>Descripción</th>
-<th>Nivel de riesgo</th>
+<th style="border:1px solid black;" >Escenario</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Nivel de riesgo</th>
 </tr>
 </thead>
 <tbody>
@@ -342,8 +342,8 @@ Diversos servicios aún inician la sesión como sistema local, incluyendo Actual
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre del servicio</th>
-<th>Inicia la sesión como</th>
+<th style="border:1px solid black;" >Nombre del servicio</th>
+<th style="border:1px solid black;" >Inicia la sesión como</th>
 </tr>
 </thead>
 <tbody>

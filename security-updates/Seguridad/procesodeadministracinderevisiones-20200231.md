@@ -230,8 +230,8 @@ La información de los boletines de seguridad en el sitio web de Microsoft se or
 </colgroup>
 <thead>
 <tr class="header">
-<th>Apartado</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Apartado</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>

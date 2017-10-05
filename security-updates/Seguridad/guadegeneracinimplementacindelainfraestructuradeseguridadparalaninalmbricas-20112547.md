@@ -127,8 +127,8 @@ En la siguiente tabla se enumeran parámetros específicos de organización toma
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento de configuración</th>
-<th>Configuración</th>
+<th style="border:1px solid black;" >Elemento de configuración</th>
+<th style="border:1px solid black;" >Configuración</th>
 </tr>
 </thead>
 <tbody>
@@ -169,8 +169,8 @@ La configuración especificada en esta tabla no se debe cambiar en su instalaci�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento de configuración</th>
-<th>Configuración</th>
+<th style="border:1px solid black;" >Elemento de configuración</th>
+<th style="border:1px solid black;" >Configuración</th>
 </tr>
 </thead>
 <tbody>
@@ -583,8 +583,8 @@ La directiva de acceso remoto de IAS utiliza los grupos de seguridad basados en 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupo de seguridad</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Grupo de seguridad</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>

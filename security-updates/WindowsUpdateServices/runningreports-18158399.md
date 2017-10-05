@@ -26,8 +26,8 @@ You can generate three main reports from the **Reports** page, as described in t
 </colgroup>
 <thead>
 <tr class="header">
-<th>Report Name</th>
-<th>Function</th>
+<th style="border:1px solid black;" >Report Name</th>
+<th style="border:1px solid black;" >Function</th>
 </tr>
 </thead>
 <tbody>
@@ -86,8 +86,8 @@ The columns displayed in the update summary view are described in the following 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Column Name</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Column Name</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>
@@ -134,8 +134,8 @@ The columns displayed in the computer group view are described in the following 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Column Name</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Column Name</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>
@@ -182,8 +182,8 @@ The columns displayed in this view are described in the following table.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Column Name</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Column Name</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>
@@ -245,8 +245,8 @@ The Status of Computers report provides both a cumulative and individual update 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Status</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Status</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>
@@ -320,8 +320,8 @@ The report has four components, which are described in the following table.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Component Name</th>
-<th>Purpose</th>
+<th style="border:1px solid black;" >Component Name</th>
+<th style="border:1px solid black;" >Purpose</th>
 </tr>
 </thead>
 <tbody>
@@ -367,8 +367,8 @@ The following table describes the components of the **Settings Summary** report.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Component Name</th>
-<th>Purpose</th>
+<th style="border:1px solid black;" >Component Name</th>
+<th style="border:1px solid black;" >Purpose</th>
 </tr>
 </thead>
 <tbody>

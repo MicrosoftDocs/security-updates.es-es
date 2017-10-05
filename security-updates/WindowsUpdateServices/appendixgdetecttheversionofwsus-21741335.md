@@ -34,7 +34,7 @@ has an InstallType subkey with the following possible values:
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939828.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="images/Dd939828.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>

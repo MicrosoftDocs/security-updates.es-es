@@ -98,10 +98,10 @@ Configuración del equipo\\Plantillas administrativas\\Componentes de Windows\\I
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -132,10 +132,10 @@ Dado que la información de informe de bloqueos de Internet Explorer podría con
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -186,10 +186,10 @@ Utilice el Editor de objetos de directiva de grupo para configurar la Plantilla 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -230,10 +230,10 @@ Configuración del equipo\\Plantillas administrativas\\Componentes de Windows\\I
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -272,10 +272,10 @@ Configuración del equipo\\Plantillas administrativas\\Componentes de Windows\\I
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -316,10 +316,10 @@ Configuración del equipo\\Plantillas administrativas\\Componentes de Windows\\I
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -358,10 +358,10 @@ Configuración del equipo\\Plantillas administrativas\\Componentes de Windows\\I
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -400,10 +400,10 @@ Configuración del equipo\\Plantillas administrativas\\Componentes de Windows\\I
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -442,10 +442,10 @@ Configuración del equipo\\Plantillas administrativas\\Componentes de Windows\\I
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -488,10 +488,10 @@ Configuración del equipo\\Plantillas administrativas\\Componentes de Windows\\I
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -530,10 +530,10 @@ Configuración del equipo\\Plantillas administrativas\\Componentes de Windows\\I
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -566,10 +566,10 @@ Considere la posibilidad de utilizar tanto la configuración **Denegar complemen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -600,8 +600,8 @@ Si se habilita esta configuración de directiva, deberá especificar una lista d
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Valor</th>
-    <th>Descripción</th>
+    <th style="border:1px solid black;" >Valor</th>
+    <th style="border:1px solid black;" >Descripción</th>
     </tr>
     </thead>
     <tbody>
@@ -644,10 +644,10 @@ Plantillas administrativas\\componentes de Windows\\Servicios de Terminal Server
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -684,10 +684,10 @@ Plantillas administrativas\\Componentes de Windows\\Windows Update
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -718,10 +718,10 @@ En caso de deshabilitarse esta configuración de directiva, la opción **Instala
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -760,10 +760,10 @@ Configuración del equipo\\Plantillas administrativas\\Sistema
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -806,10 +806,10 @@ Plantillas administrativas\\Sistema\\Llamada a procedimiento remoto
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -848,10 +848,10 @@ Dado que la comunicación RPC sin autenticación puede crear una vulnerabilidad 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -888,10 +888,10 @@ Plantillas administrativas\\Sistema\\Administración de comunicaciones de Intern
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -920,10 +920,10 @@ Esta configuración especifica si las tareas **Publicar este archivo en Web**, *
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -952,10 +952,10 @@ La configuración de **Desactivar descargas de Internet en los asistentes para l
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -984,10 +984,10 @@ La configuración **Desactivar el Programa para la mejora de la experiencia del 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1018,10 +1018,10 @@ La configuración **Desactivar la actualización de archivos de contenido del As
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1054,10 +1054,10 @@ La información transmitida al imprimir a través de HTTP no es protegida y pued
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1088,10 +1088,10 @@ La configuración **Desactivar la descarga de controladores de impresión a trav
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1134,10 +1134,10 @@ Plantillas administrativas\\Red\\Conexiones de red\\Firewall de Windows\\Perfil 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1170,10 +1170,10 @@ Si esta configuración se establece como **Deshabilitada**, se desactiva el Fire
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1206,10 +1206,10 @@ Muchos entornos contienen aplicaciones y servicios a los que para su funcionamie
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1244,10 +1244,10 @@ Si establece esta configuración de directiva como **Deshabilitada**, se elimina
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1278,10 +1278,10 @@ Para equipos de cliente de empresa, es posible que existan condiciones que justi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1318,10 +1318,10 @@ En este apéndice se recomienda habilitar esta configuración para equipos de em
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1356,10 +1356,10 @@ Dado que, por lo general, los equipos del entorno en los que se ejecuta Windows 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1394,10 +1394,10 @@ Muchas herramientas de atacantes aprovechan la posibilidad que ofrecen los equip
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1432,10 +1432,10 @@ En algunos ataques se puede aprovechar un puerto 3389 abierto. Para mantener las
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1468,10 +1468,10 @@ Con el bloqueo del tráfico de red UPnP se reduce en la práctica la superficie 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1504,10 +1504,10 @@ A menudo, a los usuarios no se les permitirá agregar aplicaciones y puertos en 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1540,10 +1540,10 @@ Normalmente, no deseará recibir respuestas de monodifusión a mensajes de difus
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1580,10 +1580,10 @@ Para los entornos con aplicaciones no estándar que requieren que se abran deter
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1628,10 +1628,10 @@ Plantillas administrativas\\Red\\Conexiones de red\\Firewall de Windows\\Perfil 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1664,10 +1664,10 @@ Si esta configuración se establece como **Deshabilitada**, se desactiva el Fire
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1698,10 +1698,10 @@ Mediante la configuración **Firewall de Windows: no permitir excepciones** se e
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1736,10 +1736,10 @@ Si establece esta configuración de directiva como **Deshabilitada**, se elimina
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1768,10 +1768,10 @@ La configuración **Firewall de Windows: permitir excepciones de programa local*
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1808,10 +1808,10 @@ En este apéndice se recomienda que deshabilite esta configuración para todos l
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1846,10 +1846,10 @@ Dado que, por lo general, los equipos del entorno en los que se ejecuta Windows 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1884,10 +1884,10 @@ Muchas herramientas de atacantes aprovechan la posibilidad que ofrecen los equip
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1922,10 +1922,10 @@ En algunos ataques se puede aprovechar un puerto 3389 abierto. Para mantener las
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1958,10 +1958,10 @@ El bloqueo del tráfico de red UPnP reduce de forma eficaz la superficie de ataq
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -1994,10 +1994,10 @@ A menudo, a los usuarios no se les permitirá agregar aplicaciones y puertos en 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -2030,10 +2030,10 @@ Normalmente, no deseará respuestas de monodifusión a mensajes de difusión o m
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -2070,10 +2070,10 @@ Para los entornos con aplicaciones no estándar que requieren que se abran deter
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa: Escritorio</th>
-<th>Cliente de empresa: Portátil</th>
-<th>Nivel de seguridad alto: Escritorio</th>
-<th>Nivel de seguridad alto: Portátil</th>
+<th style="border:1px solid black;" >Cliente de empresa: Escritorio</th>
+<th style="border:1px solid black;" >Cliente de empresa: Portátil</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Escritorio</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto: Portátil</th>
 </tr>
 </thead>
 <tbody>
@@ -2118,8 +2118,8 @@ Configuración de usuario\\Plantillas administrativas\\Componentes de Windows\\A
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa</th>
-<th>Nivel de seguridad alto</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto</th>
 </tr>
 </thead>
 <tbody>
@@ -2146,8 +2146,8 @@ Si se establece esta configuración como **Habilitada**, no se marcarán los arc
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa</th>
-<th>Nivel de seguridad alto</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto</th>
 </tr>
 </thead>
 <tbody>
@@ -2176,8 +2176,8 @@ Windows oculta la casilla de verificación y el botón **Desbloquear** cuando es
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cliente de empresa</th>
-<th>Nivel de seguridad alto</th>
+<th style="border:1px solid black;" >Cliente de empresa</th>
+<th style="border:1px solid black;" >Nivel de seguridad alto</th>
 </tr>
 </thead>
 <tbody>

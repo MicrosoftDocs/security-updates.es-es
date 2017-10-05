@@ -28,10 +28,10 @@ En la siguiente tabla, se muestra información acerca de las aplicaciones exclui
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre</th>
-<th>Tipo de datos</th>
-<th>Valores NULL</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre</th>
+<th style="border:1px solid black;" >Tipo de datos</th>
+<th style="border:1px solid black;" >Valores NULL</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -133,10 +133,10 @@ En la siguiente tabla, se muestra información acerca de la cola de mensajes.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre</th>
-<th>Tipo de datos</th>
-<th>Valores NULL</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre</th>
+<th style="border:1px solid black;" >Tipo de datos</th>
+<th style="border:1px solid black;" >Valores NULL</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -184,10 +184,10 @@ En la siguiente tabla, se muestra información sobre el tipo de certificado emit
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre</th>
-<th>Tipo de datos</th>
-<th>Valores NULL</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre</th>
+<th style="border:1px solid black;" >Tipo de datos</th>
+<th style="border:1px solid black;" >Valores NULL</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -235,10 +235,10 @@ En la siguiente tabla, se muestra información sobre el certificado emisor de li
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre</th>
-<th>Tipo de datos</th>
-<th>Valores NULL</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre</th>
+<th style="border:1px solid black;" >Tipo de datos</th>
+<th style="border:1px solid black;" >Valores NULL</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -280,10 +280,10 @@ En la siguiente tabla, se muestra información sobre las ubicaciones en las que 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre</th>
-<th>Tipo de datos</th>
-<th>Valores NULL</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre</th>
+<th style="border:1px solid black;" >Tipo de datos</th>
+<th style="border:1px solid black;" >Valores NULL</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -337,10 +337,10 @@ En la siguiente tabla, se muestra información sobre los servidores que se encue
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre</th>
-<th>Tipo de datos</th>
-<th>Valores NULL</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre</th>
+<th style="border:1px solid black;" >Tipo de datos</th>
+<th style="border:1px solid black;" >Valores NULL</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -388,10 +388,10 @@ En la siguiente tabla, se muestra información sobre los certificados de cuenta 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre</th>
-<th>Tipo de datos</th>
-<th>Valores NULL</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre</th>
+<th style="border:1px solid black;" >Tipo de datos</th>
+<th style="border:1px solid black;" >Valores NULL</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -457,10 +457,10 @@ En la siguiente tabla, se muestra información sobre el certificado emisor de li
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre</th>
-<th>Tipo de datos</th>
-<th>Valores NULL</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre</th>
+<th style="border:1px solid black;" >Tipo de datos</th>
+<th style="border:1px solid black;" >Valores NULL</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -520,10 +520,10 @@ La siguiente tabla contiene información sobre la clave privada del certificado 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre</th>
-<th>Tipo de datos</th>
-<th>Valores NULL</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre</th>
+<th style="border:1px solid black;" >Tipo de datos</th>
+<th style="border:1px solid black;" >Valores NULL</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -607,10 +607,10 @@ En la siguiente tabla, se muestra información sobre las cuentas de Microsoft® 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre</th>
-<th>Tipo de datos</th>
-<th>Valores NULL</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre</th>
+<th style="border:1px solid black;" >Tipo de datos</th>
+<th style="border:1px solid black;" >Valores NULL</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -658,10 +658,10 @@ En la siguiente tabla, se muestra información acerca de los complementos.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre</th>
-<th>Tipo de datos</th>
-<th>Valores NULL</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre</th>
+<th style="border:1px solid black;" >Tipo de datos</th>
+<th style="border:1px solid black;" >Valores NULL</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -757,10 +757,10 @@ En la siguiente tabla, se muestra información acerca de las versiones de los co
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre</th>
-<th>Tipo de datos</th>
-<th>Valores NULL</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre</th>
+<th style="border:1px solid black;" >Tipo de datos</th>
+<th style="border:1px solid black;" >Valores NULL</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -802,10 +802,10 @@ En la siguiente tabla, se muestra información acerca de las propiedades de comp
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre</th>
-<th>Tipo de datos</th>
-<th>Valores NULL</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre</th>
+<th style="border:1px solid black;" >Tipo de datos</th>
+<th style="border:1px solid black;" >Valores NULL</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -865,10 +865,10 @@ En la siguiente tabla, se muestra información acerca del tipo de complemento.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre</th>
-<th>Tipo de datos</th>
-<th>Valores NULL</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre</th>
+<th style="border:1px solid black;" >Tipo de datos</th>
+<th style="border:1px solid black;" >Valores NULL</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -916,10 +916,10 @@ En la siguiente tabla, se muestra información acerca de las plantillas de direc
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre</th>
-<th>Tipo de datos</th>
-<th>Valores NULL</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre</th>
+<th style="border:1px solid black;" >Tipo de datos</th>
+<th style="border:1px solid black;" >Valores NULL</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -967,10 +967,10 @@ En la siguiente tabla, se muestra información acerca de las entidades emisoras 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre</th>
-<th>Tipo de datos</th>
-<th>Valores NULL</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre</th>
+<th style="border:1px solid black;" >Tipo de datos</th>
+<th style="border:1px solid black;" >Valores NULL</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -1030,10 +1030,10 @@ En la siguiente tabla, se muestra información sobre los dominios de correo elec
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre</th>
-<th>Tipo de datos</th>
-<th>Valores NULL</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre</th>
+<th style="border:1px solid black;" >Tipo de datos</th>
+<th style="border:1px solid black;" >Valores NULL</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -1075,10 +1075,10 @@ En la siguiente tabla, se muestra información acerca de los dominios de usuario
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre</th>
-<th>Tipo de datos</th>
-<th>Valores NULL</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre</th>
+<th style="border:1px solid black;" >Tipo de datos</th>
+<th style="border:1px solid black;" >Valores NULL</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -1156,10 +1156,10 @@ En la siguiente tabla, se muestra información acerca de los certificados emisor
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre</th>
-<th>Tipo de datos</th>
-<th>Valores NULL</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre</th>
+<th style="border:1px solid black;" >Tipo de datos</th>
+<th style="border:1px solid black;" >Valores NULL</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>

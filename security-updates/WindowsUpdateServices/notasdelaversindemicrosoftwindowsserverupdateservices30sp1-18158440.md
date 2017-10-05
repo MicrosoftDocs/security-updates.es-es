@@ -149,8 +149,8 @@ Asegúrese de que el servidor WSUS 3.0 SP1 cumpla esta lista de requisitos antes
 </colgroup>
 <thead>
 <tr class="header">
-<th>Requisito</th>
-<th>Detalles</th>
+<th style="border:1px solid black;" >Requisito</th>
+<th style="border:1px solid black;" >Detalles</th>
 </tr>
 </thead>
 <tbody>
@@ -237,8 +237,8 @@ Puede realizar una instalación desatendida de WSUS 3.0 SP1 mediante el programa
 </colgroup>
 <thead>
 <tr class="header">
-<th>Opción</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Opción</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -277,8 +277,8 @@ En esta tabla, se muestran las propiedades de la línea de comandos para WSUS 3.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Propiedad</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Propiedad</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -529,8 +529,8 @@ WSUS 3.0 SP1 es compatible con versiones de Windows Server 2008 de 32 y 64 bits
 </colgroup>
 <thead>
 <tr class="header">
-<th>Requisito</th>
-<th>Detalles</th>
+<th style="border:1px solid black;" >Requisito</th>
+<th style="border:1px solid black;" >Detalles</th>
 </tr>
 </thead>
 <tbody>

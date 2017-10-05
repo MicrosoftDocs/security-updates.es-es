@@ -35,8 +35,8 @@ En la siguiente tabla se describe la sintaxis de cada comando.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parámetro</th>
-<th>Definición</th>
+<th style="border:1px solid black;" >Parámetro</th>
+<th style="border:1px solid black;" >Definición</th>
 </tr>
 </thead>
 <tbody>

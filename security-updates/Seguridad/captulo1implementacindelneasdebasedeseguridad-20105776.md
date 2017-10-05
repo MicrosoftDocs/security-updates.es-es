@@ -522,8 +522,8 @@ Al ejecutar el archivo de Windows Installer (.msi), crea la carpeta **Windows V
 </colgroup>
 <thead>
 <tr class="header">
-<th>Subdirectorio\archivo</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Subdirectorio\archivo</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>

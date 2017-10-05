@@ -194,8 +194,8 @@ En esta guía se utilizan las siguientes convenciones de estilo.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento</th>
-<th>Significado</th>
+<th style="border:1px solid black;" >Elemento</th>
+<th style="border:1px solid black;" >Significado</th>
 </tr>
 </thead>
 <tbody>

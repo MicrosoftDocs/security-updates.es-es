@@ -39,9 +39,9 @@ The keys and their value ranges are listed in the following table.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Entry name</th>
-<th>Data type</th>
-<th>Values</th>
+<th style="border:1px solid black;" >Entry name</th>
+<th style="border:1px solid black;" >Data type</th>
+<th style="border:1px solid black;" >Values</th>
 </tr>
 </thead>
 <tbody>
@@ -112,9 +112,9 @@ The keys and their value ranges are listed in the following table.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Entry name</th>
-<th>Data type</th>
-<th>Value range and meanings</th>
+<th style="border:1px solid black;" >Entry name</th>
+<th style="border:1px solid black;" >Data type</th>
+<th style="border:1px solid black;" >Value range and meanings</th>
 </tr>
 </thead>
 <tbody>
@@ -297,8 +297,8 @@ When the admin creates and sets the **NoAutoRebootWithLoggedOnUsers** registry k
 </colgroup>
 <thead>
 <tr class="header">
-<th>Users with administrator credentials</th>
-<th>Users without administrator credentials</th>
+<th style="border:1px solid black;" >Users with administrator credentials</th>
+<th style="border:1px solid black;" >Users without administrator credentials</th>
 </tr>
 </thead>
 <tbody>

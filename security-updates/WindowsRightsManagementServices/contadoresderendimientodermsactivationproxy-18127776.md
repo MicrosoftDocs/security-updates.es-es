@@ -21,8 +21,8 @@ En la siguiente tabla, se listan los contadores de rendimiento disponibles para 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Contador</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Contador</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>

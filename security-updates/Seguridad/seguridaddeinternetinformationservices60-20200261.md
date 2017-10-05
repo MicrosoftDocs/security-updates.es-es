@@ -231,9 +231,9 @@ En la siguiente tabla se muestra la configuración recomendada de Agregar o quit
 </colgroup>
 <thead>
 <tr class="header">
-<th>Subcomponente o servicio</th>
-<th>Configuración predeterminada</th>
-<th>Configuración del servidor Web</th>
+<th style="border:1px solid black;" >Subcomponente o servicio</th>
+<th style="border:1px solid black;" >Configuración predeterminada</th>
+<th style="border:1px solid black;" >Configuración del servidor Web</th>
 </tr>
 </thead>
 <tbody>

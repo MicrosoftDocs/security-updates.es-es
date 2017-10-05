@@ -35,8 +35,8 @@ The following virtual directories (vroots) are created in IIS (in the Default We
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vroot in IIS</th>
-<th>Properties</th>
+<th style="border:1px solid black;" >Vroot in IIS</th>
+<th style="border:1px solid black;" >Properties</th>
 </tr>
 </thead>
 <tbody>
@@ -153,7 +153,7 @@ You can use adsutil to find the paths for different Web services on your compute
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939903.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="images/Dd939903.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>
@@ -199,8 +199,8 @@ The properties listed below are a partial list.
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Property</strong></th>
-<th><strong>Value</strong></th>
+<th style="border:1px solid black;" ><strong>Property</strong></th>
+<th style="border:1px solid black;" ><strong>Value</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -607,8 +607,8 @@ The properties listed below comprise a partial list.
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Property</strong></th>
-<th><strong>Value</strong></th>
+<th style="border:1px solid black;" ><strong>Property</strong></th>
+<th style="border:1px solid black;" ><strong>Value</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -676,8 +676,8 @@ Properties of the API Remoting Web service
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Property</strong></th>
-<th><strong>Value</strong></th>
+<th style="border:1px solid black;" ><strong>Property</strong></th>
+<th style="border:1px solid black;" ><strong>Value</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -797,8 +797,8 @@ Properties of the Client Web service
 </colgroup>
 <thead>
 <tr class="header">
-<th>Property</th>
-<th>Value</th>
+<th style="border:1px solid black;" >Property</th>
+<th style="border:1px solid black;" >Value</th>
 </tr>
 </thead>
 <tbody>
@@ -918,8 +918,8 @@ Properties of the Downstream Server Authentication Web service
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Property</strong></th>
-<th><strong>Value</strong></th>
+<th style="border:1px solid black;" ><strong>Property</strong></th>
+<th style="border:1px solid black;" ><strong>Value</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -1039,8 +1039,8 @@ Properties of the Inventory Collection Web service
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Property</strong></th>
-<th><strong>Value</strong></th>
+<th style="border:1px solid black;" ><strong>Property</strong></th>
+<th style="border:1px solid black;" ><strong>Value</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -1160,8 +1160,8 @@ Checking the properties of the Reporting Web service
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Property</strong></th>
-<th><strong>Value</strong></th>
+<th style="border:1px solid black;" ><strong>Property</strong></th>
+<th style="border:1px solid black;" ><strong>Value</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -1281,8 +1281,8 @@ Properties of the Selfupdate Web service
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Property</strong></th>
-<th><strong>Value</strong></th>
+<th style="border:1px solid black;" ><strong>Property</strong></th>
+<th style="border:1px solid black;" ><strong>Value</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -1354,8 +1354,8 @@ Properties of the Server Synchronization Web service
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Property</strong></th>
-<th><strong>Value</strong></th>
+<th style="border:1px solid black;" ><strong>Property</strong></th>
+<th style="border:1px solid black;" ><strong>Value</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -1475,8 +1475,8 @@ Properties of the Simple Authorization Web service
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Property</strong></th>
-<th><strong>Value</strong></th>
+<th style="border:1px solid black;" ><strong>Property</strong></th>
+<th style="border:1px solid black;" ><strong>Value</strong></th>
 </tr>
 </thead>
 <tbody>

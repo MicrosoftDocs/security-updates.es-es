@@ -153,9 +153,9 @@ Si bien los usuarios pueden realizar ambas funciones en cualquier entorno concre
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre</th>
-<th>Contenedor</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Nombre</th>
+<th style="border:1px solid black;" >Contenedor</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -259,9 +259,9 @@ La siguiente tabla describe los escenarios que se detallan en la figura y texto 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Escenario</th>
-<th>Descripción</th>
-<th>Nivel de riesgo</th>
+<th style="border:1px solid black;" >Escenario</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Nivel de riesgo</th>
 </tr>
 </thead>
 <tbody>
@@ -333,8 +333,8 @@ La siguiente tabla enumera las cuentas de servicio que ya no usan la cuenta del 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Servicio</th>
-<th>Iniciar sesión como</th>
+<th style="border:1px solid black;" >Servicio</th>
+<th style="border:1px solid black;" >Iniciar sesión como</th>
 </tr>
 </thead>
 <tbody>
@@ -879,10 +879,10 @@ La siguiente tabla enumera y describe los servicios habituales de Windows Server
 </colgroup>
 <thead>
 <tr class="header">
-<th>Servicio</th>
-<th>Nombre del servicio</th>
-<th>Iniciar sesión como</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Servicio</th>
+<th style="border:1px solid black;" >Nombre del servicio</th>
+<th style="border:1px solid black;" >Iniciar sesión como</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>

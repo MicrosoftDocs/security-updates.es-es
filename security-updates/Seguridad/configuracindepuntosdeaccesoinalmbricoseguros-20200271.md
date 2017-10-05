@@ -159,8 +159,8 @@ Para comprender el nivel de seguridad que ofrecen las distintas soluciones de se
 </colgroup>
 <thead>
 <tr class="header">
-<th>Amenaza</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Amenaza</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -221,11 +221,11 @@ En la siguiente tabla se comparan las principales alternativas, excepto el enfoq
 </colgroup>
 <thead>
 <tr class="header">
-<th>Característica</th>
-<th>WPA y WPA2</th>
-<th>WEP estático</th>
-<th>VPN</th>
-<th>IPsec</th>
+<th style="border:1px solid black;" >Característica</th>
+<th style="border:1px solid black;" >WPA y WPA2</th>
+<th style="border:1px solid black;" >WEP estático</th>
+<th style="border:1px solid black;" >VPN</th>
+<th style="border:1px solid black;" >IPsec</th>
 </tr>
 </thead>
 <tbody>
@@ -445,8 +445,8 @@ Como se ha mencionado anteriormente, EAP-TLS necesita al menos cuatro servidores
 </colgroup>
 <thead>
 <tr class="header">
-<th>Componente</th>
-<th>Requisito</th>
+<th style="border:1px solid black;" >Componente</th>
+<th style="border:1px solid black;" >Requisito</th>
 </tr>
 </thead>
 <tbody>
@@ -567,9 +567,9 @@ Hay dos enfoques disponibles para el equilibrio de carga y la conmutación por e
 </colgroup>
 <thead>
 <tr class="header">
-<th>Método</th>
-<th>Ventajas</th>
-<th>Desventajas</th>
+<th style="border:1px solid black;" >Método</th>
+<th style="border:1px solid black;" >Ventajas</th>
+<th style="border:1px solid black;" >Desventajas</th>
 </tr>
 </thead>
 <tbody>
@@ -659,9 +659,9 @@ Otra consideración puede estar relacionada con si es factible colocar servidore
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ubicación de IAS</th>
-<th>Ventajas</th>
-<th>Desventajas</th>
+<th style="border:1px solid black;" >Ubicación de IAS</th>
+<th style="border:1px solid black;" >Ventajas</th>
+<th style="border:1px solid black;" >Desventajas</th>
 </tr>
 </thead>
 <tbody>
@@ -720,8 +720,8 @@ Al calcular la capacidad del servidor IAS, es útil usar el número de autentica
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo de autenticación</th>
-<th>Autenticaciones por segundo</th>
+<th style="border:1px solid black;" >Tipo de autenticación</th>
+<th style="border:1px solid black;" >Autenticaciones por segundo</th>
 </tr>
 </thead>
 <tbody>
@@ -800,9 +800,9 @@ La siguiente tabla incluye parámetros específicos de la organización que debe
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento de configuración</th>
-<th>Referencia</th>
-<th>Parámetro</th>
+<th style="border:1px solid black;" >Elemento de configuración</th>
+<th style="border:1px solid black;" >Referencia</th>
+<th style="border:1px solid black;" >Parámetro</th>
 </tr>
 </thead>
 <tbody>
@@ -869,9 +869,9 @@ Los parámetros identificados en la siguiente tabla no necesitan cambiarse, exce
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento de configuración</th>
-<th>Referencia</th>
-<th>Parámetro</th>
+<th style="border:1px solid black;" >Elemento de configuración</th>
+<th style="border:1px solid black;" >Referencia</th>
+<th style="border:1px solid black;" >Parámetro</th>
 </tr>
 </thead>
 <tbody>
@@ -1105,9 +1105,9 @@ Se debe crear un directorio virtual en IIS para utilizarlo como la ubicación HT
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Usuario o grupo</th>
-    <th>Permiso</th>
-    <th>Permitir o denegar</th>
+    <th style="border:1px solid black;" >Usuario o grupo</th>
+    <th style="border:1px solid black;" >Permiso</th>
+    <th style="border:1px solid black;" >Permitir o denegar</th>
     </tr>
     </thead>
     <tbody>
@@ -1212,8 +1212,8 @@ Esta solución define varios grupos de seguridad que se corresponden con funcion
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Nombre del grupo</th>
-    <th>Función</th>
+    <th style="border:1px solid black;" >Nombre del grupo</th>
+    <th style="border:1px solid black;" >Función</th>
     </tr>
     </thead>
     <tbody>
@@ -1256,8 +1256,8 @@ Los procedimientos de configuración que se describen en el resto del documento 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Función administrativa</th>
-<th>Pertenencia a grupos</th>
+<th style="border:1px solid black;" >Función administrativa</th>
+<th style="border:1px solid black;" >Pertenencia a grupos</th>
 </tr>
 </thead>
 <tbody>
@@ -1295,8 +1295,8 @@ Hay varias cuentas de usuario y grupos que se asociarán a la administración y 
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Unidad organizativa</th>
-    <th>Función</th>
+    <th style="border:1px solid black;" >Unidad organizativa</th>
+    <th style="border:1px solid black;" >Función</th>
     </tr>
     </thead>
     <tbody>
@@ -1523,9 +1523,9 @@ Es necesario asignar los grupos de seguridad creados anteriormente a las funcion
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Grupo</th>
-    <th>Permiso</th>
-    <th>Permitir o denegar</th>
+    <th style="border:1px solid black;" >Grupo</th>
+    <th style="border:1px solid black;" >Permiso</th>
+    <th style="border:1px solid black;" >Permitir o denegar</th>
     </tr>
     </thead>
     <tbody>
@@ -1786,9 +1786,9 @@ Para utilizar las funciones administrativas descritas en esta guía, es necesari
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Grupo</th>
-    <th>Permiso</th>
-    <th>Permitir o denegar</th>
+    <th style="border:1px solid black;" >Grupo</th>
+    <th style="border:1px solid black;" >Permiso</th>
+    <th style="border:1px solid black;" >Permitir o denegar</th>
     </tr>
     </thead>
     <tbody>
@@ -1895,8 +1895,8 @@ La siguiente tabla incluye información que es específica de cada organización
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento de configuración</th>
-<th>Parámetro</th>
+<th style="border:1px solid black;" >Elemento de configuración</th>
+<th style="border:1px solid black;" >Parámetro</th>
 </tr>
 </thead>
 <tbody>
@@ -1932,8 +1932,8 @@ La siguiente tabla incluye parámetros que no deben cambiarse, excepto si hay un
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento de configuración</th>
-<th>Parámetro</th>
+<th style="border:1px solid black;" >Elemento de configuración</th>
+<th style="border:1px solid black;" >Parámetro</th>
 </tr>
 </thead>
 <tbody>
@@ -2099,8 +2099,8 @@ La siguiente tabla incluye parámetros específicos de la organización que se d
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento de configuración</th>
-<th>Parámetro</th>
+<th style="border:1px solid black;" >Elemento de configuración</th>
+<th style="border:1px solid black;" >Parámetro</th>
 </tr>
 </thead>
 <tbody>
@@ -2136,8 +2136,8 @@ La siguiente tabla incluye parámetros que no deben cambiarse, excepto si hay un
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento de configuración</th>
-<th>Parámetro</th>
+<th style="border:1px solid black;" >Elemento de configuración</th>
+<th style="border:1px solid black;" >Parámetro</th>
 </tr>
 </thead>
 <tbody>

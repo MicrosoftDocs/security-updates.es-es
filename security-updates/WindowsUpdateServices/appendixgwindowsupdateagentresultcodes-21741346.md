@@ -29,9 +29,9 @@ The following table shows WUA success codes.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Result Code</th>
-<th>Result String</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Result Code</th>
+<th style="border:1px solid black;" >Result String</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>
@@ -91,9 +91,9 @@ The following table shows WUA error codes.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Result Code</th>
-<th>Result String</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Result Code</th>
+<th style="border:1px solid black;" >Result String</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>

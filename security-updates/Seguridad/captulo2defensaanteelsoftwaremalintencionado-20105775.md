@@ -138,9 +138,9 @@ La tabla siguiente proporciona información sobre la configuración de seguridad
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objeto de directiva</th>
-<th>Descripción</th>
-<th>Valores predeterminados de Windows Vista</th>
+<th style="border:1px solid black;" >Objeto de directiva</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Valores predeterminados de Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -211,9 +211,9 @@ La tabla siguiente proporciona información sobre la configuración de seguridad
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objeto de directiva</th>
-<th>Descripción</th>
-<th>Valores predeterminados de Windows Vista</th>
+<th style="border:1px solid black;" >Objeto de directiva</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Valores predeterminados de Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -249,9 +249,9 @@ La tabla siguiente proporciona información sobre la configuración de seguridad
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objeto de directiva</th>
-<th>Descripción</th>
-<th>Valores predeterminados de Windows Vista</th>
+<th style="border:1px solid black;" >Objeto de directiva</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Valores predeterminados de Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -352,9 +352,9 @@ Puede revisar y modificar la configuración disponible de Windows Defender en la
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objeto de directiva</th>
-<th>Descripción</th>
-<th>Valores predeterminados de Windows Vista</th>
+<th style="border:1px solid black;" >Objeto de directiva</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Valores predeterminados de Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -512,9 +512,9 @@ La plantilla Securitycenter.admx contiene la información referente a XML para e
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objeto de directiva</th>
-<th>Descripción</th>
-<th>Valores predeterminados de Windows Vista</th>
+<th style="border:1px solid black;" >Objeto de directiva</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Valores predeterminados de Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -649,9 +649,9 @@ La tabla siguiente describe este parámetro de configuración.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objeto de directiva</th>
-<th>Descripción</th>
-<th>Valores predeterminados de Windows Vista</th>
+<th style="border:1px solid black;" >Objeto de directiva</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Valores predeterminados de Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -742,9 +742,9 @@ La tabla siguiente describe este parámetro de configuración.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objeto de directiva</th>
-<th>Descripción</th>
-<th>Valores predeterminados de Windows Vista</th>
+<th style="border:1px solid black;" >Objeto de directiva</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Valores predeterminados de Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -790,9 +790,9 @@ Puede hacer uso de la configuración de la directiva en esta sección para restr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objeto de directiva</th>
-<th>Descripción</th>
-<th>Valores predeterminados de Windows Vista</th>
+<th style="border:1px solid black;" >Objeto de directiva</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Valores predeterminados de Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -836,9 +836,9 @@ Internet Explorer incluye comportamientos binarios dinámicos: componentes que e
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objeto de directiva</th>
-<th>Descripción</th>
-<th>Valores predeterminados de Windows Vista</th>
+<th style="border:1px solid black;" >Objeto de directiva</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Valores predeterminados de Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -882,9 +882,9 @@ Internet Explorer utiliza datos MIME (Extensiones seguras multipropósito de cor
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objeto de directiva</th>
-<th>Descripción</th>
-<th>Valores predeterminados de Windows Vista</th>
+<th style="border:1px solid black;" >Objeto de directiva</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Valores predeterminados de Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -924,9 +924,9 @@ La configuración de directivas de esta sección permite seleccionar la presenta
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objeto de directiva</th>
-<th>Descripción</th>
-<th>Valores predeterminados de Windows Vista</th>
+<th style="border:1px solid black;" >Objeto de directiva</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Valores predeterminados de Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -963,9 +963,9 @@ Internet Explorer establece restricciones de zona para cada página Web que abre
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objeto de directiva</th>
-<th>Descripción</th>
-<th>Valores predeterminados de Windows Vista</th>
+<th style="border:1px solid black;" >Objeto de directiva</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Valores predeterminados de Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -1005,9 +1005,9 @@ Esta característica contribuye a evitar la conversión de un archivo de un tipo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objeto de directiva</th>
-<th>Descripción</th>
-<th>Valores predeterminados de Windows Vista</th>
+<th style="border:1px solid black;" >Objeto de directiva</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Valores predeterminados de Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -1047,9 +1047,9 @@ El parámetro de directiva Restricción de seguridad del protocolo MK reduce el 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objeto de directiva</th>
-<th>Descripción</th>
-<th>Valores predeterminados de Windows Vista</th>
+<th style="border:1px solid black;" >Objeto de directiva</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Valores predeterminados de Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -1089,9 +1089,9 @@ Es posible configurar Internet Explorer 7 para evitar que el contenido activo o
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objeto de directiva</th>
-<th>Descripción</th>
-<th>Valores predeterminados de Windows Vista</th>
+<th style="border:1px solid black;" >Objeto de directiva</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Valores predeterminados de Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -1130,9 +1130,9 @@ Para cada zona, se puede configurar la restricción de seguridad ofrecida por el
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objeto de directiva</th>
-<th>Descripción</th>
-<th>Valores predeterminados de Windows Vista</th>
+<th style="border:1px solid black;" >Objeto de directiva</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Valores predeterminados de Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -1181,9 +1181,9 @@ Este parámetro de directiva establece si las referencias a objetos permanecen a
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objeto de directiva</th>
-<th>Descripción</th>
-<th>Valores predeterminados de Windows Vista</th>
+<th style="border:1px solid black;" >Objeto de directiva</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Valores predeterminados de Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -1222,9 +1222,9 @@ Internet Explorer establece restricciones para cada página Web que abre. Las re
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objeto de directiva</th>
-<th>Descripción</th>
-<th>Valores predeterminados de Windows Vista</th>
+<th style="border:1px solid black;" >Objeto de directiva</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Valores predeterminados de Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -1265,9 +1265,9 @@ Estos parámetros de directiva aplican restricciones a la instalación de contro
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objeto de directiva</th>
-<th>Descripción</th>
-<th>Valores predeterminados de Windows Vista</th>
+<th style="border:1px solid black;" >Objeto de directiva</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Valores predeterminados de Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -1306,9 +1306,9 @@ Estos parámetros de directiva aplican restricciones a las descargas de archivos
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objeto de directiva</th>
-<th>Descripción</th>
-<th>Valores predeterminados de Windows Vista</th>
+<th style="border:1px solid black;" >Objeto de directiva</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Valores predeterminados de Windows Vista</th>
 </tr>
 </thead>
 <tbody>
@@ -1347,9 +1347,9 @@ Internet Explorer permite que las secuencias de comandos, mediante programación
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objeto de directiva</th>
-<th>Descripción</th>
-<th>Valores predeterminados de Windows Vista</th>
+<th style="border:1px solid black;" >Objeto de directiva</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Valores predeterminados de Windows Vista</th>
 </tr>
 </thead>
 <tbody>

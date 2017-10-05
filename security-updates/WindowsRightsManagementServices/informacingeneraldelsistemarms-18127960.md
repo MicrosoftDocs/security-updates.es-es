@@ -23,8 +23,8 @@ En la tabla siguiente se muestran los tipos de servidores que intervienen en una
 </colgroup>
 <thead>
 <tr class="header">
-<th>Servidor o clúster</th>
-<th>Función</th>
+<th style="border:1px solid black;" >Servidor o clúster</th>
+<th style="border:1px solid black;" >Función</th>
 </tr>
 </thead>
 <tbody>

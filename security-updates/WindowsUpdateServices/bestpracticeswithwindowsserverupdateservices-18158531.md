@@ -39,8 +39,8 @@ However, if you are aware of and want to protect computers against immediate sec
 </colgroup>
 <thead>
 <tr class="header">
-<th>Policy</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Policy</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>

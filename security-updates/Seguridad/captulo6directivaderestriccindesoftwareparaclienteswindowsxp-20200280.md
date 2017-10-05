@@ -325,8 +325,8 @@ Utilice la información de la siguiente tabla para determinar el tipo de regla q
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tarea</th>
-<th>Regla recomendada</th>
+<th style="border:1px solid black;" >Tarea</th>
+<th style="border:1px solid black;" >Regla recomendada</th>
 </tr>
 </thead>
 <tbody>
@@ -460,10 +460,10 @@ Para el diseño de GPO que se define en esta guía, se quitan los tipos de archi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Extensión del archivo</th>
-<th>Descripción</th>
-<th>Extensión del archivo</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Extensión del archivo</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Extensión del archivo</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -600,8 +600,8 @@ La siguiente tabla muestra las opciones de editores de confianza relacionadas co
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nombre de la configuración</th>
-<th>Tarea</th>
+<th style="border:1px solid black;" >Nombre de la configuración</th>
+<th style="border:1px solid black;" >Tarea</th>
 </tr>
 </thead>
 <tbody>
@@ -660,8 +660,8 @@ En esta sección se describen los pasos que deben seguirse al diseñar e impleme
 </colgroup>
 <thead>
 <tr class="header">
-<th>Decisión</th>
-<th>Factores que deben considerarse</th>
+<th style="border:1px solid black;" >Decisión</th>
+<th style="border:1px solid black;" >Factores que deben considerarse</th>
 </tr>
 </thead>
 <tbody>
@@ -788,9 +788,9 @@ Una vez probada a fondo la directiva, aplíquela a la unidad organizativa Equipo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Regla predeterminada en la UI</th>
-<th>Descripción</th>
-<th>Configuración</th>
+<th style="border:1px solid black;" >Regla predeterminada en la UI</th>
+<th style="border:1px solid black;" >Descripción</th>
+<th style="border:1px solid black;" >Configuración</th>
 </tr>
 </thead>
 <tbody>
@@ -812,8 +812,8 @@ Una vez probada a fondo la directiva, aplíquela a la unidad organizativa Equipo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Regla de ruta</th>
-<th>Configuración</th>
+<th style="border:1px solid black;" >Regla de ruta</th>
+<th style="border:1px solid black;" >Configuración</th>
 </tr>
 </thead>
 <tbody>
@@ -862,8 +862,8 @@ Una vez probada a fondo la directiva, aplíquela a la unidad organizativa Equipo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Opciones de obligatoriedad</th>
-<th>Recomendación</th>
+<th style="border:1px solid black;" >Opciones de obligatoriedad</th>
+<th style="border:1px solid black;" >Recomendación</th>
 </tr>
 </thead>
 <tbody>
@@ -888,8 +888,8 @@ Una vez probada a fondo la directiva, aplíquela a la unidad organizativa Equipo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipos de archivo</th>
-<th>Recomendación</th>
+<th style="border:1px solid black;" >Tipos de archivo</th>
+<th style="border:1px solid black;" >Recomendación</th>
 </tr>
 </thead>
 <tbody>
@@ -910,8 +910,8 @@ Una vez probada a fondo la directiva, aplíquela a la unidad organizativa Equipo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Editores de confianza</th>
-<th>Recomendación</th>
+<th style="border:1px solid black;" >Editores de confianza</th>
+<th style="border:1px solid black;" >Recomendación</th>
 </tr>
 </thead>
 <tbody>

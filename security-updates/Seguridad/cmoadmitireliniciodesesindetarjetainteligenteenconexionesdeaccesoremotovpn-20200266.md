@@ -580,8 +580,8 @@ En la siguiente tabla se muestran algunas directrices de solución de problemas 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Problema</th>
-<th>Solución</th>
+<th style="border:1px solid black;" >Problema</th>
+<th style="border:1px solid black;" >Solución</th>
 </tr>
 </thead>
 <tbody>

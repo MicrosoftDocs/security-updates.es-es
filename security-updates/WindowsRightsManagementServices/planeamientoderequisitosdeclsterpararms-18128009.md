@@ -21,8 +21,8 @@ Si utiliza RMS en una implementación de clúster, asegúrese de tener en cuenta
 </colgroup>
 <thead>
 <tr class="header">
-<th>Condición</th>
-<th>Recomendación</th>
+<th style="border:1px solid black;" >Condición</th>
+<th style="border:1px solid black;" >Recomendación</th>
 </tr>
 </thead>
 <tbody>

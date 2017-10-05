@@ -18,7 +18,7 @@ After installing WSUS 3.0 SP2 on a server, you can manage WSUS 3.0 SP2 from any 
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939875.Important(WS.10).gif" />Importante</th>
+<th style="border:1px solid black;" ><img src="images/Dd939875.Important(WS.10).gif" />Importante</th>
 </tr>
 </thead>
 <tbody>
@@ -50,7 +50,7 @@ To install the WSUS 3.0 SP2 administration console, use the same installation pa
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939875.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="images/Dd939875.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>

@@ -157,8 +157,8 @@ En la tabla siguiente se indican las convenciones de estilo que se utilizan en l
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento</th>
-<th>Significado</th>
+<th style="border:1px solid black;" >Elemento</th>
+<th style="border:1px solid black;" >Significado</th>
 </tr>
 </thead>
 <tbody>
@@ -1857,9 +1857,9 @@ Otro comportamiento común del software malintencionado es el uso de carpetas co
 </colgroup>
 <thead>
 <tr class="header">
-<th>Carpeta compartida</th>
-<th>Ruta compartida</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Carpeta compartida</th>
+<th style="border:1px solid black;" >Ruta compartida</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1897,9 +1897,9 @@ Otro comportamiento común del software malintencionado es el uso de carpetas co
 </colgroup>
 <thead>
 <tr class="header">
-<th>Carpeta compartida</th>
-<th>Ruta compartida</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Carpeta compartida</th>
+<th style="border:1px solid black;" >Ruta compartida</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -2021,8 +2021,8 @@ El factor principal a considerar en la elección de una opción u otra es el niv
 </colgroup>
 <thead>
 <tr class="header">
-<th>Limpieza</th>
-<th>Reconstrucción</th>
+<th style="border:1px solid black;" >Limpieza</th>
+<th style="border:1px solid black;" >Reconstrucción</th>
 </tr>
 </thead>
 <tbody>

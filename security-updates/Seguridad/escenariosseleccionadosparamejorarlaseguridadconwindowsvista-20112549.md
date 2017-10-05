@@ -44,8 +44,8 @@ Esta sección describe características de seguridad seleccionadas, nuevas y act
 </colgroup>
 <thead>
 <tr class="header">
-<th>Área de características</th>
-<th>Beneficio</th>
+<th style="border:1px solid black;" >Área de características</th>
+<th style="border:1px solid black;" >Beneficio</th>
 </tr>
 </thead>
 <tbody>

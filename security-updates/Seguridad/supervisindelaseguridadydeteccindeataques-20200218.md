@@ -179,8 +179,8 @@ Los encabezados de los eventos se componen de los campos siguientes:
 </colgroup>
 <thead>
 <tr class="header">
-<th>Campo</th>
-<th>Definición</th>
+<th style="border:1px solid black;" >Campo</th>
+<th style="border:1px solid black;" >Definición</th>
 </tr>
 </thead>
 <tbody>
@@ -568,9 +568,9 @@ Una de las decisiones que deben tomar las empresas es el tiempo que se deben gua
 </colgroup>
 <thead>
 <tr class="header">
-<th>Factores de almacenamiento</th>
-<th>Límites de almacenamiento</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Factores de almacenamiento</th>
+<th style="border:1px solid black;" >Límites de almacenamiento</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -787,9 +787,9 @@ En la siguiente tabla, se incluyen los eventos de auditorías de inicio de sesi�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de evento</th>
-<th>Evento</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -868,9 +868,9 @@ Otro malware puede adoptar la forma de archivos adjuntos de correo electrónico 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de evento</th>
-<th>Evento</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -916,9 +916,9 @@ Los eventos de auditoría de acceso a objetos de la tabla siguiente se encargan 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de evento</th>
-<th>Evento</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -949,9 +949,9 @@ Los cambios de contraseñas sólo se deberían producir en un marco de procedimi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de evento</th>
-<th>Evento</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -987,9 +987,9 @@ Cualquier modificación de una cuenta, ya sea para agregarla, eliminarla o cambi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de evento</th>
-<th>Evento</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1044,9 +1044,9 @@ Los eventos de auditoría de administración de cuentas de la tabla siguiente de
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de evento</th>
-<th>Evento</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1098,9 +1098,9 @@ En la tabla siguiente se incluyen los eventos que identifican el uso de cuentas 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de evento</th>
-<th>Evento</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1163,9 +1163,9 @@ En la tabla siguiente, se incluyen los eventos de auditoría de inicio de sesió
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de evento</th>
-<th>Evento</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1208,9 +1208,9 @@ La siguiente tabla incluye los eventos de seguimiento de procesos que pueden ide
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de evento</th>
-<th>Evento</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1243,9 +1243,9 @@ La tabla siguiente de eventos de auditoría de acceso a objetos indica intentos 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de evento</th>
-<th>Evento</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1302,9 +1302,9 @@ Los eventos de seguimiento de procesos que se incluyen en la tabla siguiente se 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de evento</th>
-<th>Evento</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1342,9 +1342,9 @@ Los eventos de auditoría de cambios de directiva de la tabla siguiente identifi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de evento</th>
-<th>Evento</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1404,9 +1404,9 @@ En la tabla siguiente, se incluyen los eventos de auditoría de cambio de direct
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de evento</th>
-<th>Evento</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1452,9 +1452,9 @@ En la tabla siguiente, se incluyen los eventos que se pueden producir a causa de
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de evento</th>
-<th>Evento</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1526,9 +1526,9 @@ Además de los eventos que ya se han mencionado, entre los eventos más importan
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de evento</th>
-<th>Evento</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1571,9 +1571,9 @@ En la tabla siguiente, se incluyen varios tipos de evento que ayudan a identific
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de evento</th>
-<th>Evento</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1693,9 +1693,9 @@ Los eventos de la tabla siguiente suelen excluirse de las consultas de supervisi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de evento</th>
-<th>Evento</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1806,9 +1806,9 @@ Los sucesos que se enumeran en la tabla siguiente a menudo se excluyen de las co
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de suceso</th>
-<th>Incidencia</th>
-<th>Comentarios</th>
+<th style="border:1px solid black;" >Id. de suceso</th>
+<th style="border:1px solid black;" >Incidencia</th>
+<th style="border:1px solid black;" >Comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -1944,9 +1944,9 @@ Este apéndice se debería utilizar para comprobar la configuración actual del 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ruta de acceso de directiva</th>
-<th>Directiva</th>
-<th>Configuración de directiva y comentarios</th>
+<th style="border:1px solid black;" >Ruta de acceso de directiva</th>
+<th style="border:1px solid black;" >Directiva</th>
+<th style="border:1px solid black;" >Configuración de directiva y comentarios</th>
 </tr>
 </thead>
 <tbody>
@@ -2056,9 +2056,9 @@ Para configurar correctamente los valores de auditoría de seguridad de Directiv
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ruta de directiva</th>
-<th>Directiva</th>
-<th>Configuración de la directiva y comentarios</th>
+<th style="border:1px solid black;" >Ruta de directiva</th>
+<th style="border:1px solid black;" >Directiva</th>
+<th style="border:1px solid black;" >Configuración de la directiva y comentarios</th>
 </tr>
 </thead>
 <tbody>

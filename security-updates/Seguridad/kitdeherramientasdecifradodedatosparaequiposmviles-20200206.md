@@ -199,8 +199,8 @@ El resultado del proceso de decisión se puede parecer al que se muestra en la s
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo de sistema</th>
-<th>Directiva y configuración de BitLocker</th>
+<th style="border:1px solid black;" >Tipo de sistema</th>
+<th style="border:1px solid black;" >Directiva y configuración de BitLocker</th>
 </tr>
 </thead>
 <tbody>

@@ -43,7 +43,7 @@ Besides bandwidth, another consideration when choosing to download express insta
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939905.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="images/Dd939905.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>
@@ -95,7 +95,7 @@ You create the new path for local WSUS update storage before moving the content.
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939905.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="images/Dd939905.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>

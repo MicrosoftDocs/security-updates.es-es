@@ -167,9 +167,9 @@ El aislamiento físico de equipos y redes no es un concepto nuevo. Se ha venido 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nivel OSI</th>
-<th>Método</th>
-<th>Problemas</th>
+<th style="border:1px solid black;" >Nivel OSI</th>
+<th style="border:1px solid black;" >Método</th>
+<th style="border:1px solid black;" >Problemas</th>
 </tr>
 </thead>
 <tbody>

@@ -47,9 +47,9 @@ En la tabla siguiente, se especifica la configuración predeterminada de Firewal
 </colgroup>
 <thead>
 <tr class="header">
-<th>Opción</th>
-<th>Configuración predeterminada</th>
-<th>Supuesto de modificación</th>
+<th style="border:1px solid black;" >Opción</th>
+<th style="border:1px solid black;" >Configuración predeterminada</th>
+<th style="border:1px solid black;" >Supuesto de modificación</th>
 </tr>
 </thead>
 <tbody>
@@ -345,10 +345,10 @@ Tras completar los pasos siguientes para configurar los parámetros de Firewall 
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Configuración</th>
-    <th>Descripción</th>
-    <th>Perfil de dominio</th>
-    <th>Perfil estándar</th>
+    <th style="border:1px solid black;" >Configuración</th>
+    <th style="border:1px solid black;" >Descripción</th>
+    <th style="border:1px solid black;" >Perfil de dominio</th>
+    <th style="border:1px solid black;" >Perfil estándar</th>
     </tr>
     </thead>
     <tbody>

@@ -26,7 +26,7 @@ You can assign computers to computer groups by using one of two methods, server-
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939858.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="images/Dd939858.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>

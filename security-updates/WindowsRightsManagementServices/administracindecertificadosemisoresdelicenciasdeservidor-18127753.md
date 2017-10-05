@@ -24,9 +24,9 @@ Debe supervisar tres sucesos que RMS expondrá en el registro de sucesos del sis
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id. de suceso</th>
-<th>Nombre del suceso</th>
-<th>Tipo de suceso</th>
+<th style="border:1px solid black;" >Id. de suceso</th>
+<th style="border:1px solid black;" >Nombre del suceso</th>
+<th style="border:1px solid black;" >Tipo de suceso</th>
 </tr>
 </thead>
 <tbody>

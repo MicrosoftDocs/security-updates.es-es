@@ -39,10 +39,10 @@ Donde una versión de sistema operativo no se muestre en una función, no funcio
 </colgroup>
 <thead>
 <tr class="header">
-<th>Función</th>
-<th>Versión del sistema operativo</th>
-<th>Estado</th>
-<th>Notas</th>
+<th style="border:1px solid black;" >Función</th>
+<th style="border:1px solid black;" >Versión del sistema operativo</th>
+<th style="border:1px solid black;" >Estado</th>
+<th style="border:1px solid black;" >Notas</th>
 </tr>
 </thead>
 <tbody>

@@ -36,8 +36,8 @@ You can generate three kinds of reports, as described in the following table.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Report name</th>
-<th>Function</th>
+<th style="border:1px solid black;" >Report name</th>
+<th style="border:1px solid black;" >Function</th>
 </tr>
 </thead>
 <tbody>
@@ -89,8 +89,8 @@ The Update Status Summary view contains the elements listed in the following tab
 </colgroup>
 <thead>
 <tr class="header">
-<th>Column name</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Column name</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>
@@ -191,8 +191,8 @@ The report has four components, which are described in the following table.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Component name</th>
-<th>Purpose</th>
+<th style="border:1px solid black;" >Component name</th>
+<th style="border:1px solid black;" >Purpose</th>
 </tr>
 </thead>
 <tbody>

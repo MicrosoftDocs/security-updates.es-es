@@ -54,8 +54,8 @@ En la tabla siguiente se ofrece un resumen razonable de los costos asociados a l
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento de costo</th>
-<th>Importe</th>
+<th style="border:1px solid black;" >Elemento de costo</th>
+<th style="border:1px solid black;" >Importe</th>
 </tr>
 </thead>
 <tbody>

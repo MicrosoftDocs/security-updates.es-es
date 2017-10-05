@@ -29,8 +29,8 @@ La lista de control de acceso predeterminada de este servicio se muestra en la s
 </colgroup>
 <thead>
 <tr class="header">
-<th>Usuario o grupo</th>
-<th>Permiso predeterminado</th>
+<th style="border:1px solid black;" >Usuario o grupo</th>
+<th style="border:1px solid black;" >Permiso predeterminado</th>
 </tr>
 </thead>
 <tbody>

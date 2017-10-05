@@ -58,8 +58,8 @@ Update classifications represent the type of update. For any given product or pr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Update Classification</th>
-<th>Description</th>
+<th style="border:1px solid black;" >Update Classification</th>
+<th style="border:1px solid black;" >Description</th>
 </tr>
 </thead>
 <tbody>

@@ -62,7 +62,7 @@ En esta sección se describen los requisitos de software y hardware necesarios p
         </colgroup>
         <thead>
         <tr class="header">
-        <th><img src="images/Dd939886.Warning(WS.10).gif" />Advertencia</th>
+        <th style="border:1px solid black;" ><img src="images/Dd939886.Warning(WS.10).gif" />Advertencia</th>
         </tr>
         </thead>
         <tbody>
@@ -97,7 +97,7 @@ En esta sección se describen los requisitos de software y hardware necesarios p
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939886.Important(WS.10).gif" />Importante</th>
+<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Importante</th>
 </tr>
 </thead>
 <tbody>
@@ -134,7 +134,7 @@ La siguiente lista contiene los requisitos mínimos de hardware necesarios para 
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939886.Important(WS.10).gif" />Importante</th>
+<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Importante</th>
 </tr>
 </thead>
 <tbody>
@@ -176,7 +176,7 @@ Al instalar WSUS 3.0 SP2, puede que tenga que deshabilitar programas antivirus p
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939886.Caution(WS.10).gif" />Precaución</th>
+<th style="border:1px solid black;" ><img src="images/Dd939886.Caution(WS.10).gif" />Precaución</th>
 </tr>
 </thead>
 <tbody>
@@ -326,8 +326,8 @@ Puede realizar instalaciones desatendidas de WSUS 3.0 SP2 si utiliza el programa
 </colgroup>
 <thead>
 <tr class="header">
-<th>Opción</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Opción</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -366,8 +366,8 @@ Esta tabla muestra las propiedades de línea de comandos para WSUS 3.0 SP2.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Propiedad</th>
-<th>Descripción</th>
+<th style="border:1px solid black;" >Propiedad</th>
+<th style="border:1px solid black;" >Descripción</th>
 </tr>
 </thead>
 <tbody>
@@ -446,7 +446,7 @@ WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (instalar en modo silencioso utilizando el p
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939886.Important(WS.10).gif" />Importante</th>
+<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Importante</th>
 </tr>
 </thead>
 <tbody>

@@ -35,9 +35,9 @@ The keys and their value ranges are listed in the following table.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Entry Name</th>
-<th>Values</th>
-<th>Data Type</th>
+<th style="border:1px solid black;" >Entry Name</th>
+<th style="border:1px solid black;" >Values</th>
+<th style="border:1px solid black;" >Data Type</th>
 </tr>
 </thead>
 <tbody>
@@ -93,9 +93,9 @@ The keys and their value ranges are listed in the following table.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Entry Name</th>
-<th>Value Range and Meanings</th>
-<th>Data Type</th>
+<th style="border:1px solid black;" >Entry Name</th>
+<th style="border:1px solid black;" >Value Range and Meanings</th>
+<th style="border:1px solid black;" >Data Type</th>
 </tr>
 </thead>
 <tbody>
