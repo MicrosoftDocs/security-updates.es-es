@@ -13,15 +13,15 @@ Antes de instalar un servidor de certificación raíz o un servidor de licencias
 
 Los procedimientos siguientes configuran un controlador de dominio y un servidor de base de datos en un único equipo en una red aislada para realizar pruebas de servidor.
 
-| ![](images/Cc747681.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                                                    |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En este ejemplo, el servidor de base de datos se ejecuta en el controlador de dominio. En un entorno de producción, generalmente no es recomendable alojar otros componentes en un controlador de dominio. En este ejemplo, Active Directory y el servidor de base de datos están instalados en el mismo equipo para habilitar la instalación de toda la infraestructura en un número mínimo de equipos. |
+> [!NOTE]
+> En este ejemplo, el servidor de base de datos se ejecuta en el controlador de dominio. En un entorno de producción, generalmente no es recomendable alojar otros componentes en un controlador de dominio. En este ejemplo, Active Directory y el servidor de base de datos están instalados en el mismo equipo para habilitar la instalación de toda la infraestructura en un número mínimo de equipos. 
 
 Si decide utilizar MSDE 2000 como servidor de bases de datos, debe tener en cuenta que no acepta interfaces de red y que los términos de uso de MSDE 2000 especifican que no puede utilizar herramientas de cliente de SQL Server para manipular una base de datos MSDE. Dada esta restricción, no podrá ver información de registro ni cambiar los datos almacenados en la base de datos de configuración. Por tanto, se recomienda utilizar MSDE 2000 sólo para permitir bases de datos de RMS en entornos de prueba.
 
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

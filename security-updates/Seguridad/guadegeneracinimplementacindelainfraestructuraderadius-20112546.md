@@ -112,6 +112,7 @@ En la siguiente tabla se enumeran parámetros específicos de organización toma
 **Tabla 8.1: Elementos de configuración definidos por el usuario**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -154,6 +155,7 @@ La configuración especificada en esta tabla no se debe cambiar en instalaciones
 **Tabla 8.2: Elementos de configuración que recomienda la solución**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -248,6 +250,7 @@ Las especificaciones de hardware siguientes se utilizaron para probar esta soluc
 **Tabla 8.3: Especificaciones de hardware de servidor probadas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -551,7 +554,8 @@ Debe seguir el siguiente procedimiento para importar la plantilla Cliente empres
     **Tabla 8.4: Objetos de directiva de grupo y ubicación**
 
  
-    <table style="border:1px solid black;">
+    <p> </p>
+<table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
     <col width="33%" />
@@ -687,6 +691,7 @@ Debe establecerse la siguiente configuración de Servicios de Terminal Server en
 **Tabla 8.5: Configuración para Configuración de equipo\\Plantillas administrativas\\Componentes de Windows\\Servicios de Terminal Server**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -817,6 +822,7 @@ IAS se instala con el administrador de componentes opcionales de Windows (al que
 **Tabla 8.6 Componentes de IAS para instalar**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

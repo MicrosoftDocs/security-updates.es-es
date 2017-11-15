@@ -103,6 +103,7 @@ Puede usar una matriz de vectores de ataque, objetivos de los ataques, descripci
 **Tabla 1. Ataques en línea por correo electrónico y costos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -173,6 +174,7 @@ Los dos métodos más habituales de engañar a un usuario para que haga clic en 
 **Tabla 2. Ataques en línea mediante aplicaciones y cuadros de diálogo emergentes y costos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -228,6 +230,7 @@ El pirata informático (de color rojo) se hace pasar por otro usuario conocido y
 **Tabla 3. Ataques por mensajería instantánea y costos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -302,6 +305,7 @@ Las solicitudes de información o acceso telefónico constituyen una forma de at
 **Tabla 4. Ataques a centrales de conmutación y costos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -344,6 +348,7 @@ El departamento de soporte es una de las defensas fundamentales frente a los pir
 **Tabla 5. Ataques telefónicos al servicio de ayuda y costos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -394,6 +399,7 @@ Los medios electrónicos pueden ser incluso más útiles. Si las compañías no 
 **Tabla 6: Ataques de gestión de residuos y costos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -491,6 +497,7 @@ La seguridad de los trabajadores en casa suele estar limitada a la tecnología. 
 **Tabla 7. Ataques con acceso físico y costos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -609,6 +616,7 @@ No siempre es necesario tener información o incluso conocer a un objetivo para 
 **Tabla 8. Ataques de ingeniería social inversa y costos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -693,6 +701,7 @@ Este grupo, el comité de control de seguridad, representa a los moderadores de 
 **Tabla 9. Vulnerabilidades vectoriales de los ataques de ingeniería social a compañías**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -824,6 +833,7 @@ Según la evaluación comercial de la matriz Vulnerabilidades vectoriales de ata
 **Tabla 10. Requisitos del comité de control de seguridad y matriz de riesgos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1006,6 +1016,7 @@ El comité de control de seguridad tiene las principales áreas de seguridad y l
 **Tabla 11. Procedimiento del comité de control y documentos necesarios**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1184,6 +1195,7 @@ Se presentó una serie de tablas para capturar las vulnerabilidades de la ingeni
 #### Vulnerabilidades vectoriales de ataque de ingeniería social a compañías
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1284,6 +1296,7 @@ Se presentó una serie de tablas para capturar las vulnerabilidades de la ingeni
 #### Requisitos del comité de control de seguridad y matriz de riesgos
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1379,6 +1392,7 @@ Se presentó una serie de tablas para capturar las vulnerabilidades de la ingeni
 #### Procedimiento del comité de control y documentos necesarios
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1429,6 +1443,7 @@ Se presentó una serie de tablas para capturar las vulnerabilidades de la ingeni
 #### Lista de comprobación de implementación de la directiva de seguridad
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1489,6 +1504,7 @@ Se presentó una serie de tablas para capturar las vulnerabilidades de la ingeni
 #### Informe de incidentes
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1539,6 +1555,7 @@ Se presentó una serie de tablas para capturar las vulnerabilidades de la ingeni
 ### Apéndice 2: Glosario
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

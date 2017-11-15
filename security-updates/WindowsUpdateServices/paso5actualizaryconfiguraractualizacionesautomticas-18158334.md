@@ -11,9 +11,8 @@ Paso 5: actualizar y configurar actualizaciones automáticas
 
 Los equipos cliente WSUS requieren una versión compatible de actualizaciones automáticas. El programa de instalación de WSUS configura IIS automáticamente para que distribuya la última versión de actualizaciones automáticas a cada equipo cliente que se conecte con el servidor WSUS.
 
-| ![](images/Cc720533.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Aunque la mayoría de las versiones de actualizaciones automáticas pueden señalar al servidor WSUS y se actualizarán automáticamente a la versión compatible con WSUS, la versión de actualizaciones automáticas incluida con Windows XP sin Service Packs no se actualiza automáticamente. Si su entorno tiene Windows XP sin Service Packs y no ha utilizado nunca Servicio de actualización de software (SUS), lea las instrucciones en las notas del producto “Deploying Microsoft Windows Server Update Services” (el documento puede estar en inglés). |
+> [!NOTE]
+> Aunque la mayoría de las versiones de actualizaciones automáticas pueden señalar al servidor WSUS y se actualizarán automáticamente a la versión compatible con WSUS, la versión de actualizaciones automáticas incluida con Windows XP sin Service Packs no se actualiza automáticamente. Si su entorno tiene Windows XP sin Service Packs y no ha utilizado nunca Servicio de actualización de software (SUS), lea las instrucciones en las notas del producto “Deploying Microsoft Windows Server Update Services” (el documento puede estar en inglés). 
 
 La manera más adecuada de configurar las actualizaciones automáticas depende del entorno de red. En un entorno de Active Directory, puede utilizar el objeto Directiva de grupo (GPO) de Active Directory. En un entorno que no sea de Active Directory, use el objeto Directiva de grupo local. Tanto si utiliza el objeto Directiva de grupo local como un GPO almacenado en un controlador de dominio, debe hacer que los equipos cliente señalen al servidor WSUS y, después, configurar las actualizaciones automáticas.
 
@@ -55,9 +54,8 @@ Realice los tres procedimientos siguientes en un objeto Directiva de grupo basad
 
 4.  Haga clic en **Aceptar**.
 
-| ![](images/Cc720533.note(WS.10).gif)Nota                                                                                                         |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| La opción **Permitir que el administrador local elija la configuración** solamente aparece si Actualizaciones automáticas se ha actualizado a la versión compatible con WSUS. |
+> [!NOTE]
+> La opción **Permitir que el administrador local elija la configuración** solamente aparece si Actualizaciones automáticas se ha actualizado a la versión compatible con WSUS. 
 
 **Para orientar el equipo cliente al servidor WSUS**
 1.  En el Editor de objetos de directiva de grupo, expanda **Configuración del equipo**, expanda **Plantillas administrativas**, expanda **Componentes de Windows** y haga clic en **Windows Update**.
@@ -68,9 +66,8 @@ Realice los tres procedimientos siguientes en un objeto Directiva de grupo basad
 
 4.  Haga clic en **Aceptar**.
 
-| ![](images/Cc720533.note(WS.10).gif)Nota                                                                                                                                                                                                                               |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Si utiliza el objeto Directiva de grupo local para orientar este equipo a WSUS, esta configuración tiene efecto inmediatamente y el equipo debería aparecer en la consola administrativa de WSUS en 20 minutos aproximadamente. Para acelerar el proceso, inicie un ciclo de detección manualmente. |
+> [!NOTE]
+> Si utiliza el objeto Directiva de grupo local para orientar este equipo a WSUS, esta configuración tiene efecto inmediatamente y el equipo debería aparecer en la consola administrativa de WSUS en 20 minutos aproximadamente. Para acelerar el proceso, inicie un ciclo de detección manualmente. 
 
 Una vez que se ha configurado un equipo cliente, pasarán algunos minutos hasta que aparezca en la página **Equipos** de la consola de WSUS. En el caso de los equipos cliente configurados con un GPO basado en Active Directory, transcurrirán unos 20 minutos hasta que Directiva de grupo se actualice, es decir, hasta que se aplique la nueva configuración al equipo cliente. De manera predeterminada, Directiva de grupo se actualiza en segundo plano cada 90 minutos, con un desplazamiento aleatorio de 0 a 30 minutos. Si desea que se actualice antes, abra el símbolo del sistema en el equipo cliente y escriba: **gpupdate /force**.
 

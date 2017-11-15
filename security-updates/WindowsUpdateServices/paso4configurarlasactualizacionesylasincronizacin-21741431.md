@@ -69,7 +69,8 @@ En los procedimientos del paso 3, ha completado la configuración del servidor q
 4.  Haga clic en **Finalizar**.
 
  
-    <table style="border:1px solid black;">
+    <p> </p>
+<table style="border:1px solid black;">
     <colgroup>
     <col width="100%" />
     </colgroup>

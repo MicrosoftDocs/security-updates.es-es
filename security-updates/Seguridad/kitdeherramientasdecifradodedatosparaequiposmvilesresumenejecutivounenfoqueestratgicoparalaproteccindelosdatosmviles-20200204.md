@@ -47,6 +47,7 @@ Lamentablemente, estos esfuerzos no pusieron fin a sus problemas. Aunque no hubo
 En la tabla siguiente se ofrece un resumen razonable de los costos asociados a la historia anterior.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

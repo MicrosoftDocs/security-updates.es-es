@@ -11,9 +11,8 @@ Configuración de una infraestructura básica
 
 La manera en que se configura la infraestructura depende de los requisitos del sistema para la instalación de RMS, además de los procedimientos recomendados para configurar la infraestructura. El entorno básico de servidor necesario para admitir RMS es un controlador de dominio, un servidor de base de datos y un servidor de RMS configurado como servidor de certificación raíz. Los temas siguientes proporcionan procedimientos de configuración para estos componentes de la infraestructura, además de información adicional relacionada con la implementación de estos componentes.
 
-| ![](images/Cc720243.note(WS.10).gif)Nota                                                                                                                                                                                                |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Para implementar RMS es necesario que el software de cliente de RMS se haya instalado en los equipos cliente que se utilizarán con el servidor de RMS. Puede descargar el cliente de RMS del [sitio Web de Microsoft](http://go.microsoft.com/fwlink/?linkid=18134). |
+> [!NOTE]
+> Para implementar RMS es necesario que el software de cliente de RMS se haya instalado en los equipos cliente que se utilizarán con el servidor de RMS. Puede descargar el cliente de RMS del [sitio Web de Microsoft](http://go.microsoft.com/fwlink/?linkid=18134). 
 
 Se tratan los siguientes temas:
 

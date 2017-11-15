@@ -28,22 +28,9 @@ has an InstallType subkey with the following possible values:
 **FullInstall = 128**
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939828.note(WS.10).gif" />Nota</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">You can upgrade from WSUS 2.0 to WSUS 3.0 SP2 for installations with the <strong>Frontend</strong> and <strong>FullInstall</strong> values. For the <strong>Backend</strong> value, you would uninstall WSUS, leaving the database behind. This database will be upgraded when the front-end WSUS server that points to the database is upgraded.
-</td>
-</tr>
-</tbody>
-</table>
+<p> </p>
+> [!NOTE]
+> You can upgrade from WSUS 2.0 to WSUS 3.0 SP2 for installations with the <strong>Frontend</strong> and <strong>FullInstall</strong> values. For the <strong>Backend</strong> value, you would uninstall WSUS, leaving the database behind. This database will be upgraded when the front-end WSUS server that points to the database is upgraded.
  
 
 WSUS 3.0 SP2 pre-release candidate versions

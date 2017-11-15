@@ -716,23 +716,23 @@ Esta sección contiene preguntas que suelen hacer los clientes acerca de las sol
 
 #### Preguntas más frecuentes
 
-**P: ¿Por qué debe mi organización esforzarse por cumplir con el Estándar de seguridad de datos en la industria de tarjetas de pago? ¿No se trata de otro estándar inútil y caro?**
+**P: ¿Por qué debe mi organización esforzarse por cumplir con el Estándar de seguridad de datos en la industria de tarjetas de pago? ¿No se trata de otro estándar inútil y caro?**  
 
 R: Las razones por las que la organización debe cumplir con el Estándar PCI DSS son tres. La primera, porque las marcas de tarjetas como Visa se han comprometido a ofrecer incentivos financieros por el cumplimiento del Estándar e imponer sanciones si no se cumple. La segunda, porque el cumplimiento de este estándar puede ayudar a reducir las responsabilidades en casos de pérdidas de datos. La tercera, porque mediante un análisis detallado y el diseño adecuado de sus sistemas, el proceso le puede ayudar realmente a seguir los datos del cliente y, por lo tanto, a mejorar el servicio y la satisfacción del cliente.
 
-**P: ¿Exagera Microsoft la idoneidad de sus soluciones con respecto al cumplimiento del Estándar PCI DSS?**
+**P: ¿Exagera Microsoft la idoneidad de sus soluciones con respecto al cumplimiento del Estándar PCI DSS?**  
 
 R: La situación de cada organización es distinta y esta guía pretende ser lo más completa posible. Microsoft puede desarrollar una orientación específica para segmentos verticales del sector. También se puede poner en contacto con el representante de ventas de Microsoft y plantearle su consulta. Como se ha afirmado anteriormente, puede obtener mejores resultados empresariales si considera este proceso, no como un simple proyecto de cumplimiento, sino como una forma de mejorar sus procesos de seguimiento y administración de la información del cliente.
 
-**P: Este documento describe muchas tecnologías que ayudan a cumplir con el Estándar PCI DSS,** **pero pocas soluciones de cumplimiento. ¿Por qué?**
+**P: Este documento describe muchas tecnologías que ayudan a cumplir con el Estándar PCI DSS,** **pero pocas soluciones de cumplimiento. ¿Por qué?**  
 
 R: Cada situación es única y, por lo tanto, no se puede presentar una sola solución ideal para todos. Microsoft se compromete a ofrecer a su organización información más detallada, como se ha mencionado en el resumen.
 
-**P: ¿Qué puede hacer Microsoft para ayudar a mi organización a obtener la certificación del Estándar PCI DSS?**
+**P: ¿Qué puede hacer Microsoft para ayudar a mi organización a obtener la certificación del Estándar PCI DSS?**  
 
 R: Microsoft puede ofrecer software y servicios que facilitan el cumplimiento de los requisitos del Estándar PCI DSS, pero no puede garantizar que su organización los cumplirá. Como proveedor, estamos interesados en ayudar a su organización a cumplir con dichos requisitos, pero el cumplimiento se extiende a la organización, los auditores y las marcas de tarjetas con las que se trabaja.
 
-**P: ¿No implica la sección 3.4.1 que no se pueden usar las tecnologías de protección de datos de Microsoft?**
+**P: ¿No implica la sección 3.4.1 que no se pueden usar las tecnologías de protección de datos de Microsoft?**  
 
 R: No. Dicha sección dice exactamente lo siguiente:
 
@@ -743,6 +743,7 @@ Las tecnologías de protección de datos de Microsoft no vinculan las claves de 
 #### Requisitos del Estándar PCI DSS y soluciones de tecnología asociadas
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

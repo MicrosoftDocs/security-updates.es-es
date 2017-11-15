@@ -120,6 +120,7 @@ En la siguiente tabla se enumeran parámetros específicos de organización toma
 **Tabla 9.1: Elementos de configuración definidos por el usuario**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -162,6 +163,7 @@ La configuración especificada en esta tabla no se debe cambiar en su instalaci�
 **Tabla 9.2: Elementos de configuración que recomienda la solución**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -576,6 +578,7 @@ La directiva de acceso remoto de IAS utiliza los grupos de seguridad basados en 
 **Tabla 9.3: Grupos de seguridad de Active Directory**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

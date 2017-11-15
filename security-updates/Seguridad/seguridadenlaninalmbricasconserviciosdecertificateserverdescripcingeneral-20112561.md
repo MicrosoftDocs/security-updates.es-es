@@ -165,6 +165,7 @@ La tabla siguiente describe las convenciones estilísticas utilizadas en este ma
 **Tabla 1.1: Convenciones de estilo**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

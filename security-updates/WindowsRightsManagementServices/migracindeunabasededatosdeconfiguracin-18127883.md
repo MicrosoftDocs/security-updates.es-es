@@ -18,9 +18,8 @@ Antes de comenzar la migración de la base de datos de configuración, asegúres
 -   El nombre de cuenta y la contraseña que se usó originalmente para aprovisionar los servidores del clúster de RMS que usan esta base de datos.
 -   Si se usa un proveedor de servicios de cifrado (CPS) basado en software para almacenar la clave privada de RMS, la contraseña de clave privada de RMS que se especificó originalmente durante el aprovisionamiento. Si se usó un módulo de seguridad de hardware (HSM) para almacenar la contraseña de clave privada, este paso no es necesario.
 
-| ![](images/Cc747607.note(WS.10).gif)Nota                                                                                                                                                                             |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| La migración de la base de datos de configuración no requiere un nuevo certificado del emisor de licencias de servidor ni una nueva clave privada de servidor porque RMS conserva la configuración de la base de datos de configuración original. |
+> [!NOTE]
+> La migración de la base de datos de configuración no requiere un nuevo certificado del emisor de licencias de servidor ni una nueva clave privada de servidor porque RMS conserva la configuración de la base de datos de configuración original. 
 
 Debe realizar una copia de seguridad de las bases de datos de RMS antes de efectuar ninguna operación en el servidor de base de datos. Si no es posible, debe, como mínimo, exportar el certificado del emisor de licencias de servidor. Para obtener más información acerca de la exportación del certificado del emisor de licencias de servidor, vea [Para exportar el certificado emisor de licencias de servidor a un archivo](https://technet.microsoft.com/d683a629-71b3-4b11-932b-4ab0317334af). Si se produce un error cuando se migran las bases de datos, puede importar el certificado del emisor de licencias de servidor en una nueva instalación de RMS y usar el contenido que estaba protegido por derechos con la instalación anterior.
 
@@ -29,9 +28,8 @@ Para migrar una base de datos de configuración, use los siguientes pasos:
 -   Actualice la base de datos de configuración de RMS para reflejar el nombre del nuevo servidor de base de datos.
 -   Actualice los archivos web.config y el Registro en cada servidor del clúster de RMS para usar el nuevo nombre de servidor de base de datos.
 
-| ![](images/Cc747607.Important(WS.10).gif)Importante                                                                |
-|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| En este tema se supone que las bases de datos de RMS ya están copias en el nuevo servidor de base de datos que aloja las bases de datos de RMS. |
+> [!IMPORTANT]
+> En este tema se supone que las bases de datos de RMS ya están copias en el nuevo servidor de base de datos que aloja las bases de datos de RMS. 
 
 Actualice la base de datos de configuración de RMS para usar el nuevo nombre de servidor de base de datos.
 ----------------------------------------------------------------------------------------------------------
@@ -130,9 +128,8 @@ Para actualizar los archivos web.config en cada servidor del clúster de RMS:
 
 Finalmente, actualice el Registro en cada servidor del clúster de RMS con el nuevo nombre del servidor de base de datos.
 
-| ![](images/Cc747607.Caution(WS.10).gif)Precaución                                                                                                                     |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| La edición incorrecta del Registro puede causar graves daños al sistema. Antes de realizar cambios en el Registro, debe hacer una copia de seguridad de los datos de valor guardados en el equipo. |
+> [!CAUTION]
+> La edición incorrecta del Registro puede causar graves daños al sistema. Antes de realizar cambios en el Registro, debe hacer una copia de seguridad de los datos de valor guardados en el equipo. 
 
 **Para actualizar el Registro en cada servidor del clúster de RMS**
 1.  Inicie sesión en un servidor del clúster de RMS como miembro del grupo de administradores local.

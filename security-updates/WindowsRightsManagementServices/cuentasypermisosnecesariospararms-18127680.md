@@ -14,6 +14,7 @@ En la siguiente tabla, se especifican los permisos de usuario necesarios para ll
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

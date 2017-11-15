@@ -13,9 +13,8 @@ El cliente RMS está integrado en el sistema operativo Windows Vista® de modo 
 
 El proceso de activación establece una caja de seguridad y un certificado de equipo para el usuario que actualmente tenga una sesión iniciada. La activación es un proceso local y no requiere una conexión de red. Una vez realizada con éxito la activación, la primera solicitud de licencia de uso por parte de una aplicación compatible con RMS obtiene un certificado de usuario para el usuario. Puede instalarse el cliente de RMS en cada uno de los equipos cliente de la organización utilizando una directiva de grupo, Windows Update o un comando administrativo.
 
-| ![](images/Cc720266.note(WS.10).gif)Nota                                                                                                                                                                                                                                   |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Independientemente del método de distribución del cliente que se utilice, el puerto predeterminado es el 80 o el 443 para comunicarse con el servidor RMS. Debería asegurarse de que el equipo cliente puede realizar solicitudes de salida al clúster raíz de RMS y de sólo licencias en esos puertos. |
+> [!NOTE]
+> Independientemente del método de distribución del cliente que se utilice, el puerto predeterminado es el 80 o el 443 para comunicarse con el servidor RMS. Debería asegurarse de que el equipo cliente puede realizar solicitudes de salida al clúster raíz de RMS y de sólo licencias en esos puertos. 
 
 **Uso de directivas de grupo**
 

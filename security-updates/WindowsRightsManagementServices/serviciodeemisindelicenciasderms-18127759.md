@@ -13,15 +13,15 @@ El servicio de licencias, que emite licencias de publicación, se ejecuta en el 
 
 El archivo de aplicación del servicio de emisión de licencias, License.asmx, está ubicado en el directorio virtual Licensing, que se encuentra en IIS.
 
-| ![](images/Cc720278.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Se puede implementar un clúster de sólo licencias independiente para descargar solicitudes de licencia del clúster raíz. Asimismo, es posible implementar un servidor o clúster de licencias independiente para un departamento, de forma que éste pueda, por ejemplo, establecer sus propias directivas de permisos. Para obtener más información acerca de estas consideraciones, consulte "Identificación de los componentes principales" en "RMS: planeamiento y arquitectura" en esta recopilación de documentación. |
+> [!NOTE]
+> Se puede implementar un clúster de sólo licencias independiente para descargar solicitudes de licencia del clúster raíz. Asimismo, es posible implementar un servidor o clúster de licencias independiente para un departamento, de forma que éste pueda, por ejemplo, establecer sus propias directivas de permisos. Para obtener más información acerca de estas consideraciones, consulte "Identificación de los componentes principales" en "RMS: planeamiento y arquitectura" en esta recopilación de documentación. 
 
 La lista de control de acceso predeterminada de este servicio se muestra en la siguiente tabla:
 
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

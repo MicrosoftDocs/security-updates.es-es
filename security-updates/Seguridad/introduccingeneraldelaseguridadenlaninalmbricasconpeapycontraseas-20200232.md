@@ -223,6 +223,7 @@ La siguiente tabla describe las convenciones de estilo utilizadas en la guía.
 **Tabla 1.1. Convenciones de estilo**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -492,6 +493,7 @@ La organización descrita en la sección anterior generalmente cumplirá con los
 **Tabla 2.1. Criterios de diseño de la solución de WLAN**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -563,6 +565,7 @@ La siguiente tabla recoge una indicación de los requisitos de autenticación WL
 **Tabla 2.2. Requisitos de autenticación de WLAN**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -721,6 +724,7 @@ La siguiente tabla refleja el número aproximado de autenticaciones que se produ
 **Tabla 2.3. Autenticaciones por segundo**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -812,6 +816,7 @@ La directiva de acceso remoto en esta solución se configura tal y como se muest
 **Tabla 2.4. Configuración de directivas de acceso remoto**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -946,6 +951,7 @@ Tal y como se describe en la sección "Directivas de RADIUS", la directiva de ac
 **Tabla 2.5. Grupos de acceso inalámbrico para permitir a todos los usuarios y equipos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -982,6 +988,7 @@ Si resulta excesivamente permisivo para la organización que todos los usuarios 
 **Tabla 2.6. Grupos de acceso inalámbrico para permitir a usuarios y equipos seleccionados**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1032,6 +1039,7 @@ La tabla que sigue a continuación muestra las ventajas y los inconvenientes pri
 **Tabla 2.7. Ventajas e inconvenientes de usar una entidad emisora de certificados propia frente a certificados comerciales**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1218,6 +1226,7 @@ La siguiente tabla refleja el modo en que los grupos de seguridad descritos en l
 **Tabla 2.8. Grupos de acceso inalámbrico para permitir a todos los usuarios y equipos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1570,6 +1579,7 @@ Necesita las siguientes herramientas para llevar a cabo los procedimientos descr
 **Tabla 3.1. Herramientas necesarias**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1739,6 +1749,7 @@ Utilice el procedimiento que se ofrece más adelante en esta sección para crear
 **Tabla 3.2. Miembros y grupos de seguridad**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1818,6 +1829,7 @@ Si piensa activar el registro de RADIUS, deberá asignar un disco físico indepe
 **Tabla 3.3. Hardware mínimo recomendado para el servidor IAS**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1952,6 +1964,7 @@ La tabla siguiente muestra los servicios configurados para iniciarse automática
 **Tabla 3.4. Servicios de Windows activados por directiva**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1996,6 +2009,7 @@ La tabla siguiente muestra las categorías de auditoría donde se activa la audi
 **Tabla 3.5. Configuración de directiva de auditoría**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -2330,6 +2344,7 @@ Necesita las siguientes herramientas para llevar a cabo los procedimientos de es
 **Tabla 4.1. Herramientas necesarias para crear e instalar una entidad emisora de certificados**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -2387,6 +2402,7 @@ En la siguiente tabla se muestran los parámetros utilizados en la instalación 
 **Tabla 4.2. Configuración de la entidad emisora de certificados utilizada en la solución**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -2527,7 +2543,8 @@ Puede comprobar que la instalación de los Servicios de Certificate Server ha si
     **Tabla 4.3. Propiedades de certificados de la entidad emisora**
 
  
-    <table style="border:1px solid black;">
+    <p> </p>
+<table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
     <col width="50%" />
@@ -2575,6 +2592,7 @@ Este procedimiento establece un número de parámetros en la entidad emisora de 
 **Tabla 4.4. Propiedades de configuración de la entidad emisora de certificados**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -2805,6 +2823,7 @@ Para realizar los procedimientos de este capítulo son necesarias las siguientes
 **Tabla 5.1. Herramientas necesarias**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -2844,6 +2863,7 @@ En la siguiente tabla se muestran los parámetros principales utilizados en la i
 **Tabla 5.2. Parámetros de configuración del servidor IAS**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -3394,6 +3414,7 @@ La siguiente tabla muestra la configuración que debe establecer en los puntos d
 **Tabla 5.3. Configuración de puntos de acceso inalámbrico**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -3530,6 +3551,7 @@ Además de habilitar los parámetros 802.1X, debe configurar también los puntos
 **Tabla 5.4. Configuración de seguridad de puntos de acceso inalámbrico**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -3753,6 +3775,7 @@ En la tabla siguiente se enumeran las herramientas necesarias para implementar l
 **Tabla 6.1. Herramientas necesarias**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -3787,6 +3810,7 @@ En la tabla siguiente se enumeran algunas de las principales configuraciones que
 **Tabla 6.2. Configuración de cliente WLAN**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -4623,6 +4647,7 @@ La siguiente tabla muestra las tareas que se deben realizar para poner en funcio
 **Tabla 8.1. Tareas de configuración iniciales**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -4661,6 +4686,7 @@ La siguiente tabla muestra las tareas que se deben realizar con regularidad para
 **Tabla 8.2. Tareas de mantenimiento**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -4690,6 +4716,7 @@ En la tabla siguiente se enumeran las herramientas o tecnologías utilizadas en 
 **Tabla 8.3. Tecnología requerida**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -4772,6 +4799,7 @@ En la tabla siguiente se enumeran las herramientas o tecnologías utilizadas en 
 **Tabla 8.4. Tecnología recomendada**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -4947,6 +4975,7 @@ La secuencia de comandos de supervisión y la de copia de seguridad de IAS regis
 **Tabla 8.5. Sucesos IAS devueltos por las secuencias de comandos de herramientas de IAS en esta solución**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -5070,6 +5099,7 @@ La secuencia de comandos de supervisión de la entidad emisora de certificados r
 **Tabla 8.6. Sucesos de la entidad emisora que las secuencias de comandos de supervisión de la entidad emisora de certificados devuelve en esta solución**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -5378,6 +5408,7 @@ La siguiente tabla recoge indicaciones de los requisitos de autenticación WLAN 
 **Tabla 8.7. Requisitos de autenticación WLAN**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -5426,6 +5457,7 @@ Las pruebas se llevaron a cabo con el registro de RADIUS activado (en un disco a
 **Tabla 8.8. Ejemplo de medidas de la capacidad del servidor IAS**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -5489,9 +5521,10 @@ Comience por clasificar el tipo de problema que ha surgido con ayuda del diagram
   
 La siguiente tabla clasifica los distintos tipos de problemas de conexión basados en el número y en la ubicación de los clientes afectados. La columna Posible(s) problema(s) refleja los factores que pueden producir los síntomas señalados con mayor probabilidad. La columna Procedimientos de diagnóstico que seguir contiene los procedimientos de diagnóstico a los que debe recurrir en primer lugar para diagnosticar el problema. Más adelante podrá encontrar una descripción detallada de cada uno de estos procedimientos.
   
-**Tabla 8.9. ¿Quién no puede conectarse a la WLAN?**
+**Tabla 8.9. ¿Quién no puede conectarse a la WLAN?**  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -5547,6 +5580,7 @@ Esta sección se centra en los problemas de rendimiento asociados con la infraes
 **Tabla 8.10. Problemas de rendimiento**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -5644,6 +5678,7 @@ La siguiente tabla recoge una serie de comprobaciones que se deben realizar si s
 **Tabla 8.11. Comprobaciones para el diagnóstico de IAS**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -5708,6 +5743,7 @@ La tabla siguiente contiene una serie de comprobaciones que puede poner en prác
 **Tabla 8.12. Comprobaciones para el diagnóstico de la entidad emisora**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -5758,6 +5794,7 @@ La tabla siguiente enumera una serie de comprobaciones que ha de realizar en Act
 **Tabla 8.13. Comprobaciones para el diagnóstico de Active Directory**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -5800,6 +5837,7 @@ La tabla siguiente enumera una serie de comprobaciones que ha de realizar en los
 **Tabla 8.14. Comprobaciones para el diagnóstico de los puntos de acceso inalámbrico**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -5846,6 +5884,7 @@ El origen de los errores de WLAN puede radicar en problemas de conectividad WAN 
 **Tabla 8.15. Comprobaciones para el diagnóstico de WAN**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -5895,6 +5934,7 @@ Consultar estos sucesos es útil para solucionar los problemas en la autenticaci
 **Tabla 8.16. Sucesos de solicitud de autenticación IAS**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -5956,6 +5996,7 @@ Si la autenticación da error, los códigos y descripciones del motivo suelen in
 **Tabla 8.17. Códigos de motivo de los sucesos de solicitud de autenticación IAS**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -6285,6 +6326,7 @@ A modo de referencia, la siguiente tabla contempla la asignación entre los cap�
 **Tabla A.1. Asignación de los capítulos entre las soluciones EAP-TLS y PEAP**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -6561,6 +6603,7 @@ La siguiente tabla muestra el estado de las distintas versiones de cliente y ser
 **Tabla C.1. Estado de compatibilidad con la solución de versiones de sistemas operativos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -6747,6 +6790,7 @@ En la tabla siguiente se incluyen todos los archivos que se proporcionan con la 
 **Tabla D.1. Lista de archivos proporcionados con la solución**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -6889,6 +6933,7 @@ En cada uno de los archivos .wsf, el primer trabajo se define para enumerar los 
 **Tabla D.2. Lista de trabajos en MSSSetup.wsf**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -6973,6 +7018,7 @@ En cada uno de los archivos .wsf, el primer trabajo se define para enumerar los 
 **Tabla D.3. Lista de trabajos en MSSTools.wsf**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -7186,6 +7232,7 @@ Antes de ver cómo funcionan las soluciones de seguridad de las WLAN modernas, m
 **Tabla 1. Principales amenazas para la seguridad de las WLAN**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -7378,6 +7425,7 @@ Las principales amenazas de la seguridad para las WLAN se detallaron con anterio
 **Tabla 2. Amenazas contra la seguridad valoradas en función de la solución propuesta**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -7447,6 +7495,7 @@ Los factores diferenciadores más importantes entre estos enfoques y una soluci�
 **Tabla 3. Comparación de los enfoques de seguridad de WLAN**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />

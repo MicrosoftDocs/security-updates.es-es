@@ -26,15 +26,13 @@ Adición de un servidor a un clúster
 
 2.  Junto al sitio Web en el que desee establecer los servicios en línea de RMS, haga clic en **Agregar este servidor a un clúster**. Puede seleccionar el sitio Web predeterminado u otro sitio Web creado en los Servicios de Internet Information Server (IIS) con este propósito.
 
-    | ![](images/Cc747690.Warning(WS.10).gif)Advertencia                                                                                                                                                                                   |
-    |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | No se admite la ejecución de sitios o servicios Web adicionales en el mismo servidor que RMS. Si se hiciera así, muchos servicios y aplicaciones se ejecutarían con la misma cuenta que RMS, lo que podría exponer las claves privadas a operaciones no deseadas. |
+    > [!WARNING]
+    > No se admite la ejecución de sitios o servicios Web adicionales en el mismo servidor que RMS. Si se hiciera así, muchos servicios y aplicaciones se ejecutarían con la misma cuenta que RMS, lo que podría exponer las claves privadas a operaciones no deseadas. 
 
 3.  En el área **Cuenta de servicio de RMS**, escriba el nombre de cuenta, con el formato nombre\_dominio\\nombre\_usuario y la contraseña de la cuenta de servicio de RMS con la que se ejecutará RMS para la mayoría de las operaciones normales. Debe ser una cuenta de dominio. Todos los servicios de un clúster deben ejecutarse con la misma cuenta de servicio de RMS.
 
-    | ![](images/Cc747690.Important(WS.10).gif)Importante                                                                                                                                                                                                                        |
-    |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Por razones de seguridad, es recomendable crear una cuenta de usuario de dominio especial para usarla como cuenta de servicio de RMS y no concederle ningún permiso especial. La cuenta de servicio de RMS no puede ser la misma cuenta de dominio que se utilizó para instalar RMS con Service Pack 1. |
+    > [!IMPORTANT]
+    > Por razones de seguridad, es recomendable crear una cuenta de usuario de dominio especial para usarla como cuenta de servicio de RMS y no concederle ningún permiso especial. La cuenta de servicio de RMS no puede ser la misma cuenta de dominio que se utilizó para instalar RMS con Service Pack 1. 
 
 4.  En el área **Base de datos de configuración**, especifique el nombre del servidor de base de datos y el nombre de la base de datos de configuración para este clúster. La base de datos seleccionada determina el clúster al que se une este servidor.
 

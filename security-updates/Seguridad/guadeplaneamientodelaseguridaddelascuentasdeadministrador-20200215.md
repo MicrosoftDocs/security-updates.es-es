@@ -565,6 +565,7 @@ Utilice una contraseña segura para la cuenta Administrador integrada. Una contr
 **Tabla 3.1 Tipos de caracteres para una contraseña de administrador segura**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

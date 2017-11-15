@@ -22,6 +22,7 @@ Puede utilizar las siguientes cifras durante el planeamiento de la capacidad par
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -66,6 +67,7 @@ En la siguiente tabla se proporcionan datos de línea de base sobre el uso del a
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

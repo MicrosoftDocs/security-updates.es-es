@@ -234,6 +234,7 @@ En esta guía se utilizan las siguientes convenciones de estilo y terminología.
 **Tabla 1.1: Convenciones de estilo**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

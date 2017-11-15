@@ -16,6 +16,7 @@ En la tabla siguiente, se enumeran los parámetros de la etiqueta REFRESH.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

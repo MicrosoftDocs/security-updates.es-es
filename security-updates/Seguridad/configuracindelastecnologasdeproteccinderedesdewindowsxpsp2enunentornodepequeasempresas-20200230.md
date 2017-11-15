@@ -111,6 +111,7 @@ Esta sección describe la configuración de Firewall de Windows en un GPO y la c
 **Tabla 1. Configuración recomendada de Firewall de Windows para pequeñas empresas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -213,6 +214,7 @@ Internet Explorer clasifica los sitios Web en cuatro zonas de seguridad, cada un
 **Tabla 2. Descripciones de las zonas de seguridad y configuración de seguridad predeterminada**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -260,6 +262,7 @@ Cada zona de seguridad contiene más de 30 parámetros de configuración que se 
 **Tabla 3. Parámetros de configuración de la directiva de zonas de seguridad**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

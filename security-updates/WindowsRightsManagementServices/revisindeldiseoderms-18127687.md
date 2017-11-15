@@ -17,9 +17,8 @@ Antes de comenzar la implementación, asegúrese de que su plan de RMS cumple la
 -   Se ha seleccionado una topología de RMS, ya sea básica o distribuida.
 -   Active Directory está instalado en los controladores de dominio que ejecutan Windows 2000 con Service Pack 3 (SP3) o posterior, y todos los usuarios tienen un objeto de contacto con un atributo de correo electrónico configurado. Windows Server 2003 está instalado con las actualizaciones más recientes. Message Queue Server, los Servicios de Internet Information Server y la versión 1.1 de ASP.NET están habilitados.
 
-| ![](images/Cc720185.note(WS.10).gif)Nota                                                                                                                                                                               |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Si tiene previsto instalar RMS en un equipo de 64 bits, vea las instrucciones de configuración especiales que se indican en "Requisitos de software para RMS" en "Planeamiento de una implementación de RMS" en esta recopilación de documentación. |
+> [!NOTE]
+> Si tiene previsto instalar RMS en un equipo de 64 bits, vea las instrucciones de configuración especiales que se indican en "Requisitos de software para RMS" en "Planeamiento de una implementación de RMS" en esta recopilación de documentación. 
 
 -   Se han definido métodos de equilibrio de carga y de migración tras error del servidor.
 -   Se ha configurado el registro de DNS para los servidores de RMS.
