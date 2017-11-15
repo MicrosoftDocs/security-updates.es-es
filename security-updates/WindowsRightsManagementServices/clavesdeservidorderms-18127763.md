@@ -26,8 +26,7 @@ Este CSP se puede usar de dos formas distintas:
     O bien
 -   Usar un CSP de software que no es de Microsoft que ha instalado en el servidor.
 
-| ![](images/Cc720280.note(WS.10).gif)Nota                                                                    |
-|------------------------------------------------------------------------------------------------------------------------------------------|
-| Si se desea usar un módulo de protección de hardware, será preciso asegurarse de seleccionar un CSP compatible con este tipo de módulos. |
+> [!NOTE]
+> Si se desea usar un módulo de protección de hardware, será preciso asegurarse de seleccionar un CSP compatible con este tipo de módulos. 
 
 Si se decide a proteger la clave privada del servidor mediante un CSP, RMS almacenará el nombre del proveedor y el del contenedor de la clave que figura en la base de datos de configuración.

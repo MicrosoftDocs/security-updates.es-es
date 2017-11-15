@@ -11,9 +11,8 @@ Install the WSUS 3.0 Administration Console
 
 After installing WSUS 3.0 on a server, you can manage WSUS 3.0 from any computer on your network, as long as the domain of that computer has a trust relationship with the domain of the server. You will need to perform a separate installation, from the same downloaded installation package, on every machine from which you want to run the WSUS 3.0 administration console.
 
-| ![](images/Cc720498.Important(WS.10).gif)Importante                                                                  |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| The WSUS 3.0 administration console can be used to manage any WSUS server that has a trust relationship with the administration console computer. |
+> [!IMPORTANT]
+> The WSUS 3.0 administration console can be used to manage any WSUS server that has a trust relationship with the administration console computer. 
 
 Supported operating systems for console-only installation
 ---------------------------------------------------------
@@ -35,9 +34,8 @@ Install the console
 
 To install the WSUS 3.0 administration console, use the same installation package you downloaded to install the WSUS server.
 
-| ![](images/Cc720498.note(WS.10).gif)Nota                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| The latest version of the WSUS setup executable is available on the [WSUS Web site](http://go.microsoft.com/fwlink/?linkid=74472) (http://go.microsoft.com/fwlink/?LinkId=74472). |
+> [!NOTE]
+> The latest version of the WSUS setup executable is available on the [WSUS Web site](http://go.microsoft.com/fwlink/?linkid=74472) (http://go.microsoft.com/fwlink/?LinkId=74472). 
 
 The console-only installation process can be run from the setup UI from the command line. For more information about command-line installation, see [Appendix A: Unattended Installations](https://technet.microsoft.com/89f11fc7-95b2-4ec4-b313-832b00fa315e) later in this guide.
 

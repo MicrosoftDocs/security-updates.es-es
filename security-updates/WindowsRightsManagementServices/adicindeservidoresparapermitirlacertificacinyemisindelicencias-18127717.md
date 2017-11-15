@@ -22,13 +22,11 @@ Los temas siguientes proporcionan una orientación sobre esta tarea:
 -   [Procesos de establecimiento de servicios en línea para la certificación adicional y los servidores de licencias](#bkmk_2)
 -   [Configuración de clústeres y equilibrio de carga](#bkmk_3)
 
-<span id="BKMK_1"></span>
 Funciones, permisos y derechos requeridos para la instalación y el establecimiento de servicios en línea
 --------------------------------------------------------------------------------------------------------
 
 Para instalar servidores adicionales y establecer los servicios en línea en ellos, precisa las mismas funciones y permisos que para configurar el servidor inicial. Además, también debe tener permiso del servidor de certificación raíz para configurar un servidor de licencias separado, lo que se conoce como subinscripción. El servidor de certificación raíz se controla a través del DACL del archivo SubEnrollService.asmx. Los miembros del grupo de servicio de RMS, incluida la cuenta de servicio de RMS que especifica durante el establecimiento de los servicios en línea del servidor de certificación raíz, tienen permiso para llevar a cabo la subinscripción. Para obtener más información, vea “[Configuración de los servicios de certificación y emisión de licencias en el primer servidor](https://technet.microsoft.com/cce29a2f-984f-48ed-9187-0eb68286ec5b)”, anteriormente en este tema.
 
-<span id="BKMK_2"></span>
 Procesos de establecimiento de servicios en línea para la certificación adicional y los servidores de licencias
 ---------------------------------------------------------------------------------------------------------------
 
@@ -37,13 +35,11 @@ Para agregar servidores a los clústeres de certificación y licencias, es preci
 -   Si está estableciendo los servicios en línea de un servidor de licencias independiente, especifique una base de datos de configuración, una cuenta de servicio RMS, una URL de clúster y la información de protección de clave privada de la misma forma que especificó esta información para un servidor de certificación raíz. Sin embargo, no especifique una directiva de revocación de certificado emisor de licencias de servidor, ya que esta directiva está bajo control del servidor de certificación raíz.
 -   Si está estableciendo los servicios en línea de un servidor como miembro del clúster, la única información que necesita especificar durante el establecimiento de los servicios en línea es la cuenta de servicio de RMS, la base de datos de configuración y la contraseña para la protección de clave privada (o utilizar el mismo CSP y la misma clave privada que en el clúster existente). Todos los servidores de un clúster comparten el mismo certificado emisor de licencias de servidor y el mismo par de claves de servidor.
 
-| ![](images/Cc720189.Important(WS.10).gif)Importante                                                                                                                                |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| No empiece a instalar RMS en ningún otro servidor hasta que haya completado la configuración de RMS en el primer servidor, incluida la instalación y el establecimiento de los servicios en línea del servidor. |
+> [!IMPORTANT]
+> No empiece a instalar RMS en ningún otro servidor hasta que haya completado la configuración de RMS en el primer servidor, incluida la instalación y el establecimiento de los servicios en línea del servidor. 
 
 Una vez que haya instalado y establecido los servicios en línea de un servidor adicional, queda configurado automáticamente como miembro del clúster. Sin embargo, si ha implementado el equilibrio de carga, debe configurar el software de equilibrio de carga para que funcione con el nuevo servidor
 
-<span id="BKMK_3"></span>
 Configuración de clústeres y equilibrio de carga
 ------------------------------------------------
 

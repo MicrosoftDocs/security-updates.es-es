@@ -41,6 +41,7 @@ Las funciones de servidor descritas anteriormente en esta guía utilizaban la di
 **Tabla 12.1 Plantillas de seguridad de servidor host de baluarte**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -78,6 +79,7 @@ El archivo SSLF-Bastion Host.inf incluye las asignaciones de derechos de usuario
 **Tabla 12.2 Configuración recomendada de las asignaciones de derechos de usuario**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -136,6 +138,7 @@ Además, es posible que se haya cambiado el nombre de la cuenta de administrador
 **Tabla 12.3 Asignaciones de derechos de usuario agregadas manualmente**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -190,6 +193,7 @@ El valor de este cambio en la configuración se ha reducido en los últimos año
 **Tabla 12.4 Configuración recomendada de informes de errores**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />

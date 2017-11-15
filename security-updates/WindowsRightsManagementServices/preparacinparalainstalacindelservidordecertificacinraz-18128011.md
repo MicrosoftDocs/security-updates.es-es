@@ -16,6 +16,7 @@ Cuando haya instalado el controlador de dominio y configurado los servidores de 
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

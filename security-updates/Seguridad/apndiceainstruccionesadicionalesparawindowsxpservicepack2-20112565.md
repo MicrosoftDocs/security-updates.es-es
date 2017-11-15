@@ -89,6 +89,7 @@ Configuración del equipo\\Plantillas administrativas\\Componentes de Windows\\I
 **Tabla A.1: Configuración de detecciones de bloqueos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -123,6 +124,7 @@ Dado que la información de informe de bloqueos de Internet Explorer podría con
 **Tabla A.2: Configuración de habilitación o deshabilitación de la configuración de complementos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -177,6 +179,7 @@ Utilice el Editor de objetos de directiva de grupo para configurar la Plantilla 
 **Tabla A.3: Configuración de permiso para ejecutar software**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -221,6 +224,7 @@ Configuración del equipo\\Plantillas administrativas\\Componentes de Windows\\I
 **Tabla A.4: Configuración del protocolo MK**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -263,6 +267,7 @@ Configuración del equipo\\Plantillas administrativas\\Componentes de Windows\\I
 **Tabla A.5: Configuración de administración de MIME consistente**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -307,6 +312,7 @@ Configuración del equipo\\Plantillas administrativas\\Componentes de Windows\\I
 **Tabla A.6: Configuración de examen de MIME**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -349,6 +355,7 @@ Configuración del equipo\\Plantillas administrativas\\Componentes de Windows\\I
 **Tabla A.7: Configuración de restricciones de seguridad de ventanas con secuencias de comandos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -391,6 +398,7 @@ Configuración del equipo\\Plantillas administrativas\\Componentes de Windows\\I
 **Tabla A.8: Configuración de protección contra elevación de zona**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -433,6 +441,7 @@ Configuración del equipo\\Plantillas administrativas\\Componentes de Windows\\I
 **Tabla A.9: Configuración de limitación de la instalación de ActiveX**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -479,6 +488,7 @@ Configuración del equipo\\Plantillas administrativas\\Componentes de Windows\\I
 **Tabla A.10: Configuración de limitación de descarga de archivos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -521,6 +531,7 @@ Configuración del equipo\\Plantillas administrativas\\Componentes de Windows\\I
 **Tabla A.11: Configuración de denegación de complementos a menos que se permitan específicamente en la Lista de complementos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -557,6 +568,7 @@ Considere la posibilidad de utilizar tanto la configuración **Denegar complemen
 **Tabla A.12: Configuración de Lista de complementos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -593,7 +605,8 @@ Si se habilita esta configuración de directiva, deberá especificar una lista d
     **Tabla A.13: Valores de configuración de la Lista de complementos**
 
  
-    <table style="border:1px solid black;">
+    <p> </p>
+<table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
     <col width="50%" />
@@ -635,6 +648,7 @@ Plantillas administrativas\\componentes de Windows\\Servicios de Terminal Server
 **Tabla A.14: Configuración de no autorización de almacenamiento de contraseñas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -675,6 +689,7 @@ Plantillas administrativas\\Componentes de Windows\\Windows Update
 **Tabla A.15: Configuración de no visualización de opciones de Apagar**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -709,6 +724,7 @@ En caso de deshabilitarse esta configuración de directiva, la opción **Instala
 **Tabla A.16: Configuración de no autorización de ajuste de opciones de Apagar predeterminadas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -751,6 +767,7 @@ Configuración del equipo\\Plantillas administrativas\\Sistema
 **Tabla A.17: Configuración de la intervención del usuario en búsquedas de controladores de dispositivo en Windows Update**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -797,6 +814,7 @@ Plantillas administrativas\\Sistema\\Llamada a procedimiento remoto
 **Tabla A.18: Configuración de clientes RPC no autenticados**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -839,6 +857,7 @@ Dado que la comunicación RPC sin autenticación puede crear una vulnerabilidad 
 **Tabla A.19: Configuración de autenticación de cliente**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -879,6 +898,7 @@ Plantillas administrativas\\Sistema\\Administración de comunicaciones de Intern
 **Tabla A.20: Configuración de la desactivación de las tareas de publicación en Web**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -911,6 +931,7 @@ Esta configuración especifica si las tareas **Publicar este archivo en Web**, *
 **Tabla A.21: Configuración de la desactivación de descargas de Internet**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -943,6 +964,7 @@ La configuración de **Desactivar descargas de Internet en los asistentes para l
 **Tabla A.22: Configuración de la desactivación del programa para el cliente de Messenger**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -975,6 +997,7 @@ La configuración **Desactivar el Programa para la mejora de la experiencia del 
 **Tabla A.23: Configuración de desactivación de la actualización del Asistente para búsqueda**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1009,6 +1032,7 @@ La configuración **Desactivar la actualización de archivos de contenido del As
 **Tabla A.24: Configuración de desactivación de la impresión a través de HTTP**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1045,6 +1069,7 @@ La información transmitida al imprimir a través de HTTP no es protegida y pued
 **Tabla A.25: Configuración de desactivación de la descarga de controladores de impresión a través de HTTP**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1079,6 +1104,7 @@ La configuración **Desactivar la descarga de controladores de impresión a trav
 **Tabla A.26: Configuración de la desactivación de la intervención del usuario en búsquedas de controladores de dispositivo en Windows Update**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1125,6 +1151,7 @@ Plantillas administrativas\\Red\\Conexiones de red\\Firewall de Windows\\Perfil 
 **Tabla A.27: Configuración de protección de todas las conexiones de red con Perfil de dominio**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1161,6 +1188,7 @@ Si esta configuración se establece como **Deshabilitada**, se desactiva el Fire
 **Tabla A.28: Configuración de no autorización de excepciones con Perfil de dominio**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1197,6 +1225,7 @@ Muchos entornos contienen aplicaciones y servicios a los que para su funcionamie
 **Tabla A.29: Configuración de definición de excepciones de programa con Perfil de dominio**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1235,6 +1264,7 @@ Si establece esta configuración de directiva como **Deshabilitada**, se elimina
 **Tabla A.30: Configuración de autorización de excepciones de programa local con Perfil de dominio**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1269,6 +1299,7 @@ Para equipos de cliente de empresa, es posible que existan condiciones que justi
 **Tabla A.31: Configuración de autorización de excepciones de administración remota con Perfil de dominio**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1309,6 +1340,7 @@ En este apéndice se recomienda habilitar esta configuración para equipos de em
 **Tabla A.32: Configuración de autorización de la excepción de compartir impresoras y archivos con Perfil de dominio**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1347,6 +1379,7 @@ Dado que, por lo general, los equipos del entorno en los que se ejecuta Windows 
 **Tabla A.33: Configuración de autorización de excepciones ICMP con Perfil de dominio**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1385,6 +1418,7 @@ Muchas herramientas de atacantes aprovechan la posibilidad que ofrecen los equip
 **Tabla A.34: Configuración de autorización de excepciones de Escritorio remoto con Perfil de dominio**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1423,6 +1457,7 @@ En algunos ataques se puede aprovechar un puerto 3389 abierto. Para mantener las
 **Tabla A.35: Configuración de autorización de excepción de entorno UPnP con Perfil de dominio**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1459,6 +1494,7 @@ Con el bloqueo del tráfico de red UPnP se reduce en la práctica la superficie 
 **Tabla A.36: Configuración de prohibición de notificaciones con Perfil de dominio**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1495,6 +1531,7 @@ A menudo, a los usuarios no se les permitirá agregar aplicaciones y puertos en 
 **Tabla A.37: Configuración de prohibición de respuesta de monodifusión con Perfil de dominio**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1531,6 +1568,7 @@ Normalmente, no deseará recibir respuestas de monodifusión a mensajes de difus
 **Tabla A.38: Configuración de definición de excepciones de puerto con Perfil de dominio**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1571,6 +1609,7 @@ Para los entornos con aplicaciones no estándar que requieren que se abran deter
 **Tabla A.39: Configuración de autorización de excepciones de puerto local con Perfil de dominio**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1619,6 +1658,7 @@ Plantillas administrativas\\Red\\Conexiones de red\\Firewall de Windows\\Perfil 
 **Tabla A.40: Configuración de protección de todas las conexiones de red con Perfil estándar**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1655,6 +1695,7 @@ Si esta configuración se establece como **Deshabilitada**, se desactiva el Fire
 **Tabla A.41: Configuración de no autorización de excepciones con Perfil estándar**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1689,6 +1730,7 @@ Mediante la configuración **Firewall de Windows: no permitir excepciones** se e
 **Tabla A.42: Configuración de definición de excepciones de programa con Perfil estándar**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1727,6 +1769,7 @@ Si establece esta configuración de directiva como **Deshabilitada**, se elimina
 **Tabla A.43: Configuración de autorización de excepciones de programa local con Perfil estándar**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1759,6 +1802,7 @@ La configuración **Firewall de Windows: permitir excepciones de programa local*
 **Tabla A.44: Configuración de autorización de excepciones de administración remota con Perfil estándar**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1799,6 +1843,7 @@ En este apéndice se recomienda que deshabilite esta configuración para todos l
 **Tabla A.45: Configuración de autorización de la excepción de compartir impresoras y archivos con Perfil estándar**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1837,6 +1882,7 @@ Dado que, por lo general, los equipos del entorno en los que se ejecuta Windows 
 **Tabla A.46: Configuración de autorización de excepciones ICMP con Perfil estándar**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1875,6 +1921,7 @@ Muchas herramientas de atacantes aprovechan la posibilidad que ofrecen los equip
 **Tabla A.47: Configuración de autorización de excepciones de Escritorio remoto con Perfil estándar**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1913,6 +1960,7 @@ En algunos ataques se puede aprovechar un puerto 3389 abierto. Para mantener las
 **Tabla A.48: Configuración de autorización de excepción de entorno UPnP con Perfil estándar**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1949,6 +1997,7 @@ El bloqueo del tráfico de red UPnP reduce de forma eficaz la superficie de ataq
 **Tabla A.49: Configuración de prohibición de notificaciones con Perfil estándar**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1985,6 +2034,7 @@ A menudo, a los usuarios no se les permitirá agregar aplicaciones y puertos en 
 **Tabla A.50: Configuración de prohibición de respuesta de monodifusión con Perfil estándar**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2021,6 +2071,7 @@ Normalmente, no deseará respuestas de monodifusión a mensajes de difusión o m
 **Tabla A.51: Configuración de definición de excepciones de puerto con Perfil estándar**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2061,6 +2112,7 @@ Para los entornos con aplicaciones no estándar que requieren que se abran deter
 **Tabla A.52: Configuración de autorización de excepciones de puerto local con Perfil estándar**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2111,6 +2163,7 @@ Configuración de usuario\\Plantillas administrativas\\Componentes de Windows\\A
 **Tabla A.53: Configuración de no conservación de información de zona**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -2139,6 +2192,7 @@ Si se establece esta configuración como **Habilitada**, no se marcarán los arc
 **Tabla A.54: Configuración de mecanismos para quitar la información de zona**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -2169,6 +2223,7 @@ Windows oculta la casilla de verificación y el botón **Desbloquear** cuando es
 **Tabla A.55: Configuración de notificación a los programas antivirus**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

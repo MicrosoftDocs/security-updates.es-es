@@ -223,6 +223,7 @@ En la siguiente tabla se muestra la configuración recomendada de Agregar o quit
 **Tabla 1. Configuración recomendada para subcomponentes y servicios IIS**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

@@ -18,6 +18,7 @@ En la tabla siguiente, se enumeran los atributos de Active Directory almacenados
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

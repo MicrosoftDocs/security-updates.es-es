@@ -21,9 +21,8 @@ This section covers the following issues which affect update file synchronizatio
 -   IIS settings
 -   Permissions
 
-| ![](images/Cc708545.Important(WS.10).gif)Importante                                                                                                                                    |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| These settings are configured during WSUS setup by default. They are listed here as a reference, to use as checkpoints when troubleshooting. When troubleshooting, you can verify that these settings are in place. |
+> [!IMPORTANT]
+> These settings are configured during WSUS setup by default. They are listed here as a reference, to use as checkpoints when troubleshooting. When troubleshooting, you can verify that these settings are in place. 
 
 #### Registry settings
 
@@ -47,6 +46,7 @@ All of the following server configuration settings are stored inside the WSUS da
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -100,6 +100,7 @@ The following virtual directories (vroots) are created in IIS (in the Default We
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

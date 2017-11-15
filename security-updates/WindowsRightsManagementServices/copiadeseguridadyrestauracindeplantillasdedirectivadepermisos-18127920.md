@@ -19,6 +19,5 @@ Realice alguno de estos procedimientos:
 
 Si necesita restaurar los datos de plantillas de directiva de permisos que se encuentran en la base de datos de configuración, puede extraer la información de GUID y TemplateData de la tabla DRMS\_RightsTemplate de la copia de seguridad de la base de datos de configuración o simplemente importar los datos del archivo de texto. Para obtener más información sobre cómo realizar estas tareas, consulte la documentación de SQL Server.
 
-| ![](images/Cc747625.note(WS.10).gif)Nota                                                                          |
-|------------------------------------------------------------------------------------------------------------------------------------------------|
-| Para establecer un plan para realizar copias de seguridad de las plantillas de directiva de permisos, consulte al administrador de SQL Server. |
+> [!NOTE]
+> Para establecer un plan para realizar copias de seguridad de las plantillas de directiva de permisos, consulte al administrador de SQL Server. 

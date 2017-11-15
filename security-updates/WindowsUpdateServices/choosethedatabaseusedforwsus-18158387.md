@@ -36,6 +36,7 @@ WSUS does support running database software on a computer separate from WSUS, bu
 ### Database Software Recommendations by Operating System
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

@@ -15,7 +15,6 @@ Antes de empezar a instalar RMS, revise los requisitos previos de tecnología pa
 -   [Listas de comprobación para la implementación de RMS](#bkmk_10)
 -   [Listas de comprobación para la administración de RMS](#bkmk_14)
 
-<span id="BKMK_9"></span>
 Requisitos previos de tecnología
 --------------------------------
 
@@ -30,7 +29,6 @@ Esta recopilación de documentación contiene información que sirve para compre
 
 Para obtener más información sobre estos temas, vea “Recursos adicionales” en [Operación de un servidor de RMS, en esta recopilación de documentación.](http://go.microsoft.com/fwlink/?linkid=42495)
 
-<span id="BKMK_10"></span>
 Listas de comprobación para la implementación de RMS
 ----------------------------------------------------
 
@@ -42,7 +40,6 @@ En esta sección se proporcionan listas de comprobación para las tareas de impl
 
 Para obtener más información sobre la implementación de RMS, vea [Implementación de un sistema RMS](http://go.microsoft.com/fwlink/?linkid=42494), en esta recopilación de documentación.
 
-<span id="BKMK_11"></span>
 Implementación de una instalación de un solo servidor
 -----------------------------------------------------
 
@@ -51,6 +48,7 @@ Utilice la siguiente lista de comprobación para implementar un solo servidor de
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -91,7 +89,6 @@ Utilice la siguiente lista de comprobación para implementar un solo servidor de
 </tbody>
 </table>
   
-<span id="BKMK_12"></span>
 Implementación de clústeres de licencias y de certificación raíz  
 ----------------------------------------------------------------
   
@@ -100,6 +97,7 @@ Utilice la siguiente lista de comprobación para implementar clústeres de licen
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -154,7 +152,6 @@ Utilice la siguiente lista de comprobación para implementar clústeres de licen
 </tbody>
 </table>
   
-<span id="BKMK_13"></span>
 Implementación de RMS entre bosques  
 -----------------------------------
   
@@ -163,6 +160,7 @@ Utilice la lista de comprobación siguiente para implementar RMS entre bosques.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -190,7 +188,6 @@ Utilice la lista de comprobación siguiente para implementar RMS entre bosques.
 </tbody>
 </table>
   
-<span id="BKMK_14"></span>
 Listas de comprobación para la administración de RMS  
 ----------------------------------------------------
   
@@ -203,7 +200,6 @@ En esta sección se proporcionan listas de comprobación para las tareas de admi
   
 Para obtener más información sobre la administración de RMS, vea [Operación de un servidor de RMS, en esta recopilación de documentación.](http://go.microsoft.com/fwlink/?linkid=42495)
   
-<span id="BKMK_15"></span>
 Implementación de una plantilla de directiva de permisos  
 --------------------------------------------------------
   
@@ -212,6 +208,7 @@ Utilice la lista de comprobación siguiente para implementar una plantilla de di
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -244,7 +241,6 @@ Utilice la lista de comprobación siguiente para implementar una plantilla de di
 </tbody>
 </table>
   
-<span id="BKMK_16"></span>
 Implementación de un nuevo cliente de RMS  
 -----------------------------------------
   
@@ -253,6 +249,7 @@ Utilice la lista de comprobación siguiente para implementar una nueva versión 
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -277,7 +274,6 @@ Utilice la lista de comprobación siguiente para implementar una nueva versión 
 </tbody>
 </table>
   
-<span id="BKMK_17"></span>
 Adición de dominios de usuario de confianza  
 -------------------------------------------
   
@@ -286,6 +282,7 @@ Utilice la lista de comprobación siguiente para agregar un dominio de usuario d
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -310,7 +307,6 @@ Utilice la lista de comprobación siguiente para agregar un dominio de usuario d
 </tbody>
 </table>
   
-<span id="BKMK_18"></span>
 Adición de dominios de publicación de confianza  
 -----------------------------------------------
   
@@ -319,6 +315,7 @@ Utilice la lista de comprobación siguiente para agregar un dominio de publicaci
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

@@ -67,13 +67,11 @@ Las llamadas a las interfaces de programación de aplicaciones (API) de WSUS ent
 
 Cuando actualiza WSUS aplicando WSUS con SP1, es posible que tenga que deshabilitar los programas antivirus para poder realizar correctamente la actualización o aplicar el service pack. Después de deshabilitar los programas antivirus, reinicie el equipo con Windows Server antes de aplicar la actualización o service pack. Este procedimiento impide que se bloqueen los archivos a los que el proceso de actualización necesita obtener acceso. Una vez completada la instalación, asegúrese de volver a habilitar los programas antivirus. Visite el sitio Web del proveedor de los programas antivirus para conocer los pasos exactos para deshabilitar y volver a habilitar el programa antivirus y la versión.
 
-| ![](images/Cc708486.Caution(WS.10).gif)Precaución                                                                                                                                                                                                                                                             |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Esta solución para el problema puede hacer que el equipo o la red sea más vulnerable a ataques por parte de usuarios o software malintencionados como virus. No se recomienda esta solución, pero se proporciona esta información para que pueda implementarla según su propio criterio. Use esta solución bajo su propia responsabilidad. |
+> [!CAUTION]
+> Esta solución para el problema puede hacer que el equipo o la red sea más vulnerable a ataques por parte de usuarios o software malintencionados como virus. No se recomienda esta solución, pero se proporciona esta información para que pueda implementarla según su propio criterio. Use esta solución bajo su propia responsabilidad. 
 
-| ![](images/Cc708486.note(WS.10).gif)Nota                                                                                                                                                                                                                            |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Los programas antivirus están diseñados para proteger el equipo frente a virus. No debe descargar ni abrir archivos de orígenes en los que no confíe, visitar sitios Web en los que no confíe, ni abrir archivos adjuntos de correo electrónico cuando el programa antivirus esté deshabilitado. |
+> [!NOTE]
+> Los programas antivirus están diseñados para proteger el equipo frente a virus. No debe descargar ni abrir archivos de orígenes en los que no confíe, visitar sitios Web en los que no confíe, ni abrir archivos adjuntos de correo electrónico cuando el programa antivirus esté deshabilitado. 
 
 #### Problema 6: si usa un servidor proxy, la actualización de SP1 puede borrar el nombre de usuario y contraseña de configuración de proxy
 
@@ -148,9 +146,8 @@ Si cambia el nombre del equipo después de instalar WSUS RTM y antes de actuali
 Use el siguiente script para eliminar y volver a agregar los grupos Administradores de WSUS y ASPNET. A continuación, vuelva a realizar la actualización.
 
         ```
-| ![](images/Cc708486.note(WS.10).gif)Nota                                                          |
-|--------------------------------------------------------------------------------------------------------------------------------|
-| Es posible que tenga que reemplazar &lt;ContentDirectory&gt; en la última línea por la ruta de acceso al almacén de contenido. |
+> [!NOTE]
+> Es posible que tenga que reemplazar &lt;ContentDirectory&gt; en la última línea por la ruta de acceso al almacén de contenido. 
 
 A continuación se muestra el contenido origina de Léame de WSUS
 ---------------------------------------------------------------
@@ -194,6 +191,7 @@ La siguiente tabla muestra el software necesario para cada sistema operativo com
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -340,9 +338,8 @@ Problemas conocidos
 
 Si ejecuta los servicios de Internet Information Server (IIS) en un equipo con Windows 2000 Server, instale la última versión del asistente para Lockdown de IIS (que incluye URLScan) desde la página Herramienta Lockdown de IIS en Microsoft TechNet. Microsoft recomienda instalar esta herramienta para proteger los servidores IIS. El asistente para Lockdown de IIS funciona desactivando características innecesarias de IIS, reduciendo así la exposición a riesgos de seguridad.
 
-| ![](images/Cc708486.note(WS.10).gif)Nota                                                                                                                                                               |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| El programa de instalación de WSUS no instala estos componentes. Debe instalarlos manualmente. No es necesario que instale Lockdown de IIS en los equipos que ejecuten Windows Server 2003, porque la funcionalidad está integrada. |
+> [!NOTE]
+> El programa de instalación de WSUS no instala estos componentes. Debe instalarlos manualmente. No es necesario que instale Lockdown de IIS en los equipos que ejecuten Windows Server 2003, porque la funcionalidad está integrada. 
 
 #### Problema 2: no se admite el cambio de configuración de WSUS directamente en la base de datos
 

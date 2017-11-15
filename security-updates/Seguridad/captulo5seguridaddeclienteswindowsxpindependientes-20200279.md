@@ -56,6 +56,7 @@ En la siguiente tabla se muestran las extensiones de complemento de Directiva de
 **Tabla 5.1 Extensiones del complemento de directiva de grupo**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -229,7 +230,8 @@ En la lista siguiente se explican los parámetros de la herramienta Secedit.exe.
     **Tabla 5.2 Áreas de seguridad**
 
  
-    <table style="border:1px solid black;">
+    <p> </p>
+<table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
     <col width="50%" />
@@ -288,6 +290,7 @@ En las siguientes tablas se incluye una lista de las secuencias de comandos y lo
 **Tabla 5.3 Secuencias de comandos y archivos para equipos cliente independientes**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -350,6 +353,7 @@ En las siguientes tablas se incluye una lista de las secuencias de comandos y lo
 **Tabla 5.4 Secuencias de comandos y archivos para equipos heredados**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

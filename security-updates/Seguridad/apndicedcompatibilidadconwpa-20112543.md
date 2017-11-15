@@ -32,6 +32,7 @@ Debido a que WPA utiliza el protocolo 802.1X para la autenticación de red, el s
 **Tabla D.1: Componentes de la solución que se deben tener en cuenta**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

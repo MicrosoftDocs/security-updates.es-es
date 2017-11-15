@@ -17,9 +17,8 @@ You can generate different kinds of update reports from different places in the 
 2.  Reports on specific updates: right-click the update (or go to the **Actions** pane) and choose **Status Report.**
 3.  Reports on specific computers: right-click the computer (or go to the **Actions** pane)and choose **Status Report**.
 
-| ![](images/Cc720459.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                                     |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Generating detailed reports for large numbers of computers and/or updates can be very memory-intensive. Detailed reports are most effective for smaller subsets of your computers or updates. If you need to create a very large report and are concerned about using CPU and memory resources on the WSUS server, you may generate the report from a remote WSUS Administration console. |
+> [!NOTE]
+> Generating detailed reports for large numbers of computers and/or updates can be very memory-intensive. Detailed reports are most effective for smaller subsets of your computers or updates. If you need to create a very large report and are concerned about using CPU and memory resources on the WSUS server, you may generate the report from a remote WSUS Administration console. 
 
 Using the Reports page
 ----------------------
@@ -29,6 +28,7 @@ You can generate three kinds of reports, as described in the following table.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -82,6 +82,7 @@ The Update Status Summary view contains the elements listed in the following tab
 ### Description of elements displayed in the Update Status Summary view
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -184,6 +185,7 @@ The report has four components, which are described in the following table.
 ### Components of Synchronization Results Report
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

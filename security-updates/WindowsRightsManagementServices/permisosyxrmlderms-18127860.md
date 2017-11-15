@@ -14,6 +14,7 @@ En la siguiente tabla, se muestra cómo se corresponden los permisos que puede s
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

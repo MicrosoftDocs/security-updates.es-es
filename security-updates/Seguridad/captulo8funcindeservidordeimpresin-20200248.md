@@ -37,6 +37,7 @@ En la siguiente tabla se muestran los nombres de las plantillas de seguridad de 
 **Tabla 8.1 Plantillas de seguridad de servidor de impresión para los tres entornos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -86,6 +87,7 @@ La mayoría de los parámetros de configuración para los servidores de impresi�
 **Tabla 8.2 Configuración recomendada para firmar digitalmente las comunicaciones (siempre)**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />

@@ -23,6 +23,7 @@ Los requisitos de hardware para ejecutar RMS con SP2 se indican en la siguiente 
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -59,6 +60,7 @@ Los requisitos software para los servidores en los que se ejecuta RMS con SP2 se
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -101,15 +103,15 @@ Los requisitos software para los servidores en los que se ejecuta RMS con SP2 se
 </table>
  
 
-| ![](images/Cc747637.note(WS.10).gif)Nota                                                                                                                  |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Si configura RMS con SP2 para permitir la administración remota, en el equipo conectado al servicio de administración de RMS con SP2 debe utilizarse Internet Explorer 6.0 o superior. |
+> [!NOTE]
+> Si configura RMS con SP2 para permitir la administración remota, en el equipo conectado al servicio de administración de RMS con SP2 debe utilizarse Internet Explorer 6.0 o superior. 
 
 Los requisitos de infraestructura para los servidores en los que se ejecuta RMS con SP2 se indican en la siguiente tabla.
 
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -149,6 +151,7 @@ En la siguiente tabla se muestran los permisos de usuario necesarios para realiz
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -197,6 +200,7 @@ Si utiliza RMS en una implementación de clúster, tenga en cuenta los elementos
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -232,9 +236,8 @@ Si utiliza RMS en una implementación de clúster, tenga en cuenta los elementos
   
 El cliente de RMS sin Service Pack, el cliente de RMS con SP1 o el cliente de RMS con SP2 se pueden instalar en cualquier equipo que ejecute Microsoft Windows 2000, Windows XP y Windows Server 2003. Esta versión no admite versiones anteriores de sistemas operativos de Windows.
   
-| ![](images/Cc747637.Caution(WS.10).gif)Precaución                                                         |  
-|----------------------------------------------------------------------------------------------------------------------------------------|  
-| Si usa el cliente de RMS sin Service Pack, el cliente no podrá usar la publicación en línea en un servidor de RMS con SP1 o posterior. |
+> [!CAUTION]
+> Si usa el cliente de RMS sin Service Pack, el cliente no podrá usar la publicación en línea en un servidor de RMS con SP1 o posterior. 
   
 Cambios en la funcionalidad  
 ---------------------------
@@ -246,7 +249,6 @@ Hay varias funciones nuevas en RMS con SP2:
 -   [Tamaños de lotes de servidor más grandes](#bkmk_cif3)  
 -   [Compatibilidad con Microsoft SQL Server 2005](#bkmk_cif4)
   
-<span id="BKMK_CIF1"></span>
 #### Expansión de grupos entre bosques mejorada
   
 #### ¿Para que sirve esta función?
@@ -279,7 +281,6 @@ La nueva canalización de expansión de grupos de RMS se ha configurado con los 
   
 Se han añadido nuevos sucesos a RMS con SP2 para informarle de mensajes de problemas que no se incluyeron en el servicio de Message Queue Server. En estos registros de sucesos se incluyen sucesos para notificarle cuando un mensaje no puede firmarse digitalmente o validarse. Entre varios casos de problemas de validación se incluye un mensaje incorrecto, la falta de un algoritmo hash o una firma o un algoritmo hash incorrectos.
   
-<span id="BKMK_CIF2"></span>
 #### Cambios en el registro de base de datos
   
 #### ¿Para que sirve esta función?
@@ -302,7 +303,6 @@ En RMS con SP2, se proporciona autenticación adicional en los mensajes transmit
   
 Se añaden a RMS con SP2 los nuevos sucesos diseñados para indicar los mensajes de problemas que no se incluyeron en la cola de Message Queue Server. Dichos eventos se escriben en el registro de la aplicación e incluyen mensajes que no se pueden firmar digitalmente o las firmas digitales del mensaje que no se pueden validar. Entre varios casos de problemas de validación se incluye un mensaje incorrecto, la falta de un algoritmo hash o una firma o un algoritmo hash incorrectos.
   
-<span id="BKMK_CIF3"></span>
 #### Tamaños de lotes de servidor más grandes
   
 #### ¿Para que sirve esta función?
@@ -327,7 +327,6 @@ En versiones de RMS anteriores a RMS con SP2, el clúster RMS admitía un tamañ
   
 Se ha mejorado el informe de errores en RMS con SP2 para las cuentas con solicitudes por lotes. Por ejemplo, si envía un lote de diez solicitudes y se producen errores en la segunda y la tercera, se escribe un suceso en el registro de sucesos por cada error.
   
-<span id="BKMK_CIF4"></span>
 #### Compatibilidad con Microsoft SQL Server 2005
   
 #### ¿Para que sirve esta función?

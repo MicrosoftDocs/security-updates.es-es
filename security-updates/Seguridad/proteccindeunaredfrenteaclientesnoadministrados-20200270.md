@@ -159,6 +159,7 @@ El aislamiento físico de equipos y redes no es un concepto nuevo. Se ha venido 
 **Tabla 1. Métodos de aislamiento de la red**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

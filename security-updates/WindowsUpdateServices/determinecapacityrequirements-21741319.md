@@ -45,6 +45,7 @@ Be aware that your organization’s performance results may vary if you choose t
 ### Sample Configuration and Maximum Supported Capacity
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />

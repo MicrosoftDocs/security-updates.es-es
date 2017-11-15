@@ -23,6 +23,7 @@ En la siguiente tabla se describen los servicios web de RMS.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

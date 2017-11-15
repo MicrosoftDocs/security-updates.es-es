@@ -32,9 +32,8 @@ Exclusión de aplicaciones o detención de la exclusión de aplicaciones
 
     Para eliminar una aplicación (o componente) de la lista de exclusión, seleccione el nombre de archivo y, a continuación, haga clic en **Eliminar las aplicaciones seleccionadas de la lista de exclusión**.
 
-    | ![](images/Cc720262.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                                          |
-    |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | RMS requiere que se especifique la versión de la aplicación en un formato de 4 dígitos separados por puntos (\#.\#.\#.\# ). Sin embargo, algunas aplicaciones especifican la versión de la aplicación en un formato de 2 o 3 dígitos separados por puntos. En este caso, deberá agregar tantas veces como convenga .0 para que el número de versión coincida con el formato requerido por RMS. |
+    > [!NOTE]
+    > RMS requiere que se especifique la versión de la aplicación en un formato de 4 dígitos separados por puntos (\#.\#.\#.\# ). Sin embargo, algunas aplicaciones especifican la versión de la aplicación en un formato de 2 o 3 dígitos separados por puntos. En este caso, deberá agregar tantas veces como convenga .0 para que el número de versión coincida con el formato requerido por RMS. 
 
 #### Para detener la exclusión de aplicaciones
 

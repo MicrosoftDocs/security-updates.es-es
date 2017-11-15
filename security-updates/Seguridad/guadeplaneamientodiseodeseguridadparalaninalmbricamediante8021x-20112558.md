@@ -105,6 +105,7 @@ En la tabla siguiente se indican los tipos de EAP que se pueden utilizar en una 
 **Tabla 6.1: Ventajas e inconvenientes de los tipos de EAP**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -213,6 +214,7 @@ Windows XP Professional contiene algunas funciones que sólo funcionan correctam
 **Tabla 6.2: Consideraciones para la autenticación de equipos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -259,6 +261,7 @@ Windows proporciona amplio soporte para validar certificados al realizar operaci
 **Tabla 6.3: Validación IAS de credenciales de certificados de cliente**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -306,6 +309,7 @@ Windows XP Professional realiza también la siguiente validación de credenciale
 **Tabla 6.4: Validación de credenciales de certificado IAS en Windows XP**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -350,6 +354,7 @@ No obstante, debe considerar la posibilidad de habilitar las siguientes opciones
 **Tabla 6.5: Validación avanzada de credenciales de certificados IAS en Windows XP**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -442,6 +447,7 @@ La tabla siguiente contiene algunos ejemplos de los distintos tipos de usuarios 
 **Tabla 6.6: Ejemplos de restricciones de conexión WLAN**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -548,6 +554,7 @@ Consulte a sus administradores de GPO del dominio para determinar la estrategia 
 **Tabla 6.7: Planeamiento de la directiva de red inalámbrica**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -626,6 +633,7 @@ Esta solución utiliza una única directiva de acceso remoto que otorga acceso i
 **Tabla 6.8: Condiciones de la directiva de acceso remoto**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -662,6 +670,7 @@ En la tabla siguiente se detallan las opciones del perfil de la directiva de acc
 **Tabla 6.9: Opciones del perfil de la directiva de acceso remoto**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -718,6 +727,7 @@ Esta solución utiliza IAS como servidor RADIUS y, por tanto, las solicitudes de
 **Tabla 6.10: Condiciones de la directiva de solicitud de conexión**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -747,6 +757,7 @@ En la tabla siguiente se muestra la configuración de perfil utilizada en la dir
 **Tabla 6.11: Configuración del perfil de la directiva de solicitud de conexión**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -788,6 +799,7 @@ En la tabla siguiente se muestra la configuración general de la directiva de re
 **Tabla 6.12: Configuración general de directivas de redes inalámbricas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -827,6 +839,7 @@ En la tabla siguiente se describe la configuración de las propiedades de la red
 **Tabla 6.13: Configuración de las propiedades de la directiva de redes inalámbricas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -886,6 +899,7 @@ La tabla siguiente contiene la configuración de 802.1X para la red 802.1X que s
 **Tabla 6.14: Configuración de la directiva de redes inalámbricas para 802.1X**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -943,6 +957,7 @@ A continuación se describe la configuración de EAP para la red 802.1X que se a
 **Tabla 6.15: Configuración EAP de directivas de redes inalámbricas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1000,6 +1015,7 @@ En la tabla siguiente se detalla la configuración de la autenticación de equip
 **Tabla 6.16: Opciones de comportamiento de autenticación de equipos en 802.1X**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

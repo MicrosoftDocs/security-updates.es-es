@@ -19,7 +19,6 @@ Un error en los servidores de base de datos que alojan las bases de datos de con
 -   [Servidores de base de datos](#bkmk_4)
 -   [Active Directory](#bkmk_5)
 
-<span id="BKMK_1"></span>
 Conectividad a Internet
 -----------------------
 
@@ -27,7 +26,6 @@ Si utiliza la inscripción de servidor en línea, el servidor de RMS necesitará
 
 Es aconsejable efectuar la renovación con tiempo antes de su fecha de caducidad, a fin de evitar complicaciones en el caso de que la conexión a Internet no esté disponible al caducar el certificado. El servidor de RMS no puede proporcionar servicios de RMS sin un SLC válido; es decir, los usuarios no podrán publicar información protegida con RMS ni obtener las licencias de uso ni los certificados de cuenta de permisos (RAC) necesarios para leer información protegida con RMS. Los usuarios que previamente hayan adquirido licencias de uso y RAC para partes del contenido protegido con RMS seguirán teniendo acceso a la información hasta que sus licencias de uso o RAC caduquen.
 
-<span id="BKMK_2"></span>
 Conectividad de intranet
 ------------------------
 
@@ -37,7 +35,6 @@ Es aconsejable que las organizaciones tengan en cuenta el establecimiento de arq
 
 Una vez que un usuario haya obtenido un CLC para su equipo, el usuario podrá publicar la información protegida con RMS sin conexión cuando no se pueda obtener acceso a un servidor de RMS. Algunas aplicaciones de correo electrónico compatibles con RMS se han configurado para descargar automáticamente licencias de uso para los mensajes de correo electrónico asociados protegidos con RMS al sincronizar un buzón, de manera que el usuario pueda leer los mensajes de correo electrónico protegidos con RMS, aunque la conexión a intranet ya no exista.
 
-<span id="BKMK_3"></span>
 Servicios de certificación y de licencias
 -----------------------------------------
 
@@ -47,7 +44,6 @@ Para prepararse para una posible pérdida de servicio, considere la creación de
 
 Es aconsejable crear un exceso de capacidad en los clústeres para que los errores de un nodo no afecten al rendimiento general. Cuando instale el primer servidor de certificación y cada servidor de licencias subinscrito, o bien el primer servidor de licencias subinscrito en un clúster, registre meticulosamente las opciones de configuración y los datos especificados durante el establecimiento de servicios en línea.
 
-<span id="BKMK_4"></span>
 Servidores de base de datos
 ---------------------------
 
@@ -62,7 +58,6 @@ Es aconsejable agrupar en clústeres los servidores de base de datos para ofrece
 
 También es aconsejable utilizar el transvase de registros de transacciones para tener preparada una base de datos de seguridad. Aunque para esta práctica puede ser necesario hardware adicional, permite a las organizaciones recuperar las bases de datos más rápidamente. Microsoft IT ha implementado este método para la recuperación de la base de datos de configuración de RMS. Para ello, seleccione el nombre de SQL virtual durante el establecimiento de servicios en línea de RMS. El nombre de SQL virtual permite realizar la asignación a un nombre de SQL real mediante el servicio de nombres de dominio (DNS). En caso de que SQL Server deje de funcionar, podrá cambiar fácilmente al SQL Server de copia de seguridad modificando la asignación de nombres de DNS del servidor original por el del servidor de copia de seguridad. Para obtener más información acerca de la implementación interna de esta solución en Microsoft, vea el caso práctico de Microsoft Corporation en el [sitio Web de Microsoft](http://go.microsoft.com/fwlink/?linkid=42070) (http://go.microsoft.com/fwlink/?LinkId=42070).
 
-<span id="BKMK_5"></span>
 Active Directory
 ----------------
 

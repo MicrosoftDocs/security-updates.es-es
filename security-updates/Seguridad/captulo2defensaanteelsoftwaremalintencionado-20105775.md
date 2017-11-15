@@ -130,6 +130,7 @@ La tabla siguiente proporciona información sobre la configuración de seguridad
 **Tabla 2.1 Configuración del control de UAC**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -203,6 +204,7 @@ La tabla siguiente proporciona información sobre la configuración de seguridad
 **Tabla 2.2 Configuración de la interfaz de usuario de credenciales de UAC**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -241,6 +243,7 @@ La tabla siguiente proporciona información sobre la configuración de seguridad
 **Tabla 2.3 Servicio del instalador de ActiveX**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -344,6 +347,7 @@ Puede revisar y modificar la configuración disponible de Windows Defender en la
 **Tabla 2.4 Configuración del control de Windows Defender**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -504,6 +508,7 @@ La plantilla Securitycenter.admx contiene la información referente a XML para e
 **Tabla 2.5 Configuración del Centro de seguridad de Windows**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -641,6 +646,7 @@ La tabla siguiente describe este parámetro de configuración.
 **Tabla 2.6 Configuración del Modo protegido**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -734,6 +740,7 @@ La tabla siguiente describe este parámetro de configuración.
 **Tabla 2.7 Configuración del filtro de suplantación de identidad**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -782,6 +789,7 @@ Puede hacer uso de la configuración de la directiva en esta sección para restr
 **Tabla 2.8 Configuración de la administración de complementos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -828,6 +836,7 @@ Internet Explorer incluye comportamientos binarios dinámicos: componentes que e
 **Tabla 2.9 Configuración de la restricción de seguridad de comportamiento binario**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -874,6 +883,7 @@ Internet Explorer utiliza datos MIME (Extensiones seguras multipropósito de cor
 **Tabla 2.10 Configuración de la administración coherente de MIME**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -916,6 +926,7 @@ La configuración de directivas de esta sección permite seleccionar la presenta
 **Tabla 2.11 Configuración de la barra de información**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -955,6 +966,7 @@ Internet Explorer establece restricciones de zona para cada página Web que abre
 **Tabla 2.12 Configuración de seguridad de bloqueo de la zona Máquina local**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -997,6 +1009,7 @@ Esta característica contribuye a evitar la conversión de un archivo de un tipo
 **Tabla 2.13 Configuración de la característica de seguridad de examen de MIME**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1039,6 +1052,7 @@ El parámetro de directiva Restricción de seguridad del protocolo MK reduce el 
 **Tabla 2.14 Configuración de la restricción de seguridad del protocolo MK**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1081,6 +1095,7 @@ Es posible configurar Internet Explorer 7 para evitar que el contenido activo o
 **Tabla 2.15 Configuración del bloqueo de protocolo de red**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1122,6 +1137,7 @@ Para cada zona, se puede configurar la restricción de seguridad ofrecida por el
 **Tabla 2.16 Configuración de protocolos restringidos para zonas de seguridad**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1173,6 +1189,7 @@ Este parámetro de directiva establece si las referencias a objetos permanecen a
 **Tabla 2.17 Configuración de la protección de caché de objetos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1214,6 +1231,7 @@ Internet Explorer establece restricciones para cada página Web que abre. Las re
 **Tabla 2.18 Configuración de la protección contra elevación de zona**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1257,6 +1275,7 @@ Estos parámetros de directiva aplican restricciones a la instalación de contro
 **Tabla 2.19 Configuración de limitación de la instalación de ActiveX**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1298,6 +1317,7 @@ Estos parámetros de directiva aplican restricciones a las descargas de archivos
 **Tabla 2.20 Configuración de la limitación de la descarga de archivos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1339,6 +1359,7 @@ Internet Explorer permite que las secuencias de comandos, mediante programación
 **Tabla 2.21 Configuración de las restricciones de seguridad de ventanas con secuencias de comandos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

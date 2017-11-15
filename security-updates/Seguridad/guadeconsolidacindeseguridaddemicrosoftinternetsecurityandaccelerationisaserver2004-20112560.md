@@ -94,6 +94,7 @@ Asimismo, debe tener en cuenta la funcionalidad del servidor ISA y proteger el s
 En la siguiente tabla se enumeran los servicios principales que se deben habilitar para que el servidor ISA y el equipo servidor ISA funcionen correctamente.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -251,6 +252,7 @@ En la siguiente tabla se enumeran los servicios principales que se deben habilit
 El equipo servidor ISA puede funcionar en capacidades, o funciones, adicionales según el modo en que lo utilice. En la tabla siguiente se enumeran las funciones de servidor posibles, se describe cuándo se pueden necesitar y se enumeran los servicios que se deben activar cuando se habilita la función.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -330,6 +332,7 @@ Tenga en cuenta que el servicio Servidor sólo se necesita si utiliza Administra
 Las tareas de servidor son similares a las funciones de servidor y con frecuencia están relacionadas con dichas funciones, aunque no están incluidas en ellas. Para que un servidor realice las tareas necesarias, se deben habilitar servicios específicos, en función de las funciones que seleccione. Los servicios que no sean necesarios se deben deshabilitar. En la tabla siguiente se enumeran las tareas de servidor posibles para el servidor ISA, se describe cuándo se pueden necesitar y se enumeran los servicios que se deben activar cuando se habilita la función.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -471,6 +474,7 @@ Las aplicaciones cliente de hora requieren que el servicio Inalámbrico o Servid
 Los servidores pueden ser clientes de otros servidores. Las funciones de cliente dependen de los servicios específicos de función que se hayan habilitado. En la tabla siguiente se enumeran las funciones de cliente posibles para el servidor ISA, se describe cuándo se pueden necesitar y se enumeran los servicios que se deben activar cuando se habilita la función.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -591,7 +595,8 @@ Puede crear una plantilla mediante el complemento Plantillas de seguridad de Mic
 10. Repita los pasos 8 y 9 por cada uno de los servicios enumerados en la siguiente tabla.
 
  
-    <table style="border:1px solid black;">
+    <p> </p>
+<table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
     <col width="33%" />
@@ -880,6 +885,7 @@ En las siguientes secciones se detallan las cuestiones que se deben tener en cue
 Al igual que con cualquier aplicación de su entorno, cuando defina los permisos para el servidor ISA debe tener en cuenta las funciones de los administradores del servidor ISA y asignarles únicamente los permisos necesarios. Para simplificar el proceso, el servidor ISA utiliza funciones administrativas. Puede utilizar la administración basada en funciones para organizar a los administradores del servidor ISA en funciones independientes y predefinidas, cada una con su propio conjunto de tareas. Al asignar una función a un usuario, fundamentalmente se concede permisos a dicho usuario para que realice tareas específicas. Un usuario que tenga una función, como Administrador total del servidor ISA, puede realizar tareas del servidor ISA específicas que un usuario con otra función, como Supervisión básica del servidor ISA, no puede realizar. La administración basada en funciones implica a usuarios y grupos de Windows. Estos permisos de seguridad, pertenencia a grupos y derechos de usuario se utilizan para diferenciar a los usuarios que tienen funciones. En la siguiente tabla se describen las funciones del servidor ISA.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -934,6 +940,7 @@ Tenga en cuenta que los administradores con permisos de Supervisión extendida d
 Cada función del servidor ISA tiene asociada una lista específica de tareas del servidor ISA. En la siguiente lista se enumeran algunas tareas de administración del servidor ISA junto con las funciones en que se realizan.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1119,8 +1126,8 @@ La caché está deshabilitada de forma predeterminada. Esto significa que todas 
   
 4.  En la ficha **Tareas**, haga clic en **Deshabilitar caché**.
   
-    ![](images/Dd458738.note(es-es,TechNet.10).gif)  Nota  
-    Si la caché está deshabilitada, no aparecerá esta opción.
+    > [!NOTE]
+    > Si la caché está deshabilitada, no aparecerá esta opción.
   
     [![](images/Dd458738.sechgd10(es-es,TechNet.10).gif)](https://technet.microsoft.com/es-es/dd458738.sechgd10_big(es-es,technet.10).gif)
   
@@ -1165,6 +1172,7 @@ Puede modificar la directiva del sistema de modo que sólo se pueda tener acceso
 En la siguiente tabla se muestran las reglas de directiva del sistema que se aplican a los servicios de red.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1218,8 +1226,8 @@ Si el servidor DHCP no se encuentra en la red interna, tendrá que modificar la 
   
     [![](images/Dd458738.sechgd12(es-es,TechNet.10).gif)](https://technet.microsoft.com/es-es/dd458738.sechgd12_big(es-es,technet.10).gif)
   
-    ![](images/Dd458738.tip(es-es,TechNet.10).gif)  Sugerencia  
-    Si se conoce la dirección IP del servidor DHCP, se recomienda crear un conjunto de equipos con sólo dicha dirección IP y seleccionar dicho conjunto. Esta acción se recomienda cuando el servidor DHCP se encuentra en una red que no es de confianza.
+    > [!TIP]
+    > Si se conoce la dirección IP del servidor DHCP, se recomienda crear un conjunto de equipos con sólo dicha dirección IP y seleccionar dicho conjunto. Esta acción se recomienda cuando el servidor DHCP se encuentra en una red que no es de confianza.
   
 7.  Haga clic en **Agregar** y, a continuación, en **Cerrar**.
   
@@ -1230,6 +1238,7 @@ Una de las capacidades fundamentales del servidor ISA es el poder aplicar una di
 En la siguiente tabla se muestran las reglas de directiva del sistema que se aplican a los servicios de autenticación.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1288,8 +1297,8 @@ Si necesita utilizar el protocolo DCOM (por ejemplo, para administrar de forma r
   
     [![](images/Dd458738.sechgd13(es-es,TechNet.10).gif)](https://technet.microsoft.com/es-es/dd458738.sechgd13_big(es-es,technet.10).gif)
   
-    ![](images/Dd458738.tip(es-es,TechNet.10).gif)  Sugerencia  
-    DCOM normalmente es necesario para varios servicios, incluida la administración remota y la inscripción automática.
+    > [!TIP]
+    > DCOM normalmente es necesario para varios servicios, incluida la administración remota y la inscripción automática.
   
 ###### Servicios de autenticación de Windows y RADIUS
   
@@ -1307,13 +1316,13 @@ Si no necesita la autenticación de Windows o la autenticación RADIUS, debe rea
   
 5.  En la ficha **General** compruebe que **Habilitar** no está activado.
   
-    ![](images/Dd458738.note(es-es,TechNet.10).gif)  Nota  
-    Cuando se deshabilita el grupo de configuración de directiva del sistema de Active Directory, se deshabilita el acceso a todos los protocolos LDAP. Si necesita los protocolos LDAP, cree una regla de acceso que permita el uso de estos protocolos.
+    > [!NOTE]
+    > Cuando se deshabilita el grupo de configuración de directiva del sistema de Active Directory, se deshabilita el acceso a todos los protocolos LDAP. Si necesita los protocolos LDAP, cree una regla de acceso que permita el uso de estos protocolos.
   
 6.  Repita los pasos 4 y 5 para el grupo de configuración RADIUS.
   
-    ![](images/Dd458738.tip(es-es,TechNet.10).gif)  Sugerencia  
-    Si sólo necesita la autenticación de Windows, asegúrese de configurar la directiva del sistema y deshabilitar el uso de los demás mecanismos de autenticación.
+    > [!TIP]
+    > Si sólo necesita la autenticación de Windows, asegúrese de configurar la directiva del sistema y deshabilitar el uso de los demás mecanismos de autenticación.
   
 ###### Servicios de autenticación RSA SecurID
   
@@ -1346,6 +1355,7 @@ Se permitirá todo el tráfico HTTP desde la red del host local (el equipo servi
 El servidor ISA normalmente se administra desde un equipo remoto. Determine cuidadosamente los equipos remotos que podrán administrar y supervisar el servidor ISA. En la siguiente tabla se enumeran las reglas de directiva del sistema que se deben configurar.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1421,6 +1431,7 @@ De forma predeterminada, el registro y la supervisión remotos están deshabilit
 En la siguiente tabla se proporciona una descripción de los grupos de configuración.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1485,6 +1496,7 @@ En la siguiente tabla se proporciona una descripción de los grupos de configura
 Si ha instalado el componente Recurso compartido de cliente firewall al instalar el servidor ISA, el grupo de configuración Recurso compartido de instalación de cliente firewall está habilitado de forma predeterminada. Todos los equipos de la red interna pueden tener acceso a la carpeta compartida. En la siguiente tabla se muestra el grupo de configuración de directiva del sistema (y la regla) que está habilitado.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1524,6 +1536,7 @@ De forma predeterminada, las reglas de directiva del sistema que permiten el acc
 En la siguiente tabla se muestran los grupos de configuración de directiva del sistema que están habilitados de forma predeterminada.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1563,6 +1576,7 @@ Además, el siguiente servicio de diagnóstico no está habilitado de forma pred
 Cuando se crea un comprobador de conectividad, el grupo de configuración Comprobadores de conectividad HTTP está habilitado, lo que permite que la red de host local utilice HTTP o HTTPS para tener acceso a los equipos de otra red. En la siguiente tabla se describe el grupo de configuración Comprobadores de conectividad HTTP.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1608,6 +1622,7 @@ Se recomienda limitar este acceso a equipos específicos cuya conectividad se de
 De forma predeterminada, el grupo de configuración SMTP está habilitado, lo que permite la comunicación SMTP del servidor ISA a los equipos de la red interna. Por ejemplo, esto se necesita cuando se desea enviar información de alerta en un mensaje de correo electrónico. En la siguiente tabla se describe el grupo de configuración SMTP.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1635,6 +1650,7 @@ De forma predeterminada, el grupo de configuración SMTP está habilitado, lo qu
 De forma predeterminada, la característica de trabajos de descarga programada está deshabilitada. En la siguiente tabla se describe el grupo de configuración Trabajos de descarga programada.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1670,6 +1686,7 @@ La directiva del sistema predeterminada permite el acceso HTTP y HTTPS de la red
 De forma predeterminada, el grupo de configuración Sitios permitidos está habilitado, lo que permite que el servidor ISA tenga acceso a sitios específicos que pertenecen al conjunto de nombres de dominio Sitios permitidos de directiva del sistema. En la siguiente tabla se describe el grupo de configuración Sitios permitidos.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
