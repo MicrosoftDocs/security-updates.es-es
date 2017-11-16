@@ -152,6 +152,7 @@ Para comprender el nivel de seguridad que ofrecen las distintas soluciones de se
 **Tabla 1. Amenazas de seguridad habituales de las redes WLAN**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -211,6 +212,7 @@ En la siguiente tabla se comparan las principales alternativas, excepto el enfoq
 **Tabla 2. Comparación de los enfoques de seguridad para las redes WLAN**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -438,6 +440,7 @@ Como se ha mencionado anteriormente, EAP-TLS necesita al menos cuatro servidores
 **Tabla 3. Requisitos de hardware recomendados para el servidor de la CA raíz**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -559,6 +562,7 @@ Hay dos enfoques disponibles para el equilibrio de carga y la conmutación por e
 **Tabla 4. Conmutación por error y equilibrio de carga de RADIUS para EAP**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -651,6 +655,7 @@ Otra consideración puede estar relacionada con si es factible colocar servidore
 **Tabla 5. Consideraciones sobre el co-emplazamiento de IAS y un controlador de dominio**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -713,6 +718,7 @@ Al calcular la capacidad del servidor IAS, es útil usar el número de autentica
 **Tabla 6. Autenticaciones por segundo**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -792,6 +798,7 @@ La siguiente tabla incluye parámetros específicos de la organización que debe
 **Tabla 7. Información de configuración definida por el usuario**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -861,6 +868,7 @@ Los parámetros identificados en la siguiente tabla no necesitan cambiarse, exce
 **Tabla 8. Elementos de configuración recomendados para la solución**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1097,7 +1105,8 @@ Se debe crear un directorio virtual en IIS para utilizarlo como la ubicación HT
     **Tabla 9. Permisos del directorio virtual**
 
  
-    <table style="border:1px solid black;">
+    <p> </p>
+<table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
     <col width="33%" />
@@ -1205,7 +1214,8 @@ Esta solución define varios grupos de seguridad que se corresponden con funcion
     **Tabla 10. Nombres y funciones de los grupos**
 
  
-    <table style="border:1px solid black;">
+    <p> </p>
+<table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
     <col width="50%" />
@@ -1249,6 +1259,7 @@ Los procedimientos de configuración que se describen en el resto del documento 
 **Tabla 11. Modelo de administración simplificado**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1288,7 +1299,8 @@ Hay varias cuentas de usuario y grupos que se asociarán a la administración y 
     **Tabla 12. Ejemplo de estructura de unidades organizativas**
 
  
-    <table style="border:1px solid black;">
+    <p> </p>
+<table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
     <col width="50%" />
@@ -1515,7 +1527,8 @@ Es necesario asignar los grupos de seguridad creados anteriormente a las funcion
     **Tabla 13. Entradas de permiso de CA**
 
  
-    <table style="border:1px solid black;">
+    <p> </p>
+<table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
     <col width="33%" />
@@ -1778,7 +1791,8 @@ Para utilizar las funciones administrativas descritas en esta guía, es necesari
     **Tabla 14. Permisos de la CA emisora**
 
  
-    <table style="border:1px solid black;">
+    <p> </p>
+<table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
     <col width="33%" />
@@ -1888,6 +1902,7 @@ La siguiente tabla incluye información que es específica de cada organización
 **Tabla 15. Parámetros de configuración definidos por el usuario**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1925,6 +1940,7 @@ La siguiente tabla incluye parámetros que no deben cambiarse, excepto si hay un
 **Tabla 16. Parámetros de configuración definidos por la solución**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -2092,6 +2108,7 @@ La siguiente tabla incluye parámetros específicos de la organización que se d
 **Tabla 17. Parámetros necesarios definidos por el usuario**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -2129,6 +2146,7 @@ La siguiente tabla incluye parámetros que no deben cambiarse, excepto si hay un
 **Tabla 18. Parámetros de configuración definidos por la solución**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

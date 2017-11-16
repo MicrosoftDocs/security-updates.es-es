@@ -13,9 +13,8 @@ Al implementar RMS, debe instalarse una aplicación compatible con RMS en el equ
 
 Para que una aplicación sea compatible con RMS, debe integrar el cliente de RMS en sus operaciones. Antes de Windows Vista®, el cliente RMS estaba disponible como un componente de Windows descargado por separado del Centro de descarga Microsoft. Sin embargo, si no desea descargar el cliente individualmente para cada equipo cliente de la empresa, puede utilizar Microsoft Systems Management Server (SMS), directiva de grupo o secuencias de comandos para automatizar la entrega de los clientes de RMS a los equipos cliente.
 
-| ![](images/Cc747703.Important(WS.10).gif)Importante                             |
-|--------------------------------------------------------------------------------------------------------------|
-| El cliente RMS está integrado en Windows Vista. Por tanto, ya no es necesaria una instalación independiente. |
+> [!IMPORTANT]
+> El cliente RMS está integrado en Windows Vista. Por tanto, ya no es necesaria una instalación independiente. 
 
 Si utiliza SMS para distribuir el cliente de RMS, deberá hacer lo siguiente:
 
@@ -26,9 +25,8 @@ Si utiliza SMS para distribuir el cliente de RMS, deberá hacer lo siguiente:
 -   Utilice los archivos de Windows Installer para la definición y origen de paquete.
 -   Anuncie la disponibilidad de los paquetes a través de su red.
 
-| ![](images/Cc747703.note(WS.10).gif)Nota                                                                                                                                       |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Se necesitan derechos administrativos para instalar software; es posible que una directiva de seguridad de su organización requiera que un administrador del sistema instale el software de cliente de RMS. |
+> [!NOTE]
+> Se necesitan derechos administrativos para instalar software; es posible que una directiva de seguridad de su organización requiera que un administrador del sistema instale el software de cliente de RMS. 
 
 Para obtener más información acerca del uso de SMS para distribuir software, consulte la guía de conceptos, planificación e implementación de Systems Management Server 2003 ([http://go.microsoft.com/fwlink/?LinkID=17401](http://go.microsoft.com/fwlink/?linkid=17401)).
 

@@ -39,6 +39,7 @@ Para saber cómo funciona esta estimación, supongamos que una organización de 
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

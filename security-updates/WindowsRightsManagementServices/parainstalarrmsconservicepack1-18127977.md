@@ -13,13 +13,11 @@ Para realizar este procedimiento, debe iniciar sesión localmente en el sitio We
 
 El equipo en el que instale RMS debe ser un servidor miembro de un dominio o un controlador de dominio. No es posible implementar RMS en un servidor independiente de un grupo de trabajo.
 
-| ![](images/Cc747689.Important(WS.10).gif)Importante                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| No establezca los servicios en línea de RMS en ningún otro servidor hasta haber completado tanto la instalación como el establecimiento de servicios en línea en el primer servidor de certificación raíz. Para obtener instrucciones, vea "[Para establecer los servicios en línea en el primer servidor de certificación raíz](https://technet.microsoft.com/debc42f3-74ff-4c99-b7a4-4921fccdabc2)", "[Para establecer los servicios en línea en un servidor de licencias](https://technet.microsoft.com/4d67b898-0ba9-4eef-ab7d-ee0ca55a688e)" o "[Para agregar un servidor a un clúster](https://technet.microsoft.com/db635238-5528-4bec-9cc6-8244e2b3d733)", más adelante en este tema. |
+> [!IMPORTANT]
+> No establezca los servicios en línea de RMS en ningún otro servidor hasta haber completado tanto la instalación como el establecimiento de servicios en línea en el primer servidor de certificación raíz. Para obtener instrucciones, vea "[Para establecer los servicios en línea en el primer servidor de certificación raíz](https://technet.microsoft.com/debc42f3-74ff-4c99-b7a4-4921fccdabc2)", "[Para establecer los servicios en línea en un servidor de licencias](https://technet.microsoft.com/4d67b898-0ba9-4eef-ab7d-ee0ca55a688e)" o "[Para agregar un servidor a un clúster](https://technet.microsoft.com/db635238-5528-4bec-9cc6-8244e2b3d733)", más adelante en este tema. 
 
-| ![](images/Cc747689.Important(WS.10).gif)Importante                                                                                                                                                             |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SP1 de RMS puede instalarse en un servidor que esté ejecutando la versión anterior de RMS. No obstante, si ha retirado RMS, RMS debe quitarse por completo mediante la opción Agregar o quitar programas antes de intentar instalar RMS SP1. |
+> [!IMPORTANT]
+> SP1 de RMS puede instalarse en un servidor que esté ejecutando la versión anterior de RMS. No obstante, si ha retirado RMS, RMS debe quitarse por completo mediante la opción Agregar o quitar programas antes de intentar instalar RMS SP1. 
 
 Instalación de RMS con Service Pack 1
 -------------------------------------
@@ -38,8 +36,7 @@ Instalación de RMS con Service Pack 1
 
 6.  Cuando aparezca el cuadro de diálogo **Instalación completa**, haga clic en **Cerrar**.
 
-    | ![](images/Cc747689.note(WS.10).gif)Nota                                                                                       |
-    |-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Si aparece un mensaje de error indicando que la aplicación se va a reiniciar, actualice la página **Administración global** en Microsoft Internet Explorer. |
+    > [!NOTE]
+    > Si aparece un mensaje de error indicando que la aplicación se va a reiniciar, actualice la página **Administración global** en Microsoft Internet Explorer. 
 
 También puede instalar RMS desde el símbolo del sistema. Para obtener instrucciones, vea "[Instalación de símbolo del sistema del servidor RMS](https://technet.microsoft.com/b55b1e2a-dd14-4168-a37f-9cdedbec660b)", más adelante en este tema.

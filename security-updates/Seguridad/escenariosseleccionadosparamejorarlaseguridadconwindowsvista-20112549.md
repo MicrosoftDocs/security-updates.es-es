@@ -37,6 +37,7 @@ Esta sección describe características de seguridad seleccionadas, nuevas y act
 #### Beneficios de las características de seguridad nuevas o modificadas
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

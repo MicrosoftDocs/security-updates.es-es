@@ -84,6 +84,7 @@ Muchas de las siguientes configuraciones que aparecen en la directiva MSBP del e
 **Tabla 4.1 Plantillas de seguridad de línea de base para los tres entornos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -146,6 +147,7 @@ Para obtener un resumen de la configuración recomendada en esta sección, consu
 **Tabla 4.2 Configuraciones de la directiva de auditoría**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -224,6 +226,7 @@ La tabla siguiente incluye los eventos de seguridad importantes que esta configu
 **Tabla 4.3 Eventos de inicio de sesión de cuenta**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -300,6 +303,7 @@ La tabla siguiente incluye los eventos de seguridad importantes que esta configu
 **Tabla 4.4 Eventos de administración de cuentas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -502,6 +506,7 @@ La tabla siguiente incluye los eventos de seguridad importantes que esta configu
 **Tabla 4.5 Auditar eventos de inicio de sesión    **
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -652,6 +657,7 @@ La tabla siguiente incluye los eventos de seguridad importantes que esta configu
 **Tabla 4.6 Eventos de acceso a objetos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -849,6 +855,7 @@ La tabla siguiente incluye los eventos de seguridad importantes que esta configu
 **Tabla 4.7 Eventos de Auditar el cambio de directivas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -981,6 +988,7 @@ La tabla siguiente incluye los eventos de seguridad importantes que esta configu
 **Tabla 4.8 Eventos de uso de privilegios**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1020,6 +1028,7 @@ La tabla siguiente incluye los eventos de seguridad importantes que esta configu
 **Tabla 4.9 Eventos de seguimiento de procesos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1089,6 +1098,7 @@ La tabla siguiente incluye los eventos de tipo Correcto más útiles para esta c
 **Tabla 4.10 Mensajes de eventos del sistema para Auditar eventos del sistema**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1184,6 +1194,7 @@ La tabla siguiente incluye recomendaciones de configuración de las asignaciones
 **Tabla 4.11 Recomendaciones de configuración de las asignaciones de derechos de usuario**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1692,6 +1703,7 @@ En las tablas de las siguientes secciones se resume la configuración recomendad
 **Tabla 4.12 Opciones de seguridad: recomendaciones de configuración de cuentas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1752,6 +1764,7 @@ Esta configuración de directiva determina si las cuentas locales que no están 
 **Tabla 4.13 Opciones de seguridad: recomendaciones de configuración de auditoría**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1816,6 +1829,7 @@ Se ha determinado que la cantidad de carga administrativa necesaria para habilit
 **Tabla 4.14 Opciones de seguridad: recomendaciones de configuración de dispositivos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1912,6 +1926,7 @@ Esta configuración de directiva determina lo que ocurre ante un intento de inst
 **Tabla 4.15 Opciones de seguridad: recomendaciones de configuración de miembros de dominio**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2012,6 +2027,7 @@ Por lo tanto, debido a que los tres entornos de seguridad descritos en esta guí
 **Tabla 4.16 Opciones de seguridad: recomendaciones de configuración de inicio de sesión interactivo**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2164,6 +2180,7 @@ Esta configuración de directiva determina lo que ocurre cuando se quita la tarj
 **Tabla 4.17 Opciones de seguridad: recomendaciones de configuración de cliente de redes de Microsoft**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2224,6 +2241,7 @@ Si se habilita, se permitirá al redirector SMB enviar contraseñas de texto sin
 **Tabla 4.18 Opciones de seguridad: recomendaciones de configuración de servidor de red Microsoft**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2296,6 +2314,7 @@ Esta configuración de directiva determina si se desconectará a los usuarios qu
 **Tabla 4.19 Opciones de seguridad: recomendaciones de configuración de acceso de red**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2521,6 +2540,7 @@ Esta configuración de directiva determina cómo se autentican los inicios de se
 **Tabla 4.20 Opciones de seguridad: recomendaciones de configuración de seguridad de red**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2585,6 +2605,7 @@ Esta configuración de directiva determina qué protocolo de autenticación desa
 **Tabla 4.21 Configuración del valor del Registro LMCompatibilityLevel**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -2657,6 +2678,7 @@ Esta configuración de directiva permite a un servidor solicitar la negociación
 **Tabla 4.22 Opciones de seguridad: recomendaciones de configuración de Consola de recuperación**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2713,6 +2735,7 @@ Para una seguridad máxima, **Consola de recuperación: permitir la copia de dis
 **Tabla 4.23 Opciones de seguridad: recomendaciones de configuración de apagado**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2763,6 +2786,7 @@ Por estas razones, **Apagado: borrar el archivo de paginación de la memoria vir
 **Tabla 4.24 Opciones de seguridad: recomendaciones de configuración de criptografía de sistema**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2811,6 +2835,7 @@ Por estas razones, **Criptografía de sistema: usar algoritmos que cumplan la no
 **Tabla 4.25 Opciones de seguridad: recomendaciones de configuración de objetos de sistema**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2871,6 +2896,7 @@ Esta configuración de directiva determina la seguridad de la lista de control d
 **Tabla 4.26 Opciones de seguridad: recomendaciones de configuración del sistema**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2931,6 +2957,7 @@ La tabla siguiente incluye recomendaciones de configuración del registro de eve
 **Tabla 4.27 Recomendaciones de configuración del registro de eventos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -3091,6 +3118,7 @@ subclave.
 **Tabla 4.28 Recomendaciones sobre las entradas del Registro de TCP/IP**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -3175,6 +3203,7 @@ La siguiente tabla incluye otras entradas del Registro recomendadas que no son e
 **Tabla 4.29 Recomendaciones sobre otras entradas del Registro**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -3529,6 +3558,7 @@ Además, la cuenta de administrador integrada puede tener un nombre nuevo si ha 
 **Tabla 4.30 Asignaciones de derechos de usuario agregadas manualmente**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -3647,6 +3677,7 @@ Puede establecer esta configuración en la siguiente ubicación de la directiva 
 **Tabla 4.31 Recomendación de configuración del nivel de cifrado de las conexiones de cliente**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -3677,6 +3708,7 @@ Los tres niveles disponibles de cifrado se describen en la tabla siguiente:
 **Tabla 4.32 Niveles de cifrado de Servicios de Terminal Server**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -3711,6 +3743,7 @@ Los tres niveles disponibles de cifrado se describen en la tabla siguiente:
 **Tabla 4.33 Configuración recomendada de los informes de errores**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />

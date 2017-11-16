@@ -145,6 +145,7 @@ Si bien los usuarios pueden realizar ambas funciones en cualquier entorno concre
 **Tabla 1. Grupos y cuentas de administrador de servicios predeterminados**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -251,6 +252,7 @@ La siguiente tabla describe los escenarios que se detallan en la figura y texto 
 **Tabla 2. Clasificación de los escenarios de vulnerabilidad de seguridad**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -326,6 +328,7 @@ La siguiente tabla enumera las cuentas de servicio que ya no usan la cuenta del 
 **Tabla 3. Nueva configuración de cuentas de servicio de Windows Server 2003**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -870,6 +873,7 @@ La siguiente tabla enumera y describe los servicios habituales de Windows Server
 **Tabla A.1 Descripciones de servicios de Windows XP y Windows Server 2003**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />

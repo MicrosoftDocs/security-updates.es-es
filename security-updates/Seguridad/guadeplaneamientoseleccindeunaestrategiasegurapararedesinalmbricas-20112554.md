@@ -113,6 +113,7 @@ Antes de adentrarnos en el funcionamiento de las soluciones de seguridad de WLAN
 **Tabla 2.1: Principales amenazas físicas para WLAN**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -305,6 +306,7 @@ Una tabla incluida anteriormente en este capítulo ofrecía una descripción de 
 **Tabla 2.2: Amenazas contra la seguridad evaluadas en función de la solución propuesta**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -374,6 +376,7 @@ Las diferencias clave entre estos enfoques y la solución basada en el protocolo
 **Tabla 2.3: Comparación de los enfoques de seguridad de WLAN**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />

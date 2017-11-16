@@ -38,6 +38,5 @@ La **página principal de administración** muestra información sobre el clúst
 
 Los demás temas de esta sección explican cómo utilizar estas funciones. Para obtener instrucciones paso a paso, vea “[RMS Cómo...](https://technet.microsoft.com/82032075-f361-438f-a2c4-93ab29ae6cff)”, más adelante en este tema.
 
-| ![](images/Cc720290.note(WS.10).gif)Nota                                                                                                                                                                                                                                                         |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| El sitio Web de administración de RMS utiliza ventanas emergentes para la configuración de algunas funciones. Si utiliza un bloqueador de ventanas emergentes con el explorador Web, deberá configurar los valores del explorador para permitir que aparezcan las ventanas emergentes del sitio Web de administración de RMS. |
+> [!NOTE]
+> El sitio Web de administración de RMS utiliza ventanas emergentes para la configuración de algunas funciones. Si utiliza un bloqueador de ventanas emergentes con el explorador Web, deberá configurar los valores del explorador para permitir que aparezcan las ventanas emergentes del sitio Web de administración de RMS. 

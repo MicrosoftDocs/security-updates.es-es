@@ -13,10 +13,8 @@ Durante la instalación, RMS crea el grupo de servicio de RMS en el equipo local
 
 Puede cambiar la cuenta de servicio de RMS en cualquier momento. Cuando lo haga, la cuenta anteriormente especificada se quitará automáticamente del grupo de servicio de RMS y la nueva cuenta pasará a formar parte de él.
 
-| ![](images/Cc747736.Important(WS.10).gif)Importante                                                                                                                                       |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Por seguridad, se recomienda que cree una cuenta de usuario especial para utilizarla únicamente como cuenta de servicio de RMS y para ningún otro fin. Además, no debe otorgar a esta cuenta ningún permiso adicional. |
+> [!IMPORTANT]
+> Por seguridad, se recomienda que cree una cuenta de usuario especial para utilizarla únicamente como cuenta de servicio de RMS y para ningún otro fin. Además, no debe otorgar a esta cuenta ningún permiso adicional. 
 
-| ![](images/Cc747736.note(WS.10).gif)Nota                                                     |
-|---------------------------------------------------------------------------------------------------------------------------|
-| La cuenta de servicio de RMS no puede ser la misma cuenta de dominio que se utilizó para instalar RMS con Service Pack 1. |
+> [!NOTE]
+> La cuenta de servicio de RMS no puede ser la misma cuenta de dominio que se utilizó para instalar RMS con Service Pack 1. 

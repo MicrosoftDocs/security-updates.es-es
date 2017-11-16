@@ -22,22 +22,9 @@ Antes de iniciar el proceso de configuración, asegúrese de que conoce las resp
 De manera predeterminada, WSUS 3.0 SP2 está configurado para utilizar Microsoft Update como la ubicación desde la que obtener las actualizaciones. Si tiene un servidor proxy en la red, puede configurar WSUS 3.0 SP2 para que lo use. Si hay un firewall corporativo entre WSUS e Internet, necesitará configurar el firewall para asegurarse de que WSUS puede obtener las actualizaciones.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Nota</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Aunque debe tener conexión a Internet para descargar las actualizaciones de Microsoft Update, WSUS ofrece la posibilidad de importar actualizaciones en redes que no estén conectadas a Internet.
-</td>
-</tr>
-</tbody>
-</table>
+<p> </p>
+> [!NOTE]
+> Aunque debe tener conexión a Internet para descargar las actualizaciones de Microsoft Update, WSUS ofrece la posibilidad de importar actualizaciones en redes que no estén conectadas a Internet.
  
 
 El paso 3 contiene los procedimientos siguientes:
@@ -64,22 +51,9 @@ El paso 3 contiene los procedimientos siguientes:
     -   http://ntservicepack.microsoft.com
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Nota</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Estas instrucciones para configurar el firewall están dirigidas a un firewall corporativo ubicado entre WSUS e Internet. Dado que WSUS inicia todo su tráfico de red, no hay necesidad de configurar el firewall de Windows en el servidor WSUS.
-</td>
-</tr>
-</tbody>
-</table>
+<p> </p>
+> [!NOTE]
+> Estas instrucciones para configurar el firewall están dirigidas a un firewall corporativo ubicado entre WSUS e Internet. Dado que WSUS inicia todo su tráfico de red, no hay necesidad de configurar el firewall de Windows en el servidor WSUS.
  
 
 Aunque la conexión entre Microsoft Update y WSUS requiere que los puertos 80 y 443 estén abiertos, puede configurar varios servidores WSUS para sincronizar con un puerto personalizado.
@@ -112,22 +86,9 @@ En los dos procedimientos siguientes se supone que utiliza el complemento de adm
 -   Para iniciar la consola de administración de WSUS, haga clic en **Inicio**, seleccione **Todos los programas**, **Herramientas administrativas** y, a continuación, haga clic en **Microsoft Windows Server Update Services 3.0**.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Nota</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Para usar todas las características de la consola, debe ser miembro de los grupos de seguridad de administradores de WSUS o de administradores locales del servidor en el que está instalado WSUS. Los miembros del grupo de seguridad de informadores de WSUS tienen acceso de sólo lectura en la consola de administración.
-</td>
-</tr>
-</tbody>
-</table>
+<p> </p>
+> [!NOTE]
+> Para usar todas las características de la consola, debe ser miembro de los grupos de seguridad de administradores de WSUS o de administradores locales del servidor en el que está instalado WSUS. Los miembros del grupo de seguridad de informadores de WSUS tienen acceso de sólo lectura en la consola de administración.
  
 
 **Para especificar un origen de actualización y un servidor proxy**

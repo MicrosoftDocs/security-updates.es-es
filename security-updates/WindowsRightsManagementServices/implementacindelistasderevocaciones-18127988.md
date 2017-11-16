@@ -45,9 +45,8 @@ Si descarga el paquete de lista de revocaciones en un servidor de RMS, se guarda
 
 2.  Descargue el paquete de lista de revocaciones de Microsoft e impleméntelo en todos los equipos cliente de la organización utilizando la directiva de grupo o SMS (Systems Management Server). Como alternativa, puede copiar entradas de la lista de revocaciones de Microsoft en la de la organización e implementar sólo esta última.
 
-| ![](images/Cc747702.Caution(WS.10).gif)Precaución                                                                                                                                                                                                                                                                                                                                                                                         |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Microsoft es una entidad principal de la cadena de confianza de todos los certificados y licencias que RMS emite. Por tanto, una lista de revocaciones emitida por Microsoft es efectiva para todas las solicitudes de enlace para las que se obtenga la licencia de uso en función de una plantilla de directiva de permisos que precise la lista de revocaciones de la organización. Además, la lista de revocaciones de Microsoft se registra en el equipo cliente. |
+> [!CAUTION]
+> Microsoft es una entidad principal de la cadena de confianza de todos los certificados y licencias que RMS emite. Por tanto, una lista de revocaciones emitida por Microsoft es efectiva para todas las solicitudes de enlace para las que se obtenga la licencia de uso en función de una plantilla de directiva de permisos que precise la lista de revocaciones de la organización. Además, la lista de revocaciones de Microsoft se registra en el equipo cliente. 
 
 **Para implementar únicamente una lista de revocaciones de Microsoft**
 1.  Descargue el paquete de lista de revocaciones de Microsoft.

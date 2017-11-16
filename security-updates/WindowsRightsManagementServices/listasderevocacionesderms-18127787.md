@@ -24,6 +24,7 @@ En la tabla siguiente, se describen las entidades que se pueden especificar en l
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -72,6 +73,7 @@ Las listas de revocaciones son archivos XrML que especifican los parámetros sig
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

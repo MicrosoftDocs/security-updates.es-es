@@ -67,13 +67,11 @@ Si dos o más sitios web ya se están ejecutando en el puerto 80 (por ejemplo, W
 
 Al instalar WSUS 3.0 SP1, es posible que deba deshabilitar los programas antivirus para poder realizar con éxito la instalación. Una vez deshabilitado el programa antivirus, reinicie el equipo antes de instalar WSUS. De esta forma, se impide que se bloqueen los archivos cuando el proceso de instalación necesite obtener acceso a ellos. Una vez completada la instalación, asegúrese de volver a habilitar el programa antivirus. Visite el sitio web del proveedor de su programa antivirus para conocer los pasos exactos que permiten deshabilitar y volver a habilitar el programa antivirus y la versión.
 
-| ![](images/Cc708525.Caution(WS.10).gif)Precaución                                                                                                                                                                                                                                                                                         |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Esta solución puede hacer que su equipo o red sea más vulnerable a los ataques por parte de usuarios malintencionados o software nocivo como, por ejemplo, virus. No recomendamos que lleve a cabo esta solución; simplemente le proporcionamos esta información para que pueda implementar esta solución según su criterio. Use esta solución por su cuenta y riesgo. |
+> [!CAUTION]
+> Esta solución puede hacer que su equipo o red sea más vulnerable a los ataques por parte de usuarios malintencionados o software nocivo como, por ejemplo, virus. No recomendamos que lleve a cabo esta solución; simplemente le proporcionamos esta información para que pueda implementar esta solución según su criterio. Use esta solución por su cuenta y riesgo. 
 
-| ![](images/Cc708525.note(WS.10).gif)Nota                                                                                                                                                                                               |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Un programa antivirus está diseñado para proteger su equipo de los virus. No debe descargar o abrir archivos de fuentes que no sean de confianza, visitar sitios web que no sean seguros o abrir archivos adjuntos cuando el programa antivirus esté deshabilitado. |
+> [!NOTE]
+> Un programa antivirus está diseñado para proteger su equipo de los virus. No debe descargar o abrir archivos de fuentes que no sean de confianza, visitar sitios web que no sean seguros o abrir archivos adjuntos cuando el programa antivirus esté deshabilitado. 
 
 #### Es necesario activar la opción de desencadenadores anidados para WSUS 3.0 SP1 en SQL Server
 
@@ -142,6 +140,7 @@ Asegúrese de que el servidor WSUS 3.0 SP1 cumpla esta lista de requisitos antes
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -230,6 +229,7 @@ Puede realizar una instalación desatendida de WSUS 3.0 SP1 mediante el programa
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -270,6 +270,7 @@ En esta tabla, se muestran las propiedades de la línea de comandos para WSUS 3.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -522,6 +523,7 @@ WSUS 3.0 SP1 es compatible con versiones de Windows Server 2008 de 32 y 64 bits
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

@@ -56,9 +56,8 @@ El establecimiento de servicios en línea es el proceso de configuración de un 
     Si ha seleccionado Sin conexión en Conectividad a Internet del servidor en el paso 4, complete el proceso "Para inscribir manualmente un servidor de certificación raíz" antes de continuar.
 7.  En la página principal de administración, haga clic en el vínculo **Punto de conexión de servicio de RMS**.
 
-| ![](images/Cc747735.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                                                                   |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| El paso siguiente de este procedimiento: registrar un punto de conexión de servicio, requiere el uso de una cuenta de dominio con privilegios suficientes para crear un objeto contenedor en el contenedor de servicios del contenedor de configuración de bosques de Active Directory. El grupo de seguridad predefinido, **Administradores de organización**, es un ejemplo de cuenta con los privilegios necesarios. |
+> [!NOTE]
+> El paso siguiente de este procedimiento: registrar un punto de conexión de servicio, requiere el uso de una cuenta de dominio con privilegios suficientes para crear un objeto contenedor en el contenedor de servicios del contenedor de configuración de bosques de Active Directory. El grupo de seguridad predefinido, **Administradores de organización**, es un ejemplo de cuenta con los privilegios necesarios. 
 
 1.  En la página **Punto de conexión de servicio de RMS**, haga clic en el botón **Registrar URL**. Se registra el punto de conexión de servicio de RMS en Active Directory, a fin de que las aplicaciones compatibles con RMS puedan detectar sus licencias de RMS, el proxy de activación y los servicios de certificación.
 

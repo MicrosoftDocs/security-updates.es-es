@@ -73,6 +73,7 @@ En la tabla siguiente se incluye la configuración de opciones de seguridad reco
 **Tabla 11.1 Configuración recomendada de opciones de seguridad**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -147,6 +148,7 @@ La tabla siguiente incluye las ACL de sistema de archivos para servidores de Ser
 **Tabla 11.2 Listas ACL de sistema de archivos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -190,6 +192,7 @@ Debido a que las entidades emisoras de certificados contienen información confi
 **Tabla 11.3 Configuración de auditoría de archivos de Servicios de Certificate Server y Registro**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

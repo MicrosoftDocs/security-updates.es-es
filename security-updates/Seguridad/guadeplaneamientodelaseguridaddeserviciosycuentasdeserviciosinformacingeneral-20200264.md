@@ -237,6 +237,7 @@ En la siguiente tabla se incluye una descripción detallada de los escenarios de
 **Tabla 2.1: Escenarios de vulnerabilidad de seguridad**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -335,6 +336,7 @@ Diversos servicios aún inician la sesión como sistema local, incluyendo Actual
 **Tabla 2.2: Nueva configuración de la cuenta de servicios en Windows Server 2003**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

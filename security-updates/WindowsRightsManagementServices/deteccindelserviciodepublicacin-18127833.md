@@ -25,6 +25,5 @@ Si RMS detecta que el certificado de cuenta de permisos se basa en la autenticac
 
 Si RMS detecta que el certificado de cuenta de permisos se basa en Microsoft® .NET Passport, la ubicación del servicio de publicación será la cuenta de .NET Passport que se especifique en el contenido protegido con RMS.
 
-| ![](images/Cc747580.note(WS.10).gif)Nota                                              |
-|--------------------------------------------------------------------------------------------------------------------|
-| Si se ha habilitado SSL en el servidor de RMS, estas direcciones URL utilizarán el protocolo de conexión https://. |
+> [!NOTE]
+> Si se ha habilitado SSL en el servidor de RMS, estas direcciones URL utilizarán el protocolo de conexión https://. 

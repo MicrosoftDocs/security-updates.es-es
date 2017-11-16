@@ -31,12 +31,10 @@ Exclusión de certificados de cuenta de permisos
     -   Para excluir el certificado de cuenta por nombre de usuario, haga clic en **Nombre de usuario** para el certificado de cuenta de permisos que se va a excluir, escriba el nombre del usuario que se va a excluir (con el formato *nombre\_usuario*@*nombre\_dominio.com*) y, a continuación, haga clic en **Agregar**. Utilice esta opción para excluir los certificados de cuenta de los usuarios internos que tengan cuentas de usuario de Active Directory.
     -   Para excluir un certificado de cuenta por su clave pública, haga clic en **Cadena de clave pública** para el certificado de cuenta de permisos que se va a excluir, escriba la cadena de clave pública de certificado de cuenta de permisos y, a continuación, haga clic en **Agregar**. Utilice esta opción para excluir los certificados de cuenta de los usuarios externos que no tengan cuentas de usuario de Active Directory.
 
-    | ![](images/Cc747785.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                                               |
-    |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Para eliminar un certificado de cuenta de la lista de exclusión, haga clic en el certificado de cuenta de permisos excluidos en la lista y, a continuación, haga clic en **Eliminar claves públicas seleccionadas de la lista de exclusión**. Los usuarios que tengan certificados de cuenta específicos podrán obtener ahora una licencia para el contenido protegido con RMS desde este servidor. |
+    > [!NOTE]
+    > Para eliminar un certificado de cuenta de la lista de exclusión, haga clic en el certificado de cuenta de permisos excluidos en la lista y, a continuación, haga clic en **Eliminar claves públicas seleccionadas de la lista de exclusión**. Los usuarios que tengan certificados de cuenta específicos podrán obtener ahora una licencia para el contenido protegido con RMS desde este servidor. 
 
-    | ![](images/Cc747785.note(WS.10).gif)Nota                                |
-    |------------------------------------------------------------------------------------------------------|
-    | Para deshabilitar la exclusión de certificados de cuenta de permisos, haga clic en **Deshabilitar**. |
+    > [!NOTE]
+    > Para deshabilitar la exclusión de certificados de cuenta de permisos, haga clic en **Deshabilitar**. 
 
 Para obtener más información acerca de cómo realizar este procedimiento, vea "[Exclusión de certificados de cuenta de permisos](https://technet.microsoft.com/cba5e901-942c-4d06-9865-e6c4648c95e6)", anteriormente en este tema.
