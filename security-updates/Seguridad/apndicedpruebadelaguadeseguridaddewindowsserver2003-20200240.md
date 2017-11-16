@@ -287,6 +287,7 @@ La escala de gravedad de los errores se describe en la tabla siguiente. La escal
 **Tabla D.1: Clasificación de la gravedad de los errores**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

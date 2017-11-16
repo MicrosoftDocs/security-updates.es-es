@@ -19,7 +19,6 @@ Se tratan los siguientes temas:
 -   [Seguridad de red mejorada](#bkmk_3)
 -   [Mejor protección del contenido digital](#bkmk_4)
 
-<span id="BKMK_2"></span>
 Información vulnerable de la organización
 -----------------------------------------
 
@@ -30,7 +29,6 @@ Las organizaciones crean y utilizan una amplia variedad de contenido valioso que
 
 La implementación de RMS puede ser una parte importante de una estrategia de seguridad para proteger este contenido vulnerable.
 
-<span id="BKMK_3"></span>
 Seguridad de red mejorada
 -------------------------
 
@@ -44,7 +42,6 @@ Además de las amenazas de robo y la mala administración, una lista cada vez ma
 
 Sin una solución integral de software como RMS para controlar eficazmente el uso de contenido digital, independientemente de su destino, el contenido puede ir a parar con demasiada facilidad a las manos equivocadas, ya sea de forma malintencionada o accidental.
 
-<span id="BKMK_4"></span>
 Mejor protección del contenido digital
 --------------------------------------
 

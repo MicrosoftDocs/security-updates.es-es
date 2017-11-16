@@ -32,8 +32,7 @@ Exclusión de versiones de la caja de seguridad
 
 6.  En **Versión mínima requerida de la caja de seguridad de RM**, pegue el número de versión y, a continuación, haga clic en **Actualizar**.
 
-    | ![](images/Cc720270.note(WS.10).gif)Nota                                     |
-    |-----------------------------------------------------------------------------------------------------------|
-    | Para desactivar la exclusión basada en la versión de la caja de seguridad, haga clic en **Deshabilitar**. |
+    > [!NOTE]
+    > Para desactivar la exclusión basada en la versión de la caja de seguridad, haga clic en **Deshabilitar**. 
 
 Para obtener más información sobre cómo realizar este procedimiento, vea "[Exclusión de versiones de la caja de seguridad](https://technet.microsoft.com/e287f026-aab2-43ab-93bc-48087da82f36)", anteriormente en este tema.

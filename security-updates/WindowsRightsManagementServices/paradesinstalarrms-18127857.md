@@ -20,9 +20,8 @@ Desinstalación de RMS
 
 1.  Inicie sesión en el servidor del que desee desinstalar RMS.
 
-    | ![](images/Cc747587.Important(WS.10).gif)Importante                                                                                                                                                                                                                                           |
-    |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Si va a quitar RMS de un servidor del clúster de certificación raíz, primero deberá anular los servicios en línea; para ello, vaya a la página **Administración global** y haga clic en **Quitar RMS de este sitio Web**. Para desinstalar RMS de un servidor de licencias, no es necesario anular los servicios en línea. |
+    > [!IMPORTANT]
+    > Si va a quitar RMS de un servidor del clúster de certificación raíz, primero deberá anular los servicios en línea; para ello, vaya a la página **Administración global** y haga clic en **Quitar RMS de este sitio Web**. Para desinstalar RMS de un servidor de licencias, no es necesario anular los servicios en línea. 
 
 2.  Abra **Agregar o quitar programas** en el **Panel de control**.
 

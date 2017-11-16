@@ -23,6 +23,5 @@ Cuando un servidor de licencias solicita el servicio de subinscripción, adjunta
 
 http://nombre\_servidor/\_wmcs/Certification/SubEnrollService.asmx
 
-| ![](images/Cc747641.note(WS.10).gif)Nota                                              |
-|--------------------------------------------------------------------------------------------------------------------|
-| Si se ha habilitado SSL en el servidor de RMS, estas direcciones URL utilizarán el protocolo de conexión https://. |
+> [!NOTE]
+> Si se ha habilitado SSL en el servidor de RMS, estas direcciones URL utilizarán el protocolo de conexión https://. 

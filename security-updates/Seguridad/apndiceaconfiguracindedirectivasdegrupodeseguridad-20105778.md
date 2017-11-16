@@ -50,6 +50,7 @@ En la tabla siguiente se muestra un par de ejemplos de posibles configuraciones 
 **Tabla A1. Ejemplos de Asignación de derechos de usuario**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -114,6 +115,7 @@ En la siguiente tabla se resumen las recomendaciones acerca de la configuración
 **Tabla A2. Recomendaciones para la configuración de la directiva de contraseñas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -255,6 +257,7 @@ La tabla siguiente incluye las recomendaciones sobre la configuración de la dir
 **Tabla A3. Recomendaciones para la configuración de la directiva de bloqueo de cuentas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -425,6 +428,7 @@ En Windows Vista, la categoría de auditoría del sistema contiene las subcatego
 **Tabla A4. Recomendaciones para las subcategorías de la directiva de auditoría del sistema**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -487,6 +491,7 @@ En Windows Vista, la categoría de auditoría de eventos de inicio/cierre de ses
 **Tabla A5. Recomendaciones para las subcategorías de la directiva de auditoría de inicios/cierres de sesión**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -578,6 +583,7 @@ La categoría de auditoría de eventos de acceso a objetos contiene las subcateg
 **Tabla A6. Recomendaciones para las subcategorías de la directiva de auditoría de acceso a objetos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -720,6 +726,7 @@ La categoría de auditoría de eventos de **uso de privilegios** contiene las su
 **Tabla A7. Recomendaciones para las subcategorías de la directiva de auditoría de uso de privilegios**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -769,6 +776,7 @@ La categoría de auditoría de eventos de seguimiento detallado contiene las sub
 **Tabla A8. Recomendaciones para las subcategorías de la directiva de auditoría de seguimiento detallado**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -823,6 +831,7 @@ La categoría de auditoría de eventos de **cambio de directiva** contiene las s
 **Tabla A9. Recomendaciones para las subcategorías de la directiva de auditoría de cambio de directiva**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -889,6 +898,7 @@ La categoría de auditoría de eventos de **administración de cuentas** contien
 **Tabla A10. Recomendaciones para las subcategorías de la directiva de auditoría del sistema de administración de cuentas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -955,6 +965,7 @@ La categoría de auditoría de eventos de acceso DS contiene las subcategorías 
 **Tabla A11. Recomendaciones para las subcategorías de la directiva de auditoría de acceso DS**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1009,6 +1020,7 @@ La categoría de auditoría de eventos de **inicio de sesión de cuenta** contie
 **Tabla A12. Recomendaciones para las subcategorías de la directiva de auditoría de inicio de sesión de cuenta**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1130,6 +1142,7 @@ En la tabla siguiente se resumen las recomendaciones sobre la configuración de 
 **Tabla A13. Recomendaciones para la configuración de la directiva de auditoría**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1228,6 +1241,7 @@ En la tabla siguiente se resumen las recomendaciones sobre la asignación de der
 **Tabla A14. Recomendaciones para la configuración de la asignación de derechos de usuario:** **primera parte**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1488,6 +1502,7 @@ En la tabla siguiente se resumen las recomendaciones sobre la asignación de der
 **Tabla A15. Recomendaciones para la configuración de la asignación de derechos de usuario:** **segunda parte**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1783,6 +1798,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 **Tabla A16. Recomendaciones para la configuración de opciones de seguridad: Cuentas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1868,6 +1884,7 @@ La tabla siguiente resume la configuración de auditoría recomendada. En las su
 **Tabla A17. Recomendaciones para la configuración de opciones de seguridad: Auditoría**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1940,6 +1957,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 **Tabla A18. Recomendaciones para la configuración de opciones de seguridad: Dispositivos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2029,6 +2047,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 **Tabla A19. Recomendaciones para la configuración de opciones de seguridad: Miembro de dominio**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2123,6 +2142,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 **Tabla A20. Recomendaciones para la configuración de opciones de seguridad: Inicio de sesión interactivo**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2251,6 +2271,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 **Tabla A21. Recomendaciones para la configuración de opciones de seguridad: Cliente de redes de Microsoft**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2314,6 +2335,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 **Tabla A22. Recomendaciones para la configuración de opciones de seguridad: Servidor de red Microsoft**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2390,6 +2412,7 @@ En la tabla siguiente se resume la configuración de MSS recomendada en cada uno
 **Tabla A23. Recomendaciones para la configuración de opciones de seguridad: Configuración de MSS**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -2610,6 +2633,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 **Tabla A24. Recomendaciones para la configuración de opciones de seguridad: Acceso a la red**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2840,6 +2864,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 **Tabla A25. Recomendaciones para la configuración de opciones de seguridad: Seguridad de red**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2948,6 +2973,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 **Tabla A26. Recomendaciones para la configuración de opciones de seguridad: Consola de recuperación**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -3004,6 +3030,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 **Tabla A27. Recomendaciones para la configuración de opciones de seguridad: Apagar**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -3058,6 +3085,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 **Tabla A28. Recomendaciones para la configuración de opciones de seguridad: Criptografía de sistema**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -3097,6 +3125,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 **Tabla A29. Recomendaciones para la configuración de opciones de seguridad: Objetos de sistema**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -3149,6 +3178,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 **Tabla A30. Recomendaciones para la configuración de opciones de seguridad: Control de cuentas de usuario**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -3326,6 +3356,7 @@ En la siguiente tabla se resumen las recomendaciones sobre la configuración de 
 **Tabla A31. Recomendaciones para la configuración de opciones de seguridad: configuración de seguridad del registro de eventos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -3432,6 +3463,7 @@ Este perfil se aplica cuando el equipo está conectado a una red y realiza la au
 **Tabla A32. Configuración recomendada del perfil de dominio**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -3516,6 +3548,7 @@ Este perfil sólo se aplica si el usuario con privilegios de administrador local
 **Tabla A33. Configuración recomendada del perfil privado**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -3598,6 +3631,7 @@ Este perfil constituye el tipo de ubicación de red predeterminado cuando el equ
 **Tabla A34. Configuración recomendada del perfil público**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -3754,6 +3788,7 @@ Los valores de esta sección sirven para configurar el perfil de dominio de Fire
 **Tabla A35. Configuración recomendada del perfil de dominio de Firewall de Windows**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -3882,6 +3917,7 @@ Puede establecer esta configuración recomendada de equipos en la siguiente ubic
 **Tabla A36. Configuración recomendada del perfil estándar de Firewall de Windows**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -4127,6 +4163,7 @@ La tabla siguiente resume la configuración recomendada de inicio de sesión. En
 **Tabla A37. Configuración recomendada de inicio de sesión**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -4189,6 +4226,7 @@ Puede establecer esta configuración recomendada de equipos en la siguiente ubic
 **Tabla A38. Configuración recomendada de la directiva de grupo**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -4239,6 +4277,7 @@ La tabla siguiente resume la configuración recomendada de Asistencia remota. En
 **Tabla A39. Configuración recomendada de Asistencia remota**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -4335,6 +4374,7 @@ La tabla siguiente resume la configuración recomendada de Llamada a procedimien
 **Tabla A40. Configuración recomendada de Llamada a procedimiento remoto**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -4399,6 +4439,7 @@ La tabla siguiente resume la configuración recomendada de las comunicaciones de
 **Tabla A41. Configuración recomendada de comunicaciones de Internet**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -4544,6 +4585,7 @@ Reproducción automática es una característica de Windows que permite abrir o 
 **Tabla A42. Configuración recomendada de reproducción automática**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -4591,6 +4633,7 @@ Esta configuración controla la interfaz que ven los usuarios cuando se les pide
 **Tabla A43. Configuración recomendada de la interfaz de usuario de credenciales de UAC**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -4663,6 +4706,7 @@ En la tabla siguiente se resumen muchas de las recomendaciones sobre la configur
 **Tabla A44. Configuración recomendada de Internet Explorer**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -4839,6 +4883,7 @@ Puede establecer esta configuración recomendada de equipos en la siguiente ubic
 **Tabla A45. Configuración recomendada de la página Opciones avanzadas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -4886,6 +4931,7 @@ Puede establecer esta configuración recomendada de equipos en la siguiente ubic
 **Tabla A46. Configuración recomendada del protocolo MK**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -4931,6 +4977,7 @@ Puede establecer esta configuración recomendada de equipos en la siguiente ubic
 **Tabla A47. Configuración recomendada de administración de MIME consistente**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -4978,6 +5025,7 @@ Puede establecer esta configuración recomendada de equipos en la siguiente ubic
 **Tabla A48. Configuración recomendada de examen de MIME**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -5025,6 +5073,7 @@ Puede establecer esta configuración recomendada de equipos en la siguiente ubic
 **Tabla A49. Configuración recomendada de restricciones de ventanas con secuencias de comandos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -5070,6 +5119,7 @@ Puede establecer la configuración recomendada para los equipos en la ubicación
 **Tabla A50. Configuración recomendada de protección contra elevación de zona**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -5115,6 +5165,7 @@ Puede establecer la configuración recomendada para los equipos en la ubicación
 **Tabla A51. Configuración de limitación de la instalación de ActiveX**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -5160,6 +5211,7 @@ Puede establecer la configuración recomendada para los equipos en la ubicación
 **Tabla A52. Configuración recomendada de limitación de la descarga de archivos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -5205,6 +5257,7 @@ Puede establecer esta configuración recomendada de equipos en la siguiente ubic
 **Tabla A53. Configuración de la administración de complementos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -5274,6 +5327,7 @@ Microsoft NetMeeting® permite que los usuarios mantengan reuniones virtuales en
 **Tabla A54. Configuración recomendada de NetMeeting**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -5328,6 +5382,7 @@ Puede establecer la configuración recomendada para los equipos en la ubicación
 **Tabla A55. Configuración recomendada de No permitir que se guarden las contraseñas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -5372,6 +5427,7 @@ Puede establecer la configuración recomendada para los equipos en la ubicación
 **Tabla A56. Configuración recomendada de conexiones**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -5414,6 +5470,7 @@ Puede establecer la configuración recomendada para los equipos en la ubicación
 **Tabla A57. Configuración recomendada de redirección de dispositivos y recursos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -5458,6 +5515,7 @@ Puede establecer la configuración recomendada para los equipos en la ubicación
 **Tabla A58. Configuración recomendada de seguridad de Servicios de Terminal Server**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -5518,6 +5576,7 @@ Puede establecer la configuración recomendada para los equipos en la ubicación
 **Tabla A59. Configuración recomendada de Windows Messenger**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -5587,6 +5646,7 @@ La tabla siguiente resume la configuración recomendada de Windows Update. En la
 **Tabla A60. Configuración recomendada de Windows Update**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -5721,6 +5781,7 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 **Tabla A61. Configuración recomendada de usuarios del sistema**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -5759,6 +5820,7 @@ En la tabla siguiente se resumen los valores de configuración recomendados para
 **Tabla A62. Configuración de usuario recomendada para Sistema\\Administración de energía**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -5806,6 +5868,7 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 **Tabla A63. Configuración de usuario recomendada para Administrador de datos adjuntos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -5875,6 +5938,7 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 **Tabla A64. Configuración de usuario recomendada para Internet Explorer**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -6070,6 +6134,7 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 **Tabla A65. Configuración recomendada de menús del explorador**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -6109,6 +6174,7 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 **Tabla A66. Configuración de usuario recomendada para el panel de control Internet de Internet Explorer**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -6170,6 +6236,7 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 **Tabla A67. Configuración recomendada de la página Opciones avanzadas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -6249,6 +6316,7 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 **Tabla A68. Configuración recomendada de la página Seguridad**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -6292,6 +6360,7 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 **Tabla A69. Configuración recomendada de la zona Internet**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -6420,6 +6489,7 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 **Tabla A70. Configuración recomendada de la zona de sitios restringidos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -6791,6 +6861,7 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 **Tabla A71. Configuración recomendada de las páginas sin conexión**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -6922,6 +6993,7 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 **Tabla A72. Configuración de usuario recomendada para el Explorador de Windows**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

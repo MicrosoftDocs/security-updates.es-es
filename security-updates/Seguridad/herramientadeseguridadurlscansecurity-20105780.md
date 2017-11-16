@@ -67,6 +67,7 @@ UrlScan 2.5 no se incluye con IIS6.0 porque IIS6.0 ya incorpora ciertas funciona
 **Tabla 1: Comparativa de funcionalidades de UrlScan 2.5 y características incorporadas en IIS 6.0**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -199,6 +200,7 @@ Al instalar UrlScan 2.5 sobre IIS, el instalador asigna permisos para UrlScan.dl
 **Tabla 2: Permisos asignados por UrlScan 2.5 con IIS 6.0**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -248,15 +250,15 @@ Haga clic sobre cualquiera de las siguientes preguntas:
 
 -   No estoy seguro de si alguna de mis aplicaciones utiliza transferencia en fragmentos. ¿En qué consiste?
 
-**Pregunta: ¿Qué es UrlScan?**
+**Pregunta: ¿Qué es UrlScan?**  
 
 **Respuesta:** UrlScan es una herramienta de seguridad que examina todas las peticiones entrantes en el servidor filtrando las peticiones en base a reglas establecidas por el administrador. El filtrado de peticiones ayuda a proteger el sistema asegurando que solamente se procesan las peticiones válidas. UrlScan ayuda a proteger los servidores Web en la medida en que muchos de los ataques externos comparten características comunes que incluyen el uso de peticiones en formas poco usuales. Por ejemplo, la cadena de petición puede ser extremadamente larga, puede solicitarse alguna acción poco habitual, puede incluir juegos de caracteres alternativos o secuencias de caracteres que rara vez se ven en las peticiones legítimas. Al filtrar estas peticiones inusuales, UrlScan previene al servidor de la ejecución de acciones en respuesta, las cuales pueden causar daños potenciales.
 
-**Pregunta: ¿Funciona UrlScan 2.5 sobre IIS 6.0?**
+**Pregunta: ¿Funciona UrlScan 2.5 sobre IIS 6.0?**  
 
 **Respuesta:** Sí, UrlScan 2.5 es la única versión de UrlScan que Microsoft soporta para su uso con IIS 6.0.
 
-**Pregunta: Ya estoy utilizando UrlScan 2.0. ¿Por qué tengo que instalar esta actualización?**
+**Pregunta: Ya estoy utilizando UrlScan 2.0. ¿Por qué tengo que instalar esta actualización?**  
 
 **Respuesta:** UrlScan 2.5 incorpora nuevas funcionalidades que mejoran la seguridad de los servidores con IIS. Estas nuevas funcionalidades son:
 
@@ -266,15 +268,15 @@ Haga clic sobre cualquiera de las siguientes preguntas:
 
 -   Restricción del tamaño de las peticiones
 
-**Pregunta: Ya he configurado UrlScan para mi sitio web. Va a sobreescribir UrlScan 2.5 mis parámetros actuales?**
+**Pregunta: Ya he configurado UrlScan para mi sitio web. Va a sobreescribir UrlScan 2.5 mis parámetros actuales?**  
 
 **Respuesta:** No, el instalador únicamente añade nuevas entradas a las existentes en su archivo de configuración. UrlScan soporta todos los parámetros de configuración de las versiones anteriores.
 
-**Pregunta: Si UrlScan 2.5 ayuda a proteger el servidor frente a ciertas vulnerabilidades, ¿sigue siendo necesario aplicar actualizaciones de seguridad?**
+**Pregunta: Si UrlScan 2.5 ayuda a proteger el servidor frente a ciertas vulnerabilidades, ¿sigue siendo necesario aplicar actualizaciones de seguridad?**  
 
 **Respuesta:** Sí. Para proteger su servidor de vulnerabilidades actuales o futuras, Microsoft recomienda encarecidamente que obtenga e instale las últimas actualizaciones de seguridad tan pronto como estén disponibles.
 
-**Pregunta: No estoy seguro de si alguna de mis aplicaciones utiliza transferencia en fragmentos. ¿En qué consiste?**
+**Pregunta: No estoy seguro de si alguna de mis aplicaciones utiliza transferencia en fragmentos. ¿En qué consiste?**  
 
 **Respuesta:** la codificación de transferencia por fragmentos (Chunked-transfer encoding) es una característica de HTTP/1.1 que posibilita la transmisión del cuerpo del mensaje en una petición o respuesta por trozos, en los que se indica su tamaño. HTTP 1.1 permite a los clientes enviar peticiones POST utilizando esta técnica de troceado. En muchos casos, IIS decodifica automáticamente estas peticiones antes de ser procesadas, Si el tamaño de la petición sobrepasa un umbral determinado (por defecto 48 Kb), el código ISAPI o CGI al cual se dirige la petición necesita recomponer correctamente los fragmentos antes de pasar a su procesado. Si está ejecutando programas en un servidor que recibe peticiones POST y no está seguro de si soporta la transferencia por fragmentos, puede emplear UrlScan para prohibir la s peticiones que incluyan la cabecera "Transfer-Encodig". Para más información sobre la técnica de codificación de transferencia por fragmentos puede leer la sección 3.6.1 de la [RFC 2616](http://www.cis.ohio-state.edu/cgi-bin/rfc/rfc2616.html), "Hypertext Transfer Protocol ? HTTP/1.1."
 

@@ -44,7 +44,6 @@ Novedades de la versión
     2.  Problema solucionado por la versión 7.2.6001.788 del Agente de Windows Update. Esta actualización soluciona el problema siguiente: Al intentar instalar 80 o más actualizaciones al mismo tiempo desde la página web de Windows Update o desde la página web de Microsoft Update, es posible que reciba el código de error 0x80070057.
     3.  Mejoras y problemas solucionados con la versión 7.2.6001.784 del Agente de Windows Update. Esta actualización incluye lo siguiente: Mejora los tiempos de análisis de Windows Update, mejora la rapidez con la que se entregan las actualizaciones de firmas, ofrece soporte para la funcionalidad de reinstalación de Windows Installer y mejora los mensajes de error.
 
-<span id="BKMK_SysReqWSUS30SP2"></span>
 Requisitos del sistema para la instalación de WSUS 3.0 SP2 Server
 -----------------------------------------------------------------
 
@@ -56,7 +55,8 @@ En esta sección se describen los requisitos de software y hardware necesarios p
     -   Windows Server 2008 R2
     -   Windows Server 2008 SP1 o versiones posteriores
  
-        <table style="border:1px solid black;">
+        <p> </p>
+<table style="border:1px solid black;">
         <colgroup>
         <col width="100%" />
         </colgroup>
@@ -91,6 +91,7 @@ En esta sección se describen los requisitos de software y hardware necesarios p
 -   Microsoft Report Viewer 2008 redistribuible
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -128,22 +129,9 @@ La siguiente lista contiene los requisitos mínimos de hardware necesarios para 
 -   Es necesario disponer de un mínimo 20 GB de espacio libre en el volumen en el que se almacena el contenido. Se recomienda disponer de 30 GB.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Importante</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">No se puede instalar WSUS 3.0 SP2 en unidades comprimidas.
-</td>
-</tr>
-</tbody>
-</table>
+<p> </p>
+> [!IMPORTANT]
+> No se puede instalar WSUS 3.0 SP2 en unidades comprimidas.
  
 
 Requisitos previos de configuración y recomendaciones para WSUS Server
@@ -170,6 +158,7 @@ Si tiene dos o más sitios web que se ejecutan en el puerto 80 (por ejemplo, Win
 Al instalar WSUS 3.0 SP2, puede que tenga que deshabilitar programas antivirus para poder realizar la instalación correctamente. Después de deshabilitar el software antivirus, reinicie el equipo antes de instalar WSUS. Al reiniciar el equipo se evita que los archivos estén bloqueados cuando el proceso de instalación necesite tener acceso a ellos. Una vez que se complete la instalación, asegúrese de volver a habilitar el software antivirus. Visite el sitio web del proveedor de software antivirus con el fin de seguir el procedimiento exacto para deshabilitar y volver a habilitar el software y la versión antivirus.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -319,6 +308,7 @@ Puede realizar instalaciones desatendidas de WSUS 3.0 SP2 si utiliza el programa
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -359,6 +349,7 @@ Esta tabla muestra las propiedades de línea de comandos para WSUS 3.0 SP2.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -440,25 +431,11 @@ Esta tabla muestra las propiedades de línea de comandos para WSUS 3.0 SP2.
 WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (instalar en modo silencioso utilizando el puerto 8530) WSUSSetup.exe /q /u (desinstalar WSUS)  
 ```
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Importante</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Si instala WSUS 3.0 SP2 en modo silencioso (/q) y el equipo no tiene todos los requisitos previos instalados, la instalación generará un archivo llamado WSUSPreReqCheck.xml y lo guardará en el directorio %TEMP%.
-</td>
-</tr>
-</tbody>
-</table>
+<p> </p>
+> [!IMPORTANT]
+> Si instala WSUS 3.0 SP2 en modo silencioso (/q) y el equipo no tiene todos los requisitos previos instalados, la instalación generará un archivo llamado WSUSPreReqCheck.xml y lo guardará en el directorio %TEMP%.
  
 
-<span id="BKMK_KnownIssues"></span>
 Problemas conocidos
 -------------------
 

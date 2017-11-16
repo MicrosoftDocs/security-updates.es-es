@@ -927,7 +927,7 @@ En el resto de este capítulo se muestran los eventos principales que se escribe
     -   Auditoría de aciertos para el Id. de evento 673, Inicio de sesión de cuenta para el usuario F$$@DOM.com para el nombre de servicio FS1$.
 
     -   Auditoría de aciertos para el Id. de evento 673, Inicio de sesión de cuenta para el usuario XP1$@DOM.com para el nombre de servicio FS1$.
-
+  
         **Nota**: todas estas son solicitudes de vale de servicio de protocolo de autenticación Kerberos.
 
 -   **Eventos registrados en el servidor de archivos**
@@ -3078,6 +3078,7 @@ Puede restringir el acceso a canalizaciones con nombre como COMNAP y LOCATOR, pa
 **Tabla 5.1: Canalizaciones con nombre predeterminadas a las que se puede tener acceso anónimamente**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -8685,6 +8686,7 @@ La configuración del registro de la tabla siguiente se agregó al archivo de pl
 **Tabla 10.1 Entradas del Registro relacionadas con TCP/IP en Windows Server 2003 con SP1 y Windows XP con SP2**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -9011,6 +9013,7 @@ Se recomiendan también las entradas del registro en la tabla siguiente. La info
 **Tabla 10.2 Entradas que no son de TCP/IP agregadas al registro en Windows Server 2003**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -10043,6 +10046,7 @@ Si se empieza por los filtros IPSec más restrictivos y se abren puertos adicion
 **Tabla 11.1: Ejemplo de mapa de tráfico de red**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="12%" />
@@ -10127,6 +10131,7 @@ Si se requiere un servicio de cliente que no puede restringirse para la conexió
 **Tabla 11.2: Ejemplo de mapa de tráfico de red que permite la exploración web saliente**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="12%" />
@@ -10284,6 +10289,7 @@ La regla se define para bloquear los ataques específicos del puerto TCP de orig
 **Tabla 11.3: Ejemplo de mapa de tráfico de red revisado que permite la exploración web saliente**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="12%" />

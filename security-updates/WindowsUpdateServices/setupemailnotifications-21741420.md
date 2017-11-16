@@ -35,22 +35,9 @@ The WSUS 3.0 SP2 server can be configured to send e-mail notifications of new up
 11. Click **Apply** to save these settings.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939922.note(WS.10).gif" />Nota</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">If both the WSUS administrative console and the WSUS server have the same settings for Daylight Savings Time adjustments, notifications will appear at the correct time. If the adjustments for Daylight Savings Time are different, then notifications will be off by the difference in the Daylight Savings Time adjustment.
-</td>
-</tr>
-</tbody>
-</table>
+<p> </p>
+> [!NOTE]
+> If both the WSUS administrative console and the WSUS server have the same settings for Daylight Savings Time adjustments, notifications will appear at the correct time. If the adjustments for Daylight Savings Time are different, then notifications will be off by the difference in the Daylight Savings Time adjustment.
  
 
 **Set up the e-mail server**
@@ -69,7 +56,8 @@ The WSUS 3.0 SP2 server can be configured to send e-mail notifications of new up
 7.  Enter the user name and password in the respective boxes.
 
  
-    <table style="border:1px solid black;">
+    <p> </p>
+<table style="border:1px solid black;">
     <colgroup>
     <col width="100%" />
     </colgroup>

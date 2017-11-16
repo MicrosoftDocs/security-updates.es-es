@@ -32,9 +32,8 @@ Renovación de certificados emisores de licencias de servidor
 
 5.  Haga clic en **Guardar**. Aparecerá el cuadro de diálogo **Guardar como**.
 
-    | ![](images/Cc747636.note(WS.10).gif)Nota                                                                                                                             |
-    |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | En el cuadro de diálogo **Descarga de archivos**, no haga clic en **Abrir**. Si hace clic en **Abrir**, aparecerá un mensaje de error y el archivo de la solicitud de inscripción no se guardará. |
+    > [!NOTE]
+    > En el cuadro de diálogo **Descarga de archivos**, no haga clic en **Abrir**. Si hace clic en **Abrir**, aparecerá un mensaje de error y el archivo de la solicitud de inscripción no se guardará. 
 
 6.  Haga clic en **Guardar** para exportar la solicitud de renovación a un archivo. De forma predeterminada, el archivo se guardará en el escritorio y se llamará *nombre\_servidor*RenewalRequest.xml, donde *nombre\_servidor* es el nombre del servidor de RMS. Puede guardar el archivo en otra ubicación; para ello, seleccione la ubicación que desee en el menú desplegable Guardar en. También puede cambiar el nombre predeterminado del archivo escribiendo un nuevo nombre en **Nombre de archivo**.
 

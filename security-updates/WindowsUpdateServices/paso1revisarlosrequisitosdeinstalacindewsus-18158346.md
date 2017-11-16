@@ -28,9 +28,8 @@ Para instalar WSUS con las opciones predeterminadas, debe tener el software sigu
     Alternativamente, puede ir a http://www.windowsupdate.com y buscar Critical Updates and Service Packs – Install Microsoft .NET Framework 1.1 Service Pack 1 for Windows Server 2003.
 -   Servicio de transferencia inteligente en segundo plano (BITS) 2.0. Actualmente, BITS 2.0 para Windows Server 2003 no está disponible en el Centro de descarga. Para obtener este software, vaya al [sitio Web de Microsoft](http://go.microsoft.com/fwlink/?linkid=47357) para Windows Server Update Services Open Evaluation, en la dirección http://go.microsoft.com/fwlink/?LinkId=47357 (puede que esté en inglés).
 
-| ![](images/Cc720547.note(WS.10).gif)Nota                                                                                                                                                                         |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Aunque se requiere software de base de datos para instalar WSUS, no se incluye aquí porque la instalación predeterminada de WSUS en Windows Server 2003 incluye el software de base de datos Windows SQL Server™ 2000 Desktop Engine (WMSDE). |
+> [!NOTE]
+> Aunque se requiere software de base de datos para instalar WSUS, no se incluye aquí porque la instalación predeterminada de WSUS en Windows Server 2003 incluye el software de base de datos Windows SQL Server™ 2000 Desktop Engine (WMSDE). 
 
 Requisitos y recomendaciones para el disco
 ------------------------------------------

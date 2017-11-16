@@ -26,9 +26,8 @@ Instalación de Microsoft SQL Server 2000 Desktop Engine (MSDE 2000) a fin de 
 
     **Setup.exe /i setup\\sqlrun10.msi INSTANCENAME=RMS DISABLEAGENTSTARTUP=1 SAPWD=***password*
 
-    | ![](images/Cc747667.Important(WS.10).gif)Importante                                                                                                                                                                                                                          |
-    |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | El servicio MSDE debe iniciarse tras su instalación. Puede iniciar el servicio desde **Servicios** en el **Panel de control**. Es recomendable configurar el servicio para que se inicie automáticamente para garantizar que la base de datos MSDE esté siempre disponible cuando RMS se esté ejecutando. |
+    > [!IMPORTANT]
+    > El servicio MSDE debe iniciarse tras su instalación. Puede iniciar el servicio desde **Servicios** en el **Panel de control**. Es recomendable configurar el servicio para que se inicie automáticamente para garantizar que la base de datos MSDE esté siempre disponible cuando RMS se esté ejecutando. 
 
 No establezca los servicios en línea de RMS en un servidor hasta tener una base de datos instalada para admitir la base de datos de configuración de RMS.
 

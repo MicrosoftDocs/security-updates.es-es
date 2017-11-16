@@ -13,13 +13,11 @@ To perform this procedure, you must be logged on locally to the administration W
 
 The computer on which you are installing RMS must be a member server in a domain, or it must be a domain controller. You cannot deploy RMS on a stand-alone server in a workgroup.
 
-| ![](images/Cc720217.Important(WS.10).gif)Importante                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Do not provision RMS on any other servers until you have completed both the installation and provisioning of the first server in the root cluster. For instructions, see [Para establecer los servicios en línea en el primer servidor de certificación raíz](https://technet.microsoft.com/debc42f3-74ff-4c99-b7a4-4921fccdabc2), [Para establecer los servicios en línea en un servidor de licencias](https://technet.microsoft.com/4d67b898-0ba9-4eef-ab7d-ee0ca55a688e), or [Para agregar un servidor a un clúster](https://technet.microsoft.com/db635238-5528-4bec-9cc6-8244e2b3d733) later in this subject. |
+> [!IMPORTANT]
+> Do not provision RMS on any other servers until you have completed both the installation and provisioning of the first server in the root cluster. For instructions, see [Para establecer los servicios en línea en el primer servidor de certificación raíz](https://technet.microsoft.com/debc42f3-74ff-4c99-b7a4-4921fccdabc2), [Para establecer los servicios en línea en un servidor de licencias](https://technet.microsoft.com/4d67b898-0ba9-4eef-ab7d-ee0ca55a688e), or [Para agregar un servidor a un clúster](https://technet.microsoft.com/db635238-5528-4bec-9cc6-8244e2b3d733) later in this subject. 
 
-| ![](images/Cc720217.Important(WS.10).gif)Importante                                                                     |
-|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| If you are upgrading from a previous version of RMS, you must install RMS with Service Pack 1 (SP1) before installing RMS with Service Pack 2 (SP2). |
+> [!IMPORTANT]
+> If you are upgrading from a previous version of RMS, you must install RMS with Service Pack 1 (SP1) before installing RMS with Service Pack 2 (SP2). 
 
 Installing RMS with Service Pack 2
 ----------------------------------
@@ -41,8 +39,7 @@ Installing RMS with Service Pack 2
 
 8.  When the **Installation Complete** dialog box appears, click **Close**.
 
-    | ![](images/Cc720217.note(WS.10).gif)Nota                                                    |
-    |--------------------------------------------------------------------------------------------------------------------------|
-    | If an "Application is restarting" error message appears, refresh the **Global Administration** page in your Web browser. |
+    > [!NOTE]
+    > If an "Application is restarting" error message appears, refresh the **Global Administration** page in your Web browser. 
 
 You can also install RMS from a command prompt. For instructions, see "[Instalación de símbolo del sistema del servidor RMS](https://technet.microsoft.com/b55b1e2a-dd14-4168-a37f-9cdedbec660b)" later in this subject.

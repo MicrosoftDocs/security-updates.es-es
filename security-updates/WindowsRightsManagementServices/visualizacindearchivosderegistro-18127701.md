@@ -16,6 +16,7 @@ El tamaño de una entrada de registro típica es aproximadamente 300 bytes. La s
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

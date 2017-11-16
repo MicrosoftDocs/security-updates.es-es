@@ -25,9 +25,8 @@ Estas notas de la versión describen problemas conocidos que afectan a Microsoft
 -   WSUS 3.0 en Windows Server® 2008
 -   WSUS 3.0 en Windows Small Business Server 2003
 
-| ![](images/Cc708491.note(WS.10).gif)Nota                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Puede descargar una copia de este documento en el [Centro de descarga de Microsoft](http://go.microsoft.com/fwlink/?linkid=71220) ([http://go.microsoft.com/fwlink/?LinkId=71220](http://go.microsoft.com/fwlink/?linkid=71220)). |
+> [!NOTE]
+> Puede descargar una copia de este documento en el [Centro de descarga de Microsoft](http://go.microsoft.com/fwlink/?linkid=71220) ([http://go.microsoft.com/fwlink/?LinkId=71220](http://go.microsoft.com/fwlink/?linkid=71220)). 
 
 Cuestión de configuración importante: debe sobrescribir la contraseña de servidor proxy en el asistente para la configuración
 -----------------------------------------------------------------------------------------------------------------------------
@@ -78,13 +77,11 @@ Si ya tiene dos o más sitios web que se ejecutan en el puerto 80 (por ejemplo, 
 
 Al instalar WSUS 3.0, puede que tenga que deshabilitar programas antivirus antes de que pueda realizar la instalación correctamente. Después de deshabilitar el programa antivirus, reinicie el equipo antes de iniciar la instalación de WSUS. Al reiniciar el equipo se evita que los archivos estén bloqueados cuando el proceso de instalación necesite tener acceso a ellos. Una vez que se complete la instalación, asegúrese de volver a habilitar los programas antivirus. Visite el sitio Web del proveedor de programas antivirus con el fin de seguir el procedimiento exacto para deshabilitar y volver a habilitar programas y versiones antivirus.
 
-| ![](images/Cc708491.Caution(WS.10).gif)Precaución                                                                                                                                                                                                                                                                                   |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Esta solución alternativa puede hacer que su equipo o su red sean más vulnerables a los ataques de usuarios malintencionados o por software dañino como los virus. No se recomienda esta solución alternativa pero le facilitamos esta información para que pueda implementarla según su criterio. Usted asume todo el riesgo derivado del uso de esta solución. |
+> [!CAUTION]
+> Esta solución alternativa puede hacer que su equipo o su red sean más vulnerables a los ataques de usuarios malintencionados o por software dañino como los virus. No se recomienda esta solución alternativa pero le facilitamos esta información para que pueda implementarla según su criterio. Usted asume todo el riesgo derivado del uso de esta solución. 
 
-| ![](images/Cc708491.note(WS.10).gif)Nota                                                                                                                                                                                                            |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Un programa antivirus está diseñado para proteger su equipo de virus. No debe descargar ni abrir archivos de orígenes que no sean de confianza, visitar sitios Web en los que no confíe ni abrir adjuntos de correo electrónico cuando su programa antivirus esté deshabilitado. |
+> [!NOTE]
+> Un programa antivirus está diseñado para proteger su equipo de virus. No debe descargar ni abrir archivos de orígenes que no sean de confianza, visitar sitios Web en los que no confíe ni abrir adjuntos de correo electrónico cuando su programa antivirus esté deshabilitado. 
 
 #### WSUS 3.0 requiere que se active la opción de desencadenadores anidados en SQL Server
 
@@ -164,6 +161,7 @@ Asegúrese de que el servidor WSUS 3.0 cumple los requisitos de esta lista antes
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -248,6 +246,7 @@ Puede realizar instalaciones desatendidas de WSUS 3.0 si utiliza parámetros de 
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -288,6 +287,7 @@ Esta tabla muestra las propiedades de línea de comandos para WSUS 3.0.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -557,6 +557,7 @@ WSUS 3.0 es compatible con Windows Server 2008 tanto en la versión de 32 bits 
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

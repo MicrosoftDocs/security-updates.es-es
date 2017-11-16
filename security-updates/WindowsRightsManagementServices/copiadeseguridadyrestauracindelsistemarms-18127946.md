@@ -20,9 +20,8 @@ La base de datos de registro de RMS contiene registros que pueden proporcionar d
 
 Si utiliza un módulo de seguridad de hardware para proteger las claves privadas de RMS, también debe realizar una copia de seguridad de la configuración del módulo de seguridad de hardware. Para obtener más información acerca de cómo realizar copias de seguridad y restaurar la configuración del módulo de seguridad de hardware, consulte la documentación de dicho módulo.
 
-| ![](images/Cc747745.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                  |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Si ha utilizado un proveedor de servicios de cifrado (CSP) de software que no sea el predeterminado para cifrar las claves privadas de RMS, asegúrese de que existan prácticas de administración de claves en la organización (como los procedimientos de copia de seguridad y restauración) para ese CSP antes de utilizarlo con RMS. |
+> [!NOTE]
+> Si ha utilizado un proveedor de servicios de cifrado (CSP) de software que no sea el predeterminado para cifrar las claves privadas de RMS, asegúrese de que existan prácticas de administración de claves en la organización (como los procedimientos de copia de seguridad y restauración) para ese CSP antes de utilizarlo con RMS. 
 
 Planeamiento de la restauración de un sistema RMS
 -------------------------------------------------
