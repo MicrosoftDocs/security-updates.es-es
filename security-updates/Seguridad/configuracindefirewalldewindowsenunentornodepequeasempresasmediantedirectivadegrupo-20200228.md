@@ -39,6 +39,7 @@ En la tabla siguiente, se especifica la configuración predeterminada de Firewal
 **Tabla 1. Configuración predeterminada de Firewall de Windows**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -336,7 +337,8 @@ Tras completar los pasos siguientes para configurar los parámetros de Firewall 
     **Tabla 2. Recomendaciones de configuración de Firewall de Windows**
 
  
-    <table style="border:1px solid black;">
+    <p> </p>
+<table style="border:1px solid black;">
     <colgroup>
     <col width="25%" />
     <col width="25%" />

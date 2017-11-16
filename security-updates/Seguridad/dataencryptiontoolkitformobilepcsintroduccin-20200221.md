@@ -81,6 +81,7 @@ Esta sección ofrece una introducción a los capítulos de esta guía.
 Esta guía usa las convenciones de estilo descritas en la tabla siguiente.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

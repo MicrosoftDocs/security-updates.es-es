@@ -251,6 +251,7 @@ En la tabla siguiente se enumeran las distintas categorías de sucesos de seguri
 **Tabla 2.1: Categorías de auditoría de sucesos de seguridad**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -641,6 +642,7 @@ Una decisión empresarial clave es cuánto tiempo se deben conservar los datos f
 **Tabla 3.1: Límites de almacenamiento de análisis forenses**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -997,6 +999,7 @@ En la siguiente tabla, se incluyen los sucesos de auditoría que pueden causar l
 **Tabla 4.1: Sucesos de cambios de permisos de archivos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1033,6 +1036,7 @@ En la siguiente tabla se incluyen los sucesos de auditoría que causan los resta
 **Tabla 4.2: Sucesos de restablecimiento de contraseña**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1084,6 +1088,7 @@ En la siguiente tabla se incluyen los sucesos que identifican cambios en cuentas
 **Tabla 4.3: Sucesos de cambio de cuenta de usuario**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1134,6 +1139,7 @@ En la siguiente tabla se incluyen los sucesos que identifican cambios en grupos.
 **Tabla 4.4: Sucesos de cambio de pertenencias a grupos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1186,6 +1192,7 @@ En la siguiente tabla se incluyen los sucesos que identifican el uso de cuentas 
 **Tabla 4.5: Sucesos de inicio de sesión no autorizado**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1243,6 +1250,7 @@ En la siguiente tabla se incluyen los sucesos que identifican el uso no autoriza
 **Tabla 4.6: Sucesos de inicio de sesión con credenciales de cuentas de servicios**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1291,6 +1299,7 @@ En la siguiente tabla se incluyen los sucesos que identifican el uso de programa
 **Tabla 4.7: Ejecución de programas no autorizados**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1325,6 +1334,7 @@ Este caso requiere la identificación de errores de auditoría en el Id. de suce
 **Tabla 4.8: Sucesos de intentos de acceso a recursos no autorizados**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1405,6 +1415,7 @@ En la siguiente tabla se incluyen los sucesos que identifican el uso de sistemas
 **Tabla 4.9: Sucesos de ejecución de plataformas no autorizadas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1455,6 +1466,7 @@ En la siguiente tabla se incluyen los sucesos que se identifican como probableme
 **Tabla 4.10: Sucesos de elusión de auditoría**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1551,6 +1563,7 @@ En la siguiente tabla se incluyen los sucesos que identifican acciones en relaci
 **Tabla 4.11: Sucesos de cambio en relaciones de confianza**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1614,6 +1627,7 @@ En la siguiente tabla se enumeran los sucesos que identifican cambios en directi
 **Tabla 4.12: Sucesos de cambios de directivas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1689,6 +1703,7 @@ En la siguiente tabla se incluyen los sucesos que son resultado de ataques que t
 **Tabla 4.13: Sucesos de ataques a credenciales de autenticación**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1766,6 +1781,7 @@ Entre las incidencias normales de aprovechamiento de vulnerabilidades, se incluy
 **Tabla 4.14: Identificación de sucesos con aprovechamiento de vulnerabilidades a través de escala de privilegios**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1807,6 +1823,7 @@ En la siguiente tabla se incluyen los sucesos que se pueden producir por instala
 **Tabla 4.15: Sucesos de rootkit o troyano**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1862,6 +1879,7 @@ La supervisión de la seguridad debe indicar quién intenta establecer conexión
 **Tabla 4.16: Sucesos de uso de equipos no autorizados**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

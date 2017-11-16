@@ -42,6 +42,7 @@ If there is a corporate firewall between WSUS and the Internet, you might need t
     -   http://ntservicepack.microsoft.com
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />

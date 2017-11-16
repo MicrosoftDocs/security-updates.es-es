@@ -13,6 +13,7 @@ Preguntas más frecuentes sobre la Evaluación de Seguridad de Microsoft
 P. ¿Qué es la Evaluación de Seguridad de Microsoft?
 ---------------------------------------------------
 
+<p> </p>
 <table border="0" cellpadding="0" cellspacing="0" style="margin-top:10px" width="100%">
 <tr>
 <td style="border:1px solid black;" valign="top" width="2%">
@@ -24,7 +25,6 @@ La Evaluación de Seguridad de Microsoft es una sesión interactiva que utiliza 
 La evaluación permite obtener un perfil de la situación de la seguridad de su entorno tecnológico y proporciona un mapa bien definido sobre las actuaciones prioritarias, soluciones y recomendaciones prescriptivas a seguir.
   
 Una vez terminada la evaluación, MSAT ofrece un informe complementario que recoge recomendaciones específicas sobre cuestiones de negocio identificadas durante la evaluación. La finalidad de este informe es ayudarle a entender la situación inicial de la seguridad y priorizar los pasos a seguir para mitigar los riesgos identificados.
-
 </td>
 </tr>
 </table>
@@ -33,6 +33,7 @@ Una vez terminada la evaluación, MSAT ofrece un informe complementario que reco
 P. ¿Cúales son los objetivos de la Evaluación de Seguridad de Microsoft?
 ------------------------------------------------------------------------
 
+<p> </p>
 <table border="0" cellpadding="0" cellspacing="0" style="margin-top:10px" width="100%">
 <tr>
 <td style="border:1px solid black;" valign="top" width="2%">
@@ -48,6 +49,7 @@ MSAT está orientado a facilitar un marco de trabajo común que ayude a obtener 
 P. ¿Quién ha desarrollado esta herramienta?
 -------------------------------------------
 
+<p> </p>
 <table border="0" cellpadding="0" cellspacing="0" style="margin-top:10px" width="100%">
 <tr>
 <td style="border:1px solid black;" valign="top" width="2%">
@@ -63,6 +65,7 @@ MSAT ha sido desarrollado por un equipo con amplia experiencia compuesto por pro
 P. ¿Es MSAT sólo un intento más para vender productos Microsoft?
 ----------------------------------------------------------------
 
+<p> </p>
 <table border="0" cellpadding="0" cellspacing="0" style="margin-top:10px" width="100%">
 <tr>
 <td style="border:1px solid black;" valign="top" width="2%">
@@ -78,6 +81,7 @@ No. La finalidad de MSAT es ayudar a los clientes a comprender los riesgos de ne
 P. ¿Qué tipo de orientaciones proporciona MSAT?
 -----------------------------------------------
 
+<p> </p>
 <table border="0" cellpadding="0" cellspacing="0" style="margin-top:10px" width="100%">
 <tr>
 <td style="border:1px solid black;" valign="top" width="2%">
@@ -93,6 +97,7 @@ Los informes elaborados por MSAT proporcionan una orientación prescriptiva basa
 P. ¿Realiza MSAT un escáner de mi sistema?
 ------------------------------------------
 
+<p> </p>
 <table border="0" cellpadding="0" cellspacing="0" style="margin-top:10px" width="100%">
 <tr>
 <td style="border:1px solid black;" valign="top" width="2%">
@@ -108,6 +113,7 @@ No. MSAT es un cuestionario interactivo que ofrece informes y orientaciones basa
 P. ¿Qué información recopila la herramienta?
 --------------------------------------------
 
+<p> </p>
 <table border="0" cellpadding="0" cellspacing="0" style="margin-top:10px" width="100%">
 <tr>
 <td style="border:1px solid black;" valign="top" width="2%">
@@ -123,6 +129,7 @@ MSAT únicamente recopila información genérica, como el tamaño de la compañ�
 P. ¿Por qué debería fiarme de esta herramienta?
 -----------------------------------------------
 
+<p> </p>
 <table border="0" cellpadding="0" cellspacing="0" style="margin-top:10px" width="100%">
 <tr>
 <td style="border:1px solid black;" valign="top" width="2%">
@@ -138,6 +145,7 @@ MSAT no pretende reemplazar a ningún consultor con conocimientos del negocio. P
 P. ¿Qué significa tener un alto Perfil de Riesgo de Negocio (BRP)?
 ------------------------------------------------------------------
 
+<p> </p>
 <table border="0" cellpadding="0" cellspacing="0" style="margin-top:10px" width="100%">
 <tr>
 <td style="border:1px solid black;" valign="top" width="2%">
@@ -147,7 +155,6 @@ P. ¿Qué significa tener un alto Perfil de Riesgo de Negocio (BRP)?
 En el desarrollo normal de los negocios, los clientes tomarán regularmente decisiones técnicas y de negocio que pueden incrementar los riesgos de seguridad siendo necesario poner en marcha una minimización de los mismos. BRP ayuda a identificar esos riesgos y ofrece unos valores de referencia sobre los que comparar los resultados obtenidos por el Defense-in-Depth Index (DiDI).
   
 El BRP mide el riesgo asociado a la forma en que el cliente está llevando a cabo sus negocios o interactuando con otras empresas o clientes. Se centra principalmente en riesgos técnicos u operativos. Si el resultado obtenido en el BRP es alto, indica que el cliente está realizando operaciones en un entorno de alto riesgo, tiene una competencia muy fuerte o bien sus sistemas, herramientas o procesos están siendo amenazados directa e indirectamente.
-
 </td>
 </tr>
 </table>
@@ -156,6 +163,7 @@ El BRP mide el riesgo asociado a la forma en que el cliente está llevando a cab
 P. Mi cliente dispone de muchas defensas. ¿Por qué sigue teniendo un BRP alto?
 ------------------------------------------------------------------------------
 
+<p> </p>
 <table border="0" cellpadding="0" cellspacing="0" style="margin-top:10px" width="100%">
 <tr>
 <td style="border:1px solid black;" valign="top" width="2%">
@@ -171,6 +179,7 @@ El nivel de BRP no se ve afectado por las técnicas de minimización de riesgos 
 P. ¿Qué va a hacer Microsoft con la información de la evaluación si se envían los datos?
 ----------------------------------------------------------------------------------------
 
+<p> </p>
 <table border="0" cellpadding="0" cellspacing="0" style="margin-top:10px" width="100%">
 <tr>
 <td style="border:1px solid black;" valign="top" width="2%">
@@ -180,7 +189,6 @@ P. ¿Qué va a hacer Microsoft con la información de la evaluación si se enví
 Una vez completada la evaluación, podrá visualizar un gráfico con la distribución de los riesgos y las defensas que compara los resultados BRP y el índice DiDi obtenidos. Si desea ver un informe completo es necesario que envíe los datos al servidor seguro de MSAT. Los datos se envían de manera completamente anónima. Además de poder ver un informe completo, tendrá acceso también a la función de Comparación.
   
 La función de Comparación le permite comparar dos de sus evaluaciones, con lo que podrá seguir sus progresos a lo largo del tiempo. También podrá comparar sus resultados–de forma anónima–con otros participantes del programa.
-
 </td>
 </tr>
 </table>
@@ -189,6 +197,7 @@ La función de Comparación le permite comparar dos de sus evaluaciones, con lo 
 P. ¿Es necesario que algún partner de Microsoft me asista mientras utilizo MSAT?
 --------------------------------------------------------------------------------
 
+<p> </p>
 <table border="0" cellpadding="0" cellspacing="0" style="margin-top:10px" width="100%">
 <tr>
 <td style="border:1px solid black;" valign="top" width="2%">
@@ -198,7 +207,6 @@ P. ¿Es necesario que algún partner de Microsoft me asista mientras utilizo MSA
 No. No es necesario que le asista ningún partner de Microsoft para utilizar MSAT. Es una herramienta a la que puede acceder libremente cualquiera que desee utilizarla. Aunque puede ser aconsejable que un partner de seguridad le ayude a completar la evaluación o a revisar los resultados obtenidos.
   
 Los partners asociados al Programa de Evaluación de Seguridad de Microsoft han recibido formación específica en el uso de esta herramienta y entienden las estrategias de defensa e ideas que rodean la minimización de riesgos. Estos partners tienen además acceso a otros programas y a información directa de Microsoft que pueden resultar de gran ayuda en sus esfuerzos por fortalecer la seguridad de su compañía. Puede localizar algún partner de Microsoft a través del Directorio de Recursos Microsoft situado en <https://solutionfinder.microsoft.com>.
-
 </td>
 </tr>
 </table>

@@ -813,13 +813,13 @@ Si el cliente aún no está conectado, Connection Manager inicia una conexión a
 
 Connection Manager ejecuta todas las comprobaciones de seguridad necesarias en orden secuencial. Connection Manager implementa cada comprobación en una serie de secuencias de comandos. En los siguientes pasos se facilita la lógica de trabajo que necesitan esas secuencias de comandos.
 
-1.  **¿Sistema operativo admitido?**
+1.  **¿Sistema operativo admitido?**  
 
     -   En caso negativo, mostrar cuadro de mensaje al usuario y anular la conexión.
 
     -   En caso afirmativo, continuar.
 
-2.  **¿Software antivirus instalado y en ejecución?**
+2.  **¿Software antivirus instalado y en ejecución?**  
 
     -   En caso negativo, mostrar cuadro de mensaje al usuario y anular la conexión. El software con licencia que se necesita como parte de una acción antes del túnel debe incluirse en el paquete de instalación de Connection Manager para evitar la necesidad de instalarlo desde un servidor remoto.
 
@@ -831,7 +831,7 @@ Connection Manager ejecuta todas las comprobaciones de seguridad necesarias en o
 
     -   Si no se realiza correctamente, continuar con advertencia o mostrar cuadro de mensaje al usuario y anular la conexión.
 
-4.  **¿Está configurado el cliente de actualización automática de Windows?**
+4.  **¿Está configurado el cliente de actualización automática de Windows?**  
 
     -   En caso negativo, configurar el cliente del servicio de actualización automática de Windows.
 
@@ -916,6 +916,7 @@ La tabla siguiente incluye algunas de las capacidades de Connection Manager para
 **Tabla 4.1: Características de Connection Manager utilizadas por el departamento de TI de Woodgrove**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -960,6 +961,7 @@ La tabla siguiente muestra los puertos TCP/IP que abre el filtro IP de cuarenten
 **Tabla 4.2: Puertos TCP/IP abiertos en el filtro de cuarentena de VPN**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1197,6 +1199,7 @@ Estas secuencias de comandos son ejemplos y es posible que deba modificarlos ant
 **Tabla A.1: Ejemplos de secuencias de comandos para servicios de cuarentena**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1270,6 +1273,7 @@ En la tabla siguiente se muestran los parámetros del agente cliente de cuarente
 **Tabla A.2 Parámetros del agente RQC**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

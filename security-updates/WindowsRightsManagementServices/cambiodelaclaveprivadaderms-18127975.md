@@ -13,6 +13,5 @@ Durante el establecimiento de servicios en línea, RMS crea la clave privada de 
 
 Si se ha utilizado el servidor para proteger contenido, se debe notificar a todos los propietarios del contenido y el contenido se debe volver a publicar utilizando el servidor de RMS con la nueva clave privada. Las copias de contenido protegido con la clave privada que se ha visto comprometida deben destruirse, ya que no se puede considerar que tengan una protección adecuada.
 
-| ![](images/Cc747765.Important(WS.10).gif)Importante                                                                                                                                                                                                                     |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Aunque el servidor se haya inscrito con el servicio de inscripción de Microsoft, el servidor debe repetir el proceso de establecimiento de servicios en línea para obtener una nueva clave privada. Si intenta volver a inscribir un servidor de RMS, se utilizará la clave privada de RMS anterior. |
+> [!IMPORTANT]
+> Aunque el servidor se haya inscrito con el servicio de inscripción de Microsoft, el servidor debe repetir el proceso de establecimiento de servicios en línea para obtener una nueva clave privada. Si intenta volver a inscribir un servidor de RMS, se utilizará la clave privada de RMS anterior. 

@@ -392,6 +392,7 @@ La tabla siguiente muestra una lista de los equipos y los sistemas operativos qu
 **Tabla 5.1. Equipos y sistemas operativos utilizados en el laboratorio del escenario de aplicación**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -432,6 +433,7 @@ La tabla siguiente muestra una lista de los grupos y los usuarios que deberán d
 **Tabla 5.2. Grupos y usuarios mencionados en el laboratorio del escenario de aplicación**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -472,6 +474,7 @@ La tabla siguiente muestra una lista de los nombres de dispositivo, las estructu
 **Tabla 5.3. Dispositivos, carpetas y archivos utilizados en el laboratorio del escenario de aplicación**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -524,6 +527,7 @@ La tabla siguiente muestra una lista de las carpetas de archivo y comparte los p
 **Tabla 5.4. Carpetas y permisos de recursos compartidos del laboratorio del escenario de aplicación**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

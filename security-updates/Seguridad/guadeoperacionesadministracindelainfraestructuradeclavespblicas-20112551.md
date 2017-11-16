@@ -89,6 +89,7 @@ En esta tabla se muestran las tareas que deben realizarse para colocar las opera
 **Tabla 11.1: Tareas iniciales de configuración**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -204,6 +205,7 @@ Es posible que algunas tareas no sean necesarias; sin embargo, debe revisar el d
 **Tabla 11.2: Tareas de mantenimiento**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -278,6 +280,7 @@ En la tabla siguiente se enumeran las herramientas o tecnologías utilizadas en 
 **Tabla 11.3: Tecnología requerida**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -385,6 +388,7 @@ dispositivo de copia de seguridad local</td>
 **Tabla 11.4: Tecnología recomendada**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -433,6 +437,7 @@ Las funciones importantes de Servicios de Certificate Server son fundamentales p
 **Tabla 11.5: Funciones de servicios de certificados principales**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -512,6 +517,7 @@ Las funciones operativas de la siguiente tabla no son esenciales para la adminis
 **Tabla 11.6: Funciones auxiliares de Servicios de Certificate Server**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -565,6 +571,7 @@ En las entidades emisoras de certificados en línea, los grupos de seguridad de 
 **Tabla 11.7: Asignación de funciones de Servicios de Certificate Server a grupos de seguridad**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -695,6 +702,7 @@ Esta tarea no es de carácter normativo puesto que depende principalmente de su 
 **Tabla 11.8: Ubicación de grupos de seguridad dentro de la estructura de la unidad organizativa**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1765,6 +1773,7 @@ En este capítulo, se utilizan las categorías de alerta siguientes. De ellas, s
 **Tabla 11.9: Categorías de alerta**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1835,6 +1844,7 @@ Los siguientes contadores de rendimiento son los más útiles para la identifica
 **Tabla 11.10: Principales contadores de supervisión de capacidad para Servicios de Certificate Server**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1928,6 +1938,7 @@ La columna Gravedad se relaciona con las categorías de alerta definidas anterio
 **Tabla 11.11: Gravedad de los principales sucesos de Servicios de Certificate Server**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -2018,6 +2029,7 @@ Las secuencias de comandos están diseñadas para ejecutarse en la entidad emiso
 **Tabla 11.12: Secuencias de comandos de supervisión de Servicios de Certificate Server**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -2218,6 +2230,7 @@ Las categorías de alerta Correcto y Erróneo de la siguiente tabla se relaciona
 **Tabla 11.13: Sucesos de auditoría de Servicios de Certificate Server**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2593,6 +2606,7 @@ Sólo la entidad emisora tiene trabajos automatizados en ejecución. La entidad 
 **Tabla 11.14: Lista de trabajos programados en la entidad emisora**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -3810,6 +3824,7 @@ La siguiente tabla enumera algunos de los principales incidentes de compatibilid
 **Tabla 11.15: Principales incidentes de compatibilidad**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -4078,6 +4093,7 @@ En las tablas siguientes encontrará los valores de configuración específicos 
 **Tabla 11.16: Elementos de la configuración definidos por el usuario**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -4124,6 +4140,7 @@ En las tablas siguientes encontrará los valores de configuración específicos 
 **Tabla 11.17: Elementos de configuración definidos por la solución**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

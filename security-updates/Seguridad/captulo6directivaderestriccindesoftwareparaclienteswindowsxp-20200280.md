@@ -318,6 +318,7 @@ Utilice la información de la siguiente tabla para determinar el tipo de regla q
 **Tabla 6.1 Determinación de la mejor regla para una aplicación específica**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -451,6 +452,7 @@ Para el diseño de GPO que se define en esta guía, se quitan los tipos de archi
 **Tabla 6.2 Tipos de archivo designados**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -593,6 +595,7 @@ La siguiente tabla muestra las opciones de editores de confianza relacionadas co
 **Tabla 6.3 Configuración y tareas de los editores de confianza**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -653,6 +656,7 @@ En esta sección se describen los pasos que deben seguirse al diseñar e impleme
 **Tabla 6.4 Consideraciones importantes sobre el diseño de directivas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -780,6 +784,7 @@ Una vez probada a fondo la directiva, aplíquela a la unidad organizativa Equipo
 **Tabla 6.5 Niveles de seguridad**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -805,6 +810,7 @@ Una vez probada a fondo la directiva, aplíquela a la unidad organizativa Equipo
 **Tabla 6.6 Reglas adicionales**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -855,6 +861,7 @@ Una vez probada a fondo la directiva, aplíquela a la unidad organizativa Equipo
 **Tabla 6.7 Obligatoriedad para los archivos y usuarios**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -881,6 +888,7 @@ Una vez probada a fondo la directiva, aplíquela a la unidad organizativa Equipo
 **Tabla 6.8 Tipos de archivo designados**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -903,6 +911,7 @@ Una vez probada a fondo la directiva, aplíquela a la unidad organizativa Equipo
 **Tabla 6.9 Editores de confianza**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

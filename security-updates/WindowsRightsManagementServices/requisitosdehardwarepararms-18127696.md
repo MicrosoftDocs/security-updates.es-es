@@ -14,6 +14,7 @@ En la siguiente tabla se describen los requisitos mínimos de hardware y recomen
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

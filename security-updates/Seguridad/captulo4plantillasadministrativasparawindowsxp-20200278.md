@@ -31,6 +31,7 @@ En la siguiente tabla se enumeran los archivos .adm, además de mostrarse las ap
 **Tabla 4.1. Archivos de plantilla administrativa**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -129,6 +130,7 @@ Microsoft NetMeeting permite que los usuarios mantengan reuniones virtuales en l
 **Tabla 4.2 Configuración recomendada para NetMeeting**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -184,6 +186,7 @@ En la tabla siguiente se resumen muchas de las recomendaciones sobre la configur
 **Tabla 4.3 Configuración recomendada de Internet Explorer**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -355,6 +358,7 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 **Tabla 4.4 Configuración recomendada de permiso para ejecutar software**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -402,6 +406,7 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 **Tabla 4.5 Configuración recomendada del protocolo MK**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -447,6 +452,7 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 **Tabla 4.6 Configuración recomendada para Administración de MIME consistente**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -494,6 +500,7 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 **Tabla 4.7 Configuración recomendada para Examen de MIME**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -541,6 +548,7 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 **Tabla 4.8 Configuración recomendada de restricciones de seguridad de ventanas con secuencias de comandos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -586,6 +594,7 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 **Tabla 4.9 Configuración recomendada para la protección contra elevación de zona**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -631,6 +640,7 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 **Tabla 4.10 Configuración de limitación de la instalación de ActiveX**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -678,6 +688,7 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 **Tabla 4.11 Configuración recomendada para la limitación de la descarga de archivos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -723,6 +734,7 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 **Tabla 4.12 Configuración de Administración de complementos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -795,6 +807,7 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 **Tabla 4.13 Configuración recomendada para No permitir redirección de unidad**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -842,6 +855,7 @@ Puede establecer la siguiente configuración recomendada en la ubicación que se
 **Tabla 4.14 Configuración recomendada de cifrado y seguridad de Servicios de Terminal Server**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -900,6 +914,7 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 **Tabla 4.15: Configuración recomendada de no autorización de almacenamiento de contraseñas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -947,6 +962,7 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 **Tabla 4.16 Configuración recomendada de Windows Messenger**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1016,6 +1032,7 @@ La tabla siguiente resume la configuración recomendada de Windows Update. La in
 **Tabla 4.17 Configuración recomendada de Windows Update**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1152,6 +1169,7 @@ La tabla siguiente resume la configuración de sistema recomendada. La informaci
 **Tabla 4.18 Configuración de sistema recomendada**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1216,6 +1234,7 @@ La tabla siguiente resume la configuración recomendada de inicio de sesión. La
 **Tabla 4.19 Configuración recomendada de inicio de sesión**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1282,6 +1301,7 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 **Tabla 4.20 Configuración recomendada de Directiva de grupo**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1333,6 +1353,7 @@ La tabla siguiente resume la configuración recomendada de Asistencia remota. La
 **Tabla 4.21 Configuración recomendada de Asistencia remota**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1435,6 +1456,7 @@ La tabla siguiente resume la configuración recomendada de Informe de errores. L
 **Tabla 4.22 Configuración recomendada de Informe de errores**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1515,6 +1537,7 @@ La tabla siguiente resume la configuración recomendada de Llamada a procedimien
 **Tabla 4.23 Configuración recomendada de Llamada a procedimiento remoto**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1581,6 +1604,7 @@ La tabla siguiente resume la configuración recomendada de las comunicaciones de
 **Tabla 4.3 Configuración recomendada de comunicaciones de Internet**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1737,6 +1761,7 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 **Tabla 4.25 Configuración recomendada de Perfil de dominio de Firewall de Windows**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1862,6 +1887,7 @@ Puede establecer la siguiente configuración de equipo recomendada en la ubicaci
 **Tabla 4.26 Configuración recomendada de Perfil estándar de Firewall de Windows**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -2134,6 +2160,7 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 **Tabla 4.27 Configuración de usuario recomendada para Internet Explorer**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -2401,6 +2428,7 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 **Tabla 4.28 Configuración de usuario recomendada para Administrador de datos adjuntos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -2475,6 +2503,7 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 **Tabla 4.29 Configuración de usuario recomendada para el Explorador de Windows**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -2537,6 +2566,7 @@ La tabla siguiente resume los parámetros de configuración de usuario recomenda
 **Tabla 4.30 Configuración de usuario recomendada para el Editor del Registro**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -2576,6 +2606,7 @@ La tabla siguiente resume los parámetros de configuración recomendados para **
 **Tabla 4.31 Configuración de usuario recomendada para Sistema\\Administración de energía**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

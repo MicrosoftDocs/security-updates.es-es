@@ -13,14 +13,12 @@ Durante la instalación, RMS crea un grupo de seguridad llamado **grupo de servi
 
 Al establecer los servicios en línea de RMS en un servidor, se especifica una cuenta de usuario como la cuenta de servicio de RMS. La cuenta que especifica se convierte en miembro del grupo de servicio de RMS, y se le conceden los permisos asociados a este grupo. Durante el funcionamiento normal, RMS se ejecuta bajo la cuenta de servicio de RMS para la mayoría de los fines.
 
-| ![](images/Cc747546.note(WS.10).gif)Nota                                  |
-|--------------------------------------------------------------------------------------------------------|
-| La cuenta de servicio de RMS no puede ser la misma cuenta de dominio que se utilizó para instalar RMS. |
+> [!NOTE]
+> La cuenta de servicio de RMS no puede ser la misma cuenta de dominio que se utilizó para instalar RMS. 
 
 Por motivos de seguridad, se recomienda crear una cuenta de usuario especial para utilizar la cuenta de servicio de RMS y no utilizarla para ningún otro propósito. Además, no debe otorgar a esta cuenta ningún permiso adicional.
 
-| ![](images/Cc747546.Important(WS.10).gif)Importante                      |
-|-------------------------------------------------------------------------------------------------------|
-| Debe crear esta cuenta de usuario especial antes de instalar RMS y establecer los servicios en línea. |
+> [!IMPORTANT]
+> Debe crear esta cuenta de usuario especial antes de instalar RMS y establecer los servicios en línea. 
 
 Para obtener más información acerca de los permisos que se conceden al grupo de servicio de RMS y las cuentas bajo las que se ejecuta RMS, vea “Modelo de seguridad de RMS” en “Referencia técnica de RMS”, en esta recopilación de documentación.

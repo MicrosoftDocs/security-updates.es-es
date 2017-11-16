@@ -43,6 +43,7 @@ En la siguiente tabla se definen los archivos de infraestructura (.inf) disponib
 **Tabla 3.1. Plantillas de seguridad de línea de base**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -103,6 +104,7 @@ La tabla siguiente resume las recomendaciones sobre la configuración de directi
 **Tabla 3.2 Recomendaciones para la configuración de la directiva de auditoría**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -319,6 +321,7 @@ IIS/3648346f-e4f5-474b-86c7-5a86e85fa1ff.mspx.
 **Tabla 3.3 Recomendaciones para la configuración de asignaciones de derechos de usuario: Primera parte**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -583,6 +586,7 @@ Por ese motivo, el parámetro **Habilitar la opción De confianza para la delega
 **Tabla 3.4 Recomendaciones para la configuración de asignaciones de derechos de usuario: Segunda parte**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -848,6 +852,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 **Tabla 3.5 Recomendaciones para la configuración de opciones de seguridad: Cuentas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -945,6 +950,7 @@ La tabla siguiente resume la configuración de auditoría recomendada. Se propor
 **Tabla 3.6 Recomendaciones para la configuración de opciones de seguridad: Auditoría**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1012,6 +1018,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 **Tabla 3.7 Recomendaciones para la configuración de opciones de seguridad: Dispositivos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1120,6 +1127,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 **Tabla 3.8 Recomendaciones para la configuración de opciones de seguridad: Miembro de dominio**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1228,6 +1236,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 **Tabla 3.9 Recomendaciones para la configuración de opciones de seguridad: Inicio de sesión interactivo**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1368,6 +1377,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 **Tabla 3.10 Recomendaciones para la configuración de opciones de seguridad: Cliente de redes de Microsoft**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1439,6 +1449,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 **Tabla 3.11 Recomendaciones para la configuración de opciones de seguridad: Servidores de red Microsoft**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1508,6 +1519,7 @@ En la tabla siguiente se resume la configuración recomendada de las opciones de
 **Tabla 3.12 Recomendaciones para la configuración de opciones de seguridad: Acceso de red**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1687,6 +1699,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 **Tabla 3.13 Recomendaciones para la configuración de opciones de seguridad: Seguridad de red**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1813,6 +1826,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 **Tabla 3.14 Recomendaciones para la configuración de opciones de seguridad: Consola de recuperación**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1875,6 +1889,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 **Tabla 3.15 Recomendaciones para la configuración de opciones de seguridad: Apagado**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1929,6 +1944,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 **Tabla 3.16 Recomendaciones para la configuración de opciones de seguridad: Criptografía de sistema**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1972,6 +1988,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 **Tabla 3.17 Recomendaciones para la configuración de opciones de seguridad: Objetos de sistema**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -2049,6 +2066,7 @@ En la tabla siguiente se resume la configuración de seguridad recomendada para 
 **Tabla 3.18 Recomendaciones para la configuración de seguridad del registro de eventos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -2198,6 +2216,7 @@ El parámetro Grupos restringidos permite administrar la pertenencia a los grupo
 **Tabla 3.19 Recomendaciones sobre grupos restringidos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -2301,6 +2320,7 @@ En la tabla siguiente se resume la configuración recomendada de servicios del s
   
 **Tabla 3.20 Recomendaciones para la configuración de seguridad de los servicios del sistema**
   
+<p> </p>
 <table style="width:100%;">
 <colgroup>
 <col width="16%" />
@@ -2609,6 +2629,7 @@ La información adicional de cada configuración se proporciona en las subseccio
 **Tabla 3.21 Parámetros adicionales del Registro**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -3044,6 +3065,7 @@ Puede configurar en el cuadro de diálogo **Permisos** los permisos de archivos 
 **Tabla 3.22 Permisos de archivo avanzados y descripciones**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

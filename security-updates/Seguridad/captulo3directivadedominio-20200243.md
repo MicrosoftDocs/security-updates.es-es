@@ -122,6 +122,7 @@ La información adicional para cada configuración se proporciona en las subsecc
 **Tabla 3.1 Recomendaciones sobre la configuración de la directiva de contraseñas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -269,6 +270,7 @@ La información adicional para cada configuración se proporciona en las subsecc
 **Tabla 3.2 Configuración de la directiva de bloqueo de cuentas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -367,6 +369,7 @@ En la tabla siguiente se resume la configuración recomendada para las opciones 
 **Figura 3.3 Configuración de opciones de seguridad**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />

@@ -25,6 +25,7 @@ Audit Policy Settings
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -96,6 +97,7 @@ Security Options Settings
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -442,6 +444,7 @@ Event Log Settings
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -528,6 +531,7 @@ Enabled Operating System Services
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -829,15 +833,15 @@ Enabled Operating System Services
   
 Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
   
-| ![](images/Cc708591.Caution(WS.10).gif)Precaución                                                                                                                                                                                                   |  
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| If you use Registry Editor incorrectly, you may cause serious problems that may require you to reinstall your operating system. Microsoft cannot guarantee that you can solve problems that result from using Registry Editor incorrectly. Use Registry Editor at your own risk. |
+> [!CAUTION]
+> If you use Registry Editor incorrectly, you may cause serious problems that may require you to reinstall your operating system. Microsoft cannot guarantee that you can solve problems that result from using Registry Editor incorrectly. Use Registry Editor at your own risk. 
   
 **HKLM\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters\\SynAttackProtect**
   
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -862,6 +866,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -886,6 +891,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -910,6 +916,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -934,6 +941,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -958,6 +966,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -982,6 +991,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1006,6 +1016,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1037,6 +1048,7 @@ Use the following settings in URLScan to help protect the administrative Web pag
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1186,6 +1198,7 @@ Use access control permissions to secure the SQL Server 2000 registry keys.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1216,6 +1229,7 @@ Unnecessary SQL Server 2000 Stored Procedures
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

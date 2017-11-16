@@ -22,7 +22,6 @@ Puede instalar RMS SP1 sin quitar la instalación existente de RMS. El programa 
 -   [Interoperabilidad con RMS versión 1.0](#bkmk_5)
 -   [Quitar RMS con SP1](#bkmk_6)
 
-<span id="BKMK_1"></span>
 Preparar la actualización de RMS SP1
 ------------------------------------
 
@@ -33,13 +32,11 @@ La actualización de RMS SP1 se ha diseñado para permitir continuar las operaci
 -   Realice la copia de seguridad de la base de datos de registro si desea conservar las estadísticas registradas anteriormente.
 -   Asegúrese de que dispone de las actualizaciones críticas y actualizaciones de seguridad más recientes del sistema operativo instalado en sus clientes y servidores. Para comprobar si tiene todas las actualizaciones críticas y actualizaciones de seguridad, haga clic en **Inicio** y en **Windows Update**; a continuación, siga las instrucciones que aparecen en la pantalla.
 
-<span id="BKMK_2"></span>
 Realizar la actualización de RMS SP1
 ------------------------------------
 
 Cuando el Asistente para la instalación de RMS SP1 detecta su instalación de RMS, sólo agrega los archivos nuevos o reemplaza los que se deben cambiar para RMS SP1. Si ya está ejecutando RMS correctamente, no necesita efectuar el reaprovisionamiento ni llevar a cabo ninguna configuración adicional después de instalar RMS SP1 para seguir ejecutando RMS.
 
-<span id="BKMK_3"></span>
 Actualizar clústeres
 --------------------
 
@@ -51,7 +48,6 @@ Si ha instalado RMS en una configuración de clúster, debe planear la actualiza
 -   Los servidores de RMS SP1 y RMS versión 1.0 pueden coexistir e interoperar.
 -   El paquete de instalación de RMS SP1 también se puede usar para instalar una nueva versión de RMS SP1 en un servidor; no requiere que RMS versión 1.0 esté instalado.
 
-<span id="BKMK_4"></span>
 Actualizar clientes de RMS
 --------------------------
 
@@ -64,7 +60,6 @@ Este nuevo cliente de RMS proporciona las siguientes características:
 -   El cliente de RMS SP1 incluye una nueva caja de seguridad de servidor (también denominada procesador de seguridad de servidor) que se puede usar para los servicios web habilitados para RMS o aplicaciones en el servidor, como Windows SharePoint® Services y Exchange Server 2003, con el fin de permitir que el servicio consuma y distribuya contenido protegido con RMS. Esta caja se ha diseñado para tener un elevado rendimiento y escalabilidad cuando se usa en aplicaciones de servidor de confianza
 -   El cliente de RMS usa algoritmos de cifrado con certificado FIPS 140-2. Esto permite que el cliente se implemente en una organización compatible con FIPS.
 
-<span id="BKMK_5"></span>
 Interoperabilidad con RMS versión 1.0
 -------------------------------------
 
@@ -77,6 +72,7 @@ Debido a que RMS SP1 proporciona numerosas mejoras de rendimiento, debe instalar
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -123,7 +119,6 @@ Los clientes de la versión 1 se deben activar a través de Internet.</td>
 </table>
  
 
-<span id="BKMK_6"></span>
 Quitar RMS con SP1
 ------------------
 

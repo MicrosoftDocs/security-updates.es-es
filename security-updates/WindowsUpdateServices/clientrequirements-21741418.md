@@ -29,6 +29,7 @@ The following table shows the supported methods to clear the SUSClientID registr
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

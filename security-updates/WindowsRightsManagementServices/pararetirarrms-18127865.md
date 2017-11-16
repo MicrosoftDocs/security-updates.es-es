@@ -13,13 +13,11 @@ Para realizar este procedimiento, debe iniciar sesión localmente en el sitio We
 
 Para abrir la página **Administración global**, haga clic en **Inicio**, elija **Todos los programas**, **Windows RMS** y, a continuación, haga clic en **Administración de Windows RMS**.
 
-| ![](images/Cc747665.Warning(WS.10).gif)Advertencia                                                    |
-|------------------------------------------------------------------------------------------------------------------------------------|
-| Cuando se retira un servidor, no es posible restaurar en él una configuración de RMS estándar. Este procedimiento es irreversible. |
+> [!WARNING]
+> Cuando se retira un servidor, no es posible restaurar en él una configuración de RMS estándar. Este procedimiento es irreversible. 
 
-| ![](images/Cc747665.Warning(WS.10).gif)Advertencia                                                                  |
-|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| Una vez retirado, RMS debe quitarse por completo mediante la opción Agregar o quitar programas antes de intentar instalar otra instancia de RMS. |
+> [!WARNING]
+> Una vez retirado, RMS debe quitarse por completo mediante la opción Agregar o quitar programas antes de intentar instalar otra instancia de RMS. 
 
 Retiro de RMS
 -------------

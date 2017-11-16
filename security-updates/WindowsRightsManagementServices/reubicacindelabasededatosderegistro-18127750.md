@@ -19,9 +19,8 @@ Si la base de datos de registro es demasiado grande, puede moverla a un servidor
     -   Cambie el valor de la directiva LoggingDatabaseServer para reflejar el nombre del nuevo servidor de base de datos.
     -   Cambie el valor de la directiva LoggingDatabaseName para reflejar el nuevo nombre de la base de datos.
 
-    | ![](images/Cc720238.note(WS.10).gif)Nota                                                                                                                                                                                            |
-    |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | El Administrador corporativo de SQL Server no funciona con campos db\_variant, por lo que no puede utilizarlo para esta tarea. En su lugar, puede utilizar el Analizador de consultas, incluido con SQL Server, u otra herramienta de edición de bases de datos. |
+    > [!NOTE]
+    > El Administrador corporativo de SQL Server no funciona con campos db\_variant, por lo que no puede utilizarlo para esta tarea. En su lugar, puede utilizar el Analizador de consultas, incluido con SQL Server, u otra herramienta de edición de bases de datos. 
 
 4.  Reinicie IIS en todos los servidores del clúster.
 5.  Vuelva a activar el registro.

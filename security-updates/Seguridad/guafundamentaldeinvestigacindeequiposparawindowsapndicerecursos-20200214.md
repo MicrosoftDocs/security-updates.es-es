@@ -64,6 +64,7 @@ En la tabla siguiente se proporciona una lista de hojas de cálculo y muestras q
 **Tabla A.1. Hojas de cálculo y Muestras**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -128,6 +129,7 @@ La información de la tabla siguiente le puede ayudar a determinar la autoridad 
 **Tabla A.2. Autoridades judiciales competentes para diferentes tipos de crímenes**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -245,6 +247,7 @@ En esta sección se proporciona información acerca de las herramientas de [Wind
 **Tabla A.3. Tipos de herramienta**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -275,6 +278,7 @@ En las tablas siguientes se proporciona información acerca de varias herramient
 **Tabla A.4. Información sobre herramientas de Windows Sysinternals**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -447,6 +451,7 @@ En las tablas siguientes se proporciona información acerca de varias herramient
 **Tabla A.5. Información de herramientas de Windows**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

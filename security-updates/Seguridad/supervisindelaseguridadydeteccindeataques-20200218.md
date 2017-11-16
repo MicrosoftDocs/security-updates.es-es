@@ -172,6 +172,7 @@ Los encabezados de los eventos se componen de los campos siguientes:
 **Tabla 1. El encabezado del evento**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -560,6 +561,7 @@ Una de las decisiones que deben tomar las empresas es el tiempo que se deben gua
 **Tabla 2. Límites de almacenamiento para análisis de investigación**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -779,6 +781,7 @@ En la siguiente tabla, se incluyen los eventos de auditorías de inicio de sesi�
 **Tabla 3. Eventos de uso de equipos no autorizados**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -860,6 +863,7 @@ Otro malware puede adoptar la forma de archivos adjuntos de correo electrónico 
 **Tabla 4. Evento 592**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -908,6 +912,7 @@ Los eventos de auditoría de acceso a objetos de la tabla siguiente se encargan 
 **Tabla 5. Eventos de cambio de permisos de archivos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -941,6 +946,7 @@ Los cambios de contraseñas sólo se deberían producir en un marco de procedimi
 **Tabla 6. Eventos de restablecimiento de contraseñas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -979,6 +985,7 @@ Cualquier modificación de una cuenta, ya sea para agregarla, eliminarla o cambi
 **Tabla 7. Eventos de cambio de cuentas de usuario**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1036,6 +1043,7 @@ Los eventos de auditoría de administración de cuentas de la tabla siguiente de
 **Tabla 8. Eventos de cambios de pertenencia a grupos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1090,6 +1098,7 @@ En la tabla siguiente se incluyen los eventos que identifican el uso de cuentas 
 **Tabla 9. Eventos de inicio de sesión no autorizados**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1155,6 +1164,7 @@ En la tabla siguiente, se incluyen los eventos de auditoría de inicio de sesió
 **Tabla 10. Eventos de inicio de sesión con credenciales de cuentas de servicio**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1200,6 +1210,7 @@ La siguiente tabla incluye los eventos de seguimiento de procesos que pueden ide
 **Tabla 11. Eventos de ejecución de programas no autorizados**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1235,6 +1246,7 @@ La tabla siguiente de eventos de auditoría de acceso a objetos indica intentos 
 **Tabla 12. Eventos de intentos de acceso a recursos no autorizados**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1294,6 +1306,7 @@ Los eventos de seguimiento de procesos que se incluyen en la tabla siguiente se 
 **Tabla 13. Eventos de uso de plataformas no autorizadas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1334,6 +1347,7 @@ Los eventos de auditoría de cambios de directiva de la tabla siguiente identifi
 **Tabla 14. Eventos de cambio de relaciones de confianza**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1396,6 +1410,7 @@ En la tabla siguiente, se incluyen los eventos de auditoría de cambio de direct
 **Tabla 15. Eventos de cambio de directivas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1444,6 +1459,7 @@ En la tabla siguiente, se incluyen los eventos que se pueden producir a causa de
 **Tabla 16. Eventos de ataque a las credenciales de autenticación**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1518,6 +1534,7 @@ Además de los eventos que ya se han mencionado, entre los eventos más importan
 **Tabla 17. Eventos causados por vulnerabilidades de elevación de privilegios**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1563,6 +1580,7 @@ En la tabla siguiente, se incluyen varios tipos de evento que ayudan a identific
 **Tabla 18. Eventos de burla de auditorías de eventos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1685,6 +1703,7 @@ Los eventos de la tabla siguiente suelen excluirse de las consultas de supervisi
 **Tabla A1. Eventos innecesarios**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1798,6 +1817,7 @@ Los sucesos que se enumeran en la tabla siguiente a menudo se excluyen de las co
 **Tabla A.2: Reducción de la carga de almacenamiento mediante la eliminación de sucesos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1936,6 +1956,7 @@ Este apéndice se debería utilizar para comprobar la configuración actual del 
 **Tabla B1. Configuración de auditorías de seguridad de la directiva de grupo**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -2048,6 +2069,7 @@ Para configurar correctamente los valores de auditoría de seguridad de Directiv
 **Tabla B.2: Configuración de la auditoría de seguridad de Directiva de grupo**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

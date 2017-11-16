@@ -16,6 +16,7 @@ En la tabla siguiente se muestran los tipos de servidores que intervienen en una
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

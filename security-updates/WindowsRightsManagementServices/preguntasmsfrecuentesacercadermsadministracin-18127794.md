@@ -22,22 +22,18 @@ Preguntas más frecuentes acerca de la administración de RMS
 -   [¿Se puede realizar un seguimiento con el servidor de RMS?](#bkmk_8)
 -   [¿Qué es la desviación del reloj y cómo puede corregirse?](#bkmk_9)
 
-<span id="BKMK_1"></span>
 #### ¿Cuál es la mejor forma de revocar los permisos sobre documentos a un usuario que deja una organización?
 
 En general, es mejor obtener la licencia de los documentos para los grupos de usuarios definidos en Active Directory en lugar de para cuentas de usuario individuales. Esto es recomendable para que cuando un usuario deje una organización, se le pueda quitar del grupo de Active Directory y el usuario no pueda leer documentos enviados a ese grupo. No obstante, el usuario todavía podrá leer documentos que tengan licencias de uso existentes, a menos que los documentos tuvieran establecidos permisos para que el usuario obtuviera una licencia de uso cada vez que se abriera el documento. Si este permiso no está definido, la única forma de impedir que el usuario abra documentos con licencias de uso existentes es eliminar el almacén de licencias del usuario en el equipo del usuario.
 
-<span id="BKMK_2"></span>
 #### Cuando se establecen confianzas entre dos organizaciones para intercambiar contenido de RMS, ¿necesita el certificado de licencia XrML que se pasa a la compañía de confianza algún trato especial?
 
 Al establecer un dominio de usuario de confianza o un dominio de publicación de confianza, permite a la organización asociada participar en el sistema de administración de permisos. Por lo tanto, está asumiendo como riesgo calculado que la otra organización no comprometerá su información. Es aconsejable solicitar que la organización asociada envíe su certificado emisor de licencias de servidor de RMS a través de un canal autenticado, como el correo electrónico S/MIME, para mitigar el riesgo de que alguien altere el certificado emisor de licencias de servidor antes de que lo importe a su servidor de RMS.
 
-<span id="BKMK_3"></span>
 #### ¿Cómo trata RMS a los perfiles móviles de usuarios?
 
 Los certificados de cuenta de permisos (RAC) que se utilizan para identificar a los usuarios son específicos de cada equipo. Al utilizar perfiles móviles, el primer uso de RMS en un equipo creará un nuevo RAC para el usuario en ese equipo.
 
-<span id="BKMK_4"></span>
 #### ¿Por qué querría una organización retirar RMS?
 
 Al retirar RMS se elimina el servidor de RMS de la infraestructura y proporciona a los usuarios una forma de guardar sin protección el contenido protegido por derechos. Las organizaciones lo hacen básicamente por tres razones:
@@ -46,19 +42,16 @@ Al retirar RMS se elimina el servidor de RMS de la infraestructura y proporciona
 -   Migrar una prueba de concepto de entorno piloto a un entorno de producción.
 -   Fusionar servidores de RMS, por ejemplo después de una adquisición.
 
-<span id="BKMK_5"></span>
 #### ¿En qué consiste el proceso de retiro?
 
 El proceso de retiro se inicia desde el clúster raíz de RMS, habilitando el servicio de retiro. Cuando el servicio de retiro está habilitado, se deshabilitan todos los demás servicios, como por ejemplo las licencias y la certificación. A continuación, las aplicaciones compatibles con RMS de todos los usuarios deben conectarse al servicio de retiro cuando se utiliza una característica de RMS. Microsoft Office 2003 es un ejemplo de aplicación compatible con RMS. En Office 2003, se dirige al cliente de RMS a los servicios de RMS mediante claves de Registro. Una clave de registro específica identifica el servicio de retiro. Una vez que la clave está configurada para dirigir al cliente al servicio de retiro, el clúster de RMS otorga licencias de uso que conceden al usuario permisos completos (lectura, escritura, copia, impresión, modificación, etc.) sobre ese contenido, independientemente de si el usuario tenía o no esos permisos originalmente. A continuación, los usuarios deben quitar toda protección de derechos de los documentos que deseen conservar después de retirar completamente el clúster de RMS. Una vez hecho esto, se puede retirar el clúster de RMS del servicio por completo.
 
 Si necesita recuperar un documento protegido por derechos una vez retirado el clúster de RMS, es recomendable realizar una copia de seguridad de la base de datos de configuración de RMS. Sin la clave privada del clúster raíz de RMS, sólo el autor del documento podrá abrir el contenido protegido por derechos una vez quitado el servidor.
 
-<span id="BKMK_6"></span>
 #### ¿Se puede retirar un servidor de RMS de modo que sólo algunos usuarios puedan recuperar documentos?
 
 Puede aplicar una lista de control de acceso (ACL) al servicio web de retiro (decommission.asmx) para controlar el acceso al servicio de retiro con el fin de que sólo ciertos usuarios puedan obtener la clave de descifrado para el contenido protegido por derechos.
 
-<span id="BKMK_7"></span>
 #### ¿Qué significa el mensaje que indica que el servidor no puede tener acceso al directorio de aplicaciones?
 
 Este error aparece a veces la primera vez que intenta abrir el sitio Web de administración de RMS después de instalar RMS. Después de recibir este error, no puede configurar o administrar RMS.
@@ -76,7 +69,6 @@ Este error aparece habitualmente cuando los Servicios de Internet Information Se
 
 5.  Este cambio requiere que se reinicie el servicio IIS. Cuando se le pida si desea reiniciar el servicio IIS, haga clic en **Sí**.
 
-<span id="BKMK_8"></span>
 #### ¿Se puede realizar un seguimiento con el servidor de RMS?
 
 Dado que los Servicios de Rights Management se crearon utilizando Microsoft® .NET Framework, puede habilitar la opción de seguimiento para mantener un control de los sucesos del sistema y solucionar problemas.
@@ -94,11 +86,9 @@ Para implementar el seguimiento, debe modificar el archivo Web.config o Machine.
 
 4.  Para reiniciar IIS, ejecute IISRESET desde un símbolo del sistema.
 
-| ![](images/Cc747547.Important(WS.10).gif)Importante                                                                                                                                                                                                                                                                      |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Cuando se realiza un seguimiento de un servidor de RMS, pueden producirse problemas de rendimiento, como mayores demoras en la adquisición de licencias de uso y la emisión de certificados de cuenta de permisos. Sólo deberá utilizar la opción de seguimiento en circunstancias muy concretas para ayudarle a diagnosticar y solucionar problemas. |
+> [!IMPORTANT]
+> Cuando se realiza un seguimiento de un servidor de RMS, pueden producirse problemas de rendimiento, como mayores demoras en la adquisición de licencias de uso y la emisión de certificados de cuenta de permisos. Sólo deberá utilizar la opción de seguimiento en circunstancias muy concretas para ayudarle a diagnosticar y solucionar problemas. 
 
-<span id="BKMK_9"></span>
 #### ¿Qué es la desviación del reloj y cómo puede corregirse?
 
 La desviación del reloj se produce cuando la hora del reloj de un equipo es ligeramente diferente a la hora del reloj de otro equipo. Está pérdida es tan común como que los relojes de dos personas en una sala muestren horas ligeramente diferentes. La desviación del reloj puede causar problemas siempre que se especifique un período de validez en una licencia.

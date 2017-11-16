@@ -37,6 +37,7 @@ En la siguiente tabla se incluyen los nombres de las plantillas de seguridad de 
 **Tabla 7.1 Plantillas de seguridad de servidor de archivos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

@@ -11,22 +11,21 @@ Managing WSUS 3.0 from the Command Line
 
 The **wsusutil** command-line utility is used in managing WSUS servers and is located in the *WSUSInstallDir*\\Tools folder of WSUS servers. The table below summarizes the different parameters that can be used with this utility, and later sections explain the syntax and usage of each parameter.
 
-| ![](images/Cc708604.note(WS.10).gif)Nota                    |
-|------------------------------------------------------------------------------------------|
-| You can also use Windows® PowerShell® to access the WSUS 3.0 APIs from the command line. |
+> [!NOTE]
+> You can also use Windows® PowerShell® to access the WSUS 3.0 APIs from the command line. 
 
 Using the wsusutil utility
 --------------------------
 
 You must be an administrator to run the **wsusutil** utility. This utility is installed only on WSUS server machines, not on console-only installations.
 
-| ![](images/Cc708604.note(WS.10).gif)Nota                                                                                           |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| To see all **wsusutil** parameters, type **wsusutil help** on the command line. To see usage for each of the parameters, type **wsusutil help***parameterName*. |
+> [!NOTE]
+> To see all **wsusutil** parameters, type **wsusutil help** on the command line. To see usage for each of the parameters, type **wsusutil help***parameterName*. 
 
 ### Summary of wsusutil Commands
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -109,6 +108,7 @@ The following command updates the server certificateName:
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -147,263 +147,214 @@ This command sets and gets the different parameters for WSUS health monitoring.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <tr>
-<th colspan="2">
+<th colspan="2" style="border:1px solid black;">
 Parameter  
 </th>
-<th colspan="2">
+<th colspan="2" style="border:1px solid black;">
 Description  
 </th>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **IntervalsInMinutes*** \[DetectInterval\] \[RefreshInterval\]*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Sets the values for detect and refresh intervals. If the detect interval is 0, the detect cycle will not run. If the refresh interval is 0, the refresh cycle will not run. For more information about the detect and refresh cycles, see [Health Monitoring in WSUS 3.0](https://technet.microsoft.com/2e8a4be2-43b2-4a2c-96f6-667c4558f18d).
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **DiskSpaceInMegabytes ***\[ErrorLevel\] \[WarningLevel\]*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Sets the amount of available disk space (in megabytes) at which a low disk space warning or error event should be logged.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CatalogSyncIntervalInDays*** \[Days\]*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Sets the number of days that should have passed after synchronization before a warning event should be logged..
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **InstallUpdatesInPercent*** \[WarningPercent\]\[ErrorPercent\]*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Sets the percentage of update installation failures at which a warning or error event should be given.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **InventoryInPercen***\[WarningPercent\]\[ErrorPercent\]*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Sets the percentage of inventory reporting failures at which a warning or error should be given.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **SilentClientsInPercent*** \[WarningPercent\]\[ErrorPercent\]*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Sets the percentage of clients not reporting to the server at which a warning or error should be given.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **SilentClientsInDays*** \[Days\]*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Sets the number of days clients can fail to report before an error should be given.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **TargetComputersInPercent***\[WarningPercent\]\[ErrorPercent\]*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Sets the maximum percentage of target computers reporting to this server below which a warning or error event should be given. For example, if you set values of 80 and 60, a warning event will be logged if only 80 percent of computers have reported, and an error event will be logged if only 60 percent of computers have reported.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckAcls*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check ACLs on the relevant directories.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckForLowDiskSpace*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check for low disk space.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckForCatalogSyncFailures*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check for catalog synchronization failures.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckForContentSyncFailures*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check for content synchronization failures.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckForEmailNotificationFailures*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check for e-mail notification failures.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckSelfUpdate*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check for client self-update failures.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckClientsExist*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check whether this server has any clients.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckForUpdateInstallFailures*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check for update installation failures.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckForInventoryFailures*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check for clients failing to report inventory..
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckForSilentClients*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check for clients that have failed to report to the server.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckForTooManyClients*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check whether the number of clients is approaching the maximum number allowed.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckReportingWebService*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check the Reporting Web service.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckApiRemotingWebService*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check the API Remoting Web service.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckServerSyncWebService*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check the Server Synchronization Web service.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckClientWebService*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check the client Web service.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckSimpleAuthWebService*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check the Simple Authentication Web service.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckDssAuthWebService*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check the Downstream Server Authentication Web service.
-
 </td>
 </tr>
 </table>
@@ -438,6 +389,7 @@ For more information about exporting and importing updates, see "Set Up a Discon
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -476,6 +428,7 @@ For background and procedural information about exporting and importing updates,
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -544,6 +497,7 @@ If the hard disk fails, you must do the following:
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -586,6 +540,7 @@ This command deletes the given front-end server.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

@@ -150,6 +150,7 @@ En la tabla siguiente se indican las convenciones de estilo que se utilizan en l
 **Tabla 1.1: Convenciones de estilo**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1849,6 +1850,7 @@ Otro comportamiento común del software malintencionado es el uso de carpetas co
 **Tabla 4.1: Recursos compartidos de carpeta predeterminados de Windows XP**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1889,6 +1891,7 @@ Otro comportamiento común del software malintencionado es el uso de carpetas co
 **Tabla 4.2: Recursos compartidos de carpeta predeterminados de Windows Server 2003 y Windows 2000 Server**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -2014,6 +2017,7 @@ El factor principal a considerar en la elección de una opción u otra es el niv
 **Tabla 4.3: Ventajas y desventajas de la limpieza y la reconstrucción del sistema**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

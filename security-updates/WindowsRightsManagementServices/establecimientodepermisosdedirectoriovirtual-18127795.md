@@ -22,6 +22,5 @@ Antes de que los usuarios puedan empezar a utilizar el servicio de retiro, es pr
 4.  A continuación, haga clic con el botón secundario del mouse en la entrada y seleccione **Modificar** para especificar los datos del valor para que haga referencia al servicio de retiro:
     `http://`*su-servidor-de-licencias*`/_wmcs/decommission`
 
-| ![](images/Cc747549.note(WS.10).gif)Nota                                                       |
-|-----------------------------------------------------------------------------------------------------------------------------|
-| Pueden existir múltiples entradas para esta clave cuando hay varios servidores de RMS en la organización en modo de retiro. |
+> [!NOTE]
+> Pueden existir múltiples entradas para esta clave cuando hay varios servidores de RMS en la organización en modo de retiro. 

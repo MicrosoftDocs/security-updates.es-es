@@ -18,6 +18,7 @@ El archivo de aplicación del servicio proxy de activación, Activation.asmx, es
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

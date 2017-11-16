@@ -19,6 +19,7 @@ En la siguiente tabla, se muestran los id. de hardware de todos los equipos.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -64,6 +65,7 @@ En la siguiente tabla, se muestra la información de Microsoft® .NET Passport d
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -103,6 +105,7 @@ La siguiente tabla vincula los usuarios certificados con su información de equi
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -148,6 +151,7 @@ En la siguiente tabla, se muestra información acerca de los datos de usuario.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -253,6 +257,7 @@ En la siguiente tabla, se muestran los id. de todos los usuarios certificados y 
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />

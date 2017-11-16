@@ -26,6 +26,7 @@ En la tabla siguiente, se enumeran los directorios virtuales que se crean en IIS
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

@@ -124,6 +124,7 @@ La plantilla de GPO de Active Directory permite controlar una serie de parámet
 **Tabla 2.1. Configuración relacionada con EFS de las plantillas de GPO de Active Directory**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

@@ -192,6 +192,7 @@ El resultado del proceso de decisión se puede parecer al que se muestra en la s
 **Tabla 1.1. Directiva y directrices de configuración de BitLocker**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
