@@ -330,6 +330,7 @@ En la siguiente tabla se incluyen las funciones de servidor y los archivos de pl
 **Tabla 2.1 Funciones de servidor de Windows Server 2003**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -414,6 +415,7 @@ Las UO y directivas recomendadas que se explicaron en la sección anterior crean
 **Tabla 2.2 UO y grupos administrativos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

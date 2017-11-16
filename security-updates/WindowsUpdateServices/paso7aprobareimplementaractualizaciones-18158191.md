@@ -25,9 +25,8 @@ El paso 7 contiene los procedimientos siguientes:
 
 4.  En la lista **Configuración de aprobación de grupo para las actualizaciones seleccionadas**, haga clic en **Instalar** en la lista de la columna **Aprobación** del grupo de prueba y, después, haga clic en **Aceptar**.
 
-| ![](images/Cc720504.note(WS.10).gif)Nota                                                                                                                                                                                                         |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Hay muchas opciones asociadas a la aprobación de actualizaciones, como establecer fechas límite y desinstalar actualizaciones. Éstas se describen en las notas del producto “Microsoft Windows Server Update Services Operations Guide” (el documento puede estar en inglés). |
+> [!NOTE]
+> Hay muchas opciones asociadas a la aprobación de actualizaciones, como establecer fechas límite y desinstalar actualizaciones. Éstas se describen en las notas del producto “Microsoft Windows Server Update Services Operations Guide” (el documento puede estar en inglés). 
 
 Transcurridas 24 horas, puede utilizar la característica de generación de informes de WSUS para determinar si esas actualizaciones se implementaron en los equipos.
 

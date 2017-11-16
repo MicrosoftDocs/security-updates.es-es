@@ -42,6 +42,7 @@ En la siguiente tabla se muestran los nombres de las plantillas de seguridad de 
 **Tabla 9.1 Plantillas de seguridad de servidor IIS**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -156,6 +157,7 @@ En la siguiente tabla se describen brevemente los subcomponentes del servidor de
 **Tabla 9.2 Configuración recomendada de subcomponentes del servidor de aplicaciones**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -214,6 +216,7 @@ En la siguiente tabla se describen brevemente los subcomponentes de IIS y se ofr
 **Tabla 9.3 Configuración recomendada para subcomponentes de IIS**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -286,6 +289,7 @@ En la siguiente tabla se describen brevemente los subcomponentes de Message Queu
 **Tabla 9.4 Configuración recomendada para subcomponentes de Message Queue Server**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -343,6 +347,7 @@ En la siguiente tabla se describen brevemente los subcomponentes de Extensiones 
 **Tabla 9.5 Configuración recomendada de subcomponentes de Extensiones de servidor BITS**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -380,6 +385,7 @@ En la tabla siguiente se describen brevemente los subcomponentes del Servicio Wo
 **Tabla 9.6 Configuración recomendada de subcomponentes del Servicio World Wide Web**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -447,6 +453,7 @@ En la tabla siguiente se enumeran las extensiones de servicio web predefinidas y
 **Tabla 9.7 Habilitación de extensiones de servicio web**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -523,6 +530,7 @@ En la siguiente tabla se ofrecen algunas recomendaciones acerca de los permisos 
 **Tabla 9.8 Configuración recomendada de permisos de NTFS**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -574,6 +582,7 @@ En la tabla siguiente se enumeran los permisos de sitio web que admite IIS 6.0 y
 **Tabla 9.9 Permisos de sitio web de IIS 6.0**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -654,6 +663,7 @@ Asimismo, puede haber cambiado el nombre de la cuenta de Administrador integrada
 **Tabla 9.10 Asignaciones de derechos de usuario agregadas manualmente**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />

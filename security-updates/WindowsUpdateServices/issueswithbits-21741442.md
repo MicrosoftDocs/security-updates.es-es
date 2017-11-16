@@ -28,22 +28,9 @@ Stopping and Restarting BITS
 Often it is possible to resolve BITS issues simply by stopping the service and restarting it. The following procedure shows how to stop and restart the service from a Command Prompt.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939934.note(WS.10).gif" />Nota</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">To modify, stop, or restart BITS, log on as a local administrator.
-</td>
-</tr>
-</tbody>
-</table>
+<p> </p>
+> [!NOTE]
+> To modify, stop, or restart BITS, log on as a local administrator.
  
 
 **To stop and restart BITS**
@@ -102,6 +89,7 @@ If BITS jobs fail, look in the event log to find errors. You can use the followi
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -161,6 +149,7 @@ If the BITS service fails to start, use the following table to diagnose the caus
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -217,22 +206,9 @@ If the BITS service fails to start, use the following table to diagnose the caus
 To repair corrupted BITS service configuration, you can enter the BITS service configuration manually.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939934.Important(WS.10).gif" />Importante</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">This action should only be taken in circumstances where all other troubleshooting attempts have failed. You must be an administrator to modify the BITS configuration.
-</td>
-</tr>
-</tbody>
-</table>
+<p> </p>
+> [!IMPORTANT]
+> This action should only be taken in circumstances where all other troubleshooting attempts have failed. You must be an administrator to modify the BITS configuration.
  
 
 **To repair a corrupted BITS configuration**

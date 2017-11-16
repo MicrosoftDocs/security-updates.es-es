@@ -20,6 +20,7 @@ Los pasos siguientes se indican como ejemplo de algunos de los elementos que deb
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

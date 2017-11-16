@@ -14,6 +14,7 @@ En la tabla siguiente se muestran las claves que se utilizan en un sistema RMS.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

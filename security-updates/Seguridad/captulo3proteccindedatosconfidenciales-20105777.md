@@ -32,6 +32,7 @@ Puede utilizar BitLocker, EFS, RMS y el control de dispositivos para contribuir 
 **Tabla 3.1 Comparación de tecnologías de protección de datos en Windows Vista**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -241,6 +242,7 @@ Hay dos plantillas de directiva de grupo que Microsoft recomienda para administr
 **Tabla 3.2 Configuración del cifrado de unidad BitLocker**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -297,6 +299,7 @@ La tabla siguiente proporciona información sobre la configuración de directiva
 **Tabla 3.3 Configuración de Módulo de plataforma segura**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -471,6 +474,7 @@ Además, hay cuatro plantillas de directiva de grupo que incluyen parámetros de
 **Tabla 3.4 Configuración de directiva de grupo para EFS**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -682,6 +686,7 @@ Con el fin de administrar el control de la instalación de dispositivos, Microso
 **Tabla 3.5 Configuración del control de dispositivos USB**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -768,6 +773,7 @@ Además de contribuir al control de la instalación de dispositivos, Windows Vis
 **Tabla 3.6 Configuración de dispositivos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -866,6 +872,7 @@ La plantilla Autoplay.admx incluye los parámetros de configuración siguientes 
 **Tabla 3.7 Configuración de directivas de reproducción automática**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

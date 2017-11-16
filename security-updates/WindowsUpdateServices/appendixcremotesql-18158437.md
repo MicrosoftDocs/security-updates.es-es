@@ -83,7 +83,6 @@ For more information about hardware, hard disk, and software requirements, see [
 
 7.  If the final page confirms that WSUS installation was successfully completed, click **Finish**.
 
-<span id="WUS_InstallWUSBackendComputer"></span>
 Step 2: Install WSUS on the Back-end Computer
 ---------------------------------------------
 
@@ -228,7 +227,6 @@ If your back-end computer is running Windows 2000 Server, use the following proc
 
 7.  In the **WSUS Administrators Properties** dialog box, click **OK**.
 
-<span id="WUS_ConfigureFrontendComputer"></span>
 Step 3: Configure the Front-end Computer to Use the Back-end Computer
 ---------------------------------------------------------------------
 

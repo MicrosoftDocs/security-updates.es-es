@@ -11,9 +11,8 @@ Creación de listas de revocaciones
 
 Para implementar la revocación, es preciso que implemente una lista de revocaciones, que es un documento XML que utiliza el lenguaje de marcado de permisos extensible (XrML) y enumera las entidades que ya no deben tener acceso al contenido protegido por derechos. Debe crear listas de revocaciones que indiquen la fecha y la hora y dispongan de las firmas adecuadas con la herramienta de firma de lista de revocaciones (RLsigner.exe) que se proporciona con RMS.
 
-| ![](images/Cc720208.Important(WS.10).gif)Importante                                              |
-|-------------------------------------------------------------------------------------------------------------------------------|
-| Para firmar la lista de revocaciones con RLsigner.exe, debe guardar el archivo de lista de revocaciones como archivo Unicode. |
+> [!IMPORTANT]
+> Para firmar la lista de revocaciones con RLsigner.exe, debe guardar el archivo de lista de revocaciones como archivo Unicode. 
 
 Ejemplo de lista de revocaciones
 --------------------------------
@@ -34,9 +33,8 @@ A continuación se muestra un ejemplo del archivo de lista de revocaciones.
 | ![](images/Cc720208.note(WS.10).gif)Nota                                               |
 |---------------------------------------------------------------------------------------------------------------------|
         ```
-| ![](images/Cc720208.Caution(WS.10).gif)Precaución                                                                       |
-|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Al especificar la dirección URL en la lista de revocaciones, ya no se admite una ruta UNC en RMS con SP1 o RMS con SP2. Debe usar una dirección URL. |
+> [!CAUTION]
+> Al especificar la dirección URL en la lista de revocaciones, ya no se admite una ruta UNC en RMS con SP1 o RMS con SP2. Debe usar una dirección URL. 
 
 Una vez definidos los elementos REVOKE, la lista de revocaciones está lista para firmarse.
 
@@ -56,12 +54,10 @@ Para obtener más información acerca de la especificación de elementos REVOKE,
 -   [Revocación de certificados según el identificador de la entidad de seguridad](#bkmk_10)
 -   [Revocación de entidades de seguridad según Windows Live ID](#bkmk_7)
 
-<span id="BKMK_1"></span>
 #### Revocación de entidades principales basándose en una clave pública
 
         ```
 
-<span id="BKMK_2"></span>
 #### Revocación de certificados y licencias basándose en el GUID
 
         ```
@@ -71,7 +67,6 @@ Para revocar mediante un manifiesto de la aplicación, debe extraer el Id., la c
 
 Si desea impedir que una aplicación use contenido protegido por derechos, considere el uso de la exclusión de aplicaciones para prohibir que el clúster de RMS les otorgue licencias de uso a estas aplicaciones. La limitación de exclusión implica que no puede evitar que alguien con una licencia de uso válida descifre contenido protegido por derechos. Para obtener más información sobre la exclusión de aplicaciones, vea [Exclusión de aplicaciones](https://technet.microsoft.com/b68ae4b2-b9ba-44ae-90cb-c88df600ec86), anteriormente en este tema.
 
-<span id="BKMK_3"></span>
 #### Revocación de certificados y licencias basándose en el valor de un algoritmo hash
 
         ```
@@ -81,44 +76,34 @@ Para revocar mediante un manifiesto de la aplicación, debe extraer el Id., la c
 
 Si desea impedir que una aplicación use contenido protegido por derechos, considere el uso de la exclusión de aplicaciones para prohibir que el clúster de RMS les otorgue licencias de uso a estas aplicaciones. La limitación de exclusión implica que no puede evitar que alguien con una licencia de uso válida descifre contenido protegido por RMS. Para obtener más información sobre la exclusión de aplicaciones, vea [Exclusión de aplicaciones](https://technet.microsoft.com/b68ae4b2-b9ba-44ae-90cb-c88df600ec86), anteriormente en este tema.
 
-<span id="BKMK_4"></span>
 #### Revocación de certificados y licencias basándose en la clave pública del emisor
 
         ```
 
-<span id="BKMK_5"></span>
 #### Revocación de certificados y licencias basándose en el Id. del emisor
 
         ```
-| ![](images/Cc720208.note(WS.10).gif)Nota                                                                                                                                                                                           |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Al especificar el tipo de id., asegúrese de que no haya un retorno de carro entre el identificador único global (GUID) y la etiqueta de cierre. Si se agrega accidentalmente un retorno de carro, el cliente de RMS no podrá analizar la lista de revocaciones. |
+> [!NOTE]
+> Al especificar el tipo de id., asegúrese de que no haya un retorno de carro entre el identificador único global (GUID) y la etiqueta de cierre. Si se agrega accidentalmente un retorno de carro, el cliente de RMS no podrá analizar la lista de revocaciones. 
 
-<span id="BKMK_6"></span>
 #### Revocación de contenido basándose en el Id. del contenido
 
         ```
-| ![](images/Cc720208.note(WS.10).gif)Nota                                                                                                                                                                                           |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Al especificar el tipo de id., asegúrese de que no haya un retorno de carro entre el identificador único global (GUID) y la etiqueta de cierre. Si se agrega accidentalmente un retorno de carro, el cliente de RMS no podrá analizar la lista de revocaciones. |
+> [!NOTE]
+> Al especificar el tipo de id., asegúrese de que no haya un retorno de carro entre el identificador único global (GUID) y la etiqueta de cierre. Si se agrega accidentalmente un retorno de carro, el cliente de RMS no podrá analizar la lista de revocaciones. 
 
-<span id="BKMK_10"></span>
 #### Revocación de entidades de seguridad según la cuenta de Windows
 
         ```
-| ![](images/Cc720208.note(WS.10).gif)Nota                                                                                                                                                                                            |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Al especificar el tipo de identificador, asegúrese de que no haya un retorno de carro entre el SID de cuenta de Windows y la etiqueta de cierre. Si se agrega accidentalmente un retorno de carro, el cliente de RMS no podrá analizar la lista de revocaciones. |
+> [!NOTE]
+> Al especificar el tipo de identificador, asegúrese de que no haya un retorno de carro entre el SID de cuenta de Windows y la etiqueta de cierre. Si se agrega accidentalmente un retorno de carro, el cliente de RMS no podrá analizar la lista de revocaciones. 
 
-<span id="BKMK_7"></span>
 #### Revocación de entidades de seguridad según Windows Live ID
 
         ```
-| ![](images/Cc720208.note(WS.10).gif)Nota                                                                                                                                                                                              |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Al especificar el tipo de id., asegúrese de que no haya un retorno de carro entre el identificador único principal (PUID) y la etiqueta de cierre. Si se agrega accidentalmente un retorno de carro, el cliente de RMS no podrá analizar la lista de revocaciones. |
+> [!NOTE]
+> Al especificar el tipo de id., asegúrese de que no haya un retorno de carro entre el identificador único principal (PUID) y la etiqueta de cierre. Si se agrega accidentalmente un retorno de carro, el cliente de RMS no podrá analizar la lista de revocaciones. 
 
-<span id="BKMK_8"></span>
 Inserción de una firma en una lista de revocaciones
 ---------------------------------------------------
 
@@ -145,19 +130,16 @@ El archivo de lista de revocaciones se debe haber guardado como archivo Unicode 
 
 4.  Use RLsigner.exe para insertar una firma en un archivo de lista de revocaciones. Esta herramienta se incluye con RMS. De forma predeterminada, se encuentra en el directorio %systemdrive%:\\Archivos de programa\\Servicios de Windows Rights Management\\Tools.
 
-| ![](images/Cc720208.note(WS.10).gif)Nota |
-|-----------------------------------------------------------------------|
-| RLsigner.exe no admite nombres de archivo con espacios.               |
+> [!NOTE]
+> RLsigner.exe no admite nombres de archivo con espacios.               
 
-<span id="BKMK_9"></span>
 Uso de RLsigner.exe
 -------------------
 
 Cuando se ejecuta RLsigner.exe, crea primero una firma con la clave privada que se proporciona en el archivo de clave. Después, crea un archivo de salida que se basa en el archivo de lista de revocaciones proporcionado.
 
-| ![](images/Cc720208.Important(WS.10).gif)Importante                         |
-|----------------------------------------------------------------------------------------------------------|
-| El archivo de lista de revocaciones se debe haber guardado en un archivo Unicode para usar RLsigner.exe. |
+> [!IMPORTANT]
+> El archivo de lista de revocaciones se debe haber guardado en un archivo Unicode para usar RLsigner.exe. 
 
 Para usar RLsigner.exe con el fin de firmar la lista de revocaciones, escriba el siguiente comando en el símbolo del sistema:
 
@@ -168,6 +150,7 @@ Utilice la siguiente información para completar los parámetros de entrada del 
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -215,6 +198,7 @@ RLsigner.exe proporciona información básica de error y éxito en el código de
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

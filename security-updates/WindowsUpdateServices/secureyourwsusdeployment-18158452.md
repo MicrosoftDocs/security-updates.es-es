@@ -104,9 +104,8 @@ The most important thing to remember when configuring the WSUS server to use SSL
     -   If you use the industry standard port of 443 for HTTPS traffic, then WSUS uses port 80 for clear HTTP traffic, which is the industry standard for HTTP.
     -   If you use any other port for HTTPS traffic, WSUS assumes the clear HTTP traffic should be sent over the port that numerically precedes the port for HTTPS. For example, if you use port 8531 for HTTPS, WSUS uses 8530 for HTTP.
 
-| ![](images/Cc708550.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                     |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| If you change the port number or want to use HTTPS to access the WSUS administration console, you have to create a new shortcut on your **Start** menu with the new URL in order to access the WSUS administration console from the **Start** menu. See Help and Support in Windows Server 2003 for information about creating shortcuts. |
+> [!NOTE]
+> If you change the port number or want to use HTTPS to access the WSUS administration console, you have to create a new shortcut on your **Start** menu with the new URL in order to access the WSUS administration console from the **Start** menu. See Help and Support in Windows Server 2003 for information about creating shortcuts. 
 
 #### Sample SSL URLs to Access WSUS Administrative Console
 
@@ -118,9 +117,8 @@ If you were to install WSUS to the default site, and then set up SSL to use indu
 
 https://*WSUSServerName*/WSUSAdmin/
 
-| ![](images/Cc708550.note(WS.10).gif)Nota                                                                                               |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Remember that if you change WSUS port assignments after installation and you are using SSL, WSUS uses the rules noted above to assign a port for the HTTP protocol. |
+> [!NOTE]
+> Remember that if you change WSUS port assignments after installation and you are using SSL, WSUS uses the rules noted above to assign a port for the HTTP protocol. 
 
 #### Accessing WSUS Administrative Console by Using Custom Port Assignments for SSL
 
@@ -128,9 +126,8 @@ If you were to install WSUS to the custom site, and then set up SSL to use a cus
 
 https://*WSUSServerName*: 8531/WSUSAdmin/
 
-| ![](images/Cc708550.note(WS.10).gif)Nota                                                                                                                                                                                                          |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| You do not have to use 8531 for the SSL port. You can use any free port, but WSUS requires two ports for SSL: the port that you assign and the port that numerically precedes it. For example, if you pick 2424 for SSL port, WSUS would use 2424 for HTTPS and 2423 for HTTP. |
+> [!NOTE]
+> You do not have to use 8531 for the SSL port. You can use any free port, but WSUS requires two ports for SSL: the port that you assign and the port that numerically precedes it. For example, if you pick 2424 for SSL port, WSUS would use 2424 for HTTPS and 2423 for HTTP. 
 
 #### Configuring SSL on Client Computers
 

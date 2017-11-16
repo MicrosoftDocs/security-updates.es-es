@@ -51,9 +51,8 @@ Para ver la configuración de directivas para administrar WSUS, deberá asegurar
 
 4.  Haga clic en **Aceptar**.
 
-| ![](images/Cc720532.note(WS.10).gif)Nota                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| La opción **Permitir que el administrador local elija su opción** aparece sólo si Actualizaciones automáticas se ha actualizado automáticamente a la versión compatible con WSUS. |
+> [!NOTE]
+> La opción **Permitir que el administrador local elija su opción** aparece sólo si Actualizaciones automáticas se ha actualizado automáticamente a la versión compatible con WSUS. 
 
 **Para señalar con su equipo cliente a su servidor WSUS.**
 1.  En el **Editor de objetos de directiva de grupo**, expanda **Configuración del equipo**, expanda **Plantillas administrativas**, expanda **Componentes de Windows** y haga clic en **Windows Update**.
@@ -62,9 +61,8 @@ Para ver la configuración de directivas para administrar WSUS, deberá asegurar
 
 3.  Haga clic en **Habilitada** y escriba la dirección URL de HTTP del mismo servidor WSUS en los cuadros **Establecer el servicio de actualización de la intranet para detectar actualizaciones** y **Establecer el servidor de estadísticas de la intranet**. Por ejemplo, escriba *http://nombreServidor* en ambos cuadro y, a continuación, haga clic en **Aceptar**.
 
-| ![](images/Cc720532.note(WS.10).gif)Nota                                                                                                                                                                                                                                                    |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Si utiliza el objeto de directiva de grupo local para señalar con este equipo a WSUS, esta configuración entra en vigor inmediatamente y este equipo debe aparece en la consola administrativa de WSUS transcurrido un breve período de tiempo. Puede acelerar este proceso si inicia manualmente un ciclo de detección. |
+> [!NOTE]
+> Si utiliza el objeto de directiva de grupo local para señalar con este equipo a WSUS, esta configuración entra en vigor inmediatamente y este equipo debe aparece en la consola administrativa de WSUS transcurrido un breve período de tiempo. Puede acelerar este proceso si inicia manualmente un ciclo de detección. 
 
 Tras configurar un equipo cliente, transcurrirán unos minutos antes de que aparezca en la página **Equipos** de la consola de WSUS. Para los equipos cliente configurados con una directiva de grupo basada en dominios, tardará alrededor de 20 minutos después de que la directiva de grupo se actualice (es decir, se aplique cualquier configuración de directiva nueva al equipo cliente). De manera predeterminada, la directiva de grupo se actualiza en segundo plano cada 90 minutos, con un intervalo aleatorio de 0 a 30 minutos. Si desea actualizar la directiva de grupo antes, puede ir a un símbolo del sistema del equipo cliente y escribir: **gpupdate /force**.
 

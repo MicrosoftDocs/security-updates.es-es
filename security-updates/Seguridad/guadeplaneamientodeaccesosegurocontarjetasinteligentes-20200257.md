@@ -466,6 +466,7 @@ Windows XP y la familia Windows Server 2003 admiten los lectores de tarjetas i
 **Tabla 2.1: Lectores de tarjetas inteligentes compatibles con Windows Server 2003**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1509,6 +1510,7 @@ El equipo de TI de Woodgrove creó un nuevo grupo de seguridad, con el nombre Re
 **Tabla 4.1: Condiciones de la directiva de acceso remoto de Woodgrove National Bank**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

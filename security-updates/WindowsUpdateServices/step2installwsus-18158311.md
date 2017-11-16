@@ -13,9 +13,8 @@ After reviewing the installation requirements, you are ready to install WSUS. Yo
 
 The following procedure uses the default WSUS installation options for Windows SBS 2003 with SP1. These options include using Windows SQL Server 2000 Desktop Engine (WMSDE) as the WSUS database software, storing updates locally, and using the Internet Information Services (IIS) custom Web site on port 8530. You can find procedures for custom installation options, such as using different database software, in “Deploying Microsoft Windows Server Update Services” at the [Microsoft Web site](http://go.microsoft.com/fwlink/?linkid=41171) (http://go.microsoft.com/fwlink/?linkid=41171).
 
-| ![](images/Cc720523.Important(WS.10).gif)Importante                                                                                                                       |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| If you plan to install WSUS on a server that has Windows Update Services Beta 1 or Beta 2 installed, you first need to uninstall the earlier version by using Add or Remove Programs in Control Panel. |
+> [!IMPORTANT]
+> If you plan to install WSUS on a server that has Windows Update Services Beta 1 or Beta 2 installed, you first need to uninstall the earlier version by using Add or Remove Programs in Control Panel. 
 
 **To download the WSUS installer to your server**
 1.  On the computer running Windows SBS, create a folder named WSUSFiles on the local hard disk.
@@ -81,6 +80,5 @@ The following procedure uses the default WSUS installation options for Windows S
 
 9.  If the final page of the wizard confirms that WSUS installation was successfully completed, click **Finish**.
 
-| ![](images/Cc720523.note(WS.10).gif)Nota                                                                                 |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| After you install WSUS, you can delete the C:\\WSUSFiles folder. However, do not delete the C:\\WSUS folder, which is created when WSUS is installed. |
+> [!NOTE]
+> After you install WSUS, you can delete the C:\\WSUSFiles folder. However, do not delete the C:\\WSUS folder, which is created when WSUS is installed. 
