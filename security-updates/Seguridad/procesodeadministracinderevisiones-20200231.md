@@ -223,6 +223,7 @@ La información de los boletines de seguridad en el sitio web de Microsoft se or
 **Tabla 1: Boletines de seguridad: información clave**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

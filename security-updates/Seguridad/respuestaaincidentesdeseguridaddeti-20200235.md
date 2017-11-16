@@ -124,6 +124,7 @@ Un equipo adecuado del CSIRT está formado por varios miembros clave.
 **Miembros asociados al CSIRT**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -167,6 +168,7 @@ En caso de incidente, el CSIRT coordinará una respuesta desde el CSIRT principa
 
 **Responsabilidades del CSIRT durante el proceso de respuesta al incidente**
 
+<p> </p>
 <table style="width:100%;">
 <colgroup>
 <col width="16%" />

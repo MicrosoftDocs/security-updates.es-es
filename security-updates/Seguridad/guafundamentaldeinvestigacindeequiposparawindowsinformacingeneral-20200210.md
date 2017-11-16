@@ -117,6 +117,7 @@ La información de esta guía se basa en información ofrecida por expertos reco
 En esta guía se utilizan las convenciones de estilo descritas en la tabla siguiente.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

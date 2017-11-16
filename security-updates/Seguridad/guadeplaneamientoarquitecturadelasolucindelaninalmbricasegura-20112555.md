@@ -195,6 +195,7 @@ A partir de estos requisitos, pueden determinarse los criterios de compatibilida
 **Tabla 3.1: Criterios de diseño de la solución**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

@@ -22,14 +22,12 @@ Antes de retirar un servidor, debe realizar una copia de seguridad de todas las 
 Una vez que haya realizado una copia de seguridad de las bases de datos, puede quitar el servidor. Los requisitos para quitar un servidor de RMS dependen de la función del servidor y de la topología de la instalación de RMS:
 
 -   **Supresión de un servidor de un clúster**. Si el servidor de RMS que desea retirar está en un clúster donde todavía hay servidores de RMS activos y necesarios, la supresión de un servidor de RMS individual del clúster requiere anular los servicios en línea y desinstalar RMS en el servidor que desea retirar, quitar el hardware del clúster y archivar las bases de datos.
-    | ![](images/Cc747568.note(WS.10).gif)Nota                                                                                                              |
-    |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Sólo debe anular los servicios en línea en los servidores del clúster de instalación raíz antes de desinstalar RMS. Este proceso no es necesario para los servidores de licencias. |
+    > [!NOTE]
+    > Sólo debe anular los servicios en línea en los servidores del clúster de instalación raíz antes de desinstalar RMS. Este proceso no es necesario para los servidores de licencias. 
 
 -   **Retiro de un servidor independiente**. Si el servidor de RMS que desea retirar es un servidor de RMS independiente (es decir, no forma parte de un clúster con varios servidores) que va a reemplazar por un nuevo servidor, siga estos pasos: anule los servicios en línea y desinstale el servidor de RMS existente, quítelo de la red e, inmediatamente después, instale RMS y establezca los servicios en línea en el nuevo servidor. Configure el nuevo servidor de RMS para que utilice la misma dirección URL y la misma base de datos de configuración que el servidor de RMS retirado. Tenga en cuenta que, hasta que se instale el nuevo servidor y se establezcan en él los servicios en línea, los usuarios no podrán utilizar contenido publicado con el servidor retirado.
-    | ![](images/Cc747568.Important(WS.10).gif)Importante                                                                                                                                                                                                                            |
-    |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Si el servidor de RMS que va a reemplazar utiliza un módulo de seguridad de hardware, debe transferir el entorno de seguridad al nuevo servidor antes de instalar RMS y establecer los servicios en línea en él. Para obtener instrucciones, consulte la documentación del módulo de seguridad de hardware. |
+    > [!IMPORTANT]
+    > Si el servidor de RMS que va a reemplazar utiliza un módulo de seguridad de hardware, debe transferir el entorno de seguridad al nuevo servidor antes de instalar RMS y establecer los servicios en línea en él. Para obtener instrucciones, consulte la documentación del módulo de seguridad de hardware. 
 
 -   **Reemplazo de una instalación de RMS por otra existente**. En algunas circunstancias, puede ser necesario retirar una instalación de RMS y reemplazarla por otra existente; por ejemplo, en el caso de una fusión empresarial en la que ambas compañías ejecuten RMS.
 

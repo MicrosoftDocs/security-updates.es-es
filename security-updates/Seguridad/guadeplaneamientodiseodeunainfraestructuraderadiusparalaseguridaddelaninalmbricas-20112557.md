@@ -113,6 +113,7 @@ Esta solución está diseñada para las organizaciones que han implementado Acti
 **Tabla 5.1: Características de dominio de Windows utilizadas en la solución**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -193,6 +194,7 @@ En la tabla siguiente se muestran algunas de las capacidades de los servidores c
 **Tabla 5.2: Funciones RADIUS de IAS**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -247,6 +249,7 @@ La tabla siguiente muestra varias opciones para garantizar que los clientes RADI
 **Tabla 5.3: Opciones de conmutación por error y equilibrio de carga de EAP-RADIUS**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -361,6 +364,7 @@ Las organizaciones que carecen de SQL Server 2000 o de personal para realizar la
 **Tabla 5.4: Decisiones sobre el diseño del registro IAS**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -452,6 +456,7 @@ La intensidad de las comunicaciones entre IAS y los controladores de dominio de 
 **Tabla 5.5: Consideraciones sobre la co-ubicación de IAS y controladores de dominio**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -491,6 +496,7 @@ Esta solución requiere la versión Windows Server 2003 de IAS, de modo que nec
 **Tabla 5.6: Requisitos previos de los controladores de dominio de Windows Server 2003**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -550,6 +556,7 @@ Por lo tanto, al crear un modelo para el número de autenticaciones que atender�
 **Tabla 5.7: Tipos de autenticación de EAP-TLS**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -596,6 +603,7 @@ Los cálculos del número de autenticaciones que IAS puede atender se representa
 **Tabla 5.8: Autenticaciones por segundo**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -650,6 +658,7 @@ La tabla siguiente muestra el hardware de servidores IAS utilizado durante la pr
 **Tabla 5.9: Hardware del servidor probado**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -728,6 +737,7 @@ Sin embargo, sigue siendo importante planear los tipos de administración necesa
 **Tabla 5.10: Descripciones y tareas de las funciones de IAS**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -771,6 +781,7 @@ La tabla siguiente muestra los permisos de recursos necesarios para realizar las
 **Tabla 5.11: Permisos necesarios para las tareas del servidor IAS**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -831,6 +842,7 @@ La tabla siguiente enumera las posibles amenazas a las que está expuesta una in
 **Tabla 5.12: Amenazas de la infraestructura de servidor IAS**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -884,6 +896,7 @@ La tabla siguiente enumera las posibles amenazas a las que se expone la infraest
 **Tabla 5.13: Amenazas de la infraestructura del servidor IAS que se auditarán de forma preventiva**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

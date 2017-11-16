@@ -14,6 +14,7 @@ Si utiliza RMS en una implementación de clúster, asegúrese de tener en cuenta
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

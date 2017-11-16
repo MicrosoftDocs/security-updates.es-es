@@ -24,6 +24,7 @@ En la siguiente tabla, se muestran las entradas que puede agregar para omitir la
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -136,6 +137,5 @@ En la siguiente tabla, se muestran las entradas que puede agregar para omitir la
 </tbody>
 </table>
   
-| ![](images/Cc747660.Caution(WS.10).gif)Precaución                                                                                                         |  
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| La edición incorrecta del Registro puede dañar gravemente el sistema. Antes de realizar cambios en el Registro, debe realizar una copia de seguridad de los datos de valor del equipo. |
+> [!CAUTION]
+> La edición incorrecta del Registro puede dañar gravemente el sistema. Antes de realizar cambios en el Registro, debe realizar una copia de seguridad de los datos de valor del equipo. 

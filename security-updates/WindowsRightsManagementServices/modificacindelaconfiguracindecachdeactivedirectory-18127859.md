@@ -24,6 +24,7 @@ En la siguiente tabla, se muestran las entradas que controlan el comportamiento 
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -79,9 +80,8 @@ En la siguiente tabla, se muestran las entradas que controlan el comportamiento 
 </tbody>
 </table>
   
-| ![](images/Cc747586.Caution(WS.10).gif)Precaución                                                                                                         |  
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| La edición incorrecta del Registro puede dañar gravemente el sistema. Antes de realizar cambios en el Registro, debe realizar una copia de seguridad de los datos de valor del equipo. |
+> [!CAUTION]
+> La edición incorrecta del Registro puede dañar gravemente el sistema. Antes de realizar cambios en el Registro, debe realizar una copia de seguridad de los datos de valor del equipo. 
   
 | ![](images/Cc747586.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                      |  
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  

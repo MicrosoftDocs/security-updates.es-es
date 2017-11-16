@@ -27,9 +27,8 @@ En este paso, se aprueba una actualización para cualquier equipo cliente de pru
 
 5.  Verá una nueva ventana, **Progreso de aprobación**, que muestra el progreso de las diferentes tareas que afectan a la aprobación de las actualizaciones. Una vez completada la aprobación, haga clic en **Cerrar** para cerrar esta ventana.
 
-| ![](images/Cc708475.note(WS.10).gif)Nota                                                              |
-|------------------------------------------------------------------------------------------------------------------------------------|
-| Muchas opciones están asociadas con la aprobación de actualizaciones, como configurar fechas límite y desinstalar actualizaciones. |
+> [!NOTE]
+> Muchas opciones están asociadas con la aprobación de actualizaciones, como configurar fechas límite y desinstalar actualizaciones. 
 
 Transcurridas 24 horas, podrá usar la característica de informes de WSUS para determinar si las actualizaciones se han implementado en los equipos.
 

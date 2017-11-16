@@ -93,6 +93,7 @@ Los tipos de certificados requeridos se muestran en la tabla siguiente. Aunque n
 **Tabla 4.1: Requisitos de los certificados para una solución inalámbrica segura**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -135,6 +136,7 @@ En el futuro, la PKI podría ampliarse y emitir certificados para las aplicacion
 **Tabla 4.2: Posibles requisitos de certificados futuros**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -235,6 +237,7 @@ Para esta solución, las categorías de cliente se resumen en las tablas siguien
   
 **Tabla 4.3: Categorías de sujetos de certificados (entidades finales)**
   
+<p> </p>
 <table style="width:100%;">
 <colgroup>
 <col width="16%" />
@@ -291,6 +294,7 @@ En esta aplicación, los usuarios de los certificados serán el mismo conjunto d
 
 **Tabla 4.4: Categorías de usuarios de certificados**
 
+<p> </p>
 <table style="width:100%;">
 <colgroup>
 <col width="16%" />
@@ -372,6 +376,7 @@ Para esta solución, la tabla siguiente define tres niveles de seguridad.
 **Tabla 4.5: Niveles de seguridad de los certificados**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -422,6 +427,7 @@ La razón de esta distinción es que, a estos tipos de sujetos diferentes, se le
 **Tabla 4.6: Categorías de seguridad de los certificados**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -539,6 +545,7 @@ Las categorías de seguridad de certificados definidas en la sección anterior p
   
 **Tabla 4.7: Requisitos de seguridad de los certificados**
   
+<p> </p>
 <table style="width:100%;">
 <colgroup>
 <col width="14%" />
@@ -866,6 +873,7 @@ Los requisitos de disponibilidad de cada una de ellas se detallan en la tabla si
 **Tabla 4.8: Requisitos de disponibilidad del servicio de entidad emisora**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -985,6 +993,7 @@ Las funciones implementadas y sus asignaciones a los grupos de seguridad (donde 
 **Tabla 4.9: Funciones importantes de Servicios de Certificate Server**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1347,6 +1356,7 @@ La vigencia de esta clave y los períodos de renovación para las entidades emis
 **Tabla 4.10: Vigencia de certificados y claves**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1405,6 +1415,7 @@ En la tabla siguiente se indican los tipos de certificados identificados previam
 **Tabla 4.11: Parámetros de certificados**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="12%" />
@@ -1478,6 +1489,7 @@ Los requisitos de aplicación para la lista de certificados requeridos en esta s
 **Tabla 4.12: Autenticación de cliente: usuario**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1537,6 +1549,7 @@ Microsoft Enhanced Cryptographic Provider v1.0</td>
 **Tabla 4.13: Autenticación de cliente: equipo**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1596,6 +1609,7 @@ Cifrado de clave</td>
 **Tabla 4.14: Autenticación de servidor 802.1X**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1757,6 +1771,7 @@ Los tres niveles de seguridad definidos anteriormente corresponden a las tres di
 **Tabla 4.15: Niveles de directivas de emisión de certificados**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1817,6 +1832,7 @@ También debería documentar el uso de los códigos de razón de revocación que
 **Tabla 4.16: Códigos de revocación de certificados**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1879,6 +1895,7 @@ También hay varios parámetros técnicos que rigen la revocación de certificad
 **Tabla 4.17: Parámetros de revocación de certificados de entidad emisora raíz**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1924,6 +1941,7 @@ También hay varios parámetros técnicos que rigen la revocación de certificad
 **Tabla 4.18: Parámetros de revocación de certificados de entidad emisora**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

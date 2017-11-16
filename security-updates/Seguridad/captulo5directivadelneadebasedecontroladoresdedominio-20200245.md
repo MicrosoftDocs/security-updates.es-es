@@ -42,6 +42,7 @@ Las plantillas de controladores de dominio están diseñadas exclusivamente para
 **Tabla 5.1 Plantillas de seguridad de línea de base de controladores de dominio**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -75,6 +76,7 @@ La configuración de la directiva de auditoría para los controladores de domini
 **Tabla 5.2 Configuración recomendada para la directiva de auditoría**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -113,6 +115,7 @@ La tabla siguiente incluye eventos de seguridad importantes que la configuració
 **Tabla 5.3 Eventos de acceso del servicio de directorio**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -149,6 +152,7 @@ La tabla siguiente resume la configuración recomendada de asignaciones de derec
 **Tabla 5.4 Configuración recomendada de asignaciones de derechos de usuario**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -318,6 +322,7 @@ La mayor parte de la configuración de las opciones de seguridad para controlado
 **Tabla 5.5 Opciones de seguridad: recomendaciones sobre la configuración de controladores de dominio**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -380,6 +385,7 @@ La configuración **Controlador de dominio: no permitir los cambios de contrase�
 **Tabla 5.6 Opciones de seguridad: recomendaciones sobre la configuración de seguridad de red**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -430,6 +436,7 @@ Como se ha descrito en el capítulo anterior, la configuración **Grupos restrin
 **Tabla 5.7 Recomendaciones sobre los grupos restringidos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -518,6 +525,7 @@ Además, si ha cambiado el nombre de la cuenta integrada del administrador segú
 **Tabla 5.8 Asignaciones de derechos de usuario agregadas manualmente**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -589,6 +597,7 @@ La utilidad System Key (Syskey) proporciona una línea de defensa adicional fren
 **Tabla 5.9 Modos de Syskey**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -720,6 +729,7 @@ A menos que sea absolutamente necesario, nunca configure un servicio para que se
 **Tabla 5.10 Configuración recomendada para los Servicios de Terminal Server**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -759,6 +769,7 @@ Los tres niveles disponibles de cifrado se describen en la tabla siguiente:
 **Tabla 5.11 Niveles de cifrado de Servicios de Terminal Server**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -793,6 +804,7 @@ Los tres niveles disponibles de cifrado se describen en la tabla siguiente:
 **Tabla 5.12 Configuración recomendada para los informes de errores**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />

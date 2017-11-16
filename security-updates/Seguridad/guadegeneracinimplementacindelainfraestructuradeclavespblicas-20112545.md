@@ -129,6 +129,7 @@ En la siguiente tabla se enumeran parámetros específicos de organización toma
 **Tabla 7.1: Elementos de configuración definidos por el usuario**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -198,6 +199,7 @@ La configuración especificada en esta tabla no se debe cambiar en su instalaci�
 **Tabla 7.2: Elementos de configuración que recomienda la solución**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -447,6 +449,7 @@ En la tabla siguiente se muestra una especificación de hardware recomendada par
 **Tabla 7.3: Especificación de hardware sugerido para el servidor de entidad emisora raíz**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -489,6 +492,7 @@ Aunque existen requisitos de rendimiento para la entidad emisora, no son de gran
 **Tabla 7.4: Especificación de hardware sugerido para el servidor de CA emisora**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -753,6 +757,7 @@ IIS se instala con el administrador de componentes opcionales de Windows (al que
 **Tabla 7.5: Componentes opcionales que deben instalarse**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -827,7 +832,8 @@ Debe crear un directorio virtual en IIS para utilizarlo como ubicación del prot
     **Tabla 7.6: Permisos de directorio virtual**
 
  
-    <table style="border:1px solid black;">
+    <p> </p>
+<table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
     <col width="33%" />
@@ -1101,6 +1107,7 @@ Esta secuencia de comandos crea los grupos de seguridad que se enumeran en la ta
 **Tabla 7.7: Nombres y finalidades de los grupos**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1167,6 +1174,7 @@ La secuencia de comandos crea las cuentas de dominio que se describen en la tabl
 **Tabla 7.8: Nombres y finalidades de las cuentas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1227,6 +1235,7 @@ Muchas organizaciones sólo utilizarán tres funciones: administrador de entidad
 **Tabla 7.9: Asignación de grupos del modelo de administración simplificada**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1269,6 +1278,7 @@ Debe otorgar los permisos de grupo de administradores de PKI de empresa para cre
 **Tabla 7.10: Estructura de UO de ejemplo**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1491,7 +1501,8 @@ Dado que la entidad emisora raíz no forma parte de un dominio, las capacidades 
     **Tabla 7.11: Nombres y finalidades de los grupos**
 
  
-    <table style="border:1px solid black;">
+    <p> </p>
+<table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
     <col width="50%" />
@@ -1535,7 +1546,8 @@ Dado que la entidad emisora raíz no forma parte de un dominio, las capacidades 
     **Tabla 7.12: Nombres y finalidades de las cuentas**
 
  
-    <table style="border:1px solid black;">
+    <p> </p>
+<table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
     <col width="50%" />
@@ -1573,7 +1585,8 @@ Dado que la entidad emisora raíz no forma parte de un dominio, las capacidades 
     **Tabla 7.13: Nombres de cuenta y pertenencia a grupos**
 
  
-    <table style="border:1px solid black;">
+    <p> </p>
+<table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
     <col width="50%" />
@@ -1614,6 +1627,7 @@ La mayoría de las organizaciones no necesita una estructura de administración 
 **Tabla 7.14: Asignación de grupos del modelo de administración simplificada**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1793,7 +1807,8 @@ El procedimiento siguiente describe cómo se pueden crear unidades organizativas
     **Tabla 7.15: Asignación de GPO a plantillas de seguridad y UO**
 
  
-    <table style="border:1px solid black;">
+    <p> </p>
+<table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
     <col width="33%" />
@@ -1879,7 +1894,8 @@ Después de crear los GPO e importar las plantillas, debe personalizar la config
     **Tabla 7.16: Permisos de carpeta de base de datos de entidad emisora**
 
  
-    <table style="border:1px solid black;">
+    <p> </p>
+<table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
     <col width="33%" />
@@ -1921,7 +1937,8 @@ Después de crear los GPO e importar las plantillas, debe personalizar la config
     **Tabla 7.17: Auditoría de carpeta de base de datos de entidad emisora**
 
  
-    <table style="border:1px solid black;">
+    <p> </p>
+<table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
     <col width="33%" />
@@ -2053,6 +2070,7 @@ Esta configuración debe establecerse en el GPO de seguridad de Servicios de Cer
 **Tabla 7.18: Configuración para Configuración de equipo\\Plantillas administrativas\\Componentes de Windows\\Servicios de Terminal Server**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -2256,7 +2274,8 @@ Puede comprobar que la instalación de los Servicios de Certificate Server ha si
     **Tabla 7.19: Propiedades y extensiones de certificado de entidad emisora raíz**
 
  
-    <table style="border:1px solid black;">
+    <p> </p>
+<table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
     <col width="50%" />
@@ -2308,6 +2327,7 @@ El procedimiento de configuración de la entidad emisora aplica una serie de par
 **Tabla 7.20: Propiedades de la entidad emisora que se deben configurar**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -2387,7 +2407,8 @@ Para utilizar las funciones administrativas en la entidad emisora (como auditor 
     **Tabla 7.21: Entradas de permisos de entidad emisora de certificados que deben agregarse**
 
  
-    <table style="border:1px solid black;">
+    <p> </p>
+<table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
     <col width="33%" />
@@ -2710,7 +2731,8 @@ Puede comprobar que la instalación de los Servicios de Certificate Server ha si
     **Tabla 7.22: Propiedades y extensiones de certificado de CA emisora**
 
  
-    <table style="border:1px solid black;">
+    <p> </p>
+<table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
     <col width="50%" />
@@ -2775,6 +2797,7 @@ El procedimiento de configuración de la entidad emisora aplica una serie de par
 **Tabla 7.23: Propiedades de la entidad emisora que se deben configurar**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -2852,7 +2875,8 @@ Para utilizar las funciones administrativas en la entidad emisora (como auditor 
     **Tabla 7.24: Entradas de permisos de entidad emisora de certificados que deben agregarse**
 
  
-    <table style="border:1px solid black;">
+    <p> </p>
+<table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
     <col width="33%" />

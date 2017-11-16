@@ -11,9 +11,8 @@ Omisión de la detección de servicios de Active Directory
 
 Los servicios y los clientes de RMS descubren las ubicaciones de servicio con la búsqueda en primer lugar en el Registro local. Si determinadas claves del Registro no tienen un valor, los servicios y los clientes de RMS buscan en Active Directory el punto de conexión de servicio (SCP). Esto significa que puede anular la configuración de descubrimiento de Active Directory predeterminado si escribe determinadas claves en el Registro del servidor o del cliente.
 
-| ![](images/Cc747614.note(WS.10).gif)Nota                                                                                                                  |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Si el clúster raíz de RMS está configurado de un modo que el SCP no se publique en Active Directory, puede usar estas claves para dirigir los clientes de RMS a la ubicación correcta. |
+> [!NOTE]
+> Si el clúster raíz de RMS está configurado de un modo que el SCP no se publique en Active Directory, puede usar estas claves para dirigir los clientes de RMS a la ubicación correcta. 
 
 En esta sección se describen las entradas del Registro y se proporcionan detalles acerca de cómo crearlas.
 
@@ -44,6 +43,7 @@ En la siguiente tabla se enumeran las entradas que puede agregar para anular el 
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -99,6 +99,7 @@ En la siguiente tabla se enumeran las claves del Registro que puede agregar en u
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -133,9 +134,8 @@ En la siguiente tabla se enumeran las claves del Registro que puede agregar en u
   
 Se recomienda implementar estas claves del Registro con Systems Management Server o Directiva de grupo para garantizar que todos los clientes de la empresa usan los servidores de publicación correctos.
   
-| ![](images/Cc747614.Caution(WS.10).gif)Precaución                                                                                                                       |  
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| La modificación incorrecta del Registro puede dañar gravemente el sistema. Antes de realizar cambios en el Registro, debe hacer una copia de seguridad de los datos de valor que contenga el equipo. |
+> [!CAUTION]
+> La modificación incorrecta del Registro puede dañar gravemente el sistema. Antes de realizar cambios en el Registro, debe hacer una copia de seguridad de los datos de valor que contenga el equipo. 
   
 Se puede usar un archivo de Registro de ejemplo (.reg) para importar las claves del Registro adecuadas en cada servidor del clúster de RMS.
   

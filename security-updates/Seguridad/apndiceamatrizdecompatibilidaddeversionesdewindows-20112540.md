@@ -30,6 +30,7 @@ Donde una versión de sistema operativo no se muestre en una función, no funcio
 **Tabla A.1: Estado de compatibilidad de las versiones de sistema operativo de la solución**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />

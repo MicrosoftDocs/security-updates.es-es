@@ -11,7 +11,6 @@ Determine Bandwidth Options to Use for Your Deployment
 
 No matter the amount of network bandwidth available, WSUS offers features that allow you to shape the deployment to best fit your organization's needs. The decisions you make about how to synchronize with Microsoft Update have a dramatic effect on the efficient use of bandwidth. Use the following sections to understand WSUS features for managing bandwidth.
 
-<span id="WUS_DeferringDownloadOfUpdates"></span>
 Deferring the Download of Updates
 ---------------------------------
 
@@ -56,9 +55,8 @@ The upper part of the "Express Installation Files Feature" illustration depicts 
 
 The file sizes in the "Express Installation Files Feature" illustration are for illustrative purposes only. Each update and express installation file varies in size, depending on what files need to be updated. Further, the size of each file actually distributed to clients by using express installation files varies depending upon the state of the computer being updated.
 
-| ![](images/Cc708456.Important(WS.10).gif)Importante                                                                                                                                                                                                                                                                                                  |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Although there are some variables with express installation files, there are also some things you can count on. For example, express installation files are always bigger in size than the updates they are meant to distribute. As far as bandwidth goes, it is always less expensive to distribute updates using express installation files than to distribute updates without. |
+> [!IMPORTANT]
+> Although there are some variables with express installation files, there are also some things you can count on. For example, express installation files are always bigger in size than the updates they are meant to distribute. As far as bandwidth goes, it is always less expensive to distribute updates using express installation files than to distribute updates without. 
 
 Not all updates are good candidates for distribution using express installation files. If you select this option, you obtain express installation files for any updates being distributed this way. If you are not storing updates locally, you cannot use the express installation files feature. By default, WSUS does not use express installation files. To enable this option, see [Configure Advanced Synchronization Options](https://technet.microsoft.com/75060d37-429c-4cf8-a5ee-708470794b7c).
 
