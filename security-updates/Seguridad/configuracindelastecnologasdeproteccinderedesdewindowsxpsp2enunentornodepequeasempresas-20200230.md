@@ -370,7 +370,7 @@ Todas las características de seguridad de Explorer 6 pueden configurarse y prot
     3.  **Configuración de usuario**, **Configuración de Windows**, **Mantenimiento de Internet Explorer**, **Seguridad**, **Programas**
 
         Estas dos secciones contienen parámetros y directivas que afectan a la seguridad del explorador. Ambas secciones contienen parámetros de usuario que se encuentran en la configuración de seguridad y privacidad de cada explorador particular. Se recomienda utilizar los parámetros predeterminados mínimos de Microsoft, pero las configuraciones deberían establecerse para cumplir los requisitos de la organización.
-
+  
         **Nota**   Pueden agregarse sitios a todas las zonas excepto a la de Internet. Elija los sitios para añadirlos a Intranet local, Zonas restringidas y Zonas de confianza, ya que se aplican a todas las estaciones de trabajo y servidores vinculados al GPO.
 
     4.  **Configuración del usuario**, **Plantillas administrativas**, **Componentes de Windows**, **Internet Explorer**
