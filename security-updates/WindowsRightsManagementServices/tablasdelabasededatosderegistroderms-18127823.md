@@ -19,6 +19,7 @@ En la siguiente tabla, se muestra una entrada de cada registro.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -148,6 +149,7 @@ En la siguiente tabla, se muestran datos adicionales para un registro. Normalmen
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -199,6 +201,7 @@ En la siguiente tabla, se muestran los campos que registra el servicio de escuch
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />

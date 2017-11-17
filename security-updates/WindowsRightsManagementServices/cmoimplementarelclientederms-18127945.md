@@ -15,9 +15,8 @@ Muchas organizaciones prefieren controlar la implementación del software de cli
 
 Antes de comenzar la implementación, visite [http://go.microsoft.com/fwlink/?LinkId=67736](http://go.microsoft.com/fwlink/?linkid=67736) para descargar el cliente de RMS.
 
-| ![](images/Cc747749.Important(WS.10).gif)Importante                             |
-|--------------------------------------------------------------------------------------------------------------|
-| El cliente RMS está integrado en Windows Vista. Por tanto, ya no es necesaria una instalación independiente. |
+> [!IMPORTANT]
+> El cliente RMS está integrado en Windows Vista. Por tanto, ya no es necesaria una instalación independiente. 
 
 Extracción de los archivos de instalación
 -----------------------------------------
@@ -39,9 +38,8 @@ Al ejecutar este comando se extraen los siguientes archivos al directorio de des
 -   RMClientBackCompat.msi
     Es el archivo de instalación que identifica el nuevo cliente RMS para aplicaciones compatibles con RMS (como Microsoft Office Professional 2003 o 2007 Microsoft Office system) que dependen de la versión anterior del cliente RMS, de forma que el cliente RMS con SP2 puede utilizarse en su lugar. Este programa debe instalarse en los equipos cliente después de haber instalado correctamente MSDrmClient.msi.
 
-| ![](images/Cc747749.note(WS.10).gif)Nota                                                                                                                                                                                          |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Independientemente del método de instalación que decida implementar, asegúrese de que los dos archivos de Windows Installer se instalan correctamente. Si se produce un error que impide la instalación de MSDrmClient.msi, no instale RMClientBackCompat.msi. |
+> [!NOTE]
+> Independientemente del método de instalación que decida implementar, asegúrese de que los dos archivos de Windows Installer se instalan correctamente. Si se produce un error que impide la instalación de MSDrmClient.msi, no instale RMClientBackCompat.msi. 
 
 Implementación del cliente RMS con una instalación desatendida
 --------------------------------------------------------------
@@ -52,9 +50,8 @@ La extracción de los archivos para instalar los archivos de Windows Installer 
 
 Este comando inicia la instalación desatendida en el cliente RMS.
 
-| ![](images/Cc747749.note(WS.10).gif)Nota                                                                                                                                                      |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Dado que se trata de una instalación desatendida, el instalador no le informa cuando se completa la instalación. Las instalaciones desatendidas se suelen ejecutar en un archivo por lotes o en una secuencia de comandos. |
+> [!NOTE]
+> Dado que se trata de una instalación desatendida, el instalador no le informa cuando se completa la instalación. Las instalaciones desatendidas se suelen ejecutar en un archivo por lotes o en una secuencia de comandos. 
 
 Implementación del cliente de RMS con SMS
 -----------------------------------------
@@ -140,14 +137,12 @@ El siguiente procedimiento constituye una guía rápida para los administradores
 
 11. Repita los pasos 5 a 10 para crear un GPO que instale el archivo RMClientBackCompat.msi.
 
-| ![](images/Cc747749.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Estos pasos se indican únicamente como orientación para los usuarios que no tienen experiencia en el uso de directivas de grupo. Si usted es un administrador de directivas de grupo con experiencia, puede seguir sus propios procedimientos operativos para distribuir el paquete MSDrmClient.msi. Además, estos pasos son los indicados para un controlador de dominio que ejecute Windows Server 2003; el proceso y la terminología pueden ser diferentes en un dominio de Windows 2000. |
+> [!NOTE]
+> Estos pasos se indican únicamente como orientación para los usuarios que no tienen experiencia en el uso de directivas de grupo. Si usted es un administrador de directivas de grupo con experiencia, puede seguir sus propios procedimientos operativos para distribuir el paquete MSDrmClient.msi. Además, estos pasos son los indicados para un controlador de dominio que ejecute Windows Server 2003; el proceso y la terminología pueden ser diferentes en un dominio de Windows 2000. 
 
 Actualización desde una versión anterior
 ----------------------------------------
 
         ```
-| ![](images/Cc747749.note(WS.10).gif)Nota                                                  |
-|------------------------------------------------------------------------------------------------------------------------|
-| Esta secuencia de comandos no funciona con Windows Vista porque el cliente RMS está integrado en el sistema operativo. |
+> [!NOTE]
+> Esta secuencia de comandos no funciona con Windows Vista porque el cliente RMS está integrado en el sistema operativo. 

@@ -13,9 +13,8 @@ De forma predeterminada, RMS no emite licencias de uso para los usuarios cuyos c
 
 RMS puede configurarse para procesar este tipo de solicitudes importando el certificado emisor de licencias de servidor de otro dominio de usuario y agregándolo a la lista de dominios de usuarios de confianza. Al hacer esto, los usuarios cuyos certificados de cuenta fueron emitidos por el dominio de usuario de confianza pueden enviar solicitudes de licencias de uso a su instalación. Estas licencias de uso serán procesadas como si provinieran de usuarios internos.
 
-| ![](images/Cc747618.note(WS.10).gif)Nota                                                                                                    |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| El clúster de certificación raíz está automáticamente en la lista de dominios de usuarios de confianza de todos los servidores de RMS que estén en la misma instalación. |
+> [!NOTE]
+> El clúster de certificación raíz está automáticamente en la lista de dominios de usuarios de confianza de todos los servidores de RMS que estén en la misma instalación. 
 
 Se puede permitir a los usuarios de otros dominios compartir contenido protegido. Este proceso se describe en los ejemplos siguientes:
 

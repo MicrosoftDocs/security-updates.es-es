@@ -19,6 +19,7 @@ En la siguiente tabla, se muestra información acerca de las aplicaciones exclui
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -124,6 +125,7 @@ En la siguiente tabla, se muestra información acerca de la cola de mensajes.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -175,6 +177,7 @@ En la siguiente tabla, se muestra información sobre el tipo de certificado emit
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -226,6 +229,7 @@ En la siguiente tabla, se muestra información sobre el certificado emisor de li
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -271,6 +275,7 @@ En la siguiente tabla, se muestra información sobre las ubicaciones en las que 
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -328,6 +333,7 @@ En la siguiente tabla, se muestra información sobre los servidores que se encue
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -379,6 +385,7 @@ En la siguiente tabla, se muestra información sobre los certificados de cuenta 
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -448,6 +455,7 @@ En la siguiente tabla, se muestra información sobre el certificado emisor de li
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -511,6 +519,7 @@ La siguiente tabla contiene información sobre la clave privada del certificado 
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -598,6 +607,7 @@ En la siguiente tabla, se muestra información sobre las cuentas de Microsoft® 
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -649,6 +659,7 @@ En la siguiente tabla, se muestra información acerca de los complementos.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -748,6 +759,7 @@ En la siguiente tabla, se muestra información acerca de las versiones de los co
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -793,6 +805,7 @@ En la siguiente tabla, se muestra información acerca de las propiedades de comp
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -856,6 +869,7 @@ En la siguiente tabla, se muestra información acerca del tipo de complemento.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -907,6 +921,7 @@ En la siguiente tabla, se muestra información acerca de las plantillas de direc
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -958,6 +973,7 @@ En la siguiente tabla, se muestra información acerca de las entidades emisoras 
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1021,6 +1037,7 @@ En la siguiente tabla, se muestra información sobre los dominios de correo elec
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1066,6 +1083,7 @@ En la siguiente tabla, se muestra información acerca de los dominios de usuario
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1147,6 +1165,7 @@ En la siguiente tabla, se muestra información acerca de los certificados emisor
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />

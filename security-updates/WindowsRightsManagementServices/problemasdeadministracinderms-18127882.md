@@ -143,9 +143,8 @@ Restauración de una instalación previa de RMS
 
 Si falla el hardware o el software del servidor de RMS, puede restaurar un servidor de RMS utilizando la base de datos de configuración instalada previamente para establecer una nueva instancia de servidor.
 
-| ![](images/Cc747605.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                           |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Este procedimiento se aplica sólo si falla el servidor que está ejecutando RMS. Si falla el servidor que está ejecutando la base de datos de configuración, vea "Restauración de la base de datos de configuración", anteriormente en este tema. Si el servidor de RMS es también el servidor de base de datos, deberá restaurar todo el servidor desde una copia de seguridad. |
+> [!NOTE]
+> Este procedimiento se aplica sólo si falla el servidor que está ejecutando RMS. Si falla el servidor que está ejecutando la base de datos de configuración, vea "Restauración de la base de datos de configuración", anteriormente en este tema. Si el servidor de RMS es también el servidor de base de datos, deberá restaurar todo el servidor desde una copia de seguridad. 
 
 Utilice el procedimiento siguiente para seleccionar la misma base de datos de configuración que se utilizó para la instalación original.
 
@@ -173,7 +172,7 @@ Los clientes no pueden abrir contenido protegido con RMS, puesto que los permiso
 
 Si los permisos de un usuario han caducado, el usuario no puede utilizar contenido protegido con RMS. Si el reloj del sistema del servidor de RMS va más adelantado que el reloj del sistema del cliente de RMS, es posible que el usuario no pueda utilizar contenido protegido con RMS aunque no hayan caducado los permisos. Al no estar sincronizado el reloj de los dos equipos, puede aparecer el siguiente error cuando el equipo cliente intenta abrir el contenido:
 
-**No tiene permiso para abrir este mensaje porque su permiso ha caducado. ¿Desea abrirlo utilizando otro conjunto de credenciales?**
+**No tiene permiso para abrir este mensaje porque su permiso ha caducado. ¿Desea abrirlo utilizando otro conjunto de credenciales?**  
 
 Tanto la licencia de cliente como la licencia de contenido son válidas, pero la diferencia de reloj hace que el cliente interprete la licencia de contenido como no válida y muestra este mensaje de error. Esto puede hacer que el usuario crea que tiene problemas con su certificado de cuenta de RMS o con los derechos concedidos al documento. Cuando el reloj del cliente haya alcanzado el intervalo de tiempo de validez de la licencia de publicación de contenido, el usuario podrá abrir el contenido.
 
@@ -186,9 +185,8 @@ De forma predeterminada, los componentes como RMS que se ejecutan desde una pág
 
 Para solucionar este problema, puede utilizar el editor del registro para modificar las claves del registro que controlan este comportamiento.
 
-| ![](images/Cc747605.Caution(WS.10).gif)Precaución                                                                                                         |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| La edición incorrecta del Registro puede dañar gravemente el sistema. Antes de realizar cambios en el Registro, debe realizar una copia de seguridad de los datos de valor del equipo. |
+> [!CAUTION]
+> La edición incorrecta del Registro puede dañar gravemente el sistema. Antes de realizar cambios en el Registro, debe realizar una copia de seguridad de los datos de valor del equipo. 
 
 Establezca la siguiente clave del registro en 0 en lugar de 1, y reinicie el equipo para que se apliquen los cambios.
 
@@ -198,8 +196,7 @@ Nombre: `RestrictGuestAccess`
 
 Tipo: `REG_DWORD`
 
-| ![](images/Cc747605.note(WS.10).gif)Nota                          |
-|------------------------------------------------------------------------------------------------|
-| Esto permite a todas las cuentas de invitado escribir en el registro de sucesos de aplicación. |
+> [!NOTE]
+> Esto permite a todas las cuentas de invitado escribir en el registro de sucesos de aplicación. 
 
 Para obtener más información acerca de la causa de este error, consulte el artículo sobre la habilitación del registro desde páginas ASP en [Microsoft Knowledge Base](http://go.microsoft.com/fwlink/?linkid=44167).

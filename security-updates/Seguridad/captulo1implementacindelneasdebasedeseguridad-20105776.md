@@ -515,6 +515,7 @@ Al ejecutar el archivo de Windows Installer (.msi), crea la carpeta **Windows V
 **Tabla 1.1 Subdirectorios, archivos y descripciones**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

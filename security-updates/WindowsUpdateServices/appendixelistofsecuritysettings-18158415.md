@@ -23,6 +23,7 @@ Enable audit events to ensure that adequate logs are collected for system activi
 ### Audit policy settings
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -92,6 +93,7 @@ Configure Windows Server 2003 security settings to help ensure optional securit
 ### Security options settings
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -440,6 +442,7 @@ Configure Event Log settings to help ensure an adequate level of activity monito
 ### Event log settings
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -524,6 +527,7 @@ Enable only services that are required for WSUS.
 ### Enabled operating system services
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -830,6 +834,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -854,6 +859,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -878,6 +884,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -902,6 +909,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -926,6 +934,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -950,6 +959,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -974,6 +984,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1060,6 +1071,7 @@ Use access control permissions to secure the SQL Server 2005 registry keys.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1088,6 +1100,7 @@ Remove all stored procedures that are unnecessary and that have the ability to c
 ### Unnecessary SQL Server 2005 stored procedures
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

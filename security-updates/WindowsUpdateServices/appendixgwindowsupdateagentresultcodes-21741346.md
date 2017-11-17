@@ -21,6 +21,7 @@ The following table shows WUA success codes.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -83,6 +84,7 @@ The following table shows WUA error codes.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

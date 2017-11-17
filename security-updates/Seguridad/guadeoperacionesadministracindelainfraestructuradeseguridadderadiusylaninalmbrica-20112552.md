@@ -91,6 +91,7 @@ En la tabla siguiente se muestran las tareas que se deben llevar a cabo para pon
 **Tabla 12.1: Tareas iniciales de configuración**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -177,6 +178,7 @@ Puede haber tareas que no tenga que llevar a cabo, pero revise la información s
 **Tabla 12.2: Tareas de mantenimiento continuadas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -243,6 +245,7 @@ En las tablas siguientes se enumeran las herramientas o tecnologías utilizadas 
 **Tabla 12.3: Tecnología requerida**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -323,6 +326,7 @@ dispositivo de copia de seguridad local</td>
 **Tabla 12.4: Tecnología recomendada**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -374,6 +378,7 @@ Las funciones de la siguiente tabla son esenciales para la administración de un
 **Tabla 12.5: Funciones esenciales de RADIUS y seguridad de WLAN**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -418,6 +423,7 @@ Las funciones operativas de la siguiente tabla no son esenciales para la adminis
 **Tabla 12.6: Funciones de apoyo de RADIUS y seguridad de WLAN**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -474,6 +480,7 @@ En los servidores IAS, los grupos de seguridad locales y de dominio se utilizan 
 **Tabla 12.7: Asignación de funciones de seguridad de RADIUS y WLAN a grupos de seguridad**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -758,6 +765,7 @@ En este documento, se utilizan las categorías de alerta siguientes. De ellas, s
 **Tabla 12.8: Categorías de alerta**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -828,6 +836,7 @@ Los siguientes contadores de rendimiento son los más útiles para identificar l
 **Tabla 12.9: Elementos que se deben supervisar para conocer las restricciones de capacidad de IAS**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1527,6 +1536,7 @@ Las pruebas internas de Microsoft han demostrado que IAS puede alcanzar picos de
 **Tabla 12.10: Determinación de la carga en el servidor IAS**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1631,6 +1641,7 @@ En las tablas siguientes encontrará los valores de información de configuraci�
 **Tabla 12.11: Elementos de configuración definidos por el usuario**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1667,6 +1678,7 @@ En las tablas siguientes encontrará los valores de información de configuraci�
 **Tabla 12.12: Elementos de la configuración que recomienda la solución**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

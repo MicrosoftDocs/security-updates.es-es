@@ -137,6 +137,7 @@ Las siguientes tablas pueden ayudarle a valorar la prioridad de la solicitud en 
 **Tabla 1: Prioridades de actualización e intervalos de tiempo de implementación recomendados**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -179,6 +180,7 @@ En la tabla 2 se proporcionan ejemplos de factores que pueden aumentar o disminu
 **Tabla 2: Factores que afectan a las prioridades de actualización**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

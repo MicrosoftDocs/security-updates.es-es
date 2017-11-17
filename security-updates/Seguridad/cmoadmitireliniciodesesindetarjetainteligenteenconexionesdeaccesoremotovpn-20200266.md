@@ -573,6 +573,7 @@ En la siguiente tabla se muestran algunas directrices de solución de problemas 
 **Tabla 1. Directrices de solución de problemas de tarjeta inteligente VPN**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

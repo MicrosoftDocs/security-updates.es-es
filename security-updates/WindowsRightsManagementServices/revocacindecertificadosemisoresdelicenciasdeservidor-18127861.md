@@ -54,6 +54,5 @@ Una vez que se haya revocado el certificado emisor de licencias de servidor del 
 
 En ambos escenarios (revocación por Microsoft o por una entidad tercera) la lista de revocaciones surte efecto para todas las solicitudes de vínculo, puesto que se firmó con la clave privada de una entidad principal en la cadena de confianza de la licencia de uso. Por tanto, no se aceptará ninguna de las solicitudes de enlace que utilicen licencias emitidas por la instalación de RMS utilizando el certificado emisor de licencias de servidor revocado.
 
-| ![](images/Cc747578.note(WS.10).gif)Nota                                       |
-|-------------------------------------------------------------------------------------------------------------|
-| Microsoft sólo revocará un certificado emisor de licencias de servidor cuando un tribunal así se lo ordene. |
+> [!NOTE]
+> Microsoft sólo revocará un certificado emisor de licencias de servidor cuando un tribunal así se lo ordene. 

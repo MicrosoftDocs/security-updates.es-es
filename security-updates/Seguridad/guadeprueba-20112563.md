@@ -455,6 +455,7 @@ La tabla siguiente define los criterios de gravedad y prioridad de los errores u
 **Tabla 13.1: Clasificación de errores**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

@@ -14,6 +14,7 @@ Los sistemas RMS incluyen tecnologías de servidor y de cliente. En la tabla sig
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

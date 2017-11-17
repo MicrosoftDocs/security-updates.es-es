@@ -66,7 +66,6 @@ The next step is to configure IIS to disable anonymous access to the ServerSyncW
 
 7.  Click **OK** twice.
 
-<span id="BKMK_SecureSSL"></span>
 Securing WSUS with the Secure Sockets Layer Protocol
 ----------------------------------------------------
 

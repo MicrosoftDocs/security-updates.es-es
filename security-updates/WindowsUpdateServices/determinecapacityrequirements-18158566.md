@@ -14,6 +14,7 @@ Hardware and database software requirements are driven by the number of client c
 ### Hardware Recommendations for 500 or Fewer Clients
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -54,6 +55,7 @@ Hardware and database software requirements are driven by the number of client c
 ### Hardware Recommendations for 500 to 15,000 Clients
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

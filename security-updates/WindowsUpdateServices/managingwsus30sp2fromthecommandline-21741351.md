@@ -12,22 +12,9 @@ Managing WSUS 3.0 SP2 from the Command Line
 The **wsusutil** command-line utility is used in managing WSUS servers and is located in the *WSUSInstallDir*\\Tools folder of WSUS servers. The table below summarizes the different parameters that can be used with this utility, and later sections explain the syntax and usage of each parameter.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939838.note(WS.10).gif" />Nota</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">You can also use Windows® PowerShell® to access the WSUS 3.0 APIs from the command line.
-</td>
-</tr>
-</tbody>
-</table>
+<p> </p>
+> [!NOTE]
+> You can also use Windows® PowerShell® to access the WSUS 3.0 APIs from the command line.
  
 
 Using the wsusutil utility
@@ -36,6 +23,7 @@ Using the wsusutil utility
 You must be an administrator to run the **wsusutil** utility. This utility is installed only on WSUS server machines, not on console-only installations.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -57,6 +45,7 @@ You must be an administrator to run the **wsusutil** utility. This utility is in
 ### Summary of wsusutil Commands
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -139,6 +128,7 @@ The following command updates the server certificateName:
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -171,284 +161,222 @@ This command sets and gets the different parameters for WSUS health monitoring.
 **Wsusutil healthmonitoring ***parameterName*
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939838.note(WS.10).gif" />Nota</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">You may set or get only one parameter at a time.
-</td>
-</tr>
-</tbody>
-</table>
+<p> </p>
+> [!NOTE]
+> You may set or get only one parameter at a time.
  
 
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <tr>
-<th colspan="2">
+<th colspan="2" style="border:1px solid black;">
 Parameter
 </th>
-<th colspan="2">
+<th colspan="2" style="border:1px solid black;">
 Description
 </th>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **IntervalsInMinutes*** \[DetectInterval\] \[RefreshInterval\]*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Sets the values for detect and refresh intervals. If the detect interval is 0, the detect cycle will not run. If the refresh interval is 0, the refresh cycle will not run. For more information about the detect and refresh cycles, see [Health Monitoring in WSUS 3.0 SP2](https://technet.microsoft.com/7f2a52af-1738-4320-9066-e58fa904fc70).
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **DiskSpaceInMegabytes ***\[ErrorLevel\] \[WarningLevel\]*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Sets the amount of available disk space (in megabytes) at which a low disk space warning or error event should be logged.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CatalogSyncIntervalInDays*** \[Days\]*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Sets the number of days that should have passed after synchronization before a warning event should be logged..
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **InstallUpdatesInPercent*** \[WarningPercent\]\[ErrorPercent\]*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Sets the percentage of update installation failures at which a warning or error event should be given.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **InventoryInPercen***\[WarningPercent\]\[ErrorPercent\]*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Sets the percentage of inventory reporting failures at which a warning or error should be given.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **SilentClientsInPercent*** \[WarningPercent\]\[ErrorPercent\]*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Sets the percentage of clients not reporting to the server at which a warning or error should be given.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **SilentClientsInDays*** \[Days\]*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Sets the number of days clients can fail to report before an error should be given.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **TargetComputersInPercent***\[WarningPercent\]\[ErrorPercent\]*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Sets the maximum percentage of target computers reporting to this server below which a warning or error event should be given. For example, if you set values of 80 and 60, a warning event will be logged if only 80 percent of computers have reported, and an error event will be logged if only 60 percent of computers have reported.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckAcls*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check ACLs on the relevant directories.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckForLowDiskSpace*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check for low disk space.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckForCatalogSyncFailures*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check for catalog synchronization failures.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckForContentSyncFailures*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check for content synchronization failures.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckForEmailNotificationFailures*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check for e-mail notification failures.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckSelfUpdate*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check for client self-update failures.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckClientsExist*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check whether this server has any clients.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckForUpdateInstallFailures*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check for update installation failures.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckForInventoryFailures*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check for clients failing to report inventory..
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckForSilentClients*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check for clients that have failed to report to the server.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckForTooManyClients*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check whether the number of clients is approaching the maximum number allowed.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckReportingWebService*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check the Reporting Web service.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckApiRemotingWebService*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check the API Remoting Web service.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckServerSyncWebService*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check the Server Synchronization Web service.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckClientWebService*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check the client Web service.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckSimpleAuthWebService*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check the Simple Authentication Web service.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **CheckDssAuthWebService*** on|off*
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 If on, health monitoring should check the Downstream Server Authentication Web service.
-
 </td>
 </tr>
 </table>
@@ -483,6 +411,7 @@ For more information about exporting and importing updates, see the [Set Up a Di
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -507,22 +436,9 @@ For more information about exporting and importing updates, see the [Set Up a Di
 </table>
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939838.note(WS.10).gif" />Nota</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Exporting from a WSUS 2.0 server to a WSUS 3.0, WSUS 3.0 SP1, or WSUS 3.0 SP2 server (or from a WSUS 3.0, WSUS 3.0 SP1, or WSUS 3.0 SP2 server to a WSUS 2.0 server) is not supported.
-</td>
-</tr>
-</tbody>
-</table>
+<p> </p>
+> [!NOTE]
+> Exporting from a WSUS 2.0 server to a WSUS 3.0, WSUS 3.0 SP1, or WSUS 3.0 SP2 server (or from a WSUS 3.0, WSUS 3.0 SP1, or WSUS 3.0 SP2 server to a WSUS 2.0 server) is not supported.
  
 
 ### Import
@@ -536,6 +452,7 @@ For background and procedural information about exporting and importing updates,
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -560,22 +477,9 @@ For background and procedural information about exporting and importing updates,
 </table>
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939838.note(WS.10).gif" />Nota</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Importing from a WSUS 2.0 server to a WSUS 3.0, WSUS 3.0 SP1, or WSUS 3.0 SP2 server (or from a WSUS 3.0, WSUS 3.0 SP1, or WSUS 3.0 SP2 server to a WSUS 2.0 server) is not supported.
-</td>
-</tr>
-</tbody>
-</table>
+<p> </p>
+> [!NOTE]
+> Importing from a WSUS 2.0 server to a WSUS 3.0, WSUS 3.0 SP1, or WSUS 3.0 SP2 server (or from a WSUS 3.0, WSUS 3.0 SP1, or WSUS 3.0 SP2 server to a WSUS 2.0 server) is not supported.
  
 
 ### Movecontent
@@ -589,22 +493,9 @@ When you run this command, **wsusutil** does the following:
 The destination folder to which update files are moved must be on an NTFS partition. The utility will not try to copy update files if they already exist in the destination folder. The destination folder will have the same permissions that were set on the original folder.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939838.note(WS.10).gif" />Nota</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">You can use <strong>xcopy</strong>, the Backup utility, or other methods to copy update files from the old location to the new one. If you copy the files by using a method other than <strong>wsusutil</strong>, you still need to run <strong>wsusutil</strong> to perform the second part of the move, using the -<strong>skipcopy</strong> parameter. See the &quot;Syntax&quot; section for more information.
-</td>
-</tr>
-</tbody>
-</table>
+<p> </p>
+> [!NOTE]
+> You can use <strong>xcopy</strong>, the Backup utility, or other methods to copy update files from the old location to the new one. If you copy the files by using a method other than <strong>wsusutil</strong>, you still need to run <strong>wsusutil</strong> to perform the second part of the move, using the -<strong>skipcopy</strong> parameter. See the &quot;Syntax&quot; section for more information.
  
 
 There are two scenarios in which you might move update files from one WSUS drive to another:
@@ -634,6 +525,7 @@ If the hard disk fails, you must do the following:
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -676,6 +568,7 @@ This command deletes the given front-end server.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -696,22 +589,9 @@ This command deletes the given front-end server.
 </table>
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939838.Important(WS.10).gif" />Importante</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">This command removes the front-end server from the database only. You will need to run <strong>wsussetup /u</strong> on the front-end server to uninstall WSUS.
-</td>
-</tr>
-</tbody>
-</table>
+<p> </p>
+> [!IMPORTANT]
+> This command removes the front-end server from the database only. You will need to run <strong>wsussetup /u</strong> on the front-end server to uninstall WSUS.
  
 
 ### checkhealth
@@ -751,60 +631,21 @@ See the explanation above for a description of situations in which you might nee
 If you set this value to **true**, WSUS Setup will use port 8530 for its Default Web site. If you set it to **false**, WSUS will use port 80.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939838.Important(WS.10).gif" />Importante</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">You must use this command before you configure SSL.
-</td>
-</tr>
-</tbody>
-</table>
+<p> </p>
+> [!IMPORTANT]
+> You must use this command before you configure SSL.
  
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939838.Important(WS.10).gif" />Importante</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">If you are installing SharePoint on the same machine as WSUS, the value of <strong>usecustomwebsite</strong> should be set to <strong>true</strong> before the install.
-</td>
-</tr>
-</tbody>
-</table>
+<p> </p>
+> [!IMPORTANT]
+> If you are installing SharePoint on the same machine as WSUS, the value of <strong>usecustomwebsite</strong> should be set to <strong>true</strong> before the install.
  
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939838.Important(WS.10).gif" />Importante</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Using this command after running WSUS Setup will fail if the index of the default Web site is set to a value other than 1.
-</td>
-</tr>
-</tbody>
-</table>
+<p> </p>
+> [!IMPORTANT]
+> Using this command after running WSUS Setup will fail if the index of the default Web site is set to a value other than 1.
  
 
 #### Syntax

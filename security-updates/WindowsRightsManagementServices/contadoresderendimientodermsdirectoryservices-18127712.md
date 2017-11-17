@@ -14,6 +14,7 @@ En la siguiente tabla, se listan los contadores de rendimiento disponibles para 
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

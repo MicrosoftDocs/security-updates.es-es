@@ -183,6 +183,7 @@ En la siguiente tabla se resumen las recomendaciones acerca de la configuración
 **Tabla 2.1 Recomendaciones sobre la configuración de la directiva de contraseñas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -309,6 +310,7 @@ La tabla siguiente incluye las recomendaciones sobre la configuración de la dir
 **Tabla 2.2 Recomendaciones sobre la configuración de la directiva de bloqueo de cuentas**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -393,6 +395,7 @@ Esta configuración de directiva permite al usuario agregar un equipo a un domin
 **Tabla 2.3 Recomendaciones sobre la configuración de asignaciones de derechos de usuario**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -441,6 +444,7 @@ En la siguiente tabla se resumen las recomendaciones acerca de la configuración
 **Tabla 2.4 Recomendaciones sobre la configuración de las opciones de seguridad**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />

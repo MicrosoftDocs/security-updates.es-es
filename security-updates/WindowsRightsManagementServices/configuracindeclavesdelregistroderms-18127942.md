@@ -11,9 +11,8 @@ Configuración de claves del Registro de RMS
 
 Puede modificar la configuración de las claves del Registro para probar ciertos aspectos de su implementación y para administrar el rendimiento.
 
-| ![](images/Cc747740.Caution(WS.10).gif)Precaución                                                                                                         |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| La edición incorrecta del Registro puede dañar gravemente el sistema. Antes de realizar cambios en el Registro, debe realizar una copia de seguridad de los datos de valor del equipo. |
+> [!CAUTION]
+> La edición incorrecta del Registro puede dañar gravemente el sistema. Antes de realizar cambios en el Registro, debe realizar una copia de seguridad de los datos de valor del equipo. 
 
 Se tratan los siguientes temas:
 
