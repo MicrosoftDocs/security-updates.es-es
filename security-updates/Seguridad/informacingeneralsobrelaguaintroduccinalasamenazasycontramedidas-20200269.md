@@ -927,7 +927,7 @@ En el resto de este capítulo se muestran los eventos principales que se escribe
     -   Auditoría de aciertos para el Id. de evento 673, Inicio de sesión de cuenta para el usuario F$$@DOM.com para el nombre de servicio FS1$.
 
     -   Auditoría de aciertos para el Id. de evento 673, Inicio de sesión de cuenta para el usuario XP1$@DOM.com para el nombre de servicio FS1$.
-
+  
         **Nota**: todas estas son solicitudes de vale de servicio de protocolo de autenticación Kerberos.
 
 -   **Eventos registrados en el servidor de archivos**
