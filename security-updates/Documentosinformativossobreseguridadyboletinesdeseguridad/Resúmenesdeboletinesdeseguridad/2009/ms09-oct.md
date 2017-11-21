@@ -4,7 +4,7 @@ Title: Resumen del boletín de seguridad de Microsoft de octubre 2009
 ms:assetid: 'ms09-oct'
 ms:contentKeyID: 61225406
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms09-oct(v=Security.10)'
---- Summary
+---
 
 Resumen del boletín de seguridad de Microsoft de octubre 2009
 =============================================================
@@ -375,9 +375,11 @@ No aplicable
 [Códec de voz de WMA de DirectShow](http://www.microsoft.com/downloads/details.aspx?familyid=4fe0dff5-04d9-4409-8d1d-52419537126b)  
 (KB969878)  
 (Crítica)  
+
 [Descodificador de voz de Windows Media Audio](http://www.microsoft.com/downloads/details.aspx?familyid=8f850a82-61f9-447b-a0aa-a2c192cc5d2e)  
 (KB954155)  
 (Crítica)  
+
 [Administrador de compresión de audio](http://www.microsoft.com/downloads/details.aspx?familyid=6dfd5405-cabe-4bd7-9330-b6bde1d99194)  
 (KB975025)  
 (Crítica)
@@ -389,6 +391,7 @@ No aplicable
 <td style="border:1px solid black;">
 [Microsoft Internet Explorer 5.01 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?familyid=26515c7b-d7a6-4405-96b5-a518dcb39d38)  
 (Crítica)  
+
 [Microsoft Internet Explorer 6 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=8154ba37-0fbc-4d31-9d6e-0b21586ad65a)  
 (Crítica)
 </td>
@@ -399,8 +402,10 @@ No aplicable
 <td style="border:1px solid black;">
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=78ac8b97-8327-4ae1-8bb0-6cf227f3968f) (KB953297)  
 (Crítica)  
+
 [Microsoft .NET Framework 2.0 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=d4a328b5-5470-46b0-86c7-cfe0e6a3ea01) (KB953300)  
 (Crítica)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=491874d4-5eea-4545-9b7d-3861857c862e) (KB974417)  
 (Crítica)
 </td>
@@ -408,12 +413,15 @@ No aplicable
 [Microsoft Internet Explorer 6 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=f3fef608-dafb-4b37-a65a-9cc4ae8e2c4c)  
 (KB958869)  
 (Crítica)  
+
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ecf78619-80fa-417d-852b-1b5b2cf574e2)  
 (KB971108)  
 (Importante)  
+
 [Microsoft .NET Framework 2.0 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=3e534aa8-29c2-4379-9f57-931a6ff47418)  
 (KB971110)  
 (Importante)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=e6f5e730-85cc-4c08-a50d-c456b1e9f5bc)  
 (KB971111)  
 (Importante)
@@ -536,14 +544,17 @@ No aplicable
 [Códec de voz de WMA de DirectShow](http://www.microsoft.com/downloads/details.aspx?familyid=4fe0dff5-04d9-4409-8d1d-52419537126b)  
 (KB969878)  
 (Crítica)  
+
 [Descodificador de voz de Windows Media Audio](http://www.microsoft.com/downloads/details.aspx?familyid=4516c219-e357-485e-a52b-23dcb8ee49d8)  
 (KB954155)  
 (Crítica)  
 (Windows XP Service Pack 2 solamente)  
+
 [Descodificador de voz de Windows Media Audio](http://www.microsoft.com/downloads/details.aspx?familyid=746d3440-5a6a-421e-9286-7b534a1dfe54)  
 (KB954155)  
 (Crítica)  
 (Windows XP Service Pack 3 solamente)  
+
 [Administrador de compresión de audio](http://www.microsoft.com/downloads/details.aspx?familyid=6ecc7129-8caa-4daf-a8e2-8f3536225fb3)  
 (KB975025)  
 (Crítica)
@@ -555,8 +566,10 @@ No aplicable
 <td style="border:1px solid black;">
 [Microsoft Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=9aacf890-afb4-46a7-a13f-dd9fe3c0ca4a)  
 (Crítica)  
+
 [Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=dc166dc6-577f-4d8d-94df-dd963233dd85)  
 (Crítica)  
+
 [Windows Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=8799159d-df69-49f6-9db5-49147690ce0c)  
 (Crítica)
 </td>
@@ -569,10 +582,13 @@ No aplicable
 (KB953295)  
 (Crítica)  
 (Tablet PC Edition 2005 y Media Center Edition 2005 únicamente)  
+
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=78ac8b97-8327-4ae1-8bb0-6cf227f3968f) (KB953297)  
 (Crítica)  
+
 [Microsoft .NET Framework 2.0 Service Pack 1 y Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=d4a328b5-5470-46b0-86c7-cfe0e6a3ea01) (KB953300)  
 (Crítica)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=491874d4-5eea-4545-9b7d-3861857c862e) (KB974417)  
 (Crítica)
 </td>
@@ -612,15 +628,19 @@ No aplicable
 [Códec de voz de WMA de DirectShow](http://www.microsoft.com/downloads/details.aspx?familyid=c116ae9d-e416-4b7d-be75-4b4b2ebcc33a)  
 (KB969878)  
 (Crítica)  
+
 [Descodificador de voz de Windows Media Audio](http://www.microsoft.com/downloads/details.aspx?familyid=4729de51-8fd8-46c6-b4ad-9c9f25202684)  
 (KB954155)  
 (Crítica)  
+
 [Descodificador de voz de Windows Media Audio](http://www.microsoft.com/downloads/details.aspx?familyid=fe0d51b2-345e-4eb7-a036-d8c3f6a683d2) en SDK de Windows Media Format 9.5 x64 Edition  
 (KB954155)  
 (Crítica)  
+
 [Descodificador de voz de Windows Media Audio](http://www.microsoft.com/downloads/details.aspx?familyid=a866a490-6d3a-4ecd-acf4-770312ba2fd6) en SDK de Windows Media Format 11  
 (KB954155)  
 (Crítica)  
+
 [Administrador de compresión de audio](http://www.microsoft.com/downloads/details.aspx?familyid=46daf7c7-1cd3-4f47-9c7a-d5eb6ea7327b)  
 (KB975025)  
 (Crítica)
@@ -632,8 +652,10 @@ No aplicable
 <td style="border:1px solid black;">
 [Microsoft Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=89a2cf2a-a7a2-4d4b-aa6f-24dde288d500)  
 (Crítica)  
+
 [Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=bd54e595-25f2-4839-a838-2a0f809bde2b)  
 (Crítica)  
+
 [Windows Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=77b18fc2-e769-47c6-8e72-916716a49e58)  
 (Crítica)
 </td>
@@ -644,8 +666,10 @@ No aplicable
 <td style="border:1px solid black;">
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=78ac8b97-8327-4ae1-8bb0-6cf227f3968f) (KB953297)  
 (Crítica)  
+
 [Microsoft .NET Framework 2.0 Service Pack 1 y Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=d4a328b5-5470-46b0-86c7-cfe0e6a3ea01) (KB953300)  
 (Crítica)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=491874d4-5eea-4545-9b7d-3861857c862e) (KB974417)  
 (Crítica)
 </td>
@@ -772,9 +796,11 @@ No aplicable
 [Códec de voz de WMA de DirectShow](http://www.microsoft.com/downloads/details.aspx?familyid=4fe0dff5-04d9-4409-8d1d-52419537126b)  
 (KB969878)  
 (Crítica)  
+
 [Descodificador de voz de Windows Media Audio](http://www.microsoft.com/downloads/details.aspx?familyid=00b3cb86-c9eb-4fbe-987e-2b0d94271d87)  
 (KB954155)  
 (Crítica)  
+
 [Administrador de compresión de audio](http://www.microsoft.com/downloads/details.aspx?familyid=ab1803ff-2371-487f-a7b6-95747c46ba4e)  
 (KB975025)  
 (Crítica)
@@ -786,8 +812,10 @@ No aplicable
 <td style="border:1px solid black;">
 [Microsoft Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=8101625d-ee93-46e5-aec2-3bdbf2d86472)  
 (Crítica)  
+
 [Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=4647bcf1-69fb-4ad6-9e03-7bc22d8a914b)  
 (Crítica)  
+
 [Windows Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=9eae7eca-1a6f-4397-a6e2-7dda6b9d5276)  
 (Crítica)
 </td>
@@ -798,8 +826,10 @@ No aplicable
 <td style="border:1px solid black;">
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=d1b4a58b-f0b1-4400-a6e6-0255b0513bd1) (KB953298)  
 (Importante)  
+
 [Microsoft .NET Framework 2.0 Service Pack 1 y Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=d4a328b5-5470-46b0-86c7-cfe0e6a3ea01) (KB953300)  
 (Importante)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=491874d4-5eea-4545-9b7d-3861857c862e) (KB974417)  
 (Importante)
 </td>
@@ -839,12 +869,15 @@ No aplicable
 [Códec de voz de WMA de DirectShow](http://www.microsoft.com/downloads/details.aspx?familyid=c116ae9d-e416-4b7d-be75-4b4b2ebcc33a)  
 (KB969878)  
 (Crítica)  
+
 [Descodificador de voz de Windows Media Audio](http://www.microsoft.com/downloads/details.aspx?familyid=13ba4839-7fa9-4bbb-95f6-3fafb6c49f20)  
 (KB954155)  
 (Crítica)  
+
 [Descodificador de voz de Windows Media Audio](http://www.microsoft.com/downloads/details.aspx?familyid=fe0d51b2-345e-4eb7-a036-d8c3f6a683d2) en SDK de Windows Media Format 9.5 x64 Edition  
 (KB954155)  
 (Crítica)  
+
 [Administrador de compresión de audio](http://www.microsoft.com/downloads/details.aspx?familyid=46daf7c7-1cd3-4f47-9c7a-d5eb6ea7327b)  
 (KB975025)  
 (Crítica)
@@ -856,8 +889,10 @@ No aplicable
 <td style="border:1px solid black;">
 [Microsoft Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=2f966053-01eb-4a23-a9d5-71deac2498ea)  
 (Crítica)  
+
 [Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=e7d77bd9-8317-42f3-9ad1-a0b8bfa65b53)  
 (Crítica)  
+
 [Windows Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=708a549d-11fd-43bf-a6e1-309e3205d59d)  
 (Crítica)
 </td>
@@ -868,8 +903,10 @@ No aplicable
 <td style="border:1px solid black;">
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=78ac8b97-8327-4ae1-8bb0-6cf227f3968f) (KB953297)  
 (Importante)  
+
 [Microsoft .NET Framework 2.0 Service Pack 1 y Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=d4a328b5-5470-46b0-86c7-cfe0e6a3ea01) (KB953300)  
 (Importante)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=491874d4-5eea-4545-9b7d-3861857c862e) (KB974417)  
 (Importante)
 </td>
@@ -924,8 +961,10 @@ No aplicable
 <td style="border:1px solid black;">
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=78ac8b97-8327-4ae1-8bb0-6cf227f3968f) (KB953297)  
 (Importante)  
+
 [Microsoft .NET Framework 2.0 Service Pack 1 y Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=d4a328b5-5470-46b0-86c7-cfe0e6a3ea01) (KB953300)  
 (Importante)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=491874d4-5eea-4545-9b7d-3861857c862e) (KB974417)  
 (Importante)
 </td>
@@ -1070,10 +1109,13 @@ No aplicable
 <td style="border:1px solid black;">
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=78ac8b97-8327-4ae1-8bb0-6cf227f3968f) (KB953297)  
 (Crítica)  
+
 [Microsoft .NET Framework 2.0](http://www.microsoft.com/downloads/details.aspx?familyid=6f99521e-86b3-4083-9132-e5ac06d40b63) (KB974468)  
 (Crítica)  
+
 [Microsoft .NET Framework 2.0 Service Pack 1 y Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=3cf329c6-6d3d-41eb-bb72-8ba241df0882) (KB974292)  
 (Crítica)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=7438eb1e-6e86-4aa1-b1f4-f71a7699d233) (KB974467)  
 (Crítica)
 </td>
@@ -1123,8 +1165,10 @@ Igual que el anterior
 <td style="border:1px solid black;">
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=78ac8b97-8327-4ae1-8bb0-6cf227f3968f) (KB953297)  
 (Crítica)  
+
 [Microsoft .NET Framework 2.0 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=30e5410d-0942-4964-9037-52330488efda) (KB974291)  
 (Crítica)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=72fe9066-2397-439d-82fb-2b7f9d2bcce8) (KB974469)  
 (Crítica)
 </td>
@@ -1169,6 +1213,7 @@ Igual que el anterior
 <td style="border:1px solid black;">
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=78ac8b97-8327-4ae1-8bb0-6cf227f3968f) (KB953297)  
 (Crítica)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=614a92ee-0512-4ccc-b6b8-32ebcec8e6a4) (KB974470)  
 (Crítica)
 </td>
@@ -1221,10 +1266,13 @@ No aplicable
 <td style="border:1px solid black;">
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=78ac8b97-8327-4ae1-8bb0-6cf227f3968f) (KB953297)  
 (Crítica)  
+
 [Microsoft .NET Framework 2.0](http://www.microsoft.com/downloads/details.aspx?familyid=6f99521e-86b3-4083-9132-e5ac06d40b63) (KB974468)  
 (Crítica)  
+
 [Microsoft .NET Framework 2.0 Service Pack 1 y Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=3cf329c6-6d3d-41eb-bb72-8ba241df0882) (KB974292)  
 (Crítica)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=7438eb1e-6e86-4aa1-b1f4-f71a7699d233) (KB974467)  
 (Crítica)
 </td>
@@ -1274,8 +1322,10 @@ Igual que el anterior
 <td style="border:1px solid black;">
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=78ac8b97-8327-4ae1-8bb0-6cf227f3968f) (KB953297)  
 (Crítica)  
+
 [Microsoft .NET Framework 2.0 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=30e5410d-0942-4964-9037-52330488efda) (KB974291)  
 (Crítica)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=72fe9066-2397-439d-82fb-2b7f9d2bcce8) (KB974469)  
 (Crítica)
 </td>
@@ -1320,6 +1370,7 @@ Igual que el anterior
 <td style="border:1px solid black;">
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=78ac8b97-8327-4ae1-8bb0-6cf227f3968f) (KB953297)  
 (Crítica)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=614a92ee-0512-4ccc-b6b8-32ebcec8e6a4) (KB974470)  
 (Crítica)
 </td>
@@ -1449,6 +1500,7 @@ No aplicable
 <td style="border:1px solid black;">
 [Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=72dd580e-eb53-41da-a5c0-a392ad388bfc) \*\*  
 (Crítica)  
+
 [Windows Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=1baf7e96-ba3e-47e7-8ea3-eb092e653a39) \*\*  
 (Crítica)
 </td>
@@ -1460,9 +1512,11 @@ No aplicable
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=78ac8b97-8327-4ae1-8bb0-6cf227f3968f) \*\*  
 (KB953297)  
 (Importante)  
+
 [Microsoft .NET Framework 2.0 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=30e5410d-0942-4964-9037-52330488efda) \*\*  
 (KB974291)  
 (Importante)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=72fe9066-2397-439d-82fb-2b7f9d2bcce8) \*\*  
 (KB974469)  
 (Importante)
@@ -1514,6 +1568,7 @@ Igual que el anterior
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=78ac8b97-8327-4ae1-8bb0-6cf227f3968f) \*\*  
 (KB953297)  
 (Importante)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=614a92ee-0512-4ccc-b6b8-32ebcec8e6a4) \*\*  
 (KB974470)  
 (Importante)
@@ -1557,6 +1612,7 @@ No aplicable
 <td style="border:1px solid black;">
 [Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=0111d741-bda4-4a50-a12b-d3337ff4441d) \*\*  
 (Crítica)  
+
 [Windows Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=7a4b755b-7fa0-43aa-8862-c1d0c7d94c2c) \*\*  
 (Crítica)
 </td>
@@ -1568,9 +1624,11 @@ No aplicable
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=78ac8b97-8327-4ae1-8bb0-6cf227f3968f) \*\*  
 (KB953297)  
 (Importante)  
+
 [Microsoft .NET Framework 2.0 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=30e5410d-0942-4964-9037-52330488efda) \*\*  
 (KB974291)  
 (Importante)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=72fe9066-2397-439d-82fb-2b7f9d2bcce8) \*\*  
 (KB974469)  
 (Importante)
@@ -1622,6 +1680,7 @@ Igual que el anterior
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=78ac8b97-8327-4ae1-8bb0-6cf227f3968f) \*\*  
 (KB953297)  
 (Importante)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=614a92ee-0512-4ccc-b6b8-32ebcec8e6a4) \*\*  
 (KB974470)  
 (Importante)
@@ -1672,9 +1731,11 @@ No aplicable
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=78ac8b97-8327-4ae1-8bb0-6cf227f3968f)  
 (KB953297)  
 (Importante)  
+
 [Microsoft .NET Framework 2.0 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=30e5410d-0942-4964-9037-52330488efda)  
 (KB974291)  
 (Importante)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=72fe9066-2397-439d-82fb-2b7f9d2bcce8)  
 (KB974469)  
 (Importante)
@@ -1726,6 +1787,7 @@ Igual que el anterior
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=78ac8b97-8327-4ae1-8bb0-6cf227f3968f)  
 (KB953297)  
 (Importante)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=614a92ee-0512-4ccc-b6b8-32ebcec8e6a4)  
 (KB974470)  
 (Importante)
@@ -2204,7 +2266,7 @@ Microsoft Office 2003
 (Crítica)
 </td>
 <td style="border:1px solid black;">
-[2007 Microsoft Office System Service Pack 1 y 2007 Microsoft Office System Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=98d7c4ab-f8ca-4806-a609-453fb29b02ec) \[4\]  
+[2007 Microsoft Office System Service Pack 1 y 2007 Microsoft Office System Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=98d7c4ab-f8ca-4806-a609-453fb29b02ec) <sup>[4]</sup>  
 (KB972581)  
 (Importante)
 </td>
@@ -2256,14 +2318,16 @@ Microsoft Office Visio Viewer
 <td style="border:1px solid black;">
 Microsoft Visio 2002 Viewer <sup>[1]</sup>
 (Crítica)  
+
 Microsoft Office Visio 2003 Viewer <sup>[1]</sup>
 (Crítica)  
+
 [Microsoft Office Visio Viewer 2007 Service Pack 1 y Microsoft Office Visio Viewer 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=d20004c5-dd01-459e-8120-5f127e20c085)  
 (KB973709)  
 (Crítica)
 </td>
 <td style="border:1px solid black;">
-[Microsoft Office Visio Viewer 2007 Service Pack 1 y Microsoft Office Visio Viewer 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=98d7c4ab-f8ca-4806-a609-453fb29b02ec) \[4\]  
+[Microsoft Office Visio Viewer 2007 Service Pack 1 y Microsoft Office Visio Viewer 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=98d7c4ab-f8ca-4806-a609-453fb29b02ec) <sup>[4]</sup>  
 (KB972581)  
 (Importante)
 </td>
@@ -2292,10 +2356,12 @@ No aplicable
 [Microsoft Word Viewer 2003 Service Pack 3 y Microsoft Office Excel Viewer 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=48752ab4-5928-476d-a8bc-e998d188b1f7) <sup>[3]</sup>
 (KB972580)  
 (Importante)  
-[Microsoft Office Excel Viewer Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=98d7c4ab-f8ca-4806-a609-453fb29b02ec) \[4\]  
+
+[Microsoft Office Excel Viewer Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=98d7c4ab-f8ca-4806-a609-453fb29b02ec) <sup>[4]</sup>  
 (KB972581)  
 (Importante)  
-[PowerPoint Viewer 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=98d7c4ab-f8ca-4806-a609-453fb29b02ec) \[4\]  
+
+[PowerPoint Viewer 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=98d7c4ab-f8ca-4806-a609-453fb29b02ec) <sup>[4]</sup>  
 (KB972581)  
 (Importante)
 </td>
@@ -2308,7 +2374,7 @@ Paquete de compatibilidad de Microsoft Office para formatos de archivo de Word, 
 No aplicable
 </td>
 <td style="border:1px solid black;">
-[Paquete de compatibilidad de Microsoft Office para formatos de archivo de Word, Excel y PowerPoint 2007 Service Pack 1 y Paquete de compatibilidad de Microsoft Office para formatos de archivo de Word, Excel y PowerPoint 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=98d7c4ab-f8ca-4806-a609-453fb29b02ec) \[4\]  
+[Paquete de compatibilidad de Microsoft Office para formatos de archivo de Word, Excel y PowerPoint 2007 Service Pack 1 y Paquete de compatibilidad de Microsoft Office para formatos de archivo de Word, Excel y PowerPoint 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=98d7c4ab-f8ca-4806-a609-453fb29b02ec) <sup>[4]</sup>  
 (KB972581)  
 Importante)
 </td>
@@ -2338,7 +2404,7 @@ No aplicable
 
 <sup>[3]</sup> Estas actualizaciones son idénticas.
 
-\[4\] Estas actualizaciones son idénticas.
+<sup>[4]</sup> Estas actualizaciones son idénticas.
 
 Vea también las demás categorías de esta sección, **Ubicaciones de descarga y software afectado** , para obtener más archivos de actualización con el mismo identificador de boletín. Este boletín abarca varias categorías de software.
 
@@ -2381,6 +2447,7 @@ SQL Server 2000 Reporting Services Service Pack 2
 <td style="border:1px solid black;">
 Actualización de RDA  
 No aplicable  
+
 Actualización de QFE:  
 [SQL Server 2000 Reporting Services Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=33554f96-5af7-4683-a537-9db293b67b8d)  
 (KB970899)  
@@ -2396,6 +2463,7 @@ Actualización de RDA:
 [SQL Server 2005 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=d971a262-1dfb-498c-a4f3-59fdc1b85d23) <sup>[1]</sup>
 (KB970895)  
 (Crítica)  
+
 Actualización de QFE:  
 [SQL Server 2005 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=76d3d653-e9a0-48bc-afae-d3553f7b9235) <sup>[1]</sup>
 (KB970896)  
@@ -2411,6 +2479,7 @@ Actualización de RDA:
 [SQL Server 2005 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=d971a262-1dfb-498c-a4f3-59fdc1b85d23) <sup>[1]</sup>
 (KB970895)  
 (Crítica)  
+
 Actualización de QFE:  
 [SQL Server 2005 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=76d3d653-e9a0-48bc-afae-d3553f7b9235) <sup>[1]</sup>
 (KB970896)  
@@ -2426,6 +2495,7 @@ Actualización de RDA:
 [SQL Server 2005 para sistemas con Itanium Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=d971a262-1dfb-498c-a4f3-59fdc1b85d23) <sup>[1]</sup>
 (KB970895)  
 (Crítica)  
+
 Actualización de QFE:  
 [SQL Server 2005 para sistemas con Itanium Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=76d3d653-e9a0-48bc-afae-d3553f7b9235) <sup>[1]</sup>
 (KB970896)  
@@ -2441,6 +2511,7 @@ Actualización de RDA
 [SQL Server 2005 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=0d878f4b-71e8-4170-9a14-1bce684811ce) <sup>[2]</sup>
 (KB970892)  
 (Crítica)  
+
 Actualización de QFE:  
 [SQL Server 2005 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=e6f307c1-8b21-406e-9c6f-b1a3a1e9a98f) <sup>[2]</sup>
 (KB970894)  
@@ -2456,6 +2527,7 @@ Actualización de RDA:
 [SQL Server 2005 x64 Edition Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=0d878f4b-71e8-4170-9a14-1bce684811ce) <sup>[2]</sup>
 (KB970892)  
 (Crítica)  
+
 Actualización de QFE:  
 [SQL Server 2005 x64 Edition Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=e6f307c1-8b21-406e-9c6f-b1a3a1e9a98f) <sup>[2]</sup>
 (KB970894)  
@@ -2471,6 +2543,7 @@ Actualización de RDA:
 [SQL Server 2005 para sistemas con Itanium Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=0d878f4b-71e8-4170-9a14-1bce684811ce) <sup>[2]</sup>
 (KB970892)  
 (Crítica)  
+
 Actualización de QFE:  
 [SQL Server 2005 para sistemas con Itanium Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=e6f307c1-8b21-406e-9c6f-b1a3a1e9a98f) <sup>[2]</sup>
 (KB970894)  
@@ -2481,9 +2554,9 @@ Actualización de QFE:
  
 **Nota para MS09-062**
 
-\[ 1 \]Los clientes de SQL Server 2005 Service Pack 2 con una dependencia de Reporting Services SharePoint también deben instalar el [complemento de Microsoft SQL Server 2005 Reporting Services para Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=%20f4d4d0ae-e5d4-4ed1-8d78-7137578161ce&displaylang=en) del Centro de descarga de Microsoft.
+\[ <sup>1</sup> \]Los clientes de SQL Server 2005 Service Pack 2 con una dependencia de Reporting Services SharePoint también deben instalar el [complemento de Microsoft SQL Server 2005 Reporting Services para Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=%20f4d4d0ae-e5d4-4ed1-8d78-7137578161ce&displaylang=en) del Centro de descarga de Microsoft.
 
-\[ 2 \]Los clientes de SQL Server 2005 Service Pack 3 con una dependencia de Reporting Services SharePoint también deben instalar el [complemento de Microsoft SQL Server 2005 Reporting Services para Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=%20648766ac-2a35-4238-a3f4-c26d7077f2a9&displaylang=en) del Centro de descarga de Microsoft.
+\[ <sup>2</sup> \]Los clientes de SQL Server 2005 Service Pack 3 con una dependencia de Reporting Services SharePoint también deben instalar el [complemento de Microsoft SQL Server 2005 Reporting Services para Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=%20648766ac-2a35-4238-a3f4-c26d7077f2a9&displaylang=en) del Centro de descarga de Microsoft.
 
 Vea también las demás categorías de esta sección, **Ubicaciones de descarga y software afectado** , para obtener más archivos de actualización con el mismo identificador de boletín. Este boletín abarca varias categorías de software.
 

@@ -4,7 +4,7 @@ Title: Resumen del boletín de seguridad de Microsoft de diciembre 2010
 ms:assetid: 'ms10-dec'
 ms:contentKeyID: 61225410
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms10-dec(v=Security.10)'
---- Summary
+---
 
 Resumen del boletín de seguridad de Microsoft de diciembre 2010
 ===============================================================
@@ -419,8 +419,10 @@ Windows XP Service Pack 3
 <td style="border:1px solid black;">
 [Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=6031d98a-cd0f-4dd8-80b6-70a7167e9e55)  
 (Crítica)  
+
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=922a0835-7f69-4e37-a9f7-c64e976e3513)  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=a55b8029-9499-4219-99b7-65c30b0b864a)  
 (Crítica)
 </td>
@@ -474,8 +476,10 @@ Windows XP Professional x64 Edition Service Pack 2
 <td style="border:1px solid black;">
 [Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=5d3a5678-77f8-4ebc-8775-aedd25ef0eb8)  
 (Crítica)  
+
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=a7c826b0-4aac-41ce-b297-6b6e11105c14)  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=d5207bf5-7e58-4001-aa8f-f9a4b2c037d8)  
 (Crítica)
 </td>
@@ -492,6 +496,7 @@ No aplicable
 <td style="border:1px solid black;">
 [Codificador de Windows Media 9 x86](http://www.microsoft.com/downloads/details.aspx?familyid=dc777e61-e1e3-43bf-a84d-22c4a69c135d)  
 (Importante)  
+
 [Codificador de Windows Media 9 x64](http://www.microsoft.com/downloads/details.aspx?familyid=550957c2-ce66-439f-95ea-681237513f75)  
 (Importante)
 </td>
@@ -624,8 +629,10 @@ Windows Server 2003 Service Pack 2
 <td style="border:1px solid black;">
 [Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=4f1f41fb-368a-42e6-8d17-fca83b64f57b)  
 (Crítica)  
+
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=a3b57d26-5551-4785-86cf-41b532d78979)  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=4f5a3677-0990-4702-bf08-af64cf12cb6c)  
 (Crítica)
 </td>
@@ -680,8 +687,10 @@ Windows Server 2003 x64 Edition Service Pack 2
 <td style="border:1px solid black;">
 [Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=6a9f56a0-230a-4dde-94da-f051ebf51f47)  
 (Crítica)  
+
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=8b0d2a3a-7fed-4d48-9ec5-8558000e51bb)  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=1e134e5d-84fb-432b-99b1-593b1be5d5a4)  
 (Crítica)
 </td>
@@ -698,6 +707,7 @@ No aplicable
 <td style="border:1px solid black;">
 [Codificador de Windows Media 9 x86](http://www.microsoft.com/downloads/details.aspx?familyid=dc777e61-e1e3-43bf-a84d-22c4a69c135d)  
 (Importante)  
+
 [Codificador de Windows Media 9 x64](http://www.microsoft.com/downloads/details.aspx?familyid=550957c2-ce66-439f-95ea-681237513f75)  
 (Importante)
 </td>
@@ -738,6 +748,7 @@ Windows Server 2003 con SP2 para sistemas con Itanium
 <td style="border:1px solid black;">
 [Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=7c1cf126-604c-4f70-bbe8-aa4d145eb68f)  
 (Crítica)  
+
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=96884bfa-00c8-4263-9936-d7c054919dd3)  
 (Crítica)
 </td>
@@ -884,6 +895,7 @@ Windows Vista Service Pack 1 y Windows Vista Service Pack 2
 <td style="border:1px solid black;">
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=897351de-9697-4954-aa7e-169e980b932c)  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=bebf0df0-5ebe-44b4-9ace-b3085a993e58)  
 (Crítica)
 </td>
@@ -938,6 +950,7 @@ Windows Vista x64 Edition Service Pack 1 y Windows Vista x64 Edition Service Pac
 <td style="border:1px solid black;">
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=171c02f9-f7d2-42f2-ba31-4c819a43784a)  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=837b6056-af04-4aed-8afe-cc392770a590)  
 (Crítica)
 </td>
@@ -956,6 +969,7 @@ Windows Vista x64 Edition Service Pack 1 y Windows Vista x64 Edition Service Pac
 <td style="border:1px solid black;">
 [Codificador de Windows Media 9 x86](http://www.microsoft.com/downloads/details.aspx?familyid=f98c3b96-acb5-49f1-be42-3dd44d316408)  
 (Importante)  
+
 [Codificador de Windows Media 9 x64](http://www.microsoft.com/downloads/details.aspx?familyid=e1054088-f484-4f44-ba0e-5cbd21773c0c)  
 (Importante)
 </td>
@@ -1087,6 +1101,7 @@ Windows Server 2008 para sistemas de 32 bits y Windows Server 2008 para sistemas
 <td style="border:1px solid black;">
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=f3785f3b-64c6-46a4-8e3a-9b9448124a8f) \*\*  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=98183a76-5642-4e19-b488-029eb7ed3942) \*\*  
 (Crítica)
 </td>
@@ -1141,6 +1156,7 @@ Windows Server 2008 para sistemas x64 y Windows Server 2008 para sistemas x64 Se
 <td style="border:1px solid black;">
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=4b81aae5-6034-4c83-b5d2-e7e472435284) \*\*  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=d47b457d-e995-4a7e-9bfa-eebab9b3a729) \*\*  
 (Crítica)
 </td>
@@ -1158,6 +1174,7 @@ No aplicable
 <td style="border:1px solid black;">
 [Codificador de Windows Media 9 x86](http://www.microsoft.com/downloads/details.aspx?familyid=f468d2b5-f02c-4691-9fb5-a7f69752f126) \*\*  
 (Importante)  
+
 [Codificador de Windows Media 9 x64](http://www.microsoft.com/downloads/details.aspx?familyid=533d91d8-0291-421e-9701-3bd86d18bc45) \*\*  
 (Importante)
 </td>

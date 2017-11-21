@@ -4,7 +4,7 @@ Title: Resumen del boletín de seguridad de Microsoft de enero 2010
 ms:assetid: 'ms10-jan-oob'
 ms:contentKeyID: 61225412
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms10-jan-oob(v=Security.10)'
---- Summary
+---
 
 Resumen del boletín de seguridad de Microsoft de enero 2010
 ===========================================================
@@ -153,6 +153,7 @@ Microsoft Windows 2000 Service Pack 4
 <td style="border:1px solid black;">
 [Internet Explorer 5.01 Service Pack 4 cuando está instalado en Microsoft Windows 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?familyid=51e99e4f-1670-4b12-a9fe-e0ccf50cdabc)  
 (Crítica)  
+
 [Internet Explorer 6 Service Pack 1 cuando está instalado en Microsoft Windows 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?familyid=a38aa9d0-c3fe-4d41-8805-7d5370263c1b)  
 (Crítica)
 </td>
@@ -195,8 +196,10 @@ Windows XP Service Pack 2 y Windows XP Service Pack 3
 <td style="border:1px solid black;">
 [Internet Explorer 6 para Windows XP Service Pack 2 y Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=207eecad-6e84-48e6-ae18-6794a3618ee0)  
 (Crítica)  
+
 [Internet Explorer 7 para Windows XP Service Pack 2 y Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=3510c7d8-7e8f-479e-b6f9-5745a845664d)  
 (Crítica)  
+
 [Internet Explorer 8 para Windows XP Service Pack 2 y Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=7c2948fb-f486-4801-bc21-bbf40d5a78c2)  
 (Crítica)
 </td>
@@ -212,8 +215,10 @@ Windows XP Professional x64 Edition Service Pack 2
 <td style="border:1px solid black;">
 [Internet Explorer 6 para Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=eb2d8055-4d50-4f83-82b8-055c7b8f5422)  
 (Crítica)  
+
 [Internet Explorer 7 para Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=cc5aea0b-e553-4f7f-a2cc-cba41bb87ae7)  
 (Crítica)  
+
 [Internet Explorer 8 para Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=41b83fad-948b-4a9c-80ed-9c5a60bd35b4)  
 (Crítica)
 </td>
@@ -256,8 +261,10 @@ Windows Server 2003 Service Pack 2
 <td style="border:1px solid black;">
 [Internet Explorer 6 para Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=fea91227-44ad-4549-8732-497a8ceff870)  
 (Moderada)  
+
 [Internet Explorer 7 para Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=14726445-3ff4-463c-9fc1-c9b758079aca)  
 (Crítica)  
+
 [Internet Explorer 8 para Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=7d480c87-2ca9-4505-a59d-a6d73d001fa5)  
 (Crítica)
 </td>
@@ -273,8 +280,10 @@ Windows Server 2003 x64 Edition Service Pack 2
 <td style="border:1px solid black;">
 [Internet Explorer 6 para Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=633e63f4-605b-43c4-8a4b-2730312a1c72)  
 (Moderada)  
+
 [Internet Explorer 7 para Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=c8742230-16d8-4b2f-bd3e-8834c759856b)  
 (Crítica)  
+
 [Internet Explorer 8 para Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=3e2e740b-8417-4758-8468-15221249ec71)  
 (Crítica)
 </td>
@@ -332,6 +341,7 @@ Windows Vista, Windows Vista Service Pack 1 y Windows Vista Service Pack 2
 <td style="border:1px solid black;">
 [Internet Explorer 7 en Windows Vista, Windows Vista Service Pack 1 y Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=92495551-dedd-43d4-bb3a-51028bc5c6d6)  
 (Crítica)  
+
 [Internet Explorer 8 en Windows Vista, Windows Vista Service Pack 1 y Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=5e2cbd7d-f64f-49e5-a159-1965ebfe2a92)  
 (Crítica)
 </td>
@@ -347,6 +357,7 @@ Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 y Windows Vi
 <td style="border:1px solid black;">
 [Internet Explorer 7 en Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 y Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=3cb139b3-59f4-44ef-9911-4dd4e3b83e7d)  
 (Crítica)  
+
 [Internet Explorer 8 en Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 y Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=b7a7e8e7-f4c5-459d-ab6c-05a192e1e3f9)  
 (Crítica)
 </td>
@@ -389,6 +400,7 @@ Windows Server 2008 para sistemas de 32 bits y Windows Server 2008 para sistemas
 <td style="border:1px solid black;">
 [Internet Explorer 7 en Windows Server 2008 para sistemas de 32 bits y Windows Server 2008 para sistemas de 32 bits Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=8c4c91ec-1b2b-4176-bd77-45245b590329)\*\*  
 (Crítica)  
+
 [Internet Explorer 8 en Windows Server 2008 para sistemas de 32 bits y Windows Server 2008 para sistemas de 32 bits Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=f5ce8582-af63-4870-bee3-0abeeefa1458)\*\*  
 (Crítica)
 </td>
@@ -404,6 +416,7 @@ Windows Server 2008 para sistemas x64 y Windows Server 2008 para sistemas x64 Se
 <td style="border:1px solid black;">
 [Internet Explorer 7 en Windows Server 2008 para sistemas x64 y Windows Server 2008 para sistemas x64 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=4f9975b8-3f91-4116-9200-ef55ece75854)\*\*  
 (Crítica)  
+
 [Internet Explorer 8 en Windows Server 2008 para sistemas x64 y Windows Server 2008 para sistemas x64 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=be11981c-d286-4e3c-94bf-d4e67a975d5a)\*\*  
 (Crítica)
 </td>

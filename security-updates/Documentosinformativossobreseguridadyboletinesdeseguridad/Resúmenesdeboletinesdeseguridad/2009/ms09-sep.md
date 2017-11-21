@@ -4,7 +4,7 @@ Title: Resumen del boletín de seguridad de Microsoft de septiembre 2009
 ms:assetid: 'ms09-sep'
 ms:contentKeyID: 61225407
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms09-sep(v=Security.10)'
---- Summary
+---
 
 Resumen del boletín de seguridad de Microsoft de septiembre 2009
 ================================================================
@@ -201,6 +201,7 @@ Microsoft Windows 2000 Service Pack 4
 [JScript 5.1 y JScript 5.6](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=2bb3af8d-f36c-4497-9f48-fc59bcff2583)  
 (KB971961)  
 (Crítica)  
+
 [JScript 5.7](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=b2773db5-b17d-4b98-b4e2-219b23854abd)  
 (KB975542)  
 (Crítica)
@@ -275,12 +276,15 @@ Windows XP Service Pack 2 y Windows XP Service Pack 3
 [JScript 5.6 en Windows XP Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=0af373b2-2240-4079-a748-a38d1bc06f39)  
 (KB971961)  
 (Crítica)  
+
 [JScript 5.7 en Windows XP Service Pack 2](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=c933377d-e0bc-4334-bc75-029045d7a62a)<sup>[1]</sup>
 (KB971961)  
 (Crítica)  
+
 [JScript 5.7 en Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=c933377d-e0bc-4334-bc75-029045d7a62a)  
 (KB971961)  
 (Crítica)  
+
 [JScript 5.8](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=992602d8-d857-41cf-b7b1-527afdc1dc0f)<sup>[2]</sup>
 (KB971961)  
 (Crítica)
@@ -293,6 +297,7 @@ No aplicable
 (KB968816)  
 (Crítica)  
 (Windows XP Service Pack 2 solamente)  
+
 [Módulo de tiempo de ejecución de Windows Media Format 9.0, módulo de tiempo de ejecución de Windows Media Format 9.5 y módulo de tiempo de ejecución de Windows Media Format 11](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=31585f5a-9aaa-40da-b15a-11284b4b800c)  
 (KB968816)  
 (Crítica)  
@@ -315,9 +320,11 @@ Windows XP Professional x64 Edition Service Pack 2
 [JScript 5.6](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=0d671004-da4e-4dbd-a066-861b53b0c59c)  
 (KB971961)  
 (Crítica)  
+
 [JScript 5.7](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=9aae426d-ee9a-4736-b0a2-e0f8890a6895)<sup>[1]</sup>
 (KB971961)  
 (Crítica)  
+
 [JScript 5.8](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=00bae02a-64eb-4b91-965f-da2dc987a2ff)<sup>[2]</sup>
 (KB971961)  
 (Crítica)
@@ -329,9 +336,11 @@ No aplicable
 [Módulo de tiempo de ejecución de Windows Media Format 9.5](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=3780d565-d027-4f54-8fc0-05f5c3c6ba1a)  
 (KB968816)  
 (Crítica)  
+
 [Módulo de tiempo de ejecución de Windows Media Format 9.5 x64 Edition](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=ce515188-db3c-4694-85da-177c8f76b68c)  
 (KB968816)  
 (Crítica)  
+
 [Módulo de tiempo de ejecución de Windows Media Format 11](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=9a465f92-3067-4a5a-9882-1fc2cf796c99)  
 (KB968816)  
 (Crítica)
@@ -398,9 +407,11 @@ Windows Server 2003 Service Pack 2
 [JScript 5.6](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=6acc9d2d-b71f-4b5c-9aea-b217b6ae240b)  
 (KB971961)  
 (Crítica)  
+
 [JScript 5.7](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=6af5d034-fd89-42e2-bc18-d44b7a6b0a85)<sup>[1]</sup>
 (KB971961)  
 (Crítica)  
+
 [JScript 5.8](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=ecf9f7e2-3104-4de2-8b3d-99dcdcae6e62)<sup>[2]</sup>
 (KB971961)  
 (Crítica)
@@ -412,6 +423,7 @@ No aplicable
 [Módulo de tiempo de ejecución de Windows Media Format 9.5](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=4ab34e3d-34cb-4e35-a2da-b348ace8a8f7)  
 (KB968816)  
 (Crítica)  
+
 [Servicios de Windows Media 9.1](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=61cd0581-c36e-4da6-ae95-41609adbe922)  
 (KB972554)  
 (Crítica)
@@ -433,9 +445,11 @@ Windows Server 2003 x64 Edition Service Pack 2
 [JScript 5.6](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=d0de3ab1-73e9-4a09-841f-81ade41a8c81)  
 (KB971961)  
 (Crítica)  
+
 [JScript 5.7](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=8f48bc05-ffac-4a21-8d21-dd20355cda8a)<sup>[1]</sup>
 (KB971961)  
 (Crítica)  
+
 [JScript 5.8](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=643f9e2f-2e5b-48dd-b1a0-22ccb633ed18)<sup>[2]</sup>
 (KB971961)  
 (Crítica)
@@ -447,9 +461,11 @@ No aplicable
 [Módulo de tiempo de ejecución de Windows Media Format 9.5](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=8654ee33-6083-447f-ae5b-43ef8d8b613d)  
 (KB968816)  
 (Crítica)  
+
 [Módulo de tiempo de ejecución de Windows Media Format 9.5 x64 Edition](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=ce515188-db3c-4694-85da-177c8f76b68c)  
 (KB968816)  
 (Crítica)  
+
 [Servicios de Windows Media 9.1](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=67c46f26-e6df-4ba2-9c03-1590b31e454c)  
 (KB972554)  
 (Crítica)
@@ -471,6 +487,7 @@ Windows Server 2003 con SP2 para sistemas con Itanium
 [JScript 5.6](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=e78cf021-54f5-4526-b5f0-f781aebf9d72)  
 (KB971961)  
 (Crítica)  
+
 [JScript 5.7](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=fb1ca290-cea4-49c0-a37e-613a654bff3c)<sup>[1]</sup>
 (KB971961)  
 (Crítica)
@@ -543,6 +560,7 @@ Windows Vista, Windows Vista Service Pack 1 y Windows Vista Service Pack 2
 [JScript 5.7](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=bcb12e57-f5d6-4b4e-88ab-13c28137f11a)  
 (KB971961)  
 (Crítica)  
+
 [JScript 5.8](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=80e7390f-df39-4d99-b2e1-01c7f6a951bb)<sup>[2]</sup>
 (KB971961)  
 (Crítica)
@@ -572,6 +590,7 @@ Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 y Windows Vi
 [JScript 5.7](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=8b1b76d5-a6b0-4c2f-8768-e55e82c2c118)  
 (KB971961)  
 (Crítica)  
+
 [JScript 5.8](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=24457cdd-1973-40c9-9c2d-c1a75fdfa7fa)<sup>[2]</sup>
 (KB971961)  
 (Crítica)
@@ -646,6 +665,7 @@ Windows Server 2008 para sistemas de 32 bits y Windows Server 2008 para sistemas
 [JScript 5.7](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=df88e6e5-78d3-4fa6-858d-b935d812cada)\*  
 (KB971961)  
 (Crítica)  
+
 [JScript 5.8](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=e7b07be6-a4f8-4847-9c55-9b3d2965fa77)\* <sup>[2]</sup>
 (KB971961)  
 (Crítica)
@@ -658,6 +678,7 @@ Windows Server 2008 para sistemas de 32 bits y Windows Server 2008 para sistemas
 [Módulo de tiempo de ejecución de Windows Media Format 11 y Microsoft Media Foundation](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=9c111bff-aff6-4ff7-81f6-e736cfcbe3ed)\*\*  
 (KB968816)  
 (Crítica)  
+
 [Servicios de Windows Media 2008](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=2801f69b-37d0-4d0f-9632-31382b824d36)\*  
 (KB972554)  
 (Crítica)
@@ -678,6 +699,7 @@ Windows Server 2008 para sistemas x64 y Windows Server 2008 para sistemas x64 Se
 [JScript 5.7](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=f584f8ca-f6b1-4285-a44c-3df5e51e75de)\*  
 (KB971961)  
 (Crítica)  
+
 [JScript 5.8](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=9eddbb89-4178-49c2-836a-2d292fe50936)\* <sup>[2]</sup>
 (KB971961)  
 (Crítica)
@@ -690,6 +712,7 @@ Windows Server 2008 para sistemas x64 y Windows Server 2008 para sistemas x64 Se
 [Módulo de tiempo de ejecución de Windows Media Format 11 y Microsoft Media Foundation](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=59615c8b-a07f-4326-836d-f17b2fcc4695)\*\*  
 (KB968816)  
 (Crítica)  
+
 [Servicios de Windows Media 2008](http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;familyid=7fad3793-174f-46db-9d0a-873a0ea8be65)\*  
 (KB972554)  
 (Crítica)

@@ -4,7 +4,7 @@ Title: Resumen del boletín de seguridad de Microsoft de julio 2010
 ms:assetid: 'ms10-jul'
 ms:contentKeyID: 61225413
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms10-jul(v=Security.10)'
---- Summary
+---
 
 Resumen del boletín de seguridad de Microsoft de julio 2010
 ===========================================================
