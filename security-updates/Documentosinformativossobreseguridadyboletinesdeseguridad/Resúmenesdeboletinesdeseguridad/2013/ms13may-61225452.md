@@ -4,7 +4,7 @@ Title: Resumen del boletín de seguridad de Microsoft de mayo 2013
 ms:assetid: 'ms13-may'
 ms:contentKeyID: 61225452
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms13-may(v=Security.10)'
---- Summary
+---
 
 Resumen del boletín de seguridad de Microsoft de mayo 2013
 ==========================================================
