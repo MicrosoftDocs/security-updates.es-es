@@ -4,7 +4,8 @@ Title: Resumen del boletín de seguridad de Microsoft de junio 2008
 ms:assetid: 'ms08-jun'
 ms:contentKeyID: 61225390
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms08-jun(v=Security.10)'
---- Summary
+--- 
+
 
 Resumen del boletín de seguridad de Microsoft de junio 2008
 ===========================================================
@@ -442,41 +443,41 @@ Esta tabla se puede usar para conocer las actualizaciones de seguridad que quiz�
 <td style="border:1px solid black;">Windows Server 2008 para sistemas de 32 bits</td>
 <td style="border:1px solid black;">No aplicable</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a8922e7e-9264-4e09-b8ad-c5420fed8690">Windows Internet Explorer 7</a><br />
-(Moderada)<strong>**</strong></td>
+(Moderada)<strong>&#42;&#42;</strong></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=c0c495f8-2a35-4638-a635-1e55dd15e062">DirectX 10.0</a><br />
-(Crítica)<strong>**</strong></td>
+(Crítica)<strong>&#42;&#42;</strong></td>
 <td style="border:1px solid black;">No aplicable</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=2981156e-2e2f-469e-91be-da127d50f3fc">Active Directory</a><br />
 (KB949014)<br />
-(Moderada)<strong>*</strong><br />
+(Moderada)<strong>&#42;</strong><br />
 <br />
 <a href="http://www.microsoft.com/downloads/details.aspx?familyid=2981156e-2e2f-469e-91be-da127d50f3fc">AD LDS</a><br />
 (KB949014)<br />
-(Moderada)<strong>*</strong></td>
+(Moderada)<strong>&#42;</strong></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0466a6e7-fdca-4647-af62-449e5f20d1e4">Windows Server 2008 para sistemas de 32 bits</a><br />
-(Moderada)<strong>**</strong></td>
+(Moderada)<strong>&#42;&#42;</strong></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=8a507fba-8c93-4952-91e4-98e9e7affbd2">Windows Server 2008 para sistemas de 32 bits</a><br />
-(Baja)<strong>***</strong></td>
+(Baja)<strong>&#42;&#42;&#42;</strong></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Windows Server 2008 para sistemas x64</td>
 <td style="border:1px solid black;">No aplicable</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=05b0e838-24d7-4387-b069-2604bbcc43b9">Windows Internet Explorer 7</a><br />
-(Moderada)<strong>**</strong></td>
+(Moderada)<strong>&#42;&#42;</strong></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0b70fc2e-4e80-4ae8-8682-41ea04c24e4e">DirectX 10.0</a><br />
-(Crítica)<strong>**</strong></td>
+(Crítica)<strong>&#42;&#42;</strong></td>
 <td style="border:1px solid black;">No aplicable</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=b5cfe6f4-c5ba-4be9-a6b8-9381c40c85aa">Active Directory</a><br />
 (KB949014)<br />
-(Moderada)<strong>*</strong><br />
+(Moderada)<strong>&#42;</strong><br />
 <br />
 <a href="http://www.microsoft.com/downloads/details.aspx?familyid=b5cfe6f4-c5ba-4be9-a6b8-9381c40c85aa">AD LDS</a><br />
 (KB949014)<br />
-(Moderada)<strong>*</strong></td>
+(Moderada)<strong>&#42;</strong></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=304898e6-21a7-476f-b9ed-7ac0d88a91e2">Windows Server 2008 para sistemas x64</a><br />
-(Moderada)<strong>**</strong></td>
+(Moderada)<strong>&#42;&#42;</strong></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=1a11499d-a008-407f-9084-a5189fa27015">Windows Server 2008 para sistemas x64</a><br />
-(Baja)<strong>***</strong></td>
+(Baja)<strong>&#42;&#42;&#42;</strong></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows Server 2008 para sistemas con Itanium</td>
@@ -496,11 +497,14 @@ Esta tabla se puede usar para conocer las actualizaciones de seguridad que quiz�
 </table>
  
 
-**\*Instalación principal de servidor de Windows Server 2008 afectada.** Para ediciones compatibles de Windows Server 2008, esta actualización se aplica con la misma clasificación de gravedad, independientemente de si Windows Server 2008 se ha instalado con la opción de instalación Server Core. Para obtener más información acerca de esta opción de instalación, vea [Server Core](http://msdn.microsoft.com/en-us/library/ms723891(vs.85).aspx). Tenga en cuenta que la opción de instalación Server Core no se aplica a determinadas ediciones de Windows Server 2008; vea [Comparar opciones de instalación de Server Core](http://www.microsoft.com/windowsserver2008/en/us/compare-core-installation.aspx).
+**\*Instalación principal de servidor de Windows Server 2008 afectada.**  
+Para ediciones compatibles de Windows Server 2008, esta actualización se aplica con la misma clasificación de gravedad, independientemente de si Windows Server 2008 se ha instalado con la opción de instalación Server Core. Para obtener más información acerca de esta opción de instalación, vea [Server Core](http://msdn.microsoft.com/en-us/library/ms723891(vs.85).aspx). Tenga en cuenta que la opción de instalación Server Core no se aplica a determinadas ediciones de Windows Server 2008; vea [Comparar opciones de instalación de Server Core](http://www.microsoft.com/windowsserver2008/en/us/compare-core-installation.aspx).
 
-**\*\*Instalación principal de servidor de Windows Server 2008 no afectada.** Las vulnerabilidades corregidas por esta actualización no afectan a las ediciones compatibles de Windows Server 2008 si Windows Server 2008 se ha instalado con la opción de instalación Server Core. Para obtener más información acerca de esta opción de instalación, vea [Server Core](http://msdn.microsoft.com/en-us/library/ms723891(vs.85).aspx). Tenga en cuenta que la opción de instalación Server Core no se aplica a determinadas ediciones de Windows Server 2008; vea [Comparar opciones de instalación de Server Core](http://www.microsoft.com/windowsserver2008/en/us/compare-core-installation.aspx).
+**\*\*Instalación principal de servidor de Windows Server 2008 no afectada.**  
+Las vulnerabilidades corregidas por esta actualización no afectan a las ediciones compatibles de Windows Server 2008 si Windows Server 2008 se ha instalado con la opción de instalación Server Core. Para obtener más información acerca de esta opción de instalación, vea [Server Core](http://msdn.microsoft.com/en-us/library/ms723891(vs.85).aspx). Tenga en cuenta que la opción de instalación Server Core no se aplica a determinadas ediciones de Windows Server 2008; vea [Comparar opciones de instalación de Server Core](http://www.microsoft.com/windowsserver2008/en/us/compare-core-installation.aspx).
 
-**\*\*\*La instalación Server Core de Windows Server 2008 no está afectada, aunque de todas formas se le ofrecerá esta actualización.** Las vulnerabilidades corregidas por esta actualización no afectan a las ediciones compatibles Windows Server 2008 si Windows Server 2008 se ha instalado con la opción de instalación Server Core, aun cuando los archivos afectados por las vulnerabilidades puedan estar presentes en el sistema. No obstante, a los usuarios con los archivos afectados se les sigue ofreciendo esta actualización porque los archivos de actualización son más recientes (con números de versión más altos) que los que se encuentran actualmente en el sistema. Para obtener más información acerca de esta opción de instalación, vea [Server Core](http://msdn.microsoft.com/en-us/library/ms723891(vs.85).aspx). Tenga en cuenta que la opción de instalación Server Core no se aplica a determinadas ediciones de Windows Server 2008; vea [Comparar opciones de instalación de Server Core](http://www.microsoft.com/windowsserver2008/en/us/compare-core-installation.aspx).
+**\*\*\*La instalación Server Core de Windows Server 2008 no está afectada, aunque de todas formas se le ofrecerá esta actualización.**  
+Las vulnerabilidades corregidas por esta actualización no afectan a las ediciones compatibles Windows Server 2008 si Windows Server 2008 se ha instalado con la opción de instalación Server Core, aun cuando los archivos afectados por las vulnerabilidades puedan estar presentes en el sistema. No obstante, a los usuarios con los archivos afectados se les sigue ofreciendo esta actualización porque los archivos de actualización son más recientes (con números de versión más altos) que los que se encuentran actualmente en el sistema. Para obtener más información acerca de esta opción de instalación, vea [Server Core](http://msdn.microsoft.com/en-us/library/ms723891(vs.85).aspx). Tenga en cuenta que la opción de instalación Server Core no se aplica a determinadas ediciones de Windows Server 2008; vea [Comparar opciones de instalación de Server Core](http://www.microsoft.com/windowsserver2008/en/us/compare-core-installation.aspx).
 
 Herramientas y consejos para la detección e implementación
 ----------------------------------------------------------

@@ -4,7 +4,8 @@ Title: Resumen del boletín de seguridad de Microsoft de octubre 2008
 ms:assetid: 'ms08-oct'
 ms:contentKeyID: 61225394
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms08-oct(v=Security.10)'
---- Summary
+--- 
+
 
 Resumen del boletín de seguridad de Microsoft de octubre 2008
 =============================================================
