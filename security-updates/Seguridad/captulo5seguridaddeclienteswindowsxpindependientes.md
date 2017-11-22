@@ -15,10 +15,10 @@ Actualizado: 20/10/05
 
 ##### En esta página
 
-[](#eeaa)[Información general](#eeaa)
-[](#edaa)[Windows XP en un dominio Windows NT 4.0](#edaa)
-[](#ecaa)[Configuración del objeto de directiva de grupo local](#ecaa)
-[](#ebaa)[Importación de plantillas de seguridad a Windows XP](#ebaa)
+[](#eeaa)[Información general](#eeaa)  
+[](#edaa)[Windows XP en un dominio Windows NT 4.0](#edaa)  
+[](#ecaa)[Configuración del objeto de directiva de grupo local](#ecaa)  
+[](#ebaa)[Importación de plantillas de seguridad a Windows XP](#ebaa)  
 [](#eaaa)[Resumen](#eaaa)
 
 ### Información general
@@ -227,10 +227,9 @@ En la lista siguiente se explican los parámetros de la herramienta Secedit.exe.
   
 -   **/areas** *&lt;Área1&gt;* *&lt;Área2&gt;*. Especifica las áreas de seguridad que se van a aplicar al sistema. Si no se especifica este parámetro, se aplicará al sistema la configuración de directiva de seguridad definida en la base de datos. Para configurar varias áreas, separe cada una de ellas con un espacio. En la tabla siguiente se muestran las áreas de seguridad que se admiten.
   
-    **Tabla 5.2 Áreas de seguridad**
+**Tabla 5.2 Áreas de seguridad**
 
- 
-    <p> </p>
+<p> </p>
 <table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
@@ -282,8 +281,38 @@ Puede utilizar la siguiente secuencia de comandos para importar plantillas de se
   
 **Importante**: asegúrese de que el archivo de la base de datos de seguridad, **XP Default Security.sdb**, no está marcado como de sólo lectura. Para que la siguiente secuencia de comandos funcione correctamente, es necesario que se puedan realizar cambios en ese archivo.
   
-```  
- REM (c) Microsoft Corporation 1997-2005 REM Script for Securing Stand-Alone Windows XP Client Computers REM REM Name:        Standalone-EC-Desktop.cmd REM Version: 2.0 REM This CMD file provides the proper secedit.exe syntax for importing REM the security policy for a secure stand-alone Windows XP desktop REM client computer. Please read the entire guide before using this REM CMD file. REM Resets the Policy to Default Values secedit.exe /configure /cfg %windir%\\repair\\secsetup.inf /db secsetup.sdb /verbose REM Sets the Account Settings secedit.exe /configure /db "XP Default Security.sdb" /cfg "Standalone-EC-Account.inf" /overwrite /quiet REM Sets the Security Settings secedit.exe /configure /db "XP Default Security.sdb" /cfg "EC-Desktop.inf" REM Deletes the Shared Folder reg delete "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\ MyComputer\\NameSpace\\DelegateFolders\\ {59031a47-3f72-44a7-89c5-5595fe6b30ee}" /f REM Updates the Local Policy gpupdate.exe /force   
+```
+REM (c) Microsoft Corporation 1997-2005
+
+REM Script for Securing Stand-Alone Windows XP Client Computers
+REM
+REM Name:        Standalone-EC-Desktop.cmd
+REM Version:     2.0
+
+REM This CMD file provides the proper secedit.exe syntax for importing
+REM the security policy for a secure stand-alone Windows XP desktop 
+REM client computer. Please read the entire guide before using this 
+REM CMD file.
+
+REM Resets the Policy to Default Values
+secedit.exe /configure /cfg %windir%\repair\secsetup.inf 
+/db secsetup.sdb /verbose
+
+REM Sets the Account Settings
+secedit.exe /configure /db "XP Default Security.sdb" 
+/cfg "Standalone-EC-Account.inf" /overwrite /quiet
+
+REM Sets the Security Settings
+secedit.exe /configure /db "XP Default Security.sdb" 
+/cfg "EC-Desktop.inf"
+
+REM Deletes the Shared Folder
+reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\
+MyComputer\NameSpace\DelegateFolders\
+{59031a47-3f72-44a7-89c5-5595fe6b30ee}" /f
+
+REM Updates the Local Policy
+gpupdate.exe /force
 ```  
 En las siguientes tablas se incluye una lista de las secuencias de comandos y los archivos asociados que se incluyen en esta guía. Para cada entorno, hay archivos tanto para equipos cliente de escritorio como equipos cliente portátiles.
   
