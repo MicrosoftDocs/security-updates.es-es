@@ -15,33 +15,33 @@ Actualizado: 27/12/05
 
 ##### En esta página
 
-[](#ekaa)[Información general](#ekaa)
-[](#ejaa)[Directiva de línea de base de Windows Server 2003](#ejaa)
-[](#eiaa)[Directiva de auditoría](#eiaa)
-[](#ehaa)[Asignaciones de derechos de usuario](#ehaa)
-[](#egaa)[Opciones de seguridad](#egaa)
-[](#efaa)[Registro de eventos](#efaa)
-[](#eeaa)[Entradas de registro adicionales](#eeaa)
-[](#edaa)[Grupos restringidos](#edaa)
-[](#ecaa)[Seguridad del sistema de archivos](#ecaa)
-[](#ebaa)[Configuración de seguridad adicional](#ebaa)
+[](#ekaa)[Información general](#ekaa)  
+[](#ejaa)[Directiva de línea de base de Windows Server 2003](#ejaa)  
+[](#eiaa)[Directiva de auditoría](#eiaa)  
+[](#ehaa)[Asignaciones de derechos de usuario](#ehaa)  
+[](#egaa)[Opciones de seguridad](#egaa)  
+[](#efaa)[Registro de eventos](#efaa)  
+[](#eeaa)[Entradas de registro adicionales](#eeaa)  
+[](#edaa)[Grupos restringidos](#edaa)  
+[](#ecaa)[Seguridad del sistema de archivos](#ecaa)  
+[](#ebaa)[Configuración de seguridad adicional](#ebaa)  
 [](#eaaa)[Resumen](#eaaa)
 
 ### Información general
 
-En este capítulo se documentan los requisitos de configuración para administrar una plantilla de seguridad de línea de base para todos los servidores que ejecutan Microsoft® Windows Server™ 2003 con Service Pack 1 (SP1). También se proporciona una orientación administrativa para instalar y configurar un sistema seguro basado en Windows Server 2003 con SP1 en tres entornos distintos. Los requisitos de configuración de este capítulo constituyen la línea de base para todos los procedimientos descritos en los capítulos posteriores de esta guía. Estos capítulos describen cómo reforzar la seguridad de funciones específicas de servidor.
+En este capítulo se documentan los requisitos de configuración para administrar una plantilla de seguridad de línea de base para todos los servidores que ejecutan Microsoft® Windows Server™ 2003 con Service Pack 1 (SP1). También se proporciona una orientación administrativa para instalar y configurar un sistema seguro basado en Windows Server 2003 con SP1 en tres entornos distintos. Los requisitos de configuración de este capítulo constituyen la línea de base para todos los procedimientos descritos en los capítulos posteriores de esta guía. Estos capítulos describen cómo reforzar la seguridad de funciones específicas de servidor.
 
 Las recomendaciones de configuración de este capítulo permitirán instaurar seguridad en la base de los servidores de aplicaciones empresariales de un entorno de empresa. Sin embargo, es necesario probar exhaustivamente la interacción de estas configuraciones de seguridad con las aplicaciones empresariales de su organización antes de implementarlas en los entornos de producción.
 
-Las recomendaciones de este capítulo son adecuadas para la mayoría de las organizaciones y se pueden implementar en equipos nuevos o existentes que ejecuten Windows Server 2003 con SP1. El equipo que ha elaborado esta guía ha investigado, revisado y probado las configuraciones de seguridad predeterminadas dentro de Windows Server 2003 con SP1. Para obtener información acerca de todas las configuraciones predeterminadas y una explicación detallada sobre las que se describen en este capítulo, consulte la guía complementaria [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159), que está disponible en [http://go.microsoft.com/fwlink/?LinkId=15159](http://go.microsoft.com/fwlink/?linkid=15159). Normalmente, la mayoría de las siguientes recomendaciones de configuración ofrecen una mayor seguridad que las configuraciones predeterminadas.
+Las recomendaciones de este capítulo son adecuadas para la mayoría de las organizaciones y se pueden implementar en equipos nuevos o existentes que ejecuten Windows Server 2003 con SP1. El equipo que ha elaborado esta guía ha investigado, revisado y probado las configuraciones de seguridad predeterminadas dentro de Windows Server 2003 con SP1. Para obtener información acerca de todas las configuraciones predeterminadas y una explicación detallada sobre las que se describen en este capítulo, consulte la guía complementaria [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159), que está disponible en [http://go.microsoft.com/fwlink/?LinkId=15159](http://go.microsoft.com/fwlink/?linkid=15159). Normalmente, la mayoría de las siguientes recomendaciones de configuración ofrecen una mayor seguridad que las configuraciones predeterminadas.
 
 Las configuraciones de seguridad que se analizan en este capítulo están relacionadas con los tres entornos siguientes:
 
--   **Cliente heredado (LC).** Este entorno incluye equipos que ejecutan Windows NT® 4.0 y Microsoft Windows® 98, a los que a veces se les denomina sistemas operativos *heredados*. Aunque este entorno proporciona una seguridad adecuada, es el menos seguro de los tres que se definen en esta guía. Para contar con una mayor seguridad, las organizaciones pueden decidir migrar al entorno Cliente de empresa, que es más seguro. Además de los sistemas operativos heredados a los que se ha hecho referencia, el entorno LC incluye estaciones de trabajo con Windows 2000 Professional y Windows XP Professional. Este entorno sólo contiene controladores de dominio con Windows 2000 o Windows Server 2003. No existen controladores de dominio con Windows NT 4.0 en este entorno, pero es posible que existan servidores miembro con Windows NT.
+-   **Cliente heredado (LC).** Este entorno incluye equipos que ejecutan Windows NT® 4.0 y Microsoft Windows® 98, a los que a veces se les denomina sistemas operativos *heredados*. Aunque este entorno proporciona una seguridad adecuada, es el menos seguro de los tres que se definen en esta guía. Para contar con una mayor seguridad, las organizaciones pueden decidir migrar al entorno Cliente de empresa, que es más seguro. Además de los sistemas operativos heredados a los que se ha hecho referencia, el entorno LC incluye estaciones de trabajo con Windows 2000 Professional y Windows XP Professional. Este entorno sólo contiene controladores de dominio con Windows 2000 o Windows Server 2003. No existen controladores de dominio con Windows NT 4.0 en este entorno, pero es posible que existan servidores miembro con Windows NT.
 
--   **Cliente de empresa (EC)**. Este entorno proporciona una seguridad sólida y está diseñado para las versiones más recientes del sistema operativo Windows. Incluye equipos cliente que ejecutan Windows 2000 Professional y Windows XP Professional. La mayoría del trabajo que es necesario realizar para migrar del entorno LC al entorno EC está relacionado con las actualizaciones de los clientes heredados; por ejemplo, de Windows 98 y Windows NT 4.0 Workstation a Windows 2000 o Windows XP. Todos los controladores de dominio y servidores miembro de este entorno ejecutan Windows 2000 Server o Windows Server 2003.
+-   **Cliente de empresa (EC)**. Este entorno proporciona una seguridad sólida y está diseñado para las versiones más recientes del sistema operativo Windows. Incluye equipos cliente que ejecutan Windows 2000 Professional y Windows XP Professional. La mayoría del trabajo que es necesario realizar para migrar del entorno LC al entorno EC está relacionado con las actualizaciones de los clientes heredados; por ejemplo, de Windows 98 y Windows NT 4.0 Workstation a Windows 2000 o Windows XP. Todos los controladores de dominio y servidores miembro de este entorno ejecutan Windows 2000 Server o Windows Server 2003.
 
--   **Seguridad especializada: Funcionalidad limitada (SSLF)**. Este entorno ofrece una seguridad más sólida que el entorno EC. La migración del entorno EC al entorno SSLF requiere el cumplimiento de estrictas directivas de seguridad en los equipos cliente y en los servidores. Este entorno incluye equipos cliente que ejecutan Windows 2000 Professional y Windows XP Professional, así como controladores de dominio con Windows 2000 Server o Windows Server 2003. En el entorno SSLF, la preocupación por la seguridad es tan importante que se considera aceptable una pérdida significativa de funcionalidad y de capacidad de administración de los clientes a cambio de lograr el máximo nivel de seguridad. Los servidores miembro de este entorno ejecutan Windows 2000 Server o Windows Server 2003.
+-   **Seguridad especializada: Funcionalidad limitada (SSLF)**. Este entorno ofrece una seguridad más sólida que el entorno EC. La migración del entorno EC al entorno SSLF requiere el cumplimiento de estrictas directivas de seguridad en los equipos cliente y en los servidores. Este entorno incluye equipos cliente que ejecutan Windows 2000 Professional y Windows XP Professional, así como controladores de dominio con Windows 2000 Server o Windows Server 2003. En el entorno SSLF, la preocupación por la seguridad es tan importante que se considera aceptable una pérdida significativa de funcionalidad y de capacidad de administración de los clientes a cambio de lograr el máximo nivel de seguridad. Los servidores miembro de este entorno ejecutan Windows 2000 Server o Windows Server 2003.
 
 Advertirá que en muchos casos el entorno SSLF establece de forma explícita el valor predeterminado. Debe tener en cuenta que esta configuración afectará a la compatibilidad, ya que es posible que se produzcan errores en las aplicaciones que intenten ajustar localmente algunos valores de configuración. Por ejemplo, algunas aplicaciones necesitan ajustar las asignaciones de derechos de usuario para conceder privilegios adicionales a las cuentas de servicios. Como las directivas de grupo tienen prioridad sobre la directiva del equipo local, se pueden generar errores en estas operaciones. Antes de implementar las configuraciones recomendadas en los equipos de producción, especialmente las relativas al entorno SSLF, debe probar minuciosamente todas las aplicaciones.
 
@@ -55,7 +55,7 @@ Las organizaciones que deseen garantizar la seguridad de sus entornos mediante u
 
 La siguiente figura muestra cómo las plantillas de seguridad del archivo .inf se utilizan como base para la directiva de línea de base de servidores miembro (MSBP) del entorno Cliente de empresa. En la figura también se indica una manera posible de vincular y aplicar esta directiva a todos los servidores de una organización.
 
-Windows Server 2003 con SP1 se proporciona con los valores predeterminados para crear un entorno seguro. En muchos casos, en este capítulo se recomiendan configuraciones que difieren de los valores predeterminados. En el capítulo también se aplican valores predeterminados específicos para los tres entornos. Para obtener más información acerca de todas las configuraciones predeterminadas, consulte la guía complementaria, [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159), que está disponible en http://go.microsoft.com/fwlink/?LinkId=15159.
+Windows Server 2003 con SP1 se proporciona con los valores predeterminados para crear un entorno seguro. En muchos casos, en este capítulo se recomiendan configuraciones que difieren de los valores predeterminados. En el capítulo también se aplican valores predeterminados específicos para los tres entornos. Para obtener más información acerca de todas las configuraciones predeterminadas, consulte la guía complementaria, [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159), que está disponible en http://go.microsoft.com/fwlink/?LinkId=15159.
 
 [![](images/Cc163121.sgfg0402(es-es,TechNet.10).gif)](https://technet.microsoft.com/es-es/cc163121.sgfg0402_big(es-es,technet.10).gif)
 
@@ -109,7 +109,7 @@ Muchas de las siguientes configuraciones que aparecen en la directiva MSBP del e
   
 En el resto del capítulo se describen las configuraciones de seguridad que son comunes a los tres entornos y, por tanto, todas las plantillas de seguridad de **línea de base de servidores miembro**.
   
-Las plantillas de seguridad de línea de base constituyen también la base para las plantillas de seguridad de controladores de dominio que se definen en el capítulo 5, "Directiva de línea de base de controladores de dominio". Las plantillas de seguridad de la **función de controladores de dominio** incluyen la configuración de línea de base del GPO Directiva de grupo de controladores de dominio, que está vinculado a la UO Controladores de dominio en los tres entornos. En el capítulo 2, "Mecanismos de seguridad de Windows Server 2003", se proporcionan instrucciones paso a paso para crear las UO y las directivas de grupo y, a continuación, importar la plantilla de seguridad adecuada en cada GPO.
+Las plantillas de seguridad de línea de base constituyen también la base para las plantillas de seguridad de controladores de dominio que se definen en el capítulo 5, "Directiva de línea de base de controladores de dominio". Las plantillas de seguridad de la **función de controladores de dominio** incluyen la configuración de línea de base del GPO Directiva de grupo de controladores de dominio, que está vinculado a la UO Controladores de dominio en los tres entornos. En el capítulo 2, "Mecanismos de seguridad de Windows Server 2003", se proporcionan instrucciones paso a paso para crear las UO y las directivas de grupo y, a continuación, importar la plantilla de seguridad adecuada en cada GPO.
   
 **Nota**: algunos de los procedimientos utilizados para reforzar la seguridad de los servidores no se pueden automatizar mediante la directiva de grupo. Estos procedimientos se describen en la sección "Configuración de seguridad adicional" de este capítulo.
   
@@ -137,12 +137,12 @@ Antes de implementar una directiva de auditoría, las organizaciones deben deter
   
 La tabla siguiente incluye recomendaciones de configuración de la directiva de auditoría para los tres entornos definidos en esta guía. Es posible que observe que la configuración de la mayoría de los valores es similar en los tres entornos. La información adicional de cada configuración se proporciona en las subsecciones que se muestran después de la tabla.
   
-Puede configurar los valores de configuración de la directiva de auditoría en Windows Server 2003 con SP1 en la siguiente ubicación del Editor de objetos de directiva de grupo:
+Puede configurar los valores de configuración de la directiva de auditoría en Windows Server 2003 con SP1 en la siguiente ubicación del Editor de objetos de directiva de grupo:
   
 **Configuración del equipo\\Configuración de Windows\\Configuración de seguridad\\Directivas locales**  
 **\\Directiva de auditoría**
   
-Para obtener un resumen de la configuración recomendada en esta sección, consulte el libro de Microsoft Excel® "Windows Server 2003 Security Guide Settings" que se incluye con la versión descargable de esta guía. Para obtener más información acerca de la configuración predeterminada y una explicación detallada de las configuraciones descritas en esta sección, consulte la guía complementaria, [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159), que está disponible en [http://go.microsoft.com/fwlink/?LinkId=15159](http://go.microsoft.com/fwlink/?linkid=15159).
+Para obtener un resumen de la configuración recomendada en esta sección, consulte el libro de Microsoft Excel® "Windows Server 2003 Security Guide Settings" que se incluye con la versión descargable de esta guía. Para obtener más información acerca de la configuración predeterminada y una explicación detallada de las configuraciones descritas en esta sección, consulte la guía complementaria, [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159), que está disponible en [http://go.microsoft.com/fwlink/?LinkId=15159](http://go.microsoft.com/fwlink/?linkid=15159).
   
 **Tabla 4.2 Configuraciones de la directiva de auditoría**
 
@@ -241,11 +241,11 @@ La tabla siguiente incluye los eventos de seguridad importantes que esta configu
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">672</td>
-<td style="border:1px solid black;">Se ha emitido y validado con éxito un vale del servicio de autenticación (AS). En Windows Server 2003 con SP1, este evento será de tipo Auditoría de aciertos para las solicitudes correctas o de tipo Auditoría de errores para las solicitudes con errores.</td>
+<td style="border:1px solid black;">Se ha emitido y validado con éxito un vale del servicio de autenticación (AS). En Windows Server 2003 con SP1, este evento será de tipo Auditoría de aciertos para las solicitudes correctas o de tipo Auditoría de errores para las solicitudes con errores.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">673</td>
-<td style="border:1px solid black;">Se ha otorgado un vale del servicio de otorgamiento de vales (TGS). Un TGS es un vale emitido por el servicio TGS de Kerberos versión 5 que permite a un usuario autenticarse en un servicio específico del dominio. Windows Server 2003 con SP1 registrará los aciertos y errores de este tipo de evento.</td>
+<td style="border:1px solid black;">Se ha otorgado un vale del servicio de otorgamiento de vales (TGS). Un TGS es un vale emitido por el servicio TGS de Kerberos versión 5 que permite a un usuario autenticarse en un servicio específico del dominio. Windows Server 2003 con SP1 registrará los aciertos y errores de este tipo de evento.</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">674</td>
@@ -257,11 +257,11 @@ La tabla siguiente incluye los eventos de seguridad importantes que esta configu
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">676</td>
-<td style="border:1px solid black;">Error de la petición del vale de autenticación. Windows Server 2003 con SP1 no genera este evento. Este evento se utiliza en otras versiones de Windows para indicar un error en la autenticación que no se debe al uso de credenciales incorrectas.</td>
+<td style="border:1px solid black;">Error de la petición del vale de autenticación. Windows Server 2003 con SP1 no genera este evento. Este evento se utiliza en otras versiones de Windows para indicar un error en la autenticación que no se debe al uso de credenciales incorrectas.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">677</td>
-<td style="border:1px solid black;">No se ha otorgado un vale TGS. Windows Server 2003 con SP1 no genera este evento. Para este caso, Windows Server 2003 con SP1 utiliza un evento de tipo Auditoría de errores con el Id. 672.</td>
+<td style="border:1px solid black;">No se ha otorgado un vale TGS. Windows Server 2003 con SP1 no genera este evento. Para este caso, Windows Server 2003 con SP1 utiliza un evento de tipo Auditoría de errores con el Id. 672.</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">678</td>
@@ -397,8 +397,9 @@ La tabla siguiente incluye los eventos de seguridad importantes que esta configu
 <td style="border:1px solid black;">Se ha eliminado una cuenta de equipo.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;">648    </td>
+<td style="border:1px solid black;">648</td>
 <td style="border:1px solid black;">Se ha creado un grupo de seguridad local con la seguridad deshabilitada.
+
 <strong>Nota</strong>: SECURITY_DISABLED formalmente significa que este grupo no puede usarse para conceder permisos en las comprobaciones de acceso.</td>
 </tr>
 <tr class="even">
@@ -482,8 +483,9 @@ La tabla siguiente incluye los eventos de seguridad importantes que esta configu
 <td style="border:1px solid black;">Se ha modificado un tipo de grupo.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;">684    </td>
+<td style="border:1px solid black;">684    </td>
 <td style="border:1px solid black;">Se ha establecido el descriptor de seguridad de los miembros del grupo administrativo.
+
 <strong>Nota</strong>: en un controlador de dominio, cada 60 minutos, un subproceso en segundo plano busca todos los miembros de los grupos administrativos (como los administradores de dominio, empresariales y del esquema) y les aplica un descriptor fijo de seguridad. Este evento queda registrado.</td>
 </tr>
 <tr class="odd">
@@ -503,9 +505,8 @@ Aunque no modifique los valores predeterminados de esta configuración de direct
   
 La tabla siguiente incluye los eventos de seguridad importantes que esta configuración de directiva registra en el registro de seguridad.
   
-**Tabla 4.5 Auditar eventos de inicio de sesión    **
+**Tabla 4.5 Auditar eventos de inicio de sesión**
 
- 
 <p> </p>
 <table style="border:1px solid black;">
 <colgroup>
@@ -556,8 +557,9 @@ La tabla siguiente incluye los eventos de seguridad importantes que esta configu
 <td style="border:1px solid black;">Error de inicio de sesión. El servicio de inicio de cuenta de red no se encuentra activo.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;">537    </td>
+<td style="border:1px solid black;">537    </td>
 <td style="border:1px solid black;">Error de inicio de sesión. Error en el intento de inicio de sesión por otras razones.
+
 <strong>Nota</strong>: en algunos casos, el motivo del error de inicio de sesión puede ser desconocido.</td>
 </tr>
 <tr class="odd">
@@ -581,8 +583,9 @@ La tabla siguiente incluye los eventos de seguridad importantes que esta configu
 <td style="border:1px solid black;">Se ha finalizado el canal de datos.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;">543    </td>
+<td style="border:1px solid black;">543    </td>
 <td style="border:1px solid black;">Se ha finalizado el modo principal.
+
 <strong>Nota</strong>: esto puede ocurrir porque ha caducado el límite de tiempo de la asociación de seguridad (el valor predeterminado es de ocho horas), hay cambios en la directiva o se ha producido una finalización recíproca.</td>
 </tr>
 <tr class="odd">
@@ -626,8 +629,9 @@ La tabla siguiente incluye los eventos de seguridad importantes que esta configu
 <td style="border:1px solid black;">Un usuario se ha conectado de nuevo a una sesión de servidor de terminal desconectada.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;">683    </td>
+<td style="border:1px solid black;">683    </td>
 <td style="border:1px solid black;">Un usuario ha desconectado una sesión de Servicios de Terminal Server, pero no la ha cerrado.
+
 <strong>Nota</strong>: este evento se genera cuando un usuario está conectado a una sesión de Servicios de Terminal Server en la red. Aparece en el servidor de la terminal.</td>
 </tr>
 </tbody>
@@ -679,8 +683,9 @@ La tabla siguiente incluye los eventos de seguridad importantes que esta configu
 <td style="border:1px solid black;">Se ha cerrado un identificador para un objeto.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;">563    </td>
+<td style="border:1px solid black;">563    </td>
 <td style="border:1px solid black;">Se ha intentado abrir un objeto con la intención de eliminarlo.
+
 <strong>Nota</strong>: los sistemas de archivos utilizan este evento cuando se especifica el indicador FILE_DELETE_ON_CLOSE en Createfile().</td>
 </tr>
 <tr class="even">
@@ -692,8 +697,9 @@ La tabla siguiente incluye los eventos de seguridad importantes que esta configu
 <td style="border:1px solid black;">Se ha otorgado acceso a un tipo de objeto existente.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;">567    </td>
+<td style="border:1px solid black;">567    </td>
 <td style="border:1px solid black;">Se ha utilizado un permiso asociado a un identificador.
+
 <strong>Nota</strong>: se crea un identificador con determinados permisos concedidos, como de lectura y escritura. Cuando se utiliza el identificador, se genera un máximo de una auditoría para cada uno de los permisos utilizados.</td>
 </tr>
 <tr class="odd">
@@ -705,8 +711,9 @@ La tabla siguiente incluye los eventos de seguridad importantes que esta configu
 <td style="border:1px solid black;">El administrador de recursos de la aplicación Administrador de autorización ha intentado crear un contexto cliente.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;">570    </td>
+<td style="border:1px solid black;">570    </td>
 <td style="border:1px solid black;">Un cliente ha intentado obtener acceso a un objeto.
+
 <strong>Nota</strong>: se generará un evento por cada operación que se intente realizar en el objeto.</td>
 </tr>
 <tr class="even">
@@ -827,7 +834,7 @@ La tabla siguiente incluye los eventos de seguridad importantes que esta configu
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">799</td>
-<td style="border:1px solid black;">Los Servicios de Certificate Server publicaron el certificado de la entidad de certificación (CA) en Active Directory.</td>
+<td style="border:1px solid black;">Los Servicios de Certificate Server publicaron el certificado de la entidad de certificación (CA) en Active Directory.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">800</td>
@@ -933,23 +940,27 @@ La tabla siguiente incluye los eventos de seguridad importantes que esta configu
 <td style="border:1px solid black;">La directiva de auditoría se ha actualizado de forma individual para cada usuario.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;">768    </td>
+<td style="border:1px solid black;">768    </td>
 <td style="border:1px solid black;">Se ha detectado una colisión entre un elemento de espacio de nombres de un bosque y un elemento de espacio de nombres de otro bosque.
+
 <strong>Nota</strong>: cuando un elemento de espacio de nombres de un bosque se superpone a un elemento de otro bosque, se puede producir ambigüedad en la resolución de nombres de los elementos de espacio de nombres. Esta coincidencia también se conoce como colisión. No todos los parámetros son válidos para todos los tipos de entrada. Por ejemplo, los campos como el nombre DNS, el nombre NetBIOS y el SID no son válidos para una entrada del tipo 'TopLevelName'.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;">769    </td>
+<td style="border:1px solid black;">769    </td>
 <td style="border:1px solid black;">Se ha agregado información de confianza del bosque.
+
 <strong>Nota</strong>: este mensaje de evento se genera cuando la información de confianza del bosque se actualiza y se agregan una o varias entradas. Se genera un mensaje de evento por cada entrada agregada, eliminada o modificada. Si se agregan, eliminan o modifican varias entradas en una actualización individual de la información de confianza del bosque, se asigna a todos los mensajes de evento generados un identificador único exclusivo denominado Id. de operación. Esta funcionalidad le permite saber que los diversos mensajes de evento generados son el resultado de una sola operación. No todos los parámetros son válidos para todos los tipos de entrada. Por ejemplo, los parámetros como el nombre DNS, el nombre NetBIOS y el SID no son válidos para una entrada del tipo &quot;TopLevelName&quot;.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;">770    </td>
+<td style="border:1px solid black;">770    </td>
 <td style="border:1px solid black;">Se ha eliminado información de confianza del bosque.
+
 <strong>Nota</strong>: consulte la descripción del evento 769.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;">771    </td>
+<td style="border:1px solid black;">771    </td>
 <td style="border:1px solid black;">Se ha modificado información de confianza del bosque.
+
 <strong>Nota</strong>: consulte la descripción del evento 769.</td>
 </tr>
 <tr class="odd">
@@ -1002,8 +1013,9 @@ La tabla siguiente incluye los eventos de seguridad importantes que esta configu
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;">576    </td>
+<td style="border:1px solid black;">576    </td>
 <td style="border:1px solid black;">Se han agregado los privilegios especificados al testigo de acceso de un usuario.
+
 <strong>Nota</strong>: este evento se genera cuando el usuario inicia sesión.</td>
 </tr>
 <tr class="even">
@@ -1058,8 +1070,9 @@ La tabla siguiente incluye los eventos de seguridad importantes que esta configu
 <td style="border:1px solid black;">Se ha obtenido acceso indirecto a un objeto.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;">596    </td>
+<td style="border:1px solid black;">596    </td>
 <td style="border:1px solid black;">Se ha realizado una copia de seguridad de una clave de sesión de protección de datos.
+
 <strong>Nota</strong>: las rutinas CryptProtectData y CryptUnprotectData y el sistema de cifrado de archivos (EFS) utilizan la clave de sesión de protección. Se realiza una copia de seguridad de la clave de sesión de protección cada vez que se crea una nueva (la configuración predeterminada es de 90 días). Generalmente, es un controlador de dominio el que realiza la copia de la clave.</td>
 </tr>
 <tr class="even">
@@ -1144,8 +1157,9 @@ La tabla siguiente incluye los eventos de tipo Correcto más útiles para esta c
 <td style="border:1px solid black;">Un proceso utiliza un puerto LPC (llamada a procedimiento local) no válido para hacerse pasar por un cliente y responder, leer o escribir en un espacio de dirección de cliente.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;">520    </td>
+<td style="border:1px solid black;">520    </td>
 <td style="border:1px solid black;">Se ha modificado la hora del sistema.
+
 <strong>Nota</strong>: esta auditoría aparece normalmente dos veces.</td>
 </tr>
 </tbody>
@@ -1160,16 +1174,16 @@ Las asignaciones de derechos de usuario proporcionan a los usuarios y grupos der
 
 **Nota**: en esta sección, se utiliza "No está definido" para referirse únicamente a los usuarios; los administradores siguen teniendo el derecho de usuario. Los administradores locales pueden realizar cambios, pero cualquier parámetro de Directiva de grupo basado en el dominio los anulará la próxima vez que las directivas de grupo se actualicen o se vuelvan a aplicar.
 
-Puede establecer los valores de configuración de las asignaciones de derechos de usuario en Windows Server 2003 con SP1 en la siguiente ubicación del Editor de objetos de directiva de grupo:
+Puede establecer los valores de configuración de las asignaciones de derechos de usuario en Windows Server 2003 con SP1 en la siguiente ubicación del Editor de objetos de directiva de grupo:
 
 **Configuración del equipo\\Configuración de Windows\\Configuración de seguridad\\Directivas locales**
 **\\Asignación de derechos de usuario**
 
-Las asignaciones de derechos de usuario predeterminadas difieren según los diversos tipos de servidores de la organización. Por ejemplo, Windows Server 2003 asigna derechos diferentes a los grupos integrados de los servidores miembro y de los controladores de dominio. (En la siguiente lista no se detallan las similitudes existentes entre los grupos integrados de los distintos tipos de servidor.)
+Las asignaciones de derechos de usuario predeterminadas difieren según los diversos tipos de servidores de la organización. Por ejemplo, Windows Server 2003 asigna derechos diferentes a los grupos integrados de los servidores miembro y de los controladores de dominio. (En la siguiente lista no se detallan las similitudes existentes entre los grupos integrados de los distintos tipos de servidor.)
 
 -   **Servidores miembro**
 
-    -   **Usuarios avanzados**. Poseen la mayoría de las capacidades administrativas con algunas restricciones. Pueden ejecutar aplicaciones heredadas además de aplicaciones certificadas para Windows Server 2003 con SP1 o Windows XP.
+    -   **Usuarios avanzados**. Poseen la mayoría de las capacidades administrativas con algunas restricciones. Pueden ejecutar aplicaciones heredadas además de aplicaciones certificadas para Windows Server 2003 con SP1 o Windows XP.
 
     -   **HelpServicesGroup**. Es el grupo del Centro de ayuda y soporte técnico. Support\_388945a0 es miembro de este grupo de forma predeterminada.
 
@@ -1181,13 +1195,13 @@ Las asignaciones de derechos de usuario predeterminadas difieren según los dive
 
     -   **Servicios de licencias de Terminal Server**. Los miembros de este grupo tienen acceso a los servidores de licencias de Terminal Server de la red.
 
-    -   **Grupo de acceso de autorización de Windows**.** **Los miembros de este grupo tienen acceso al atributo informático tokenGroupsGlobalAndUniversal en objetos de usuario.
+    -   **Grupo de acceso de autorización de Windows**. Los miembros de este grupo tienen acceso al atributo informático tokenGroupsGlobalAndUniversal en objetos de usuario.
 
 El grupo **Invitados** y las cuentas de usuario Invitado y Support\_388945a0 tienen SID únicos entre diferentes dominios. Por lo tanto, quizás sea necesario modificar esta directiva de grupo para las asignaciones de derechos de usuario en los equipos donde sólo exista el grupo de destino específico. Asimismo, las plantillas de directivas se pueden editar individualmente a fin de incluir los grupos adecuados dentro de los archivos .inf. Por ejemplo, se puede crear una directiva de grupo del controlador de dominio en un controlador de dominio que se encuentre en un entorno de prueba.
 
 **Nota**: a causa de que existen SID únicos entre los miembros del grupo **Invitados**, Support\_388945a0 e Invitado, algunas configuraciones utilizadas para reforzar la seguridad de los servidores no se puede automatizar mediante las plantillas de seguridad incluidas en esta guía. Estas configuraciones se describen en la sección "Configuración de seguridad adicional" de este capítulo.
 
-En esta sección se proporcionan detalles sobre la configuración recomendada de asignaciones de derechos de usuario de la directiva MSBP para los tres entornos definidos en esta guía. Para obtener un resumen de las configuraciones recomendadas en esta sección, consulte el libro de Microsoft Excel "Windows Server 2003 Security Guide Settings" que se incluye con la versión descargable de esta guía. Para obtener más información acerca de la configuración predeterminada y una explicación detallada de las configuraciones descritas en esta sección, consulte la guía complementaria, *Amenazas y contramedidas: configuración de seguridad en Windows* *Server* *2003 y Windows* *XP*.
+En esta sección se proporcionan detalles sobre la configuración recomendada de asignaciones de derechos de usuario de la directiva MSBP para los tres entornos definidos en esta guía. Para obtener un resumen de las configuraciones recomendadas en esta sección, consulte el libro de Microsoft Excel "Windows Server 2003 Security Guide Settings" que se incluye con la versión descargable de esta guía. Para obtener más información acerca de la configuración predeterminada y una explicación detallada de las configuraciones descritas en esta sección, consulte la guía complementaria, *Amenazas y contramedidas: configuración de seguridad en Windows* *Server* *2003 y Windows* *XP*.
 
 La tabla siguiente incluye recomendaciones de configuración de las asignaciones de derechos de usuario para los tres entornos definidos en esta guía. La información adicional de cada configuración se proporciona en las subsecciones que se muestran después de la tabla.
 
@@ -1449,7 +1463,7 @@ todas las cuentas de servicios que NO sean del sistema operativo</td>
   
 Esta configuración de directiva determina los usuarios y grupos con autorización para conectarse al equipo a través de la red. Es necesaria para una serie de protocolos de red, entre los que se encuentran los protocolos basados en bloques de mensajes de servidor (SMB), NetBIOS, el sistema común de archivos de Internet (CIFS) y el modelo de objetos componentes Plus (COM+).
   
-**Tener acceso a este equipo desde la red** se configura como **No está definido** para los entornos LC y EC. Sin embargo, aunque los permisos asignados al grupo de seguridad **Todos** de Windows Server 2003 con SP1 ya no otorgan acceso a los usuarios anónimos, los grupos y las cuentas de invitados todavía pueden tener asignado acceso mediante el grupo de seguridad **Todos**. Por esta razón, en el entorno SSLF se deniega el derecho de usuario **Tener acceso a este equipo desde la red** al grupo de seguridad **Todos**, lo que permite ofrecer una protección frente a los ataques que pretenden tener acceso al dominio como invitado. Sólo los grupos **Administradores**, **Usuarios autenticados** y **ENTERPRISE DOMAIN CONTROLLERS** tienen asignado este derecho de usuario en el entorno SSLF.
+**Tener acceso a este equipo desde la red** se configura como **No está definido** para los entornos LC y EC. Sin embargo, aunque los permisos asignados al grupo de seguridad **Todos** de Windows Server 2003 con SP1 ya no otorgan acceso a los usuarios anónimos, los grupos y las cuentas de invitados todavía pueden tener asignado acceso mediante el grupo de seguridad **Todos**. Por esta razón, en el entorno SSLF se deniega el derecho de usuario **Tener acceso a este equipo desde la red** al grupo de seguridad **Todos**, lo que permite ofrecer una protección frente a los ataques que pretenden tener acceso al dominio como invitado. Sólo los grupos **Administradores**, **Usuarios autenticados** y **ENTERPRISE DOMAIN CONTROLLERS** tienen asignado este derecho de usuario en el entorno SSLF.
   
 #### Actuar como parte del sistema operativo
   
@@ -1525,7 +1539,7 @@ Esta configuración de directiva determina los usuarios que pueden adjuntar un d
   
 **Depurar programas** se configura como **No está definido** para el entorno LC. Para el entorno EC, este derecho de usuario sólo se asigna al grupo **Administradores**. Sin embargo, para el entorno SSLF, esta configuración de directiva se configura en un valor nulo o en blanco, lo que significa que ningún grupo de seguridad o cuenta tendrá este derecho de usuario.
   
-**Nota**: si en Windows Server 2003 con SP1 se quita el derecho de usuario **Depurar programas**, es posible que no se pueda utilizar el servicio Windows Update. Sin embargo, las revisiones se pueden descargar manualmente e instalarse o aplicarse por otros medios. Quitar este derecho de usuario también puede afectar al Servicio de clúster. Para obtener más información, consulte el artículo de Microsoft Knowledge Base sobre [cómo aplicar una configuración de seguridad más restrictiva a un servidor de clúster basado en Windows Server 2003](http://support.microsoft.com/?kbid=891597) en <http://support.microsoft.com/?kbid=891597> (en inglés).
+**Nota**: si en Windows Server 2003 con SP1 se quita el derecho de usuario **Depurar programas**, es posible que no se pueda utilizar el servicio Windows Update. Sin embargo, las revisiones se pueden descargar manualmente e instalarse o aplicarse por otros medios. Quitar este derecho de usuario también puede afectar al Servicio de clúster. Para obtener más información, consulte el artículo de Microsoft Knowledge Base sobre [cómo aplicar una configuración de seguridad más restrictiva a un servidor de clúster basado en Windows Server 2003](http://support.microsoft.com/?kbid=891597) en <http://support.microsoft.com/?kbid=891597> (en inglés).
   
 #### Denegar el acceso desde la red a este equipo
   
@@ -1581,7 +1595,7 @@ Esta configuración de directiva determina si los usuarios pueden apagar los equ
   
 Esta configuración de directiva determina si un proceso puede generar registros de auditoría en el registro de seguridad. Como el registro de seguridad se puede utilizar para hacer un seguimiento del acceso no autorizado, un atacante puede utilizar las cuentas que pueden escribir en dicho registro para llenarlo con eventos que carecen de sentido. Si configura el equipo de modo que se sobrescriban los eventos cuando sea necesario, el atacante podría usar esta capacidad para eliminar la evidencia de las actividades no autorizadas que realiza. Si configura el equipo para apagarse cuando no se pueda escribir en el registro de seguridad, un atacante podría utilizar esta capacidad para crear una condición DoS.
   
-**Generar auditorías de seguridad** se configura como **No está definido** para los entornos LC y EC. Este derecho de usuario sólo se asigna a las cuentas SERVICIO DE RED y SERVICIO LOCAL para el entorno SSLF.  
+**Generar auditorías de seguridad** se configura como **No está definido** para los entornos LC y EC. Este derecho de usuario sólo se asigna a las cuentas SERVICIO DE RED y SERVICIO LOCAL para el entorno SSLF.  
   
 #### Suplantar a un cliente después de la autenticación
   
@@ -1615,11 +1629,11 @@ Esta configuración de directiva determina si una entidad principal de seguridad
   
 #### Administrar registros de auditoría y de seguridad
   
-Esta configuración de directiva** **determina si los usuarios pueden especificar opciones de auditoría de acceso a objetos para recursos individuales, como archivos, objetos de Active Directory y claves del Registro. Este derecho de usuario proporciona muchas capacidades y es necesario vigilarlo de cerca. Cualquier usuario con este derecho puede borrar el registro de seguridad, así como posiblemente evidencias importantes sobre las actividades no autorizadas.
+Esta configuración de directiva determina si los usuarios pueden especificar opciones de auditoría de acceso a objetos para recursos individuales, como archivos, objetos de Active Directory y claves del Registro. Este derecho de usuario proporciona muchas capacidades y es necesario vigilarlo de cerca. Cualquier usuario con este derecho puede borrar el registro de seguridad, así como posiblemente evidencias importantes sobre las actividades no autorizadas.
   
 **Administrar registros de auditoría y de seguridad** se configura como **No está definido** para los entornos LC y EC. Sin embargo, este derecho del usuario se asigna sólo al grupo **Administradores** del entorno SSLF.
   
-**Importante**: Microsoft Exchange Server 2003 modifica este derecho de usuario en la directiva predeterminada de controladores de dominio durante el proceso de instalación. Para obtener más detalles, consulte la información disponible en línea sobre la [implementación de Exchange Server 2003](http://www.microsoft.com/technet/prodtechnol/exchange/guides/e2k3adperm/110e37bf-a68c-47bb-b4d5-1cfd539d9cba.mspx) en [http://www.microsoft.com/technet/prodtechnol/exchange/guides/E2k3ADPerm/110e37bf-a68c-47bb-b4d5-1cfd539d9cba.mspx](http://www.microsoft.com/technet/prodtechnol/exchange/guides/e2k3adperm/110e37bf-a68c-47bb-b4d5-1cfd539d9cba.mspx) (en inglés). Si este derecho de usuario está restringido al grupo del administrador, Exchange registrará con frecuencia mensajes de error en el registro de eventos de aplicación. Si usa Exchange Server 2003, deberá ajustar el valor de esta configuración para los controladores de dominio. Al igual que con el resto de las configuraciones recomendadas en esta guía, es posible que deba realizar algunos ajustes para que las aplicaciones de la organización funcionen con normalidad.
+**Importante**: Microsoft Exchange Server 2003 modifica este derecho de usuario en la directiva predeterminada de controladores de dominio durante el proceso de instalación. Para obtener más detalles, consulte la información disponible en línea sobre la [implementación de Exchange Server 2003](http://www.microsoft.com/technet/prodtechnol/exchange/guides/e2k3adperm/110e37bf-a68c-47bb-b4d5-1cfd539d9cba.mspx) en [http://www.microsoft.com/technet/prodtechnol/exchange/guides/E2k3ADPerm/110e37bf-a68c-47bb-b4d5-1cfd539d9cba.mspx](http://www.microsoft.com/technet/prodtechnol/exchange/guides/e2k3adperm/110e37bf-a68c-47bb-b4d5-1cfd539d9cba.mspx) (en inglés). Si este derecho de usuario está restringido al grupo del administrador, Exchange registrará con frecuencia mensajes de error en el registro de eventos de aplicación. Si usa Exchange Server 2003, deberá ajustar el valor de esta configuración para los controladores de dominio. Al igual que con el resto de las configuraciones recomendadas en esta guía, es posible que deba realizar algunos ajustes para que las aplicaciones de la organización funcionen con normalidad.
   
 #### Modificar valores de entorno del firmware
   
@@ -1677,7 +1691,7 @@ La configuración predeterminada de **Sincronizar los datos del servicio de dire
   
 #### Tomar posesión de archivos u otros objetos
   
-Esta configuración de directiva determina si los usuarios puede tomar posesión de cualquier objeto que se pueda asegurar en la red, como los objetos de Active Directory, los archivos y carpetas del sistema de archivos NTFS, las impresoras, las claves del Registro, los servicios, los procesos y los subprocesos.
+Esta configuración de directiva determina si los usuarios puede tomar posesión de cualquier objeto que se pueda asegurar en la red, como los objetos de Active Directory, los archivos y carpetas del sistema de archivos NTFS, las impresoras, las claves del Registro, los servicios, los procesos y los subprocesos.
   
 **Tomar posesión de archivos u otros objetos** se configura como **No está definido** para los entornos LC y EC. Sin embargo, debe asignar este derecho de usuario sólo al grupo **Administradores** para el entorno SSLF.
   
@@ -1687,14 +1701,14 @@ Esta configuración de directiva determina si los usuarios puede tomar posesión
   
 Las configuraciones de directiva de la sección Opciones de seguridad de la directiva de grupo se utilizan para habilitar o deshabilitar capacidades y características, como el acceso a una unidad de disco o una unidad de CD-ROM y los mensajes de inicio de sesión. También sirven para configurar otras opciones, como las relacionadas con la firma digital de datos, los nombres de cuentas de administrador e invitado y el funcionamiento de la instalación de un controlador.
   
-Puede configurar los valores de configuración de las opciones de seguridad en Windows Server 2003 con SP1 en la siguiente ubicación del Editor de objetos de directiva de grupo:
+Puede configurar los valores de configuración de las opciones de seguridad en Windows Server 2003 con SP1 en la siguiente ubicación del Editor de objetos de directiva de grupo:
   
 **Configuración del equipo\\Configuración de Windows\\Configuración de seguridad\\Directivas locales\\**  
 **Seguridad\\Opciones**
   
 No todas las configuraciones incluidas en esta sección existen en todos los tipos de equipos. Por lo tanto, puede que las configuraciones de la parte Opciones de seguridad de la directiva de grupo que se definen en esta sección se deban modificar manualmente en los equipos en los que estén presentes para que puedan funcionar por completo.
   
-En las siguientes secciones se proporcionan detalles sobre la configuración recomendada de las opciones de seguridad de la directiva MSBP para los tres entornos definidos en esta guía. Para obtener un resumen de la configuración recomendada, consulte el libro de Microsoft Excel "Windows Server 2003 Security Guide Settings" que se incluye con la versión descargable de esta guía. Para obtener información acerca de la configuración predeterminada y una explicación detallada de cada una de las configuraciones, consulte la guía complementaria, *Amenazas y contramedidas: configuración de seguridad en Windows* *Server* *2003 y Windows* *XP*.
+En las siguientes secciones se proporcionan detalles sobre la configuración recomendada de las opciones de seguridad de la directiva MSBP para los tres entornos definidos en esta guía. Para obtener un resumen de la configuración recomendada, consulte el libro de Microsoft Excel "Windows Server 2003 Security Guide Settings" que se incluye con la versión descargable de esta guía. Para obtener información acerca de la configuración predeterminada y una explicación detallada de cada una de las configuraciones, consulte la guía complementaria, *Amenazas y contramedidas: configuración de seguridad en Windows* *Server* *2003 y Windows* *XP*.
   
 En las tablas de las siguientes secciones se resume la configuración recomendada para los distintos tipos de opciones de seguridad. Las subsecciones a continuación de cada tabla proporcionan información detallada sobre las configuraciones.
   
@@ -1808,7 +1822,7 @@ Esta configuración de directiva audita el acceso de los objetos globales del si
   
 **Auditoría: auditar el acceso de objetos globales del sistema** se configura en el valor predeterminado **Deshabilitado** en la directiva de línea de base para los tres entornos definidos en esta guía.
   
-**Nota**: los cambios en la configuración de este parámetro de seguridad no tendrán efecto hasta que se reinicie Windows Server 2003.
+**Nota**: los cambios en la configuración de este parámetro de seguridad no tendrán efecto hasta que se reinicie Windows Server 2003.
   
 ##### Auditoría: auditar el uso del privilegio de copia de seguridad y restauración
   
@@ -1816,7 +1830,7 @@ Esta configuración de directiva determina si se debe auditar el uso de todos pr
   
 Por tanto, **Auditoría: auditar el uso del privilegio de copia de seguridad y restauración** se configura en el valor predeterminado **Deshabilitado** en la directiva de línea de base para los tres entornos definidos en esta guía.
   
-**Nota**: los cambios en la configuración de este parámetro de seguridad no tendrán efecto hasta que se reinicie Windows Server 2003.
+**Nota**: los cambios en la configuración de este parámetro de seguridad no tendrán efecto hasta que se reinicie Windows Server 2003.
   
 ##### Auditoría: apagar el sistema de inmediato si no puede registrar auditorías de seguridad
   
@@ -1919,7 +1933,7 @@ Esta configuración de directiva determina si los usuarios locales y remotos pue
   
 Esta configuración de directiva determina lo que ocurre ante un intento de instalar un controlador de dispositivo (mediante una API de instalación) no aprobado y firmado por el laboratorio de calidad de hardware de Windows (WHQL). En función de cómo se configure, se impedirá la instalación de controladores no firmados o se advertirá al administrador de que está a punto de instalar un controlador no firmado.
   
-**Dispositivos: comportamiento de instalación de controlador no firmado** se puede utilizar para impedir la instalación de controladores que no estén certificados para ejecutarse en Windows Server 2003 con SP1. Sin embargo, esta configuración de directiva se establece en **Avisar pero permitir la instalación** en la directiva de línea de base para los tres entornos definidos en esta guía. Uno de los problemas potenciales de esta configuración es que las secuencias de comandos de instalación desatendida generarán errores cuando se intenten instalar controladores no firmados.
+**Dispositivos: comportamiento de instalación de controlador no firmado** se puede utilizar para impedir la instalación de controladores que no estén certificados para ejecutarse en Windows Server 2003 con SP1. Sin embargo, esta configuración de directiva se establece en **Avisar pero permitir la instalación** en la directiva de línea de base para los tres entornos definidos en esta guía. Uno de los problemas potenciales de esta configuración es que las secuencias de comandos de instalación desatendida generarán errores cuando se intenten instalar controladores no firmados.
   
 #### Configuración de miembros de dominio
   
@@ -1969,12 +1983,12 @@ Esta configuración de directiva determina lo que ocurre ante un intento de inst
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">duración máxima de contraseña de cuenta de equipo</td>
-<td style="border:1px solid black;">30 días</td>
-<td style="border:1px solid black;">30 días</td>
-<td style="border:1px solid black;">30 días</td>
+<td style="border:1px solid black;">30 días</td>
+<td style="border:1px solid black;">30 días</td>
+<td style="border:1px solid black;">30 días</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;">requerir clave de sesión protegida (Windows 2000, Windows XP o Windows Server 2003)</td>
+<td style="border:1px solid black;">requerir clave de sesión protegida (Windows 2000, Windows XP o Windows Server 2003)</td>
 <td style="border:1px solid black;">Habilitada</td>
 <td style="border:1px solid black;">Habilitada</td>
 <td style="border:1px solid black;">Habilitada</td>
@@ -1988,7 +2002,7 @@ Esta configuración de directiva determina si todo el tráfico de canal seguro i
   
 **Miembro de dominio: descifrar o firmar digitalmente datos de un canal seguro (siempre)** se configura como **Deshabilitado** en la directiva de línea de base para el entorno LC y como **Habilitado** para los entornos EC y SSLF.
   
-**Nota**: con el objetivo de aprovechar las ventajas de esta configuración en las estaciones de trabajo y los servidores miembro, todos los controladores de dominio que formen parte del dominio del miembro deben ejecutar Windows NT 4.0 con Service Pack 6a o la versión más reciente de Windows. Además, esta configuración de directiva no es compatible con Windows 98 Second Edition, salvo que esté instalado Dsclient.
+**Nota**: con el objetivo de aprovechar las ventajas de esta configuración en las estaciones de trabajo y los servidores miembro, todos los controladores de dominio que formen parte del dominio del miembro deben ejecutar Windows NT 4.0 con Service Pack 6a o la versión más reciente de Windows. Además, esta configuración de directiva no es compatible con Windows 98 Second Edition, salvo que esté instalado Dsclient.
   
 ##### Miembro de dominio: descifrar digitalmente datos de un canal seguro (cuando sea posible)
   
@@ -2010,17 +2024,17 @@ Los equipos que no pueden cambiar automáticamente sus contraseñas de cuenta es
   
 ##### Miembro de dominio: duración máxima de contraseña de cuenta de equipo
   
-Esta configuración de directiva determina la antigüedad máxima permitida para la contraseña de una cuenta de equipo. También se aplica a los equipos con Windows 2000, pero no está disponible a través de las herramientas de Administrador de configuración de seguridad de los mismos. De forma predeterminada, los miembros de dominio cambian automáticamente sus contraseñas cada 30 días. Si se aumenta este intervalo de forma significativa o se establece en 0 para que los equipos no cambien las contraseñas, un atacante dispondrá de más tiempo para realizar un ataque de fuerza bruta y averiguar la contraseña de una o más cuentas del equipo.
+Esta configuración de directiva determina la antigüedad máxima permitida para la contraseña de una cuenta de equipo. También se aplica a los equipos con Windows 2000, pero no está disponible a través de las herramientas de Administrador de configuración de seguridad de los mismos. De forma predeterminada, los miembros de dominio cambian automáticamente sus contraseñas cada 30 días. Si se aumenta este intervalo de forma significativa o se establece en 0 para que los equipos no cambien las contraseñas, un atacante dispondrá de más tiempo para realizar un ataque de fuerza bruta y averiguar la contraseña de una o más cuentas del equipo.
   
 Por lo tanto, **Miembro de dominio: duración máxima de contraseña de cuenta de equipo** se configura como **30 días** en la directiva de línea de base para los tres entornos definidos en esta guía.
   
 ##### Miembro de dominio: requerir clave de sesión protegida (Windows 2000 o más reciente)
   
-Esta configuración de directiva determina si la seguridad de clave de 128 bits se requiere para los datos cifrados de canal seguro. Si se habilita, se podrá establecer un canal seguro sin cifrado de 128 bits. Si se deshabilita, el miembro de dominio deberá negociar la seguridad de clave con el controlador de dominio. Las claves de sesión utilizadas para establecer comunicaciones de canal seguro entre controladores de dominio y equipos miembro son mucho más seguras en Windows 2000 que en los sistemas operativos anteriores de Microsoft.
+Esta configuración de directiva determina si la seguridad de clave de 128 bits se requiere para los datos cifrados de canal seguro. Si se habilita, se podrá establecer un canal seguro sin cifrado de 128 bits. Si se deshabilita, el miembro de dominio deberá negociar la seguridad de clave con el controlador de dominio. Las claves de sesión utilizadas para establecer comunicaciones de canal seguro entre controladores de dominio y equipos miembro son mucho más seguras en Windows 2000 que en los sistemas operativos anteriores de Microsoft.
   
-Por lo tanto, debido a que los tres entornos de seguridad descritos en esta guía contienen controladores de dominio con Windows 2000 o versiones superiores, **Miembro de dominio: requerir clave de sesión protegida (Windows 2000 o más reciente)** se configura como **Habilitado** en la directiva de línea de base para los tres entornos.
+Por lo tanto, debido a que los tres entornos de seguridad descritos en esta guía contienen controladores de dominio con Windows 2000 o versiones superiores, **Miembro de dominio: requerir clave de sesión protegida (Windows 2000 o más reciente)** se configura como **Habilitado** en la directiva de línea de base para los tres entornos.
   
-**Nota**: si habilita esta configuración de directiva, no podrá unir equipos que ejecuten Windows 2000 a dominios con Windows NT 4.0.
+**Nota**: si habilita esta configuración de directiva, no podrá unir equipos que ejecuten Windows 2000 a dominios con Windows NT 4.0.
   
 #### Configuración de inicio de sesión interactivo
   
@@ -2082,9 +2096,9 @@ Por lo tanto, debido a que los tres entornos de seguridad descritos en esta guí
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">pedir al usuario cambiar la contraseña antes de que caduque</td>
-<td style="border:1px solid black;">14 días</td>
-<td style="border:1px solid black;">14 días</td>
-<td style="border:1px solid black;">14 días</td>
+<td style="border:1px solid black;">14 días</td>
+<td style="border:1px solid black;">14 días</td>
+<td style="border:1px solid black;">14 días</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">requerir la autenticación del controlador de dominio para desbloquear el equipo</td>
@@ -2159,7 +2173,7 @@ Para las cuentas de dominio, esta configuración de directiva determina si es ne
   
 Para impedir que esto ocurra, **Inicio de sesión interactivo: requerir la autenticación del controlador de dominio para desbloquear el equipo** se configura como **Habilitado** en la directiva de línea de base para los tres entornos definidos en esta guía.
   
-**Importante**: esta configuración de directiva es aplicable a los equipos que ejecutan Windows 2000, Windows XP y Windows Server 2003, pero no está disponible mediante las herramientas del Administrador de configuración de seguridad de los equipos que ejecutan Windows 2000.
+**Importante**: esta configuración de directiva es aplicable a los equipos que ejecutan Windows 2000, Windows XP y Windows Server 2003, pero no está disponible mediante las herramientas del Administrador de configuración de seguridad de los equipos que ejecutan Windows 2000.
   
 ##### Inicio de sesión interactivo: necesita una tarjeta inteligente
   
@@ -2220,7 +2234,7 @@ Esta configuración de directiva determina lo que ocurre cuando se quita la tarj
   
 ##### Cliente de redes de Microsoft: firmar digitalmente las comunicaciones (siempre)
   
-Esta configuración de directiva determina si el componente de cliente SMB requiere la firma de paquetes. Si se habilita, los clientes de redes de Microsoft no podrán comunicarse con un servidor de red de Microsoft salvo que dicho servidor acepte realizar la firma de paquetes SMB. En entornos mixtos con clientes heredados, esta opción se debe establecer en **Deshabilitado**, ya que estos clientes no podrán autenticarse en los controladores de dominio ni obtener acceso a dichos controladores. Sin embargo, se puede usar esta opción en entornos que ejecuten Windows 2000, Windows XP y Windows Server 2003. Los entornos EC y SSLF definidos en esta guía sólo contienen equipos que ejecutan estos sistemas operativos y todos ellos son compatibles con firmas digitales.
+Esta configuración de directiva determina si el componente de cliente SMB requiere la firma de paquetes. Si se habilita, los clientes de redes de Microsoft no podrán comunicarse con un servidor de red de Microsoft salvo que dicho servidor acepte realizar la firma de paquetes SMB. En entornos mixtos con clientes heredados, esta opción se debe establecer en **Deshabilitado**, ya que estos clientes no podrán autenticarse en los controladores de dominio ni obtener acceso a dichos controladores. Sin embargo, se puede usar esta opción en entornos que ejecuten Windows 2000, Windows XP y Windows Server 2003. Los entornos EC y SSLF definidos en esta guía sólo contienen equipos que ejecutan estos sistemas operativos y todos ellos son compatibles con firmas digitales.
   
 Por tanto, para aumentar la seguridad de las comunicaciones entre los equipos de este entorno, **Cliente de redes de Microsoft: firmar digitalmente las comunicaciones (siempre)** se configura como **Habilitado** en la directiva de línea de base para los entornos EC y SSLF.
   
@@ -2260,9 +2274,9 @@ Si se habilita, se permitirá al redirector SMB enviar contraseñas de texto sin
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">tiempo de inactividad requerido antes de suspender la sesión</td>
-<td style="border:1px solid black;">15 minutos</td>
-<td style="border:1px solid black;">15 minutos</td>
-<td style="border:1px solid black;">15 minutos</td>
+<td style="border:1px solid black;">15 minutos</td>
+<td style="border:1px solid black;">15 minutos</td>
+<td style="border:1px solid black;">15 minutos</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">firmar digitalmente las comunicaciones (siempre)</td>
@@ -2293,13 +2307,13 @@ Esta configuración de directiva determina el tiempo de inactividad continuado q
   
 ##### Servidor de red de Microsoft: firmar digitalmente las comunicaciones (siempre)
   
-Esta configuración de directiva determina si el componente de servidor SMB requiere la firma de paquetes antes de permitir cualquier comunicación con un cliente SMB. Windows 2000 Server, Windows 2000 Professional, Windows Server 2003 y Windows XP Professional incluyen versiones de SMB compatibles con la autenticación mutua, que impiden los intentos de secuestrar sesiones y es compatible con la autenticación de mensajes para evitar los ataques de tipo "hombre en el medio". La firma SMB proporciona esta autenticación colocando una firma digital en cada paquete SMB, que posteriormente comprueban el cliente y el servidor. Si los equipos se configuran para ignorar todas las comunicaciones SMB sin firmar, las aplicaciones y los sistemas operativos heredados no se podrán conectar entre sí. Si las firmas SMB se deshabilitan completamente, los equipos son vulnerables a ataques que intenten secuestrar sus sesiones de comunicación.
+Esta configuración de directiva determina si el componente de servidor SMB requiere la firma de paquetes antes de permitir cualquier comunicación con un cliente SMB. Windows 2000 Server, Windows 2000 Professional, Windows Server 2003 y Windows XP Professional incluyen versiones de SMB compatibles con la autenticación mutua, que impiden los intentos de secuestrar sesiones y es compatible con la autenticación de mensajes para evitar los ataques de tipo "hombre en el medio". La firma SMB proporciona esta autenticación colocando una firma digital en cada paquete SMB, que posteriormente comprueban el cliente y el servidor. Si los equipos se configuran para ignorar todas las comunicaciones SMB sin firmar, las aplicaciones y los sistemas operativos heredados no se podrán conectar entre sí. Si las firmas SMB se deshabilitan completamente, los equipos son vulnerables a ataques que intenten secuestrar sus sesiones de comunicación.
   
 **Servidor de red Microsoft: firmar digitalmente las comunicaciones (siempre)** se configura como **Deshabilitado** en la directiva de línea de base para el entorno LC y como **Habilitado** para los entornos EC y SSLF.
   
 ##### Servidor de red de Microsoft: firmar digitalmente las comunicaciones (si el servidor lo permite)
   
-Esta configuración de directiva determina si el servidor SMB negociará la firma de paquetes SMB con los clientes que lo soliciten. Windows 2000 Server, Windows 2000 Professional, Windows Server 2003 y Windows XP Professional incluyen versiones de SMB compatibles con la autenticación mutua, que bloquea los intentos de secuestro de sesiones y es compatible con la autenticación de mensajes para evitar los ataques de tipo "hombre en el medio". La firma SMB proporciona esta autenticación colocando una firma digital en cada paquete SMB, que posteriormente comprueban el cliente y el servidor. Si los equipos se configuran para ignorar todas las comunicaciones SMB sin firmar, las aplicaciones y los sistemas operativos heredados no se podrán conectar entre sí. Si las firmas SMB se deshabilitan completamente, los equipos son vulnerables a ataques que intenten secuestrar sus sesiones de comunicación.
+Esta configuración de directiva determina si el servidor SMB negociará la firma de paquetes SMB con los clientes que lo soliciten. Windows 2000 Server, Windows 2000 Professional, Windows Server 2003 y Windows XP Professional incluyen versiones de SMB compatibles con la autenticación mutua, que bloquea los intentos de secuestro de sesiones y es compatible con la autenticación de mensajes para evitar los ataques de tipo "hombre en el medio". La firma SMB proporciona esta autenticación colocando una firma digital en cada paquete SMB, que posteriormente comprueban el cliente y el servidor. Si los equipos se configuran para ignorar todas las comunicaciones SMB sin firmar, las aplicaciones y los sistemas operativos heredados no se podrán conectar entre sí. Si las firmas SMB se deshabilitan completamente, los equipos son vulnerables a ataques que intenten secuestrar sus sesiones de comunicación.
   
 **Servidor de red Microsoft: firmar digitalmente las comunicaciones (si el servidor lo permite)** se configura como **Habilitado** en la directiva de línea de base para los tres entornos definidos en esta guía.
   
@@ -2447,7 +2461,7 @@ Esta configuración de directiva determina los permisos adicionales que se otorg
   
 Por lo tanto, **Acceso de red: deja que los permisos de Todos se apliquen a los usuarios anónimos** se configura como **Deshabilitado** en la directiva de línea de base para los tres entornos definidos en esta guía.
   
-**Nota**: los dominios con esta configuración de directiva no podrán establecer o mantener confianzas con dominios o controladores de dominio con Windows NT 4.0.
+**Nota**: los dominios con esta configuración de directiva no podrán establecer o mantener confianzas con dominios o controladores de dominio con Windows NT 4.0.
   
 ##### Acceso de red: canalizaciones con nombre accesibles anónimamente
   
@@ -2592,7 +2606,7 @@ Esta configuración de directiva determina cómo se autentican los inicios de se
   
 ##### Seguridad de red: no almacenar valor de hash de LAN Manager en el próximo cambio de contraseña
   
-Esta configuración de directiva determina si el valor de hash de LAN Manager (LM) para la contraseña nueva se almacena al cambiar la contraseña. El hash de LM es relativamente débil y propenso a ataques en comparación con el hash de Windows NT, más seguro desde el punto de vista criptográfico.
+Esta configuración de directiva determina si el valor de hash de LAN Manager (LM) para la contraseña nueva se almacena al cambiar la contraseña. El hash de LM es relativamente débil y propenso a ataques en comparación con el hash de Windows NT, más seguro desde el punto de vista criptográfico.
   
 Por este motivo, **Seguridad de red: no almacenar valor de hash de LAN Manager en el próximo cambio de contraseña** se configura como **Habilitado** en la directiva de línea de base para los tres entornos de seguridad definidos en esta guía.
   
@@ -2647,11 +2661,11 @@ Esta configuración de directiva determina qué protocolo de autenticación desa
   
 Esta configuración de directiva se debe establecer con el nivel más alto que permita el entorno según las siguientes instrucciones:
   
-En un entorno que sólo incluya Windows NT 4.0 SP4, Windows 2000 y Windows XP Professional, establezca esta configuración de directiva como **Enviar sólo respuesta NTLMv2\\rechazar LM y NTLM** en todos los clientes y, a continuación, como **Enviar sólo respuesta NTLMv2\\rechazar LM y NTLM** en todos los servidores una vez configurados todos los clientes. La excepción a esta recomendación son los servidores de enrutamiento y acceso remoto de Windows Server 2003, que no funcionarán correctamente si se configura esta opción de directiva con un valor superior a **Enviar sólo respuesta NTLMv2\\rechazar LM**.
+En un entorno que sólo incluya Windows NT 4.0 SP4, Windows 2000 y Windows XP Professional, establezca esta configuración de directiva como **Enviar sólo respuesta NTLMv2\\rechazar LM y NTLM** en todos los clientes y, a continuación, como **Enviar sólo respuesta NTLMv2\\rechazar LM y NTLM** en todos los servidores una vez configurados todos los clientes. La excepción a esta recomendación son los servidores de enrutamiento y acceso remoto de Windows Server 2003, que no funcionarán correctamente si se configura esta opción de directiva con un valor superior a **Enviar sólo respuesta NTLMv2\\rechazar LM**.
   
 Es posible que el entorno EC deba ser compatible con servidores de enrutamiento y acceso remoto; por ello, para este entorno, **Seguridad de red: nivel de autenticación de LAN Manager** se configura como **Enviar sólo respuesta NTLMv2\\rechazar LM** en la directiva de línea de base. Los servidores de enrutamiento y acceso remoto no son compatibles con el entorno SSLF, por lo que esta configuración de directiva se configura como **Enviar sólo respuesta NTLMv2\\rechazar LM y NTLM**.
   
-Si existen clientes con Windows 9x en los que se puede instalar DSClient, se debe configurar como **Enviar sólo respuesta NTLMv2\\rechazar LM y NTLM** en los equipos que ejecuten Windows NT (Windows NT, Windows 2000 y Windows XP Professional). En caso contrario, se debe dejar configurada en un valor no superior a **Enviar sólo respuesta NTLMv2** en la directiva de línea de base para los equipos que no ejecuten Windows 9x, que es la configuración para el entorno LC.
+Si existen clientes con Windows 9x en los que se puede instalar DSClient, se debe configurar como **Enviar sólo respuesta NTLMv2\\rechazar LM y NTLM** en los equipos que ejecuten Windows NT (Windows NT, Windows 2000 y Windows XP Professional). En caso contrario, se debe dejar configurada en un valor no superior a **Enviar sólo respuesta NTLMv2** en la directiva de línea de base para los equipos que no ejecuten Windows 9x, que es la configuración para el entorno LC.
   
 Si detecta que hay aplicaciones que dan error cuando se habilita esta configuración de directiva, deshaga el procedimiento realizado paso a paso para descubrir dónde está el error. Como mínimo, esta configuración de directiva se debe establecer en **Enviar Lan Manager y NT Lan Manager: usar la seguridad de sesión NT Lan Manager versión 2 si se negocia** en la directiva de línea de base en todos los equipos. Normalmente, se puede configurar como **Enviar sólo respuesta NTLMv2** en todos los equipos del entorno.
   
@@ -2663,13 +2677,13 @@ Por lo tanto, **Seguridad de red: requisitos de firma de cliente LDAP** se confi
   
 ##### Seguridad de red: seguridad mínima de sesión para clientes basados en NTLM SSP (incluyendo RPC seguro)
   
-Esta configuración de directiva permite a un cliente solicitar la negociación de confidencialidad de mensaje (cifrado), firma de mensaje, cifrado de 128 bits o seguridad de sesión NTLM versión 2 (NTLMv2). Establezca esta configuración de directiva en un nivel de seguridad tan alto como sea posible, pero recuerde que todavía necesitará permitir el funcionamiento de las aplicaciones en la red. Una configuración apropiada en esta opción de directiva ayudará a asegurar que el tráfico de red desde los servidores basados en SSP de NTLM esté protegido de los ataques de tipo "hombre en el medio" y de la exposición de los datos.
+Esta configuración de directiva permite a un cliente solicitar la negociación de confidencialidad de mensaje (cifrado), firma de mensaje, cifrado de 128 bits o seguridad de sesión NTLM versión 2 (NTLMv2). Establezca esta configuración de directiva en un nivel de seguridad tan alto como sea posible, pero recuerde que todavía necesitará permitir el funcionamiento de las aplicaciones en la red. Una configuración apropiada en esta opción de directiva ayudará a asegurar que el tráfico de red desde los servidores basados en SSP de NTLM esté protegido de los ataques de tipo "hombre en el medio" y de la exposición de los datos.
   
 **Seguridad de red: seguridad mínima de sesión para clientes basados en NTLM SSP (incluyendo RPC seguro)** se configura como **Sin mínimo** en la directiva de línea de base para el entorno LC. Toda configuración se habilita para los entornos EC y SSLF.
   
 ##### Seguridad de red: seguridad mínima de sesión para servidores basados en NTLM SSP (incluyendo RPC seguro)
   
-Esta configuración de directiva permite a un servidor solicitar la negociación de confidencialidad de mensaje (cifrado), integridad de mensaje, cifrado de 128 bits o seguridad de sesión NTLMv2. Establezca esta configuración de directiva en un nivel de seguridad tan alto como sea posible, pero recuerde que todavía necesitará permitir el funcionamiento de las aplicaciones en la red. Al igual que en el caso de la configuración de directiva anterior, una configuración apropiada de esta opción de directiva ayudará a asegurar que el tráfico de red desde los clientes basados en SSP de NTLM esté protegido de los ataques de tipo "hombre en el medio" y de la exposición de los datos.
+Esta configuración de directiva permite a un servidor solicitar la negociación de confidencialidad de mensaje (cifrado), integridad de mensaje, cifrado de 128 bits o seguridad de sesión NTLMv2. Establezca esta configuración de directiva en un nivel de seguridad tan alto como sea posible, pero recuerde que todavía necesitará permitir el funcionamiento de las aplicaciones en la red. Al igual que en el caso de la configuración de directiva anterior, una configuración apropiada de esta opción de directiva ayudará a asegurar que el tráfico de red desde los clientes basados en SSP de NTLM esté protegido de los ataques de tipo "hombre en el medio" y de la exposición de los datos.
   
 **Seguridad de red: seguridad mínima de sesión para servidores basados en NTLM SSP (incluyendo RPC seguro)** se configura como **Sin mínimo** en la directiva de línea de base para el entorno LC. Toda configuración se habilita para los entornos EC y SSLF.
   
@@ -2930,7 +2944,7 @@ Esta configuración de directiva determina la seguridad de la lista de control d
   
 ##### Configuración del sistema: Subsistemas opcionales
   
-Esta configuración de directiva determina los subsistemas que se utilizarán para ofrecer compatibilidad con las aplicaciones del entorno. El valor predeterminado de esta configuración de directiva en Windows Server 2003 es **POSIX**.
+Esta configuración de directiva determina los subsistemas que se utilizarán para ofrecer compatibilidad con las aplicaciones del entorno. El valor predeterminado de esta configuración de directiva en Windows Server 2003 es **POSIX**.
   
 Para deshabilitar el subsistema POSIX, **Configuración del sistema: Subsistemas opcionales** se configura como **Ninguno** en la directiva de línea de base para los tres entornos definidos en esta guía.
   
@@ -2946,11 +2960,11 @@ Esta configuración de directiva determina si se procesan los certificados digit
   
 El registro de eventos registra los eventos del equipo, y el registro de seguridad, los eventos de auditoría. El contenedor del registro de eventos de la directiva de grupo se utiliza para definir los atributos de los registros de eventos de aplicación, seguridad y sistema; por ejemplo, el tamaño máximo del registro, los derechos de acceso para cada registro, y la configuración y los métodos de retención. Las configuraciones de los registros de eventos de aplicación, seguridad y sistema se establecen en la directiva MSBP y se aplican a todos los servidores miembro del dominio.
   
-Puede establecer la configuración del registro de eventos en Windows Server 2003 con SP1 en la siguiente ubicación del Editor de objetos de directiva de grupo:
+Puede establecer la configuración del registro de eventos en Windows Server 2003 con SP1 en la siguiente ubicación del Editor de objetos de directiva de grupo:
   
 **Configuración del equipo\\Configuración de Windows\\Configuración de seguridad\\Registro de eventos**
   
-En esta sección se proporcionan detalles sobre la configuración recomendada para los registros de eventos en la directiva MSBP para los tres entornos definidos en esta guía. Para obtener un resumen de las configuraciones recomendadas en esta sección, consulte el libro de Microsoft Excel "Windows Server 2003 Security Guide Settings", que está disponible en la versión descargable de esta guía. Para obtener información acerca de la configuración predeterminada y una explicación detallada sobre cada una de las configuraciones descritas en este capítulo, consulte la guía complementaria *Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows* *XP*, que está disponible en [http://go.microsoft.com/fwlink/?LinkId=15159](http://go.microsoft.com/fwlink/?linkid=15159).
+En esta sección se proporcionan detalles sobre la configuración recomendada para los registros de eventos en la directiva MSBP para los tres entornos definidos en esta guía. Para obtener un resumen de las configuraciones recomendadas en esta sección, consulte el libro de Microsoft Excel "Windows Server 2003 Security Guide Settings", que está disponible en la versión descargable de esta guía. Para obtener información acerca de la configuración predeterminada y una explicación detallada sobre cada una de las configuraciones descritas en este capítulo, consulte la guía complementaria *Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows* *XP*, que está disponible en [http://go.microsoft.com/fwlink/?LinkId=15159](http://go.microsoft.com/fwlink/?linkid=15159).
   
 La tabla siguiente incluye recomendaciones de configuración del registro de eventos para los tres entornos definidos en esta guía. La información adicional de cada configuración se proporciona en las subsecciones que se muestran después de la tabla.
   
@@ -2982,9 +2996,9 @@ La tabla siguiente incluye recomendaciones de configuración del registro de eve
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Tamaño máximo del registro de seguridad</td>
-<td style="border:1px solid black;">81.920 KB</td>
-<td style="border:1px solid black;">81.920 KB</td>
-<td style="border:1px solid black;">81.920 KB</td>
+<td style="border:1px solid black;">81.920 KB</td>
+<td style="border:1px solid black;">81.920 KB</td>
+<td style="border:1px solid black;">81.920 KB</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Tamaño máximo del registro del sistema</td>
@@ -3033,25 +3047,25 @@ La tabla siguiente incluye recomendaciones de configuración del registro de eve
   
 #### Tamaño máximo del registro de la aplicación
   
-Esta configuración de directiva especifica el tamaño máximo del registro de eventos de aplicación, que tiene una capacidad máxima de 4 GB. Sin embargo, no se recomienda este tamaño a causa del riesgo de fragmentación de memoria, que provoca una pérdida de rendimiento y errores en el registro de eventos. Los requisitos de tamaño del registro de aplicación varían en función de la plataforma y la necesidad de disponer de registros históricos de eventos relacionados con aplicaciones.
+Esta configuración de directiva especifica el tamaño máximo del registro de eventos de aplicación, que tiene una capacidad máxima de 4 GB. Sin embargo, no se recomienda este tamaño a causa del riesgo de fragmentación de memoria, que provoca una pérdida de rendimiento y errores en el registro de eventos. Los requisitos de tamaño del registro de aplicación varían en función de la plataforma y la necesidad de disponer de registros históricos de eventos relacionados con aplicaciones.
   
-**Tamaño máximo del registro de la aplicación** se configura en el valor predeterminado **16.384 KB** en la directiva de línea de base para los tres entornos definidos en esta guía.
+**Tamaño máximo del registro de la aplicación** se configura en el valor predeterminado **16.384 KB** en la directiva de línea de base para los tres entornos definidos en esta guía.
   
 #### Tamaño máximo del registro de seguridad
   
-Esta configuración de directiva especifica el tamaño máximo del registro de eventos de seguridad, que tiene una capacidad máxima de 4 GB. Debe configurar el registro de seguridad con un mínimo de 80 MB en los controladores de dominio y servidores independientes, capacidad que debería ser suficiente para almacenar la información para realizar auditorías. El modo de establecer esta configuración de directiva para otros equipos dependerá de factores como la frecuencia con que se revisará el registro, el espacio disponible en el disco, etc.
+Esta configuración de directiva especifica el tamaño máximo del registro de eventos de seguridad, que tiene una capacidad máxima de 4 GB. Debe configurar el registro de seguridad con un mínimo de 80 MB en los controladores de dominio y servidores independientes, capacidad que debería ser suficiente para almacenar la información para realizar auditorías. El modo de establecer esta configuración de directiva para otros equipos dependerá de factores como la frecuencia con que se revisará el registro, el espacio disponible en el disco, etc.
   
-**Tamaño máximo del registro de seguridad** se configura como **81.920 KB** en la directiva de línea de base para los tres entornos definidos en esta guía.
+**Tamaño máximo del registro de seguridad** se configura como **81.920 KB** en la directiva de línea de base para los tres entornos definidos en esta guía.
   
 #### Tamaño máximo del registro del sistema
   
-Esta configuración de directiva especifica el tamaño máximo del registro de eventos del sistema, que tiene una capacidad máxima de 4 GB. Sin embargo, no se recomienda este tamaño a causa del riesgo de fragmentación de memoria, que provoca una pérdida de rendimiento y errores en el registro de eventos. Los requisitos de tamaño del registro de sistema varían en función de la plataforma y la necesidad de disponer de registros históricos.
+Esta configuración de directiva especifica el tamaño máximo del registro de eventos del sistema, que tiene una capacidad máxima de 4 GB. Sin embargo, no se recomienda este tamaño a causa del riesgo de fragmentación de memoria, que provoca una pérdida de rendimiento y errores en el registro de eventos. Los requisitos de tamaño del registro de sistema varían en función de la plataforma y la necesidad de disponer de registros históricos.
   
-**Tamaño máximo del registro del sistema** se configura en el valor predeterminado **16.384 KB** en la directiva de línea de base para los tres entornos definidos en esta guía.
+**Tamaño máximo del registro del sistema** se configura en el valor predeterminado **16.384 KB** en la directiva de línea de base para los tres entornos definidos en esta guía.
   
 #### Evitar que el grupo de invitados locales tenga acceso al registro de aplicaciones
   
-Esta configuración de directiva determina si a los invitados se les deniega el acceso al registro de eventos de aplicación. De forma predeterminada, en Windows Server 2003 con SP1 los invitados tienen prohibido el acceso a todos los equipos. Por lo tanto, esta configuración de directiva no tiene efecto real en equipos con configuraciones predeterminadas.
+Esta configuración de directiva determina si a los invitados se les deniega el acceso al registro de eventos de aplicación. De forma predeterminada, en Windows Server 2003 con SP1 los invitados tienen prohibido el acceso a todos los equipos. Por lo tanto, esta configuración de directiva no tiene efecto real en equipos con configuraciones predeterminadas.
   
 Sin embargo, como esta configuración se considera una medida de defensa exhaustiva que no tiene efectos secundarios, **Evitar que el grupo de invitados locales tenga acceso al registro de aplicaciones** se configura como **Habilitado** en la directiva de línea de base para los tres entornos definidos en esta guía.
   
@@ -3067,7 +3081,7 @@ Sin embargo, como esta configuración se considera una medida de defensa exhaust
   
 #### Evitar que el grupo de invitados locales tenga acceso al registro del sistema
   
-Esta configuración de directiva determina si a los invitados se les deniega el acceso al registro de eventos del sistema. De forma predeterminada, en Windows Server 2003 con SP1 los invitados tienen prohibido el acceso a todos los equipos. Por lo tanto, esta configuración de directiva no tiene efecto real en equipos con configuraciones predeterminadas.
+Esta configuración de directiva determina si a los invitados se les deniega el acceso al registro de eventos del sistema. De forma predeterminada, en Windows Server 2003 con SP1 los invitados tienen prohibido el acceso a todos los equipos. Por lo tanto, esta configuración de directiva no tiene efecto real en equipos con configuraciones predeterminadas.
   
 Sin embargo, como esta configuración se considera una medida de defensa exhaustiva que no tiene efectos secundarios, **Evitar que el grupo de invitados locales tenga acceso al registro del sistema** se configura como **Habilitado** en la directiva de línea de base para los tres entornos definidos en esta guía.
   
@@ -3095,19 +3109,19 @@ Esta configuración de directiva determina el método de "ajuste" del registro d
   
 ### Entradas de registro adicionales
   
-Se han creado entradas del Registro (también conocidas como *valores del Registro*) adicionales para los archivos de plantilla de seguridad de línea de base que no se definen en el archivo de la plantilla administrativa (.adm) predeterminada para los tres entornos de seguridad definidos en esta guía. En los archivos .adm se definen las directivas y restricciones del escritorio, del shell y de la seguridad para Windows Server 2003.
+Se han creado entradas del Registro (también conocidas como *valores del Registro*) adicionales para los archivos de plantilla de seguridad de línea de base que no se definen en el archivo de la plantilla administrativa (.adm) predeterminada para los tres entornos de seguridad definidos en esta guía. En los archivos .adm se definen las directivas y restricciones del escritorio, del shell y de la seguridad para Windows Server 2003.
   
 Estas entradas del Registro se incluyen en las plantillas de seguridad (en la sección "Opciones de seguridad") para automatizar las modificaciones. Si se quita la directiva, no se quitarán automáticamente estas entradas del Registro; éstas se deben modificar manualmente mediante una herramienta de edición del Registro como Regedt32.exe. Se aplican las mismas entradas del Registro a los tres entornos.
   
 En esta guía se incluyen entradas del Registro adicionales que se agregan al Editor de configuración de seguridad (SCE). Para agregar estas entradas del Registro, es necesario modificar el archivo Sceregvl.Inf (disponible en la carpeta **%windir%\\inf**) y volver a registrar el archivo Scecli.dll. Las entradas de seguridad originales, así como las adicionales, se encuentran en **Directivas locales\\Seguridad** en los complementos y las herramientas que se han indicado previamente en este capítulo. Es necesario actualizar el archivo Sceregvl.inf y registrar el archivoScecli.dll de nuevo en los equipos en los que se vayan a editar las plantillas de seguridad y las directivas de grupo que se facilitan con esta guía. Hay disponible más información acerca de cómo actualizar estos archivos en la guía complementaria, [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159), que está disponible en [http://go.microsoft.com/fwlink/?LinkId=15159](http://go.microsoft.com/fwlink/?linkid=15159).
   
-Esta sección sólo constituye un resumen de las entradas adicionales del Registro que se describen más detalladamente en la guía complementaria. Para obtener más información acerca de la configuración predeterminada y una explicación detallada de las configuraciones descritas en esta sección, consulte la guía complementaria *Amenazas y contramedidas: configuración de seguridad en Windows* *Server* *2003 y Windows* *XP*.
+Esta sección sólo constituye un resumen de las entradas adicionales del Registro que se describen más detalladamente en la guía complementaria. Para obtener más información acerca de la configuración predeterminada y una explicación detallada de las configuraciones descritas en esta sección, consulte la guía complementaria *Amenazas y contramedidas: configuración de seguridad en Windows* *Server* *2003 y Windows* *XP*.
   
 #### Consideración de seguridad sobre los ataques en red
   
 Los ataques por denegación de servicio (DoS) son ataques de red que intentan hacer que un equipo o servicio determinado de un equipo no se encuentre disponible para los usuarios de la red. Los ataques de denegación de servicio (DoS) son difíciles de combatir.
   
-Para prevenirlos, sería recomendable mantener el equipo actualizado con las últimas correcciones de seguridad y reforzar la seguridad de la pila del protocolo TCP/IP en aquellos equipos en los que se ejecute Windows Server 2003 con SP1 y que estén expuestos a posibles atacantes. La configuración predeterminada de la pila TCP/IP se optimiza para el control del tráfico de la intranet estándar. En el caso de que se conecte un equipo directamente a Internet, Microsoft recomienda la consolidación de la pila TCP/IP frente a los ataques por servicio denegado (DoS).
+Para prevenirlos, sería recomendable mantener el equipo actualizado con las últimas correcciones de seguridad y reforzar la seguridad de la pila del protocolo TCP/IP en aquellos equipos en los que se ejecute Windows Server 2003 con SP1 y que estén expuestos a posibles atacantes. La configuración predeterminada de la pila TCP/IP se optimiza para el control del tráfico de la intranet estándar. En el caso de que se conecte un equipo directamente a Internet, Microsoft recomienda la consolidación de la pila TCP/IP frente a los ataques por servicio denegado (DoS).
   
 Puede agregar los valores del Registro de la siguiente tabla al archivo de plantilla en la subclave
   
@@ -3318,7 +3332,7 @@ subclave.
   
 Esta entrada aparece como **MSS: (NtfsDisable8dot3NameCreation) Enable the computer to stop generating 8.3 style filenames (recommended)** en SCE.
   
-Windows Server 2003 con SP1 es compatible con los formatos de nombre de archivo 8.3 para la compatibilidad con aplicaciones de 16 bits anteriores. La convención del nombre de archivo 8.3 es un formato de nombre que sólo permite nombres de archivo con una longitud máxima de ocho caracteres.
+Windows Server 2003 con SP1 es compatible con los formatos de nombre de archivo 8.3 para la compatibilidad con aplicaciones de 16 bits anteriores. La convención del nombre de archivo 8.3 es un formato de nombre que sólo permite nombres de archivo con una longitud máxima de ocho caracteres.
   
 Puede agregar este valor del Registro al archivo de plantilla en la
   
@@ -3355,7 +3369,7 @@ subclave.
   
 Esta entrada aparece como **MSS: (WarningLevel) Percentage threshold for the security event log at which the system will generate a warning** en SCE.
   
-Esta opción está disponible con el SP3 de Windows 2000. Genera una auditoría de seguridad en el registro de seguridad cuando el tamaño del mismo alcanza un umbral definido por el usuario. Por ejemplo, si se configura el valor de esta entrada del Registro en 90 y el registro de seguridad alcanza un 90% de capacidad, el registro mostrará la siguiente entrada con el Id. de evento 523: "The security event log is 90 percent full."
+Esta opción está disponible con el SP3 de Windows 2000. Genera una auditoría de seguridad en el registro de seguridad cuando el tamaño del mismo alcanza un umbral definido por el usuario. Por ejemplo, si se configura el valor de esta entrada del Registro en 90 y el registro de seguridad alcanza un 90% de capacidad, el registro mostrará la siguiente entrada con el Id. de evento 523: "The security event log is 90 percent full."
   
 **Nota**: si la configuración del registro se establece para **Sobrescribir eventos cuando sea necesario** o **Sobrescribir eventos que tengan más de x días**, no se generará este evento.
   
@@ -3385,7 +3399,7 @@ subclave.
   
 ##### Automatic Reboot: Allow Windows to automatically restart after a system crash
   
-Esta entrada aparece como **MSS: (AutoReboot) Allow Windows to automatically restart after a system crash** **(recommended except for highly secure environments)** en SCE.
+Esta entrada aparece como **MSS: (AutoReboot) Allow Windows to automatically restart after a system crash** **(recommended except for highly secure environments)** en SCE.
   
 Cuando esta entrada está habilitada, un servidor puede reiniciarse automáticamente tras un bloqueo grave. Está habilitada de forma predeterminada, lo que no es recomendable para los servidores altamente seguros.
   
@@ -3397,7 +3411,7 @@ subclave.
   
 ##### Automatic Logon: Enable Automatic Logon
   
-Esta entrada aparece como **MSS: (AutoAdminLogon) Enable Automatic Logon** **(not recommended)** en SCE. Esta entrada no está habilitada de forma predeterminada y no debe usarse nunca en un servidor, prácticamente en ninguna circunstancia imaginable.
+Esta entrada aparece como **MSS: (AutoAdminLogon) Enable Automatic Logon** **(not recommended)** en SCE. Esta entrada no está habilitada de forma predeterminada y no debe usarse nunca en un servidor, prácticamente en ninguna circunstancia imaginable.
   
 Para obtener más información, consulte el artículo de Microsoft Knowledge Base "[Habilitar el inicio de sesión automático en Windows X](http://support.microsoft.com/default.aspx?kbid=315231)" en [http://support.microsoft.com/?kbid=315231](http://support.microsoft.com/default.aspx?kbid=315231).
   
@@ -3406,11 +3420,11 @@ Puede agregar este valor del Registro al archivo de plantilla en la
 **HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\**  
 **Winlogon\\**
   
-subclave.    
+subclave.    
   
 ##### Administrative Shares: Enable Administrative Shares
   
-Esta entrada aparece como **MSS: (AutoShareWks) Enable Administrative Shares** **(recommended except for highly secure environments)** en SCE. De forma predeterminada, cuando las funciones de red de Windows están activadas en un servidor, Windows crea recursos compartidos administrativos ocultos, lo que no es recomendable en servidores altamente seguros.
+Esta entrada aparece como **MSS: (AutoShareWks) Enable Administrative Shares** **(recommended except for highly secure environments)** en SCE. De forma predeterminada, cuando las funciones de red de Windows están activadas en un servidor, Windows crea recursos compartidos administrativos ocultos, lo que no es recomendable en servidores altamente seguros.
   
 Puede agregar este valor del Registro al archivo de plantilla en la
   
@@ -3420,7 +3434,7 @@ subclave.
   
 ##### Disable Saved Passwords: Prevent the dial-up password from being saved
   
-Esta entrada aparece como **MSS: (DisableSavePassword) Prevent the dial-up password from being saved** **(recommended)** en SCE. De forma predeterminada, Windows ofrecerá la opción de guardar las contraseñas para las conexiones de acceso telefónico y VPN, lo que no es recomendable en un servidor.
+Esta entrada aparece como **MSS: (DisableSavePassword) Prevent the dial-up password from being saved** **(recommended)** en SCE. De forma predeterminada, Windows ofrecerá la opción de guardar las contraseñas para las conexiones de acceso telefónico y VPN, lo que no es recomendable en un servidor.
   
 Puede agregar este valor del Registro al archivo de plantilla en la
   
@@ -3431,7 +3445,7 @@ subclave.
   
 ##### Enable IPSec to protect Kerberos RSVP Traffic: Enable NoDefaultExempt for IPSec Filtering
   
-Esta entrada aparece como **MSS: (NoDefaultExempt) Enable NoDefaultExempt for IPSec Filtering** **(recommended)** en SCE. En la ayuda en pantalla de Microsoft Windows Server 2003 se detallan las exenciones predeterminadas a los filtros de la directiva IPSec. Estos filtros permiten el funcionamiento de Intercambio de claves de Internet (IKE) y del protocolo de autenticación Kerberos. Los filtros también permiten que se señale (RSVP) la calidad de servicio (QoS) de la red cuando el tráfico de datos está protegido mediante IPSec, así como el tráfico que IPSec no puede proteger (como el tráfico de multidifusión o difusión).
+Esta entrada aparece como **MSS: (NoDefaultExempt) Enable NoDefaultExempt for IPSec Filtering** **(recommended)** en SCE. En la ayuda en pantalla de Microsoft Windows Server 2003 se detallan las exenciones predeterminadas a los filtros de la directiva IPSec. Estos filtros permiten el funcionamiento de Intercambio de claves de Internet (IKE) y del protocolo de autenticación Kerberos. Los filtros también permiten que se señale (RSVP) la calidad de servicio (QoS) de la red cuando el tráfico de datos está protegido mediante IPSec, así como el tráfico que IPSec no puede proteger (como el tráfico de multidifusión o difusión).
   
 Puede agregar este valor del Registro al archivo de plantilla en la
   
@@ -3449,7 +3463,7 @@ Los grupos **Operadores de copia de seguridad** y **Usuarios avanzados** se han 
   
 **Nota :** si su organización utiliza cualquiera de estos grupos, controle con cuidado su asociación y no implemente la guía para la configuración de Grupos restringidos. Si su organización agrega usuarios al grupo Usuarios avanzados, es probable que desee implementar los permisos opcionales del sistema de archivos que se describen en la siguiente sección, “Seguridad del sistema de archivos”.
   
-Puede establecer la configuración de Grupos restringidos en Windows Server 2003 con SP1 en la siguiente ubicación del Editor de objetos de directiva de grupo:
+Puede establecer la configuración de Grupos restringidos en Windows Server 2003 con SP1 en la siguiente ubicación del Editor de objetos de directiva de grupo:
   
 **Configuración del equipo\\Configuración de Windows\\Configuración de seguridad\\Grupos restringidos**
   
@@ -3467,7 +3481,7 @@ Puede establecer la configuración de seguridad del sistema de archivos en la si
   
 **Nota**: es necesario probar exhaustivamente todos los cambios realizados en la configuración de seguridad predeterminada del sistema de archivos en un entorno de laboratorio antes de implementarlos en una organización de gran tamaño. Se han dado casos en que los permisos de archivos se han modificado hasta tal punto que los equipos afectados por ello se han tenido que reconstruir completamente.
   
-Los permisos predeterminados de archivos en Windows Server 2003 con SP1 son suficientes para la mayoría de las situaciones. Sin embargo, si no prevé bloquear los miembros que forman parte del grupo **Usuarios avanzados** con la característica Grupos restringidos o si planea habilitar la configuración **Acceso de red: deja que los permisos de Todos se apliquen a los usuarios anónimos**, es posible que desee aplicar los permisos opcionales que se describen a continuación. Son muy específicos y aplican restricciones adicionales a determinadas herramientas ejecutables que un usuario malintencionado con privilegios elevados podría usar para comprometer el equipo o la red.
+Los permisos predeterminados de archivos en Windows Server 2003 con SP1 son suficientes para la mayoría de las situaciones. Sin embargo, si no prevé bloquear los miembros que forman parte del grupo **Usuarios avanzados** con la característica Grupos restringidos o si planea habilitar la configuración **Acceso de red: deja que los permisos de Todos se apliquen a los usuarios anónimos**, es posible que desee aplicar los permisos opcionales que se describen a continuación. Son muy específicos y aplican restricciones adicionales a determinadas herramientas ejecutables que un usuario malintencionado con privilegios elevados podría usar para comprometer el equipo o la red.
   
 Observe cómo estos cambios no afectan a varias carpetas ni a la raíz del volumen del sistema. Puede resultar muy arriesgado cambiar los permisos de esa manera, además de que a menudo conlleva la inestabilidad del equipo. Todos los archivos siguientes se encuentran en la carpeta **%SystemRoot%\\System32\\** y a todos ellos se les han concedido los siguientes permisos: **Administradores: Control total,** **Sistema: Control total**.
   
@@ -3541,7 +3555,7 @@ Para su comodidad, estos permisos opcionales ya están configurados en la planti
   
 ### Configuración de seguridad adicional
   
-Aunque la mayoría de las contramedidas utilizadas en esta guía para reforzar la seguridad de los servidores de línea de base se han aplicado mediante la directiva de grupo, existen configuraciones adicionales que son bastante difíciles o casi imposibles de aplicar con la directiva de grupo. Para obtener una explicación detallada de las contramedidas descritas en esta sección, consulte la guía complementaria, [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159), que está disponible en [http://go.microsoft.com/fwlink/?LinkId=15159](http://go.microsoft.com/fwlink/?linkid=15159).
+Aunque la mayoría de las contramedidas utilizadas en esta guía para reforzar la seguridad de los servidores de línea de base se han aplicado mediante la directiva de grupo, existen configuraciones adicionales que son bastante difíciles o casi imposibles de aplicar con la directiva de grupo. Para obtener una explicación detallada de las contramedidas descritas en esta sección, consulte la guía complementaria, [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159), que está disponible en [http://go.microsoft.com/fwlink/?LinkId=15159](http://go.microsoft.com/fwlink/?linkid=15159).
   
 #### Procedimientos de consolidación manual
   
@@ -3549,7 +3563,7 @@ En esta sección se describe cómo se implementaron manualmente algunas contrame
   
 ##### Adición manual de grupos de seguridad únicos a las asignaciones de derechos de usuario
   
-La mayoría de los grupos de seguridad recomendados para las asignaciones de derechos de usuario se configuraron en las plantillas de seguridad que acompañan a esta guía. No obstante, existen algunos derechos que no se pueden incluir en las plantillas de seguridad, porque los identificadores de seguridad (SID) de determinados grupos de seguridad son únicos entre los distintos dominios de Windows Server 2003. El problema radica en que el RID (identificador relativo), que forma parte del SID (identificador de seguridad), es único. Estos derechos se incluyen en la tabla siguiente.
+La mayoría de los grupos de seguridad recomendados para las asignaciones de derechos de usuario se configuraron en las plantillas de seguridad que acompañan a esta guía. No obstante, existen algunos derechos que no se pueden incluir en las plantillas de seguridad, porque los identificadores de seguridad (SID) de determinados grupos de seguridad son únicos entre los distintos dominios de Windows Server 2003. El problema radica en que el RID (identificador relativo), que forma parte del SID (identificador de seguridad), es único. Estos derechos se incluyen en la tabla siguiente.
   
 **Advertencia**: en la siguiente tabla se incluyen valores para el administrador integrado. El administrador integrado es la cuenta de usuario integrada y *no* el grupo de seguridad **Administradores**. Si se agrega el grupo de seguridad **Administradores** a cualquiera de los derechos de usuario de denegación de acceso siguientes, deberá iniciar sesión localmente para corregir el error.
   
@@ -3605,7 +3619,7 @@ Para agregar manualmente los grupos de seguridad indicados a la directiva de lí
   
 **Para agregar grupos de seguridad a las asignaciones de derechos de usuario**
   
-1.  En Usuarios y equipos de Active Directory, haga clic con el botón secundario en la UO Servidores miembro y, a continuación, seleccione **Propiedades**.
+1.  En Usuarios y equipos de Active Directory, haga clic con el botón secundario en la UO Servidores miembro y, a continuación, seleccione **Propiedades**.
   
 2.  En la ficha **Directiva de grupo**, seleccione **Enterprise Client Member Server Baseline Policy** (directiva de línea de base de servidores miembros de Cliente de empresa) para editar el GPO vinculado.
   
@@ -3627,7 +3641,7 @@ Para agregar manualmente los grupos de seguridad indicados a la directiva de lí
   
 ##### Seguridad de las cuentas conocidas
   
-Windows Server 2003 con SP 1 dispone de una serie de cuentas de usuario integradas que no se pueden eliminar, pero a las que sí se les puede cambiar el nombre. Dos de las cuentas integradas más conocidas en Windows Server 2003 son Invitado y Administrador.
+Windows Server 2003 con SP 1 dispone de una serie de cuentas de usuario integradas que no se pueden eliminar, pero a las que sí se les puede cambiar el nombre. Dos de las cuentas integradas más conocidas en Windows Server 2003 son Invitado y Administrador.
   
 De forma predeterminada, se deshabilita la cuenta Invitado en los servidores miembro y controladores de dominio. Esta configuración no se debe modificar. Muchas variaciones de código malintencionado utilizan esta cuenta integrada Administrador como primer intento de acceso al servidor. Por tanto, se cambia el nombre de la cuenta de administrador integrada y se modifica su descripción para impedir que los atacantes que intenten usar esta cuenta conocida comprometan un servidor remoto.
   
@@ -3651,11 +3665,11 @@ A menos que sea absolutamente necesario, nunca configure un servicio para que se
   
 ##### NTFS
   
-Las particiones NTFS admiten las ACL en los niveles de archivo y carpeta. Esta compatibilidad no se encuentra disponible con la tabla de asignación de archivos (FAT) o los sistemas de archivos FAT32. FAT32 es una versión actualizada del sistema de archivos FAT que permite tamaños predeterminados de clúster significativamente más pequeños y admite discos duros con un tamaño máximo de dos terabytes. FAT32 se incluye en Windows 95 OSR2, Windows 98, Microsoft Windows Me, Windows 2000, Windows XP Professional y Windows Server 2003.
+Las particiones NTFS admiten las ACL en los niveles de archivo y carpeta. Esta compatibilidad no se encuentra disponible con la tabla de asignación de archivos (FAT) o los sistemas de archivos FAT32. FAT32 es una versión actualizada del sistema de archivos FAT que permite tamaños predeterminados de clúster significativamente más pequeños y admite discos duros con un tamaño máximo de dos terabytes. FAT32 se incluye en Windows 95 OSR2, Windows 98, Microsoft Windows Me, Windows 2000, Windows XP Professional y Windows Server 2003.
   
 Formatee todas las particiones en cada servidor con NTFS. Emplee la utilidad de conversión para convertir con cuidado particiones FAT a NTFS, pero no olvide que dicha utilidad configurará las listas ACL de la unidad convertida en **Todos: Control total**.
   
-En el caso de equipos que ejecuten Windows 2003 Server con SP1, aplique localmente las dos plantillas de seguridad siguientes para configurar las ACL predeterminadas de sistema de archivos en los servidores miembro y los controladores de dominio, respectivamente:
+En el caso de equipos que ejecuten Windows 2003 Server con SP1, aplique localmente las dos plantillas de seguridad siguientes para configurar las ACL predeterminadas de sistema de archivos en los servidores miembro y los controladores de dominio, respectivamente:
   
 -   **%windir%\\inf\\defltsv.inf**
   
@@ -3667,7 +3681,7 @@ Se ha dado formato a todas las particiones de los servidores de los tres entorno
   
 ##### Configuraciones de los Servicios de Terminal Server
   
-La configuración **Establecer nivel de cifrado de conexión de cliente** determina el nivel de cifrado para las conexiones de clientes de los Servicios de Terminal Server en el entorno. La opción de configuración **Nivel alto** que utiliza cifrado de 128 bits impide que los atacantes intercepten las sesiones de los Servicios de Terminal Server con un analizador de paquetes. Algunas versiones más antiguas del cliente de Servicios de Terminal Server no son compatibles con este nivel de cifrado alto. Si su red dispone de dichos clientes, configure el nivel de cifrado de la conexión para que envíe y reciba datos en el nivel de cifrado más alto permitido por el cliente.
+La configuración **Establecer nivel de cifrado de conexión de cliente** determina el nivel de cifrado para las conexiones de clientes de los Servicios de Terminal Server en el entorno. La opción de configuración **Nivel alto** que utiliza cifrado de 128 bits impide que los atacantes intercepten las sesiones de los Servicios de Terminal Server con un analizador de paquetes. Algunas versiones más antiguas del cliente de Servicios de Terminal Server no son compatibles con este nivel de cifrado alto. Si su red dispone de dichos clientes, configure el nivel de cifrado de la conexión para que envíe y reciba datos en el nivel de cifrado más alto permitido por el cliente.
   
 Puede establecer esta configuración en la siguiente ubicación de la directiva de grupo:
   
@@ -3723,7 +3737,7 @@ Los tres niveles disponibles de cifrado se describen en la tabla siguiente:
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Nivel alto</td>
-<td style="border:1px solid black;">Cifra los datos que se envían desde el cliente al servidor y desde el servidor al cliente con cifrado de 128 bits. Utilice este nivel siempre que Terminal Server se ejecute en un entorno que sólo incluya clientes de 128 bits, como los clientes de Conexión a Escritorio remoto. Los clientes que no admitan este nivel de cifrado no se podrán conectar.</td>
+<td style="border:1px solid black;">Cifra los datos que se envían desde el cliente al servidor y desde el servidor al cliente con cifrado de 128 bits. Utilice este nivel siempre que Terminal Server se ejecute en un entorno que sólo incluya clientes de 128 bits, como los clientes de Conexión a Escritorio remoto. Los clientes que no admitan este nivel de cifrado no se podrán conectar.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Cliente compatible</td>
@@ -3731,7 +3745,7 @@ Los tres niveles disponibles de cifrado se describen en la tabla siguiente:
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Nivel bajo</td>
-<td style="border:1px solid black;">Cifra los datos que se envían del cliente al servidor con cifrado de 56 bits.
+<td style="border:1px solid black;">Cifra los datos que se envían del cliente al servidor con cifrado de 56 bits.
 <strong>Importante</strong>: los datos enviados del servidor al cliente no están cifrados.</td>
 </tr>
 </tbody>
@@ -3769,21 +3783,21 @@ Los tres niveles disponibles de cifrado se describen en la tabla siguiente:
 </tbody>
 </table>
   
-Este servicio ayuda a Microsoft a realizar un seguimiento de los errores así como a solucionarlos. Puede configurar este servicio para generar informes para los errores del sistema operativo, componentes de Windows o de programa. Sólo está disponible en Windows XP Professional y Windows Server 2003.
+Este servicio ayuda a Microsoft a realizar un seguimiento de los errores así como a solucionarlos. Puede configurar este servicio para generar informes para los errores del sistema operativo, componentes de Windows o de programa. Sólo está disponible en Windows XP Professional y Windows Server 2003.
   
 El servicio **Informe de errores** puede informar de dichos errores a Microsoft a través de Internet o a un recurso compartido de archivos internos. Aunque los informes de error puedan incluir datos corporativos de contenido delicado o incluso confidenciales, la directiva de privacidad de Microsoft con respecto a la notificación de errores asegura que Microsoft no utilizará dichos datos de forma incorrecta. No obstante, los datos se transmiten en HTTP de texto sin formato y podrían ser interceptados en Internet y visualizados por terceros.
   
-La configuración **Desactivar Informe** **de errores de Windows** permite controlar si el servicio Informe de errores transmite algún dato.
+La configuración **Desactivar Informe** **de errores de Windows** permite controlar si el servicio Informe de errores transmite algún dato.
   
-Puede configurar esta configuración de directiva en Windows Server 2003 en la ubicación siguiente dentro del Editor de objetos de directiva de grupo:
+Puede configurar esta configuración de directiva en Windows Server 2003 en la ubicación siguiente dentro del Editor de objetos de directiva de grupo:
   
 **Configuración del equipo\\Plantillas administrativas\\Sistema\\Administración de comunicaciones de Internet\\Configuración de comunicaciones de Internet**
   
-Establezca el parámetro **Desactivar Informe** **de errores de Windows** como **Habilitado** en la DCBP para los tres entornos que se definen en esta guía.
+Establezca el parámetro **Desactivar Informe** **de errores de Windows** como **Habilitado** en la DCBP para los tres entornos que se definen en esta guía.
   
 ##### Habilitación de volcados de memoria manuales
   
-Windows Server 2003 con SP1 incluye una característica que sirve para detener el equipo y generar un archivo de volcado de memoria Memory.dmp. Esta característica se debe habilitar de forma explícita y puede que no sea apropiada para todos los servidores de la organización. Si determina que sería valioso capturar volcados de memoria en algunos servidores, puede seguir las instrucciones proporcionadas en el artículo [Las características de Windows permiten generar un archivo Memory.dmp mediante el teclado](http://support.microsoft.com/default.aspx?kbid=244139) en <http://support.microsoft.com/default.aspx?kbid=244139>.
+Windows Server 2003 con SP1 incluye una característica que sirve para detener el equipo y generar un archivo de volcado de memoria Memory.dmp. Esta característica se debe habilitar de forma explícita y puede que no sea apropiada para todos los servidores de la organización. Si determina que sería valioso capturar volcados de memoria en algunos servidores, puede seguir las instrucciones proporcionadas en el artículo [Las características de Windows permiten generar un archivo Memory.dmp mediante el teclado](http://support.microsoft.com/default.aspx?kbid=244139) en <http://support.microsoft.com/default.aspx?kbid=244139>.
   
 **Importante**: cuando la memoria se copia a un disco como se describe en dicho artículo, la información confidencial podría incluirse en el archivo Memory.dmp. Lo ideal es que todos los servidores estén protegidos del acceso físico no autorizado. Si genera un archivo de volcado de memoria en un servidor que tiene riesgos de resultar comprometido físicamente, asegúrese de eliminar el archivo de volcado antes de concluir la solución de problemas.
   
@@ -3799,7 +3813,7 @@ Es probable que durante la creación de la directiva MSBP quite la función de s
   
 **Para crear la directiva de línea de base de servidores miembro (MSBP)**
   
-1.  Cree una instalación nueva de Windows Server 2003 con SP1 en un equipo de referencia nuevo.
+1.  Cree una instalación nueva de Windows Server 2003 con SP1 en un equipo de referencia nuevo.
   
 2.  Instale el componente del Asistente para configuración de seguridad en el equipo mediante Panel de control, Agregar o quitar programas, Agregar o quitar componentes de Windows.
   
@@ -3851,16 +3865,15 @@ Después de probar completamente la directiva, complete los pasos siguientes par
   
 1.  En el símbolo de sistema, escriba el siguiente comando:
   
-    ```  
-scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;  
-```
-  
+    `scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>`
+
     y, a continuación, pulse Entrar. Por ejemplo:
   
-    ```  
- scwcmd transform /p:"C:\\Windows\\Security\\msscw\\Policies\\Member Server Baseline.xml" /g:"Member Server Baseline Policy"   
-```
-  
+    ```
+	scwcmd transform /p:"C:\Windows\Security\msscw\Policies\Member
+	Server Baseline.xml" /g:"Member Server Baseline Policy"
+	```
+	
     **Nota**: la información que se introducirá en el símbolo del sistema se muestra aquí en más de una línea a causa de las limitaciones de pantalla. Esta información debe introducirse en una línea.
   
 2.  Utilice la Consola de administración de directivas de grupo para vincular los nuevos GPO creados a la UO apropiada.
@@ -3873,7 +3886,7 @@ Deberá realizar una última prueba para asegurarse de que el GPO aplica la conf
   
 ### Resumen
   
-En este capítulo se han explicado los procedimientos para reforzar la seguridad de los servidores que se aplicaron inicialmente a todos los servidores que ejecutaban Windows Server 2003 con SP1 en los tres entornos de seguridad definidos en esta guía. Una gran parte de estos procedimientos consistieron en la creación de una única plantilla de seguridad para cada uno de los entornos de seguridad y su posterior importación a un objeto de directiva de grupo (GPO) vinculado a la OU principal para que el servidor miembro obtuviese el nivel de seguridad objetivo.
+En este capítulo se han explicado los procedimientos para reforzar la seguridad de los servidores que se aplicaron inicialmente a todos los servidores que ejecutaban Windows Server 2003 con SP1 en los tres entornos de seguridad definidos en esta guía. Una gran parte de estos procedimientos consistieron en la creación de una única plantilla de seguridad para cada uno de los entornos de seguridad y su posterior importación a un objeto de directiva de grupo (GPO) vinculado a la OU principal para que el servidor miembro obtuviese el nivel de seguridad objetivo.
   
 No obstante, existen algunos procedimientos de consolidación que no se pueden aplicar mediante la directiva de grupo. Se ha proporcionado además orientación acerca de cómo establecer esta configuración manualmente. Se han adoptado pasos adicionales en el caso de determinadas funciones de servidor con el fin de permitir su funcionamiento de la forma más segura posible.
   
@@ -3881,23 +3894,23 @@ Entre las medidas específicas para las funciones de servidor se incluyen proced
   
 #### Información adicional
   
-Los siguientes vínculos proporcionan información adicional acerca de los temas relacionados con la seguridad de los servidores que ejecutan Windows Server 2003 con SP1.
+Los siguientes vínculos proporcionan información adicional acerca de los temas relacionados con la seguridad de los servidores que ejecutan Windows Server 2003 con SP1.
   
--   Para obtener más información acerca de la configuración de seguridad de Windows Server 2003, consulte la página de [descripciones sobre las configuraciones de seguridad](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverhelp/dd980ca3-f686-4ffc-a617-50c6240f5582.mspx) en[http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/ServerHelp/dd980ca3-f686-4ffc-a617-50c6240f5582.mspx](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverhelp/dd980ca3-f686-4ffc-a617-50c6240f5582.mspx) (en inglés).
+-   Para obtener más información acerca de la configuración de seguridad de Windows Server 2003, consulte la página de [descripciones sobre las configuraciones de seguridad](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverhelp/dd980ca3-f686-4ffc-a617-50c6240f5582.mspx) en[http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/ServerHelp/dd980ca3-f686-4ffc-a617-50c6240f5582.mspx](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverhelp/dd980ca3-f686-4ffc-a617-50c6240f5582.mspx) (en inglés).
   
--   Para obtener más información acerca de la seguridad en Windows Server 2003, visite el [Centro de seguridad de Windows Server 2003](http://www.microsoft.com/technet/security/prodtech/windowsserver2003.mspx) en <http://www.microsoft.com/technet/security/prodtech/windowsserver2003.mspx>.
+-   Para obtener más información acerca de la seguridad en Windows Server 2003, visite el [Centro de seguridad de Windows Server 2003](http://www.microsoft.com/technet/security/prodtech/windowsserver2003.mspx) en <http://www.microsoft.com/technet/security/prodtech/windowsserver2003.mspx>.
   
--   Para obtener más información acerca de la directiva de auditoría de Windows Server 2003, consulte la página sobre la [directiva de auditoría](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverhelp/6847e72b-9c47-42ab-b3e3-691addac9f33.mspx) en [http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/ServerHelp/6847e72b-9c47-42ab-b3e3-691addac9f33.mspx](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverhelp/6847e72b-9c47-42ab-b3e3-691addac9f33.mspx) (en inglés).
+-   Para obtener más información acerca de la directiva de auditoría de Windows Server 2003, consulte la página sobre la [directiva de auditoría](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverhelp/6847e72b-9c47-42ab-b3e3-691addac9f33.mspx) en [http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/ServerHelp/6847e72b-9c47-42ab-b3e3-691addac9f33.mspx](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverhelp/6847e72b-9c47-42ab-b3e3-691addac9f33.mspx) (en inglés).
   
 -   Para obtener más información acerca de Microsoft Operations Manager (MOM), consulte la página de [Microsoft Operations Manager](http://www.microsoft.com/mom/) en <http://www.microsoft.com/mom/>.
   
--   Para obtener más información acerca de los derechos de usuario en Windows Server 2003, consulte la página de [derechos de usuario](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverhelp/589980fb-1a83-490e-a745-357750ced3d9.mspx) en [http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/ServerHelp/589980fb-1a83-490e-a745-357750ced3d9.mspx](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverhelp/589980fb-1a83-490e-a745-357750ced3d9.mspx) (en inglés).
+-   Para obtener más información acerca de los derechos de usuario en Windows Server 2003, consulte la página de [derechos de usuario](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverhelp/589980fb-1a83-490e-a745-357750ced3d9.mspx) en [http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/ServerHelp/589980fb-1a83-490e-a745-357750ced3d9.mspx](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverhelp/589980fb-1a83-490e-a745-357750ced3d9.mspx) (en inglés).
   
--   Para obtener más información acerca de la configuración predeterminada de seguridad para Windows Server 2003, consulte las [diferencias de la configuración predeterminada de seguridad](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverhelp/1494bf2c-b596-4785-93bb-bc86f8e548d5.mspx) en [http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/ServerHelp/1494bf2c-b596-4785-93bb-bc86f8e548d5.mspx](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverhelp/1494bf2c-b596-4785-93bb-bc86f8e548d5.mspx) (en inglés).
+-   Para obtener más información acerca de la configuración predeterminada de seguridad para Windows Server 2003, consulte las [diferencias de la configuración predeterminada de seguridad](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverhelp/1494bf2c-b596-4785-93bb-bc86f8e548d5.mspx) en [http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/ServerHelp/1494bf2c-b596-4785-93bb-bc86f8e548d5.mspx](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverhelp/1494bf2c-b596-4785-93bb-bc86f8e548d5.mspx) (en inglés).
   
--   Para obtener más información acerca de cómo garantizar la seguridad de Servicios de Terminal Server de Windows 2000, consulte los detalles sobre la [seguridad de los Servicios de Terminal Server de Windows 2000](http://www.microsoft.com/technet/prodtechnol/win2kts/maintain/optimize/secw2kts.mspx) en <http://www.microsoft.com/technet/prodtechnol/win2kts/maintain/optimize/secw2kts.mspx> (en inglés).
+-   Para obtener más información acerca de cómo garantizar la seguridad de Servicios de Terminal Server de Windows 2000, consulte los detalles sobre la [seguridad de los Servicios de Terminal Server de Windows 2000](http://www.microsoft.com/technet/prodtechnol/win2kts/maintain/optimize/secw2kts.mspx) en <http://www.microsoft.com/technet/prodtechnol/win2kts/maintain/optimize/secw2kts.mspx> (en inglés).
   
--   Para obtener más información acerca de cómo garantizar la seguridad de la pila TCP/IP de Windows Server 2003, consulte el artículo de Microsoft Knowledge Base "[Cómo proteger la pila TCP/IP frente a ataques por denegación de servicio en la familia Windows Server 2003](http://support.microsoft.com/?kbid=324270)" en [http://support.microsoft.com/?scid=324270](http://support.microsoft.com/?kbid=324270).
+-   Para obtener más información acerca de cómo garantizar la seguridad de la pila TCP/IP de Windows Server 2003, consulte el artículo de Microsoft Knowledge Base "[Cómo proteger la pila TCP/IP frente a ataques por denegación de servicio en la familia Windows Server 2003](http://support.microsoft.com/?kbid=324270)" en [http://support.microsoft.com/?scid=324270](http://support.microsoft.com/?kbid=324270).
   
 -   Para obtener más detalles acerca de cómo reforzar la configuración de las aplicaciones Windows Sockets, consulte el artículo de Microsoft Knowledge Base sobre la [no disponibilidad de los servidores de Internet debido a ataques SYN malintencionados](http://support.microsoft.com/?kbid=142641) en <http://support.microsoft.com/?kbid=142641> (en inglés).
   
@@ -3907,15 +3920,15 @@ Los siguientes vínculos proporcionan información adicional acerca de los temas
   
 -   Para obtener más información acerca de cómo crear archivos de plantillas administrativas personalizadas en Windows, consulte el artículo de Microsoft Knowledge Base "[Cómo crear plantillas administrativas personalizadas en Windows 2000](http://support.microsoft.com/?kbid=323639)" en [http://support.microsoft.com/?scid=323639](http://support.microsoft.com/?kbid=323639). Revise también las notas del producto relativas a la [implementación de la directiva de grupo basada en el Registro](http://www.microsoft.com/windows2000/techinfo/howitworks/management/rbppaper.asp) en [http://www.microsoft.com/WINDOWS2000/techinfo/howitworks/management/rbppaper.asp](http://www.microsoft.com/windows2000/techinfo/howitworks/management/rbppaper.asp) (en inglés).
   
--   Para obtener más información acerca de cómo garantizar que las configuraciones del nivel de autenticación de LAN Manager más seguras funcionen en redes con una combinación de equipos con Windows 2000 y Windows NT 4.0, consulte el artículo de Microsoft Knowledge Base "[Problemas de autenticación en Windows 2000 con niveles de NTLM 2 superiores a 2 en un dominio de Windows NT 4.0](http://support.microsoft.com/?kbid=305379)" en [http://support.microsoft.com/?scid=305379](http://support.microsoft.com/?kbid=305379).
+-   Para obtener más información acerca de cómo garantizar que las configuraciones del nivel de autenticación de LAN Manager más seguras funcionen en redes con una combinación de equipos con Windows 2000 y Windows NT 4.0, consulte el artículo de Microsoft Knowledge Base "[Problemas de autenticación en Windows 2000 con niveles de NTLM 2 superiores a 2 en un dominio de Windows NT 4.0](http://support.microsoft.com/?kbid=305379)" en [http://support.microsoft.com/?scid=305379](http://support.microsoft.com/?kbid=305379).
   
 -   Para obtener más información acerca de la autenticación NTLMv2, consulte el artículo de Microsoft Knowledge Base "[Cómo habilitar la autenticación NTLM 2](http://support.microsoft.com/?kbid=239869)" en [http://support.microsoft.com/?scid=239869](http://support.microsoft.com/?kbid=239869).
   
--   Para obtener más información acerca de la configuración predeterminada de los servicios en Windows Server 2003, consulte la página sobre la [configuración predeterminada de servicios](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverhelp/2b1dc6cf-2e34-4681-9aa6-8d0ffba2d3e3.mspx) en [http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/ServerHelp/2b1dc6cf-2e34-4681-9aa6-8d0ffba2d3e3.mspx](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverhelp/2b1dc6cf-2e34-4681-9aa6-8d0ffba2d3e3.mspx) (en inglés).
+-   Para obtener más información acerca de la configuración predeterminada de los servicios en Windows Server 2003, consulte la página sobre la [configuración predeterminada de servicios](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverhelp/2b1dc6cf-2e34-4681-9aa6-8d0ffba2d3e3.mspx) en [http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/ServerHelp/2b1dc6cf-2e34-4681-9aa6-8d0ffba2d3e3.mspx](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverhelp/2b1dc6cf-2e34-4681-9aa6-8d0ffba2d3e3.mspx) (en inglés).
   
 -   Para obtener más información acerca de la implementación de tarjetas inteligentes, consulte la página sobre cómo [fomentar la calidad de la información de la red con tarjetas inteligentes](http://www.microsoft.com/technet/technetmag/issues/2005/01/smartcards/) en [http://www.microsoft.com/technet/technetmag/issues/2005/01/SmartCards/default.aspx](http://www.microsoft.com/technet/technetmag/issues/2005/01/smartcards/) (en inglés).
   
--   Para obtener más información sobre el valor del Registro "Restrict Anonymous" y Windows 2000, consulte el artículo de Microsoft Knowledge Base sobre la [posibilidad de que el valor del Registro "RestrictAnonymous" afecte a la confianza de un dominio Windows 2000](http://support.microsoft.com/?kbid=296405) en <http://support.microsoft.com/?kbid=296405> (en inglés).
+-   Para obtener más información sobre el valor del Registro "Restrict Anonymous" y Windows 2000, consulte el artículo de Microsoft Knowledge Base sobre la [posibilidad de que el valor del Registro "RestrictAnonymous" afecte a la confianza de un dominio Windows 2000](http://support.microsoft.com/?kbid=296405) en <http://support.microsoft.com/?kbid=296405> (en inglés).
   
 -   Para obtener más información sobre los informes de errores, consulte la página sobre [informes de errores corporativos](http://www.microsoft.com/spain/licencias/sa/cer.mspx) en [http://www.microsoft.com/resources/satech/cer/](http://www.microsoft.com/spain/licencias/sa/cer.mspx) (en inglés).
   
