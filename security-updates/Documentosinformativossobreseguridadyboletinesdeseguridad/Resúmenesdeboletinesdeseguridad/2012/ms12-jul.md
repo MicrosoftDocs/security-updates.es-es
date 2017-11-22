@@ -4,7 +4,7 @@ Title: Resumen del boletín de seguridad de Microsoft de julio 2012
 ms:assetid: 'ms12-jul'
 ms:contentKeyID: 61225437
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms12-jul(v=Security.10)'
---- Summary
+---
 
 Resumen del boletín de seguridad de Microsoft de julio 2012
 ===========================================================
