@@ -4,7 +4,7 @@ Title: Resumen del boletín de seguridad de Microsoft de febrero 2013
 ms:assetid: 'ms13-feb'
 ms:contentKeyID: 61225447
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms13-feb(v=Security.10)'
---- Summary
+---
 
 Resumen del boletín de seguridad de Microsoft de febrero 2013
 =============================================================
