@@ -4,7 +4,8 @@ Title: Resumen del boletín de seguridad de Microsoft de mayo 2008
 ms:assetid: 'ms08-may'
 ms:contentKeyID: 61225392
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms08-may(v=Security.10)'
---- Summary
+--- 
+
 
 Resumen del boletín de seguridad de Microsoft de mayo 2008
 ==========================================================

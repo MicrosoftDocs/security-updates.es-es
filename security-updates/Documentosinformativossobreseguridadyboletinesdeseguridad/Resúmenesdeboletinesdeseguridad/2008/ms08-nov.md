@@ -4,7 +4,8 @@ Title: Resumen del boletín de seguridad de Microsoft de noviembre 2008
 ms:assetid: 'ms08-nov'
 ms:contentKeyID: 61225393
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms08-nov(v=Security.10)'
---- Summary
+--- 
+
 
 Resumen del boletín de seguridad de Microsoft de noviembre 2008
 ===============================================================

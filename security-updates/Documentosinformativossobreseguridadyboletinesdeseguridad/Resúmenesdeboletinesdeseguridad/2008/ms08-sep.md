@@ -4,7 +4,8 @@ Title: Resumen del boletín de seguridad de Microsoft de septiembre 2008
 ms:assetid: 'ms08-sep'
 ms:contentKeyID: 61225395
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms08-sep(v=Security.10)'
---- Summary
+--- 
+
 
 Resumen del boletín de seguridad de Microsoft de septiembre 2008
 ================================================================

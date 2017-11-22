@@ -4,7 +4,8 @@ Title: Resumen del boletín de seguridad de Microsoft de diciembre 2008
 ms:assetid: 'ms08-dec'
 ms:contentKeyID: 61225386
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms08-dec(v=Security.10)'
---- Summary
+--- 
+
 
 Resumen del boletín de seguridad de Microsoft de diciembre 2008
 ===============================================================
@@ -1516,22 +1517,22 @@ No aplicable
 </tr>
 </table>
  
-**Nota para MS08-070**
+**Nota para MS08-070**  
 Vea también la siguiente sección, **Herramientas y software para desarrolladores de Microsoft**, para obtener más archivos de actualización. Este boletín abarca tanto Microsoft Office como las herramientas y software para desarrolladores de Microsoft
 
-**Nota para MS08-077**
+**Nota para MS08-077**  
 Vea también la siguiente sección, **Software de servidor de Microsoft**, para obtener más archivos de actualización. Este boletín abarca tanto los conjuntos de aplicaciones y el software de Microsoft Office como el software de servidor de Microsoft.
 
-**Nota para Microsoft Office FrontPage en MS08-070**
+**Nota para Microsoft Office FrontPage en MS08-070**  
 \*Esta actualización sólo se aplica a las versión de FrontPage 2002 Service Pack 3 en chino simplificado (China), chino pan (Hong Kong), chino tradicional (Taiwán) y coreano.
 
-**Nota para Microsoft Office para Mac in MS08-072 y MS08-074**
+**Nota para Microsoft Office para Mac in MS08-072 y MS08-074**  
 \*\*Las actualizaciones correspondientes son idénticas entre MS08-072 y MS08-074. Debido a que las vulnerabilidades están en los mismos archivos, estas actualizaciones son las mismas para ambos boletines.
 
-**Nota para Works 8 en MS08-072**
+**Nota para Works 8 en MS08-072**  
 \*\*\*Para recibir esta actualización de seguridad, los clientes que ejecuten Microsoft Works 8.0 primero deben actualizarse a Works 8.5, tal como se describe en [Microsoft Works Update](http://www.microsoft.com/products/works/international/update_1001.mspx). Esto incluye a todos los clientes que usen Microsoft Works 8.0, Works Suite 2004 y Works Suite 2005. Para los clientes que ejecuten Works Suite 2006, Works 8.5 ya está incluido.
 
-**Nota para Microsoft Office Excel 2007 y Microsoft Office Excel 2007 Service Pack 1 en MS08-074**
+**Nota para Microsoft Office Excel 2007 y Microsoft Office Excel 2007 Service Pack 1 en MS08-074**  
 \*\*\*\*Para Microsoft Office Excel 2007 y Microsoft Office Excel 2007 Service Pack 1, además del paquete de actualización de seguridad KB958437, los clientes también deben instalar la actualización de seguridad para [Paquete de compatibilidad de Microsoft Office para formatos de archivo de Word, Excel y PowerPoint 2007](http://www.microsoft.com/downloads/details.aspx?familyid=99cca4ed-f1f9-4cfd-a986-edbec82ced4f) (KB958439) con el fin de protegerse de las vulnerabilidades descritas en MS08-074. Los clientes que ya han instalado correctamente los paquetes de actualización KB958437 y KB958439 no tienen que reinstalarlos.
 
 #### Herramientas y software para desarrolladores de Microsoft
@@ -1607,7 +1608,7 @@ Microsoft Visual FoxPro
 </tr>
 </table>
  
-**Nota para MS08-070**
+**Nota para MS08-070**  
 Vea también la sección anterior, **Conjuntos de aplicaciones y software de Microsoft Office**, para obtener más archivos de actualización. Este boletín abarca tanto los conjuntos de aplicaciones y el software de Microsoft Office como las herramientas y el software para desarrolladores de Microsoft.
 
 #### Software de servidor de Microsoft
