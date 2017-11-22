@@ -4,7 +4,7 @@ Title: Resumen del boletín de seguridad de Microsoft de marzo 2010
 ms:assetid: 'ms10-mar'
 ms:contentKeyID: 61225415
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms10-mar(v=Security.10)'
---- Summary
+---
 
 Resumen del boletín de seguridad de Microsoft de marzo 2010
 ===========================================================
@@ -171,6 +171,7 @@ No aplicable
 <td style="border:1px solid black;">
 [Internet Explorer 5.01 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?familyid=389da7a9-e0a3-4b5d-801e-0a38fc55dcec)  
 (Crítica)  
+
 [Internet Explorer 6 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=daf199c4-da56-4a7f-80e6-3936ce5c267b)  
 (Crítica)
 </td>
@@ -213,8 +214,10 @@ Windows XP Service Pack 2 y Windows XP Service Pack 3
 <td style="border:1px solid black;">
 [Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=2f2caa01-5cd1-45cb-9995-e34d933920d4)  
 (Crítica)  
+
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=167ed896-d383-4dc0-9183-cd4cb73e17e7)  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=46172617-293a-44c7-95b6-18202ab06a41)  
 (Crítica)
 </td>
@@ -230,8 +233,10 @@ Windows XP Professional x64 Edition Service Pack 2
 <td style="border:1px solid black;">
 [Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=6c711387-6853-477c-917e-820a97613cf9)  
 (Crítica)  
+
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=aadb1d97-5cec-45ed-9967-aaf41a0bcdac)  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=284d70ea-24a3-4e67-a2a8-e9f272f728db)  
 (Crítica)
 </td>
@@ -273,8 +278,10 @@ No aplicable
 <td style="border:1px solid black;">
 [Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=dc77f1c9-8240-42d9-aee9-30ac4f33bde7)  
 (Importante)  
+
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=e957a7cf-e5ca-454d-b199-ec8fe6a6a2bf)  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=53fc3285-63c4-487f-ad9a-7e1673aeffc7)  
 (Moderada)
 </td>
@@ -289,8 +296,10 @@ No aplicable
 <td style="border:1px solid black;">
 [Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=2be85462-28ec-4184-a326-0459554b7213)  
 (Importante)  
+
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=cb0e39f8-9730-4454-a0e3-479b610b1591)  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=5201a0c5-8162-4809-b9d1-0e972b0f0066)  
 (Moderada)
 </td>
@@ -305,6 +314,7 @@ No aplicable
 <td style="border:1px solid black;">
 [Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=04abea55-ea2f-423f-b410-5536ea184ea3)  
 (Importante)  
+
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=7ebd99b4-da6b-4dff-9f89-6a86d275a3da)  
 (Crítica)
 </td>
@@ -343,12 +353,14 @@ Windows Vista, Windows Vista Service Pack 1 y Windows Vista Service Pack 2
 <td style="border:1px solid black;">
 [Movie Maker 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=ae2e9b75-1616-4fe3-91bb-e2e28252ff1c)<sup>[1]</sup>
 (Importante)  
+
 [Movie Maker 2.6](http://www.microsoft.com/downloads/details.aspx?familyid=ca2d1118-ca64-419d-86af-9396e61b90b0)<sup>[2]</sup>
 (Importante)
 </td>
 <td style="border:1px solid black;">
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=511aba0e-6f15-42cf-9c5d-b2f3e215b5a8)  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=c9584689-5196-4840-927c-23c8038f3382)  
 (Crítica)
 </td>
@@ -360,12 +372,14 @@ Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 y Windows Vi
 <td style="border:1px solid black;">
 [Movie Maker 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=e27f353e-deb6-4d61-8808-c751d20a42a1)<sup>[1]</sup>
 (Importante)  
+
 [Movie Maker 2.6](http://www.microsoft.com/downloads/details.aspx?familyid=6a1f4126-97f2-4aee-bfe1-05bd13a0667b)<sup>[2]</sup>
 (Importante)
 </td>
 <td style="border:1px solid black;">
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=c8933a45-62a7-4c19-be30-02e3a461f081)  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=50809cc3-6baa-41b4-ba0a-596a1dd846ed)  
 (Crítica)
 </td>
@@ -407,6 +421,7 @@ No aplicable
 <td style="border:1px solid black;">
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=42f8c1f2-ee55-47af-b113-8d9f4bd40c8f)\*\*  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=c69a6dfe-66b1-4426-96a5-d64000296e76)\*\*  
 (Moderada)
 </td>
@@ -421,6 +436,7 @@ No aplicable
 <td style="border:1px solid black;">
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=769043b5-df52-4446-9bd8-dc37d9fa00df)\*\*  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=e16c10d2-896d-48f3-bc76-5fa70881396a)\*\*  
 (Moderada)
 </td>

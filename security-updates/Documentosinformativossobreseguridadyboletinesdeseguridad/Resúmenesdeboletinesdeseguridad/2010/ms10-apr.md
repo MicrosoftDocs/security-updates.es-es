@@ -4,7 +4,7 @@ Title: Resumen del boletín de seguridad de Microsoft de abril 2010
 ms:assetid: 'ms10-apr'
 ms:contentKeyID: 61225408
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms10-apr(v=Security.10)'
---- Summary
+---
 
 Resumen del boletín de seguridad de Microsoft de abril 2010
 ===========================================================
@@ -426,6 +426,7 @@ Microsoft Windows 2000 Service Pack 4
 [Comprobación de firma Authenticode 5.1](http://www.microsoft.com/downloads/details.aspx?familyid=d7538166-35ee-4c6b-be8c-e83a1fc6cd77)  
 (KB978601)  
 (Crítica)  
+
 [Extensión del shell para el visor de archivos Cab 5.1](http://www.microsoft.com/downloads/details.aspx?familyid=13846177-f25f-4dd4-9fe9-ac43e1d4d73d)  
 (KB979309)  
 (Crítica)
@@ -454,9 +455,11 @@ Microsoft Windows 2000 Service Pack 4
 [VBScript 5.1](http://www.microsoft.com/downloads/details.aspx?familyid=421be318-f217-4d12-b7a5-833093189073) <sup>[1]</sup>
 (KB981350)  
 (Importante)  
+
 [VBScript 5.6](http://www.microsoft.com/downloads/details.aspx?familyid=421be318-f217-4d12-b7a5-833093189073)  
 (KB981350)  
 (Importante)  
+
 [VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=d5fc47a4-cecb-4817-aafb-45f335061be3)  
 (KB981349)  
 (Importante)
@@ -546,6 +549,7 @@ Windows XP Service Pack 2 y Windows XP Service Pack 3
 [Comprobación de firma Authenticode 5.1](http://www.microsoft.com/downloads/details.aspx?familyid=2a01ddf0-f3ea-47c8-ada2-e69f6c1b5f96)  
 (KB978601)  
 (Crítica)  
+
 [Extensión del shell para el visor de archivos Cab 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=6c3ac102-2107-4726-98be-4fbf6b858bfb)  
 (KB979309)  
 (Crítica)
@@ -564,6 +568,7 @@ No aplicable
 <td style="border:1px solid black;">
 [Reproductor de Windows Media Serie 9 en Windows XP Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=5c748c6d-84d1-45a9-8a33-9372eb5504d5)  
 (Crítica)  
+
 [Reproductor de Windows Media Serie 9 en Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=9e4277b4-2dc5-4163-a6aa-7e07dd32b721)  
 (Crítica)
 </td>
@@ -575,9 +580,11 @@ No aplicable
 [VBScript 5.6](http://www.microsoft.com/downloads/details.aspx?familyid=aa8ff157-a7b3-4787-80c9-5bc453f0f1c9) en Windows XP Service Pack 2  
 (KB981350)  
 (Importante)  
+
 [VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=cb21d276-65e9-4c8f-96e3-cf6dc36d0133)  
 (KB981349)  
 (Importante)  
+
 [VBScript 5.8](http://www.microsoft.com/downloads/details.aspx?familyid=ba7ef6e5-80ba-4281-a611-6e5be008c1b4)  
 (KB981332)  
 (Importante)
@@ -599,6 +606,7 @@ Windows XP Professional x64 Edition Service Pack 2
 [Comprobación de firma Authenticode 5.1](http://www.microsoft.com/downloads/details.aspx?familyid=9bbff00c-f8f4-4a44-98f2-18a868986ae1)  
 (KB978601)  
 (Crítica)  
+
 [Extensión del shell para el visor de archivos Cab 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=e64e487e-2727-4396-b0c9-6eaf000214d2)  
 (KB979309)  
 (Crítica)
@@ -625,9 +633,11 @@ No aplicable
 [VBScript 5.6](http://www.microsoft.com/downloads/details.aspx?familyid=896c738d-4058-440f-8d4f-16c678610cd1)  
 (KB981350)  
 (Importante)  
+
 [VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=d7e8b930-8708-4f0b-b22b-961c2cbc2673)  
 (KB981349)  
 (Importante)  
+
 [VBScript 5.8](http://www.microsoft.com/downloads/details.aspx?familyid=153fd9c1-0f8e-4492-87d1-f0381e7feb23)  
 (KB981332)  
 (Importante)
@@ -718,6 +728,7 @@ Windows Server 2003 Service Pack 2
 [Comprobación de firma Authenticode 5.1](http://www.microsoft.com/downloads/details.aspx?familyid=0e7e3deb-f078-4953-9642-675ec69267f2)  
 (KB978601)  
 (Crítica)  
+
 [Extensión del shell para el visor de archivos Cab 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=7ae9b1d0-0dbe-4abd-b315-10cea4ceccd7)  
 (KB979309)  
 (Crítica)
@@ -744,9 +755,11 @@ No aplicable
 [VBScript 5.6](http://www.microsoft.com/downloads/details.aspx?familyid=28b035b8-d56e-4e93-b811-9a82cf1d4ba9)  
 (KB981350)  
 (Importante)  
+
 [VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=a142a553-85fc-40e0-9426-8d58f6a4333c)  
 (KB981349)  
 (Importante)  
+
 [VBScript 5.8](http://www.microsoft.com/downloads/details.aspx?familyid=72754e1b-3d09-4b9d-8794-689c45a37f66)  
 (KB981332)  
 (Importante)
@@ -768,6 +781,7 @@ Windows Server 2003 x64 Edition Service Pack 2
 [Comprobación de firma Authenticode 5.1](http://www.microsoft.com/downloads/details.aspx?familyid=99a3f6da-728f-421c-ab41-c4c4751934a4)  
 (KB978601)  
 (Crítica)  
+
 [Extensión del shell para el visor de archivos Cab 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=1709fd4e-d7c6-4cbb-8b71-a96b8d6eee58)  
 (KB979309)  
 (Crítica)
@@ -794,9 +808,11 @@ No aplicable
 [VBScript 5.6](http://www.microsoft.com/downloads/details.aspx?familyid=339ddf48-8949-4857-9ef6-1ddcc7c5f8b8)  
 (KB981350)  
 (Importante)  
+
 [VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=a489b4e3-78d2-411b-b27c-5987b8fc91d1)  
 (KB981349)  
 (Importante)  
+
 [VBScript 5.8](http://www.microsoft.com/downloads/details.aspx?familyid=72c3013b-f72f-422b-8a89-2246dea4b378)  
 (KB981332)  
 (Importante)
@@ -818,6 +834,7 @@ Windows Server 2003 con SP2 para sistemas con Itanium
 [Comprobación de firma Authenticode 5.1](http://www.microsoft.com/downloads/details.aspx?familyid=06832599-1e9b-4792-8c7b-7b5b3a3d6277)  
 (KB978601)  
 (Crítica)  
+
 [Extensión del shell para el visor de archivos Cab 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=811a2b28-655d-4b5d-821e-5a90d556dba3)  
 (KB979309)  
 (Crítica)
@@ -843,6 +860,7 @@ No aplicable
 [VBScript 5.6](http://www.microsoft.com/downloads/details.aspx?familyid=9a8bee82-5f7f-490e-a1eb-481f6d4fc4f5)  
 (KB981350)  
 (Importante)  
+
 [VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=7d542ac6-8a5b-4dd7-8688-2b5feb563636)  
 (KB981349)  
 (Importante)
@@ -933,6 +951,7 @@ Windows Vista, Windows Vista Service Pack 1 y Windows Vista Service Pack 2
 [Comprobación de firma Authenticode 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=a52225a7-6005-4f2b-8291-db20558f23f8)  
 (KB978601  
 (Crítica)  
+
 [Extensión del shell para el visor de archivos Cab 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=6145e2b2-36fd-4360-bd5b-2bd11890fc52)  
 (KB979309)  
 (Crítica)
@@ -954,6 +973,7 @@ No aplicable
 <td style="border:1px solid black;">
 [Windows Vista](http://www.microsoft.com/downloads/details.aspx?familyid=86d7b054-af4f-4d8a-9873-cb5246466374)  
 (Importante)  
+
 [Windows Vista Service Pack 1 y Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=86d7b054-af4f-4d8a-9873-cb5246466374)  
 (Moderada)
 </td>
@@ -961,6 +981,7 @@ No aplicable
 [VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=ee5c42c6-16bb-48bf-95c2-c188bb17d04b)  
 (KB981349)  
 (Sin clasificación de gravedad <sup>[2]</sup> )  
+
 [VBScript 5.8](http://www.microsoft.com/downloads/details.aspx?familyid=f2a37dbf-4a95-4e8d-a474-ecacd9aee690)  
 (KB981332)  
 (Sin clasificación de gravedad <sup>[2]</sup> )
@@ -981,6 +1002,7 @@ Windows Vista x64 Edition, Windows Vista x64 Edition Service Pack 1 y Windows Vi
 [Comprobación de firma Authenticode 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=9ba7468c-23a4-4994-9a5a-22e96ef586f3)  
 (KB978601)  
 (Crítica)  
+
 [Extensión del shell para el visor de archivos Cab 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=5b7efa82-0feb-413a-9f8e-212e7432cd99)  
 (KB979309)  
 (Crítica)
@@ -1002,6 +1024,7 @@ No aplicable
 <td style="border:1px solid black;">
 [Windows Vista x64 Edition](http://www.microsoft.com/downloads/details.aspx?familyid=7c84aa24-6331-427a-969c-27f7d39db3d7)  
 (Importante)  
+
 [Windows Vista x64 Edition Service Pack 1 y Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=7c84aa24-6331-427a-969c-27f7d39db3d7)  
 (Moderada)
 </td>
@@ -1009,6 +1032,7 @@ No aplicable
 [VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=ea5c5e9c-0ecd-47bc-912d-5adc00d1aa21)  
 (KB981349)  
 (Sin clasificación de gravedad <sup>[2]</sup> )  
+
 [VBScript 5.8](http://www.microsoft.com/downloads/details.aspx?familyid=79093796-4ea9-4c6c-92cc-3fd63c5db918)  
 (KB981332)  
 (Sin clasificación de gravedad <sup>[2]</sup> )
@@ -1098,6 +1122,7 @@ Windows Server 2008 para sistemas de 32 bits y Windows Server 2008 para sistemas
 [Comprobación de firma Authenticode 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=97ffeec8-8b6d-4a30-97b0-4bff2ba5e91d) \*  
 (KB978601)  
 (Crítica)  
+
 [Extensión del shell para el visor de archivos Cab 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=f111735b-68b0-4bcc-9dd8-818a5eca3400)  
 (KB979309)  
 (Crítica)
@@ -1124,6 +1149,7 @@ No aplicable
 [VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=dbe89813-0a45-463b-928c-1e58f7bb596a) \*\*  
 (KB981349)  
 (Sin clasificación de gravedad <sup>[2]</sup> )  
+
 [VBScript 5.8](http://www.microsoft.com/downloads/details.aspx?familyid=527d6376-efc9-436b-835b-219d38bb28f0) \*\*  
 (KB981332)  
 (Sin clasificación de gravedad <sup>[2]</sup> )
@@ -1145,6 +1171,7 @@ Windows Server 2008 para sistemas x64 y Windows Server 2008 para sistemas x64 Se
 [Comprobación de firma Authenticode 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=49f9f740-023a-4291-becf-838a1d282321) \*  
 (KB978601)  
 (Crítica)  
+
 [Extensión del shell para el visor de archivos Cab 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=91c08251-0085-44cb-9e9c-9a1a84374caf)  
 (KB979309)  
 (Crítica)
@@ -1171,6 +1198,7 @@ No aplicable
 [VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=9db62357-557d-40cd-9826-b7baa6c9de65) \*\*  
 (KB981349)  
 (Sin clasificación de gravedad <sup>[2]</sup> )  
+
 [VBScript 5.8](http://www.microsoft.com/downloads/details.aspx?familyid=0c384dbc-21b7-4cbc-b68f-ced971d9b791) \*\*  
 (KB981332)  
 (Sin clasificación de gravedad <sup>[2]</sup> )
@@ -1192,6 +1220,7 @@ Windows Server 2008 para sistemas con Itanium y Windows Server 2008 para sistema
 [Comprobación de firma Authenticode 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=bd60779a-8bb1-4107-a344-9b09a50e96ff)  
 (KB978601)  
 (Crítica)  
+
 [Extensión del shell para el visor de archivos Cab 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=eb116688-1d6e-4e20-948e-1d347af5d985)  
 (KB979309)  
 (Crítica)
@@ -1303,6 +1332,7 @@ Windows 7 para sistemas de 32 bits
 [Comprobación de firma Authenticode 6.1](http://www.microsoft.com/downloads/details.aspx?familyid=8d4a6c65-e171-4570-8f3f-118f06910baf)  
 (KB978601)  
 (Crítica)  
+
 [Extensión del shell para el visor de archivos Cab 6.1](http://www.microsoft.com/downloads/details.aspx?familyid=f0dbac52-0f0e-40bc-9371-17fa594424d5)  
 (KB979309)  
 (Crítica)
@@ -1344,6 +1374,7 @@ Windows 7 para sistemas x64
 [Comprobación de firma Authenticode 6.1](http://www.microsoft.com/downloads/details.aspx?familyid=cf8c6721-05c2-4680-93b4-be36f09c6d15)  
 (KB978601)  
 (Crítica)  
+
 [Extensión del shell para el visor de archivos Cab 6.1](http://www.microsoft.com/downloads/details.aspx?familyid=b23efe7d-bca4-4d49-9104-6ae39dc5daa9)  
 (KB979309)  
 (Crítica)
@@ -1454,6 +1485,7 @@ Windows Server 2008 R2 para sistemas x64
 [Comprobación de firma Authenticode 6.1](http://www.microsoft.com/downloads/details.aspx?familyid=94dfdaae-8464-4de6-a401-7eb70b3bb34f) \*  
 (KB978601)  
 (Crítica)  
+
 [Extensión del shell para el visor de archivos Cab 6.1](http://www.microsoft.com/downloads/details.aspx?familyid=a2979c02-2a80-4b84-bf6c-4798064bdf28)  
 (KB979309)  
 (Crítica)
@@ -1496,6 +1528,7 @@ Windows Server 2008 R2 para sistemas con Itanium
 [Comprobación de firma Authenticode 6.1](http://www.microsoft.com/downloads/details.aspx?familyid=40f622d2-48e7-4eb2-9430-bbd218cb5208)  
 (KB978601)  
 (Crítica)  
+
 [Extensión del shell para el visor de archivos Cab 6.1](http://www.microsoft.com/downloads/details.aspx?familyid=5e416d4b-5de7-4688-80c6-245de159e0ce)  
 (KB979309)  
 (Crítica)
@@ -1694,6 +1727,7 @@ Microsoft Exchange Server 2007
 [Microsoft Exchange Server 2007 Service Pack 1 para sistemas x64](http://www.microsoft.com/downloads/details.aspx?familyid=6a894b4e-12b6-4a91-9555-d813956b6aac)  
 (KB981407)  
 (Sin clasificación de gravedad <sup>[1]</sup> )  
+
 [Microsoft Exchange Server 2007 Service Pack 2 para sistemas x64](http://www.microsoft.com/downloads/details.aspx?familyid=b8f7f872-16d5-49d6-9867-adc01351c06f)  
 (KB981383)  
 (Sin clasificación de gravedad <sup>[1]</sup> )

@@ -4,7 +4,7 @@ Title: Resumen del boletín de seguridad de Microsoft de agosto 2010
 ms:assetid: 'ms10-aug'
 ms:contentKeyID: 61225409
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms10-aug(v=Security.10)'
---- Summary
+---
 
 Resumen del boletín de seguridad de Microsoft de agosto 2010
 ============================================================
@@ -406,8 +406,10 @@ Windows XP Service Pack 3
 <td style="border:1px solid black;">
 [Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=bc949915-4e16-4897-a295-2f99102548ab)  
 (Crítica)  
+
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=4b489f8c-ada0-4051-8284-0a941c04d2ed)  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=1662780f-370a-425b-9917-c601eb54a375)  
 (Crítica)
 </td>
@@ -423,6 +425,7 @@ Windows XP Service Pack 3
 [Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=648cfca5-19eb-4658-a6ad-fe546c4c44b9)  
 (KB983582)  
 (Crítica)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=1e53f250-2d4b-4f61-86ee-9f9f3a9c0b48)  
 (KB983583)  
 (Crítica)
@@ -469,8 +472,10 @@ Windows XP Professional x64 Edition Service Pack 2
 <td style="border:1px solid black;">
 [Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=96b7a562-af16-4f0d-840c-838fb12e7419)  
 (Crítica)  
+
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=5296fb82-c446-4681-a9a0-0f80a2e248be)  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=f8ae3978-bad6-4201-8357-2d212ab703ef)  
 (Crítica)
 </td>
@@ -486,6 +491,7 @@ Windows XP Professional x64 Edition Service Pack 2
 [Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=648cfca5-19eb-4658-a6ad-fe546c4c44b9)  
 (KB983582)  
 (Crítica)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=1e53f250-2d4b-4f61-86ee-9f9f3a9c0b48)  
 (KB983583)  
 (Crítica)
@@ -624,8 +630,10 @@ Windows Server 2003 Service Pack 2
 <td style="border:1px solid black;">
 [Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=b0370e1e-dedf-4fe8-a06c-0e0f0a674205)  
 (Crítica)  
+
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=8753ae27-60a4-475a-b8bc-6a7764480295)  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=772e765d-0502-4b0b-bde8-d4f62b96db64)  
 (Crítica)
 </td>
@@ -640,6 +648,7 @@ No aplicable
 [Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=648cfca5-19eb-4658-a6ad-fe546c4c44b9)  
 (KB983582)  
 (Crítica)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=1e53f250-2d4b-4f61-86ee-9f9f3a9c0b48)  
 (KB983583)  
 (Crítica)
@@ -684,8 +693,10 @@ Windows Server 2003 x64 Edition Service Pack 2
 <td style="border:1px solid black;">
 [Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=d92f5e69-43cf-4615-aa3b-41f9f40bb57b)  
 (Crítica)  
+
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=fd3e9d06-1f8b-4ef7-84f6-61e85a1767b8)  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=863edf45-0d3b-4408-a47c-258dc4a4fd94)  
 (Crítica)
 </td>
@@ -700,6 +711,7 @@ No aplicable
 [Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=648cfca5-19eb-4658-a6ad-fe546c4c44b9)  
 (KB983582)  
 (Crítica)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=1e53f250-2d4b-4f61-86ee-9f9f3a9c0b48)  
 (KB983583)  
 (Crítica)
@@ -743,6 +755,7 @@ No aplicable
 <td style="border:1px solid black;">
 [Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=782e2963-4a52-4a1d-b99a-34ba841038a7)  
 (Crítica)  
+
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=5e730064-8270-4d63-b497-c5ebeddea1fc)  
 (Crítica)
 </td>
@@ -757,6 +770,7 @@ No aplicable
 [Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=648cfca5-19eb-4658-a6ad-fe546c4c44b9)  
 (KB983582)  
 (Crítica)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=1e53f250-2d4b-4f61-86ee-9f9f3a9c0b48)  
 (KB983583)  
 (Crítica)
@@ -893,6 +907,7 @@ No aplicable
 <td style="border:1px solid black;">
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=535c563e-cdac-4e3d-96b0-9947ea22deca)  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=2062566b-8b81-43c2-875d-9c06d4e3fa82)  
 (Crítica)
 </td>
@@ -909,10 +924,12 @@ Windows Vista Service Pack 1 solamente:
 [Microsoft .NET Framework 2.0 Service Pack 1 y Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=616c39f7-137a-40b9-b691-bc33c0aef7e1)  
 (KB983587)  
 (Crítica)  
+
 Windows Vista Service Pack 1 solamente:  
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=155bbb5c-247e-4bed-a287-527d978b7967)  
 (KB983588)  
 (Crítica)  
+
 Windows Vista Service Pack 2 únicamente:  
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=7712e8ad-dea4-4a43-8a7b-dc154510c104)  
 (KB983589)  
@@ -929,6 +946,7 @@ Windows Vista Service Pack 2 únicamente:
 <td style="border:1px solid black;">
 [Movie Maker 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=8aded9dd-08d6-4b19-955f-0d8414868cf9)<sup>[1]</sup>
 (Importante)  
+
 [Movie Maker 2.6](http://www.microsoft.com/downloads/details.aspx?familyid=a1d8ed0d-a3b5-416a-ab8b-77501da62132)<sup>[2]</sup>
 (Importante)
 </td>
@@ -963,6 +981,7 @@ No aplicable
 <td style="border:1px solid black;">
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=cd1185e3-ca22-4197-a53b-e7a2806ac352)  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=65b04e29-8e39-46de-94e8-b653969b1ffd)  
 (Crítica)
 </td>
@@ -979,10 +998,12 @@ Windows Vista x64 Edition Service Pack 1 solamente:
 [Microsoft .NET Framework 2.0 Service Pack 1 y Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=616c39f7-137a-40b9-b691-bc33c0aef7e1)  
 (KB983587)  
 (Crítica)  
+
 Windows Vista x64 Edition Service Pack 1 solamente:  
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=155bbb5c-247e-4bed-a287-527d978b7967)  
 (KB983588)  
 (Crítica)  
+
 Windows Vista x64 Edition Service Pack 2 únicamente:  
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=7712e8ad-dea4-4a43-8a7b-dc154510c104)  
 (KB983589)  
@@ -999,6 +1020,7 @@ Windows Vista x64 Edition Service Pack 2 únicamente:
 <td style="border:1px solid black;">
 [Movie Maker 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=4baff9ae-dd25-4942-b45e-f281d0e1f4ac)<sup>[1]</sup>
 (Importante)  
+
 [Movie Maker 2.6](http://www.microsoft.com/downloads/details.aspx?familyid=0a226592-8f98-4f67-ac60-1d00cbc56598)<sup>[2]</sup>
 (Importante)
 </td>
@@ -1126,6 +1148,7 @@ No aplicable
 <td style="border:1px solid black;">
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=8239cb9e-bb5a-4157-8038-33d0b329eaee)\*\*  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=409b9298-1e7d-48cf-9872-ffbdc56ebe53)\*\*  
 (Crítica)
 </td>
@@ -1141,10 +1164,12 @@ Windows Server 2008 para sistemas de 32 bits únicamente:
 [Microsoft .NET Framework 2.0 Service Pack 1 y Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=616c39f7-137a-40b9-b691-bc33c0aef7e1)\*\*  
 (KB983587)  
 (Crítica)  
+
 Windows Server 2008 para sistemas de 32 bits únicamente:  
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=155bbb5c-247e-4bed-a287-527d978b7967)\*\*  
 (KB983588)  
 (Crítica)  
+
 Windows Server 2008 para sistemas de 32 bits Service Pack 2 únicamente:  
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=7712e8ad-dea4-4a43-8a7b-dc154510c104)\*\*  
 (KB983589)  
@@ -1192,6 +1217,7 @@ No aplicable
 <td style="border:1px solid black;">
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=5ef8abf0-c89e-4911-8d77-42400d9a398f)\*\*  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=9b869bab-0797-4f83-8c64-23dda9983c8d)\*\*  
 (Crítica)
 </td>
@@ -1207,10 +1233,12 @@ Windows Server 2008 para sistemas x64 únicamente:
 [Microsoft .NET Framework 2.0 Service Pack 1 y Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=616c39f7-137a-40b9-b691-bc33c0aef7e1)\*\*  
 (KB983587)  
 (Crítica)  
+
 Windows Server 2008 para sistemas x64 únicamente:  
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=155bbb5c-247e-4bed-a287-527d978b7967)\*\*  
 (KB983588)  
 (Crítica)  
+
 Windows Server 2008 para sistemas x64 Service Pack 2 únicamente:  
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=7712e8ad-dea4-4a43-8a7b-dc154510c104)\*\*  
 (KB983589)  
@@ -1271,10 +1299,12 @@ Windows Server 2008 para sistemas con Itanium únicamente:
 [Microsoft .NET Framework 2.0 Service Pack 1 y Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=616c39f7-137a-40b9-b691-bc33c0aef7e1)  
 (KB983587)  
 (Crítica)  
+
 Windows Server 2008 para sistemas con Itanium únicamente:  
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=155bbb5c-247e-4bed-a287-527d978b7967)  
 (KB983588)  
 (Crítica)  
+
 Windows Server 2008 para sistemas con Itanium Service Pack 2 únicamente:  
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=7712e8ad-dea4-4a43-8a7b-dc154510c104)  
 (KB983589)  
@@ -1993,9 +2023,11 @@ Microsoft Silverlight 2
 [Microsoft Silverlight 2](http://www.microsoft.com/getsilverlight/get-started/install/default.aspx)<sup>[1]</sup> cuando está instalado en Mac  
 (KB982926)  
 (Crítica)  
+
 [Microsoft Silverlight 2](http://www.microsoft.com/getsilverlight/get-started/install/default.aspx)<sup>[1]</sup> cuando está instalado en todas las versiones de los clientes Microsoft Windows  
 (KB982926)  
 (Crítica)  
+
 [Microsoft Silverlight 2](http://www.microsoft.com/getsilverlight/get-started/install/default.aspx)<sup>[1]</sup> cuando está instalado en todas las versiones de los servidores Microsoft Windows\*\*  
 (KB982926)  
 (Crítica)
@@ -2009,9 +2041,11 @@ Microsoft Silverlight 3
 [Microsoft Silverlight 3](http://www.microsoft.com/downloads/details.aspx?familyid=7e3f6c16-1339-49bc-a60c-ddc6c3a54850)<sup>[2]</sup> cuando está instalado en Mac  
 (KB978464)  
 (Crítica)  
+
 [Microsoft Silverlight 3](http://www.microsoft.com/downloads/details.aspx?familyid=7e3f6c16-1339-49bc-a60c-ddc6c3a54850)<sup>[2]</sup> cuando está instalado en todas las versiones de los clientes Microsoft Windows  
 (KB978464)  
 (Crítica)  
+
 [Microsoft Silverlight 3](http://www.microsoft.com/downloads/details.aspx?familyid=7e3f6c16-1339-49bc-a60c-ddc6c3a54850)<sup>[2]</sup> cuando está instalado en todas las versiones de los servidores Microsoft Windows\*\*  
 (KB978464)  
 (Crítica)

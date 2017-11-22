@@ -4,7 +4,7 @@ Title: Microsoft Security Bulletin Summary for junio 2010
 ms:assetid: 'ms10-jun'
 ms:contentKeyID: 61225414
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms10-jun(v=Security.10)'
---- Summary
+---
 
 Microsoft Security Bulletin Summary for junio 2010
 ==================================================
@@ -303,11 +303,11 @@ Estas tablas se pueden usar para conocer las actualizaciones de seguridad que qu
 <td style="border:1px solid black;">Microsoft Windows 2000 Service Pack 4</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=60c8579b-1540-40d8-80a0-956edadd63ce">Microsoft Windows 2000 Service Pack 4</a><br />
 (Importante)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a51c53bd-f9c1-4d53-8ed2-034fd57bc75a">Quartz.dll (DirectShow) (DirectX 9)</a>[1]<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a51c53bd-f9c1-4d53-8ed2-034fd57bc75a">Quartz.dll (DirectShow) (DirectX 9)</a><sup>[1]</sup><br />
 (KB975562)<br />
 (Crítica)<br />
 <br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=8417c0ac-bb6d-48f1-8237-77a4bdd8ccb2">Tiempo de ejecución de Windows Media Format 9</a>[2]<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=8417c0ac-bb6d-48f1-8237-77a4bdd8ccb2">Tiempo de ejecución de Windows Media Format 9</a><sup>[2]</sup><br />
 (KB978695)<br />
 (Crítica)<br />
 <br />
@@ -321,7 +321,7 @@ Estas tablas se pueden usar para conocer las actualizaciones de seguridad que qu
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=d3955983-0079-476e-a488-99713097259c">Microsoft Windows 2000 Service Pack 4</a><br />
 (Crítica)</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0a6c09e5-c655-41a0-a133-78d55267a527">Internet Explorer 5.01 Service Pack 4</a><br />
-(Sin clasificación de gravedad)[1]<br />
+(Sin clasificación de gravedad)<sup>[1]</sup><br />
 <br />
 <a href="http://www.microsoft.com/downloads/details.aspx?familyid=e2f27eeb-54be-40be-a00e-72867090b8e7">Internet Explorer 6 Service Pack 1</a><br />
 (Crítica)</td>
@@ -428,7 +428,7 @@ Windows XP Media Center Edition 2005 y Windows XP Tablet PC Edition 2005 únicam
 (KB978695)<br />
 (Crítica)<br />
 <br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=80006082-55f2-4857-9d2c-276c758b5555">Tiempo de ejecución de Windows Media Format 9.5 x64 Edition</a>[3]<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=80006082-55f2-4857-9d2c-276c758b5555">Tiempo de ejecución de Windows Media Format 9.5 x64 Edition</a><sup>[3]</sup><br />
 (KB978695)<br />
 (Crítica)<br />
 <br />
@@ -522,7 +522,7 @@ Windows XP Media Center Edition 2005 y Windows XP Tablet PC Edition 2005 únicam
 (Moderada)</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=ca49b5b5-db8e-4ebc-9a3c-b1ace09ac3c0">Windows Server 2003 Service Pack 2</a><br />
 (Importante)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0761c207-5465-4f42-b61f-bd02efcef27d">Internet Information Services 6.0</a>[1]<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0761c207-5465-4f42-b61f-bd02efcef27d">Internet Information Services 6.0</a><sup>[1]</sup><br />
 (Importante)</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=f82e1b73-7f8b-4f4c-8187-4050a11db44c">Microsoft .NET Framework 1.1 Service Pack 1</a><br />
 (KB979907)<br />
@@ -548,7 +548,7 @@ Windows XP Media Center Edition 2005 y Windows XP Tablet PC Edition 2005 únicam
 (KB978695)<br />
 (Crítica)<br />
 <br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=80006082-55f2-4857-9d2c-276c758b5555">Tiempo de ejecución de Windows Media Format 9.5 x64 Edition</a>[3]<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=80006082-55f2-4857-9d2c-276c758b5555">Tiempo de ejecución de Windows Media Format 9.5 x64 Edition</a><sup>[3]</sup><br />
 (KB978695)<br />
 (Crítica)<br />
 <br />
@@ -575,7 +575,7 @@ Windows XP Media Center Edition 2005 y Windows XP Tablet PC Edition 2005 únicam
 (Moderada)</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=b0794e7e-c925-4672-b7a5-4bb3f847f045">Windows Server 2003 x64 Edition Service Pack 2</a><br />
 (Importante)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=023572ff-ce5d-4428-a96b-1245db6ff312">Internet Information Services 6.0</a>[1]<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=023572ff-ce5d-4428-a96b-1245db6ff312">Internet Information Services 6.0</a><sup>[1]</sup><br />
 (Importante)</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=5e55ee58-f00a-4237-bddc-492b63a18b96">Microsoft .NET Framework 1.1 Service Pack 1</a><br />
 (KB979906)<br />
@@ -609,7 +609,7 @@ Windows XP Media Center Edition 2005 y Windows XP Tablet PC Edition 2005 únicam
 (Moderada)</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=6e76ebea-bde1-4352-a283-dd71c2cc51a1">Windows Server 2003 con SP2 para sistemas con Itanium</a><br />
 (Importante)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=f1f3e524-8ac6-4210-a3a8-4ffc58a606ea">Internet Information Services 6.0</a>[1]<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=f1f3e524-8ac6-4210-a3a8-4ffc58a606ea">Internet Information Services 6.0</a><sup>[1]</sup><br />
 (Importante)</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=5e55ee58-f00a-4237-bddc-492b63a18b96">Microsoft .NET Framework 1.1 Service Pack 1</a><br />
 (KB979906)<br />
@@ -668,7 +668,7 @@ Windows XP Media Center Edition 2005 y Windows XP Tablet PC Edition 2005 únicam
 (Crítica)</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=363b503a-2e1e-4284-a029-9695d2acfcb6">Windows Vista Service Pack 1 y Windows Vista Service Pack 2</a><br />
 (Importante)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=01382926-2313-4769-a0a5-262c4f9f18a1">Internet Information Services 7.0</a>[1]<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=01382926-2313-4769-a0a5-262c4f9f18a1">Internet Information Services 7.0</a><sup>[1]</sup><br />
 (Importante)</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=5e55ee58-f00a-4237-bddc-492b63a18b96">Microsoft .NET Framework 1.1 Service Pack 1</a><br />
 (KB979906)<br />
@@ -717,7 +717,7 @@ Windows Vista Service Pack 2 únicamente:<br />
 (Crítica)</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=3f512b86-3a99-47f7-a90e-1ae9b291385c">Windows Vista x64 Edition Service Pack 1 y Windows Vista x64 Edition Service Pack 2</a><br />
 (Importante)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7fb6f2b8-c7a6-4239-99f3-cf3aacf89b0f">Internet Information Services 7.0</a>[1]<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7fb6f2b8-c7a6-4239-99f3-cf3aacf89b0f">Internet Information Services 7.0</a><sup>[1]</sup><br />
 (Importante)</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=5e55ee58-f00a-4237-bddc-492b63a18b96">Microsoft .NET Framework 1.1 Service Pack 1</a><br />
 (KB979906)<br />
@@ -760,97 +760,97 @@ Windows Vista x64 Edition Service Pack 2 únicamente:<br />
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Windows Server 2008 para sistemas de 32 bits y Windows Server 2008 para sistemas de 32 bits Service Pack 2</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=22d550fe-ba35-4750-a9d6-624858b67c94">Windows Server 2008 para sistemas de 32 bits y Windows Server 2008 para sistemas de 32 bits Service Pack 2</a>*<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=22d550fe-ba35-4750-a9d6-624858b67c94">Windows Server 2008 para sistemas de 32 bits y Windows Server 2008 para sistemas de 32 bits Service Pack 2</a>\*<br />
 (Importante)</td>
 <td style="border:1px solid black;">Windows Server 2008 para sistemas de 32 bits únicamente:<br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=18fd814b-51f3-470b-a5bd-97be752298d9">Quartz.dll (DirectShow)</a>**<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=18fd814b-51f3-470b-a5bd-97be752298d9">Quartz.dll (DirectShow)</a>\*\*<br />
 (KB975562)<br />
 (Crítica)<br />
 <br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=5c5e2dfc-0078-4f2a-9c2e-75e45bb7638e">Asycfilt.dll (componente COM)</a>*<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=5c5e2dfc-0078-4f2a-9c2e-75e45bb7638e">Asycfilt.dll (componente COM)</a>\*<br />
 (KB979482)<br />
 (Crítica)<br />
 <br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=1ce1e47f-b1c3-4480-bafd-74f8b12e2171">Codificador de Windows Media 9 x86</a>**<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=1ce1e47f-b1c3-4480-bafd-74f8b12e2171">Codificador de Windows Media 9 x86</a>\*\*<br />
 (KB979332)<br />
 (Importante)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a06b9f42-47ac-4ff2-ac32-e4958cdb611e">Windows Server 2008 para sistemas de 32 bits y Windows Server 2008 para sistemas de 32 bits Service Pack 2</a>**<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a06b9f42-47ac-4ff2-ac32-e4958cdb611e">Windows Server 2008 para sistemas de 32 bits y Windows Server 2008 para sistemas de 32 bits Service Pack 2</a>\*\*<br />
 (Moderada)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=bed14484-7fc5-455d-b996-3192467543cc">Internet Explorer 7</a>**<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=bed14484-7fc5-455d-b996-3192467543cc">Internet Explorer 7</a>\*\*<br />
 (Moderada)<br />
 <br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=24ed08c7-a474-4458-8269-3b9de5e22385">Internet Explorer 8</a>**<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=24ed08c7-a474-4458-8269-3b9de5e22385">Internet Explorer 8</a>\*\*<br />
 (Moderada)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=e78ad607-d209-48c4-b0f3-ed4c70993174">Windows Server 2008 para sistemas de 32 bits y Windows Server 2008 para sistemas de 32 bits Service Pack 2</a>*<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=e78ad607-d209-48c4-b0f3-ed4c70993174">Windows Server 2008 para sistemas de 32 bits y Windows Server 2008 para sistemas de 32 bits Service Pack 2</a>\*<br />
 (Importante)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=84a54246-5d9e-49e2-8170-af48b43f984d">Internet Information Services 7.0</a>*[1]<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=84a54246-5d9e-49e2-8170-af48b43f984d">Internet Information Services 7.0</a>*<sup>[1]</sup><br />
 (Importante)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=5e55ee58-f00a-4237-bddc-492b63a18b96">Microsoft .NET Framework 1.1 Service Pack 1</a>**<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=5e55ee58-f00a-4237-bddc-492b63a18b96">Microsoft .NET Framework 1.1 Service Pack 1</a>\*\*<br />
 (KB979906)<br />
 (Importante)<br />
 <br />
 Windows Server 2008 para sistemas de 32 bits únicamente:<br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=3ffa2aa2-96a6-4317-8a81-c0ab6d570778">Microsoft .NET Framework 2.0 Service Pack 1 y Microsoft .NET Framework 3.5</a>**<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=3ffa2aa2-96a6-4317-8a81-c0ab6d570778">Microsoft .NET Framework 2.0 Service Pack 1 y Microsoft .NET Framework 3.5</a>\*\*<br />
 (KB979913)<br />
 (Importante)<br />
 <br />
 Windows Server 2008 para sistemas de 32 bits únicamente:<br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=818acb7e-f984-4793-9418-bb01ed8cfb68">Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1</a>**<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=818acb7e-f984-4793-9418-bb01ed8cfb68">Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1</a>\*\*<br />
 (KB979911)<br />
 (Importante)<br />
 <br />
 Windows Server 2008 para sistemas de 32 bits Service Pack 2 únicamente:<br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=14c2fa85-f73e-4b62-84ca-d5ea7439aebb">Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1</a>**<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=14c2fa85-f73e-4b62-84ca-d5ea7439aebb">Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1</a>\*\*<br />
 (KB979910)<br />
 (Importante)</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows Server 2008 para sistemas x64 y Windows Server 2008 para sistemas x64 Service Pack 2</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=09025626-4116-4a31-8700-215382898ee2">Windows Server 2008 para sistemas x64 y Windows Server 2008 para sistemas x64 Service Pack 2</a>*<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=09025626-4116-4a31-8700-215382898ee2">Windows Server 2008 para sistemas x64 y Windows Server 2008 para sistemas x64 Service Pack 2</a>\*<br />
 (Importante)</td>
 <td style="border:1px solid black;">Windows Server 2008 para sistemas x64 únicamente:<br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=4e40da51-23ee-44f0-9ea0-99bda8cca731">Quartz.dll (DirectShow)</a>**<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=4e40da51-23ee-44f0-9ea0-99bda8cca731">Quartz.dll (DirectShow)</a>\*\*<br />
 (KB975562)<br />
 (Crítica)<br />
 <br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=bfc0b62c-2d79-48dd-896f-d05057c02e8c">Asycfilt.dll (componente COM)</a>*<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=bfc0b62c-2d79-48dd-896f-d05057c02e8c">Asycfilt.dll (componente COM)</a>\*<br />
 (KB979482)<br />
 (Crítica)<br />
 <br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=93cc5ace-6382-4a2f-875b-9348b7e198a6">Codificador de Windows Media 9 x86</a>**<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=93cc5ace-6382-4a2f-875b-9348b7e198a6">Codificador de Windows Media 9 x86</a>\*\*<br />
 (KB979332)<br />
 (Importante)<br />
 <br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=d650a7d7-5620-4bb7-a7ad-0848dd28dae3">Codificador de Windows Media 9 x64</a>**<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=d650a7d7-5620-4bb7-a7ad-0848dd28dae3">Codificador de Windows Media 9 x64</a>\*\*<br />
 (KB979332)<br />
 (Importante)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=6d0a3f7c-2617-4bc6-a4c7-cda26c6471e1">Windows Server 2008 para sistemas x64 y Windows Server 2008 para sistemas x64 Service Pack 2</a>**<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=6d0a3f7c-2617-4bc6-a4c7-cda26c6471e1">Windows Server 2008 para sistemas x64 y Windows Server 2008 para sistemas x64 Service Pack 2</a>\*\*<br />
 (Moderada)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a24554e8-213b-4c24-b062-ec424d64128e">Internet Explorer 7</a>**<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a24554e8-213b-4c24-b062-ec424d64128e">Internet Explorer 7</a>\*\*<br />
 (Moderada)<br />
 <br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=cf84469b-ce6d-45e8-8336-7b4501c6cf91">Internet Explorer 8</a>**<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=cf84469b-ce6d-45e8-8336-7b4501c6cf91">Internet Explorer 8</a>\*\*<br />
 (Moderada)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=85f6fc5d-efd1-4351-b4c0-b9b7080e6173">Windows Server 2008 para sistemas x64 y Windows Server 2008 para sistemas x64 Service Pack 2</a>*<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=85f6fc5d-efd1-4351-b4c0-b9b7080e6173">Windows Server 2008 para sistemas x64 y Windows Server 2008 para sistemas x64 Service Pack 2</a>\*<br />
 (Importante)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=38286e43-89a6-4895-8ff9-69452df38706">Internet Information Services 7.0</a>*[1]<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=38286e43-89a6-4895-8ff9-69452df38706">Internet Information Services 7.0</a>*<sup>[1]</sup><br />
 (Importante)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=5e55ee58-f00a-4237-bddc-492b63a18b96">Microsoft .NET Framework 1.1 Service Pack 1</a>**<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=5e55ee58-f00a-4237-bddc-492b63a18b96">Microsoft .NET Framework 1.1 Service Pack 1</a>\*\*<br />
 (KB979906)<br />
 (Importante)<br />
 <br />
 Windows Server 2008 para sistemas x64 únicamente:<br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=3ffa2aa2-96a6-4317-8a81-c0ab6d570778">Microsoft .NET Framework 2.0 Service Pack 1 y Microsoft .NET Framework 3.5</a>**<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=3ffa2aa2-96a6-4317-8a81-c0ab6d570778">Microsoft .NET Framework 2.0 Service Pack 1 y Microsoft .NET Framework 3.5</a>\*\*<br />
 (KB979913)<br />
 (Importante)<br />
 <br />
 Windows Server 2008 para sistemas x64 únicamente:<br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=818acb7e-f984-4793-9418-bb01ed8cfb68">Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1</a>**<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=818acb7e-f984-4793-9418-bb01ed8cfb68">Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1</a>\*\*<br />
 (KB979911)<br />
 (Importante)<br />
 <br />
 Windows Server 2008 para sistemas x64 Service Pack 2 únicamente:<br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=14c2fa85-f73e-4b62-84ca-d5ea7439aebb">Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1</a>**<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=14c2fa85-f73e-4b62-84ca-d5ea7439aebb">Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1</a>\*\*<br />
 (KB979910)<br />
 (Importante)</td>
 </tr>
@@ -872,7 +872,7 @@ Windows Server 2008 para sistemas x64 Service Pack 2 únicamente:<br />
 (Moderada)</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=c6f1aae5-e8fd-4121-89b2-b97c571e8223">Windows Server 2008 para sistemas con Itanium y Windows Server 2008 para sistemas con Itanium Service Pack 2</a><br />
 (Importante)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=8ad19eba-9821-48b4-a942-4ee4f002f913">Internet Information Services 7.0</a>[1]<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=8ad19eba-9821-48b4-a942-4ee4f002f913">Internet Information Services 7.0</a><sup>[1]</sup><br />
 (Importante)</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=5e55ee58-f00a-4237-bddc-492b63a18b96">Microsoft .NET Framework 1.1 Service Pack 1</a><br />
 (KB979906)<br />
@@ -973,20 +973,20 @@ Windows Server 2008 para sistemas con Itanium Service Pack 2 únicamente:<br />
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows Server 2008 R2 para sistemas x64</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=4272277f-b2dd-4406-8bbd-bc461c9923b8">Windows Server 2008 R2 para sistemas x64</a>*<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=4272277f-b2dd-4406-8bbd-bc461c9923b8">Windows Server 2008 R2 para sistemas x64</a>\*<br />
 (Importante)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=1331f2bc-7479-4be7-a413-52afb488a330">Asycfilt.dll (componente COM)</a>*<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=1331f2bc-7479-4be7-a413-52afb488a330">Asycfilt.dll (componente COM)</a>\*<br />
 (KB979482)<br />
 (Crítica)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=901f7c89-02af-4f87-8592-dad318997d77">Windows Server 2008 R2 para sistemas x64</a>**<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=901f7c89-02af-4f87-8592-dad318997d77">Windows Server 2008 R2 para sistemas x64</a>\*\*<br />
 (Moderada)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7c4ff5ae-eadd-431e-b982-d5f179efb8c0">Internet Explorer 8</a>**<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7c4ff5ae-eadd-431e-b982-d5f179efb8c0">Internet Explorer 8</a>\*\*<br />
 (Moderada)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=45242c7c-3752-44bf-a766-024ad7d28f53">Windows Server 2008 R2 para sistemas x64</a>*<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=45242c7c-3752-44bf-a766-024ad7d28f53">Windows Server 2008 R2 para sistemas x64</a>\*<br />
 (Importante)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=5d9b7705-6280-4d2e-94fa-3160b3ce5cfa">Internet Information Services 7.5</a>*<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=5d9b7705-6280-4d2e-94fa-3160b3ce5cfa">Internet Information Services 7.5</a>\*<br />
 (Importante)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a49532d7-53f6-4190-aaf6-b1a818924764">Microsoft .NET Framework 3.5.1</a>*<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a49532d7-53f6-4190-aaf6-b1a818924764">Microsoft .NET Framework 3.5.1</a>\*<br />
 (KB979916)<br />
 (Importante)</td>
 </tr>
@@ -1073,7 +1073,7 @@ Windows Server 2008 para sistemas con Itanium Service Pack 2 únicamente:<br />
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Microsoft Office XP Service Pack 3</td>
-<td style="border:1px solid black;">Microsoft Office XP Service Pack 3[1]<br />
+<td style="border:1px solid black;">Microsoft Office XP Service Pack 3<sup>[1]</sup><br />
 (Importante)</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=fec14a92-79a1-4281-8ee2-659b2dfd283f">Microsoft Office Excel 2002 Service Pack 3</a><br />
 (KB982299)<br />
@@ -1086,23 +1086,23 @@ Windows Server 2008 para sistemas con Itanium Service Pack 2 únicamente:<br />
 (KB982311)<br />
 (Importante)<br />
 <br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=757b5d8f-ade5-4896-b152-43f76516bcf1">Microsoft Office Excel 2003 Service Pack 3</a>[2]<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=757b5d8f-ade5-4896-b152-43f76516bcf1">Microsoft Office Excel 2003 Service Pack 3</a><sup>[2]</sup><br />
 (KB982133)<br />
 (Importante)<br />
 <br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=6b6204c1-559f-45a5-8f6c-a1e216192efc">Microsoft Office PowerPoint 2003 Service Pack 3</a>[2]<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=6b6204c1-559f-45a5-8f6c-a1e216192efc">Microsoft Office PowerPoint 2003 Service Pack 3</a><sup>[2]</sup><br />
 (KB982157)<br />
 (Importante)<br />
 <br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=87bac893-81ec-4ede-aca1-a9aa48b92cd4">Microsoft Office Publisher 2003 Service Pack 3</a>[2]<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=87bac893-81ec-4ede-aca1-a9aa48b92cd4">Microsoft Office Publisher 2003 Service Pack 3</a><sup>[2]</sup><br />
 (KB982122)<br />
 (Importante)<br />
 <br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=1595ada3-bb4f-40f6-8137-23eba918bc8a">Microsoft Office Visio 2003 Service Pack 3</a>[2]<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=1595ada3-bb4f-40f6-8137-23eba918bc8a">Microsoft Office Visio 2003 Service Pack 3</a><sup>[2]</sup><br />
 (KB982126)<br />
 (Importante)<br />
 <br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=d2c40eb5-1149-4466-840c-84f406f64245">Microsoft Office Word 2003 Service Pack 3</a>[2]<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=d2c40eb5-1149-4466-840c-84f406f64245">Microsoft Office Word 2003 Service Pack 3</a><sup>[2]</sup><br />
 (KB982134)<br />
 (Importante)</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=757b5d8f-ade5-4896-b152-43f76516bcf1">Microsoft Office Excel 2003 Service Pack 3</a><br />
@@ -1116,26 +1116,26 @@ Windows Server 2008 para sistemas con Itanium Service Pack 2 únicamente:<br />
 (KB982312)<br />
 (Importante)<br />
 <br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=1b2599f0-1e5d-463c-b100-6c6a1b17b2ec">Microsoft Office Excel 2007 Service Pack 1 y Microsoft Office Excel 2007 Service Pack 2</a>[3]<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=1b2599f0-1e5d-463c-b100-6c6a1b17b2ec">Microsoft Office Excel 2007 Service Pack 1 y Microsoft Office Excel 2007 Service Pack 2</a><sup>[3]</sup><br />
 (KB982308)<br />
 (Importante)<br />
 <br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=decb834d-3958-45cc-a5ae-4283adb2462a">Microsoft Office PowerPoint 2007 Service Pack 1 y Microsoft Office PowerPoint 2007 Service Pack 2</a>[3]<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=decb834d-3958-45cc-a5ae-4283adb2462a">Microsoft Office PowerPoint 2007 Service Pack 1 y Microsoft Office PowerPoint 2007 Service Pack 2</a><sup>[3]</sup><br />
 (KB982158)<br />
 (Importante)<br />
 <br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=6a74b986-1e99-4aa1-828f-757a36896f65">Microsoft Office Publisher 2007 Service Pack 1 y Microsoft Office Publisher 2007 Service Pack 2</a>[3]<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=6a74b986-1e99-4aa1-828f-757a36896f65">Microsoft Office Publisher 2007 Service Pack 1 y Microsoft Office Publisher 2007 Service Pack 2</a><sup>[3]</sup><br />
 (KB982124)<br />
 (Importante)<br />
 <br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=d5df052e-1f38-4308-bcca-296cff22729b">Microsoft Office Visio 2007 Service Pack 1 y Microsoft Office Visio 2007 Service Pack 2</a>[3]<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=d5df052e-1f38-4308-bcca-296cff22729b">Microsoft Office Visio 2007 Service Pack 1 y Microsoft Office Visio 2007 Service Pack 2</a><sup>[3]</sup><br />
 (KB982127)<br />
 (Importante)<br />
 <br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=7e9708f0-8cd6-4f0b-8585-bccc54fa2755">Microsoft Office Word 2007 Service Pack 1 y Microsoft Office Word 2007 Service Pack 2</a>[3]<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=7e9708f0-8cd6-4f0b-8585-bccc54fa2755">Microsoft Office Word 2007 Service Pack 1 y Microsoft Office Word 2007 Service Pack 2</a><sup>[3]</sup><br />
 (KB982135)<br />
 (Importante)</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=1b2599f0-1e5d-463c-b100-6c6a1b17b2ec">Microsoft Office Excel 2007 Service Pack 1 y Microsoft Office Excel 2007 Service Pack 2</a>[1]<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=1b2599f0-1e5d-463c-b100-6c6a1b17b2ec">Microsoft Office Excel 2007 Service Pack 1 y Microsoft Office Excel 2007 Service Pack 2</a><sup>[1]</sup><br />
 (KB982308)<br />
 (Importante)</td>
 <td style="border:1px solid black;">No aplicable</td>
@@ -1224,19 +1224,19 @@ Windows Server 2008 para sistemas con Itanium Service Pack 2 únicamente:<br />
 <td style="border:1px solid black;">Microsoft Office SharePoint Server 2007 Service Pack 1 y Microsoft Office SharePoint Server 2007 Service Pack 2</td>
 <td style="border:1px solid black;">No aplicable</td>
 <td style="border:1px solid black;">No aplicable</td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=52a55423-f33b-4cd1-919d-806972a553df">Microsoft Office SharePoint Server 2007 Service Pack 1 (ediciones de 32 bits)</a>[1]<br />
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=52a55423-f33b-4cd1-919d-806972a553df">Microsoft Office SharePoint Server 2007 Service Pack 1 (ediciones de 32 bits)</a><sup>[1]</sup><br />
 (KB979445)<br />
 (Importante)<br />
 <br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=52a55423-f33b-4cd1-919d-806972a553df">Microsoft Office SharePoint Server 2007 Service Pack 2 (ediciones de 32 bits)</a>[1]<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=52a55423-f33b-4cd1-919d-806972a553df">Microsoft Office SharePoint Server 2007 Service Pack 2 (ediciones de 32 bits)</a><sup>[1]</sup><br />
 (KB979445)<br />
 (Importante)<br />
 <br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=4d84a25b-532f-4319-9ab2-90e5b82ebd90">Microsoft Office SharePoint Server 2007 Service Pack 1 (ediciones de 64 bits)</a>[1]<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=4d84a25b-532f-4319-9ab2-90e5b82ebd90">Microsoft Office SharePoint Server 2007 Service Pack 1 (ediciones de 64 bits)</a><sup>[1]</sup><br />
 (KB979445)<br />
 (Importante)<br />
 <br />
-<a href="http://www.microsoft.com/downloads/details.aspx?familyid=4d84a25b-532f-4319-9ab2-90e5b82ebd90">Microsoft Office SharePoint Server 2007 Service Pack 2 (ediciones de 64 bits)</a>[1]<br />
+<a href="http://www.microsoft.com/downloads/details.aspx?familyid=4d84a25b-532f-4319-9ab2-90e5b82ebd90">Microsoft Office SharePoint Server 2007 Service Pack 2 (ediciones de 64 bits)</a><sup>[1]</sup><br />
 (KB979445)<br />
 (Importante)</td>
 </tr>

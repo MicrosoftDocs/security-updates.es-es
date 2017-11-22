@@ -4,7 +4,7 @@ Title: Resumen del boletín de seguridad de Microsoft de febrero 2010
 ms:assetid: 'ms10-feb'
 ms:contentKeyID: 61225411
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms10-feb(v=Security.10)'
---- Summary
+---
 
 Resumen del boletín de seguridad de Microsoft de febrero 2010
 =============================================================
@@ -363,9 +363,11 @@ No aplicable
 [Filtro de AVI](http://www.microsoft.com/downloads/details.aspx?familyid=ba110440-10ce-40a0-884a-8b9afd45a3e3)  
 (KB977914)  
 (Crítica)  
+
 [Quartz](http://www.microsoft.com/downloads/details.aspx?familyid=16787c93-2c95-4c13-8492-be1db9d18146)  
 (KB975560)  
 (Crítica)  
+
 [Quartz en DirectX 9.0](http://www.microsoft.com/downloads/details.aspx?familyid=59a8bc19-02bb-4800-bac1-464f59e1cb7b)<sup>[1]</sup>
 (KB975560)  
 (Crítica)
@@ -498,6 +500,7 @@ No aplicable
 [Filtro de AVI](http://www.microsoft.com/downloads/details.aspx?familyid=a9beb2bd-e5f6-43f9-bbcc-a2afee5e5ceb)  
 (KB977914)  
 (Crítica)  
+
 [Quartz](http://www.microsoft.com/downloads/details.aspx?familyid=7ab53be3-3f42-4e61-a2bc-3ed41d8736ff)  
 (KB975560)  
 (Crítica)
@@ -548,6 +551,7 @@ No aplicable
 [Filtro de AVI](http://www.microsoft.com/downloads/details.aspx?familyid=dedc3010-a989-45f7-b9d4-f7079db3e572)  
 (KB977914)  
 (Crítica)  
+
 [Quartz](http://www.microsoft.com/downloads/details.aspx?familyid=7543e819-cd36-4e89-9850-60f00c50999d)  
 (KB975560)  
 (Crítica)
@@ -679,6 +683,7 @@ No aplicable
 [Filtro de AVI](http://www.microsoft.com/downloads/details.aspx?familyid=cc5150d7-070e-4a87-9c02-d050a8cb2204)  
 (KB977914)  
 (Crítica)  
+
 [Quartz](http://www.microsoft.com/downloads/details.aspx?familyid=983c5484-6321-4765-97ec-8d42d42d1f70)  
 (KB975560)  
 (Crítica)
@@ -730,6 +735,7 @@ No aplicable
 [Filtro de AVI](http://www.microsoft.com/downloads/details.aspx?familyid=db13e99b-2f2a-4474-8d6e-271b025bd07f)  
 (KB977914)  
 (Crítica)  
+
 [Quartz](http://www.microsoft.com/downloads/details.aspx?familyid=7dc20252-6091-407b-befc-c25e8f5d3fb0)  
 (KB975560)  
 (Crítica)
@@ -781,6 +787,7 @@ No aplicable
 [Filtro de AVI](http://www.microsoft.com/downloads/details.aspx?familyid=aec66173-e2c6-4c39-8d60-8fbef6d7b764)  
 (KB977914)  
 (Importante)  
+
 [Quartz](http://www.microsoft.com/downloads/details.aspx?familyid=b1a7533a-913f-4054-b579-489a257bae5f)  
 (KB975560)  
 (Importante)
