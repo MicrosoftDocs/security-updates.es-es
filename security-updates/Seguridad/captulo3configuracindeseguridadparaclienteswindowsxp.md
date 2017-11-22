@@ -15,26 +15,26 @@ Actualizado: 20/10/05
 
 ##### En esta página
 
-[](#enaa)[Información general](#enaa)
-[](#emaa)[Configuración de directiva de cuentas](#emaa)
-[](#elaa)[Configuración de Directiva local](#elaa)
-[](#ekaa)[Configuración de directiva de auditoría](#ekaa)
-[](#ejaa)[Configuración de Asignación de derechos de usuario](#ejaa)
-[](#eiaa)[Configuración de Opciones de seguridad](#eiaa)
-[](#ehaa)[Configuración de seguridad del registro de eventos](#ehaa)
-[](#egaa)[Grupos restringidos](#egaa)
-[](#efaa)[Servicios del sistema](#efaa)
-[](#eeaa)[Parámetros adicionales del registro](#eeaa)
-[](#edaa)[Modificación de la interfaz de usuario del Editor de configuración de seguridad](#edaa)
-[](#ecaa)[Configuración de seguridad adicional](#ecaa)
-[](#ebaa)[Seguridad del sistema de archivos](#ebaa)
+[](#enaa)[Información general](#enaa)  
+[](#emaa)[Configuración de directiva de cuentas](#emaa)  
+[](#elaa)[Configuración de Directiva local](#elaa)  
+[](#ekaa)[Configuración de directiva de auditoría](#ekaa)  
+[](#ejaa)[Configuración de Asignación de derechos de usuario](#ejaa)  
+[](#eiaa)[Configuración de Opciones de seguridad](#eiaa)  
+[](#ehaa)[Configuración de seguridad del registro de eventos](#ehaa)  
+[](#egaa)[Grupos restringidos](#egaa)  
+[](#efaa)[Servicios del sistema](#efaa)  
+[](#eeaa)[Parámetros adicionales del registro](#eeaa)  
+[](#edaa)[Modificación de la interfaz de usuario del Editor de configuración de seguridad](#edaa)  
+[](#ecaa)[Configuración de seguridad adicional](#ecaa)  
+[](#ebaa)[Seguridad del sistema de archivos](#ebaa)  
 [](#eaaa)[Resumen](#eaaa)
 
 ### Información general
 
-En este capítulo se describen los parámetros principales que se configuran a través de Directiva de grupo en un dominio de servicio de directorio Microsoft® Windows® 2000 o Windows Server™ 2003 Active Directory®. Implemente las configuraciones de directiva recomendadas para que los equipos de escritorio y portátiles de su organización en los que se ejecuta Microsoft Windows XP Professional con Service Pack 2 (SP2) queden configurados de un modo seguro. No se proporciona orientación para todas las configuraciones de directiva disponibles en Windows XP, sólo para las que pueden tener una relación directa en la seguridad del equipo.
+En este capítulo se describen los parámetros principales que se configuran a través de Directiva de grupo en un dominio de servicio de directorio Microsoft® Windows® 2000 o Windows Server™ 2003 Active Directory®. Implemente las configuraciones de directiva recomendadas para que los equipos de escritorio y portátiles de su organización en los que se ejecuta Microsoft Windows XP Professional con Service Pack 2 (SP2) queden configurados de un modo seguro. No se proporciona orientación para todas las configuraciones de directiva disponibles en Windows XP, sólo para las que pueden tener una relación directa en la seguridad del equipo.
 
-Tal como se describía en el capítulo 1, "Introducción a la Guía de seguridad de Windows XP", la orientación que se presenta en este capítulo es específica para los entornos Cliente de empresa (EC), Seguridad especializada: Funcionalidad limitada (SSLF) que se definen en esta guía. En algunos casos, en este capítulo se recomiendan configuraciones de directiva para equipos portátiles distintas a las que se aplican a los equipos de escritorio, debido a que los primeros cuentan con movilidad y no siempre se encuentran conectados a controladores de dominio en el entorno a través de la red de la organización. También se da por sentado que los usuarios de equipos portátiles trabajan a horas distintas cuando no disponen de soporte técnico inmediato. Por esos motivos, las configuraciones de directiva que requieren conectividad a un controlador de dominio o que determinan las horas de inicio de sesión son distintos para los equipos portátiles cliente.
+Tal como se describía en el capítulo 1, "Introducción a la Guía de seguridad de Windows XP", la orientación que se presenta en este capítulo es específica para los entornos Cliente de empresa (EC), Seguridad especializada: Funcionalidad limitada (SSLF) que se definen en esta guía. En algunos casos, en este capítulo se recomiendan configuraciones de directiva para equipos portátiles distintas a las que se aplican a los equipos de escritorio, debido a que los primeros cuentan con movilidad y no siempre se encuentran conectados a controladores de dominio en el entorno a través de la red de la organización. También se da por sentado que los usuarios de equipos portátiles trabajan a horas distintas cuando no disponen de soporte técnico inmediato. Por esos motivos, las configuraciones de directiva que requieren conectividad a un controlador de dominio o que determinan las horas de inicio de sesión son distintos para los equipos portátiles cliente.
 
 Las configuraciones de directiva que no se especifican para entornos determinados se definen a veces en el nivel de dominio, tal como se describe en el capítulo 2, "Configuración de la infraestructura de dominios de Active Directory". Otras configuraciones de directiva que se enumeran en este capítulo como **No está definido** se tratan de ese modo porque el valor predeterminado es suficientemente seguro para ese entorno en particular. Asimismo, las configuraciones de directiva no definidas en estos objetos de directiva de grupo (GPO) facilitan la implementación de aplicaciones que necesitan modificar parámetros durante la instalación. Por ejemplo, puede haber herramientas de administración que necesiten asignar derechos de usuario específicos a las cuentas del servicio local en equipos administrados. La orientación en este capítulo consiste en recomendaciones. Siempre deberá considerar detenidamente las necesidades de su organización antes de realizar cambios en el entorno.
 
@@ -83,7 +83,7 @@ En este capítulo no se proporciona información acerca de parámetros de config
   
 ### Configuración de Directiva local
   
-La configuración de la directiva local se puede establecer en cualquier equipo en el que se ejecute Windows XP Professional a través de o la consola de directivas de seguridad local o de GPO basados en dominio de Active Directory. Entre los parámetros de directiva local se incluyen los de directiva de auditoría, asignaciones de derechos de usuario y opciones de seguridad.
+La configuración de la directiva local se puede establecer en cualquier equipo en el que se ejecute Windows XP Professional a través de o la consola de directivas de seguridad local o de GPO basados en dominio de Active Directory. Entre los parámetros de directiva local se incluyen los de directiva de auditoría, asignaciones de derechos de usuario y opciones de seguridad.
   
 [](#mainsection)[Principio de la página](#mainsection)
   
@@ -95,7 +95,7 @@ Sin embargo, antes de implementar una directiva de auditoría tendrá que decidi
   
 Si no se establece ninguna configuración de auditoría, resultará difícil o imposible determinar lo que sucedió durante un incidente de seguridad. No obstante, si se configura la auditoría de manera que generen eventos demasiadas actividades autorizadas, el registro de eventos de seguridad se llenará de datos poco útiles. La información de las secciones siguientes está diseñada para ayudarle a decidir qué debe supervisar y cómo recopilar datos de auditoría pertinentes para su organización.
   
-Puede establecer la configuración de directiva de auditoría en Windows XP en la siguiente ubicación del Editor de objetos de directiva de grupo:
+Puede establecer la configuración de directiva de auditoría en Windows XP en la siguiente ubicación del Editor de objetos de directiva de grupo:
   
 **Configuración de equipo\\Configuración de Windows\\Configuración de seguridad\\Directivas locales\\Directiva de auditoría**
   
@@ -203,7 +203,7 @@ El parámetro **Auditar la administración de cuestas** se configura como **Corr
   
 #### Auditar el acceso del servicio de directorio
   
-Esta configuración de directiva sólo se puede habilitar para realizar tareas de auditoría en controladores de dominio. Por ello, no se define en el nivel de estación de trabajo. Esta configuración de directiva no se aplica a equipos en los que se ejecuta Windows XP Professional. Así pues, asegúrese de que el parámetro **Auditar el acceso del servicio de directorio** está configurado como **No está definido** para los dos entornos que se tratan en este capítulo.
+Esta configuración de directiva sólo se puede habilitar para realizar tareas de auditoría en controladores de dominio. Por ello, no se define en el nivel de estación de trabajo. Esta configuración de directiva no se aplica a equipos en los que se ejecuta Windows XP Professional. Así pues, asegúrese de que el parámetro **Auditar el acceso del servicio de directorio** está configurado como **No está definido** para los dos entornos que se tratan en este capítulo.
   
 #### Auditar eventos de inicio de sesión
   
@@ -301,7 +301,7 @@ El parámetro **Auditar eventos del sistema** está configurado como **Correcto*
   
 ### Configuración de Asignación de derechos de usuario
   
-Además de los numerosos grupos con privilegios de Windows XP Professional, es posible asignar una serie de derechos a usuarios o grupos que normalmente no los tienen.
+Además de los numerosos grupos con privilegios de Windows XP Professional, es posible asignar una serie de derechos a usuarios o grupos que normalmente no los tienen.
   
 Para establecer el valor de un derecho de usuario en **Ninguno**, habilite este parámetro, pero no agregue ningún usuario o grupo. Para establecer el valor en **No está definido**, no lo habilite.
   
@@ -313,7 +313,7 @@ La tabla siguiente resume las recomendaciones sobre asignaciones de derechos de 
   
 Las recomendaciones sobre derechos de usuario que empiezan por cualquiera de las restantes letras del alfabeto se resumen en la Tabla 3.4, y se proporciona información adicional detallada acerca de esos derechos de usuario en las subsecciones que siguen a esa tabla.
   
-**Nota**: muchas características de Internet Information Server (IIS) requieren que ciertas cuentas, como IIS\_WPG, IIS IUSR\_*&lt;NombreEquipo&gt;* e* *IWAM\_*&lt;NombreEquipo&gt;*, cuenten con privilegios específicos. Para obtener más información acerca de qué derechos de usuario requieren las cuentas relacionadas con IIS, consulte el artículo sobre [IIS y cuentas integradas (IIS 6.0)](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/iis/3648346f-e4f5-474b-86c7-5a86e85fa1ff.mspx) en www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/  
+**Nota**: muchas características de Internet Information Server (IIS) requieren que ciertas cuentas, como IIS\_WPG, IIS IUSR\_&lt;NombreEquipo&gt; e IWAM\_&lt;NombreEquipo&gt;, cuenten con privilegios específicos. Para obtener más información acerca de qué derechos de usuario requieren las cuentas relacionadas con IIS, consulte el artículo sobre [IIS y cuentas integradas (IIS 6.0)](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/iis/3648346f-e4f5-474b-86c7-5a86e85fa1ff.mspx) en www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/  
 IIS/3648346f-e4f5-474b-86c7-5a86e85fa1ff.mspx.
   
 #### Derechos de usuario A – E
@@ -501,7 +501,7 @@ El parámetro **Permitir el inicio de sesión local** queda restringido a los gr
   
 Esta configuración de directiva determina qué usuarios o grupos tienen derecho a iniciar sesión como cliente de Servicios de Terminal Server. Los usuarios de escritorio remoto requieren este derecho de usuario. Si su organización utiliza Asistencia remota como parte de su estrategia de soporte técnico, cree un grupo y asígnele este derecho de usuario a través de Directiva de grupo. Si el personal de asistencia de su organización no utiliza Asistencia remota, asigne este derecho de usuario sólo al grupo **Administradores** o utilice la característica de grupos restringidos para asegurarse de que ninguna cuenta de usuario forma parte del grupo **Usuarios de escritorio remoto.**
   
-Restrinja este derecho de usuario al grupo **Administradores** y, si es posible, al grupo **Usuarios de escritorio remoto**, para evitar que usuarios no deseados obtengan acceso a equipos de la red por medio de la nueva característica Asistencia Remota en Windows XP Professional.
+Restrinja este derecho de usuario al grupo **Administradores** y, si es posible, al grupo **Usuarios de escritorio remoto**, para evitar que usuarios no deseados obtengan acceso a equipos de la red por medio de la nueva característica Asistencia Remota en Windows XP Professional.
   
 El parámetro **Permitir inicio de sesión a través de Servicios de Terminal Server** está configurado como **No está definido** para el entorno EC. Para mayor seguridad, esta configuración de directiva se establece como **Ninguno** en el entorno SSLF.
   
@@ -731,7 +731,7 @@ Esta tabla resume las recomendaciones sobre asignaciones de derechos de usuario,
   
 ##### Forzar el apagado de un sistema remoto
   
-Esta configuración de directiva permite a los usuarios apagar equipos Windows XP desde ubicaciones remotas de la red. Cualquier usuario al que se le haya asignado este derecho puede provocar una situación de denegación del servicio (DoS), con lo que el equipo dejaría de estar disponible para las solicitudes del usuario del servicio. Por lo tanto, Microsoft recomienda que sólo se asigne este derecho de usuario a los administradores de máxima confianza.
+Esta configuración de directiva permite a los usuarios apagar equipos Windows XP desde ubicaciones remotas de la red. Cualquier usuario al que se le haya asignado este derecho puede provocar una situación de denegación del servicio (DoS), con lo que el equipo dejaría de estar disponible para las solicitudes del usuario del servicio. Por lo tanto, Microsoft recomienda que sólo se asigne este derecho de usuario a los administradores de máxima confianza.
   
 El parámetro **Forzar el apagado desde un sistema remoto** se configura para el grupo **Administradores** en los dos entornos que se tratan en este capítulo.
   
@@ -749,7 +749,7 @@ Por ese motivo, el parámetro **Aumentar la prioridad de programación** se conf
   
 ##### Cargar y descargar controladores de dispositivo
   
-Esta configuración de directiva permite a los usuarios cargar dinámicamente un nuevo controlador de dispositivo en un sistema. Un atacante podría utilizar esta capacidad para instalar código malintencionado con la apariencia de un controlador de dispositivo. Este derecho de usuario y la pertenencia al grupo **Usuarios avanzados** o al grupo **Administradores** son necesarios para que los usuarios puedan agregar controladores de impresora o impresoras locales en Windows XP.
+Esta configuración de directiva permite a los usuarios cargar dinámicamente un nuevo controlador de dispositivo en un sistema. Un atacante podría utilizar esta capacidad para instalar código malintencionado con la apariencia de un controlador de dispositivo. Este derecho de usuario y la pertenencia al grupo **Usuarios avanzados** o al grupo **Administradores** son necesarios para que los usuarios puedan agregar controladores de impresora o impresoras locales en Windows XP.
   
 Dado que este derecho de usuario podría ser utilizado por un atacante, el parámetro **Cargar y descargar controladores de dispositivo** se configura para el grupo **Administradores** en los dos entornos que se tratan en este capítulo.
   
@@ -1086,37 +1086,37 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
   
 Esta configuración de directiva determina si un equipo portátil puede retirarse de la estación de acoplamiento en caso de que el usuario no haya iniciado sesión en el sistema. Habilite esta configuración de directiva para eliminar el requisito de inicio de sesión y permitir el uso de un botón de hardware externo para retirar el equipo. Si deshabilita esta configuración de directiva, a un usuario que no haya iniciado sesión se le debe haber asignado el derecho de usuario **Quitar el equipo de la estación de acoplamiento** (no definido en esta guía).
   
-El parámetro **Dispositivos**: **permitir el desbloqueo sin tener que iniciar sesión** se configura como **No está definido** para el entorno EC y como **Deshabilitado** para el entorno SSLF.
+El parámetro **Dispositivos**: **permitir el desbloqueo sin tener que iniciar sesión** se configura como **No está definido** para el entorno EC y como **Deshabilitado** para el entorno SSLF.
   
 ##### Dispositivos: permitir formatear y expulsar medios extraíbles
   
 Esta configuración de directiva determina a quién se permite formatear y expulsar medios extraíbles. Puede utilizar esta configuración de directiva para evitar que usuarios no autorizados extraigan datos de un equipo para tener acceso a esa información en otro equipo para el que tienen privilegios de administrador local.
   
-El parámetro **Dispositivos**: **permitir formatear y expulsar medios extraíbles** está restringido a los grupos **Administradores** y **Usuarios interactivos** en el entorno EC, y exclusivamente al grupo **Administradores** en el entorno SSLF para mayor seguridad.
+El parámetro **Dispositivos**: **permitir formatear y expulsar medios extraíbles** está restringido a los grupos **Administradores** y **Usuarios interactivos** en el entorno EC, y exclusivamente al grupo **Administradores** en el entorno SSLF para mayor seguridad.
   
 ##### Dispositivos: impedir que los usuarios instalen controladores de impresora
   
 Los intrusos pueden conseguir que un programa troyano parezca un controlador de impresora. Este programa hace creer a los usuarios que deben utilizarlo para imprimir, pero en realidad puede introducir código malintencionado en la red del equipo. Para reducir las posibilidades de que ocurra algo así, la instalación de controladores de impresora sólo se debe permitir a los administradores. Sin embargo, dado que los equipos portátiles son dispositivos móviles, es probable que de vez en cuando sea necesario que los usuarios de estos equipos instalen un controlador de impresora desde un origen remoto, a fin de continuar su trabajo. Por tanto, esta configuración de directiva se debe deshabilitar para ese tipo de usuarios, aunque debe estar siempre habilitada para los usuarios de equipos de escritorio.
   
-El parámetro **Dispositivos**: **impedir que los usuarios instalen controladores de impresora** se configura como **Habilitado** para los equipos de escritorio en los dos entornos que se tratan en este capítulo, y como **Deshabilitado** para usuarios de equipos portátiles en ambos entornos.
+El parámetro **Dispositivos**: **impedir que los usuarios instalen controladores de impresora** se configura como **Habilitado** para los equipos de escritorio en los dos entornos que se tratan en este capítulo, y como **Deshabilitado** para usuarios de equipos portátiles en ambos entornos.
   
 ##### Dispositivos: restringir el acceso al CD-ROM sólo al usuario con sesión iniciada localmente
   
 Esta configuración de directiva determina si pueden tener acceso simultáneamente a la unidad de CD-ROM los usuarios locales y remotos. Si habilita esta configuración de directiva, sólo los usuarios que han iniciado sesión interactivamente podrán obtener acceso a medios de la unidad de CD-ROM. Cuando está habilitada esta configuración de directiva y nadie ha iniciado sesión, el contenido de la unidad de CD-ROM estará disponible a través de la red. Si habilita esta configuración, la utilidad de copia de seguridad de Windows generará un error en caso de que se especificaran instantáneas de volumen para el trabajo de copia de seguridad. También se generará un error con cualquier producto de terceros cuando se deseen realizar copias de seguridad en las que se utilicen instantáneas de volumen.
   
-El parámetro **Dispositivos**: **restringir el acceso al CD-ROM sólo al usuario con sesión iniciada localmente** se configura como **No está definido** en el entorno EC y como **Deshabilitado** en el entorno SSLF.
+El parámetro **Dispositivos**: **restringir el acceso al CD-ROM sólo al usuario con sesión iniciada localmente** se configura como **No está definido** en el entorno EC y como **Deshabilitado** en el entorno SSLF.
   
 ##### Dispositivos: restringir el acceso a la unidad de disquete sólo al usuario con sesión iniciada localmente
   
 Esta configuración de directiva determina si pueden tener acceso simultáneamente a la unidad de disquete los usuarios locales y remotos. Si habilita esta configuración de directiva, sólo los usuarios que han iniciado sesión interactivamente podrán obtener acceso a medios de la unidad de disquete. Si esta configuración de directiva está habilitada y nadie ha iniciado sesión, el contenido de la unidad de disquete estará disponible a través de la red. Si habilita esta configuración, la utilidad de copia de seguridad de Windows generará un error en caso de que se especificaran instantáneas de volumen para el trabajo de copia de seguridad. También se generará un error con cualquier producto de terceros cuando se deseen realizar copias de seguridad en las que se utilicen instantáneas de volumen.
   
-El parámetro **Dispositivos**: **restringir el acceso a la unidad de disquete sólo al usuario con sesión iniciada localmente** se configura como **No está definido** en el entorno EC y como **Deshabilitado** en el entorno SSLF.
+El parámetro **Dispositivos**: **restringir el acceso a la unidad de disquete sólo al usuario con sesión iniciada localmente** se configura como **No está definido** en el entorno EC y como **Deshabilitado** en el entorno SSLF.
   
 ##### Dispositivos: comportamiento de instalación de controlador no firmado
   
-Esta configuración de directiva determina lo que sucede cuando se intenta instalar un controlador de dispositivo (mediante la API del programa de instalación) no aprobado o firmado por el Laboratorio de calidad de hardware de Windows \[Windows Hardware Quality Lab (WHQL)\]. Esta opción impide la instalación de controladores sin firmar o advierte al administrador de que un controlador sin firmar está a punto de ser instalado, con lo que se puede evitar la instalación de controladores que no están certificados para la ejecución en Windows XP. Si establece esta configuración de directiva con el valor **Avisar pero permitir la instalación**, un posible problema es que las secuencias de comandos de instalación desatendidas generen errores cuando intenten instalar controladores sin firmar.
+Esta configuración de directiva determina lo que sucede cuando se intenta instalar un controlador de dispositivo (mediante la API del programa de instalación) no aprobado o firmado por el Laboratorio de calidad de hardware de Windows \[Windows Hardware Quality Lab (WHQL)\]. Esta opción impide la instalación de controladores sin firmar o advierte al administrador de que un controlador sin firmar está a punto de ser instalado, con lo que se puede evitar la instalación de controladores que no están certificados para la ejecución en Windows XP. Si establece esta configuración de directiva con el valor **Avisar pero permitir la instalación**, un posible problema es que las secuencias de comandos de instalación desatendidas generen errores cuando intenten instalar controladores sin firmar.
   
-Por ese motivo, el parámetro **Dispositivos**: **comportamiento de instalación de controlador no firmado** se configura como **Avisar pero permitir la instalación** para los dos entornos que se tratan en este capítulo.
+Por ese motivo, el parámetro **Dispositivos**: **comportamiento de instalación de controlador no firmado** se configura como **Avisar pero permitir la instalación** para los dos entornos que se tratan en este capítulo.
   
 **Nota**: si implementa esta configuración de directiva, los equipos cliente deben estar completamente configurados con todas las aplicaciones de software estándar antes de que se aplique la directiva de grupo para mitigar el riesgo de errores de instalación originados por el parámetro.
   
@@ -1176,10 +1176,10 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Miembro de dominio: duración máxima de contraseña de cuenta de equipo</td>
-<td style="border:1px solid black;">30 días</td>
-<td style="border:1px solid black;">30 días</td>
-<td style="border:1px solid black;">30 días</td>
-<td style="border:1px solid black;">30 días</td>
+<td style="border:1px solid black;">30 días</td>
+<td style="border:1px solid black;">30 días</td>
+<td style="border:1px solid black;">30 días</td>
+<td style="border:1px solid black;">30 días</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Miembro de dominio: requerir clave de sesión protegida (Windows 2000 o más reciente)</td>
@@ -1221,13 +1221,13 @@ Esta configuración de directiva determina la duración máxima admisible para u
   
 Por lo tanto, el parámetro **Miembro de dominio: duración máxima de contraseña de cuenta de equipo** se configura en **30 días** para los dos entornos que se tratan en este capítulo.
   
-##### Miembro de dominio: requerir clave de sesión protegida (Windows 2000 o más reciente)
+##### Miembro de dominio: requerir clave de sesión protegida (Windows 2000 o más reciente)
   
 Cuando esta configuración de directiva está habilitada, sólo se puede establecer un canal seguro con controladores de dominio capaces de cifrar datos de canal seguro con una clave de sesión protegida (de 128 bits).
   
-Para habilitar esta configuración de directiva, todos los controladores del dominio deben ser capaces de cifrar datos de canal seguro con una clave protegida, lo que significa que en todos los controladores de dominio debe estar ejecutándose Microsoft Windows 2000 o posterior. Si se requiere comunicación con dominios que no sean Windows 2000, Microsoft recomienda deshabilitar esta configuración de directiva.
+Para habilitar esta configuración de directiva, todos los controladores del dominio deben ser capaces de cifrar datos de canal seguro con una clave protegida, lo que significa que en todos los controladores de dominio debe estar ejecutándose Microsoft Windows 2000 o posterior. Si se requiere comunicación con dominios que no sean Windows 2000, Microsoft recomienda deshabilitar esta configuración de directiva.
   
-El parámetro **Miembro de dominio: requerir clave de sesión protegida (Windows** **2000 o más reciente**) se configura como **Habilitado** para los dos entornos que se tratan en este capítulo.
+El parámetro **Miembro de dominio: requerir clave de sesión protegida (Windows** **2000 o más reciente**) se configura como **Habilitado** para los dos entornos que se tratan en este capítulo.
   
 #### Inicio de sesión interactivo
   
@@ -1296,10 +1296,10 @@ DELITO.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Inicio de sesión interactivo: pedir al usuario cambiar la contraseña antes de que caduque</td>
-<td style="border:1px solid black;">14 días</td>
-<td style="border:1px solid black;">14 días</td>
-<td style="border:1px solid black;">14 días</td>
-<td style="border:1px solid black;">14 días</td>
+<td style="border:1px solid black;">14 días</td>
+<td style="border:1px solid black;">14 días</td>
+<td style="border:1px solid black;">14 días</td>
+<td style="border:1px solid black;">14 días</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Inicio de sesión interactivo: requerir la autenticación del controlador de dominio para desbloquear el equipo</td>
@@ -1422,11 +1422,11 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
   
 ##### Cliente de redes de Microsoft: firmar digitalmente las comunicaciones (siempre)
   
-Esta configuración de directiva determina si el componente de cliente SMB requiere la firma de paquetes. Si habilita esta configuración de directiva, el equipo cliente de redes de Microsoft no puede comunicarse con un servidor de red Microsoft salvo que dicho servidor acepte la firma de paquetes SMB. En entornos combinados con equipos cliente heredados, esta opción se debe establecer como **Deshabilitado**, ya que dichos equipos no se podrán autenticar u obtener acceso a controladores de dominio. No obstante, puede utilizar esta configuración de directiva en entornos con Windows 2000 o versiones posteriores.
+Esta configuración de directiva determina si el componente de cliente SMB requiere la firma de paquetes. Si habilita esta configuración de directiva, el equipo cliente de redes de Microsoft no puede comunicarse con un servidor de red Microsoft salvo que dicho servidor acepte la firma de paquetes SMB. En entornos combinados con equipos cliente heredados, esta opción se debe establecer como **Deshabilitado**, ya que dichos equipos no se podrán autenticar u obtener acceso a controladores de dominio. No obstante, puede utilizar esta configuración de directiva en entornos con Windows 2000 o versiones posteriores.
   
 El parámetro **Cliente de redes de Microsoft: firmar digitalmente las comunicaciones (siempre)** se configura como **Habilitado** para los equipos de los dos entornos que se tratan en este capítulo.
   
-**Nota**: cuando los equipos con Windows XP tienen esta configuración de directiva habilitada y se conectan a recursos compartidos de archivos o impresión de servidores remotos, es importante que para dichos servidores el parámetro se sincronice con una opción complementaria, **Servidor de red de Microsoft: firmar digitalmente las comunicaciones (siempre)**. Para obtener información más detallada acerca de esta configuración, vea la sección "Servidor y cliente de red de Microsoft: firmar digitalmente las comunicaciones (cuatro valores relacionados)" en el capítulo 5 de la guía complementaria [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159), que se puede descargar en http://go.microsoft.com/fwlink/?LinkId=15159.
+**Nota**: cuando los equipos con Windows XP tienen esta configuración de directiva habilitada y se conectan a recursos compartidos de archivos o impresión de servidores remotos, es importante que para dichos servidores el parámetro se sincronice con una opción complementaria, **Servidor de red de Microsoft: firmar digitalmente las comunicaciones (siempre)**. Para obtener información más detallada acerca de esta configuración, vea la sección "Servidor y cliente de red de Microsoft: firmar digitalmente las comunicaciones (cuatro valores relacionados)" en el capítulo 5 de la guía complementaria [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159), que se puede descargar en http://go.microsoft.com/fwlink/?LinkId=15159.
   
 ##### Cliente de redes de Microsoft: firmar digitalmente las comunicaciones (si el servidor lo permite)
   
@@ -1470,10 +1470,10 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Servidor de red de Microsoft: tiempo de inactividad requerido antes de suspender la sesión</td>
-<td style="border:1px solid black;">15 minutos</td>
-<td style="border:1px solid black;">15 minutos</td>
-<td style="border:1px solid black;">15 minutos</td>
-<td style="border:1px solid black;">15 minutos</td>
+<td style="border:1px solid black;">15 minutos</td>
+<td style="border:1px solid black;">15 minutos</td>
+<td style="border:1px solid black;">15 minutos</td>
+<td style="border:1px solid black;">15 minutos</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Servidor de red de Microsoft: firmar digitalmente las comunicaciones (siempre)</td>
@@ -1767,7 +1767,7 @@ de sesión NTLMv2, Necesita codificación de 128 bits</td>
 
 ##### Seguridad de red: no almacenar valor de hash de LAN Manager en el próximo cambio de contraseña
 
-Esta configuración de directiva determina si el valor de hash de LAN Manager (LM) para la contraseña nueva se almacena al cambiar la contraseña. El hash de LM es relativamente débil y propenso a ataques en comparación con el hash de Windows NT®, más seguro desde el punto de vista criptográfico.
+Esta configuración de directiva determina si el valor de hash de LAN Manager (LM) para la contraseña nueva se almacena al cambiar la contraseña. El hash de LM es relativamente débil y propenso a ataques en comparación con el hash de Windows NT®, más seguro desde el punto de vista criptográfico.
 
 Por este motivo, el parámetro **Seguridad de red: no almacenar valor de hash de LAN Manager en el próximo cambio de contraseña** se configura como **Habilitado** para los dos entornos que se tratan en este capítulo.
 
@@ -1775,9 +1775,9 @@ Por este motivo, el parámetro **Seguridad de red: no almacenar valor de hash de
 
 ##### Seguridad de red: nivel de autenticación de LAN Manager
 
-Esta configuración de directiva especifica el tipo de autenticación de desafío/respuesta para los inicios de sesión de red con clientes que no son Windows 2000 ni Windows XP Professional. La autenticación de LAN Manager (LM) es el método menos seguro; da ocasión a que se descifren las contraseñas cifradas porque pueden ser interceptadas fácilmente en la red. NT LAN Manager (NTLM) es un tanto más seguro. NTLMv2 es la versión más completa de NTLM disponible en Windows XP Professional, Windows 2000 y Windows NT 4.0 Service Pack 4 (SP4) o posteriores. NTLMv2 también se encuentra disponible para Windows 95 y Windows 98 con el cliente de servicios de directorio opcional.
+Esta configuración de directiva especifica el tipo de autenticación de desafío/respuesta para los inicios de sesión de red con clientes que no son Windows 2000 ni Windows XP Professional. La autenticación de LAN Manager (LM) es el método menos seguro; da ocasión a que se descifren las contraseñas cifradas porque pueden ser interceptadas fácilmente en la red. NT LAN Manager (NTLM) es un tanto más seguro. NTLMv2 es la versión más completa de NTLM disponible en Windows XP Professional, Windows 2000 y Windows NT 4.0 Service Pack 4 (SP4) o posteriores. NTLMv2 también se encuentra disponible para Windows 95 y Windows 98 con el cliente de servicios de directorio opcional.
 
-Microsoft recomienda que establezca esta configuración de directiva en el nivel de autenticación más seguro que sea posible para su entorno. En entornos en los que las estaciones de trabajo ejecutan sólo Windows 2000 Server o Windows Server 2003 con Windows XP Professional, establezca esta configuración de directiva con la opción **Enviar sólo respuesta NTLMv2\\rechazar LM y NTLM** para contar con el máximo nivel de seguridad.
+Microsoft recomienda que establezca esta configuración de directiva en el nivel de autenticación más seguro que sea posible para su entorno. En entornos en los que las estaciones de trabajo ejecutan sólo Windows 2000 Server o Windows Server 2003 con Windows XP Professional, establezca esta configuración de directiva con la opción **Enviar sólo respuesta NTLMv2\\rechazar LM y NTLM** para contar con el máximo nivel de seguridad.
 
 El parámetro **Seguridad de red: nivel de autenticación de LAN Manager** se configura como **Enviar sólo respuesta NTLMv2\\rechazar LM** para el entorno EC. Sin embargo, esta configuración de directiva se configura con el parámetro más restrictivo **Enviar sólo respuesta NTLMv2\\rechazar LM y NTLM** en el entorno SSLF.
 
@@ -1799,7 +1799,7 @@ Esta configuración de directiva determina los estándares de seguridad mínimos
 
 -   Necesita codificación de 128 bits
 
-Si todos los equipos de su red pueden admitir NTLMv2 y cifrado de 128 bits (por ejemplo, Windows XP Professional SP2 y Windows Server 2003 SP1), se pueden seleccionar las cuatro opciones de configuración para contar con el máximo nivel de seguridad.
+Si todos los equipos de su red pueden admitir NTLMv2 y cifrado de 128 bits (por ejemplo, Windows XP Professional SP2 y Windows Server 2003 SP1), se pueden seleccionar las cuatro opciones de configuración para contar con el máximo nivel de seguridad.
 
 Las cuatro opciones se habilitan para el parámetro **Seguridad de red: seguridad mínima de sesión para clientes basados en NTLM SSP (incluyendo RPC seguro)** en los dos entornos que se tratan en este capítulo.
 
@@ -1815,7 +1815,7 @@ Esta configuración de directiva es semejante al parámetro anterior, pero afect
 
 -   Necesita codificación de 128 bits
 
-Si todos los equipos de su red pueden admitir NTLMv2 y cifrado de 128 bits (por ejemplo, Windows XP Professional SP2 y Windows Server 2003 SP1), es posible seleccionar las cuatro opciones para contar con el máximo nivel de seguridad.
+Si todos los equipos de su red pueden admitir NTLMv2 y cifrado de 128 bits (por ejemplo, Windows XP Professional SP2 y Windows Server 2003 SP1), es posible seleccionar las cuatro opciones para contar con el máximo nivel de seguridad.
 
 Las cuatro opciones se habilitan para el parámetro **Seguridad de red: seguridad mínima de sesión para servidores basados en NTLM SSP (incluyendo RPC seguro)** en los dos entornos que se tratan en este capítulo.
 
@@ -2059,7 +2059,7 @@ Puede establecer la configuración del registro de eventos en la siguiente ubica
   
 **Configuración del equipo\\Configuración de Windows\\Configuración de seguridad\\Registro de eventos**
   
-En esta sección se proporcionan detalles acerca de la configuración recomendada para los entornos que se tratan en este capítulo. Para ver un resumen de la configuración recomendada en esta sección, consulte el libro de Microsoft Excel® sobre la configuración de la guía de seguridad denominado "Windows XP Security Guide Settings." Si desea información acerca de la configuración predeterminada y una explicación detallada de cada uno de los parámetros descritos en esta sección, consulte la guía complementaria, [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159), que está disponible en http://go.microsoft.com/fwlink/?LinkId=15159. La guía complementaria incluye también información detallada acerca de la posibilidad de perder datos del registro de eventos cuando los tamaño del registro se establecen en valores muy elevados.
+En esta sección se proporcionan detalles acerca de la configuración recomendada para los entornos que se tratan en este capítulo. Para ver un resumen de la configuración recomendada en esta sección, consulte el libro de Microsoft Excel® sobre la configuración de la guía de seguridad denominado "Windows XP Security Guide Settings." Si desea información acerca de la configuración predeterminada y una explicación detallada de cada uno de los parámetros descritos en esta sección, consulte la guía complementaria, [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159), que está disponible en http://go.microsoft.com/fwlink/?LinkId=15159. La guía complementaria incluye también información detallada acerca de la posibilidad de perder datos del registro de eventos cuando los tamaño del registro se establecen en valores muy elevados.
   
 En la tabla siguiente se resume la configuración de seguridad recomendada para el registro de eventos, tanto para clientes de equipos de escritorio como de equipos portátiles en los dos tipos de entorno que se tratan en este capítulo, el entorno Cliente de empresa (EC) y el entorno Seguridad especializada: Funcionalidad limitada (SSLF). En las siguientes subsecciones se proporciona información más detallada acerca de cada una de las configuraciones.
   
@@ -2153,25 +2153,25 @@ En la tabla siguiente se resume la configuración de seguridad recomendada para 
   
 #### Tamaño máximo del registro de la aplicación
   
-Esta configuración de directiva especifica el tamaño máximo del registro de eventos de la aplicación, que tiene una capacidad máxima de 4 GB. Sin embargo, no se recomienda este tamaño a causa del riesgo de fragmentación de memoria, que provoca una pérdida de rendimiento y errores en el registro de eventos. Los requisitos del tamaño del registro de aplicación varían en función de la plataforma y la necesidad de registros históricos de los eventos relacionados con aplicaciones.
+Esta configuración de directiva especifica el tamaño máximo del registro de eventos de la aplicación, que tiene una capacidad máxima de 4 GB. Sin embargo, no se recomienda este tamaño a causa del riesgo de fragmentación de memoria, que provoca una pérdida de rendimiento y errores en el registro de eventos. Los requisitos del tamaño del registro de aplicación varían en función de la plataforma y la necesidad de registros históricos de los eventos relacionados con aplicaciones.
   
 El parámetro **Tamaño máximo del registro de la aplicación** se establece en **16.384 KB** para todos los equipos en los dos entornos que se tratan en este capítulo.
   
 #### Tamaño máximo del registro de seguridad
   
-Esta configuración de directiva especifica el tamaño máximo del registro de eventos de seguridad, que tiene una capacidad máxima de 4 GB. Sin embargo, no se recomienda este tamaño a causa del riesgo de fragmentación de memoria, que provoca una pérdida de rendimiento y errores en el registro de eventos. Los requisitos del tamaño del registro de seguridad varían en función de la plataforma y la necesidad de registros históricos de los eventos relacionados con aplicaciones.
+Esta configuración de directiva especifica el tamaño máximo del registro de eventos de seguridad, que tiene una capacidad máxima de 4 GB. Sin embargo, no se recomienda este tamaño a causa del riesgo de fragmentación de memoria, que provoca una pérdida de rendimiento y errores en el registro de eventos. Los requisitos del tamaño del registro de seguridad varían en función de la plataforma y la necesidad de registros históricos de los eventos relacionados con aplicaciones.
   
 El parámetro **Tamaño máximo del registro de seguridad** se establece en **81.920 KB** para todos los equipos en los dos entornos que se tratan en este capítulo.
   
 #### Tamaño máximo del registro del sistema
   
-Esta configuración de directiva especifica el tamaño máximo del registro de eventos del sistema, que tiene una capacidad máxima de 4 GB. Sin embargo, no se recomienda este tamaño a causa del riesgo de fragmentación de memoria, que provoca una pérdida de rendimiento y errores en el registro de eventos. Los requisitos del tamaño del registro de aplicación varían en función de la plataforma y la necesidad de registros históricos de los eventos relacionados con aplicaciones.
+Esta configuración de directiva especifica el tamaño máximo del registro de eventos del sistema, que tiene una capacidad máxima de 4 GB. Sin embargo, no se recomienda este tamaño a causa del riesgo de fragmentación de memoria, que provoca una pérdida de rendimiento y errores en el registro de eventos. Los requisitos del tamaño del registro de aplicación varían en función de la plataforma y la necesidad de registros históricos de los eventos relacionados con aplicaciones.
   
 El parámetro **Tamaño máximo del registro del sistema** se establece en **16.384 KB** para todos los equipos en los dos entornos que se tratan en este capítulo.
   
 #### Evitar que el grupo de invitados locales tenga acceso al registro de aplicaciones
   
-Esta configuración de directiva determina si se impide que los invitados tengan acceso al registro de eventos de la aplicación. De forma predeterminada, en Windows Server 2003 los invitados tienen prohibido el acceso a todos los sistemas. Por lo tanto, este parámetro de directiva no tiene una repercusión real en las configuraciones de sistema predeterminadas. No obstante, se considera una opción de seguridad extrema que no tiene efectos secundarios.
+Esta configuración de directiva determina si se impide que los invitados tengan acceso al registro de eventos de la aplicación. De forma predeterminada, en Windows Server 2003 los invitados tienen prohibido el acceso a todos los sistemas. Por lo tanto, este parámetro de directiva no tiene una repercusión real en las configuraciones de sistema predeterminadas. No obstante, se considera una opción de seguridad extrema que no tiene efectos secundarios.
   
 El parámetro **Evitar que el grupo de invitados locales tenga acceso al registro de aplicaciones** se configura como **Habilitado** para los dos entornos que se tratan en este capítulo.
   
@@ -2209,7 +2209,7 @@ La opción **Método de retención del registro del sistema** se configura como 
   
 ### Grupos restringidos
   
-El parámetro Grupos restringidos permite administrar la pertenencia a los grupos de Windows XP Professional a través de la directiva de grupo de Active Directory. Primero, revise las necesidades de su organización para determinar los grupos que desea restringir. En esta guía, los grupos **Operadores de copia de seguridad** y **Usuarios avanzados** están restringidos en los dos entornos pero sólo el grupo **Usuarios de escritorio remoto** está restringido para el entorno SSLF. Los miembros de los grupos **Operadores de copia de seguridad** y **Usuarios avanzados** poseen un menor acceso al sistema que los miembros del grupo **Administradores**, si bien disponen de medios eficaces para hacerlo.
+El parámetro Grupos restringidos permite administrar la pertenencia a los grupos de Windows XP Professional a través de la directiva de grupo de Active Directory. Primero, revise las necesidades de su organización para determinar los grupos que desea restringir. En esta guía, los grupos **Operadores de copia de seguridad** y **Usuarios avanzados** están restringidos en los dos entornos pero sólo el grupo **Usuarios de escritorio remoto** está restringido para el entorno SSLF. Los miembros de los grupos **Operadores de copia de seguridad** y **Usuarios avanzados** poseen un menor acceso al sistema que los miembros del grupo **Administradores**, si bien disponen de medios eficaces para hacerlo.
   
 **Nota :** si su organización utiliza cualquiera de estos grupos, controle con cuidado su asociación y no implemente la guía para la configuración de Grupos restringidos. Si su organización agrega usuarios al grupo Usuarios avanzados, es posible que desee implementar los permisos opcionales de sistema de archivos que se describen posteriormente en la sección “Seguridad del sistema de archivos” de este capítulo.
   
@@ -2251,8 +2251,8 @@ El parámetro Grupos restringidos permite administrar la pertenencia a los grupo
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Usuarios de Escritorio remoto</td>
-<td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
 <td style="border:1px solid black;">Ningún miembro</td>
 <td style="border:1px solid black;">Ningún miembro</td>
 </tr>
@@ -2295,15 +2295,15 @@ Cuando un grupo está restringido, se pueden definir sus miembros así como otro
   
 En esta guía se eliminó la configuración para todos los miembros (usuarios y grupos) de los grupos Usuarios avanzados y Operadores de copia de seguridad con objeto de restringirlos totalmente en ambos entornos. Además, en el entorno SSLF se eliminaron todos los miembros del grupo Usuarios de escritorio remoto. Microsoft recomienda que restrinja todos los grupos integrados que no prevea utilizar en su organización.
   
-**Nota**: la configuración de Grupos restringidos que se describe en esta sección es muy sencilla. Las versiones de Windows XP SP1 o posteriores, así como Windows Server 2003, admiten diseños más complejos. Para más información, consulte el artículo de Microsoft Knowledge Base sobre [actualizaciones del comportamiento de grupos restringidos ("miembro de") de grupos locales definidos por el usuario](http://support.microsoft.com/default.aspx?kbid=810076), en http://support.microsoft.com/default.aspx?kbid=810076.
+**Nota**: la configuración de Grupos restringidos que se describe en esta sección es muy sencilla. Las versiones de Windows XP SP1 o posteriores, así como Windows Server 2003, admiten diseños más complejos. Para más información, consulte el artículo de Microsoft Knowledge Base sobre [actualizaciones del comportamiento de grupos restringidos ("miembro de") de grupos locales definidos por el usuario](http://support.microsoft.com/default.aspx?kbid=810076), en http://support.microsoft.com/default.aspx?kbid=810076.
   
 [](#mainsection)[Principio de la página](#mainsection)
   
 ### Servicios del sistema
   
-Al instalar Windows XP Professional, los servicios del sistema predeterminados se crean y configuran para ejecutarse cuando se inicia el sistema. Muchos de estos servicios del sistema no necesitan ejecutarse en los entornos descritos en este capítulo.
+Al instalar Windows XP Professional, los servicios del sistema predeterminados se crean y configuran para ejecutarse cuando se inicia el sistema. Muchos de estos servicios del sistema no necesitan ejecutarse en los entornos descritos en este capítulo.
   
-Existen otros servicios opcionales disponibles con Windows XP Professional como, por ejemplo, los servicios de Internet Information Server (IIS), que no se incluyen durante la instalación predeterminada del sistema operativo. Puede agregar esos servicios opcionales a un sistema existente a través de Agregar o quitar programas, en el Panel de control, o bien crear una instalación automática personalizada de Windows XP Professional.
+Existen otros servicios opcionales disponibles con Windows XP Professional como, por ejemplo, los servicios de Internet Information Server (IIS), que no se incluyen durante la instalación predeterminada del sistema operativo. Puede agregar esos servicios opcionales a un sistema existente a través de Agregar o quitar programas, en el Panel de control, o bien crear una instalación automática personalizada de Windows XP Professional.
   
 **Importante**: recuerde que cualquier servicio o aplicación supone un posible punto de ataque. Por tanto, conviene deshabilitar o quitar del entorno todos aquellos servicios o archivos ejecutables que no sean necesarios.
   
@@ -2542,13 +2542,13 @@ Los **servicios de Index Server** se configuran como **No está definido** para 
   
 #### Messenger
   
-Este servicio transmite y envía mensajes del **Servicio de alerta** entre clientes y servidores. Este servicio no está relacionado con Windows Messenger ni con MSN Messenger, y no es un requisito para los equipos clientes Windows XP.
+Este servicio transmite y envía mensajes del **Servicio de alerta** entre clientes y servidores. Este servicio no está relacionado con Windows Messenger ni con MSN Messenger, y no es un requisito para los equipos clientes Windows XP.
   
 Por este motivo, el servicio de **Mensajería** se establece en **Deshabilitado** en los dos entornos que se tratan en este capítulo.
   
 #### Escritorio remoto compartido de NetMeeting
   
-Este servicio permite que un usuario autorizado tenga acceso de forma remota a un cliente con Microsoft NetMeeting a través de una intranet de la organización. Este servicio se debe habilitar explícitamente en NetMeeting. Puede deshabilitar también esta característica en NetMeeting, cerrar el servicio por medio de un icono de la bandeja de Windows o deshabilitar esta característica en Directiva de grupo configurando el parámetro **Desactivar el uso compartido de escritorio remoto**, descrito en el capítulo 4, "Plantillas administrativas para Windows XP". Microsoft recomienda que deshabilite este servicio para impedir el acceso a sus clientes desde ubicaciones remotas.
+Este servicio permite que un usuario autorizado tenga acceso de forma remota a un cliente con Microsoft NetMeeting a través de una intranet de la organización. Este servicio se debe habilitar explícitamente en NetMeeting. Puede deshabilitar también esta característica en NetMeeting, cerrar el servicio por medio de un icono de la bandeja de Windows o deshabilitar esta característica en Directiva de grupo configurando el parámetro **Desactivar el uso compartido de escritorio remoto**, descrito en el capítulo 4, "Plantillas administrativas para Windows XP". Microsoft recomienda que deshabilite este servicio para impedir el acceso a sus clientes desde ubicaciones remotas.
   
 El servicio **Escritorio remoto compartido de NetMeeting** se establece en **Deshabilitado** en los dos entornos que se tratan en este capítulo.
   
@@ -2590,25 +2590,25 @@ El servicio **Programador de tareas** se configura como **No está definido** pa
   
 #### Telnet
   
-Este servicio para Windows proporciona sesiones de terminal ASCII a los clientes Telnet. El servicio admite dos tipos de autenticación y los cuatro tipos de terminales siguientes: ANSI, VT-100, VT-52 y VTNT. No obstante, no supone un requisito para la mayor parte de los clientes Windows XP.
+Este servicio para Windows proporciona sesiones de terminal ASCII a los clientes Telnet. El servicio admite dos tipos de autenticación y los cuatro tipos de terminales siguientes: ANSI, VT-100, VT-52 y VTNT. No obstante, no supone un requisito para la mayor parte de los clientes Windows XP.
   
 El servicio **Telnet** se establece en **Deshabilitado** en los dos entornos que se tratan en este capítulo.
   
 #### Servicios de Terminal Server
   
-Este servicio proporciona un entorno con varias sesiones que permite a los dispositivos cliente obtener acceso a una sesión del escritorio de Windows virtual y a programas basados en Windows que se ejecutan en el servidor. En Windows XP, este servicio permite que los usuarios remotos estén conectados de forma interactiva a un equipo, además de mostrar escritorios y aplicaciones en equipos remotos.
+Este servicio proporciona un entorno con varias sesiones que permite a los dispositivos cliente obtener acceso a una sesión del escritorio de Windows virtual y a programas basados en Windows que se ejecutan en el servidor. En Windows XP, este servicio permite que los usuarios remotos estén conectados de forma interactiva a un equipo, además de mostrar escritorios y aplicaciones en equipos remotos.
   
 El servicio **Servicios de Terminal Server** se configura como **No está definido** para el entorno EC y como **Deshabilitado** para el entorno SSLF.
   
 #### Host de Plug and Play universal
   
-Este servicio admite la funcionalidad Plug and Play de igual a igual para dispositivos de red. La especificación UPnP está diseñada para simplificar la instalación y administración del servicio de red y dispositivos. UPnP lleva a cabo la detección y el control de dispositivos y servicios a través de mecanismos basados en protocolos estándar sin controladores. Los dispositivos Plug and Play universales pueden configurar automáticamente el direccionamiento de red, anunciar su presencia en una subred de la red y habilitar el intercambio de descripciones de dispositivos y servicios. Un equipo con Windows XP puede actuar como punto de control UPnP para detectar y controlar los dispositivos a través de una interfaz web o de aplicación.
+Este servicio admite la funcionalidad Plug and Play de igual a igual para dispositivos de red. La especificación UPnP está diseñada para simplificar la instalación y administración del servicio de red y dispositivos. UPnP lleva a cabo la detección y el control de dispositivos y servicios a través de mecanismos basados en protocolos estándar sin controladores. Los dispositivos Plug and Play universales pueden configurar automáticamente el direccionamiento de red, anunciar su presencia en una subred de la red y habilitar el intercambio de descripciones de dispositivos y servicios. Un equipo con Windows XP puede actuar como punto de control UPnP para detectar y controlar los dispositivos a través de una interfaz web o de aplicación.
   
 El servicio **Plug and Play universal** se configura como **No está definido** para el entorno EC y como **Deshabilitado** para el entorno SSLF.
   
 #### Publicación de World Wide Web
   
-Este servicio proporciona conectividad y administración web a través del complemento IIS de MMC. Proporciona servicios HTTP para aplicaciones sobre la plataforma Windows y contiene un administrador de procesos y un administrador de configuraciones. No obstante, no supone un requisito para la mayor parte de los clientes Windows XP.
+Este servicio proporciona conectividad y administración web a través del complemento IIS de MMC. Proporciona servicios HTTP para aplicaciones sobre la plataforma Windows y contiene un administrador de procesos y un administrador de configuraciones. No obstante, no supone un requisito para la mayor parte de los clientes Windows XP.
   
 El servicio **Publicación de World Wide Web** se establece en **Deshabilitado** en los dos entornos que se tratan en este capítulo.
   
@@ -2624,7 +2624,7 @@ En esta guía se incluyen parámetros de configuración adicionales que se agreg
   
 En la tabla siguiente se resumen las recomendaciones de los parámetros de Registro adicionales, tanto para equipos cliente de escritorio como portátiles en los dos tipos de entorno que se tratan en este capítulo: el entorno Cliente de empresa (EC) y el entorno Seguridad especializada: Funcionalidad limitada (SSLF).
   
-La información adicional de cada configuración se proporciona en las subsecciones que se muestran después de la tabla. Para obtener información acerca de la configuración predeterminada y una explicación detallada de cada uno de los parámetros, consulte la guía complementaria, [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159), que está disponible en http://go.microsoft.com/fwlink/?LinkId=15159.
+La información adicional de cada configuración se proporciona en las subsecciones que se muestran después de la tabla. Para obtener información acerca de la configuración predeterminada y una explicación detallada de cada uno de los parámetros, consulte la guía complementaria, [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159), que está disponible en http://go.microsoft.com/fwlink/?LinkId=15159.
   
 **Tabla 3.21 Parámetros adicionales del Registro**
 
@@ -2778,7 +2778,7 @@ La información adicional de cada configuración se proporciona en las subseccio
   
 Se agregó la entrada de valor del Registro **AutoAdminLogon** al archivo de plantilla en la clave de Registro **HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon\\**. La entrada aparece como **MSS: (AutoAdminLogon) Enable Automatic Logon (not recommended)** en el SCE.
   
-Este parámetro es independiente de la característica **pantalla de bienvenida** en Windows XP; si esa característica se deshabilita, el parámetro no se deshabilita. Si configura un equipo para inicio de sesión automático, cualquier persona que pueda obtener acceso físicamente al equipo puede obtener acceso también a sus recursos, incluida cualquier red a la que se conecte el equipo. Además, si habilita el inicio de sesión automático, la contraseña se almacena en el Registro como texto sin formato y la clave de Registro específica que almacena este valor será legible de forma remota para el grupo **Usuarios autenticados**. Por dichos motivos el parámetro se configura como **No está definido** para el entorno EC, y el valor predeterminado **Deshabilitado** se implanta explícitamente para el entorno SSLF.
+Este parámetro es independiente de la característica **pantalla de bienvenida** en Windows XP; si esa característica se deshabilita, el parámetro no se deshabilita. Si configura un equipo para inicio de sesión automático, cualquier persona que pueda obtener acceso físicamente al equipo puede obtener acceso también a sus recursos, incluida cualquier red a la que se conecte el equipo. Además, si habilita el inicio de sesión automático, la contraseña se almacena en el Registro como texto sin formato y la clave de Registro específica que almacena este valor será legible de forma remota para el grupo **Usuarios autenticados**. Por dichos motivos el parámetro se configura como **No está definido** para el entorno EC, y el valor predeterminado **Deshabilitado** se implanta explícitamente para el entorno SSLF.
   
 Para obtener información adicional, consulte el artículo de Microsoft Knowledge Base "[Habilitar el inicio de sesión automático en Windows XP](http://support.microsoft.com/default.aspx?scid=315231)", que está disponible en línea en http://support.microsoft.com/default.aspx?scid=315231.
   
@@ -2820,9 +2820,9 @@ Este valor controla con qué frecuencia TCP intenta comprobar que una conexión 
   
 La entrada de valor del Registro **NoDefaultExempt** se agregó a esta pantalla en la clave de Registro **HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Services\\IPSEC\\**. La entrada aparece como **MSS: (NoDefaultExempt) Enable NoDefaultExempt for IPSec Filtering (recommended)** en el SCE.
   
-Las exenciones predeterminadas para filtros de la directiva IPsec se documentan en la ayuda en pantalla de Microsoft Windows 2000 y Windows XP. Estos filtros permiten que funcione el intercambio de claves de Internet (IKE) y el protocolo de autenticación Kerberos. Los filtros también permiten que la calidad de servicio de red (QoS) se señalice (RSVP) cuando el tráfico de datos está protegido por IPsec, y para el tráfico que IPsec no pueda proteger como tráfico de multidifusión y de difusión.
+Las exenciones predeterminadas para filtros de la directiva IPsec se documentan en la ayuda en pantalla de Microsoft Windows 2000 y Windows XP. Estos filtros permiten que funcione el intercambio de claves de Internet (IKE) y el protocolo de autenticación Kerberos. Los filtros también permiten que la calidad de servicio de red (QoS) se señalice (RSVP) cuando el tráfico de datos está protegido por IPsec, y para el tráfico que IPsec no pueda proteger como tráfico de multidifusión y de difusión.
   
-IPsec se utiliza cada vez más para el filtrado básico de paquetes de servidor de seguridad de host, especialmente en situaciones expuestas de Internet y la repercusión de esas exenciones predeterminadas no se conoce completamente. Por lo tanto, algunos administradores de IPsec pueden crear directivas IPsec que consideran seguras, pero no lo son realmente contra los ataques entrantes que utilizan las exenciones predeterminadas. Microsoft recomienda que se aplique la configuración predeterminada en Windows XP con SP 2, **El tráfico de multidifusión, difusión e ISAKMP está exento**, para los dos entornos que se tratan en este capítulo.
+IPsec se utiliza cada vez más para el filtrado básico de paquetes de servidor de seguridad de host, especialmente en situaciones expuestas de Internet y la repercusión de esas exenciones predeterminadas no se conoce completamente. Por lo tanto, algunos administradores de IPsec pueden crear directivas IPsec que consideran seguras, pero no lo son realmente contra los ataques entrantes que utilizan las exenciones predeterminadas. Microsoft recomienda que se aplique la configuración predeterminada en Windows XP con SP 2, **El tráfico de multidifusión, difusión e ISAKMP está exento**, para los dos entornos que se tratan en este capítulo.
   
 Para obtener información adicional, consulte el artículo de Microsoft Knowledge Base sobre [la posibilidad de utilizar las exenciones predeterminadas de IPsec para pasar por alto la protección IPsec en algunas situaciones](http://support.microsoft.com/default.aspx?scid=811832), disponible en línea en http://support.microsoft.com/default.aspx?scid=811832.
   
@@ -2843,7 +2843,7 @@ NetBIOS sobre TCP/IP es un protocolo de red que, entre otras cosas, proporciona 
   
 La entrada de valor de Registro **NtfsDisable8dot3NameCreation** se ha agregado al archivo de plantilla en la clave de Registro **HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Control\\FileSystem\\**. La entrada aparece como **MSS: (NtfsDisable8dot3NameCreation) Enable the computer to stop generating 8.3 style filenames (recommended)** en el SCE.
   
-Windows Server 2003 admite formatos de nombre de archivo 8.3 para la compatibilidad con aplicaciones de 16 bits anteriores. La convención del nombre de archivo 8.3 es un formato de nombre que permite nombres de archivo con una longitud máxima de ocho caracteres. Este parámetro de configuración de directiva se establece como **No está definido** para el entorno EC y se establece la configuración **Habilitada** para el entorno SSLF.
+Windows Server 2003 admite formatos de nombre de archivo 8.3 para la compatibilidad con aplicaciones de 16 bits anteriores. La convención del nombre de archivo 8.3 es un formato de nombre que permite nombres de archivo con una longitud máxima de ocho caracteres. Este parámetro de configuración de directiva se establece como **No está definido** para el entorno EC y se establece la configuración **Habilitada** para el entorno SSLF.
   
 #### (PerformRouterDiscovery) Allow IRDP to detect and configure Default Gateway addresses
   
@@ -2892,7 +2892,7 @@ Esta configuración controla el número de veces que TCP retransmite un segmento
   
 La entrada de valor de Registro **WarningLevel** se ha agregado al archivo de plantilla en la clave de Registro **HKEY\_LOCAL\_MACHINE\\ SYSTEM\\CurrentControlSet\\Services\\Eventlog\\Security\\**. La entrada aparece como **MSS: (WarningLevel) Percentage threshold for the security event log at which the system will generate a warning** en el SCE.
   
-Este parámetro está disponible con SP3 para Windows 2000 y es una característica nueva que puede generar una auditoría de seguridad en el registro de eventos de seguridad cuando el registro alcanza un umbral definido por el usuario. Este parámetro de configuración de directiva se establece como **No está definido** para el entorno EC y en **90** para el entorno SSLF.
+Este parámetro está disponible con SP3 para Windows 2000 y es una característica nueva que puede generar una auditoría de seguridad en el registro de eventos de seguridad cuando el registro alcanza un umbral definido por el usuario. Este parámetro de configuración de directiva se establece como **No está definido** para el entorno EC y en **90** para el entorno SSLF.
   
 **Nota**: si la configuración del registro se define como **Sobrescribir eventos cuando sea necesario** como **Sobrescribir eventos que tengan más de x días**, no se generará este evento.
   
@@ -2904,13 +2904,13 @@ El conjunto de herramientas del Editor de configuración de seguridad (SCE) se u
   
 En esta guía se incluyen los parámetros de configuración adicionales que se agregaron al SCE. Para agregar esos parámetros, debe modificar el archivo Sceregvl.inf, que se encuentra en la carpeta **%systemroot%\\inf**, y volver a registrar el archivo Scecli.dll.
   
-**Importante**: la versión personalizada del archivo Sceregvl.inf que se crea a partir de los procedimientos siguientes utiliza características que están sólo disponibles en Windows XP Professional con SP 2 y Windows Server 2003. No trate de instalar el archivo personalizado en versiones más antiguas de Windows.
+**Importante**: la versión personalizada del archivo Sceregvl.inf que se crea a partir de los procedimientos siguientes utiliza características que están sólo disponibles en Windows XP Professional con SP 2 y Windows Server 2003. No trate de instalar el archivo personalizado en versiones más antiguas de Windows.
   
 Después de modificar y registrar el archivo Sceregvl.inf, los valores de Registro personalizados se exponen en las interfaces de usuario del SCE del equipo en cuestión. Verá la configuración nueva en la parte inferior de la lista de elementos del SCE (todos están precedidos por el texto "MSS:"). MSS significa Microsoft Solutions for Security, nombre del grupo que creó esta guía. Podrá crear plantillas de seguridad o directivas que definan esos nuevos valores de Registro y que se puedan aplicar a cualquier equipo, independientemente de si el archivo Sceregvl.inf se modificó en el equipo de destino o no. Los lanzamientos posteriores del SCE expondrán su valores de Registro personalizados.
   
-Algunos parámetros que aparecerán en el SCE no se documentan en esta guía porque normalmente no se configuran para sistemas de usuario final. Para obtener más información acerca de esos parámetros nuevos, puede consultar la guía complementaria [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159), que se puede descargar en http://go.microsoft.com/fwlink/?LinkId=15159.
+Algunos parámetros que aparecerán en el SCE no se documentan en esta guía porque normalmente no se configuran para sistemas de usuario final. Para obtener más información acerca de esos parámetros nuevos, puede consultar la guía complementaria [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159), que se puede descargar en http://go.microsoft.com/fwlink/?LinkId=15159.
   
-Las instrucciones acerca de cómo modificar la interfaz de usuario de SCE se proporcionan en los procedimientos siguientes. Hay instrucciones manuales que debe seguir si ya ha realizado otras personalizaciones en SCE. Se proporciona una secuencia de comandos para agregar los parámetros de configuración con poca intervención del usuario y, aunque la secuencia de comandos integra funciones de detección de errores y recuperación, puede fallar. Si falla, debería determinar la causa del error y corregir el problema o seguir las instrucciones manuales. Se proporciona otra secuencia de comandos que puede utilizar para restaurar la interfaz de usuario de SCE a su estado predeterminado. Esta secuencia de comandos quitará todos los parámetros personalizados y devolverá el SCE a la forma en que aparece en una instalación predeterminada de Windows XP con SP2 o Windows Server 2003 con SP1.
+Las instrucciones acerca de cómo modificar la interfaz de usuario de SCE se proporcionan en los procedimientos siguientes. Hay instrucciones manuales que debe seguir si ya ha realizado otras personalizaciones en SCE. Se proporciona una secuencia de comandos para agregar los parámetros de configuración con poca intervención del usuario y, aunque la secuencia de comandos integra funciones de detección de errores y recuperación, puede fallar. Si falla, debería determinar la causa del error y corregir el problema o seguir las instrucciones manuales. Se proporciona otra secuencia de comandos que puede utilizar para restaurar la interfaz de usuario de SCE a su estado predeterminado. Esta secuencia de comandos quitará todos los parámetros personalizados y devolverá el SCE a la forma en que aparece en una instalación predeterminada de Windows XP con SP2 o Windows Server 2003 con SP1.
   
 **Para actualizar manualmente Sceregvl.inf**
   
@@ -2960,11 +2960,11 @@ Este procedimiento quitará *todas* las entradas personalizadas que haya podido 
   
 ### Configuración de seguridad adicional
   
-Aunque la mayor parte de las contramedidas utilizadas para reforzar los sistemas cliente en los dos entornos que se tratan en este capítulo se aplicaron a través de Directiva de grupo, hay parámetros adicionales cuya aplicación es difícil o imposible con Directiva de grupo. Para ver una explicación detallada de cada una de las contramedidas tratadas en esta sección, consulte la guía complementaria, [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159), que está disponible en http://go.microsoft.com/fwlink/?LinkId=15159.
+Aunque la mayor parte de las contramedidas utilizadas para reforzar los sistemas cliente en los dos entornos que se tratan en este capítulo se aplicaron a través de Directiva de grupo, hay parámetros adicionales cuya aplicación es difícil o imposible con Directiva de grupo. Para ver una explicación detallada de cada una de las contramedidas tratadas en esta sección, consulte la guía complementaria, [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159), que está disponible en http://go.microsoft.com/fwlink/?LinkId=15159.
   
 #### Procedimientos de consolidación manual
   
-En esta sección se describe cómo se implementaron manualmente algunas contramedidas adicionales para proteger a los clientes Windows XP en cada uno de los entornos de seguridad que se definen en esta guía.
+En esta sección se describe cómo se implementaron manualmente algunas contramedidas adicionales para proteger a los clientes Windows XP en cada uno de los entornos de seguridad que se definen en esta guía.
   
 ##### Deshabilitar Dr. Watson: deshabilitar la ejecución automática del depurador de sistema Dr. Watson
   
@@ -2972,7 +2972,7 @@ Algunas organizaciones pueden considerar que los depuradores de sistema, como la
   
 ##### Deshabilitar SSDP/UPNP: Deshabilitar SSDP/UPNP
   
-Algunas organizaciones pueden considerar que las características de Plug and Play universal que se incluyen con subcomponentes de Windows XP se deben deshabilitar completamente. Aunque el servicio **Plug and Play universal** está deshabilitado en esta guía, otras aplicaciones como Windows Messenger utilizarán el proceso del **servicio de detección SSDP (Simple Service Discovery Protocol)** para identificar puertas de enlace de red u otros dispositivos de red. Puede asegurarse de que ninguna aplicación utilice las funciones SSDP y UPnP incluidas en Windows XP si agrega un valor de Registro REG\_DWORD llamado **UPnPMode** a la clave de Registro **HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\DirectPlayNATHelp\\DPNHUPnP\\** y estableciendo su valor en **2**.
+Algunas organizaciones pueden considerar que las características de Plug and Play universal que se incluyen con subcomponentes de Windows XP se deben deshabilitar completamente. Aunque el servicio **Plug and Play universal** está deshabilitado en esta guía, otras aplicaciones como Windows Messenger utilizarán el proceso del **servicio de detección SSDP (Simple Service Discovery Protocol)** para identificar puertas de enlace de red u otros dispositivos de red. Puede asegurarse de que ninguna aplicación utilice las funciones SSDP y UPnP incluidas en Windows XP si agrega un valor de Registro REG\_DWORD llamado **UPnPMode** a la clave de Registro **HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\DirectPlayNATHelp\\DPNHUPnP\\** y estableciendo su valor en **2**.
   
 Para obtener más información, consulte el artículo de Microsoft Knowledge Base donde se describe [cómo se envía el tráfico tras desactivar el servicio de detección SSDP y Host de dispositivo Plug and Play universal](http://support.microsoft.com/default.aspx?scid=317843), y que está disponible en línea en http://support.microsoft.com/default.aspx?scid=317843.
   
@@ -2988,7 +2988,7 @@ La configuración del sistema de archivos se puede modificar a través de la dir
   
 **Nota**: los cambios realizados a la configuración de seguridad predeterminada del sistema de archivos se deben probar minuciosamente en un entorno de laboratorio antes de que se implementen en una organización de gran tamaño. Han existido casos en los que se han alterado los permisos de archivo hasta tal punto que fue necesario reconstruir por completo los equipos afectados.
   
-Los permisos de archivo predeterminados en Windows XP son suficientes para la mayoría de las situaciones. Sin embargo, si no va a bloquear la pertenencia del grupo **Usuarios avanzados** con la característica Grupos restringidos o si va a habilitar la opción **Acceso de red: deja los permisos de Todos para aplicarse a usuarios anónimos**, tal vez desee aplicar los permisos opcionales que se describen en el párrafo siguiente. Esos permisos opcionales son muy específicos y aplican restricciones adicionales a ciertas herramientas ejecutables que un usuario malintencionado con privilegios elevados puede utilizar para comprometer más el sistema o la red.
+Los permisos de archivo predeterminados en Windows XP son suficientes para la mayoría de las situaciones. Sin embargo, si no va a bloquear la pertenencia del grupo **Usuarios avanzados** con la característica Grupos restringidos o si va a habilitar la opción **Acceso de red: deja los permisos de Todos para aplicarse a usuarios anónimos**, tal vez desee aplicar los permisos opcionales que se describen en el párrafo siguiente. Esos permisos opcionales son muy específicos y aplican restricciones adicionales a ciertas herramientas ejecutables que un usuario malintencionado con privilegios elevados puede utilizar para comprometer más el sistema o la red.
   
 Tenga en cuenta que esos cambios de permisos no afectan a varias carpetas ni a la raíz del volumen del sistema. Puede ser muy arriesgado cambiar los permisos de esa manera, y hacerlo puede causar en muchos casos inestabilidad en el sistema. Todos los archivos se encuentran en la carpeta **%SystemRoot%\\System32\\** y se les aplican los permisos siguientes: **Administradores: Control total, Sistema: Control total.**
   
@@ -3145,22 +3145,22 @@ Los tres términos adicionales siguientes se utilizan para describir la herencia
   
 ### Resumen
   
-En este capítulo se han descrito detalladamente los parámetros de seguridad principales y las configuraciones recomendadas de cada parámetro para proteger equipos que ejecutan Windows XP Professional con SP2 en los dos entornos que se tratan en este capítulo. Cuando considere las directivas de seguridad para su organización, recuerde el equilibrio entre seguridad y productividad del usuario. Aunque los usuarios necesitan protección frente a código y atacantes malintencionados, también necesitan realizar su trabajo sin directivas de seguridad excesivamente restrictivas que frustren sus esfuerzos.
+En este capítulo se han descrito detalladamente los parámetros de seguridad principales y las configuraciones recomendadas de cada parámetro para proteger equipos que ejecutan Windows XP Professional con SP2 en los dos entornos que se tratan en este capítulo. Cuando considere las directivas de seguridad para su organización, recuerde el equilibrio entre seguridad y productividad del usuario. Aunque los usuarios necesitan protección frente a código y atacantes malintencionados, también necesitan realizar su trabajo sin directivas de seguridad excesivamente restrictivas que frustren sus esfuerzos.
   
 #### Información adicional
   
-Los siguientes vínculos proporcionan información adicional acerca de temas relacionados con la seguridad en Windows XP Professional.
+Los siguientes vínculos proporcionan información adicional acerca de temas relacionados con la seguridad en Windows XP Professional.
   
--   Para obtener más información acerca de cómo mantener la seguridad para Windows XP Professional, consulte la herramienta de Ayuda y soporte técnico que se incluye con Windows XP y el sitio web de [Seguridad y privacidad de Microsoft Windows XP](http://www.microsoft.com/spain/windowsxp/using/security/default.mspx), en www.microsoft.com/windowsxp/security/.
+-   Para obtener más información acerca de cómo mantener la seguridad para Windows XP Professional, consulte la herramienta de Ayuda y soporte técnico que se incluye con Windows XP y el sitio web de [Seguridad y privacidad de Microsoft Windows XP](http://www.microsoft.com/spain/windowsxp/using/security/default.mspx), en www.microsoft.com/windowsxp/security/.
   
--   Para obtener más información acerca de las características de seguridad de Windows XP SP2, consulte el documento de [información de seguridad para Windows XP Service Pack 2](http://www.microsoft.com/technet/prodtechnol/winxppro/maintain/xpsp2sec.mspx), en www.microsoft.com/technet/prodtechnol/winxppro/maintain/xpsp2sec.mspx.
+-   Para obtener más información acerca de las características de seguridad de Windows XP SP2, consulte el documento de [información de seguridad para Windows XP Service Pack 2](http://www.microsoft.com/technet/prodtechnol/winxppro/maintain/xpsp2sec.mspx), en www.microsoft.com/technet/prodtechnol/winxppro/maintain/xpsp2sec.mspx.
   
--   Para obtener más información acerca de los parámetros de seguridad disponibles en Windows XP SP2, consulte el artículo de Microsoft TechNet sobre [descripciones de parámetros de seguridad](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverhelp/dd980ca3-f686-4ffc-a617-50c6240f5582.mspx), en www.microsoft.com/technet/prodtechnol  
+-   Para obtener más información acerca de los parámetros de seguridad disponibles en Windows XP SP2, consulte el artículo de Microsoft TechNet sobre [descripciones de parámetros de seguridad](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverhelp/dd980ca3-f686-4ffc-a617-50c6240f5582.mspx), en www.microsoft.com/technet/prodtechnol  
     /windowsserver2003/library/ServerHelp/dd980ca3-f686-4ffc-a617-50c6240f5582.mspx.
   
 -   Para obtener más información acerca de la seguridad para el sistema operativo Windows, consulte el [Kit de recursos de seguridad de Microsoft Windows](http://www.microsoft.com/mspress/books/authors/auth6418.aspx), en www.microsoft.com/MSPress/books/6418.asp.
   
--   Para obtener más información acerca de la característica Sistema de cifrado de archivos de Windows XP y Windows Server 2003, consulte "[Encrypting File System in Windows XP and Windows Server 2003](http://www.microsoft.com/technet/prodtechnol/winxppro/deploy/cryptfs.mspx)", en www.microsoft.com/technet/prodtechnol/winxppro/deploy/cryptfs.mspx.
+-   Para obtener más información acerca de la característica Sistema de cifrado de archivos de Windows XP y Windows Server 2003, consulte "[Encrypting File System in Windows XP and Windows Server 2003](http://www.microsoft.com/technet/prodtechnol/winxppro/deploy/cryptfs.mspx)", en www.microsoft.com/technet/prodtechnol/winxppro/deploy/cryptfs.mspx.
   
 ##### Descargar
   
