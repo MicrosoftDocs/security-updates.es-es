@@ -4,7 +4,7 @@ Title: Resumen del boletín de seguridad de Microsoft de marzo 2013
 ms:assetid: 'ms13-mar'
 ms:contentKeyID: 61225451
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms13-mar(v=Security.10)'
---- Summary
+---
 
 Resumen del boletín de seguridad de Microsoft de marzo 2013
 ===========================================================
