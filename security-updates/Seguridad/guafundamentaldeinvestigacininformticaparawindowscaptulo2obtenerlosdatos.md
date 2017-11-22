@@ -21,8 +21,8 @@ Este capítulo trata sobre cómo obtener los datos necesarios para la investigac
 
 ##### En esta página
 
-[](#edaa)[Crea un kit de herramientas de investigación informática](#edaa)
-[](#ecaa)[Recopilar los datos](#ecaa)
+[](#edaa)[Crea un kit de herramientas de investigación informática](#edaa)  
+[](#ecaa)[Recopilar los datos](#ecaa)  
 [](#ebaa)[Almacenar y archivar](#ebaa)
 
 ### Crea un kit de herramientas de investigación informática

@@ -25,8 +25,8 @@ A veces, es necesario el análisis de datos en línea, que examina un equipo dir
 
 ##### En esta página
 
-[](#edaa)[Analizar los datos de la red](#edaa)
-[](#ecaa)[Analizar los datos del host](#ecaa)
+[](#edaa)[Analizar los datos de la red](#edaa)  
+[](#ecaa)[Analizar los datos del host](#ecaa)  
 [](#ebaa)[Analizar los medios de almacenamiento](#ebaa)
 
 ### Analizar los datos de la red
