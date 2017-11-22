@@ -15,13 +15,13 @@ Actualizado: 27/12/05
 
 ### En esta página
 
-[](#ehaa)[Información general](#ehaa)
-[](#egaa)[Directiva de dominio](#egaa)
-[](#efaa)[Directivas de cuentas](#efaa)
-[](#eeaa)[Directiva de contraseñas](#eeaa)
-[](#edaa)[Directiva de bloqueo de cuentas](#edaa)
-[](#ecaa)[Directivas Kerberos](#ecaa)
-[](#ebaa)[Opciones de seguridad](#ebaa)
+[](#ehaa)[Información general](#ehaa)  
+[](#egaa)[Directiva de dominio](#egaa)  
+[](#efaa)[Directivas de cuentas](#efaa)  
+[](#eeaa)[Directiva de contraseñas](#eeaa)  
+[](#edaa)[Directiva de bloqueo de cuentas](#edaa)  
+[](#ecaa)[Directivas Kerberos](#ecaa)  
+[](#ebaa)[Opciones de seguridad](#ebaa)  
 [](#eaaa)[Resumen](#eaaa)
 
 ### Información general

@@ -15,10 +15,10 @@ Actualizado: 20/10/05
 
 ##### En esta página
 
-[](#edaa)[Información general](#edaa)
-[](#ecaa)[Parámetros de Configuración del equipo](#ecaa)
-[](#ebaa)[Parámetros de Configuración de usuario](#ebaa)
-[](#eaaa)[Resumen](#eaaa)
+[](#edaa)[Información general](#edaa)  
+[](#ecaa)[Parámetros de Configuración del equipo](#ecaa)  
+[](#ebaa)[Parámetros de Configuración de usuario](#ebaa)  
+[](#eaaa)[Resumen](#eaaa) 
 
 ### Información general
 

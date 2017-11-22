@@ -473,7 +473,6 @@ Además, hay cuatro plantillas de directiva de grupo que incluyen parámetros de
   
 **Tabla 3.4 Configuración de directiva de grupo para EFS**
 
- 
 <p> </p>
 <table style="border:1px solid black;">
 <colgroup>
@@ -492,8 +491,8 @@ Además, hay cuatro plantillas de directiva de grupo que incluyen parámetros de
 <tr class="odd">
 <td style="border:1px solid black;"><strong>GroupPolicy.admx</strong><br />
 Procesamiento de directivas de recuperación EFS</td>
-<td style="border:1px solid black;"><strong>Configuración del equipo\</strong><br />
-<strong>Plantillas administrativas\</strong><br />
+<td style="border:1px solid black;"><strong>Configuración del equipo</strong><br />
+<strong>Plantillas administrativas</strong><br />
 <strong>Sistema\Directiva de grupo</strong><br />
 Determina cuándo se actualizan las directivas de cifrado.</td>
 <td style="border:1px solid black;">Sin configurar</td>
@@ -501,30 +500,32 @@ Determina cuándo se actualizan las directivas de cifrado.</td>
 <tr class="even">
 <td style="border:1px solid black;"><strong>EncryptFilesonMove.admx</strong><br />
 No cifrar automáticamente archivos trasladados a carpetas cifradas</td>
-<td style="border:1px solid black;"><strong>Configuración del equipo\</strong><br />
-<strong>Plantillas administrativas\</strong><br />
-<strong>Sistema\</strong><br />
+<td style="border:1px solid black;"><strong>Configuración del equipo</strong><br />
+<strong>Plantillas administrativas</strong><br />
+<strong>Sistema</strong><br />
 Impide que Windows Explorer cifre archivos que se han trasladado a una carpeta cifrada.</td>
 <td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>OfflineFiles.admx</strong><br />
 Cifrar la memoria caché de archivos sin conexión</td>
-<td style="border:1px solid black;"><strong>Configuración del equipo\</strong><br />
-<strong>Plantillas administrativas\</strong><br />
-<strong>Red\Archivos sin conexión\</strong><br />
+<td style="border:1px solid black;"><strong>Configuración del equipo</strong><br />
+<strong>Plantillas administrativas</strong><br />
+<strong>Red\Archivos sin conexión</strong><br />
 Determina el cifrado de los archivos de conexión.
+
 <strong>Nota</strong>   En Windows XP, estos archivos están cifrados con la clave del sistema, mientras que, en Windows Vista, el cifrado se lleva a cabo con la clave del usuario.</td>
 <td style="border:1px solid black;">Sin configurar</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><strong>Search.admx</strong><br />
 Permitir la indización de archivos cifrados</td>
-<td style="border:1px solid black;"><strong>Configuración del equipo\</strong><br />
-<strong>Plantillas administrativas\</strong><br />
-<strong>Componentes de Windows\</strong><br />
+<td style="border:1px solid black;"><strong>Configuración del equipo</strong><br />
+<strong>Plantillas administrativas</strong><br />
+<strong>Componentes de Windows</strong><br />
 <strong>Búsqueda</strong><br />
 Este parámetro permite la indización de elementos cifrados por parte de la Búsqueda de Windows.
+
 <strong>Nota</strong>   Pueden darse problemas de seguridad si se aplica la indización a los archivos cifrados y el índice no está bien protegido por EFS o por algún otro medio.</td>
 <td style="border:1px solid black;">Sin configurar</td>
 </tr>
