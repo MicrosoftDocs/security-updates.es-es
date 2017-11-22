@@ -4,7 +4,7 @@ Title: Resumen del boletín de seguridad de Microsoft de abril 2012
 ms:assetid: 'ms12-apr'
 ms:contentKeyID: 61225432
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms12-apr(v=Security.10)'
---- Summary
+---
 
 Resumen del boletín de seguridad de Microsoft de abril 2012
 ===========================================================

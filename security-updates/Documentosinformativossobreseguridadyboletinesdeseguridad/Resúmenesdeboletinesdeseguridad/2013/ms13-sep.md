@@ -4,7 +4,7 @@ Title: Resumen del boletín de seguridad de Microsoft de septiembre 2013
 ms:assetid: 'ms13-sep'
 ms:contentKeyID: 61225455
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms13-sep(v=Security.10)'
---- Summary
+---
 
 Resumen del boletín de seguridad de Microsoft de septiembre 2013
 ================================================================

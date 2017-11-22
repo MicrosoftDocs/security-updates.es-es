@@ -4,7 +4,7 @@ Title: Resumen del boletín de seguridad de Microsoft de noviembre de 2013
 ms:assetid: 'ms13-nov'
 ms:contentKeyID: 61225453
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms13-nov(v=Security.10)'
---- Summary
+---
 
 Resumen del boletín de seguridad de Microsoft de noviembre de 2013
 ==================================================================

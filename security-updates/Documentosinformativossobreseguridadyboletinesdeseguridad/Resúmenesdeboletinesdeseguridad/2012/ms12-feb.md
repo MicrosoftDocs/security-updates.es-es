@@ -4,7 +4,7 @@ Title: Resumen del boletín de seguridad de Microsoft de febrero 2012
 ms:assetid: 'ms12-feb'
 ms:contentKeyID: 61225435
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms12-feb(v=Security.10)'
---- Summary
+---
 
 Resumen del boletín de seguridad de Microsoft de febrero 2012
 =============================================================
