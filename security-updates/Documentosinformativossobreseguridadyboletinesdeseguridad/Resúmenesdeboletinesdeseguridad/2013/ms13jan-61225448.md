@@ -4,7 +4,7 @@ Title: Resumen del boletín de seguridad de Microsoft de enero 2013
 ms:assetid: 'ms13-jan'
 ms:contentKeyID: 61225448
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms13-jan(v=Security.10)'
---- Summary
+---
 
 Resumen del boletín de seguridad de Microsoft de enero 2013
 ===========================================================
