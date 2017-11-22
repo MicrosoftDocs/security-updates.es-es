@@ -17,11 +17,11 @@ En este apéndice se ofrece información acerca de varios recursos que puede uti
 
 ##### En esta página
 
-[](#efaa)[Preparación de la organización para una investigación de equipo](#efaa)
-[](#eeaa)[Hojas de cálculo y Muestras](#eeaa)
-[](#edaa)[Informar de crímenes relacionados con equipos](#edaa)
-[](#ecaa)[Aprendizaje](#ecaa)
-[](#ebaa)[Tools](#ebaa)
+[](#efaa)[Preparación de la organización para una investigación de equipo](#efaa)  
+[](#eeaa)[Hojas de cálculo y Muestras](#eeaa)  
+[](#edaa)[Informar de crímenes relacionados con equipos](#edaa)  
+[](#ecaa)[Aprendizaje](#ecaa)  
+[](#ebaa)[Tools](#ebaa)  
 
 ### Preparación de la organización para una investigación de equipo
 

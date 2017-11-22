@@ -21,10 +21,10 @@ En este capítulo se describe cómo realizar una evaluación exhaustiva de la si
 
 ##### En esta página
 
-[](#efaa)[Notificar a los responsables de la toma de decisiones y obtener autorización](#efaa)
-[](#eeaa)[Revisar las directivas y leyes](#eeaa)
-[](#edaa)[Identifique a los miembros del equipo de investigación](#edaa)
-[](#ecaa)[Realice una evaluación exhaustiva](#ecaa)
+[](#efaa)[Notificar a los responsables de la toma de decisiones y obtener autorización](#efaa)  
+[](#eeaa)[Revisar las directivas y leyes](#eeaa)  
+[](#edaa)[Identifique a los miembros del equipo de investigación](#edaa)  
+[](#ecaa)[Realice una evaluación exhaustiva](#ecaa)  
 [](#ebaa)[Prepare la adquisición de evidencias](#ebaa)
 
 ### Notificar a los responsables de la toma de decisiones y obtener autorización

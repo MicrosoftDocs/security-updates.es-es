@@ -19,14 +19,14 @@ El escenario fue concebido para ofrecer una introducción de las herramientas y 
 
 ##### En esta página
 
-[](#eiaa)[Escenario](#eiaa)
-[](#ehaa)[Valorar la situación](#ehaa)
-[](#egaa)[Obtener evidencia del acceso a datos confidenciales](#egaa)
-[](#efaa)[Recopilación de evidencia remota](#efaa)
-[](#eeaa)[Recopilación de evidencia local](#eeaa)
-[](#edaa)[Analizar la evidencia recopilada](#edaa)
-[](#ecaa)[Informar de la evidencia](#ecaa)
-[](#ebaa)[Configuración de laboratorio del escenario de aplicación](#ebaa)
+[](#eiaa)[Escenario](#eiaa)  
+[](#ehaa)[Valorar la situación](#ehaa)  
+[](#egaa)[Obtener evidencia del acceso a datos confidenciales](#egaa)  
+[](#efaa)[Recopilación de evidencia remota](#efaa)  
+[](#eeaa)[Recopilación de evidencia local](#eeaa)  
+[](#edaa)[Analizar la evidencia recopilada](#edaa)  
+[](#ecaa)[Informar de la evidencia](#ecaa)  
+[](#ebaa)[Configuración de laboratorio del escenario de aplicación](#ebaa)  
 
 ### Escenario
 
@@ -100,7 +100,12 @@ Ray exporta el conjunto de registros a una unidad USB etiquetada como HR01. Util
 
 Al conectar una unidad USB a un equipo basado en Windows, se agrega una entrada al archivo **Setupapi.log** y se altera la clave de registro siguiente: **HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Enum\\Storage\\RemovableMedia**
 
-        ```
+Ray decide determinar qué permisos se asignan a la carpeta RR.HH.\Interno ejecutando la herramienta [Windows Sysinternals AccessChk](http://go.microsoft.com/?linkId=6013258) en el servidor. Esta herramienta muestra las autorizaciones que el usuario o el grupo especificado posee para archivos, claves de registro o servicios de Windows. Ray ejecuta la herramienta de su unidad USB, que aparece como unidad F:, escribiendo lo siguiente en un símbolo del sistema:
+
+```
+f:\tools>accesschk mdanseglio c:\hr\internal
+```
+
 ![](images/Cc162849.note(es-es,TechNet.10).gif)**Nota:**
 
 La herramienta Sysinternals AccessChk requiere un proceso de instalación y dejará una huella en la unidad de disco local en la clave de registro siguiente: **HKEY\_CURRENT\_USER\\Software\\Sysinternals\\AccessChk**
@@ -113,7 +118,12 @@ Ray descubre que la cuenta de usuario de mdanseglio posee permiso de lectura y e
 
 Ray sospecha que los errores de configuración de las autorizaciones del servidor de RR.HH. hicieron posible que Mike Danseglio obtuviera acceso a la carpeta RR.HH.\\Interno. Ray dedica algunos minutos en investigar los derechos de usuario de Mike Danseglio y se da cuenta de que es miembro de un grupo llamado branch01mgrs. Este grupo posee permisos de lectura y escritura para las carpetas de RR.HH.\\Interno.
 
-        ```
+Ray desea saber si Mike Danseglio tiene una sesión iniciada en estos momentos en algún servidor de la red. Ray utiliza PsLoggedOn, una herramienta que muestra los usuarios que ha iniciado la sesión localmente, así como los usuarios que tienen una sesión iniciada a través de recursos, ya sea mediante el equipo local o uno remoto. Ray inserta su lápiz USB en su equipo y escribe lo siguiente en el símbolo del sistema:
+
+```
+f:\tools>psloggedon mdanseglio
+```
+
 Los resultados, que se muestran en la captura de pantalla siguiente, indican que Mike Danseglio tiene una sesión iniciada en WNB-HQ-FS1 en este momento.
 
 ![](images/Cc162849.0e12a08e-1f27-4852-81b2-6feb53b61773(es-es,TechNet.10).gif)
@@ -143,21 +153,35 @@ En los equipos de destino con el firewall de Windows habilitado y Compartir arch
 1.  Obtener acceso a la unidad USB.
 
     Ray obtiene acceso a la unidad USB y la carpeta \\herramientas, que contiene sus herramientas de línea de comandos (incluidas PsExec y la herramienta File Checksum Integrity Validator (FCIV)).
-
     
-        ```
+    ```
+    j:
+    cd tools
+    ```
+
 2.  Anotar la fecha y hora de inicio del examen.
 
     Ray canaliza los resultados de los comandos de fecha y hora para registrar la hora de inicio de su investigación en un nuevo archivo **mdevidence.txt** creado en la carpeta \\evidencia de su unidad USB. (Ray obtendrá la hora de sistema del equipo de Mike Danseglio en el paso 3.) Además, Ray buscará cualquier tipo de discrepancia entre la fecha y hora del BIOS y la fecha y hora real.
 
-    
-        ```
+    ```
+    date /t > j:\evidence\mdevidence.txt
+    time /t >> j:\evidence\mdevidence.txt
+    ```
+
 3.  Obtener información básica del equipo de destino.
 
     Ray ejecuta una serie de comandos nativos de Windows para obtener información sobre el equipo de Mike.
 
-    
-        ```
+    ```
+    j:
+    cd tools
+    psexec \\hqloan164 systeminfo >> j:\evidence\mdevidence.txt
+    psexec \\hqloan164 ipconfig /all >> j:\evidence\mdevidence.txt
+    psexec \\hqloan164 arp -a >> j:\evidence\mdevidence.txt
+    psexec \\hqloan164 netstat -b >> j:\evidence\mdevidence.txt
+    psexec \\hqloan164 schtasks >> j:\evidence\mdevidence.txt
+    ```
+     
     ![](images/Cc162849.note(es-es,TechNet.10).gif)**Nota:**
 
     PsExec reúne información de forma remota utilizando los servicios ya existentes en el equipo de destino, como por ejemplo, Cmd y Ipconfig. PsExec también se puede utilizar para cargar servicios a través de la red para ejecutarlos en el equipo de destino. Ray no quiere instalar ninguna aplicación en el equipo de Mike; sólo ejecuta servicios compatibles con el sistema operativo Windows XP en el equipo de Mike
@@ -166,8 +190,13 @@ En los equipos de destino con el firewall de Windows habilitado y Compartir arch
 
     Ray ejecuta ahora varias herramientas para determinar si otros equipos tienen los archivos abiertos en el equipo de Mike, los procesos en ejecución en el equipo, y obtener los registros de sucesos de seguridad del equipo.
 
-    
-        ```
+    ```
+    psfile \\hqloan164 >> j:\evidence\mdevidence.txt
+    pslist -t \\hqloan164 >> j:\evidence\mdevidence.txt
+    psloglist -s \\hqloan164 >> j:\evidence\mdevidence.txt
+    psloglist -s sec \\hqloan164 >> j:\evidence\mdevidence.txt    
+    ```
+
     -   PsFile muestra archivos abiertos de forma remota Esta herramienta utiliza API remotas de Windows y no es preciso cargarlo en el equipo de destino.
 
     -   PsList muestra información acerca de los procesos y subprocesos en ejecución en un equipo. Esta herramienta utiliza API remotas de Windows y no es preciso cargarlo en el equipo de destino.
@@ -178,21 +207,30 @@ En los equipos de destino con el firewall de Windows habilitado y Compartir arch
 
     Windows realiza un seguimiento automático de todos los comandos ejecutados en un símbolo del sistema. Ray utiliza el comando Doskey para capturar este registro y canaliza la información de historial en un archivo llamado **mdevidence-doskey. txt.**
 
+    ```
+    doskey /h > j:\evidence\mdevidence-doskey.txt
+    ```
     
-        ```
 6.  Realice una suma de comprobación MD5 en los archivos de evidencia.
 
     Ray utiliza la herramienta FCIV para realizar una suma de comprobación MD5 en los archivos de evidencia.
 
-    
-        ```
+    ```
+    fciv j:\evidence\mdevidence.txt >> j:\evidence\md5mdevidence.txt
+    ```
+
 ![](images/Cc162849.note(es-es,TechNet.10).gif)**Nota:**
 
 Las limitaciones de la pantalla podrían hacer que el comando anterior se muestre en más de una línea. Debe escribirse como una sola línea en el símbolo del sistema.
 
 La herramienta FCIV calcula y comprueba los valores hash de cifrado. Esta herramienta está disponible a través del artículo de Microsoft Knowledge Base 841290.
 
-        ```
+    ```
+    psexec \\hqloan164 cmd
+    cd c:\documents and settings\mdanseglio\my documents
+    dir /s
+    ```
+
 Aunque se pide a todos los usuarios que conserven los documentos en el servidor de red, Ray advierte que Mike Danseglio tiene una carpeta personal en su equipo. Esta carpeta incluye una hoja de cálculo y una subcarpeta de \\xxxpixset.
 
 Después de revisar de forma remota las carpetas del equipo de Mike, Ray está listo para informar sobre sus conclusiones y trasladarse al equipo de Mike para realizar la investigación de forma local.
@@ -231,14 +269,20 @@ Ray inicia sesión en el equipo de Mike mediante la cuenta de Administrador para
 
     Ray obtiene acceso a la carpeta personal de Mike con los comandos siguientes.
 
+    ```
+    c:
+    cd "documents and settings\mdanseglio\my documents\personal"
+    ```
     
-        ```
 2.  Anotar la fecha y hora de inicio del examen.
 
     Ray canaliza los resultados de los comandos Fecha y Hora para registrar la hora de inicio de su investigación. Canaliza los resultados a un archivo **mdevidence2.txt** nuevo creado en la carpeta \\evidencia del disco USB.
 
-    
-        ```
+    ```
+    date /t > f:\evidence\mdevidence2.txt
+    time /t >> f:\evidence\mdevidence2.txt
+    ```
+        
     ![](images/Cc162849.note(es-es,TechNet.10).gif)**Nota:**
 
     La unidad USB se designa unidad F: en el equipo de Mike.
@@ -247,20 +291,30 @@ Ray inicia sesión en el equipo de Mike mediante la cuenta de Administrador para
 
     Ray utiliza el comando Dir para examinar el contenido de la carpeta personal de Mike. Primero, Ray canaliza los resultados a la pantalla para visualizar los resultados y advierte un archivo de hoja de cálculo y la carpeta \\xxxpixset. A continuación, Ray canaliza los resultados del comando Dir al archivo de evidencia utilizando tres parámetros diferentes: /tc, para mostrar la hora de creación, /ta para mostrar la última hora de acceso, y /tw, para mostrar la última hora de escritura.
 
-    
-        ```
+    ```
+    dir /ta >> f:\evidence\mdevidence2.txt
+    dir /tc >> f:\evidence\mdevidence2.txt
+    dir /tw >> f:\evidence\mdevidence2.txt
+    ```
+        
 4.  Obtener acceso a la unidad USB.
 
     Ray obtiene acceso a la unidad USB y a la carpeta \\herramientas que contiene sus herramientas de línea de comandos.
 
-    
-        ```
+    ```
+    f:
+    cd tools
+    ```
+
 5.  Reunir información de archivo de Mike Danseglio.
 
     Ray utiliza la utilidad Du para examinar el contenido de la carpeta Mis documentos y de cualquier subcarpeta de Mike Danseglio. Utiliza el parámetro –I 5 para buscar a una profundidad de cinco carpetas. Ray examina primero los resultados en la pantalla (que se muestran en la captura de pantalla siguiente) antes de canalizar la evidencia al archivo **mdevidence2.txt.**
 
-    
-        ```
+    ```
+    du –l 5
+    du –l 5 >> f:\evidence\mdevidence2.txt
+    ```
+
     ![](images/Cc162849.e08dd6a3-ffd8-41a9-bd1e-8f487f69508b(es-es,TechNet.10).gif)
 
     **Figura 5.6. Los resultados de ejecutar la utilidad Du**
@@ -274,9 +328,15 @@ Ray inicia sesión en el equipo de Mike mediante la cuenta de Administrador para
     Ray obtuvo una copia del archivo original durante el proceso de creación de imagen. Puede realizar un hash en el archivo original que encontró en la unidad de disco en tiempo real si desea comparar este archivo con la copia del archivo de su unidad USB.
 
     Ray utiliza el comando Xcopy con el parámetro /s para copiar subcarpetas, el parámetro /e para copiar subcarpetas, incluso si están vacías, el parámetro /k para retener el atributo de sólo lectura en los archivos de destino, si se encuentra en los archivos de origen, y el parámetro /v para comprobar cómo está escrito cada archivo en el archivo de destino, para cerciorarse de que los archivos de destino son idénticos a los archivos de origen.
-
     
-        ```
+    ```
+    f:
+    md evidence_files
+    c:
+    cd \documents and settings\mdanseglio\my documents\personal
+    xcopy *.* f:\evidence_files /s /e /k /v
+    ```
+
 7.  Examinar el contenido de la papelera de reciclaje.
 
     Ray hace una revisión rápida del contenido de la papelera de reciclaje del equipo de Mike Danseglio, que contiene numerosos archivos eliminados como se muestra en la figura siguiente. Ray sabe que el proceso de imagen de la unidad de disco obtuvo una copia de estos archivos, en caso de que desee revisar los archivos más tarde. Después de observar el contenido de la papelera de reciclaje, Ray está listo para revisar la evidencia que recopilada de forma remota y local.
@@ -305,16 +365,24 @@ Ray tiene dos archivos de evidencia: **mdevidence.txt** y **mdevidence2.txt.** T
 
     Ray obtiene acceso a la unidad USB y a la carpeta \\herramientas que contiene sus herramientas de línea de comandos.
 
-    
-        ```
+    ```
+    j:
+    cd tools
+    ```
+
 3.  Buscar cadenas sospechosas en el archivo de hoja de cálculo.
 
     Ray busca la cadena "confidencial" en sus copias de los archivos de la carpeta personal de Mike. Para ello, utiliza el comando Buscar con el parámetro /I (este parámetro ignora este parámetro ignora si los caracteres están en mayúscula o minúscula al buscar la cadena) y el parámetro /c (este parámetro ofrece el número de líneas que contienen la cadena).
 
     Primero, Ray canaliza a la pantalla. Se muestra que el archivo **090806PR-A139.xls** contiene una coincidencia, tal como se muestra en la captura de pantalla siguiente. Por lo tanto, Ray ejecuta el comando por segunda vez para canalizar los resultados a un archivo **mdevidence-review.txt.**
 
-    
-        ```
+    ```
+    j:
+    cd \evidence_files
+    find /i /c "confidential" *.*
+    find /i /c "confidential" *.* > j:\evidence\mdevidence-review.txt
+    ```
+
     ![](images/Cc162849.note(es-es,TechNet.10).gif)**Nota:**
 
     Las limitaciones de la pantalla podrían hacer que el comando anterior se muestre en más de una línea. Debe escribirse como una sola línea en el símbolo del sistema.
@@ -325,12 +393,16 @@ Ray tiene dos archivos de evidencia: **mdevidence.txt** y **mdevidence2.txt.** T
 
 4.  Ray copia primero **090806PR-A139.xls** a la carpeta \\evidencia\_archivos y luego utiliza la herramienta de cadenas para enumerar las cadenas ASCII y Unicode incluidas en el archivo de hoja de cálculo.
 
-    
-        ```
+    ```
+    strings j:\evidence_files\090806PR-A139.xls
+    ```
+
     Los resultados (que se muestran en la captura de pantalla siguiente) indican que el archivo de hoja de cálculo contiene información sobre nóminas. Ray ejecuta la herramienta de cadenas otra vez y canaliza los resultados a su archivo **mdevidence-review.txt.**
 
+    ```
+    strings j:\evidence_files\090806PR-A139.XLS >> j:\evidence\mdevidence-review.txt
+    ```
     
-        ```
     ![](images/Cc162849.note(es-es,TechNet.10).gif)**Nota:**
 
     Las limitaciones de la pantalla podrían hacer que el comando anterior se muestre en más de una línea. Debe escribirse como una sola línea en el símbolo del sistema.

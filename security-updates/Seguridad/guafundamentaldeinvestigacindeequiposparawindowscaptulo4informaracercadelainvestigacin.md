@@ -19,8 +19,8 @@ Este capítulo trata sobre cómo organizar la información que se reúna y la do
 
 ##### En esta página
 
-[](#ecaa)[Reunir y organizar la información](#ecaa)
-[](#ebaa)[Escribir el informe](#ebaa)
+[](#ecaa)[Reunir y organizar la información](#ecaa)  
+[](#ebaa)[Escribir el informe](#ebaa)  
 
 ### Reunir y organizar la información
 
