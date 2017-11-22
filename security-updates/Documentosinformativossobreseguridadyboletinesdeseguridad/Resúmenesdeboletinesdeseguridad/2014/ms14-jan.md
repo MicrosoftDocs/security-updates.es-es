@@ -4,7 +4,7 @@ Title: Resumen del boletín de seguridad de Microsoft de enero de 2014
 ms:assetid: 'ms14-jan'
 ms:contentKeyID: 61597921
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms14-jan(v=Security.10)'
---- Summary
+---
 
 Resumen del boletín de seguridad de Microsoft de enero de 2014
 ==============================================================

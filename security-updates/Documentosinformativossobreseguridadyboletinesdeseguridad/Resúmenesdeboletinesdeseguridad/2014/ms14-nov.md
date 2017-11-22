@@ -94,7 +94,7 @@ Ejecución remota de código</td>
 <td style="border:1px solid black;"><strong>Una vulnerabilidad existente en Kerberos podría permitir la elevación de privilegios (3011780)<br />
 </strong><br />
 Esta actualización de seguridad soluciona una vulnerabilidad de la que se ha informado en privado del KDC de Microsoft Windows Kerberos que podría permitir que un atacante elevara los privilegios de una cuenta de usuario de dominio sin privilegios a los de la cuenta de administrador del dominio. Un atacante podría utilizar estos privilegios elevados para poner en peligro cualquier equipo del dominio, incluidos los controladores del dominio. Para aprovechar esta vulnerabilidad, el atacante debe tener unas credenciales de dominio válidas. El componente afectado está disponible de forma remota para los usuarios que tienen cuentas de usuario estándar con credenciales de dominio; no es el caso de los usuarios que tienen solo credenciales de cuenta local. Cuando se publicó este boletín de seguridad, Microsoft tenía constancia de ataques dirigidos y limitados que intentan aprovechar esta vulnerabilidad.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/es-es/security/gg309177.aspx">Crítico</a> <br />
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/es-es/security/gg309177.aspx">Crítico</a> <br />
 Elevación de privilegios</td>
 <td style="border:1px solid black;">Requiere reinicio</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
@@ -204,7 +204,7 @@ Denegación de servicio</td>
 </tbody>
 </table>
   
- 
+ 
   
 Índice de explotabilidad  
 ------------------------
@@ -1027,7 +1027,7 @@ Se trata de una vulnerabilidad de denegación de servicio.
 </tr>
 </table>
  
- 
+ 
 
 Software afectado
 -----------------
@@ -1045,7 +1045,7 @@ Estas tablas se pueden usar para conocer las actualizaciones de seguridad que qu
 <table style="border:1px solid black;">
 <tr>
 <td style="border:1px solid black;" colspan="14">
-**Windows Server 2003 **
+**Windows Server 2003**
 </td>
 </tr>
 <tr>
@@ -1138,10 +1138,10 @@ Estas tablas se pueden usar para conocer las actualizaciones de seguridad que qu
 </tr>
 <tr>
 <td style="border:1px solid black;">
-Windows Server 2003 Service Pack 2 
+Windows Server 2003 Service Pack 2 
 </td>
 <td style="border:1px solid black;">
-Windows Server 2003 Service Pack 2   
+Windows Server 2003 Service Pack 2   
 (3006226)  
 (Crítico)
 </td>
@@ -1157,12 +1157,12 @@ Internet Explorer 8
 (Moderado)
 </td>
 <td style="border:1px solid black;">
-Windows Server 2003 Service Pack 2   
+Windows Server 2003 Service Pack 2   
 (2992611)  
 (Crítico)
 </td>
 <td style="border:1px solid black;">
-Windows Server 2003 Service Pack 2   
+Windows Server 2003 Service Pack 2   
 (2993958)  
 (Importante)
 </td>
@@ -1172,7 +1172,7 @@ Windows Server 2003 Service Pack 2
 (Crítico)
 </td>
 <td style="border:1px solid black;">
-Windows Server 2003 Service Pack 2   
+Windows Server 2003 Service Pack 2   
 (2989935)  
 (Importante)
 </td>
@@ -1200,12 +1200,12 @@ No aplicable
 No aplicable
 </td>
 <td style="border:1px solid black;">
-Windows Server 2003 Service Pack 2   
+Windows Server 2003 Service Pack 2   
 (2991963)  
 (Moderado)
 </td>
 <td style="border:1px solid black;">
-Windows Server 2003 Service Pack 2   
+Windows Server 2003 Service Pack 2   
 (3002885)  
 (Moderado)
 </td>
@@ -1602,7 +1602,7 @@ Windows Vista x64 Edition Service Pack 2
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="14">
-**Windows Server 2008 **
+**Windows Server 2008**
 </td>
 </tr>
 <tr>
@@ -2897,13 +2897,13 @@ Windows 8.1 para sistemas x64
 </tr>
 <tr>
 <td style="border:1px solid black;">
-Windows Server 2012 
+Windows Server 2012 
 </td>
 <td style="border:1px solid black;">
-Windows Server 2012   
+Windows Server 2012   
 (3006226)  
 (Crítico)  
-Windows Server 2012   
+Windows Server 2012   
 (3010788)  
 (Importante)
 </td>
@@ -2913,12 +2913,12 @@ Internet Explorer 10
 (Moderado)
 </td>
 <td style="border:1px solid black;">
-Windows Server 2012   
+Windows Server 2012   
 (2992611)  
 (Crítico)
 </td>
 <td style="border:1px solid black;">
-Windows Server 2012   
+Windows Server 2012   
 (2993958)  
 (Importante)
 </td>
@@ -2931,7 +2931,7 @@ Windows Server 2012
 No aplicable
 </td>
 <td style="border:1px solid black;">
-Windows Server 2012   
+Windows Server 2012   
 (3005607)  
 (Importante)
 </td>
@@ -2944,7 +2944,7 @@ Microsoft .NET Framework 4.5/4.5.1/4.5.2
 (Importante)
 </td>
 <td style="border:1px solid black;">
-Windows Server 2012   
+Windows Server 2012   
 (3003743)  
 (Importante)
 </td>
@@ -2962,7 +2962,7 @@ Servicios de federación de Active Directory 2.1
 No aplicable
 </td>
 <td style="border:1px solid black;">
-Windows Server 2012   
+Windows Server 2012   
 (3002885)  
 (Moderado)
 </td>
@@ -2995,7 +2995,7 @@ Windows Server 2012 R2
 (Importante)
 </td>
 <td style="border:1px solid black;">
-Windows Server 2012 R2  
+Windows Server 2012 R2  
 (3011780)  
 (Crítico)
 </td>
@@ -3660,19 +3660,19 @@ Windows Server 2012 R2 (instalación Server Core)
  
 **Nota para MS14-064, MS14-065 y MS14-067**
 
-Windows Technical Preview y Windows Server Technical Preview están afectados. Se anima a los usuarios que ejecutan estos sistemas operativos a que apliquen la actualización, disponible a través de [Windows Update](http://update.microsoft.com/microsoftupdate/v6/vistadefault.aspx?ln=es-es). 
+Windows Technical Preview y Windows Server Technical Preview están afectados. Se anima a los usuarios que ejecutan estos sistemas operativos a que apliquen la actualización, disponible a través de [Windows Update](http://update.microsoft.com/microsoftupdate/v6/vistadefault.aspx?ln=es-es). 
 
 **Notas para MS14-068**
 
-Windows Technical Preview y Windows Server Technical Preview están afectados. Se anima a los usuarios que ejecutan estos sistemas operativos a que apliquen la actualización, disponible a través de [Windows Update](http://update.microsoft.com/microsoftupdate/v6/vistadefault.aspx?ln=es-es). 
+Windows Technical Preview y Windows Server Technical Preview están afectados. Se anima a los usuarios que ejecutan estos sistemas operativos a que apliquen la actualización, disponible a través de [Windows Update](http://update.microsoft.com/microsoftupdate/v6/vistadefault.aspx?ln=es-es). 
 
-<sup>[1]</sup>Las clasificaciones de gravedad no se aplican a este sistema operativo porque la vulnerabilidad tratada en este boletín no está presente. Esta actualización ofrece un refuerzo adicional de [defensa en profundidad](https://technet.microsoft.com/es-es/library/security/dn848375.aspx) que no corrigen ninguna vulnerabilidad conocida. 
+<sup>[1]</sup>Las clasificaciones de gravedad no se aplican a este sistema operativo porque la vulnerabilidad tratada en este boletín no está presente. Esta actualización ofrece un refuerzo adicional de [defensa en profundidad](https://technet.microsoft.com/es-es/library/security/dn848375.aspx) que no corrigen ninguna vulnerabilidad conocida. 
 
 **Nota para MS14-078**
 
 Este boletín abarca varias categorías de software. Vea las demás tablas de esta sección para determinar el software afectado.
 
- 
+ 
 
 ### Conjuntos de programas y software de Microsoft Office
 
@@ -3780,7 +3780,7 @@ No aplicable
 
 Este boletín abarca varias categorías de software. Vea las demás tablas de esta sección para determinar el software afectado.
 
- 
+ 
 
 ### Software de servidor de Microsoft
 
@@ -3820,7 +3820,7 @@ Microsoft SharePoint Foundation 2010 Service Pack 2
 </tr>
 </table>
  
- 
+ 
 
 Herramientas y consejos para la detección e implementación
 ----------------------------------------------------------
