@@ -13,12 +13,12 @@ Publicado: octubre 11, 2004 | Actualizado: 24/11/04
 
 ##### En esta página
 
-[](#efaa)[Introducción](#efaa)
-[](#eeaa)[Razones para el uso de redes inalámbricas](#eeaa)
-[](#edaa)[Protección real de la WLAN](#edaa)
-[](#ecaa)[Selección de las opciones de WLAN adecuadas](#ecaa)
-[](#ebaa)[Resumen](#ebaa)
-[](#eaaa)[Referencias](#eaaa)
+[](#efaa)[Introducción](#efaa)  
+[](#eeaa)[Razones para el uso de redes inalámbricas](#eeaa)  
+[](#edaa)[Protección real de la WLAN](#edaa)  
+[](#ecaa)[Selección de las opciones de WLAN adecuadas](#ecaa)  
+[](#ebaa)[Resumen](#ebaa)  
+[](#eaaa)[Referencias](#eaaa)  
 
 ### Introducción
 

@@ -4,7 +4,8 @@ Title: Resumen del boletín de seguridad de Microsoft de diciembre 2009
 ms:assetid: 'ms09-dec'
 ms:contentKeyID: 61225398
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms09-dec(v=Security.10)'
---- Summary
+--- 
+
 
 Resumen del boletín de seguridad de Microsoft de diciembre 2009
 ===============================================================

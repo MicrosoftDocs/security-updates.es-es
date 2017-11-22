@@ -27,9 +27,9 @@ Es importante tener en cuenta que la línea de base SSLF no es una mera adición
 
 ##### En esta página
 
-[](#edaa)[Entorno de seguridad especializado](#edaa)
-[](#ecaa)[Entorno de seguridad limitada](#ecaa)
-[](#ebaa)[GPOAccelerator Tool](#ebaa)
+[](#edaa)[Entorno de seguridad especializado](#edaa)  
+[](#ecaa)[Entorno de seguridad limitada](#ecaa)  
+[](#ebaa)[GPOAccelerator Tool](#ebaa)  
 [](#eaaa)[Más información](#eaaa)
 
 ### Entorno de seguridad especializado
@@ -179,7 +179,7 @@ Los GPO que se proporcionan en esta guía han sido sometidos a pruebas exhaustiv
 
 La secuencia de comandos GPOAccelerator.wsf se encuentra en la carpeta Windows Vista Security Guide\\GPOAccelerator Tool que crea el archivo de Microsoft Windows Installer (.msi).
 
-**Nota   **La carpeta GPOAccelerator Tool y sus subcarpetas deben estar presentes en el equipo local para que la secuencia de comandos se ejecute tal y como se describe en el siguiente procedimiento.
+**Nota** La carpeta GPOAccelerator Tool y sus subcarpetas deben estar presentes en el equipo local para que la secuencia de comandos se ejecute tal y como se describe en el siguiente procedimiento.
 
 **Para crear los GPO y vincularlos a las UO adecuadas en el entorno de laboratorio**
 
@@ -342,7 +342,7 @@ El procedimiento que sigue describe cómo utilizar la consola GPMC en un equipo 
 
 -   Expanda el nodo de **objetos de directiva de grupo**, seleccione el GPO y, a continuación, en el panel de detalles, haga clic en la ficha **Ámbito** y consulte la información en las columna **Vínculo habilitado** y **Ruta de acceso**.
 
-- O bien -
+	&ndash; O bien 	&ndash;
 
 -   Seleccione la UO y, después, en el panel de detalles, haga clic en la ficha **Objetos de directivas de grupos vinculados** y consulte la información de las columnas **Vínculo habilitado** y **GPO**.
 

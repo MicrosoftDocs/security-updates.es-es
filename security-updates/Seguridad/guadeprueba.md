@@ -13,13 +13,13 @@ Publicado: octubre 11, 2004 | Actualizado: 24/11/04
 
 ##### En esta página
 
-[](#ehaa)[Introducción](#ehaa)
-[](#egaa)[Ámbito de la prueba](#egaa)
-[](#efaa)[Objetivos de la prueba](#efaa)
-[](#eeaa)[Estrategia de la prueba](#eeaa)
-[](#edaa)[Herramientas de la prueba](#edaa)
-[](#ecaa)[Casos de prueba](#ecaa)
-[](#ebaa)[Criterios para el lanzamiento](#ebaa)
+[](#ehaa)[Introducción](#ehaa)  
+[](#egaa)[Ámbito de la prueba](#egaa)  
+[](#efaa)[Objetivos de la prueba](#efaa)  
+[](#eeaa)[Estrategia de la prueba](#eeaa)  
+[](#edaa)[Herramientas de la prueba](#edaa)  
+[](#ecaa)[Casos de prueba](#ecaa)  
+[](#ebaa)[Criterios para el lanzamiento](#ebaa)  
 [](#eaaa)[Información adicional](#eaaa)
 
 ### Introducción
