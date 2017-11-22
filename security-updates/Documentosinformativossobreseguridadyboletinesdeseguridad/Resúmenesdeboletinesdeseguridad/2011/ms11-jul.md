@@ -4,7 +4,7 @@ Title: Resumen del boletín de seguridad de Microsoft de julio 2011
 ms:assetid: 'ms11-jul'
 ms:contentKeyID: 61225425
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms11-jul(v=Security.10)'
---- Summary
+---
 
 Resumen del boletín de seguridad de Microsoft de julio 2011
 ===========================================================
@@ -337,6 +337,7 @@ Windows Vista Service Pack 1 y Windows Vista Service Pack 2
 [Windows Vista Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=6bff74ac-45f3-4585-92da-316921b458fa)<sup>[1]</sup>
 (KB2561109)  
 (Crítica)  
+
 [Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=a1e5aa7d-5f38-4ce2-9575-4b4cb7520160)  
 (KB2532531)  
 (Crítica)
@@ -358,6 +359,7 @@ Windows Vista x64 Edition Service Pack 1 y Windows Vista x64 Edition Service Pac
 [Windows Vista x64 Edition Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=849d2694-c8b3-4670-8203-912661bccabf)<sup>[1]</sup>
 (KB2561109)  
 (Crítica)  
+
 [Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=4287eeb4-ab29-4727-83f2-260d838b44d4)  
 (KB2532531)  
 (Crítica)

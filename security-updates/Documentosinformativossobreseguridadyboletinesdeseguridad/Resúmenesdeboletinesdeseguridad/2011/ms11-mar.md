@@ -4,7 +4,7 @@ Title: Resumen del boletín de seguridad de Microsoft de marzo 2011
 ms:assetid: 'ms11-mar'
 ms:contentKeyID: 61225427
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms11-mar(v=Security.10)'
---- Summary
+---
 
 Resumen del boletín de seguridad de Microsoft de marzo 2011
 ===========================================================
@@ -153,6 +153,7 @@ Windows XP Service Pack 3
 [Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=d8284bfa-ed6c-4647-9fb0-588e53173775)  
 (KB2479943)  
 (Crítica)  
+
 [Windows XP Media Center Edition 2005 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=b1be30de-7e88-467d-aee2-68f88e6a7355)  
 (KB2502898)  
 (Crítica)
@@ -161,9 +162,11 @@ Windows XP Service Pack 3
 [Cliente de Conexión a Escritorio remoto 5.2](http://www.microsoft.com/downloads/details.aspx?familyid=1aed6080-feab-4b5e-9d26-6a3f4b92434d)  
 (KB2483618)  
 (Importante)  
+
 [Cliente de Conexión a Escritorio remoto 6.1](http://www.microsoft.com/downloads/details.aspx?familyid=d67e4d8c-aeb9-45e6-9555-7456c5540475)  
 (KB2481109)  
 (Importante)  
+
 [Cliente de Conexión a Escritorio remoto 7.0](http://www.microsoft.com/downloads/details.aspx?familyid=6a01992e-c9a1-4dc9-a3ef-7410b81f17e6)  
 (KB2483614)  
 (Importante)
@@ -222,6 +225,7 @@ No aplicable
 [Cliente de Conexión a Escritorio remoto 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=641d5d12-0790-4551-831a-e78febad17a7)<sup>[1]</sup>
 (KB2481109)  
 (Importante)  
+
 [Interfaz de usuario multilingüe (MUI) de Cliente de Conexión a Escritorio remoto 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=6fec0d06-042d-4e55-9843-009edd7d26ce)<sup>[2]</sup>
 (KB2483619)  
 (Importante)
@@ -275,6 +279,7 @@ Windows Vista Service Pack 1 y Windows Vista Service Pack 2
 [Windows Vista Service Pack 1 y Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=f9f1dde2-2219-4bf1-a497-edd011577b96)<sup>[1]</sup>
 (KB2479943)  
 (Crítica)  
+
 [Windows Media Center TV Pack para Windows Vista (ediciones de 32 bits](http://www.microsoft.com/downloads/details.aspx?familyid=1bc240b3-1938-4350-b26f-67b81a79f8a0) ) <sup>[2]</sup>
 (KB2494132)  
 (Crítica)
@@ -283,6 +288,7 @@ Windows Vista Service Pack 1 y Windows Vista Service Pack 2
 [Cliente de Conexión a Escritorio remoto 6.1](http://www.microsoft.com/downloads/details.aspx?familyid=e3ea7690-386b-4cdf-889f-b3914921c56f)  
 (KB2481109)  
 (Importante)  
+
 [Cliente de Conexión a Escritorio remoto 7.0](http://www.microsoft.com/downloads/details.aspx?familyid=3c30f67e-7c31-4553-ba3e-e056df1bf8eb)  
 (KB2483614)  
 (Importante)
@@ -296,6 +302,7 @@ Windows Vista x64 Edition Service Pack 1 y Windows Vista x64 Edition Service Pac
 [Windows Vista x64 Edition Service Pack 1 y Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=e11d00df-d1cf-4a33-a1be-6721cdff5995)<sup>[1]</sup>
 (KB2479943)  
 (Crítica)  
+
 [Windows Media Center TV Pack para Windows Vista (ediciones de 64 bits](http://www.microsoft.com/downloads/details.aspx?familyid=cd4c5a80-db24-4696-a248-1286c3b9f550) ) <sup>[2]</sup>
 (KB2494132)  
 (Crítica)
@@ -304,6 +311,7 @@ Windows Vista x64 Edition Service Pack 1 y Windows Vista x64 Edition Service Pac
 [Cliente de Conexión a Escritorio remoto 6.1](http://www.microsoft.com/downloads/details.aspx?familyid=5735bed6-0e3d-46a4-85d0-14ec34a82edd)  
 (KB2481109)  
 (Importante)  
+
 [Cliente de Conexión a Escritorio remoto 7.0](http://www.microsoft.com/downloads/details.aspx?familyid=8025482b-f58f-4f5a-a133-5563c65b21f6)  
 (KB2483614)  
 (Importante)

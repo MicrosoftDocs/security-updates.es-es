@@ -4,7 +4,7 @@ Title: Microsoft Security Bulletin Summary for septiembre 2011
 ms:assetid: 'ms11-sep'
 ms:contentKeyID: 61225431
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms11-sep(v=Security.10)'
---- Summary
+---
 
 Microsoft Security Bulletin Summary for septiembre 2011
 =======================================================
@@ -689,9 +689,11 @@ Microsoft Office 2007 Service Pack 2
 [Microsoft Excel 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=498ac241-d728-4944-abac-ec8444ca6418)  
 (KB2553073)<sup>[1]</sup>
 (Importante)  
+
 [Microsoft Office 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=df04b9ce-2daa-4b4d-a944-a873075656f9)  
 (KB2553089)<sup>[1]</sup>
 (Importante)  
+
 [Microsoft Office 2007 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=90eef02b-db1f-4fdd-bb1d-408063671e4d)  
 (KB2553090)<sup>[1]</sup>
 (Importante)
@@ -713,9 +715,11 @@ Microsoft Office 2010 y Microsoft Office 2010 Service Pack 1 (ediciones de 32 bi
 [Microsoft Excel 2010 y Microsoft Excel 2010 Service Pack 1 (ediciones de 32 bits)](http://www.microsoft.com/downloads/details.aspx?familyid=4612c6e4-ac29-4cc4-9da5-88779ea3643e)  
 (KB2553070)  
 (Importante)  
+
 [Microsoft Office 2010 y Microsoft Office 2010 Service Pack 1 (ediciones de 32 bits)](http://www.microsoft.com/downloads/details.aspx?familyid=1fd15144-5547-4927-8583-8d9b06819226)  
 (KB2553091)  
 (Importante)  
+
 [Microsoft Office 2010 y Microsoft Office 2010 Service Pack 1 (ediciones de 32 bits)](http://www.microsoft.com/downloads/details.aspx?familyid=18840d78-944f-400a-addc-dce7e570a569)  
 (KB2553096)  
 (Importante)
@@ -737,9 +741,11 @@ Microsoft Office 2010 y Microsoft Office 2010 Service Pack 1 (ediciones de 64 bi
 [Microsoft Excel 2010 y Microsoft Excel 2010 Service Pack 1 (ediciones de 64 bits)](http://www.microsoft.com/downloads/details.aspx?familyid=d40db27b-1318-4ca7-b44f-c90bb6342109)  
 (KB2553070)  
 (Importante)  
+
 [Microsoft Office 2010 y Microsoft Office 2010 Service Pack 1 (ediciones de 64 bits)](http://www.microsoft.com/downloads/details.aspx?familyid=f83800aa-6403-4341-afea-d363e54d5831)  
 (KB2553091)  
 (Importante)  
+
 [Microsoft Office 2010 y Microsoft Office 2010 Service Pack 1 (ediciones de 64 bits)](http://www.microsoft.com/downloads/details.aspx?familyid=92787e00-6f30-4020-9c1a-70270be5a623)  
 (KB2553096)  
 (Importante)
@@ -1053,12 +1059,15 @@ Microsoft Office SharePoint Server 2007 Service Pack 2 (ediciones de 32 bits)
 [Microsoft Office SharePoint Server 2007 Service Pack 2 (coreserver) (ediciones de 32 bits)](http://www.microsoft.com/downloads/details.aspx?familyid=ad52c341-13ce-4b53-87b4-269cb3f41275)  
 (KB2508964)<sup>[1]</sup>
 (Importante)  
+
 [Microsoft Office SharePoint Server 2007 Service Pack 2 (oserver) (ediciones de 32 bits)](http://www.microsoft.com/downloads/details.aspx?familyid=fd6189c9-ab3b-441f-a901-6ac7f3b202aa)  
 (KB2553001)<sup>[1]</sup>
 (Importante)  
+
 [Microsoft Office SharePoint Server 2007 Service Pack 2 (sserverx) (ediciones de 32 bits)](http://www.microsoft.com/downloads/details.aspx?familyid=d9601fae-4a80-45cd-a49b-ef441856d7e4)  
 (KB2553002)<sup>[1]</sup>
 (Importante)  
+
 [Microsoft Office SharePoint Server 2007 Service Pack 2 (dlc) (ediciones de 32 bits)](http://www.microsoft.com/downloads/details.aspx?familyid=55b60e2f-ec68-4ccb-803a-5d03add8a1f1)  
 (KB2553003)<sup>[1]</sup>
 (Importante)
@@ -1077,12 +1086,15 @@ Microsoft Office SharePoint Server 2007 Service Pack 2 (ediciones de 64 bits)
 [Microsoft Office SharePoint Server 2007 Service Pack 2 (coreserver) (ediciones de 64 bits)](http://www.microsoft.com/downloads/details.aspx?familyid=e5e60751-242a-4fdb-9852-6d94050d3d0e)  
 (KB2508964)<sup>[1]</sup>
 (Importante)  
+
 [Microsoft Office SharePoint Server 2007 Service Pack 2 (oserver) (ediciones de 64 bits)](http://www.microsoft.com/downloads/details.aspx?familyid=b1466366-e2ae-498e-b964-135e034e7348)  
 (KB2553001)<sup>[1]</sup>
 (Importante)  
+
 [Microsoft Office SharePoint Server 2007 Service Pack 2 (sserverx) (ediciones de 64 bits)](http://www.microsoft.com/downloads/details.aspx?familyid=bb788c8d-8383-4e53-ac05-2a7dd9b83e70)  
 (KB2553002)<sup>[1]</sup>
 (Importante)  
+
 [Microsoft Office SharePoint Server 2007 Service Pack 2 (dlc) (ediciones de 64 bits)](http://www.microsoft.com/downloads/details.aspx?familyid=e8e1a5bb-a552-45fe-8e81-e05fbfbb57ee)<sup>[1]</sup>
 (Importante)  
 (KB2553003)
@@ -1101,21 +1113,27 @@ Microsoft Office SharePoint Server 2010 y Microsoft Office SharePoint Server 201
 [Microsoft Office SharePoint Server 2010 y Microsoft Office SharePoint Server 2010 Service Pack 1 (osrchwfe)](http://www.microsoft.com/downloads/details.aspx?familyid=c17eb04d-cbbc-457e-a424-4ee26b7a9654)  
 (KB2494022)  
 (Importante)  
+
 [Microsoft Office SharePoint Server 2010 y Microsoft Office SharePoint Server 2010 Service Pack 1 (osrv)](http://www.microsoft.com/downloads/details.aspx?familyid=2a80a849-b712-47d4-9def-9395ee54a265)  
 (KB2560885)  
 (Importante)  
+
 [Microsoft Office SharePoint Server 2010 y Microsoft Office SharePoint Server 2010 Service Pack 1 (pplwfe)](http://www.microsoft.com/downloads/details.aspx?familyid=b84c2bcb-0327-4916-871e-7a5c19b8c41b)  
 (KB2560890)  
 (Importante)  
+
 [Microsoft Office SharePoint Server 2010 y Microsoft Office SharePoint Server 2010 Service Pack 1 (ppsmawfe)](http://www.microsoft.com/downloads/details.aspx?familyid=1597f295-02a9-4479-9d52-f18f0e83eaba)  
 (KB2566456)  
 (Importante)  
+
 [Microsoft Office SharePoint Server 2010 y Microsoft Office SharePoint Server 2010 Service Pack 1 (dlc)](http://www.microsoft.com/downloads/details.aspx?familyid=e6b666a4-a795-441c-9bda-23e2de2e7b05)  
 (KB2566954)  
 (Importante)  
+
 [Microsoft Office SharePoint Server 2010 y Microsoft Office SharePoint Server 2010 Service Pack 1 (ppsmamui)](http://www.microsoft.com/downloads/details.aspx?familyid=57592ce4-5d99-45c2-830f-380d67af8899)  
 (KB2566958)  
 (Importante)  
+
 [Microsoft Office SharePoint Server 2010 y Microsoft Office SharePoint Server 2010 Service Pack 1 (wosrv)](http://www.microsoft.com/downloads/details.aspx?familyid=dd64a635-1e55-4b4d-9718-9b94c31c5625)  
 (KB2566960)  
 (Importante)
@@ -1280,6 +1298,7 @@ Microsoft Office Web Apps 2010 y Microsoft Office Web Apps 2010 Service Pack 1
 [Microsoft Office Web Apps 2010 y Microsoft Office Web Apps 2010 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=288a7394-b8d5-4445-bd4c-65bbf4b10eaf)  
 (KB2566449)  
 (Importante)  
+
 [Microsoft Word Web App 2010 y Microsoft Word Web App 2010 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=152ff9f4-d720-41af-8f89-793133ece037)  
 (KB2566450)  
 (Importante)

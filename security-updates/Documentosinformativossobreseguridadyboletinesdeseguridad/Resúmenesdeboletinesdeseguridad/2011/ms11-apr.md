@@ -4,7 +4,7 @@ Title: Microsoft Security Bulletin Summary for abril 2011
 ms:assetid: 'ms11-apr'
 ms:contentKeyID: 61225420
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms11-apr(v=Security.10)'
---- Summary
+---
 
 Microsoft Security Bulletin Summary for abril 2011
 ==================================================
@@ -825,8 +825,10 @@ Windows XP Service Pack 3
 <td style="border:1px solid black;">
 [Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=c3a8cec0-f947-4d4e-a6ae-c7f4f1f311b0)  
 (Crítica)  
+
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=0b7d0403-8965-4c62-970c-20b561f66713)  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=689c5496-56c4-48a6-9f3d-b5f5aaf3e566)  
 (Crítica)
 </td>
@@ -846,6 +848,7 @@ Windows XP Service Pack 3
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ce925e76-cb85-48f6-8c0f-e53fa2b09be6)  
 (KB2446704)  
 (Crítica)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=91aa6772-4811-4a58-9bc0-8aa271ed99df)<sup>[1]</sup>
 (KB2446708)  
 (Crítica)
@@ -863,6 +866,7 @@ Windows XP Service Pack 3
 [JScript 5.7 y VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=637f4d4c-de07-4c6a-95f8-3bd0cbfe77b2)  
 (KB2510581)  
 (Crítica)  
+
 [JScript 5.8 y VBScript 5.8](http://www.microsoft.com/downloads/details.aspx?familyid=fbe1e7e3-1d5f-4daf-a4a5-67fe79292963)  
 (KB2510531)  
 (Crítica)
@@ -875,6 +879,7 @@ Windows XP Service Pack 3
 [Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=50fc3869-f2fc-43c8-8049-aad62f2cb332)   
 (KB2491683)  
 (Importante)  
+
 [Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=a8220a21-02fc-4ad6-988d-844276b2fd66)   
 (KB2506212)  
 (Importante)
@@ -899,8 +904,10 @@ Windows XP Professional x64 Edition Service Pack 2
 <td style="border:1px solid black;">
 [Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=986f07ae-0fdc-4be2-8a74-5eb56d4300ef)  
 (Crítica)  
+
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=ed88f183-dd06-46f6-ae8a-a594a752f248)  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=6d3433ee-c2e1-433f-a3d9-c049d66e2190)  
 (Crítica)
 </td>
@@ -920,6 +927,7 @@ Windows XP Professional x64 Edition Service Pack 2
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ce925e76-cb85-48f6-8c0f-e53fa2b09be6)  
 (KB2446704)  
 (Crítica)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=91aa6772-4811-4a58-9bc0-8aa271ed99df)<sup>[1]</sup>
 (KB2446708)  
 (Crítica)
@@ -937,9 +945,11 @@ Windows XP Professional x64 Edition Service Pack 2
 [JScript 5.6 y VBScript 5.6](http://www.microsoft.com/downloads/details.aspx?familyid=a5586246-2908-4def-9298-c16060098197)  
 (KB2510587)  
 (Crítica)  
+
 [JScript 5.7 y VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=3a5f65e0-bb00-4e55-b8b5-77751349a3ec)  
 (KB2510581)  
 (Crítica)  
+
 [JScript 5.8 y VBScript 5.8](http://www.microsoft.com/downloads/details.aspx?familyid=57aa7ee2-254d-40b5-9ff0-cba969daf45a)  
 (KB2510531)  
 (Crítica)
@@ -952,6 +962,7 @@ Windows XP Professional x64 Edition Service Pack 2
 [Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=b93311b4-1b8f-478d-8833-750c5e01e6f8)   
 (KB2491683)  
 (Importante)  
+
 [Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=0f60fc99-cd88-4237-8b31-a4e618502f7e)   
 (KB2506212)  
 (Importante)
@@ -1069,8 +1080,10 @@ Windows Server 2003 Service Pack 2
 <td style="border:1px solid black;">
 [Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=b902c58a-9e2f-4352-8d2f-fffda5344598)  
 (Moderada)  
+
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=5c464287-3dab-4342-a38d-a12719d3b158)  
 (Moderada)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=45feb35b-b24e-4160-adb0-d0b7ae530e90)  
 (Moderada)
 </td>
@@ -1090,6 +1103,7 @@ Windows Server 2003 Service Pack 2
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ce925e76-cb85-48f6-8c0f-e53fa2b09be6)  
 (KB2446704)  
 (Crítica)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=91aa6772-4811-4a58-9bc0-8aa271ed99df)<sup>[1]</sup>
 (KB2446708)  
 (Crítica)
@@ -1107,9 +1121,11 @@ Windows Server 2003 Service Pack 2
 [JScript 5.6 y VBScript 5.6](http://www.microsoft.com/downloads/details.aspx?familyid=e026f2ed-8a20-4268-9b29-04a78bde1999)  
 (KB2510587)  
 (Crítica)  
+
 [JScript 5.7 y VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=5b0ed0b2-07f9-43da-bb5d-5be5a45969ee)  
 (KB2510581)  
 (Crítica)  
+
 [JScript 5.8 y VBScript 5.8](http://www.microsoft.com/downloads/details.aspx?familyid=01aa2beb-9fc1-40f0-a2a4-bcd3d9cb31f8)  
 (KB2510531)  
 (Crítica)
@@ -1122,6 +1138,7 @@ Windows Server 2003 Service Pack 2
 [Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=edda8cce-b764-4ef1-afbe-391fbd087362)   
 (KB2491683)  
 (Importante)  
+
 [Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=bf084b4c-aac9-4cc6-bb30-87fc96ba9430)   
 (KB2506212)  
 (Importante)
@@ -1146,8 +1163,10 @@ Windows Server 2003 x64 Edition Service Pack 2
 <td style="border:1px solid black;">
 [Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=5d8f14d1-85cc-478f-8b50-5c355a331f59)  
 (Moderada)  
+
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=9d8bbea9-c456-4569-ad96-c2cd0f5fae7e)  
 (Moderada)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=979d2ec5-5114-4ec7-aa97-e9289c590cbb)  
 (Moderada)
 </td>
@@ -1167,6 +1186,7 @@ Windows Server 2003 x64 Edition Service Pack 2
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ce925e76-cb85-48f6-8c0f-e53fa2b09be6)  
 (KB2446704)  
 (Crítica)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=91aa6772-4811-4a58-9bc0-8aa271ed99df)<sup>[1]</sup>
 (KB2446708)  
 (Crítica)
@@ -1184,9 +1204,11 @@ Windows Server 2003 x64 Edition Service Pack 2
 [JScript 5.6 y VBScript 5.6](http://www.microsoft.com/downloads/details.aspx?familyid=83ce6c99-a57d-4ed1-972b-a6b6798e6675)  
 (KB2510587)  
 (Crítica)  
+
 [JScript 5.7 y VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=af791715-77a1-405b-a69e-d63f75dd7ccd)  
 (KB2510581)  
 (Crítica)  
+
 [JScript 5.8 y VBScript 5.8](http://www.microsoft.com/downloads/details.aspx?familyid=bf0a2966-25c4-4717-bcd6-016ce610d220)  
 (KB2510531)  
 (Crítica)
@@ -1199,6 +1221,7 @@ Windows Server 2003 x64 Edition Service Pack 2
 [Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=f04d939a-da11-4a9f-9e03-b6c3bf3ca58b)   
 (KB2491683)  
 (Importante)  
+
 [Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=12b01f3a-ccf8-41c1-ac5a-e417a6ddbe95)   
 (KB2506212)  
 (Importante)
@@ -1223,6 +1246,7 @@ Windows Server 2003 con SP2 para sistemas con Itanium
 <td style="border:1px solid black;">
 [Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=8afe86fc-58b4-4a95-b047-c09138fa4f5e)  
 (Moderada)  
+
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=f1abfb48-3c8a-4b2d-b739-cc61628b387d)  
 (Moderada)
 </td>
@@ -1242,6 +1266,7 @@ Windows Server 2003 con SP2 para sistemas con Itanium
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ce925e76-cb85-48f6-8c0f-e53fa2b09be6)  
 (KB2446704)  
 (Crítica)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=91aa6772-4811-4a58-9bc0-8aa271ed99df)<sup>[1]</sup>
 (KB2446708)  
 (Crítica)
@@ -1259,6 +1284,7 @@ Windows Server 2003 con SP2 para sistemas con Itanium
 [JScript 5.6 y VBScript 5.6](http://www.microsoft.com/downloads/details.aspx?familyid=b7d36bae-7ca4-4a40-9efb-13f484fa5518)  
 (KB2510587)  
 (Crítica)  
+
 [JScript 5.7 y VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=3f519013-ed14-41a8-aa45-cf8b095d3152)  
 (KB2510581)  
 (Crítica)
@@ -1271,6 +1297,7 @@ Windows Server 2003 con SP2 para sistemas con Itanium
 [Windows Server 2003 con SP2 para sistemas con Itanium](http://www.microsoft.com/downloads/details.aspx?familyid=efb575c7-3259-49b1-b59c-89d9544e37a6)   
 (KB2491683)  
 (Importante)  
+
 [Windows Server 2003 con SP2 para sistemas con Itanium](http://www.microsoft.com/downloads/details.aspx?familyid=03a7ee49-7bd6-4215-9779-1b48c10d08b9)   
 (KB2506212)  
 (Importante)
@@ -1388,6 +1415,7 @@ Windows Vista Service Pack 1 y Windows Vista Service Pack 2
 <td style="border:1px solid black;">
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=00c3c176-feff-4022-ac4c-2d4732ca3d78)  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=5ea94705-4f76-4b0d-bbbc-afb5e75204bf)  
 (Crítica)
 </td>
@@ -1408,10 +1436,12 @@ Windows Vista Service Pack 1 solamente:
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=94b6a1b3-e048-437b-a224-2a64b3735bc3)  
 (KB2449741)  
 (Crítica)  
+
 Windows Vista Service Pack 2 únicamente:  
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=1407aaec-b3e0-404c-b84f-0c8e808614c4)  
 (KB2449742)  
 (Crítica)  
+
 Windows Vista Service Pack 1 y Windows Vista Service Pack 2:  
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=91aa6772-4811-4a58-9bc0-8aa271ed99df)<sup>[1]</sup>
 (KB2446708)  
@@ -1430,6 +1460,7 @@ Windows Vista Service Pack 1 y Windows Vista Service Pack 2:
 [JScript 5.7 y VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=719e2c86-30e5-4cd5-94f4-d6de54efee5f)  
 (KB2510581)  
 (Crítica)  
+
 [JScript 5.8 y VBScript 5.8](http://www.microsoft.com/downloads/details.aspx?familyid=21decb84-75ef-4bde-a802-1e661a505e94)<sup>[1]</sup>
 (KB2510531)  
 (Crítica)
@@ -1442,6 +1473,7 @@ Windows Vista Service Pack 1 y Windows Vista Service Pack 2:
 [Windows Vista Service Pack 1 y Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=11a8f240-51b3-4e31-a24a-a235179f3396)   
 (KB2491683)  
 (Importante)  
+
 [Windows Vista Service Pack 1 y Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=e6cba040-9d7c-4777-a2f7-e4dd11dfb845)   
 (KB2506212)  
 (Importante)
@@ -1465,6 +1497,7 @@ Windows Vista x64 Edition Service Pack 1 y Windows Vista x64 Edition Service Pac
 <td style="border:1px solid black;">
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=79f52733-44e4-47b6-86ca-1395a095b4e7)  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=bc63b233-9db0-4fb1-a61c-fa7e9e44ba10)  
 (Crítica)
 </td>
@@ -1485,10 +1518,12 @@ Windows Vista x64 Edition Service Pack 1 solamente:
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=94b6a1b3-e048-437b-a224-2a64b3735bc3)  
 (KB2449741)  
 (Crítica)  
+
 Windows Vista x64 Edition Service Pack 2 únicamente:  
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=1407aaec-b3e0-404c-b84f-0c8e808614c4)  
 (KB2449742)  
 (Crítica)  
+
 Windows Vista x64 Edition Service Pack 1 y Windows Vista x64 Edition Service Pack 2:  
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=91aa6772-4811-4a58-9bc0-8aa271ed99df)<sup>[1]</sup>
 (KB2446708)  
@@ -1507,6 +1542,7 @@ Windows Vista x64 Edition Service Pack 1 y Windows Vista x64 Edition Service Pac
 [JScript 5.7 y VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=89b9d01e-bcbc-4f2c-973b-51051494f406)  
 (KB2510581)  
 (Crítica)  
+
 [JScript 5.8 y VBScript 5.8](http://www.microsoft.com/downloads/details.aspx?familyid=d4ac199e-7bf8-4661-a4e5-c53719b2673a)<sup>[1]</sup>
 (KB2510531)  
 (Crítica)
@@ -1519,6 +1555,7 @@ Windows Vista x64 Edition Service Pack 1 y Windows Vista x64 Edition Service Pac
 [Windows Vista x64 Edition Service Pack 1 y Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=61db662e-88d7-4454-b4b7-e987728fb137)   
 (KB2491683)  
 (Importante)  
+
 [Windows Vista x64 Edition Service Pack 1 y Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=1c942282-0f80-46c1-aeef-1ef948e105a3)   
 (KB2506212)  
 (Importante)
@@ -1635,6 +1672,7 @@ Windows Server 2008 para sistemas de 32 bits y Windows Server 2008 para sistemas
 <td style="border:1px solid black;">
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=7d8603b8-bb52-4cf6-be8b-bb3475d30fc5)\*\*  
 (Moderada)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=d5d76e90-1cef-47e8-9d8d-2c5a43f42ba3)\*\*  
 (Moderada)
 </td>
@@ -1655,10 +1693,12 @@ Windows Server 2008 para sistemas de 32 bits únicamente:
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=94b6a1b3-e048-437b-a224-2a64b3735bc3)\*\*  
 (KB2449741)  
 (Crítica)  
+
 Windows Server 2008 para sistemas de 32 bits Service Pack 2 únicamente:  
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=1407aaec-b3e0-404c-b84f-0c8e808614c4)\*\*  
 (KB2449742)  
 (Crítica)  
+
 Windows Server 2008 para sistemas de 32 bits y Windows Server 2008 para sistemas de 32 bits Service Pack 2:  
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=91aa6772-4811-4a58-9bc0-8aa271ed99df)\*\*<sup>[1]</sup>
 (KB2446708)  
@@ -1677,6 +1717,7 @@ Windows Server 2008 para sistemas de 32 bits y Windows Server 2008 para sistemas
 [JScript 5.7 y VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=d8b33ffd-eff1-4a10-b6fc-3c8f01e0fec5)\*\*  
 (KB2510581)  
 (Crítica)  
+
 [JScript 5.8 y VBScript 5.8](http://www.microsoft.com/downloads/details.aspx?familyid=afd128ff-717f-4d98-b214-f2c28d59623d)\*\*<sup>[1]</sup>
 (KB2510531)  
 (Crítica)
@@ -1689,6 +1730,7 @@ Windows Server 2008 para sistemas de 32 bits y Windows Server 2008 para sistemas
 [Windows Server 2008 para sistemas de 32 bits y Windows Server 2008 para sistemas de 32 bits Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=90f56368-776b-4d45-ad68-91afbd316d25)\*\*   
 (KB2491683)  
 (Importante)  
+
 [Windows Server 2008 para sistemas de 32 bits y Windows Server 2008 para sistemas de 32 bits Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=fa972742-1166-4a9e-ab64-6a4f968f9c6d)\*   
 (KB2506212)  
 (Importante)
@@ -1712,6 +1754,7 @@ Windows Server 2008 para sistemas x64 y Windows Server 2008 para sistemas x64 Se
 <td style="border:1px solid black;">
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=c6d58f64-bdd5-4fe6-96f4-9641b8e7b570)\*\*  
 (Moderada)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=51203a31-368b-4b47-96a5-9e9e5a55cd76)\*\*  
 (Moderada)
 </td>
@@ -1732,10 +1775,12 @@ Windows Server 2008 para sistemas x64 únicamente:
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=94b6a1b3-e048-437b-a224-2a64b3735bc3)\*\*  
 (KB2449741)  
 (Crítica)  
+
 Windows Server 2008 para sistemas x64 Service Pack 2 únicamente:  
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=1407aaec-b3e0-404c-b84f-0c8e808614c4)\*\*  
 (KB2449742)  
 (Crítica)  
+
 Windows Server 2008 para sistemas x64 y Windows Server 2008 para sistemas x64 Service Pack 2:  
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=91aa6772-4811-4a58-9bc0-8aa271ed99df)\*\*<sup>[1]</sup>
 (KB2446708)  
@@ -1754,6 +1799,7 @@ Windows Server 2008 para sistemas x64 y Windows Server 2008 para sistemas x64 Se
 [JScript 5.7 y VBScript 5.7](http://www.microsoft.com/downloads/details.aspx?familyid=6c2e6b87-afcd-461a-8a43-9a2fb277b18a)\*\*  
 (KB2510581)  
 (Crítica)  
+
 [JScript 5.8 y VBScript 5.8](http://www.microsoft.com/downloads/details.aspx?familyid=40e8beca-0b5a-43b0-98f8-b32a82ad65d6)\*\*<sup>[1]</sup>
 (KB2510531)  
 (Crítica)
@@ -1766,6 +1812,7 @@ Windows Server 2008 para sistemas x64 y Windows Server 2008 para sistemas x64 Se
 [Windows Server 2008 para sistemas x64 y Windows Server 2008 para sistemas x64 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=22a001fc-5c2e-4539-85c9-0c2054a1777d)\*\*   
 (KB2491683)  
 (Importante)  
+
 [Windows Server 2008 para sistemas x64 y Windows Server 2008 para sistemas x64 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=fc250c8a-ebaf-4264-9393-dc23cc372d9f)\*   
 (KB2506212)  
 (Importante)
@@ -1807,10 +1854,12 @@ Windows Server 2008 para sistemas con Itanium únicamente:
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=94b6a1b3-e048-437b-a224-2a64b3735bc3)  
 (KB2449741)  
 (Crítica)  
+
 Windows Server 2008 para sistemas con Itanium Service Pack 2 únicamente:  
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=1407aaec-b3e0-404c-b84f-0c8e808614c4)  
 (KB2449742)  
 (Crítica)  
+
 Windows Server 2008 para sistemas con Itanium y Windows Server 2008 para sistemas con Itanium Service Pack 2:  
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=91aa6772-4811-4a58-9bc0-8aa271ed99df)<sup>[1]</sup>
 (KB2446708)  
@@ -1969,10 +2018,12 @@ Windows 7 para sistemas de 32 bits únicamente:
 [Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=157aa425-953c-4fc9-ab76-4e65d4be8baa)  
 (KB2446709)  
 (Crítica)  
+
 Windows 7 para sistemas de 32 bits Service Pack 1 únicamente:  
 [Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=8f87b8aa-1a2a-405e-aee0-9247d553756a)  
 (KB2446710)  
 (Crítica)  
+
 Windows 7 para sistemas de 32 bits y Windows 7 para sistemas de 32 bits Service Pack 1:  
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=91aa6772-4811-4a58-9bc0-8aa271ed99df)<sup>[1]</sup>
 (KB2446708)  
@@ -1998,6 +2049,7 @@ No aplicable
 [Windows 7 para sistemas de 32 bits y Windows 7 para sistemas de 32 bits Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=bf762b86-b949-4e84-8ca4-93ebe669c1b8)   
 (KB2491683)  
 (Importante)  
+
 [Windows 7 para sistemas de 32 bits y Windows 7 para sistemas de 32 bits Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=0f5a122e-dd5e-4b08-881a-f13b38642720)   
 (KB2506212)  
 (Importante)
@@ -2039,10 +2091,12 @@ Windows 7 para sistemas x64 únicamente:
 [Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=157aa425-953c-4fc9-ab76-4e65d4be8baa)  
 (KB2446709)  
 (Crítica)  
+
 Windows 7 para sistemas x64 Service Pack 1 únicamente:  
 [Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=8f87b8aa-1a2a-405e-aee0-9247d553756a)  
 (KB2446710)  
 (Crítica)  
+
 Windows 7 para sistemas x64 y Windows 7 para sistemas x64 Service Pack 1:  
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=91aa6772-4811-4a58-9bc0-8aa271ed99df)<sup>[1]</sup>
 (KB2446708)  
@@ -2068,6 +2122,7 @@ No aplicable
 [Windows 7 para sistemas x64 y Windows 7 para sistemas x64 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=a6793ecf-a3f6-4989-8e4c-c5c0005f9ac4)   
 (KB2491683)  
 (Importante)  
+
 [Windows 7 para sistemas x64 y Windows 7 para sistemas x64 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=658301f1-103a-48a2-9b67-61cf8e1dad50)   
 (KB2506212)  
 (Importante)
@@ -2202,14 +2257,17 @@ Windows Server 2008 R2 para sistemas x64 únicamente:
 [Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=157aa425-953c-4fc9-ab76-4e65d4be8baa)\*  
 (KB2446709)  
 (Crítica)  
+
 Windows Server 2008 R2 para sistemas x64 únicamente:  
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=91aa6772-4811-4a58-9bc0-8aa271ed99df)<sup>[1]</sup>
 (KB2446708)  
 (Crítica)  
+
 Windows Server 2008 R2 para sistemas x64 Service Pack 1 únicamente:  
 [Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=8f87b8aa-1a2a-405e-aee0-9247d553756a)\*  
 (KB2446710)  
 (Crítica)  
+
 Windows Server 2008 R2 para sistemas x64 Service Pack 1 únicamente:  
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=91aa6772-4811-4a58-9bc0-8aa271ed99df)\*<sup>[1]</sup>
 (KB2446708)  
@@ -2235,6 +2293,7 @@ No aplicable
 [Windows Server 2008 R2 para sistemas x64 y Windows Server 2008 R2 para sistemas x64 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=465c0478-6a74-4b00-8608-938cc492549f)\*\*   
 (KB2491683)  
 (Importante)  
+
 [Windows Server 2008 R2 para sistemas x64 y Windows Server 2008 R2 para sistemas x64 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=4c5c3a0f-0672-49d0-bcbd-c7f40e11d092)\*   
 (KB2506212)  
 (Importante)
@@ -2276,10 +2335,12 @@ Windows Server 2008 R2 para sistemas con Itanium únicamente:
 [Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=157aa425-953c-4fc9-ab76-4e65d4be8baa)  
 (KB2446709)  
 (Crítica)  
+
 Windows Server 2008 R2 para sistemas con Itanium Service Pack 1 únicamente:  
 [Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=8f87b8aa-1a2a-405e-aee0-9247d553756a)  
 (KB2446710)  
 (Crítica)  
+
 Windows Server 2008 R2 para sistemas con Itanium y Windows Server 2008 R2 para sistemas con Itanium Service Pack 1:  
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=91aa6772-4811-4a58-9bc0-8aa271ed99df)<sup>[1]</sup>
 (KB2446708)  
@@ -2895,6 +2956,7 @@ Microsoft Visual Studio 2010 y Microsoft Visual Studio 2010 Service Pack 1
 [Microsoft Visual Studio 2010](http://www.microsoft.com/downloads/details.aspx?familyid=7fd643a8-8e05-4d27-8853-33f79f01cb26)  
 (KB2542054)  
 (Importante)  
+
 [Microsoft Visual Studio 2010 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=1a21c9db-dfa3-4a07-a1e0-89a8069b7c17)  
 (KB2565057)  
 (Importante)
@@ -2928,6 +2990,7 @@ Microsoft Visual C++ 2010 y Microsoft Visual C++ 2010 Service Pack 1
 [Microsoft Visual C++ 2010 Redistributable Package](http://www.microsoft.com/downloads/details.aspx?familyid=fe558aed-9274-415f-8a0f-d9d8622fb35b)  
 (KB2467173)  
 (Importante)  
+
 [Microsoft Visual C++ 2010 Redistributable Package Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=7557d29b-731b-4abb-8815-2b87a4132efb)  
 (KB2565063)  
 (Importante)

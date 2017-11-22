@@ -4,7 +4,7 @@ Title: Resumen del boletín de seguridad de Microsoft de enero 2011
 ms:assetid: 'ms11-jan'
 ms:contentKeyID: 61225424
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms11-jan(v=Security.10)'
---- Summary
+---
 
 Resumen del boletín de seguridad de Microsoft de enero 2011
 ===========================================================
@@ -547,8 +547,8 @@ Aprenda a mejorar la seguridad y a optimizar la infraestructura informática y c
 
 Microsoft [muestra su agradecimiento](http://go.microsoft.com/fwlink/?linkid=21127) a todas las personas que han trabajado con nosotros para proteger a los clientes:
 
--   Abdul Aziz Hariri, en colaboración con [Zero Day Initiative](http://www.zerodayinitiative.com/) de **[TippingPoint](http://www.tippingpoint.com/) , por informar de un problema descrito en MS11-002
--   Peter Vreugdenhil, en colaboración con [Zero Day Initiative](http://www.zerodayinitiative.com/) de **[TippingPoint](http://www.tippingpoint.com/) , por informar de un problema descrito en MS11-002
+-   Abdul Aziz Hariri, en colaboración con [Zero Day Initiative](http://www.zerodayinitiative.com/) de [TippingPoint](http://www.tippingpoint.com/) , por informar de un problema descrito en MS11-002
+-   Peter Vreugdenhil, en colaboración con [Zero Day Initiative](http://www.zerodayinitiative.com/) de [TippingPoint](http://www.tippingpoint.com/) , por informar de un problema descrito en MS11-002
 
 #### Soporte técnico
 

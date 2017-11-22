@@ -4,7 +4,7 @@ Title: Microsoft Security Bulletin Summary for septiembre 2010
 ms:assetid: 'ms10-sep'
 ms:contentKeyID: 61225419
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms10-sep(v=Security.10)'
---- Summary
+---
 
 Microsoft Security Bulletin Summary for septiembre 2010
 =======================================================
@@ -309,6 +309,7 @@ ASP IIS:
 [Internet Information Services 5.1](http://www.microsoft.com/downloads/details.aspx?familyid=555864c3-9114-4988-8526-7bf545a27706)  
 (KB2124261)  
 (Importante)  
+
 Autenticación de IIS:  
 [Internet Information Services 5.1](http://www.microsoft.com/downloads/details.aspx?familyid=ae55787e-4a5c-48d5-aedf-0abada514938)  
 (KB2290570)  
@@ -335,18 +336,23 @@ Autenticación de IIS:
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=a7990e61-21fd-4942-9dfe-af7961cb0282)  
 (KB2416447)  
 (Importante)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=3d31fd37-eb58-4169-b6b9-4cf854524e46)  
 (KB2418241)  
 (Importante)  
+
 [Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=d284237b-e4d9-460a-98f0-7a18252f5780)  
 (KB2416468)  
 (Importante)  
+
 [Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=00d95a85-f3e8-464d-a10c-85c6d91b4aae)  
 (KB2418240)  
 (Importante)  
+
 [Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ae42d6cc-6d4e-425a-9b4f-379f66fc506a)  
 (KB2416473)  
 (Importante)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)<sup>[1]</sup>
 (KB2416472)  
 (Importante)
@@ -396,18 +402,23 @@ ASP IIS:
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=a7990e61-21fd-4942-9dfe-af7961cb0282)  
 (KB2416447)  
 (Importante)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=3d31fd37-eb58-4169-b6b9-4cf854524e46)  
 (KB2418241)  
 (Importante)  
+
 [Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=d284237b-e4d9-460a-98f0-7a18252f5780)  
 (KB2416468)  
 (Importante)  
+
 [Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=00d95a85-f3e8-464d-a10c-85c6d91b4aae)  
 (KB2418240)  
 (Importante)  
+
 [Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ae42d6cc-6d4e-425a-9b4f-379f66fc506a)  
 (KB2416473)  
 (Importante)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)<sup>[1]</sup>
 (KB2416472)  
 (Importante)
@@ -517,6 +528,7 @@ ASP IIS:
 [Active Directory](http://www.microsoft.com/downloads/details.aspx?familyid=3fe6e78c-c60a-4903-9273-27b37e129f0a)  
 (KB981550)  
 (Importante)  
+
 [Active Directory Application Mode (ADAM)](http://www.microsoft.com/downloads/details.aspx?familyid=c42731f1-6393-42ed-b59f-5310c832fdc4)  
 (KB982000)  
 (Importante)
@@ -529,18 +541,23 @@ ASP IIS:
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=71f0daad-e2df-421c-9818-58e1e40cdb65)  
 (KB2416451)  
 (Importante)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=3d31fd37-eb58-4169-b6b9-4cf854524e46)  
 (KB2418241)  
 (Importante)  
+
 [Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=d284237b-e4d9-460a-98f0-7a18252f5780)  
 (KB2416468)  
 (Importante)  
+
 [Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=00d95a85-f3e8-464d-a10c-85c6d91b4aae)  
 (KB2418240)  
 (Importante)  
+
 [Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ae42d6cc-6d4e-425a-9b4f-379f66fc506a)  
 (KB2416473)  
 (Importante)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)<sup>[1]</sup>
 (KB2416472)  
 (Importante)
@@ -581,6 +598,7 @@ ASP IIS:
 [Active Directory](http://www.microsoft.com/downloads/details.aspx?familyid=22412eed-33cd-4dfc-8ef7-b74dcd7c5faf)  
 (KB981550)  
 (Importante)  
+
 [Active Directory Application Mode (ADAM)](http://www.microsoft.com/downloads/details.aspx?familyid=79fb639d-2cc1-4bea-9df6-c67ed95890e3)  
 (KB982000)  
 (Importante)
@@ -593,18 +611,23 @@ ASP IIS:
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=a7990e61-21fd-4942-9dfe-af7961cb0282)  
 (KB2416447)  
 (Importante)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=3d31fd37-eb58-4169-b6b9-4cf854524e46)  
 (KB2418241)  
 (Importante)  
+
 [Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=d284237b-e4d9-460a-98f0-7a18252f5780)  
 (KB2416468)  
 (Importante)  
+
 [Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=00d95a85-f3e8-464d-a10c-85c6d91b4aae)  
 (KB2418240)  
 (Importante)  
+
 [Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ae42d6cc-6d4e-425a-9b4f-379f66fc506a)  
 (KB2416473)  
 (Importante)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)<sup>[1]</sup>
 (KB2416472)  
 (Importante)
@@ -653,18 +676,23 @@ ASP IIS:
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=a7990e61-21fd-4942-9dfe-af7961cb0282)  
 (KB2416447)  
 (Importante)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=3d31fd37-eb58-4169-b6b9-4cf854524e46)  
 (KB2418241)  
 (Importante)  
+
 [Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=d284237b-e4d9-460a-98f0-7a18252f5780)  
 (KB2416468)  
 (Importante)  
+
 [Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=00d95a85-f3e8-464d-a10c-85c6d91b4aae)  
 (KB2418240)  
 (Importante)  
+
 [Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ae42d6cc-6d4e-425a-9b4f-379f66fc506a)  
 (KB2416473)  
 (Importante)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)<sup>[1]</sup>
 (KB2416472)  
 (Importante)
@@ -781,23 +809,29 @@ No aplicable
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=a7990e61-21fd-4942-9dfe-af7961cb0282)  
 (KB2416447)  
 (Importante)  
+
 [Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=00d95a85-f3e8-464d-a10c-85c6d91b4aae)  
 (KB2418240)  
 (Importante)  
+
 [Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ae42d6cc-6d4e-425a-9b4f-379f66fc506a)  
 (KB2416473)  
 (Importante)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)<sup>[1]</sup>
 (KB2416472)  
 (Importante)  
+
 Windows Vista Service Pack 1 solamente:  
 [Microsoft .NET Framework 2.0 Service Pack 1 y Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=7ad59265-9dca-4731-ac09-46c162c1832a)  
 (KB2416469)  
 (Importante)  
+
 Windows Vista Service Pack 1 solamente:  
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ac1c77df-34d5-48d4-9a9d-33dc017ffe93)  
 (KB2416474)  
 (Importante)  
+
 Windows Vista Service Pack 2 únicamente:  
 [Microsoft .NET Framework 2.0 Service Pack 2, Microsoft .NET Framework 3.5 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=45aa5666-3454-443c-a224-2076215fef04)  
 (KB2416470)  
@@ -846,23 +880,29 @@ No aplicable
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=a7990e61-21fd-4942-9dfe-af7961cb0282)  
 (KB2416447)  
 (Importante)  
+
 [Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=00d95a85-f3e8-464d-a10c-85c6d91b4aae)  
 (KB2418240)  
 (Importante)  
+
 [Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ae42d6cc-6d4e-425a-9b4f-379f66fc506a)  
 (KB2416473)  
 (Importante)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)<sup>[1]</sup>
 (KB2416472)  
 (Importante)  
+
 Windows Vista x64 Edition Service Pack 1 solamente:  
 [Microsoft .NET Framework 2.0 Service Pack 1 y Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=7ad59265-9dca-4731-ac09-46c162c1832a)  
 (KB2416469)  
 (Importante)  
+
 Windows Vista x64 Edition Service Pack 1 solamente:  
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ac1c77df-34d5-48d4-9a9d-33dc017ffe93)  
 (KB2416474)  
 (Importante)  
+
 Windows Vista x64 Edition Service Pack 2 únicamente:  
 [Microsoft .NET Framework 2.0 Service Pack 2, Microsoft .NET Framework 3.5 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=45aa5666-3454-443c-a224-2076215fef04)  
 (KB2416470)  
@@ -979,23 +1019,29 @@ No aplicable
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=a7990e61-21fd-4942-9dfe-af7961cb0282)\*\*  
 (KB2416447)  
 (Importante)  
+
 [Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=00d95a85-f3e8-464d-a10c-85c6d91b4aae)\*\*  
 (KB2418240)  
 (Importante)  
+
 [Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ae42d6cc-6d4e-425a-9b4f-379f66fc506a)\*\*  
 (KB2416473)  
 (Importante)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)\*\*<sup>[1]</sup>
 (KB2416472)  
 (Importante)  
+
 Windows Server 2008 para sistemas de 32 bits únicamente:  
 [Microsoft .NET Framework 2.0 Service Pack 1 y Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=7ad59265-9dca-4731-ac09-46c162c1832a)\*\*  
 (KB2416469)  
 (Importante)  
+
 Windows Server 2008 para sistemas de 32 bits únicamente:  
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ac1c77df-34d5-48d4-9a9d-33dc017ffe93)\*\*  
 (KB2416474)  
 (Importante)  
+
 Windows Server 2008 para sistemas de 32 bits Service Pack 2 únicamente:  
 [Microsoft .NET Framework 2.0 Service Pack 2, Microsoft .NET Framework 3.5 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=45aa5666-3454-443c-a224-2076215fef04)\*\*  
 (KB2416470)  
@@ -1043,27 +1089,34 @@ No aplicable
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=a7990e61-21fd-4942-9dfe-af7961cb0282)\*\*  
 (KB2416447)  
 (Importante)  
+
 [Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=00d95a85-f3e8-464d-a10c-85c6d91b4aae)\*\*  
 (KB2418240)  
 (Importante)  
+
 [Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ae42d6cc-6d4e-425a-9b4f-379f66fc506a)\*\*  
 (KB2416473)  
 (Importante)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)\*\*<sup>[1]</sup>
 (KB2416472)  
 (Importante)  
+
 Windows Server 2008 para sistemas x64 únicamente:  
 [Microsoft .NET Framework 2.0 Service Pack 1 y Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=7ad59265-9dca-4731-ac09-46c162c1832a)\*\*  
 (KB2416469)  
 (Importante)  
+
 Windows Server 2008 para sistemas x64 únicamente:  
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ac1c77df-34d5-48d4-9a9d-33dc017ffe93)\*\*  
 (KB2416474)  
 (Importante)  
+
 Windows Server 2008 para sistemas x64 Service Pack 2 únicamente:  
 [Microsoft .NET Framework 2.0 Service Pack 2, Microsoft .NET Framework 3.5 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=45aa5666-3454-443c-a224-2076215fef04)\*\*  
 (KB2416470)  
 (Importante)  
+
 Windows Server 2008 para sistemas x64 Service Pack 2 únicamente:  
 [Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=00d95a85-f3e8-464d-a10c-85c6d91b4aae)\*\*  
 (KB2418240)  
@@ -1108,20 +1161,25 @@ No aplicable
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=a7990e61-21fd-4942-9dfe-af7961cb0282)  
 (KB2416447)  
 (Importante)  
+
 [Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ae42d6cc-6d4e-425a-9b4f-379f66fc506a)  
 (KB2416473)  
 (Importante)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)<sup>[1]</sup>
 (KB2416472)  
 (Importante)  
+
 Windows Server 2008 para sistemas con Itanium únicamente:  
 [Microsoft .NET Framework 2.0 Service Pack 1 y Microsoft .NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?familyid=7ad59265-9dca-4731-ac09-46c162c1832a)  
 (KB2416469)  
 (Importante)  
+
 Windows Server 2008 para sistemas con Itanium únicamente:  
 [Microsoft .NET Framework 2.0 Service Pack 2 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ac1c77df-34d5-48d4-9a9d-33dc017ffe93)  
 (KB2416474)  
 (Importante)  
+
 Windows Server 2008 para sistemas con Itanium Service Pack 2 únicamente:  
 [Microsoft .NET Framework 2.0 Service Pack 2, Microsoft .NET Framework 3.5 y Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=45aa5666-3454-443c-a224-2076215fef04)  
 (KB2416470)  
@@ -1216,6 +1274,7 @@ ASP IIS:
 [Internet Information Services 7.5](http://www.microsoft.com/downloads/details.aspx?familyid=5b2d42da-4dbc-4fbb-be22-09ca7dec5aa3)  
 (KB2124261)  
 (Importante)  
+
 FastCGI IIS:  
 [Internet Information Services 7.5](http://www.microsoft.com/downloads/details.aspx?familyid=c843afd9-b6f2-48de-91cc-1c0d481c2be4)  
 (KB2271195)  
@@ -1239,6 +1298,7 @@ No aplicable
 [Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=5e7dcf51-74f1-43cc-aece-0cd5df05ddb7)  
 (KB2416471)  
 (Importante)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)<sup>[1]</sup>
 (KB2416472)  
 (Importante)
@@ -1297,6 +1357,7 @@ ASP IIS:
 [Internet Information Services 7.5](http://www.microsoft.com/downloads/details.aspx?familyid=66b64374-95e4-4b99-80e6-98dc63cd272b)  
 (KB2124261)  
 (Importante)  
+
 FastCGI IIS:  
 [Internet Information Services 7.5](http://www.microsoft.com/downloads/details.aspx?familyid=5f0c0454-cbb6-47ed-9227-98aa45b8cbdb)  
 (KB2271195)  
@@ -1320,6 +1381,7 @@ No aplicable
 [Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=5e7dcf51-74f1-43cc-aece-0cd5df05ddb7)  
 (KB2416471)  
 (Importante)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)<sup>[1]</sup>
 (KB2416472) (Importante)
 </td>
@@ -1445,6 +1507,7 @@ ASP IIS:
 [Internet Information Services 7.5](http://www.microsoft.com/downloads/details.aspx?familyid=21458cce-f67e-4e95-a067-8311afefc261)\*  
 (KB2124261)  
 (Importante)  
+
 FastCGI IIS:  
 [Internet Information Services 7.5](http://www.microsoft.com/downloads/details.aspx?familyid=9578b1de-f2c1-4b37-9d82-69e929cab6f3)\*  
 (KB2271195)  
@@ -1468,6 +1531,7 @@ No aplicable
 [Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=5e7dcf51-74f1-43cc-aece-0cd5df05ddb7)\*  
 (KB2416471)  
 (Importante)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)<sup>[1]</sup>
 (KB2416472)  
 (Importante)
@@ -1526,6 +1590,7 @@ ASP IIS:
 [Internet Information Services 7.5](http://www.microsoft.com/downloads/details.aspx?familyid=3b8f3fd1-1ef4-4e9f-9bce-0c68f10519d1)  
 (KB2124261)  
 (Importante)  
+
 FastCGI IIS:  
 [Internet Information Services 7.5](http://www.microsoft.com/downloads/details.aspx?familyid=21adf80d-267f-47cd-9c03-4b4854ba159f)  
 (KB2271195)  
@@ -1547,6 +1612,7 @@ No aplicable
 [Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=5e7dcf51-74f1-43cc-aece-0cd5df05ddb7)  
 (KB2416471)  
 (Importante)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=6ce703b7-08a5-4eff-a062-d5dc720908f6)<sup>[1]</sup>
 (KB2416472)  
 (Importante)

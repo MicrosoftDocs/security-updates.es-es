@@ -4,7 +4,7 @@ Title: Resumen del boletín de seguridad de Microsoft de diciembre 2011
 ms:assetid: 'ms11-dec'
 ms:contentKeyID: 61225422
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms11-dec(v=Security.10)'
---- Summary
+---
 
 Resumen del boletín de seguridad de Microsoft de diciembre 2011
 ===============================================================
@@ -312,6 +312,7 @@ Windows XP Service Pack 3
 [Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=d85091b5-69bb-4d0f-839a-a65cd94e2887)  
 (KB2619339)  
 (Crítica)  
+
 [Windows XP Media Center Edition 2005 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=03bc6446-7cf3-47c4-8ed1-a53a4d53a429)  
 (KB2619340)  
 (Crítica)
@@ -435,6 +436,7 @@ No aplicable
 [Active Directory](http://www.microsoft.com/downloads/details.aspx?familyid=01caf06f-777d-4ea8-95ca-e11d60a973ad)  
 (KB2621146)  
 (Importante)  
+
 [Active Directory Application Mode (ADAM)](http://www.microsoft.com/downloads/details.aspx?familyid=6f7c7ccd-22a3-4fbc-bf21-bd0e42ab1da5)  
 (KB2626416)  
 (Importante)
@@ -467,6 +469,7 @@ No aplicable
 [Active Directory](http://www.microsoft.com/downloads/details.aspx?familyid=e1ba50cf-fc6b-4668-b71c-e9f75a8ac638)  
 (KB2621146)  
 (Importante)  
+
 [Active Directory Application Mode (ADAM)](http://www.microsoft.com/downloads/details.aspx?familyid=1b610eb3-456c-4125-94b7-1ead4face8e3)  
 (KB2626416)  
 (Importante)
@@ -1028,18 +1031,23 @@ Windows XP Service Pack 3
 <td style="border:1px solid black;">
 [Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=caa9360b-2fd8-4f46-99e6-2decf1b60ca7)  
 (Moderada)  
+
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=dc6dcd8c-c39f-4c4b-b5b2-b4c18c36973b)  
 (Moderada)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=f3906245-b6f6-464a-84b6-e1b6b195df95)  
 (Importante)
 </td>
 <td style="border:1px solid black;">
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=471e1f51-c79c-4285-9f1e-aee1e4c4f189)  
 (KB2656353)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=eff633f7-abd9-45cc-acbd-4885123dbed2)  
 (KB2656352)  
+  
 [Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=306acd0a-bea2-40dd-a639-f381587c9eb7)  
 (KB2657424)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=37a8fb34-e3ad-4605-980b-28361889ce72)<sup>[1]</sup>
 (KB2656351)
 </td>
@@ -1054,18 +1062,23 @@ No aplicable
 <td style="border:1px solid black;">
 [Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=2fa77733-70f5-46ff-9cfe-2262d292b870)  
 (Moderada)  
+
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=a0c55d9b-8529-4d3d-910d-1a822a825be2)  
 (Moderada)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=3e60e996-8850-4d25-b994-39646e2cc25e)  
 (Importante)
 </td>
 <td style="border:1px solid black;">
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=471e1f51-c79c-4285-9f1e-aee1e4c4f189)  
 (KB2656353)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=eff633f7-abd9-45cc-acbd-4885123dbed2)  
 (KB2656352)  
+
 [Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=306acd0a-bea2-40dd-a639-f381587c9eb7)  
 (KB2657424)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=37a8fb34-e3ad-4605-980b-28361889ce72)<sup>[1]</sup>
 (KB2656351)
 </td>
@@ -1122,10 +1135,13 @@ Windows Server 2003 Service Pack 2
 <td style="border:1px solid black;">
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=7538762a-50e9-4f13-a60e-ff99aa8fbbf8)  
 (KB2656358)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=eff633f7-abd9-45cc-acbd-4885123dbed2)  
 (KB2656352)  
+
 [Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=306acd0a-bea2-40dd-a639-f381587c9eb7)  
 (KB2657424)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=37a8fb34-e3ad-4605-980b-28361889ce72)<sup>[1]</sup>
 (KB2656351)
 </td>
@@ -1148,10 +1164,13 @@ No aplicable
 <td style="border:1px solid black;">
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=471e1f51-c79c-4285-9f1e-aee1e4c4f189)  
 (KB2656353)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=eff633f7-abd9-45cc-acbd-4885123dbed2)  
 (KB2656352)  
+
 [Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=306acd0a-bea2-40dd-a639-f381587c9eb7)  
 (KB2657424)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=37a8fb34-e3ad-4605-980b-28361889ce72)<sup>[1]</sup>
 (KB2656351)
 </td>
@@ -1172,10 +1191,13 @@ No aplicable
 <td style="border:1px solid black;">
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=471e1f51-c79c-4285-9f1e-aee1e4c4f189)  
 (KB2656353)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=eff633f7-abd9-45cc-acbd-4885123dbed2)  
 (KB2656352)  
+
 [Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=306acd0a-bea2-40dd-a639-f381587c9eb7)  
 (KB2657424)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=37a8fb34-e3ad-4605-980b-28361889ce72)<sup>[1]</sup>
 (KB2656351)
 </td>
@@ -1224,18 +1246,23 @@ Windows Vista Service Pack 2
 <td style="border:1px solid black;">
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=0adc422f-73f2-46ee-973f-9b7603a76d1e)  
 (Moderada)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=4327147b-0481-4172-a835-8786abc50596)  
 (Importante)  
+
 [Internet Explorer 9](http://www.microsoft.com/downloads/details.aspx?familyid=a0b19b35-1d48-4419-ba3d-66063cc472a7)  
 (Moderada)
 </td>
 <td style="border:1px solid black;">
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=471e1f51-c79c-4285-9f1e-aee1e4c4f189)  
 (KB2656353)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=49050cf2-949a-40e5-b2ee-6257a3837294)  
 (KB2656362)  
+
 [Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=306acd0a-bea2-40dd-a639-f381587c9eb7)  
 (KB2657424)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=37a8fb34-e3ad-4605-980b-28361889ce72)<sup>[1]</sup>
 (KB2656351)
 </td>
@@ -1250,18 +1277,23 @@ No aplicable
 <td style="border:1px solid black;">
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=8a3f2351-380b-4566-b186-906dca426d39)  
 (Moderada)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=987f0966-01de-4edf-a0d6-4032d1d72966)  
 (Importante)  
+
 [Internet Explorer 9](http://www.microsoft.com/downloads/details.aspx?familyid=c951044b-4596-462f-bc8f-bdd9d6734297)  
 (Moderada)
 </td>
 <td style="border:1px solid black;">
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=471e1f51-c79c-4285-9f1e-aee1e4c4f189)  
 (KB2656353)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=49050cf2-949a-40e5-b2ee-6257a3837294)  
 (KB2656362)  
+
 [Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=306acd0a-bea2-40dd-a639-f381587c9eb7)  
 (KB2657424)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=37a8fb34-e3ad-4605-980b-28361889ce72)<sup>[1]</sup>
 (KB2656351)
 </td>
@@ -1310,18 +1342,23 @@ Windows Server 2008 para sistemas de 32 bits Service Pack 2
 <td style="border:1px solid black;">
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=eaf587f0-9951-4480-a08b-377e61aaf72b)\*\*  
 (Sin clasificación de gravedad<sup>[1]</sup>)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=8f5af52f-dece-4f0c-9fc0-d4973e4f7b1a)\*\*  
 (Baja)  
+
 [Internet Explorer 9](http://www.microsoft.com/downloads/details.aspx?familyid=c03e65d6-4f92-4bc1-94b5-2f0183d0133e)\*\*  
 (Sin clasificación de gravedad<sup>[1]</sup>)
 </td>
 <td style="border:1px solid black;">
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=471e1f51-c79c-4285-9f1e-aee1e4c4f189)\*\*  
 (KB2656353)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=49050cf2-949a-40e5-b2ee-6257a3837294)\*\*  
 (KB2656362)  
+
 [Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=306acd0a-bea2-40dd-a639-f381587c9eb7)\*\*  
 (KB2657424)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=37a8fb34-e3ad-4605-980b-28361889ce72)\*\*<sup>[1]</sup>
 (KB2656351)
 </td>
@@ -1336,18 +1373,23 @@ No aplicable
 <td style="border:1px solid black;">
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=2f18fc98-984a-4c02-951f-b8438a9e4f6b)\*\*  
 (Sin clasificación de gravedad<sup>[1]</sup>)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=808d26f7-c8fa-446d-9d2f-e8c0babb0c4a)\*\*  
 (Baja)  
+
 [Internet Explorer 9](http://www.microsoft.com/downloads/details.aspx?familyid=b7a582f3-0a18-4fbf-9b99-21c664bfd979)\*\*  
 (Sin clasificación de gravedad<sup>[1]</sup>)
 </td>
 <td style="border:1px solid black;">
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=471e1f51-c79c-4285-9f1e-aee1e4c4f189)\*\*  
 (KB2656353)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=49050cf2-949a-40e5-b2ee-6257a3837294)\*\*  
 (KB2656362)  
+
 [Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=306acd0a-bea2-40dd-a639-f381587c9eb7)\*\*  
 (KB2657424)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=37a8fb34-e3ad-4605-980b-28361889ce72)\*\*<sup>[1]</sup>
 (KB2656351)
 </td>
@@ -1366,10 +1408,13 @@ No aplicable
 <td style="border:1px solid black;">
 [Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=471e1f51-c79c-4285-9f1e-aee1e4c4f189)  
 (KB2656353)  
+
 [Microsoft .NET Framework 2.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=49050cf2-949a-40e5-b2ee-6257a3837294)  
 (KB2656362)  
+
 [Microsoft .NET Framework 3.5 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=306acd0a-bea2-40dd-a639-f381587c9eb7)  
 (KB2657424)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=37a8fb34-e3ad-4605-980b-28361889ce72)<sup>[1]</sup>
 (KB2656351)
 </td>
@@ -1418,6 +1463,7 @@ Windows 7 para sistemas de 32 bits y Windows 7 para sistemas de 32 bits Service 
 <td style="border:1px solid black;">
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=018610bb-e80a-432a-8f32-f50451f71ad9)  
 (Importante)  
+
 [Internet Explorer 9](http://www.microsoft.com/downloads/details.aspx?familyid=ec2046a6-f069-4f02-9600-7640e57be0a3)  
 (Importante)
 </td>
@@ -1425,11 +1471,14 @@ Windows 7 para sistemas de 32 bits y Windows 7 para sistemas de 32 bits Service 
 Windows 7 para sistemas de 32 bits únicamente:  
 [Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=2de28d32-1efd-4177-82e6-19a08266096c)  
 (KB2656355)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=37a8fb34-e3ad-4605-980b-28361889ce72)<sup>[1]</sup>
 (KB2656351)  
+
 Windows 7 para sistemas de 32 bits Service Pack 1 únicamente:  
 [Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=26e0b56d-9228-49cf-9276-0741257567a9)  
 (KB2656356)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=37a8fb34-e3ad-4605-980b-28361889ce72)<sup>[1]</sup>
 (KB2656351)
 </td>
@@ -1444,6 +1493,7 @@ No aplicable
 <td style="border:1px solid black;">
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=dbe85b05-e252-4029-8e25-f2452db1c017)  
 (Importante)  
+
 [Internet Explorer 9](http://www.microsoft.com/downloads/details.aspx?familyid=4c773b3d-0ca3-4b9b-af9a-9d6edcd261f7)  
 (Importante)
 </td>
@@ -1451,11 +1501,14 @@ No aplicable
 Windows 7 para sistemas x64 únicamente:  
 [Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=2de28d32-1efd-4177-82e6-19a08266096c)  
 (KB2656355)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=37a8fb34-e3ad-4605-980b-28361889ce72)<sup>[1]</sup>
 (KB2656351)  
+
 Windows 7 para sistemas x64 Service Pack 1 únicamente:  
 [Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=26e0b56d-9228-49cf-9276-0741257567a9)  
 (KB2656356)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=37a8fb34-e3ad-4605-980b-28361889ce72)<sup>[1]</sup>
 (KB2656351)
 </td>
@@ -1510,11 +1563,14 @@ No aplicable
 Windows Server 2008 R2 para sistemas x64 únicamente:  
 [Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=2de28d32-1efd-4177-82e6-19a08266096c)\*  
 (KB2656355)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=37a8fb34-e3ad-4605-980b-28361889ce72)<sup>[1]</sup>
 (KB2656351)  
+
 Windows Server 2008 R2 para sistemas x64 Service Pack 1 únicamente:  
 [Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=26e0b56d-9228-49cf-9276-0741257567a9)\*  
 (KB2656356)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=37a8fb34-e3ad-4605-980b-28361889ce72)\*<sup>[1]</sup>
 (KB2656351)
 </td>
@@ -1534,11 +1590,14 @@ No aplicable
 Windows Server 2008 R2 para sistemas con Itanium únicamente:  
 [Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=2de28d32-1efd-4177-82e6-19a08266096c)  
 (KB2656355)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=37a8fb34-e3ad-4605-980b-28361889ce72)<sup>[1]</sup>
 (KB2656351)  
+
 Windows Server 2008 R2 para sistemas con Itanium Service Pack 1 únicamente:  
 [Microsoft .NET Framework 3.5.1](http://www.microsoft.com/downloads/details.aspx?familyid=26e0b56d-9228-49cf-9276-0741257567a9)  
 (KB2656356)  
+
 [Microsoft .NET Framework 4.0](http://www.microsoft.com/downloads/details.aspx?familyid=37a8fb34-e3ad-4605-980b-28361889ce72)<sup>[1]</sup>
 (KB2656351)
 </td>
