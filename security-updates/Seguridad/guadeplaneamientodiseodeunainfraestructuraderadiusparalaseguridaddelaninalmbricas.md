@@ -13,12 +13,12 @@ Publicado: octubre 11, 2004 | Actualizado: 24/11/04
 
 ##### En esta página
 
-[](#efaa)[Introducción](#efaa)
-[](#eeaa)[Utilización de IAS para la administración de acceso a la red](#eeaa)
-[](#edaa)[Identificación de los requisitos previos de la solución](#edaa)
-[](#ecaa)[Diseño de la infraestructura de RADIUS](#ecaa)
-[](#ebaa)[Creación de un plan de administración](#ebaa)
-[](#eaaa)[Resumen](#eaaa)
+[](#efaa)[Introducción](#efaa)  
+[](#eeaa)[Utilización de IAS para la administración de acceso a la red](#eeaa)  
+[](#edaa)[Identificación de los requisitos previos de la solución](#edaa)  
+[](#ecaa)[Diseño de la infraestructura de RADIUS](#ecaa)  
+[](#ebaa)[Creación de un plan de administración](#ebaa)  
+[](#eaaa)[Resumen](#eaaa)  
 
 ### Introducción
 
@@ -127,7 +127,7 @@ Esta solución está diseñada para las organizaciones que han implementado Acti
 <th style="border:1px solid black;" >Modo nativo de Windows Server 2003</th>
 <th style="border:1px solid black;" >Modo nativo de Windows 2000</th>
 <th style="border:1px solid black;" >Modo mixto
-- o bien -
+&ndash; o bien &ndash;  
 Microsoft Windows NT® 4.0</th>
 </tr>
 </thead>

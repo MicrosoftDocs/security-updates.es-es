@@ -4,7 +4,8 @@ Title: Resumen del boletín de seguridad de Microsoft de agosto 2009
 ms:assetid: 'ms09-aug'
 ms:contentKeyID: 61225397
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms09-aug(v=Security.10)'
---- Summary
+--- 
+
 
 Resumen del boletín de seguridad de Microsoft de agosto 2009
 ============================================================

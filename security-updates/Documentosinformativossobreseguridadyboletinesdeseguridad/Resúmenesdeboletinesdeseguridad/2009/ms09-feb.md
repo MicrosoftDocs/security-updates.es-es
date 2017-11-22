@@ -4,7 +4,8 @@ Title: Resumen del boletín de seguridad de Microsoft de febrero 2009
 ms:assetid: 'ms09-feb'
 ms:contentKeyID: 61225399
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms09-feb(v=Security.10)'
---- Summary
+--- 
+
 
 Resumen del boletín de seguridad de Microsoft de febrero 2009
 =============================================================

@@ -106,7 +106,7 @@ Los siguientes cambios nuevos e innovaciones del sistema operativo Windows Vist
 
 -   **Nuevas API de sistema**. Las interfaces de programación de aplicaciones (API) exponen capas del sistema operativo Windows Vista de forma diferente a las versiones anteriores de Windows. Los software antivirus y firewall son ejemplos de aplicaciones que se basan en estas nuevas API para controlar y proteger Windows Vista. Debe actualizar las aplicaciones que realicen estas funciones a las versiones que sean compatibles con Windows Vista.
 
--   **Windows** **Vista de 64 bits**. Las aplicaciones de 16 bits y los controladores de 32 bits no son compatibles con el entorno de 64 bits de Windows Vista. La redirección automática de archivos del sistema y el registro no está disponible para el entorno de 64 bits. Por ello, las nuevas aplicaciones de 64 bits deben cumplir los estándares de aplicación de Windows Vista.
+-   **Windows Vista de 64 bits**. Las aplicaciones de 16 bits y los controladores de 32 bits no son compatibles con el entorno de 64 bits de Windows Vista. La redirección automática de archivos del sistema y el registro no está disponible para el entorno de 64 bits. Por ello, las nuevas aplicaciones de 64 bits deben cumplir los estándares de aplicación de Windows Vista.
 
 -   **Versiones del sistema operativo**. Numerosas aplicaciones más antiguas comprueban versiones específicas de Windows. Si las aplicaciones de terceros no pueden detectar alguna versión de sistema operativo específica, muchas de ellas dejan de responder.
 
@@ -150,9 +150,9 @@ Puede descargar esta herramienta desde [Microsoft Standard User Analyzer](http:/
 
 Microsoft ha puesto a su disposición un conjunto de herramientas y documentación para ayudarle a identificar y administrar la cartera de aplicaciones de la organización. El kit de herramientas de compatibilidad de aplicaciones (ACT) está diseñado para ayudarle a reducir el costo y el tiempo dedicados a resolver problemas de compatibilidad de aplicaciones, con objeto de permitirle implementar Windows Vista de forma más rápida.
 
-ACT puede ayudarle a preparar Windows Vista detallando el inventario de aplicaciones existentes, administrando aplicaciones esenciales y determinando la extensión del entorno de aplicaciones que puede requerir atención especial para la preparación de Windows** **Vista.
+ACT puede ayudarle a preparar Windows Vista detallando el inventario de aplicaciones existentes, administrando aplicaciones esenciales y determinando la extensión del entorno de aplicaciones que puede requerir atención especial para la preparación de Windows Vista.
 
-ACT 4.1 está disponible actualmente y se proporcionó para ayudar a los clientes a implementar Windows** **XP SP2. ACT 4.1 examina problemas de Internet Explorer, configuración de firewall e interfaces DCOM. ACT se diseñó para identificar aplicaciones que requieren una mayor comprobación, para identificar las aplicaciones no actualizadas y para determinar qué aplicaciones ya eran compatibles con SP2, lo que permite priorizar los esfuerzos del usuario.
+ACT 4.1 está disponible actualmente y se proporcionó para ayudar a los clientes a implementar Windows XP SP2. ACT 4.1 examina problemas de Internet Explorer, configuración de firewall e interfaces DCOM. ACT se diseñó para identificar aplicaciones que requieren una mayor comprobación, para identificar las aplicaciones no actualizadas y para determinar qué aplicaciones ya eran compatibles con SP2, lo que permite priorizar los esfuerzos del usuario.
 
 ACT 5.0 se ha actualizado expresamente para admitir las características de seguridad de Windows Vista.
 
