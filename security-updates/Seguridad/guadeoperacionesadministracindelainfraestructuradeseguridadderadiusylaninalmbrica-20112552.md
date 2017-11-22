@@ -13,17 +13,17 @@ Publicado: octubre 11, 2004 | Actualizado: 24/11/04
 
 ##### En esta página
 
-[](#ejaa)[Introducción](#ejaa)
-[](#eiaa)[Tareas de mantenimiento esenciales](#eiaa)
-[](#ehaa)[Tecnología requerida en la Guía de operaciones](#ehaa)
-[](#egaa)[Funciones administrativas de seguridad de RADIUS y WLAN](#egaa)
-[](#efaa)[Tareas de cuadrante operativo](#efaa)
-[](#eeaa)[Tareas del cuadrante de compatibilidad](#eeaa)
-[](#edaa)[Tareas del cuadrante de optimización](#edaa)
-[](#ecaa)[Tareas del cuadrante de cambio](#ecaa)
-[](#ebaa)[Tablas de configuración](#ebaa)
-[](#eaaa)[Información adicional](#eaaa)
-
+[](#ejaa)[Introducción](#ejaa)  
+[](#eiaa)[Tareas de mantenimiento esenciales](#eiaa)  
+[](#ehaa)[Tecnología requerida en la Guía de operaciones](#ehaa)  
+[](#egaa)[Funciones administrativas de seguridad de RADIUS y WLAN](#egaa)  
+[](#efaa)[Tareas de cuadrante operativo](#efaa)  
+[](#eeaa)[Tareas del cuadrante de compatibilidad](#eeaa)  
+[](#edaa)[Tareas del cuadrante de optimización](#edaa)  
+[](#ecaa)[Tareas del cuadrante de cambio](#ecaa)  
+[](#ebaa)[Tablas de configuración](#ebaa)  
+[](#eaaa)[Información adicional](#eaaa)  
+  
 ### Introducción
 
 En este capítulo se describen los procedimientos operativos necesarios para administrar la infraestructura del Servicio de usuario de acceso telefónico de autenticación remota (RADIUS) y la seguridad de LAN inalámbrica (WLAN) implementadas como parte de esta guía de *Seguridad de LAN inalámbricas*. La estructura se basa en las categorías y conceptos de Microsoft Operations Framework (MOF) tratados en el capítulo 10, "Introducción a la guía de operaciones".
@@ -1408,13 +1408,13 @@ Utilice el comando **netsh** para habilitar y deshabilitar el seguimiento de com
   
 -   **IASSAM** (**archivo Iassam.log de la carpeta %*systemroot%*\\tracing)**. Este registro es el archivo de seguimiento que se utiliza más habitualmente para problemas de IAS ya que describe funciones como averiguación de nombres de usuario, enlace a un controlador de dominio o verificación de credenciales. Se trata del "centro" de los archivos de seguimiento de IAS y suele ser necesario para depurar los problemas relacionados con la autenticación.
   
--   **RASTLS (archivo Rastls.log de la carpeta %*systemroot%*\\tracing)**. Para todas las autenticaciones relacionadas con EAP y PEAP, este registro contiene la mayor parte de la información de depuración crucial. No obstante, este archivo de registro resulta difícil de leer. Microsoft se está ocupando de producir información que simplifique la interpretación de estos datos.
+-   **RASTLS (archivo Rastls.log de la carpeta % *systemroot%* \\tracing)**. Para todas las autenticaciones relacionadas con EAP y PEAP, este registro contiene la mayor parte de la información de depuración crucial. No obstante, este archivo de registro resulta difícil de leer. Microsoft se está ocupando de producir información que simplifique la interpretación de estos datos.
   
 La siguiente información de seguimiento de IAS no se requiere habitualmente para la solución de problemas en la autenticación 802.1X mediante EAP–TLS, pero puede resultar útil para la solución de problemas de otras tareas:
   
--   **IASRAD (archivo Iasrad.log de la carpeta** ***%systemroot%*\\tracing)**. Este registro describe todas las operaciones relacionadas con el protocolo RADIUS. Describe los puertos en los que el servidor escucha, etc. Tampoco se utiliza habitualmente en la depuración de problemas en el servidor IAS.
+-   **IASRAD (archivo Iasrad.log de la carpeta** ***%systemroot%* \\tracing)**. Este registro describe todas las operaciones relacionadas con el protocolo RADIUS. Describe los puertos en los que el servidor escucha, etc. Tampoco se utiliza habitualmente en la depuración de problemas en el servidor IAS.
   
--   **IASSDO (archivo Iassdo.log de la carpeta** ***%systemroot%*\\tracing)**. El registro IASSDO realiza un seguimiento desde la interfaz de usuario hasta los archivos MDB que almacenan la configuración y el diccionario del servidor. Se trata del registro utilizado para depurar problemas de servicio o problemas relacionados con la interfaz de usuario.
+-   **IASSDO (archivo Iassdo.log de la carpeta** ***%systemroot%* \\tracing)**. El registro IASSDO realiza un seguimiento desde la interfaz de usuario hasta los archivos MDB que almacenan la configuración y el diccionario del servidor. Se trata del registro utilizado para depurar problemas de servicio o problemas relacionados con la interfaz de usuario.
   
 **Para habilitar el seguimiento en el servidor IAS**
   

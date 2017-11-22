@@ -15,17 +15,17 @@ Actualizado: 30/06/2005
 
 ##### En esta página
 
-[](#ehaa)[El desafío empresarial](#ehaa)
-[](#egaa)[Las ventajas empresariales](#egaa)
-[](#efaa)[Quién debería leer esta guía](#efaa)
-[](#eeaa)[Requisitos previos para el lector](#eeaa)
-[](#edaa)[Guía de planeamiento: descripción general](#edaa)
-[](#ecaa)[Recursos relacionados](#ecaa)
-[](#ebaa)[Envíenos sus comentarios](#ebaa)
-[](#abcm)[Capítulo 1: Introducción](#abcm)
-[](#abcq)[Capítulo 2: Tecnologías de tarjeta inteligente](#abcq)
-[](#abcr)[Capítulo 3: Uso de tarjetas inteligentes para la protección de las cuentas de los administradores](#abcr)
-[](#abck)[Capítulo 4: Uso de tarjetas inteligentes para la protección de las cuentas de acceso remoto](#abck)
+[](#ehaa)[El desafío empresarial](#ehaa)  
+[](#egaa)[Las ventajas empresariales](#egaa)  
+[](#efaa)[Quién debería leer esta guía](#efaa)  
+[](#eeaa)[Requisitos previos para el lector](#eeaa)  
+[](#edaa)[Guía de planeamiento: descripción general](#edaa)  
+[](#ecaa)[Recursos relacionados](#ecaa)  
+[](#ebaa)[Envíenos sus comentarios](#ebaa)  
+[](#abcm)[Capítulo 1: Introducción](#abcm)  
+[](#abcq)[Capítulo 2: Tecnologías de tarjeta inteligente](#abcq)  
+[](#abcr)[Capítulo 3: Uso de tarjetas inteligentes para la protección de las cuentas de los administradores](#abcr)  
+[](#abck)[Capítulo 4: Uso de tarjetas inteligentes para la protección de las cuentas de acceso remoto](#abck)  
 
 Cada vez más, los administradores son conscientes del riesgo que supone depender únicamente de nombres de usuario y contraseñas para la autenticación de acceso a los recursos de red. Los atacantes pueden adivinar nombres de usuarios o, incluso, utilizar información que se puede obtener públicamente (como la dirección de correo electrónico impresa en una tarjeta de visita) para identificar un nombre de usuario. Cuando un atacante conoce un nombre de usuario, el único mecanismo de seguridad que se mantiene es la contraseña del usuario.
 
@@ -667,7 +667,7 @@ Cada dominio cuenta con varios grupos predeterminados que proporcionan funciones
   
 -   **Operadores de impresión**. Los miembros de este grupo administran servidores de impresión, impresoras y trabajos de impresión. También pueden iniciar sesión localmente y apagar los controladores de dominio.
   
--   **Operadores de cuentas**.** **Los miembros de este grupo tienen derechos limitados para administrar las cuentas y los grupos de usuarios. Pueden iniciar sesión de forma interactiva pero no tienen la posibilidad de apagar los controladores de dominio.
+-   **Operadores de cuentas**. Los miembros de este grupo tienen derechos limitados para administrar las cuentas y los grupos de usuarios. Pueden iniciar sesión de forma interactiva pero no tienen la posibilidad de apagar los controladores de dominio.
   
 Para obtener más información acerca de los grupos predeterminados, consulte el tema sobre [Grupos predeterminados](http://go.microsoft.com/fwlink/?linkid=81737), en la dirección http://go.microsoft.com/fwlink/?LinkId=81737.
   
@@ -679,7 +679,7 @@ Además de los grupos predeterminados, con la creación de un bosque de Active D
   
 -   **Admins. del dominio**. Los miembros de este grupo tienen pleno control sobre todos los objetos del dominio. Cada dominio posterior del bosque tiene también un grupo Admins. del dominio.
   
--   **Administradores de empresa (sólo en el dominio raíz del bosque)**.** **Los miembros de este grupo tienen pleno control sobre todos los objetos del bosque.
+-   **Administradores de empresa (sólo en el dominio raíz del bosque)**. Los miembros de este grupo tienen pleno control sobre todos los objetos del bosque.
   
 -   **Administradores de esquema (sólo en el dominio raíz del bosque)**. Los miembros de este grupo pueden crear clases y atributos en el esquema, así como administrar el maestro de operaciones de esquema.
   
@@ -871,7 +871,7 @@ El departamento de TI de Woodgrove National Bank ha identificado los siguientes 
   
 -   **Implantar procedimientos recomendados para las operaciones**. La integridad de una implantación de tarjetas inteligentes depende de una administración y un mantenimiento efectivos a largo plazo. El equipo de TI de Woodgrove National Bank debe implantar los procedimientos recomendados para los operaciones que se destacan en Microsoft Operations Framework (MOF).
   
--   **Tareas programadas que se ejecutan con derechos de administrador en un servidor con restricción para tarjetas inteligentes**.** **Woodgrove National Bank ejecuta tareas programadas en las que se utilizan cuentas con privilegios de nivel de administrador. Woodgrove National Bank necesita revisar estas cuentas y, en la medida de lo posible, utilizar cuentas que no requieran privilegios administrativos. Asimismo, Woodgrove National Bank debe implantar un grupo de exclusiones permanentes que incluya las cuentas con las que se ejecuten tareas programadas, de modo que queden exentas del requisito de iniciar sesión con un tarjeta inteligente.
+-   **Tareas programadas que se ejecutan con derechos de administrador en un servidor con restricción para tarjetas inteligentes**. Woodgrove National Bank ejecuta tareas programadas en las que se utilizan cuentas con privilegios de nivel de administrador. Woodgrove National Bank necesita revisar estas cuentas y, en la medida de lo posible, utilizar cuentas que no requieran privilegios administrativos. Asimismo, Woodgrove National Bank debe implantar un grupo de exclusiones permanentes que incluya las cuentas con las que se ejecuten tareas programadas, de modo que queden exentas del requisito de iniciar sesión con un tarjeta inteligente.
   
 -   **Integración con UNIX**. Woodgrove National Bank opera en un entorno heterogéneo, por lo que la integración de las tarjetas inteligentes con los equipos en los que se ejecuta UNIX constituye un motivo de preocupación. Woodgrove National Bank planea investigar productos tales como TrustBroker, de CyberSafe Limited, que proporcionen autenticación con tarjetas inteligentes tanto para Windows como para UNIX.
   
@@ -879,11 +879,11 @@ El departamento de TI de Woodgrove National Bank ha identificado los siguientes 
   
 El uso de tarjetas inteligentes como medida de protección de las cuentas de los administradores tiene por objeto mejorar los niveles de seguridad y responsabilidad. El departamento de TI de Woodgrove National Bank ha identificado los siguientes aspectos relacionados con la seguridad que el banco debe abordar para poder implantar la solución:
   
--   **Distribución y activación**.** **La** **distribución y activación de las tarjetas inteligentes son importantes para mantener la integridad de la solución. Como Woodgrove National Bank cuenta con sedes en todo el mundo, el departamento de TI de Woodgrove no puede distribuir las tarjetas inteligentes desde una sola ubicación. La comprobación de los destinatarios de las tarjetas inteligentes es esencial para mantener la integridad del proyecto. Woodgrove National Bank planea implantar equipos de seguridad que utilicen datos de identificación de Recursos humanos para asegurarse de que cada tarjeta inteligente que se emite corresponde a la persona adecuada.
+-   **Distribución y activación**. **La** distribución y activación de las tarjetas inteligentes son importantes para mantener la integridad de la solución. Como Woodgrove National Bank cuenta con sedes en todo el mundo, el departamento de TI de Woodgrove no puede distribuir las tarjetas inteligentes desde una sola ubicación. La comprobación de los destinatarios de las tarjetas inteligentes es esencial para mantener la integridad del proyecto. Woodgrove National Bank planea implantar equipos de seguridad que utilicen datos de identificación de Recursos humanos para asegurarse de que cada tarjeta inteligente que se emite corresponde a la persona adecuada.
   
 -   **Privilegios mínimos para los derechos administrativos**. Woodgrove National Bank debe examinar su modelo actual de administración de red y reducir el número de cuentas de usuarios y servicios que se ejecutan con plenos privilegios administrativos. El banco debe asignar únicamente los privilegios que necesiten los administradores para realizar su trabajo. El análisis y la reducción del número de cuentas de administrador pueden facilitar la implantación, supervisión y administración continua de la solución basada en tarjetas inteligentes.
   
--   **Administración de cuentas de servicios**.** **El equipo de TI de Woodgrove revisó las cuentas de servicios de programas y se ha asegurado de reducir al mínimo el número de servicios que requieren un contexto de seguridad de administrador. Se ha indicado la actualización o el reemplazo de numerosos programas.
+-   **Administración de cuentas de servicios**. El equipo de TI de Woodgrove revisó las cuentas de servicios de programas y se ha asegurado de reducir al mínimo el número de servicios que requieren un contexto de seguridad de administrador. Se ha indicado la actualización o el reemplazo de numerosos programas.
   
 -   **Una tarjeta inteligente para cada bosque en una relación de plena confianza**. Woodgrove National Bank tiene dos bosques vinculados por una relación de confianza bidireccional. Aunque una tarjeta inteligente puede contener varios certificados, Windows Server 2003 utiliza únicamente el certificado que se encuentra en la ranura 0 de la tarjeta inteligente para el inicio de sesión interactivo. Para este diseño es necesario que los administradores de red que trabajan con más de un bosque no vinculado tengan varias tarjetas inteligentes. Sin embargo, un administrador con una tarjeta inteligente tiene acceso a recursos en todos los bosques con los que el bosque que autentica al administrador mantiene una relación de confianza completa, a menos que este acceso se vea anulado por una restricción de seguridad en el bosque que confía.
   
@@ -1289,7 +1289,7 @@ Para proteger las cuentas de acceso remoto con tarjetas inteligentes, la soluci�
   
 -   **Herramientas de administración de NIP**. Los usuarios necesitan una utilidad de software para administrar sus propios NIP. La mayoría de los fabricantes de tarjetas inteligentes proporcionan herramientas básicas para la administración de NIP. El departamento de TI de Woodgrove optó por ampliar la personalización para integrar la herramienta de administración de NIP con una utilidad de desbloqueo remoto de NIP.
   
--   **Objetos de directiva de grupo (GPO)**.** **El departamento de TI de Woodgrove debe crear el GPO adecuado a la estructura de sus unidades organizativas. Estos GPO deben incluir opciones de configuración para las excepciones, como los casos de los usuarios que pierden u olvidan su tarjeta inteligente o su NIP.
+-   **Objetos de directiva de grupo (GPO)**. El departamento de TI de Woodgrove debe crear el GPO adecuado a la estructura de sus unidades organizativas. Estos GPO deben incluir opciones de configuración para las excepciones, como los casos de los usuarios que pierden u olvidan su tarjeta inteligente o su NIP.
   
 -   **Perfiles de Connection Manager**. El departamento de TI de Woodgrove debe crear perfiles de Connection Manager configurados especialmente que contengan la configuración de conexión de servidor de acceso telefónico o VPN para los servidores de acceso remoto de Woodgrove. El equipo de TI de Woodgrove también tiene que personalizar el texto de la interfaz de usuario del perfil de Connection Manager para ayudar a los usuarios a comprender el proceso de conexión y a indicarles qué deben hacer si surgen problemas. El departamento de TI de Woodgrove creó distintos perfiles de Connection Manager para diferentes tipos de usuarios, como ejecutivos, usuarios regulares y personal administrativo. Cada perfil tenía distintas prioridades durante la configuración de la conexión. Los administradores pueden conectarse de forma remota, independientemente del tráfico que haya en la red.
   
@@ -1297,7 +1297,7 @@ Para proteger las cuentas de acceso remoto con tarjetas inteligentes, la soluci�
   
 -   **Proceso de adquisición de tarjetas inteligentes y lectores**. Aunque Woodgrove National Bank cuenta con una infraestructura de claves públicas consolidada, el banco obtendría un escaso beneficio con la instalación del sistema Windows para tarjetas inteligentes si éstas estuvieran vacías. La mayoría de los fabricantes ofrecen tarjetas inteligentes con el sistema operativo ya instalado. La elección de tarjetas inteligentes y lectores de un mismo fabricante ofrece la ventaja de contar con un punto de contacto único para el soporte técnico.
   
--   **Lectores de tarjetas inteligentes USB o PC Card**.** **El establecimiento de estándares para la implantación minimiza el costo de instalación de una solución basada en tarjetas inteligentes. Woodgrove National Bank implantó una directiva corporativa en virtud de la cual todos los nuevos equipos portátiles integrarían lectores de tarjetas inteligentes. Woodgrove National Bank también ha establecido un estándar común para el suministro de lectores de tarjetas inteligentes USB. El banco suministra lectores de tarjetas inteligentes USB a los empleados que utilizan sus propios equipos para trabajar desde sus casas. Woodgrove se ha asegurado la continuidad a través de un contrato con el proveedor de lectores de tarjetas inteligentes que le permitirá contar con el mismo modelo de lectores durante dos años.
+-   **Lectores de tarjetas inteligentes USB o PC Card**. El establecimiento de estándares para la implantación minimiza el costo de instalación de una solución basada en tarjetas inteligentes. Woodgrove National Bank implantó una directiva corporativa en virtud de la cual todos los nuevos equipos portátiles integrarían lectores de tarjetas inteligentes. Woodgrove National Bank también ha establecido un estándar común para el suministro de lectores de tarjetas inteligentes USB. El banco suministra lectores de tarjetas inteligentes USB a los empleados que utilizan sus propios equipos para trabajar desde sus casas. Woodgrove se ha asegurado la continuidad a través de un contrato con el proveedor de lectores de tarjetas inteligentes que le permitirá contar con el mismo modelo de lectores durante dos años.
   
 -   **Relaciones de confianza**. Para la implantación de tarjetas inteligentes en Woodgrove National Bank se utilizaron las relaciones de confianza actuales entre bosques independientes y cualquier confianza unidireccional, como las que existen entre bosques de los equipos de desarrollo más pequeños y el bosque corporativo principal. Para esta disposición no fue preciso realizar cambios en las plantillas de certificados.
   
@@ -1546,7 +1546,7 @@ El departamento de TI de Woodgrove National Bank estableció la siguiente lista 
   
 -   **Implicar al personal de asistencia**. Un departamento de asistencia bien preparado debe ser uno de los componentes esenciales de cualquier proyecto relacionado con tarjetas inteligentes. Después de la implantación, el papel del personal de asistencia pasa a ser de mantenimiento. Es esencial que el personal de asistencia esté puntualmente informado de cualquier cambio del sistema interno y de las novedades técnicas que afecten al uso.
   
--   **Proporcionar administración de NIP**.** **Como el principal objetivo del uso de las tarjetas inteligentes es mejorar la seguridad de la red, es esencial mantener seguros los datos almacenados en las tarjetas. El olvido de un NIP constituye un reto, tanto durante la implantación del sistema de tarjetas inteligentes como posteriormente. Debe consultar al fabricante de las tarjetas inteligentes acerca del suministro de herramientas de administración de NIP e implementar procesos de restablecimiento de NIP para usuarios que no puedan hacerlo en una ubicación de la empresa (por ejemplo, cuando se desplazan).
+-   **Proporcionar administración de NIP**. Como el principal objetivo del uso de las tarjetas inteligentes es mejorar la seguridad de la red, es esencial mantener seguros los datos almacenados en las tarjetas. El olvido de un NIP constituye un reto, tanto durante la implantación del sistema de tarjetas inteligentes como posteriormente. Debe consultar al fabricante de las tarjetas inteligentes acerca del suministro de herramientas de administración de NIP e implementar procesos de restablecimiento de NIP para usuarios que no puedan hacerlo en una ubicación de la empresa (por ejemplo, cuando se desplazan).
   
 -   **Implementar medidas contra alteraciones**. Las tarjetas inteligentes necesitan protección contra las alteraciones, de modo que se bloqueen si un usuario escribe mal el NIP cinco veces consecutivas.
   
