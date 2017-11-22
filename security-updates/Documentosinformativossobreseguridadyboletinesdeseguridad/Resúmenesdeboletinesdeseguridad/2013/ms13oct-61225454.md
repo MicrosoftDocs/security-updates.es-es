@@ -4,7 +4,7 @@ Title: Resumen del boletín de seguridad de Microsoft de octubre 2013
 ms:assetid: 'ms13-oct'
 ms:contentKeyID: 61225454
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms13-oct(v=Security.10)'
---- Summary
+---
 
 Resumen del boletín de seguridad de Microsoft de octubre 2013
 =============================================================
