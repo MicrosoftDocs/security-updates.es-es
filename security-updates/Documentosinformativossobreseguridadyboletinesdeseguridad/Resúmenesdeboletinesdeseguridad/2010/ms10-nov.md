@@ -4,7 +4,7 @@ Title: Resumen del boletín de seguridad de Microsoft de noviembre 2010
 ms:assetid: 'ms10-nov'
 ms:contentKeyID: 61225417
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms10-nov(v=Security.10)'
---- Summary
+---
 
 Resumen del boletín de seguridad de Microsoft de noviembre 2010
 ===============================================================
@@ -391,9 +391,11 @@ Microsoft Forefront Unified Access Gateway
 [Forefront Unified Access Gateway 2010](http://www.microsoft.com/downloads/details.aspx?familyid=5f2ee08e-e289-47db-bd3f-7b9cfc1eb985)<sup>[1]</sup>
 (KB2433585)  
 (Importante)  
+
 [Forefront Unified Access Gateway 2010 actualización 1](http://www.microsoft.com/downloads/details.aspx?familyid=db0b70c8-1fa5-4d92-9888-3500c7566b19)<sup>[1]</sup>
 (KB2433584)  
 (Importante)  
+
 [Forefront Unified Access Gateway 2010 actualización 2](http://www.microsoft.com/downloads/details.aspx?familyid=4e3ee07a-771c-46ee-959f-82389bab67d7)<sup>[1]</sup>
 (KB2418933)  
 (Importante)

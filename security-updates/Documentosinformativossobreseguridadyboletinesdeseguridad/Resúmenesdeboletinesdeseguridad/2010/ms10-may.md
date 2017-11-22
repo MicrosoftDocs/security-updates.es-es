@@ -4,7 +4,7 @@ Title: Resumen del boletín de seguridad de Microsoft de mayo 2010
 ms:assetid: 'ms10-may'
 ms:contentKeyID: 61225416
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms10-may(v=Security.10)'
---- Summary
+---
 
 Resumen del boletín de seguridad de Microsoft de mayo 2010
 ==========================================================
@@ -133,6 +133,7 @@ Microsoft Windows 2000 Service Pack 4
 [Microsoft Outlook Express 5.5 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=661f5de3-a593-4961-8e8d-2777797eb5c5)  
 (KB978542)  
 (Crítica)  
+
 [Microsoft Outlook Express 6 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=cda75174-b535-4559-a52d-b5ec3a1df349)  
 (KB978542)  
 (Crítica)
@@ -167,6 +168,7 @@ Windows XP Service Pack 2 y Windows XP Service Pack 3
 [Microsoft Outlook Express 6](http://www.microsoft.com/downloads/details.aspx?familyid=99707c3d-a3cb-47da-b38e-8ae0227fd703)  
 (KB978542)  
 (Crítica)  
+
 [Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=99707c3d-a3cb-47da-b38e-8ae0227fd703) <sup>[1]</sup>
 (KB978542)  
 (Importante)
@@ -180,6 +182,7 @@ Windows XP Professional x64 Edition Service Pack 2
 [Microsoft Outlook Express 6](http://www.microsoft.com/downloads/details.aspx?familyid=44bc97bb-6f76-4c96-af72-69daaea80fff)  
 (KB978542)  
 (Crítica)  
+
 [Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=44bc97bb-6f76-4c96-af72-69daaea80fff) <sup>[1]</sup>
 (KB978542)  
 (Importante)
@@ -265,6 +268,7 @@ Windows Vista Service Pack 1 y Windows Vista Service Pack 2
 [Windows Mail](http://www.microsoft.com/downloads/details.aspx?familyid=a970c869-24fe-4ef4-b189-7a6bac2411f1)  
 (KB978542)  
 (Crítica)  
+
 [Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=a970c869-24fe-4ef4-b189-7a6bac2411f1) <sup>[1]</sup>
 (KB978542)  
 (Importante)
@@ -278,6 +282,7 @@ Windows Vista x64 Edition Service Pack 1 y Windows Vista x64 Edition Service Pac
 [Windows Mail](http://www.microsoft.com/downloads/details.aspx?familyid=9a7853b5-4f9f-4467-9530-eea2efd504a5)  
 (KB978542)  
 (Crítica)  
+
 [Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=9a7853b5-4f9f-4467-9530-eea2efd504a5) <sup>[1]</sup>
 (KB978542)  
 (Importante)
@@ -312,6 +317,7 @@ Windows Server 2008 para sistemas de 32 bits y Windows Server 2008 para sistemas
 [Windows Mail](http://www.microsoft.com/downloads/details.aspx?familyid=5f77a640-247c-4ed2-9fca-4b7344f4dc7c) \*\*  
 (KB978542)  
 (Crítica)  
+
 [Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=5f77a640-247c-4ed2-9fca-4b7344f4dc7c) \*\* <sup>[1]</sup>
 (KB978542)  
 (Importante)
@@ -325,6 +331,7 @@ Windows Server 2008 para sistemas x64 y Windows Server 2008 para sistemas x64 Se
 [Windows Mail](http://www.microsoft.com/downloads/details.aspx?familyid=b0eab011-5847-44e4-bc0d-5c5355e1e8d0) \*\*  
 (KB978542)  
 (Crítica)  
+
 [Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=b0eab011-5847-44e4-bc0d-5c5355e1e8d0) \*\* <sup>[1]</sup>
 (KB978542)  
 (Importante)
@@ -338,6 +345,7 @@ Windows Server 2008 para sistemas con Itanium y Windows Server 2008 para sistema
 [Windows Mail](http://www.microsoft.com/downloads/details.aspx?familyid=da01ae82-895e-4739-916f-a63b9095a076)  
 (KB978542)  
 (Crítica)  
+
 [Windows Live Mail](http://www.microsoft.com/downloads/details.aspx?familyid=da01ae82-895e-4739-916f-a63b9095a076) <sup>[1]</sup>
 (KB978542)  
 (Importante)

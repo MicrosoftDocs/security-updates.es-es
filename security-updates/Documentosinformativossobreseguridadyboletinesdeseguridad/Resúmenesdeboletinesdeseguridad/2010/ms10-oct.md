@@ -4,7 +4,7 @@ Title: Microsoft Security Bulletin Summary for octubre 2010
 ms:assetid: 'ms10-oct'
 ms:contentKeyID: 61225418
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms10-oct(v=Security.10)'
---- Summary
+---
 
 Microsoft Security Bulletin Summary for octubre 2010
 ====================================================
@@ -419,8 +419,10 @@ Windows XP Service Pack 3
 <td style="border:1px solid black;">
 [Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=3b029696-cf98-4935-b3d6-846110aaa4bb)  
 (Crítica)  
+
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=c77ee103-7e97-44b2-bbf3-ee9f0de37fed)  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=93580299-d764-417f-a7fa-ee441fea2bb3)  
 (Crítica)
 </td>
@@ -449,8 +451,10 @@ No aplicable
 <td style="border:1px solid black;">
 [Reproductor de Windows Media Serie 9](http://www.microsoft.com/downloads/details.aspx?familyid=bbf153e7-e764-46a0-a33b-81b7288d346c)  
 (Importante)  
+
 [Reproductor de Windows Media 10](http://www.microsoft.com/downloads/details.aspx?familyid=bbf153e7-e764-46a0-a33b-81b7288d346c)  
 (Importante)  
+
 [Reproductor de Windows Media 11](http://www.microsoft.com/downloads/details.aspx?familyid=bbf153e7-e764-46a0-a33b-81b7288d346c)  
 (Importante)
 </td>
@@ -481,8 +485,10 @@ Windows XP Professional x64 Edition Service Pack 2
 <td style="border:1px solid black;">
 [Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=d494535a-b68e-4242-af85-5fa62f631ffc)  
 (Crítica)  
+
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=ff9c65fe-437c-426d-9096-dd89ff7927fd)  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=05413f6c-b4be-4892-b4b3-c54dd01fd95d)  
 (Crítica)
 </td>
@@ -512,6 +518,7 @@ No aplicable
 <td style="border:1px solid black;">
 [Reproductor de Windows Media 10](http://www.microsoft.com/downloads/details.aspx?familyid=0663e0e8-c5d1-4cd2-b6d3-ff78fb56bba1)  
 (Importante)  
+
 [Reproductor de Windows Media 11](http://www.microsoft.com/downloads/details.aspx?familyid=474b5618-dfe6-40de-b59b-1fd61a05749e)  
 (Importante)
 </td>
@@ -635,8 +642,10 @@ Windows Server 2003 Service Pack 2
 <td style="border:1px solid black;">
 [Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=f64af3cd-591d-4212-94a0-3bc9a4d9782a)  
 (Importante)  
+
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=fbcf0e65-c9f4-47f8-b4fc-ae46a66ab339)  
 (Importante)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=9af37f62-5585-4ff5-9dd3-3fa0b148ae08)  
 (Importante)
 </td>
@@ -693,8 +702,10 @@ Windows Server 2003 x64 Edition Service Pack 2
 <td style="border:1px solid black;">
 [Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=12c3b950-b955-4820-9b4c-5206deb0cd3e)  
 (Importante)  
+
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=59a715a5-10ff-40e6-88e0-096c9b640799)  
 (Importante)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=c8052f0c-e62c-46c4-bb59-d515fa388ea8)  
 (Importante)
 </td>
@@ -752,6 +763,7 @@ Windows Server 2003 con SP2 para sistemas con Itanium
 <td style="border:1px solid black;">
 [Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=97b3f6dc-8df5-4c93-aaee-f191498c7ce4)  
 (Importante)  
+
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=ba194be9-24f9-4c62-9aa9-9e98c81ddba1)  
 (Importante)
 </td>
@@ -901,6 +913,7 @@ Windows Vista Service Pack 1 y Windows Vista Service Pack 2
 <td style="border:1px solid black;">
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=4f656d16-2a7e-4d18-8a5a-ebf8a1a10e2b)  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=191c8388-f1ef-45b6-9f07-d5654a973abe)  
 (Crítica)
 </td>
@@ -934,6 +947,7 @@ No aplicable
 [Windows Vista Service Pack 1 y Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=80c99d69-4b97-4af2-8f8e-f3b300a89a5a)<sup>[1]</sup>
 (KB979687)  
 (Importante)  
+
 [Windows Vista Service Pack 1 y Windows Vista Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=dff92449-22ad-49a8-8b28-5295a8af5b8b)<sup>[1]</sup>
 (KB979688)  
 (Importante)
@@ -960,6 +974,7 @@ Windows Vista x64 Edition Service Pack 1 y Windows Vista x64 Edition Service Pac
 <td style="border:1px solid black;">
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=02c6260c-8e21-401a-992d-884c6ff7141d)  
 (Crítica)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=adeb3036-62fa-4a29-b82f-ff4a50c05996)  
 (Crítica)
 </td>
@@ -994,6 +1009,7 @@ No aplicable
 [Windows Vista x64 Edition Service Pack 1 y Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=b73951f2-a7eb-4c7c-bf60-fdcfee83574f)<sup>[1]</sup>
 (KB979687)  
 (Importante)  
+
 [Windows Vista x64 Edition Service Pack 1 y Windows Vista x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=c9d2261f-bd9a-4495-a2f1-3c3b2208b01e)<sup>[1]</sup>
 (KB979688)  
 (Importante)
@@ -1113,6 +1129,7 @@ Windows Server 2008 para sistemas de 32 bits y Windows Server 2008 para sistemas
 <td style="border:1px solid black;">
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=0107dd61-7b3e-4fcf-9743-d9ae594b2278)\*\*  
 (Importante)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=ea5b7c86-3878-43a9-a4bc-12e04bfbd06e)\*\*  
 (Importante)
 </td>
@@ -1145,6 +1162,7 @@ No aplicable
 [Windows Server 2008 para sistemas de 32 bits y Windows Server 2008 para sistemas de 32 bits Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=fd507e7a-4516-474b-8f33-7fa8fd2afa6d)\*\*<sup>[1]</sup>
 (KB979687)  
 (Importante)  
+
 [Windows Server 2008 para sistemas de 32 bits y Windows Server 2008 para sistemas de 32 bits Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=4a8c2358-36ea-4757-abfc-5bffcad0a872)\*\*<sup>[1]</sup>
 (KB979688)  
 (Importante)
@@ -1171,6 +1189,7 @@ Windows Server 2008 para sistemas x64 y Windows Server 2008 para sistemas x64 Se
 <td style="border:1px solid black;">
 [Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=139f3bb2-eefc-4cf4-9c15-de78f5a736c1)\*\*  
 (Importante)  
+
 [Internet Explorer 8](http://www.microsoft.com/downloads/details.aspx?familyid=71ecdb27-46aa-4db1-b86a-3268cda88632)\*\*  
 (Importante)
 </td>
@@ -1204,6 +1223,7 @@ No aplicable
 [Windows Server 2008 para sistemas x64 y Windows Server 2008 para sistemas x64 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=b5f53faf-61e2-4b4e-8b85-c5e8f38e5c30)\*\*<sup>[1]</sup>
 (KB979687)  
 (Importante)  
+
 [Windows Server 2008 para sistemas x64 y Windows Server 2008 para sistemas x64 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=612ab78c-1ff1-45d2-96cc-ae831fb0a563)\*\*<sup>[1]</sup>
 (KB979688)  
 (Importante)
@@ -1260,6 +1280,7 @@ No aplicable
 [Windows Server 2008 para sistemas con Itanium y Windows Server 2008 para sistemas con Itanium Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=5efe55b0-d34d-4f00-98b2-cc0e9807a8b9)<sup>[1]</sup>
 (KB979687)  
 (Importante)  
+
 [Windows Server 2008 para sistemas con Itanium y Windows Server 2008 para sistemas con Itanium Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=d30368cb-c6e8-403e-aaf6-425f96b6211e)<sup>[1]</sup>
 (KB979688)  
 (Importante)
@@ -1410,6 +1431,7 @@ No aplicable
 [Windows 7 para sistemas de 32 bits](http://www.microsoft.com/downloads/details.aspx?familyid=b0d46bc3-24db-4207-b6fc-46b8cc64f075)<sup>[1]</sup>
 (KB979687)  
 (Importante)  
+
 [Windows 7 para sistemas de 32 bits](http://www.microsoft.com/downloads/details.aspx?familyid=4a422192-d7fa-47e5-9661-2c65eaefaf62)<sup>[1]</sup>
 (KB979688)  
 (Importante)
@@ -1468,6 +1490,7 @@ No aplicable
 [Windows 7 para sistemas x64](http://www.microsoft.com/downloads/details.aspx?familyid=2de197c0-6d9e-460e-9509-f337fac8ee85)<sup>[1]</sup>
 (KB979687)  
 (Importante)  
+
 [Windows 7 para sistemas x64](http://www.microsoft.com/downloads/details.aspx?familyid=03665687-8fd4-4afd-ac33-5f6824f51df8)<sup>[1]</sup>
 (KB979688)  
 (Importante)
@@ -1663,6 +1686,7 @@ No aplicable
 [Windows Server 2008 R2 para sistemas x64](http://www.microsoft.com/downloads/details.aspx?familyid=70622d35-4877-4cbb-bdbf-7648dc1ea8ed)\*\*<sup>[1]</sup>
 (KB979687)  
 (Importante)  
+
 [Windows Server 2008 R2 para sistemas x64](http://www.microsoft.com/downloads/details.aspx?familyid=1c2ff242-65e3-4d47-bfca-4db30f809ed8)\*\*<sup>[1]</sup>
 (KB979688)  
 (Importante)
@@ -1765,6 +1789,7 @@ No aplicable
 [Windows Server 2008 R2 para sistemas con Itanium](http://www.microsoft.com/downloads/details.aspx?familyid=3cec2b70-f694-4c0d-bf82-96a4fd50675d)<sup>[1]</sup>
 (KB979687)  
 (Importante)  
+
 [Windows Server 2008 R2 para sistemas con Itanium](http://www.microsoft.com/downloads/details.aspx?familyid=f478020b-0305-47d5-bcb2-0758f292db29)<sup>[1]</sup>
 (KB979688)  
 (Importante)
@@ -2157,6 +2182,7 @@ Microsoft Windows SharePoint Services 3.0
 [Microsoft Windows SharePoint Services 3.0 Service Pack 2 (versiones de 32 bits)](http://www.microsoft.com/downloads/details.aspx?familyid=12fd97a9-6fb8-4b65-a497-a56587f114e1)  
 (KB2345304)  
 (Importante)  
+
 [Microsoft Windows SharePoint Services 3.0 Service Pack 2 (versiones de 64 bits)](http://www.microsoft.com/downloads/details.aspx?familyid=58d1e91d-a037-485d-a6d9-80fbf403b108)  
 (KB2345304)  
 (Importante)
@@ -2213,6 +2239,7 @@ Microsoft Office SharePoint Server 2007
 [Microsoft Office SharePoint Server 2007 Service Pack 2 (ediciones de 32 bits)](http://www.microsoft.com/downloads/details.aspx?familyid=aee3f2de-ccf3-4d32-b468-eede4e8afcd4)<sup>[1]</sup>
 (KB2345212)  
 (Importante)  
+
 [Microsoft Office SharePoint Server 2007 Service Pack 2 (ediciones de 64 bits)](http://www.microsoft.com/downloads/details.aspx?familyid=e5e60751-242a-4fdb-9852-6d94050d3d0e)<sup>[1]</sup>
 (KB2345212)  
 (Importante)
@@ -2274,6 +2301,7 @@ Microsoft Office Web Apps
 [Microsoft Office Web Apps](http://www.microsoft.com/downloads/details.aspx?familyid=8fb56eb9-9601-4c1e-905a-9fe4802b2c8d)<sup>[2]</sup>
 (KB2346411)  
 (Importante)  
+
 [Microsoft Word Web App](http://www.microsoft.com/downloads/details.aspx?familyid=13b24264-ec3d-44e8-81e3-82ac767defd3)<sup>[2]</sup>
 (KB2345015)  
 (Importante)

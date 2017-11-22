@@ -4,7 +4,7 @@ Title: Microsoft Security Bulletin Summary for noviembre 2011
 ms:assetid: 'ms11-nov'
 ms:contentKeyID: 61225429
 ms:mtpsurl: 'https://technet.microsoft.com/es-ES/library/ms11-nov(v=Security.10)'
---- Summary
+---
 
 Microsoft Security Bulletin Summary for noviembre 2011
 ======================================================
@@ -263,6 +263,7 @@ No aplicable
 [Active Directory](http://www.microsoft.com/downloads/details.aspx?familyid=08b27ce7-c32e-41e4-ad04-481c5eab17a7)  
 (KB2601626)  
 (Importante)  
+
 [Active Directory Application Mode (ADAM)](http://www.microsoft.com/downloads/details.aspx?familyid=f116824e-ea48-422d-b284-c9ffa7604bf5)  
 (KB2616310)  
 (Importante)
@@ -285,6 +286,7 @@ No aplicable
 [Active Directory](http://www.microsoft.com/downloads/details.aspx?familyid=de5a74f2-2cc8-4677-b495-3a40fe3d6b9e)  
 (KB2601626)  
 (Importante)  
+
 [Active Directory Application Mode (ADAM)](http://www.microsoft.com/downloads/details.aspx?familyid=1af1b734-62c7-4e08-91c8-90b6d026da84)  
 (KB2616310)  
 (Importante)
