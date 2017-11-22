@@ -11,10 +11,10 @@ Escenarios seleccionados para mejorar la seguridad con Windows Vista
 
 ##### En esta página
 
-[](#edaa)[Introducción](#edaa)
-[](#ecaa)[Lo nuevo en Seguridad](#ecaa)
-[](#ebaa)[Escenarios clave para evaluar las directivas de restricción de software y la protección de cuentas de usuario en su organización](#ebaa)
-[](#eaaa)[Repaso de los escenarios de prueba](#eaaa)
+[](#edaa)[Introducción](#edaa)  
+[](#ecaa)[Lo nuevo en Seguridad](#ecaa)  
+[](#ebaa)[Escenarios clave para evaluar las directivas de restricción de software y la protección de cuentas de usuario en su organización](#ebaa)  
+[](#eaaa)[Repaso de los escenarios de prueba](#eaaa)  
 
 ### Introducción
 

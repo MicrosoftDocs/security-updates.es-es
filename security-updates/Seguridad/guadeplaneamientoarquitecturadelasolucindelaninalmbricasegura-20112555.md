@@ -13,12 +13,12 @@ Publicado: octubre 11, 2004 | Actualizado: 24/11/04
 
 ##### En esta página
 
-[](#efaa)[Introducción](#efaa)
-[](#eeaa)[Diseño conceptual](#eeaa)
-[](#edaa)[Criterios de diseño de soluciones](#edaa)
-[](#ecaa)[Diseño lógico de la solución](#ecaa)
-[](#ebaa)[Reevaluación de los criterios de diseño](#ebaa)
-[](#eaaa)[Resumen](#eaaa)
+[](#efaa)[Introducción](#efaa)  
+[](#eeaa)[Diseño conceptual](#eeaa)  
+[](#edaa)[Criterios de diseño de soluciones](#edaa)    
+[](#ecaa)[Diseño lógico de la solución](#ecaa)  
+[](#ebaa)[Reevaluación de los criterios de diseño](#ebaa)  
+[](#eaaa)[Resumen](#eaaa)  
 
 ### Introducción
 
@@ -210,10 +210,10 @@ A partir de estos requisitos, pueden determinarse los criterios de compatibilida
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Seguridad</td>
-<td style="border:1px solid black;">–autenticación sólida de los clientes inalámbricos.
-–control de acceso que solamente permita el acceso de red a clientes autorizados.
-–cifrado eficaz del tráfico de red inalámbrica.
-–administración segura de las claves de cifrado.
+<td style="border:1px solid black;">–autenticación sólida de los clientes inalámbricos.<br/><br/>
+–control de acceso que solamente permita el acceso de red a clientes autorizados.<br/><br/>
+–cifrado eficaz del tráfico de red inalámbrica.<br/><br/>
+–administración segura de las claves de cifrado.<br/><br/>
 –resistencia a ataques de denegación de servicio.</td>
 </tr>
 <tr class="even">
@@ -222,12 +222,12 @@ A partir de estos requisitos, pueden determinarse los criterios de compatibilida
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">–Número mínimo/máximo de usuarios admitidos</td>
-<td style="border:1px solid black;">–de 500 a 15000 (o más) usuarios de WLAN.
+<td style="border:1px solid black;">–de 500 a 15000 (o más) usuarios de WLAN.<br/><br/>
 –de 500 a 15000 (o más) usuarios de certificados.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">–Número de sitios admitidos</td>
-<td style="border:1px solid black;">–múltiples sitios grandes, con controladores de dominio de autenticación locales y servicio de autenticación de Internet (IAS, Internet Authentication Service) de Microsoft, admitidos con resistencia a errores de red de área extensa (WAN, Wide Area Network).
+<td style="border:1px solid black;">–múltiples sitios grandes, con controladores de dominio de autenticación locales y servicio de autenticación de Internet (IAS, Internet Authentication Service) de Microsoft, admitidos con resistencia a errores de red de área extensa (WAN, Wide Area Network).<br/><br/>
 –múltiples sitios pequeños admitidos sin resistencia a errores de WAN.</td>
 </tr>
 <tr class="odd">
@@ -236,7 +236,7 @@ A partir de estos requisitos, pueden determinarse los criterios de compatibilida
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Reutilización de componentes (capacidad de uso por parte de aplicaciones futuras)</td>
-<td style="border:1px solid black;">–compatibilidad con otras aplicaciones de acceso a la red (acceso a red por cable 802.1X y VPN) mediante la infraestructura de autenticación.
+<td style="border:1px solid black;">–compatibilidad con otras aplicaciones de acceso a la red (acceso a red por cable 802.1X y VPN) mediante la infraestructura de autenticación.<br/><br/>
 –compatibilidad con una amplia variedad de aplicaciones, como el sistema de archivos cifrados (EFS, Encrypting File System) y VPN, mediante PKI.</td>
 </tr>
 <tr class="odd">
@@ -245,7 +245,7 @@ A partir de estos requisitos, pueden determinarse los criterios de compatibilida
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Extensibilidad</td>
-<td style="border:1px solid black;">–extensible para admitir capacidad y normas futuras (por ejemplo, 802.11i, WPA y 802.11a para WLAN).
+<td style="border:1px solid black;">–extensible para admitir capacidad y normas futuras (por ejemplo, 802.11i, WPA y 802.11a para WLAN).<br/><br/>
 –infraestructura de servicios de Certificate Server extensible para admitir la mayoría de los usos comunes de certificados de claves públicas (correo electrónico seguro, inicio de sesión con tarjeta inteligente, firma de código y Seguridad de servicio Web, entre otros).</td>
 </tr>
 <tr class="odd">
