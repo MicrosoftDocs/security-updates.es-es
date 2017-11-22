@@ -3,7 +3,7 @@ TOCTitle: 'Capítulo 5: Directiva de línea de base de controladores de dominio'
 Title: 'Capítulo 5: Directiva de línea de base de controladores de dominio'
 ms:assetid: '4247b4ee-4805-4ac4-8962-9f73c91bb80f'
 ms:contentKeyID: 20200245
-ms:mtpsurl: 'https://technet.microsoft.com/es-es/library/Cc163123(v=TechNet.10)'
+ms:mtpsurl: 'https://technet.microsoft.com/es-es/library/Cc163123(v=TechNet.10)' 
 ---
 
 Guía de Seguridad de Windows Server 2003
@@ -15,14 +15,14 @@ Actualizado: 27/12/05
 
 ##### En esta página
 
-[](#eiaa)[Información general](#eiaa)
-[](#ehaa)[Configuración de directiva de auditoría](#ehaa)
-[](#egaa)[Configuración de Asignación de derechos de usuario](#egaa)
-[](#efaa)[Opciones de seguridad](#efaa)
-[](#eeaa)[Configuración del registro de eventos](#eeaa)
-[](#edaa)[Grupos restringidos](#edaa)
-[](#ecaa)[Configuración de seguridad adicional](#ecaa)
-[](#ebaa)[Creación de la directiva utilizando SCW](#ebaa)
+[](#eiaa)[Información general](#eiaa)  
+[](#ehaa)[Configuración de directiva de auditoría](#ehaa)  
+[](#egaa)[Configuración de Asignación de derechos de usuario](#egaa)  
+[](#efaa)[Opciones de seguridad](#efaa)  
+[](#eeaa)[Configuración del registro de eventos](#eeaa)  
+[](#edaa)[Grupos restringidos](#edaa)  
+[](#ecaa)[Configuración de seguridad adicional](#ecaa)  
+[](#ebaa)[Creación de la directiva utilizando SCW](#ebaa)  
 [](#eaaa)[Resumen](#eaaa)
 
 ### Información general
@@ -897,7 +897,7 @@ La directiva se prueba para asegurar que la aplicación de esta directiva a los 
 Cuando esté satisfecho con la configuración de la directiva, puede utilizar Scwcmd como se muestra en el procedimiento siguiente para convertir las directivas a GPO.
   
 Para obtener más información acerca de cómo probar las directivas del SCW, consulte la [Guía de implementación para el Asistente para la configuración de seguridad](http://technet.microsoft.com/es-es/library/cc776871.aspx) en www.microsoft.com/technet/prodtechnol/windowsserver2003/  
-library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx* *y la [documentación del Asistente para la configuración de seguridad](http://go.microsoft.com/fwlink/?linkid=43450) en http://go.microsoft.com/fwlink/?linkid=43450.
+library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx y la [documentación del Asistente para la configuración de seguridad](http://go.microsoft.com/fwlink/?linkid=43450) en http://go.microsoft.com/fwlink/?linkid=43450.
   
 #### Conversión e implementación de la directiva
   
@@ -905,15 +905,16 @@ Después de probar completamente la directiva, complete los pasos siguientes par
   
 1.  En el símbolo de sistema, escriba el siguiente comando:
   
-    ```  
-scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;  
-```
-  
+    ```
+	scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>
+	```
+	
     y, a continuación, pulse Entrar. Por ejemplo:
   
-    ```  
-scwcmd transform /p:"C:\\Windows\\Security\\msscw\\Policies\\Domain Controller.xml" /g:"Domain Controller Policy"  
-```
+    ```
+	scwcmd transform /p:"C:\Windows\Security\msscw\Policies\Domain
+	Controller.xml" /g:"Domain Controller Policy"
+	```
   
     **Nota**: la información que se introducirá en el símbolo del sistema se muestra aquí en más de una línea a causa de las limitaciones de pantalla. Esta información debe introducirse en una línea.
   
