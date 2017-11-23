@@ -13,15 +13,15 @@ Publicado: octubre 11, 2004 | Actualizado: 24/11/04
 
 ##### En esta página
 
-[](#eiaa)[Introducción](#eiaa)
-[](#ehaa)[Hoja de trabajo de planeamiento de WLAN mediante 802.1X](#ehaa)
-[](#egaa)[Preparación del entorno para una WLAN segura](#egaa)
-[](#efaa)[Configuración e implementación de certificados de autenticación de WLAN](#efaa)
-[](#eeaa)[Configuración de la estructura de acceso de WLAN](#eeaa)
-[](#edaa)[Habilitación del acceso a WLAN para usuarios y equipos](#edaa)
-[](#ecaa)[Configuración de AP inalámbricos para redes 802.1X](#ecaa)
-[](#ebaa)[Pruebas y comprobación](#ebaa)
-[](#eaaa)[Resumen](#eaaa)
+[](#eiaa)[Introducción](#eiaa)  
+[](#ehaa)[Hoja de trabajo de planeamiento de WLAN mediante 802.1X](#ehaa)  
+[](#egaa)[Preparación del entorno para una WLAN segura](#egaa)  
+[](#efaa)[Configuración e implementación de certificados de autenticación de WLAN](#efaa)  
+[](#eeaa)[Configuración de la estructura de acceso de WLAN](#eeaa)  
+[](#edaa)[Habilitación del acceso a WLAN para usuarios y equipos](#edaa)  
+[](#ecaa)[Configuración de AP inalámbricos para redes 802.1X](#ecaa)  
+[](#ebaa)[Pruebas y comprobación](#ebaa)  
+[](#eaaa)[Resumen](#eaaa)  
 
 ### Introducción
 
@@ -329,7 +329,7 @@ En el servidor IAS se necesita un certificado de servidor para autenticar el equ
   
 **Para crear una plantilla de certificados de autenticación de servidores**
   
-1.  Cree un duplicado de la plantilla de certificados de servidor** **IAS y RAS. Escriba **Autenticación de servidor IAS y RAS** en el campo **Nombre para mostrar plantilla** en la ficha **General** de las propiedades de la nueva plantilla.
+1.  Cree un duplicado de la plantilla de certificados de servidor IAS y RAS. Escriba **Autenticación de servidor IAS y RAS** en el campo **Nombre para mostrar plantilla** en la ficha **General** de las propiedades de la nueva plantilla.
   
 2.  En la ficha **Extensiones**, asegúrese de que las directivas de aplicación sólo contienen **Autenticación de servidor** (OID 1.3.6.1.5.5.7.3.1).
   
@@ -355,7 +355,7 @@ Los usuarios finales necesitan certificados de usuario para la autenticación en
   
 2.  En la ficha **Tratamiento de la petición**, seleccione **CSP** y desactive las casillas de verificación de **Microsoft Base DSS Cryptographic Provider**.
   
-3.  En la ficha **Nombre de sujeto**, compruebe que está activado **Construido a partir de esta información de Active Directory**. En **Formato de nombre de sujeto**,** **seleccione **Nombre común**. Asegúrese de que **Nombre principal del usuario (UPN**) es la única opción seleccionada en **Incluir esta información en un nombre de sujeto alternativo**.
+3.  En la ficha **Nombre de sujeto**, compruebe que está activado **Construido a partir de esta información de Active Directory**. En **Formato de nombre de sujeto**,seleccione **Nombre común**. Asegúrese de que **Nombre principal del usuario (UPN**) es la única opción seleccionada en **Incluir esta información en un nombre de sujeto alternativo**.
   
 4.  En la ficha **Extensiones**, asegúrese de que sólo **Autenticación de cliente (OID 1.3.6.1.5.5.7.3.2)** se incluye en **Directivas de aplicación**.
   
@@ -379,7 +379,7 @@ Es necesario un certificado para la autenticación de equipos en el servidor IAS
   
 4.  También en la ficha **Extensiones**, edite las directivas de emisión y agregue la directiva **Seguridad baja**.
   
-5.  En la ficha **Seguridad**, agregue el grupo de seguridad Autenticación de cliente inscrito automáticamente: certificado de equipo** **(WOODGROVEBANK\\Autenticación de cliente inscrito automáticamente: certificado de equipo) con los permisos de **Lectura**, **Inscripción **e **Inscripción automática**.
+5.  En la ficha **Seguridad**, agregue el grupo de seguridad Autenticación de cliente inscrito automáticamente: certificado de equipo (WOODGROVEBANK\\Autenticación de cliente inscrito automáticamente: certificado de equipo) con los permisos de **Lectura**, **Inscripción** e **Inscripción automática**.
   
     **Importante:** debe eliminar los demás grupos que tengan permisos para inscribir y/o inscribir automáticamente esta plantilla de certificado. Los usuarios o grupos que deban inscribir estos certificados deben agregarse al grupo de inscripción (o de inscripción automática) Plantilla de certificado pertinente. Consulte la nota anterior.
   
@@ -409,7 +409,7 @@ La distribución de certificados de autenticación de servidores en los servidor
   
 2.  Inicie sesión en IAS como miembro del grupo local Administradores y ejecute GPUPDATE /force en un símbolo del sistema.
   
-3.  Abra MMC,** **y, a continuación, agregue el complemento **Certificados**. Cuando se le pida, seleccione la opción **Cuenta de equipo** y, a continuación, **Equipo local**.
+3.  Abra MMC, y, a continuación, agregue el complemento **Certificados**. Cuando se le pida, seleccione la opción **Cuenta de equipo** y, a continuación, **Equipo local**.
   
 4.  Seleccione **Certificados (equipo local)** en el árbol de la consola, seleccione **Todas las tareas** en el menú **Acción** y, a continuación, haga clic en **Inscribir certificados automáticamente**.
   
@@ -421,11 +421,11 @@ La velocidad con la que se emitirá e implementará un certificado de servidor I
   
 **Para comprobar que el certificado de autenticación de servidor IAS se ha implementado**
   
-1.  Inicie la sesión como miembro del grupo local Administradores en el equipo local, abra el complemento Certificados de MMC** **y, a continuación, agregue el complemento **Certificados**. Cuando se le pida, seleccione la opción **Cuenta de equipo** y, a continuación, **Equipo local**.
+1.  Inicie la sesión como miembro del grupo local Administradores en el equipo local, abra el complemento Certificados de MMC y, a continuación, agregue el complemento **Certificados**. Cuando se le pida, seleccione la opción **Cuenta de equipo** y, a continuación, **Equipo local**.
   
 2.  Abra el almacén **Certificados (equipo local)**, **Personal**, **Certificados** y busque un certificado emitido para el nombre del equipo local desde la plantilla de certificado de autenticación de servidor IAS y RAS. Puede ver el nombre de la plantilla en el panel situado a la derecha. Es posible que deba desplazarse horizontalmente para ver la columna adecuada.
   
-3.  Si el certificado necesario no aparece en el complemento** **Certificados de MMC, seleccione **Certificados (equipo local)** en el árbol de la consola, seleccione **Todas las tareas** en el menú **Acción** y, a continuación, seleccione **Inscribir certificados automáticamente**. Espere un momento hasta que la acción se lleve a cabo y después actualice la vista de la carpeta** **Personal, Certificados.
+3.  Si el certificado necesario no aparece en el complemento Certificados de MMC, seleccione **Certificados (equipo local)** en el árbol de la consola, seleccione **Todas las tareas** en el menú **Acción** y, a continuación, seleccione **Inscribir certificados automáticamente**. Espere un momento hasta que la acción se lleve a cabo y después actualice la vista de la carpeta Personal, Certificados.
   
     **Nota:** también se puede saber si la inscripción automática de certificados se ha realizado correctamente mediante los sucesos del Registro de sucesos de aplicación que tienen como origen Inscripción automática y el Id. de suceso 19.
   
@@ -453,11 +453,11 @@ Lleve a cabo los pasos siguientes cuando haya iniciado la sesión como usuario q
   
 **Para comprobar la implementación de certificados de autenticación de usuario**
   
-1.  Si todavía no lo ha hecho, cierre la sesión y vuelva a iniciarla como el usuario seleccionado. Abra MMC** **y agréguele el complemento **Certificados**. Si se le pide, seleccione la opción **Mi cuenta de usuario**.
+1.  Si todavía no lo ha hecho, cierre la sesión y vuelva a iniciarla como el usuario seleccionado. Abra MMC y agréguele el complemento **Certificados**. Si se le pide, seleccione la opción **Mi cuenta de usuario**.
   
 2.  Abra el almacén **Certificados - Usuario actual**, **Personal**, **Certificados** y busque un certificado emitido para el usuario desde la plantilla de certificado Autenticación de cliente: usuario. Debe ver el nombre de la plantilla en el panel situado a la derecha. Es posible que deba desplazarse horizontalmente para ver la columna adecuada.
   
-3.  Si el certificado que requiere no aparece en el complemento **Certificados**, ejecute GPUPDATE /force en un símbolo del sistema, espere unos minutos y, a continuación, renueve la carpeta** **Personal, Certificados.
+3.  Si el certificado que requiere no aparece en el complemento **Certificados**, ejecute GPUPDATE /force en un símbolo del sistema, espere unos minutos y, a continuación, renueve la carpeta Personal, Certificados.
   
 ##### Comprobación de la implementación de certificados de equipo
   
@@ -467,11 +467,11 @@ Lleve a cabo los pasos siguientes en un equipo cliente que se haya agregado al g
   
 1.  Si no ha reiniciado el equipo después de agregarlo al grupo Inscripción automática, reinícielo ahora.
   
-2.  Inicie la sesión como miembro del grupo local Administradores en el equipo local, abra MMC** **y, a continuación, agregue el complemento **Certificados**. Cuando se le pida, seleccione la opción **Cuenta de equipo** y, a continuación, **Equipo local**.
+2.  Inicie la sesión como miembro del grupo local Administradores en el equipo local, abra MMC y, a continuación, agregue el complemento **Certificados**. Cuando se le pida, seleccione la opción **Cuenta de equipo** y, a continuación, **Equipo local**.
   
 3.  Abra el almacén **Certificados (equipo local)**, **Personal**, **Certificados** y busque un certificado emitido para el nombre del equipo local desde la plantilla de certificado Autenticación de cliente: equipo. Debe ver el nombre de la plantilla en el panel situado a la derecha. Es posible que deba desplazarse horizontalmente para ver la columna adecuada.
   
-4.  Si el certificado que requiere no aparece en el complemento **Certificados**, ejecute GPUPDATE /force en un símbolo del sistema, espere unos minutos y, a continuación, renueve la carpeta** **Personal, Certificados.
+4.  Si el certificado que requiere no aparece en el complemento **Certificados**, ejecute GPUPDATE /force en un símbolo del sistema, espere unos minutos y, a continuación, renueve la carpeta Personal, Certificados.
   
     **Sugerencia:** puede reiniciar el equipo para que se realice el reintento de inscripción automática del certificado. También se puede saber si la inscripción automática de certificados se ha realizado correctamente mediante los sucesos del Registro de sucesos de aplicación que tienen como origen Inscripción automática y el Id. de suceso 19.
   
@@ -497,7 +497,7 @@ Utilice el complemento Servicio de autenticación de MMC para realizar los sigui
   
 5.  Seleccione **Tarjeta inteligente u otro certificado** como tipo de Protocolo de autenticación extensible (EAP) y, a continuación, seleccione el certificado de autenticación de servidor instalado para IAS. Finalice el asistente y ciérrelo.
   
-    **Nota:** la nueva directiva** **Permitir acceso inalámbrico puede coexistir con otras directivas de acceso remoto creadas por el usuario o predeterminadas. Sin embargo, asegúrese de que las directivas de acceso remoto predeterminadas se eliminan o se enumeran después de la directiva Permitir acceso inalámbrico en la carpeta** **Directivas de acceso remoto.
+    **Nota:** la nueva directiva Permitir acceso inalámbrico puede coexistir con otras directivas de acceso remoto creadas por el usuario o predeterminadas. Sin embargo, asegúrese de que las directivas de acceso remoto predeterminadas se eliminan o se enumeran después de la directiva Permitir acceso inalámbrico en la carpeta Directivas de acceso remoto.
   
 ##### Modificación de la configuración del perfil de la directiva de acceso a WLAN
   
@@ -519,7 +519,7 @@ La directiva de petición de conexión IAS predeterminada está configurada para
   
 **Para comprobar la configuración de la directiva de petición de conexión predeterminada**
   
-1.  Abra el complemento Servicio de autenticación de Internet de MMC para ver las propiedades de la directiva de** **petición de conexión **Usar autenticación de Windows para todos los usuarios**.
+1.  Abra el complemento Servicio de autenticación de Internet de MMC para ver las propiedades de la directiva de petición de conexión **Usar autenticación de Windows para todos los usuarios**.
   
 2.  Compruebe que las lista de condiciones de directiva contiene **Coincidencias de fecha y hora** **“Dom 00:00-24:00; Lun 00:00-24:00; Mar 00:00-24:00; Mié 00:00-24:00; Jue 00:00-24:00; Vie 00:00-24:00; Sáb 00:00-24:00”**
   
@@ -567,7 +567,7 @@ Los últimos pasos para la habilitación de usuarios y equipos para el acceso a 
   
 #### Comprobación de los permisos de acceso remoto de Active Directory
   
-Las cuentas de usuarios y equipos de Active Directory deben tener los permisos adecuados de acceso remoto para poder utilizar la directiva de acceso remoto. De manera predeterminada, el permiso de acceso remoto de las cuentas de un dominio de Active Directory en modo nativo se establecen en **Controlar acceso a través de la directiva de acceso remoto**;** **por lo tanto, normalmente no es necesaria ninguna modificación.
+Las cuentas de usuarios y equipos de Active Directory deben tener los permisos adecuados de acceso remoto para poder utilizar la directiva de acceso remoto. De manera predeterminada, el permiso de acceso remoto de las cuentas de un dominio de Active Directory en modo nativo se establecen en **Controlar acceso a través de la directiva de acceso remoto**; por lo tanto, normalmente no es necesaria ninguna modificación.
   
 No obstante, puede comprobar que los usuarios y equipos de destino están configurados correctamente con el complemento Usuarios y equipos de Active Directory de MMC. Compruebe que se ha seleccionado **Controlar acceso a través de la directiva de acceso remoto** en la opción **Permiso de acceso remoto (acceso telefónico o red privada virtual)** en la ficha **Marcado** de las propiedades de la cuenta.
   
@@ -644,7 +644,7 @@ La configuración de GPO inalámbricos no se mostrará en la MMC GPO si edita el
   
 5.  Seleccione el objeto **Directivas de red inalámbrica (IEEE 802.11)** en el panel de exploración y, a continuación, seleccione **Crear directiva de red inalámbrica** en el menú **Acción**. Utilice el asistente para asignar el nombre **Configuración inalámbrica de equipo cliente** a la directiva. Deje la opción **Editar propiedades** seleccionada y, a continuación, haga clic en **Finalizar** para cerrar el asistente.
   
-6.  Seleccione **Agregar** en la ficha **Redes preferidas** de la directiva** **Configuración inalámbrica de equipo cliente y, a continuación, escriba el nombre de red o el Id. del conjunto de servicios (SSID) de la red inalámbrica.
+6.  Seleccione **Agregar** en la ficha **Redes preferidas** de la directiva Configuración inalámbrica de equipo cliente y, a continuación, escriba el nombre de red o el Id. del conjunto de servicios (SSID) de la red inalámbrica.
   
     **Nota:** si los clientes utilizan una WLAN existente, debe elegir otro SSID para la nueva LAN inalámbrica 802.1X. Este SSID es el que se debe escribir después en el perfil de red inalámbrica de 802.1X.
   

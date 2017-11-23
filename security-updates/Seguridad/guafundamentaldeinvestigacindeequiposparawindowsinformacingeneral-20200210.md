@@ -21,13 +21,13 @@ Algunas de las directivas y los procedimientos invocados en las investigaciones 
 
 ##### En esta página
 
-[](#eiaa)[Modelo de investigación informática](#eiaa)
-[](#ehaa)[Proceso inicial de toma de decisiones](#ehaa)
-[](#egaa)[Resumen del capítulo](#egaa)
-[](#efaa)[Destinatarios](#efaa)
-[](#eeaa)[Advertencias y Renuncias](#eeaa)
-[](#edaa)[Referencias y créditos](#edaa)
-[](#ecaa)[Convenciones de estilo](#ecaa)
+[](#eiaa)[Modelo de investigación informática](#eiaa)  
+[](#ehaa)[Proceso inicial de toma de decisiones](#ehaa)  
+[](#egaa)[Resumen del capítulo](#egaa)  
+[](#efaa)[Destinatarios](#efaa)  
+[](#eeaa)[Advertencias y Renuncias](#eeaa)  
+[](#edaa)[Referencias y créditos](#edaa)  
+[](#ecaa)[Convenciones de estilo](#ecaa)  
 [](#ebaa)[Soporte y comentarios](#ebaa)
 
 ### Modelo de investigación informática
