@@ -16,7 +16,7 @@ Command line switches for wuauclt
 
 The following are the command line for wuauclt.
 
-###  
+
 
  
 <p> </p>
@@ -46,3 +46,5 @@ The following are the command line for wuauclt.
 </tr>
 </tbody>
 </table>
+
+<p> </p>
