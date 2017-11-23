@@ -13,16 +13,16 @@ Publicado: octubre 11, 2004 | Actualizado: 24/11/04
 
 ##### En esta página
 
-[](#ejaa)[Introducción](#ejaa)
+[](#ejaa)[Introducción](#ejaa)  
 [](#eiaa)[Tareas de mantenimiento esenciales](#eiaa)
-[](#ehaa)[Funciones administrativas de Servicios de Certificate Server](#ehaa)
-[](#egaa)[Tareas de cuadrante operativo](#egaa)
-[](#efaa)[Tareas del cuadrante de compatibilidad](#efaa)
-[](#eeaa)[Tareas del cuadrante de optimización](#eeaa)
-[](#edaa)[Tareas del cuadrante de cambio](#edaa)
-[](#ecaa)[Solución de problemas](#ecaa)
-[](#ebaa)[Tablas de configuración](#ebaa)
-[](#eaaa)[Información adicional](#eaaa)
+[](#ehaa)[Funciones administrativas de Servicios de Certificate Server](#ehaa)  
+[](#egaa)[Tareas de cuadrante operativo](#egaa)  
+[](#efaa)[Tareas del cuadrante de compatibilidad](#efaa)  
+[](#eeaa)[Tareas del cuadrante de optimización](#eeaa)  
+[](#edaa)[Tareas del cuadrante de cambio](#edaa)    
+[](#ecaa)[Solución de problemas](#ecaa)  
+[](#ebaa)[Tablas de configuración](#ebaa)  
+[](#eaaa)[Información adicional](#eaaa)  
 
 ### Introducción
 
@@ -956,9 +956,10 @@ Normalmente, *siempre* debe cambiar la clave de la entidad emisora en cada renov
   
 2.  Si necesita cambiar el tamaño de la clave, debe editar el archivo CAPolicy.inf almacenado en el directorio %systemroot%. Cambie el valor de RenewalKeyLength por el nuevo tamaño de bit deseado. El proveedor de servicios criptográficos (CSP) que utiliza la entidad emisora debe admitir el tamaño de clave. En el ejemplo siguiente, este valor es 2.048.
   
-    ```  
-\[Certsrv\_Server\] RenewalKeyLength=2048  
-```
+    ```
+    [Certsrv_Server]
+    RenewalKeyLength=2048
+    ```
   
     **Nota:** si necesita realizar algún cambio en el período de validez o en las directivas del certificado de entidad emisora, también deberá especificar dicho cambio en el archivo CAPolicy.inf (en %systemroot%) antes de iniciar este procedimiento.
   
@@ -1038,9 +1039,10 @@ Normalmente, *siempre* debe cambiar la clave de la entidad emisora en cada renov
   
 2.  Si necesita cambiar el tamaño de la clave, debe editar el archivo CAPolicy.inf almacenado en el directorio %systemroot%. Cambie el valor de RenewalKeyLength por el tamaño de bit deseado (el CSP que utiliza la CA debe admitir el tamaño de clave).
   
-    ```  
-\[Certsrv\_Server\] RenewalKeyLength=2048  
-```
+    ```
+    [Certsrv_Server]
+    RenewalKeyLength=2048
+    ```
   
     **Importante:** si necesita realizar algún cambio en el período de validez o en las directivas del certificado de entidad emisora, también deberá especificar dicho cambio en el archivo CAPolicy.inf (en %systemroot%) antes de iniciar este procedimiento.
   
@@ -1324,9 +1326,7 @@ Esta tarea configura un trabajo programado para la creación de una copia de seg
   
 2.  Si elige una carpeta diferente para almacenar la copia de seguridad, debe actualizar la configuración relacionada en pkiparams.vbs. Cambie la ruta de la línea siguiente según sea necesario.
   
-    ```  
-CONST SYSSTATE\_BACKUP\_PATH = "C:\\CABackup"   'path used by NTBackup  
-```
+    `CONST SYSSTATE_BACKUP_PATH = "C:\CABackup"   'path used by NTBackup`
   
     **Nota:** puesto que se utiliza la misma función de secuencia de comandos para crear copias de seguridad de la entidad emisora de certificados en línea y fuera de línea, debe realizar copias individuales de las secuencias de comandos si va a utilizar rutas de acceso diferentes para las distintas entidades emisoras de certificados.
   
@@ -1396,9 +1396,7 @@ La entidad emisora raíz no tiene conexión, por lo que necesitará cierto tipo 
   
 2.  Si elige una carpeta diferente para almacenar la copia de seguridad, debe actualizar la configuración relacionada en pkiparams.vbs. Cambie la ruta de la línea siguiente según sea necesario.
   
-    ```  
-CONST SYSSTATE\_BACKUP\_PATH = "C:\\CABackup"   'path used by NTBackup   
-```
+    `CONST SYSSTATE_BACKUP_PATH = "C:\CABackup"   'path used by NTBackup`
   
 ##### Copia de seguridad de la base de datos de la entidad emisora raíz
   
@@ -1608,7 +1606,7 @@ Puede instalar las claves y certificados de entidad emisora en cualquier sistema
   
     Firma del sujeto del certificado:
   
-        CN=Woodgrove Bank Issuing CA 1
+        CN=Woodgrove Bank Issuing CA 1
   
         DC=woodgrovebank,DC=com
   
@@ -2135,9 +2133,34 @@ Trabajo: BackupCADatabase</td>
   
 Antes de implementar las secuencias de comandos, actualice el archivo constants.vbs con los parámetros de alerta correctos. Aquí se muestran las secciones pertinentes del archivo y los elementos que puede cambiar se muestran en cursiva:
   
-```  
-Alerting parameters CONST ALERT\_EMAIL\_ENABLED = FALSE'set to true/false to enable/disable email CONST ALERT\_EVTLOG\_ENABLED= TRUE'set to true/false to enable/disable event 'log entries ' set to comma-separated list of recipients to get email alerts CONST ALERT\_EMAIL\_RECIPIENTS= "Admin@woodgrovebank.com,Ops@woodgrovebank.com" 'SMTP host to use CONST ALERT\_EMAIL\_SMTP= "mail.woodgrovebank.com" 'String used as the Source in event log events CONST EVENT\_SOURCE= "MSS Tools" CONST CA\_EVENT\_SOURCE= "CA Operations" 'CA Event IDs CONST CA\_EVENT\_CS\_RPC\_OFFLINE=1 CONST CA\_EVENT\_CS\_RPC\_ADMIN\_OFFLINE=2 CONST CA\_EVENT\_CA\_CERT\_EXPIRED=10 CONST CA\_EVENT\_CA\_CERT\_NEARLY\_EXPIRED=11 CONST CA\_EVENT\_CA\_CERT\_RENEWAL\_DUE=12 CONST CA\_EVENT\_CRL\_EXPIRED=20 CONST CA\_EVENT\_CRL\_OVERDUE=21 CONST CA\_EVENT\_CRL\_NOT\_AVAILABLE\_LDAP=22 CONST CA\_EVENT\_CRL\_NOT\_AVAILABLE\_HTTP=23 CONST CA\_EVENT\_BACKUP\_LOCKED=30 CONST CA\_EVENT\_CA\_OTHER=100  
-```  
+```
+'Alerting parameters
+CONST ALERT_EMAIL_ENABLED = FALSE'set to true/false to enable/disable email 
+CONST ALERT_EVTLOG_ENABLED= TRUE'set to true/false to enable/disable event
+'log entries
+' set to comma-separated list of recipients to get email alerts
+CONST ALERT_EMAIL_RECIPIENTS= "Admin@woodgrovebank.com,Ops@woodgrovebank.com"
+'SMTP host to use
+CONST ALERT_EMAIL_SMTP= "mail.woodgrovebank.com"
+
+'String used as the Source in event log events
+CONST EVENT_SOURCE= "MSS Tools"
+CONST CA_EVENT_SOURCE= "CA Operations"
+
+'CA Event IDs
+CONST CA_EVENT_CS_RPC_OFFLINE=1
+CONST CA_EVENT_CS_RPC_ADMIN_OFFLINE=2
+CONST CA_EVENT_CA_CERT_EXPIRED=10
+CONST CA_EVENT_CA_CERT_NEARLY_EXPIRED=11
+CONST CA_EVENT_CA_CERT_RENEWAL_DUE=12
+CONST CA_EVENT_CRL_EXPIRED=20
+CONST CA_EVENT_CRL_OVERDUE=21
+CONST CA_EVENT_CRL_NOT_AVAILABLE_LDAP=22
+CONST CA_EVENT_CRL_NOT_AVAILABLE_HTTP=23
+CONST CA_EVENT_BACKUP_LOCKED=30
+CONST CA_EVENT_CA_OTHER=100
+```
+
 Es necesario especificar si desea que los errores produzcan mensajes de correo electrónico, entradas de registro de sucesos o ambos. El valor predeterminado es que sólo se produzcan entradas de registro de sucesos. Si especifica alertas de correo electrónico, *debe* suministrar una lista válida de destinatarios de correo electrónico (separados por comas) y el nombre de host de SMTP o la dirección de IP. Ambas cadenas deben estar entre comillas.
   
 Si especifica una alerta de registro de sucesos, quizás desee cambiar los parámetros CA\_EVENT\_SOURCE (utilizado para todos los sucesos relacionados con la entidad emisora de certificados) o EVENT\_SOURCE (utilizado para sucesos no relacionados con la entidad emisora de certificados).
@@ -2567,9 +2590,13 @@ Los valores del servidor SMTP y la lista de destinatarios SMTP configurados en e
   
 1.  Configure los valores correctos para los destinatarios de correo electrónico y el servidor SMTP en el archivo de secuencias de comandos C:\\MSSScripts\\constants.vbs:
   
-    ```  
-Alerting parameters ' set to comma-separated list of recipients to get email alerts CONST ALERT\_EMAIL\_RECIPIENTS= "Admin@woodgrovebank.com, PKIOps@woodgrovebank.com" CONST ALERT\_EMAIL\_SMTP= "mail.woodgrovebank.com" 'SMTP host to use  
-```
+    ```
+    'Alerting parameters
+    ' set to comma-separated list of recipients to get email alerts
+    CONST ALERT_EMAIL_RECIPIENTS= "Admin@woodgrovebank.com,
+    PKIOps@woodgrovebank.com"
+    CONST ALERT_EMAIL_SMTP= "mail.woodgrovebank.com" 'SMTP host to use
+    ```
   
     **Nota:** la línea con sangría de este extracto de archivo es la continuación de la línea anterior, que se ha ajustado a la siguiente línea para su presentación; debe estar en una sola línea en el archivo.
   

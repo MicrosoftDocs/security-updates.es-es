@@ -13,12 +13,12 @@ Actualizado: 25/5/2005
 
 ##### En esta página
 
-[](#bcdi)[Información general](#bcdi)
-[](#bcde)[Capítulo 1: Introducción](#bcde)
-[](#bcdf)[Capítulo 2: Cómo mejorar la seguridad de las cuentas de administrador](#bcdf)
-[](#bcdh)[Capítulo 3: Directrices para mejorar la seguridad de las cuentas de administrador](#bcdh)
-[](#bcdg)[Capítulo 4: Resumen](#bcdg)
-[](#bcdj)[Agradecimientos](#bcdj)
+[](#bcdi)[Información general](#bcdi)  
+[](#bcde)[Capítulo 1: Introducción](#bcde)  
+[](#bcdf)[Capítulo 2: Cómo mejorar la seguridad de las cuentas de administrador](#bcdf)  
+[](#bcdh)[Capítulo 3: Directrices para mejorar la seguridad de las cuentas de administrador](#bcdh)  
+[](#bcdg)[Capítulo 4: Resumen](#bcdg)  
+[](#bcdj)[Agradecimientos](#bcdj)  
 
 ### Información general
 
@@ -26,11 +26,11 @@ Debido a sus permisos y privilegios inherentes, las cuentas de administrador de 
 
 Esta guía es un recurso indispensable cuando se planean estrategias para proteger las cuentas de nivel de administrador en sistemas operativos basados en Microsoft Windows NT®, como Windows Server 2003 y Windows® XP. Se trata el problema de intrusos que obtienen las credenciales de la cuenta de administrador y las utilizan para poner en peligro la red. El principal objetivo de esta guía es facilitar asesoramiento normativo en cuanto a los pasos que puede seguir para proteger los grupos y cuentas de nivel de administrador locales y basadas en dominio. Esta guía está basada en la experiencia de Security Center of Excellence (SCoE) de Microsoft en entornos de cliente y representa las prácticas recomendadas de Microsoft.
 
-[](#edaa)[Descripción general](#edaa)
-[](#ecaa)[Destinatarios de la guía](#ecaa)
-[](#ebaa)[Guía de planeamiento: descripción general](#ebaa)
-[](#eaaa)[Comuníquenos su opinión](#eaaa)
-
+[](#edaa)[Descripción general](#edaa)  
+[](#ecaa)[Destinatarios de la guía](#ecaa)  
+[](#ebaa)[Guía de planeamiento: descripción general](#ebaa)  
+[](#eaaa)[Comuníquenos su opinión](#eaaa)  
+  
 ### Descripción general
 
 Un aspecto importante de la seguridad de la red es la administración de los usuarios y grupos que tienen acceso administrativo a la base de datos de cuentas locales en equipos independientes y en equipos miembros del dominio, y al servicio de directorio Active Directory® en los controladores de dominio. Existen principalmente dos tipos de atacantes de los que debe protegerse:
@@ -176,9 +176,9 @@ En este capítulo se resume la orientación proporcionada y se tratan los proble
 
 En este capítulo se describe por qué es importante proteger al máximo las cuentas de administrador y se proporciona una descripción general de los grupos y cuentas de usuarios administrativos que puede utilizar para iniciar la sesión en un equipo o dominio. También se describen los principios básicos que deben aplicarse cuando se planea la protección de las cuentas de administrador.
 
-[](#abcd)[Por qué es importante mejorar la seguridad de las cuentas de administrador](#abcd)
-[](#abce)[Descripción general de las cuentas y los grupos administrativos](#abce)
-[](#abcf)[Principios para mejorar la seguridad de las cuentas de administrador](#abcf)
+[](#abcd)[Por qué es importante mejorar la seguridad de las cuentas de administrador](#abcd)  
+[](#abce)[Descripción general de las cuentas y los grupos administrativos](#abce)  
+[](#abcf)[Principios para mejorar la seguridad de las cuentas de administrador](#abcf)  
 
 #### Por qué es importante mejorar la seguridad de las cuentas de administrador
 
@@ -198,7 +198,7 @@ En un equipo local, deber agregar su cuenta de usuario de dominio sólo al grupo
 
 El comando **Ejecutar como** permite llevar a cabo tareas administrativas sin poner en peligro los datos de Active Directory o su equipo. Para obtener más información acerca de cómo utilizar el comando **Ejecutar como**, consulte la sección Utilizar el servicio de inicio de sesión secundario del capítulo 3 de esta guía, "Directrices para mejorar la seguridad de las cuentas de administrador".
 
-![](images/Cc162797.note(es-es,TechNet.10).gif)**Nota:** para obtener más información acerca del uso de **Ejecutar como** en Microsoft® Windows® 2000, Windows XP y Windows Server™ 2003, consulte los artículos de Knowledge Base 294676, 305780, 325859 y 325362. Puede encontrar estos artículos por su número en el sitio Web [Búsqueda de Knowledge Base (KB) de soporte técnico](http://support.microsoft.com/default.aspx) en http://support.microsoft.com/default.aspx?scid=fh;en-us;KBHOWTO ** **
+![](images/Cc162797.note(es-es,TechNet.10).gif)**Nota:** para obtener más información acerca del uso de **Ejecutar como** en Microsoft® Windows® 2000, Windows XP y Windows Server™ 2003, consulte los artículos de Knowledge Base 294676, 305780, 325859 y 325362. Puede encontrar estos artículos por su número en el sitio Web [Búsqueda de Knowledge Base (KB) de soporte técnico](http://support.microsoft.com/default.aspx) en http://support.microsoft.com/default.aspx?scid=fh;en-us;KBHOWTO
 
 [](#mainsection)[Principio de la página](#mainsection)
 
@@ -350,7 +350,7 @@ El servicio de inicio de sesión secundario está configurado para iniciarse aut
 
 3.  Cuando se le pida que especifique una contraseña para la cuenta *nombre\_dominio*\\administrador, escriba la contraseña de la cuenta de administrador y, a continuación, presione ENTRAR.
 
-4.  Aparecerá una nueva ventana de consola, que se ejecuta en el contexto administrativo. El título de la consola se identifica como **Ejecutándose como** *nombre\_dominio***\\administrador**.
+4.  Aparecerá una nueva ventana de consola, que se ejecuta en el contexto administrativo. El título de la consola se identifica como **Ejecutándose como** nombre\_dominio **\\administrador**.
 
 **Para utilizar Ejecutar como con el fin de ejecutar un elemento del Panel de control**
 
@@ -629,7 +629,7 @@ Para obtener información acerca de las contraseñas seguras, consulte las notas
   
 ##### Cambiar las contraseñas de administrador periódicamente
   
-Debe cambiar las contraseñas de las cuentas con privilegios periódicamente. El intervalo entre cada cambio se debe determinar según las consecuencias que el riesgo de la cuenta supongan para la organización. Para obtener directrices acerca de cómo se pueden determinar estas consecuencias, consulte la [Guía de administración de riesgos de seguridad](http://www.microsoft.com/technet/security/guidance/secrisk/default.mspx)**en www.microsoft.com/technet/security/guidance/secrisk/default.mspx.
+Debe cambiar las contraseñas de las cuentas con privilegios periódicamente. El intervalo entre cada cambio se debe determinar según las consecuencias que el riesgo de la cuenta supongan para la organización. Para obtener directrices acerca de cómo se pueden determinar estas consecuencias, consulte la [Guía de administración de riesgos de seguridad](http://www.microsoft.com/technet/security/guidance/secrisk/default.mspx)en www.microsoft.com/technet/security/guidance/secrisk/default.mspx.
   
 Debe cambiar periódicamente las contraseñas de las cuentas de administrador locales. Puede automatizar este proceso para los servidores y estaciones de trabajo con la herramienta **cusrmgr.exe** incluida en el *kit de recursos de Microsoft Windows 2000 Server*. Para obtener más información acerca de cómo utilizar **cusrmgr.exe**, consulte el artículo de Knowledge Base [How to Use the Cusrmgr.exe Tool to Change Administrator Account Password on Multiple Computers](http://support.microsoft.com/kb/272530) en http://support.microsoft.com/kb/272530.
   
@@ -693,7 +693,7 @@ Debe designar todas las cuentas de usuario administrador de nivel de dominio com
   
 La autenticación delegada se produce cuando un servicio de red acepta una solicitud de un usuario y supone la identidad de dicho usuario para iniciar una nueva conexión a un segundo servicio de red. La autenticación delegada resulta útil para aplicaciones de varios niveles que utilizan capacidades de inicio de sesión único en varios equipos. Por ejemplo, se confía automáticamente en los controladores de dominio para la delegación. Si habilita el sistema de cifrado de archivos (EFS) en un servidor de archivos, el servidor debe ser de confianza para la delegación con el fin de almacenar los archivos cifrados en nombre de los usuarios. La autenticación delegada también resulta útil para los programas en los que Servicios de Internet Information Server (IIS) admite una interfaz Web a una base de datos que se ejecuta en otro equipo, como Microsoft Outlook® Web Access (OWA) en Microsoft Exchange Server o para las páginas de compatibilidad de inscripción Web para una entidad emisora de certificados de empresa si las páginas se alojan en otro servidor Web.
   
-Debe denegar el derecho a participar en la autenticación delegada a las cuentas de equipo en Active Directory, a los equipos que no son seguros físicamente y a las cuentas de administrador de dominio. Las cuentas de administrador de dominio tienen acceso a recursos confidenciales y, si se ponen en peligro, suponen un alto riesgo para la organización. Para obtener más información, consulte el tema [Enabling Delegated Authentication](http://www.microsoft.com/resources/documentation/windowsserv/2003/all/deployguide/en-us/dsscc_aut_vwcs.asp)**en el [kit de implementación de Windows Server 2003](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/depkit/c283b699-6124-4c3a-87ef-865443d7ea4b.mspx) en www.microsoft.com/resources/documentation/WindowsServ/2003/all/deployguide/en-us/dsscc\_aut\_vwcs.asp.
+Debe denegar el derecho a participar en la autenticación delegada a las cuentas de equipo en Active Directory, a los equipos que no son seguros físicamente y a las cuentas de administrador de dominio. Las cuentas de administrador de dominio tienen acceso a recursos confidenciales y, si se ponen en peligro, suponen un alto riesgo para la organización. Para obtener más información, consulte el tema [Enabling Delegated Authentication](http://www.microsoft.com/resources/documentation/windowsserv/2003/all/deployguide/en-us/dsscc_aut_vwcs.asp)en el [kit de implementación de Windows Server 2003](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/depkit/c283b699-6124-4c3a-87ef-865443d7ea4b.mspx) en www.microsoft.com/resources/documentation/WindowsServ/2003/all/deployguide/en-us/dsscc\_aut\_vwcs.asp.
   
 ##### Controlar el proceso de inicio de sesión administrativa
   
