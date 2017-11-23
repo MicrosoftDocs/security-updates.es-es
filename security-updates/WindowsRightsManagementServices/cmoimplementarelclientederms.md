@@ -25,7 +25,9 @@ Tras descargar el archivo WindowsRightsManagementServicesSP2-KB917275-Client-ENU
 
 Para ello, puede utilizar el siguiente comando desde el símbolo del sistema:
 
-`WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe /x <path>`
+```
+WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe /x <path>
+```
 
 donde &lt;ruta&gt; es el directorio de destino en que desea colocar los archivos extraídos.
 
@@ -46,7 +48,9 @@ Implementación del cliente RMS con una instalación desatendida
 
 La extracción de los archivos para instalar los archivos de Windows Installer es opcional. También puede implementar el cliente RMS con un método de instalación desatendida. Para ello, puede utilizar el siguiente comando desde el símbolo del sistema:
 
-`WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe -override 1 /I MsDrmClient.msi REBOOT=ReallySuppress /q -override 2 /I RmClientBackCompat.msi REBOOT=ReallySuppress /q`
+```
+WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe -override 1 /I MsDrmClient.msi REBOOT=ReallySuppress /q -override 2 /I RmClientBackCompat.msi REBOOT=ReallySuppress /q
+```
 
 Este comando inicia la instalación desatendida en el cliente RMS.
 
@@ -68,7 +72,10 @@ Implementación del cliente de RMS con SMS
     **General**:
 
     -   En **Línea de comandos**, escriba lo siguiente:
-        `msiexec.exe /q ALLUSERS=2 /m MSIDGHOG /i "<file_name>.msi"`
+        ```
+        msiexec.exe /q ALLUSERS=2 /m MSIDGHOG /i "<file_name>.msi"
+        ```
+ 
         | ![](images/Cc747749.note(WS.10).gif)Nota                                                                        |
         |----------------------------------------------------------------------------------------------------------------------------------------------|
         | MSIDGHOG es un valor aleatorio. Reemplace &lt;nombre\_archivo&gt; por el nombre del archivo de Windows Installer que instalará este paquete. |
@@ -143,6 +150,30 @@ El siguiente procedimiento constituye una guía rápida para los administradores
 Actualización desde una versión anterior
 ----------------------------------------
 
-        ```
+Se puede utilizar un método de instalación desatendida dentro de una secuencia de comandos que detectará si está instalado el cliente RMS con SP2. Si el cliente no está instalado, la secuencia de comandos actualiza el cliente existente o instala el cliente de RMS con SP2. La secuencia de comandos es la siguiente:  
+
+```
+Set objShell = Wscript.CreateObject("Wscript.Shell")
+Set objWindowsInstaller = Wscript.CreateObject("WindowsInstaller.Installer") 
+Set colProducts = objWindowsInstaller.Products 
+
+For Each product In colProducts 
+strProductName = objWindowsInstaller.ProductInfo (product, "ProductName")
+
+if strProductName = "Windows Rights Management Client with Service Pack 2" then
+strInstallFlag = "False"
+Exit For
+else
+strInstallFlag = "True"
+end if
+Next
+
+if strInstallFlag = "True" then
+objShell.run "WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe -override 1 /I MsDrmClient.msi REBOOT=ReallySuppress /q -override 2 /I RmClientBackCompat.msi REBOOT=ReallySuppress /q "
+else
+wscript.echo "No installation required"
+end if
+```
+
 > [!NOTE]
 > Esta secuencia de comandos no funciona con Windows Vista porque el cliente RMS está integrado en el sistema operativo. 

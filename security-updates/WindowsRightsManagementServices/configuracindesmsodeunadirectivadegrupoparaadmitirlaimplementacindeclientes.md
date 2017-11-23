@@ -19,8 +19,12 @@ Para que una aplicación sea compatible con RMS, debe integrar el cliente de RMS
 Si utiliza SMS para distribuir el cliente de RMS, deberá hacer lo siguiente:
 
 -   Cree un archivo de definición de paquete nuevo.
--   Extraiga los archivos de Windows Installer del archivo WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe. Para hacerlo, guarde primero el archivo WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe. No lo instale. En este ejemplo, supongamos que el archivo se guarda en c:\\nombre\_carpeta. Abra una ventana de símbolo de sistema y escriba el siguiente comando:
-    `c:\folder_name\WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe /x/t:c:\folder_name`
+-   Extraiga los archivos de Windows Installer del archivo WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe. Para hacerlo, guarde primero el archivo WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe. No lo instale. En este ejemplo, supongamos que el archivo se guarda en c:\\nombre\_carpeta. Abra una ventana de símbolo de sistema y escriba el siguiente comando:  
+
+    ```
+    c:\folder_name\WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe /x/t:c:\folder_name
+    ```
+
     Este comando extraerá los archivos MSDrmClient.msi y RMClientBackCompat.msi del archivo .exe y se ubicarán en c:\\*nombre\_carpeta*.
 -   Utilice los archivos de Windows Installer para la definición y origen de paquete.
 -   Anuncie la disponibilidad de los paquetes a través de su red.
