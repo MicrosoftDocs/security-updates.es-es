@@ -10281,8 +10281,27 @@ Cualquiera de las soluciones siguientes se podría utilizar para bloquear el ata
   
 El ejemplo de mapa de tráfico en la siguiente tabla utiliza filtros IPSec adicionales que bloquean cualquier intento de obtener acceso a los puertos abiertos desde el puerto 80. En primer lugar, el comando Netstat -ano se utiliza para determinar qué puertos TCP deben estar abiertos en el servidor al que podría conectarse el atacante. La salida de este comando es similar a la siguiente:
   
+```
+C:\Documents and Settings\testuser.domain.000>netstat -ano
+Active Connections
 
-C:\\Documents and Settings\\testuser.domain.000&gt;netstat -ano Active Connections Proto  Local Address       Foreign Address     State         PID TCP    0.0.0.0:135         0.0.0.0:0           LISTENING     740 TCP    0.0.0.0:445         0.0.0.0:0           LISTENING     4 TCP    0.0.0.0:1025        0.0.0.0:0           LISTENING     884 TCP    0.0.0.0:1046        0.0.0.0:0           LISTENING     508 TCP    192.168.0.5:139     0.0.0.0:0           LISTENING     4 UDP    0.0.0.0:445         \*:\*                               4 UDP    0.0.0.0:500         \*:\*                               508 UDP    0.0.0.0:1026        \*:\*                               816 UDP    0.0.0.0:1029        \*:\*                               508 UDP    0.0.0.0:1051        \*:\*                               452 UDP    0.0.0.0:4500        \*:\*                               508 UDP    127.0.0.1:123       \*:\*                               884 UDP    192.168.0.5:123     \*:\*                               884 UDP    192.168.0.5:137     \*:\*                               4 UDP    192.168.0.5:138     \*:\*                               4  
+Proto  Local Address       Foreign Address     State         PID
+TCP    0.0.0.0:135         0.0.0.0:0           LISTENING     740
+TCP    0.0.0.0:445         0.0.0.0:0           LISTENING     4
+TCP    0.0.0.0:1025        0.0.0.0:0           LISTENING     884
+TCP    0.0.0.0:1046        0.0.0.0:0           LISTENING     508
+TCP    192.168.0.5:139     0.0.0.0:0           LISTENING     4
+UDP    0.0.0.0:445         *:*                               4
+UDP    0.0.0.0:500         *:*                               508
+UDP    0.0.0.0:1026        *:*                               816
+UDP    0.0.0.0:1029        *:*                               508
+UDP    0.0.0.0:1051        *:*                               452
+UDP    0.0.0.0:4500        *:*                               508
+UDP    127.0.0.1:123       *:*                               884
+UDP    192.168.0.5:123     *:*                               884
+UDP    192.168.0.5:137     *:*                               4
+UDP    192.168.0.5:138     *:*                               4 
+```
 
 La regla se define para bloquear los ataques específicos del puerto TCP de origen 25 a cada puerto TCP abierto como se indica en la tabla a continuación:
   

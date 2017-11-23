@@ -39,7 +39,7 @@ Inscripción manual de un servidor de certificación raíz
 
 6.  Cuando haya guardado el archivo de la solicitud de inscripción, aparecerá el cuadro de diálogo **Descarga completa**. Puede hacer clic en **Abrir** para ver el código XML en el archivo, pero no es posible modificar el archivo. Para abrir la carpeta en la que está almacenado el archivo, haga clic en **Abrir carpeta**. Haga clic en **Cerrar** si ha terminado de consultar el archivo y de comprobar su ubicación.
 
-7.  Traslade el archivo de la solicitud de inscripción del servidor a un equipo con conexión a Internet y vaya al [sitio Web de Servicio de inscripción]().
+7.  Traslade el archivo de la solicitud de inscripción del servidor a un equipo con conexión a Internet y vaya al .
 
 8.  Siga las instrucciones del sitio Web para obtener un certificado emisor de licencias de servidor.
 
