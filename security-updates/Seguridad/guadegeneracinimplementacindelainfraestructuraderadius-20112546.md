@@ -380,11 +380,11 @@ Debe comprobar que la instalación del sistema operativo ha finalizado correctam
 
     Revisión(es): X revisión(es) instaladas.
 
-            [01]: Qxxxxxx
+    [01]: Qxxxxxx
             
     ...
     
-            [nn]: Qnnnnnn
+    [nn]: Qnnnnnn
 
     Tarjeta(s) de red: 1 Tarjetas de interfaz de red instaladas.
 
