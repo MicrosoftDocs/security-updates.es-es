@@ -386,7 +386,7 @@ También puede emplear la utilidad de la línea de comandos ejecutable **runas.e
 
 4.  Cuando se le pida, escriba la contraseña del administrador en la ventana del símbolo del sistema y, a continuación, presione ENTRAR.
 
-**Para iniciar una instancia del complemento Administración de equipos con una cuenta de administrador de dominio denominada** ***administradordominio*** **en el** **dominio*dominioemp***
+**Para iniciar una instancia del complemento Administración de equipos con una cuenta de administrador de dominio denominada administradordominio en el dominio dominioemp**
 
 1.  Haga clic en **Inicio** y, a continuación, en **Ejecutar**.
 
