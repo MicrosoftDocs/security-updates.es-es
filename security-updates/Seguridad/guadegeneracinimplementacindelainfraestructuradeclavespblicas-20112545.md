@@ -620,11 +620,11 @@ Debe comprobar que la instalación del sistema operativo ha finalizado correctam
 
     Revisión(es): X revisión(es) instaladas.
     
-    [01]: Qxxxxxx
-        
+    \[01\]: Qxxxxxx
+    
     ...
     
-    [nn]: Qnnnnnn
+    \[nn\]: Qnnnnnn
 
     Tarjeta(s) de red: N/A
 
@@ -712,11 +712,11 @@ Debe comprobar que la instalación del sistema operativo ha finalizado correctam
 
     Revisión(es): X revisión(es) instaladas.
     
-    [01]: Qxxxxxx
+    \[01\]: Qxxxxxx
             
     ...
     
-    [nn]: Qnnnnnn
+    \[nn\]: Qnnnnnn
 
     Tarjeta(s) de red: 1 Tarjetas de interfaz de red instaladas.
 
@@ -728,7 +728,7 @@ Debe comprobar que la instalación del sistema operativo ha finalizado correctam
 
     Direcciones IP
 
-    [01]: 10.1.1.11
+    \[01\]: 10.1.1.11
 
 3.  Si estos valores no son los que esperaba, debe volver a configurar el servidor mediante el Panel de control o volver a realizar la instalación.
 
