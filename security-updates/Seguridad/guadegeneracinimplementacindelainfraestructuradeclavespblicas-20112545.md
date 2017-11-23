@@ -13,17 +13,17 @@ Publicado: octubre 11, 2004 | Actualizado: 24/11/04
 
 ##### En esta página
 
-[](#ekaa)[Introducción](#ekaa)
-[](#ejaa)[Hoja de trabajo de planeamiento de los Servicios de Certificate Server](#ejaa)
-[](#eiaa)[Creación de los servidores](#eiaa)
-[](#ehaa)[Preparación de Active Directory para la PKI](#ehaa)
-[](#egaa)[Protección de Windows Server 2003 para Servicios de Certificate Server](#egaa)
-[](#efaa)[Otras tareas de configuración de Windows](#efaa)
-[](#eeaa)[Instalación y configuración de la entidad emisora raíz](#eeaa)
-[](#edaa)[Instalación y configuración de la CA emisora](#edaa)
-[](#ecaa)[Configuración posterior a la creación](#ecaa)
-[](#ebaa)[Configuración de cliente](#ebaa)
-[](#eaaa)[Resumen](#eaaa)
+[](#ekaa)[Introducción](#ekaa)  
+[](#ejaa)[Hoja de trabajo de planeamiento de los Servicios de Certificate Server](#ejaa)  
+[](#eiaa)[Creación de los servidores](#eiaa)  
+[](#ehaa)[Preparación de Active Directory para la PKI](#ehaa)  
+[](#egaa)[Protección de Windows Server 2003 para Servicios de Certificate Server](#egaa)  
+[](#efaa)[Otras tareas de configuración de Windows](#efaa)  
+[](#eeaa)[Instalación y configuración de la entidad emisora raíz](#eeaa)  
+[](#edaa)[Instalación y configuración de la CA emisora](#edaa)  
+[](#ecaa)[Configuración posterior a la creación](#ecaa)  
+[](#ebaa)[Configuración de cliente](#ebaa)  
+[](#eaaa)[Resumen](#eaaa)  
 
 ### Introducción
 
@@ -73,9 +73,9 @@ En este capítulo se supone lo siguiente en relación con la infraestructura de 
 
 -   Existe una infraestructura de dominios de Active Directory de Windows 2000 o Windows Server 2003 implementada. Todos los usuarios de Servicios de Certificate Server de esta solución deben ser miembros de un dominio del mismo bosque de Active Directory.
 
-    **Notas:**
-    Aunque el uso de Servicios de Certificate Server de Windows Server 2003 y Servicio de autenticación de Internet (implementación de RADIUS de IAS–Microsoft) con Windows 2000 Active Directory es totalmente compatible, esta solución no se ha probado en dicha configuración; sólo se ha probado con Active Directory de Windows 2003. No obstante, en esta guía se incluyen instrucciones para utilizar Active Directory de Windows 2000.
-    Aunque es posible implementar esta solución para varios bosques con pocas modificaciones, dicha tarea queda fuera del alcance de esta guía. Para obtener más información acerca de las implementaciones en varios bosques, consulte la nota de la sección "Información adicional" al final del capítulo.
+    **Notas:**  
+    Aunque el uso de Servicios de Certificate Server de Windows Server 2003 y Servicio de autenticación de Internet (implementación de RADIUS de IAS–Microsoft) con Windows 2000 Active Directory es totalmente compatible, esta solución no se ha probado en dicha configuración; sólo se ha probado con Active Directory de Windows 2003. No obstante, en esta guía se incluyen instrucciones para utilizar Active Directory de Windows 2000.  
+    Aunque es posible implementar esta solución para varios bosques con pocas modificaciones, dicha tarea queda fuera del alcance de esta guía. Para obtener más información acerca de las implementaciones en varios bosques, consulte la nota de la sección "Información adicional" al final del capítulo.  
     Esta solución no incluye instrucciones para la integración en una PKI existente. No obstante, la solución no impide la implementación en una PKI existente.
 
 -   Disponibilidad de hardware de servidor adecuado para ejecutar Servicios de Certificate Server de Windows Server 2003. Como parte de la guía se proporciona una configuración sugerida.
@@ -100,17 +100,17 @@ Estos pasos están reflejados en la organización del capítulo y se describen e
 
 -   **Preparación de Active Directory para la PKI**. Se explican los requisitos previos para el dominio y el bosque de Active Directory en que se implementará la PKI, junto con los pasos de preparación esenciales. También se explica la creación de usuarios y grupos de seguridad de administración y la configuración de los permisos correctos para delegar tareas de administración.
 
--   **Protección de Windows Server 2003 para Servicios de Certificate Server**.** **Describe la implementación de seguridad en el nivel de sistema operativo mediante la aplicación de plantillas de seguridad. Las plantillas utilizadas proceden de la *Guía de seguridad de Windows Server 2003*. Consulte la sección "Información adicional" que aparece al final de este capítulo para obtener información acerca de cómo obtener esta guía.
+-   **Protección de Windows Server 2003 para Servicios de Certificate Server**. Describe la implementación de seguridad en el nivel de sistema operativo mediante la aplicación de plantillas de seguridad. Las plantillas utilizadas proceden de la *Guía de seguridad de Windows Server 2003*. Consulte la sección "Información adicional" que aparece al final de este capítulo para obtener información acerca de cómo obtener esta guía.
 
--   **Otras tareas de configuración de Windows**.** **Indica algunas tareas comunes para realizar la instalación básica de los servidores.
+-   **Otras tareas de configuración de Windows**. Indica algunas tareas comunes para realizar la instalación básica de los servidores.
 
--   **Instalación y configuración de la entidad emisora raíz**.** **Se describen los pasos de preparación, instalación de software y configuración de Servicios de Certificate Server, incluida la definición de funciones administrativas para el servidor. El paso final consiste en publicar el certificado de entidad emisora raíz y la lista de revocación de certificados (CRL) en Active Directory y el servidor Web.
+-   **Instalación y configuración de la entidad emisora raíz**. Se describen los pasos de preparación, instalación de software y configuración de Servicios de Certificate Server, incluida la definición de funciones administrativas para el servidor. El paso final consiste en publicar el certificado de entidad emisora raíz y la lista de revocación de certificados (CRL) en Active Directory y el servidor Web.
 
 -   **Instalación y configuración de la CA emisora**. Similar a la instrucciones de la entidad emisora raíz, pero también se incluye la obtención de un certificado de entidad emisora desde la entidad emisora raíz. El paso de comprobación final confirma que se pueden inscribir certificados de la CA emisora.
 
 -   **Configuración posterior a la creación**. Se describe la configuración de los tipos de certificado predeterminados que emite la CA emisora, la definición de permisos para un bosque de múltiples dominios y la realización de una copia de seguridad antes de insertar las entidades emisoras en un entorno de producción.
 
--   **Configuración de cliente**.** **Se describe cómo habilitar la inscripción automática para todos los usuarios y equipos del dominio y cómo configurar directivas de confianza de certificado raíz.
+-   **Configuración de cliente**. Se describe cómo habilitar la inscripción automática para todos los usuarios y equipos del dominio y cómo configurar directivas de confianza de certificado raíz.
 
 [](#mainsection)[Principio de la página](#mainsection)
 
@@ -476,9 +476,9 @@ En la tabla siguiente se muestra una especificación de hardware recomendada par
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Almacenamiento en disco</td>
-<td style="border:1px solid black;">Controlador RAID (matriz redundante de discos independientes) IDE (electrónica integrada de dispositivos) o SCSI (interfaz estándar de equipos pequeños)
-2 x 18 GB (SCSI) o 2 x 20 GB (IDE) configurados como volumen RAID 1 (unidad C)
-Medios de almacenamiento local extraíbles (CD-RW o cinta para copia de seguridad)
+<td style="border:1px solid black;">Controlador RAID (matriz redundante de discos independientes) IDE (electrónica integrada de dispositivos) o SCSI (interfaz estándar de equipos pequeños)</br></br>  
+2 x 18 GB (SCSI) o 2 x 20 GB (IDE) configurados como volumen RAID 1 (unidad C)</br></br>
+Medios de almacenamiento local extraíbles (CD-RW o cinta para copia de seguridad)</br></br>
 Unidad de disco de 1,44 MB para la transferencia de datos</td>
 </tr>
 </tbody>
@@ -519,9 +519,9 @@ Aunque existen requisitos de rendimiento para la entidad emisora, no son de gran
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Almacenamiento en disco</td>
-<td style="border:1px solid black;">Controlador RAID IDE o SCSI
-2 x 18 GB (SCSI) o 2 x 20-GB (IDE) configurados como volúmenes RAID 1 (unidades C y D)
-Medios de almacenamiento local extraíbles (CD-RW o cinta para copia de seguridad) si no existe un servicio de copia de seguridad de red
+<td style="border:1px solid black;">Controlador RAID IDE o SCSI</br></br>
+2 x 18 GB (SCSI) o 2 x 20-GB (IDE) configurados como volúmenes RAID 1 (unidades C y D)</br></br>
+Medios de almacenamiento local extraíbles (CD-RW o cinta para copia de seguridad) si no existe un servicio de copia de seguridad de red</br></br>
 Unidad de disco de 1,44 MB para la transferencia de datos</td>
 </tr>
 </tbody>
@@ -558,7 +558,7 @@ Una excepción la constituye el hecho de que la creación dependa de una conexi�
 
 5.  Escriba una contraseña segura para la cuenta del administrador local (con un mínimo de 10 caracteres, combinando caracteres alfabéticos en mayúsculas y minúsculas, numéricos y signos de puntuación).
 
-6.  Cuando se le solicite, escriba el nombre del equipo, como ***HQ-CA-01**** *(reemplace este valor por el nombre de su equipo).
+6.  Cuando se le solicite, escriba el nombre del equipo, como **HQ-CA-01** (reemplace este valor por el nombre de su equipo).
 
     **Importante:** aunque la entidad emisora raíz no tendrá conexión, es fundamental que tenga un nombre único dentro de la organización.
 
@@ -619,12 +619,12 @@ Debe comprobar que la instalación del sistema operativo ha finalizado correctam
     Servidor de inicio de sesión: \\\\HQ-CA-01
 
     Revisión(es): X revisión(es) instaladas.
-
-                                   \[01\]: Qxxxxxx
-
+    
+        [01]: Qxxxxxx
+        
     ...
-
-                                   \[nn\]: Qnnnnnn
+    
+        [nn]: Qnnnnnn
 
     Tarjeta(s) de red: N/A
 
@@ -644,7 +644,7 @@ A diferencia de la entidad emisora raíz, si es necesario, puede crear el servid
 
 1.  Siga los pasos 1 a 5 para instalar el sistema operativo Windows en la entidad emisora raíz, con la diferencia de que se utilizará la versión Enterprise Edition de Windows Server 2003 en vez de Standard Edition.
 
-2.  Cuando se le solicite, escriba el nombre del equipo, como ***HQ-CA-02**** *(reemplace este valor por el nombre de su equipo).
+2.  Cuando se le solicite, escriba el nombre del equipo, como **HQ-CA-02** (reemplace este valor por el nombre de su equipo).
 
 3.  Cuando se le pida, seleccione la opción para unirse a un dominio. Escriba el nombre del dominio de Active Directory al que se van a unir los servidores, como *WOODGROVEBANK* (reemplace este valor por el nombre del dominio en que va a instalar la entidad emisora). Cuando se le pida, escriba las credenciales del usuario que está autorizado para unir equipos a este dominio.
 
@@ -711,12 +711,12 @@ Debe comprobar que la instalación del sistema operativo ha finalizado correctam
     Servidor de inicio de sesión: \\\\NombreDelControladorDeDominio
 
     Revisión(es): X revisión(es) instaladas.
-
-                                   \[01\]: Qxxxxxx
-
+    
+            [01]: Qxxxxxx
+            
     ...
-
-                                   \[nn\]: Qnnnnnn
+    
+            [nn]: Qnnnnnn
 
     Tarjeta(s) de red: 1 Tarjetas de interfaz de red instaladas.
 
@@ -728,7 +728,7 @@ Debe comprobar que la instalación del sistema operativo ha finalizado correctam
 
         Direcciones IP
 
-        \[01\]: 10.1.1.11
+        [01]: 10.1.1.11
 
 3.  Si estos valores no son los que esperaba, debe volver a configurar el servidor mediante el Panel de control o volver a realizar la instalación.
 
@@ -805,9 +805,14 @@ IIS se instala con el administrador de componentes opcionales de Windows (al que
   
     Este comando indica al administrador de componentes adicionales que utilice las configuraciones de componentes especificada en el archivo de instalación desatendida C:\\MSSScripts\\OC\_AddIIS.txt:
   
-    ```  
-\[Components\] complusnetwork = On iis\_common = On iis\_asp = On iis\_inetmgr = On iis\_www = On  
-```
+    ```
+    [Components]
+    complusnetwork = On
+    iis_common = On
+    iis_asp = On
+    iis_inetmgr = On
+    iis_www = On
+    ```
   
     **Nota:** esta configuración habilita las Páginas Active Server en la línea iis\_asp = on. Esta opción es necesaria para admitir la extensión de la solución con páginas de inscripción Web de Servicios de Certificate Server pero no para la solución principal. Debe considerar deshabilitar ASP (eliminar la línea iis\_asp = on antes de ejecutar sysocmgr.exe) si no necesita las páginas de inscripción Web. Si es necesario, puede habilitar esta configuración más adelante.
   
@@ -831,9 +836,8 @@ Debe crear un directorio virtual en IIS para utilizarlo como ubicación del prot
   
     **Tabla 7.6: Permisos de directorio virtual**
 
- 
     <p> </p>
-<table style="border:1px solid black;">
+    <table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
     <col width="33%" />
@@ -983,9 +987,10 @@ Debe quitar el servicio Actualización de certificados raíz. Éste es un compon
   
 Este comando configura el administrador de componentes opcionales para utilizar la configuración de componentes especificada en el siguiente archivo C:\\MSSScripts\\OC\_ RemoveRootUpdate.txt:
   
-```  
-\[Components\] rootautoupdate = Off  
-```  
+```
+[Components]
+rootautoupdate = Off
+```
 #### Comprobación de los Service Pack y las actualizaciones de seguridad
   
 Debe volver a comprobar el Service Pack y la lista de actualizaciones instaladas en este punto (ya que es posible que se hayan instalado componentes adicionales como IIS). Utilice una herramienta como Microsoft Baseline Security Analyzer (MBSA) para realizar la comprobación, obtener las actualizaciones requeridas y, después de las pruebas adecuadas, instalarlas en el servidor.
@@ -1348,7 +1353,7 @@ Si no es miembro del grupo de administradores de empresa de Active Directory, de
   
 1.  Inicie sesión como miembro del grupo de seguridad Administradores de organización.
   
-2.  En el complemento Sitios y servicios de Active Directory de Microsoft Management Console (MMC), muestre el nodo **Servicios** (en el menú **Ver**). Vaya al subcontenedor Servicios de clave** **pública y abra las propiedades.
+2.  En el complemento Sitios y servicios de Active Directory de Microsoft Management Console (MMC), muestre el nodo **Servicios** (en el menú **Ver**). Vaya al subcontenedor Servicios de clave pública y abra las propiedades.
   
 3.  En la ficha **Seguridad**, agregue el grupo de seguridad Administradores de la infraestructura de claves públicas de la empresa y concédale permisos de **Control total**.
   
@@ -1472,7 +1477,7 @@ Para comprobar la aplicación de permisos en el contenedor Servicios de clave p�
   
 12. Quite estos objetos de prueba después de comprobar que se han creado correctamente.
   
-    **Precaución:** preste atención para eliminar sólo los objetos de prueba que ha creado. En concreto, los miembros de Administradores de PKI de empresa ahora disponen de permisos suficientes para eliminar todo el** **contenedor Servicios de clave pública.
+    **Precaución:** preste atención para eliminar sólo los objetos de prueba que ha creado. En concreto, los miembros de Administradores de PKI de empresa ahora disponen de permisos suficientes para eliminar todo el contenedor Servicios de clave pública.
   
     **Nota:** si decidió no instalar las herramientas de soporte técnico de Windows Server 2003, ADSIEdit no estará disponible. Puede realizar estos pasos de comprobación desde la línea de comandos mediante las utilidades incorporadas dsadd.exe y dsrm.exe. No obstante, debe procurar utilizar la sintaxis y las rutas de objeto de directorio correctas al emplear estas utilidades. Pruebe los comandos atentamente en un sistema de pruebas antes de utilizarlos en un bosque de Active Directory.
   
@@ -1500,9 +1505,8 @@ Dado que la entidad emisora raíz no forma parte de un dominio, las capacidades 
   
     **Tabla 7.11: Nombres y finalidades de los grupos**
 
- 
     <p> </p>
-<table style="border:1px solid black;">
+    <table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
     <col width="50%" />
@@ -1545,9 +1549,8 @@ Dado que la entidad emisora raíz no forma parte de un dominio, las capacidades 
   
     **Tabla 7.12: Nombres y finalidades de las cuentas**
 
- 
     <p> </p>
-<table style="border:1px solid black;">
+    <table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
     <col width="50%" />
@@ -1584,9 +1587,8 @@ Dado que la entidad emisora raíz no forma parte de un dominio, las capacidades 
   
     **Tabla 7.13: Nombres de cuenta y pertenencia a grupos**
 
- 
     <p> </p>
-<table style="border:1px solid black;">
+    <table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
     <col width="50%" />
@@ -1806,9 +1808,8 @@ El procedimiento siguiente describe cómo se pueden crear unidades organizativas
   
     **Tabla 7.15: Asignación de GPO a plantillas de seguridad y UO**
 
- 
     <p> </p>
-<table style="border:1px solid black;">
+    <table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
     <col width="33%" />
@@ -1893,9 +1894,8 @@ Después de crear los GPO e importar las plantillas, debe personalizar la config
   
     **Tabla 7.16: Permisos de carpeta de base de datos de entidad emisora**
 
- 
     <p> </p>
-<table style="border:1px solid black;">
+    <table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
     <col width="33%" />
@@ -1936,9 +1936,8 @@ Después de crear los GPO e importar las plantillas, debe personalizar la config
   
     **Tabla 7.17: Auditoría de carpeta de base de datos de entidad emisora**
 
- 
     <p> </p>
-<table style="border:1px solid black;">
+    <table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
     <col width="33%" />
@@ -2206,17 +2205,34 @@ La información de listas CRL y AIA no se requiere para el certificado de entida
   
 1.  En un editor de texto, como Bloc de notas, escriba el texto siguiente:
   
-    ```  
-\[Version\] Signature= "$Windows NT$" \[Certsrv\_Server\] RenewalKeyLength=4096  RenewalValidityPeriod=Years  RenewalValidityPeriodUnits=16 \[CRLDistributionPoint\] Empty=true \[AuthorityInformationAccess\] Empty=true  
-```
+    ```
+    [Version]
+    Signature= "$Windows NT$"
+
+    [Certsrv_Server]
+    RenewalKeyLength=4096 
+    RenewalValidityPeriod=Years 
+    RenewalValidityPeriodUnits=16
+
+    [CRLDistributionPoint]
+    Empty=true
+
+    [AuthorityInformationAccess]
+    Empty=true
+    ```
   
     **Precaución**: la configuración de una longitud de clave de 4096 bits puede provocar problemas de compatibilidad. Determinados dispositivos (por ejemplo, algunos enrutadores) y software antiguo de otros proveedores no pueden procesar claves de un cierto tamaño.
   
 2.  Si ha definido una CPS para esta entidad emisora, incluya la información siguiente en el archivo Capolicy.inf (debe reemplazar los elementos en cursiva por los valores correspondientes):
   
-    ```  
-\[CAPolicy\] Policies=WoodGrove Bank Root CA CPS \[WoodGrove Bank Root CA CPS\] OID=your.Orgs.OID URL = "http://www.woodgrovebank.com/YourCPSPage.htm"   
-```
+    ```
+    [CAPolicy]
+    Policies=WoodGrove Bank Root CA CPS
+
+    [WoodGrove Bank Root CA CPS]
+    OID=your.Orgs.OID
+    URL = "http://www.woodgrovebank.com/YourCPSPage.htm"
+    ```
   
 3.  Guarde el archivo como %windir%\\Capolicy.inf (reemplace %windir% por la ruta de acceso absoluta en que se haya instalado Windows, como C:\\Windows). Debe ser administrador local o tener permisos de escritura en la carpeta Windows para realizar este paso.
   
@@ -2273,9 +2289,8 @@ Puede comprobar que la instalación de los Servicios de Certificate Server ha si
   
     **Tabla 7.19: Propiedades y extensiones de certificado de entidad emisora raíz**
 
- 
     <p> </p>
-<table style="border:1px solid black;">
+    <table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
     <col width="50%" />
@@ -2311,7 +2326,6 @@ Puede comprobar que la instalación de los Servicios de Certificate Server ha si
     </tbody>
     </table>
  
-
     La presencia del tipo de sujeto Restricciones básicas es muy importante porque este valor distingue el certificado de entidad emisora del certificado de una entidad final. Además, no deben enumerarse extensiones CDP o AIA.
 
     Si alguno de los valores no es el que esperaba, debe volver a iniciar la instalación de Servicios de Certificate Server.
@@ -2342,13 +2356,13 @@ El procedimiento de configuración de la entidad emisora aplica una serie de par
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Direcciones URL de punto de distribución de la CRL</td>
-<td style="border:1px solid black;">Especifica las ubicaciones HTTP, LDAP y FILE desde las que se puede obtener una lista CRL actual.
-La ubicación FILE es una carpeta local que utiliza la entidad emisora para almacenar las listas CRL que emite. Los certificados que se emiten sólo incluyen las ubicaciones HTTP y LDAP.
+<td style="border:1px solid black;">Especifica las ubicaciones HTTP, LDAP y FILE desde las que se puede obtener una lista CRL actual.<br/><br/>
+La ubicación FILE es una carpeta local que utiliza la entidad emisora para almacenar las listas CRL que emite. Los certificados que se emiten sólo incluyen las ubicaciones HTTP y LDAP.<br/><br/>
 La dirección URL de HTTP se muestra secuencialmente antes que LDAP, de modo que los clientes que utilicen certificados de entidad emisora raíz no dependen de Active Directory para obtener listas CRL.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Direcciones URL de AIA</td>
-<td style="border:1px solid black;">Ubicaciones donde se pueden obtener los certificados de entidad emisora.
+<td style="border:1px solid black;">Ubicaciones donde se pueden obtener los certificados de entidad emisora.<br/><br/>
 Al igual que con los CDP, la ubicación del archivo sólo se utiliza para publicar el certificado de entidad emisora y la dirección URL de HTTP tiene prioridad sobre la de LDAP.</td>
 </tr>
 <tr class="odd">
@@ -2384,9 +2398,28 @@ Al igual que con los CDP, la ubicación del archivo sólo se utiliza para public
   
     **Nota:** aquí sólo se muestra parte del archivo pkiparams.vbs. No edite ni quite otros elementos del archivo a menos que entienda las implicaciones que esto conllevaría.
   
-    ```  
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* '    USER SETTABLE CONSTANTS         ' ' These values MUST be set to reflect actual values used ' by the organization. '\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* ' This is the URL where CRL and CA certs are to be published. CONST CA\_HTTP\_PKI\_VROOT        = " http://www.woodgrovebank.com/pki" ' This needs to be set only if non Active directory clients need to query ' the ldap URL for CRLs. Normally they are OK with HTTP. If you do set this ' (to a specific DC FQDN) ALL clients will use this DC to query. Left blank ' AD clients use their default LDAP server (local DC) to query. CONST CA\_LDAP\_SERVER        = "" ' This needs to be set to the DN of the Active Directory Forest root domain ' This is used to set the Root CA CDP and AIA paths so that clients can ' obtain CRL and CA Certificate information from the Active Directory CONST AD\_ROOT\_DN            = "DC=woodgrovebank,DC=com"  
-```
+    ```
+    '**************************************************************************
+    '    USER SETTABLE CONSTANTS        
+    '
+    ' These values MUST be set to reflect actual values used
+    ' by the organization.
+    '**************************************************************************
+
+    ' This is the URL where CRL and CA certs are to be published.
+    CONST CA_HTTP_PKI_VROOT        = " http://www.woodgrovebank.com/pki"
+
+    ' This needs to be set only if non Active directory clients need to query
+    ' the ldap URL for CRLs. Normally they are OK with HTTP. If you do set this 
+    ' (to a specific DC FQDN) ALL clients will use this DC to query. Left blank
+    ' AD clients use their default LDAP server (local DC) to query.
+    CONST CA_LDAP_SERVER        = ""
+
+    ' This needs to be set to the DN of the Active Directory Forest root domain
+    ' This is used to set the Root CA CDP and AIA paths so that clients can 
+    ' obtain CRL and CA Certificate information from the Active Directory 
+    CONST AD_ROOT_DN            = "DC=woodgrovebank,DC=com"
+    ```
   
 3.  A continuación, ejecute la siguiente secuencia de comandos:
   
@@ -2406,9 +2439,8 @@ Para utilizar las funciones administrativas en la entidad emisora (como auditor 
   
     **Tabla 7.21: Entradas de permisos de entidad emisora de certificados que deben agregarse**
 
- 
     <p> </p>
-<table style="border:1px solid black;">
+    <table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
     <col width="33%" />
@@ -2591,19 +2623,28 @@ El archivo CAPolicy.inf no es estrictamente necesario para la CA emisora. Sin em
   
 1.  En un editor de texto como el Bloc de notas, escriba el texto siguiente.
   
-    ```  
-\[Version\] Signature= "$Windows NT$" \[Certsrv\_Server\] RenewalKeyLength=2048   
-```
+    ```
+    [Version]
+    Signature= "$Windows NT$"
+
+    [Certsrv_Server]
+    RenewalKeyLength=2048 
+    ```
   
 2.  Si ha definido una CPS para esta entidad emisora, incluya la información siguiente en el archivo Capolicy.inf (debe reemplazar los elementos en cursiva por los valores correspondientes):
   
-    ```  
-\[CAPolicy\] Policies=WoodGrove Bank Issuing CA 1 CPS \[WoodGrove Bank Issuing CA 1 CPS\] OID=your.Orgs.OID URL = "http://www.woodgrovebank.com/YourCPSPage.htm"   
-```
+    ```
+    [CAPolicy]
+    Policies=WoodGrove Bank Issuing CA 1 CPS
+
+    [WoodGrove Bank Issuing CA 1 CPS]
+    OID=your.Orgs.OID
+    URL = "http://www.woodgrovebank.com/YourCPSPage.htm"
+    ```
   
     **Nota:** consulte la sección "Creación de una declaración de prácticas de certificados" del capítulo 4, "Diseño de la infraestructura de claves públicas" para obtener una descripción detallada de la CPS y si debe considerar la creación de una. Un CPS es un documento legal, no un elemento técnico, por lo que debe asegurarse de que lo necesita antes de configurarlo en la CA.
   
-3.  Guarde el archivo como %windir*%*\\Capolicy.inf (o reemplace %windir% por la ruta de acceso absoluta en que se haya instalado Windows, como C:\\Windows). Debe ser administrador local o tener permisos de escritura en la carpeta Windows para realizar este paso.
+3.  Guarde el archivo como %windir%\\Capolicy.inf (o reemplace %windir% por la ruta de acceso absoluta en que se haya instalado Windows, como C:\\Windows). Debe ser administrador local o tener permisos de escritura en la carpeta Windows para realizar este paso.
   
 #### Instalación de componentes de software de Servicios de Certificate Server
   
@@ -2730,9 +2771,8 @@ Puede comprobar que la instalación de los Servicios de Certificate Server ha si
   
     **Tabla 7.22: Propiedades y extensiones de certificado de CA emisora**
 
- 
     <p> </p>
-<table style="border:1px solid black;">
+    <table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
     <col width="50%" />
@@ -2812,13 +2852,13 @@ El procedimiento de configuración de la entidad emisora aplica una serie de par
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Direcciones URL de punto de distribución de la CRL</td>
-<td style="border:1px solid black;">Especifica las ubicaciones HTTP, LDAP y FILE desde las que se puede obtener una lista CRL actual.
-La ubicación FILE es una carpeta local que utiliza la entidad emisora para almacenar las listas CRL que emite. Los certificados que se emiten sólo incluyen las ubicaciones HTTP y LDAP.
+<td style="border:1px solid black;">Especifica las ubicaciones HTTP, LDAP y FILE desde las que se puede obtener una lista CRL actual.<br/><br/>
+La ubicación FILE es una carpeta local que utiliza la entidad emisora para almacenar las listas CRL que emite. Los certificados que se emiten sólo incluyen las ubicaciones HTTP y LDAP.<br/><br/>
 La dirección URL de LDAP se enumera de forma secuencial antes de la HTTP, de modo que los controladores de dominio serán los destinatarios preferidos de descargas de listas CRL, pero consulte la nota que sigue a la tabla.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Direcciones URL de AIA</td>
-<td style="border:1px solid black;">Ubicaciones donde se pueden obtener los certificados de entidad emisora.
+<td style="border:1px solid black;">Ubicaciones donde se pueden obtener los certificados de entidad emisora.<br/><br/>
 Al igual que con los CDP, la ubicación del archivo sólo se utiliza para publicar el certificado de entidad emisora y la dirección URL de LDAP tiene prioridad sobre la de HTTP, pero consulte la nota que sigue a la tabla.</td>
 </tr>
 <tr class="odd">
@@ -2874,9 +2914,8 @@ Para utilizar las funciones administrativas en la entidad emisora (como auditor 
   
     **Tabla 7.24: Entradas de permisos de entidad emisora de certificados que deben agregarse**
 
- 
     <p> </p>
-<table style="border:1px solid black;">
+    <table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
     <col width="33%" />

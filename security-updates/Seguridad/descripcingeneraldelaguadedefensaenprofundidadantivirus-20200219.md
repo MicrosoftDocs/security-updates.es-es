@@ -16,12 +16,12 @@ Publicado: mayo 20, 2004
 ##### En esta página
 
 [](#abcd)[Introducción](#abcd)
-[](#abce)[Resumen de los capítulos de la guía](#abce)
-[](#abcf)[Envíenos sus comentarios](#abcf)
-[](#afcb)[Capítulo 1: Introducción](#afcb)
-[](#aflg)[Capítulo 2: Amenazas de software malintencionado](#aflg)
-[](#flag)[Capítulo 3: Defensa en profundidad antivirus](#flag)
-[](#emts)[Capítulo 4: Control y recuperación de los ataques de virus](#emts)
+[](#abce)[Resumen de los capítulos de la guía](#abce)  
+[](#abcf)[Envíenos sus comentarios](#abcf)  
+[](#afcb)[Capítulo 1: Introducción](#afcb)  
+[](#aflg)[Capítulo 2: Amenazas de software malintencionado](#aflg)  
+[](#flag)[Capítulo 3: Defensa en profundidad antivirus](#flag)  
+[](#emts)[Capítulo 4: Control y recuperación de los ataques de virus](#emts)  
 [](#qotg)[Reconocimientos](#qotg)
 
 ### Introducción
@@ -36,16 +36,16 @@ La *Guía de defensa en profundidad antivirus* proporciona una descripción gene
 
 La *Guía de defensa en profundidad antivirus* se compone de cuatro capítulos:
 
-**Capítulo 1: Introducción**
+**Capítulo 1: Introducción**  
 En este capítulo se ofrece una breve introducción a la guía y una descripción general de cada capítulo, y se indican los destinatarios a los que va dirigida.
 
-**Capítulo 2: Amenazas de software malintencionado**
+**Capítulo 2: Amenazas de software malintencionado**  
 En este capítulo se definen los tipos principales de software malintencionado y se especifica qué programas se incluyen y excluyen de esta categoría. Asimismo, se proporciona información sobre las características del software malintencionado, los vectores de ataque, los medios de propagación y las cargas.
 
-**Capítulo 3: Defensa en profundidad antivirus**
+**Capítulo 3: Defensa en profundidad antivirus**  
 En este capítulo se detallan las consideraciones que deberá tener en cuenta al establecer un sistema de defensa antivirus completo para clientes, servidores y la infraestructura de red. También se abordan directivas de usuario y medidas de seguridad generales que Microsoft recomienda tener en cuenta al elaborar un plan de seguridad global.
 
-**Capítulo 4: Control y recuperación de los ataques de virus**
+**Capítulo 4: Control y recuperación de los ataques de virus**  
 En este capítulo se ofrece una descripción detallada del proceso de resolución y recuperación de los ataques de software malintencionado cuyas fuentes son las prácticas más recomendadas del sector y las operaciones internas de Microsoft.
 
 [](#mainsection)[Principio de la página](#mainsection)
@@ -109,9 +109,9 @@ Microsoft ha elaborado esta guía de seguridad con el fin de ayudarle a identifi
 
 ##### En esta página
 
-[](#bcde)[Descripción general](#bcde)
-[](#bcdf)[Destinatarios de la guía](#bcdf)
-[](#bcdg)[Convenciones de estilo utilizadas en esta guía](#bcdg)
+[](#bcde)[Descripción general](#bcde)  
+[](#bcdf)[Destinatarios de la guía](#bcdf)  
+[](#bcdg)[Convenciones de estilo utilizadas en esta guía](#bcdg)  
 
 ### Descripción general
 
@@ -171,12 +171,12 @@ En la tabla siguiente se indican las convenciones de estilo que se utilizan en l
 <td style="border:1px solid black;"><em>Cursiva</em><br />
 o<br />
 <em>&lt;Cursiva&gt;</em></td>
-<td style="border:1px solid black;">La cursiva se aplica a caracteres que escribe el usuario y que pueden cambiar. Los caracteres en cursiva que aparecen entre corchetes angulares representan marcadores de posición variables en los que el usuario debe facilitar valores específicos. Ejemplo:
+<td style="border:1px solid black;">La cursiva se aplica a caracteres que escribe el usuario y que pueden cambiar. Los caracteres en cursiva que aparecen entre corchetes angulares representan marcadores de posición variables en los que el usuario debe facilitar valores específicos. Ejemplo:<br/><br/>
 <em>  &lt;Nombredearchivo.ext&gt;</em> indica que debería sustituir el texto<em> </em><br />
 <em>Nombredearchivo.ext</em> en cursiva por otro nombre de archivo que sea adecuado para la<br />
-configuración.<br />
+configuración.<br /><br/>
 
-La cursiva también se utiliza para representar nuevos términos. Ejemplo:
+La cursiva también se utiliza para representar nuevos términos. Ejemplo:<br/><br/>
 <em>  Identidad digital:</em> atributos descriptivos e identificador único de<br />
   una persona, grupo, dispositivo o servicio.</td>
 </tr>
@@ -226,11 +226,11 @@ La cursiva también se utiliza para representar nuevos términos. Ejemplo:
   
 ### Capítulo 2: Amenazas de software malintencionado
   
-[](#cdef)[Introducción](#cdef)  
-[](#cdeg)[Evolución de los virus informáticos](#cdeg)  
-[](#cdeh)[Definición del software malintencionado](#cdeh)  
-[](#cdei)[Características del software malintencionado](#cdei)  
-[](#cdej)[¿Qué no se considera software malintencionado?](#cdej)  
+[](#cdef)[Introducción](#cdef)    
+[](#cdeg)[Evolución de los virus informáticos](#cdeg)    
+[](#cdeh)[Definición del software malintencionado](#cdeh)    
+[](#cdei)[Características del software malintencionado](#cdei)    
+[](#cdej)[¿Qué no se considera software malintencionado?](#cdej)    
 [](#cdek)[Software antivirus](#cdek)  
 [](#cdel)[Ciclo de vida típico del software malintencionado en circulación](#cdel)  
 [](#cdem)[Resumen](#cdem)
@@ -738,7 +738,7 @@ Otra zona de las defensas del cliente que no se debe pasar por alto es la de los
 Por ejemplo, un usuario que necesita instalar una aplicación que requiere privilegios de administración puede ejecutar el siguiente comando de instalación en el símbolo del sistema para abrir el programa de instalación con los privilegios correspondientes:
   
 ```  
-runas /user:mi\_dominio\\admin "setup.exe"   
+runas /user:mi_dominio\admin "setup.exe"   
 ```  
 También puede obtener acceso directo a esta característica en el Explorador de Windows, mediante los siguientes pasos:
   
@@ -1590,7 +1590,7 @@ La siguiente figura muestra los detalles del gusano Blaster como proceso activo 
 **Nota**: algunos tipos de software malintencionado intentarán bloquear el Administrador de tareas e impedir que se inicie como mecanismo de defensa. En este caso se puede emplear la utilidad de la línea de comandos **Tasklist** en los equipos Microsoft Windows® XP y Windows Server™ 2003 (o **TList** en equipos Windows 2000) para generar una lista de archivos de texto simple que se puede copiar a un medio extraíble para su análisis posterior. Utilice la siguiente sintaxis de la línea de comandos para generar el archivo de texto con la lista de todos los procesos activos:
   
 ```  
- tasklist /v &gt;TaskList.txt  
+ tasklist /v >TaskList.txt  
 ```  
 Con ella podrá crear un archivo llamado **TaskList*.*txt** en el directorio de trabajo actual.
   
@@ -1682,31 +1682,48 @@ Puede encontrar información detallada sobre el uso de **Regedit.exe** y **Reg.e
   
 Una vez haya realizado la copia de seguridad del Registro, compruebe en las siguientes áreas las posibles referencias de archivo inusuales:
   
-```  
-  HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Control\\SessionManager\\KnownDLLs   HKEY\_LOCAL\_MACHINE\\System\\ControlSet001\\Control\\Session Manager\\KnownDLLs    HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows\\Current Version\\Run    HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows\\Current Version\\RunOnce    HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows\\Current Version\\RunOnceEx HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\RunServices    HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows ("run="     line) HKEY\_CURRENT\_USER\\Software\\Microsoft\\Windows\\Current Version\\Run    HKEY\_CURRENT\_USER\\Software\\Microsoft\\Windows\\Current Version\\RunOnce    HKEY\_CURRENT\_USER\\Software\\Microsoft\\Windows\\Current Version\\RunOnceEx HKEY\_CURRENT\_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\RunServices    HKEY\_CURRENT\_USER\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows ("run="     value)   
-```  
+```
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\SessionManager\KnownDLLs 
+            HKEY_LOCAL_MACHINE\System\ControlSet001\Control\Session Manager\KnownDLLs   
+        HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Current Version\Run   
+        HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Current Version\RunOnce   
+        HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Current Version\RunOnceEx 
+        HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunServices   
+        HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Windows ("run="     line) 
+        HKEY_CURRENT_USER\Software\Microsoft\Windows\Current Version\Run   
+        HKEY_CURRENT_USER\Software\Microsoft\Windows\Current Version\RunOnce   
+        HKEY_CURRENT_USER\Software\Microsoft\Windows\Current Version\RunOnceEx 
+        HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\RunServices   
+        HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Windows ("run="     value)
+```
+
 Estas áreas del Registro suelen ser el objetivo del código malintencionado porque le permiten ejecutarse al iniciar el sistema. Por ejemplo, el gusano W32@.Mydoom.G@mm agregó el valor:
   
 ```  
-   "(Default)" = "%System%\\&lt;nombre\_archivo\_aleatorio&gt;"  
-```  
+"(Default)" = "%System%\<nombre_archivo_aleatorio>"
+```
+
 a las claves del Registro:
   
-```  
-   HKEY\_CURRENT\_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Run   HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Run  
-```  
+```
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run 
+            HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run
+```
+
 Otra área que se ha visto afectada recientemente es la siguiente clave:
   
-```  
-   HKEY\_CLASSES\_ROOT\\CLSID\\{E6FB5E20-DE35-11CF-9C87-00AA005127ED}\\InProcServer32  
-```  
+```
+HKEY_CLASSES_ROOT\CLSID\{E6FB5E20-DE35-11CF-9C87-00AA005127ED}\InProcServer32
+```
 Esta clave controla los archivos .dll que carga Microsoft Internet Explorer (**Explorer.exe**). Por ejemplo, el gusano Mydoom y sus variantes podrían agregar una entrada a esta clave para cargar un archivo .dll que crearía una vulnerabilidad y establecería una puerta trasera para un ataque.
   
 El gusano W32.Netsky.D@mm eliminaría la clave y agregaría todo este conjunto de claves:
   
-```  
-  HKEY\_CURRENT\_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\PINF   HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Services\\WksPatch  
-```  
+```
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\PINF 
+            HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\WksPatch
+```
+
 ##### Comprobación de la existencia de software malintencionado y de archivos dañados
   
 La mayoría de los tipos de software malintencionado modifican uno o más archivos del disco duro de un equipo, por lo que encontrar cuáles son los que se han visto afectados puede resultar complicado. Si el sistema se creó a partir de una imagen, se puede comparar el sistema infectado directamente con un sistema nuevo creado a partir de dicha imagen.
@@ -1872,12 +1889,12 @@ Otro comportamiento común del software malintencionado es el uso de carpetas co
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">C$</td>
-<td style="border:1px solid black;">C:\</td>
+<td style="border:1px solid black;">C:&#92;</td>
 <td style="border:1px solid black;">Recurso compartido predeterminado</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">&lt;n&gt;$</td>
-<td style="border:1px solid black;">&lt;n:&gt;\</td>
+<td style="border:1px solid black;">&lt;n:&gt;&#92;</td>
 <td style="border:1px solid black;">Representa un recurso compartido para la raíz de cada unidad fija del sistema.</td>
 </tr>
 <tr class="even">
@@ -1913,12 +1930,12 @@ Otro comportamiento común del software malintencionado es el uso de carpetas co
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">C$</td>
-<td style="border:1px solid black;">C:\</td>
+<td style="border:1px solid black;">C:&#92;</td>
 <td style="border:1px solid black;">Recurso compartido predeterminado</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">&lt;n&gt;$</td>
-<td style="border:1px solid black;">&lt;n:&gt;\</td>
+<td style="border:1px solid black;">&lt;n:&gt;&#92;</td>
 <td style="border:1px solid black;">Representa un recurso compartido para la raíz de cada unidad fija del sistema.</td>
 </tr>
 <tr class="even">

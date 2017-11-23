@@ -13,10 +13,10 @@ Publicado: octubre 11, 2004 | Actualizado: 24/11/04
 
 ##### En esta página
 
-[](#edaa)[Uso de la guía](#edaa)
-[](#ecaa)[Introducción a Microsoft Operations Framework](#ecaa)
-[](#ebaa)[Convenciones de diseño de las tareas](#ebaa)
-[](#eaaa)[Información adicional](#eaaa)
+[](#edaa)[Uso de la guía](#edaa)  
+[](#ecaa)[Introducción a Microsoft Operations Framework](#ecaa)  
+[](#ebaa)[Convenciones de diseño de las tareas](#ebaa)  
+[](#eaaa)[Información adicional](#eaaa)  
 
 ### Uso de la guía
 

@@ -31,19 +31,19 @@ En esta guía se describen los desafíos que plantea el planeamiento y la implem
 
 ##### En esta página
 
-[](#wort)[El desafío empresarial](#wort)
-[](#klpp)[Las ventajas empresariales](#klpp)
-[](#klph)[Destinatarios de la guía](#klph)
-[](#kqph)[Requisitos previos del lector](#kqph)
-[](#rqph)[Información general de la guía de planeamiento](#rqph)
-[](#aaa)[Capítulo 1: Introducción](#aaa)
-[Capítulo 2: Planteamientos para los servicios de cuarentena de red privada virtual](#aab)
-[](#abc)[Capítulo 3: Problemas y requisitos](#abc)
-[](#abd)[Capítulo 4: Diseño de la solución](#abd)
-[](#add)[Apéndice A: Ejemplos de secuencias de comandos de servicios de cuarentena](#add)
-[](#bbb)[Apéndice B: Parámetros del servicio de cuarentena de acceso remoto](#bbb)
-[](#ddd)[Apéndice C: Vínculos relacionados](#ddd)
-[](#ccc)[Agradecimientos](#ccc)
+[](#wort)[El desafío empresarial](#wort)  
+[](#klpp)[Las ventajas empresariales](#klpp)  
+[](#klph)[Destinatarios de la guía](#klph)  
+[](#kqph)[Requisitos previos del lector](#kqph)  
+[](#rqph)[Información general de la guía de planeamiento](#rqph)  
+[](#aaa)[Capítulo 1: Introducción](#aaa)  
+[Capítulo 2: Planteamientos para los servicios de cuarentena de red privada virtual](#aab)  
+[](#abc)[Capítulo 3: Problemas y requisitos](#abc)  
+[](#abd)[Capítulo 4: Diseño de la solución](#abd)  
+[](#add)[Apéndice A: Ejemplos de secuencias de comandos de servicios de cuarentena](#add)  
+[](#bbb)[Apéndice B: Parámetros del servicio de cuarentena de acceso remoto](#bbb)  
+[](#ddd)[Apéndice C: Vínculos relacionados](#ddd)  
+[](#ccc)[Agradecimientos](#ccc)  
 
 ### El desafío empresarial
 
@@ -63,9 +63,9 @@ Las organizaciones que implementan servicios de cuarentena de VPN eficaces puede
 
 -   **Mejora del acceso seguro a los activos empresariales**. Los servicios de cuarentena de VPN mejoran la seguridad del acceso a la red gracias al cumplimiento estricto de los requisitos de actualización de los antivirus y la seguridad.
 
--   **Simplificación de la administración y el mantenimiento de los servicios**.** **Las organizaciones pueden estandarizar las tecnologías más novedosas y seguras para la implementación de su VPN. Pueden quitar de la infraestructura de la red las implementaciones de hardware de la VPN, como los sistemas de equipos de acceso remoto especializados, lo que permite simplificar las herramientas de mantenimiento, la documentación y los procesos de conexión. Esta simplificación mejora la asistencia técnica cotidiana para el funcionamiento de la solución de acceso a la VPN y compensa los costos de administración generados al implementar la solución de servicios de cuarentena.
+-   **Simplificación de la administración y el mantenimiento de los servicios**. Las organizaciones pueden estandarizar las tecnologías más novedosas y seguras para la implementación de su VPN. Pueden quitar de la infraestructura de la red las implementaciones de hardware de la VPN, como los sistemas de equipos de acceso remoto especializados, lo que permite simplificar las herramientas de mantenimiento, la documentación y los procesos de conexión. Esta simplificación mejora la asistencia técnica cotidiana para el funcionamiento de la solución de acceso a la VPN y compensa los costos de administración generados al implementar la solución de servicios de cuarentena.
 
--   **Mejora de la previsibilidad y facilidad de uso del acceso remoto**.** **La mayor fiabilidad y facilidad de uso anima a los usuarios a utilizar el servicio de VPN, con lo que se aumenta la confianza en la protección del trabajo importante y de los recursos críticos de la empresa.
+-   **Mejora de la previsibilidad y facilidad de uso del acceso remoto**. La mayor fiabilidad y facilidad de uso anima a los usuarios a utilizar el servicio de VPN, con lo que se aumenta la confianza en la protección del trabajo importante y de los recursos críticos de la empresa.
 
 -   **Reducción del costo total de propiedad (TCO)**. Al obligar a los equipos remotos a cumplir directivas informáticas confiables estrictas, se reducen los costos globales de administración y asistencia técnica. Este ahorro se deriva de la disminución de las llamadas de asistencia técnica y de la reducción del tiempo dedicado a solucionar los ataques de virus y gusanos.
 
@@ -192,9 +192,9 @@ Las organizaciones que implementan servicios de cuarentena de VPN eficaces puede
 
 -   **Mejora del acceso seguro a los activos empresariales**. Los servicios de cuarentena de VPN mejoran la seguridad del acceso a la red gracias al cumplimiento estricto de los requisitos de actualización de los antivirus y la seguridad.
 
--   **Simplificación de la administración y el mantenimiento de los servicios**.** **Las organizaciones pueden estandarizar las tecnologías más novedosas y seguras para la implementación de su VPN. Pueden quitar de la infraestructura de la red las implementaciones de hardware de la VPN, como los sistemas de equipos de acceso remoto especializados, lo que permite simplificar las herramientas de mantenimiento, la documentación y los procesos de conexión. Esta simplificación mejora la asistencia técnica cotidiana para el funcionamiento de la solución de acceso a la VPN y compensa los costos de administración generados al implementar la solución de servicios de cuarentena.
+-   **Simplificación de la administración y el mantenimiento de los servicios**. Las organizaciones pueden estandarizar las tecnologías más novedosas y seguras para la implementación de su VPN. Pueden quitar de la infraestructura de la red las implementaciones de hardware de la VPN, como los sistemas de equipos de acceso remoto especializados, lo que permite simplificar las herramientas de mantenimiento, la documentación y los procesos de conexión. Esta simplificación mejora la asistencia técnica cotidiana para el funcionamiento de la solución de acceso a la VPN y compensa los costos de administración generados al implementar la solución de servicios de cuarentena.
 
--   **Mejora de la previsibilidad y facilidad de uso del acceso remoto**.** **La mayor fiabilidad y facilidad de uso anima a los usuarios a utilizar el servicio de VPN, con lo que se aumenta la confianza en la protección del trabajo importante y de los recursos críticos de la empresa.
+-   **Mejora de la previsibilidad y facilidad de uso del acceso remoto**. La mayor fiabilidad y facilidad de uso anima a los usuarios a utilizar el servicio de VPN, con lo que se aumenta la confianza en la protección del trabajo importante y de los recursos críticos de la empresa.
 
 -   **Reducción del costo total de propiedad (TCO)**. Al obligar a los equipos remotos a cumplir directivas informáticas confiables estrictas, se reducen los costos globales de administración y asistencia técnica. Este ahorro se deriva de la disminución de las llamadas de asistencia técnica y de la reducción del tiempo dedicado a solucionar los ataques de virus y gusanos.
 
@@ -308,7 +308,7 @@ Para la implementación del servicio de cuarentena de VPN se necesitan los compo
 
 En esta sección se facilita información general sobre cómo funcionan entre sí estos componentes para proporcionar la solución de cuarentena de VPN
 
-**Nota:  **una solución de cuarentena de VPN puede utilizar la autenticación mediante RADIUS o Windows, aunque es preferible el método RADIUS. La sección sobre implementación del servicio de autenticación de Internet (IAS), que figura más adelante en este capítulo, proporciona más información sobre IAS, que es la implementación de Microsoft de RADIUS.
+**Nota:** una solución de cuarentena de VPN puede utilizar la autenticación mediante RADIUS o Windows, aunque es preferible el método RADIUS. La sección sobre implementación del servicio de autenticación de Internet (IAS), que figura más adelante en este capítulo, proporciona más información sobre IAS, que es la implementación de Microsoft de RADIUS.
 
 #### Conexión mediante una red privada virtual
 
@@ -500,7 +500,7 @@ El servicio de cuarentena de VPN puede necesitar los siguientes componentes de r
 
 -   **Servidores del Protocolo de configuración dinámica de servidores (DHCP).** DHCP proporciona asignación automática de direcciones IP para clientes remotos. (Recomendado)
 
--   **Active Directory**.** **Active Directory proporciona un método de autenticar las cuentas de los usuarios. Active Directory se integra con IAS y admite otras utilidades de seguridad, como la autenticación mediante tarjeta inteligente. (Recomendado)
+-   **Active Directory**. Active Directory proporciona un método de autenticar las cuentas de los usuarios. Active Directory se integra con IAS y admite otras utilidades de seguridad, como la autenticación mediante tarjeta inteligente. (Recomendado)
 
 -   **Servidores del sistema de nombres de dominio(DNS)**. DNS proporciona servicios de resolución de nombres para que los equipos cliente de la red de cuarentena puedan conectarse a los servidores SUS, servidores Web y servidores de archivos que contienen los archivos antivirus y otras actualizaciones. (Recomendado)
 
@@ -1126,7 +1126,7 @@ Al conectar, el servidor DHCP asigna al cliente una dirección IP. El componente
   
 Cuando los usuarios seleccionan la opción de inicio de sesión de Windows **Iniciar sesión mediante una conexión de acceso telefónico**, los clientes de la red privada virtual (VPN) pueden recibir la actualización de la Directiva de grupo prácticamente de la misma manera que los clientes de la red de área local (LAN). Esta configuración proporciona una administración unificada de los clientes internos y remotos.
   
-**Nota: **no existe ningún método disponible que permita aplicar secuencias de comandos de inicio y asignaciones de software informático a través de una conexión de acceso telefónico.
+**Nota:** no existe ningún método disponible que permita aplicar secuencias de comandos de inicio y asignaciones de software informático a través de una conexión de acceso telefónico.
   
 El uso de esta opción permite a los usuarios recibir notificaciones de la caducidad de su contraseña y permite que los equipos actualicen sus cuentas cuando se necesita. Debido a que la configuración de la Directiva de grupo se aplica a los clientes remotos después del proceso de conexión, la primera acción después de la conexión en Connection Manager debe ser levantar la cuarentena de la VPN. Un retraso al levantar la cuarentena puede provocar errores en la actualización de la Directiva de grupo, la notificación de caducidad de la contraseña y la actualización de las cuentas de los equipos.
   
@@ -1319,9 +1319,13 @@ En la tabla siguiente se muestran los parámetros del agente cliente de cuarente
   
 El código siguiente se utiliza con la secuencia de comandos CheckHotFixes.vbs para guiar al usuario al sitio Web de Microsoft® Windows® Update, donde podrá instalar las últimas actualizaciones de seguridad:
   
-```  
-Prog = """C:\\Archivos de programa\\Internet Explorer\\iexplore.exe""" WUSite= " http://windowsupdate.microsoft.com" Set WshShell = CreateObject("Wscript.Shell") WshShell.Run(prog & WUsite),1,TRUE  
-```  
+```
+Prog = """C:\Archivos de programa\Internet Explorer\iexplore.exe""" 
+WUSite= " http://windowsupdate.microsoft.com" 
+Set WshShell = CreateObject("Wscript.Shell") 
+WshShell.Run(prog & WUsite),1,TRUE
+```
+
 [](#mainsection)[Principio de la página](#mainsection)
   
 ### Apéndice B: Parámetros del servicio de cuarentena de acceso remoto
@@ -1339,8 +1343,8 @@ Los parámetros que puede configurar son:
 -   **AllowedSet**. El parámetro AllowedSet permite establecer la versión de la secuencia de comandos aceptada por el servidor de servicios de cuarentena de VPN de acceso remoto.
   
     ```  
-AllowedSet, REG\_MULTI\_SZ  
-```
+    AllowedSet, REG\_MULTI\_SZ  
+    ```
   
 La lista de cadenas que el servicio aceptará para quitar la cuarentena es:
   
@@ -1350,17 +1354,16 @@ La lista de cadenas que el servicio aceptará para quitar la cuarentena es:
   
     Si crea un archivo DLL personalizado para implementar la retirada de la funcionalidad de filtro del servicio de cuarentena, debe exponer la función siguiente:
   
-    ```  
-DWORD MprAdminConnectionRemoveQuarantine (HANDLE hRasServer,  HANDLE hRasConnection,  BOOL fIsIpAddress)  
-```
-  
-<!-- -->
+    ```
+    DWORD MprAdminConnectionRemoveQuarantine
+    (HANDLE hRasServer,  HANDLE hRasConnection,  BOOL fIsIpAddress)
+    ```
   
 -   **Validator (REG\_SZ)**. Especifica el módulo que comprueba si la cadena de firma enviada por RQC es aceptable o no. De manera predeterminada, RQS.exe comparará las cadenas de AllowedSet. El archivo DLL de autenticación personalizado deberá exponer la siguiente función:
   
     ```  
-BOOL ClientAuthenticate(LPCWSTR lpwsString).   
-```
+    BOOL ClientAuthenticate(LPCWSTR lpwsString).   
+    ```
   
     Donde lpwsString contiene la cadena que hay que autenticar.
   
@@ -1368,8 +1371,8 @@ BOOL ClientAuthenticate(LPCWSTR lpwsString).
   
 ### Apéndice C: Vínculos relacionados
   
-[](#efaaz)[Red privada virtual](#efaaz)  
-[](#eeaax)[Control de cuarentena](#eeaax)  
+[](#efaaz)[Red privada virtual](#efaaz)    
+[](#eeaax)[Control de cuarentena](#eeaax)    
 [](#edaal)[Servicio de autenticación de Internet](#edaal)  
 [](#ecaam)[Sistema de nombres de dominio](#ecaam)  
 [](#ebaan)[Connection Manager](#ebaan)  

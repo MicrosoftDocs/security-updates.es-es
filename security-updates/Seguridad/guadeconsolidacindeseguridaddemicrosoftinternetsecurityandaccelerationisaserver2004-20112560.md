@@ -13,11 +13,11 @@ Publicado: marzo 12, 2004
 
 ##### En esta página
 
-[](#eeaa)[Introducción](#eeaa)
-[](#edaa)[Protección del equipo servidor ISA](#edaa)
-[](#ecaa)[Protección de la configuración](#ecaa)
-[](#ebaa)[Protección de la implementación](#ebaa)
-[](#eaaa)[Recursos adicionales](#eaaa)
+[](#eeaa)[Introducción](#eeaa)   
+[](#edaa)[Protección del equipo servidor ISA](#edaa)  
+[](#ecaa)[Protección de la configuración](#ecaa)  
+[](#ebaa)[Protección de la implementación](#ebaa)  
+[](#eaaa)[Recursos adicionales](#eaaa)  
 
 ### Introducción
 
@@ -594,8 +594,8 @@ Puede crear una plantilla mediante el complemento Plantillas de seguridad de Mic
   
 10. Repita los pasos 8 y 9 por cada uno de los servicios enumerados en la siguiente tabla.
 
- 
-    <p> </p>
+
+<p> </p>
 <table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
@@ -1393,8 +1393,8 @@ De forma predeterminada, las reglas de directiva del sistema que permiten la adm
   
 De forma predeterminada, estas reglas se aplican al conjunto de equipos Equipos de administración remota integrado. Al instalar el servidor ISA, se crea este conjunto de equipos vacío. Agregue a este conjunto de equipos vacío todos los equipos que administrarán el servidor ISA de forma remota. Hasta que lo haga, no estará disponible la administración remota desde ningún equipo.
   
-![](images/Dd458738.tip(es-es,TechNet.10).gif)  Sugerencia  
-Limite la administración remota a equipos específicos mediante la configuración de reglas de directiva del sistema que sólo se apliquen a direcciones IP específicas.
+> [!TIP]  
+> Limite la administración remota a equipos específicos mediante la configuración de reglas de directiva del sistema que sólo se apliquen a direcciones IP específicas.
   
 **Para habilitar la administración remota, realice los siguientes pasos.**
   

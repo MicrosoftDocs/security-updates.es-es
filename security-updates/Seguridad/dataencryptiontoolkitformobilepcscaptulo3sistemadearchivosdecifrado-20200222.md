@@ -21,11 +21,11 @@ EFS proporciona un cifrado por usuario al proteger los archivos con una clave a 
 
 ##### En esta página
 
-[](#egaa)[EFS en Windows XP](#egaa)
-[](#efaa)[EFS en Windows Vista](#efaa)
-[](#eeaa)[Opción de EFS: EFS con almacenamiento de claves de software](#eeaa)
-[](#edaa)[Opción de EFS: EFS con tarjetas inteligentes](#edaa)
-[](#ecaa)[Resumen de análisis de riesgos de EFS](#ecaa)
+[](#egaa)[EFS en Windows XP](#egaa)  
+[](#efaa)[EFS en Windows Vista](#efaa)  
+[](#eeaa)[Opción de EFS: EFS con almacenamiento de claves de software](#eeaa)  
+[](#edaa)[Opción de EFS: EFS con tarjetas inteligentes](#edaa)  
+[](#ecaa)[Resumen de análisis de riesgos de EFS](#ecaa)  
 [](#ebaa)[Más información](#ebaa)
 
 ### EFS en Windows XP
@@ -431,6 +431,7 @@ Los riesgos que se pueden minimizar con opciones específicas están marcados co
 **Tabla 3.1. Minimizaciones de riesgos de EFS**
 
 ![](images/Cc162818.0d76df62-1c23-49d8-beb0-9bd64db9f966(es-es,TechNet.10).gif)
+
 [](#mainsection)[Principio de la página](#mainsection)
 
 ### Más información
