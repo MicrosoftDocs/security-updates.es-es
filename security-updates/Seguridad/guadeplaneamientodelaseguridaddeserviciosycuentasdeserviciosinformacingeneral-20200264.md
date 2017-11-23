@@ -21,15 +21,15 @@ El objetivo fundamental de esta guía es el de ayudar a los administradores a re
 
 ##### En esta página
 
-[](#eeaa)[Información general](#eeaa)
-[](#edaa)[Motivos para una ejecución más segura de los servicios](#edaa)
-[](#ecaa)[Destinatarios de la guía](#ecaa)
-[](#ebaa)[Información general de la guía de planeamiento](#ebaa)
-[](#eaaa)[Comuníquenos su opinión](#eaaa)
-[](#zxcv)[Capítulo 1: Introducción](#zxcv)
-[](#zxcb)[Capítulo 2: Cómo mejorar la seguridad de la ejecución de servicios](#zxcb)
-[](#zxcn)[Capítulo 3: Ejecución más segura de servicios](#zxcn)
-[](#xzcn)[Capítulo 4: Resumen](#xzcn)
+[](#eeaa)[Información general](#eeaa)  
+[](#edaa)[Motivos para una ejecución más segura de los servicios](#edaa)  
+[](#ecaa)[Destinatarios de la guía](#ecaa)  
+[](#ebaa)[Información general de la guía de planeamiento](#ebaa)  
+[](#eaaa)[Comuníquenos su opinión](#eaaa)  
+[](#zxcv)[Capítulo 1: Introducción](#zxcv)  
+[](#zxcb)[Capítulo 2: Cómo mejorar la seguridad de la ejecución de servicios](#zxcb)  
+[](#zxcn)[Capítulo 3: Ejecución más segura de servicios](#zxcn)  
+[](#xzcn)[Capítulo 4: Resumen](#xzcn)  
 
 ### Información general
 
@@ -526,9 +526,9 @@ Se recomienda auditar cada servidor para elaborar una lista de todos los servici
   
 -   **Consola de administración de servicios**. En la consola de administración de servicios, se puede utilizar la ficha **Iniciar sesión** de la página de propiedades de un servicio para buscar la cuenta que utiliza el servicio para iniciar sesión con el fin de realizar la autenticación. También se puede utilizar la ficha **Dependencias** para ver los servicios de los que depende el servicio actual y los servicios dependientes de éste. Los datos sobre las dependencias son una información fundamental que se debe recabar cuando se auditan los servidores. Sin embargo, este método no es escalable a aquellas situaciones en las que se deba auditar una gran cantidad de servidores.
   
--   **Instrumental de administración de Windows (WMI)**.** Utilice WMI para obtener información sobre los servicios que se ejecutan en todos los servidores. Se puede utilizar WMI con herramientas de programación o utilidades de secuencias de comandos, tales como Windows Scripting Host, para recuperar información detallada sobre la configuración de la mayoría de los aspectos de los equipos o para realizar cambios en los mismos. Existen diversas herramientas de administración habilitadas para WMI, tales como Propiedades del sistema, Información del sistema y el componente Dependencias de los servicios. Las dependencias de los servicios identifican los servicios de los que depende el servicio actual y los servicios dependientes de éste.
+-   **Instrumental de administración de Windows (WMI)**. Utilice WMI para obtener información sobre los servicios que se ejecutan en todos los servidores. Se puede utilizar WMI con herramientas de programación o utilidades de secuencias de comandos, tales como Windows Scripting Host, para recuperar información detallada sobre la configuración de la mayoría de los aspectos de los equipos o para realizar cambios en los mismos. Existen diversas herramientas de administración habilitadas para WMI, tales como Propiedades del sistema, Información del sistema y el componente Dependencias de los servicios. Las dependencias de los servicios identifican los servicios de los que depende el servicio actual y los servicios dependientes de éste.
   
--   **Línea de comandos de Instrumental de administración de Windows (WMIC)**.** Con WMIC, se facilita una sencilla herramienta de interfaz de línea de comandos para WMI que permite administrar equipos remotos que utilicen sistemas operativos Windows. WMIC interopera con los comandos de shell y de utilidades, y se puede ampliar fácilmente con secuencias de comandos u otras aplicaciones orientadas a la administración.
+-   **Línea de comandos de Instrumental de administración de Windows (WMIC)**. Con WMIC, se facilita una sencilla herramienta de interfaz de línea de comandos para WMI que permite administrar equipos remotos que utilicen sistemas operativos Windows. WMIC interopera con los comandos de shell y de utilidades, y se puede ampliar fácilmente con secuencias de comandos u otras aplicaciones orientadas a la administración.
   
     Por ejemplo, puede utilizar el comando **wmic service get** para obtener información sobre todas las propiedades de un servicio específico, entre las que se incluyen:
   
@@ -555,8 +555,8 @@ Se recomienda auditar cada servidor para elaborar una lista de todos los servici
     **Nota:** Algunas partes del siguiente fragmento de código se muestran en varias líneas sólo para facilitar la lectura, pero se deben escribir en una única línea.
   
     ```  
- SERVICE GET Name,DisplayName,ProcessId,Started, StartMode,StartName  
-```
+    SERVICE GET Name,DisplayName,ProcessId,Started, StartMode,StartName  
+    ```
   
     El comando **wmic service list brief** se puede utilizar para recuperar una lista de propiedades básicas de todos los servicios instalados de la siguiente forma:
   
@@ -579,16 +579,16 @@ Se recomienda auditar cada servidor para elaborar una lista de todos los servici
     **Nota:** Algunas partes del siguiente fragmento de código se muestran en varias líneas sólo para facilitar la lectura, pero se deben escribir en una única línea.
   
     ```  
- WMIC /NODE:Server1,Server2,Server3 SERVICE GET Name,DisplayName,ProcessId,Started,StartMode, SystemName  
-```
+    WMIC /NODE:Server1,Server2,Server3 SERVICE GET Name,DisplayName,ProcessId,Started,StartMode, SystemName  
+    ```
   
     También se puede proporcionar la ubicación de un archivo de texto que contenga una lista de los equipos remotos en los que se desea utilizar WMIC para llevar a cabo acciones.
   
     Ejemplo de sintaxis:
   
     ```  
- WMIC /NODE:@"C:\\MyServerList.txt" SERVICE LIST BRIEF  
-```
+    WMIC /NODE:@"C:\MyServerList.txt" SERVICE LIST BRIEF  
+    ```
   
     Puede usar WMIC para facilitar las tareas en las siguientes situaciones típicas:
   
@@ -600,7 +600,7 @@ Se recomienda auditar cada servidor para elaborar una lista de todos los servici
   
     -   **Administración remota de un equipo con una sesión remota**. Utiliza tecnologías de sesión remota, como Telnet o Servicios de Terminal Server, para conectarse con un equipo remoto y administrarlo con WMIC.
   
--   **Administración automatizada mediante secuencia de comandos administrativa**.** Con WMIC, se puede escribir una secuencia de comandos de administración sencilla para automatizar la administración de un equipo (local, remota o de varios equipos, tanto en serie como de forma simultánea).
+-   **Administración automatizada mediante secuencia de comandos administrativa**. Con WMIC, se puede escribir una secuencia de comandos de administración sencilla para automatizar la administración de un equipo (local, remota o de varios equipos, tanto en serie como de forma simultánea).
   
     Si desea obtener más información sobre WMI, consulte el tema [WMI: Introducción al Instrumental de administración de Windows](http://technet.microsoft.com/es-es/library/cc736575.aspx) en http://www.microsoft.com/technet/prodtechnol/windowsserver2003/es/library/ServerHelp/03d4cfdf-bc6b-41cd-8154-462cf51e8c70.mspx  
     y la página [Introducción al Instrumental de administración de Windows](http://technet.microsoft.com/es-es/library/cc736575.aspx) en http://www.microsoft.com/windows2000/es/advanced/help/default.asp?url=/windows2000/es/advanced/  
