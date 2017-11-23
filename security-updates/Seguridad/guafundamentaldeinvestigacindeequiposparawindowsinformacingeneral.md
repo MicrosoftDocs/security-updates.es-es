@@ -143,7 +143,7 @@ En esta guía se utilizan las convenciones de estilo descritas en la tabla sigui
 <td style="border:1px solid black;">Los marcadores de posición destacados en cursiva y entre corchetes angulares &lt;Cursiva&gt; representan variables.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><pre><code>Monospace font </code></pre>
+<td style="border:1px solid black;"><pre><code>Monospace font</code></pre>
 <br />
 </td>
 <td style="border:1px solid black;">Define ejemplos de código y secuencias de comandos.</td>

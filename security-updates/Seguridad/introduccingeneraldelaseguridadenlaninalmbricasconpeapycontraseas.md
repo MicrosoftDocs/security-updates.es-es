@@ -17,21 +17,21 @@ Actualizado: agosto 25, 2004
 
 ##### En esta página
 
-[](#edaa)[Introducción](#edaa)
-[](#ecaa)[Información general de la solución](#ecaa)
-[](#nlsw)[Capítulo 1: Seguridad en LAN inalámbricas con PEAP y contraseñas](#nlsw)
-[](#npsw)[Capítulo 2: Planeamiento de la implementación de seguridad en LAN inalámbricas](#npsw)
-[](#apsw)[Capítulo 3: Preparación del entorno](#apsw)
-[](#adsw)[Capítulo 4: Creación de la entidad emisora de certificados de red](#adsw)
-[](#adse)[Capítulo 5: Creación de la infraestructura de seguridad de LAN inalámbricas](#adse)
-[](#acse)[Capítulo 6: Configuración de clientes de LAN inalámbricas](#acse)
-[](#zcse)[Capítulo 7: Prueba de soluciones de seguridad en LAN inalámbricas](#zcse)
-[](#mase)[Capítulo 8: Mantenimiento de soluciones de seguridad en LAN inalámbricas](#mase)
-[](#maza)[Apéndice A: Uso de PEAP en la empresa](#maza)
-[](#mazx)[Apéndice B: Uso de WPA en la solución](#mazx)
-[](#mazy)[Apéndice C: Versiones de sistemas operativos compatibles](#mazy)
-[](#mazr)[Apéndice D: Secuencias de comandos y archivos auxiliares](#mazr)
-[](#maur)[Introducción: Elección de una estrategia para la seguridad en LAN inalámbricas](#maur)
+[](#edaa)[Introducción](#edaa)  
+[](#ecaa)[Información general de la solución](#ecaa)  
+[](#nlsw)[Capítulo 1: Seguridad en LAN inalámbricas con PEAP y contraseñas](#nlsw)  
+[](#npsw)[Capítulo 2: Planeamiento de la implementación de seguridad en LAN inalámbricas](#npsw)  
+[](#apsw)[Capítulo 3: Preparación del entorno](#apsw)  
+[](#adsw)[Capítulo 4: Creación de la entidad emisora de certificados de red](#adsw)  
+[](#adse)[Capítulo 5: Creación de la infraestructura de seguridad de LAN inalámbricas](#adse)  
+[](#acse)[Capítulo 6: Configuración de clientes de LAN inalámbricas](#acse)  
+[](#zcse)[Capítulo 7: Prueba de soluciones de seguridad en LAN inalámbricas](#zcse)  
+[](#mase)[Capítulo 8: Mantenimiento de soluciones de seguridad en LAN inalámbricas](#mase)  
+[](#maza)[Apéndice A: Uso de PEAP en la empresa](#maza)  
+[](#mazx)[Apéndice B: Uso de WPA en la solución](#mazx)  
+[](#mazy)[Apéndice C: Versiones de sistemas operativos compatibles](#mazy)  
+[](#mazr)[Apéndice D: Secuencias de comandos y archivos auxiliares](#mazr)  
+[](#maur)[Introducción: Elección de una estrategia para la seguridad en LAN inalámbricas](#maur)  
 
 ### Introducción
 
@@ -113,10 +113,10 @@ Envíe sus comentarios a la siguiente dirección de correo electrónico: [SecWis
 
 ### Capítulo 1: Seguridad en LAN inalámbricas con PEAP y contraseñas
 
-[](#aeaa)[Introducción](#aeaa)
-[](#adaa)[Información general de la solución](#adaa)
-[](#acaa)[Convenciones de estilo](#acaa)
-[](#abaa)[Soporte técnico y comentarios](#abaa)
+[](#aeaa)[Introducción](#aeaa)  
+[](#adaa)[Información general de la solución](#adaa)  
+[](#acaa)[Convenciones de estilo](#acaa)  
+[](#abaa)[Soporte técnico y comentarios](#abaa)  
 
 ### Introducción
 

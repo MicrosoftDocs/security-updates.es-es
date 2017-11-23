@@ -39,7 +39,7 @@ Renovación de certificados emisores de licencias de servidor
 
 7.  Una vez que haya guardado el archivo de solicitud de renovación, aparecerá el cuadro de diálogo **Descarga completa**. Puede hacer clic en **Abrir** para ver el código XML en el archivo, pero no es posible modificar el archivo. Para abrir la carpeta en la que está almacenado el archivo, haga clic en **Abrir carpeta**. Haga clic en **Cerrar** si ha terminado de consultar el archivo y de comprobar su ubicación.
 
-8.  Traslade el archivo de solicitud de renovación de su servidor a un equipo que se pueda conectar a Internet y, a continuación, vaya al [sitio Web del Servicio de inscripción]() (https://go.microsoft.com/fwlink/?LinkId=25828).
+8.  Traslade el archivo de solicitud de renovación de su servidor a un equipo que se pueda conectar a Internet y, a continuación, vaya al  https://go.microsoft.com/fwlink/?LinkId=25828.
 
 9.  Siga las instrucciones del sitio Web para obtener un certificado emisor de licencias de servidor.
 
