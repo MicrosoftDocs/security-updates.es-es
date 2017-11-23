@@ -58,12 +58,12 @@ En la siguiente tabla se describe la sintaxis de cada comando.
 <td style="border:1px solid black;">Opcional. Especifica que la página <strong>Administración global</strong> no se mostrará después de la instalación.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><strong>TARGETDIR=c:\</strong><em>Install_Location</em></td>
+<td style="border:1px solid black;"><strong>TARGETDIR=c:\ </strong><em>Install_Location</em></td>
 <td style="border:1px solid black;">Opcional. Especifica el directorio en el que se debe instalar RMS con Service Pack 2. Si no especifica una ubicación, se utiliza la ubicación de instalación predeterminada.</td>
 </tr>
 </tbody>
 </table>
   
 | ![](images/Cc747733.note(WS.10).gif)Nota                                                                                                                                                                                   |  
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Independientemente del método de instalación que decida implementar, asegúrese de que los dos archivos .msi se instalan correctamente. Si se produce un error que impide la instalación de MSDrmClient.msi, no podrá instalarse RMClientBackCompat.msi. |
+> [!NOTE]
+> Independientemente del método de instalación que decida implementar, asegúrese de que los dos archivos .msi se instalan correctamente. Si se produce un error que impide la instalación de MSDrmClient.msi, no podrá instalarse RMClientBackCompat.msi.
