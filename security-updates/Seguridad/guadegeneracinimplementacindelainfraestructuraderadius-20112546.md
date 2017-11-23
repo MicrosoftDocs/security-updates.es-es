@@ -13,12 +13,12 @@ Publicado: octubre 11, 2004 | Actualizado: 24/11/04
 
 ##### En esta página
 
-[](#egaa)[Introducción](#egaa)
-[](#efaa)[Hoja de trabajo de planeamiento de infraestructura de RADIUS](#efaa)
-[](#eeaa)[Creación de los servidores](#eeaa)
-[](#edaa)[Instalación y configuración de IAS](#edaa)
-[](#ecaa)[Configuración del servidor IAS principal](#ecaa)
-[](#ebaa)[Implementación de la configuración en varios servidores IAS](#ebaa)
+[](#egaa)[Introducción](#egaa)  
+[](#efaa)[Hoja de trabajo de planeamiento de infraestructura de RADIUS](#efaa)  
+[](#eeaa)[Creación de los servidores](#eeaa)  
+[](#edaa)[Instalación y configuración de IAS](#edaa)  
+[](#ecaa)[Configuración del servidor IAS principal](#ecaa)  
+[](#ebaa)[Implementación de la configuración en varios servidores IAS](#ebaa)  
 [](#eaaa)[Resumen](#eaaa)
 
 ### Introducción
@@ -111,7 +111,6 @@ En la siguiente tabla se enumeran parámetros específicos de organización toma
 
 **Tabla 8.1: Elementos de configuración definidos por el usuario**
 
- 
 <p> </p>
 <table style="border:1px solid black;">
 <colgroup>
@@ -154,7 +153,6 @@ La configuración especificada en esta tabla no se debe cambiar en instalaciones
   
 **Tabla 8.2: Elementos de configuración que recomienda la solución**
 
- 
 <p> </p>
 <table style="border:1px solid black;">
 <colgroup>
@@ -249,7 +247,6 @@ Las especificaciones de hardware siguientes se utilizaron para probar esta soluc
   
 **Tabla 8.3: Especificaciones de hardware de servidor probadas**
 
- 
 <p> </p>
 <table style="border:1px solid black;">
 <colgroup>
@@ -277,10 +274,10 @@ Las especificaciones de hardware siguientes se utilizaron para probar esta soluc
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Almacenamiento en disco</td>
-<td style="border:1px solid black;">Controlador RAID (matriz redundante de discos independientes) IDE (electrónica integrada de dispositivos) o SCSI (interfaz estándar de equipos pequeños).
-2 x 9 GB (SCSI o IDE) configurados como volumen RAID 1 (unidad C).
-2 x 18 GB (SCSI o IDE) configurados como volumen RAID 1 (unidad D).
-Medios de almacenamiento local extraíbles (CD-RW o cinta para copia de seguridad) si no existe un servicio de copia de seguridad de red.
+<td style="border:1px solid black;">Controlador RAID (matriz redundante de discos independientes) IDE (electrónica integrada de dispositivos) o SCSI (interfaz estándar de equipos pequeños).<br/><br/>
+2 x 9 GB (SCSI o IDE) configurados como volumen RAID 1 (unidad C).<br/><br/>
+2 x 18 GB (SCSI o IDE) configurados como volumen RAID 1 (unidad D).<br/><br/>
+Medios de almacenamiento local extraíbles (CD-RW o cinta para copia de seguridad) si no existe un servicio de copia de seguridad de red.<br/><br/>
 Unidad de disco de 1,44 MB para la transferencia de datos.</td>
 </tr>
 </tbody>
@@ -383,11 +380,11 @@ Debe comprobar que la instalación del sistema operativo ha finalizado correctam
 
     Revisión(es): X revisión(es) instaladas.
 
-                               \[01\]: Qxxxxxx
-
+            [01]: Qxxxxxx
+            
     ...
-
-                               \[nn\]: Qnnnnnn
+    
+            [nn]: Qnnnnnn
 
     Tarjeta(s) de red: 1 Tarjetas de interfaz de red instaladas.
 
@@ -553,9 +550,8 @@ Debe seguir el siguiente procedimiento para importar la plantilla Cliente empres
 
     **Tabla 8.4: Objetos de directiva de grupo y ubicación**
 
- 
     <p> </p>
-<table style="border:1px solid black;">
+    <table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
     <col width="33%" />
@@ -690,7 +686,6 @@ Debe establecerse la siguiente configuración de Servicios de Terminal Server en
   
 **Tabla 8.5: Configuración para Configuración de equipo\\Plantillas administrativas\\Componentes de Windows\\Servicios de Terminal Server**
 
- 
 <p> </p>
 <table style="border:1px solid black;">
 <colgroup>
@@ -821,7 +816,6 @@ IAS se instala con el administrador de componentes opcionales de Windows (al que
   
 **Tabla 8.6 Componentes de IAS para instalar**
 
- 
 <p> </p>
 <table style="border:1px solid black;">
 <colgroup>
