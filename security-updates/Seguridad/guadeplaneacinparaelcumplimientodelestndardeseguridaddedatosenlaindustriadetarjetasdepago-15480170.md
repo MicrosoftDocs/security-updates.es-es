@@ -11,9 +11,9 @@ Guía de planeación para el cumplimiento del Estándar de seguridad de datos en
 
 ##### On This Page
 
-[![Introducción](images/Bb821241.arrow_px_down(es-es,TechNet.10).gif)](#ecaa)[Introducción](#ecaa)
-[![Cumplimiento de los requisitos del Estándar PCI DSS](images/Bb821241.arrow_px_down(es-es,TechNet.10).gif)](#ebaa)[Cumplimiento de los requisitos del Estándar PCI DSS](#ebaa)
-[![Apéndices](images/Bb821241.arrow_px_down(es-es,TechNet.10).gif)](#eaaa)[Apéndices](#eaaa)
+[![Introducción](images/Bb821241.arrow_px_down(es-es,TechNet.10).gif)](#ecaa)[Introducción](#ecaa)  
+[![Cumplimiento de los requisitos del Estándar PCI DSS](images/Bb821241.arrow_px_down(es-es,TechNet.10).gif)](#ebaa)[Cumplimiento de los requisitos del Estándar PCI DSS](#ebaa)  
+[![Apéndices](images/Bb821241.arrow_px_down(es-es,TechNet.10).gif)](#eaaa)[Apéndices](#eaaa)  
 
 ### Introducción
 
@@ -35,7 +35,7 @@ La introducción de esta guía incluye las siguientes secciones:
 
 -   **Proceso de auditoría del Estándar PCI DSS**: en esta sección, se ofrece información general acerca del proceso de auditoría del Estándar PCI DSS que siguen los auditores para evaluar el cumplimiento de los requisitos del Estándar PCI DSS en la organización.
 
-Puesto que estas notas del producto pretenden complementar la [*Guía de planeación para el cumplimiento normativo*](http://www.microsoft.com/technet/security/guidance/complianceandpolicies/compliance/rcguide/default.mspx?mfr=true)* *(en inglés), debe consultar también esa guía cuando planee una solución integral para cumplir con los requisitos normativos aplicables a la organización.
+Puesto que estas notas del producto pretenden complementar la [*Guía de planeación para el cumplimiento normativo*](http://www.microsoft.com/technet/security/guidance/complianceandpolicies/compliance/rcguide/default.mspx?mfr=true) (en inglés), debe consultar también esa guía cuando planee una solución integral para cumplir con los requisitos normativos aplicables a la organización.
 
 #### Resumen ejecutivo
 
@@ -209,13 +209,13 @@ Microsoft ofrece una serie de tecnologías que se pueden usar de forma conjunta 
 
 -   **Servicios de Microsoft® Windows® Rights Management**: los Servicios de Microsoft Windows Rights Management (RMS) ofrecen una plataforma de software que ayuda a que las aplicaciones protejan la información digital del uso no autorizado (tanto en línea como sin conexión, fuera y dentro del firewall). RMS es la tecnología base que está detrás de las características de Information Rights Management (IRM) de Microsoft Office y Windows SharePoint® Services. Para usar estas características, es necesario un servidor RMS, implementado de forma interna o accesible desde un servicio de host.
 
-    RMS puede mejorar la estrategia de seguridad de la organización mediante la protección de la información a través de directivas de uso persistentes, que se mantienen con la información independientemente de donde esta vaya. Las aplicaciones con tecnología RMS habilitada se pueden usar para administrar, controlar y auditar el acceso a los documentos que contienen información del titular de la tarjeta. El cliente RMS está integrado en el sistema operativo de Windows Vista™. Para otras versiones de Windows, el cliente RMS está disponible como descarga gratuita.
+    RMS puede mejorar la estrategia de seguridad de la organización mediante la protección de la información a través de directivas de uso persistentes, que se mantienen con la información independientemente de donde esta vaya. Las aplicaciones con tecnología RMS habilitada se pueden usar para administrar, controlar y auditar el acceso a los documentos que contienen información del titular de la tarjeta. El cliente RMS está integrado en el sistema operativo de Windows Vista™. Para otras versiones de Windows, el cliente RMS está disponible como descarga gratuita.  
     Para obtener más información, consulte [*Servicios de Microsoft Windows Rights Management*](http://www.microsoft.com/rms) (en inglés) en <http://www.microsoft.com/rms>.
 
--   **Microsoft Office SharePoint Server**: SharePoint Server es un servidor de colaboración y administración de contenido que le permite tener una plataforma integrada compatible con el portal y las necesidades de administración de documentos de su organización. Le brinda compatibilidad con aplicaciones web, de extranet e intranet para toda la empresa, y proporciona a los profesionales de TI y a los desarrolladores la plataforma y las herramientas que necesitan para la administración del servidor, las posibilidades de ampliación de la aplicación y la interoperabilidad. SharePoint Server se puede usar como repositorio central para documentos con datos de titulares de tarjetas, así como para documentos que describen directivas y procesos. SharePoint Server 2007 está integrado con RMS, de modo que las directivas de control se pueden aplicar en todas las copias del contenido descargado desde SharePoint Server 2007. Esta característica permite que todos los administradores de sitio protejan las descargas desde una biblioteca de documentos con IRM. Cuando un usuario intenta descargar un archivo desde una biblioteca, Microsoft Windows SharePoint Services comprueba que el usuario tenga los permisos necesarios para el archivo concreto y emite una licencia para el usuario que permite el acceso al archivo en función del nivel de permiso correspondiente. A continuación, Windows SharePoint Services descarga el archivo en el equipo del usuario en un formato de archivo cifrado y administrado a partir de derechos.
+-   **Microsoft Office SharePoint Server**: SharePoint Server es un servidor de colaboración y administración de contenido que le permite tener una plataforma integrada compatible con el portal y las necesidades de administración de documentos de su organización. Le brinda compatibilidad con aplicaciones web, de extranet e intranet para toda la empresa, y proporciona a los profesionales de TI y a los desarrolladores la plataforma y las herramientas que necesitan para la administración del servidor, las posibilidades de ampliación de la aplicación y la interoperabilidad. SharePoint Server se puede usar como repositorio central para documentos con datos de titulares de tarjetas, así como para documentos que describen directivas y procesos. SharePoint Server 2007 está integrado con RMS, de modo que las directivas de control se pueden aplicar en todas las copias del contenido descargado desde SharePoint Server 2007. Esta característica permite que todos los administradores de sitio protejan las descargas desde una biblioteca de documentos con IRM. Cuando un usuario intenta descargar un archivo desde una biblioteca, Microsoft Windows SharePoint Services comprueba que el usuario tenga los permisos necesarios para el archivo concreto y emite una licencia para el usuario que permite el acceso al archivo en función del nivel de permiso correspondiente. A continuación, Windows SharePoint Services descarga el archivo en el equipo del usuario en un formato de archivo cifrado y administrado a partir de derechos.  
     Para obtener más información, consulte el sitio web [*Productos y tecnologías de Microsoft SharePoint*](http://go.microsoft.com/fwlink/?linkid=12632) (en inglés) en <http://go.microsoft.com/fwlink/?linkid=12632>.
 
--   **Microsoft Exchange Server**: hoy día, muchos negocios consideran el correo electrónico como la herramienta de comunicación fundamental que los empleados deben usar para obtener resultados óptimos. Esta gran confianza depositada en el correo electrónico ha aumentado el número de mensajes enviados y recibidos, la cantidad y variedad de los trabajos realizados a través del correo electrónico e incluso ha acelerado el ritmo en que se desarrolla el propio negocio. Exchange Server proporciona una plataforma de mensajería completa para la administración del intercambio de información en la organización, a la vez que facilita el cumplimiento de los objetivos relacionados con el Estándar PCI DSS. Exchange Server 2007 incluye servicios de mensajería unificada, que compila el correo electrónico, correo de voz y fax que se envía a un usuario en una única bandeja de entrada. Ofrece además características que permiten a la organización aplicar reglas de retención, funciones de detección e intervención en mensajes en curso, diario flexible y búsquedas de texto enriquecido en todos los buzones implementados.
+-   **Microsoft Exchange Server**: hoy día, muchos negocios consideran el correo electrónico como la herramienta de comunicación fundamental que los empleados deben usar para obtener resultados óptimos. Esta gran confianza depositada en el correo electrónico ha aumentado el número de mensajes enviados y recibidos, la cantidad y variedad de los trabajos realizados a través del correo electrónico e incluso ha acelerado el ritmo en que se desarrolla el propio negocio. Exchange Server proporciona una plataforma de mensajería completa para la administración del intercambio de información en la organización, a la vez que facilita el cumplimiento de los objetivos relacionados con el Estándar PCI DSS. Exchange Server 2007 incluye servicios de mensajería unificada, que compila el correo electrónico, correo de voz y fax que se envía a un usuario en una única bandeja de entrada. Ofrece además características que permiten a la organización aplicar reglas de retención, funciones de detección e intervención en mensajes en curso, diario flexible y búsquedas de texto enriquecido en todos los buzones implementados.  
     Para obtener más información, consulte el sitio web de Microsoft Exchange Server (en inglés) en <http://www.microsoft.com/exchange/default.mspx>.
 
 -   **Microsoft Office**: Office es un conjunto primordial de aplicaciones de productividad para las empresas. La característica IRM de Microsoft Office ayuda a que las organizaciones controlen el acceso a información confidencial, como los datos del titular de la tarjeta.
@@ -233,6 +233,8 @@ Microsoft ofrece una serie de tecnologías que se pueden usar de forma conjunta 
     -   Protege la información contenida en los mensajes de correo electrónico o documentos con fecha de expiración, de modo que la información no se pueda ver hasta pasado un período de tiempo determinado.
 
     -   Aplica las directivas corporativas que determinan el uso y difusión de la información dentro y fuera de la compañía.
+
+Para obtener más información, consulte el sitio web de Microsoft Office (en inglés) en [http://office.microsoft.com/en-us/default.aspx](http://office.microsoft.com/en-us/default.aspx).
 
 #### Evaluación de riesgos
 
@@ -268,7 +270,7 @@ Para obtener más información acerca de SMS, consulte la página principal de M
 Para obtener más información, consulte el artículo sobre Audit Collection Services (en inglés) en <http://technet.microsoft.com/en-us/library/bb381258.aspx>.
 
 <li>
-**Windows Server Update Services**:** **Windows Server Update Services (WSUS) con Service Pack 1 permite a la organización implementar muchas de las últimas actualizaciones de productos de Microsoft publicadas en el sitio de Microsoft Update. Windows Server Update Services es un componente de actualización de Windows Server que presenta una forma rápida y eficaz de ayudar a mantener los sistemas actualizados. WSUS ofrece una infraestructura de evaluación de riesgos que consta de lo siguiente:
+**Windows Server Update Services**: Windows Server Update Services (WSUS) con Service Pack 1 permite a la organización implementar muchas de las últimas actualizaciones de productos de Microsoft publicadas en el sitio de Microsoft Update. Windows Server Update Services es un componente de actualización de Windows Server que presenta una forma rápida y eficaz de ayudar a mantener los sistemas actualizados. WSUS ofrece una infraestructura de evaluación de riesgos que consta de lo siguiente:
 
 -   **Microsoft Update**: el sitio web de Microsoft al que se conectan los componentes de WSUS para las actualizaciones de los productos de Microsoft
 
@@ -332,6 +334,8 @@ Microsoft le ofrece una serie de tecnologías a tener en cuenta cuando diseñe l
 
     -   Acceso a petición a las aplicaciones para los usuarios aprobados.
 
+Microsoft Desktop Optimization Pack solo está disponible para los clientes con Software Assurance en sus escritorios. Para obtener más información, consulte Optimización del escritorio de Windows (en inglés) en [http://www.microsoft.com/windows/products/windowsvista/buyorupgrade/optimizeddesktop.mspx](https://www.microsoft.com/windows/products/windowsvista/buyorupgrade/optimizeddesktop.mspx).
+
 #### Seguridad de red
 
 Las soluciones de seguridad de red constituyen una amplia categoría de soluciones diseñadas para tratar la seguridad de todos los aspectos de la red de una organización, incluidos firewalls, servidores, clientes, enrutadores, conmutadores y puntos de acceso. La planeación y el control de la seguridad de las redes de su organización constituyen un elemento clave en la consecución del cumplimiento del Estándar PCI DSS. Aunque existe una amplia variedad de soluciones disponibles para administrar la seguridad de red, su organización debe tener ya muchos de los elementos de una red segura por norma. Probablemente, sea más eficaz y económico partir de las soluciones de seguridad de red que ya tiene implementadas en lugar de comenzar desde el principio.
@@ -350,9 +354,17 @@ Microsoft le ofrece una serie de tecnologías para cumplir con los dos primeros 
 
 -   **Firewall de Microsoft Windows**: Windows XP Service Pack 2 (SP2) incluye Firewall de Windows, que reemplaza al Servidor de seguridad de conexión a Internet (ICF). Firewall de Windows es un firewall con estado basado en host que omite el tráfico entrante no solicitado que no se corresponde con el tráfico enviado en respuesta a una solicitud del equipo (tráfico solicitado) ni con el tráfico no solicitado especificado como permitido (tráfico excepcional). Firewall de Windows proporciona un nivel de protección ante usuarios y programas malintencionados que confían en tráfico entrante no solicitado para atacar los equipos de una red. Estas características se han mejorado en Firewall de Windows con seguridad avanzada en Windows Vista y Windows Server “Longhorn”.
 
+    Firewall de Windows con seguridad avanzada le permite bloquear las conexiones entrantes y salientes basadas en los parámetros que ha configurado mediante el complemento Microsoft Management Control (MMC). Este complemento ofrece una interfaz para configurar Firewall de Windows de forma local y también para configurarlo en equipos remotos y mediante directivas de grupo. Las funciones de firewall están ahora integradas con los parámetros de protección del protocolo de seguridad de Internet (IPsec), con lo que se reduce la posibilidad de conflictos entre los dos mecanismos de protección. Firewall de Windows con seguridad avanzada es compatible con perfiles independientes para cuando los equipos están unidos a un dominio o conectados a una red privada o pública. También es compatible con la creación de reglas para la aplicación de directivas de aislamiento de servidor y dominio. Firewall de Windows con seguridad avanzada es compatible con reglas más específicas, incluidos los usuarios y grupos de Microsoft Active Directory, las direcciones de origen y destino de protocolo Internet (IP), el número de puerto IP, la configuración de ICMP, la configuración de IPsec, tipos concretos de interfaces, servicios, etc.
+
+    Para obtener más información, consulte Firewall de Windows (en inglés) en [http://www.microsoft.com/technet/network/wf/default.mspx](http://www.microsoft.com/technet/network/wf/default.mspx).
+
 -   **Microsoft Internet Security and Acceleration Server**: Microsoft Internet Security and Acceleration (ISA) Server le puede ayudar a proteger su red de distintas formas. En primer lugar, puede usarlo para permitir a los usuarios el acceso remoto a las aplicaciones corporativas a través de Internet. Para ello, puede configurar ISA Server para autenticar previamente las solicitudes de usuarios entrantes, inspeccionar todo el tráfico en el nivel de aplicaciones (incluido el tráfico cifrado) y proporcionar herramientas de publicación automatizadas. En segundo lugar, si su organización incluye sucursales, ISA Server le permite usar las funciones de compresión HTTP, almacenamiento en caché del contenido y la red privada virtual (VPN) para ampliar su red de forma fácil y segura. En tercer lugar, con ISA Server puede proteger su red de las amenazas de Internet internas y externas. Para ello, se usa la arquitectura proxy-firewall, las funciones de inspección de contenido, la configuración granular de directivas, así como las funciones completas de alerta y control.
 
+    Para obtener más información, consulte la página sobre Internet Security and Acceleration Server (en inglés) en [http://www.microsoft.com/isaserver/default.mspx](http://www.microsoft.com/isaserver/default.mspx).
+
 -   **Aislamiento de servidor y dominio mediante el protocolo de seguridad de Internet (IPsec) y la directiva de seguridad de Active Directory:** el aislamiento de servidor y dominio crea un nivel de protección íntegro que puede reducir considerablemente el riesgo de ataques malintencionados y de acceso no autorizado a los recursos en red. A partir de Windows IPsec y de la directiva de grupo de Active Directory, esta solución le permite segmentar de forma dinámica su entorno de Windows en redes lógicas y aisladas más seguras. Son varios los métodos para crear una red aislada, por lo que tiene flexibilidad para aislar de forma lógica todo un dominio administrado o crear redes virtuales de determinados servidores más seguras, con lo que limita el acceso a los usuarios autenticados y autorizados, o requiere que los servidores o redes concretos protejan todos los datos mediante el cifrado. Al requerir el cifrado de datos para el tráfico intercambiado entre las submáscaras de red y los hosts de red específicos, puede cumplir con los requisitos normativos y de socios empresariales para cifrar datos cuando estos pasen por una red.
+
+    Para obtener más información, consulte la página principal del sitio de Microsoft Technet (en inglés) en [http://www.microsoft.com/technet/network/sdiso/default.mspx](http://www.microsoft.com/technet/network/sdiso/default.mspx).
 
 -   **Asistente para configuración de seguridad de Windows Server 2003**: el Asistente para configuración de seguridad puede ayudarle a proteger la red mediante la reducción de la superficie de ataque de los servidores que ejecutan Windows Server 2003, Service Pack 1. El Asistente para configuración de seguridad determina la funcionalidad mínima necesaria para las funciones de un servidor y deshabilita la funcionalidad que no es necesaria. En concreto, el Asistente para configuración de seguridad:
 
@@ -368,7 +380,13 @@ Microsoft le ofrece una serie de tecnologías para cumplir con los dos primeros 
 
     -   define una directiva de auditoría con una elevada relación señal-ruido.
 
+    El Asistente para configuración de seguridad puede orientar a los profesionales de TI a través del proceso de creación, edición, aplicación o reversión de una directiva de seguridad basada en las funciones seleccionadas del servidor. Las directivas de seguridad que se crean con el asistente son archivos XML que, cuando se aplican, definen servicios, la seguridad de red, valores de registro específicos, directivas de auditoría e IIS, si procede.
+
+    Para obtener más información, consulte el Asistente para configuración de seguridad para Windows Server 2003 (en inglés) en [http://www.microsoft.com/windowsserver2003/technologies/security/configwiz/default.mspx](http://www.microsoft.com/windowsserver2003/technologies/security/configwiz/default.mspx).
+
 -   **Conexión a escritorio remoto mediante la autenticación de servidor**: las conexiones a escritorio remoto son una forma eficaz de permitir a los usuarios tener acceso a los equipos cliente y servidores compartidos. Esta tecnología puede ser una forma económica de crear un desarrollo y unos equipos de prueba compartidos. Por otro lado, puede usar estos equipos como puntos de acceso centralizados para muchos tipos de proyectos, así como permitir a los usuarios externos a la red tener acceso a estos equipos, con lo que se aíslan los riesgos que suponen para la seguridad de la red. Además, la actualización del cliente Conexión a Escritorio remoto 6.0 permite a los profesionales de TI configurar la autenticación del servidor. Con la autenticación del servidor, puede evitar que los usuarios se conecten a un equipo o servidor que no sea el deseado y la exposición potencial de información confidencial. Microsoft introduce esta característica en Windows Vista y Windows Server “Longhorn”. El cliente Conexión a Escritorio remoto 6.0 se puede usar en otros equipos que ejecutan Windows Server 2003 con Service Pack 1 o Windows XP con Service Pack 2 (SP2). El cliente se puede usar para conectarse a servidores de Terminal Services heredados o a escritorios remotos como anteriormente, pero la autenticación de servidor sólo se produce cuando el equipo remoto ejecuta Windows Vista o Windows Server “Longhorn”.
+
+    Para obtener más información, consulte Actualización de cliente Conexión a Escritorio remoto 6.0 disponible para descarga desde el Centro de descarga de Microsoft (en inglés) en [http://support.microsoft.com/kb/925876](http://support.microsoft.com/kb/925876).
 
 -   **Acceso protegido Wi-Fi 2**: si su organización usa una red inalámbrica, debe reflexionar acerca de la actualización a enrutadores inalámbricos, puntos de acceso y otros dispositivos compatibles con la certificación de producto de Acceso protegido Wi-Fi 2 (WPA2). WPA2 es una certificación de producto que otorga Wi-Fi Alliance y certifica que los equipos inalámbricos son compatibles con el estándar IEEE 802.11i. El objetivo de la certificación WPA2 es ser compatible con otras características de seguridad obligatorias del estándar IEEE 802.11i que todavía no está incluido para los productos compatibles con WPA. Por ejemplo, WPA2 requiere compatibilidad para el cifrado TKPI y AES. WPA2 está disponible en dos modos diferentes:
 
@@ -376,9 +394,15 @@ Microsoft le ofrece una serie de tecnologías para cumplir con los dos primeros 
 
     -   WPA2-Personal usa una PSK para la autenticación y está diseñado para redes con infraestructura SOHO.
 
+    WPA2 es compatible con Windows XP Service Pack 2, Windows Vista y Windows Server "Longhorn". Para obtener más información, consulte Tecnologías LAN inalámbricas y Microsoft Windows (en inglés) en [http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/wrlsxp.mspx](http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/wrlsxp.mspx) e Información general acerca de Acceso protegido Wi-Fi 2 (WPA2) (en inglés) en [http://www.microsoft.com/technet/community/columns/cableguy/cg0505.mspx](http://www.microsoft.com/technet/community/columns/cableguy/cg0505.mspx).
+
 -   **Protección de acceso a redes**: la Protección de acceso a redes (NAP) es una plataforma para Windows Server “Longhorn” y Windows Vista. Proporciona componentes de aplicación de directivas que ayudan a garantizar que los equipos conectados a una red o que se comunican a través de una red cumplen con los requisitos definidos por el administrador para el mantenimiento del sistema. Su organización puede emplear una combinación de los componentes de validación de directivas y de limitación de acceso a red para controlar el acceso o la comunicación entre redes. También se puede decidir por limitar temporalmente el acceso a una red restringida a los equipos que no cumplan con los requisitos. En función de la configuración seleccionada, la red restringida puede contener recursos necesarios para la actualización de los equipos para que estos cumplan con los requisitos de mantenimiento para un acceso a redes sin límite y una comunicación normal. NAP incluye una interfaz de programación de aplicaciones (API) definida por desarrolladores y proveedores para crear soluciones completas para la validación de directivas de estado, la limitación de acceso a redes y el cumplimiento continuo de las condiciones de estado. NAP ofrece componentes de aplicación de acceso limitado para IPsec, conexiones de red autenticadas con el estándar IEEE 802.1X, redes VPN y Protocolo de configuración dinámica de host (DCHP). Puede usar estas tecnologías de forma conjunta o individual. Con estas funciones, NAP puede ser una herramienta eficaz para facilitarle la protección del estado y la seguridad de la red.
 
+    Para obtener más información, consulte Protección de acceso a redes (en inglés) en [http://www.microsoft.com/technet/network/nap/default.mspx](http://www.microsoft.com/technet/network/nap/default.mspx).
+
 -   **Microsoft Virtual Server**: Microsoft Virtual Server 2005 R2 proporciona una plataforma de virtualización que ejecuta la mayoría de los sistemas operativos x86 en un entorno de invitado. Es compatible con Microsoft en calidad de host para los sistemas operativos Windows Server y las aplicaciones Windows Server System. Su integración con una amplia variedad de herramientas de administración de Microsoft y de terceros permite a los administradores administrar a la perfección un entorno de Virtual Server 2005 R2 con las herramientas de administración de los servidores físicos existentes. Puesto que Microsoft Virtual Server permite a la organización ejecutar varios sistemas operativos en un equipo, puede ayudarle a cumplir con el requisito 2.2.1 del Estándar PCI DSS que exige que la organización sólo ejecute una función principal por servidor. Por ejemplo, puede usar Virtual Server para implementar un servidor web virtual, un servidor de bases de datos virtual y un servidor de archivos virtual en el mismo equipo.
+
+    Microsoft Virtual Server se puede descargar gratuitamente desde Microsoft. Para obtener más información, consulte la página sobre Microsoft Virtual Server (en inglés) en [http://www.microsoft.com/windowsserversystem/virtualserver/default.mspx](http://www.microsoft.com/windowsserversystem/virtualserver/default.mspx).
 
 #### Control de host
 
@@ -396,7 +420,9 @@ Microsoft le ofrece una serie de tecnologías que puede usar de forma conjunta o
 
 -   **Microsoft Baseline Security Analyzer (MBSA)**: una de las herramientas principales que puede usar para evaluar los riesgos de los datos de los titulares de tarjetas en la organización es MBSA. MBSA es una herramienta fácil de usar que identifica configuraciones incorrectas de seguridad comunes en una serie de productos de Microsoft, incluidos el sistema operativo de Windows, Internet Information Services, SQL Server, Internet Explorer y Microsoft Office. MBSA también detecta las actualizaciones de seguridad, los paquetes acumulativos de actualizaciones y los service packs que faltan con respecto a los publicados en Microsoft Update. Puede ejecutar MBSA desde el símbolo del sistema o en una GUI, así como usarlo con Microsoft Update y Windows Server Update Services. Dado que mantener los sistemas actualizados es una tarea muy importante para proteger los datos de los titulares de tarjetas tanto como sea posible, MBSA se puede mostrar como una herramienta irremplazable para la evaluación de los riegos para los datos de la organización.
 
--   **Microsoft Windows Server Update Services**:** **Microsoft Windows Server Update Services (WSUS) con Service Pack 1 permite a la organización implementar muchas de las últimas actualizaciones de productos de Microsoft publicadas en el sitio de Microsoft Update. WSUS es un componente de actualización de Windows Server que le ofrece una forma rápida y eficaz de mantener actualizados los sistemas. WSUS ofrece una infraestructura de administración que consta de lo siguiente:
+    Para obtener más información, consulte el artículo sobre Microsoft Baseline Security Analyzer (en inglés) en [http://www.microsoft.com/technet/security/tools/mbsahome.mspx](http://www.microsoft.com/technet/security/tools/mbsahome.mspx).
+
+-   **Microsoft Windows Server Update Services**: Microsoft Windows Server Update Services (WSUS) con Service Pack 1 permite a la organización implementar muchas de las últimas actualizaciones de productos de Microsoft publicadas en el sitio de Microsoft Update. WSUS es un componente de actualización de Windows Server que le ofrece una forma rápida y eficaz de mantener actualizados los sistemas. WSUS ofrece una infraestructura de administración que consta de lo siguiente:
 
     -   **Microsoft Update**: el sitio web de Microsoft al que se conectan los componentes de WSUS para las actualizaciones de los productos de Microsoft.
 
@@ -404,7 +430,13 @@ Microsoft le ofrece una serie de tecnologías que puede usar de forma conjunta o
 
     -   **Actualizaciones automáticas**: el componente de equipo cliente integrado en los sistemas operativos Windows Vista, Windows Server 2003, Windows XP y Windows 2000 con SP3. Con Actualizaciones automáticas, el servidor y los equipos cliente pueden recibir actualizaciones desde Microsoft Update o desde un servidor que ejecute WSUS.
 
+    Estos servicios le ayudan a mantener todos los entornos de la red actualizados con las últimas correcciones de seguridad de Microsoft para los productos instalados en un host determinado.
+
+    Para obtener más información, consulte la página principal de Windows Server Update Services (en inglés) en [http://www.microsoft.com/windowsserversystem/updateservices/default.mspx](http://www.microsoft.com/windowsserversystem/updateservices/default.mspx).
+
 -   **Microsoft Systems Management Server**: si su organización usa SMS para administrar los equipos cliente y servidores, es posible que ya cuente con algunas de las herramientas necesarias para realizar la evaluación de riesgos para los datos de titulares de tarjeta. Con SMS, la organización puede administrar de forma remota la configuración de seguridad de los equipos que ejecutan sistemas operativos de Windows a través de redes distribuidas. Puede realizar un inventario de los equipos de la red que tienen instaladas las actualizaciones de software obligatorias y seguir el progreso de la instalación de actualizaciones en dichos equipos. SMS también le permite generar informes que identifiquen el inventario completo de hardware y software, los detalles de configuración y el estado de los equipos de su red, así como el estado de las implementaciones de software y los errores de implementación. Estas características de SMS pueden ser muy importantes para la evaluación de riesgos para los datos de titulares de tarjetas dentro de la organización.
+
+    Para obtener más información acerca de SMS, consulte la página principal de Microsoft Systems Management Server (en inglés) en [http://www.microsoft.com/smserver/default.mspx](http://www.microsoft.com/smserver/default.mspx).
 
 -   **Microsoft Desktop Optimization Pack for Software Assurance**: Microsoft Desktop Optimization Pack for Software Assurance es un servicio de suscripción que reduce los costos de implementación de aplicaciones, permite la entrega de aplicaciones como servicios y ofrece una mejor administración y control de los entornos de escritorio de la empresa. El paquete de optimización de escritorio es una solución de control de host eficaz que le permite realizar las siguientes acciones:
 
@@ -413,6 +445,10 @@ Microsoft le ofrece una serie de tecnologías que puede usar de forma conjunta o
     -   Mejorar la administración de los activos de software de la organización;
 
     -   Acelerar y simplificar las implementaciones de escritorio y las migraciones.
+
+    Microsoft Desktop Optimization Pack solo está disponible para los clientes con Software Assurance en sus escritorios. Para obtener más información, consulte Optimización del escritorio de Windows (en inglés) en [http://www.microsoft.com/windows/products/windowsvista/buyorupgrade/optimizeddesktop.mspx](http://www.microsoft.com/windows/products/windowsvista/buyorupgrade/optimizeddesktop.mspx).
+
+    Para consultar vínculos de directrices y procedimientos de seguridad de host específicos para muchos productos de Microsoft, consulte la [Guía de planeación para el cumplimiento normativo](https://www.microsoft.com/technet/security/guidance/complianceandpolicies/compliance/rcguide/default.mspx?mfr=true) (en inglés).
 
 #### Prevención de software malintencionado
 
@@ -430,9 +466,20 @@ Microsoft le presenta una serie de tecnologías que puede usar de forma conjunta
 
 -   **Microsoft Forefront™**: Forefront es un conjunto de aplicaciones de productos de seguridad de línea de negocio que proporciona protección a los sistemas operativos cliente, los servidores de aplicaciones y la red al completo. Puede usar Forefront con la infraestructura de TI existente para proteger servidores y equipos cliente de malware y otros ataques malintencionados que se originen dentro o fuera de la organización.
 
+    En concreto, Forefront Client Security ofrece protección ante software malintencionado para los clientes de la organización. La solución Forefront Client Security consta de dos partes. La primera es el agente de seguridad (instalado en los equipos de escritorio, portátiles y sistemas operativos de servidor de la empresa), que ofrece protección en tiempo real y tareas de detección programadas para amenazas como spyware, virus y rootkits. La segunda es el servidor de administración centralizada, que permite a los administradores administrar y actualizar fácilmente agentes de protección ante malware personalizados o preconfigurados, además de generar informes y alertas acerca del estado de seguridad del entorno.
+
+    Para obtener más información, consulte la página sobre Microsoft Forefront (en inglés) en [http://www.microsoft.com/forefront/default.mspx](https://www.microsoft.com/forefront/default.mspx).
+
 -   **Herramienta de eliminación de software malintencionado**: la herramienta de eliminación de software malintencionado de Microsoft Windows busca en los equipos con Windows XP, Windows 2000 y Windows Server 2003 infecciones por software malintencionado específico y de ataques más frecuentes, y ayuda a eliminarlas. Cuando el proceso de detección y eliminación ha concluido, la herramienta muestra un informe en el que se describe el resultado e incluye, si lo hubiera, el software malintencionado que se ha detectado y eliminado. Microsoft publica una versión actualizada de esta herramienta el segundo martes de cada mes, o según se requiera para responder a incidentes de seguridad.
 
+    Para obtener más información, consulte Herramienta de eliminación de software malintencionado (en inglés) en [http://www.microsoft.com/security/malwareremove/default.mspx](https://www.microsoft.com/security/malwareremove/default.mspx).
+
+    **Nota** Windows Defender y la herramienta de eliminación de software malintencionado también pueden ayudarle a detectar si un programa malintencionado usa un rootkit. Los rootkits son los mecanismos de los que se sirven los creadores de software malintencionados para ocultar su presencia a los bloqueadores de spyware y a las utilidades de antivirus y de administración de sistema. Para obtener más información acerca de los rootkits y la forma de detectarlos, consulte [http://www.microsoft.com/technet/sysinternals/Security/RootkitRevealer.mspx](https://www.microsoft.com/technet/sysinternals/utilities/RootkitRevealer.mspx) (en inglés).
+
 -   **Filtros de terceros con Microsoft ISA Server**: además de ofrecer soluciones de seguridad de red, ISA Server puede ayudarle a proteger la organización de ataques de malware. Para ello, use filtros personalizados o de terceros que eliminen el malware antes de que llegue a la red corporativa.
+
+    Para obtener más información, consulte la página sobre Internet Security and Acceleration Server (en inglés) en [http://www.microsoft.com/isaserver/default.mspx](https://www.microsoft.com/isaserver/default.mspx).
+
 
 #### Seguridad de las aplicaciones
 
@@ -460,6 +507,10 @@ Microsoft ofrece orientación y herramientas específicas para el desarrollo de 
 
     -   Los desarrolladores de RPC deben compilar su código con el marcador MIDL /robust especificado.
 
+El ciclo de vida de desarrollo de seguridad sugiere que use herramientas como FxCop, PREfast y la opción GS del compilador de C++ para asegurarse de que el código se ejecuta sin comprometer aspectos conocidos de la seguridad.
+
+Para obtener más información, consulte la página principal de Visual Studio (en inglés) en [http://msdn2.microsoft.com/en-us/vstudio/default.aspx](http://msdn2.microsoft.com/en-us/vstudio/default.aspx).
+
 -   **Intelligent Application Gateway (IAG) 2007 de Microsoft**: como parte de Microsoft Forefront Network Edge Security, IAG proporciona una VPN de capa de sockets seguros (SSL), un firewall de aplicaciones web y una administración de la seguridad de extremos que habilita el control de acceso, la autorización y la inspección de contenidos en una amplia variedad de aplicaciones de línea de negocio. En conjunto, estas tecnologías proporcionan a los trabajadores móviles y remotos un acceso fácil, flexible y seguro desde una amplia gama de dispositivos y ubicaciones, incluidos los quioscos multimedia, los equipos de escritorio y los dispositivos móviles. IAG también permite que los administradores de TI exijan el cumplimiento de las directrices de uso de la información y de las aplicaciones a través de una directiva de acceso remoto personalizado basada en dispositivos, usuarios, aplicaciones u otros criterios empresariales. Entre los beneficios principales, se incluyen los siguientes:
 
     -   Una combinación única de acceso basado en SSL VPN, protección integrada de las aplicaciones y administración de la seguridad de extremos;
@@ -470,9 +521,13 @@ Microsoft ofrece orientación y herramientas específicas para el desarrollo de 
 
     -   Interoperabilidad con la infraestructura principal de las aplicaciones de Microsoft, con los sistemas empresariales de terceros y con herramientas internas personalizadas.
 
+Para obtener más información, consulte Información general acerca del producto Intelligent Application Gateway 2007 (en inglés) en [http://www.microsoft.com/forefront/edgesecurity/iag/overview.mspx](https://www.microsoft.com/forefront/edgesecurity/iag/overview.mspx).
+
 ##### Directrices
 
 -   **Código de ciclo de vida del desarrollo de seguridad**: si su organización decide desarrollar algunas soluciones propias para controlar los datos de los titulares de tarjetas, debe considerar que los desarrolladores usen el código de ciclo de vida del desarrollo de seguridad desarrollado en Microsoft. Es un enfoque completo para el desarrollo de aplicaciones web y de escritorio seguras que sirvan para organizaciones que procesen y almacenen información confidencial, como los datos de titulares de tarjetas. El código de ciclo de vida del desarrollo de seguridad comienza con la planeación de aplicaciones seguras, garantiza que se usan técnicas de codificación seguras e incluye la prueba e implementación de aplicaciones de forma segura una vez completado el desarrollo.
+
+    Para obtener más información, consulte Análisis del código de ciclo de vida del desarrollo de seguridad en Microsoft (en inglés) en [http://msdn.microsoft.com/msdnmag/issues/05/11/SDL/](https://msdn.microsoft.com/msdnmag/issues/05/11/sdl/).
 
 -   **Cumplimiento de directrices de seguridad de productos**: Microsoft ofrece directrices de seguridad para algunos de sus productos de software. Las directrices de seguridad para Exchange Server, Systems Management Server y SQL Server son de especial interés para las organizaciones medianas y grandes. Para obtener información acerca de directrices de seguridad para estos productos, consulte la sección sobre seguridad de aplicaciones de la [*Guía de planeación de cumplimiento normativo*](http://www.microsoft.com/technet/security/guidance/complianceandpolicies/compliance/rcguide/default.mspx?mfr=true) (en inglés).
 
@@ -490,7 +545,7 @@ Para obtener el texto completo de este requisito, consulte el [*Estándar de seg
 
 Microsoft proporciona una serie de soluciones que pueden ayudarle a asegurar el software de mensajería y colaboración. Cada una de esas soluciones ofrece una solución para diferentes aspectos de su empresa. Debe implementarlas de forma organizada para que queden tan pocas vulnerabilidades en la seguridad como sea posible después de haber terminado.
 
--   **Microsoft Exchange Server**: al igual que con la administración de documentos, Exchange puede ayudarle a definir soluciones eficientes para las necesidades de mensajería de su organización a la vez que mantiene la seguridad de los datos de los titulares de tarjetas en los mensajes de correo electrónico. Exchange Server 2007 incluye servicios de mensajería unificada, que compila el correo electrónico, correo de voz y fax que se envía a un usuario en una única bandeja de entrada. Ofrece además características que permiten a la organización aplicar reglas de retención, funciones de detección e intervención en mensajes en curso, diario flexible y realizar búsquedas de texto enriquecido en todos los buzones implementados.
+-   **Microsoft Exchange Server**: al igual que con la administración de documentos, Exchange puede ayudarle a definir soluciones eficientes para las necesidades de mensajería de su organización a la vez que mantiene la seguridad de los datos de los titulares de tarjetas en los mensajes de correo electrónico. Exchange Server 2007 incluye servicios de mensajería unificada, que compila el correo electrónico, correo de voz y fax que se envía a un usuario en una única bandeja de entrada. Ofrece además características que permiten a la organización aplicar reglas de retención, funciones de detección e intervención en mensajes en curso, diario flexible y realizar búsquedas de texto enriquecido en todos los buzones implementados.  
     Para obtener más información, consulte el sitio web de Microsoft Exchange Server (en inglés) en <http://www.microsoft.com/exchange/default.mspx>.
 
 -   **Microsoft Forefront Security para Exchange Server**: Microsoft Forefront Security para Exchange Server le ayuda a proteger la infraestructura de correo electrónico ante infecciones y tiempo de inactividad a través de un enfoque que hace hincapié en las defensas en niveles, la optimización del rendimiento y la disponibilidad de Exchange Server y el control simplificado de la administración.
@@ -500,6 +555,8 @@ Microsoft proporciona una serie de soluciones que pueden ayudarle a asegurar el 
     -   **Rendimiento optimizado**: gracias a su estrecha integración con Exchange Server, así como su innovador sistema de análisis y de control del rendimiento, Forefront Security para Exchange Server ayuda a proteger los entornos de mensajería a la vez que mantiene el tiempo límite del servidor y optimiza el rendimiento de este.
 
     -   **Administración simplificada**: Forefront Security para Exchange Server también permite a los administradores administrar fácilmente la configuración y el funcionamiento, las actualizaciones automáticas de las firmas del motor de detección y un sistema de generación de informes, tanto en el nivel del servidor como de la empresa.
+
+Para obtener más información, consulte la página sobre Microsoft Forefront (en inglés) en [http://www.microsoft.com/forefront/default.mspx](https://www.microsoft.com/forefront/default.mspx).
 
 -   **Servicios hospedados de Microsoft Exchange**: los Servicios hospedados de Microsoft Exchange para la administración y seguridad de la mensajería se componen de cuatro servicios diferentes que ayudan a las organizaciones a protegerse frente al software malintencionado a través del correo electrónico, a satisfacer los requisitos de retención para el cumplimiento, a cifrar los datos para mantener la confidencialidad y a mantener el acceso al correo electrónico durante y después de las situaciones de emergencia. Los servicios se implementan en Internet mediante un modelo de “software como servicio” que ayuda a minimizar la inversión de capital adicional, a liberar recursos de TI para centrarse en otras iniciativas que producen valor y a mitigar los riesgos de la mensajería antes de que lleguen al firewall de la empresa.
 
@@ -520,6 +577,10 @@ Microsoft proporciona una serie de soluciones que pueden ayudarle a asegurar el 
     -   Protege la información contenida en los mensajes de correo electrónico o documentos con fecha de expiración, de modo que la información no se pueda ver hasta pasado un período de tiempo determinado.
 
     -   Aplica las directivas corporativas que determinan el uso y la difusión de la información dentro y fuera de la compañía.
+
+La característica IRM de Office está integrada en la plataforma de los Servicios de Microsoft Windows Rights Management. Para habilitar esta característica en Office, debe adquirir licencias de servidor RMS.
+
+Para obtener más información, consulte el sitio web de Microsoft Office (en inglés) en [http://office.microsoft.com/en-us/default.aspx](http://office.microsoft.com/en-us/default.aspx).
 
 -   **Information Rights Management (IRM) de** **Microsoft Windows SharePoint Services**: al igual que con las soluciones de administración de documentos, IRM de SharePoint Services puede ayudarle a hacer que sus soluciones de colaboración cumplan con los requisitos del Estándar PCI DSS. Esta tecnología le permite crear un conjunto persistente de controles de acceso que están asociados con el contenido en lugar de con una ubicación de red específica, lo que le ayudará a controlar el acceso a los archivos incluso después de que ya no estén bajo su control directo. IRM está disponible para archivos que se encuentran en bibliotecas de documentos y que estén almacenados como datos adjuntos a los elementos de lista. Los administradores de sitio pueden decidir proteger las descargas desde una biblioteca de documentos con IRM. Cuando un usuario intenta descargar un archivo desde una biblioteca, Windows SharePoint Services comprueba que el usuario tenga los permisos necesarios del archivo y emite una licencia para el usuario que permite el acceso al archivo en función del nivel de permiso correspondiente. A continuación, Windows SharePoint Services descarga el archivo en el equipo del usuario en un formato de archivo cifrado y administrado a partir de derechos.
 
@@ -543,9 +604,15 @@ Microsoft ofrece una serie de tecnologías que le pueden ayudar a clasificar y p
 
 -   **Cifrado de unidad BitLocker™**: el Cifrado de unidad BitLocker le ayuda a proteger los datos de los titulares de tarjetas mediante el cifrado de la unidad y la comprobación de la integridad de los componentes que primero se ejecutan en el arranque. El cifrado de unidad protege los datos evitando que los usuarios no autorizados traspasen la protección del sistema y de los archivos de Windows en equipos perdidos o robados. Ese grado de protección se alcanza mediante el cifrado de todo el volumen de Windows. Con BitLocker, se cifran todos los archivos de usuario y de sistema, incluidos los archivos de intercambio e hibernación. La comprobación de la integridad de los componentes que primero se ejecutan en el arranque ayuda a asegurar que el descifrado de los datos se realice exclusivamente si esos componentes aparecen como intactos y que la unidad cifrada se encuentre en el equipo original. BitLocker está disponible en Windows Vista Enterprise y Windows Vista Ultimate, así como en Windows Server “Longhorn”.
 
+    Para obtener más información, consulte Cifrado de unidad BitLocker: resumen ejecutivo (en inglés) en [http://technet.microsoft.com/en-us/windowsvista/aa906018.aspx](https://technet.microsoft.com/en-us/windowsvista/aa906018.aspx).
+
 -   **Sistema de cifrado de archivos (EFS) de Windows**: EFS proporciona la principal tecnología de cifrado de archivos usada para almacenar archivos cifrados en volúmenes de sistema de archivos NTFS. Después de cifrar un archivo o carpeta, trabaja con el archivo o la carpeta que se han cifrado igual que lo haría con cualquier otro archivo o carpeta.
 
     El cifrado es transparente para el usuario que ha cifrado el archivo. Esto quiere decir que no tiene que descifrar manualmente ningún archivo cifrado antes de poder usarlo. Puede abrir y cambiar el archivo de la misma forma que lo hace normalmente.
+
+    El uso de EFS es similar al de los permisos en archivos y carpetas. Los dos métodos se pueden usar para restringir el acceso a datos. Sin embargo, un intruso que obtenga acceso físico no autorizado a sus archivos o carpetas cifrados no podrá leerlos. Un intruso que intente abrir o copiar sus carpetas o archivos cifrados recibe un mensaje de acceso denegado. Los permisos en archivos o carpetas no protegen de ataques físicos no autorizados.
+
+    Para obtener más información, consulte *Información general acerca del Sistema de cifrado de archivos* (en inglés) en [http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/encrypt_overview.mspx?mfr=true](https://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/encrypt_overview.mspx?mfr=true) o Sistema de cifrado de archivos (en inglés) en [http://www.microsoft.com/windows/products/windowsvista/features/details/encryptingfilesystem.mspx](https://www.microsoft.com/windows/products/windowsvista/features/details/encryptingfilesystem.mspx).
 
 -   **Servicios de Microsoft Windows Rights Management**: los Servicios de Microsoft Windows Rights Management (RMS) son una plataforma de software que facilita a las aplicaciones la protección de los datos de titulares de tarjetas ante el uso no autorizado (tanto en línea como sin conexión, fuera y dentro del firewall).
 
@@ -553,6 +620,8 @@ Microsoft ofrece una serie de tecnologías que le pueden ayudar a clasificar y p
     Para obtener más información, consulte [*Servicios de Microsoft Windows Rights Management*](http://www.microsoft.com/rms) (en inglés) en <http://www.microsoft.com/rms>.
 
 -   **Cifrado en Microsoft SQL Server**: cuando almacena datos de titulares de tarjetas en SQL Server, se cifran los datos con una infraestructura de cifrado jerárquico y de administración de claves. Cada capa cifra la capa inferior mediante una combinación de certificados, claves asimétricas y claves simétricas. Existe una clave maestra para SQL Server y una clave independiente para cada base de datos en esa instancia de SQL Server. De esta forma, se proporciona seguridad al almacenamiento de datos de titulares de tarjetas de su organización.
+
+    Para obtener más información, consulte la página sobre Microsoft SQL Server (en inglés) en [http://www.microsoft.com/sql/default.mspx](https://www.microsoft.com/sql/default.mspx).
 
 #### Administración de identidades
 
@@ -608,6 +677,10 @@ Para obtener más información, consulte la página sobre Microsoft SQL Server
 
 -   **Infraestructura de clave pública**: una infraestructura de clave pública (PKI) es un sistema de certificados digitales, entidades de certificación (CA) y otras entidades de registro que comprueban y autentican la validez de cada parte que interviene en una transacción electrónica mediante el uso de criptografía de clave pública. Esta infraestructura le permite asegurar e intercambiar datos de titular de tarjeta con un nivel alto de seguridad en Internet, extranets, intranets y aplicaciones.
 
+    La compatibilidad de PKI está disponible en Windows Server 2000, Windows XP Professional, Windows Server 2003, Windows Vista y Windows Server “Longhorn”.
+
+    Para obtener más información, consulte Infraestructura de clave pública para Windows Server 2003 (en inglés) en [http://www.microsoft.com/windowsserver2003/technologies/pki/default.mspx](https://www.microsoft.com/windowsserver2003/technologies/pki/default.mspx).
+
 #### Autenticación, autorización y control de acceso
 
 La autenticación es el proceso de identificación de un usuario. En entornos de TI, la autenticación suele incluir un nombre de usuario y una contraseña, aunque también puede implicar otros métodos para demostrar la identidad, como el uso de tarjetas inteligentes, exámenes de retina, reconocimiento de voz o el análisis de las huellas dactilares. La autorización se centra en determinar si a la identidad autenticada se le permite el acceso a los recursos solicitados. Puede decidir otorgar o denegar el acceso en función de una serie de criterios, como la dirección de red del cliente, la hora del día o el explorador que use esa persona.
@@ -626,13 +699,22 @@ Microsoft ofrece varias tecnologías que pueden ayudarle a crear e integrar estr
 
 -   **Microsoft Active Directory**: gran parte del servicio de Active Directory en Microsoft Windows 2000 Server, Windows Server 2003 y Windows Server “Longhorn” se centra en la autenticación, la autorización y el control de acceso. Por ejemplo, Active Directory es compatible con la autenticación Kerberos, una de las técnicas de autenticación de Windows predeterminadas. Kerberos proporciona autenticación de usuario segura con un estándar del sector que permite la interoperabilidad. El controlador de dominio de Active Directory mantiene la información de inicio de sesión y de cuentas de usuario para ser compatible con el servicio Kerberos. Además, Active Directory es compatible con la autenticación de tarjetas inteligentes. Puede exigir que los usuarios y administradores remotos de sistemas que contengan datos de titulares de tarjetas usen una tarjeta inteligente y un número de identificación personal para obtener acceso a la red. Active Directory es compatible con las credenciales móviles, un servicio que permite a los usuarios que tienen que usar varios equipos el uso de las mismas credenciales en esos equipos. Con Active Directory, su organización también puede personalizar los proveedores de credenciales que usa para autenticar a los usuarios. Además, Active Directory le permite delegar tareas administrativas en la organización. Estas características pueden ayudarle a controlar la forma en que permite que las cuentas de Active Directory puedan obtener acceso a datos de los titulares de tarjetas y a las cuentas que le proporcionan acceso a esos datos.
 
+    Para obtener más información, consulte el centro de tecnología de Active Directory de Windows Server 2003 (en inglés) en [http://www.microsoft.com/windowsserver2003/technologies/directory/activedirectory/default.mspx](https://www.microsoft.com/windowsserver2003/technologies/directory/activedirectory/default.mspx).
+
 -   **Servicio de autenticación de Internet de Microsoft**: el Servicio de autenticación de Internet (IAS) es la implementación de Microsoft de un servidor y un proxy de Servicio de autenticación remota telefónica de usuario (RADIUS). Como servidor RADIUS, IAS lleva a cabo tareas de información, autorización y autenticación con conexión centralizada de muchos tipos de acceso de red, incluidas las conexiones inalámbricas y VPN. Como proxy RADIUS, IAS reenvía mensajes de autenticación e información a otros servidores RADIUS. Al hacer esto, IAS lleva a cabo pasos de autenticación para conexiones remotas antes de que lleguen a la red de la organización. Con las credenciales que el usuario facilitó para conectarse remotamente, puede autorizarlo para que tenga acceso sólo a los recursos de la red que necesite para realizar su trabajo.
+
+    Para obtener más información, consulte Servicio de autenticación de Internet (en inglés) en [http://www.microsoft.com/technet/network/ias/default.mspx](https://www.microsoft.com/technet/network/ias/default.mspx).
+
 
 ##### Características de compatibilidad con sistemas operativos
 
 -   **Uso de listas de control de acceso para otorgar permisos de recurso**: una lista de control de acceso (ACL) es un mecanismo usado por los sistemas operativos a partir de Microsoft Windows NT para proteger recursos como archivos y carpetas. Las ACL contienen varias entradas de control de acceso (ACE) que asocian una entidad de seguridad (normalmente una cuenta de usuario o un grupo de cuentas) con una regla que regula el uso del recurso. Las ACL y las ACE otorga a su organización la posibilidad de permitir o denegar derechos sobre recursos en función de los permisos que pueda asociar a cuentas de usuario. Por ejemplo, puede crear una ACE y aplicarla a la ACL de un archivo para prohibir a todos los usuarios, salvo a un administrador, la lectura del archivo. Debe usar esta tecnología como parte de la solución de administración de identidades más amplia, pero sigue siendo una buena alternativa para limitar el acceso a datos de titulares de tarjetas exclusivamente a las personas con una necesidad empresarial.
 
+    Para obtener más información, consulte Información general acerca de la tecnología ACL (en inglés) en [http://msdn2.microsoft.com/en-us/library/ms229742.aspx](http://msdn2.microsoft.com/en-us/library/ms229742.aspx).
+
 -   **Firewall de Windows en Microsoft Windows Vista y Windows Server “Longhorn”**: como se ha comentado anteriormente, Firewall de Windows en Windows Vista y Windows Server “Longhorn” puede ayudarle a proteger sus sistemas y redes ante ataques malintencionados. También puede ayudarle a controlar los usuarios, equipos y grupos que pueden tener acceso a los recursos de un equipo o dominio. Cuando use Firewall de Windows con seguridad avanzada, puede crear reglas que filtren las conexiones de los usuarios, equipos y grupos de Active Directory. Para crear este tipo de reglas, debe asegurar la conexión con IPsec usando credenciales que portan información de cuenta de Active Directory, como Kerberos versión 5.
+
+    Para obtener más información, consulte Firewall de Windows (en inglés) en [http://www.microsoft.com/technet/network/wf/default.mspx](https://www.microsoft.com/technet/network/wf/default.mspx).
 
 Para obtener vínculos a información conceptual y guías de planeación acerca de la autenticación, la autorización y el control de acceso, consulte la sección sobre autenticación, autorización y control de acceso de la [*Guía de planeación de cumplimiento normativo*](http://www.microsoft.com/technet/security/guidance/complianceandpolicies/compliance/rcguide/default.mspx?mfr=true) (en inglés).
 
@@ -652,6 +734,8 @@ Microsoft ofrece soluciones que le ayudan a diseñar soluciones de identificaci�
 
 -   **Microsoft Baseline Security Analyzer (MBSA)**: como en la evaluación de riesgos a la hora de diseñar diversos controles de protección de datos de titulares de tarjetas, MBSA le permite examinar periódicamente las vulnerabilidades que pueden comprometer la seguridad de estos datos. Puede usar MBSA para localizar configuraciones incorrectas de seguridad comunes en una serie de productos de Microsoft, incluidos el sistema operativo de Windows, Internet Information Services, SQL Server, Internet Explorer y Microsoft Office. MBSA también detecta las actualizaciones de seguridad, los paquetes acumulativos de actualizaciones y los service packs que faltan con respecto a los publicados en Microsoft Update. Puede ejecutar MBSA desde el símbolo del sistema o en una GUI, así como usarlo con Microsoft Update y Windows Server Update Services. Mantener actualizados los sistemas es una forma muy importante de asegurar los datos de titulares de tarjetas en la mayor medida posible, por lo que MBSA puede ser una herramienta muy valiosa a la hora de determinar si las instalaciones de productos han generado vulnerabilidades en estos datos a lo largo del tiempo.
 
+    Para obtener más información, consulte el artículo sobre Microsoft Baseline Security Analyzer (en inglés) en [http://www.microsoft.com/technet/security/tools/mbsahome.mspx](https://www.microsoft.com/technet/security/tools/mbsahome.mspx).
+
 #### Supervisión, auditoría y generación de informes
 
 Las soluciones de supervisión y generación de informes recopilan y auditan registros derivados de la autenticación y del acceso a sistemas. Puede diseñar estas soluciones para recopilar información específica en función del Estándar PCI DSS o usar registros existentes integrados en sistemas operativos o paquetes de software.
@@ -668,13 +752,22 @@ Microsoft ofrece una serie de tecnologías que le permiten supervisar el acceso 
 
 -   **Recopilación de auditorías de Microsoft System Center Operations Manager**: Operations Manager 2007 puede extraer y recopilar de forma segura y eficaz los registros de seguridad de sistemas operativos de Windows y almacenarlos para su análisis y notificación posterior. Los registros extraídos se almacenan en una base de datos de recopilación de auditorías independiente. Operations Manager enviará los informes que se pueden usar para los datos de la recopilación de auditorías. La recopilación de auditorías se puede usar para generar distintos informes de cumplimiento, como las auditorías de la normativa Sarbanes-Oxley. La recopilación de auditorías se puede usar también para los análisis de seguridad, como la detección de intrusiones y los intentos de acceso no autorizado.
 
+    Para obtener más información, consulte el artículo sobre Audit Collection Services (en inglés) en [http://technet.microsoft.com/en-us/library/bb381258.aspx](https://technet.microsoft.com/en-us/library/bb381258.aspx).
+
 -   **Infraestructura de registro de eventos de Microsoft Windows Vista**: las mejoras de la infraestructura de registro de eventos de Windows facilitan la administración y supervisión del escritorio de Windows Vista y proporcionan información más exacta acerca de la solución de problemas. Unos estándares estrictos aseguran que los eventos son coherentes, aplicables y están bien documentados. Muchos componentes que almacenaban información de registro en archivos de texto en versiones anteriores de Windows agregan ahora eventos al registro de eventos. Con el reenvío de eventos, los administradores pueden administrar de forma centralizada los eventos de equipos de cualquier punto de la red, lo que facilita la identificación activa de problemas y la correlación de problemas que afectan a varios equipos. Por último, se ha vuelto a escribir por completo el visor de eventos para permitir que los usuarios creen vistas personalizadas a fin de asociar de una forma sencilla los eventos con tareas y ver de forma remota registros de otros equipos. Esta aportación hace más práctico para los administradores el uso del registro de eventos para solucionar problemas de los usuarios.
 
+    Para obtener más información, consulte Características de administración de Windows Vista (en inglés) en [http://technet.microsoft.com/en-us/windowsvista/aa905069.aspx](https://technet.microsoft.com/en-us/windowsvista/aa905069.aspx).
+
 -   **Microsoft SQL Server**: SQL Server Reporting Services es una completa solución basada en servidor que permite crear, administrar y suministrar informes tradicionales destinados a su impresión en papel e informes interactivos basados en Web. Como parte integrada del marco de Microsoft Business Intelligence, Reporting Services combina la administración de datos de SQL Server y Microsoft Windows Server con las conocidas y eficaces aplicaciones de Microsoft Office System para suministrar información en tiempo real con objeto de admitir operaciones diarias y fundamentar la toma de decisiones. Puede usar estos servicios para generar informes que analicen los datos de los titulares de tarjetas y realizar un seguimiento de los cambios en tales datos. También puede usar servicios de generación de informes para supervisar de una forma sencilla los patrones de uso de red y el flujo de información.
+
+    Para obtener más información, consulte la página sobre Microsoft SQL Server (en inglés) en [http://www.microsoft.com/sql/default.mspx](https://www.microsoft.com/sql/default.mspx).
 
 ##### Características de compatibilidad con sistemas operativos
 
 -   **Listas de control de acceso del sistema NTFS**: su organización puede usar listas de control de acceso del sistema NTFS (SACL) en archivos y directorios para ayudarle a seguir los cambios de esos archivos y carpetas de un sistema. Cuando establece una SACL en un archivo o una carpeta, cada vez que un usuario realice una acción en esa archivo o carpeta, la SACL hace que el sistema operativo de Windows registre la acción, así como la persona que la realizó. No puede establecer listas SACL en sistemas que tienen el sistema de archivos FAT, por lo que su organización debe usar el formato del sistema de archivos NTFS en todos los volúmenes que almacenan datos de los usuarios y de los titulares de tarjetas.
+
+    Para obtener más información, consulte Administración de parámetros y datos de usuario (en inglés) en [http://www.microsoft.com/technet/prodtechnol/winxppro/maintain/xpusrdat.mspx](http://www.microsoft.com/technet/prodtechnol/winxppro/maintain/xpusrdat.mspx).
+
 
 #### Administración de soluciones de tecnología del Estándar PCI DSS
 
@@ -685,6 +778,8 @@ Aunque los productos de administración no ayudan a que su organización cumpla 
 Microsoft le ofrece dos herramientas principales para la administración del marco de los controles de TI para cumplir con los requisitos del Estándar PCI DSS y otros requisitos normativos.
 
 -   **Microsoft Forefront**: Microsoft Forefront es un conjunto de aplicaciones de productos de seguridad de línea de negocio que proporcionan protección para los sistemas operativos cliente, los servidores de aplicaciones y la red al completo. Puede usar Forefront con la infraestructura de TI que tenga para proteger lo servidores y los equipos cliente ante malware y otros ataques malintencionados a través de una integración sencilla con las servidores de aplicaciones como Exchange, SharePoint y el servicio de mensajería instantánea. Forefront también incluye integración incorporada con Active Directory y usa ISA Server para trabajar con Active Directory para ser compatible con RADIUS, DHCP y el uso de tarjetas inteligentes. Asimismo, Forefront proporciona una herramienta de administración centralizada para una ubicación central de informe junto con una ubicación centralizada para establecer medidas de control de directivas.
+
+    Para obtener más información, consulte la página sobre Microsoft Forefront (en inglés) en [http://www.microsoft.com/forefront/default.mspx](http://www.microsoft.com/forefront/default.mspx).
 
 -   **Microsoft System Center**: Microsoft System Center es una familia de productos de administración destinada a proporcionar las herramientas que necesite su organización para automatizar la administración del sistema. System Center incluye tecnologías que ayudan a automatizar las tareas de administración más comunes y también proporciona herramientas que ayudan a los profesionales de TI a detectar, diagnosticar y corregir problemas en el entorno informático. Concretamente, System Center proporciona productos que realizan las siguientes funciones:
 
@@ -701,6 +796,8 @@ Microsoft le ofrece dos herramientas principales para la administración del mar
     -   Administración de máquinas virtuales. Dado que un hardware más rápido permite la ejecución de un mayor número de aplicaciones en cada equipo, las organizaciones cada vez usan más la virtualización para aislar esas aplicaciones.
 
     -   Ajuste del tamaño de las instalaciones mediante la aportación de herramientas para la estimación de los recursos necesarios.
+
+    Para obtener más información, consulte la página sobre Microsoft System Center (en inglés) en [http://www.microsoft.com/systemcenter/default.aspx](http://www.microsoft.com/systemcenter/default.aspx).
 
 #### Resumen
 
@@ -817,13 +914,13 @@ Las tecnologías de protección de datos de Microsoft no vinculan las claves de 
   
 [*Procedimientos de auditoría para el evaluador QSA del Estándar PCI DSS (en inglés)*](https://www.pcisecuritystandards.org/pdfs/pci_audit_procedures_v1-1.pdf)
   
-[*Procedimientos de examen para el proveedor ASV del Estándar PCI DSS (en inglés)*](https://www.pcisecuritystandards.org/pdfs/pci_scanning_procedures_v1-1.pdf)** **
+[*Procedimientos de examen para el proveedor ASV del Estándar PCI DSS (en inglés)*](https://www.pcisecuritystandards.org/pdfs/pci_scanning_procedures_v1-1.pdf)
   
-[*Aplicación del principio de privilegios mínimos a cuentas de usuario de Windows XP (en inglés)*](http://www.microsoft.com/technet/prodtechnol/winxppro/maintain/luawinxp.mspx)* *
+[*Aplicación del principio de privilegios mínimos a cuentas de usuario de Windows XP (en inglés)*](http://www.microsoft.com/technet/prodtechnol/winxppro/maintain/luawinxp.mspx)
   
 [*Procedimientos recomendados para delegar la administración de Active Directory (en inglés)*](http://www.microsoft.com/downloads/details.aspx?familyid=631747a3-79e1-48fa-9730-dae7c0a1d6d3&displaylang=en)
   
-[Servicios bancarios: descargas (en inglés*)*](http://msdn2.microsoft.com/en-us/architecture/86e3451d-8219-46af-bf99-4a610e4bf1f4.aspx)
+[Servicios bancarios: descargas (en inglés)](http://msdn2.microsoft.com/en-us/architecture/86e3451d-8219-46af-bf99-4a610e4bf1f4.aspx)
   
 #### Comentarios
   

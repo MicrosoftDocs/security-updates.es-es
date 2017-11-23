@@ -37,11 +37,11 @@ Las características de seguridad descritas en esta guía se han desarrollado co
 
 ##### En esta página
 
-[](#egaa)[Quién debería leer esta guía](#egaa)
-[](#efaa)[Contenidos de los capítulos](#efaa)
-[](#eeaa)[Convenciones de estilo](#eeaa)
-[](#edaa)[Más información](#edaa)
-[](#ecaa)[Soporte técnico y comentarios](#ecaa)
+[](#egaa)[Quién debería leer esta guía](#egaa)  
+[](#efaa)[Contenidos de los capítulos](#efaa)  
+[](#eeaa)[Convenciones de estilo](#eeaa)  
+[](#edaa)[Más información](#edaa)  
+[](#ecaa)[Soporte técnico y comentarios](#ecaa)  
 [](#ebaa)[Agradecimientos](#ebaa)
 
 ### Quién debería leer esta guía
@@ -107,7 +107,7 @@ Esta guía usa las convenciones de estilo descritas en la tabla siguiente.
 <td style="border:1px solid black;">Los marcadores de posición en cursiva y entre corchetes angulares – <em>&lt;nombre de archivo&gt;</em> – representan variables.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><pre><code>Fuente monoespaciada</code></pre>
+<td style="border:1px solid black;">Fuente monoespaciada
 <br />
 </td>
 <td style="border:1px solid black;">Muestra ejemplos de códigos y scripts.</td>
