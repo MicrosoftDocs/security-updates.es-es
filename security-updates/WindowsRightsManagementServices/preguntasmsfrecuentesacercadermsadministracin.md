@@ -79,16 +79,16 @@ Para implementar el seguimiento, debe modificar el archivo Web.config o Machine.
 
 1.  Abra el archivo Machine.config o Web.config y, a continuación, agregue las siguientes líneas en la sección &lt;system.diagnostics&gt; del archivo:
 
-```
-<system.diagnostics>
-<switches>
-<add name="Microsoft Windows Rights Management Services-Global" value="4" />
-<add name="Microsoft Windows Rights Management Services-TimeStamps" value="1" /> 
-<add name="Microsoft Windows Rights Management Services-Indents" value="0" /> 
-</switches>
-<trace autoflush="false" indentsize="4"/>
-</system.diagnostics>
-```
+    ```
+    <system.diagnostics>
+    <switches>
+    <add name="Microsoft Windows Rights Management Services-Global" value="4" />
+    <add name="Microsoft Windows Rights Management Services-TimeStamps" value="1" /> 
+    <add name="Microsoft Windows Rights Management Services-Indents" value="0" /> 
+    </switches>
+    <trace autoflush="false" indentsize="4"/>
+    </system.diagnostics>
+    ```
 
 2.  Para reiniciar IIS, ejecute IISRESET desde un símbolo del sistema.
 
