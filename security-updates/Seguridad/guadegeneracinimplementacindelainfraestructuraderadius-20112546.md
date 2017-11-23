@@ -384,18 +384,18 @@ Debe comprobar que la instalación del sistema operativo ha finalizado correctam
             
     ...
     
-    [nn]: Qnnnnnn
+    \[nn\]: Qnnnnnn
 
     Tarjeta(s) de red: 1 Tarjetas de interfaz de red instaladas.
 
-    \[01\]: *ModeloYProveedorDeTarjetaDeRed* 
-
+    \[01\]: *ModeloYProveedorDeTarjetaDeRed*
+    
     Nombre de conexión: Conexión de área local
-
+    
     DHCP habilitado: No
-
+    
     Direcciones IP
-
+    
     \[01\]: xxx.xxx.xxx.xxx
 
 3.  Si estos valores no son los que esperaba, debe volver a configurar el servidor mediante el Panel de control o volver a realizar la instalación.
