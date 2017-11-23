@@ -27,11 +27,11 @@ En la guía se proporcionan recomendaciones específicas acerca de cómo configu
 
 ##### En esta página
 
-[](#eeaa)[Destinatarios de la guía](#eeaa)
-[](#edaa)[Esquema del contenido](#edaa)
-[](#ecaa)[Recursos relacionados](#ecaa)
-[](#ebaa)[Comuníquenos su opinión](#ebaa)
-[](#eaaa)[Servicios de consultoría y soporte técnico](#eaaa)
+[](#eeaa)[Destinatarios de la guía](#eeaa)  
+[](#edaa)[Esquema del contenido](#edaa)  
+[](#ecaa)[Recursos relacionados](#ecaa)  
+[](#ebaa)[Comuníquenos su opinión](#ebaa)  
+[](#eaaa)[Servicios de consultoría y soporte técnico](#eaaa)  
 
 ### Destinatarios de la guía
 

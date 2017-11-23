@@ -15,23 +15,23 @@ Actualizado: 27/12/05
 
 ##### En esta página
 
-[](#edaa)[Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP](#edaa)
-[](#ecaa)[Recursos relacionados](#ecaa)
-[](#ebaa)[Comuníquenos su opinión](#ebaa)
-[](#eaaa)[Servicios de consultoría y soporte técnico](#eaaa)
-[](#yzwx)[Capítulo 1: Introducción a las amenazas y contramedidas: Configuración de la seguridad en Windows Server 2003 y Windows XP](#yzwx)
-[](#badc)[Capítulo 2: Directivas de nivel de dominio](#badc)
-[](#yyzz)[Capítulo 3: Directiva de auditoría](#yyzz)
-[](#lmkw)[Capítulo 4: Derechos de usuario](#lmkw)
-[](#jkuv)[Capítulo 5: Opciones de seguridad](#jkuv)
-[](#rrrr)[Capítulo 6: Registro de eventos](#rrrr)
-[](#ssss)[Capítulo 7: Servicios del sistema](#ssss)
-[](#mmmm)[Capítulo 8: Directivas de restricción de software](#mmmm)
-[](#zarv)[Capítulo 9: Plantillas administrativas de Windows XP y Windows Server 2003](#zarv)
-[](#reoa)[Capítulo 10: Entradas del Registro adicionales](#reoa)
-[](#iuyo)[Capítulo 11: Contramedidas adicionales](#iuyo)
-[](#vcbn)[Capítulo 12: Conclusión](#vcbn)
-[](#esrc)[Agradecimientos](#esrc)
+[](#edaa)[Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP](#edaa)  
+[](#ecaa)[Recursos relacionados](#ecaa)  
+[](#ebaa)[Comuníquenos su opinión](#ebaa)  
+[](#eaaa)[Servicios de consultoría y soporte técnico](#eaaa)  
+[](#yzwx)[Capítulo 1: Introducción a las amenazas y contramedidas: Configuración de la seguridad en Windows Server 2003 y Windows XP](#yzwx)  
+[](#badc)[Capítulo 2: Directivas de nivel de dominio](#badc)  
+[](#yyzz)[Capítulo 3: Directiva de auditoría](#yyzz)  
+[](#lmkw)[Capítulo 4: Derechos de usuario](#lmkw)  
+[](#jkuv)[Capítulo 5: Opciones de seguridad](#jkuv)  
+[](#rrrr)[Capítulo 6: Registro de eventos](#rrrr)  
+[](#ssss)[Capítulo 7: Servicios del sistema](#ssss)  
+[](#mmmm)[Capítulo 8: Directivas de restricción de software](#mmmm)  
+[](#zarv)[Capítulo 9: Plantillas administrativas de Windows XP y Windows Server 2003](#zarv)  
+[](#reoa)[Capítulo 10: Entradas del Registro adicionales](#reoa)  
+[](#iuyo)[Capítulo 11: Contramedidas adicionales](#iuyo)  
+[](#vcbn)[Capítulo 12: Conclusión](#vcbn)  
+[](#esrc)[Agradecimientos](#esrc)  
 
 ### Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP
 
@@ -141,7 +141,7 @@ Esta es una guía complementaria a otras dos publicaciones de Microsoft:
     http://go.microsoft.com/fwlink/?LinkId=14845
 
 -   [*Guía de seguridad de Windows XP*](http://go.microsoft.com/fwlink/?linkid=14839), disponible en línea en
-    http://go.microsoft.com/fwlink/?LinkId=14839* *
+    http://go.microsoft.com/fwlink/?LinkId=14839
 
 Muchas de las contramedidas que se describen en esta guía no están dirigidas a las funciones de equipos específicas de las guías complementarias y, en algunos casos, a ninguna función en absoluto. Estas contramedidas ayudan a garantizar la compatibilidad, la utilidad, la capacidad de administración, la disponibilidad o el rendimiento.
 
@@ -193,7 +193,7 @@ La información que se proporciona en esta guía le ayudará a usted y a su orga
     [http://go.microsoft.com/fwlink/?LinkId=14845](http://go.microsoft.com/fwlink/?linkid=14845)
 
 -   *Guía de seguridad de Windows XP*, disponible en línea en
-    [http://go.microsoft.com/fwlink/?LinkId=14839](http://go.microsoft.com/fwlink/?linkid=14839)* *
+    [http://go.microsoft.com/fwlink/?LinkId=14839](http://go.microsoft.com/fwlink/?linkid=14839)
 
 El libro de Microsoft Excel "Configuración de la seguridad y los servicios predeterminados de Windows", que se incluye en esta guía, ofrece información sobre la configuración predeterminada. En la primera hoja de trabajo ("Windows Server 2003 Defaults") se detallan todos los parámetros de configuración predeterminada de Directiva de grupo que están disponibles en Windows Server 2003. Esta hoja de trabajo incluye las columnas siguientes:
 
@@ -229,8 +229,8 @@ La segunda hoja de trabajo, "Windows Server 2003 System Services", enumera todos
 
 El formato de las hojas de trabajo adicionales ("Windows XP Defaults" y "Windows XP System Services") es semejante a estas dos hojas de trabajo. Brindan información sobre los servicios y los parámetros de configuración de seguridad en Windows XP.
 
-[](#ccna)[Resúmenes de capítulos](#ccna)
-[](#mcse)[Herramientas y plantillas](#mcse)
+[](#ccna)[Resúmenes de capítulos](#ccna)  
+[](#mcse)[Herramientas y plantillas](#mcse)  
 
 ### Resúmenes de capítulos
 
@@ -302,7 +302,7 @@ Los archivos se incluyen en un archivo .msi dentro del archivo WinZip de extracc
 
 Este capítulo expone la configuración de directiva de grupo que se aplica en el nivel de dominio. La directiva predeterminada de controladores de dominio integrada incluye valores de configuración predeterminados para estas directivas, a los que se conoce en conjunto con el nombre de directivas de cuenta.
 
-[](#elaa)[Directivas de cuentas](#elaa)
+[](#elaa)[Directivas de cuentas](#elaa)  
 [](#emaa)[Información adicional](#emaa)
 
 ### Directivas de cuentas
@@ -395,7 +395,7 @@ No es eficaz obligar a los usuarios a que cambien las contraseñas regularmente 
 
 ###### Contramedida
 
-Configure la **Vigencia mínima de la contraseña** en un valor de cuando menos **2 días.** Si configura el número de días en **0, **serían posibles los cambios inmediatos de contraseña, algo que no es aconsejable.
+Configure la **Vigencia mínima de la contraseña** en un valor de cuando menos **2 días.** Si configura el número de días en **0,** serían posibles los cambios inmediatos de contraseña, algo que no es aconsejable.
 
 ###### Impacto potencial
 
@@ -760,9 +760,9 @@ Puede establecer la configuración de directiva de auditoría en la siguiente ub
 **Configuración de equipo\\Configuración de Windows\\Configuración de seguridad\\Directivas locales**
 **\\Directiva de auditoría**
 
-[](#oooo)[Configuración de auditoría](#oooo)
-[](#cccc)[Ejemplo de auditoría: Resultados de un evento de inicio de sesión](#cccc)
-[](#dddd)[Información adicional](#dddd)
+[](#oooo)[Configuración de auditoría](#oooo)  
+[](#cccc)[Ejemplo de auditoría: Resultados de un evento de inicio de sesión](#cccc)  
+[](#dddd)[Información adicional](#dddd)  
 
 ### Configuración de auditoría
 
@@ -1658,7 +1658,7 @@ Debe permitir que el equipo administre automáticamente este derecho de inicio d
 
 ##### Impacto potencial
 
-Si configura **Iniciar sesión como proceso por lotes** a través de directivas de grupo basadas en el dominio, el equipo no podrá asignar el derecho de usuario a cuentas que se utilizan para trabajos programados en el Programador de tareas. Si instala componentes opcionales como ASP.NET o IIS, tal vez deba asignar este derecho de usuario a cuentas adicionales que estos componentes requieren. Por ejemplo, IIS requiere la asignación de este derecho de usuario al grupo **IIS\_WPG** y a las cuentas IUSR\_*&lt;NombreEquipo&gt;, *ASPNET e IWAM\_*&lt;NombreEquipo&gt;*. Si este derecho de usuario no se asigna a este grupo y estas cuentas, IIS será incapaz de ejecutar algunos objetos COM que son necesarios para la funcionalidad apropiada.
+Si configura **Iniciar sesión como proceso por lotes** a través de directivas de grupo basadas en el dominio, el equipo no podrá asignar el derecho de usuario a cuentas que se utilizan para trabajos programados en el Programador de tareas. Si instala componentes opcionales como ASP.NET o IIS, tal vez deba asignar este derecho de usuario a cuentas adicionales que estos componentes requieren. Por ejemplo, IIS requiere la asignación de este derecho de usuario al grupo **IIS\_WPG** y a las cuentas IUSR\_*&lt;NombreEquipo&gt;,*ASPNET e IWAM\_*&lt;NombreEquipo&gt;*. Si este derecho de usuario no se asigna a este grupo y estas cuentas, IIS será incapaz de ejecutar algunos objetos COM que son necesarios para la funcionalidad apropiada.
 
 #### Iniciar sesión como servicio
 
@@ -10281,9 +10281,9 @@ Cualquiera de las soluciones siguientes se podría utilizar para bloquear el ata
   
 El ejemplo de mapa de tráfico en la siguiente tabla utiliza filtros IPSec adicionales que bloquean cualquier intento de obtener acceso a los puertos abiertos desde el puerto 80. En primer lugar, el comando Netstat -ano se utiliza para determinar qué puertos TCP deben estar abiertos en el servidor al que podría conectarse el atacante. La salida de este comando es similar a la siguiente:
   
-```  
+
 C:\\Documents and Settings\\testuser.domain.000&gt;netstat -ano Active Connections Proto  Local Address       Foreign Address     State         PID TCP    0.0.0.0:135         0.0.0.0:0           LISTENING     740 TCP    0.0.0.0:445         0.0.0.0:0           LISTENING     4 TCP    0.0.0.0:1025        0.0.0.0:0           LISTENING     884 TCP    0.0.0.0:1046        0.0.0.0:0           LISTENING     508 TCP    192.168.0.5:139     0.0.0.0:0           LISTENING     4 UDP    0.0.0.0:445         \*:\*                               4 UDP    0.0.0.0:500         \*:\*                               508 UDP    0.0.0.0:1026        \*:\*                               816 UDP    0.0.0.0:1029        \*:\*                               508 UDP    0.0.0.0:1051        \*:\*                               452 UDP    0.0.0.0:4500        \*:\*                               508 UDP    127.0.0.1:123       \*:\*                               884 UDP    192.168.0.5:123     \*:\*                               884 UDP    192.168.0.5:137     \*:\*                               4 UDP    192.168.0.5:138     \*:\*                               4  
-```  
+
 La regla se define para bloquear los ataques específicos del puerto TCP de origen 25 a cada puerto TCP abierto como se indica en la tabla a continuación:
   
 **Tabla 11.3: Ejemplo de mapa de tráfico de red revisado que permite la exploración web saliente**
@@ -10673,21 +10673,21 @@ Kurt Dillard
   
 José Maldonado
   
-Paul Robichaux *(3Sharp,* *LLC)*
+Paul Robichaux *(3Sharp, LLC)*
   
 [](#mainsection)[Principio de la página](#mainsection)
   
 ### Colaboradores de contenido
   
-Liam Colvin *(3Sharp,* *LLC)*
+Liam Colvin *(3Sharp, LLC)*
   
 William Dixon *(V6 Security Inc.)*
   
-Tony Dowler *(3Sharp,* *LLC)*
+Tony Dowler *(3Sharp, LLC)*
   
 Eric Fitzgerald
   
-Devin Ganger *(3Sharp,* *LLC)*
+Devin Ganger *(3Sharp, LLC)*
   
 Jesper Johansson
   
@@ -10759,9 +10759,7 @@ Don McGowan
   
 James Noyce
   
-*  (Consultor principal,* *Business Critical*
-  
-*  Consulting)*
+    *(Consultor principal, Business Critical Consulting)*
   
 Paul Rojas
   
@@ -10769,9 +10767,7 @@ Debra Littlejohn Shinder *(MVP de seguridad)*
   
 Tom Shinder
   
-*  (MVP de ISA y seguridad, y consultor de TI*
-  
-*  TACTeam)*
+   *(MVP de ISA y seguridad, y consultor de TI TACTeam)*
   
 Ben Smith
   

@@ -39,11 +39,11 @@ Para sacar el máximo provecho de este material, debe leer la totalidad de la gu
 
 ##### En esta página
 
-[](#eeaa)[Destinatarios de la guía](#eeaa)
-[](#edaa)[Información general acerca de la guía](#edaa)
-[](#ecaa)[Recursos relacionados](#ecaa)
-[](#ebaa)[Comuníquenos su opinión](#ebaa)
-[](#eaaa)[Servicios de consultoría y soporte técnico](#eaaa)
+[](#eeaa)[Destinatarios de la guía](#eeaa)  
+[](#edaa)[Información general acerca de la guía](#edaa)  
+[](#ecaa)[Recursos relacionados](#ecaa)  
+[](#ebaa)[Comuníquenos su opinión](#ebaa)  
+[](#eaaa)[Servicios de consultoría y soporte técnico](#eaaa)  
 
 ### Destinatarios de la guía
 

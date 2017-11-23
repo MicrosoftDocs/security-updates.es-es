@@ -13,10 +13,10 @@ UrlScan V2.5 es una herramienta de seguridad que restringe los tipos de peticion
 
 ##### En esta página
 
-[](#eeaa)[Nuevas funcionalidades en UrlScan 2.5](#eeaa)
-[](#edaa)[Determinar si se debe emplear UrlScan 2.5 con IIS 6.0](#edaa)
-[](#ecaa)[Instalación de UrlScan 2.5](#ecaa)
-[](#ebaa)[Preguntas más frecuentes](#ebaa)
+[](#eeaa)[Nuevas funcionalidades en UrlScan 2.5](#eeaa)  
+[](#edaa)[Determinar si se debe emplear UrlScan 2.5 con IIS 6.0](#edaa)  
+[](#ecaa)[Instalación de UrlScan 2.5](#ecaa)  
+[](#ebaa)[Preguntas más frecuentes](#ebaa)  
 
 ### Nuevas funcionalidades en UrlScan 2.5
 
