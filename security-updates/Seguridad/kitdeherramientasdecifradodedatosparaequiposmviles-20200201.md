@@ -195,7 +195,7 @@ Para una recuperación correcta, la copia de seguridad de la clave EFS del usuar
 
 7.  Para permitir que el Asistente para importación de certificados importe el certificado EFS al almacén predeterminado correcto, seleccione el botón de radio **Seleccionar automáticamente el almacén de certificados en base al tipo de certificado** y, a continuación, haga clic en **Siguiente**.
 
-    ![](images/Cc162802.8933a7be-a729-4e88-9c80-c73c134f21d6(es-es,TechNet.10).gif)
+    ![](images/cc162802.IC271005(es-es,TechNet.10).gif)
 
     **Figura 3.2. Petición de ubicación del almacén de certificados en el Asistente para importación de certificados**
 
