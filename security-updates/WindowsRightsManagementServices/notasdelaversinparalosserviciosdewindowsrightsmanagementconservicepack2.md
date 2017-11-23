@@ -1,12 +1,12 @@
 ---
-TOCTitle: Notas de la versión para los Servicios de Windows Rights Management con Service Pack 2
-Title: Notas de la versión para los Servicios de Windows Rights Management con Service Pack 2
+TOCTitle: Notas de la versión para los Servicios de Windows Rights Management con Service Pack 2
+Title: Notas de la versión para los Servicios de Windows Rights Management con Service Pack 2
 ms:assetid: '78067886-681f-49a6-b43d-bfd08a369b69'
 ms:contentKeyID: 18127820
 ms:mtpsurl: 'https://technet.microsoft.com/es-es/library/Cc747637(v=WS.10)'
 ---
 
-Notas de la versión para los Servicios de Windows Rights Management con Service Pack 2
+Notas de la versión para los Servicios de Windows Rights Management con Service Pack 2
 ======================================================================================
 
 *Fecha de edición: Diciembre de 2006*
@@ -14,13 +14,13 @@ Notas de la versión para los Servicios de Windows Rights Management con Servi
 Antes de comenzar
 -----------------
 
-Revise la siguiente información antes de instalar los Servicios de Microsoft® Windows® Rights Management (RMS) con Service Pack 2 (SP2). La información contenida en estas notas de la versión se aplica al servidor de RMS con SP2 y no al cliente de RMS. Para obtener información sobre clientes de RMS, consulte Servicios de Rights Management ([http://go.microsoft.com/fwlink/?LinkId=68637](http://go.microsoft.com/fwlink/?linkid=68637)).
+Revise la siguiente información antes de instalar los Servicios de Microsoft® Windows® Rights Management (RMS) con Service Pack 2 (SP2). La información contenida en estas notas de la versión se aplica al servidor de RMS con SP2 y no al cliente de RMS. Para obtener información sobre clientes de RMS, consulte Servicios de Rights Management ([http://go.microsoft.com/fwlink/?LinkId=68637](http://go.microsoft.com/fwlink/?linkid=68637)).
 
 #### Requisitos del sistema
 
 Los requisitos de hardware para ejecutar RMS con SP2 se indican en la siguiente tabla.
 
-###  
+###  
 
  
 <p> </p>
@@ -51,13 +51,12 @@ Los requisitos de hardware para ejecutar RMS con SP2 se indican en la siguiente 
 </tbody>
 </table>
   
-| ![](images/Cc747637.note(WS.10).gif)Nota                                                                          |  
-|------------------------------------------------------------------------------------------------------------------------------------------------|  
-| El servidor de RMS con SP2 se ha diseñado para un equipo de 32 bits. Si se instala en un equipo de 64 bits, se ejecutará en modo de emulación. |
+> [!NOTE]
+> El servidor de RMS con SP2 se ha diseñado para un equipo de 32 bits. Si se instala en un equipo de 64 bits, se ejecutará en modo de emulación. |
   
 Los requisitos software para los servidores en los que se ejecuta RMS con SP2 se indican en la siguiente tabla.
   
-###  
+###  
 
  
 <p> </p>
@@ -75,11 +74,11 @@ Los requisitos software para los servidores en los que se ejecuta RMS con SP2 se
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Sistema operativo</td>
-<td style="border:1px solid black;">Microsoft Windows Server® 2003, excepto Web Edition, para RMS con SP2.</td>
+<td style="border:1px solid black;">Microsoft Windows Server® 2003, excepto Web Edition, para RMS con SP2.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Servicios de Rights Management con SP2</td>
-<td style="border:1px solid black;">Debe instalarse RMS con Service Pack 1 (SP1) antes de poder realizar una actualización a RMS con SP2. Este requisito no está presente para el cliente de RMS con SP2.</td>
+<td style="border:1px solid black;">Debe instalarse RMS con Service Pack 1 (SP1) antes de poder realizar una actualización a RMS con SP2. Este requisito no está presente para el cliente de RMS con SP2.</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Sistema de archivos</td>
@@ -88,13 +87,13 @@ Los requisitos software para los servidores en los que se ejecuta RMS con SP2 se
 <tr class="even">
 <td style="border:1px solid black;">Componentes obligatorios previos</td>
 <td style="border:1px solid black;"><ul>
-<li>Message Queue Server (también conocido como MSMQ) con servicio de integración de directorio Active Directory® habilitado.<br />
+<li>Message Queue Server (también conocido como MSMQ) con servicio de integración de directorio Active Directory® habilitado.<br />
 <br />
 </li>
 <li>Servicios de Internet Information Server (IIS) con ASP.NET habilitado.<br />
 <br />
 </li>
-<li>Microsoft .NET Framework 1.1<br />
+<li>Microsoft .NET Framework 1.1<br />
 <br />
 </li>
 </ul></td>
@@ -104,11 +103,11 @@ Los requisitos software para los servidores en los que se ejecuta RMS con SP2 se
  
 
 > [!NOTE]
-> Si configura RMS con SP2 para permitir la administración remota, en el equipo conectado al servicio de administración de RMS con SP2 debe utilizarse Internet Explorer 6.0 o superior. 
+> Si configura RMS con SP2 para permitir la administración remota, en el equipo conectado al servicio de administración de RMS con SP2 debe utilizarse Internet Explorer 6.0 o superior. 
 
 Los requisitos de infraestructura para los servidores en los que se ejecuta RMS con SP2 se indican en la siguiente tabla.
 
-###  
+###  
 
  
 <p> </p>
@@ -126,16 +125,16 @@ Los requisitos de infraestructura para los servidores en los que se ejecuta RMS 
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Servicios de directorio</td>
-<td style="border:1px solid black;">Active Directory en controladores de dominio en los que se ejecute Windows Server 2000 con Service Pack 3 o posterior, en el mismo dominio en que está instalado RMS. Todos los usuarios y grupos que utilizan RMS para adquirir licencias y publicar contenido deben tener una dirección de correo electrónico que esté configurada en Active Directory.</td>
+<td style="border:1px solid black;">Active Directory en controladores de dominio en los que se ejecute Windows Server 2000 con Service Pack 3 o posterior, en el mismo dominio en que está instalado RMS. Todos los usuarios y grupos que utilizan RMS para adquirir licencias y publicar contenido deben tener una dirección de correo electrónico que esté configurada en Active Directory.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Servidor de base de datos</td>
-<td style="border:1px solid black;">RMS con SP2 necesita una base de datos y procedimientos almacenados para realizar operaciones. Puede utilizar Microsoft SQL Server™ 2000 con SP3 o posterior, o bien Microsoft SQL Server 2005. Para realizar pruebas o implementación en un solo equipo, puede utilizarse Microsoft SQL Server Desktop Engine (MSDE 2000) versión A o Microsoft SQL Server 2005 Express Edition.</td>
+<td style="border:1px solid black;">RMS con SP2 necesita una base de datos y procedimientos almacenados para realizar operaciones. Puede utilizar Microsoft SQL Server™ 2000 con SP3 o posterior, o bien Microsoft SQL Server 2005. Para realizar pruebas o implementación en un solo equipo, puede utilizarse Microsoft SQL Server Desktop Engine (MSDE 2000) versión A o Microsoft SQL Server 2005 Express Edition.</td>
 </tr>
 </tbody>
 </table>
   
-RMS se ha diseñado y probado para servidores de base de datos en los que se ejecuta Microsoft SQL Server 2000 y Microsoft SQL Server 2005. RMS puede ejecutarse en otros servidores de base de datos si reúnen los siguientes criterios:
+RMS se ha diseñado y probado para servidores de base de datos en los que se ejecuta Microsoft SQL Server 2000 y Microsoft SQL Server 2005. RMS puede ejecutarse en otros servidores de base de datos si reúnen los siguientes criterios:
   
 -   Compatibilidad con las interfaces ADO.NET proporcionadas por Microsoft .NET Framework 1.1.  
 -   Cumplir con Transact-SQL, el lenguaje de consultas estructurado utilizado por Microsoft SQL Server, ya que lo utilizan las secuencias de comandos de inicialización y los procedimientos almacenados de RMS.  
@@ -148,7 +147,7 @@ Para averiguar si el servidor de base de datos reúne estos requisitos, póngase
   
 En la siguiente tabla se muestran los permisos de usuario necesarios para realizar diferentes actividades con RMS.
   
-###  
+###  
 
  
 <p> </p>
@@ -190,14 +189,14 @@ En la siguiente tabla se muestran los permisos de usuario necesarios para realiz
 </tr>
 </tbody>
 </table>
-  
-| ![](images/Cc747637.note(WS.10).gif)Nota                                                                                                                                                                                                                             |  
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Para obtener más información sobre la configuración de Windows Server, Active Directory, Message Queuing, IIS y los sistemas de archivos, consulte el sitio Web TechCenter de Windows Server 2003 ([http://go.microsoft.com/fwlink/?LinkId=78135](http://go.microsoft.com/fwlink/?linkid=78135)). |
+
+
+> [!NOTE]
+>  Para obtener más información sobre la configuración de Windows Server, Active Directory, Message Queuing, IIS y los sistemas de archivos, consulte el sitio Web TechCenter de Windows Server 2003 ([http://go.microsoft.com/fwlink/?LinkId=78135](http://go.microsoft.com/fwlink/?linkid=78135)). |
   
 Si utiliza RMS en una implementación de clúster, tenga en cuenta los elementos que se indican en la tabla siguiente.
   
-###  
+###  
 
  
 <p> </p>
@@ -228,13 +227,15 @@ Si utiliza RMS en una implementación de clúster, tenga en cuenta los elementos
 </tbody>
 </table>
   
-| ![](images/Cc747637.Important(WS.10).gif)Importante                                                                                                                                                                                                                                                                                                                                                                                                                                                              |  
+
+| ![](images/Cc747637.Important(WS.10).gif)
+Importante                                                                                                                                                                                                                                                                                                                                                                                                                                                              |  
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 | Si no se realiza el registro de DNS para la intranet, no se aceptarán las solicitudes internas de licencia de cliente. Si no puede modificar la configuración de DNS, es posible modificar la tabla de hosts de cada servidor del clúster para asignar la dirección URL del clúster a la dirección IP virtual del clúster. Debe realizarse el registro de DNS antes de establecer los servicios en línea de RMS. Si ya ha establecido el servicio, deberá eliminar RMS del servidor y, a continuación, repetir el proceso de establecimiento. |
   
 #### Clientes compatibles con esta versión
   
-El cliente de RMS sin Service Pack, el cliente de RMS con SP1 o el cliente de RMS con SP2 se pueden instalar en cualquier equipo que ejecute Microsoft Windows 2000, Windows XP y Windows Server 2003. Esta versión no admite versiones anteriores de sistemas operativos de Windows.
+El cliente de RMS sin Service Pack, el cliente de RMS con SP1 o el cliente de RMS con SP2 se pueden instalar en cualquier equipo que ejecute Microsoft Windows 2000, Windows XP y Windows Server 2003. Esta versión no admite versiones anteriores de sistemas operativos de Windows.
   
 > [!CAUTION]
 > Si usa el cliente de RMS sin Service Pack, el cliente no podrá usar la publicación en línea en un servidor de RMS con SP1 o posterior. 
@@ -247,7 +248,7 @@ Hay varias funciones nuevas en RMS con SP2:
 -   [Expansión de grupos entre bosques mejorada](#bkmk_cif1)  
 -   [Cambios en el registro de base de datos](#bkmk_cif2)  
 -   [Tamaños de lotes de servidor más grandes](#bkmk_cif3)  
--   [Compatibilidad con Microsoft SQL Server 2005](#bkmk_cif4)
+-   [Compatibilidad con Microsoft SQL Server 2005](#bkmk_cif4)
   
 #### Expansión de grupos entre bosques mejorada
   
@@ -267,9 +268,8 @@ El nuevo protocolo de expansión de confianza de bosque mejorará la fiabilidad 
   
 Con anterioridad a RMS con SP2, la expansión de grupos entre bosques se llevaba a cabo realizando llamadas remotas mediante .NET. En esta versión, el protocolo de expansión de grupos entre bosques se ha cambiado a un servicio Web de ASP.NET que utiliza solicitudes SOAP/HTTP a la canalización de expansión de grupos de confianza del bosque.
   
-| ![](images/Cc747637.note(WS.10).gif)Nota                                                                                                                                                                                                                                   |  
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Para la compatibilidad con versiones anteriores, se mantiene la compatibilidad con las llamadas remotas de .NET en RMS con SP2. Sin embargo, para sacar el máximo partido del nuevo protocolo de expansión de grupos entre bosques, en todos los clústeres de RMS debe ejecutarse al menos RMS con SP2. |
+> [!NOTE]
+> Para la compatibilidad con versiones anteriores, se mantiene la compatibilidad con las llamadas remotas de .NET en RMS con SP2. Sin embargo, para sacar el máximo partido del nuevo protocolo de expansión de grupos entre bosques, en todos los clústeres de RMS debe ejecutarse al menos RMS con SP2. |
   
 #### ¿Qué opciones de configuración se han añadido o modificado en RMS con SP2?
   
@@ -319,11 +319,10 @@ Los procesos por lotes de RMS permiten que se realice una única solicitud a la 
   
 #### ¿Cuál es la diferencia?
   
-En versiones de RMS anteriores a RMS con SP2, el clúster RMS admitía un tamaño de procesos por lotes máximo de 1. Si el tamaño máximo del proceso por lotes se establecía en un número mayor de 1, el clúster lo ignoraba. En RMS con SP2, el tamaño máximo puede ser 100.
+En versiones de RMS anteriores a RMS con SP2, el clúster RMS admitía un tamaño de procesos por lotes máximo de 1. Si el tamaño máximo del proceso por lotes se establecía en un número mayor de 1, el clúster lo ignoraba. En RMS con SP2, el tamaño máximo puede ser 100.
   
-| ![](images/Cc747637.note(WS.10).gif)Nota        |  
-|------------------------------------------------------------------------------|  
-| Sólo la canalización AcquireLicense de RMS admite las solicitudes por lotes. |
+> [!NOTE]
+> Sólo la canalización AcquireLicense de RMS admite las solicitudes por lotes. |
   
 Se ha mejorado el informe de errores en RMS con SP2 para las cuentas con solicitudes por lotes. Por ejemplo, si envía un lote de diez solicitudes y se producen errores en la segunda y la tercera, se escribe un suceso en el registro de sucesos por cada error.
   
@@ -331,30 +330,29 @@ Se ha mejorado el informe de errores en RMS con SP2 para las cuentas con solicit
   
 #### ¿Para que sirve esta función?
   
-En RMS con SP2, Microsoft SQL Server 2005 puede utilizarse como servidor de base de datos para admitir la configuración de RMS y las bases de datos de registro sin realizar ninguna configuración adicional.
+En RMS con SP2, Microsoft SQL Server 2005 puede utilizarse como servidor de base de datos para admitir la configuración de RMS y las bases de datos de registro sin realizar ninguna configuración adicional.
   
 #### ¿A quién se aplica esta función?
   
-La compatibilidad de Microsoft SQL Server 2005 con RMS con SP2 resulta de interés para los usuarios de RMS que deseen utilizar Microsoft SQL Server 2005 como base de datos de RMS.
+La compatibilidad de Microsoft SQL Server 2005 con RMS con SP2 resulta de interés para los usuarios de RMS que deseen utilizar Microsoft SQL Server 2005 como base de datos de RMS.
   
 #### ¿Por qué es importante este cambio?
   
-En versiones anteriores de RMS, los tipos de datos de algunos de los parámetros utilizados en la tabla de mensajes de sistema eran incompatibles con las especificaciones del formato Microsoft SQL Server 2005. Para obtener más información, consulte el artículo 913372 en Microsoft Knowledge Base ([http://go.microsoft.com/fwlink/?LinkId=68638](http://go.microsoft.com/fwlink/?linkid=68638)).
+En versiones anteriores de RMS, los tipos de datos de algunos de los parámetros utilizados en la tabla de mensajes de sistema eran incompatibles con las especificaciones del formato Microsoft SQL Server 2005. Para obtener más información, consulte el artículo 913372 en Microsoft Knowledge Base ([http://go.microsoft.com/fwlink/?LinkId=68638](http://go.microsoft.com/fwlink/?linkid=68638)).
   
 #### ¿Cuál es la diferencia?
   
 En versiones de RMS anteriores a RMS con SP2, las sentencias SQL RAISERROR se utilizaban para notificar al usuario de RMS que se había producido un error. La sentencia RAISERROR consulta la tabla de mensajes del sistema para recuperar los mensajes de error de RMS almacenados en la misma. RMS con SP2 utiliza una técnica diferente para propagar los errores de SQL de modo que ya no hay una dependencia de la tabla de mensajes del sistema.
   
-| ![](images/Cc747637.note(WS.10).gif)Nota                                                                                                                                                                                                                                                 |  
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Si está realizando una actualización de RMS con SP1 a RMS con SP2, ya no se consultan los mensajes de error en la tabla de mensajes del sistema, pero los mensajes de error permanecen en dicha tabla. Una instalación partiendo de cero de RMS con SP2 no añade entradas nuevas en la tabla de mensajes del sistema. |
+> [!NOTE]
+> Si está realizando una actualización de RMS con SP1 a RMS con SP2, ya no se consultan los mensajes de error en la tabla de mensajes del sistema, pero los mensajes de error permanecen en dicha tabla. Una instalación partiendo de cero de RMS con SP2 no añade entradas nuevas en la tabla de mensajes del sistema. |
   
 Problemas conocidos  
 -------------------
   
 En las secciones siguientes se tratan los problemas conocidos de esta versión de RMS.
   
-#### El archivo de Ayuda aún hace referencia a RMS con Service Pack 1
+#### El archivo de Ayuda aún hace referencia a RMS con Service Pack 1
   
 El archivo de Ayuda incluido en la instalación de RMS con SP2 aún hace referencia a RMS con SP1. Para obtener información sobre clientes de RMS con SP2, consulte Servicios de Rights Management ([http://go.microsoft.com/fwlink/?LinkId=68637](http://go.microsoft.com/fwlink/?linkid=68637)).
   
@@ -372,39 +370,38 @@ Después de importar un dominio de publicación de confianza con una implementac
   
 #### Microsoft .NET Framework 2.0 cambia las raíces virtuales de IIS cuando está instalado en el servidor de RMS
   
-RMS con SP2 utiliza la asignación de secuencia de comandos ASP.NET que se incluye con la versión 1.1 de .NET Framework. La asignación que proporcionan versiones posteriores no es compatible con RMS con SP2. Sin embargo, ambas versiones pueden coexistir sin interferencias con otras aplicaciones dependientes. Si el servidor tiene instalado .NET Framework 1.1 y .NET Framework 2.0 o posterior, aunque la instalación y el establecimiento de servicios en línea de RMS con SP2 parezcan haberse completado satisfactoriamente, es posible que el servidor de RMS no funcione correctamente. Esto ocurre porque las raíces virtuales de RMS deben registrarse con la versión 1.1 de la asignación de secuencia de comandos ASP.NET y no con la versión 2.0. Para registrar las raíces virtuales de RMS con la versión 1.1 de la asignación de script ASP.NET, ejecute el comando siguiente en el símbolo del sistema:
+RMS con SP2 utiliza la asignación de secuencia de comandos ASP.NET que se incluye con la versión 1.1 de .NET Framework. La asignación que proporcionan versiones posteriores no es compatible con RMS con SP2. Sin embargo, ambas versiones pueden coexistir sin interferencias con otras aplicaciones dependientes. Si el servidor tiene instalado .NET Framework 1.1 y .NET Framework 2.0 o posterior, aunque la instalación y el establecimiento de servicios en línea de RMS con SP2 parezcan haberse completado satisfactoriamente, es posible que el servidor de RMS no funcione correctamente. Esto ocurre porque las raíces virtuales de RMS deben registrarse con la versión 1.1 de la asignación de secuencia de comandos ASP.NET y no con la versión 2.0. Para registrar las raíces virtuales de RMS con la versión 1.1 de la asignación de script ASP.NET, ejecute el comando siguiente en el símbolo del sistema:
   
 **%windir%\\Microsoft.NET\\Framework\\v1.1.4322&gt;aspnet\_regiis.exe -s W3SVC/1/ROOT/\_wmcs**
   
 Si se ejecuta este comando, se registrarán correctamente las raíces virtuales de RMS, y RMS con SP2 podrá ejecutarse en el servidor.
   
-#### Puede faltar la pertenencia a grupos si se utiliza el nivel funcional nativo de Windows 2000 de Active Directory
+#### Puede faltar la pertenencia a grupos si se utiliza el nivel funcional nativo de Windows 2000 de Active Directory
   
-Al implementar RMS en un entorno donde los niveles de la infraestructura de Active Directory se han elevado al nivel funcional nativo de Windows 2000, puede que RMS no pueda leer el atributo memberOf de los objetos de Active Directory al intentar ampliar la pertenencia a grupos de las listas de distribución ocultas. Para que los RMS pueda leer el atributo memberOf, la cuenta de servicio de RMS debe utilizar una cuenta de dominio que sea miembro del grupo Acceso compatible con versiones anteriores de Windows 2000. Para obtener información, consulte el artículo 812841 de Microsoft Knowledge Base ([http://go.microsoft.com/fwlink/?LinkId=78152](http://go.microsoft.com/fwlink/?linkid=78152)).
+Al implementar RMS en un entorno donde los niveles de la infraestructura de Active Directory se han elevado al nivel funcional nativo de Windows 2000, puede que RMS no pueda leer el atributo memberOf de los objetos de Active Directory al intentar ampliar la pertenencia a grupos de las listas de distribución ocultas. Para que los RMS pueda leer el atributo memberOf, la cuenta de servicio de RMS debe utilizar una cuenta de dominio que sea miembro del grupo Acceso compatible con versiones anteriores de Windows 2000. Para obtener información, consulte el artículo 812841 de Microsoft Knowledge Base ([http://go.microsoft.com/fwlink/?LinkId=78152](http://go.microsoft.com/fwlink/?linkid=78152)).
   
 #### El servicio de escucha de registro envía mensajes de Message Queue Server a la cola de mensajes con problemas de entrega cuando no se puede acceder a la base de datos
   
 Hay instancias (por ejemplo, base de datos desconectada, problemas de conectividad en red, etc.) en las que el servicio de escucha de registro no puede conectarse con la base de datos. En este caso, los mensajes se envían a una cola de mensajes con problemas de entrega. El único modo de recuperar estos mensajes (es decir, enviarlos a la base de datos de registro) es utilizar la herramienta de recuperación de mensajes de RMS que se incluye con el juego de herramientas de administración de RMS. Para descargar el juego de herramientas de administración de RMS, consulte [http://go.microsoft.com/fwlink/?LinkId=33841](http://go.microsoft.com/fwlink/?linkid=33841).
   
-| ![](images/Cc747637.note(WS.10).gif)Nota                                                                                                                                                                      |  
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Recover y RecoverandPurge se han eliminado de LogRecoveryCmd. De este modo, se asegura que todos los mensajes se redirigen a través del servicio de Message Queue Server y se autentican antes de enviarse a la base de datos de registro. |
+> [!NOTE]
+> Recover y RecoverandPurge se han eliminado de LogRecoveryCmd. De este modo, se asegura que todos los mensajes se redirigen a través del servicio de Message Queue Server y se autentican antes de enviarse a la base de datos de registro. |
   
 #### Debe actualizar RMS con SP2 antes de actualizar Microsoft SQL Server 2005
   
-Al realizar la actualización a RMS con SP2 y de Microsoft SQL Server 2000 a Microsoft SQL Server 2005, asegúrese de actualizar RMS primero. De este modo se evitarán problemas de compatibilidad con la actualización de Microsoft SQL Server.
+Al realizar la actualización a RMS con SP2 y de Microsoft SQL Server 2000 a Microsoft SQL Server 2005, asegúrese de actualizar RMS primero. De este modo se evitarán problemas de compatibilidad con la actualización de Microsoft SQL Server.
   
 #### RMS con SP2 no se puede establecer en los sitios Web cuyo nombre contenga un apóstrofe (')
   
-Si intenta establecer servicios en línea de RMS con SP2 en un sitio Web cuyo nombre incluye un carácter de apóstrofe ('), se producirá un error en el proceso de establecimiento de servicios en línea y aparecerá el mensaje de error "**Parámetro no válido**". Para establecer RMS con SP2 en el sitio Web, elimine el apóstrofe del nombre del mismo.
+Si intenta establecer servicios en línea de RMS con SP2 en un sitio Web cuyo nombre incluye un carácter de apóstrofe ('), se producirá un error en el proceso de establecimiento de servicios en línea y aparecerá el mensaje de error "**Parámetro no válido**". Para establecer RMS con SP2 en el sitio Web, elimine el apóstrofe del nombre del mismo.
   
-#### Habilitación de la versión 1.1 de ASP.NET en servidores con una versión de 64 bits de Windows Server 2003
+#### Habilitación de la versión 1.1 de ASP.NET en servidores con una versión de 64 bits de Windows Server 2003
   
-En el tema "Requisitos del sistema" de la ayuda de RMS se explica cómo instalar .NET Framework 1.1 y cómo habilitar ASP.NET 1.1 tras instalar los Servicios de Internet Information Server (IIS). Sin embargo, si .NET Framework 1.1 se ha instalado antes que IIS, ASP.NET 1.1, no aparecerá en las extensiones del servicio Web y el procedimiento documentado no será útil. Si IIS se ha instalado después de instalar .NET Framework 1.1, ejecute el comando siguiente en el símbolo del sistema para habilitar ASP.NET:
+En el tema "Requisitos del sistema" de la ayuda de RMS se explica cómo instalar .NET Framework 1.1 y cómo habilitar ASP.NET 1.1 tras instalar los Servicios de Internet Information Server (IIS). Sin embargo, si .NET Framework 1.1 se ha instalado antes que IIS, ASP.NET 1.1, no aparecerá en las extensiones del servicio Web y el procedimiento documentado no será útil. Si IIS se ha instalado después de instalar .NET Framework 1.1, ejecute el comando siguiente en el símbolo del sistema para habilitar ASP.NET:
   
 **%SystemRoot%\\Microsoft.NET\\Framework\\v1.1.4322\\aspnet\_regiis.exe -i –enable**
   
-Al utilizar una versión de .NET Framework posterior a 1.1, sustituya **-i** por **-ir** en este comando para evitar restablecer cualquier asignación de secuencias de comando de IIS existentes.
+Al utilizar una versión de .NET Framework posterior a 1.1, sustituya **-i** por **-ir** en este comando para evitar restablecer cualquier asignación de secuencias de comando de IIS existentes.
   
 #### La cuenta de servicio de RMS de bosque remoto debe añadirse a la canalización de ampliación de grupos local
   
@@ -423,7 +420,7 @@ Se ha solucionado un problema de seguridad que elimina BUILTIN\\users de ACL en 
   
 #### La actualización de .NET Framework puede producir pérdida de datos
   
-Si la versión 1.1 de .NET Framework (CLR) se actualiza después de instalar y establecer RMS, las raíces virtuales están configuradas para utilizar la versión 2.0 de .NET Framework. Si esto sucede, no se registra ningún dato en la base de datos de registro. Esto tendrá como resultado la pérdida de datos. Realice una de las siguientes acciones:
+Si la versión 1.1 de .NET Framework (CLR) se actualiza después de instalar y establecer RMS, las raíces virtuales están configuradas para utilizar la versión 2.0 de .NET Framework. Si esto sucede, no se registra ningún dato en la base de datos de registro. Esto tendrá como resultado la pérdida de datos. Realice una de las siguientes acciones:
   
 -   Actualice .NET Framework antes de instalar y establecer RMS.  
 -   Restablezca las raíces virtuales de modo que utilicen la versión 1.1 después de actualizar .NET Framework.
@@ -460,6 +457,6 @@ A continuación se presenta una lista de temas que se han modificado en esta ver
   
 *© 2006 Microsoft Corporation. Reservados todos los derechos.*
   
-*Active Directory, Microsoft, MS-DOS, Visual Studio, Windows, Windows Server, SQL Server y Windows NT son marcas registradas o marcas comerciales de Microsoft Corporation en Estados Unidos y otros países.*
+*Active Directory, Microsoft, MS-DOS, Visual Studio, Windows, Windows Server, SQL Server y Windows NT son marcas registradas o marcas comerciales de Microsoft Corporation en Estados Unidos y otros países.*
   
 *Los nombres de compañías y productos reales mencionados en este documento pueden ser marcas comerciales de sus respectivos propietarios.*
