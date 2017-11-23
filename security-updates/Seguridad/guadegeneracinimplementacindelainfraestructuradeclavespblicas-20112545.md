@@ -619,12 +619,12 @@ Debe comprobar que la instalación del sistema operativo ha finalizado correctam
     Servidor de inicio de sesión: \\\\HQ-CA-01
 
     Revisión(es): X revisión(es) instaladas.
-
-                                   [01]: Qxxxxxx
-
+    
+        [01]: Qxxxxxx
+        
     ...
-
-                                   [nn]: Qnnnnnn
+    
+        [nn]: Qnnnnnn
 
     Tarjeta(s) de red: N/A
 
@@ -711,12 +711,12 @@ Debe comprobar que la instalación del sistema operativo ha finalizado correctam
     Servidor de inicio de sesión: \\\\NombreDelControladorDeDominio
 
     Revisión(es): X revisión(es) instaladas.
-
-                                   [01]: Qxxxxxx
-
+    
+            [01]: Qxxxxxx
+            
     ...
-
-                                   [nn]: Qnnnnnn
+    
+            [nn]: Qnnnnnn
 
     Tarjeta(s) de red: 1 Tarjetas de interfaz de red instaladas.
 
@@ -1505,7 +1505,6 @@ Dado que la entidad emisora raíz no forma parte de un dominio, las capacidades 
   
     **Tabla 7.11: Nombres y finalidades de los grupos**
 
- 
     <p> </p>
     <table style="border:1px solid black;">
     <colgroup>
@@ -1550,7 +1549,6 @@ Dado que la entidad emisora raíz no forma parte de un dominio, las capacidades 
   
     **Tabla 7.12: Nombres y finalidades de las cuentas**
 
- 
     <p> </p>
     <table style="border:1px solid black;">
     <colgroup>
@@ -1589,7 +1587,6 @@ Dado que la entidad emisora raíz no forma parte de un dominio, las capacidades 
   
     **Tabla 7.13: Nombres de cuenta y pertenencia a grupos**
 
- 
     <p> </p>
     <table style="border:1px solid black;">
     <colgroup>
@@ -1811,7 +1808,6 @@ El procedimiento siguiente describe cómo se pueden crear unidades organizativas
   
     **Tabla 7.15: Asignación de GPO a plantillas de seguridad y UO**
 
- 
     <p> </p>
     <table style="border:1px solid black;">
     <colgroup>
@@ -1898,7 +1894,6 @@ Después de crear los GPO e importar las plantillas, debe personalizar la config
   
     **Tabla 7.16: Permisos de carpeta de base de datos de entidad emisora**
 
- 
     <p> </p>
     <table style="border:1px solid black;">
     <colgroup>
@@ -1941,7 +1936,6 @@ Después de crear los GPO e importar las plantillas, debe personalizar la config
   
     **Tabla 7.17: Auditoría de carpeta de base de datos de entidad emisora**
 
- 
     <p> </p>
     <table style="border:1px solid black;">
     <colgroup>
@@ -2295,7 +2289,6 @@ Puede comprobar que la instalación de los Servicios de Certificate Server ha si
   
     **Tabla 7.19: Propiedades y extensiones de certificado de entidad emisora raíz**
 
- 
     <p> </p>
     <table style="border:1px solid black;">
     <colgroup>
@@ -2446,7 +2439,6 @@ Para utilizar las funciones administrativas en la entidad emisora (como auditor 
   
     **Tabla 7.21: Entradas de permisos de entidad emisora de certificados que deben agregarse**
 
- 
     <p> </p>
     <table style="border:1px solid black;">
     <colgroup>
@@ -2779,7 +2771,6 @@ Puede comprobar que la instalación de los Servicios de Certificate Server ha si
   
     **Tabla 7.22: Propiedades y extensiones de certificado de CA emisora**
 
- 
     <p> </p>
     <table style="border:1px solid black;">
     <colgroup>
@@ -2923,7 +2914,6 @@ Para utilizar las funciones administrativas en la entidad emisora (como auditor 
   
     **Tabla 7.24: Entradas de permisos de entidad emisora de certificados que deben agregarse**
 
- 
     <p> </p>
     <table style="border:1px solid black;">
     <colgroup>

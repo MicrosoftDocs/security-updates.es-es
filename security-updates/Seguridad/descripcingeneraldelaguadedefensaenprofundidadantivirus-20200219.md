@@ -1889,12 +1889,12 @@ Otro comportamiento común del software malintencionado es el uso de carpetas co
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">C$</td>
-<td style="border:1px solid black;"><p>C:\</p></td>
+<td style="border:1px solid black;">C:&#92;</td>
 <td style="border:1px solid black;">Recurso compartido predeterminado</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">&lt;n&gt;$</td>
-<td style="border:1px solid black;"><p>&lt;n:&gt;\</p></td>
+<td style="border:1px solid black;">&lt;n:&gt;&#92;</td>
 <td style="border:1px solid black;">Representa un recurso compartido para la raíz de cada unidad fija del sistema.</td>
 </tr>
 <tr class="even">
@@ -1930,12 +1930,12 @@ Otro comportamiento común del software malintencionado es el uso de carpetas co
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">C$</td>
-<td style="border:1px solid black;"><p>C:\</p></td>
+<td style="border:1px solid black;">C:&#92;</td>
 <td style="border:1px solid black;">Recurso compartido predeterminado</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">&lt;n&gt;$</td>
-<td style="border:1px solid black;"><p>&lt;n:&gt;\</p></td>
+<td style="border:1px solid black;">&lt;n:&gt;&#92;</td>
 <td style="border:1px solid black;">Representa un recurso compartido para la raíz de cada unidad fija del sistema.</td>
 </tr>
 <tr class="even">
