@@ -82,7 +82,7 @@ En la siguiente tabla, se muestran las entradas que controlan el comportamiento 
   
 > [!CAUTION]
 > La edición incorrecta del Registro puede dañar gravemente el sistema. Antes de realizar cambios en el Registro, debe realizar una copia de seguridad de los datos de valor del equipo. 
+
   
-| ![](images/Cc747586.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                      |  
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Las entradas del Registro **PrincipalCacheExpireMinutes**, **GroupIDCacheExpireMinutes**, **GroupMembershipCacheExpireMinutes** y **ContactMembersofGroupCacheExpireMinutes** también controlan la caducidad de la caché en la caché local de Active Directory almacenado en la base de datos de servicios de directorio de su servidor de bases de datos. |
+> [!NOTE]
+> Las entradas del Registro **PrincipalCacheExpireMinutes**, **GroupIDCacheExpireMinutes**, **GroupMembershipCacheExpireMinutes** y **ContactMembersofGroupCacheExpireMinutes** también controlan la caducidad de la caché en la caché local de Active Directory almacenado en la base de datos de servicios de directorio de su servidor de bases de datos. 
