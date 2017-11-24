@@ -225,10 +225,12 @@ Las limitaciones de la pantalla podrían hacer que el comando anterior se muestr
 
 La herramienta FCIV calcula y comprueba los valores hash de cifrado. Esta herramienta está disponible a través del artículo de Microsoft Knowledge Base 841290.
 
+
     ```
     psexec \\hqloan164 cmd
     cd c:\documents and settings\mdanseglio\my documents
     dir /s
+    
     ```
 
 Aunque se pide a todos los usuarios que conserven los documentos en el servidor de red, Ray advierte que Mike Danseglio tiene una carpeta personal en su equipo. Esta carpeta incluye una hoja de cálculo y una subcarpeta de \\xxxpixset.
