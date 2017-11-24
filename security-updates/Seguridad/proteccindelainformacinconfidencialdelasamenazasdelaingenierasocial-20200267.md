@@ -1285,11 +1285,6 @@ Se presentó una serie de tablas para capturar las vulnerabilidades de la ingeni
 <td style="border:1px solid black;"> </td>
 <td style="border:1px solid black;"> </td>
 </tr>
-<tr class="even">
-<td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;"> </td>
-</tr>
 </tbody>
 </table>
   

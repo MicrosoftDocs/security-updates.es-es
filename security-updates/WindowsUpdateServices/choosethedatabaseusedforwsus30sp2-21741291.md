@@ -18,7 +18,7 @@ The WSUS database stores the following types of information:
 -   Information about client computers, updates, and client interaction with updates
 
  
-<p> </p>
+
 > [!IMPORTANT]
 > You should not attempt to manage WSUS by accessing data directly in the database. Manage WSUS by using the WSUS console, or programmatically by calling WSUS APIs.
  

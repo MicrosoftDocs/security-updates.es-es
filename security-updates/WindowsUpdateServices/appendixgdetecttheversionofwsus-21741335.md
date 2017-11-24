@@ -14,7 +14,12 @@ The way you detect the version of a WSUS installation has changed in WSUS 3.0 SP
 Versioning in WSUS 2.0
 ----------------------
 
-        ```
+Check for the install state of the following Windows Installer product key:
+
+```
+{A0D46DC6-8950-451A-8990-53C86E17666E}
+```
+
 In WSUS 2.0, the WSUS registry key:
 
 **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Update Services\\Server\\Setup**
@@ -28,7 +33,8 @@ has an InstallType subkey with the following possible values:
 **FullInstall = 128**
 
  
-<p> </p>
+
+
 > [!NOTE]
 > You can upgrade from WSUS 2.0 to WSUS 3.0 SP2 for installations with the <strong>Frontend</strong> and <strong>FullInstall</strong> values. For the <strong>Backend</strong> value, you would uninstall WSUS, leaving the database behind. This database will be upgraded when the front-end WSUS server that points to the database is upgraded.
  

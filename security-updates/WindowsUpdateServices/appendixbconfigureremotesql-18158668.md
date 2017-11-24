@@ -46,7 +46,9 @@ Install a SQL Server 2005 database on the back-end computer and enable remote c
 
 2.  Choose **Surface Configuration for Services and Connections**.
 
-![](images/Cc708595.942b1598-3235-48ad-af0d-362ccac97584(WS.10).gif) **Enable Remote SQL Connections**
+![](images/Cc708595.942b1598-3235-48ad-af0d-362ccac97584(WS.10).gif) 
+
+**Enable Remote SQL Connections**
 1.  In the left window, click the **Remote Connections** node.
 
 2.  Select **Local and remote connections** and then select **Using TCP/IP only**.
