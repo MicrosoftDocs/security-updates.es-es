@@ -13,13 +13,13 @@ Publicado: diciembre 10, 2004 | Actualizado: julio 21, 2006
 
 ### En esta página
 
-[](#ehaa)[Introducción](#ehaa)
-[](#egaa)[Antes de comenzar](#egaa)
-[](#efaa)[Aplicación de las revisiones de seguridad](#efaa)
-[](#eeaa)[Actualización de objetos de directiva de grupo existentes](#eeaa)
-[](#edaa)[Configuración de objetos de directiva de grupo](#edaa)
-[](#ecaa)[Acerca de la configuración de seguridad de Internet Explorer](#ecaa)
-[](#ebaa)[Aplicación de nuevas configuraciones con GPUpdate](#ebaa)
+[](#ehaa)[Introducción](#ehaa)  
+[](#egaa)[Antes de comenzar](#egaa)  
+[](#efaa)[Aplicación de las revisiones de seguridad](#efaa)  
+[](#eeaa)[Actualización de objetos de directiva de grupo existentes](#eeaa)  
+[](#edaa)[Configuración de objetos de directiva de grupo](#edaa)  
+[](#ecaa)[Acerca de la configuración de seguridad de Internet Explorer](#ecaa)  
+[](#ebaa)[Aplicación de nuevas configuraciones con GPUpdate](#ebaa)  
 [](#eaaa)[Información relacionada](#eaaa)
 
 ### Introducción
