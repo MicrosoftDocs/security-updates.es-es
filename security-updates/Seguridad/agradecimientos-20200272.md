@@ -17,12 +17,12 @@ El grupo Microsoft Solutions for Security and Compliance (MSSC) desea agradecer 
 
 ##### En esta página
 
-[](#egaa)[Autores](#egaa)
-[](#efaa)[Director del programa](#efaa)
-[](#eeaa)[Administrador de versiones](#eeaa)
-[](#edaa)[Evaluadores](#edaa)
-[](#ecaa)[Editores](#ecaa)
-[](#ebaa)[Revisores](#ebaa)
+[](#egaa)[Autores](#egaa)  
+[](#efaa)[Director del programa](#efaa)  
+[](#eeaa)[Administrador de versiones](#eeaa)  
+[](#edaa)[Evaluadores](#edaa)  
+[](#ecaa)[Editores](#ecaa)  
+[](#ebaa)[Revisores](#ebaa)  
 [](#eaaa)[Colaboradores](#eaaa)
 
 ### Autores
@@ -111,8 +111,7 @@ Mark Kradel
 
 Joe Porter
 
-Tom Shinder *(MVP de seguridad e ISA,*
-*  consultor de TI TACTeam)*
+Tom Shinder *(MVP de seguridad e ISA, consultor de TI TACTeam)*
 
 Ben Smith
 
@@ -168,8 +167,7 @@ Rob Oikawa
 
 Bill Reid
 
-Stacey Tsurusaki *(Volt Information*
-*  Sciences)*
+Stacey Tsurusaki *(Volt Information Sciences)*
 
 David Visintainer *(Volt Information Sciences)*
 
