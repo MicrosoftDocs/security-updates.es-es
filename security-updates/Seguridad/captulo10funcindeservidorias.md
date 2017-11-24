@@ -15,18 +15,18 @@ Actualizado: 27/12/05
 
 ##### En esta página
 
-[](#ehaa)[Información general](#ehaa)
-[](#egaa)[Directiva de auditoría](#egaa)
-[](#efaa)[Asignaciones de derechos de usuario](#efaa)
-[](#eeaa)[Opciones de seguridad](#eeaa)
-[](#edaa)[Registro de eventos](#edaa)
-[](#ecaa)[Configuración de seguridad adicional](#ecaa)
-[](#ebaa)[Creación de la directiva utilizando SCW](#ebaa)
+[](#ehaa)[Información general](#ehaa)  
+[](#egaa)[Directiva de auditoría](#egaa)  
+[](#efaa)[Asignaciones de derechos de usuario](#efaa)  
+[](#eeaa)[Opciones de seguridad](#eeaa)  
+[](#edaa)[Registro de eventos](#edaa)  
+[](#ecaa)[Configuración de seguridad adicional](#ecaa)  
+[](#ebaa)[Creación de la directiva utilizando SCW](#ebaa)  
 [](#eaaa)[Resumen](#eaaa)
 
 ### Información general
 
-Este capítulo proporciona recomendaciones y recursos que le ayudarán a consolidar los servidores del Servicio de autenticación de Internet (IAS) de su entorno en los que se ejecuta Microsoft* *Windows* *Servidor* *2003 con SP1. IAS es la implementación de Microsoft de un servidor RADIUS (Servicio de usuario de acceso telefónico de autenticación remota) y proxy que permite la administración centralizada de las operaciones de autenticación y autorización, así como de las cuentas de los usuarios. IAS se puede utilizar para autenticar a los usuarios en bases de datos de Windows* *Server* *2003, Windows* *NT®* *4.0 o controladores de dominio de Windows* *2000. IAS también admite una variedad de servidores de acceso a red (NAS), incluidos los servidores de enrutamiento y acceso remoto (RRAS).
+Este capítulo proporciona recomendaciones y recursos que le ayudarán a consolidar los servidores del Servicio de autenticación de Internet (IAS) de su entorno en los que se ejecuta Microsoft Windows Servidor 2003 con SP1. IAS es la implementación de Microsoft de un servidor RADIUS (Servicio de usuario de acceso telefónico de autenticación remota) y proxy que permite la administración centralizada de las operaciones de autenticación y autorización, así como de las cuentas de los usuarios. IAS se puede utilizar para autenticar a los usuarios en bases de datos de Windows Server 2003, Windows NT® 4.0 o controladores de dominio de Windows 2000. IAS también admite una variedad de servidores de acceso a red (NAS), incluidos los servidores de enrutamiento y acceso remoto (RRAS).
 
 El mecanismo de ocultación de RADIUS emplea el secreto compartido de RADIUS, el autenticador de solicitudes y el algoritmo de hash MD5 para cifrar User-Password y otros atributos como Tunnel-Password y MS-CHAP-MPPE-Keys. RFC 2865 determina la necesidad potencial de evaluar el entorno y determinar si es preciso establecer mecanismos de seguridad adicionales.
 
@@ -36,7 +36,7 @@ Siempre que sea posible, esta configuración se reunirá en una plantilla increm
 
 El nombre de la plantilla de seguridad de servidores de infraestructura para el entorno de cliente de empresa es EC-Infrastructure Server.inf. Esta plantilla proporciona la configuración para la plantilla incremental de servidor de IAS que, a su vez, se utiliza para crear un nuevo GPO que se vincula a la unidad organizativa de servidores de IAS. Se proporcionan instrucciones detalladas en el capítulo 2, "Mecanismos de seguridad de Windows Server 2003", para ayudarle a crear las UO y Directivas de grupo, e importar la plantilla de seguridad apropiada en cada GPO.
 
-Para obtener más información acerca de la configuración en MSBP, consulte el capítulo 4, “Directiva de línea de base de servidores miembro”. Si desea más información acerca de todas las configuraciones predeterminadas, consulte la guía complementaria, [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159)*, *que está disponible en* *http://go.microsoft.com/fwlink/?LinkId=15159.
+Para obtener más información acerca de la configuración en MSBP, consulte el capítulo 4, “Directiva de línea de base de servidores miembro”. Si desea más información acerca de todas las configuraciones predeterminadas, consulte la guía complementaria, [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159), que está disponible en http://go.microsoft.com/fwlink/?LinkId=15159.
 
 **Nota**: las configuraciones recomendadas para la función de servidor IAS se han probado exclusivamente en el entorno de cliente de empresa. Por ese motivo, no se incluye la información acerca de los ataques DoS especificada para la mayoría de las funciones restantes de servidor definidas en la guía.
 
@@ -72,7 +72,7 @@ Aunque la configuración de seguridad que se aplica a través de MSBP aumenta co
 
 #### Seguridad de las cuentas conocidas
 
-Windows* *Server* *2003 con SP1 dispone de una serie de cuentas de usuario integradas que no se pueden eliminar, pero a las que sí se les puede cambiar el nombre. Dos de las cuentas integradas más conocidas en Windows Server 2003 son *Invitado* y *Administrador*.
+Windows Server 2003 con SP1 dispone de una serie de cuentas de usuario integradas que no se pueden eliminar, pero a las que sí se les puede cambiar el nombre. Dos de las cuentas integradas más conocidas en Windows Server 2003 son *Invitado* y *Administrador*.
 
 De forma predeterminada, se deshabilita la cuenta Invitado en los servidores miembro y controladores de dominio. Esta configuración no se debe modificar. Muchas variaciones de código malintencionado utilizan esta cuenta integrada Administrador como primer intento de acceso al servidor. Por tanto, la protección idónea contra atacantes que intentan utilizar esta cuenta tan conocida es cambiar el nombre de la cuenta de Administrador incorporada y alterar su descripción.
 
@@ -151,7 +151,7 @@ La directiva se prueba para asegurar que la aplicación de esta directiva a los 
 Cuando esté satisfecho con la configuración de la directiva, puede utilizar Scwcmd como se muestra en el procedimiento siguiente para convertir las directivas a GPO.
 
 Para obtener más información acerca de cómo probar las directivas del SCW, consulte la [Guía de implementación para el Asistente para la configuración de seguridad](http://technet.microsoft.com/es-es/library/cc776871.aspx) en www.microsoft.com/technet/prodtechnol/windowsserver2003/
-library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx* *y la [documentación del Asistente para la configuración de seguridad](http://go.microsoft.com/fwlink/?linkid=43450) en http://go.microsoft.com/fwlink/?linkid=43450.
+library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx y la [documentación del Asistente para la configuración de seguridad](http://go.microsoft.com/fwlink/?linkid=43450) en http://go.microsoft.com/fwlink/?linkid=43450.
 
 #### Conversión e implementación de la directiva
 
@@ -159,12 +159,18 @@ Después de probar completamente la directiva, complete los pasos siguientes par
 
 1.  En el símbolo de sistema, escriba el siguiente comando:
 
+    ```
+        scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>
+    ```
     
-        ```
     y, a continuación, pulse Entrar. Por ejemplo:
 
     
-        ```
+    ```
+        scwcmd transform /p:"C:\Windows\Security\msscw\Policies\IAS 
+        Server.xml" /g:"IAS Policy"
+    ```
+
     **Nota**: la información que se introducirá en el símbolo del sistema se muestra aquí en más de una línea a causa de las limitaciones de pantalla. Esta información debe introducirse en una línea.
 
 2.  Utilice la Consola de administración de directivas de grupo para vincular los nuevos GPO creados a la UO apropiada.
@@ -177,7 +183,7 @@ Deberá realizar una última prueba para asegurarse de que el GPO aplica la conf
 
 ### Resumen
 
-En este capítulo se han explicado los parámetros de configuración que se pueden utilizar para consolidar los servidores IAS en los que se ejecuta Windows* *Server* *2003 con SP1 en el entorno de cliente de empresa que se define en esta guía. Estos parámetros también deben funcionar correctamente con los otros dos entornos definidos en esta guía, aunque no se han probado ni validado. Los parámetros se han configurado y aplicado a través de un objeto de directiva de grupo (GPO) que se diseñó como complemento de MSBP. Los objetos GPO pueden vincularse a las unidades organizativas (UO) apropiadas que contengan los servidores IAS de la organización para proporcionar un nivel de seguridad adicional.
+En este capítulo se han explicado los parámetros de configuración que se pueden utilizar para consolidar los servidores IAS en los que se ejecuta Windows Server 2003 con SP1 en el entorno de cliente de empresa que se define en esta guía. Estos parámetros también deben funcionar correctamente con los otros dos entornos definidos en esta guía, aunque no se han probado ni validado. Los parámetros se han configurado y aplicado a través de un objeto de directiva de grupo (GPO) que se diseñó como complemento de MSBP. Los objetos GPO pueden vincularse a las unidades organizativas (UO) apropiadas que contengan los servidores IAS de la organización para proporcionar un nivel de seguridad adicional.
 
 #### Información adicional
 
