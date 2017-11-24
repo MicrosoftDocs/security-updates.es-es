@@ -19,12 +19,12 @@ Debe estar ya familiarizado con las secciones anteriores de la *Guía de segurid
 
 ##### En esta página
 
-[](#efaa)[Información general de Windows XP SP2](#efaa)
-[](#eeaa)[Cambios en la configuración de seguridad](#eeaa)
-[](#edaa)[Cambios en Plantillas administrativas](#edaa)
-[](#ecaa)[Parámetros de Configuración del equipo](#ecaa)
-[](#ebaa)[Parámetros de Configuración de usuario](#ebaa)
-[](#eaaa)[Resumen](#eaaa)
+[](#efaa)[Información general de Windows XP SP2](#efaa)  
+[](#eeaa)[Cambios en la configuración de seguridad](#eeaa)  
+[](#edaa)[Cambios en Plantillas administrativas](#edaa)  
+[](#ecaa)[Parámetros de Configuración del equipo](#ecaa)  
+[](#ebaa)[Parámetros de Configuración de usuario](#ebaa)  
+[](#eaaa)[Resumen](#eaaa)  
 
 ### Información general de Windows XP SP2
 
