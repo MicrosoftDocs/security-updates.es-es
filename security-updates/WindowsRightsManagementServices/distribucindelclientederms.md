@@ -26,9 +26,14 @@ Windows Update proporciona la forma más sencilla de instalar un cliente de RMS 
 
 **Uso de la instalación mediante secuencia de comandos**
 
-Para tener un nivel superior de control sobre el proceso de instalación de cliente, puede adquirir el software y, a continuación, validar su integridad a cada paso del proceso de instalación mediante la ejecución de una secuencia de comandos. Esta secuencia de comandos se puede escribir y agregar a un objeto de directiva de grupo (GPO) como secuencia de comandos de inicio. Con este método, el usuario no tiene que ser administrador local en el equipo y el cliente RMS se instala automáticamente tras reiniciar.
+Para tener un nivel superior de control sobre el proceso de instalación de cliente, puede adquirir el software y, a continuación, validar su integridad a cada paso del proceso de instalación mediante la ejecución de una secuencia de comandos. Esta secuencia de comandos se puede escribir y agregar a un objeto de directiva de grupo (GPO) como secuencia de comandos de inicio. Con este método, el usuario no tiene que ser administrador local en el equipo y el cliente RMS se instala automáticamente tras reiniciar.  
+A continuación se muestra una secuencia de comandos de muestra:
 
-        ```
+```
+Set objShell = Wscript.CreateObject("Wscript.Shell")
+objShell.run "WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe -override 1 /I MsDrmClient.msi REBOOT=ReallySuppress /q -override 2 /I RmClientBackCompat.msi REBOOT=ReallySuppress /q"
+```
+
 Para obtener información básica sobre la distribución del cliente RMS utilizando la directiva de grupo, vea [Configuración de SMS o de una directiva de grupo para admitir la implementación de clientes](https://technet.microsoft.com/9e37c27b-8cc1-40c6-adb7-0937aa64c8db), más adelante en este tema.
 
 Para obtener información sobre el proceso de implementación del cliente RMS, vea [Cómo implementar el cliente de RMS](https://technet.microsoft.com/c84f1724-cf71-4385-9003-ff68bc23c927), más adelante en este tema.

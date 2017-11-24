@@ -11,10 +11,10 @@ Step 2: Install WSUS
 
 After reviewing the installation requirements, you are ready to install WSUS. You must log on to the server you plan to install WSUS on by using an account that is a member of the local Administrators group. Only members of the local Administrators group can install WSUS.
 
-The following procedure uses the default WSUS installation options for Windows SBS 2003 with SP1. These options include using Windows SQL Server 2000 Desktop Engine (WMSDE) as the WSUS database software, storing updates locally, and using the Internet Information Services (IIS) custom Web site on port 8530. You can find procedures for custom installation options, such as using different database software, in “Deploying Microsoft Windows Server Update Services” at the [Microsoft Web site](http://go.microsoft.com/fwlink/?linkid=41171) (http://go.microsoft.com/fwlink/?linkid=41171).
+The following procedure uses the default WSUS installation options for Windows SBS 2003 with SP1. These options include using Windows SQL Server 2000 Desktop Engine (WMSDE) as the WSUS database software, storing updates locally, and using the Internet Information Services (IIS) custom Web site on port 8530. You can find procedures for custom installation options, such as using different database software, in “Deploying Microsoft Windows Server Update Services” at the [Microsoft Web site](http://go.microsoft.com/fwlink/?linkid=41171) (http://go.microsoft.com/fwlink/?linkid=41171).
 
 > [!IMPORTANT]
-> If you plan to install WSUS on a server that has Windows Update Services Beta 1 or Beta 2 installed, you first need to uninstall the earlier version by using Add or Remove Programs in Control Panel. 
+> If you plan to install WSUS on a server that has Windows Update Services Beta 1 or Beta 2 installed, you first need to uninstall the earlier version by using Add or Remove Programs in Control Panel. 
 
 **To download the WSUS installer to your server**
 1.  On the computer running Windows SBS, create a folder named WSUSFiles on the local hard disk.
@@ -36,16 +36,18 @@ The following procedure uses the default WSUS installation options for Windows S
 2.  Type the following command, where C: is the letter of your local hard disk, and then press ENTER:
 
     
-        ```
+        `CD C:\WSUSFiles\wmsde`
+
 3.  Type the following command with consideration to the points listed below, and then press ENTER:
 
     
-        ```
+        `Sqlrun03.msi InstanceName=WSUS BlankSAPwd=1 Reboot=ReallySuppress DisableNetworkProtocols=1 DisableAgentStartup=1 DisableThrottle=1`
+        
     -   If you want to specify the drive letter where the database instance will be located, you must add the DataDir="*Path*" argument to the command line, where *Path* is the path to the target directory in the file system.
     -   The command line implies that your WSUS database will have a blank password. However, during the actual installation of WSUS, a randomly generated password is set. You do not need to specify a password.
     -   The command line is not case sensitive.
 
-4.  Start the MSSQL$WSUS service. To do this, click **Start**, click **Run**, and then type **Services.msc**. Right-click **MSSQL$WSUS**, and then click **Start**. If the service is not listed, rerun the command in Step 3 of this procedure.
+4.  Start the MSSQL$WSUS service. To do this, click **Start**, click **Run**, and then type **Services.msc**. Right-click **MSSQL$WSUS**, and then click **Start**. If the service is not listed, rerun the command in Step 3 of this procedure.
 
 **To install WSUS**
 1.  Click **Start**, click **Run**, and then type **C:\\WSUSFiles\\WSUSSetup.exe**, where C: is the letter of your local hard disk.
