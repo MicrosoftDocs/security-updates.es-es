@@ -138,7 +138,7 @@ This command sets and gets the different parameters for WSUS health monitoring.
   
 #### Syntax
   
-**Wsusutil healthmonitoring ***parameterName*
+**Wsusutil healthmonitoring** *parameterName*
   
 | ![](images/Cc708604.note(WS.10).gif)Nota |  
 |-----------------------------------------------------------------------|  
@@ -487,7 +487,7 @@ If the drive where WSUS stores update files is full, you can do one of the follo
 If the hard disk fails, you must do the following:
   
 1.  Install the new disk on your computer, and then restore the update files from your backup files. Note: If you have not backed up your update files, WSUSutil.exe downloads the missing files at the end of the content move operation.  
-2.  Run **wsusutil movecontent ***newLocation*, specifying the location for the new disk. In addition, you specify the -**skipcopy** parameter, because you are either putting the files in the new folder through the backup utility or the source folder does not exist; the update files will be downloaded at the end of this process.  
+2.  Run **wsusutil movecontent** *newLocation*, specifying the location for the new disk. In addition, you specify the -**skipcopy** parameter, because you are either putting the files in the new folder through the backup utility or the source folder does not exist; the update files will be downloaded at the end of this process.  
 3.  When the move operation is complete, all the missing files are downloaded.
   
 #### Syntax
