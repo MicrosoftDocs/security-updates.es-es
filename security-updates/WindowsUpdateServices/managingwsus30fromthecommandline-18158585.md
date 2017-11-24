@@ -103,7 +103,7 @@ The following command updates the host headers, if any:
   
 The following command updates the server certificateName:
   
-**wsusutil configuressl ***ServerCertificateName***//sets the server certificate name**
+**wsusutil configuressl** *ServerCertificateName* **//sets the server certificate name**
   
 ###  
 
@@ -175,7 +175,7 @@ Sets the amount of available disk space (in megabytes) at which a low disk space
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CatalogSyncIntervalInDays*** \[Days\]*
+**CatalogSyncIntervalInDays *** \[Days\]*
 </td>
 <td style="border:1px solid black;" colspan="2">
 Sets the number of days that should have passed after synchronization before a warning event should be logged..
