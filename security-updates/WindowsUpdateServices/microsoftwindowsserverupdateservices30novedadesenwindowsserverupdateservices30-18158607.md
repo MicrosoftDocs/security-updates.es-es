@@ -17,11 +17,11 @@ Windows Server Update Services (WSUS) 3.0 ofrece varias características nuevas 
 
 ##### En esta página
 
-[](#eeaa)[Facilidad de uso](#eeaa)
-[](#edaa)[Opciones de implementación mejoradas](#edaa)
-[](#ecaa)[Mayor compatibilidad con las jerarquías de servidores complejas](#ecaa)
-[](#ebaa)[Mayor optimización del rendimiento y el ancho de banda](#ebaa)
-[](#eaaa)[Ampliación de WSUS 3.0 con las API mejoradas](#eaaa)
+[](#eeaa)[Facilidad de uso](#eeaa)  
+[](#edaa)[Opciones de implementación mejoradas](#edaa)  
+[](#ecaa)[Mayor compatibilidad con las jerarquías de servidores complejas](#ecaa)  
+[](#ebaa)[Mayor optimización del rendimiento y el ancho de banda](#ebaa)  
+[](#eaaa)[Ampliación de WSUS 3.0 con las API mejoradas](#eaaa)  
 
 ### Facilidad de uso
 
