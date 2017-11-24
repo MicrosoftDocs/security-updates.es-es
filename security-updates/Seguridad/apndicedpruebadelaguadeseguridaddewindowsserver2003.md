@@ -13,20 +13,20 @@ Guía de Seguridad de Windows Server 2003
 
 ##### En esta página
 
-[](#edaa)[Información general](#edaa)
-[](#ecaa)[Entorno de prueba](#ecaa)
-[](#ebaa)[Prueba de la metodología](#ebaa)
+[](#edaa)[Información general](#edaa)  
+[](#ecaa)[Entorno de prueba](#ecaa)  
+[](#ebaa)[Prueba de la metodología](#ebaa)  
 [](#eaaa)[Resumen](#eaaa)
 
 ### Información general
 
-El objetivo de la *Guía de seguridad de Windows Server 2003* es proporcionar orientación sobre una configuración que se ha probado y usado varias veces para garantizar la seguridad de los equipos que ejecutan Microsoft® Windows* *Server™* *2003 con Service Pack 1 (SP1) en una variedad de entornos.
+El objetivo de la *Guía de seguridad de Windows Server 2003* es proporcionar orientación sobre una configuración que se ha probado y usado varias veces para garantizar la seguridad de los equipos que ejecutan Microsoft® Windows Server™ 2003 con Service Pack 1 (SP1) en una variedad de entornos.
 
 La *Guía de seguridad de Windows Server 2003* se probó en un entorno de laboratorio para garantizar la respuesta esperada. El equipo de pruebas de la *Guía de seguridad de Windows Server 2003* comprobó la coherencia de la documentación y todos los procedimientos recomendados en ella. Se realizaron pruebas para comprobar la funcionalidad, así como para ayudar a reducir la cantidad de recursos que necesitan los usuarios que utilizan la guía para crear y probar sus propias implementaciones.
 
 #### Ámbito
 
-La *Guía de seguridad de Windows Server 2003* se probó en un laboratorio en el que se simularon tres entornos de seguridad distintos: Cliente heredado (LC), Cliente de empresa (EC) y Seguridad especializada: Funcionalidad limitada (SSLF). Estos entornos se describen en el capítulo 1, "Introducción a la Guía de seguridad de Windows* *Server* *2003". Las pruebas se realizaron en función de los criterios descritos en la sección siguiente, "Objetivos de la prueba".
+La *Guía de seguridad de Windows Server 2003* se probó en un laboratorio en el que se simularon tres entornos de seguridad distintos: Cliente heredado (LC), Cliente de empresa (EC) y Seguridad especializada: Funcionalidad limitada (SSLF). Estos entornos se describen en el capítulo 1, "Introducción a la Guía de seguridad de Windows Server 2003". Las pruebas se realizaron en función de los criterios descritos en la sección siguiente, "Objetivos de la prueba".
 
 No formaba parte de las competencias del equipo de pruebas realizar una evaluación de la vulnerabilidad del entorno del laboratorio de pruebas utilizado para garantizar la seguridad de la solución *Guía de seguridad de Windows Server 2003.*
 
@@ -58,7 +58,7 @@ Por último, la orientación se debe poder usar de forma repetida y fiable por u
 
 Las redes del laboratorio de pruebas desarrolladas para probar esta guía fueron similares a las utilizadas en la versión anterior de la guía. Se desarrollaron tres redes diferentes que no obstante eran similares, una para cada uno de los entornos definidos.
 
-Cada red de prueba estaba formada por un bosque de servicio de directorio de Windows* *Server* *2003 con SP1, los equipos para las funciones de servidor de infraestructura que proporcionaban los servicios de controlador de dominio, DNS, WINS y DHCP, y otros equipos para las funciones de servidor de aplicación que proporcionaban los servicios de archivos, impresión y web. La red de EC también incluía equipos para las funciones de Servicios de Certificate Server y servidor IAS; además, en la red de SSLF, se incluyó la función de servidor de host de baluarte (BH). Asimismo, las redes de EC y SSLF incluían Microsoft Operations Manager (MOM) 2005 y Systems Management Server (SMS) 2003 para administrar y supervisar los servidores miembro del dominio y los equipos cliente. Estas redes también incluían Microsoft Exchange* *Server 2003 para el servicio de correo electrónico.
+Cada red de prueba estaba formada por un bosque de servicio de directorio de Windows Server 2003 con SP1, los equipos para las funciones de servidor de infraestructura que proporcionaban los servicios de controlador de dominio, DNS, WINS y DHCP, y otros equipos para las funciones de servidor de aplicación que proporcionaban los servicios de archivos, impresión y web. La red de EC también incluía equipos para las funciones de Servicios de Certificate Server y servidor IAS; además, en la red de SSLF, se incluyó la función de servidor de host de baluarte (BH). Asimismo, las redes de EC y SSLF incluían Microsoft Operations Manager (MOM) 2005 y Systems Management Server (SMS) 2003 para administrar y supervisar los servidores miembro del dominio y los equipos cliente. Estas redes también incluían Microsoft Exchange Server 2003 para el servicio de correo electrónico.
 
 Los equipos cliente de las distintas redes ejecutaban Windows XP Professional con SP2 y Windows 2000 Professional con SP4. La red de LC también incluía equipos cliente que ejecutaban los sistemas operativos Windows 98 SR2 y Windows NT® 4.0 con SP6a.
 
@@ -148,7 +148,7 @@ Esta fase es a menudo la primera fase de creación de seguridad. Durante esta fa
 
 ###### Fase de configuración de la directiva de grupo
 
-El propósito de esta fase es crear y aplicar los objetos de directiva de grupo (GPO) a los niveles de dominio y unidad organizativa (UO). Los GPO se aplican a las distintas UO según las recomendaciones que se incluyen en el capítulo 2, "Mecanismos de seguridad de Windows* *Server* *2003".
+El propósito de esta fase es crear y aplicar los objetos de directiva de grupo (GPO) a los niveles de dominio y unidad organizativa (UO). Los GPO se aplican a las distintas UO según las recomendaciones que se incluyen en el capítulo 2, "Mecanismos de seguridad de Windows Server 2003".
 
 El Service Pack 1 de Windows Server 2003 incluye algunas herramientas y características nuevas que suponen un cambio en el diseño de la implementación de la directiva de grupo con respecto a la versión anterior.
 
@@ -164,11 +164,11 @@ Se repitieron los pasos siguientes para cada uno de los tres entornos de segurid
 
 1.  Asegúrese de que todas las aplicaciones, servicios y agentes necesarios están instalados en cada uno de los miembros del dominio de la red de línea de base. Por ejemplo, compruebe que el agente MOM está instalado en todos los servidores miembro del dominio que administrará MOM.
 
-2.  Utilice el complemento MMC Usuarios y equipos de Active* *Directory para crear la estructura de UO descrita.
+2.  Utilice el complemento MMC Usuarios y equipos de Active Directory para crear la estructura de UO descrita.
 
 3.  Cree el GPO de directiva de dominio con la plantilla de seguridad .inf. Para este paso no es necesario utilizar SCW.
 
-4.  Utilice la herramienta SCW para crear plantillas de seguridad basadas en XML para cada función de servidor descrita en la guía. Los pasos preceptivos se describen en el capítulo 2, "Mecanismos de seguridad de Windows* *Server* *2003", y en los capítulos de cada función de servidor. Cuando realice este paso, incluya la plantilla de seguridad .inf apropiada para la función del servidor. Los archivos de plantilla se incluyen con la versión descargable de esta guía.
+4.  Utilice la herramienta SCW para crear plantillas de seguridad basadas en XML para cada función de servidor descrita en la guía. Los pasos preceptivos se describen en el capítulo 2, "Mecanismos de seguridad de Windows Server 2003", y en los capítulos de cada función de servidor. Cuando realice este paso, incluya la plantilla de seguridad .inf apropiada para la función del servidor. Los archivos de plantilla se incluyen con la versión descargable de esta guía.
 
 5.  Utilice la herramienta de línea de comandos Scwcmd para convertir las plantillas de seguridad XML creadas en el paso anterior en objetos GPO.
 
@@ -188,13 +188,13 @@ Se realizaron los pasos siguientes para llevar a cabo el resto de la fase de cre
 
     **Nota**: si los vínculos de GPO predeterminados ya existen o hay varios GPO, puede que tenga que elevar los vínculos de GPO en la lista de prioridades.
 
-2.  Utilice la herramienta Consola de administración de directivas de grupo para vincular el GPO Directiva de línea de base de servidores miembro a la UO Servidores miembro. (También puede realizar este paso con el complemento MMC Usuarios y equipos de Active* *Directory.)
+2.  Utilice la herramienta Consola de administración de directivas de grupo para vincular el GPO Directiva de línea de base de servidores miembro a la UO Servidores miembro. (También puede realizar este paso con el complemento MMC Usuarios y equipos de Active Directory.)
 
 3.  Vincule cada GPO de función de servidor individual a la UO de función de servidor apropiada.
 
 4.  Vincule el GPO Directiva de controlador de dominio a la UO Controlador de dominio.
 
-5.  Para asegurarse de que se aplica la configuración de directiva de grupo más reciente, ejecute **gpudpate /force** en una ventana del símbolo del sistema en todos los controladores de dominio. A continuación, reinicie todos los controladores de dominio, uno por uno, empezando por el controlador de dominio principal. Deje transcurrir un tiempo suficiente para que Active* *Directory replique los cambios entre los sitios.
+5.  Para asegurarse de que se aplica la configuración de directiva de grupo más reciente, ejecute **gpudpate /force** en una ventana del símbolo del sistema en todos los controladores de dominio. A continuación, reinicie todos los controladores de dominio, uno por uno, empezando por el controlador de dominio principal. Deje transcurrir un tiempo suficiente para que Active Directory replique los cambios entre los sitios.
 
     **Importante**: es muy importante reiniciar los controladores de dominio después de aplicar el GPO Directiva de controladores de dominio. Si no realiza este paso, tal vez vea errores en la carpeta del servicio de directorio o errores Userenv en la carpeta Aplicación del Visor de eventos.
 
@@ -242,7 +242,7 @@ Estas pruebas se ejecutaron varias veces. Y, lo que es más importante, se ejecu
 
 ##### Pruebas en el lado cliente
 
-Estos casos de prueba se ejecutaron en los equipos cliente de la red. El propósito principal de estas pruebas era garantizar que los servicios del dominio (como autenticación, derechos de acceso, resolución de nombres, etc.) y los servicios basados en aplicación (como de archivos, impresión y web) estaban disponibles en los equipos cliente después de reforzar la seguridad de los servidores de la red. Para el entorno LC, estas pruebas garantizaron que los equipos cliente que ejecutaban el SP6a de Windows* *NT* *4.0 y Windows* *98 podían autenticarse con el dominio de Active* *Directory de Windows* *Server* *2003.
+Estos casos de prueba se ejecutaron en los equipos cliente de la red. El propósito principal de estas pruebas era garantizar que los servicios del dominio (como autenticación, derechos de acceso, resolución de nombres, etc.) y los servicios basados en aplicación (como de archivos, impresión y web) estaban disponibles en los equipos cliente después de reforzar la seguridad de los servidores de la red. Para el entorno LC, estas pruebas garantizaron que los equipos cliente que ejecutaban el SP6a de Windows NT 4.0 y Windows 98 podían autenticarse con el dominio de Active Directory de Windows Server 2003.
 
 ##### Pruebas sobre la documentación
 
@@ -254,7 +254,7 @@ Algunos de los escenarios de prueba de los clientes se basaron en secuencias de 
 
 ##### Pruebas en el servidor
 
-Estos casos de prueba se realizaron para comprobar la funcionalidad y la repercusión de los procedimientos de compilación de los servidores con el SP1 de Windows* *Server* *2003 que se protegieron según las recomendaciones de esta guía. Se probaron todas las funciones de servidor descritas en esta guía. También se probaron funciones de servidor adicionales incluidas en la red de prueba, como Exchange, MOM y SMS.
+Estos casos de prueba se realizaron para comprobar la funcionalidad y la repercusión de los procedimientos de compilación de los servidores con el SP1 de Windows Server 2003 que se protegieron según las recomendaciones de esta guía. Se probaron todas las funciones de servidor descritas en esta guía. También se probaron funciones de servidor adicionales incluidas en la red de prueba, como Exchange, MOM y SMS.
 
 #### Criterios de corrección y error
 

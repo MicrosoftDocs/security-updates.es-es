@@ -13,9 +13,9 @@ Publicado: 10/11/2004 12:00:00 a.m. | Actualizado: 24/11/2004 12:00:00 a.m.
 
 ##### En esta página
 
-[](#edaa)[Introducción](#edaa)
-[](#ecaa)[Microsoft Solution Framework](#ecaa)
-[](#ebaa)[Microsoft Operations Framework](#ebaa)
+[](#edaa)[Introducción](#edaa)  
+[](#ecaa)[Microsoft Solution Framework](#ecaa)  
+[](#ebaa)[Microsoft Operations Framework](#ebaa)  
 [](#eaaa)[Resumen](#eaaa)
 
 ### Introducción

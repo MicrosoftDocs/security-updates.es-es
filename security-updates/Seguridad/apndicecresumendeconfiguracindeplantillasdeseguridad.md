@@ -13,7 +13,7 @@ Guía de Seguridad de Windows Server 2003
 
 Actualizado: 27/12/05
 
-El libro de Microsoft® Excel® "Windows* *Server* *2003 Security Guide Settings.xls" (incluido con esta guía) documenta la configuración de directivas y servicios para todas las funciones y los entornos que contiene esta guía. Este libro contiene diez hojas de trabajo, una para cada función descrita en la guía:
+El libro de Microsoft® Excel® "Windows Server 2003 Security Guide Settings.xls" (incluido con esta guía) documenta la configuración de directivas y servicios para todas las funciones y los entornos que contiene esta guía. Este libro contiene diez hojas de trabajo, una para cada función descrita en la guía:
 
 -   La hoja de trabajo **Domain** (dominio) contiene la configuración de directiva de grupo que configura los objetos de directiva de nivel de dominio, tal y como se describe en el capítulo 3, "Directiva de dominio".
 
@@ -37,7 +37,7 @@ El libro de Microsoft® Excel® "Windows* *Server* *2003 Security Guide Settin
 
 Cada hoja de cálculo contiene las columnas siguientes:
 
--   La columna H, **Policy Setting Name in User Interface** (nombre de configuración de directiva en interfaz de usuario), corresponde al nombre de la configuración que aparece en el complemento Editor de directivas de grupo de Windows* *Server* *2003.
+-   La columna H, **Policy Setting Name in User Interface** (nombre de configuración de directiva en interfaz de usuario), corresponde al nombre de la configuración que aparece en el complemento Editor de directivas de grupo de Windows Server 2003.
 
 -   La columna J, **Legacy Client** (cliente heredado), es el valor recomendado para la configuración del entorno Cliente heredado (LC).
 
