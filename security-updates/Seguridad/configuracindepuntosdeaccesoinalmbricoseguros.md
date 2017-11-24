@@ -11,10 +11,10 @@ Configuración de puntos de acceso inalámbrico seguros
 
 ##### En esta página
 
-[](#eeaa)[Introducción](#eeaa)
-[](#edaa)[Definiciones](#edaa)
-[](#ecaa)[Retos](#ecaa)
-[](#ebaa)[Soluciones](#ebaa)
+[](#eeaa)[Introducción](#eeaa)  
+[](#edaa)[Definiciones](#edaa)  
+[](#ecaa)[Retos](#ecaa)  
+[](#ebaa)[Soluciones](#ebaa)  
 [](#eaaa)[Resumen](#eaaa)
 
 ### Introducción
@@ -1071,23 +1071,28 @@ IIS se puede instalar con el administrador de componentes opcionales de Windows,
   
 1.  Ejecute lo siguiente en un símbolo del sistema:
   
-    ```  
- Sysocmgr /i:sysoc.inf /u:C:\\MSSScripts\\OC\_AddIIS.txt   
-```
+    ```
+	Sysocmgr /i:sysoc.inf /u:C:\MSSScripts\OC_AddIIS.txt
+	```
   
     Este comando indica al administrador de componentes opcionales que debe utilizar las configuraciones de componentes especificadas en el archivo de instalación desatendida C:\\MSSScripts\\OC\_AddIIS.txt, tal como se muestra a continuación:
   
-    ```  
- \[Components\] complusnetwork = On iis\_common = On iis\_asp = On iis\_inetmgr = On iis\_www = On   
-```
+    ```
+	[Components]
+	complusnetwork = On
+	iis_common = On
+	iis_asp = On
+	iis_inetmgr = On
+	iis_www = On
+	```
   
-    **Nota**    Las páginas Active Server (ASP) están habilitadas en este archivo de configuración; sin embargo, si no se necesitan las páginas web de inscripción de Servicios de Certificate Server, ASP se debe deshabilitar. Para ello, elimine la línea **iis\_asp = on** antes de ejecutar sysocmgr.exe. Este parámetro se puede habilitar posteriormente si es necesario.
+    **Nota** Las páginas Active Server (ASP) están habilitadas en este archivo de configuración; sin embargo, si no se necesitan las páginas web de inscripción de Servicios de Certificate Server, ASP se debe deshabilitar. Para ello, elimine la línea **iis\_asp = on** antes de ejecutar sysocmgr.exe. Este parámetro se puede habilitar posteriormente si es necesario.
   
 2.  Ejecute de nuevo el administrador de componentes opcionales como se indica a continuación y compruebe que los componentes instalados coinciden con los enumerados anteriormente.
   
-    ```  
- sysocmgr /i:sysoc.inf   
-```
+    ```
+	sysocmgr /i:sysoc.inf
+	```
   
     No se necesitan otros subcomponentes del Servidor de aplicaciones, por lo que no es necesario seleccionarlo.
   
@@ -1104,8 +1109,7 @@ Se debe crear un directorio virtual en IIS para utilizarlo como la ubicación HT
   
     **Tabla 9. Permisos del directorio virtual**
 
- 
-    <p> </p>
+<p> </p>
 <table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
@@ -1172,15 +1176,16 @@ Además de los pasos de configuración descritos hasta ahora, hay otros elemento
   
 -   Servicio de actualización de certificados raíz. El servicio de actualización de certificados raíz debe estar deshabilitado, ya que no es recomendable que se actualice automáticamente la confianza de la raíz de las CA. Para quitar este servicio, ejecute lo siguiente en un símbolo del sistema:
   
-    ```  
- sysocmgr /i:sysoc.inf /u:C:\\MSSScripts\\OC\_RemoveRootUpdate.txt   
-```
+    ```
+	sysocmgr /i:sysoc.inf /u:C:\MSSScripts\OC_RemoveRootUpdate.txt
+	```
   
     El archivo OC\_RemoveRootUpdate.txt contiene las siguientes líneas:
   
-    ```  
- \[Componentes\] rootautoupdate = off   
-```
+    ```
+	[Componentes]
+	rootautoupdate = off
+	```
   
 -   Asegúrese de que la CA raíz no tiene conectividad de red y de que la CA emisora no tiene conectividad de entrada ni de salida a Internet.
   
@@ -1205,16 +1210,14 @@ Esta solución define varios grupos de seguridad que se corresponden con funcion
   
 2.  Ejecute el siguiente comando para crear los grupos de administración de CA del dominio:
   
-    ```  
- Cscript //job:CertDomainGroups C:\\MSSScripts\\ca\_setup.wsf   
-```
+    ```
+	Cscript //job:CertDomainGroups C:\MSSScripts\ca_setup.wsf
+	```
   
     Este script creará los grupos de seguridad que se indican en la siguiente tabla. Estos grupos se crean como grupos universales en el contenedor Usuarios del dominio y se pueden mover a una unidad organizativa más adecuada si así lo requiere cualquier directiva vigente de la organización.
   
     **Tabla 10. Nombres y funciones de los grupos**
 
- 
-    <p> </p>
 <table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
@@ -1298,8 +1301,7 @@ Hay varias cuentas de usuario y grupos que se asociarán a la administración y 
   
     **Tabla 12. Ejemplo de estructura de unidades organizativas**
 
- 
-    <p> </p>
+<p> </p>
 <table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
@@ -1449,15 +1451,32 @@ La información de CRL y AIA no se necesita para un certificado de CA raíz, por
   
 1.  Mediante un editor de texto, como el Bloc de notas, cree un archivo de texto sin formato que incluya el siguiente texto:
   
-    ```  
- \[version\] Signature=”$Windows NT$” \[Certsrv\_server\] RednewalKeyLength=4096 RenewalValidityPeriod=Years RenewalValidityPeriodUnits=16 \[CRLDistributionPoint\] Empty=true \[AuthorityInformationAccess\] Empty=true   
-```
+    ```
+	[version]
+	Signature=”$Windows NT$”
+	
+	[Certsrv_server]
+	RednewalKeyLength=4096
+	RenewalValidityPeriod=Years
+	RenewalValidityPeriodUnits=16
+	
+	[CRLDistributionPoint]
+	Empty=true
+	
+	[AuthorityInformationAccess]
+	Empty=true
+	```
   
 2.  Si esta CA tiene definida una declaración de prácticas de certificación (CPS), incluya el siguiente texto en el archivo capolicy.inf y sustituya los valores en cursiva por los específicos de esta implementación:
   
-    ```  
- \[CAPolicy\] Policies=nombre de la CPS de la empresa \[nombre de la CPS de la empresa\] OID=OID.de.la.empresa URL=”http://www.urlDeLaEmpresa.com/nombreDeLaPáginaDeCps.htm”   
-```
+    ```
+	[CAPolicy]
+	Policies=nombre de la CPS de la empresa
+	
+	[nombre de la CPS de la empresa]
+	OID=OID.de.la.empresa
+	URL=”http://www.urlDeLaEmpresa.com/nombreDeLaPáginaDeCps.htm”
+	```
   
 3.  Guarde este archivo de texto como *%windir%*\\Capolicy.inf (sustituya *%windir%* por la ruta absoluta de la carpeta en la que está instalado Windows; por ejemplo, C:\\Windows). Para realizar este paso, se debe utilizar la cuenta del administrador o una cuenta con permisos equivalentes para guardar el archivo en la carpeta de Windows.
   
@@ -1468,9 +1487,9 @@ Utilice el Asistente para componentes de Windows para instalar los componentes d
   
 1.  Inicie sesión como miembro del grupo local Administradores y ejecute el administrador de componentes opcionales o, en el Panel de control, abra Agregar o quitar programas o bien Agregar o quitar componentes de Windows.
   
-    ```  
- sysocmgr /i:sysoc.inf   
-```
+    ```
+	sysocmgr /i:sysoc.inf
+	```
   
 2.  Seleccione el componente Servicios de Certificate Server (haga clic en **Sí** para omitir la advertencia de cambio de nombre).
   
@@ -1509,9 +1528,9 @@ Al configurar la CA raíz, se utilizarán varios parámetros específicos del en
   
 3.  Ejecute el siguiente script:
   
-    ```  
- Cscript //job:RootCAConfig C:\\MSSScripts\\ca\_setup.wsf   
-```
+    ```
+	Cscript //job:RootCAConfig C:\MSSScripts\ca_setup.wsf
+	```
   
 Configuración de las funciones administrativas  
 Es necesario asignar los grupos de seguridad creados anteriormente a las funciones administrativas, como auditor y administrador de certificados, que se vayan a utilizar.
@@ -1526,8 +1545,7 @@ Es necesario asignar los grupos de seguridad creados anteriormente a las funcion
   
     **Tabla 13. Entradas de permiso de CA**
 
- 
-    <p> </p>
+<p> </p>
 <table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
@@ -1566,15 +1584,15 @@ El certificado y la CRL de la CA raíz deben copiarse de la CA para que se pueda
   
 2.  Ejecute el siguiente script para copiar el certificado de CA en el disco:
   
-    ```  
- Cscript //job:GetCACerts C:\\MSSScripts\\CA\_Operations.wsf   
-```
+    ```
+	Cscript //job:GetCACerts C:\MSSScripts\CA_Operations.wsf
+	```
   
 3.  Ejecute el siguiente script para copiar la CRL de CA en el disco:
   
-    ```  
- Cscript //job:GetCRLs C:\\MSSScripts\\CA\_Operations.wsf   
-```
+    ```
+	Cscript //job:GetCRLs C:\MSSScripts\CA_Operations.wsf
+	```
   
 4.  Etiquete, feche y conserve este disco para futuros usos.
   
@@ -1590,15 +1608,15 @@ Se recomienda utilizar la CA emisora para realizar este procedimiento, ya que ti
   
 2.  Ejecute la siguiente secuencia de comandos para publicar el certificado de la CA en Active Directory:
   
-    ```  
- Cscript //job:PublishCertstoAD C:\\MSSScripts\\CA\_Operations.wsf   
-```
+    ```
+	Cscript //job:PublishCertstoAD C:\MSSScripts\CA_Operations.wsf
+	```
   
 3.  Ejecute la siguiente secuencia de comandos para publicar la CRL en Active Directory:
   
-    ```  
- Cscript //job:PublishCRLstoAD C:\\MSSScript\\CA\_Operations.wsf   
-```
+    ```
+	Cscript //job:PublishCRLstoAD C:\MSSScript\CA_Operations.wsf
+	```
   
 Publicación del certificado y la CRL de la CA raíz en el servidor web  
 Es necesario realizar esta tarea porque las versiones de HTTP de las URL de CDP y AIA están especificadas en las extensiones de los certificados emitidos por esta CA. Si estas extensiones están presentes, las CRL y los certificados que se publiquen deben incluirlas en las URL configuradas.
@@ -1613,15 +1631,17 @@ Es necesario realizar esta tarea porque las versiones de HTTP de las URL de CDP 
   
 3.  Ejecute el siguiente script para publicar el certificado de la CA en la carpeta del servidor web:
   
-    ```  
- Cscript //job:PublishRootCerttoIIS C:\\MSSScripts\\CA\_Operations.wsf   
-```
+    ```
+	Cscript //job:PublishRootCerttoIIS
+	C:\MSSScripts\CA_Operations.wsf
+	```
   
 4.  Ejecute el siguiente script para publicar las CRL de la CA en la carpeta del servidor web:
   
-    ```  
- Cscript //job:PublishRootCRLstoIIS C:\\MSSScripts\\CA\_Operations.wsf   
-```
+    ```
+	Cscript //job:PublishRootCRLstoIIS
+	C:\MSSScripts\CA_Operations.wsf
+	```
   
 ###### Implementación del servidor de la CA emisora
   
@@ -1654,15 +1674,24 @@ Aunque la CA emisora no necesita el archivo CAPolicy.inf, éste es necesario si 
   
 2.  Utilice un editor de texto, como el Bloc de notas, para crear un archivo de texto sin formato que incluya la siguiente información:
   
-    ```  
- \[Version\] Signature= “$Windows NT$” \[Certsrv\_Server\] RenewalKeyLength=2048   
-```
+    ```
+	[Version]
+	Signature= “$Windows NT$”
+	
+	[Certsrv_Server]
+	RenewalKeyLength=2048
+	```
   
 3.  Si se define una CPS para esta CA, incluya las siguientes líneas en el archivo Capolicy.inf:
   
-    ```  
- \[CAPolicy\] Policies=nombreDeLaDirectiva \[nombreDeLaDirectiva\] OID=OID.de.la.organización URL=”http://URL.de.la.organización/páginaDeCPS.htm”   
-```
+    ```
+	[CAPolicy]
+	Policies=nombreDeLaDirectiva
+	
+	[nombreDeLaDirectiva]
+	OID=OID.de.la.organización
+	URL=”http://URL.de.la.organización/páginaDeCPS.htm”
+	```
   
     **Nota**   Los elementos en cursiva se deben reemplazar por la información específica de la organización.
   
@@ -1675,9 +1704,9 @@ Al igual que en la instalación de Servicios de Certificate Server en la CA raí
   
 1.  Inicie sesión en la CA emisora como miembro del grupo local Administradores o con una cuenta equivalente y ejecute el administrador de componentes opcional:
   
-    ```  
- sysocmgr /i:sysoc.inf   
-```
+    ```
+	sysocmgr /i:sysoc.inf
+	```
   
 2.  Seleccione el componente Servicios de Certificate Server y haga clic en **Aceptar** para omitir el cuadro de mensaje de advertencia de cambio de nombre.
   
@@ -1773,9 +1802,9 @@ Mediante el siguiente procedimiento se configurarán los parámetros específico
   
 3.  Ejecute el siguiente script:
   
-    ```  
- Cscript //job:IssCAConfig C:\\MSSScripts\\ca\_setup.wsf   
-```
+    ```
+	Cscript //job:IssCAConfig C:\MSSScripts\ca_setup.wsf
+	```
   
 Configuración de las funciones administrativas de la CA emisora  
 Para utilizar las funciones administrativas descritas en esta guía, es necesario asignarlas a grupos de seguridad. Como se ha mencionado anteriormente, aunque las funciones simplificadas sean suficientes para la mayoría de las medianas empresas, con este proceso se implementarán funciones detalladas para ofrecer una flexibilidad máxima y una separación de responsabilidades.
@@ -1790,8 +1819,7 @@ Para utilizar las funciones administrativas descritas en esta guía, es necesari
   
     **Tabla 14. Permisos de la CA emisora**
 
- 
-    <p> </p>
+ <p> </p>
 <table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
@@ -1839,9 +1867,10 @@ Los certificados de CA se actualizan en raras ocasiones, por lo que se pueden pu
   
 3.  Ejecute el siguiente script para publicar el certificado de CA en el servidor web:
   
-    ```  
- Cscript //job:PublishIssCertsToIIS C:\\MSSScripts\\CA\_Operations.wsf   
-```
+    ```
+	Cscript //job:PublishIssCertsToIIS
+	C:\MSSScripts\CA_Operations.wsf
+	```
   
     **Nota**   Este procedimiento se ha diseñado para servidores web internos. Si los certificados se van a publicar en un servidor web de Internet, será necesario llevar a cabo pasos adicionales porque esta solución se basa en el uso compartido de archivos de la red de Windows, que suele estar bloqueado en los firewall para Internet.
   
@@ -1859,9 +1888,10 @@ Las CRL se publican con más frecuencia que los certificados de CA, por lo que e
   
     **Nota**   Algunas partes del siguiente fragmento de código se han dispuesto en varias líneas únicamente para facilitar su lectura. Deben especificarse en una sola línea.
   
-    ```  
- schtasks /creat /tn “Publish CRLs” /tr “cscript.exe //job:PublishIssCRLsToIIS C:\\ MSSScripts\\CA\_Operations.wsf” /sc Hourly /ru “System”   
-```
+    ```
+	schtasks /creat /tn “Publish CRLs” /tr “cscript.exe //job:PublishIssCRLsToIIS C:\
+	MSSScripts\CA_Operations.wsf” /sc Hourly /ru “System”
+	```
   
 Eliminación de plantillas no deseadas de la CA emisora  
 Suele ser una práctica recomendada quitar las plantillas correspondientes a cualquier tipo de certificado que no se va a utilizar para que no se puedan emitir por error. Estas plantillas se pueden volver a crear fácilmente si es necesario, ya que siempre están disponibles en el directorio.
@@ -1901,7 +1931,6 @@ La siguiente tabla incluye información que es específica de cada organización
   
 **Tabla 15. Parámetros de configuración definidos por el usuario**
 
- 
 <p> </p>
 <table style="border:1px solid black;">
 <colgroup>
@@ -1939,7 +1968,6 @@ La siguiente tabla incluye parámetros que no deben cambiarse, excepto si hay un
   
 **Tabla 16. Parámetros de configuración definidos por la solución**
 
- 
 <p> </p>
 <table style="border:1px solid black;">
 <colgroup>
@@ -2025,8 +2053,8 @@ Para obtener más información sobre [CAPICOM](http://www.microsoft.com/download
 Configuración de los grupos de administración de IAS  
 El siguiente comando de script creará los grupos de seguridad Administradores de IAS y Auditores de seguridad de IAS:
   
-```  
- Cscript //job:CreateIASGroups C:\\MSSScripts\\IAS\_Tools.wsf   
+```
+Cscript //job:CreateIASGroups C:\MSSScripts\IAS_Tools.wsf
 ```  
 En entornos de varios dominios, estos grupos se deben crear en el mismo dominio en el que residen los servidores IAS.
   
@@ -2047,8 +2075,8 @@ La siguiente sección describe cómo instalar IAS en los servidores. Es importan
   
 IAS se instala al seleccionar el componente Servicios de red – Servicio de autenticación Internet en el administrador de componentes opcionales de Windows (accesible desde la opción Agregar o quitar componentes de Windows del Panel de control). Para simplificar este proceso, utilice el siguiente script:
   
-```  
- sysocmgr /i:sysoc.inf /u:C:\\MSSScripts\\OC\_AddIAS.txt   
+```
+sysocmgr /i:sysoc.inf /u:C:\MSSScripts\OC_AddIAS.txt
 ```  
  Registro de IAS en Active Directory  
 Los servidores IAS se deben registrar en los dominios y, para ello, la cuenta del equipo de cada servidor IAS debe ser miembro del grupo de seguridad Servidores RAS e IAS en los dominios en los que se necesitarán para la autenticación. La pertenencia a estos grupos garantiza que los servidores IAS tienen permiso de lectura de las propiedades de acceso remoto de todas las cuentas de usuario y equipo de los dominios.
@@ -2074,8 +2102,8 @@ Los servidores IAS se deben registrar en los dominios y, para ello, la cuenta de
 Creación y protección de los directorios de datos de IAS  
 Existen algunos requisitos para el directorio en el que se van a almacenar los datos de configuración y registro de los servidores IAS. Con el fin de facilitar el proceso de configuración para crear y garantizar la seguridad de estos directorios, se puede ejecutar el siguiente archivo por lotes en un símbolo del sistema:
   
-```  
- C:\\MSSScripts\\IAS\_Data.bat   
+```
+C:\MSSScripts\IAS_Data.bat 
 ```  
 **Nota**   Puede que, antes de ejecutar este archivo por lotes, sea necesario editar y reemplazar las entradas %*DomainName*% para reflejar el nombre NETBIOS del dominio de un determinado entorno.
   
@@ -2107,7 +2135,6 @@ La siguiente tabla incluye parámetros específicos de la organización que se d
   
 **Tabla 17. Parámetros necesarios definidos por el usuario**
 
- 
 <p> </p>
 <table style="border:1px solid black;">
 <colgroup>
@@ -2145,7 +2172,6 @@ La siguiente tabla incluye parámetros que no deben cambiarse, excepto si hay un
   
 **Tabla 18. Parámetros de configuración definidos por la solución**
 
- 
 <p> </p>
 <table style="border:1px solid black;">
 <colgroup>
@@ -2229,8 +2255,8 @@ La siguiente tabla incluye parámetros que no deben cambiarse, excepto si hay un
 Creación de los grupos de Active Directory necesarios para el acceso de WLAN  
 El siguiente script se debe ejecutar con una cuenta que tenga permisos de creación de grupos de seguridad de Active Directory, ya que crea los grupos necesarios para implementar la inscripción de certificados de autenticación inalámbrica, la directiva de acceso remoto y la directiva de grupo de red inalámbrica:
   
-```  
- Cscript //job:CreateWirelessGroups C:\\MSSScripts\\wl\_tools.wsf   
+```
+Cscript //job:CreateWirelessGroups C:\MSSScripts\wl_tools.wsf
 ```  
 **Nota**   En los entornos de bosque de varios dominios, los grupos se deben crear en el mismo dominio que los usuarios inalámbricos.
   
@@ -2379,9 +2405,9 @@ Los puntos de acceso inalámbrico y los proxy RADIUS deben agregarse a IAS como 
   
     **Nota**   Este proceso debe repetirse en todos los servidores IAS para garantizar que cada uno tiene un conjunto único de clientes y secretos compartidos de punto de acceso inalámbrico. Para facilitar este proceso, esta guía contiene un script que se puede utilizar para generar secretos compartidos que, a su vez, pueden almacenarse en una ubicación segura por si es necesario realizar una restauración del sistema. Para utilizar este script, escriba lo siguiente en un símbolo del sistema:
   
-    ```  
- Cscript //job:GenPWD C:\\MSSScripts\\wl\_tools.wsf /client:ClientName   
-```
+    ```
+	Cscript //job:GenPWD C:\MSSScripts\wl_tools.wsf /client:ClientName
+	```
   
 ###### Implementación de configuraciones en varios servidores IAS
   
@@ -2414,8 +2440,8 @@ Los siguientes tipos de parámetros se deben exportar como archivos de texto par
   
 Para facilitar este proceso, esta guía incluye archivos por lotes que contienen los comandos **netsh**, que permiten exportar la información común de configuración a archivos de texto en el directorio D:\\IASConfig mediante la emisión de la siguiente línea en un símbolo del sistema.
   
-```  
- C:\\MSSScripts\\IASExport.bat   
+```
+C:\MSSScripts\IASExport.bat
 ```  
  Importación de la información de configuración del servidor IAS principal  
 Como se ha mencionado anteriormente, IAS utiliza el comando **netsh** para transferir los estados de configuración entre los servidores. Este proceso permite que la implementación sea más eficaz y además reduce las probabilidades de error durante el proceso de configuración. Ahora que ya se ha exportado la configuración del servidor IAS principal, los servidores IAS secundarios pueden importar el estado de configuración.
@@ -2426,9 +2452,9 @@ Como se ha mencionado anteriormente, IAS utiliza el comando **netsh** para trans
   
 2.  Utilice el siguiente archivo por lotes (incluido en esta guía) en una línea de comandos en los servidores secundarios para importar el estado de configuración:
   
-    ```  
- C:\\MSSScripts\\IASImport.bat   
-```
+    ```
+	C:\MSSScripts\IASImport.bat
+	```
   
 ##### Clientes y puntos de acceso inalámbrico
   
