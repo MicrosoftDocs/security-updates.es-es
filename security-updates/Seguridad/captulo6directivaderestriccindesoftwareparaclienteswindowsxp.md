@@ -15,10 +15,10 @@ Actualizado: 20/10/05
 
 ### En esta página
 
-[](#eeaa)[Información general](#eeaa)
-[](#edaa)[Arquitectura de la directiva de restricción de software](#edaa)
-[](#ecaa)[Opciones de las directivas de restricción de software](#ecaa)
-[](#ebaa)[Diseño e implementación de directivas de restricción de software](#ebaa)
+[](#eeaa)[Información general](#eeaa)  
+[](#edaa)[Arquitectura de la directiva de restricción de software](#edaa)  
+[](#ecaa)[Opciones de las directivas de restricción de software](#ecaa)  
+[](#ebaa)[Diseño e implementación de directivas de restricción de software](#ebaa)  
 [](#eaaa)[Resumen](#eaaa)
 
 ### Información general
@@ -229,9 +229,9 @@ Se puede definir una regla de ruta de modo que utilice variables de entorno. Pue
 
 Los siguientes dos ejemplos muestran formas de cómo aplicar las variables de entorno a una regla de ruta.
 
--   “%UserProfile%” corresponde a **C:\\Documents and Settings\\*&lt;Usuario&gt;**** *y todas las subcarpetas de este directorio.
+-   “%UserProfile%” corresponde a **C:\\Documents and Settings\\&lt;Usuario&gt;** y todas las subcarpetas de este directorio.
 
--   “%ProgramFiles%\\*&lt;Aplicación&gt;*”* *corresponde a **C:\\Program Files\\*&lt;Aplicación&gt;*** y todas las subcarpetas de este directorio.
+-   “%ProgramFiles%\\*&lt;Aplicación&gt;*” corresponde a **C:\\Program Files\\&lt;Aplicación&gt;** y todas las subcarpetas de este directorio.
 
     **Nota:** las variables de entorno no están protegidas mediante listas de control de acceso (ACL). Existen dos tipos de variables de entorno, **User** y **System**. Los usuarios que pueden iniciar el símbolo del sistema tienen la posibilidad de volver a definir la variable de entorno **Users** en una ruta distinta. Sin embargo, sólo los usuarios del grupo **Administradores** pueden modificar la variable de entorno **System**.
 
@@ -269,16 +269,16 @@ Este tipo de regla de ruta, denominado regla de ruta del Registro, presenta el f
 
 Cuando la regla predeterminada se establece como **No permitido**, se configuran cuatro reglas de ruta de acceso al Registro de forma que el sistema operativo tenga acceso a los archivos del sistema. Estas reglas de ruta del Registro se crean como salvaguarda para evitar que uno mismo o los demás usuarios puedan bloquear el sistema y se establecen como **Irrestricto**. Estas reglas sólo las deben modificar o eliminar usuarios expertos. Las configuraciones de las reglas de ruta del Registro son:
 
--   %HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\
+-   %HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\  
     CurrentVersion\\SystemRoot%
 
--   %HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\
+-   %HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\  
     CurrentVersion\\SystemRoot%\\\*.exe
 
--   %HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\
+-   %HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\  
     CurrentVersion\\SystemRoot%\\System32\\\*.exe
 
--   %HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows\\
+-   %HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows\\  
     CurrentVersion\\ProgramFilesDir%
 
 #### Prioridad en las reglas de ruta
@@ -349,18 +349,18 @@ Buscar el archivo para crear una regla hash.</td>
 <tr class="even">
 <td style="border:1px solid black;">Identificar un conjunto de secuencias de comandos en un servidor central.</td>
 <td style="border:1px solid black;"><strong>Regla de ruta</strong><br />
-\\SERVER_NAME\Share</td>
+\\\\SERVER_NAME\Share</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Identificar un conjunto de secuencias de comandos en un conjunto de servidores. Por ejemplo, DC01, DC02 y DC03.</td>
 <td style="border:1px solid black;"><strong>Regla de ruta con comodín</strong><br />
-\\DC??\Share</td>
+\\\\DC??\Share</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">No permitir ningún archivo .vbs, excepto aquellos que estén en un directorio de secuencias de comandos de inicio.</td>
 <td style="border:1px solid black;"><strong>Regla de ruta con comodín</strong>
 *.VBS establecido como <strong>No permitido</strong>
-\\LOGIN_SRV\Share\*.VBS establecido como <strong>Irrestricto</strong></td>
+\\\\LOGIN_SRV\Share\*.VBS establecido como <strong>Irrestricto</strong></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">No permitir un archivo instalado por un virus que se llama siempre Flcss.exe.</td>
