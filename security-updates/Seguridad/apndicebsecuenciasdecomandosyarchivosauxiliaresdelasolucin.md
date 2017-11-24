@@ -13,10 +13,10 @@ Publicado: octubre 11, 2004 | Actualizado: 24/11/04
 
 ##### En esta página
 
-[](#edaa)[Introducción](#edaa)
-[](#ecaa)[Lista de los archivos de la guía de la solución](#ecaa)
-[](#ebaa)[Estructura de las secuencias de comandos](#ebaa)
-[](#eaaa)[Descripción de las secuencias de comandos y archivos auxiliares](#eaaa)
+[](#edaa)[Introducción](#edaa)  
+[](#ecaa)[Lista de los archivos de la guía de la solución](#ecaa)  
+[](#ebaa)[Estructura de las secuencias de comandos](#ebaa)  
+[](#eaaa)[Descripción de las secuencias de comandos y archivos auxiliares](#eaaa)  
 
 ### Introducción
 
@@ -96,9 +96,38 @@ Las secuencias de comandos normalmente van por parejas: un archivo .wsf y otro .
 
 Todos los archivos de secuencias de comandos utilizan la sintaxis donde *NombreTrabajo* es el nombre de la operación requerida y *ArchivoSecuenciaComandosW* es el nombre del archivo de interfaz XML de la secuencia de comandos como en el siguiente ejemplo:
 
-cscript //job:*NombreTrabajo* *ArchivoSecuenciaComandosW*.wsf
+cscript //job:*NombreTrabajo* *ArchivoSecuenciaComandosW*.wsf  
+Un extracto de uno de los archivos WSF incluye la siguiente información:
 
-        ```
+
+```
+    <?xml version="1.0" encoding="utf-8" ?>
+    <package xmlns="Windows Script Host
+        <job id="GetCaCerts ">
+            <comment></comment>
+            <script language="VBScript" src="constants.vbs" />
+            <script language="VBScript" src="pkiparams.vbs" />
+            <script language="VBScript" src="helper.vbs" />
+            <script language="VBScript" src="ca_operations.vbs" />
+            <script language="VBScript
+            <![CDATA[
+                GetCaCerts
+            ]]>
+            </script>
+        </job>
+        <job id="PublishRootCertstoIIS ">
+            <comment></comment>
+            <script language="VBScript" src="constants.vbs" />
+            <script language="VBScript" src="pkiparams.vbs" />
+            <script language="VBScript" src="helper.vbs" />
+            <script language="VBScript" src="ca_operations.vbs" />
+            <script>
+            <![CDATA[
+                PublishCertstoIIS ROOT_CERT_SOURCE, WWW_LOCAL_PUB_PATH
+            ]]>
+            </script>
+        </job>     
+```
 El primer trabajo es GetCACerts. La definición de este trabajo especifica que se carguen los archivos VBS constants.vbs, pkiparams.vbs, helper.vbs y ca\_operations.vbs, que contienen funciones o subrutinas que necesita el trabajo. La sección final del ejemplo de código especifica la función de nivel superior que se ejecutará para iniciar el trabajo; en este caso, GetCACerts. (Este ejemplo tiene el mismo nombre que el trabajo, pero no es necesario que sea así.) Observe que el segundo trabajo, PublishRootCertstoIIS, proporciona parámetros a la función llamada.
 
 Los archivos VBS se encargan del trabajo real y hay tres tipos principales:
