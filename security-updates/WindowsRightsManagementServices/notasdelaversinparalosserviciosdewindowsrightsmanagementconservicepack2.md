@@ -52,7 +52,7 @@ Los requisitos de hardware para ejecutar RMS con SP2 se indican en la siguiente 
 </table>
   
 > [!NOTE]
-> El servidor de RMS con SP2 se ha diseñado para un equipo de 32 bits. Si se instala en un equipo de 64 bits, se ejecutará en modo de emulación. |
+> El servidor de RMS con SP2 se ha diseñado para un equipo de 32 bits. Si se instala en un equipo de 64 bits, se ejecutará en modo de emulación.
   
 Los requisitos software para los servidores en los que se ejecuta RMS con SP2 se indican en la siguiente tabla.
   
@@ -192,7 +192,7 @@ En la siguiente tabla se muestran los permisos de usuario necesarios para realiz
 
 
 > [!NOTE]
->  Para obtener más información sobre la configuración de Windows Server, Active Directory, Message Queuing, IIS y los sistemas de archivos, consulte el sitio Web TechCenter de Windows Server 2003 ([http://go.microsoft.com/fwlink/?LinkId=78135](http://go.microsoft.com/fwlink/?linkid=78135)). |
+>  Para obtener más información sobre la configuración de Windows Server, Active Directory, Message Queuing, IIS y los sistemas de archivos, consulte el sitio Web TechCenter de Windows Server 2003 ([http://go.microsoft.com/fwlink/?LinkId=78135](http://go.microsoft.com/fwlink/?linkid=78135)).
   
 Si utiliza RMS en una implementación de clúster, tenga en cuenta los elementos que se indican en la tabla siguiente.
   
@@ -268,7 +268,7 @@ El nuevo protocolo de expansión de confianza de bosque mejorará la fiabilidad 
 Con anterioridad a RMS con SP2, la expansión de grupos entre bosques se llevaba a cabo realizando llamadas remotas mediante .NET. En esta versión, el protocolo de expansión de grupos entre bosques se ha cambiado a un servicio Web de ASP.NET que utiliza solicitudes SOAP/HTTP a la canalización de expansión de grupos de confianza del bosque.
   
 > [!NOTE]
-> Para la compatibilidad con versiones anteriores, se mantiene la compatibilidad con las llamadas remotas de .NET en RMS con SP2. Sin embargo, para sacar el máximo partido del nuevo protocolo de expansión de grupos entre bosques, en todos los clústeres de RMS debe ejecutarse al menos RMS con SP2. |
+> Para la compatibilidad con versiones anteriores, se mantiene la compatibilidad con las llamadas remotas de .NET en RMS con SP2. Sin embargo, para sacar el máximo partido del nuevo protocolo de expansión de grupos entre bosques, en todos los clústeres de RMS debe ejecutarse al menos RMS con SP2.
   
 #### ¿Qué opciones de configuración se han añadido o modificado en RMS con SP2?
   
@@ -276,7 +276,7 @@ La nueva canalización de expansión de grupos de RMS se ha configurado con los 
   
 | ![](images/Cc747637.Important(WS.10).gif)Importante                                                                                                                                                                                                                                                                                                                                                                   |  
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Compruebe que la cuenta de servicio de RMS de cada bosque de Active Directory tiene acceso a la canalización de expansión de grupos en cada servidor de RMS del clúster. Si no existe acceso para las cuentas, se producirán errores en la expansión de grupos. Si lo desea, puede crear la misma cuenta en cada bosque y asignarles la misma contraseña. En este caso, sólo debería añadir dicha cuenta a la canalización de expansión de grupos. |
+| Compruebe que la cuenta de servicio de RMS de cada bosque de Active Directory tiene acceso a la canalización de expansión de grupos en cada servidor de RMS del clúster. Si no existe acceso para las cuentas, se producirán errores en la expansión de grupos. Si lo desea, puede crear la misma cuenta en cada bosque y asignarles la misma contraseña. En este caso, sólo debería añadir dicha cuenta a la canalización de expansión de grupos.|
   
 Se han añadido nuevos sucesos a RMS con SP2 para informarle de mensajes de problemas que no se incluyeron en el servicio de Message Queue Server. En estos registros de sucesos se incluyen sucesos para notificarle cuando un mensaje no puede firmarse digitalmente o validarse. Entre varios casos de problemas de validación se incluye un mensaje incorrecto, la falta de un algoritmo hash o una firma o un algoritmo hash incorrectos.
   
@@ -321,7 +321,7 @@ Los procesos por lotes de RMS permiten que se realice una única solicitud a la 
 En versiones de RMS anteriores a RMS con SP2, el clúster RMS admitía un tamaño de procesos por lotes máximo de 1. Si el tamaño máximo del proceso por lotes se establecía en un número mayor de 1, el clúster lo ignoraba. En RMS con SP2, el tamaño máximo puede ser 100.
   
 > [!NOTE]
-> Sólo la canalización AcquireLicense de RMS admite las solicitudes por lotes. |
+> Sólo la canalización AcquireLicense de RMS admite las solicitudes por lotes.
   
 Se ha mejorado el informe de errores en RMS con SP2 para las cuentas con solicitudes por lotes. Por ejemplo, si envía un lote de diez solicitudes y se producen errores en la segunda y la tercera, se escribe un suceso en el registro de sucesos por cada error.
   
@@ -344,7 +344,7 @@ En versiones anteriores de RMS, los tipos de datos de algunos de los parámetros
 En versiones de RMS anteriores a RMS con SP2, las sentencias SQL RAISERROR se utilizaban para notificar al usuario de RMS que se había producido un error. La sentencia RAISERROR consulta la tabla de mensajes del sistema para recuperar los mensajes de error de RMS almacenados en la misma. RMS con SP2 utiliza una técnica diferente para propagar los errores de SQL de modo que ya no hay una dependencia de la tabla de mensajes del sistema.
   
 > [!NOTE]
-> Si está realizando una actualización de RMS con SP1 a RMS con SP2, ya no se consultan los mensajes de error en la tabla de mensajes del sistema, pero los mensajes de error permanecen en dicha tabla. Una instalación partiendo de cero de RMS con SP2 no añade entradas nuevas en la tabla de mensajes del sistema. |
+> Si está realizando una actualización de RMS con SP1 a RMS con SP2, ya no se consultan los mensajes de error en la tabla de mensajes del sistema, pero los mensajes de error permanecen en dicha tabla. Una instalación partiendo de cero de RMS con SP2 no añade entradas nuevas en la tabla de mensajes del sistema.
   
 Problemas conocidos  
 -------------------
@@ -384,7 +384,7 @@ Al implementar RMS en un entorno donde los niveles de la infraestructura de Acti
 Hay instancias (por ejemplo, base de datos desconectada, problemas de conectividad en red, etc.) en las que el servicio de escucha de registro no puede conectarse con la base de datos. En este caso, los mensajes se envían a una cola de mensajes con problemas de entrega. El único modo de recuperar estos mensajes (es decir, enviarlos a la base de datos de registro) es utilizar la herramienta de recuperación de mensajes de RMS que se incluye con el juego de herramientas de administración de RMS. Para descargar el juego de herramientas de administración de RMS, consulte [http://go.microsoft.com/fwlink/?LinkId=33841](http://go.microsoft.com/fwlink/?linkid=33841).
   
 > [!NOTE]
-> Recover y RecoverandPurge se han eliminado de LogRecoveryCmd. De este modo, se asegura que todos los mensajes se redirigen a través del servicio de Message Queue Server y se autentican antes de enviarse a la base de datos de registro. |
+> Recover y RecoverandPurge se han eliminado de LogRecoveryCmd. De este modo, se asegura que todos los mensajes se redirigen a través del servicio de Message Queue Server y se autentican antes de enviarse a la base de datos de registro.
   
 #### Debe actualizar RMS con SP2 antes de actualizar Microsoft SQL Server 2005
   
