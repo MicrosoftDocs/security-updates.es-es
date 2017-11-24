@@ -30,7 +30,7 @@ To determine if there is a problem with network name resolution services, use th
 
 3.  Type the following, and then press ENTER:
 
-    **ping** *WSUSServerNname*
+    **ping** *WSUSServerNname*
 
     where *WSUS server name* is the name of the upstream WSUS server you are trying to synchronize with.
 
@@ -73,15 +73,18 @@ If the BITS service was disabled during synchronization, synchronization will fa
 4.  Retry synchronization: in the WSUS console, click **Options**, click **Synchronization Options**, and then under **Tasks**, click **Synchronize now**.
 
 If you are unable to download update files to your local WSUS server, your server might not support the necessary HTTP protocol
--------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
 
-        ```
+```
+Content file download failed. Reason: The server does not support the necessary HTTP protocol. Background Intelligent Transfer Service (BITS) requires that the server support the Range protocol header.Source File: /msdownload/update/v3-19990518/cabpool/windows2000-kb873339-x86-enu_500e4656b4f0ca3431565631989090bbeeb74bcc.exe Destination File: %drive%\wsus\WsusContent\WsusContent\CC\500E4656B4F0CA3431565631989090BBEEB74BCC.EXE.
+```
+
 This problem occurs if your proxy environment doesn’t support HTTP 1.1 Protocol. You can manually work around this by running the following commands at the command prompt to configure BITS.
 
 **To resolve this issue:**
 1.  Type: **net stop WSUSService**, and then press ENTER.
 
-2.  Type: **"***%programfiles%***\\Update Services\\tools\\osql\\osql.exe"  -S** *SQL\_InstanceName* **-E -b -n –Q "USE SUSDB update tbConfigurationC set BitsDownloadPriorityForeground=1"** and then press ENTER.
+2.  Type: **"***%programfiles%***\\Update Services\\tools\\osql\\osql.exe"  -S** *SQL\_InstanceName* **-E -b -n –Q "USE SUSDB update tbConfigurationC set BitsDownloadPriorityForeground=1"** and then press ENTER.
 
 3.  Type: **net start WSUSService**.
 
