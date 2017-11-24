@@ -73,15 +73,27 @@ En equipos con la versión de 64 bits de Windows Server 2003:<br />
 Durante el establecimiento de servicios en línea, RMS realiza las siguientes tareas:
 
 -   En el servidor de base de datos:
+
     -   Crea las bases de datos de configuración, servicios de directorio y de registro.
+
     -   Otorga permiso de inicio de sesión al grupo de servicio de RMS (RMS Service Group).
+
     -   Instala procedimientos almacenados en las bases de datos y otorga permiso de ejecución al grupo de servicio de RMS.
+
     -   Ejecuta consultas en la base de datos principal.
+
 -   Agrega el grupo de servicio de RMS al grupo IIS\_WPG.
+
 -   En C:\\Inetpub\\Wwwroot\\\_wmcs, crea una jerarquía de directorios virtuales, archivos y grupos de aplicaciones para los servicios Web y para el sitio Web Administración de RMS.
+
 -   Establece las listas DACL en los directorios virtuales, archivos y grupos de aplicaciones.
+
 -   Permite al grupo de servicio de RMS el acceso a la carpeta temporal.
+
 -   Cuando se especifica protección de clave de software, cifra la clave privada del emisor de licencias de servidor antes de almacenarla en la base de datos. RMS solicita una contraseña durante el establecimiento de servicios en línea, y obtiene acceso a DPAPI a nivel de equipo.
+
 -   Instala el servicio de escucha de registro.
+
 -   Crea la cola de mensajes de registro.
+
 -   Si se están estableciendo los servicios en línea en el servidor de certificación raíz, establece el punto de conexión de servicio en Active Directory.

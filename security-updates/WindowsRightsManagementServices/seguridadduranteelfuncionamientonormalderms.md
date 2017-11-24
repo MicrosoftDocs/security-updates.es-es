@@ -20,9 +20,13 @@ Para simplificar la asignación de permisos y la administración de las cuentas 
 En la lista siguiente, se resumen los permisos que se conceden al grupo de servicio de RMS (RMS Service Group):
 
 -   Permiso de lectura para los directorios raíz virtuales
+
 -   Permiso de escritura para el directorio de la caché de ensamblados
+
 -   Permiso de escritura para el directorio temporal del sistema
+
 -   Permiso de escritura para la cola de registro
+
 -   Permiso de lectura para Active Directory
 
 Si utiliza Microsoft SQL Server 2000 como servidor de base de datos, debe tener en cuenta que utiliza un método algo distinto de asignación de permisos al de Windows Server 2003. Al establecer los servicios en línea de RMS se crea un inicio de sesión para la cuenta de servicio de RMS en el servidor SQL Server. Si eligió establecer los servicios en línea de RMS con la cuenta de sistema local, se crea un inicio de sesión de SQL Server con el formato *DOMINIO\\nombre\_equipo*, donde *DOMINIO* es el nombre del dominio de Active Directory al que pertenece el equipo y *nombre\_equipo* es el nombre del servidor. Se crea una función de SQL denominada rms\_service a la que se conceden todos los permisos necesarios. Se agrega el inicio de sesión de la cuenta de servicio de RMS a este grupo. No se conceden permisos explícitamente a la cuenta de servicio de RMS.
@@ -30,6 +34,7 @@ Si utiliza Microsoft SQL Server 2000 como servidor de base de datos, debe tener 
 Asimismo, el servidor SQL Server asigna un propietario de base de datos (DBO) a cada base de datos. La propiedad de la base de datos se asigna de la siguiente manera durante el establecimiento de los servicios en línea:
 
 -   Se asigna la cuenta de dominio que se utilizó para establecer los servicios en línea de RMS como DBO de la base de datos de configuración.
+
 -   Se asigna la cuenta de servicio de RMS como DBO de las bases de datos de registro y servicios de directorio.
 
 Los permisos para todos los recursos que ha creado RMS se han seleccionado detenidamente durante el diseño de RMS a fin de maximizar la seguridad. No debe haber ningún motivo para modificar los permisos que se asignan durante el establecimiento de los servicios en línea para ninguno de los recursos. Si debe cambiar la cuenta de usuario o la contraseña de la cuenta de servicio después de haber establecido los servicios en línea, puede hacerlo desde la página Web Administración global de RMS. Para obtener más información, vea "Para cambiar la cuenta de servicio de RMS" en "Operación de un servidor de RMS", en esta recopilación de documentación.

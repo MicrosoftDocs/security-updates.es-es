@@ -55,7 +55,7 @@ El certificado emisor de licencias de servidor, que se concede al clúster de ce
 <br />
 </li>
 </ul></td>
-<td style="border:1px solid black;">El certificado emisor de licencias de servidor que se concede a un servidor de licencias contiene la clave pública del servidor de licencias.
+<td style="border:1px solid black;">El certificado emisor de licencias de servidor que se concede a un servidor de licencias contiene la clave pública del servidor de licencias.<br/><br/>
 El certificado emisor de licencias de servidor que se concede al servidor de certificación raíz contiene la clave pública del servidor de certificación raíz.</td>
 </tr>
 <tr class="even">
