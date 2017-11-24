@@ -21,8 +21,8 @@ La seguridad es un tema muy importante, ya se utilice uno u otro tipo de entorno
 
 ##### En esta página
 
-[](#ecaa)[Seguridad del cliente](#ecaa)
-[](#ebaa)[Directiva de restricción de software](#ebaa)
+[](#ecaa)[Seguridad del cliente](#ecaa)  
+[](#ebaa)[Directiva de restricción de software](#ebaa)  
 [](#eaaa)[Resumen](#eaaa)
 
 ### Seguridad del cliente
