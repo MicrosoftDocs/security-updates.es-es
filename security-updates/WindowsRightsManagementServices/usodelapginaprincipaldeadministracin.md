@@ -19,9 +19,11 @@ Para obtener acceso a esta página Web desde el servidor que desee administrar, 
 
 Si ha habilitado la administración remota mediante la capa de sockets seguros (SSL), también puede tener acceso a la **página principal de administración** desde un equipo diferente siguiendo este procedimiento:
 
-1.  En la barra de dirección del explorador Web, escriba la siguiente dirección URL:
-    https://*nombre\_clúster:número\_puerto*/\_wmcs/admin
+1.  En la barra de dirección del explorador Web, escriba la siguiente dirección URL:  
+    https://*nombre\_clúster:número\_puerto*/\_wmcs/admin  
+
     Donde *nombre\_clúster:número\_puerto* es la dirección URL que especificó para este clúster durante el establecimiento de los servicios en línea. Proporcione el número de puerto únicamente si especificó uno diferente al predeterminado, 80.
+
 2.  Cuando lo solicite el sistema, escriba las credenciales de un administrador local del servidor al que esté obteniendo acceso.
 
 La **página principal de administración** muestra información sobre el clúster, como la dirección URL, el nombre y la ubicación de la base de datos de configuración, la fecha de caducidad del certificado emisor de licencias de servidor, etc. Además, proporciona vínculos a páginas donde puede configurar las siguientes opciones de administración para el clúster:
