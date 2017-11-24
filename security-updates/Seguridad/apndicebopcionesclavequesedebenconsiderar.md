@@ -63,7 +63,7 @@ Entre las principales opciones de configuración de seguridad que están disponi
 
     -   Miembro de dominio: firmar digitalmente datos de un canal seguro (cuando sea posible)
 
-    -   Miembro de dominio: requerir clave de sesión protegida (Windows* *2000 o más reciente)
+    -   Miembro de dominio: requerir clave de sesión protegida (Windows 2000 o más reciente)
 
     -   Acceso de red: permitir traducción SID/nombre anónima
 
