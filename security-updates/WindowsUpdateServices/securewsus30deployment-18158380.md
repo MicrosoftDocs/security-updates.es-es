@@ -42,7 +42,19 @@ WSUS setup creates a configuration file that enables you to add an explicit list
 
 Use the `<authorization>` element to define an authentication list. You must add the `<authorization>` element below the `<configuration>` and `<system.web>` elements.
 
-        ```
+Consider the example below:
+
+```
+<configuration>
+    <system.web>
+        <authorization>
+           <allow users="domain\computer_name,domain\computer_name" />
+           <deny users="domain\computer_name,domain\computer_name" />
+        </authorization>
+     </system.web>
+</configuration>
+```
+
 Within the opening and closing `<authorization>` tags, you specify a list of computers that are allowed a connection to the Web service. You must enter these computers as `domain\computer_name`. If you want multiple computers, use a comma to separate the names. You can also specify an explicit list of computers that are denied access. Order in this list is important, as the evaluation stops with the first item that applies to the user. If the `<allow users>` element is absent or empty, all servers are allowed.
 
 The XML schema for this list can be found on the [MSDN Web site](http://go.microsoft.com/fwlink/?linkid=47691) at http://go.microsoft.com/fwlink/?LinkId=47691.
@@ -116,9 +128,9 @@ The most important thing to remember when configuring the WSUS server to use SSL
 
 There are two important caveats when configuring client computers:
 
--   You must include a URL for a secure port on which the WSUS server is listening. Because you cannot require SSL on the server, the only way to ensure that client computers use a secure channel is to make sure they use a URL that specifies HTTPS. If you are using any port other than 443 for SSL, you must include that port in the URL, too.
-    For example,` https://<ssl-servername>` specifies a WSUS server that is using port 443 for HTTPS; however, while `https://<ssl-servername>:3051` specifies a WSUS server that is using a custom SSL port of 3051.
-    For more information about how to point client computers to the WSUS server, see "Specify intranet Microsoft Update service location" in [Configure Clients Using Group Policy](https://technet.microsoft.com/d7d4c391-f707-4257-8987-e40705e097e7) later in this guide.
+-   You must include a URL for a secure port on which the WSUS server is listening. Because you cannot require SSL on the server, the only way to ensure that client computers use a secure channel is to make sure they use a URL that specifies HTTPS. If you are using any port other than 443 for SSL, you must include that port in the URL, too.  
+    For example,` https://<ssl-servername>` specifies a WSUS server that is using port 443 for HTTPS; however, while `https://<ssl-servername>:3051` specifies a WSUS server that is using a custom SSL port of 3051.  
+    For more information about how to point client computers to the WSUS server, see "Specify intranet Microsoft Update service location" in [Configure Clients Using Group Policy](https://technet.microsoft.com/d7d4c391-f707-4257-8987-e40705e097e7) later in this guide. 
 -   The certificate on client computers has to be imported into either the Local Computer's Trusted Root CA store or Automatic Update Service's Trusted Root CA store. If the certificate is imported only to the Local User's Trusted Root CA store, Automatic Updates will fail server authentication.
 -   Your client computers must trust the certificate you bind to the WSUS server in IIS. Depending upon the type of certificate you are using, you may have to set up a service to enable the clients to trust the certificate bound to the WSUS server. For more information, see "Further reading about SSL" later in this section.
 
