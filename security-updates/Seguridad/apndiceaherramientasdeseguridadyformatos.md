@@ -26,7 +26,7 @@ Las herramientas siguientes están disponibles con el sistema operativo Windows�
 
 #### Asistente para configuración de seguridad
 
-El Asistente para configuración de seguridad (SCW) se incorporó en el SP1 de Windows* *Server* *2003. A diferencia de la directiva de grupo, no está integrado con el servicio de directorio de Active* *Directory® y, por tanto, no se puede usar para configurar las directivas de nivel de dominio. Sin embargo, proporciona una metodología coherente de seguridad basada en funciones que utiliza asistentes, lo que facilita la creación de directivas seguras.
+El Asistente para configuración de seguridad (SCW) se incorporó en el SP1 de Windows Server 2003. A diferencia de la directiva de grupo, no está integrado con el servicio de directorio de Active Directory® y, por tanto, no se puede usar para configurar las directivas de nivel de dominio. Sin embargo, proporciona una metodología coherente de seguridad basada en funciones que utiliza asistentes, lo que facilita la creación de directivas seguras.
 
 Con SCW, puede crear de un modo rápido y sencillo directivas prototipo para varias funciones de servidor que se basen en las últimas orientaciones y recomendaciones de Microsoft. SCW administrará automáticamente la configuración de servicios, la configuración del Registro, las excepciones del Firewall de Windows y mucho más. Incluye capacidad para crear de forma remota perfiles de equipos de destino, implementar directivas y revertir directivas. La herramienta de línea de comandos Scwcmd permite usar a la vez SCW y la directiva de grupo para implementar directivas en grupos de equipos o convertir directivas en objetos GPO.
 
@@ -54,7 +54,7 @@ Hay disponible más información acerca de SCE en la Ayuda de Windows.
 
 #### Usuarios y equipos de Active Directory
 
-El complemento MMC Usuarios y equipos de Active* *Directory proporciona la interfaz gráfica de usuario principal para crear y administrar unidades organizativas (UO) dentro del dominio. Puede vincular los GPO y las UO, controlar el orden y la herencia de las directivas, así como iniciar el Editor de objetos de directiva de grupo como un proceso independiente para modificar los GPO. Sin embargo, el complemento no ofrece una manera coherente e integrada de crear un inventario, escribir y administrar las directivas de grupo.
+El complemento MMC Usuarios y equipos de Active Directory proporciona la interfaz gráfica de usuario principal para crear y administrar unidades organizativas (UO) dentro del dominio. Puede vincular los GPO y las UO, controlar el orden y la herencia de las directivas, así como iniciar el Editor de objetos de directiva de grupo como un proceso independiente para modificar los GPO. Sin embargo, el complemento no ofrece una manera coherente e integrada de crear un inventario, escribir y administrar las directivas de grupo.
 
 Hay disponible más información acerca del complemento MMC Usuarios y equipos de Active Directory en la Ayuda de Windows.
 
@@ -74,7 +74,7 @@ GPMC proporciona:
 
 -   Operaciones de GPO de secuencias de comandos.
 
-Todos los clientes de Windows* *Server* *2003 pueden descargar gratuitamente la [Consola de administración de directivas de grupo con el Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=0a6d4c24-8cbd-4b35-9272-dd3cbfc81887&displaylang=en) en www.microsoft.com/downloads/details.aspx?FamilyID=0a6d4c24-8cbd-4b35-9272-dd3cbfc81887&DisplayLang=en.
+Todos los clientes de Windows Server 2003 pueden descargar gratuitamente la [Consola de administración de directivas de grupo con el Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=0a6d4c24-8cbd-4b35-9272-dd3cbfc81887&displaylang=en) en www.microsoft.com/downloads/details.aspx?FamilyID=0a6d4c24-8cbd-4b35-9272-dd3cbfc81887&DisplayLang=en.
 
 [](#mainsection)[Principio de la página](#mainsection)
 
@@ -134,7 +134,7 @@ Las plantillas de directiva pueden contener una o más secciones que definen los
 
 -   Permisos del sistema de archivos
 
-Las plantillas de directiva son compatibles con la mayoría de las herramientas indicadas anteriormente en este apéndice, y el mismo formato de plantilla se puede usar para las directivas de equipos locales y las directivas de grupo de Active* *Directory. Las plantillas se deben importar con la herramienta apropiada para que se puedan usar.
+Las plantillas de directiva son compatibles con la mayoría de las herramientas indicadas anteriormente en este apéndice, y el mismo formato de plantilla se puede usar para las directivas de equipos locales y las directivas de grupo de Active Directory. Las plantillas se deben importar con la herramienta apropiada para que se puedan usar.
 
 #### Objetos de directiva de grupo (GPO)
 
