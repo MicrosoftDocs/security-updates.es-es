@@ -15,18 +15,18 @@ Actualizado: 27/12/05
 
 ##### En esta página
 
-[](#ehaa)[Información general](#ehaa)
-[](#egaa)[Configuración de directiva de auditoría](#egaa)
-[](#efaa)[Asignaciones de derechos de usuario](#efaa)
-[](#eeaa)[Opciones de seguridad](#eeaa)
-[](#edaa)[Configuración del registro de eventos](#edaa)
-[](#ecaa)[Configuración de seguridad adicional](#ecaa)
-[](#ebaa)[Creación de la directiva utilizando SCW](#ebaa)
+[](#ehaa)[Información general](#ehaa)  
+[](#egaa)[Configuración de directiva de auditoría](#egaa)  
+[](#efaa)[Asignaciones de derechos de usuario](#efaa)  
+[](#eeaa)[Opciones de seguridad](#eeaa)  
+[](#edaa)[Configuración del registro de eventos](#edaa)  
+[](#ecaa)[Configuración de seguridad adicional](#ecaa)  
+[](#ebaa)[Creación de la directiva utilizando SCW](#ebaa)  
 [](#eaaa)[Resumen](#eaaa)
 
 ### Información general
 
-Este capítulo se centra en cómo consolidar los servidores de impresión en los que se ejecuta Microsoft® Windows* *Server™ * *2003 con SP1, un proceso que puede plantear dificultades. Los servicios básicos que proporcionan estos servidores requieren los protocolos de Bloque de mensajes del servidor (SMB) y Sistema común de archivos de Internet (CIFS). Estos dos protocolos pueden ofrecer una gran cantidad de información a los usuarios no autenticados. A menudo, estos protocolos están deshabilitados en los servidores de impresión en entornos Windows de alta seguridad. Sin embargo, será difícil tanto para los administradores como para los usuarios obtener acceso a los servidores de impresión si estos protocolos se deshabilitan en su entorno.
+Este capítulo se centra en cómo consolidar los servidores de impresión en los que se ejecuta Microsoft® Windows Server™ 2003 con SP1, un proceso que puede plantear dificultades. Los servicios básicos que proporcionan estos servidores requieren los protocolos de Bloque de mensajes del servidor (SMB) y Sistema común de archivos de Internet (CIFS). Estos dos protocolos pueden ofrecer una gran cantidad de información a los usuarios no autenticados. A menudo, estos protocolos están deshabilitados en los servidores de impresión en entornos Windows de alta seguridad. Sin embargo, será difícil tanto para los administradores como para los usuarios obtener acceso a los servidores de impresión si estos protocolos se deshabilitan en su entorno.
 
 La mayor parte de los parámetros que se describen en este capítulo se configuran y aplican mediante Directiva de grupo. Un objeto de directiva de grupo (GPO) que complementa la Directiva de línea de base de servidores miembro (MSBP) puede vincularse a las unidades organizativas (UO) apropiadas que contengan los servidores de impresión con el fin de proporcionar la configuración de seguridad necesaria para esta función de servidor. Este capítulo sólo trata aquellas configuraciones de la directiva que varían del MSBP.
 
@@ -60,7 +60,7 @@ En la siguiente tabla se muestran los nombres de las plantillas de seguridad de 
 </tbody>
 </table>
   
-Para obtener más información acerca de la configuración en el MSBP, consulte el capítulo 4, “Directiva de línea de base de servidores miembro”. Para obtener más información acerca de todas las configuraciones predeterminadas, consulte la guía complementaria, [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159)*, *que está disponible en* *http://go.microsoft.com/fwlink/?LinkId=15159.
+Para obtener más información acerca de la configuración en el MSBP, consulte el capítulo 4, “Directiva de línea de base de servidores miembro”. Para obtener más información acerca de todas las configuraciones predeterminadas, consulte la guía complementaria, [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159), que está disponible en http://go.microsoft.com/fwlink/?LinkId=15159.
   
 **Nota**: sólo es posible un acceso fiable a los servidores de impresión que se protegen con la plantilla de seguridad SSLF-Print Server.inf desde equipos cliente protegidos con una configuración compatible. Consulte la *Guía de seguridad de Windows XP* para obtener más información acerca de cómo asegurar equipos cliente con la configuración compatible con SSLF.
   
@@ -210,7 +210,7 @@ La directiva se prueba para asegurar que la aplicación de esta directiva a los 
 Cuando esté satisfecho con la configuración de la directiva, puede utilizar Scwcmd como se muestra en el procedimiento siguiente para convertir las directivas a GPO.
   
 Para obtener más información acerca de cómo probar las directivas del SCW, consulte la [Guía de implementación para el Asistente para la configuración de seguridad](http://technet.microsoft.com/es-es/library/cc776871.aspx) en www.microsoft.com/technet/prodtechnol/windowsserver2003/  
-library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx* *y la [documentación del Asistente para la configuración de seguridad](http://go.microsoft.com/fwlink/?linkid=43450) en http://go.microsoft.com/fwlink/?linkid=43450.
+library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx y la [documentación del Asistente para la configuración de seguridad](http://go.microsoft.com/fwlink/?linkid=43450) en http://go.microsoft.com/fwlink/?linkid=43450.
   
 #### Conversión e implementación de la directiva
   
@@ -218,15 +218,16 @@ Después de probar completamente la directiva, complete los pasos siguientes par
   
 1.  En el símbolo de sistema, escriba el siguiente comando:
   
-    ```  
-scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;  
-```
+    ```
+	scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>
+	```
   
     y, a continuación, pulse Entrar. Por ejemplo:
   
-    ```  
-scwcmd transform /p:"C:\\Windows\\Security\\msscw\\Policies\\Print Server.xml" /g:"Print Server Policy"  
-```
+    ```
+	scwcmd transform /p:"C:\Windows\Security\msscw\Policies\Print
+	Server.xml" /g:"Print Server Policy"
+	```
   
     **Nota**: la información que se introducirá en el símbolo del sistema se muestra aquí en más de una línea a causa de las limitaciones de pantalla. Esta información debe introducirse en una línea.
   
