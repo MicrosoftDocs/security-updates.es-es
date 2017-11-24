@@ -32,6 +32,7 @@ However, if you are aware of and want to protect computers against immediate sec
 
  
 <p> </p>
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -76,6 +77,9 @@ However, if you are aware of and want to protect computers against immediate sec
 </tr>
 </tbody>
 </table>
+
+<p></p>
+
   
 It will take a few minutes before the new policies you have configured take effect. It will be about 20 minutes after Group Policy refreshes (applies any new settings to the client computer). By default, computer Group Policy refreshes in the background every 90 minutes, with a random offset of 0 to 30 minutes. If you want to refresh Group Policy sooner, you can go to a command prompt on the client computer and type: `gpupdate /force`.
   

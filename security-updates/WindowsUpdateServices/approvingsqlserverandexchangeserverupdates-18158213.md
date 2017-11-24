@@ -19,6 +19,7 @@ Your installations (instances) of Microsoft SQL Server on one computer can possi
 -   SQL Server instances in multiple languages on the same computer.
 -   Typically, there is nothing extra you have to do to update these multiple instances; you just need to make sure that when you specify your synchronization options (for example, product, update classifications, and language options), you account for requirements for the versions of the SQL Server instances you have on the computer. For more information about configuring synchronization options, see [Setting Up and Running Synchronizations](https://technet.microsoft.com/a5a006b4-24f6-49d9-bf9b-ceb05934c7ec).
 
+
 Updating Microsoft SQL Server and Microsoft Exchange Servers That Are Part of a Cluster
 ---------------------------------------------------------------------------------------
 
