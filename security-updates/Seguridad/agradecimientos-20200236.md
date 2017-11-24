@@ -17,14 +17,14 @@ El grupo Microsoft Solutions for Security and Compliance (MSSC) desea agradecer 
 
 ##### En esta página
 
-[](#ehaa)[Autores](#ehaa)
-[](#egaa)[Colaboradores de contenido](#egaa)
-[](#efaa)[Director del programa](#efaa)
-[](#eeaa)[Administrador de versiones](#eeaa)
-[](#edaa)[Evaluadores](#edaa)
-[](#ecaa)[Editores](#ecaa)
-[](#ebaa)[Revisores](#ebaa)
-[](#eaaa)[Otros colaboradores](#eaaa)
+[](#ehaa)[Autores](#ehaa)  
+[](#egaa)[Colaboradores de contenido](#egaa)  
+[](#efaa)[Director del programa](#efaa)  
+[](#eeaa)[Administrador de versiones](#eeaa)  
+[](#edaa)[Evaluadores](#edaa)  
+[](#ecaa)[Editores](#ecaa)  
+[](#ebaa)[Revisores](#ebaa)  
+[](#eaaa)[Otros colaboradores](#eaaa)  
 
 ### Autores
 
@@ -144,7 +144,7 @@ Andrew Mason
 
 Don McGowan
 
-James Noyce *  (Consultor principal,* *Business Critical Consulting)*
+James Noyce *(Consultor principal,* *Business Critical Consulting)*
 
 Joe Porter
 
@@ -152,9 +152,7 @@ Joel Scambray
 
 Debra Littlejohn Shinder *(MVP de seguridad)*
 
-Tom Shinder*   (MVP de ISA y seguridad, consultor*
-
-*  de TI TACTeam)*
+Tom Shinder *(MVP de ISA y seguridad, consultorde TI TACTeam)*
 
 Steve Smegner
 
