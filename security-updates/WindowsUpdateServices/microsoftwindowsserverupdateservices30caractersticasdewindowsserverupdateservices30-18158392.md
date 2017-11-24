@@ -15,7 +15,7 @@ Publicado: septiembre 11, 2007
 
 ##### En esta página
 
-[](#ebaa)[Características del servidor](#ebaa)
+[](#ebaa)[Características del servidor](#ebaa)  
 [](#eaaa)[Características del cliente](#eaaa)
 
 ### Características del servidor
