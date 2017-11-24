@@ -43,11 +43,11 @@ BitLocker admite varias opciones diferentes, dependiendo de la capacidad del har
 
 ##### En esta página
 
-[](#egaa)[Opción de BitLocker: BitLocker con TPM](#egaa)
-[](#efaa)[Opción de BitLocker: BitLocker con dispositivo USB](#efaa)
-[](#eeaa)[Opción de BitLocker: BitLocker con TPM y NIP](#eeaa)
-[](#edaa)[Opción de BitLocker: BitLocker con TPM y dispositivo USB](#edaa)
-[](#ecaa)[Resumen de análisis de riesgos de BitLocker](#ecaa)
+[](#egaa)[Opción de BitLocker: BitLocker con TPM](#egaa)  
+[](#efaa)[Opción de BitLocker: BitLocker con dispositivo USB](#efaa)  
+[](#eeaa)[Opción de BitLocker: BitLocker con TPM y NIP](#eeaa)  
+[](#edaa)[Opción de BitLocker: BitLocker con TPM y dispositivo USB](#edaa)  
+[](#ecaa)[Resumen de análisis de riesgos de BitLocker](#ecaa)  
 [](#ebaa)[Más información](#ebaa)
 
 ### Opción de BitLocker: BitLocker con TPM
@@ -88,7 +88,7 @@ La opción de BitLocker con TPM minimiza los siguientes riesgos para los datos:
 
 -   **Detección de claves mediante ataque sin conexión**. La VMK se cifra usando la SRK, una clave que se guarda en el hardware del TPM. Entonces, la VMK se usa para cifrar la FVEK. Para descifrar los datos del volumen cifrado, el atacante necesitará realizar un ataque por fuerza bruta para determinar el valor de la FVEK.
 
-    ![](images/Cc162804.note(es-es,TechNet.10).gif)**Nota:**
+    ![](images/Cc162804.note(es-es,TechNet.10).gif) **Nota:**
 
     De forma predeterminada, BitLocker usa un algoritmo AES-128 (Estándar de cifrado avanzado) más la seguridad de 128 bits del difusor elefante. (Para obtener más información sobre el papel del difusor en el refuerzo de la seguridad de BitLocker, consulte la nota del producto [AES-CBC + Elephant diffuser](http://www.microsoft.com/downloads/details.aspx?familyid=131dae03-39ae-48be-a8d6-8b0034c92555&displaylang=en) para el cifrado de la unidad de BitLocker) También puede configurar BitLocker para usar AES-256 más la versión de 256 bits de Elephant, AES-128 plano o AES-256 plano. Consulte la documentación de Windows Vista para obtener más información acerca de la selección de estos refuerzos de cifrado para BitLocker.
 
@@ -184,7 +184,7 @@ La opción de BitLocker con dispositivo USB no minimiza los siguientes riesgos s
 
 Un equipo con un chip de TPM versión 1.2 y una BIOS que admita BitLocker se puede configurar para requerir dos factores para descifrar datos cifrados con BitLocker. El primer factor es el TPM y el segundo factor es un NIP.
 
-![](images/Cc162804.note(es-es,TechNet.10).gif)**Nota:**
+![](images/Cc162804.note(es-es,TechNet.10).gif) **Nota:**
 
 Microsoft recomienda a las organizaciones que se preocupan por la seguridad el uso de BitLocker con TPM y NIP como opción preferida, ya que no hay token externo alguno que perder o atacar.
 
@@ -319,6 +319,7 @@ La siguiente tabla enumera los riesgos para los datos e indica si las distintas 
 **Tabla 2.1. Minimizaciones de riesgos de BitLocker**
 
 ![](images/Cc162804.fd057821-a2d0-48df-a0b1-5b07eaa7c90a(es-es,TechNet.10).gif)
+
 [](#mainsection)[Principio de la página](#mainsection)
 
 ### Más información
