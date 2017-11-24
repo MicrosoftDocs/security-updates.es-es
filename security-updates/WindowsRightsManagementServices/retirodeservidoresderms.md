@@ -18,8 +18,13 @@ Puede habilitar el retiro en la página Web **Configuración de seguridad** del 
 Una vez habilitado el retiro, el sitio Web de administración sólo contiene la página **Información del servidor retirado**; no se admite ninguna otra función administrativa. Debe llevar a cabo los siguientes pasos para completar el retiro del servidor:
 
 1.  Conceda a la raíz virtual que se va a retirar los permisos de lectura y ejecución de **RMS Service Group**.
+
 2.  Agregue el grupo **Todos** a la lista DACL del archivo decommissioning.asmx con permisos de lectura.
+
 3.  Informe a los usuarios de que va a retirar la instalación de RMS y aconséjeles que se conecten al servidor para guardar su contenido sin protección de RMS.
+
 4.  Configure todas las aplicaciones compatibles con RMS de la empresa para que se conecten a la página decommissioning.asmx. Según la aplicación compatible con RMS, esto se puede controlar mediante una clave de registro o la configuración de directiva de grupo.
+
 5.  Si la organización utiliza aplicaciones compatibles con RMS que usen automáticamente la instalación para publicar, debe utilizar la directiva de grupo para establecer una entrada de registro en estos equipos para que dichas aplicaciones empleen el servicio de retiro.
+
 6.  Cuando crea que se ha desprotegido todo el contenido, realice una copia de seguridad de la clave privada del servidor y, a continuación, desinstale RMS del servidor.

@@ -16,6 +16,9 @@ Cuando se implementa y administra RMS, se deben tener las habilidades y los cono
 Se tratan los siguientes temas:
 
 -   [Requisitos de hardware para RMS](https://technet.microsoft.com/247735de-e901-4f4f-b69e-254680d2f6ba)
+
 -   [Requisitos de software para RMS](https://technet.microsoft.com/17faf2ad-2366-4a92-98a5-766e20a0f741)
+
 -   [Planeamiento de requisitos de clúster para RMS](https://technet.microsoft.com/ec4023eb-4d39-4551-9789-c8a2d973a55b)
+
 -   [Cuentas y permisos necesarios para RMS](https://technet.microsoft.com/07a51daa-6823-41e6-b453-92f1a0592361)

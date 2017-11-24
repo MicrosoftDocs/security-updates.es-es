@@ -16,11 +16,19 @@ Durante el procedimiento de instalación, se inicia el Instalador de Windows (Ms
 El programa de instalación de RMS realiza las siguientes tareas:
 
 -   Copia archivos a la carpeta C:\\Archivos de programa\\RMS. Esta carpeta, normalmente, permite el acceso tanto a administradores como a superusuarios. Durante el proceso de instalación, se puede cambiar la unidad y la ubicación en que se copiarán los archivos.
+
 -   Crea el sitio Web de establecimiento de servicios en línea, el sitio Web de administración de RMS, en el puerto 5720 de forma predeterminada. Este sitio Web señala a los archivos instalados.
+
 -   Crea un grupo de aplicaciones, WMCSProvisioningAppPool, y lo asocia con el sitio Web de administración de RMS. La cuenta de servicio utilizada por este grupo de aplicaciones es la cuenta Servicio de red.
+
 -   Instala contadores de rendimiento.
+
 -   Otorga al grupo de servicio de RMS permisos de lectura y de escritura para la siguiente clave de registro.
+
     En equipos con la versión de 32 bits de Windows Server 2003:
-    `HKEY_LOCAL_MACHINE\Software\Microsoft\DRMS\1.0`
-    En equipos con la versión de 64 bits de Windows Server 2003:
+
+    `HKEY_LOCAL_MACHINE\Software\Microsoft\DRMS\1.0`  
+
+    En equipos con la versión de 64 bits de Windows Server 2003:  
+    
     `HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\DRMS\1.0`

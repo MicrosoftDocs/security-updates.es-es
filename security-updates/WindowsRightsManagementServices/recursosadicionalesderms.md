@@ -59,7 +59,7 @@ Esta guía contiene información acerca de cómo proteger Windows Server 2003. 
 
 #### Seguridad en SQL Server
 
-La página Web **Seguridad en SQL Server** incluye vínculos a información acerca de cómo proteger SQL Server. Está disponible en el [sitio Web de Microsoft](http://go.microsoft.com/fwlink/?linkid=16484)(http://go.microsoft.com/fwlink/?LinkId=16484).
+La página Web **Seguridad en SQL Server** incluye vínculos a información acerca de cómo proteger SQL Server. Está disponible en el [sitio Web de Microsoft](http://go.microsoft.com/fwlink/?linkid=16484) (http://go.microsoft.com/fwlink/?LinkId=16484).
 
 #### Difusión Web de soporte técnico: Microsoft SQL Server 2000: How to Configure SSL Encryption (Cómo configurar el cifrado SSL)
 

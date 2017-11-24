@@ -12,7 +12,9 @@ Revocación de RMS
 La revocación es un mecanismo que cancela una credencial, como un certificado o licencia, que ya se había emitido. La finalidad primordial de la revocación es evitar que entidades que ya no se consideran de confianza participen en un sistema RMS. La revocación se puede aplicar, por ejemplo, en los casos siguientes:
 
 -   Para evitar que se utilice contenido cuando una entidad principal o una identidad de la cadena de confianza se encuentra en una situación comprometida, como cuando un individuo deja la organización y deja por tanto de poder ver el contenido protegido con RMS.
+
 -   Para evitar que una aplicación compatible con RMS determinada abra un fragmento de contenido si dicha aplicación ya no se considera de confianza.
+
 -   Para evitar que se utilice un fragmento de contenido censurable que ya se ha distribuido y para el que ya se ha emitido la licencia de uso.
 
 La revocación funciona en el cliente y evita que los usuarios utilicen un fragmento de contenido, aunque se haya emitido ya una licencia de uso. Cuando se habilita, la revocación está vigente siempre que un usuario intenta utilizar el contenido protegido, tanto si dicho usuario tiene una copia de la licencia de uso almacenada localmente como si solicita una nueva licencia de uso del servidor de RMS en el momento en que intenta utilizarlo.
