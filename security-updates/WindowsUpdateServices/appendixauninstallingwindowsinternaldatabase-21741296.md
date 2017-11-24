@@ -13,6 +13,7 @@ It is not usually necessary to uninstall Windows Internal Database, which WSUS i
 
  
 <p> </p>
+
 > [!IMPORTANT]
 > Uninstalling Windows Internal Database is not recommended, because it may affect other applications that may be using the same database instance (such as Windows SharePoint Services).
  
@@ -27,5 +28,6 @@ It is not usually necessary to uninstall Windows Internal Database, which WSUS i
 
  
 <p> </p>
+
 > [!IMPORTANT]
 > The removal of the application may not remove the default .mdb and .ldb files, which will cause a subsequent WSUS 3.0 installation to fail. These files can be deleted from the %windir%\SYSMSI\SSEE directory.
