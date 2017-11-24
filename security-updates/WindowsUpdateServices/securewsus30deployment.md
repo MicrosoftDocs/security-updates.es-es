@@ -1,13 +1,13 @@
 ---
-TOCTitle: 'Secure WSUS 3.0 SP2 Deployment'
-Title: 'Secure WSUS 3.0 SP2 Deployment'
-ms:assetid: '5c494e41-05d1-4403-ae7b-4fbca2e56cd7'
-ms:contentKeyID: 21741360
-ms:mtpsurl: 'https://technet.microsoft.com/es-es/library/Dd939849(v=WS.10)'
+TOCTitle: 'Secure WSUS 3.0 Deployment'
+Title: 'Secure WSUS 3.0 Deployment'
+ms:assetid: '7e21a374-5bc0-41bb-991c-26abe5c5cd8b'
+ms:contentKeyID: 18158380
+ms:mtpsurl: 'https://technet.microsoft.com/es-es/library/Cc708467(v=WS.10)'
 ---
 
-Secure WSUS 3.0 SP2 Deployment
-==============================
+Secure WSUS 3.0 Deployment
+==========================
 
 This guide includes three ways to enhance the security of your WSUS server:
 
@@ -18,7 +18,7 @@ This guide includes three ways to enhance the security of your WSUS server:
 Hardening your Windows Server 2003 running WSUS
 -----------------------------------------------
 
-You can find recommended settings for hardening your WSUS server in [Appendix E: List of Security Settings](https://technet.microsoft.com/0b284e97-679b-4d0f-83e5-99e68bce5fb9). These recommendations include hardening a number of Windows Server components, as well as IIS 6.0 and SQL Server 2005 or SQL Server 2008.
+You can find recommended settings for hardening your WSUS server in [Appendix E: List of Security Settings](https://technet.microsoft.com/94d7ad52-2e22-46c6-b976-7a47cb956610). These recommendations include hardening a number of Windows Server components, as well as IIS 6.0 and SQL Server 2005.
 
 Adding authentication for chained WSUS Servers in an Active Directory environment
 ---------------------------------------------------------------------------------
@@ -34,7 +34,7 @@ Enabling authentication is a two-step process:
 
 With completion of these two steps, only the downstream computers listed can synchronize with the WSUS server. Each of these steps is detailed below.
 
-### Step 1: Create an authentication list
+#### Step 1: Create an authentication list
 
 WSUS setup creates a configuration file that enables you to add an explicit list of computers that have access to WSUS. You can find this file in the file system of the WSUS server at:
 
@@ -42,12 +42,24 @@ WSUS setup creates a configuration file that enables you to add an explicit list
 
 Use the `<authorization>` element to define an authentication list. You must add the `<authorization>` element below the `<configuration>` and `<system.web>` elements.
 
-        ```
+Consider the example below:
+
+```
+<configuration>
+    <system.web>
+        <authorization>
+           <allow users="domain\computer_name,domain\computer_name" />
+           <deny users="domain\computer_name,domain\computer_name" />
+        </authorization>
+     </system.web>
+</configuration>
+```
+
 Within the opening and closing `<authorization>` tags, you specify a list of computers that are allowed a connection to the Web service. You must enter these computers as `domain\computer_name`. If you want multiple computers, use a comma to separate the names. You can also specify an explicit list of computers that are denied access. Order in this list is important, as the evaluation stops with the first item that applies to the user. If the `<allow users>` element is absent or empty, all servers are allowed.
 
 The XML schema for this list can be found on the [MSDN Web site](http://go.microsoft.com/fwlink/?linkid=47691) at http://go.microsoft.com/fwlink/?LinkId=47691.
 
-### Step 2: Disable anonymous access to the WSUS server
+#### Step 2: Disable anonymous access to the WSUS server
 
 The next step is to configure IIS to disable anonymous access to the ServerSyncWebService virtual directory and enable Integrated Windows authentication.
 
@@ -73,7 +85,7 @@ You can use the Secure Sockets Layer (SSL) protocol to secure your WSUS deployme
 
 Updates consist of two parts: the metadata that describes the update, and the files to install the update on a computer. Microsoft mitigates the risk of sending update files over an unencrypted channel by signing each update. In addition to signing each update, a hash is computed and sent with the metadata for each update. When an update is downloaded, WSUS checks the digital signature and hash. If the update has been altered, it is not installed.
 
-### Limitations of WSUS SSL deployments
+#### Limitations of WSUS SSL deployments
 
 There are two limiting issues that administrators considering WSUS SSL deployments need to take into account.
 
@@ -82,9 +94,9 @@ There are two limiting issues that administrators considering WSUS SSL deploymen
 
 -   Put the database on the WSUS server (the default WSUS configuration).
 -   Put the remote server running SQL and the WSUS server on a private network.
--   Deploy Internet Protocol security (IPSec) on your network to secure network traffic. The Overview of IPSec [http://go.microsoft.com/fwlink/?LinkId=147903](http://go.microsoft.com/fwlink/?linkid=147903) offers guidance about how to deploy IPSec in your environment.
+-   Deploy Internet Protocol security (IPsec) on your network to secure network traffic. The [Overview of IPsec](http://technet2.microsoft.com/windowsserver/en/library/5d81ea85-ebf7-40e9-8acd-8bab1182dff81033.mspx?mfr=true) offers guidance about how to deploy IPsec in your environment.
 
-### Configuring SSL on the WSUS server
+#### Configuring SSL on the WSUS server
 
 The most important thing to remember when configuring the WSUS server to use SSL is that WSUS requires two ports in this configuration: one for encrypted metadata using HTTPS and one for HTTP. When you configure IIS to use SSL, keep the following points in mind:
 
@@ -112,17 +124,17 @@ The most important thing to remember when configuring the WSUS server to use SSL
     -   If you use any other port for HTTPS traffic, WSUS assumes that clear HTTP traffic should be sent over the port that numerically precedes the port for HTTPS. For example, if you use port 8531 for HTTPS, WSUS uses 8530 for HTTP.
 -   You must re-initialize *ClientServicingProxy* if ServerName, SSL configuration or port number are changed.
 
-### Configuring SSL on client computers
+#### Configuring SSL on client computers
 
 There are two important caveats when configuring client computers:
 
--   You must include a URL for a secure port on which the WSUS server is listening. Because you cannot require SSL on the server, the only way to ensure that client computers use a secure channel is to make sure they use a URL that specifies HTTPS. If you are using any port other than 443 for SSL, you must include that port in the URL, too.
-    For example,` https://<ssl-servername>` specifies a WSUS server that is using port 443 for HTTPS; however, while `https://<ssl-servername>:3051` specifies a WSUS server that is using a custom SSL port of 3051.
-    For more information about how to point client computers to the WSUS server, see "Specify intranet Microsoft Update service location" in [Configure Clients Using Group Policy](https://technet.microsoft.com/f47b485b-8fff-4b7c-8386-a9edfeedf2f5) later in this guide.
+-   You must include a URL for a secure port on which the WSUS server is listening. Because you cannot require SSL on the server, the only way to ensure that client computers use a secure channel is to make sure they use a URL that specifies HTTPS. If you are using any port other than 443 for SSL, you must include that port in the URL, too.  
+    For example,` https://<ssl-servername>` specifies a WSUS server that is using port 443 for HTTPS; however, while `https://<ssl-servername>:3051` specifies a WSUS server that is using a custom SSL port of 3051.  
+    For more information about how to point client computers to the WSUS server, see "Specify intranet Microsoft Update service location" in [Configure Clients Using Group Policy](https://technet.microsoft.com/d7d4c391-f707-4257-8987-e40705e097e7) later in this guide. 
 -   The certificate on client computers has to be imported into either the Local Computer's Trusted Root CA store or Automatic Update Service's Trusted Root CA store. If the certificate is imported only to the Local User's Trusted Root CA store, Automatic Updates will fail server authentication.
 -   Your client computers must trust the certificate you bind to the WSUS server in IIS. Depending upon the type of certificate you are using, you may have to set up a service to enable the clients to trust the certificate bound to the WSUS server. For more information, see "Further reading about SSL" later in this section.
 
-### Configuring SSL for downstream WSUS servers
+#### Configuring SSL for downstream WSUS servers
 
 The following instructions are for configuring a downstream server to synchronize to an upstream server that is using SSL.
 
@@ -133,13 +145,13 @@ The following instructions are for configuring a downstream server to synchroniz
 
 3.  Click **OK** to save the settings.
 
-### Additional SSL resources
+#### Further reading about SSL
 
 Setting up a Certification Authority (CA), binding a certificate to the WSUS Web site, and then bootstrapping client computers to trust the certificate on the WSUS Web site are complex administrative tasks. The step-by-step procedures for each task are beyond the scope of this guide.
 
 However, several articles on the subject are available. For more information and instructions about how to install certificates and set up your environment, see the following pages on the Microsoft Web site.
 
 -   The [Windows Server 2003 PKI Operations Guide](http://go.microsoft.com/fwlink/?linkid=83159) (http://go.microsoft.com/fwlink/?LinkId=83159) provides a guide for administrators about how to configure and operate a Windows Certification Authority.
--   Configuring SSL on a Web Server or Web Site at [http://go.microsoft.com/fwlink/?LinkId=83159](http://go.microsoft.com/fwlink/?linkid=100210) offers step-by-step instructions for setting up SSL on a Web site.
+-   [How to Set Up SSL on a Web Server](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/iis/56bdf977-14f8-4867-9c51-34c346d48b04.mspx?mfr=true) offers step-by-step instructions for setting up SSL on a Web site.
 -   [Certificate Autoenrollment in Windows Server 2003](http://go.microsoft.com/fwlink/?linkid=17801) (http://go.microsoft.com/fwlink/?LinkId=17801) offers instructions about how to automatically enroll client computers running Windows XP in Windows Server 2003 Enterprise environments integrated with Active Directory.
--   [Advanced Certificate Enrollment and Management](http://go.microsoft.com/fwlink/?linkid=83160) (http://go.microsoft.com/fwlink/?LinkId=83160) provides guidance about how to automatically enroll client computers in other environments.
+-   [Advanced Certificate Enrollment and Management](http://go.microsoft.com/fwlink/?linkid=83160) (http://go.microsoft.com/fwlink/?LinkId=83160) offers guidance about how to automatically enroll client computers in other environments.
