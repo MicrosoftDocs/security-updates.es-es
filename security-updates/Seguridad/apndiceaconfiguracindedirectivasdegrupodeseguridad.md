@@ -15,10 +15,10 @@ Publicado: noviembre 8, 2006
 
 ##### En esta página
 
-[](#eeaa)[Información general](#eeaa)
-[](#edaa)[Directiva de dominio](#edaa)
-[](#ecaa)[Directiva de equipos](#ecaa)
-[](#ebaa)[Directiva de usuario](#ebaa)
+[](#eeaa)[Información general](#eeaa)  
+[](#edaa)[Directiva de dominio](#edaa)  
+[](#ecaa)[Directiva de equipos](#ecaa)  
+[](#ebaa)[Directiva de usuario](#ebaa)  
 [](#eaaa)[Más información](#eaaa)
 
 ### Información general
@@ -222,7 +222,7 @@ Si esta directiva se encuentra habilitada, las contraseñas han de cumplir los r
   
     -   Caracteres no alfabéticos (por ejemplo, !, $, \# o %)
   
-Cada carácter adicional de una contraseña aumenta su complejidad de forma exponencial. Así, una contraseña de siete letras minúsculas tendría unas 267 (alrededor de 8 x 109 u 8.000 millones) combinaciones posibles. A razón de 1.000.000 de intentos por segundo (capacidad que ofrecen muchas utilidades de descifrado de contraseñas), sólo se necesitarían 133 minutos para descifrarla. Una contraseña alfabética de 7 caracteres en la que se distingan mayúsculas y minúsculas tiene 527 combinaciones. Una contraseña alfanumérica de 7 caracteres en la que se distingan mayúsculas y minúsculas sin puntuación tiene 627 combinaciones. Una contraseña de 8 caracteres tiene 268, o 2 x 1011, combinaciones posibles. Aunque pueda parecer una cifra descomunal, a 1.000.000 de intentos por segundo, sólo harían falta 59 horas para probar todas las posibles contraseñas. Recuerde que estos plazos aumentan de manera significativa al incluir en las contraseñas caracteres ALT y otros caracteres de teclado especiales como “!” o “@”. Si se usa con propiedad la configuración de contraseñas, se dificultan los ataques por fuerza bruta.
+Cada carácter adicional de una contraseña aumenta su complejidad de forma exponencial. Así, una contraseña de siete letras minúsculas tendría unas 26<sup>7</sup> (alrededor de 8 x 10<sup>9</sup> u 8.000 millones) combinaciones posibles. A razón de 1.000.000 de intentos por segundo (capacidad que ofrecen muchas utilidades de descifrado de contraseñas), sólo se necesitarían 133 minutos para descifrarla. Una contraseña alfabética de 7 caracteres en la que se distingan mayúsculas y minúsculas tiene 52<sup>7</sup> combinaciones. Una contraseña alfanumérica de 7 caracteres en la que se distingan mayúsculas y minúsculas sin puntuación tiene 62<sup>7</sup> combinaciones. Una contraseña de 8 caracteres tiene 26<sup>8</sup>, o 2 x 10<sup>11</sup>, combinaciones posibles. Aunque pueda parecer una cifra descomunal, a 1.000.000 de intentos por segundo, sólo harían falta 59 horas para probar todas las posibles contraseñas. Recuerde que estos plazos aumentan de manera significativa al incluir en las contraseñas caracteres ALT y otros caracteres de teclado especiales como “!” o “@”. Si se usa con propiedad la configuración de contraseñas, se dificultan los ataques por fuerza bruta.
   
 **Almacenar contraseñas usando cifrado reversible**  
 Esta configuración de directiva determina si el sistema operativo almacena contraseñas de modo que se emplee el cifrado reversible, lo cual es necesario para los protocolos de aplicaciones que deben conocer la contraseña de los usuarios para la autenticación. Las contraseñas almacenadas con cifrado reversible coinciden básicamente con las versiones de texto sin formato de las contraseñas. Por ello, esta configuración de directiva sólo se debe habilitar cuando los requisitos de las aplicaciones sean más importantes que la necesidad de proteger la información sobre contraseñas. El valor predeterminado de esta configuración de directiva es **Deshabilitado**.
@@ -521,7 +521,7 @@ En Windows Vista, la categoría de auditoría de eventos de inicio/cierre de ses
 <td style="border:1px solid black;">Correcto</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;">§ Bloqueo de cuenta
+<td style="border:1px solid black;">§ Bloqueo de cuenta<br/>
 <strong>Nota</strong>   No se asigna ningún evento a esta subcategoría.</td>
 <td style="border:1px solid black;">Correcto</td>
 <td style="border:1px solid black;">Sin auditoría</td>
@@ -1074,25 +1074,35 @@ Si desea modificar las subcategorías de la directiva de auditoría y los valore
 3.  Borre la configuración actual de directiva de auditoría. Para hacerlo, escriba la línea siguiente en el símbolo del sistema y presione ENTRAR:
   
     ```  
-auditpol /clear  
-```
+        auditpol /clear  
+    ```
   
 4.  Con la herramienta de línea de comandos Auditpol.exe, establezca la configuración personalizada de directiva de auditoría que le interese. Escriba, por ejemplo, las líneas siguientes en el símbolo del sistema. Presione ENTRAR después de cada línea.
   
-    **Nota** Algunas partes del siguiente fragmento de código están dispuestas en varias líneas sólo para facilitar su lectura. Deben especificarse en una sola línea.
-  
-    ```  
-auditpol /set /subcategory:"IPSEC Main Mode" /failure:enable  
-```
-  
-    **Nota** Para ver todas las categorías y subcategorías posibles, escriba la línea siguiente en el símbolo del sistema y presione ENTRAR:  
+**Nota** Algunas partes del siguiente fragmento de código están dispuestas en varias líneas sólo para facilitar su lectura. Deben especificarse en una sola línea.
+
+   ```
+        auditpol /set /subcategory:"user account management"
+                  /success:enable /failure:enable
+   ```
+
+
+   ```  
+        auditpol /set /subcategory:"logon" /success:enable /failure:enable  
+   ```
+
+   ```  
+        auditpol /set /subcategory:"IPSEC Main Mode" /failure:enable  
+   ```  
+
+**Nota** Para ver todas las categorías y subcategorías posibles, escriba la línea siguiente en el símbolo del sistema y presione ENTRAR:  
     **auditpol /list /subcategory:\***
   
-    Escriba la línea siguiente en el símbolo del sistema y presione ENTRAR:
+Escriba la línea siguiente en el símbolo del sistema y presione ENTRAR:
   
-    ```  
-auditpol /backup /file:EC-AuditPolicy.txt (o SSLF-AuditPolicy.txt)  
-```
+   ```  
+        auditpol /backup /file:EC-AuditPolicy.txt (o SSLF-AuditPolicy.txt)  
+   ```
   
 5.  Copie el nuevo archivo **EC-AuditPolicy.txt** (o **SSLF-AuditPolicy.txt**) en el recurso compartido NETLOGON de alguno de los controladores de dominio del entorno y sobrescriba la versión existente.
   
@@ -1232,13 +1242,13 @@ En la tabla siguiente se resumen las recomendaciones para la configuración de l
   
 Las recomendaciones sobre derechos de usuario que empiezan por las restantes letras del alfabeto se resumen en la Tabla A5 y se proporciona información adicional detallada acerca de esos derechos de usuario en las subsecciones que siguen a esa tabla.
   
-**Nota**   Muchas características de IIS requieren que ciertas cuentas como IIS\_WPG, IIS IUSR\_*&lt;equipo&gt;* e* *IWAM\_*&lt;equipo&gt;* cuenten con privilegios específicos. Para obtener más información acerca de qué derechos de usuario requieren las cuentas relacionadas con IIS, consulte el artículo sobre [IIS 6.0 y las cuentas integradas](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/iis/3648346f-e4f5-474b-86c7-5a86e85fa1ff.mspx) (en inglés).
+**Nota**   Muchas características de IIS requieren que ciertas cuentas como IIS\_WPG, IIS IUSR\_*&lt;equipo&gt;* e IWAM\_*&lt;equipo&gt;* cuenten con privilegios específicos. Para obtener más información acerca de qué derechos de usuario requieren las cuentas relacionadas con IIS, consulte el artículo sobre [IIS 6.0 y las cuentas integradas](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/iis/3648346f-e4f5-474b-86c7-5a86e85fa1ff.mspx) (en inglés).
   
-###### Derechos de usuario A – E
+###### Derechos de usuario A – E    
   
 En la tabla siguiente se resumen las recomendaciones sobre la asignación de derechos de usuario desde la letra A hasta la E. Cada uno de los valores se describe con más detalle en las subsecciones que aparecen a continuación.
   
-**Tabla A14. Recomendaciones para la configuración de la asignación de derechos de usuario:** **primera parte**
+**Tabla A14. Recomendaciones para la configuración de la asignación de derechos de usuario: primera parte**
 
  
 <p> </p>
@@ -1499,7 +1509,7 @@ Por ese motivo, el valor **Habilitar confianza con el equipo y las cuentas de us
   
 En la tabla siguiente se resumen las recomendaciones sobre la asignación de derechos de usuario desde la letra F hasta la T. Cada uno de los valores se describe con más detalle en las subsecciones que aparecen a continuación.
   
-**Tabla A15. Recomendaciones para la configuración de la asignación de derechos de usuario:** **segunda parte**
+**Tabla A15. Recomendaciones para la configuración de la asignación de derechos de usuario: segunda parte**
 
  
 <p> </p>
@@ -1663,7 +1673,7 @@ Además, un usuario puede suplantar un símbolo (token) de acceso si se da algun
   
 Un atacante con el derecho de usuario **Suplantar a un cliente tras la autenticación** podría crear un servicio, engañar a un cliente para que se conecte al servicio y, a continuación, suplantar a ese cliente para elevar el nivel de acceso del atacante al mismo del cliente.
   
-Por ello, el valor **Suplantar a un cliente tras la autenticación** se configura como **No definido** en el entorno EC y como **Administradores,** **Servicio,** **Servicio localy Servicio de red** en el entorno SSLF.
+Por ello, el valor **Suplantar a un cliente tras la autenticación** se configura como **No definido** en el entorno EC y como **Administradores, Servicio, Servicio localy Servicio de red** en el entorno SSLF.
   
 **Aumentar el espacio de trabajo de un proceso**  
 Este privilegio determina qué cuentas de usuario pueden aumentar o reducir el tamaño del espacio de trabajo de un proceso. El espacio de trabajo de un proceso es el conjunto de páginas de memoria que son visibles en el momento para el proceso en la memoria RAM física. Se trata de páginas residentes que se encuentran a disposición de la aplicación sin que se desencadene ningún error de página. Los tamaños mínimo y máximo del espacio de trabajo afectan al comportamiento de paginación de la memoria virtual de los procesos.
@@ -2133,7 +2143,7 @@ Cuando esta configuración de directiva está habilitada, sólo se puede estable
   
 Para habilitar esta configuración de directiva, todos los controladores del dominio deben ser capaces de cifrar datos de canal seguro con una clave protegida, lo que significa que en todos los controladores de dominio debe estar ejecutándose Microsoft Windows 2000 o posterior. Si se requiere comunicación con dominios que no estén basados en Windows 2000, Microsoft recomienda deshabilitar esta configuración de directiva.
   
-El valor **Miembro de dominio: requerir clave de sesión segura** **(Windows 2000 o posterior)** se configura como **Habilitado** en los dos entornos que se describen en esta guía.
+El valor **Miembro de dominio: requerir clave de sesión segura (Windows 2000 o posterior)** se configura como **Habilitado** en los dos entornos que se describen en esta guía.
   
 ###### Inicio de sesión interactivo
   
@@ -2528,7 +2538,7 @@ Para obtener más información, consulte el artículo 315231 de Knowledge Base, 
 **MSS: (DisableIPSourceRouting) IP source routing protection level**  
 La entrada de valor de Registro **DisableIPSourceRouting** se ha agregado al archivo de plantilla en la clave de Registro **HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters\\**. La entrada aparece como **MSS: (DisableIPSourceRouting) IP source routing protection level (protects against packet spoofing)** en el SCE.
   
-El enrutamiento de origen IP es un mecanismo que permite al remitente determinar la ruta IP que un datagrama debe tomar a través de la red. Este valor se configura en **No definido** en el entorno EC y en **Highest Protection,** **source routing is completely disabled** en el entorno SSLF.
+El enrutamiento de origen IP es un mecanismo que permite al remitente determinar la ruta IP que un datagrama debe tomar a través de la red. Este valor se configura en **No definido** en el entorno EC y en **Highest Protection, source routing is completely disabled** en el entorno SSLF.
   
 **MSS: (EnableDeadGWDetect) Allow automatic detection of dead network gateways**  
 La entrada de valor de Registro **EnableDeadGWDetect** se ha agregado al archivo de plantilla en la clave de Registro **HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters\\**. La entrada aparece como **MSS: (EnableDeadGWDetect) Allow automatic detection of dead network gateways (could lead to DoS)** en el SCE.
@@ -2559,7 +2569,7 @@ La entrada de valor del Registro **NoDefaultExempt** se agregó al archivo de pl
   
 En la Ayuda en pantalla del sistema operativo oportuno se detallan las exenciones predeterminadas a los filtros de la directiva IPsec. Estos filtros hacen posible que funcionen Internet Key Exchange (IKE) y el protocolo de autenticación Kerberos. Los filtros también hacen posible que se señalice (RSVP) la calidad del servicio (QoS) de la red para el tráfico de datos protegido por IPsec y también para el tráfico que carezca de esa protección como, por ejemplo, el tráfico de difusión y multidifusión.
   
-IPsec se usa cada vez más para el filtrado de paquetes básico de host a firewall, en especial en situaciones de exposición a Internet y, sin embargo, el efecto de estas exenciones predeterminadas no se comprende por completo. Por ello, algunos administradores de IPsec pueden crear directivas IPsec que consideran seguras pero que en realidad no lo son contra ataques entrantes que usan las exenciones predeterminadas. Microsoft recomienda que se aplique la configuración predeterminada para Windows XP con SP2, **Multicast,** **broadcast,** **and ISAKMP are exempt**, en los dos entornos que se describen en esta guía.
+IPsec se usa cada vez más para el filtrado de paquetes básico de host a firewall, en especial en situaciones de exposición a Internet y, sin embargo, el efecto de estas exenciones predeterminadas no se comprende por completo. Por ello, algunos administradores de IPsec pueden crear directivas IPsec que consideran seguras pero que en realidad no lo son contra ataques entrantes que usan las exenciones predeterminadas. Microsoft recomienda que se aplique la configuración predeterminada para Windows XP con SP2, **Multicast, broadcast, and ISAKMP are exempt**, en los dos entornos que se describen en esta guía.
   
 Para obtener más información, consulte el artículo 811832 de Knowledge Base, “[Las exenciones predetermiandas IPSec se pueden utilizar para omitir la protección IPsec en ciertos entornos](http://support.microsoft.com/default.aspx?scid=811832)” (en inglés).
   
@@ -2567,7 +2577,7 @@ Para obtener más información, consulte el artículo 811832 de Knowledge Base, 
 La entrada de valor del Registro **NoDriveTypeAutoRun** está agregada al archivo de plantilla en la clave de Registro **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\**  
 **Policies\\Explorer\\**. La entrada aparece como **MSS: (NoDriveTypeAutoRun) Disable Autorun for all drives (recommended)** en el SCE.
   
-La ejecución automática inicia la lectura de una unidad del equipo tan pronto como se insertan medios en ella. Como resultado, el archivo de instalación de los programas o el sonido de los medios de audio se inicia de inmediato. Esta configuración se establece en **255,** **Disable Autorun for all drives** en los dos entornos que se describen en esta guía.
+La ejecución automática inicia la lectura de una unidad del equipo tan pronto como se insertan medios en ella. Como resultado, el archivo de instalación de los programas o el sonido de los medios de audio se inicia de inmediato. Esta configuración se establece en **255, Disable Autorun for all drives** en los dos entornos que se describen en esta guía.
   
 **MSS: (NoNameReleaseOnDemand) Allow the computer to ignore NetBIOS name release requests except from WINS servers**  
 La entrada de valor del Registro **NoNameReleaseOnDemand** está agregada al archivo de plantilla en la clave de Registro **HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Services\\Netbt\\**  
@@ -2611,11 +2621,11 @@ Esta configuración hace que TCP ajuste la retransmisión de SYN-ACK. Al configu
 La entrada de valor del Registro **TCPMaxConnectResponseRetransmissions** está agregada al archivo de plantilla en la clave de Registro **HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\**  
 **Services\\Tcpip\\Parameters\\**. La entrada aparece como **MSS: (TcpMaxConnectResponseRetransmissions) SYN-ACK retransmissions when a connection request is not acknowledged** en el SCE.
   
-Esta configuración determina el número de veces que TCP retransmite un SYN antes de anular el intento de conexión. El tiempo de espera de retransmisión se duplica con cada retransmisión sucesiva en el intento de conexión en cuestión. El valor de tiempo de espera inicial es de tres segundos. Esta configuración se establece como **No definido** en el entorno EC y como **3 & 6 seconds,** **half-open connections dropped after 21 seconds** en el entorno SSLF.
+Esta configuración determina el número de veces que TCP retransmite un SYN antes de anular el intento de conexión. El tiempo de espera de retransmisión se duplica con cada retransmisión sucesiva en el intento de conexión en cuestión. El valor de tiempo de espera inicial es de tres segundos. Esta configuración se establece como **No definido** en el entorno EC y como **3 & 6 seconds, half-open connections dropped after 21 seconds** en el entorno SSLF.
   
 **MSS: (TCPMaxDataRetransmissions) How many times unacknowledged data is retransmitted**  
 La entrada de valor del Registro **TCPMaxDataRetransmissions** está agregada al archivo de plantilla en la clave de Registro **HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Services\\Tcpip**  
-**\\Parameters\\**. La entrada aparece como **MSS: (TcpMaxDataRetransmissions) How many times unacknowledged data is retransmitted (3 recommended,** **5 is default)** en el SCE.
+**\\Parameters\\**. La entrada aparece como **MSS: (TcpMaxDataRetransmissions) How many times unacknowledged data is retransmitted (3 recommended, 5 is default)** en el SCE.
   
 Esta configuración controla el número de veces que TCP retransmite un segmento de datos individual (segmento sin conexión) antes de que se anule la conexión. El tiempo de espera de retransmisión se duplica con cada retransmisión sucesiva en una conexión. Se restablece cuando se reanudan las respuestas. El valor base de tiempo de espera se determina de forma dinámica según el tiempo de retorno medido en la conexión. Esta configuración se establece como **No definido** en el entorno EC y como **3** en el entorno SSLF.
   
@@ -2624,7 +2634,7 @@ La entrada de valor de Registro **WarningLevel** se ha agregado al archivo de pl
   
 Esta configuración genera una auditoría de seguridad en el registro de eventos de seguridad cuando el registro alcanza el umbral definido por el usuario. Este parámetro de configuración de directiva se establece como **No definido** para el entorno EC y como **90** para el entorno SSLF.
   
-**Nota**   Si la configuración del registro se establece en **Sobrescribir eventos cuando sea necesario** o en **Sobrescribir eventos que tengan más de** ***x*** **días**, no se genera este evento.
+**Nota**   Si la configuración del registro se establece en **Sobrescribir eventos cuando sea necesario** o en **Sobrescribir eventos que tengan más de *x* días**, no se genera este evento.
   
 ###### Acceso a la red
   
@@ -3114,7 +3124,7 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 **Criptografía de sistema: usar algoritmos que cumplan FIPS para cifrado, firma y operaciones hash**  
 Esta configuración de directiva determina si el proveedor de seguridad de tipo Seguridad de la capa de transporte/Capa de sockets seguros (TLS/SSL) es compatible sólo con el conjunto cifrado TLS\_RSA\_WITH\_3DES\_EDE\_CBC\_SHA. Aunque esta configuración de directiva aumente la seguridad, la mayoría de los sitios Web públicos protegidos con TLS o SSL no son compatibles con estos algoritmos. Los equipos cliente que tengan esta configuración de directiva habilitada tampoco pueden conectar a Terminal Services de los servidores que no estén configurados para usar algoritmos que cumplan la norma FIPS.
   
-El valor **Criptografía de sistema: usar algoritmos que cumplan FIPS para cifrado,** **firmay operaciones hash** se configura como **No definido** en el entorno EC y como **Deshabilitado** en el entorno SSLF.
+El valor **Criptografía de sistema: usar algoritmos que cumplan FIPS para cifrado, firmay operaciones hash** se configura como **No definido** en el entorno EC y como **Deshabilitado** en el entorno SSLF.
   
 **Nota**   Si habilita esta configuración de directiva, el rendimiento de los equipos se ralentiza porque el proceso 3DES se ejecuta tres veces en cada uno de los bloques de datos del archivo. Únicamente se debe habilitar esta configuración de directiva en el caso de que la empresa deba cumplir la norma FIPS.
   
@@ -4068,7 +4078,7 @@ Microsoft recomienda que la configuración **Firewall de Windows: permitir excep
 **Firewall de Windows: permitir excepciones de Escritorio remoto de entrada**  
 Muchas organizaciones usan conexiones de Escritorio remoto en sus procedimientos u operaciones normales para la solución de problemas. Sin embargo, en algunos ataques se han aprovechado los puertos que suele utilizar Escritorio remoto.
   
-A fin de otorgar flexibilidad a la administración remota, se ofrece la configuración **Firewall de Windows: permitir excepciones de Escritorio remoto** **de entrada**. Si habilita esta configuración de directiva, Firewall de Windows abre el puerto TCP 3389 para las conexiones entrantes. También debe especificar las direcciones IP o las subredes desde las que se permiten estos mensajes entrantes.
+A fin de otorgar flexibilidad a la administración remota, se ofrece la configuración **Firewall de Windows: permitir excepciones de Escritorio remoto de entrada**. Si habilita esta configuración de directiva, Firewall de Windows abre el puerto TCP 3389 para las conexiones entrantes. También debe especificar las direcciones IP o las subredes desde las que se permiten estos mensajes entrantes.
   
 Si deshabilita esta configuración de directiva, Firewall de Windows bloquea este puerto e impide que el equipo reciba solicitudes de Escritorio remoto. Si un administrador agrega este puerto a una lista de excepciones de puerto local para intentar abrirlo, Firewall de Windows no abre el puerto.
   
@@ -4355,7 +4365,7 @@ Asimismo, las siguientes opciones están disponibles para configurar cuánto tie
   
 -   **Validez máxima del vale (valores)**
   
--   **Validez máxima del vale (unidades): horas,** **minutos o días**
+-   **Validez máxima del vale (unidades): horas, minutos o días**
   
 Cuando un vale (solicitud de ayuda) caduca, el usuario debe enviar otra solicitud para que un experto pueda conectarse al equipo. Si deshabilita la configuración **Asistencia remota solicitada**, los usuarios no pueden enviar solicitudes de ayuda ni el experto puede conectarse a los equipos.
   
@@ -4518,7 +4528,7 @@ Si configura el valor **Desactivar la tarea “Publicar en Web” para archivos 
 **Desactivar descargas de Internet en los asistentes para la publicación en Web y para pedidos en línea**  
 Esta configuración de directiva controla si Windows descargará una lista de proveedores de los asistentes para la publicación en Web y para pedidos en línea. Si esta configuración de directiva se habilita, se evita que Windows descargue proveedores; sólo se muestran los proveedores de servicios almacenados en caché en el Registro local.
   
-Dado que la configuración **Desactivar** **la tarea “Publicar en Web” para archivos y carpetas** se habilita en los entornos EC y SSLF (consulte la sección anterior), esta opción no se necesita. Sin embargo, el parámetro **Desactivar descargas de Internet en los asistentes para la publicación en Web y para pedidos en línea** se configura como **Habilitado** para minimizar la superficie de ataque de los equipos cliente y para asegurar que esta capacidad no se pueda aprovechar de otras maneras.
+Dado que la configuración **Desactivar la tarea “Publicar en Web” para archivos y carpetas** se habilita en los entornos EC y SSLF (consulte la sección anterior), esta opción no se necesita. Sin embargo, el parámetro **Desactivar descargas de Internet en los asistentes para la publicación en Web y para pedidos en línea** se configura como **Habilitado** para minimizar la superficie de ataque de los equipos cliente y para asegurar que esta capacidad no se pueda aprovechar de otras maneras.
   
 **Desactivar el Programa para la mejora de la experiencia del cliente de Windows Messenger**  
 Esta configuración de directiva especifica si Windows Messenger puede recopilar información anónima acerca del uso del servicio y del software Windows Messenger. Puede habilitar esta configuración de directiva para asegurarse de que Windows Messenger no recopila información de uso y para evitar que se muestren parámetros de configuración de usuario que posibiliten la recopilación de información de uso.
@@ -5107,7 +5117,7 @@ Internet Explorer facilita la programación de secuencias de comandos para abrir
   
 El parámetro **Procesos de Internet Explorer** (**Restricciones de seguridad de ventanas con secuencias de comandos**) restringe las ventanas emergentes e impide que a través de secuencias de comandos se muestren ventanas en las que las barras de título y estado no son visibles para el usuario o que se oculten las barras de título y estado de otras ventanas. Si habilita esta configuración de directiva, no se mostrarán ventanas emergentes en el Explorador de Windows ni en los procesos de Internet Explorer. Si deshabilita o no establece esta configuración de directiva, las secuencias de comandos aún podrán crear ventanas emergentes y ventanas que oculten a otras.
   
-El valor **Procesos de Internet Explorer** **(restricciones de seguridad de ventanas con secuencias de comandos)** se configura como **Habilitado** en los dos entornos que se describen en esta guía. Cuando está habilitada, esta configuración de directiva dificulta que, desde sitios Web malintencionados, se controlen sus ventanas de Internet Explorer o se engañe a los usuarios para que hagan clic en la ventana indebida.
+El valor **Procesos de Internet Explorer (restricciones de seguridad de ventanas con secuencias de comandos)** se configura como **Habilitado** en los dos entornos que se describen en esta guía. Cuando está habilitada, esta configuración de directiva dificulta que, desde sitios Web malintencionados, se controlen sus ventanas de Internet Explorer o se engañe a los usuarios para que hagan clic en la ventana indebida.
   
 ###### Internet Explorer\\Características de seguridad\\Protección contra elevación de zona
   
@@ -6755,7 +6765,7 @@ Si deshabilita esta configuración de directiva, no se cargan con parámetros lo
 La configuración **Inicializar y activar los scripts de los controles de ActiveX no marcados como seguros** se establece en **Habilitado: Deshabilitar** en el entorno SSLF y en **Sin configurar** en el entorno EC tanto para **Zona Internet** como para **Zona de sitios restringidos**.
   
 **Permisos de Java**  
-Esta configuración de directiva permite administrar los permisos para los applets de Java. Si habilita esta configuración de directiva, puede seleccionar una de las opciones disponibles en el cuadro desplegable. **Personalizado**: permite controlar la configuración de cada uno de los permisos por separado. **Seguridad baja**: permite que los applets realicen cualquier operación**. Seguridad media**: permite que los applets se ejecuten en su recinto (un área de la memoria fuera de la cual el programa no puede realizar llamadas), además de ofrecer capacidades como el espacio de desecho (una zona segura de almacenamiento en el equipo cliente) o E/S de archivos controlada por el usuario. **Seguridad alta**: permite que los applets se ejecuten en su recinto. Deshabilitar Java: impide la ejecución de todos los applets. Si deshabilita esta configuración de directiva, los applets de Java no pueden ejecutarse. Si no configura este valor de directiva, el permiso se establece en **Seguridad alta**.
+Esta configuración de directiva permite administrar los permisos para los applets de Java. Si habilita esta configuración de directiva, puede seleccionar una de las opciones disponibles en el cuadro desplegable. **Personalizado**: permite controlar la configuración de cada uno de los permisos por separado. **Seguridad baja**: permite que los applets realicen cualquier operación. **Seguridad media**: permite que los applets se ejecuten en su recinto (un área de la memoria fuera de la cual el programa no puede realizar llamadas), además de ofrecer capacidades como el espacio de desecho (una zona segura de almacenamiento en el equipo cliente) o E/S de archivos controlada por el usuario. **Seguridad alta**: permite que los applets se ejecuten en su recinto. Deshabilitar Java: impide la ejecución de todos los applets. Si deshabilita esta configuración de directiva, los applets de Java no pueden ejecutarse. Si no configura este valor de directiva, el permiso se establece en **Seguridad alta**.
   
 La configuración **Permisos de Java** se establece en **Habilitado: Deshabilitar Java** en el entorno SSLF y en **Sin configurar** en el entorno EC tanto para **Zona Internet** como para **Zona de sitios restringidos**.
   
@@ -6769,7 +6779,7 @@ La configuración **Ejecutar aplicaciones y archivos en IFRAME** se establece en
 **Opciones para el inicio de sesión**  
 Esta configuración de directiva permite administrar la configuración de opciones para el inicio de sesión. Si habilita esta configuración de directiva, puede seleccionar cualquiera de estas opciones para el inicio de sesión:
   
-**Inicio de sesión** **anónimo**: deshabilita la autenticación HTTP y usa la cuenta de invitado sólo para el protocolo de Sistema de archivos Internet comunes (CIFS).
+**Inicio de sesión anónimo**: deshabilita la autenticación HTTP y usa la cuenta de invitado sólo para el protocolo de Sistema de archivos Internet comunes (CIFS).
   
 **Preguntar por el nombre de usuario y la contraseña**: solicita al usuario que especifique su identificador y su contraseña. Después de formular la pregunta al usuario, estos valores se usan de forma silenciosa para el resto de la sesión.
   
@@ -6791,7 +6801,7 @@ La configuración **Navegar entre los submarcos de dominios distintos** se estab
 **Abrir archivos basándose en el contenido, no en la extensión de archivo**  
 Esta configuración de directiva permite administrar el examen de MIME para cambiar los archivos de un tipo a otro tipo en función del examen realizado. El examen de MIME consiste en el reconocimiento por parte de Internet Explorer del tipo de archivo basándose en la firma de bits. Si habilita esta configuración de directiva, no se aplica la opción **Característica de seguridad de examen de MIME** en la zona. La zona de seguridad se ejecuta sin la capa agregada de seguridad que brinda esta característica. Si deshabilita esta configuración de directiva, se impide la ejecución de acciones que podrían resultar dañinas. Esta característica de seguridad de Internet Explorer se encuentra activada en la zona según indique la configuración de control de la característica para el proceso. Si no establece esta configuración de directiva, no se aplica la opción **Característica de seguridad de examen de MIME** en la zona.
   
-La configuración **Abrir archivos basándose en el contenido,** **no en la extensión de archivo** se establece en **Habilitado: Deshabilitar** en el entorno SSLF y en **Sin configura**r en el entorno EC tanto para **Zona Internet** como para **Zona de sitios restringidos**.
+La configuración **Abrir archivos basándose en el contenido, no en la extensión de archivo** se establece en **Habilitado: Deshabilitar** en el entorno SSLF y en **Sin configura**r en el entorno EC tanto para **Zona Internet** como para **Zona de sitios restringidos**.
   
 **Ejecutar componentes que dependen de .NET Framework sin firma de Authenticode**  
 Esta configuración de directiva permite administrar si se pueden ejecutar componentes de .NET Framework que no estén firmados con Authenticode® desde Internet Explorer. Entre otros componentes, se incluyen los controles administrados a los que se hace referencia en etiquetas de objetos así como los ejecutables administrados cuya referencia proviene de vínculos.
@@ -6856,7 +6866,7 @@ Puede establecer esta configuración recomendada en la siguiente ubicación del 
   
 La tabla siguiente resume los parámetros de configuración de usuario recomendados para Internet Explorer. En las subsecciones que siguen a la tabla se amplía la información acerca de cada configuración.
   
-**Nota   **Estos valores no se aplican a Internet Explorer 7. Sólo se configuran en el entorno EC porque puede incluir equipos en los que se ejecuta Windows XP con Internet Explorer 6.0.
+**Nota** Estos valores no se aplican a Internet Explorer 7. Sólo se configuran en el entorno EC porque puede incluir equipos en los que se ejecuta Windows XP con Internet Explorer 6.0.
   
 **Tabla A71. Configuración recomendada de las páginas sin conexión**
 
