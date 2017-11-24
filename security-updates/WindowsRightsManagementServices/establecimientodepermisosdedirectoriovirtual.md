@@ -17,9 +17,9 @@ Antes de que los usuarios puedan empezar a utilizar el servicio de retiro, es pr
 
 1.  Abra el Editor del Registro.
 2.  Desplácese a `HKEY_CURRENT_USER\Software\Microsoft\Office\11.0\Common\DRM` y agregue una nueva clave con el nombre `Retiro`.
-3.  Bajo la clave Retiro, agregue la nueva entrada **Valor de la cadena** que se indica a continuación, reemplazando *su-servidor-de-licencias* por el nombre del servidor de RMS:
+3.  Bajo la clave Retiro, agregue la nueva entrada **Valor de la cadena** que se indica a continuación, reemplazando *su-servidor-de-licencias* por el nombre del servidor de RMS:  
     `http://`*su-servidor-de-licencias*`/_wmcs/licensing`
-4.  A continuación, haga clic con el botón secundario del mouse en la entrada y seleccione **Modificar** para especificar los datos del valor para que haga referencia al servicio de retiro:
+4.  A continuación, haga clic con el botón secundario del mouse en la entrada y seleccione **Modificar** para especificar los datos del valor para que haga referencia al servicio de retiro:  
     `http://`*su-servidor-de-licencias*`/_wmcs/decommission`
 
 > [!NOTE]
