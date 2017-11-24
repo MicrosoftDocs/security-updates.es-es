@@ -15,19 +15,19 @@ Actualizado: 27/12/05
 
 ##### En esta página
 
-[](#eiaa)[Información general](#eiaa)
-[](#ehaa)[Acceso anónimo y configuración de SSLF](#ehaa)
-[](#egaa)[Configuración de directiva de auditoría](#egaa)
-[](#efaa)[Asignaciones de derechos de usuario](#efaa)
-[](#eeaa)[Opciones de seguridad](#eeaa)
-[](#edaa)[Configuración del registro de eventos](#edaa)
-[](#ecaa)[Configuración de seguridad adicional](#ecaa)
-[](#ebaa)[Creación de la directiva utilizando SCW](#ebaa)
+[](#eiaa)[Información general](#eiaa)  
+[](#ehaa)[Acceso anónimo y configuración de SSLF](#ehaa)  
+[](#egaa)[Configuración de directiva de auditoría](#egaa)  
+[](#efaa)[Asignaciones de derechos de usuario](#efaa)  
+[](#eeaa)[Opciones de seguridad](#eeaa)  
+[](#edaa)[Configuración del registro de eventos](#edaa)  
+[](#ecaa)[Configuración de seguridad adicional](#ecaa)  
+[](#ebaa)[Creación de la directiva utilizando SCW](#ebaa)  
 [](#eaaa)[Resumen](#eaaa)
 
 ### Información general
 
-Este capítulo proporciona orientación que le ayudará a consolidar los servidores web de su entorno en los que se ejecute Microsoft® Windows* *Server™* *2003 con SP1. Con el fin de proporcionar una seguridad completa para los servidores y aplicaciones web de una organización, Microsoft recomienda proteger todos los servidores de Servicios de Internet* *Information* *Server (IIS) de Microsoft, así como los sitios web y las aplicaciones que se ejecutan en esos servidores desde los equipos cliente que pueden conectarse a ellos. También debe proteger estos sitios web y las aplicaciones que se ejecutan en otros servidores IIS de la organización de la intranet.
+Este capítulo proporciona orientación que le ayudará a consolidar los servidores web de su entorno en los que se ejecute Microsoft® Windows Server™ 2003 con SP1. Con el fin de proporcionar una seguridad completa para los servidores y aplicaciones web de una organización, Microsoft recomienda proteger todos los servidores de Servicios de Internet Information Server (IIS) de Microsoft, así como los sitios web y las aplicaciones que se ejecutan en esos servidores desde los equipos cliente que pueden conectarse a ellos. También debe proteger estos sitios web y las aplicaciones que se ejecutan en otros servidores IIS de la organización de la intranet.
 
 Como medida para protegerse contra atacantes y usuarios malintencionados, en la configuración predeterminada para miembros de la familia de Windows Server 2003 no se instala IIS. Cuando se instala, IIS se configura en un modo sumamente seguro y "bloqueado". Por ejemplo, en su estado predeterminado, IIS sólo sirve contenido estático. Dado que podrían ser aprovechadas por posibles intrusos, hay características como las páginas Active Server (ASP), la ASP.NET, Inclusión del servidor (SSI), WebDAV (Web Distributed Authoring and Versioning) y extensiones de servidor de Microsoft FrontPage® que no funcionarán hasta que un administrador las habilite. Estas características y servicios se pueden habilitar a través del nodo Extensiones del servicio web del Administrador de servicios de Internet Information Server (Administrador IIS). Administrador IIS presenta una interfaz gráfica de usuario (GUI) diseñada para facilitar la administración de IIS. Contiene recursos para la administración de archivos y directorios, la configuración de grupos de aplicaciones, así como características de seguridad, rendimiento y confiabilidad.
 
@@ -37,7 +37,7 @@ La mayor parte de los parámetros que se describen en este capítulo se configur
 
 Siempre que sea posible, estas configuraciones se reunirán en una plantilla incremental de Directiva de grupo que se aplicará a la unidad organizativa de servidores web. Parte de los ajustes que se muestran en este capítulo no se pueden aplicar mediante Directiva de grupo. Se proporciona información detallada acerca de cómo configurar estos ajustes manualmente.
 
-En la siguiente tabla se muestran los nombres de las plantillas de seguridad de servidor web para los tres entornos que se definen en esta guía. Estas plantillas de seguridad de servidor web proporcionan las configuraciones de directiva para la plantilla incremental de servidores web. Puede utilizar esta plantilla para crear un nuevo GPO vinculado a la unidad organizativa Servidores web en el entorno apropiado. El capítulo 2, "Mecanismos de seguridad de Windows* *Server* *2003" proporciona instrucciones paso a paso para ayudarle a crear las unidades organizativas y las directivas de grupo y después importar la plantilla de seguridad apropiada en cada GPO.
+En la siguiente tabla se muestran los nombres de las plantillas de seguridad de servidor web para los tres entornos que se definen en esta guía. Estas plantillas de seguridad de servidor web proporcionan las configuraciones de directiva para la plantilla incremental de servidores web. Puede utilizar esta plantilla para crear un nuevo GPO vinculado a la unidad organizativa Servidores web en el entorno apropiado. El capítulo 2, "Mecanismos de seguridad de Windows Server 2003" proporciona instrucciones paso a paso para ayudarle a crear las unidades organizativas y las directivas de grupo y después importar la plantilla de seguridad apropiada en cada GPO.
 
 **Tabla 9.1 Plantillas de seguridad de servidor IIS**
 
@@ -117,7 +117,7 @@ La configuración del registro de eventos para los servidores IIS en los tres en
   
 ### Configuración de seguridad adicional
   
-Cuando IIS se instala en un equipo en el que se ejecuta Windows* *Server* *2003 con SP1, su configuración predeterminada sólo permite la transmisión de contenido web estático. Cuando los sitios y aplicaciones web incluyen contenido dinámico o requieren uno o varios componentes de IIS adicionales, se deberán habilitar de forma individual características adicionales de IIS. Sin embargo, deberá tener cuidado para reducir al mínimo la superficie de ataque de los servidores IIS de su entorno. Si los sitios web de su organización sólo incluyen contenido estático y no requieren otros componentes de IIS, la configuración predeterminada bastará para reducir al mínimo la superficie de ataque de los servidores IIS.
+Cuando IIS se instala en un equipo en el que se ejecuta Windows Server 2003 con SP1, su configuración predeterminada sólo permite la transmisión de contenido web estático. Cuando los sitios y aplicaciones web incluyen contenido dinámico o requieren uno o varios componentes de IIS adicionales, se deberán habilitar de forma individual características adicionales de IIS. Sin embargo, deberá tener cuidado para reducir al mínimo la superficie de ataque de los servidores IIS de su entorno. Si los sitios web de su organización sólo incluyen contenido estático y no requieren otros componentes de IIS, la configuración predeterminada bastará para reducir al mínimo la superficie de ataque de los servidores IIS.
   
 La configuración de seguridad que se aplica mediante MSBP proporciona un nivel alto de protección para los servidores IIS. Sin embargo, hay algunos parámetros de configuración adicionales que deben tenerse en cuenta. Los parámetros de configuración de las siguientes secciones no se pueden implementar a través de Directiva de grupo y por lo tanto deben establecerse manualmente en todos los servidores IIS.
   
@@ -196,6 +196,7 @@ En la siguiente tabla se describen brevemente los subcomponentes del servidor de
 <td style="border:1px solid black;">Servicios de Internet Information Server (IIS)</td>
 <td style="border:1px solid black;">Habilitada</td>
 <td style="border:1px solid black;">Ofrece servicios web y FTP básicos. Este componente es necesario para los servidores IIS dedicados.
+
 <strong>Nota</strong>: si no está habilitado este componente, se deshabilitan todos los subcomponentes.</td>
 </tr>
 <tr class="even">
@@ -776,7 +777,7 @@ La directiva se prueba para asegurar que la aplicación de esta directiva a los 
 Cuando esté satisfecho con la configuración de la directiva, puede utilizar Scwcmd como se muestra en el procedimiento siguiente para convertir las directivas a GPO.
 
 Para obtener más información acerca de cómo probar las directivas del SCW, consulte la [Guía de implementación para el Asistente para la configuración de seguridad](http://technet.microsoft.com/es-es/library/cc776871.aspx) en www.microsoft.com/technet/prodtechnol/windowsserver2003/
-library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx* *y la [documentación del Asistente para la configuración de seguridad](http://go.microsoft.com/fwlink/?linkid=43450) en http://go.microsoft.com/fwlink/?linkid=43450.
+library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx y la [documentación del Asistente para la configuración de seguridad](http://go.microsoft.com/fwlink/?linkid=43450) en http://go.microsoft.com/fwlink/?linkid=43450.
 
 #### Conversión e implementación de la directiva
 
@@ -784,12 +785,17 @@ Después de probar exhaustivamente la directiva, siga los pasos que se indican a
 
 1.  En el símbolo de sistema, escriba el siguiente comando:
 
-    
-        ```
+    ```
+    scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>
+    ```
+
     y, a continuación, pulse Entrar. Por ejemplo:
 
+    ```
+    scwcmd transform /p:"C:\Windows\Security\msscw\Policies\IIS
+    Server.xml" /g:"IIS Policy"
+    ```
     
-        ```
     **Nota**: la información que se introducirá en el símbolo del sistema se muestra aquí en más de una línea a causa de las limitaciones de pantalla. Esta información debe introducirse en una línea.
 
 2.  Utilice la Consola de administración de directivas de grupo para vincular los nuevos GPO creados a la UO apropiada.

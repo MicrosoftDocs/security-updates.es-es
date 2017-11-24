@@ -13,13 +13,13 @@ Publicado: diciembre 9, 2004 | Actualizado: julio 21, 2006
 
 ##### En esta página
 
-[](#ehaa)[Introducción](#ehaa)
-[](#egaa)[Antes de comenzar](#egaa)
-[](#efaa)[Adición de revisiones a estaciones de trabajo administrativas y Windows Small Business Server 2003](#efaa)
-[](#eeaa)[Crear un objeto de directiva de grupo y actualizarlo](#eeaa)
-[](#edaa)[Configuración de los parámetros de Firewall de Windows mediante Directiva de grupo](#edaa)
-[](#ecaa)[Aplicación de la configuración con GPUpdate](#ecaa)
-[](#ebaa)[Comprobación de la aplicación de la configuración de Firewall de Windows](#ebaa)
+[](#ehaa)[Introducción](#ehaa)  
+[](#egaa)[Antes de comenzar](#egaa)  
+[](#efaa)[Adición de revisiones a estaciones de trabajo administrativas y Windows Small Business Server 2003](#efaa)  
+[](#eeaa)[Crear un objeto de directiva de grupo y actualizarlo](#eeaa)  
+[](#edaa)[Configuración de los parámetros de Firewall de Windows mediante Directiva de grupo](#edaa)  
+[](#ecaa)[Aplicación de la configuración con GPUpdate](#ecaa)  
+[](#ebaa)[Comprobación de la aplicación de la configuración de Firewall de Windows](#ebaa)  
 [](#eaaa)[Información relacionada](#eaaa)
 
 ### Introducción
@@ -336,8 +336,7 @@ Tras completar los pasos siguientes para configurar los parámetros de Firewall 
   
     **Tabla 2. Recomendaciones de configuración de Firewall de Windows**
 
- 
-    <p> </p>
+<p> </p>
 <table style="border:1px solid black;">
     <colgroup>
     <col width="25%" />

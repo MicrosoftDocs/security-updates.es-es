@@ -13,9 +13,9 @@ Publicado: 29/08/2006
 
 ##### En esta página
 
-[](#edaa)[Introducción](#edaa)
-[](#ecaa)[Tecnologías de las tarjetas inteligentes](#ecaa)
-[](#ebaa)[Inicio de sesión de tarjeta inteligente en un escenario de VPN de acceso remoto](#ebaa)
+[](#edaa)[Introducción](#edaa)  
+[](#ecaa)[Tecnologías de las tarjetas inteligentes](#ecaa)  
+[](#ebaa)[Inicio de sesión de tarjeta inteligente en un escenario de VPN de acceso remoto](#ebaa)  
 [](#eaaa)[Resumen](#eaaa)
 
 ### Introducción
@@ -633,7 +633,7 @@ Asegurarse de que el servidor VPN confía en el certificado de la tarjeta inteli
 </table>
  
 
-Para obtener más información sobre la solución de problemas generales de las conexiones VPN, consulte el tema **[Solución de problemas de VPN](http://technet2.microsoft.com/windowsserver/en/library/4543aff5-e10f-487c-92ad-bb5518a736201033.mspx) de Microsoft TechNet en http://technet2.microsoft.com/WindowsServer/en/Library/4543aff5-e10f-487c-92ad-bb5518a736201033.mspx (puede estar en inglés).
+Para obtener más información sobre la solución de problemas generales de las conexiones VPN, consulte el tema [Solución de problemas de VPN](http://technet2.microsoft.com/windowsserver/en/library/4543aff5-e10f-487c-92ad-bb5518a736201033.mspx) de Microsoft TechNet en http://technet2.microsoft.com/WindowsServer/en/Library/4543aff5-e10f-487c-92ad-bb5518a736201033.mspx (puede estar en inglés).
 
 [](#mainsection)[Principio de la página](#mainsection)
 

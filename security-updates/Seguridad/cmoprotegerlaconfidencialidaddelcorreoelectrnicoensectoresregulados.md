@@ -13,8 +13,8 @@ Publicado: agosto 18, 2006
 
 ##### En esta página
 
-[](#ecaa)[Introducción](#ecaa)
-[](#ebaa)[Ayuda para proteger el escenario de confidencialidad del correo electrónico](#ebaa)
+[](#ecaa)[Introducción](#ecaa)  
+[](#ebaa)[Ayuda para proteger el escenario de confidencialidad del correo electrónico](#ebaa)  
 [](#eaaa)[Resumen](#eaaa)
 
 ### Introducción

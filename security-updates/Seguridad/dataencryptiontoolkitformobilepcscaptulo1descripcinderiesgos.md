@@ -31,10 +31,10 @@ Esta guía no incluye descripciones de la protección de datos para los siguient
 
 ##### En esta página
 
-[](#efaa)[Riesgos de seguridad de los datos](#efaa)
-[](#eeaa)[Conceptos criptográficos para la protección de datos](#eeaa)
-[](#edaa)[Información sobre los riesgos para los datos](#edaa)
-[](#ecaa)[Enfoques de la protección de datos](#ecaa)
+[](#efaa)[Riesgos de seguridad de los datos](#efaa)  
+[](#eeaa)[Conceptos criptográficos para la protección de datos](#eeaa)  
+[](#edaa)[Información sobre los riesgos para los datos](#edaa)  
+[](#ecaa)[Enfoques de la protección de datos](#ecaa)  
 [](#ebaa)[Más información](#ebaa)
 
 ### Riesgos de seguridad de los datos
@@ -71,7 +71,7 @@ Para comparar los puntos fuertes y débiles de los distintos enfoques del cifrad
 
 El cifrado se puede implementar de muchas formas. Por ejemplo, el cifrado se puede realizar en capas o en patrones complicados creados en algoritmos únicos. El uso de claves criptográficas se suele tratar en términos de longitud de clave, pero es mucho más importante cómo se calculan, almacenan y usan esas claves. El almacenamiento y la protección de claves criptográficas no se suele tratar en detalle en la documentación técnica del producto, pero estos problemas son esenciales para entender la parte más vulnerable de una tecnología de cifrado.
 
-![](images/Cc162822.note(es-es,TechNet.10).gif)**Nota:**
+![](images/Cc162822.note(es-es,TechNet.10).gif) **Nota:**
 
 Esta sección de la guía no pretender ser un tratado general sobre las tecnologías de datos. Si no dispone de conocimientos básicos sobre los fundamentos del cifrado, como el cifrado simétrico y asimétrico, debe revisar el artículo "[Criptografía para la seguridad de redes e información](http://www.microsoft.com/technet/prodtechnol/windows2000serv/reskit/distrib/dsch_key_rveg.mspx)".
 
@@ -93,7 +93,7 @@ Si las tecnologías de cifrado están sujetas a estas vulnerabilidades, se puede
 
 El segundo factor es que el cifrado se puede realizar con suficiente resistencia ante ataques para proporcionar un grado de seguridad adecuado para los datos que se están protegiendo. Es decir, normalmente no importa si un gobierno puede aplicar todos sus recursos y romper con éxito el cifrado que protege la base de datos del cliente. Es posible que sólo necesite una solución de cifrado que evite descubrir los datos fácilmente si éstos quedaran de alguna manera a disposición de personas no autorizadas con recursos o conocimientos muy limitados. Otra forma de evaluar las necesidades de cifrado es asegurarse de que los datos que decide cifrar se evalúan para comprobar su validez y se comparan con los costos estimados para romper el cifrado. Por ejemplo, si la base de datos de un cliente vale 100.000 USD para la competencia y el costo estimado para romper el cifrado es de 1 millón USD, probablemente el nivel de cifrado usado es suficiente.
 
-![](images/Cc162822.note(es-es,TechNet.10).gif)**Nota:**
+![](images/Cc162822.note(es-es,TechNet.10).gif) **Nota:**
 
 Para obtener más información acerca de las formas de garantizar que la implementación criptográfica es segura, consulte el capítulo 19 de [Publicación especial 800-12 – Introducción a la seguridad de equipos: el cuaderno NIST](http://csrc.nist.gov/publications/nistpubs/800-12/), publicado por el Instituto Nacional de Estándares y Tecnología (NIST) de Estados Unidos.
 
@@ -135,7 +135,7 @@ El objetivo de una solución de cifrado es cifrar todos los datos importantes pa
 
 La mayoría de equipos portátiles cuentan con una característica denominada hibernación que permite a los usuarios apagar el sistema de forma que no consuma energía, pero que se reinicie exactamente en el mismo estado en que se encontraba antes de entrar en modo de hibernación. Sin embargo, dejar el equipo en modo de hibernación no seguro implica que un atacante puede tener acceso ilimitado a toda la información del equipo. Como en el modo de suspensión, los equipos se pueden configurar para que soliciten las credenciales de usuario al reanudarse desde el modo de hibernación. Puede encontrar detalles sobre cómo habilitar esta configuración en [Proteger el equipo mediante contraseña durante el modo de espera o de hibernación](http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/pwrmn_passwordprotect_standby.mspx?mfr=true), que es parte de la documentación en línea de los productos Windows XP Professional.
 
-![](images/Cc162822.important(es-es,TechNet.10).gif)**Importante:**
+![](images/Cc162822.important(es-es,TechNet.10).gif) **Importante:**
 
 Microsoft recomienda encarecidamente que solicite el uso de credenciales para desbloquear un equipo en el modo de hibernación.
 
@@ -143,7 +143,7 @@ Microsoft recomienda encarecidamente que solicite el uso de credenciales para de
 
 Es posible configurar un equipo portátil para que no solicite al usuario una contraseña o una tarjeta inteligente cuando se reanude desde el modo de suspensión, lo que significa que el equipo se deja activado y disponible para que lo use cualquier persona. Los usuarios que configuren sus equipos para usar el modo de suspensión se encuentran en riesgo máximo si el equipo no requiere inicio de sesión al reanudarse tras un tiempo en modo de suspensión. Puede encontrar detalles sobre cómo habilitar esta configuración en [Proteger el equipo mediante contraseña durante el modo de espera o de hibernación](http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/pwrmn_passwordprotect_standby.mspx?mfr=true), que es parte de la documentación en línea de los productos Windows XP Professional.
 
-![](images/Cc162822.important(es-es,TechNet.10).gif)**Importante:**
+![](images/Cc162822.important(es-es,TechNet.10).gif) **Importante:**
 
 Microsoft recomienda encarecidamente que solicite el uso de credenciales para desbloquear un equipo tras un tiempo en modo de suspensión.
 
@@ -157,7 +157,7 @@ Un atacante que obtenga las credenciales de un usuario podrá obtener acceso a l
 
 En un sistema de seguridad, el eslabón más débil de la tecnología de cifrado es normalmente la contraseña del usuario porque las contraseñas seleccionadas por usuarios suelen ser mucho menos seguras que incluso las claves menos seguras usadas por los algoritmos de cifrado comunes. El autor de [Evitar productos de cifrado fantasmas: P+F sobre remedios milagrosos](http://www.faqs.org/faqs/cryptography-faq/snake-oil/) afirma que incluso una frase en inglés de 20 caracteres tan sólo tiene 40 bits de aleatoriedad en vez de los 20x8=160 bits de aleatoriedad que se puede esperar. Una contraseña de 8 caracteres tiene mucho menos de 40 bits de aleatoriedad, según declara este autor. Sin embargo, incluso este escenario no es tan preocupante como alguien que escriba su contraseña en un papel y lo pegue en su portátil, que efectivamente puede estropear cualquier solución de cifrado basada en la contraseña de usuario.
 
-![](images/Cc162822.note(es-es,TechNet.10).gif)**Nota:**
+![](images/Cc162822.note(es-es,TechNet.10).gif) **Nota:**
 
 Los ataques que descubren la contraseña de usuario mediante ingeniería social u otros métodos de ataque no técnicos no se incluyen en esta guía. Se considera que los ataques de descubrimiento de contraseñas implican principalmente ataques criptográficos por fuerza bruta u otros ataques técnicos contra almacenes de credenciales.
 
@@ -189,7 +189,7 @@ El concepto de hibernación es parecido al concepto de paginación del sistema, 
 
 Los sistemas operativos modernos proporcionan grandes cantidades de memoria virtual para las aplicaciones cambiando los datos en memoria que no se usan a un archivo de paginación almacenado en la unidad de disco duro. Sin embargo, esta funcionalidad crea un riesgo, ya que una aplicación que se ejecuta en el equipo puede cargar datos cifrados desde el disco, descifrarlos en memoria para su uso y, a continuación, escribirlos como datos sin cifrar en la unidad de disco duro en forma de archivo de paginación. Algunos sistemas operativos eliminan el archivo de paginación durante las operaciones de apagado, pero existen formas conocidas de evitar la eliminación del archivo de paginación (incluido el bloqueo provocado del sistema operativo). También puede ser irrelevante recuperar el archivo de paginación y explorar su contenido. Los ataques contra el archivo de paginación casi siempre consisten en quitar la unidad de disco duro del equipo de destino y montarlo en otro equipo o iniciar otro sistema operativo en el equipo de destino. Estos ataques se denominan *ataques sin conexión*.
 
-![](images/Cc162822.note(es-es,TechNet.10).gif)**Nota:**
+![](images/Cc162822.note(es-es,TechNet.10).gif) **Nota:**
 
 El material confidencial, como claves criptográficas, puede perderse a través de otros mecanismos de almacenamiento en caché de aplicaciones o de sistemas operativos, incluidos archivos temporales escritos en el disco. Las medidas descritas en Data Encryption Toolkit for Mobile PCs se centran en la minimización del riesgo de pérdida de datos a través del archivo de paginación del sistema, pero también puede minimizar las pérdidas de otros mecanismos de almacenamiento en caché específicos de las aplicaciones.
 

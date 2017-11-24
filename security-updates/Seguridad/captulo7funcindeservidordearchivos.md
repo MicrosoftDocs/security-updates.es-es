@@ -15,13 +15,13 @@ Actualizado: 27/12/05
 
 ##### En esta página
 
-[](#ehaa)[Información general](#ehaa)
-[](#egaa)[Configuración de directiva de auditoría](#egaa)
-[](#efaa)[Asignaciones de derechos de usuario](#efaa)
-[](#eeaa)[Opciones de seguridad](#eeaa)
-[](#edaa)[Configuración del registro de eventos](#edaa)
-[](#ecaa)[Configuración de seguridad adicional](#ecaa)
-[](#ebaa)[Creación de la directiva utilizando SCW](#ebaa)
+[](#ehaa)[Información general](#ehaa)  
+[](#egaa)[Configuración de directiva de auditoría](#egaa)  
+[](#efaa)[Asignaciones de derechos de usuario](#efaa)  
+[](#eeaa)[Opciones de seguridad](#eeaa)  
+[](#edaa)[Configuración del registro de eventos](#edaa)  
+[](#ecaa)[Configuración de seguridad adicional](#ecaa)  
+[](#ebaa)[Creación de la directiva utilizando SCW](#ebaa)  
 [](#eaaa)[Resumen](#eaaa)
 
 ### Información general
@@ -60,7 +60,7 @@ En la siguiente tabla se incluyen los nombres de las plantillas de seguridad de 
 </tbody>
 </table>
   
-Para obtener más información acerca de la configuración de la directiva en el MSBP, consulte el capítulo 4, “Directiva de línea de base de servidores miembro”. Para obtener más información acerca de todas las configuraciones predeterminadas de la directiva, consulte la guía complementaria, [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159)*, *que está disponible en * *http://go.microsoft.com/fwlink/?LinkId=15159.
+Para obtener más información acerca de la configuración de la directiva en el MSBP, consulte el capítulo 4, “Directiva de línea de base de servidores miembro”. Para obtener más información acerca de todas las configuraciones predeterminadas de la directiva, consulte la guía complementaria, [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159), que está disponible en http://go.microsoft.com/fwlink/?LinkId=15159.
   
 [](#mainsection)[Principio de la página](#mainsection)
   
@@ -171,7 +171,7 @@ La directiva se prueba para asegurar que la aplicación de esta directiva a los 
 Cuando esté satisfecho con la configuración de la directiva, puede utilizar Scwcmd como se muestra en el procedimiento siguiente para convertir las directivas a GPO.
   
 Para obtener más información acerca de cómo probar las directivas del SCW, consulte la [Guía de implementación para el Asistente para la configuración de seguridad](http://technet.microsoft.com/es-es/library/cc776871.aspx) en www.microsoft.com/technet/prodtechnol/windowsserver2003/  
-library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx* *y la [documentación del Asistente para la configuración de seguridad](http://go.microsoft.com/fwlink/?linkid=43450) en http://go.microsoft.com/fwlink/?linkid=43450.
+library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx y la [documentación del Asistente para la configuración de seguridad](http://go.microsoft.com/fwlink/?linkid=43450) en http://go.microsoft.com/fwlink/?linkid=43450.
   
 #### Conversión e implementación de la directiva
   
@@ -179,15 +179,16 @@ Después de probar completamente la directiva, complete los pasos siguientes par
   
 1.  En el símbolo de sistema, escriba el siguiente comando:
   
-    ```  
-scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;  
-```
+    ```
+	scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>
+	```
   
     y, a continuación, pulse Entrar. Por ejemplo:
   
-    ```  
-scwcmd transform /p:"C:\\Windows\\Security\\msscw\\Policies\\File Server.xml" /g:"File Server Policy"  
-```
+    ```
+	scwcmd transform /p:"C:\Windows\Security\msscw\Policies\File
+	Server.xml" /g:"File Server Policy"
+	```
   
     **Nota**: la información que se introducirá en el símbolo del sistema se muestra aquí en más de una línea a causa de las limitaciones de pantalla. Esta información debe introducirse en una línea.
   
