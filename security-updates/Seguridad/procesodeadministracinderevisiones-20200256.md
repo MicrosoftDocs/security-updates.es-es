@@ -135,7 +135,7 @@ Es importante informar a los usuarios finales y administradores acerca del lanza
 
 Cuando implemente una actualización en los equipos de escritorio fuera de horas de actividad principales, el mensaje de correo electrónico debe informar a los usuarios que durante la noche dejen sus equipos en una fecha especificada. Si este mensaje tiene una marca de seguimiento tal como se muestra en la figura 2, los usuarios recibirán un recordatorio el 30 de mayo a las 4:30 p.m. de 2003 para que dejen sus equipos encendidos durante la noche.
 
-[![](images/Cc700833.gr36(es-es,TechNet.10).gif)](https://technet.microsoft.com/es-es/cc700833.gr36(es-es,technet.10).gif)
+[![](images/Cc700833.gr36(es-es,TechNet.10).gif)](https://technet.microsoft.com/es-es/cc700833.gr36(es-es,technet.10).gif)       
 **Figura 2. Esta captura de pantalla muestra cómo un mensaje de correo electrónico marcado para seguimiento se puede usar como recordatorio**
 
 Si usa WSUS, el proceso de comunicaciones incluye consideraciones adicionales que dependen de los parámetros de la directiva de instalación y descarga para el cliente WSUS:

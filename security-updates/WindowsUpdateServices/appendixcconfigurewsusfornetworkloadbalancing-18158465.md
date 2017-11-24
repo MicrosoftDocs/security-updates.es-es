@@ -123,7 +123,7 @@ Now it is possible to move the content directories on the first front-end WSUS s
 
 3.  Type the following command:
 
-    **wsusutil movecontent ***DFSsharename logfilename*
+    **wsusutil movecontent** *DFSsharename logfilename*
 
     where *DFSsharename* is the name of the DFS share to which the content should be moved, and *logfilename* is the name of the log file.
 
