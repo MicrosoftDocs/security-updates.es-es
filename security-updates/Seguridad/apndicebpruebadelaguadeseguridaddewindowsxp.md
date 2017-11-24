@@ -15,16 +15,16 @@ Actualizado: 20/10/05
 
 ##### En esta página
 
-[](#edaa)[Introducción](#edaa)
-[](#ecaa)[Entorno de prueba](#ecaa)
-[](#ebaa)[Prueba de la metodología](#ebaa)
+[](#edaa)[Introducción](#edaa)  
+[](#ecaa)[Entorno de prueba](#ecaa)  
+[](#ebaa)[Prueba de la metodología](#ebaa)  
 [](#eaaa)[Resumen](#eaaa)
 
 ### Introducción
 
 La función de la *Guía de seguridad deWindows* XP consiste en proporcionar orientaciones probadas y repetibles para la configuración, a fin de proteger los equipos en los que se ejecuta Microsoft® Windows® XP Professional con Service Pack 2 (SP2) en una variedad de entornos.
 
-La *Guía de seguridad* de *Windows* XP se probó en un entorno de laboratorio para garantizar la respuesta esperada. El equipo de pruebas de la *Guía de seguridad* de *Windows *XP comprobó la coherencia de la documentación y todos los procedimientos recomendados en ella. Se realizaron pruebas para comprobar la funcionalidad, pero también para ayudar a los usuarios de la guía a reducir la cantidad de recursos necesarios para crear y probar sus propias implementaciones de la solución.
+La *Guía de seguridad* de *Windows* XP se probó en un entorno de laboratorio para garantizar la respuesta esperada. El equipo de pruebas de la *Guía de seguridad* de *Windows* XP comprobó la coherencia de la documentación y todos los procedimientos recomendados en ella. Se realizaron pruebas para comprobar la funcionalidad, pero también para ayudar a los usuarios de la guía a reducir la cantidad de recursos necesarios para crear y probar sus propias implementaciones de la solución.
 
 #### Ámbito
 
