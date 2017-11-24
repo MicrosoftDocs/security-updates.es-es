@@ -30,17 +30,17 @@ Las siguientes entradas del Registro se usan para anular los servicios de subins
 
 #### Detalles de la entrada
 
-En los equipos que ejecutan la versión de 32 bits de Windows Server 2003, la ruta de acceso completa a la subclave del Registro de las entradas de descubrimiento de servicios para la subinscripción de clúster de sólo licencias es:
+En los equipos que ejecutan la versión de 32 bits de Windows Server 2003, la ruta de acceso completa a la subclave del Registro de las entradas de descubrimiento de servicios para la subinscripción de clúster de sólo licencias es:
 
 **HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\DRMS\\1.0**
 
-En los equipos que ejecutan la versión de 64 bits de Windows Server 2003, la ruta de acceso completa a la subclave del Registro de las entradas de descubrimiento de servicios para la subinscripción de clúster de sólo licencias es:
+En los equipos que ejecutan la versión de 64 bits de Windows Server 2003, la ruta de acceso completa a la subclave del Registro de las entradas de descubrimiento de servicios para la subinscripción de clúster de sólo licencias es:
 
 **HKEY\_LOCAL\_MACHINE\\SoftwareWOW6432Node\\Microsoft\\DRMS\\1.0**
 
 En la siguiente tabla se enumeran las entradas que puede agregar para anular el descubrimiento de servicios.
 
-###  
+###  
 
  
 <p> </p>
@@ -76,15 +76,14 @@ Anulación del descubrimiento de servicios en el cliente para la publicación
   
 Si los usuarios van a publicar contenido desde sus equipos, puede anular las ubicaciones de los servidores usadas para la publicación según la topología empleada en su empresa. Las ubicaciones de los servidores usados para la publicación normalmente las descubre el cliente con Active Directory. Al agregar las claves del Registro adecuadas en los equipos cliente, los clientes omitirán estos métodos y, en su lugar, usarán las direcciones URL que especifique en el valor de entrada del Registro.
   
-| ![](images/Cc747614.note(WS.10).gif)Nota                                                                                                                        |  
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Las anulaciones enumeradas en estas secciones se deben crear como claves y no como entradas individuales. El valor de estas claves se debe crear en la entrada predeterminada de cada clave. |
+> [!NOTE]
+> Las anulaciones enumeradas en estas secciones se deben crear como claves y no como entradas individuales. El valor de estas claves se debe crear en la entrada predeterminada de cada clave.
   
 #### Descripciones de las claves del Registro
   
 Las siguientes claves del Registro se pueden usar para anular el descubrimiento automático del clúster de RMS.
   
--   **Activation**. Esta clave del Registro define la dirección URL del servicio de activación de equipo. Si ejecuta el cliente de RMS con Service Pack 1 o posterior, esta entrada del Registro ya no se usa.  
+-   **Activation**. Esta clave del Registro define la dirección URL del servicio de activación de equipo. Si ejecuta el cliente de RMS con Service Pack 1 o posterior, esta entrada del Registro ya no se usa.  
 -   **EnterprisePublishing**. Esta clave del Registro define la dirección URL de una instalación de RMS que desea que use este cliente para las solicitudes de licencia.  
 -   **CloudPublishing**. Esta clave del Registro define la dirección URL del servicio de licencias hospedado por Microsoft que se puede usar si el cliente no tiene acceso a una instalación de RMS pero sí a Internet.
   
@@ -96,7 +95,7 @@ La ruta de acceso completa a la subclave del Registro para las entradas de descu
   
 En la siguiente tabla se enumeran las claves del Registro que puede agregar en un equipo cliente de RMS para anular el descubrimiento de servicios.
   
-###  
+###  
 
  
 <p> </p>
