@@ -19,7 +19,7 @@ Las opciones que se deben incluir en esta lista podrían debatirse ampliamente. 
 
 ##### En esta página
 
-[](#ebaa)[Contramedidas importantes](#ebaa)
+[](#ebaa)[Contramedidas importantes](#ebaa)  
 [](#eaaa)[Principales opciones de configuración de seguridad](#eaaa)
 
 ### Contramedidas importantes
