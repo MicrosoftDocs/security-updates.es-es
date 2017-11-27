@@ -62,9 +62,8 @@ En la lista siguiente se identifican las secciones de informe recomendadas y la 
 
     -   Es probable que el informe se presente ante una audiencia variada, por lo que debe considerar la posibilidad de crear un glosario de términos utilizados en el informe. Los glosarios son especialmente valiosos si la autoridad judicial competente no es experta en cuestiones técnicas o cuando un juez o un jurado necesita revisar los documentos.
 
-![](images/Cc162835.note(es-es,TechNet.10).gif)**Nota:**
-
-Seguramente, durante una investigación, recopilará información valiosa acerca del uso de procesos de investigación de equipos. También es posible que coja experiencia y obtenga una mejor comprensión de los procedimientos operativos y relacionados con la seguridad. Debe revisar la documentación de respuesta a incidentes y operativa existente e incorporar los conocimientos que adquiera durante una investigación. Si no tiene dicha documentación o desea adoptar un formato estándar del sector, puede utilizar la guía y las plantillas de documentación de Microsoft® Operations Framework (MOF). Para obtener más información acerca de MOF, visite la página principal de [Microsoft Operations Framework](http://go.microsoft.com/?linkid=6013257).
+> [!NOTE]
+> Seguramente, durante una investigación, recopilará información valiosa acerca del uso de procesos de investigación de equipos. También es posible que coja experiencia y obtenga una mejor comprensión de los procedimientos operativos y relacionados con la seguridad. Debe revisar la documentación de respuesta a incidentes y operativa existente e incorporar los conocimientos que adquiera durante una investigación. Si no tiene dicha documentación o desea adoptar un formato estándar del sector, puede utilizar la guía y las plantillas de documentación de Microsoft® Operations Framework (MOF). Para obtener más información acerca de MOF, visite la página principal de [Microsoft Operations Framework](http://go.microsoft.com/?linkid=6013257). 
 
 **Descargar**
 
