@@ -41,8 +41,8 @@ Al actualizar desde WSUS RTM, el programa de instalación de WSUS con SP1 autom
 **Para determinar si hay suficiente espacio en disco**
 1.  Abra el Explorador de Windows y navegue a la carpeta en la que está almacenada la base de datos de WSUS. De forma predeterminada, WSUS instala la base de datos aquí:
 
-    
-        ```
+    ```<DriveLetter>:\WSUS\MSSQL$WSUS\Data\    ```
+
 2.  Mantenga pulsada la tecla **CTRL**, seleccione **SUSDB.MDF** y **SUSDB\_log.LDF** y, a continuación, haga clic con el botón secundario y seleccione **Propiedades**.
 
 3.  En el cuadro de diálogo **Archivos**, lea el valor de **Tamaño en disco**. El disco debe tener al menos este espacio en disco libre para instalar WSUS con SP1.
@@ -145,7 +145,16 @@ Si cambia el nombre del equipo después de instalar WSUS RTM y antes de actuali
 
 Use el siguiente script para eliminar y volver a agregar los grupos Administradores de WSUS y ASPNET. A continuación, vuelva a realizar la actualización.
 
-        ```
+```
+osql.exe -S %computername%\WSUS -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=name from sysusers WHERE name like '%ASPNET' EXEC sp_revokedbaccess @asplogin"
+osql.exe -S %computername%\WSUS -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=name from sysusers WHERE name like '%WSUS Administrators' EXEC sp_revokedbaccess @wsusadminslogin"
+ 
+osql.exe -S %computername%\WSUS -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=HOST_NAME()+'\ASPNET' EXEC sp_grantlogin @asplogin EXEC sp_grantdbaccess @asplogin EXEC sp_addrolemember webService,@asplogin"
+osql.exe -S %computername%\WSUS -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=HOST_NAME()+'\WSUS Administrators' EXEC sp_grantlogin @wsusadminslogin EXEC sp_grantdbaccess @wsusadminslogin EXEC sp_addrolemember webService,@wsusadminslogin"
+ 
+osql.exe -S %computername%\WSUS -E -Q "backup database SUSDB to disk=N'<ContentDirectory>\SUSDB.Dat' with init"
+
+```
 > [!NOTE]
 > Es posible que tenga que reemplazar &lt;ContentDirectory&gt; en la última línea por la ruta de acceso al almacén de contenido. 
 
