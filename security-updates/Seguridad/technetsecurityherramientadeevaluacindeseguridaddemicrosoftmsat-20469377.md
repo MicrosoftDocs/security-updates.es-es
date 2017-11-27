@@ -87,6 +87,7 @@ La siguiente tabla especifica las áreas incluidas dentro de la evaluación de r
 | Estaciones de trabajo    | La seguridad de las estaciones de trabajo individuales es un factor clave en la defensa de cualquier entorno, especialmente si se permite el acceso remoto. Las estaciones de trabajo deberían disponer de protección para resistir un ataque común. |
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <thead>
 <tr class="header">

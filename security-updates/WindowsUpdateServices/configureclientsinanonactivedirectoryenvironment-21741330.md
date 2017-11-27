@@ -31,6 +31,7 @@ The keys and their value ranges are listed in the following table.
 ### Windows Update registry keys
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -48,15 +49,15 @@ The keys and their value ranges are listed in the following table.
 <tr class="odd">
 <td style="border:1px solid black;"><strong>AcceptTrustedPublisherCerts</strong></td>
 <td style="border:1px solid black;">Reg_DWORD</td>
-<td style="border:1px solid black;">Range = 1|0
-1 = Enabled. The WSUS server will distribute signed third-party updates if available.
+<td style="border:1px solid black;">Range = 1|0<br/>
+1 = Enabled. The WSUS server will distribute signed third-party updates if available.<br/>
 0 = Disabled. The WSUS server will not distribute third-party updates.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><strong>ElevateNonAdmins</strong></td>
 <td style="border:1px solid black;">Reg_DWORD</td>
-<td style="border:1px solid black;">Range = 1|0
-1 = Users in the Users security group are allowed to approve or disapprove updates.
+<td style="border:1px solid black;">Range = 1|0<br/>
+1 = Users in the Users security group are allowed to approve or disapprove updates.<br/>
 0 = Only users in the Administrators user group can approve or disapprove updates.</td>
 </tr>
 <tr class="odd">
@@ -67,8 +68,8 @@ The keys and their value ranges are listed in the following table.
 <tr class="even">
 <td style="border:1px solid black;"><strong>TargetGroupEnabled</strong></td>
 <td style="border:1px solid black;">Reg_DWORD</td>
-<td style="border:1px solid black;">Range = 1|0
-1 = Use client-side targeting.
+<td style="border:1px solid black;">Range = 1|0<br/>
+1 = Use client-side targeting.<br/>
 0 = Do not use client-side targeting. This policy is paired with <strong>TargetGroup</strong>.</td>
 </tr>
 <tr class="odd">
@@ -84,8 +85,8 @@ The keys and their value ranges are listed in the following table.
 <tr class="odd">
 <td style="border:1px solid black;"><strong>DisableWindowsUpdateAccess</strong></td>
 <td style="border:1px solid black;">Reg_DWORD</td>
-<td style="border:1px solid black;">Range = 1|0
-1 = Disables access to Windows Update.
+<td style="border:1px solid black;">Range = 1|0<br/>
+1 = Disables access to Windows Update.<br/>
 0 = Enables access to Windows Update.</td>
 </tr>
 </tbody>
@@ -104,6 +105,7 @@ The keys and their value ranges are listed in the following table.
 ### Automatic Updates Configuration Registry Keys
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -121,92 +123,92 @@ The keys and their value ranges are listed in the following table.
 <tr class="odd">
 <td style="border:1px solid black;"><strong>AUOptions</strong></td>
 <td style="border:1px solid black;">Reg_DWORD</td>
-<td style="border:1px solid black;">Range = 2|3|4|5
-2 = Notify before download.
-3 = Automatically download and notify of installation.
-4 = Automatically download and schedule installation. (Only valid if values exist for <strong>ScheduledInstallDay</strong> and <strong>ScheduledInstallTime</strong>.)
-5 = Automatic Updates is required, but end users can configure it.</td>
+<td style="border:1px solid black;">Range = 2|3|4|5<br/>
+2 = Notify before download.<br/>
+3 = Automatically download and notify of installation.<br/>
+4 = Automatically download and schedule installation. (Only valid if values exist for <strong>ScheduledInstallDay</strong> and <strong>ScheduledInstallTime</strong>.)<br/>
+5 = Automatic Updates is required, but end users can configure it.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><strong>AutoInstallMinorUpdates</strong></td>
 <td style="border:1px solid black;">Reg_DWORD</td>
-<td style="border:1px solid black;">Range = 0|1
-0 = Treat minor updates as other updates are treated.
+<td style="border:1px solid black;">Range = 0|1<br/>
+0 = Treat minor updates as other updates are treated.<br/>
 1 = Silently install minor updates.</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>DetectionFrequency</strong></td>
 <td style="border:1px solid black;">Reg_DWORD</td>
-<td style="border:1px solid black;">Range = n, where n = time in hours (1–22).
+<td style="border:1px solid black;">Range = n, where n = time in hours (1–22).<br/>
 Time between detection cycles.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><strong>DetectionFrequencyEnabled</strong></td>
 <td style="border:1px solid black;">Reg_DWORD</td>
-<td style="border:1px solid black;">Range = 0|1
-1 = Enable DetectionFrequency.
+<td style="border:1px solid black;">Range = 0|1<br/>
+1 = Enable DetectionFrequency.<br/>
 0 = Disable custom DetectionFrequency (use default value of 22 hours).</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>NoAutoRebootWithLoggedOnUsers</strong></td>
 <td style="border:1px solid black;">Reg_DWORD</td>
-<td style="border:1px solid black;">Range = 0|1
-1 = Logged-on user gets to choose whether or not to restart his or her computer.
+<td style="border:1px solid black;">Range = 0|1<br/>
+1 = Logged-on user gets to choose whether or not to restart his or her computer.<br/>
 0 = Automatic Updates notifies user that the computer will restart in 5 minutes.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><strong>NoAutoUpdate</strong></td>
 <td style="border:1px solid black;">Reg_DWORD</td>
-<td style="border:1px solid black;">Range = 0|1
-0 = Enable Automatic Updates.
+<td style="border:1px solid black;">Range = 0|1<br/>
+0 = Enable Automatic Updates.<br/>
 1 = Disable Automatic Updates.</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>RebootRelaunchTimeout</strong></td>
 <td style="border:1px solid black;">Reg_DWORD</td>
-<td style="border:1px solid black;">Range = n, where n = time in minutes (1–1,440).
+<td style="border:1px solid black;">Range = n, where n = time in minutes (1–1,440).<br/>
 Time between prompting again for a scheduled restart.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><strong>RebootRelaunchTimeoutEnabled</strong></td>
 <td style="border:1px solid black;">Reg_DWORD</td>
-<td style="border:1px solid black;">Range = 0|1
-1 = Enable <strong>RebootRelaunchTimeout</strong>
+<td style="border:1px solid black;">Range = 0|1<br/>
+1 = Enable <strong>RebootRelaunchTimeout</strong><br/>
 0 = Disable custom <strong>RebootRelaunchTimeout</strong>(use default value of 10 minutes)</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>RebootWarningTimeout</strong></td>
 <td style="border:1px solid black;">Reg_DWORD</td>
-<td style="border:1px solid black;">Range = n, where n = time in minutes (1–30).
+<td style="border:1px solid black;">Range = n, where n = time in minutes (1–30).<br/>
 Length, in minutes, of the restart warning countdown, after installing updates with a deadline or scheduled updates.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><strong>RebootWarningTimeoutEnabled</strong></td>
 <td style="border:1px solid black;">Reg_DWORD</td>
-<td style="border:1px solid black;">Range = 0|1
-1 = Enable <strong>RebootWarningTimeout</strong>
+<td style="border:1px solid black;">Range = 0|1<br/>
+1 = Enable <strong>RebootWarningTimeout</strong><br/>
 0 = Disable custom <strong>RebootWarningTimeout</strong> (use default value of 5 minutes)</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>RescheduleWaitTime</strong></td>
 <td style="border:1px solid black;">Reg_DWORD</td>
-<td style="border:1px solid black;">Range = n, where n = time in minutes (1–60).
-Time, in minutes, that Automatic Updates should wait at startup before applying updates from a missed scheduled installation time.
+<td style="border:1px solid black;">Range = n, where n = time in minutes (1–60).<br/>
+Time, in minutes, that Automatic Updates should wait at startup before applying updates from a missed scheduled installation time.<br/>
 Note that this policy applies only to scheduled installations, not deadlines. Updates whose deadlines have expired should always be installed as soon as possible.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><strong>RescheduleWaitTimeEnabled</strong></td>
 <td style="border:1px solid black;">Reg_DWORD</td>
-<td style="border:1px solid black;">Range = 0|1
-1 = Enable <strong>RescheduleWaitTime</strong>
+<td style="border:1px solid black;">Range = 0|1<br/>
+1 = Enable <strong>RescheduleWaitTime</strong><br/>
 0 = Disable <strong>RescheduleWaitTime</strong> (attempt the missed installation during the next scheduled installation time).</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>ScheduledInstallDay</strong></td>
 <td style="border:1px solid black;">Reg_DWORD</td>
-<td style="border:1px solid black;">Range = 0|1|2|3|4|5|6|7
-0 = Every day.
-1 through 7 = The days of the week from Sunday (1) to Saturday (7).
+<td style="border:1px solid black;">Range = 0|1|2|3|4|5|6|7<br/>
+0 = Every day.<br/>
+1 through 7 = The days of the week from Sunday (1) to Saturday (7).<br/>
 (Only valid if <strong>AUOptions</strong> = 4.)</td>
 </tr>
 <tr class="even">
@@ -217,9 +219,9 @@ Note that this policy applies only to scheduled installations, not deadlines. Up
 <tr class="odd">
 <td style="border:1px solid black;"><strong>UseWUServer</strong></td>
 <td style="border:1px solid black;">Reg_DWORD</td>
-<td style="border:1px solid black;">Range = 0|1
-1 = This machine gets its updates from a WSUS server.
-0 = This machine gets its updates from Microsoft Update.
+<td style="border:1px solid black;">Range = 0|1<br/>
+1 = This machine gets its updates from a WSUS server.<br/>
+0 = This machine gets its updates from Microsoft Update.<br/>
 The <strong>WUServer</strong> value is not respected unless this key is set.</td>
 </tr>
 </tbody>
@@ -287,9 +289,10 @@ To prevent Automatic Updates from restarting a computer while users are logged o
 
 When the admin creates and sets the **NoAutoRebootWithLoggedOnUsers** registry key to 1, the restart countdown dialog that pops up for the logged on user (active and inactive) will change in the following ways:
 
-###  
+###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -361,117 +364,97 @@ When there are no logged-on users (therefore no opportunity for user data loss),
   
 The following table shows the difference in behavior with **NoAutoRebootWithLoggedOnUsers** enabled (set to 1) or disabled/not configured (not set to 1).
   
-###  
+###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <tr>
-<th colspan="2">
+<th colspan="2" style="border:1px solid black;">
 Scenario following a scheduled installation  
 </th>
-<th colspan="2">
+<th colspan="2" style="border:1px solid black;">
 With NoAutoRebootWithLoggedOnUsers enabled  
 </th>
-<th colspan="2">
+<th colspan="2" style="border:1px solid black;">
 With NoAutoRebootWithLoggedOnUsers disabled or not configured  
 </th>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 No users logged on
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Automatic restart immediately following installation
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Automatic restart immediately following installation
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 Single user with administrative privileges
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Restart notification allows user to start or postpone restart. This notification does not have a countdown timer. Therefore the user must initiate the system restart.
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Restart notification allows user to start or postpone restart. This notification has a 5 minute countdown timer. When the timer expires, the automatic restart begins.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 Single user with restart privileges but no other administrative privileges
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Restart notification that allows user to initiate the restart but not to postpone it. This notification does not have a countdown timer. Therefore the user must initiate the system restart.
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Restart notification that allows user to initiate the restart but not to postpone it. This notification has a 5-minute countdown timer. When the timer expires, the automatic restart begins.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 Single non-administrator without restart privilege
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Restart notification that does not allow the user to initiate the restart or postpone it. This notification does not have a countdown timer. Therefore the user must wait for an authorized user to initiate the system restart.
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Restart notification that does not allow the user to initiate the restart or postpone it. This notification has a 5-minute countdown timer. When the timer expires, the automatic restart begins.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 Administrator while other users are logged on
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Restart notification that does not allow the user to initiate the restart but does allow the user to postpone it. This notification does not have a countdown timer. Therefore the user must initiate the system restart.
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Restart notification that does not allow the user to initiate the restart but does allow the user to postpone it. This notification has a 5 minute countdown timer. When the timer expires, the automatic restart begins.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 Non-administrator with restart privilege while other users are logged on
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Restart notification that does not allow the user to initiate the restart or postpone it. This notification does not have a countdown timer. Therefore the user must initiate the system restart.
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Restart notification that does not allow the user to initiate the restart or postpone it. This notification has a 5 minute countdown timer. When the timer expires, the automatic restart begins.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 Non-administrator without restart privilege while other users are logged on
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Restart notification that does not allow the user to initiate the restart or postpone it. This notification does not have a countdown timer. Therefore, the user must wait for an authorized user to initiate the system restart.
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Restart notification that does not allow the user to initiate the restart or postpone it. This notification has a 5 minute countdown timer. When the timer expires, the automatic restart begins.
-
 </td>
 </tr>
 </table>
@@ -482,6 +465,6 @@ Note: After all users log off, Automatic Updates will restart the computer to co
 
 If the “Remove access to use all Windows Update features” setting (**HKEY\_CURRENT\_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\WindowsUpdate\\DisableWindowsUpdateAccess**) is enabled, Automatic Updates will not notify that logged-on user. It makes a local administrator appear as a non-administrator, so that user will not be able to install updates. When this policy is enabled, the Automatic Updates service still runs, and scheduled installations will still occur if they were configured to run.
 
-If the “Remove links and access to Windows Update” Group Policy setting (**HKEY\_CURRENT\_USER**\\**Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\NoWindowsUpdate**) is enabled, then Automatic Updates will continue to get updates from the WSUS server. Users with this policy set will not be able to get updates that the WSUS administrator has not approved on the WSUS server. If this policy is not enabled, the Microsoft Update icon will remain on the Start menu; local administrators will be able to visit the Microsoft Update Web site and install software that the WSUS administrator has not approved. This happens even if you have specified that Automatic Updates should get approved updates from the WSUS server. In Windows Vista, enabling this setting will gray out the **Check for updates** option in the **Windows Update** application.
+If the “Remove links and access to Windows Update” Group Policy setting (**HKEY\_CURRENT\_USER**\\**Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\NoWindowsUpdate**) is enabled, then Automatic Updates will continue to get updates from the WSUS server. Users with this policy set will not be able to get updates that the WSUS administrator has not approved on the WSUS server. If this policy is not enabled, the Microsoft Update icon will remain on the Start menu; local administrators will be able to visit the Microsoft Update Web site and install software that the WSUS administrator has not approved. This happens even if you have specified that Automatic Updates should get approved updates from the WSUS server. In Windows Vista, enabling this setting will gray out the **Check for updates** option in the **Windows Update** application.
 
 The above settings can be overridden by the **HKEY\_LOCAL\_MACHINE\\Software\\Policies\\Microsoft\\Windows\\WindowsUpdate\\ DisableWindowsUpdateAccess** setting.

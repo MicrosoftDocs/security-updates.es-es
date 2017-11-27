@@ -29,16 +29,12 @@ More Documentation
 WSUS Server Error Codes
 -----------------------
 
-###  
+
 
  
+<p> </p>
+<p></p>
 <table style="border:1px solid black;">
-<colgroup>
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-</colgroup>
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>Hexadecimal Error Code</strong></td>
@@ -224,19 +220,19 @@ ALREADY_RUNNING</td>
 </tr>
 </tbody>
 </table>
+
+<p></p>
+
   
 Windows Update Client Error Codes  
 ---------------------------------
   
-###  
+
 
  
+<p> </p>
+<p></p>
 <table style="border:1px solid black;">
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>Hexadecimal error code</strong></td>
@@ -1427,20 +1423,19 @@ UNEXPECTED</td>
 </tr>
 </tbody>
 </table>
+
+<p></p>
+
   
 BITS Error Codes  
 ----------------
   
-###  
+
 
  
+<p> </p>
+<p></p>
 <table style="border:1px solid black;">
-<colgroup>
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-</colgroup>
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>Hexadecimal Error Code</strong></td>
@@ -1626,7 +1621,9 @@ FILE_SIZE</td>
 <td style="border:1px solid black;">2147942487</td>
 <td style="border:1px solid black;">E_INVALIDARG</td>
 <td style="border:1px solid black;">  If we see this error when BITS service is started or if there is an entry in the eventlog that says that BITS service could not be started because of this error code then it means that system-wide proxy settings configured using the proxycfg.exe tool are corrupted. 2. BITS 1.5 and below returned this error code when invalid proxy information is supplied. BITS 2.0 returns a more informative BG_E_INVALID_PROXY_INFO error. Any other API when called with incorrect parameters could give this error
+
 Workaround:
+
 1. Ensure the APIs are correctly called and the proxy information is correctly supplied. Upgrade to BITS 2.0</td>
 </tr>
 <tr class="even">
@@ -1775,3 +1772,6 @@ PROXY_INFO</td>
 </tr>
 </tbody>
 </table>
+
+<p></p>
+

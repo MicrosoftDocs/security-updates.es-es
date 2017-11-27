@@ -25,7 +25,7 @@ Configure the Firewall
 If there is a corporate firewall between WSUS and the Internet, you might need to configure the firewall to ensure that WSUS can obtain updates.
 
 **To configure the firewall**
--   To obtain updates from Microsoft Update, the WSUS server uses port 80 for HTTP protocol and port 443 for HTTPS protocol. This is not configurable.
+-   To obtain updates from Microsoft Update, the WSUS server uses port 80 for HTTP protocol and port 443 for HTTPS protocol. This is not configurable.
 
 -   If your organization does not allow those ports and protocols to be open to all addresses, you can restrict access to the following domains so WSUS and Automatic Updates can communicate with Microsoft Update:
 
@@ -42,21 +42,6 @@ If there is a corporate firewall between WSUS and the Internet, you might need t
     -   http://ntservicepack.microsoft.com
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939870.note(WS.10).gif" />Nota</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">The steps for configuring the firewall are meant for a corporate firewall positioned between WSUS and the Internet. Because WSUS initiates all its network traffic, there is no need to configure Windows Firewall on the WSUS server.
-
-Although the connection between Microsoft Update and WSUS requires ports 80 and 443 to be open, you can configure multiple WSUS servers to synchronize with a custom port.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> The steps for configuring the firewall are meant for a corporate firewall positioned between WSUS and the Internet. Because WSUS initiates all its network traffic, there is no need to configure Windows Firewall on the WSUS server.
+> Although the connection between Microsoft Update and WSUS requires ports 80 and 443 to be open, you can configure multiple WSUS servers to synchronize with a custom port.

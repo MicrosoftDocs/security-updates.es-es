@@ -34,11 +34,9 @@ WSUS Setup accepts the following command-line parameters.
 ### WSUS Setup Command-line Parameters
 
  
+<p> </p>
+<p></p>
 <table style="border:1px solid black;">
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th style="border:1px solid black;" >Option</th>
@@ -88,17 +86,18 @@ WSUS Setup accepts the following command-line parameters.
 </tr>
 </tbody>
 </table>
+
+<p></p>
+
   
 Use the following properties to configure WSUS by using the command-line parameter **/v**.
   
 ### WSUS Setup Properties
 
  
+<p> </p>
+<p></p>
 <table style="border:1px solid black;">
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th style="border:1px solid black;" >Windows Installer Property</th>
@@ -108,12 +107,12 @@ Use the following properties to configure WSUS by using the command-line paramet
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">CONTENT_DIR</td>
-<td style="border:1px solid black;">The directory where content will be stored. Must be an NTFS drive and can be a non-local mapped network drive.
+<td style="border:1px solid black;">The directory where content will be stored. Must be an NTFS drive and can be a non-local mapped network drive.<br/><br/>
 Default is <em>WSUSInstallationDrive</em><strong>:\WSUS\WSUSContent</strong>, where <em>WSUSInstallationDrive</em> is the local drive with largest free space.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">CONTENT_LOCAL</td>
-<td style="border:1px solid black;">If set to &quot;1&quot; the .cab files will be stored locally (this is the default).
+<td style="border:1px solid black;">If set to &quot;1&quot; the .cab files will be stored locally (this is the default).<br/><br/>
 If set to &quot;0&quot; the client computers will be redirected to the Microsoft Update server for downloading the .cab files.</td>
 </tr>
 <tr class="odd">
@@ -122,24 +121,24 @@ If set to &quot;0&quot; the client computers will be redirected to the Microsoft
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">WMSDE_DIR</td>
-<td style="border:1px solid black;">The directory where WMSDE database will be stored. The directory must be on an NTFS drive.
+<td style="border:1px solid black;">The directory where WMSDE database will be stored. The directory must be on an NTFS drive.<br/><br/>
 The default is <em>drive</em><strong>:\WSUS</strong>, where <em>drive</em> is the local drive with largest free space.</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">RETAIN_DATA</td>
-<td style="border:1px solid black;">This option is used during uninstallation to define what data should be left.
-RETAIN_DATA=0 - Delete everything.
-RETAIN_DATA=1 – Leave the database.
-RETAIN_DATA=2 – Leave logs.
-RETAIN_DATA=3 - Leave the database and logs.
-RETAIN_DATA=4 – Leave content.
-RETAIN_DATA=5 - Leave the database and content.
-RETAIN_DATA=6 – Leave logs and content.
+<td style="border:1px solid black;">This option is used during uninstallation to define what data should be left.<br/><br/>
+RETAIN_DATA=0 - Delete everything.<br/><br/>
+RETAIN_DATA=1 – Leave the database.<br/><br/>
+RETAIN_DATA=2 – Leave logs.<br/><br/>
+RETAIN_DATA=3 - Leave the database and logs.<br/><br/>
+RETAIN_DATA=4 – Leave content.<br/><br/>
+RETAIN_DATA=5 - Leave the database and content.<br/><br/>
+RETAIN_DATA=6 – Leave logs and content.<br/><br/>
 RETAIN_DATA=7 - Leave everything (default).</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">ENABLE_REPLICA</td>
-<td style="border:1px solid black;">If set to 1, enable replica mode.
+<td style="border:1px solid black;">If set to 1, enable replica mode.<br/><br/>
 If set to 0, do not enable replica mode.</td>
 </tr>
 <tr class="odd">
@@ -152,17 +151,18 @@ If set to 0, do not enable replica mode.</td>
 </tr>
 </tbody>
 </table>
+
+<p></p>
+
   
 Use the following properties in combination with the **/l** option.
   
 ### Language Variables
 
  
+<p> </p>
+<p></p>
 <table style="border:1px solid black;">
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th style="border:1px solid black;" >Variable</th>
@@ -244,3 +244,6 @@ Use the following properties in combination with the **/l** option.
 </tr>
 </tbody>
 </table>
+
+<p></p>
+

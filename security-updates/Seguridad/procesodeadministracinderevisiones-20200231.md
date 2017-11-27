@@ -148,7 +148,7 @@ La notificación por correo electrónico es la forma más habitual de notificar 
 
 Un ejemplo de un mensaje de correo electrónico que notifique a los administradores acerca de actualizaciones nuevas de seguridad se muestra en la figura 2.
 
-[![](images/Cc700831.secmod195figure2_l(es-es,TechNet.10).gif)](https://technet.microsoft.com/es-es/cc700831.secmod195figure2(es-es,technet.10).gif)
+[![](images/Cc700831.secmod195figure2_l(es-es,TechNet.10).gif)](https://technet.microsoft.com/es-es/cc700831.secmod195figure2(es-es,technet.10).gif)      
 **Figura 2 Ejemplo de mensaje de correo electrónico que notifica a los administradores acerca de nuevas actualizaciones de software**
 
 ### Cómo sabe que puede confiar en la fuente y en la notificación
@@ -223,6 +223,7 @@ La información de los boletines de seguridad en el sitio web de Microsoft se or
 **Tabla 1: Boletines de seguridad: información clave**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

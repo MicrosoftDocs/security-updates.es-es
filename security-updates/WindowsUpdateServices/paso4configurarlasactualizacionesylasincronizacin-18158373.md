@@ -54,9 +54,8 @@ Los cinco procedimientos siguientes describen cómo configurar sus actualizacion
 
 Tras haber completado todos los pasos de configuración anteriores, seleccione la página **Finalizada** en el Asistente para la configuración. Puede iniciar la consola de administración de WSUS si deja activada la casilla de verificación **Iniciar el complemento de administraciones de Windows Server Update Services** e iniciar la primera sincronización si deja activada la casilla de verificación **Iniciar sincronización inicial**.
 
-| ![](images/Cc708447.note(WS.10).gif)Nota                                                                                                              |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| No se pueden guardar los cambios en la configuración realizados mientras el servidor está sincronizando. Espere hasta que haya terminado la sincronización para hacer los cambios. |
+> [!NOTE]
+> No se pueden guardar los cambios en la configuración realizados mientras el servidor está sincronizando. Espere hasta que haya terminado la sincronización para hacer los cambios. 
 
 ![](images/Cc708447.3f774fd1-af87-47d8-8f50-a5d585687d70(WS.10).gif)
 
@@ -95,17 +94,15 @@ Después de configurar la conexión de red, puede descargar las actualizaciones 
 
 La sincronización implica que el servidor WSUS se ponga en contacto con Microsoft Update. Tras ponerse en contacto, WSUS determina si hay nuevas actualizaciones disponibles desde la última sincronización. Dado que es la primera vez que sincroniza el servidor WSUS, todas las actualizaciones están disponibles y preparadas para su aprobación y posterior instalación. La sincronización inicial puede tardar bastante rato.
 
-| ![](images/Cc708447.note(WS.10).gif)Nota                                                                                                                      |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En este documento se describe la sincronización con la configuración predeterminada, pero WSUS incluye opciones que permiten minimizar el uso de ancho de banda durante la sincronización. |
+> [!NOTE]
+> En este documento se describe la sincronización con la configuración predeterminada, pero WSUS incluye opciones que permiten minimizar el uso de ancho de banda durante la sincronización. 
 
 **Para sincronizar el servidor WSUS**
 1.  En la consola de administración de WSUS, seleccione **Sincronizaciones**.
 
 2.  Haga clic con el botón secundario del mouse o vaya al panel **Acciones** de la derecha y haga clic en **Sincronizar ahora**.
 
-| ![](images/Cc708447.note(WS.10).gif)Nota                                                                                                                                                                            |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Si no ve el panel **Acciones** en la parte derecha de la consola, en la barra de herramientas de la consola haga clic en **Ver**, haga clic en **Personalizar** y asegúrese de que está activada la casilla de verificación **Panel de acción**. |
+> [!NOTE]
+> Si no ve el panel **Acciones** en la parte derecha de la consola, en la barra de herramientas de la consola haga clic en **Ver**, haga clic en **Personalizar** y asegúrese de que está activada la casilla de verificación **Panel de acción**. 
 
 Una vez finalizada la sincronización, haga clic en **Actualizaciones** en el panel izquierdo para ver la lista de actualizaciones.

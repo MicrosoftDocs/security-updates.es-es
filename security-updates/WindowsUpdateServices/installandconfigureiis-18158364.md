@@ -73,9 +73,8 @@ Malicious programs can target the default port for HTTP traffic (port 80). If W
 
 If you already have a Web site on the computer where you intend to install WSUS, you should use the setup option for creating a custom Web site. This option puts the WSUS Web site on port 8530. This port is not configurable. If you are installing WSUS on a computer with a SUS installation, WSUS Setup will only let you install WSUS using the custom port. For more information about SUS to WSUS migration, see [Migrate from a SUS Server to a WSUS Server](https://technet.microsoft.com/5017f775-c9b1-4b33-879f-a14056c6a01c) later in this guide.
 
-| ![](images/Cc708435.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                                           |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| If you change the port number after WSUS installation, in order to access the WSUS administration console from a shortcut, you have to create a new shortcut on your **Start** menu with the new URL. See Help and Support in Windows Server 2003 for instruction on creating shortcuts. If you change the WSUS port number after WSUS installation, you must manually restart the IIS service. |
+> [!NOTE]
+> If you change the port number after WSUS installation, in order to access the WSUS administration console from a shortcut, you have to create a new shortcut on your **Start** menu with the new URL. See Help and Support in Windows Server 2003 for instruction on creating shortcuts. If you change the WSUS port number after WSUS installation, you must manually restart the IIS service. 
 
 #### Accessing WSUS on a Custom Port
 
@@ -84,5 +83,5 @@ Because the custom WSUS Web site is not on port 80, you must use a custom URL t
 -   Include a custom port number in the URL directing the client computer to the WSUS server—for example, http://*WSUSServerName*:*portnumber*.
 -   For more information about pointing client computers to the WSUS server, see [Determine a Method to Configure Automatic Updates Clients](https://technet.microsoft.com/8b786951-a481-49a6-a0e6-69189e58f2ab) later in this guide.
 -   Include a custom port number in the URL for accessing the WSUS console—for example, http://*WSUSServerame*:*portnumber*/WSUSAdmin/.
--   If you set up any WSUS servers downstream of a server that uses a custom port number, you must enter the custom port number on the WSUS console on the downstream WSUS server. You do not form a URL to make this connection.
+-   If you set up any WSUS servers downstream of a server that uses a custom port number, you must enter the custom port number on the WSUS console on the downstream WSUS server. You do not form a URL to make this connection.  
     You can find instructions for connecting a downstream WSUS server to an upstream WSUS server in [Chain WSUS Servers Together](https://technet.microsoft.com/ccf5da8c-62c3-4dfd-a5a4-b4da50f0b2ff).

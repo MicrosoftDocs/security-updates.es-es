@@ -16,9 +16,10 @@ Command line switches for wuauclt
 
 The following are the command line for wuauclt.
 
-###  
+
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -45,3 +46,5 @@ The following are the command line for wuauclt.
 </tr>
 </tbody>
 </table>
+
+<p> </p>

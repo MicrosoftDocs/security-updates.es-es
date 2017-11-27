@@ -25,9 +25,11 @@ IIS vroots
 
 The following virtual directories (vroots) are created in IIS (in the Default Web Site by default) for client-to-server synchronization, server to server synchronization, reporting, and client self-update.
 
-###  
+ 
 
  
+<p> </p>
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -42,67 +44,70 @@ The following virtual directories (vroots) are created in IIS (in the Default We
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">ClientWebService</td>
-<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\ClientWebService
-Application Pool: WsusPool
-Security: Anonymous Access Enabled
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\ClientWebService<br/><br/>
+Application Pool: WsusPool<br/><br/>
+Security: Anonymous Access Enabled<br/><br/>
 Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Content</td>
-<td style="border:1px solid black;">Directory[the location of the WSUS content directory]
-Security: Anonymous Access Enabled
+<td style="border:1px solid black;">Directory[the location of the WSUS content directory]<br/><br/>
+Security: Anonymous Access Enabled<br/><br/>
 Execute Permissions: None</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">DssAuthWebService</td>
-<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\DssAuthWebService
-Application Pool: WsusPool
-Security: Anonymous Access Enabled
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\DssAuthWebService<br/><br/>
+Application Pool: WsusPool<br/><br/>
+Security: Anonymous Access Enabled<br/><br/>
 Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Inventory</td>
-<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\ Inventory
-Application Pool: WsusPool
-Security: Anonymous Access Enabled
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\ Inventory<br/><br/>
+Application Pool: WsusPool<br/><br/>
+Security: Anonymous Access Enabled<br/><br/>
 Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">ReportingWebService</td>
-<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\ReportingWebService
-Application Pool: WsusPool
-Security: Anonymous Access Enabled
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\ReportingWebService<br/><br/>
+Application Pool: WsusPool<br/><br/>
+Security: Anonymous Access Enabled<br/><br/>
 Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">ServerSyncWebService</td>
-<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\ServerSyncWebService
-Application Pool: WsusPool
-Security: Anonymous Access Enabled
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\ServerSyncWebService<br/><br/>
+Application Pool: WsusPool<br/><br/>
+Security: Anonymous Access Enabled<br/><br/>
 Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">SimpleAuthWebService</td>
-<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\SimpleAuthWebService
-Application Pool: WsusPool
-Security: Anonymous Access Enabled
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\SimpleAuthWebService<br/><br/>
+Application Pool: WsusPool<br/><br/>
+Security: Anonymous Access Enabled<br/><br/>
 Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">ApiRemoting30</td>
-<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\Administration
-Application Pool: WsusPool
-Security: Integrated Windows Authentication, Digest Authentication
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\Administration<br/><br/>
+Application Pool: WsusPool<br/><br/>
+Security: Integrated Windows Authentication, Digest Authentication<br/><br/>
 Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">SelfUpdate</td>
-<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\SelfUpdate
-Security: Anonymous Access Enabled
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\SelfUpdate<br/><br/>
+Security: Anonymous Access Enabled<br/><br/>
 Execute Permissions: Scripts Only</td>
 </tr>
 </tbody>
 </table>
+
+<p></p>
+
  
 
 Using the adsutil IIS utility
@@ -126,43 +131,31 @@ You can use adsutil to find the paths for different Web services on your compute
 
 **Property path found at:**
 
-**W3SVC/***WebSiteID***/ROOT**
+**W3SVC/** *WebSiteID* **/ROOT**
 
-**W3SVC/***WebSiteID***/ROOT/ApiRemoting30**
+**W3SVC/** *WebSiteID* **/ROOT/ApiRemoting30**
 
-**W3SVC/***WebSiteID***/D/ROOT/ClientWebService**
+**W3SVC/** *WebSiteID* **/D/ROOT/ClientWebService**
 
-**W3SVC/***WebSiteID***/ROOT/Content**
+**W3SVC/** *WebSiteID* **/ROOT/Content**
 
-**W3SVC/***WebSiteID***/ROOT/DssAuthWebService**
+**W3SVC/** *WebSiteID* **/ROOT/DssAuthWebService**
 
-**W3SVC/***WebSiteID***/ROOT/Inventory**
+**W3SVC/** *WebSiteID* **/ROOT/Inventory**
 
-**W3SVC/***WebSiteID***/ROOT/ReportingWebService**
+**W3SVC/** *WebSiteID* **/ROOT/ReportingWebService**
 
-**W3SVC/***WebSiteID***/ROOT/Selfupdate**
+**W3SVC/** *WebSiteID* **/ROOT/Selfupdate**
 
-**W3SVC/***WebSiteID***/ROOT/ServerSyncWebService**
+**W3SVC/** *WebSiteID* **/ROOT/ServerSyncWebService**
 
-**W3SVC/***WebSiteID***/ROOT/SimpleAuthWebService**
+**W3SVC/** *WebSiteID* **/ROOT/SimpleAuthWebService**
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939903.note(WS.10).gif" />Nota</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">If you have installed WSUS on the default Web site, <em>WebSiteID</em> will be 1, but if you have installed it on another Web site, <em>WebSiteID</em> will be a random number.
-</td>
-</tr>
-</tbody>
-</table>
+<p> </p>
+
+> [!NOTE]
+> If you have installed WSUS on the default Web site, <em>WebSiteID</em> will be 1, but if you have installed it on another Web site, <em>WebSiteID</em> will be a random number.
  
 
 Checking the properties of a Web service
@@ -189,9 +182,11 @@ These global properties can be retrieved with the following adsutil command:
 
 The properties listed below are a partial list.
 
-###  
+ 
 
  
+<p> </p>
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -440,11 +435,11 @@ Compiled Templates&quot;</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">InProcessIsapiApps</td>
-<td style="border:1px solid black;">(LIST) (6 Items)
-&quot;%windir%\system32\inetsrv\httpext.dll&quot;
-&quot;%windir%\system32\inetsrv\httpodbc.dll&quot;
-&quot;%windir%\system32\inetsrv\ssinc.dll&quot;
-&quot;%windir%\system32\msw3prt.dll&quot;
+<td style="border:1px solid black;">(LIST) (6 Items)<br/><br/>
+&quot;%windir%\system32\inetsrv\httpext.dll&quot;<br/><br/>
+&quot;%windir%\system32\inetsrv\httpodbc.dll&quot;<br/><br/>
+&quot;%windir%\system32\inetsrv\ssinc.dll&quot;<br/><br/>
+&quot;%windir%\system32\msw3prt.dll&quot;<br/><br/>
 &quot;%windir%\Microsoft.NET\Framework\v2.0.50727\aspnet_isapi.dll&quot;</td>
 </tr>
 <tr class="even">
@@ -545,23 +540,23 @@ Compiled Templates&quot;</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">ApplicationDependencies</td>
-<td style="border:1px solid black;">(LIST) (6 Items)
-&quot;Active Server Pages;ASP&quot;
-&quot;Internet Data Connector;HTTPODBC&quot;
-&quot;Server Side Includes;SSINC&quot;
-&quot;WebDAV;WEBDAV&quot;
+<td style="border:1px solid black;">(LIST) (6 Items)<br/><br/>
+&quot;Active Server Pages;ASP&quot;<br/><br/>
+&quot;Internet Data Connector;HTTPODBC&quot;<br/><br/>
+&quot;Server Side Includes;SSINC&quot;<br/><br/>
+&quot;WebDAV;WEBDAV&quot;<br/><br/>
 &quot;ASP.NET v1.1.4322;ASP.NET v1.1.4322&quot;</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">WebSvcExtRestrictionList</td>
-<td style="border:1px solid black;">(LIST) (8 Items)
-&quot;0,*.dll&quot;
-&quot;0,*.exe&quot;&gt;
-&quot;0,&lt;windir&gt;\system32\inetsrv\asp.dll,0,ASP,Active Server Pages&quot;&gt;
+<td style="border:1px solid black;">(LIST) (8 Items)<br/><br/>
+&quot;0,*.dll&quot;<br/><br/>
+&quot;0,*.exe&quot;&gt;<br/><br/>
+&quot;0,&lt;windir&gt;\system32\inetsrv\asp.dll,0,ASP,Active Server Pages&quot;&gt;<br/><br/>
 &quot;0,&lt;windir&gt;\system32\inetsrv\httpodbc.dll,0,HTTPODBC,Internet Data
-Connector&quot;
-&quot;0,&lt;windir&gt;\system32\inetsrv\ssinc.dll,0,SSINC,Server Side Includes&quot;
-&quot;0,&lt;windir&gt;\system32\inetsrv\httpext.dll,0,WEBDAV,WebDAV&quot;&gt;
+Connector&quot;<br/><br/>
+&quot;0,&lt;windir&gt;\system32\inetsrv\ssinc.dll,0,SSINC,Server Side Includes&quot;<br/><br/>
+&quot;0,&lt;windir&gt;\system32\inetsrv\httpext.dll,0,WEBDAV,WebDAV&quot;&gt;<br/><br/>
 &quot;1,&lt;windir&gt;\Microsoft.NET\Framework\v2.0.50727\aspnet_isapi.dll,0,ASP.NET
 v2.0.50727,ASP.NET v2.0.50727&quot;</td>
 </tr>
@@ -587,6 +582,9 @@ v2.0.50727,ASP.NET v2.0.50727&quot;</td>
 </tr>
 </tbody>
 </table>
+
+<p></p>
+
   
 Global Properties of the WWW Web site  
 -------------------------------------
@@ -597,9 +595,11 @@ These properties can be retrieved with the following adsutil command:
   
 The properties listed below comprise a partial list.
   
-###  
+ 
 
  
+<p> </p>
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -662,13 +662,18 @@ The properties listed below comprise a partial list.
 </tr>
 </tbody>
 </table>
+
+<p></p>
+
   
 Properties of the API Remoting Web service  
 ------------------------------------------
   
-###  
+ 
 
  
+<p> </p>
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -783,13 +788,18 @@ Properties of the API Remoting Web service
 </tr>
 </tbody>
 </table>
+
+<p></p>
+
   
 Properties of the Client Web service  
 ------------------------------------
   
-###  
+ 
 
  
+<p> </p>
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -904,13 +914,18 @@ Properties of the Client Web service
 </tr>
 </tbody>
 </table>
+
+<p></p>
+
   
 Properties of the Downstream Server Authentication Web service  
 --------------------------------------------------------------
   
-###  
+ 
 
  
+<p> </p>
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1025,13 +1040,18 @@ Properties of the Downstream Server Authentication Web service
 </tr>
 </tbody>
 </table>
+
+<p></p>
+
   
 Properties of the Inventory Collection Web service  
 --------------------------------------------------
   
-###  
+ 
 
  
+<p> </p>
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1146,13 +1166,18 @@ Properties of the Inventory Collection Web service
 </tr>
 </tbody>
 </table>
+
+<p></p>
+
   
 Checking the properties of the Reporting Web service  
 ----------------------------------------------------
   
-###  
+ 
 
  
+<p> </p>
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1267,13 +1292,18 @@ Checking the properties of the Reporting Web service
 </tr>
 </tbody>
 </table>
+
+<p></p>
+
   
 Properties of the Selfupdate Web service  
 ----------------------------------------
   
-###  
+ 
 
  
+<p> </p>
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1340,13 +1370,18 @@ Properties of the Selfupdate Web service
 </tr>
 </tbody>
 </table>
+
+<p></p>
+
   
 Properties of the Server Synchronization Web service  
 ----------------------------------------------------
   
-###  
+ 
 
  
+<p> </p>
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1461,13 +1496,18 @@ Properties of the Server Synchronization Web service
 </tr>
 </tbody>
 </table>
+
+<p></p>
+
   
 Properties of the Simple Authorization Web service  
 --------------------------------------------------
   
-###  
+ 
 
  
+<p> </p>
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1582,3 +1622,6 @@ Properties of the Simple Authorization Web service
 </tr>
 </tbody>
 </table>
+
+<p></p>
+
