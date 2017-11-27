@@ -57,9 +57,8 @@ The Status of Updates report enables you to view the status for all of your appr
   
 The report displays information resulting from the most recent contact between client computers and the WSUS server. The frequency with which client computers contact the WSUS server is configured through Group Policy. By default, this is every 22 hours. Unless you want to change the contact frequency for your client computers, generate this report the day after you approve updates, so that it reflects your latest approvals. For more information about configuring Group Policy, see [Deploying Microsoft Windows Server Updates Services](http://go.microsoft.com/fwlink/?linkid=41777).
   
-| ![](images/Cc708481.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                       |  
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| You can use a command-line tool on client computers that are running the WSUS client software (Automatic Updates) in order to initiate contact between the client computer and WSUS server. This can be useful if you want to get immediate update status for a particular computer—you can run this tool to force connection and then generate a Status of Updates report. |
+> [!NOTE]
+> You can use a command-line tool on client computers that are running the WSUS client software (Automatic Updates) in order to initiate contact between the client computer and WSUS server. This can be useful if you want to get immediate update status for a particular computer—you can run this tool to force connection and then generate a Status of Updates report.
   
 **To initiate immediate contact between a client computer and WSUS server**  
 -   On the client computer, at the command prompt, type **wuauclt.exe /detectnow**, and then press **ENTER**.
@@ -308,9 +307,8 @@ The Synchronization Results report enables you to see synchronization informatio
   
 4.  To print the report, under **Tasks**, click **Print report**.
   
-| ![](images/Cc708481.note(WS.10).gif)Nota                                                                   |  
-|-----------------------------------------------------------------------------------------------------------------------------------------|  
-| The **Print report** task is not enabled if you have a dialog box open. You cannot use the **Print report** task to print a dialog box. |
+> [!NOTE]
+> The **Print report** task is not enabled if you have a dialog box open. You cannot use the **Print report** task to print a dialog box.
   
 The report has four components, which are described in the following table.
   

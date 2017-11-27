@@ -1,15 +1,15 @@
 ---
 TOCTitle: 'Set Up E-Mail Notifications'
 Title: 'Set Up E-Mail Notifications'
-ms:assetid: 'e2db0965-9b30-4bc0-9815-c688c62d689b'
-ms:contentKeyID: 18158592
-ms:mtpsurl: 'https://technet.microsoft.com/es-es/library/Cc708608(v=WS.10)'
+ms:assetid: 'd6937260-c35f-4f57-a8a9-88e8dc5423cf'
+ms:contentKeyID: 21741420
+ms:mtpsurl: 'https://technet.microsoft.com/es-es/library/Dd939922(v=WS.10)'
 ---
 
 Set Up E-Mail Notifications
 ===========================
 
-The WSUS 3.0 server can be configured to send e-mail notifications of new updates and reports on the status of the WSUS network. Notifications will be sent whenever the WSUS server synchronizes new updates, and status reports can be sent daily or weekly. E-mail notifications do not include rolled-up computer status from replica downstream servers.
+The WSUS 3.0 SP2 server can be configured to send e-mail notifications of new updates and reports on the status of the WSUS network. Notifications will be sent whenever the WSUS server synchronizes new updates, and status reports can be sent daily or weekly. E-mail notifications do not include rolled-up computer status from replica downstream servers.
 
 **Set up e-mail notifications**
 1.  In the WSUS Administration console, click **Options** in the left pane.
@@ -35,7 +35,8 @@ The WSUS 3.0 server can be configured to send e-mail notifications of new update
 11. Click **Apply** to save these settings.
 
 > [!NOTE]
-> If both the WSUS administrative console and the WSUS server have the same settings for Daylight Savings Time adjustments, notifications will appear at the correct time. If the adjustments for Daylight Savings Time are different, then notifications will be off by the difference in the Daylight Savings Time adjustment. 
+> If both the WSUS administrative console and the WSUS server have the same settings for Daylight Savings Time adjustments, notifications will appear at the correct time. If the adjustments for Daylight Savings Time are different, then notifications will be off by the difference in the Daylight Savings Time adjustment.
+ 
 
 **Set up the e-mail server**
 1.  Click the **E-Mail Server** tab.
@@ -52,8 +53,10 @@ The WSUS 3.0 server can be configured to send e-mail notifications of new update
 
 7.  Enter the user name and password in the respective boxes.
 
-    > [!NOTE]
-    > You can change authentication credentials only on a WSUS server, not from a remote administration console. 
+> [!NOTE]
+> You can change authentication credentials only on a WSUS server, not from a remote administration console.
+
+ 
 
 8.  Click **Apply** to save this information.
 
@@ -61,6 +64,8 @@ The WSUS 3.0 server can be configured to send e-mail notifications of new update
 
 10. If your e-mail notification is not working properly, one place to look is the SoftwareDistribution.log file (found in your WSUS directory, usually …\\Program Files\\Update Services\\LogFiles). One error message that is symptomatic of an incorrect SMTP configuration is the following:
 
-    `EmailNotificationAgent.WakeUpWorkerThreadProc Exception occurred when sending email of type Summary: System.Net.Mail.SmtpException: Failure sending mail. ---> System.IO.IOException: Unable to read data from the transport connection: net_io_connectionclosed`.
+```
+EmailNotificationAgent.WakeUpWorkerThreadProc Exception occurred when sending email of type Summary: System.Net.Mail.SmtpException: Failure sending mail. ---> System.IO.IOException: Unable to read data from the transport connection: net_io_connectionclosed.
+```
 
-    Investigate your SMTP e-mail server configuration to resolve this problem.
+   Investigate your SMTP e-mail server configuration to resolve this problem.
