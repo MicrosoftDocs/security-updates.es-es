@@ -17,11 +17,11 @@ Windows Server Update Services (WSUS) 3.0 ofrece varias características nuevas 
 
 ##### En esta página
 
-[](#eeaa)[Facilidad de uso](#eeaa)
-[](#edaa)[Opciones de implementación mejoradas](#edaa)
-[](#ecaa)[Mayor compatibilidad con las jerarquías de servidores complejas](#ecaa)
-[](#ebaa)[Mayor optimización del rendimiento y el ancho de banda](#ebaa)
-[](#eaaa)[Ampliación de WSUS 3.0 con las API mejoradas](#eaaa)
+[](#eeaa)[Facilidad de uso](#eeaa)  
+[](#edaa)[Opciones de implementación mejoradas](#edaa)  
+[](#ecaa)[Mayor compatibilidad con las jerarquías de servidores complejas](#ecaa)  
+[](#ebaa)[Mayor optimización del rendimiento y el ancho de banda](#ebaa)  
+[](#eaaa)[Ampliación de WSUS 3.0 con las API mejoradas](#eaaa)  
 
 ### Facilidad de uso
 
@@ -151,8 +151,7 @@ La nueva API admite la recopilación de los inventarios de hardware y software d
 
 La nueva API admite las aplicaciones de publicación y actualizaciones de terceros, lo cual, a su vez, permite que la infraestructura de WSUS pueda distribuir también actualizaciones de otras compañías.
 
-![](images/Cc708601.note(es-es,WS.10).gif)**Nota:**
-
-Para obtener más información acerca de las características de WSUS, consulte [Características de Windows Server Update Services](http://www.microsoft.com/spain/technet/windowsserver/library/wsus/caracteristicas.mspx) que encontrará más adelante en este documento.
+> [Nota]
+> Para obtener más información acerca de las características de WSUS, consulte [Características de Windows Server Update Services](http://www.microsoft.com/spain/technet/windowsserver/library/wsus/caracteristicas.mspx) que encontrará más adelante en este documento.
 
 [](#mainsection)[Principio de la página](#mainsection)
