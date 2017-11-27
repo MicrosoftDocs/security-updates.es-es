@@ -19,7 +19,7 @@ This can happen under different circumstances. For example, if updates are store
 To have WSUS verify which updates are stored on the disk, you must run the WSUSutil.exe using the **reset** command.
 
 > [!NOTE]
-> Performing a reset causes the WSUS server to be unresponsive for up to five minutes. 
+> Performing a reset causes the WSUS server to be unresponsive for up to five minutes.
 
 **To have WSUS verify locally stored updates**
 1.  Click **Start**, and then click **Run.**
