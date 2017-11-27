@@ -95,7 +95,7 @@ Los hash de cifrado MD-5 se crean ejecutando un algoritmo en un archivo para cre
 
 Ray exporta el conjunto de registros a una unidad USB etiquetada como HR01. Utilizará esta misma unidad USB para toda recopilación de evidencia.
 
-> [!IMPORTANT]
+> [!NOTE]
 > Al conectar una unidad USB a un equipo basado en Windows, se agrega una entrada al archivo **Setupapi.log** y se altera la clave de registro siguiente: **HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Enum\\Storage\\RemovableMedia**
 
 Ray decide determinar qué permisos se asignan a la carpeta RR.HH.\Interno ejecutando la herramienta [Windows Sysinternals AccessChk](http://go.microsoft.com/?linkId=6013258) en el servidor. Esta herramienta muestra las autorizaciones que el usuario o el grupo especificado posee para archivos, claves de registro o servicios de Windows. Ray ejecuta la herramienta de su unidad USB, que aparece como unidad F:, escribiendo lo siguiente en un símbolo del sistema:
@@ -104,7 +104,7 @@ Ray decide determinar qué permisos se asignan a la carpeta RR.HH.\Interno ejecu
 f:\tools>accesschk mdanseglio c:\hr\internal
 ```
 
-> [!IMPORTANT]
+> [!NOTE]
 > La herramienta Sysinternals AccessChk requiere un proceso de instalación y dejará una huella en la unidad de disco local en la clave de registro siguiente: **HKEY\_CURRENT\_USER\\Software\\Sysinternals\\AccessChk**
 
 Ray descubre que la cuenta de usuario de mdanseglio posee permiso de lectura y escritura para las subcarpetas \\Beneficios, \\Nóminas y \\Análisis de \\RR.HH.\\Interno, tal y como muestra la siguiente captura de pantalla:
@@ -143,7 +143,6 @@ Ray utiliza el siguiente el procedimiento básico, que le permite marcar la hora
 
 > [!IMPORTANT]
 > Algunas herramientas de Sysinternals, incluidas PsExec, PsFile y PsLogList, las bloquea la configuración predeterminada del firewall de Windows. Para seguir este ejemplo aplicado y utilizar estas herramientas para examinar qué información puede reunirse a través de la red, tiene que hacer clic en la ficha **Excepciones** del firewall de Windows y habilitar **Compartir archivos e impresoras.** Sin embargo, usted NO necesita compartir nada.  
-
 En los equipos de destino con el firewall de Windows habilitado y Compartir archivos e impresoras deshabilitado (la configuración predeterminada), las herramientas Systeminfo, Ipconfig, Arp, Netstat, Schtasks, PsFile, PsList y PsLogList deberán ejecutarse directamente en el equipo de destino. En tal caso, ejecute cada una de estas herramientas directamente en el sistema de destino y canalice los resultados al archivo **evidence2.txt** creado en la sección "Recopilación de evidencia local" de este capítulo.
 
 1.  Obtener acceso a la unidad USB.
@@ -214,17 +213,19 @@ En los equipos de destino con el firewall de Windows habilitado y Compartir arch
     fciv j:\evidence\mdevidence.txt >> j:\evidence\md5mdevidence.txt
     ```
 
-> [!IMPORTANT]
+> [!NOTE]
 > Las limitaciones de la pantalla podrían hacer que el comando anterior se muestre en más de una línea. Debe escribirse como una sola línea en el símbolo del sistema.
 
 La herramienta FCIV calcula y comprueba los valores hash de cifrado. Esta herramienta está disponible a través del artículo de Microsoft Knowledge Base 841290.
+
+Ray desea revisar de forma remota las carpetas del equipo de Mike Danseglio. Para ello, utiliza PsExec para abrir un símbolo del sistema en el equipo de Mike. En el símbolo del sistema, Ray escribe los comandos siguientes:
+
 
 
     ```
     psexec \\hqloan164 cmd
     cd c:\documents and settings\mdanseglio\my documents
-    dir /s
-    
+    dir /s    
     ```
 
 Aunque se pide a todos los usuarios que conserven los documentos en el servidor de red, Ray advierte que Mike Danseglio tiene una carpeta personal en su equipo. Esta carpeta incluye una hoja de cálculo y una subcarpeta de \\xxxpixset.
@@ -247,9 +248,8 @@ Jill Shrader, el administrador del departamento de RR.HH., llama a Ray en su tel
 
 Idealmente, las investigaciones informáticas deberían realizarse en imágenes de disco duro. En este ejemplo, sin embargo, Ray ejecuta una serie de herramientas directamente en el equipo de Mike Danseglio. Estas herramientas se ejecutan en una unidad USB y no requieren su instalación en el equipo local. Sin embargo, tal como se ha mencionado anteriormente en este capítulo, la inserción de la unidad USB dejará una huella en el registro.
 
-![](images/Cc162849.important(es-es,TechNet.10).gif) **Importante:**
-
-Si el equipo de Mike Danseglio hubiera tenido habilitado el firewall de Windows con Compartir archivos e impresoras deshabilitado, Ray debería haber ejecutado las herramientas Systeminfo, Ipconfig, Arp, Netstat, Schtasks, PsFile, PsList y PsLogList de forma local en equipo de Mike. Ray escribiría los comandos enumerados en la anterior sección de este capítulo, "Recopilación de evidencia remota", pero quitaría la referencia a \\\\hqloan164 antes de canalizar los resultados al archivo **evidence2.txt** creado en esta sección.
+> [!IMPORTANT]
+> Si el equipo de Mike Danseglio hubiera tenido habilitado el firewall de Windows con Compartir archivos e impresoras deshabilitado, Ray debería haber ejecutado las herramientas Systeminfo, Ipconfig, Arp, Netstat, Schtasks, PsFile, PsList y PsLogList de forma local en equipo de Mike. Ray escribiría los comandos enumerados en la anterior sección de este capítulo, "Recopilación de evidencia remota", pero quitaría la referencia a \\\\hqloan164 antes de canalizar los resultados al archivo **evidence2.txt** creado en esta sección.
 
 Ray tiene previsto realizar las siguientes tareas en el equipo de Mike:
 
@@ -279,7 +279,7 @@ Ray inicia sesión en el equipo de Mike mediante la cuenta de Administrador para
     time /t >> f:\evidence\mdevidence2.txt
     ```
         
-    > [!IMPORTANT]
+    > [!NOTE]
     > La unidad USB se designa unidad F: en el equipo de Mike. 
 
 3.  Obtener información de la estructura de directorios.
@@ -318,7 +318,7 @@ Ray inicia sesión en el equipo de Mike mediante la cuenta de Administrador para
 
     Aunque Ray creó una imagen de toda la unidad de disco de Mike Danseglio, decide copiar los archivos de la carpeta personal de Mike Danseglio en una carpeta nueva denominada **evidencia\_archivos** que ha creado en la unidad USB. Ray examinará la carpeta y los archivos durante el proceso del análisis.
 
-    > [!IMPORTANT]
+    > [!NOTE]
     > Ray obtuvo una copia del archivo original durante el proceso de creación de imagen. Puede realizar un hash en el archivo original que encontró en la unidad de disco en tiempo real si desea comparar este archivo con la copia del archivo de su unidad USB.  
     > Ray utiliza el comando Xcopy con el parámetro /s para copiar subcarpetas, el parámetro /e para copiar subcarpetas, incluso si están vacías, el parámetro /k para retener el atributo de sólo lectura en los archivos de destino, si se encuentra en los archivos de origen, y el parámetro /v para comprobar cómo está escrito cada archivo en el archivo de destino, para cerciorarse de que los archivos de destino son idénticos a los archivos de origen.  
     
@@ -376,7 +376,7 @@ Ray tiene dos archivos de evidencia: **mdevidence.txt** y **mdevidence2.txt.** T
     find /i /c "confidential" *.* > j:\evidence\mdevidence-review.txt
     ```
 
-    > [!IMPORTANT]
+    > [!NOTE]
     > Las limitaciones de la pantalla podrían hacer que el comando anterior se muestre en más de una línea. Debe escribirse como una sola línea en el símbolo del sistema.  
 
     ![](images/Cc162849.2a056bdd-f29e-4327-b88c-add5b50ef92b(es-es,TechNet.10).gif)
@@ -395,7 +395,7 @@ Ray tiene dos archivos de evidencia: **mdevidence.txt** y **mdevidence2.txt.** T
     strings j:\evidence_files\090806PR-A139.XLS >> j:\evidence\mdevidence-review.txt
     ```
     
-    > [!IMPORTANT]
+    > [!NOTE]
     > Las limitaciones de la pantalla podrían hacer que el comando anterior se muestre en más de una línea. Debe escribirse como una sola línea en el símbolo del sistema.  
 
     ![](images/Cc162849.ad4cc4e5-9d54-47f3-99cb-694d01db0e66(es-es,TechNet.10).gif)
@@ -428,7 +428,7 @@ El informe de Ray incluye la información siguiente:
 
 Después de presentar su informe, Ray espera la autorización necesaria para realizar pasos adicionales en la investigación, o cualquier otro tipo de acciones que pueda solicitar la administración.
 
-> [!IMPORTANT]
+> [!NOTE]
 > Cada investigación puede ser diferente. Deberá utilizar herramientas apropiadas para la tarea necesaria y que le ayuden a obtener la información que busca, pero siempre es una idea buena reunir más evidencia de la que podría ser necesaria.  
 
 [](#mainsection)[Principio de la página](#mainsection)
