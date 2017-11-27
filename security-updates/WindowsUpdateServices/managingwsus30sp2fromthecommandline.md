@@ -11,8 +11,8 @@ Managing WSUS 3.0 SP2 from the Command Line
 
 The **wsusutil** command-line utility is used in managing WSUS servers and is located in the *WSUSInstallDir*\\Tools folder of WSUS servers. The table below summarizes the different parameters that can be used with this utility, and later sections explain the syntax and usage of each parameter.
 
- 
-<p> </p>
+ <p> </p>
+
 > [!NOTE]
 > You can also use Windows® PowerShell® to access the WSUS 3.0 APIs from the command line.
  
@@ -435,8 +435,8 @@ For more information about exporting and importing updates, see the [Set Up a Di
 </tbody>
 </table>
 
- 
-<p> </p>
+ <p> </p>
+
 > [!NOTE]
 > Exporting from a WSUS 2.0 server to a WSUS 3.0, WSUS 3.0 SP1, or WSUS 3.0 SP2 server (or from a WSUS 3.0, WSUS 3.0 SP1, or WSUS 3.0 SP2 server to a WSUS 2.0 server) is not supported.
  
@@ -588,8 +588,8 @@ This command deletes the given front-end server.
 </tbody>
 </table>
 
- 
 <p> </p>
+
 > [!IMPORTANT]
 > This command removes the front-end server from the database only. You will need to run <strong>wsussetup /u</strong> on the front-end server to uninstall WSUS.
  
