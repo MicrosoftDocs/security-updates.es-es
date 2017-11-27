@@ -15,10 +15,10 @@ This guide includes three ways to enhance the security of your WSUS server:
 -   Recommendations for adding authentication between chained WSUS servers in an Active Directory environment.
 -   Recommendations for implementing the Secure Sockets Layer protocol on WSUS.
 
-Hardening your Windows Server 2003 running WSUS
+Hardening your Windows Server 2003 running WSUS
 -----------------------------------------------
 
-You can find recommended settings for hardening your WSUS server in [Appendix E: List of Security Settings](https://technet.microsoft.com/0b284e97-679b-4d0f-83e5-99e68bce5fb9). These recommendations include hardening a number of Windows Server components, as well as IIS 6.0 and SQL Server 2005 or SQL Server 2008.
+You can find recommended settings for hardening your WSUS server in [Appendix E: List of Security Settings](https://technet.microsoft.com/0b284e97-679b-4d0f-83e5-99e68bce5fb9). These recommendations include hardening a number of Windows Server components, as well as IIS 6.0 and SQL Server 2005 or SQL Server 2008.
 
 Adding authentication for chained WSUS Servers in an Active Directory environment
 ---------------------------------------------------------------------------------
@@ -41,8 +41,6 @@ WSUS setup creates a configuration file that enables you to add an explicit list
 *%ProgramFiles%*\\Update Services\\WebServices\\serversyncwebservice\\Web.config
 
 Use the `<authorization>` element to define an authentication list. You must add the `<authorization>` element below the `<configuration>` and `<system.web>` elements.
-
-Consider the example below:
 
 ```
 <configuration>
@@ -115,7 +113,7 @@ The most important thing to remember when configuring the WSUS server to use SSL
     -   SelfUpdate
 
 -   On the WSUS server, run the command:
-    **wsusutil configuressl** *certificateName*
+    **wsusutil configuressl** *certificateName*
     where *certificateName* is the DNS name of the WSUS server. For example, if clients will connect to https://myWSUSServer, then *certificateName* should be myWSUSServer. If clients will connect to https://myWSUSServer.myDomain.com, then *certificateName* should be myWSUSServer.myDomain.com.
 -   The certificate of the certification authority must be imported into either the local computer's Trusted Root CA store or the Windows Server Update Service's Trusted Root CA store on downstream WSUS servers. If the certificate is imported only to the Local User's Trusted Root CA store, the downstream WSUS server will not be authenticated on the upstream server. For more information about SSL certificates, see [How to implement SSL in IIS (KB 299875)](http://go.microsoft.com/fwlink/?linkid=86176) (http://go.microsoft.com/fwlink/?LinkId=86176).
 -   You must import the certificate to all the computers that will communicate with the server, including all clients, downstream servers, and computers running the administration console remotely. Again, the certificate should be imported into the local computer's Trusted Root CA store or the Windows Server Update Service's Trusted Root CA store.
@@ -151,7 +149,7 @@ Setting up a Certification Authority (CA), binding a certificate to the WSUS Web
 
 However, several articles on the subject are available. For more information and instructions about how to install certificates and set up your environment, see the following pages on the Microsoft Web site.
 
--   The [Windows Server 2003 PKI Operations Guide](http://go.microsoft.com/fwlink/?linkid=83159) (http://go.microsoft.com/fwlink/?LinkId=83159) provides a guide for administrators about how to configure and operate a Windows Certification Authority.
+-   The [Windows Server 2003 PKI Operations Guide](http://go.microsoft.com/fwlink/?linkid=83159) (http://go.microsoft.com/fwlink/?LinkId=83159) provides a guide for administrators about how to configure and operate a Windows Certification Authority.
 -   Configuring SSL on a Web Server or Web Site at [http://go.microsoft.com/fwlink/?LinkId=83159](http://go.microsoft.com/fwlink/?linkid=100210) offers step-by-step instructions for setting up SSL on a Web site.
--   [Certificate Autoenrollment in Windows Server 2003](http://go.microsoft.com/fwlink/?linkid=17801) (http://go.microsoft.com/fwlink/?LinkId=17801) offers instructions about how to automatically enroll client computers running Windows XP in Windows Server 2003 Enterprise environments integrated with Active Directory.
+-   [Certificate Autoenrollment in Windows Server 2003](http://go.microsoft.com/fwlink/?linkid=17801) (http://go.microsoft.com/fwlink/?LinkId=17801) offers instructions about how to automatically enroll client computers running Windows XP in Windows Server 2003 Enterprise environments integrated with Active Directory.
 -   [Advanced Certificate Enrollment and Management](http://go.microsoft.com/fwlink/?linkid=83160) (http://go.microsoft.com/fwlink/?LinkId=83160) provides guidance about how to automatically enroll client computers in other environments.
