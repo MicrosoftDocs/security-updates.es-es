@@ -15,18 +15,18 @@ Actualizado: 27/12/05
 
 ##### En esta página
 
-[](#ehaa)[Información general](#ehaa)
-[](#egaa)[Configuración de directiva de auditoría](#egaa)
-[](#efaa)[Asignaciones de derechos de usuario](#efaa)
-[](#eeaa)[Opciones de seguridad](#eeaa)
-[](#edaa)[Configuración del registro de eventos](#edaa)
-[](#ecaa)[Configuración de seguridad adicional](#ecaa)
-[](#ebaa)[Creación de la directiva utilizando SCW](#ebaa)
-[](#eaaa)[Resumen](#eaaa)
+[](#ehaa)[Información general](#ehaa)  
+[](#egaa)[Configuración de directiva de auditoría](#egaa)  
+[](#efaa)[Asignaciones de derechos de usuario](#efaa)  
+[](#eeaa)[Opciones de seguridad](#eeaa)  
+[](#edaa)[Configuración del registro de eventos](#edaa)  
+[](#ecaa)[Configuración de seguridad adicional](#ecaa)  
+[](#ebaa)[Creación de la directiva utilizando SCW](#ebaa)  
+[](#eaaa)[Resumen](#eaaa)  
 
 ### Información general
 
-Este capítulo se centra en cómo reforzar la seguridad de los hosts de baluarte que ejecutan Microsoft® Windows* *Server™* *2003* *con Service Pack 1 (SP1) en el entorno. Los hosts de baluarte son equipos seguros a los que todo el mundo puede obtener acceso y que se ubican en el lado público de la red perimetral de una organización (también conocida como DMZ, zona desmilitarizada y subred protegida). Estos tipos de hosts no se encuentran protegidos por un servidor de seguridad o un enrutador de filtrado, por lo que quedan totalmente a merced de cualquier ataque. Para reducir al mínimo la posibilidad de que resulten comprometidos, los hosts de baluarte se deben diseñar y configurar con mucha atención.
+Este capítulo se centra en cómo reforzar la seguridad de los hosts de baluarte que ejecutan Microsoft® Windows Server™ 2003 con Service Pack 1 (SP1) en el entorno. Los hosts de baluarte son equipos seguros a los que todo el mundo puede obtener acceso y que se ubican en el lado público de la red perimetral de una organización (también conocida como DMZ, zona desmilitarizada y subred protegida). Estos tipos de hosts no se encuentran protegidos por un servidor de seguridad o un enrutador de filtrado, por lo que quedan totalmente a merced de cualquier ataque. Para reducir al mínimo la posibilidad de que resulten comprometidos, los hosts de baluarte se deben diseñar y configurar con mucha atención.
 
 Los hosts de baluarte se utilizan a menudo como servidores web, servidores DNS, servidores de protocolo de transferencia de archivos (FTP), servidores de protocolo simple de transferencia de correo (SMTP) y servidores de protocolo de transferencia de noticias a través de la red (NNTP). Lo ideal es que los hosts de baluarte se dediquen a desempeñar solamente una de estas funciones, ya que cuantas más funciones tengan que proporcionar, mayor será la probabilidad de que se pase por alto un error en la seguridad. Resulta más fácil proteger sólo un servicio en un único host de baluarte que garantizar la seguridad de varios servicios. Las organizaciones que se pueden permitir tener varios hosts de baluarte se pueden beneficiar enormemente de las ventajas que ofrece este tipo de arquitectura de red.
 
@@ -36,7 +36,7 @@ En las siguientes secciones de este capítulo se describen distintas configuraci
 
 #### Directiva local de host de baluarte
 
-Las funciones de servidor descritas anteriormente en esta guía utilizaban la directiva de grupo para configurar los servidores. La directiva de grupo no se puede aplicar a los servidores host de baluarte, ya que están configurados como hosts independientes que no pertenecen a un dominio del servicio de directorio de Active* *Directory®. Debido a su riesgo de sufrir un ataque y a que no están protegidos por otros dispositivos, sólo se recomienda un conjunto determinado de instrucciones para los servidores host de baluarte de los tres entornos que se definen en esta guía. Las configuraciones de seguridad descritas en este capítulo se basan en la directiva de línea de base de servidores miembro (MSBP) para el entorno SSLF definido en el capítulo 4, "Directiva de línea de base de servidores miembro", y se incluyen en una plantilla de seguridad que se debe aplicar a la directiva local de host de baluarte (BHLP) de cada host.
+Las funciones de servidor descritas anteriormente en esta guía utilizaban la directiva de grupo para configurar los servidores. La directiva de grupo no se puede aplicar a los servidores host de baluarte, ya que están configurados como hosts independientes que no pertenecen a un dominio del servicio de directorio de Active Directory®. Debido a su riesgo de sufrir un ataque y a que no están protegidos por otros dispositivos, sólo se recomienda un conjunto determinado de instrucciones para los servidores host de baluarte de los tres entornos que se definen en esta guía. Las configuraciones de seguridad descritas en este capítulo se basan en la directiva de línea de base de servidores miembro (MSBP) para el entorno SSLF definido en el capítulo 4, "Directiva de línea de base de servidores miembro", y se incluyen en una plantilla de seguridad que se debe aplicar a la directiva local de host de baluarte (BHLP) de cada host.
 
 **Tabla 12.1 Plantillas de seguridad de servidor host de baluarte**
 
@@ -68,7 +68,7 @@ Las funciones de servidor descritas anteriormente en esta guía utilizaban la di
   
 ### Configuración de directiva de auditoría
   
-La configuración de directiva de auditoría de BHLP para los hosts de baluarte se incluye en el archivo SSLF-Bastion Host.inf y es la misma que la especificada en el archivo** **SSLF-Member Server Baseline.inf. Para obtener más información acerca de la directiva MSBP, consulte el capítulo 4, "Directiva de línea de base de servidores miembro". La configuración de la directiva MSBP garantiza que toda la información de auditoría de seguridad pertinente se registre en todos los servidores host de baluarte.
+La configuración de directiva de auditoría de BHLP para los hosts de baluarte se incluye en el archivo SSLF-Bastion Host.inf y es la misma que la especificada en el archivo SSLF-Member Server Baseline.inf. Para obtener más información acerca de la directiva MSBP, consulte el capítulo 4, "Directiva de línea de base de servidores miembro". La configuración de la directiva MSBP garantiza que toda la información de auditoría de seguridad pertinente se registre en todos los servidores host de baluarte.
   
 [](#mainsection)[Principio de la página](#mainsection)
   
@@ -129,7 +129,7 @@ La configuración de seguridad aplicada por la directiva BHLP mejora considerabl
   
 #### Adición manual de grupos de seguridad únicos a las asignaciones de derechos de usuario
   
-La mayor parte de las asignaciones de derechos de usuario que se aplican a través de MSBP contienen los grupos de seguridad adecuados especificados en las plantillas de seguridad que acompañan a esta guía. Sin embargo, existen algunas cuentas y grupos de seguridad que no se pueden incluir en las plantillas debido a que sus identificadores de seguridad (SID) son específicos de dominios individuales de Windows* *Server* *2003. Las configuraciones de las asignaciones de derechos de usuario que se indican en la siguiente tabla se deben establecer manualmente.
+La mayor parte de las asignaciones de derechos de usuario que se aplican a través de MSBP contienen los grupos de seguridad adecuados especificados en las plantillas de seguridad que acompañan a esta guía. Sin embargo, existen algunas cuentas y grupos de seguridad que no se pueden incluir en las plantillas debido a que sus identificadores de seguridad (SID) son específicos de dominios individuales de Windows Server 2003. Las configuraciones de las asignaciones de derechos de usuario que se indican en la siguiente tabla se deben establecer manualmente.
   
 **Advertencia**: en la siguiente tabla se incluyen valores para la cuenta integrada Administrador. No hay que confundir esta cuenta con el grupo de seguridad **Administradores** integrado. Si se agrega el grupo de seguridad **Administradores** al derecho de usuario "Denegar acceso", deberá iniciar sesión localmente para corregir el error.
   
@@ -223,13 +223,13 @@ Este servicio ayuda a Microsoft a realizar un seguimiento de los errores así co
   
 El servicio **Informe de errores** puede informar de dichos errores a Microsoft a través de Internet o a un recurso compartido de archivos internos. Aunque los informes de error puedan incluir datos corporativos de contenido delicado o incluso confidenciales, la directiva de privacidad de Microsoft con respecto a la notificación de errores asegura que Microsoft no utilizará dichos datos de forma incorrecta. No obstante, los datos se transmiten en HTTP de texto sin formato y podrían ser interceptados en Internet y visualizados por terceros.
   
-La configuración **Desactivar Informe** **de errores de Windows** controla si el servicio **Informe de errores** transmite datos.
+La configuración **Desactivar Informe de errores de Windows** controla si el servicio **Informe de errores** transmite datos.
   
 Puede configurar esta configuración de directiva en Windows Server 2003 en la ubicación siguiente dentro del Editor de objetos de directiva de grupo:
   
 **Configuración del equipo\\Plantillas administrativas\\Sistema\\Administración de comunicaciones de Internet\\Configuración de comunicaciones de Internet**
   
-Establezca la configuración **Desactivar Informe** **de errores de Windows** como **Habilitado** en la BHLP para los tres entornos que se definen en esta guía.
+Establezca la configuración **Desactivar Informe de errores de Windows** como **Habilitado** en la BHLP para los tres entornos que se definen en esta guía.
   
 [](#mainsection)[Principio de la página](#mainsection)
   
@@ -284,7 +284,7 @@ La directiva se prueba para asegurar que la aplicación de esta directiva a los 
 Cuando esté satisfecho con la configuración de la directiva, puede utilizar Scwcmd como se muestra en el procedimiento siguiente para convertir las directivas a GPO.
   
 Para obtener más información acerca de cómo probar las directivas del SCW, consulte la [Guía de implementación para el Asistente para la configuración de seguridad](http://technet.microsoft.com/es-es/library/cc776871.aspx) en www.microsoft.com/technet/prodtechnol/windowsserver2003/  
-library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx* *y la [documentación del Asistente para la configuración de seguridad](http://go.microsoft.com/fwlink/?linkid=43450) en http://go.microsoft.com/fwlink/?linkid=43450.
+library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx y la [documentación del Asistente para la configuración de seguridad](http://go.microsoft.com/fwlink/?linkid=43450) en http://go.microsoft.com/fwlink/?linkid=43450.
   
 #### Implementación de la directiva
   
@@ -306,7 +306,7 @@ Ahora, debe realizar una última prueba para asegurarse de que SCW aplica la con
   
 ### Resumen
   
-Como los servidores host de baluarte que ejecutan Windows* *Server* *2003 con SP1 no están protegidos por otros dispositivos, como un servidor de seguridad, están expuestos a los ataques externos. Se deben proteger tanto como sea posible para aumentar al máximo su disponibilidad y reducir la posibilidad de que su seguridad resulte comprometida. Los servidores host de baluarte más seguros limitan el acceso a sólo las cuentas que merecen mucha confianza y habilitan únicamente los servicios que son necesarios para desempeñar por completo sus funciones.
+Como los servidores host de baluarte que ejecutan Windows Server 2003 con SP1 no están protegidos por otros dispositivos, como un servidor de seguridad, están expuestos a los ataques externos. Se deben proteger tanto como sea posible para aumentar al máximo su disponibilidad y reducir la posibilidad de que su seguridad resulte comprometida. Los servidores host de baluarte más seguros limitan el acceso a sólo las cuentas que merecen mucha confianza y habilitan únicamente los servicios que son necesarios para desempeñar por completo sus funciones.
   
 En este capítulo se ha explicado la configuración y los procedimientos que se pueden utilizar para reforzar la seguridad de los servidores host de baluarte. Gran parte de los parámetros de configuración se pueden aplicar a través de la Directiva de grupo local. También se ha proporcionado una orientación acerca de cómo configurar y aplicar la configuración manual.
   
