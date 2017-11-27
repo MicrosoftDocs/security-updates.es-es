@@ -56,23 +56,11 @@ The WSUS 3.0 SP2 server can be configured to send e-mail notifications of new up
 7.  Enter the user name and password in the respective boxes.
 
  
-    <p> </p>
-<table style="border:1px solid black;">
-    <colgroup>
-    <col width="100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th style="border:1px solid black;" ><img src="images/Dd939922.note(WS.10).gif" />Nota</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td style="border:1px solid black;">You can change authentication credentials only on a WSUS server, not from a remote administration console.
-    </td>
-    </tr>
-    </tbody>
-    </table>
+<p> </p>
+
+> [!NOTE]
+> You can change authentication credentials only on a WSUS server, not from a remote administration console.
+    
  
 
 8.  Click **Apply** to save this information.
