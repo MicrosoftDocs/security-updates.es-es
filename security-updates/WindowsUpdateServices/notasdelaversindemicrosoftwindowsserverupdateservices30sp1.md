@@ -176,9 +176,8 @@ Asegúrese de que el servidor WSUS 3.0 SP1 cumpla esta lista de requisitos antes
 </tbody>
 </table>
   
-| ![](images/Cc708525.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                      |  
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Si se ha instalado anteriormente WSUS 2.0 y esta versión utiliza SQL Server 2000, SQL Server Desktop Engine 2000 o cualquier base de datos de SQL Server anterior a SQL Server 2005 SP1 (o SQL Server 2005 SP2 en Windows Server 2008), el programa de instalación de WSUS 3.0 SP1 instalará Windows® Internal Database y migrará la base de datos a éste. |
+> [!Nota]
+> Si se ha instalado anteriormente WSUS 2.0 y esta versión utiliza SQL Server 2000, SQL Server Desktop Engine 2000 o cualquier base de datos de SQL Server anterior a SQL Server 2005 SP1 (o SQL Server 2005 SP2 en Windows Server 2008), el programa de instalación de WSUS 3.0 SP1 instalará Windows® Internal Database y migrará la base de datos a éste.
   
 Requisitos de espacio mínimo en disco para la instalación del servidor WSUS 3.0 SP1  
 -----------------------------------------------------------------------------------
@@ -189,9 +188,8 @@ A continuación, se muestran los requisitos de espacio en mínimo en disco para 
 -   2 GB para el volumen en el que se almacenarán los archivos de base de datos  
 -   20 GB para el volumen en el que se almacenará el contenido
   
-| ![](images/Cc708525.Important(WS.10).gif)Importante                                             |  
-|------------------------------------------------------------------------------------------------------------------------------|  
-| WSUS 3.0 SP1 no puede instalarse en unidades comprimidas. Compruebe que la unidad que ha seleccionado no se haya comprimido. |
+> [!Importante]
+> WSUS 3.0 SP1 no puede instalarse en unidades comprimidas. Compruebe que la unidad que ha seleccionado no se haya comprimido. 
   
 Requisitos de actualización de WSUS 3.0 SP1  
 -------------------------------------------
@@ -349,11 +347,11 @@ En esta tabla, se muestran las propiedades de la línea de comandos para WSUS 3.
 #### Sintaxis de ejemplo
   
 ```  
-WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (install in quiet mode using port 8530) WSUSSetup.exe /q /u (uninstall WSUS)  
+    WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (install in quiet mode using port 8530) WSUSSetup.exe /q /u (uninstall WSUS)  
 ```  
-| ![](images/Cc708525.Important(WS.10).gif)Importante                                                                                                                                                |  
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Si instala WSUS 3.0 SP1 en el modo silencioso (/q) y no se han instalado en el equipo todos los requisitos previos, la instalación generará un archivo con el nombre WSUSPreReqCheck.xml y lo guardará en el directorio %TEMP%. |
+
+> [!Importante]
+> Si instala WSUS 3.0 SP1 en el modo silencioso (/q) y no se han instalado en el equipo todos los requisitos previos, la instalación generará un archivo con el nombre WSUSPreReqCheck.xml y lo guardará en el directorio %TEMP%.
   
 Problemas de instalación  
 ------------------------
@@ -399,7 +397,13 @@ Utilice la siguiente secuencia de comandos para eliminar y volver a agregar los 
 Deberá sustituir *&lt;DBLocation&gt;* por la carpeta en la que se ha instalado la base de datos y *&lt;ContentDirectory&gt;* por la carpeta de almacenamiento local.
   
 ```  
-sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=name from sysusers WHERE name like '%ASPNET' EXEC sp\_revokedbaccess @asplogin" sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=name from sysusers WHERE name like '%WSUS Administrators' EXEC sp\_revokedbaccess @wsusadminslogin"   sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=HOST\_NAME()+'\\ASPNET' EXEC sp\_grantlogin @asplogin EXEC sp\_grantdbaccess @asplogin EXEC sp\_addrolemember webService,@asplogin" sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=HOST\_NAME()+'\\WSUS Administrators' EXEC sp\_grantlogin @wsusadminslogin EXEC sp\_grantdbaccess @wsusadminslogin EXEC sp\_addrolemember webService,@wsusadminslogin"   sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "backup database SUSDB to disk=N'*&lt;ContentDirectory&gt;*\\SUSDB.Dat' with init"  
+    sqlcmd.exe -S <DBLocation> -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=name from sysusers WHERE name like '%ASPNET' EXEC sp_revokedbaccess @asplogin"
+    sqlcmd.exe -S <DBLocation> -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=name from sysusers WHERE name like '%WSUS Administrators' EXEC sp_revokedbaccess @wsusadminslogin"
+    
+    sqlcmd.exe -S <DBLocation> -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=HOST_NAME()+'\ASPNET' EXEC sp_grantlogin @asplogin EXEC sp_grantdbaccess @asplogin EXEC sp_addrolemember webService,@asplogin"
+    sqlcmd.exe -S <DBLocation> -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=HOST_NAME()+'\WSUS Administrators' EXEC sp_grantlogin @wsusadminslogin EXEC sp_grantdbaccess @wsusadminslogin EXEC sp_addrolemember webService,@wsusadminslogin"
+    
+    sqlcmd.exe -S <DBLocation> -E -Q "backup database SUSDB to disk=N'<ContentDirectory>\SUSDB.Dat' with init"
 ```
   
 #### Durante la instalación se sobrescribirá una copia de seguridad anterior de la base de datos
@@ -487,14 +491,16 @@ Si es necesario desinstalar Windows Internal Database, los siguientes comandos d
   
 (en plataformas de 32 bits)
   
-```  
-msiexec /x {CEB5780F-1A70-44A9-850F-DE6C4F6AA8FB} callerid=ocsetup.exe  
-```  
+```
+    msiexec /x {CEB5780F-1A70-44A9-850F-DE6C4F6AA8FB} callerid=ocsetup.exe  
+```
+
 (en plataformas de 64 bits)
   
-```  
-msiexec /x {BDD79957-5801-4A2D-B09E-852E7FA64D01} callerid=ocsetup.exe  
-```  
+```
+    msiexec /x {BDD79957-5801-4A2D-B09E-852E7FA64D01} callerid=ocsetup.exe  
+```
+
 Si desea desinstalar Windows Internal Database Service Pack 2 de Windows Server 2008, podría hacerlo con Server Manager.
   
 Sin embargo, puede que con la eliminación de la aplicación no se eliminen los archivos .mdf y .ldf predeterminados, lo que dará lugar a que una posterior instalación de WSUS 3.0 SP1 presente errores. Estos archivos se pueden eliminar desde el directorio %windir%\\SYSMSI\\SSEE.
