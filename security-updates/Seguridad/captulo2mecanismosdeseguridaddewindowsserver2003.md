@@ -15,11 +15,11 @@ Actualizado: 27/12/05
 
 ### En esta página
 
-[](#eeaa)[Información general](#eeaa)
-[](#edaa)[Seguridad con el Asistente para configuración de seguridad](#edaa)
-[](#ecaa)[Seguridad de los servidores con la directiva de grupo de Active Directory](#ecaa)
-[](#ebaa)[Información general del proceso](#ebaa)
-[](#eaaa)[Resumen](#eaaa)
+[](#eeaa)[Información general](#eeaa)  
+[](#edaa)[Seguridad con el Asistente para configuración de seguridad](#edaa)  
+[](#ecaa)[Seguridad de los servidores con la directiva de grupo de Active Directory](#ecaa)  
+[](#ebaa)[Información general del proceso](#ebaa)  
+[](#eaaa)[Resumen](#eaaa)  
 
 ### Información general
 
@@ -312,7 +312,7 @@ Debe definir la configuración que desea para la mayoría de los servidores de l
 
 Cada función de servidor identificada requiere una directiva de SCW, una plantilla de seguridad y una UO, además de la UO de línea de base. Este enfoque permite la creación de directivas distintas para los cambios incrementales que cada función necesita.
 
-En un ejemplo anterior, los servidores de infraestructura se colocaron en la UO** **Infraestructura, que es una unidad organizativa secundaria de la UO Servidores miembro. El siguiente paso consiste en aplicar la configuración adecuada a estos servidores. Esta solución proporciona tres plantillas de seguridad, una para cada entorno de seguridad: LC-Infrastructure Server.inf, EC-Infrastructure Server.inf y** **SSLF-Infrastructure Server.inf. Si estas plantillas se utilizan junto con SCW, podrá crear una directiva de seguridad que contenga los ajustes específicos que DHCP y WINS necesitan. La directiva resultante se convierte luego en un nuevo GPO y se vincula a la UO Infraestructura.
+En un ejemplo anterior, los servidores de infraestructura se colocaron en la UO Infraestructura, que es una unidad organizativa secundaria de la UO Servidores miembro. El siguiente paso consiste en aplicar la configuración adecuada a estos servidores. Esta solución proporciona tres plantillas de seguridad, una para cada entorno de seguridad: LC-Infrastructure Server.inf, EC-Infrastructure Server.inf y SSLF-Infrastructure Server.inf. Si estas plantillas se utilizan junto con SCW, podrá crear una directiva de seguridad que contenga los ajustes específicos que DHCP y WINS necesitan. La directiva resultante se convierte luego en un nuevo GPO y se vincula a la UO Infraestructura.
 
 Este GPO usa la configuración **Grupos restringidos** para agregar los tres grupos siguientes al grupo de **administradores locales** de todos los servidores de la UO Infraestructura:
 
@@ -523,15 +523,15 @@ En el procedimiento siguiente se garantiza que los controladores de dominio y lo
   
 1.  En el controlador de dominio con el FSMO del emulador PDC, abra una ventana del símbolo del sistema y ejecute el siguiente comando, donde *&lt;PeerList&gt;* es una lista separada por comas de nombres DNS o direcciones IP de los recursos de hora que desee:
   
-    ```  
-w32tm /config /syncfromflags:manual /manualpeerlist:&lt;PeerList&gt;  
-```
+    ```
+        w32tm /config /syncfromflags:manual /manualpeerlist:<PeerList>
+    ```
   
 2.  Para actualizar la configuración, ejecute el comando siguiente:
   
     ```  
-w32tm /config /update  
-```
+        w32tm /config /update
+    ```
   
 3.  Compruebe el registro de eventos. Si el equipo no puede alcanzar a los servidores, se produce un error en el procedimiento y se inserta una entrada en el registro de eventos.
   
@@ -677,8 +677,8 @@ Las directivas probadas para garantizar que se pueden aplicar a los servidores d
   
 Cuando esté satisfecho con la configuración de la directiva, puede utilizar Scwcmd como se muestra en el procedimiento siguiente para convertir las directivas a GPO.
   
-Para obtener más información acerca de cómo probar las directivas de SCW, consulte la "[Guía de implementación para el Asistente para configuración de seguridad](http://technet.microsoft.com/es-es/library/cc776871.aspx)"* *en www.microsoft.com/technet/prodtechnol/windowsserver2003/  
-library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx,* *así como la versión descargable de la [documentación del Asistente para configuración de seguridad](http://go.microsoft.com/fwlink/?linkid=43450) en http://go.microsoft.com/fwlink/?linkid=43450.
+Para obtener más información acerca de cómo probar las directivas de SCW, consulte la "[Guía de implementación para el Asistente para configuración de seguridad](http://technet.microsoft.com/es-es/library/cc776871.aspx)" en www.microsoft.com/technet/prodtechnol/windowsserver2003/  
+library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx, así como la versión descargable de la [documentación del Asistente para configuración de seguridad](http://go.microsoft.com/fwlink/?linkid=43450) en http://go.microsoft.com/fwlink/?linkid=43450.
   
 #### Conversión de las directivas de línea de base en GPO
   
@@ -687,15 +687,16 @@ Una vez probadas minuciosamente las directivas de línea de base, siga los pasos
 1.  En el símbolo del sistema, escriba lo siguiente:
   
     ```  
-scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;  
-```
+        scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>
+    ```
   
     y, a continuación, pulse Entrar. Por ejemplo:
-  
-    ```  
- scwcmd transform /p:"C:\\Windows\\Security\\msscw\\Policies\\Infrastructure.xml" /g:"Infrastructure Policy"  
-```
-  
+
+    ```
+        scwcmd transform /p:"C:\Windows\Security\msscw\Policies\Infrastructure.xml" 
+        /g:"Infrastructure Policy"
+    ```
+    
     **Nota**: la información que se introducirá en el símbolo del sistema se muestra aquí en más de una línea a causa de las limitaciones de pantalla. Esta información debe introducirse en una línea.
   
 2.  Utilice la Consola de administración de directivas de grupo para vincular los nuevos GPO creados a la UO apropiada.
@@ -761,14 +762,15 @@ Una vez probadas minuciosamente las directivas de función, siga los pasos sigui
 1.  En el símbolo del sistema, escriba lo siguiente:
   
     ```  
-scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;  
-```
+        scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>
+    ```
   
     y, a continuación, pulse Entrar. Por ejemplo:
   
     ```  
- scwcmd transform /p:"C:\\Windows\\Security\\msscw\\Policies\\Infrastructure.xml" /g:"Infrastructure Policy"  
-```
+        scwcmd transform /p:"C:\Windows\Security\msscw\Policies\Infrastructure.xml" 
+        /g:"Infrastructure Policy"
+    ```
   
     **Nota**: la información que se introducirá en el símbolo del sistema se muestra aquí en más de una línea a causa de las limitaciones de pantalla. Esta información debe introducirse en una línea.
   
