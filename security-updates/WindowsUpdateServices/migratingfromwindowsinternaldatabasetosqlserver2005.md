@@ -39,7 +39,19 @@ Use the following steps to migrate the WSUS database from a Windows Internal Dat
     -   Click **Start**, point to **Programs**, point to **Administrative Tools**, and then click **Services**.
     -   Right-click **IIS Admin Service**, and then click **Stop**.
     -   Right-click **Update Services**, and then click **Stop**.
-        ```
+
+
+3. Detach the WSUS database (SUSDB) from the Windows Internal Database instance. You will need to use the sqlcmd utility, which can be downloaded from Feature Pack for Microsoft SQL Server 2005 (http://go.microsoft.com/fwlink/?LinkId=70728). For more information about the sqlcmd utility, see sqlcmd Utility (http://go.microsoft.com/fwlink/?LinkId=81183). 
+
+    ```
+        sqlcmd -S np:\\.\pipe\MSSQL$MICROSOFT##SSEE\sql\query
+        use master
+        alter database SUSDB set single_user with rollback immediate
+        go
+        sp_detach_db SUSDB
+        go
+    ```
+
 1.  Attach **SUSDB** to the destination SQL instance.
     -   In SQL Server Management Studio, under the instance node, right-click **Databases**, select **Properties**, and then click **Attach**.
     -   In the **Attach Databases** box, under **Databases to attach**, browse to the location of the susdb.mdf file (by default this is **C:\\WSUS\\UpdateServicesDbFiles** if you installed Windows Internal Database), and then click **OK**.
@@ -56,12 +68,12 @@ Use the following steps to migrate the WSUS database from a Windows Internal Dat
     -   Right-click **Update Services**, and then click **Start**.
 5.  Verify that the database migration has been successful by opening the WSUS administrative console (click **Start**, click **Administrative Tools**, and then click **Microsoft Windows Server Update Services 3.0)**.
 
-> [!NOTE]
+> [!Nota]
 > You might have to restart the server for these settings to take effect. 
 
 #### Migrating the WSUS database from a Windows Internal Database instance to a SQL Server 2005 instance on a remote server
 
-The goal of this scenario is to take the WSUS database (SUSDB) running in a Windows Internal Database instance on the WSUS server and move and upgrade it to a SQL Server 2005 instance running on a remote server. Only a full SQL Server 2005 database may be used in a remote SQL installation. Note that in each step, where appropriate, it is noted on which server you must perform the procedures.
+The goal of this scenario is to take the WSUS database (SUSDB) running in a Windows Internal Database instance on the WSUS server and move and upgrade it to a SQL Server 2005 instance running on a remote server. Only a full SQL Server 2005 database may be used in a remote SQL installation. Nota that in each step, where appropriate, it is Notad on which server you must perform the procedures.
 
 #### Remote SQL scenario limitations
 
@@ -89,11 +101,20 @@ This step will enable you to use the SQL Server Enterprise Manager on FE.
 -   Right-click **IIS Admin Service**, and then click **Stop**.
 -   Right-click **Update Services**, and then click **Stop**.
 
-        ```
+#### Step 3 \[on FE\]: Detach the WSUS database.
+
+```
+    sqlcmd -S np:\\.\pipe\MSSQL$MICROSOFT##SSEE\sql\query 
+    use master
+    alter database SUSDB set single_user with rollback immediate
+    go
+    sp_detach_db ‘SUSDB’
+    go
+```
 
 #### Step 4: Copy the SUSDB.mdf and SUSDB\_log.ldf files from FE to BE.
 
--   In Step 2, you noted the folder location on FE where these files are stored. Copy the files to this folder on BE.
+-   In Step 2, you Notad the folder location on FE where these files are stored. Copy the files to this folder on BE.
 
 #### Step 5 \[on BE\]: Attach the WSUS database to a SQL Server 2005 instance.
 
@@ -115,7 +136,7 @@ In this step, you edit the registry to point WSUS to the destination SQL instanc
 -   Find the following key: **HKLM\\SOFTWARE\\Microsoft\\UpdateServices\\Server\\Setup\\SqlServerName**
 -   In the **Value** data box, type **\[BEName\]\\\[InstanceName\]**, and then click **OK**. If the instance name is the default instance, then simply type **\[BEName\]**.
 
-> [!NOTE]
+> [!Nota]
 > When typing \[BEName\], do not add the domain name before the name.   
 
 #### Step 8 \[on FE\]: Start the IIS Admin service and the Update Services service.
@@ -128,7 +149,7 @@ In this step, you edit the registry to point WSUS to the destination SQL instanc
 
 Open the WSUS administrative console (click **Start**, click **Administrative Tools**, and then click **Microsoft Windows Server Update Services 3.0)**.
 
-> [!NOTE]
+> [!Nota]
 > You might need to restart FE in order for these settings to take effect. 
 
 For more information about the databases you can use with WSUS, see the following:
