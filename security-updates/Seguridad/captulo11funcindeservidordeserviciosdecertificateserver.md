@@ -15,19 +15,19 @@ Actualizado: 27/12/05
 
 ##### En esta página
 
-[](#eiaa)[Información general](#eiaa)
-[](#ehaa)[Configuración de directiva de auditoría](#ehaa)
-[](#egaa)[Asignaciones de derechos de usuario](#egaa)
-[](#efaa)[Opciones de seguridad](#efaa)
-[](#eeaa)[Configuración del registro de eventos](#eeaa)
-[](#edaa)[Entradas de registro adicionales](#edaa)
-[](#ecaa)[Configuración de seguridad adicional](#ecaa)
-[](#ebaa)[Creación de la directiva utilizando SCW](#ebaa)
-[](#eaaa)[Resumen](#eaaa)
+[](#eiaa)[Información general](#eiaa)  
+[](#ehaa)[Configuración de directiva de auditoría](#ehaa)  
+[](#egaa)[Asignaciones de derechos de usuario](#egaa)  
+[](#efaa)[Opciones de seguridad](#efaa)  
+[](#eeaa)[Configuración del registro de eventos](#eeaa)  
+[](#edaa)[Entradas de registro adicionales](#edaa)  
+[](#ecaa)[Configuración de seguridad adicional](#ecaa)  
+[](#ebaa)[Creación de la directiva utilizando SCW](#ebaa)  
+[](#eaaa)[Resumen](#eaaa)  
 
 ### Información general
 
-Este capítulo proporciona orientación que le ayudará a consolidar servidores en los que se ejecuta Microsoft® Windows Server™* *2003 con Service Pack 1 (SP1) y Servicios de Certificate Server de Microsoft en su entorno. Aunque se incluye toda la información que necesita para proteger estos tipos de servidores, en este capítulo no se proporcionan detalles acerca de cómo crear una infraestructura segura de Servicios de Certificate Server en su entorno ni cómo implementar una entidad emisora de certificados. Estos temas se tratan con detalle en la documentación del producto Windows* *Server* *2003. También se tratan en el *Kit de recursos de Windows* Server 2003 y en notas del producto disponibles en el sitio web de Microsoft. Encontrará información adicional en una guía complementaria: [*Seguridad en LAN inalámbricas con Servicios de Certificate Server*](http://go.microsoft.com/fwlink/?linkid=14843), en http://go.microsoft.com/fwlink/?LinkId=14843.
+Este capítulo proporciona orientación que le ayudará a consolidar servidores en los que se ejecuta Microsoft® Windows Server™ 2003 con Service Pack 1 (SP1) y Servicios de Certificate Server de Microsoft en su entorno. Aunque se incluye toda la información que necesita para proteger estos tipos de servidores, en este capítulo no se proporcionan detalles acerca de cómo crear una infraestructura segura de Servicios de Certificate Server en su entorno ni cómo implementar una entidad emisora de certificados. Estos temas se tratan con detalle en la documentación del producto Windows Server 2003. También se tratan en el *Kit de recursos de Windows* Server 2003 y en notas del producto disponibles en el sitio web de Microsoft. Encontrará información adicional en una guía complementaria: [*Seguridad en LAN inalámbricas con Servicios de Certificate Server*](http://go.microsoft.com/fwlink/?linkid=14843), en http://go.microsoft.com/fwlink/?LinkId=14843.
 
 La configuración que se muestra en este capítulo se realiza y aplica mediante Directiva de grupo. Un objeto de directiva de grupo (GPO) que complementa la Directiva de línea de base de servidores miembro (MSBP) puede vincularse a las unidades organizativas (UO) apropiadas que contengan los servidores de entidad emisora con el fin de proporcionar los cambios de configuración de seguridad necesarios para esta función de servidor. Este capítulo sólo trata aquellas configuraciones de la directiva que varían del MSBP.
 
@@ -35,7 +35,7 @@ Siempre que sea posible, estas configuraciones se reunirán en una plantilla inc
 
 El nombre de la plantilla de seguridad de servidores de entidad emisora para el entorno de cliente de empresa es EC-CA Server.inf. Ésta es la plantilla incremental de servidores de entidad emisora, la cual sirve para crear un GPO nuevo que se vincula a la unidad organizativa de servidores de entidad emisora en el entorno apropiado. Se proporcionan instrucciones detalladas en el capítulo 2, "Mecanismos de seguridad de Windows Server 2003", para ayudarle a crear las UO y las directivas de grupo, así como para importar la plantilla de seguridad apropiada en cada GPO.
 
-Para obtener más información acerca de la configuración en el MSBP, consulte el capítulo 4, “Directiva de línea de base de servidores miembro”. Para obtener más información acerca de todas las configuraciones predeterminadas, consulte la guía complementaria, [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159)*, *que está disponible en* *http://go.microsoft.com/fwlink/?LinkId=15159.
+Para obtener más información acerca de la configuración en el MSBP, consulte el capítulo 4, “Directiva de línea de base de servidores miembro”. Para obtener más información acerca de todas las configuraciones predeterminadas, consulte la guía complementaria, [*Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159), que está disponible en http://go.microsoft.com/fwlink/?LinkId=15159.
 
 **Nota**: las recomendaciones de configuración de directiva para la función de servidor de Servicios de Certificate Server se probaron únicamente para el entorno de cliente de empresa. Por este motivo, en este capítulo no se incluye la información de denegación de servicio (DoS) que se especificó para la mayoría de las restantes funciones de servidor definidas en esta guía.
 
@@ -125,7 +125,7 @@ La configuración del registro de eventos para servidores de Servicios de Certif
   
 ### Entradas de registro adicionales
   
-Se crearon entradas de Registro adicionales para el archivo de plantilla EC-CA Server.inf. Estas entradas no se definen dentro de los archivos de plantilla administrativa (.adm) para el entorno de cliente de empresa según se define en esta guía. En los archivos .adm se definen las directivas del sistema y las restricciones para la configuración del escritorio, del núcleo y de seguridad para Windows* *Server* *2003 con SP1.
+Se crearon entradas de Registro adicionales para el archivo de plantilla EC-CA Server.inf. Estas entradas no se definen dentro de los archivos de plantilla administrativa (.adm) para el entorno de cliente de empresa según se define en esta guía. En los archivos .adm se definen las directivas del sistema y las restricciones para la configuración del escritorio, del núcleo y de seguridad para Windows Server 2003 con SP1.
   
 Las entradas de Registro adicionales se configuran dentro de la plantilla de seguridad para automatizar su implementación. Si se quita la Directiva de grupo incremental de Servicios de Certificate Server para este entorno, su configuración no se quita automáticamente y debe cambiarse manualmente con una herramienta de edición del Registro, como Regedt32.exe.
   
@@ -234,7 +234,7 @@ Con estas configuraciones de directiva se auditarán tanto los accesos fallidos 
   
 #### Seguridad de las cuentas conocidas
   
-Windows* *Server* *2003 con SP1 dispone de una serie de cuentas de usuario integradas que no se pueden eliminar, pero a las que sí se les puede cambiar el nombre. Dos de las cuentas integradas más conocidas en Windows Server 2003 son *Invitado* y *Administrador*.
+Windows Server 2003 con SP1 dispone de una serie de cuentas de usuario integradas que no se pueden eliminar, pero a las que sí se les puede cambiar el nombre. Dos de las cuentas integradas más conocidas en Windows Server 2003 son *Invitado* y *Administrador*.
   
 De forma predeterminada, se deshabilita la cuenta Invitado en los servidores miembro y controladores de dominio. Esta configuración no se debe modificar. Muchas variaciones de código malintencionado utilizan esta cuenta integrada Administrador como primer intento de acceso al servidor. Por tanto, la protección idónea contra atacantes que intentan utilizar esta cuenta tan conocida es cambiar el nombre de la cuenta de Administrador incorporada y alterar su descripción.
   
@@ -313,7 +313,7 @@ La directiva se prueba para asegurar que la aplicación de esta directiva a los 
 Cuando esté satisfecho con la configuración de la directiva, puede utilizar Scwcmd como se muestra en el procedimiento siguiente para convertir las directivas a GPO.
   
 Para obtener más información acerca de cómo probar las directivas del SCW, consulte la [Guía de implementación para el Asistente para la configuración de seguridad](http://technet.microsoft.com/es-es/library/cc776871.aspx) en www.microsoft.com/technet/prodtechnol/windowsserver2003/  
-library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx* *y la [documentación del Asistente para la configuración de seguridad](http://go.microsoft.com/fwlink/?linkid=43450) en http://go.microsoft.com/fwlink/?linkid=43450.
+library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx y la [documentación del Asistente para la configuración de seguridad](http://go.microsoft.com/fwlink/?linkid=43450) en http://go.microsoft.com/fwlink/?linkid=43450.
   
 #### Conversión e implementación de la directiva
   
@@ -322,14 +322,15 @@ Después de probar completamente la directiva, complete los pasos siguientes par
 1.  En el símbolo de sistema, escriba el siguiente comando:
   
     ```  
-scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;  
-```
+        scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;
+    ```
   
     y, a continuación, pulse Entrar. Por ejemplo:
   
-    ```  
-scwcmd transform /p:"C:\\Windows\\Security\\msscw\\Policies\\ Certificate Services.xml" /g:"Certificate Services Policy"  
-```
+    ```
+        scwcmd transform /p:"C:\Windows\Security\msscw\Policies\
+        Certificate Services.xml" /g:"Certificate Services Policy" 
+    ```
   
     **Nota**: la información que se introducirá en el símbolo del sistema se muestra aquí en más de una línea a causa de las limitaciones de pantalla. Esta información debe introducirse en una línea.
   
@@ -349,9 +350,9 @@ En este capítulo se han explicado las configuraciones de directiva que se puede
   
 Los siguientes vínculos proporcionan información adicional acerca de los temas relacionados con la seguridad de los servidores que ejecutan Windows Server 2003 con SP1 y Servicios de Certificate Server.
   
--   Como introducción a los conceptos de infraestructura de claves públicas (PKI) y las características de Servicios de Certificate Server de Windows* *2000, consulte [An Introduction to the Windows 2000 Public-Key Infrastructure](http://www.microsoft.com/technet/archive/windows2000serv/evaluate/featfunc/pkiintro.mspx) en http://www.microsoft.com/technet/archive/windows2000serv/evaluate/featfunc/pkiintro.mspx.
+-   Como introducción a los conceptos de infraestructura de claves públicas (PKI) y las características de Servicios de Certificate Server de Windows 2000, consulte [An Introduction to the Windows 2000 Public-Key Infrastructure](http://www.microsoft.com/technet/archive/windows2000serv/evaluate/featfunc/pkiintro.mspx) en http://www.microsoft.com/technet/archive/windows2000serv/evaluate/featfunc/pkiintro.mspx.
   
--   Para obtener información más detallada acerca de la funcionalidad mejorada de la infraestructura de claves públicas en Windows* *Server* *2003 y Windows* *XP, consulte "[PKI Enhancements in Windows XP Professional and Windows Server 2003](http://www.microsoft.com/technet/prodtechnol/winxppro/plan/pkienh.mspx)", en http://www.microsoft.com/technet/prodtechnol/winxppro/plan/pkienh.mspx.
+-   Para obtener información más detallada acerca de la funcionalidad mejorada de la infraestructura de claves públicas en Windows Server 2003 y Windows XP, consulte "[PKI Enhancements in Windows XP Professional and Windows Server 2003](http://www.microsoft.com/technet/prodtechnol/winxppro/plan/pkienh.mspx)", en http://www.microsoft.com/technet/prodtechnol/winxppro/plan/pkienh.mspx.
   
 -   Para obtener más información acerca de los principales conceptos relacionados con las infraestructuras de claves públicas, consulte la página de [Infraestructura de claves públicas](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverhelp/32aacfe8-83af-4676-a45c-75483545a978.mspx) en www.microsoft.com/technet/prodtechnol/windowsserver2003/library/  
     ServerHelp/32aacfe8-83af-4676-a45c-75483545a978.mspx.
