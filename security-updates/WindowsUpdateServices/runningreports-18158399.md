@@ -95,11 +95,11 @@ The columns displayed in the update summary view are described in the following 
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Title</td>
-<td style="border:1px solid black;">The name of the update.
-To view the properties for an update, click an update in this column. The update properties box provides the following information:
-The <strong>Details</strong> tab contains general information about the update.
-The <strong>Status</strong> tab contains status information for the update by computer group. This is also what you see in computer group view. You can also expand this view into computer view by expanding a computer group.
-The <strong>Revisions</strong> tab displays information about changes to the update.</td>
+<td style="border:1px solid black;">The name of the update.</br>
+To view the properties for an update, click an update in this column. The update properties box provides the following information:</br>
+The <strong>Details</strong> tab contains general information about the update.</br>
+The <strong>Status</strong> tab contains status information for the update by computer group. This is also what you see in computer group view. You can also expand this view into computer view by expanding a computer group.</br>
+The <strong>Revisions</strong> tab displays information about changes to the update.</td></br>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Installed</td>
