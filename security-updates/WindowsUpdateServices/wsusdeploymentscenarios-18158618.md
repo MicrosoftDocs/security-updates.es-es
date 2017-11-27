@@ -37,7 +37,7 @@ The deployment method in this scenario would be appropriate for situations in wh
 
 Administrators can deploy multiple servers running WSUS that synchronize all content within their organization’s intranet. In the following figure, only one server is exposed to the Internet. In this configuration, this is the only server that downloads updates from Microsoft Update. This server is set up as the upstream server — the source to which the downstream server synchronizes. When applicable, servers can be located throughout a geographically dispersed network to provide the best connectivity to all client computers.
 
-![](images/Cc708628.3bdd2c72-270a-9703-06adc6467061(WS.10).gif)
+![](images/cc708628.3bdd2c72-270a-4109-9703-06adc6467061(ws.10).gif)
 
 Disconnected WSUS Servers (Limited or Restricted Internet Connectivity)
 -----------------------------------------------------------------------
