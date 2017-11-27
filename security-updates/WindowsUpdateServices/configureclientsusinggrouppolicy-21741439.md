@@ -274,4 +274,4 @@ If this policy setting is enabled, all Windows Update features are removed. It b
 
 2.  In the details pane, click **Turn off access to all Windows Update features**, and click **Enabled**.
 
-3.  Click **O**K.
+3.  Click **OK**.

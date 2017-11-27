@@ -18,7 +18,7 @@ This guide includes three ways to further enhance the security of your WSUS serv
 Hardening your Windows Server 2003 running WSUS
 -----------------------------------------------
 
-You can find recommended settings for hardening your WSUS server in [Appendix D: Security Settings](https://technet.microsoft.com/d4a3c3be-a76c-437e-8ae0-b96aff64df13). These recommendations include hardening a number of Windows Server components as well as IIS 6.0 and SQL Server 2000. If you are not running Windows Server 2003 or if you are not using SQL Server 2000 as your database software for WSUS, you may not be able to utilize all of these settings.
+You can find recommended settings for hardening your WSUS server in [Appendix D: Security Settings](https://technet.microsoft.com/d4a3c3be-a76c-437e-8ae0-b96aff64df13). These recommendations include hardening a number of Windows Server components as well as IIS 6.0 and SQL Server 2000. If you are not running Windows Server 2003 or if you are not using SQL Server 2000 as your database software for WSUS, you may not be able to utilize all of these settings.
 
 Adding Authentication Between Chained WSUS Servers in an Active Directory Environment
 -------------------------------------------------------------------------------------
@@ -37,7 +37,17 @@ WSUS setup creates a configuration file that enables you to add an explicit list
 
 Use the &lt;authorization&gt; element to define an authentication list. You must add the &lt;authorization&gt; element below the &lt;configuration&gt; and &lt;system.web&gt; elements.
 
-        ```
+```
+<configuration>
+<system.web>
+<authorization>
+<allow users="domain\computer_name,domain\computer_name" />
+<deny users="*" />
+</authorization>
+</system.web>
+</configuration>
+```
+
 Within opening and closing authorization tags, you specify a list of computers that are allowed a connection to the Web service. You must enter these computers as *Domain\\computer\_name*. If you want multiple computers, use a comma to separate the names. You can also specify an explicit list of computers that are denied access. Order in this list is important, as the evaluation stops with the first item that applies to the user.
 
 The XML schema for this list can be found on an [MSDN Web site](http://go.microsoft.com/fwlink/?linkid=47691) at http://go.microsoft.com/fwlink/?LinkId=47691.
@@ -175,5 +185,5 @@ However, several articles on the subject are available. For more information and
 
 -   The [Windows Server 2003 PKI Operations Guide page](http://technet2.microsoft.com/windowsserver/en/library/e1d5a892-10e1-417c-be13-99d7147989a91033.mspx) provides a guide for administrators on how to configure and operate a Windows Certification Authority.
 -   The [How To Set Up SSL on a Web Server page](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/iis/56bdf977-14f8-4867-9c51-34c346d48b04.mspx?mfr=true) offers step-by-step instruction on setting up SSL on a Web site.
--   The [Certificate Autoenrollment in Windows Server 2003](http://go.microsoft.com/fwlink/?linkid=17801) page on TechNet offers instruction on how to automatically enroll client computers running Windows XP in Windows Server 2003 Enterprise environments integrated with Active Directory.
+-   The [Certificate Autoenrollment in Windows Server 2003](http://go.microsoft.com/fwlink/?linkid=17801) page on TechNet offers instruction on how to automatically enroll client computers running Windows XP in Windows Server 2003 Enterprise environments integrated with Active Directory.
 -   The [Advanced Certificate Enrollment and Management page](http://technet2.microsoft.com/windowsserver/f/?en/library/a8d0df4b-86b9-49cf-a526-5717eafce2b11033.mspx) offers guidance on how to automatically enroll client computers in other environments.

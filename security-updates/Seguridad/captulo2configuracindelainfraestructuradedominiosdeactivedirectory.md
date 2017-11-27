@@ -15,18 +15,18 @@ Actualizado: 20/10/05
 
 ### En esta página
 
-[](#elaa)[Información general](#elaa)
-[](#ekaa)[Diseño de unidades organizativas compatibles con la administración de la seguridad](#ekaa)
-[](#ejaa)[Diseño de objetos de directiva de grupo compatibles con la administración de la seguridad](#ejaa)
-[](#eiaa)[Directiva de grupo del nivel de dominio](#eiaa)
-[](#ehaa)[Configuración de la directiva de contraseñas](#ehaa)
-[](#egaa)[Configuración de directiva de bloqueo de cuentas](#egaa)
-[](#efaa)[Configuración de Asignación de derechos de usuario](#efaa)
-[](#eeaa)[Configuración de Opciones de seguridad](#eeaa)
-[](#edaa)[Directiva Kerberos](#edaa)
-[](#ecaa)[Directiva de grupo del nivel de unidad organizativa](#ecaa)
-[](#ebaa)[Herramientas de directivas de grupos](#ebaa)
-[](#eaaa)[Resumen](#eaaa)
+[](#elaa)[Información general](#elaa)  
+[](#ekaa)[Diseño de unidades organizativas compatibles con la administración de la seguridad](#ekaa)  
+[](#ejaa)[Diseño de objetos de directiva de grupo compatibles con la administración de la seguridad](#ejaa)  
+[](#eiaa)[Directiva de grupo del nivel de dominio](#eiaa)  
+[](#ehaa)[Configuración de la directiva de contraseñas](#ehaa)  
+[](#egaa)[Configuración de directiva de bloqueo de cuentas](#egaa)  
+[](#efaa)[Configuración de Asignación de derechos de usuario](#efaa)  
+[](#eeaa)[Configuración de Opciones de seguridad](#eeaa)  
+[](#edaa)[Directiva Kerberos](#edaa)  
+[](#ecaa)[Directiva de grupo del nivel de unidad organizativa](#ecaa)  
+[](#ebaa)[Herramientas de directivas de grupos](#ebaa)  
+[](#eaaa)[Resumen](#eaaa)  
 
 ### Información general
 
@@ -106,7 +106,7 @@ En la siguiente figura se amplía la estructura de unidades organizativas prelim
 
 En el ejemplo anterior, los equipos portátiles son miembros de la unidad organizativa Equipo portátil. La primera directiva aplicada a los equipos portátiles es la de seguridad local. Puesto que sólo hay un sitio en este ejemplo, no se aplica ningún GPO a nivel de sitio, por lo que se deja el GPO Dominio como la siguiente directiva que se debe aplicar. Por último se aplica el GPO Equipo portátil.
 
-**Nota**:** **la directiva de escritorio no se aplica a los equipos portátiles puesto que no está vinculada a ninguna unidad organizativa de la jerarquía que contiene la UO Equipo portátil. Asimismo, la UO Usuarios de XP seguros no dispone de la plantilla de seguridad correspondiente (archivo .inf), ya que sólo incluye la configuración de Plantillas administrativas.
+**Nota**: la directiva de escritorio no se aplica a los equipos portátiles puesto que no está vinculada a ninguna unidad organizativa de la jerarquía que contiene la UO Equipo portátil. Asimismo, la UO Usuarios de XP seguros no dispone de la plantilla de seguridad correspondiente (archivo .inf), ya que sólo incluye la configuración de Plantillas administrativas.
 
 Para ilustrar cómo se establecen las prioridades, podemos imaginar una situación en la que la configuración de directiva de la UO Windows XP para **Permitir inicio de sesión a través de Servicios de Terminal Server** se establece en el grupo **Administradores** y el parámetro de GPO Equipo portátil para **Permitir inicio de sesión a través de Servicios de Terminal Server** se establece en los grupos **Usuarios avanzados** y **Administradores**. En este ejemplo, un usuario cuya cuenta se encuentre en el grupo **Usuarios avanzados** puede iniciar sesión en un equipo portátil a través de Servicios de Terminal Server porque la UO Equipo portátil es una unidad organizativa secundaria de la UO Windows XP. Si está habilitada la opción de directiva **No reemplazar** en el GPO Windows XP, sólo las cuentas del grupo **Administradores** podrán iniciar sesión en el equipo cliente a través de Servicios de Terminal Server.
 
@@ -486,7 +486,7 @@ En la siguiente tabla se resumen las recomendaciones acerca de la configuración
   
 Esta configuración de directiva determina si se desconectará a los usuarios que están conectados a la red local fuera de las horas de inicio de sesión válidas para sus cuentas de usuario. Esta configuración de directiva afecta al componente Bloques de mensajes de servidor (SMB). Cuando esta configuración de directiva está habilitada, las sesiones del equipo cliente con el servicio SMB se desconectan una vez transcurrido el tiempo de sesión válido del cliente. Cuando está deshabilitada, se permite que continúe la sesión del equipo cliente establecida después de transcurrido el tiempo de sesión. Al habilitar esta configuración de directiva, asegúrese de que también está habilitado el parámetro **Seguridad de red: forzar el cierre de sesión cuando expire la hora de inicio de sesión**.
   
-**Nota:  **el bloque de mensajes del servidor es la base para los recursos compartidos en las redes Windows. Por lo tanto, las configuraciones que afectan a SMB también afectan a los recursos compartidos, como carpetas e impresoras.
+**Nota:** el bloque de mensajes del servidor es la base para los recursos compartidos en las redes Windows. Por lo tanto, las configuraciones que afectan a SMB también afectan a los recursos compartidos, como carpetas e impresoras.
   
 Si en su organización se han configurado horas de inicio de sesión para los usuarios, es razonable habilitar la configuración **Servidor de red de Microsoft: desconectar a los clientes cuando termine el tiempo de sesión**. De lo contrario, los usuarios que se supone que no pueden tener acceso a los recursos de la red fuera de las horas de sesión que les corresponden podrían continuar utilizando los recursos en sesiones iniciadas durante las horas permitidas.
   
@@ -544,21 +544,29 @@ Aunque Active Directory actualiza Directiva de grupo de forma periódica, puede 
   
 Para actualizar un equipo local con esta herramienta, ejecute lo siguiente en el símbolo del sistema:
   
-```  
-gpupdate /force  
-```  
+```
+    gpupdate /force  
+```
+
 Después de ejecutar Gpupdate, se mostrará la siguiente información de confirmación:
   
-```  
-C:\\Documents and Settings\\administrator.MSSLAB&gt;gpupdate /force Refreshing Policy... User Policy Refresh has completed. Computer Policy Refresh has completed. To check for errors in policy processing, review the event log. C:\\Documents and Settings\\administrator.MSSLAB&gt;  
-```  
+```
+    C:\Documents and Settings\administrator.MSSLAB>gpupdate /force
+    Refreshing Policy...
+    User Policy Refresh has completed.
+    Computer Policy Refresh has completed.
+    To check for errors in policy processing, review the event log.
+    C:\Documents and Settings\administrator.MSSLAB>
+```
+
 En caso de que la directiva de grupo esté basada en usuarios, deberá cerrar sesión y volver a iniciarla en el equipo que utiliza para probar las directivas. Las directivas de equipo se deberían actualizar inmediatamente.
   
 Para ver opciones adicionales de Gpupdate, ejecute lo siguiente en el símbolo del sistema:
   
-```  
-gpupdate /?  
-```  
+```
+    gpupdate /?  
+```
+
 ### Visualización del conjunto resultante de directivas
   
 Existen dos herramientas que se proporcionan con Windows XP y que permiten determinar qué directivas se han aplicado a los equipos del entorno, cuándo se han aplicado y en qué orden.

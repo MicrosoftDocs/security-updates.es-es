@@ -41,10 +41,10 @@ Este capítulo hace referencia al entorno EC. Para obtener una explicación del 
 
 ##### En esta página
 
-[](#edaa)[Entorno Cliente de empresa](#edaa)
-[](#ecaa)[Diseño de seguridad e implementación](#ecaa)
-[](#ebaa)[Herramienta GPOAccelerator](#ebaa)
-[](#eaaa)[Más información](#eaaa)
+[](#edaa)[Entorno Cliente de empresa](#edaa)  
+[](#ecaa)[Diseño de seguridad e implementación](#ecaa)  
+[](#ebaa)[Herramienta GPOAccelerator](#ebaa)  
+[](#eaaa)[Más información](#eaaa)  
 
 ### Entorno Cliente de empresa
 
@@ -114,7 +114,7 @@ Las siguientes consideraciones hacen referencia al diseño de directivas de grup
 
 -   Puede configurar un GPO con la opción **Exigido**. Si selecciona esta opción, otros GPO no pueden anular los parámetros configurados en este GPO.
 
-    **Nota   **En Windows 2000 se hace referencia a la opción **Exigido** como **No sobrescribir**.
+    **Nota** En Windows 2000 se hace referencia a la opción **Exigido** como **No sobrescribir**.
 
 -   Puede configurar una unidad organizativa, un dominio o un sitio de Active Directory con la opción **Bloquear la herencia de directivas**. Esta opción bloquea la configuración de los GPO más altos en la jerarquía de Active Directory, a menos que se haya seleccionado la opción **Exigido**. Es decir, la opción **Exigido** tiene prioridad sobre la opción **Bloquear la herencia de directivas**.
 
@@ -197,7 +197,7 @@ Los GPO que se ofrecen con esta guían se han probado de forma exhaustiva. No ob
 La secuencia de comandos GPOAccelerator.wsf se encuentra en la carpeta Windows Vista Security Guide\\
 GPOAccelerator Tool que crea el archivo de Microsoft Windows Installer (.msi).
 
-**Nota   **La carpeta GPOAccelerator Tool y las subcarpetas correspondientes deben encontrarse en el equipo local para que la secuencia de comandos se ejecute tal y como se describe en el siguiente procedimiento.
+**Nota** La carpeta GPOAccelerator Tool y las subcarpetas correspondientes deben encontrarse en el equipo local para que la secuencia de comandos se ejecute tal y como se describe en el siguiente procedimiento.
 
 **Para crear los GPO y vincularlos a las UO correspondientes del entorno de laboratorio**
 
@@ -358,7 +358,7 @@ El siguiente procedimiento describe cómo usar GPMC en un equipo cliente con Win
 
 -   Expanda el nodo **Objetos de directiva de grupo** y seleccione el GPO; a continuación, en el panel de detalles, haga clic en la ficha **Ámbito** y anote la información de las columnas **Vínculo habilitado** y **Ruta de acceso**.
 
-- O bien -
+\- O bien -
 
 -   Seleccione la UO y, en el panel de detalles, haga clic en la ficha **Objetos de directivas de grupo vinculados** y anote la información de las columnas **Vínculo habilitado** y **GPO**.
 
@@ -631,7 +631,7 @@ No modifique este archivo.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Security Templates</td>
-<td style="border:1px solid black;">Carpeta que contiene los archivos .inf de plantillas de seguridad que puede usar para implementar algunos parámetros de seguridad que se indican en esta guía.
+<td style="border:1px solid black;">Carpeta que contiene los archivos .inf de plantillas de seguridad que puede usar para implementar algunos parámetros de seguridad que se indican en esta guía.<br/>
 <strong>Nota</strong>   Microsoft recomienda usar la secuencia de comandos que se incluye con esta guía para crear los GPO indicados. No obstante, las plantillas de seguridad proporcionadas pueden ayudarle a proteger los equipos independientes.</td>
 </tr>
 <tr class="odd">

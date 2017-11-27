@@ -54,24 +54,8 @@ En esta sección se describen los requisitos de software y hardware necesarios p
 -   Debe tener instalado uno de los siguientes sistemas operativos compatibles:
     -   Windows Server 2008 R2
     -   Windows Server 2008 SP1 o versiones posteriores
- 
-        <p> </p>
-<table style="border:1px solid black;">
-        <colgroup>
-        <col width="100%" />
-        </colgroup>
-        <thead>
-        <tr class="header">
-        <th style="border:1px solid black;" ><img src="images/Dd939886.Warning(WS.10).gif" />Advertencia</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td style="border:1px solid black;">Si WSUS 3.0 SP2 se instala en Windows Server 2008 antes de actualizar a Windows Server 2008 R2, la actualización a Windows Server 2008 R2 no se realizará correctamente. Consulte la sección <a href="#bkmk_knownissues">Problemas conocidos</a> para obtener más información.
-        </td>
-        </tr>
-        </tbody>
-        </table>
+        > [!Advertencia]
+        > Si WSUS 3.0 SP2 se instala en Windows Server 2008 antes de actualizar a Windows Server 2008 R2, la actualización a Windows Server 2008 R2 no se realizará correctamente. Consulte la sección 
  
 
     -   Windows Server 2003 SP1 o versiones posteriores
@@ -90,26 +74,9 @@ En esta sección se describen los requisitos de software y hardware necesarios p
 -   Microsoft Management Console 3.0
 -   Microsoft Report Viewer 2008 redistribuible
 
- 
-<p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Importante</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Windows Server 2008 R2 requiere WSUS 3.0 SP2. Si instala Windows Server 2008 R2, a continuación debe instalar WSUS 3.0 SP2. No instale WSUS 3.0 SP1 en Windows Server 2008 R2.
-
+> [!Importante]
+> Windows Server 2008 R2 requiere WSUS 3.0 SP2. Si instala Windows Server 2008 R2, a continuación debe instalar WSUS 3.0 SP2. No instale WSUS 3.0 SP1 en Windows Server 2008 R2.  
 WSUS 3.0 SP2 no es compatible con Terminal Services en el servidor front-end en una configuración de SQL remota.
-</td>
-</tr>
-</tbody>
-</table>
  
 
 ### Requisitos previos de software de la consola de administración de WSUS
@@ -157,21 +124,8 @@ Si tiene dos o más sitios web que se ejecutan en el puerto 80 (por ejemplo, Win
 
 Al instalar WSUS 3.0 SP2, puede que tenga que deshabilitar programas antivirus para poder realizar la instalación correctamente. Después de deshabilitar el software antivirus, reinicie el equipo antes de instalar WSUS. Al reiniciar el equipo se evita que los archivos estén bloqueados cuando el proceso de instalación necesite tener acceso a ellos. Una vez que se complete la instalación, asegúrese de volver a habilitar el software antivirus. Visite el sitio web del proveedor de software antivirus con el fin de seguir el procedimiento exacto para deshabilitar y volver a habilitar el software y la versión antivirus.
 
- 
-<p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Caution(WS.10).gif" />Precaución</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Esta solución alternativa puede hacer que su equipo o la red sean más vulnerables a los ataques de usuarios malintencionados o por software dañino como los virus. No se recomienda esta solución alternativa pero le facilitamos esta información para que pueda implementarla según su criterio. Usted asume todo el riesgo derivado del uso de esta solución.
-
+>[!Precaución]
+> Esta solución alternativa puede hacer que su equipo o la red sean más vulnerables a los ataques de usuarios malintencionados o por software dañino como los virus. No se recomienda esta solución alternativa pero le facilitamos esta información para que pueda implementarla según su criterio. Usted asume todo el riesgo derivado del uso de esta solución.  
 El software antivirus ayuda a proteger su equipo de los virus. No descargue ni abra archivos de orígenes que no sean de confianza, visitar sitios Web en los que no confíe ni abrir adjuntos de correo electrónico cuando su programa antivirus esté deshabilitado.
 </td>
 </tr>
@@ -275,8 +229,6 @@ Si cambia el nombre del equipo después de instalar WSUS 2.0 y antes de actualiz
 
 Use la siguiente secuencia de comandos para quitar y volver a agregar los grupos de administradores de ASPNET y WSUS. A continuación, ejecute de nuevo la actualización.
 
-        ```
-
 ### Si ha realizado la migración de MSDE a SQL Server 2008 o SQL Server 2005 en WSUS 2.0, debe modificar un valor del Registro
 
 Si tiene una instalación de WSUS 2.0 y ha migrado a SQL Server 2008 o SQL Server 2005, debe cambiar el valor **HKLM\\SOFTWARE\\Microsoft\\Update Services\\Server\\Setup\\WmsdeInstalled** de 1 a 0. De no cambiarlo antes de actualizar a WSUS 3.0 SP2, se producirá un error en la actualización.
@@ -305,9 +257,7 @@ Parámetros de línea de comandos del programa de instalación para instalacione
 
 Puede realizar instalaciones desatendidas de WSUS 3.0 SP2 si utiliza el programa de instalación de línea de comandos de WSUS. Esta tabla muestra los parámetros de línea de comandos para el programa de instalación de WSUS 3.0 SP2.
 
-###  
 
- 
 <p> </p>
 <table style="border:1px solid black;">
 <colgroup>
@@ -428,10 +378,11 @@ Esta tabla muestra las propiedades de línea de comandos para WSUS 3.0 SP2.
 ### Ejemplo de uso
   
 ```  
-WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (instalar en modo silencioso utilizando el puerto 8530) WSUSSetup.exe /q /u (desinstalar WSUS)  
+    WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (instalar en modo silencioso utilizando el puerto 8530) WSUSSetup.exe /q /u (desinstalar WSUS) 
 ```
  
 <p> </p>
+
 > [!IMPORTANT]
 > Si instala WSUS 3.0 SP2 en modo silencioso (/q) y el equipo no tiene todos los requisitos previos instalados, la instalación generará un archivo llamado WSUSPreReqCheck.xml y lo guardará en el directorio %TEMP%.
  

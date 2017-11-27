@@ -15,14 +15,14 @@ Actualizado: 20/10/05
 
 ##### En esta página
 
-[](#ehaa)[Información general](#ehaa)
-[](#egaa)[Resumen ejecutivo](#egaa)
-[](#efaa)[Destinatarios de la guía](#efaa)
-[](#eeaa)[Ámbito de esta guía](#eeaa)
-[](#edaa)[Descripción general del capítulo](#edaa)
-[](#ecaa)[Descarga de contenido](#ecaa)
-[](#ebaa)[Convenciones de estilo](#ebaa)
-[](#eaaa)[Resumen](#eaaa)
+[](#ehaa)[Información general](#ehaa)  
+[](#egaa)[Resumen ejecutivo](#egaa)  
+[](#efaa)[Destinatarios de la guía](#efaa)  
+[](#eeaa)[Ámbito de esta guía](#eeaa)  
+[](#edaa)[Descripción general del capítulo](#edaa)  
+[](#ecaa)[Descarga de contenido](#ecaa)  
+[](#ebaa)[Convenciones de estilo](#ebaa)  
+[](#eaaa)[Resumen](#eaaa)  
 
 ### Información general
 
@@ -42,7 +42,7 @@ La información de esta guía ha sido revisada y aprobada por equipos de ingenie
 
 Se elaboraron prácticas recomendadas para proteger tanto los equipos cliente como los servidores. De este desarrollo se encargaron consultores e ingenieros de sistemas que han implementado Windows XP Professional, Microsoft Windows Server™ 2003 y Windows 2000 en una diversidad de entornos. Esas prácticas recomendadas se detallan en la guía. También se incluyen recomendaciones, procedimientos e instrucciones de seguridad paso a paso para ayudarle a aumentar al máximo el nivel de seguridad de los equipos de su organización en los que se ejecuta Windows XP Professional con SP2.
 
-Si precisa información más detallada de los conceptos que se presentan en este material, consulte *Amenazas y contramedidas: configuración de seguridad de Windows* *Server 2003 y Windows* *XP*, el kit de recursos de *Microsoft Windows* *XP*, el kit de recursos de *Microsoft Windows* *Server 2003*, el kit de recursos de seguridad de *Microsoft Windows* y Microsoft TechNet.
+Si precisa información más detallada de los conceptos que se presentan en este material, consulte *Amenazas y contramedidas: configuración de seguridad de Windows Server 2003 y Windows XP*, el kit de recursos de *Microsoft Windows XP*, el kit de recursos de *Microsoft Windows Server 2003*, el kit de recursos de seguridad de *Microsoft Windows* y Microsoft TechNet.
 
 Esta guía se creó originalmente para Windows XP con SP1. La presente versión actualizada, en la que se reflejan las considerables mejoras en materia de seguridad que proporciona Windows XP con SP2, se desarrolló y fue probada en equipos en los que se ejecuta Windows XP Professional con SP2. Todas las referencias a Windows XP de esta guía son relativas a Windows XP con SP2, a menos que se indique lo contrario.
 

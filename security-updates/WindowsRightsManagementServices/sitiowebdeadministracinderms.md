@@ -13,7 +13,7 @@ Todos los clústeres raíz y de sólo licencias albergan un sitio web de adminis
 
 En este tema, se describen las funciones del sitio Web de administración. Encontrará instrucciones para usar el sitio web para administrar RMS en "RMS Cómo..." y "Administración de RMS" en "RMS: Operations" en esta recopilación de documentación.
 
-**Nota   **La configuración del clúster es global. Es posible administrar la configuración de un clúster desde el sitio Web de administración de cualquiera de los servidores que lo componen.
+**Nota** La configuración del clúster es global. Es posible administrar la configuración de un clúster desde el sitio Web de administración de cualquiera de los servidores que lo componen.
 
 Para realizar las tareas siguientes, abra la página **Administración global**:
 

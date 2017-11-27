@@ -15,24 +15,24 @@ Actualizado: 27/12/05
 
 ### En esta página
 
-[](#eiaa)[Información general](#eiaa)
-[](#ehaa)[Resumen ejecutivo](#ehaa)
-[](#egaa)[Destinatarios de la guía](#egaa)
-[](#efaa)[Ámbito de esta guía](#efaa)
-[](#eeaa)[Descripción de los capítulos](#eeaa)
-[](#edaa)[Capacitación y conocimientos previos](#edaa)
-[](#ecaa)[Requisitos de software](#ecaa)
-[](#ebaa)[Convenciones de estilo](#ebaa)
-[](#eaaa)[Resumen](#eaaa)
+[](#eiaa)[Información general](#eiaa)  
+[](#ehaa)[Resumen ejecutivo](#ehaa)  
+[](#egaa)[Destinatarios de la guía](#egaa)  
+[](#efaa)[Ámbito de esta guía](#efaa)  
+[](#eeaa)[Descripción de los capítulos](#eeaa)  
+[](#edaa)[Capacitación y conocimientos previos](#edaa)  
+[](#ecaa)[Requisitos de software](#ecaa)  
+[](#ebaa)[Convenciones de estilo](#ebaa)  
+[](#eaaa)[Resumen](#eaaa)  
 
 ### Información general
 
-Guía de seguridad de *Windows* *Server* *2003*. El objetivo de esta guía es proporcionarle la mejor información disponible para que pueda evaluar y hacer frente a los riesgos de seguridad de su organización que sean específicos de Microsoft® Windows Server™ 2003 con Service Pack 1 (SP1). Los capítulos de esta guía proporcionan una orientación detallada acerca de cómo mejorar la configuración y las características de seguridad de Windows Server 2003 con SP1 para hacer frente de la mejor manera posible a las amenazas identificadas en su entorno. Esta guía está destinada a los ingenieros de sistemas, los consultores y los administradores de red que trabajan en un entorno basado en Windows Server 2003 con SP1.
+Guía de seguridad de *Windows Server 2003*. El objetivo de esta guía es proporcionarle la mejor información disponible para que pueda evaluar y hacer frente a los riesgos de seguridad de su organización que sean específicos de Microsoft® Windows Server™ 2003 con Service Pack 1 (SP1). Los capítulos de esta guía proporcionan una orientación detallada acerca de cómo mejorar la configuración y las características de seguridad de Windows Server 2003 con SP1 para hacer frente de la mejor manera posible a las amenazas identificadas en su entorno. Esta guía está destinada a los ingenieros de sistemas, los consultores y los administradores de red que trabajan en un entorno basado en Windows Server 2003 con SP1.
 
 La guía ha sido revisada y aprobada por equipos de ingeniería, consultores, ingenieros de soporte técnico, clientes y socios de Microsoft. Microsoft ha trabajado con consultores e ingenieros de sistemas que han implementado Windows Server 2003, Windows® XP y Windows 2000 en una variedad de entornos con el fin de establecer las últimas recomendaciones para garantizar la seguridad de estos clientes y servidores. Estas recomendaciones se describen en detalle en la guía.
 
 La guía complementaria, [*Amenazas y contramedidas: configuración de seguridad en*
-*Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159) (disponible en http://go.microsoft.com/fwlink/?LinkId=15159), proporciona información general completa sobre los principales parámetros de configuración de seguridad de Windows Server 2003 con SP1 y Windows XP con SP2. Los capítulos del 2 al 12 de esta guía incluyen prescripciones, procedimientos y recomendaciones de seguridad paso a paso para proporcionarle listas de tareas que le ayudarán a alcanzar un nivel elevado de seguridad en los equipos de su organización que ejecutan Windows Server 2003 con SP1. Si precisa información más detallada de los conceptos que se presentan en este material, consulte recursos como el *Kit de recursos de Microsoft Windows 2003 Server*, el *Kit de recursos de Microsoft Windows* *XP*, el *Kit de recursos de seguridad de Microsoft Windows* *2000* y Microsoft TechNet.
+*Windows Server 2003 y Windows XP*](http://go.microsoft.com/fwlink/?linkid=15159) (disponible en http://go.microsoft.com/fwlink/?LinkId=15159), proporciona información general completa sobre los principales parámetros de configuración de seguridad de Windows Server 2003 con SP1 y Windows XP con SP2. Los capítulos del 2 al 12 de esta guía incluyen prescripciones, procedimientos y recomendaciones de seguridad paso a paso para proporcionarle listas de tareas que le ayudarán a alcanzar un nivel elevado de seguridad en los equipos de su organización que ejecutan Windows Server 2003 con SP1. Si precisa información más detallada de los conceptos que se presentan en este material, consulte recursos como el *Kit de recursos de Microsoft Windows 2003 Server*, el *Kit de recursos de Microsoft Windows XP*, el *Kit de recursos de seguridad de Microsoft Windows 2000* y Microsoft TechNet.
 
 [](#mainsection)[Principio de la página](#mainsection)
 
@@ -95,17 +95,17 @@ Se proporciona orientación sobre las formas de reforzar la seguridad de los equ
 
 -   Hosts de baluarte
 
-La configuración recomendada en esta guía se ha probado de forma minuciosa en entornos de laboratorio que simulaban los entornos anteriormente descritos: Cliente heredado, Cliente de empresa y Seguridad especializada: Funcionalidad limitada. Aunque los parámetros han probado su eficacia en el laboratorio, es importante que su organización también realice pruebas en su propio laboratorio con un entorno que represente el entorno de producción real. Probablemente sea necesario realizar algunas modificaciones en las plantillas de seguridad y en los procedimientos manuales presentados en la guía para que todas las aplicaciones empresariales sigan funcionando como se espera. La información detallada que se proporciona en la guía complementaria, *Amenazas y contramedidas: configuración de seguridad en Windows* *Server* *2003 y Windows* *XP*, proporciona la información necesaria para evaluar cada contramedida específica y decidir cuáles de ellas son apropiadas para el entorno y las necesidades empresariales únicas de su organización.
+La configuración recomendada en esta guía se ha probado de forma minuciosa en entornos de laboratorio que simulaban los entornos anteriormente descritos: Cliente heredado, Cliente de empresa y Seguridad especializada: Funcionalidad limitada. Aunque los parámetros han probado su eficacia en el laboratorio, es importante que su organización también realice pruebas en su propio laboratorio con un entorno que represente el entorno de producción real. Probablemente sea necesario realizar algunas modificaciones en las plantillas de seguridad y en los procedimientos manuales presentados en la guía para que todas las aplicaciones empresariales sigan funcionando como se espera. La información detallada que se proporciona en la guía complementaria, *Amenazas y contramedidas: configuración de seguridad en Windows Server 2003 y Windows XP*, proporciona la información necesaria para evaluar cada contramedida específica y decidir cuáles de ellas son apropiadas para el entorno y las necesidades empresariales únicas de su organización.
 
 [](#mainsection)[Principio de la página](#mainsection)
 
 ### Descripción de los capítulos
 
-La *Guía de seguridad de Windows* *Server* *2003* consta de 13 capítulos, cada uno de los cuales se basa en el proceso de solución de un extremo a otro necesario para implementar y garantizar la seguridad de Windows Server 2003 con SP1 en su entorno. Los primeros capítulos describen cómo crear una base que le permita reforzar la seguridad de los servidores de la organización; en el resto de los capítulos se explican los procedimientos que son exclusivos de cada función de servidor.
+La *Guía de seguridad de Windows Server 2003* consta de 13 capítulos, cada uno de los cuales se basa en el proceso de solución de un extremo a otro necesario para implementar y garantizar la seguridad de Windows Server 2003 con SP1 en su entorno. Los primeros capítulos describen cómo crear una base que le permita reforzar la seguridad de los servidores de la organización; en el resto de los capítulos se explican los procedimientos que son exclusivos de cada función de servidor.
 
 #### Capítulo 1: Introducción a la Guía de seguridad de Windows Server 2003
 
-Este capítulo presenta la *Guía de seguridad de Windows* *Server* *2003* e incluye una breve descripción general de cada capítulo. Describe los entornos de cliente heredado, cliente de empresa y seguridad especializada (funcionalidad limitada), y los equipos que se ejecutan en éstos.
+Este capítulo presenta la *Guía de seguridad de Windows Server 2003* e incluye una breve descripción general de cada capítulo. Describe los entornos de cliente heredado, cliente de empresa y seguridad especializada (funcionalidad limitada), y los equipos que se ejecutan en éstos.
 
 #### Capítulo 2: Mecanismos de seguridad de Windows Server 2003
 
