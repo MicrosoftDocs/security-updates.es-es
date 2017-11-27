@@ -83,5 +83,5 @@ Because the custom WSUS Web site is not on port 80, you must use a custom URL t
 -   Include a custom port number in the URL directing the client computer to the WSUS server—for example, http://*WSUSServerName*:*portnumber*.
 -   For more information about pointing client computers to the WSUS server, see [Determine a Method to Configure Automatic Updates Clients](https://technet.microsoft.com/8b786951-a481-49a6-a0e6-69189e58f2ab) later in this guide.
 -   Include a custom port number in the URL for accessing the WSUS console—for example, http://*WSUSServerame*:*portnumber*/WSUSAdmin/.
--   If you set up any WSUS servers downstream of a server that uses a custom port number, you must enter the custom port number on the WSUS console on the downstream WSUS server. You do not form a URL to make this connection.
+-   If you set up any WSUS servers downstream of a server that uses a custom port number, you must enter the custom port number on the WSUS console on the downstream WSUS server. You do not form a URL to make this connection.  
     You can find instructions for connecting a downstream WSUS server to an upstream WSUS server in [Chain WSUS Servers Together](https://technet.microsoft.com/ccf5da8c-62c3-4dfd-a5a4-b4da50f0b2ff).

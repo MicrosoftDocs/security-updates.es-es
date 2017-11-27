@@ -19,8 +19,8 @@ En esta sección obtendrá más información acerca de los escenarios típicos p
 
 ##### En esta página
 
-[](#ecaa)[Un solo servidor WSUS (red pequeña o sencilla)](#ecaa)
-[](#ebaa)[Varios servidores WSUS (red mediana o más compleja)](#ebaa)
+[](#ecaa)[Un solo servidor WSUS (red pequeña o sencilla)](#ecaa)  
+[](#ebaa)[Varios servidores WSUS (red mediana o más compleja)](#ebaa)  
 [](#eaaa)[Servidores WSUS desconectados (conectividad a Internet limitada o restringida)](#eaaa)
 
 ### Un solo servidor WSUS (red pequeña o sencilla)
