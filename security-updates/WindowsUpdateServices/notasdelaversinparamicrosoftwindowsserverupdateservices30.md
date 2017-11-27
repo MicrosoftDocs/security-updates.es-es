@@ -176,7 +176,7 @@ Asegúrese de que el servidor WSUS 3.0 cumple los requisitos de esta lista antes
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Servicios de Microsoft Internet Information Server (IIS)</td>
-<td style="border:1px solid black;">Instalar desde el sistema operativo.
+<td style="border:1px solid black;">Instalar desde el sistema operativo.<br/>
 Ver problema 1: hay que tener instalado IIS.</td>
 </tr>
 <tr class="even">
@@ -197,10 +197,11 @@ Ver problema 1: hay que tener instalado IIS.</td>
 </tr>
 </tbody>
 </table>
-  
-| ![](images/Cc708491.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                     |  
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Si se ha instalado WSUS 2.0 anteriormente y se está usando SQL Server 2000, SQL Server Desktop Engine 2000 o cualquier base de datos de SQL Server anterior a SQL Server 2005 SP1 (o SQL Server 2005 SP2 en Windows Server 2008), el programa de instalación de WSUS 3.0 instalará Windows® Internal Database y migrará la base de datos a esa ubicación. |
+
+<p></p>
+
+> [!Nota]
+> Si se ha instalado WSUS 2.0 anteriormente y se está usando SQL Server 2000, SQL Server Desktop Engine 2000 o cualquier base de datos de SQL Server anterior a SQL Server 2005 SP1 (o SQL Server 2005 SP2 en Windows Server 2008), el programa de instalación de WSUS 3.0 instalará Windows® Internal Database y migrará la base de datos a esa ubicación.
   
 Requisitos de espacio mínimo en disco para la instalación de servidor WSUS 3.0  
 ------------------------------------------------------------------------------
@@ -211,9 +212,8 @@ Los requisitos mínimos de espacio en disco para instalar Windows Server Update 
 -   2 GB para el volumen en el que se almacenarán los archivos de base de datos  
 -   20 GB para el volumen en el que se almacena el contenido
   
-| ![](images/Cc708491.Important(WS.10).gif)Importante                           |  
-|------------------------------------------------------------------------------------------------------------|  
-| No se puede instalar WSUS 3.0 en unidades comprimidas. Compruebe que la unidad elegida no esté comprimida. |
+> [!Importante]
+> No se puede instalar WSUS 3.0 en unidades comprimidas. Compruebe que la unidad elegida no esté comprimida.
   
 Requisitos de actualización de WSUS 3.0  
 ---------------------------------------
@@ -366,11 +366,11 @@ Esta tabla muestra las propiedades de línea de comandos para WSUS 3.0.
 #### Ejemplo de uso
   
 ```  
-WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (install in quiet mode using port 8530) WSUSSetup.exe /q /u (uninstall WSUS)  
-```  
-| ![](images/Cc708491.Important(WS.10).gif)Importante                                                                                                                                |  
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Si instala WSUS 3.0 en modo silencioso (/q) y el equipo no tiene todos los requisitos previos instalados, la instalación generará un archivo llamado WSUSPreReqCheck.xml y lo guardará en el directorio %TEMP%. |
+    WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (install in quiet mode using port 8530) WSUSSetup.exe /q /u (uninstall WSUS)
+``` 
+
+> [!Importante]
+> Si instala WSUS 3.0 en modo silencioso (/q) y el equipo no tiene todos los requisitos previos instalados, la instalación generará un archivo llamado WSUSPreReqCheck.xml y lo guardará en el directorio %TEMP%.
   
 Problemas de instalación  
 ------------------------
@@ -415,7 +415,13 @@ Use la siguiente secuencia de comandos para quitar y volver a agregar los grupos
 Tendrá que reemplazar *&lt;DBLocation&gt;* con la carpeta donde está instalada la base de datos, y *&lt;ContentDirectory&gt;* con la carpeta de almacenamiento local.
   
 ```  
-sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=name from sysusers WHERE name like '%ASPNET' EXEC sp\_revokedbaccess @asplogin" sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=name from sysusers WHERE name like '%WSUS Administrators' EXEC sp\_revokedbaccess @wsusadminslogin"   sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=HOST\_NAME()+'\\ASPNET' EXEC sp\_grantlogin @asplogin EXEC sp\_grantdbaccess @asplogin EXEC sp\_addrolemember webService,@asplogin" sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=HOST\_NAME()+'\\WSUS Administrators' EXEC sp\_grantlogin @wsusadminslogin EXEC sp\_grantdbaccess @wsusadminslogin EXEC sp\_addrolemember webService,@wsusadminslogin"   sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "backup database SUSDB to disk=N'*&lt;ContentDirectory&gt;*\\SUSDB.Dat' with init"  
+    sqlcmd.exe -S <DBLocation> -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=name from sysusers WHERE name like '%ASPNET' EXEC sp_revokedbaccess @asplogin"
+    sqlcmd.exe -S <DBLocation> -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=name from sysusers WHERE name like '%WSUS Administrators' EXEC sp_revokedbaccess @wsusadminslogin"
+    
+    sqlcmd.exe -S <DBLocation> -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=HOST_NAME()+'\ASPNET' EXEC sp_grantlogin @asplogin EXEC sp_grantdbaccess @asplogin EXEC sp_addrolemember webService,@asplogin"
+    sqlcmd.exe -S <DBLocation> -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=HOST_NAME()+'\WSUS Administrators' EXEC sp_grantlogin @wsusadminslogin EXEC sp_grantdbaccess @wsusadminslogin EXEC sp_addrolemember webService,@wsusadminslogin"
+    
+    sqlcmd.exe -S <DBLocation> -E -Q "backup database SUSDB to disk=N'<ContentDirectory>\SUSDB.Dat' with init"
 ```
   
 #### el programa de instalación puede sobrescribir una copia de seguridad de base de datos anterior
@@ -510,13 +516,16 @@ Si es necesario desinstalar Windows Internal Database, los comandos siguientes i
 (en plataformas de 32 bits)
   
 ```  
-msiexec /x {CEB5780F-1A70-44A9-850F-DE6C4F6AA8FB} callerid=ocsetup.exe  
-```  
+    msiexec /x {CEB5780F-1A70-44A9-850F-DE6C4F6AA8FB} callerid=ocsetup.exe  
+``` 
+
 (en plataformas de 64 bits)
+
   
 ```  
-msiexec /x {BDD79957-5801-4A2D-B09E-852E7FA64D01} callerid=ocsetup.exe  
-```  
+    msiexec /x {BDD79957-5801-4A2D-B09E-852E7FA64D01} callerid=ocsetup.exe  
+```
+
 Si desea desinstalar Windows Internal Database Service Pack 2 desde Windows Server 2008, puede hacerlo por medio del Administrador del servidor.
   
 Sin embargo, al quitar la aplicación puede que no se quiten los archivos .mdf y .ldf predeterminados, lo que provocará un error posterior en la instalación de WSUS 3.0. Estos archivos se pueden eliminar desde el directorio %windir%\\SYSMSI\\SSEE.
@@ -607,7 +616,11 @@ Antes de ejecutar WSUS 3.0 en Windows Server 2008, el archivo de configuración
 El resultado debería ser:
   
 ```  
- &lt;System.webServer&gt; &lt;modules&gt; &lt;remove name="CustomErrorMode"&gt; &lt;/modules&gt; &lt;/System.webServer&gt;  
+        <System.webServer>
+    <modules>
+    <remove name="CustomErrorMode">
+    </modules>
+    </System.webServer>
 ```
   
 #### Problema 2: Si desea instalar WSUS 3.0 en el puerto personalizado en Windows Server 2008 Beta 3, debe crear previamente el sitio web

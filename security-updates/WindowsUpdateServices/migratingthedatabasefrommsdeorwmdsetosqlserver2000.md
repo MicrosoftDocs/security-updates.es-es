@@ -96,9 +96,9 @@ This procedure migrates the WSUS database to a SQL Server 2000 instance running 
 11. In this step you will verify that the database migration has been successful by opening the WSUS console by using Internet Explorer.
 
     -   In Internet Explorer, in the **Address** box, type **http://\[ServerName\]/WSUSAdmin**.
-        | ![](images/Cc708529.note(WS.10).gif)Nota   |
-        |-------------------------------------------------------------------------|
-        | You might have to restart the server for these settings to take effect. |
+        > ![Nota]
+        > You might have to restart the server for these settings to take effect.
+
 
 Migrating the WSUS Database From an MSDE or WMSDE Instance To SQL Server 2000 Running On Another Server
 -------------------------------------------------------------------------------------------------------
@@ -163,7 +163,7 @@ This section contains two procedures. The first procedure installs WSUS on the b
 
     \[LocalContentCacheLocationValue\] is the path to the folder on Server 1 where update files are stored. For example, C:\\WSUS\\WSUSContent.
 
-    > [!IMPORTANT]
+    > [!Importante]
     > Do not use a network location or a UNC path. Do not add a trailing backslash (\\). 
 
 3.  If you chose remote storage on Microsoft Update, at a command prompt, type
@@ -253,7 +253,7 @@ In this section you will detach the WSUS database on Server 1 and on Server 2, a
 
 4.  Locate and then rename the existing susdb.mdf and susdb\_log.ldf files.
 
-    > [!IMPORTANT]
+    > [!Importante]
     > Note where these files are stored in the file system. Later in this section, you will copy files of the same name from Server 1 to this location. 
 
 **To install SQL Server 2000a and detach the WSUS database on Server 1**
@@ -313,8 +313,8 @@ Vea también
 
 ####  
 
-[Managing the Databases](https://technet.microsoft.com/d99cdd74-fbf4-4706-b2a2-a58728beef22)
-[Deploying Microsoft Windows Server Update Services 2.0](https://technet.microsoft.com/ace052df-74e7-4d6a-b5d4-f7911bb06b40)
+[Managing the Databases](https://technet.microsoft.com/d99cdd74-fbf4-4706-b2a2-a58728beef22)  
+[Deploying Microsoft Windows Server Update Services 2.0](https://technet.microsoft.com/ace052df-74e7-4d6a-b5d4-f7911bb06b40)  
 #### Otros recursos
 
-[Deploying Microsoft Windows Server Update Services](http://go.microsoft.com/fwlink/?linkid=41777)
+[Deploying Microsoft Windows Server Update Services](http://go.microsoft.com/fwlink/?linkid=41777)  

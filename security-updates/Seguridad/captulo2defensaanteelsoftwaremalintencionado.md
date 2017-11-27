@@ -33,9 +33,9 @@ Este capítulo distingue entre las tecnologías nuevas y mejoradas de Windows V
 
 ##### En esta página
 
-[](#ecaa)[Tecnologías de defensa de Windows Vista](#ecaa)
-[](#ebaa)[Tecnologías de defensa de Internet Explorer 7](#ebaa)
-[](#eaaa)[Más información](#eaaa)
+[](#ecaa)[Tecnologías de defensa de Windows Vista](#ecaa)  
+[](#ebaa)[Tecnologías de defensa de Internet Explorer 7](#ebaa)  
+[](#eaaa)[Más información](#eaaa)  
 
 ### Tecnologías de defensa de Windows Vista
 
