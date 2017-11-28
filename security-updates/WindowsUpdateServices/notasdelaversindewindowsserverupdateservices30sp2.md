@@ -54,7 +54,7 @@ En esta sección se describen los requisitos de software y hardware necesarios p
 -   Debe tener instalado uno de los siguientes sistemas operativos compatibles:
     -   Windows Server 2008 R2
     -   Windows Server 2008 SP1 o versiones posteriores
-        > [!Advertencia]
+        > [!WARNING]
         > Si WSUS 3.0 SP2 se instala en Windows Server 2008 antes de actualizar a Windows Server 2008 R2, la actualización a Windows Server 2008 R2 no se realizará correctamente. Consulte la sección 
  
 
@@ -74,7 +74,7 @@ En esta sección se describen los requisitos de software y hardware necesarios p
 -   Microsoft Management Console 3.0
 -   Microsoft Report Viewer 2008 redistribuible
 
-> [!Importante]
+> [!IMPORTANT]
 > Windows Server 2008 R2 requiere WSUS 3.0 SP2. Si instala Windows Server 2008 R2, a continuación debe instalar WSUS 3.0 SP2. No instale WSUS 3.0 SP1 en Windows Server 2008 R2.  
 WSUS 3.0 SP2 no es compatible con Terminal Services en el servidor front-end en una configuración de SQL remota.
  
@@ -131,6 +131,9 @@ El software antivirus ayuda a proteger su equipo de los virus. No descargue ni a
 </tr>
 </tbody>
 </table>
+
+<p></p>
+
  
 
 ### Opción de desencadenadores anidados en SQL Server
@@ -259,6 +262,7 @@ Puede realizar instalaciones desatendidas de WSUS 3.0 SP2 si utiliza el programa
 
 
 <p> </p>
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -293,6 +297,9 @@ Puede realizar instalaciones desatendidas de WSUS 3.0 SP2 si utiliza el programa
 </tr>
 </tbody>
 </table>
+
+<p></p>
+
   
 Esta tabla muestra las propiedades de línea de comandos para WSUS 3.0 SP2.
   
@@ -300,6 +307,7 @@ Esta tabla muestra las propiedades de línea de comandos para WSUS 3.0 SP2.
 
  
 <p> </p>
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -374,6 +382,9 @@ Esta tabla muestra las propiedades de línea de comandos para WSUS 3.0 SP2.
 </tr>
 </tbody>
 </table>
+
+<p></p>
+
   
 ### Ejemplo de uso
   
