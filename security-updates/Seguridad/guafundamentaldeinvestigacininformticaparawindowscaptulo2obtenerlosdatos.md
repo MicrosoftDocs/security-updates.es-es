@@ -29,9 +29,8 @@ Este capítulo trata sobre cómo obtener los datos necesarios para la investigac
 
 Su organización necesitará una colección de herramientas de hardware y software para obtener los datos durante una investigación. Este kit de herramientas puede que contenga un equipo portátil con herramientas apropiadas de software, sistemas operativos y revisiones, medios de aplicación, dispositivos de copia de seguridad protegidos contra escritura, soportes vírgenes, equipo de red básico y cables. Idealmente, este kit de herramientas se creará con antelación, y los miembros del equipo estarán familiarizados con las herramientas antes de tener que realizar una investigación.
 
-![](images/Cc162837.note(es-es,TechNet.10).gif)**Nota:**
-
-Consulte las secciones "Preparación de su organización para una investigación informática" y "Herramientas" del [Apéndice: Recursos](https://technet.microsoft.com/es-es/library/a9a5c2a9-cce3-4edb-a92c-10983899240a(v=TechNet.10)) de esta guía para una lista de herramientas de software propuestas que pueden incluirse en el kit de herramientas de la investigación informática y para instrucciones en la creación de un kit de herramientas.
+> [!NOTE]
+> Consulte las secciones "Preparación de su organización para una investigación informática" y "Herramientas" del [Apéndice: Recursos](https://technet.microsoft.com/es-es/library/a9a5c2a9-cce3-4edb-a92c-10983899240a(v=TechNet.10)) de esta guía para una lista de herramientas de software propuestas que pueden incluirse en el kit de herramientas de la investigación informática y para instrucciones en la creación de un kit de herramientas. 
 
 [](#mainsection)[Principio de la página](#mainsection)
 
@@ -39,9 +38,8 @@ Consulte las secciones "Preparación de su organización para una investigación
 
 La recopilación de datos de evidencia digital puede realizarse localmente o a través de una red. Obtener los datos localmente tiene la ventaja de poseer un mayor control sobre el equipo o equipos y los datos implicados. Sin embargo, no siempre es posible (por ejemplo, cuándo los equipos están en espacios cerrados u otras ubicaciones, o bien cuando hay implicados servidores de alta disponibilidad). Otros factores, como el secreto de la investigación, la naturaleza de la evidencia que debe reunirse y el marco temporal de la investigación determinarán en última instancia si la evidencia se recopila localmente o a través de la red.
 
-![](images/Cc162837.important(es-es,TechNet.10).gif)**Importante:**
-
-Cuando se usan herramientas para recopilar los datos, es importante determinar primero si se ha instalado o no un rootkit. Los rootkits son componentes de software que se encargan del control completo de un equipo y ocultan su existencia ante las herramientas de diagnóstico estándar. Debido a que los rootkits operan en un nivel muy bajo del hardware, pueden interceptar y modificar llamadas de sistema. Usted no puede encontrar un rootkit buscando su ejecutable, ya que el rootkit se elimina de la lista de resultados de búsqueda retornados. El examen de los puertos no revela que los puertos utilizados por el rootkit estén abiertos, porque el rootkit evita que el examen detecte el puerto abierto. Por lo tanto, es difícil asegurar que no existe ningún rootkit. Una herramienta disponible que puede utilizar es Microsoft® Windows® Sysinternals [RootkitRevealer.](http://go.microsoft.com/?linkid=6013255)
+> [!IMPORTANT]
+> Cuando se usan herramientas para recopilar los datos, es importante determinar primero si se ha instalado o no un rootkit. Los rootkits son componentes de software que se encargan del control completo de un equipo y ocultan su existencia ante las herramientas de diagnóstico estándar. Debido a que los rootkits operan en un nivel muy bajo del hardware, pueden interceptar y modificar llamadas de sistema. Usted no puede encontrar un rootkit buscando su ejecutable, ya que el rootkit se elimina de la lista de resultados de búsqueda retornados. El examen de los puertos no revela que los puertos utilizados por el rootkit estén abiertos, porque el rootkit evita que el examen detecte el puerto abierto. Por lo tanto, es difícil asegurar que no existe ningún rootkit. Una herramienta disponible que puede utilizar es Microsoft® Windows® Sysinternals [RootkitRevealer.](http://go.microsoft.com/?linkid=6013255) 
 
 Al obtener los datos a través de una red, debe tener en cuenta el tipo de datos que deben recopilarse y la cantidad de esfuerzo que se va a emplear. Considere qué datos necesita obtener para apoyar la acusación de las partes causantes del conflicto. Por ejemplo, puede que sea necesario obtener datos de varios equipos a través de diferentes conexiones de red, o quizás sea suficiente copiar un volumen lógico de un sólo equipo.
 
@@ -81,9 +79,8 @@ El proceso recomendado para la obtención de datos es el siguiente:
 
     -   Cree una copia a nivel de bits de la evidencia en un destino de copia de seguridad y asegúrese de que los datos originales están protegidos contra escritura. El análisis de datos posterior debe realizarse en esta copia y no en la evidencia original. Realizar un recorrido paso a paso para la imagen es algo que queda fuera del ámbito de esta guía, pero es una parte integral de la recopilación de la evidencia.
 
-        ![](images/Cc162837.important(es-es,TechNet.10).gif)**Importante:**
-
-        Las herramientas aceptadas habitualmente por la industria al obtener una copia a nivel de bits. Por ejemplo, EnCase, de [Guidance Software](http://www.guidancesoftware.com/) o FTK, de [AccessData.](http://www.accessdata.com/)
+        > [!IMPORTANT]
+        > Las herramientas aceptadas habitualmente por la industria al obtener una copia a nivel de bits. Por ejemplo, EnCase, de [Guidance Software](http://www.guidancesoftware.com/) o FTK, de [AccessData.](http://www.accessdata.com/) 
 
     -   Documente los dispositivos de almacenamiento internos y asegúrese de incluir información acerca de sus configuraciones. Por ejemplo, anote el fabricante y el modelo, la configuración de puente y el tamaño del dispositivo. Además, tenga en cuenta el tipo de interfaz y el estado de la unidad.
 
