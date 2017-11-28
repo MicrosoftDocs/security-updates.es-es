@@ -3,7 +3,7 @@ TOCTitle: 'Paso 3: configurar la conexión de red'
 Title: 'Paso 3: configurar la conexión de red'
 ms:assetid: 'cd77566d-7780-4ce4-aa56-41183c65c4a7'
 ms:contentKeyID: 18158568
-ms:mtpsurl: '   '
+ms:mtpsurl: 'https://technet.microsoft.com/es-es/library/Cc708559(v=WS.10)'
 ---
 
 Paso 3: configurar la conexión de red
