@@ -19,9 +19,8 @@ En este capítulo se describen diferentes enfoques y las recomendaciones aceptad
 
 **Figura 3.1. Fase de análisis del modelo de investigación de equipos**
 
-![](images/Cc162856.important(es-es,TechNet.10).gif) **Importante:**
-
-A veces, es necesario el análisis de datos en línea, que examina un equipo directamente mientras se ejecuta. El análisis en línea suele realizarse debido a restricciones de tiempo en una investigación o para capturar los datos volátiles. Debe ser especialmente cuidadoso cuando realice el análisis en línea para garantizar que minimiza el riesgo de otra evidencia.
+> [!IMPORTANT]
+> A veces, es necesario el análisis de datos en línea, que examina un equipo directamente mientras se ejecuta. El análisis en línea suele realizarse debido a restricciones de tiempo en una investigación o para capturar los datos volátiles. Debe ser especialmente cuidadoso cuando realice el análisis en línea para garantizar que minimiza el riesgo de otra evidencia. 
 
 ##### En esta página
 
