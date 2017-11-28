@@ -54,6 +54,7 @@ Realizará los dos primeros procedimientos en el GPO basado en dominios a su ele
 
  
 <p> </p>
+
 > [!NOTE]
 > Si utiliza el objeto de directiva de grupo local para dirigir el equipo a WSUS, esta configuración entra en vigor inmediatamente y este equipo aparece en la consola administrativa de WSUS transcurrido un breve período de tiempo. Puede acelerar este proceso si inicia manualmente un ciclo de detección.
  
