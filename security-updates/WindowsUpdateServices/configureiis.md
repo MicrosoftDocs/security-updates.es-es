@@ -13,7 +13,7 @@ Before installing WSUS, make sure you have Internet Information Services (IIS) i
 
 If the IIS service (W3SVC) is stopped during WSUS installation, WSUS Setup starts the service. Likewise, if you install WSUS to the default Web site and the site is stopped, WSUS Setup starts it.
 
-**To install IIS 6.0 on Windows Server 2003**
+**To install IIS 6.0 on Windows Server 2003**
 1.  Click **Start**, point to **Control Panel**, and then click **Add or Remove Programs**.
 
 2.  Click **Add/Remove Windows Components**.
@@ -23,9 +23,9 @@ If the IIS service (W3SVC) is stopped during WSUS installation, WSUS Setup start
 4.  Click **OK**, click **Next**, and then follow the instructions on the screen.
 
 > [!NOTE]
-> If this machine has been upgraded from Windows 2000, it may have the IIS 5.0 Isolation mode turned on. This must be turned off before installing WSUS 3.0. 
+> If this machine has been upgraded from Windows 2000, it may have the IIS 5.0 Isolation mode turned on. This must be turned off before installing WSUS 3.0. 
 
-**To install IIS 7.0 on Windows Server 2008**
+**To install IIS 7.0 on Windows Server 2008**
 1.  Start the Server Manager (click **Start**, click **Run**, and then type **CompMgmtLauncher**).
 
 2.  In the tree view, select **Roles**, then in the **Roles** pane click **Add Roles**.
@@ -48,7 +48,7 @@ If the IIS service (W3SVC) is stopped during WSUS installation, WSUS Setup start
 Configuring IIS 7.0
 -------------------
 
-After installing IIS 7.0 on Windows Server 2008, you will need to update the IIS configuration file.
+After installing IIS 7.0 on Windows Server 2008, you will need to update the IIS configuration file.
 
 1. Open the IIS configuration file: `%WINDIR%\system32\inetsrv\applicationhost.config`
 
@@ -56,7 +56,13 @@ After installing IIS 7.0 on Windows Server 2008, you will need to update the II
 
 3. In the `<system.webServer><modules>` tag, add `<remove name="CustomErrorModule">`.
 
-        ```
+```
+      <system.webServer>
+<modules>
+<remove name="CustomErrorModule">
+</modules>
+</system.webServer>
+```
 
 Client self-update
 ------------------
@@ -68,16 +74,16 @@ Using the WSUS custom Web site
 
 If you configure WSUS on a custom port, you must have a Web site running on port 80. The Web site on port 80 does not have to be dedicated to WSUS. In fact, WSUS uses the site on port 80 only to host the self-update tree.
 
-Malicious programs can target port 80 for HTTP traffic. If WSUS is using a custom port, you can temporarily shut down port 80 throughout your network, but still be able to distribute updates to combat malicious programs.
+Malicious programs can target port 80 for HTTP traffic. If WSUS is using a custom port, you can temporarily shut down port 80 throughout your network, but still be able to distribute updates to combat malicious programs.
 
-If you already have a Web site on the computer where you intend to install WSUS, you should use the setup option for creating a custom Web site. This option puts the WSUS Web site on port 8530. This port is not configurable.
+If you already have a Web site on the computer where you intend to install WSUS, you should use the setup option for creating a custom Web site. This option puts the WSUS Web site on port 8530. This port is not configurable.
 
 > [!NOTE]
 > If you change the WSUS port number after WSUS installation, you must manually restart the IIS service. 
 
 #### Accessing WSUS on a custom port
 
-If WSUS is using a custom port to communicate with clients, you must use a custom URL to access the WSUS Web service. Use the following instructions to configure WSUS when it is running on port 8530.
+If WSUS is using a custom port to communicate with clients, you must use a custom URL to access the WSUS Web service. Use the following instructions to configure WSUS when it is running on port 8530.
 
 -   Include a custom port number in the URL directing the client computer to the WSUS server (for example, http://*WSUSServerName*:*portnumber*).
 -   For more information about pointing client computers to the WSUS server, see [Determine a Method to Configure Clients](https://technet.microsoft.com/a6c7fdf1-2256-4436-90f7-7111ba60d95d) later in this guide.
@@ -103,7 +109,7 @@ If you decide to use host headers, you should run the **configuressl** command a
 
 3.  Type the following command:
 
-    **Wsusutil configuressl**
+    **Wsusutil configuressl**
 
 > [!NOTE]
 > The **configuressl** command sets both the host header name and the server certificate name. 

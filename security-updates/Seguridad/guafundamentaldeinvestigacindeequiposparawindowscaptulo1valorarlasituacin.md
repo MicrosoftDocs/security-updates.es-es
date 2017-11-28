@@ -83,9 +83,8 @@ Es importante determinar quién debe responder ante un incidente para llevar a c
 
 -   Asegúrese de que todos los miembros del equipo tengan el espacio y la autorización necesarios para realizar las tareas que tengan asignadas. Esta consideración es especialmente importante si hay algún personal externo, como consultores, implicado en la investigación.
 
-![](images/Cc162832.important(es-es,TechNet.10).gif)**Importante:**
-
-La naturaleza volátil de las evidencias digitales dificulta la realización de las investigaciones de manera puntual. Procure garantizar la disponibilidad de todos los miembros del equipo durante una investigación.
+> [!IMPORTANT]
+> La naturaleza volátil de las evidencias digitales dificulta la realización de las investigaciones de manera puntual. Procure garantizar la disponibilidad de todos los miembros del equipo durante una investigación. 
 
 [](#mainsection)[Principio de la página](#mainsection)
 
@@ -113,17 +112,15 @@ Utilice las recomendaciones siguientes para identificar, analizar y documentar l
 
 -   Capture el tráfico de red durante un espacio de tiempo si es necesario un análisis en directo. Este tipo de análisis sólo es necesario si se cree que hay un tráfico sospechoso continuo en la red y, normalmente, sólo se realiza después de haber agotado la auditoría y el registro como fuentes de evidencia. Microsoft® Windows® XP y Windows Server® 2003 incluyen herramientas de captura de red integradas como Netcap y Rasdiag, que pueden capturar tráfico de red local sin necesidad de instalar productos como Netmon o Ethereal. Use herramientas como Windows Network Monitor (NetMon) y Windows Sysinternals TDIMon para realizar análisis de datos de red. Las herramientas de Windows Sysinternals se pueden descargar en la página [Windows Sysinternals](http://www.microsoft.com/technet/sysinternals/default.mspx) de Microsoft TechNet.
 
-    ![](images/Cc162832.important(es-es,TechNet.10).gif)**Importante:**
-
-    La detección de red (captura de tráfico de red) puede suponer una violación de la intimidad, según el ámbito de la captura. Por lo tanto, debe ser muy cauteloso a la hora de implementar herramientas de captura de red en su red.
+> [!IMPORTANT]
+> La detección de red (captura de tráfico de red) puede suponer una violación de la intimidad, según el ámbito de la captura. Por lo tanto, debe ser muy cauteloso a la hora de implementar herramientas de captura de red en su red. 
 
 -   Use estas herramientas para examinar el estado de las aplicaciones de software y los sistemas operativos de equipos que probablemente estén afectados. Algunas herramientas útiles para esta tarea son los registros de aplicaciones de Windows, los registros de sistema y Windows Sysinternals PsTools.
 
 -   Examine el archivo y los servidores de aplicaciones afectados. Use herramientas de Windows Sysinternals como PsTools, PsFile, ShareEnum y los registros de seguridad internos de Windows para examinar y documentar la actividad en estos servidores.
 
-![](images/Cc162832.important(es-es,TechNet.10).gif)**Importante:**
-
-Parte de la información recolectada durante esta evaluación (como los procesos en ejecución y los datos en memoria) la capturan las herramientas en tiempo real. Asegúrese de que los registros generados se almacenan de forma segura para evitar la pérdida de estos datos volátiles.
+> [!IMPORTANT]
+> Parte de la información recolectada durante esta evaluación (como los procesos en ejecución y los datos en memoria) la capturan las herramientas en tiempo real. Asegúrese de que los registros generados se almacenan de forma segura para evitar la pérdida de estos datos volátiles. 
 
 Además, las recomendaciones siguientes le pueden ayudar a obtener una comprensión global de la situación.
 
@@ -157,9 +154,8 @@ Este documento debe ofrecer información detallada acerca de la situación e inc
 
 -   Una línea de acción propuesta.
 
-![](images/Cc162832.important(es-es,TechNet.10).gif)**Importante:**
-
-La creación de documentación coherente, precisa y detallada a través del proceso de investigación de equipos le ayudará con la investigación en curso. A menudo, esta documentación es esencial para el éxito del proyecto y nunca se debe pasar por alto. A medida que cree la documentación, sea siempre consciente de que constituye una evidencia que se puede utilizar en un procedimiento legal. Antes de empezar la fase siguiente, asegúrese de que ha obtenido la aprobación por parte de una persona responsable de la documentación que creó durante la fase de evaluación.
+> [!IMPORTANT]
+> La creación de documentación coherente, precisa y detallada a través del proceso de investigación de equipos le ayudará con la investigación en curso. A menudo, esta documentación es esencial para el éxito del proyecto y nunca se debe pasar por alto. A medida que cree la documentación, sea siempre consciente de que constituye una evidencia que se puede utilizar en un procedimiento legal. Antes de empezar la fase siguiente, asegúrese de que ha obtenido la aprobación por parte de una persona responsable de la documentación que creó durante la fase de evaluación. 
 
 **Descargar**
 
