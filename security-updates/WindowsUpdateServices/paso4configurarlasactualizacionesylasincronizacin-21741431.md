@@ -67,25 +67,8 @@ En los procedimientos del paso 3, ha completado la configuración del servidor q
 3.  En la página Finalizada, puede iniciar la consola de administración de WSUS si deja activada la casilla **Iniciar el complemento de administraciones de Windows Server Update Services** e iniciar la primera sincronización si deja activada la casilla **Iniciar sincronización inicial**.
 
 4.  Haga clic en **Finalizar**.
-
- 
-    <p> </p>
-<table style="border:1px solid black;">
-    <colgroup>
-    <col width="100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th style="border:1px solid black;" ><img src="images/Dd939924.Important(WS.10).gif" />Importante</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td style="border:1px solid black;">No se pueden guardar los cambios en la configuración realizados mientras el servidor está sincronizando. Espere hasta que haya terminado la sincronización para hacer los cambios.
-    </td>
-    </tr>
-    </tbody>
-    </table>
+    > [!Importante]
+    > No se pueden guardar los cambios en la configuración realizados mientras el servidor está sincronizando. Espere hasta que haya terminado la sincronización para hacer los cambios.
  
 
 Si está utilizando la consola de administración de WSUS

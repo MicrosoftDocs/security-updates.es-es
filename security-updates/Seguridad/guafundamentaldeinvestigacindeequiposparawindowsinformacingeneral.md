@@ -94,9 +94,8 @@ Esta guía no pretende ofrecer asesoramiento jurídico y no sustituye los consej
 
 También es importante entender que las restricciones legales pueden limitar su capacidad a la hora de implementar estos procedimientos. Por ejemplo, Estados Unidos tiene muchas leyes relacionadas con los derechos de las personas sospechosas de haber cometido actos ilícitos. A menos que las restricciones legales se mencionen específicamente en las directivas y los procedimientos existentes establecidos por la organización, es importante que obtenga aprobaciones legales por escrito de los abogados, la administración y los principales participantes en la investigación interna.
 
-![](images/Cc162846.note(es-es,TechNet.10).gif)**Nota:**
-
-Esta guía no incluye información acerca de la directiva de respuesta a incidentes y el desarrollo de procedimientos, instrucciones específicas de productos de implementación de imágenes de datos, instrucciones acerca de la creación de un laboratorio forense o acerca de las investigaciones de equipos en entornos de que no sean Windows. Para obtener información acerca de la directiva de respuesta a incidentes y el desarrollo de procedimientos, consulte el sitio Web de [Microsoft Operations Framework (MOF)](http://go.microsoft.com/fwlink/?linkid=42590).
+> [!NOTE]
+> Esta guía no incluye información acerca de la directiva de respuesta a incidentes y el desarrollo de procedimientos, instrucciones específicas de productos de implementación de imágenes de datos, instrucciones acerca de la creación de un laboratorio forense o acerca de las investigaciones de equipos en entornos de que no sean Windows. Para obtener información acerca de la directiva de respuesta a incidentes y el desarrollo de procedimientos, consulte el sitio Web de [Microsoft Operations Framework (MOF)](http://go.microsoft.com/fwlink/?linkid=42590). 
 
 [](#mainsection)[Principio de la página](#mainsection)
 
