@@ -43,10 +43,11 @@ All of the following Registry entries are within the **\\HKLM\\Software\\Microso
 
 All of the following server configuration settings are stored inside the WSUS database (SUSDB.mdf).
 
-###  
+ 
 
  
 <p> </p>
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -65,17 +66,17 @@ All of the following server configuration settings are stored inside the WSUS da
 <td style="border:1px solid black;">Update Storage</td>
 <td style="border:1px solid black;"><em>tbConfigurationA.SyncToMu</em>
 <em>tbConfigurationA.UpstreamServerName</em></td>
-<td style="border:1px solid black;">The first database location specifies the update source for client computers. The values possible are:
-0 – WSUS server
-1 – Microsoft Update
+<td style="border:1px solid black;">The first database location specifies the update source for client computers. The values possible are:<br/><br/>
+0 – WSUS server<br/><br/>
+1 – Microsoft Update<br/><br/>
 The second database location specifies the name of the upstream WSUS server, if you have chosen one as the update source.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Express (PSF) file download</td>
 <td style="border:1px solid black;"><em>tbConfigurationC.DownloadExpressPackages</em></td>
-<td style="border:1px solid black;">This setting controls whether or not express installation files are downloaded. The values possible are:
-0 – Do not download express files (default) option.
-1 – Download express files.
+<td style="border:1px solid black;">This setting controls whether or not express installation files are downloaded. The values possible are:<br/><br/>
+0 – Do not download express files (default) option.<br/><br/>
+1 – Download express files.<br/><br/>
 On the WSUS console, this is configured on the Advanced Synchronization Options box.</td>
 </tr>
 <tr class="odd">
@@ -91,16 +92,20 @@ On the WSUS console this is configured on the Advanced Synchronization Options b
 </tr>
 </tbody>
 </table>
+
+<p></p>
+
   
 IIS settings  
 ------------
   
 The following virtual directories (vroots) are created in IIS (in the Default Web Site by default) for client to server synchronization, server to server synchronization, reporting, and client self-update.
   
-###  
+ 
 
  
 <p> </p>
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -115,60 +120,63 @@ The following virtual directories (vroots) are created in IIS (in the Default We
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">ClientWebService</td>
-<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\ClientWebService
-Application Pool: WsusPool
-Security: Anonymous Access Enabled.
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\ClientWebService<br/><br/>
+Application Pool: WsusPool<br/><br/>
+Security: Anonymous Access Enabled.<br/><br/>
 Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Content</td>
-<td style="border:1px solid black;">Directory: e:\wsus\wsuscontent
-Security: Anonymous Access Enabled
+<td style="border:1px solid black;">Directory: e:\wsus\wsuscontent<br/><br/>
+Security: Anonymous Access Enabled<br/><br/>
 Execute Permissions: None</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">DssAuthWebService</td>
-<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\DssAuthWebService
-Application Pool: WsusPool
-Security: Anonymous Access Enabled.
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\DssAuthWebService<br/><br/>
+Application Pool: WsusPool<br/><br/>
+Security: Anonymous Access Enabled.<br/><br/>
 Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">ReportingWebService</td>
-<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\ReportingWebService
-Application Pool: WsusPool
-Security: Anonymous Access Enabled.
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\ReportingWebService<br/><br/>
+Application Pool: WsusPool<br/><br/>
+Security: Anonymous Access Enabled.<br/><br/>
 Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">ServerSyncWebService</td>
-<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\ServerSyncWebService
-Application Pool: WsusPool
-Security: Anonymous Access Enabled.
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\ServerSyncWebService<br/><br/>
+Application Pool: WsusPool<br/><br/>
+Security: Anonymous Access Enabled.<br/><br/>
 Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">SimpleAuthWebService</td>
-<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\SimpleAuthWebService
-Application Pool: WsusPool
-Security: Anonymous Access Enabled.
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\SimpleAuthWebService<br/><br/>
+Application Pool: WsusPool<br/><br/>
+Security: Anonymous Access Enabled.<br/><br/>
 Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">WSUSAdmin</td>
-<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\Administration
-Application Pool: WsusPool
-Security: Integrated Windows Authentication.
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\Administration<br/><br/>
+Application Pool: WsusPool<br/><br/>
+Security: Integrated Windows Authentication.<br/><br/>
 Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">SelfUpdate</td>
-<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\SelfUpdate
-Security: Anonymous Access Enabled, Integrated Windows Authentication.
+<td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\SelfUpdate<br/><br/>
+Security: Anonymous Access Enabled, Integrated Windows Authentication.<br/><br/>
 Execute Permissions: Scripts Only</td>
 </tr>
 </tbody>
 </table>
+
+<p></p>
+
  
 
 #### Permissions
