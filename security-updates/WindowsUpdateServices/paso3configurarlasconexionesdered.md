@@ -23,6 +23,7 @@ De manera predeterminada, WSUS 3.0 SP2 está configurado para utilizar Microsoft
 
  
 <p> </p>
+
 > [!NOTE]
 > Aunque debe tener conexión a Internet para descargar las actualizaciones de Microsoft Update, WSUS ofrece la posibilidad de importar actualizaciones en redes que no estén conectadas a Internet.
  
@@ -52,6 +53,7 @@ El paso 3 contiene los procedimientos siguientes:
 
  
 <p> </p>
+
 > [!NOTE]
 > Estas instrucciones para configurar el firewall están dirigidas a un firewall corporativo ubicado entre WSUS e Internet. Dado que WSUS inicia todo su tráfico de red, no hay necesidad de configurar el firewall de Windows en el servidor WSUS.
  
@@ -87,6 +89,7 @@ En los dos procedimientos siguientes se supone que utiliza el complemento de adm
 
  
 <p> </p>
+
 > [!NOTE]
 > Para usar todas las características de la consola, debe ser miembro de los grupos de seguridad de administradores de WSUS o de administradores locales del servidor en el que está instalado WSUS. Los miembros del grupo de seguridad de informadores de WSUS tienen acceso de sólo lectura en la consola de administración.
  
