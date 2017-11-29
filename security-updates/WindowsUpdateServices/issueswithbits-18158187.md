@@ -231,9 +231,8 @@ If the BITS service fail to start, use the following table to diagnose the cause
   
 To repair corrupted BITS service configuration, you can enter the BITS service configuration manually.
   
-| ![](images/Cc720473.Important(WS.10).gif)Importante                                                                                       |  
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| This action should only be taken in circumstances where all other troubleshooting attempts have failed. You must be an administrator to modify the BITS configuration. |
+> [!IMPORTANT]
+> This action should only be taken in circumstances where all other troubleshooting attempts have failed. You must be an administrator to modify the BITS configuration. 
   
 **To repair a corrupted BITS configuration**  
 1.  Open a command shell.
