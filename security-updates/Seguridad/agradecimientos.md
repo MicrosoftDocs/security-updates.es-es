@@ -36,6 +36,7 @@ José Maldonado
 
 Brad Warrender
 
+
 [](#mainsection)[Principio de la página](#mainsection)
 
 ### Colaboradores de contenido
@@ -58,17 +59,20 @@ Jesper Johansson
 
 Kirk Soluk
 
+
 [](#mainsection)[Principio de la página](#mainsection)
 
 ### Director del programa
 
 Bomani Siwatu
 
+
 [](#mainsection)[Principio de la página](#mainsection)
 
 ### Administrador de versiones
 
 Flicka Crandell
+
 
 [](#mainsection)[Principio de la página](#mainsection)
 
@@ -90,6 +94,7 @@ Rob Pike
 
 Varun Rastogi *(Infosys Technologies)*
 
+
 [](#mainsection)[Principio de la página](#mainsection)
 
 ### Editores
@@ -105,6 +110,7 @@ Kelly McMahon *(Content Master Ltd.)*
 Jon Tobey
 
 Steve Wacker *(Wadeware LLC)*
+
 
 [](#mainsection)[Principio de la página](#mainsection)
 
@@ -170,6 +176,7 @@ Jim Whitney *(Configuresoft)*
 
 Shain Wray
 
+
 [](#mainsection)[Principio de la página](#mainsection)
 
 ### Otros colaboradores
@@ -232,6 +239,7 @@ Jay Zhang
 
 A petición de Microsoft, el centro Center for Internet Security (CIS) y el instituto National Institute of Standards and Technology (NIST) del Departamento de Comercio de Estados Unidos también han participado en la revisión final de estos documentos de Microsoft y han proporcionado comentarios, que se han incorporado en la versiones publicadas.
 
+
 [](#mainsection)[Principio de la página](#mainsection)
 
 **Descargar**
@@ -245,5 +253,6 @@ A petición de Microsoft, el centro Center for Internet Security (CIS) y el inst
 **Comentarios**
 
 [Envíenos sus comentarios o sugerencias](mailto:secwish@microsoft.com?asunto=guía%20de%20seguridad%20de%20windows%20server%202003)
+
 
 [](#mainsection)[Principio de la página](#mainsection)
