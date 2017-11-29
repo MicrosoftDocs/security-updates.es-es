@@ -644,7 +644,7 @@ A diferencia de la entidad emisora raíz, si es necesario, puede crear el servid
 
 1.  Siga los pasos 1 a 5 para instalar el sistema operativo Windows en la entidad emisora raíz, con la diferencia de que se utilizará la versión Enterprise Edition de Windows Server 2003 en vez de Standard Edition.
 
-2.  Cuando se le solicite, escriba el nombre del equipo, como **HQ-CA-02** (reemplace este valor por el nombre de su equipo).
+2.  Cuando se le solicite, escriba el nombre del equipo, como ***HQ-CA-02*** (reemplace este valor por el nombre de su equipo).
 
 3.  Cuando se le pida, seleccione la opción para unirse a un dominio. Escriba el nombre del dominio de Active Directory al que se van a unir los servidores, como *WOODGROVEBANK* (reemplace este valor por el nombre del dominio en que va a instalar la entidad emisora). Cuando se le pida, escriba las credenciales del usuario que está autorizado para unir equipos a este dominio.
 

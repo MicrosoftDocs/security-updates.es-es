@@ -522,7 +522,7 @@ En Windows Vista, la categoría de auditoría de eventos de inicio/cierre de ses
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">§ Bloqueo de cuenta<br/>
-<strong>Nota</strong>   No se asigna ningún evento a esta subcategoría.</td>
+<strong>Nota</strong>  No se asigna ningún evento a esta subcategoría.</td>
 <td style="border:1px solid black;">Correcto</td>
 <td style="border:1px solid black;">Sin auditoría</td>
 <td style="border:1px solid black;">Sin auditoría</td>
@@ -757,7 +757,7 @@ La categoría de auditoría de eventos de **uso de privilegios** contiene las su
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">§ Otros eventos de uso de privilegios<br />
-<strong>Nota</strong>   No se asigna ningún evento a esta subcategoría.</td>
+<strong>Nota</strong>  No se asigna ningún evento a esta subcategoría.</td>
 <td style="border:1px solid black;">Sin auditoría</td>
 <td style="border:1px solid black;">Sin auditoría</td>
 <td style="border:1px solid black;">Sin auditoría</td>
@@ -1050,8 +1050,8 @@ La categoría de auditoría de eventos de **inicio de sesión de cuenta** contie
 <td style="border:1px solid black;">Sin auditoría</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;">§ Otros eventos de inicio de sesión de cuenta
-<strong>Nota</strong>   No se asigna ningún evento a esta subcategoría.</td>
+<td style="border:1px solid black;">§ Otros eventos de inicio de sesión de cuenta<br />
+<strong>Nota</strong>  No se asigna ningún evento a esta subcategoría.</td>
 <td style="border:1px solid black;">Sin auditoría</td>
 <td style="border:1px solid black;">Sin auditoría</td>
 <td style="border:1px solid black;">Sin auditoría</td>
@@ -1067,44 +1067,44 @@ Si desea modificar las subcategorías de la directiva de auditoría y los valore
   
 **Para modificar la configuración de la directiva de auditoría**
   
-1.  Inicie sesión como administrador de dominio en un equipo que ejecute Windows Vista y que esté asociado al dominio que use Active Directory donde creará los GPO.
+1. Inicie sesión como administrador de dominio en un equipo que ejecute Windows Vista y que esté asociado al dominio que use Active Directory donde creará los GPO.
   
-2.  En el escritorio, elija el botón Inicio de Windows Vista, haga clic en **Todos los programas**, elija **Accesorios**, haga clic con el botón secundario en **Símbolo del sistema** y, a continuación, elija **Ejecutar como administrador**.
+2. En el escritorio, elija el botón Inicio de Windows Vista, haga clic en **Todos los programas**, elija **Accesorios**, haga clic con el botón secundario en **Símbolo del sistema** y, a continuación, elija **Ejecutar como administrador**.
   
-3.  Borre la configuración actual de directiva de auditoría. Para hacerlo, escriba la línea siguiente en el símbolo del sistema y presione ENTRAR:
+3. Borre la configuración actual de directiva de auditoría. Para hacerlo, escriba la línea siguiente en el símbolo del sistema y presione ENTRAR:
   
     ```  
         auditpol /clear  
     ```
   
-4.  Con la herramienta de línea de comandos Auditpol.exe, establezca la configuración personalizada de directiva de auditoría que le interese. Escriba, por ejemplo, las líneas siguientes en el símbolo del sistema. Presione ENTRAR después de cada línea.
+4. Con la herramienta de línea de comandos Auditpol.exe, establezca la configuración personalizada de directiva de auditoría que le interese. Escriba, por ejemplo, las líneas siguientes en el símbolo del sistema. Presione ENTRAR después de cada línea.
   
-**Nota** Algunas partes del siguiente fragmento de código están dispuestas en varias líneas sólo para facilitar su lectura. Deben especificarse en una sola línea.
+    **Nota** Algunas partes del siguiente fragmento de código están dispuestas en varias líneas sólo para facilitar su lectura. Deben especificarse en una sola línea.
 
-   ```
-        auditpol /set /subcategory:"user account management"
-                  /success:enable /failure:enable
-   ```
+    ```
+      auditpol /set /subcategory:"user account management"
+            /success:enable /failure:enable
+    ```
 
 
-   ```  
-        auditpol /set /subcategory:"logon" /success:enable /failure:enable  
-   ```
+    ```  
+      auditpol /set /subcategory:"logon" /success:enable /failure:enable  
+    ```
 
-   ```  
-        auditpol /set /subcategory:"IPSEC Main Mode" /failure:enable  
-   ```  
+    ```  
+      auditpol /set /subcategory:"IPSEC Main Mode" /failure:enable  
+    ```
 
-**Nota** Para ver todas las categorías y subcategorías posibles, escriba la línea siguiente en el símbolo del sistema y presione ENTRAR:  
+    **Nota** Para ver todas las categorías y subcategorías posibles, escriba la línea siguiente en el símbolo del sistema y presione ENTRAR:  
     **auditpol /list /subcategory:\***
   
-Escriba la línea siguiente en el símbolo del sistema y presione ENTRAR:
+    Escriba la línea siguiente en el símbolo del sistema y presione ENTRAR:
   
-   ```  
-        auditpol /backup /file:EC-AuditPolicy.txt (o SSLF-AuditPolicy.txt)  
-   ```
-  
-5.  Copie el nuevo archivo **EC-AuditPolicy.txt** (o **SSLF-AuditPolicy.txt**) en el recurso compartido NETLOGON de alguno de los controladores de dominio del entorno y sobrescriba la versión existente.
+    ```  
+      auditpol /backup /file:EC-AuditPolicy.txt (o SSLF-AuditPolicy.txt)  
+    ```
+
+5. Copie el nuevo archivo **EC-AuditPolicy.txt** (o **SSLF-AuditPolicy.txt**) en el recurso compartido NETLOGON de alguno de los controladores de dominio del entorno y sobrescriba la versión existente.
   
 Los GPO de equipo incluidos con la guía emplearán el nuevo archivo EC-AuditPolicy.txt (o SSLF-AuditPolicy.txt) para modificar y establecer la configuración de la directiva de auditoría en los equipos.
   
@@ -2698,57 +2698,39 @@ En la tabla siguiente se resume la configuración recomendada de opciones de seg
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Acceso a redes: rutas del Registro accesibles remotamente</td>
-<td style="border:1px solid black;">System\CurrentControlSet\<br />
-Control\ProductOptions
-System\CurrentControlSet\<br />
-Control\Server Applications
+<td style="border:1px solid black;">System\CurrentControlSet\Control\ProductOptions  
+System\CurrentControlSet\Control\Server Applications  
 Software\Microsoft\Windows NT\CurrentVersion</td>
 <td style="border:1px solid black;">No definido</td>
-<td style="border:1px solid black;">System\CurrentControlSet\<br />
-Control\ProductOptions
-System\CurrentControlSet\<br />
-Control\Server Applications
+<td style="border:1px solid black;">System\CurrentControlSet\Control\ProductOptions  
+System\CurrentControlSet\Control\Server Applications  
 Software\Microsoft\Windows NT\CurrentVersion</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">§ Acceso a redes: rutas y subrutas de registro accesibles remotamente</td>
-<td style="border:1px solid black;">System\CurrentControlSet\<br />
-Control\Print\Printers
-System\CurrentControlSet\<br />
-Services\Eventlog
-Software\Microsoft\OLAP Server
-Software\Microsoft\Windows NT\CurrentVersion\Print
-Software\Microsoft\Windows NT\CurrentVersion\Windows
-System\CurrentControlSet\<br />
-ContentIndex
-System\CurrentControlSet\<br />
-Control\Terminal Server
-System\CurrentControlSet\<br />
-Control\Terminal Server\User Config
-System\CurrentControlSet\<br />
-Control\Terminal Server\Default User Config
-Software\Microsoft\Windows NT\CurrentVersion\perflib
-System\CurrentControlSet\<br />
-Services\SysmonLog</td>
+<td style="border:1px solid black;">System\CurrentControlSet\Control\Print\Printers  
+System\CurrentControlSet\Services\Eventlog  
+Software\Microsoft\OLAP Server  
+Software\Microsoft\Windows NT\CurrentVersion\Print  
+Software\Microsoft\Windows NT\CurrentVersion\Windows  
+System\CurrentControlSet\ContentIndex  
+System\CurrentControlSet\Control\Terminal Server  
+System\CurrentControlSet\Control\Terminal Server\User Config  
+System\CurrentControlSet\Control\Terminal Server\Default User Config  
+Software\Microsoft\Windows NT\CurrentVersion\perflib  
+System\CurrentControlSet\Services\SysmonLog</td>
 <td style="border:1px solid black;">No definido</td>
-<td style="border:1px solid black;">System\CurrentControlSet\<br />
-Control\Print\Printers
-System\CurrentControlSet\<br />
-Services\Eventlog
-Software\Microsoft\OLAP Server
-Software\Microsoft\Windows NT\CurrentVersion\Print
-Software\Microsoft\Windows NT\CurrentVersion\Windows
-System\CurrentControlSet\<br />
-ContentIndex
-System\CurrentControlSet\<br />
-Control\Terminal Server
-System\CurrentControlSet\<br />
-Control\Terminal Server\User Config
-System\CurrentControlSet\<br />
-Control\Terminal Server\Default User Config
-Software\Microsoft\Windows NT\CurrentVersion\perflib
-System\CurrentControlSet\<br />
-Services\SysmonLog</td>
+<td style="border:1px solid black;">System\CurrentControlSet\Control\Print\Printers  
+System\CurrentControlSet\Services\Eventlog  
+Software\Microsoft\OLAP Server  
+Software\Microsoft\Windows NT\CurrentVersion\Print  
+Software\Microsoft\Windows NT\CurrentVersion\Windows  
+System\CurrentControlSet\ContentIndex  
+System\CurrentControlSet\Control\Terminal Server  
+System\CurrentControlSet\Control\Terminal Server\User Config  
+System\CurrentControlSet\Control\Terminal Server\Default User Config  
+Software\Microsoft\Windows NT\CurrentVersion\perflib  
+System\CurrentControlSet\Services\SysmonLog</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Acceso a redes: restringir acceso anónimo a canalizaciones con nombre y recursos compartidos</td>

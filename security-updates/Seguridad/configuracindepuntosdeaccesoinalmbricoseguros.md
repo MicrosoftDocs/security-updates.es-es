@@ -1295,49 +1295,49 @@ Hay varias cuentas de usuario y grupos que se asociarán a la administración y 
   
 **Para crear una jerarquía de unidades organizativas de Servicios de Certificate Server**
   
-1.  Inicie sesión con una cuenta que tenga permisos para crear unidades organizativas y delegar permisos dentro de esas unidades organizativas.
+1. Inicie sesión con una cuenta que tenga permisos para crear unidades organizativas y delegar permisos dentro de esas unidades organizativas.
   
-2.  Cree una estructura de unidades organizativas que se base en lo indicado en la siguiente tabla:
+2. Cree una estructura de unidades organizativas que se base en lo indicado en la siguiente tabla:
   
-    **Tabla 12. Ejemplo de estructura de unidades organizativas**
+   **Tabla 12. Ejemplo de estructura de unidades organizativas**
 
-<p> </p>
-<table style="border:1px solid black;">
-    <colgroup>
-    <col width="50%" />
-    <col width="50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th style="border:1px solid black;" >Unidad organizativa</th>
-    <th style="border:1px solid black;" >Función</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td style="border:1px solid black;">Servicios de Certificate Server</td>
-    <td style="border:1px solid black;">Unidad organizativa principal</td>
-    </tr>
-    <tr class="even">
-    <td style="border:1px solid black;">\-Administración de Servicios de Certificate Server</td>
-    <td style="border:1px solid black;">Contiene grupos administrativos para administrar las CA y la configuración de la PKI de empresa.</td>
-    </tr>
-    <tr class="odd">
-    <td style="border:1px solid black;">\-Administración de plantillas de certificados</td>
-    <td style="border:1px solid black;">Contiene grupos para administrar las plantillas de certificados individuales.</td>
-    </tr>
-    <tr class="even">
-    <td style="border:1px solid black;">\-Inscripción de plantillas de certificados</td>
-    <td style="border:1px solid black;">Contiene grupos que tienen permisos de inscripción o inscripción automática de las plantillas con el mismo nombre. El control de estos grupos se puede delegar al personal adecuado sin modificar las propias plantillas.</td>
-    </tr>
-    <tr class="odd">
-    <td style="border:1px solid black;">\-Usuarios de prueba de Servicios de Certificate Server</td>
-    <td style="border:1px solid black;">Contiene cuentas de prueba temporales.</td>
-    </tr>
-    </tbody>
-    </table>
+   <p> </p>
+   <table style="border:1px solid black;">
+   <colgroup>
+   <col width="50%" />
+   <col width="50%" />
+   </colgroup>
+   <thead>
+   <tr class="header">
+   <th style="border:1px solid black;" >Unidad organizativa</th>
+   <th style="border:1px solid black;" >Función</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr class="odd">
+   <td style="border:1px solid black;">Servicios de Certificate Server</td>
+   <td style="border:1px solid black;">Unidad organizativa principal</td>
+   </tr>
+   <tr class="even">
+   <td style="border:1px solid black;">\-Administración de Servicios de Certificate Server</td>
+   <td style="border:1px solid black;">Contiene grupos administrativos para administrar las CA y la configuración de la PKI de empresa.</td>
+   </tr>
+   <tr class="odd">
+   <td style="border:1px solid black;">\-Administración de plantillas de certificados</td>
+   <td style="border:1px solid black;">Contiene grupos para administrar las plantillas de certificados individuales.</td>
+   </tr>
+   <tr class="even">
+   <td style="border:1px solid black;">\-Inscripción de plantillas de certificados</td>
+   <td style="border:1px solid black;">Contiene grupos que tienen permisos de inscripción o inscripción automática de las plantillas con el mismo nombre. El control de estos grupos se puede delegar al personal adecuado sin modificar las propias plantillas.</td>
+   </tr>
+   <tr class="odd">
+   <td style="border:1px solid black;">\-Usuarios de prueba de Servicios de Certificate Server</td>
+   <td style="border:1px solid black;">Contiene cuentas de prueba temporales.</td>
+   </tr>
+   </tbody>
+   </table>
   
-3.  Conceda permisos al grupo Administradores de PKI de empresa para crear y eliminar grupos de la unidad organizativa de Servicios de Certificate Server y sus contenedores secundarios.
+3. Conceda permisos al grupo Administradores de PKI de empresa para crear y eliminar grupos de la unidad organizativa de Servicios de Certificate Server y sus contenedores secundarios.
   
 Concesión de permisos al contenedor Servicios de clave pública  
 La seguridad del contenedor Servicios de clave pública debe modificarse para que los Administradores de PKI de empresa puedan instalar las CA de empresa y configurar las plantillas de certificados, sin que sea necesario que las cuentas de este grupo formen parte del grupo Administradores de empresa. También es necesario permitir a los Publicadores de PKI de empresa publicar listas de revocación de certificados y certificados de CA sin tener derechos de Administradores de empresa.
