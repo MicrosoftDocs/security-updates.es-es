@@ -23,26 +23,9 @@ Using the wsusutil utility
 You must be an administrator to run the **wsusutil** utility. This utility is installed only on WSUS server machines, not on console-only installations.
 
  
-<p> </p>
-<p></p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939838.Tip(WS.10).gif" />Sugerencia</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">To see all <strong>wsusutil</strong> parameters, type <strong>wsusutil help</strong> on the command line. To see usage for each of the parameters, type <strong>wsusutil help</strong><em>parameterName</em>.
-</td>
-</tr>
-</tbody>
-</table>
+> [!TIP]
+> To see all <strong>wsusutil</strong> parameters, type <strong>wsusutil help</strong> on the command line. To see usage for each of the parameters, type <strong>wsusutil help</strong><em>parameterName</em>.
 
-<p></p>
 
  
 
@@ -519,6 +502,7 @@ The destination folder to which update files are moved must be on an NTFS partit
 
  
 <p> </p>
+
 > [!NOTE]
 > You can use <strong>xcopy</strong>, the Backup utility, or other methods to copy update files from the old location to the new one. If you copy the files by using a method other than <strong>wsusutil</strong>, you still need to run <strong>wsusutil</strong> to perform the second part of the move, using the -<strong>skipcopy</strong> parameter. See the &quot;Syntax&quot; section for more information.
  
