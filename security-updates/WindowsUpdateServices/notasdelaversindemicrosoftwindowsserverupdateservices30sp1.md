@@ -188,7 +188,7 @@ A continuación, se muestran los requisitos de espacio en mínimo en disco para 
 -   2 GB para el volumen en el que se almacenarán los archivos de base de datos  
 -   20 GB para el volumen en el que se almacenará el contenido
   
-> [!Importante]
+> [!IMPORTANT]
 > WSUS 3.0 SP1 no puede instalarse en unidades comprimidas. Compruebe que la unidad que ha seleccionado no se haya comprimido. 
   
 Requisitos de actualización de WSUS 3.0 SP1  
@@ -350,7 +350,7 @@ En esta tabla, se muestran las propiedades de la línea de comandos para WSUS 3.
     WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (install in quiet mode using port 8530) WSUSSetup.exe /q /u (uninstall WSUS)  
 ```  
 
-> [!Importante]
+> [!IMPORTANT]
 > Si instala WSUS 3.0 SP1 en el modo silencioso (/q) y no se han instalado en el equipo todos los requisitos previos, la instalación generará un archivo con el nombre WSUSPreReqCheck.xml y lo guardará en el directorio %TEMP%.
   
 Problemas de instalación  
