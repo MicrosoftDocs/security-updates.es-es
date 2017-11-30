@@ -13,11 +13,11 @@ Actualizado: julio 21, 2006
 
 ##### En esta página
 
-[](#efaa)[Introducción](#efaa)
-[](#eeaa)[Antes de comenzar](#eeaa)
-[](#edaa)[Windows Live OneCare](#edaa)
-[](#ecaa)[Windows Defender](#ecaa)
-[](#ebaa)[Firewall de Windows](#ebaa)
+[](#efaa)[Introducción](#efaa)  
+[](#eeaa)[Antes de comenzar](#eeaa)  
+[](#edaa)[Windows Live OneCare](#edaa)  
+[](#ecaa)[Windows Defender](#ecaa)  
+[](#ebaa)[Firewall de Windows](#ebaa)  
 [](#eaaa)[Información relacionada](#eaaa)
 
 ### Introducción
