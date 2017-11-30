@@ -507,7 +507,7 @@ Las sugerencias siguientes han ayudado a solucionar problemas durante las prueba
   
     -   Autenticador no válido.
   
-        - O bien -
+        &ndash; O bien &ndash;
   
     -   Atributo autenticador de mensaje no válido.
   
