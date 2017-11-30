@@ -317,7 +317,7 @@ En escenarios de sucursal, asegúrese de que los puntos de acceso inalámbricos 
 
 Los servidores RADIUS de sucursal son opcionales y, en su lugar, pueden utilizarse servidores RADIUS centralizados en una WAN. Sin embargo, sin un controlador de dominio y un servidor RADIUS local, los usuarios en la oficina remota no podrán acceder a la WLAN local en caso de error de la WAN.
 
-Esta solución está diseñada para aprovechar la conmutación por error de servidor basada en puntos de acceso inalámbricos y la configuración manual para equilibrio de carga. Para obtener más información sobre el planeamiento de una infraestructura de RADIUS que aproveche los proxy RADIUS para la conmutación por error y el equilibrio de carga de servidor, consulte el capítulo* *“Deploying* *IAS”, sobre la implementación de IAS, incluido en el *kit de implementación* de *Microsoft Windows Server 2003*. Encontrará una referencia a este recurso al final de este capítulo.
+Esta solución está diseñada para aprovechar la conmutación por error de servidor basada en puntos de acceso inalámbricos y la configuración manual para equilibrio de carga. Para obtener más información sobre el planeamiento de una infraestructura de RADIUS que aproveche los proxy RADIUS para la conmutación por error y el equilibrio de carga de servidor, consulte el capítulo “Deploying IAS”, sobre la implementación de IAS, incluido en el *kit de implementación* de *Microsoft Windows Server 2003*. Encontrará una referencia a este recurso al final de este capítulo.
 
 #### Establecimiento de los requisitos de registro
 

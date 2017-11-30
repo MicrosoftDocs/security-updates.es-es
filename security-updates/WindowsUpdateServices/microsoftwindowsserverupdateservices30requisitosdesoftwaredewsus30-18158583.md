@@ -35,9 +35,9 @@ Los requisitos de software siguientes se aplican a servidores y equipos cliente 
 
 -   Microsoft Report Viewer Redistributable 2005
 
-![](images/Cc708576.note(es-es,WS.10).gif)**Nota:**
 
-WSUS 3.0 ahora permite instalar la consola de administración de WSUS en sistemas remotos independientes del servidor de WSUS.
+> [!NOTE]
+> WSUS 3.0 ahora permite instalar la consola de administración de WSUS en sistemas remotos independientes del servidor de WSUS.
 
 #### Software opcional
 

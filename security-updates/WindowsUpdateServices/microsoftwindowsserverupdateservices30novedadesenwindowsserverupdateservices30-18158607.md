@@ -151,7 +151,7 @@ La nueva API admite la recopilación de los inventarios de hardware y software d
 
 La nueva API admite las aplicaciones de publicación y actualizaciones de terceros, lo cual, a su vez, permite que la infraestructura de WSUS pueda distribuir también actualizaciones de otras compañías.
 
-> [Nota]
+> [!NOTE]
 > Para obtener más información acerca de las características de WSUS, consulte [Características de Windows Server Update Services](http://www.microsoft.com/spain/technet/windowsserver/library/wsus/caracteristicas.mspx) que encontrará más adelante en este documento.
 
 [](#mainsection)[Principio de la página](#mainsection)
