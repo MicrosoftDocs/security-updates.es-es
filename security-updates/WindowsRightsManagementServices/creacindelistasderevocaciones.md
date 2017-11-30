@@ -30,10 +30,7 @@ El elemento BODY contiene cuatro elementos secundarios:
 
 A continuación se muestra un ejemplo del archivo de lista de revocaciones.
 
-| ![](images/Cc720208.note(WS.10).gif)Nota                                               |
-|---------------------------------------------------------------------------------------------------------------------|
-       
-> [!CAUTION]
+> [!NOTE]  
 > Los elementos ISSUEDTIME, PUBLICKEY y SIGNATURE se pueden omitir porque RLsigner.exe los inserta o los sobrescribe.
 
 ```
@@ -63,11 +60,7 @@ A continuación se muestra un ejemplo del archivo de lista de revocaciones.
 
 ```
 
-
-| ![](images/Cc720208.note(WS.10).gif)Nota                                               |
-|---------------------------------------------------------------------------------------------------------------------|
-       
-> [!CAUTION]
+> [!CAUTION]  
 > Al especificar la dirección URL en la lista de revocaciones, ya no se admite una ruta UNC en RMS con SP1 o RMS con SP2. Debe usar una dirección URL. 
 
 Una vez definidos los elementos REVOKE, la lista de revocaciones está lista para firmarse.
@@ -311,9 +304,8 @@ Utilice la siguiente información para completar los parámetros de entrada del 
 </tbody>
 </table>
   
-| ![](images/Cc720208.note(WS.10).gif)Nota |  
-|-----------------------------------------------------------------------|  
-| RLsigner.exe no admite nombres de archivo con espacios.               |
+> [!NOTE]  
+> RLsigner.exe no admite nombres de archivo con espacios.
   
 Los siguientes ejemplos describen cómo puede usar RLsigner.exe en el símbolo del sistema con diferentes proveedores de servicios de cifrado:
   
@@ -326,7 +318,6 @@ RLsigner.exe proporciona información básica de error y éxito en el código de
   
 ###  
 
- 
 <p> </p>
 <table style="border:1px solid black;">
 <colgroup>
