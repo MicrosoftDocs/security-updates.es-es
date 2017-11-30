@@ -1086,7 +1086,6 @@ Si desea modificar las subcategorías de la directiva de auditoría y los valore
             /success:enable /failure:enable
     ```
 
-
     ```  
       auditpol /set /subcategory:"logon" /success:enable /failure:enable  
     ```
