@@ -57,7 +57,7 @@ If you intend to map SUS approvals to a WSUS computer group, first create the gr
 
 2.  Type the following:
 
-    **wsusutil.exe migratesus /content** *PathToLocalSUSContent ***/log** *filename*
+    **wsusutil.exe migratesus /content** *PathToLocalSUSContent* **/log** *filename*
 
     For example:
 
