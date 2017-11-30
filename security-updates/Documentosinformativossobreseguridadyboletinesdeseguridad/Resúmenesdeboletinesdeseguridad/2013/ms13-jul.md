@@ -2376,10 +2376,10 @@ Vea también las demás categorías de esta sección, Ubicaciones de descarga y 
 
 Notas para MS13-057
 
-<sup>[1]</sup>Esta actualización solo se ofrece los sistemas que se han actualizado a Tiempo de ejecución de Windows Media Format 11 o Reproductor de Windows Media 11.
-<sup>[2]</sup>Esta actualización sólo se ofrece a los sistemas que ejecutan Tiempo de ejecución de Windows Media Format 9.5 NL.
-<sup>[3]</sup>Esta actualización solo se ofrece los sistemas que ejecutan Tiempo de ejecución de Windows Media Format 9.5 L.
-\[4\]Esta actualización solo se ofrece si la característica Experiencia de escritorio está habilitada.
+<sup>[1]</sup>Esta actualización solo se ofrece los sistemas que se han actualizado a Tiempo de ejecución de Windows Media Format 11 o Reproductor de Windows Media 11.  
+<sup>[2]</sup>Esta actualización sólo se ofrece a los sistemas que ejecutan Tiempo de ejecución de Windows Media Format 9.5 NL.  
+<sup>[3]</sup>Esta actualización solo se ofrece los sistemas que ejecutan Tiempo de ejecución de Windows Media Format 9.5 L.  
+\[4\]Esta actualización solo se ofrece si la característica Experiencia de escritorio está habilitada.  
 \[5\]Esta actualización solo se ofrece si está habilitada la característica opcional Experiencia de escritorio y está presente el códec wmv9vcm.dll. Vea el boletín para obtener más información.
 
 Vea también las demás categorías de esta sección, Ubicaciones de descarga y software afectado, para obtener más archivos de actualización con el mismo identificador de boletín. Este boletín abarca varias categorías de software.

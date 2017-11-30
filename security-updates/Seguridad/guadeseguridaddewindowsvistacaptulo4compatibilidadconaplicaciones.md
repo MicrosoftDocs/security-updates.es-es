@@ -25,9 +25,9 @@ Este capítulo incluye procedimientos sencillos que se pueden usar para probar e
 
 ##### En esta página
 
-[](#edaa)[Comprobación de compatibilidad en treinta minutos](#edaa)
-[](#ecaa)[Problemas conocidos de compatibilidad con aplicaciones](#ecaa)
-[](#ebaa)[Herramientas y recursos](#ebaa)
+[](#edaa)[Comprobación de compatibilidad en treinta minutos](#edaa)  
+[](#ecaa)[Problemas conocidos de compatibilidad con aplicaciones](#ecaa)  
+[](#ebaa)[Herramientas y recursos](#ebaa)  
 [](#eaaa)[Más información](#eaaa)
 
 ### Comprobación de compatibilidad en treinta minutos

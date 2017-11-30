@@ -604,9 +604,8 @@ Si se habilita esta configuración de directiva, deberá especificar una lista d
   
     **Tabla A.13: Valores de configuración de la Lista de complementos**
 
- 
     <p> </p>
-<table style="border:1px solid black;">
+    <table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
     <col width="50%" />

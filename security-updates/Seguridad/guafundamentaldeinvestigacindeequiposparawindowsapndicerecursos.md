@@ -96,11 +96,9 @@ Removable media (Medios extraíbles)</td>
   
 ### Informar de crímenes relacionados con equipos
   
-![](images/Cc162853.note(es-es,TechNet.10).gif)**Nota:**
-  
-Gran parte de la información de esta sección procede de la página [Reporting Computer, Internet-Related, or Intellectual Property Crime](http://www.cybercrime.gov/reporting.htm) (Informar de crímenes informáticos, relacionados con Internet o de propiedad intelectual) de la sección Computer Crime & Intellectual Property (Crimen informático y propiedad intelectual) del sitio Web del Departamento de Justicia de los Estados Unidos.
-  
-Consulte primero con sus abogados para determinar si es necesario informar de crímenes informáticos específicos a las autoridades competentes del ámbito local, estatal, federal o internacional, en función del alcance del crimen. Los más probable es que las autoridades locales o estatales sean las primeras con las que deba ponerse en contacto. Si se trata de un crimen informático federal, es posible que deba notificar el crimen a las oficinas locales del cuerpo de seguridad federal. Tal como se ha mencionado previamente, esta guía está diseñada para el uso en los Estados Unidos.
+> [!NOTE]
+> Gran parte de la información de esta sección procede de la página [Reporting Computer, Internet-Related, or Intellectual Property Crime](http://www.cybercrime.gov/reporting.htm) (Informar de crímenes informáticos, relacionados con Internet o de propiedad intelectual) de la sección Computer Crime & Intellectual Property (Crimen informático y propiedad intelectual) del sitio Web del Departamento de Justicia de los Estados Unidos.  
+> Consulte primero con sus abogados para determinar si es necesario informar de crímenes informáticos específicos a las autoridades competentes del ámbito local, estatal, federal o internacional, en función del alcance del crimen. Los más probable es que las autoridades locales o estatales sean las primeras con las que deba ponerse en contacto. Si se trata de un crimen informático federal, es posible que deba notificar el crimen a las oficinas locales del cuerpo de seguridad federal. Tal como se ha mencionado previamente, esta guía está diseñada para el uso en los Estados Unidos.
   
 Las autoridades judiciales competentes de los Estados Unidos que investigan crímenes relacionados con Internet son las siguientes:
   
