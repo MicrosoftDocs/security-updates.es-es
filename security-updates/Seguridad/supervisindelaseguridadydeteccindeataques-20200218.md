@@ -13,12 +13,12 @@ Publicado: 29/08/2006
 
 ##### En esta página
 
-[](#egaa)[Introducción](#egaa)
-[](#efaa)[Definición](#efaa)
-[](#eeaa)[El desafío de las medianas empresas](#eeaa)
-[](#edaa)[Soluciones](#edaa)
-[](#ecaa)[Resumen](#ecaa)
-[](#ebaa)[Apéndice A: Exclusión de eventos innecesarios](#ebaa)
+[](#egaa)[Introducción](#egaa)  
+[](#efaa)[Definición](#efaa)  
+[](#eeaa)[El desafío de las medianas empresas](#eeaa)  
+[](#edaa)[Soluciones](#edaa)  
+[](#ecaa)[Resumen](#ecaa)  
+[](#ebaa)[Apéndice A: Exclusión de eventos innecesarios](#ebaa)  
 [](#eaaa)[Apéndice B: Implementación de la configuración de la directiva de grupo](#eaaa)
 
 ### Introducción

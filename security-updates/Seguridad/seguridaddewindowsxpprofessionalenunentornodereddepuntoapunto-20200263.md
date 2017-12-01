@@ -13,11 +13,11 @@ Actualizado: julio 21, 2006
 
 ##### En esta página
 
-[](#efaa)[Introducción](#efaa)
-[](#eeaa)[Antes de comenzar](#eeaa)
-[](#edaa)[Seguridad del sistema de archivos](#edaa)
-[](#ecaa)[Firewall de Windows](#ecaa)
-[](#ebaa)[Actualización de las revisiones de seguridad](#ebaa)
+[](#efaa)[Introducción](#efaa)  
+[](#eeaa)[Antes de comenzar](#eeaa)  
+[](#edaa)[Seguridad del sistema de archivos](#edaa)  
+[](#ecaa)[Firewall de Windows](#ecaa)  
+[](#ebaa)[Actualización de las revisiones de seguridad](#ebaa)  
 [](#eaaa)[Información relacionada](#eaaa)
 
 ### Introducción

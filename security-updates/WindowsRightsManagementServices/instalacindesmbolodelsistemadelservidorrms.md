@@ -63,7 +63,7 @@ En la siguiente tabla se describe la sintaxis de cada comando.
 </tr>
 </tbody>
 </table>
-  
-| ![](images/Cc747733.note(WS.10).gif)Nota                                                                                                                                                                                   |  
-> [!NOTE]
+                                                                 |  
+
+> [!NOTE]  
 > Independientemente del método de instalación que decida implementar, asegúrese de que los dos archivos .msi se instalan correctamente. Si se produce un error que impide la instalación de MSDrmClient.msi, no podrá instalarse RMClientBackCompat.msi.
