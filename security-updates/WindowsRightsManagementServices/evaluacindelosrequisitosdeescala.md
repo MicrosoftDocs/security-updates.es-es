@@ -106,13 +106,20 @@ Los requisitos de memoria de RMS (conjunto de trabajo) para un modelo de carga d
 Cada servidor de RMS es capaz de procesar un número definido de solicitudes de cliente en un período de tiempo definido (aproximadamente de 30 a 50 licencias por segundo). Por este motivo, al agregar servidores linealmente, se escala horizontalmente la capacidad de emisión de licencias de un clúster y también se proporciona una mayor confiabilidad. Como resultado, la escala debe ser adecuada no sólo para cada servidor individual, sino también para el número de servidores que se implementan. Los siguientes ejemplos de configuración muestran cómo puede utilizar estas estimaciones para calcular los requisitos de escalado para la implementación de RMS.
   
 -   Configuración de uso ligero  
+
     Algunas organizaciones tienen requisitos muy bajos de uso para RMS. Por ejemplo, en una organización con aproximadamente 5.000 usuarios, el 10% de los cuales utiliza regularmente RMS para proteger contenido de correo electrónico, puede calcular que un usuario medio protegerá 3 mensajes de correo electrónico por hora. Basándose en esos requisitos, los servidores de RMS deberán proporcionar 1.500 licencias por hora, lo que equivale a 0,42 licencias por segundo. Esto le proporciona los requisitos de uso medio; la multiplicación de esta cifra por 3 proporciona el cálculo de uso máximo de 1,25 licencias por segundo.  
+
     Según este cálculo, el uso es muy reducido. Por este motivo, un solo servidor de RMS es adecuado para esta organización.  
+
 -   Configuración de uso medio  
     Muchas organizaciones tienen grupos de usuarios bastante grandes con requisitos de uso moderados. Por ejemplo, en una organización que tiene aproximadamente 40.000 usuarios, el 50% de los cuales utiliza regularmente RMS para proteger contenido, puede calcular que un usuario medio protegerá 7 mensajes de correo electrónico y 1 documento u otro archivo por hora. Basándose en esos requisitos, los servidores de RMS deberán proporcionar 160.000 licencias por hora, lo que equivale a 44,4 licencias por segundo. Esto le proporciona los requisitos de uso medio; la multiplicación de esta cifra por 3 proporciona el cálculo de uso máximo de 133,3 licencias por segundo.  
+
     Según este cálculo, el uso sería moderadamente alto y 3 servidores de RMS serían adecuados para satisfacer las necesidades actuales de los usuarios, mientras que 6 servidores de RMS satisfarían las necesidades actuales de los usuarios y dejarían espacio para seguir creciendo.  
+
 -   Configuración de uso intensivo  
-    Las organizaciones grandes a menudo tienen grupos de usuarios muy grandes con requisitos de uso intensivo. Por ejemplo, en una organización con aproximadamente 150.000 usuarios, el 70% por ciento de los cuales utiliza regularmente RMS para proteger contenido, puede calcular que un usuario medio protegerá 15 mensajes de correo electrónico y 3 documentos u otros archivos por hora. Basándose en esos requisitos, los servidores de RMS deberán proporcionar 1.890.000 licencias por hora, lo que equivale a 525 licencias por segundo. Esto le proporciona los requisitos de uso medio; la multiplicación de esta cifra por 3 proporciona el cálculo de uso máximo de 1575 licencias por segundo.  
+
+    Las organizaciones grandes a menudo tienen grupos de usuarios muy grandes con requisitos de uso intensivo. Por ejemplo, en una organización con aproximadamente 150.000 usuarios, el 70% por ciento de los cuales utiliza regularmente RMS para proteger contenido, puede calcular que un usuario medio protegerá 15 mensajes de correo electrónico y 3 documentos u otros archivos por hora. Basándose en esos requisitos, los servidores de RMS deberán proporcionar 1.890.000 licencias por hora, lo que equivale a 525 licencias por segundo. Esto le proporciona los requisitos de uso medio; la multiplicación de esta cifra por 3 proporciona el cálculo de uso máximo de 1575 licencias por segundo. 
+
     Según este cálculo, el uso sería muy alto y serían necesarios 32 servidores de RMS para satisfacer las necesidades actuales de los usuarios, mientras que 51 servidores de RMS satisfarían las necesidades actuales y dejarían espacio para seguir creciendo.
   
 Cuando los cálculos indican que se entregan de 30 a 50 licencias por segundo, se necesita otro servidor de RMS.

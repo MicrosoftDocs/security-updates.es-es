@@ -160,15 +160,14 @@ Después de probar completamente la directiva, complete los pasos siguientes par
 1.  En el símbolo de sistema, escriba el siguiente comando:
 
     ```
-        scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>
+      scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>
     ```
     
     y, a continuación, pulse Entrar. Por ejemplo:
 
-    
     ```
-        scwcmd transform /p:"C:\Windows\Security\msscw\Policies\IAS 
-        Server.xml" /g:"IAS Policy"
+      scwcmd transform /p:"C:\Windows\Security\msscw\Policies\IAS 
+      Server.xml" /g:"IAS Policy"
     ```
 
     **Nota**: la información que se introducirá en el símbolo del sistema se muestra aquí en más de una línea a causa de las limitaciones de pantalla. Esta información debe introducirse en una línea.

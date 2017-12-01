@@ -19,7 +19,6 @@ Los pasos siguientes se indican como ejemplo de algunos de los elementos que deb
 
 ###  
 
- 
 <p> </p>
 <table style="border:1px solid black;">
 <colgroup>
@@ -38,33 +37,33 @@ Los pasos siguientes se indican como ejemplo de algunos de los elementos que deb
 <tr class="odd">
 <td style="border:1px solid black;">Piloto</td>
 <td style="border:1px solid black;">Realice una copia de seguridad de la base de datos de configuración de RMS.</td>
-<td style="border:1px solid black;">Esto le permitirá restaurar el servidor piloto en caso necesario.
-La base de datos de configuración incluye la clave privada de RMS.
+<td style="border:1px solid black;">Esto le permitirá restaurar el servidor piloto en caso necesario.<br/><br/>
+La base de datos de configuración incluye la clave privada de RMS.<br/><br/>
 Asegúrese de saber la contraseña de la clave privada.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Piloto</td>
 <td style="border:1px solid black;">Si utilizó un módulo de seguridad de hardware (HSM) para proteger la clave privada de RMS, realice una copia de seguridad del HSM siguiendo las indicaciones del fabricante.</td>
-<td style="border:1px solid black;">Así restaurará el HSM en el nuevo servidor.
+<td style="border:1px solid black;">Así restaurará el HSM en el nuevo servidor.<br/><br/>
 Asegúrese de tener todos los componentes necesarios para instalar y configurar el HSM.</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Piloto</td>
 <td style="border:1px solid black;">Exporte el archivo de dominio de publicación de confianza.</td>
-<td style="border:1px solid black;">Esto permite que otro servidor de RMS pueda descifrar licencias de publicación creadas por este servidor y emitir licencias de uso para el contenido protegido.
-El dominio de publicación de confianza incluye el certificado emisor de licencias de servidor, la clave privada de RMS y las plantillas de directiva de permisos que haya establecido este servidor.
+<td style="border:1px solid black;">Esto permite que otro servidor de RMS pueda descifrar licencias de publicación creadas por este servidor y emitir licencias de uso para el contenido protegido.<br/><br/>
+El dominio de publicación de confianza incluye el certificado emisor de licencias de servidor, la clave privada de RMS y las plantillas de directiva de permisos que haya establecido este servidor.<br/><br/>
 El archivo de dominio de publicación de confianza es un archivo XML cifrado con una contraseña segura que se especifica al crear el archivo. También deberá tener esta contraseña para importar el archivo de dominio de publicación de confianza.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Piloto</td>
 <td style="border:1px solid black;">Exporte el dominio de usuario de confianza.</td>
-<td style="border:1px solid black;">Esto permite a otro servidor de RMS conceder licencias de uso a los usuarios cuyos certificados de cuenta de permisos (RAC) habían sido concedidos por el servidor de RMS piloto.
+<td style="border:1px solid black;">Esto permite a otro servidor de RMS conceder licencias de uso a los usuarios cuyos certificados de cuenta de permisos (RAC) habían sido concedidos por el servidor de RMS piloto.<br/><br/>
 El dominio de usuario de confianza se establece importando el certificado emisor de licencias de servidor de este servidor al otro servidor de RMS.</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Producción</td>
 <td style="border:1px solid black;">Prepare el nuevo servidor para que sea el servidor de certificación raíz.</td>
-<td style="border:1px solid black;">Asegúrese de que puede obtener acceso al servidor de base de datos, así como de que IIS y Message Queue Server estén instalados.
+<td style="border:1px solid black;">Asegúrese de que puede obtener acceso al servidor de base de datos, así como de que IIS y Message Queue Server estén instalados.<br/><br/>
 Si es posible, utilice el mismo nombre de servidor para este servidor.</td>
 </tr>
 <tr class="even">
@@ -80,13 +79,13 @@ Si es posible, utilice el mismo nombre de servidor para este servidor.</td>
 <tr class="even">
 <td style="border:1px solid black;">Producción</td>
 <td style="border:1px solid black;">Establezca los servicios en línea de RMS utilizando una clave privada nueva. Si utiliza la inscripción en línea, su servidor se inscribirá durante el proceso de establecimiento de servicios en línea utilizando Internet para conectarse al servicio de inscripción de Microsoft. Si no dispone de conexión a Internet desde este servidor, deberá utilizar la inscripción sin conexión.</td>
-<td style="border:1px solid black;">Si el nombre de este servidor es diferente del nombre del servidor piloto, podrá modificar la configuración de la dirección URL de clúster para que sea la misma dirección URL que la del servidor piloto.
+<td style="border:1px solid black;">Si el nombre de este servidor es diferente del nombre del servidor piloto, podrá modificar la configuración de la dirección URL de clúster para que sea la misma dirección URL que la del servidor piloto.<br/><br/>
 Si no lo hace, deberá configurar un redireccionamiento de la dirección URL de clúster anterior a la nueva dirección URL de clúster para permitir que los usuarios con contenido preexistente puedan obtener licencias de uso.</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Producción</td>
 <td style="border:1px solid black;">Si utiliza la inscripción sin conexión, complete el proceso de inscripción manual para el nuevo servidor de RMS. Para obtener más información, vea “Para inscribir manualmente un servidor de certificación raíz” en “Operación de un servidor RMS” en esta recopilación de documentación.</td>
-<td style="border:1px solid black;">El servidor de RMS no se puede utilizar hasta que se haya inscrito.
+<td style="border:1px solid black;">El servidor de RMS no se puede utilizar hasta que se haya inscrito.<br/><br/>
 Además, no es posible obtener acceso a las páginas de administración de RMS hasta que se haya inscrito el servidor.</td>
 </tr>
 <tr class="even">
@@ -107,7 +106,7 @@ Además, no es posible obtener acceso a las páginas de administración de RMS h
 <tr class="odd">
 <td style="border:1px solid black;">Producción</td>
 <td style="border:1px solid black;">Importe el archivo de dominio de usuario de confianza que exportó en el paso 4.</td>
-<td style="border:1px solid black;">Permite utilizar certificados emisores de licencias de cliente y RAC antiguos.
+<td style="border:1px solid black;">Permite utilizar certificados emisores de licencias de cliente y RAC antiguos.<br/><br/>
 Si se están moviendo cuentas de usuario entre bosques como parte de esta migración, tenga en cuenta que las cuentas deben tener proxy SMTP coincidentes.</td>
 </tr>
 </tbody>
