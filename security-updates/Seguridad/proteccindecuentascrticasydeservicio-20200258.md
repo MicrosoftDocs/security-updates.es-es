@@ -13,11 +13,11 @@ Publicado: septiembre 26, 2006
 
 ##### En esta página
 
-[](#ehaa)[Introducción](#ehaa)
-[](#egaa)[Definiciones](#egaa)
-[](#efaa)[Retos](#efaa)
-[](#eeaa)[Soluciones](#eeaa)
-[](#edaa)[Resumen](#edaa)
+[](#ehaa)[Introducción](#ehaa)  
+[](#egaa)[Definiciones](#egaa)  
+[](#efaa)[Retos](#efaa)  
+[](#eeaa)[Soluciones](#eeaa)  
+[](#edaa)[Resumen](#edaa)  
 [](#ecaa)[Apéndice A: Servicios habituales](#ecaa)
 
 ### Introducción

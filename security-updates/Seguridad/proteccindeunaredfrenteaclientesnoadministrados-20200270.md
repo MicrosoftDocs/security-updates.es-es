@@ -13,11 +13,11 @@ Protección de una red frente a clientes no administrados
 
 Publicado: 29/08/2006
 
-[](#efaa)[Introducción](#efaa)
-[](#eeaa)[Definición](#eeaa)
-[](#edaa)[Desafíos](#edaa)
-[](#ecaa)[Soluciones](#ecaa)
-[](#ebaa)[Resumen](#ebaa)
+[](#efaa)[Introducción](#efaa)  
+[](#eeaa)[Definición](#eeaa)  
+[](#edaa)[Desafíos](#edaa)  
+[](#ecaa)[Soluciones](#ecaa)  
+[](#ebaa)[Resumen](#ebaa)  
 [](#eaaa)[Apéndice A: Protección de acceso a redes](#eaaa)
 
 ### Introducción

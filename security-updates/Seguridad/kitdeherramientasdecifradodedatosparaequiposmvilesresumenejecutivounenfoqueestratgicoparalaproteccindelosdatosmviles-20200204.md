@@ -25,9 +25,9 @@ El Kit de herramientas de cifrado de datos para equipos móviles de Microsoft pu
 
 ##### En esta página
 
-[](#eeaa)[Riesgos de negocio](#eeaa)
-[](#edaa)[Riesgos normativos](#edaa)
-[](#ecaa)[Atenuar los riesgos con el Kit de herramientas de cifrado de datos](#ecaa)
+[](#eeaa)[Riesgos de negocio](#eeaa)  
+[](#edaa)[Riesgos normativos](#edaa)  
+[](#ecaa)[Atenuar los riesgos con el Kit de herramientas de cifrado de datos](#ecaa)  
 [](#ebaa)[Pasos siguientes](#ebaa)
 
 ### Riesgos de negocio

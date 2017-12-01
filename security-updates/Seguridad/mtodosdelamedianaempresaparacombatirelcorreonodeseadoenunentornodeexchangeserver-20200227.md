@@ -13,11 +13,11 @@ Publicado: 18/08/2006
 
 ##### En esta página
 
-[](#efaa)[Introducción](#efaa)
-[](#eeaa)[Definición](#eeaa)
-[](#edaa)[Desafíos](#edaa)
-[](#ecaa)[Soluciones](#ecaa)
-[](#ebaa)[Resumen](#ebaa)
+[](#efaa)[Introducción](#efaa)  
+[](#eeaa)[Definición](#eeaa)  
+[](#edaa)[Desafíos](#edaa)  
+[](#ecaa)[Soluciones](#ecaa)  
+[](#ebaa)[Resumen](#ebaa)  
 [](#eaaa)[Referencias](#eaaa)
 
 ### Introducción

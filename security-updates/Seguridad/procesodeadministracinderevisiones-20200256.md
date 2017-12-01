@@ -15,16 +15,17 @@ Actualizado: junio 1, 2007
 
 #### En esta página
 
-[](#eyc)[Descripción del módulo](#eyc)
-[](#emd)[Objetivos](#emd)
-[](#ewd)[Aplicable a](#ewd)
-[](#ezd)[Uso del módulo](#ezd)
-[](#ene)[Información general](#ene)
-[](#ecf)[Preparación de la implementación](#ecf)
-[](#ewaac)[Implementar la actualización de software en equipos de destino](#ewaac)
-[](#e3eac)[Revisión posterior a la implementación](#e3eac)
-[](#erfac)[Resumen](#erfac)
+[](#eyc)[Descripción del módulo](#eyc)  
+[](#emd)[Objetivos](#emd)  
+[](#ewd)[Aplicable a](#ewd)  
+[](#ezd)[Uso del módulo](#ezd)  
+[](#ene)[Información general](#ene)  
+[](#ecf)[Preparación de la implementación](#ecf)  
+[](#ewaac)[Implementar la actualización de software en equipos de destino](#ewaac)  
+[](#e3eac)[Revisión posterior a la implementación](#e3eac)  
+[](#erfac)[Resumen](#erfac)  
 [](#ebgac)[Pasos siguientes](#ebgac)
+
 Descripción del módulo
 ----------------------
 

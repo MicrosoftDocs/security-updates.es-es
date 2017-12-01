@@ -15,17 +15,18 @@ Actualizado: junio 1, 2007
 
 #### En esta página
 
-[](#eyc)[Descripción del módulo](#eyc)
-[](#edd)[Objetivos](#edd)
-[](#epd)[Aplicable a](#epd)
-[](#esd)[Uso del módulo](#esd)
-[](#ege)[Información general](#ege)
-[](#e4e)[Determinar la respuesta apropiada](#e4e)
-[](#eaeac)[Planear el lanzamiento](#eaeac)
-[](#eeiac)[Crear el lanzamiento](#eeiac)
-[](#etiac)[Pruebas de aceptación](#etiac)
-[](#eljac)[Resumen](#eljac)
-[](#exjac)[Paso a la fase de implementación](#exjac)
+[](#eyc)[Descripción del módulo](#eyc)  
+[](#edd)[Objetivos](#edd)  
+[](#epd)[Aplicable a](#epd)  
+[](#esd)[Uso del módulo](#esd)  
+[](#ege)[Información general](#ege)  
+[](#e4e)[Determinar la respuesta apropiada](#e4e)  
+[](#eaeac)[Planear el lanzamiento](#eaeac)  
+[](#eeiac)[Crear el lanzamiento](#eeiac)  
+[](#etiac)[Pruebas de aceptación](#etiac)  
+[](#eljac)[Resumen](#eljac)  
+[](#exjac)[Paso a la fase de implementación](#exjac)  
+
 Descripción del módulo
 ----------------------
 
