@@ -32,7 +32,7 @@ The topic presents the following scenarios:
 
 <p> </p>
 
-> [!WARNING]
+> [!CAUTION]
 > The procedures in this document use Registry Editor. Serious problems might occur if you modify the registry incorrectly by using Registry Editor or by using another method. These problems might require you to reinstall the operating system. Microsoft cannot guarantee that these problems can be resolved. Modify the registry at your own risk. Before you edit the registry, export the keys in the registry that you plan to edit, or back up the whole registry. If a problem occurs, you can then restore the registry to its previous state.
  
 
@@ -84,8 +84,8 @@ Use the following steps to migrate the WSUS database from a Windows Internal Dat
 
 13. Verify that the database migration was successful by opening the WSUS administrative console. (Click **Start**, click **Administrative Tools**, and then click **Microsoft Windows Server Update Services 3.0**.)
 
-    > [!Nota]
-    > You might have to restart the server for these settings to take effect. 
+     > [!Note]
+     > You might have to restart the server for these settings to take effect. 
 
 ### Migrating the WSUS Database and Moving to a Remote SQL Server
 
@@ -139,8 +139,8 @@ Back end server starting configuration:
     1.  Click **Start**, click **Run**, type **regedit**, and then click **OK**.
     2.  Find the following key: **HKLM\\SOFTWARE\\Microsoft\\UpdateServices\\Server\\Setup\\SqlServerName**. In the **Value** data box, type **\[BEName\]\\\[InstanceName\]**, and then click **OK**. If the instance name is the default instance, type **\[BEName\]**.
 
-        > [!Nota]
-        > When typing [BEName], do not add the domain name before the name.
+           > [!Note]
+           > When typing [BEName], do not add the domain name before the name.
 
  
 
@@ -152,8 +152,8 @@ Back end server starting configuration:
     3.  Right-click **Update Services**, and then click **Start**.
 9.  On the front end server: Verify that the database migration was successful by opening the WSUS administrative console. (Click **Start**, click **Administrative Tools**, and then click **Microsoft Windows Server Update Services 3.0**).
  
-    > [!Nota]
-    > You might have to restart the front end server in order for these settings to take effect.
+       > [!Note]
+       > You might have to restart the front end server in order for these settings to take effect.
 
     For more information about the databases that you can use with WSUS, see the following:  
     - In this guide, see [Managing the Databases](https://technet.microsoft.com/d99cdd74-fbf4-4706-b2a2-a58728beef22).  

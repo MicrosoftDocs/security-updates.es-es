@@ -72,13 +72,13 @@ Implementación del cliente de RMS con SMS
     **General**:
 
     -   En **Línea de comandos**, escriba lo siguiente:
-        ```
+
+        `
         msiexec.exe /q ALLUSERS=2 /m MSIDGHOG /i "<file_name>.msi"
-        ```
+        `
  
-        | ![](images/Cc747749.note(WS.10).gif)Nota                                                                        |
-        |----------------------------------------------------------------------------------------------------------------------------------------------|
-        | MSIDGHOG es un valor aleatorio. Reemplace &lt;nombre\_archivo&gt; por el nombre del archivo de Windows Installer que instalará este paquete. |
+    > [!NOTE]
+    > MSIDGHOG es un valor aleatorio. Reemplace &lt;nombre\_archivo&gt; por el nombre del archivo de Windows Installer que instalará este paquete. 
 
     -   En **Ejecutar**, seleccione la opción **Oculto**.
     -   En **After running**, seleccione la opción **No action required**.

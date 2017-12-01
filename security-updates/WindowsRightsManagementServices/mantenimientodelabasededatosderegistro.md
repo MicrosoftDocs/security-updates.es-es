@@ -86,13 +86,21 @@ El plan de implementación debe incluir un método para administrar la base de d
   
 -   **Eliminar y archivar**  
     Este método consiste en utilizar comandos de SQL Server para archivar la información seleccionada de la base de datos de registro en una base de datos secundaria una vez las entradas de registro alcanzan cierta antigüedad. También implica filtrar las bases de datos de información irrelevante para que no se desperdicie el espacio.  
+
 -   **Limitar la información registrada**  
     La base de datos de registro está formada por tres tablas principales. Una de ellas es **DRMS\_Log\_Filter**, que identifica qué campo de la tabla principal deberá registrarse cuando esté habilitado el filtrado de registro.  
-    Las entradas de tabla activado/desactivado dictan qué campos de la tabla principal registra el servicio de escucha de registro en el servidor de RMS. Dos de estos campos (relacionados con XrML) ya se han establecido en 0 para deshabilitar el registro, ya que estos dos campos suponen aproximadamente un 99% del tamaño de cada una de las filas de solicitud de licencia.  
+
+    Las entradas de tabla activado/desactivado dictan qué campos de la tabla principal registra el servicio de escucha de registro en el servidor de RMS. Dos de estos campos (relacionados con XrML) ya se han establecido en 0 para deshabilitar el registro, ya que estos dos campos suponen aproximadamente un 99% del tamaño de cada una de las filas de solicitud de licencia. 
+
     Otra tabla de la base de datos **DRMS\_Config\_ServerName\_Port**, llamada **DRMS\_ClusterPolicies**, contiene un **PolicyName** de **LoggingFiltering**. **LoggingFiltering** no está habilitado de forma predeterminada. Si establece el valor de **LoggingFiltering** en 1 y reinicia el servicio de escucha de registro, el crecimiento diario de la base de datos en el ejemplo anterior caería de 7,6 GB cada día a aproximadamente 160 MB cada día.  
+
 -   **Traslado de la base de datos de registro**  
-    Otra opción para administrar una base de datos de registro creciente es simplemente trasladarla a un servidor con más espacio en disco. La base de datos de registro puede existir en un servidor de base de datos distinto que la base de datos de configuración. Para trasladar la base de datos a un servidor diferente, siga estos pasos:  
-    1.  Detenga el servicio de escucha de registro de cada servidor de RMS.  
+    Otra opción para administrar una base de datos de registro creciente es simplemente trasladarla a un servidor con más espacio en disco. La base de datos de registro puede existir en un servidor de base de datos distinto que la base de datos de configuración. Para trasladar la base de datos a un servidor diferente, siga estos pasos: 
+
+    1.  Detenga el servicio de escucha de registro de cada servidor de RMS. 
+
     2.  Copie la base de datos (o cree una nueva) en un servidor diferente.  
+
     3.  Edite la base de datos **DRMS\_Config\_ServerName\_Port** de RMS seleccionando la tabla **DRMS\_ClusterPolicies** y modificando los valores de **LoggingDatabaseName** (nombre del servidor de base de datos) y **LoggingDatabaseServer** (nombre de la base de datos).  
+
     4.  Reinicie IIS ejecutando IISRESET.exe desde la línea de comandos.

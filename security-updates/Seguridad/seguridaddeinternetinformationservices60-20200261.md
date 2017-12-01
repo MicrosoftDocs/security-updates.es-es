@@ -13,13 +13,13 @@ Actualizado: julio 21, 2006
 
 ##### En esta página
 
-[](#ehaa)[Introducción](#ehaa)
-[](#egaa)[Antes de comenzar](#egaa)
-[](#efaa)[Reducción del ámbito de ataque en el servidor Web](#efaa)
-[](#eeaa)[Configuración de cuentas](#eeaa)
-[](#edaa)[Configuración de seguridad para archivos y directorios](#edaa)
-[](#ecaa)[Seguridad en sitios Web y directorios virtuales](#ecaa)
-[](#ebaa)[Configuración de Capa de sockets seguros (Secure Sockets Layer, SSL) en el servidor Web](#ebaa)
+[](#ehaa)[Introducción](#ehaa)  
+[](#egaa)[Antes de comenzar](#egaa)  
+[](#efaa)[Reducción del ámbito de ataque en el servidor Web](#efaa)  
+[](#eeaa)[Configuración de cuentas](#eeaa)  
+[](#edaa)[Configuración de seguridad para archivos y directorios](#edaa)  
+[](#ecaa)[Seguridad en sitios Web y directorios virtuales](#ecaa)  
+[](#ebaa)[Configuración de Capa de sockets seguros (Secure Sockets Layer, SSL) en el servidor Web](#ebaa)  
 [](#eaaa)[Información relacionada](#eaaa)
 
 ### Introducción

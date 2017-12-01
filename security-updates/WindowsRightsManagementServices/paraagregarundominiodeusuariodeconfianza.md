@@ -31,7 +31,9 @@ Adición de dominios de usuario de confianza
 5.  Elija alguna de las siguientes opciones de confianza:
 
     -   Seleccione la opción **Confiar en todos los dominios de correo electrónico** para confiar en todas las cuentas de usuario que sean miembros de dicho dominio.
+
         O bien,
+        
     -   Seleccione la opción **Confiar sólo en dominios de correo electrónico especificados**, escriba el nombre del dominio de confianza; por ejemplo, example.com, y haga clic en **Agregar**. Se agrega el dominio a la lista Dominios de correo electrónico de confianza. Para quitar un nombre de la lista, seleccione el nombre y, a continuación, haga clic en **Quitar**. El listado de un dominio incluye todos sus subdominios.
 
 6.  Si utiliza RMS en un entorno donde necesite ampliar la pertenencia a grupos entre bosques, seleccione la casilla de verificación **Confiar en licencias de RM para identificadores de seguridad (SID) de este dominio de usuario**.

@@ -13,9 +13,9 @@ Publicado: octubre 11, 2004 | Actualizado: 24/11/04
 
 ##### En esta página
 
-[](#edaa)[Introducción](#edaa)
-[](#ecaa)[Descripción general de la solución](#ecaa)
-[](#ebaa)[Convenciones de estilo](#ebaa)
+[](#edaa)[Introducción](#edaa)  
+[](#ecaa)[Descripción general de la solución](#ecaa)  
+[](#ebaa)[Convenciones de estilo](#ebaa)  
 [](#eaaa)[Comentarios y soporte técnico](#eaaa)
 
 ### Introducción

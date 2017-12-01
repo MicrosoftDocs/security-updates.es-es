@@ -101,11 +101,11 @@ Hardware and database software requirements are driven by the number of client c
 </tr>
 </tbody>
 </table>
+
+<p></p>
   
-| ![](images/Cc708483.note(WS.10).gif) Nota                                                                                                                                                                                                                                                                                                                                    |  
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| These guidelines assume that WSUS clients are synchronizing with the server every eight hours (for the high-end configuration) or every two hours (for the super high-end configuration). If they synchronize more often, there will be a corresponding increment in the server load. For example, if clients synchronize twice a day, the load will be twice as much as if they synchronize once a day. |
+> [!NOTE]
+> These guidelines assume that WSUS clients are synchronizing with the server every eight hours (for the high-end configuration) or every two hours (for the super high-end configuration). If they synchronize more often, there will be a corresponding increment in the server load. For example, if clients synchronize twice a day, the load will be twice as much as if they synchronize once a day. 
   
-| ![](images/Cc708483.note(WS.10).gif) Nota                                                                                                           |  
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Increasing the number of languages will also increase the load. Supporting five languages rather than one language will approximately double the size of the content directory. |
+> [!NOTE]
+> Increasing the number of languages will also increase the load. Supporting five languages rather than one language will approximately double the size of the content directory. 

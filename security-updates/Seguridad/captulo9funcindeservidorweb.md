@@ -606,7 +606,7 @@ En la tabla siguiente se enumeran los permisos de sitio web que admite IIS 6.0 y
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Acceso al código fuente de secuencias de comandos</td>
-<td style="border:1px solid black;">Los usuarios pueden tener acceso a los archivos de origen. Si está habilitado el permiso de lectura, se podrá leer el código fuente de secuencias de comandos; si está habilitado el permiso de escritura, se podrá modificar dicho código. Este tipo de acceso incluye el código fuente para las secuencias de comandos. Si no están habilitados los permisos de lectura y escritura, esta opción no estará disponible.
+<td style="border:1px solid black;">Los usuarios pueden tener acceso a los archivos de origen. Si está habilitado el permiso de lectura, se podrá leer el código fuente de secuencias de comandos; si está habilitado el permiso de escritura, se podrá modificar dicho código. Este tipo de acceso incluye el código fuente para las secuencias de comandos. Si no están habilitados los permisos de lectura y escritura, esta opción no estará disponible.<br />
 <strong>Importante</strong>: cuando está habilitado el acceso al código fuente de secuencias de comandos, los usuarios pueden ver información relevante como, por ejemplo, el nombre de usuario y la contraseña. También pueden modificar el código fuente que se ejecuta en un servidor IIS, con lo que la seguridad y el rendimiento del servidor pueden verse gravemente afectados.</td>
 </tr>
 <tr class="even">
