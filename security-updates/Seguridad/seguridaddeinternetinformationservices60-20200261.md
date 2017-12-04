@@ -13,13 +13,13 @@ Actualizado: julio 21, 2006
 
 ##### En esta página
 
-[](#ehaa)[Introducción](#ehaa)
-[](#egaa)[Antes de comenzar](#egaa)
-[](#efaa)[Reducción del ámbito de ataque en el servidor Web](#efaa)
-[](#eeaa)[Configuración de cuentas](#eeaa)
-[](#edaa)[Configuración de seguridad para archivos y directorios](#edaa)
-[](#ecaa)[Seguridad en sitios Web y directorios virtuales](#ecaa)
-[](#ebaa)[Configuración de Capa de sockets seguros (Secure Sockets Layer, SSL) en el servidor Web](#ebaa)
+[](#ehaa)[Introducción](#ehaa)  
+[](#egaa)[Antes de comenzar](#egaa)  
+[](#efaa)[Reducción del ámbito de ataque en el servidor Web](#efaa)  
+[](#eeaa)[Configuración de cuentas](#eeaa)  
+[](#edaa)[Configuración de seguridad para archivos y directorios](#edaa)  
+[](#ecaa)[Seguridad en sitios Web y directorios virtuales](#ecaa)  
+[](#ebaa)[Configuración de Capa de sockets seguros (Secure Sockets Layer, SSL) en el servidor Web](#ebaa)  
 [](#eaaa)[Información relacionada](#eaaa)
 
 ### Introducción
@@ -949,8 +949,25 @@ Necesitará lo siguiente para realizar estas tareas:
   
 12. Guarde el archivo como .txt. (La ubicación y el nombre de archivo predeterminado son **C:\\certreq.txt**.) En el siguiente ejemplo se muestra el aspecto de un archivo de solicitud de certificado.
   
-    ```  
- -----BEGIN NEW CERTIFICATE REQUEST----- MIIDATCCAmoCAQAwbDEOMAwGA1UEAxMFcGxhbjgxDDAKBgNVBAsTA1BTUzESMB A1UEChMJTWljcm9zb2Z0MRIwEAYDVQQHEwlDaGFybG90dGUxFzAVBgNVBAgTDk cnRoIENhcm9saW5hMQswCQYDVQQGEwJVUzCBnzANBgkqhkiG9w0BAQEFAAOBjQ gYkCgYEAtW1koGfdt+EoJbKdxUZ+5vE7TF1ZuT+xaK9jEWHESfw11zoRKrHzHN IASnwg3vZ0ACteQy5SiWmFaJeJ4k7YaKUb6chZXG3GqL4YiSKFaLpJX+YRiKMt JzFzict5GVVGHsa1lY0BDYDO2XOAlstGlHCtENHOKpzdYdANRg0CAwEAAaCCAV GgYKKwYBBAGCNw0CAzEMFgo1LjAuMjE5NS4yMDUGCisGAQQBgjcCAQ4xJzAlMA A1UdDwEB/wQEAwIE8DATBgNVHSUEDDAKBggrBgEFBQcDATCB/QYKKwYBBAGCNw AjGB7jCB6wIBAR5aAE0AaQBjAHIAbwBzAG8AZgB0ACAAUgBTAEEAIABTAEMAaA AG4AbgBlAGwAIABDAHIAeQBwAHQAbwBnAHIAYQBwAGgAaQBjACAAUAByAG8Adg AGQAZQByA4GJAGKa0jzBn8fkxScrWsdnU2eUJOMUK5Ms87Q+fjP1/pWN3PJnH7 MBc5isFCjww6YnIjD8c3OfYfjkmWc048ZuGoH7ZoD6YNfv/SfAvQmr90eGmKOF TD+hl1hM08gu2oxFU7mCvfTQ/2IbXP7KYFGEqaJ6wn0Z5yLOByPqblQZAAAAAA MhfC7CIvR0McCQ+CBwuLzD+UJxl+kjgb+qwcOUkGX2PCZ7tOWzcXWNmn/4YHQl GEXu0w67sVc2R9DlsHDNzeXLIOmjUl935qy1uoIR4V5C48YNsF4ejlgjeCFsbC Jb9/2RM= -----END NEW CERTIFICATE REQUEST-----   
+```  
+ -----BEGIN NEW CERTIFICATE REQUEST-----
+MIIDATCCAmoCAQAwbDEOMAwGA1UEAxMFcGxhbjgxDDAKBgNVBAsTA1BTUzESMB
+A1UEChMJTWljcm9zb2Z0MRIwEAYDVQQHEwlDaGFybG90dGUxFzAVBgNVBAgTDk
+cnRoIENhcm9saW5hMQswCQYDVQQGEwJVUzCBnzANBgkqhkiG9w0BAQEFAAOBjQ
+gYkCgYEAtW1koGfdt+EoJbKdxUZ+5vE7TF1ZuT+xaK9jEWHESfw11zoRKrHzHN
+IASnwg3vZ0ACteQy5SiWmFaJeJ4k7YaKUb6chZXG3GqL4YiSKFaLpJX+YRiKMt
+JzFzict5GVVGHsa1lY0BDYDO2XOAlstGlHCtENHOKpzdYdANRg0CAwEAAaCCAV
+GgYKKwYBBAGCNw0CAzEMFgo1LjAuMjE5NS4yMDUGCisGAQQBgjcCAQ4xJzAlMA
+A1UdDwEB/wQEAwIE8DATBgNVHSUEDDAKBggrBgEFBQcDATCB/QYKKwYBBAGCNw
+AjGB7jCB6wIBAR5aAE0AaQBjAHIAbwBzAG8AZgB0ACAAUgBTAEEAIABTAEMAaA
+AG4AbgBlAGwAIABDAHIAeQBwAHQAbwBnAHIAYQBwAGgAaQBjACAAUAByAG8Adg
+AGQAZQByA4GJAGKa0jzBn8fkxScrWsdnU2eUJOMUK5Ms87Q+fjP1/pWN3PJnH7
+MBc5isFCjww6YnIjD8c3OfYfjkmWc048ZuGoH7ZoD6YNfv/SfAvQmr90eGmKOF
+TD+hl1hM08gu2oxFU7mCvfTQ/2IbXP7KYFGEqaJ6wn0Z5yLOByPqblQZAAAAAA
+MhfC7CIvR0McCQ+CBwuLzD+UJxl+kjgb+qwcOUkGX2PCZ7tOWzcXWNmn/4YHQl
+GEXu0w67sVc2R9DlsHDNzeXLIOmjUl935qy1uoIR4V5C48YNsF4ejlgjeCFsbC
+Jb9/2RM=
+                -----END NEW CERTIFICATE REQUEST-----  
 ```
   
 13. Confirme los detalles de la solicitud, haga clic en **Siguiente** y, a continuación, en **Finalizar**.

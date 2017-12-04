@@ -13,17 +13,17 @@ Actualizado: julio 21, 2006
 
 ##### En esta página
 
-[](#elaa)[Introducción](#elaa)
-[](#ekaa)[Antes de comenzar](#ekaa)
-[](#ejaa)[Service Packs y revisiones](#ejaa)
-[](#eiaa)[Virus y gusanos](#eiaa)
-[](#ehaa)[Adware y spyware](#ehaa)
-[](#egaa)[Puntos de restauración](#egaa)
-[](#efaa)[Servidores de seguridad personales](#efaa)
-[](#eeaa)[Protección de archivos](#eeaa)
-[](#edaa)[Contraseñas seguras](#edaa)
-[](#ecaa)[Seguridad de la red inalámbrica](#ecaa)
-[](#ebaa)[Conexiones VPN](#ebaa)
+[](#elaa)[Introducción](#elaa)  
+[](#ekaa)[Antes de comenzar](#ekaa)  
+[](#ejaa)[Service Packs y revisiones](#ejaa)  
+[](#eiaa)[Virus y gusanos](#eiaa)  
+[](#ehaa)[Adware y spyware](#ehaa)  
+[](#egaa)[Puntos de restauración](#egaa)  
+[](#efaa)[Servidores de seguridad personales](#efaa)  
+[](#eeaa)[Protección de archivos](#eeaa)  
+[](#edaa)[Contraseñas seguras](#edaa)  
+[](#ecaa)[Seguridad de la red inalámbrica](#ecaa)  
+[](#ebaa)[Conexiones VPN](#ebaa)  
 [](#eaaa)[Información relacionada](#eaaa)
 
 ### Introducción

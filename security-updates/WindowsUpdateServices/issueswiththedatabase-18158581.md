@@ -28,7 +28,7 @@ Troubleshooting database issues
 
 2.  Type the following:
 
-    **sqlcmd -S ***SqlServerName*** -E -d SUSDB**
+    **sqlcmd -S** *SqlServerName* **-E -d SUSDB**
 
     Review any error messages and correct the problems.
 

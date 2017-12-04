@@ -26,7 +26,7 @@ If client computers are set up by using a Windows 2000 image, a Windows Server 2
 
 The following table shows the supported methods to clear the SUSClientID registry value, based on the WSUS version and whether the client computer is a virtual machine.
 
-###  
+
 
  
 <p> </p>
@@ -97,6 +97,8 @@ The following table shows the supported methods to clear the SUSClientID registr
 </tr>
 </tbody>
 </table>
+
+<p> </p>
  
 
 For more information and step-by-step instructions to manually clear the SUSClientID registry value, refer to KB article 903262 at [http://go.microsoft.com/fwlink/?LinkId=147910](http://go.microsoft.com/fwlink/?linkid=147910).

@@ -37,8 +37,8 @@ En este capítulo, se describen las siguientes tareas:
 
 ##### En esta página
 
-[](#edae)[Tareas de preparación de infraestructura](#edae)
-[](#ecae)[Tareas de configuración por equipo](#ecae)
+[](#edae)[Tareas de preparación de infraestructura](#edae)  
+[](#ecae)[Tareas de configuración por equipo](#ecae)  
 [](#ebae)[Más información](#ebae)
 
 ### Tareas de preparación de infraestructura

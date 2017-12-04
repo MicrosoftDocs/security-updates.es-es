@@ -18,9 +18,37 @@ BITS provides a downloadable tool called bitsadmin that allows you to verify and
 Finding BITS
 ------------
 
-        ```
-        ```
-        ```
+To find the BITS service, open a command shell and type:
+
+  ```
+  sc query bits
+  ```
+
+If BITS is running, you should see output like the following:
+
+  ```
+  SERVICE_NAME: bits
+  TYPE               : 20  WIN32_SHARE_PROCESS
+  STATE              : 4  RUNNING
+                      (STOPPABLE,NOT_PAUSABLE,ACCEPTS_SHUTDOWN)
+  WIN32_EXIT_CODE    : 0  (0x0)
+  SERVICE_EXIT_CODE  : 0  (0x0)
+  CHECKPOINT         : 0x0
+  WAIT_HINT          : 0x0
+  ```
+
+If BITS is not running, you should see output like the following:
+  
+  ```
+  SERVICE_NAME: bits
+  TYPE               : 20  WIN32_SHARE_PROCESS
+  STATE              : 1  STOPPED
+                         (NOT_STOPPABLE,NOT_PAUSABLE,IGNORES_SHUTDOWN)
+  WIN32_EXIT_CODE    : 0  (0x0)
+  SERVICE_EXIT_CODE  : 0  (0x0)
+  CHECKPOINT         : 0x0
+  WAIT_HINT          : 0x0
+  ```
 
 Stopping and restarting BITS
 ----------------------------
@@ -49,9 +77,9 @@ By default BITS runs under the LocalSystem account.
 **To configure the service to run under the correct account**
 1.  Open a command shell.
 
-    Type: `sc config bits obj= LocalSystem`
+    Type: ```sc config bits obj= LocalSystem```
 
-    (note that a space must occur between `obj=` and `LocalSystem`)
+    (note that a space must occur between ```obj=``` and ```LocalSystem```)
 
 2.  Verify that output from the command is:
 
@@ -81,9 +109,6 @@ By default BITS runs under the LocalSystem account.
 #### BITS jobs are failing
 
 If BITS jobs fail, look in the event log to find errors. You can use the following table to diagnose the cause of the errors.
-
-###  
-
  
 <p> </p>
 <table style="border:1px solid black;">
@@ -141,9 +166,6 @@ If BITS jobs fail, look in the event log to find errors. You can use the followi
 #### BITS fails to start
   
 If the BITS service fail to start, use the following table to diagnose the cause of the error.
-  
-###  
-
  
 <p> </p>
 <table style="border:1px solid black;">
@@ -209,9 +231,8 @@ If the BITS service fail to start, use the following table to diagnose the cause
   
 To repair corrupted BITS service configuration, you can enter the BITS service configuration manually.
   
-| ![](images/Cc720473.Important(WS.10).gif)Importante                                                                                       |  
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| This action should only be taken in circumstances where all other troubleshooting attempts have failed. You must be an administrator to modify the BITS configuration. |
+> [!IMPORTANT]
+> This action should only be taken in circumstances where all other troubleshooting attempts have failed. You must be an administrator to modify the BITS configuration. 
   
 **To repair a corrupted BITS configuration**  
 1.  Open a command shell.

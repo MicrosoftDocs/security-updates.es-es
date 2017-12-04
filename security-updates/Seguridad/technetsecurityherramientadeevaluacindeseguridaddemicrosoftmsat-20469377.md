@@ -13,8 +13,8 @@ Herramienta de Evaluación de Seguridad de Microsoft (MSAT)
 
 ##### En esta página
 
-[Conocer los riesgos](#ecaa)
-[El proceso de MSAT](#ebaa)
+[Conocer los riesgos](#ecaa)  
+[El proceso de MSAT](#ebaa)  
 [Descripción general de la herramienta de evaluación](#eaaa)
 
 La Herramienta de Evaluación de Seguridad de Microsoft (MSAT) es una herramienta gratuita diseñada para ayudar a las organizaciones de menos de 1.000 empleados a evaluar los puntos débiles de su entorno de seguridad de TI. Presenta un listado de cuestiones ordenadas por prioridad así como orientación específica para minimizar esos riesgos. MSAT permite fortalecer la seguridad de su entorno informático y de su negocio de manera fácil y efectiva. Comience tomando una instantánea del estado actual de su seguridad y utilice a continuación MSAT para monitorizar de forma constante la capacidad de su infraestructura para responder a las amenazas de seguridad.

@@ -13,11 +13,11 @@ Publicado: 18/08/2006
 
 ##### En esta página
 
-[](#efaa)[Introducción](#efaa)
-[](#eeaa)[Amenazas y defensas de la ingeniería social](#eeaa)
-[](#edaa)[Diseño de defensas frente a las amenazas de la ingeniería social](#edaa)
-[](#ecaa)[Implementación de defensas frente a las amenazas de la ingeniería social](#ecaa)
-[](#ebaa)[Apéndice 1: Listas de comprobación de la directiva de seguridad para amenazas de ingeniería social](#ebaa)
+[](#efaa)[Introducción](#efaa)  
+[](#eeaa)[Amenazas y defensas de la ingeniería social](#eeaa)  
+[](#edaa)[Diseño de defensas frente a las amenazas de la ingeniería social](#edaa)  
+[](#ecaa)[Implementación de defensas frente a las amenazas de la ingeniería social](#ecaa)  
+[](#ebaa)[Apéndice 1: Listas de comprobación de la directiva de seguridad para amenazas de ingeniería social](#ebaa)  
 [](#eaaa)[Apéndice 2: Glosario](#eaaa)
 
 ### Introducción
@@ -1282,11 +1282,6 @@ Se presentó una serie de tablas para capturar las vulnerabilidades de la ingeni
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><em>Otros/específicos de la compañía</em></td>
-<td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;"> </td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;"> </td>
 <td style="border:1px solid black;"> </td>
 <td style="border:1px solid black;"> </td>
 </tr>

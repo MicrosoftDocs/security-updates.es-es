@@ -11,12 +11,12 @@ Respuesta a incidentes de seguridad de TI
 
 #### En esta página
 
-[](#ehaa)[Introducción](#ehaa)
-[](#egaa)[Antes de comenzar](#egaa)
-[](#efaa)[Minimización de la cantidad y gravedad de los incidentes de seguridad](#efaa)
-[](#eeaa)[Creación de un CSIRT principal](#eeaa)
-[](#edaa)[Definición de un plan de respuesta a incidentes](#edaa)
-[](#ecaa)[Contención de daños y minimización de riesgos](#ecaa)
+[](#ehaa)[Introducción](#ehaa)  
+[](#egaa)[Antes de comenzar](#egaa)  
+[](#efaa)[Minimización de la cantidad y gravedad de los incidentes de seguridad](#efaa)  
+[](#eeaa)[Creación de un CSIRT principal](#eeaa)  
+[](#edaa)[Definición de un plan de respuesta a incidentes](#edaa)  
+[](#ecaa)[Contención de daños y minimización de riesgos](#ecaa)  
 [](#ebaa)[Información relacionada](#ebaa)
 
 ### Introducción

@@ -13,12 +13,12 @@ Publicado: 29/08/2006
 
 ##### En esta página
 
-[](#egaa)[Introducción](#egaa)
-[](#efaa)[Definición](#efaa)
-[](#eeaa)[El desafío de las medianas empresas](#eeaa)
-[](#edaa)[Soluciones](#edaa)
-[](#ecaa)[Resumen](#ecaa)
-[](#ebaa)[Apéndice A: Exclusión de eventos innecesarios](#ebaa)
+[](#egaa)[Introducción](#egaa)  
+[](#efaa)[Definición](#efaa)  
+[](#eeaa)[El desafío de las medianas empresas](#eeaa)  
+[](#edaa)[Soluciones](#edaa)  
+[](#ecaa)[Resumen](#ecaa)  
+[](#ebaa)[Apéndice A: Exclusión de eventos innecesarios](#ebaa)  
 [](#eaaa)[Apéndice B: Implementación de la configuración de la directiva de grupo](#eaaa)
 
 ### Introducción
@@ -1812,10 +1812,9 @@ Los eventos de la tabla siguiente suelen excluirse de las consultas de supervisi
   
 Los sucesos que se enumeran en la tabla siguiente a menudo se excluyen de las consultas de supervisión de la seguridad dada su frecuencia y la falta de utilidad de la información que proporcionan.
   
-**Nota: **Aunque existe cierto riesgo al excluir información de una auditoría, debe evaluarlo en función de la frecuencia de los sucesos y la carga resultante del agente de análisis.
+**Nota:** Aunque existe cierto riesgo al excluir información de una auditoría, debe evaluarlo en función de la frecuencia de los sucesos y la carga resultante del agente de análisis.
   
-**Tabla A.2: Reducción de la carga de almacenamiento mediante la eliminación de sucesos**
-
+**Tabla A.2: Reducción de la carga de almacenamiento mediante la eliminación de sucesos**  
  
 <p> </p>
 <table style="border:1px solid black;">
