@@ -162,6 +162,7 @@ Asegúrese de que el servidor WSUS 3.0 cumple los requisitos de esta lista antes
 
  
 <p> </p>
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -200,7 +201,10 @@ Ver problema 1: hay que tener instalado IIS.</td>
 
 <p></p>
 
-> [!Nota]
+
+<p></p>
+
+> [!NOTE]
 > Si se ha instalado WSUS 2.0 anteriormente y se está usando SQL Server 2000, SQL Server Desktop Engine 2000 o cualquier base de datos de SQL Server anterior a SQL Server 2005 SP1 (o SQL Server 2005 SP2 en Windows Server 2008), el programa de instalación de WSUS 3.0 instalará Windows® Internal Database y migrará la base de datos a esa ubicación.
   
 Requisitos de espacio mínimo en disco para la instalación de servidor WSUS 3.0  
@@ -212,7 +216,7 @@ Los requisitos mínimos de espacio en disco para instalar Windows Server Update 
 -   2 GB para el volumen en el que se almacenarán los archivos de base de datos  
 -   20 GB para el volumen en el que se almacena el contenido
   
-> [!Importante]
+> [!IMPORTANT]
 > No se puede instalar WSUS 3.0 en unidades comprimidas. Compruebe que la unidad elegida no esté comprimida.
   
 Requisitos de actualización de WSUS 3.0  
@@ -247,6 +251,7 @@ Puede realizar instalaciones desatendidas de WSUS 3.0 si utiliza parámetros de 
 
  
 <p> </p>
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -281,6 +286,9 @@ Puede realizar instalaciones desatendidas de WSUS 3.0 si utiliza parámetros de 
 </tr>
 </tbody>
 </table>
+
+<p></p>
+
   
 Esta tabla muestra las propiedades de línea de comandos para WSUS 3.0.
   
@@ -288,6 +296,7 @@ Esta tabla muestra las propiedades de línea de comandos para WSUS 3.0.
 
  
 <p> </p>
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -362,6 +371,9 @@ Esta tabla muestra las propiedades de línea de comandos para WSUS 3.0.
 </tr>
 </tbody>
 </table>
+
+<p></p>
+
   
 #### Ejemplo de uso
   
@@ -369,7 +381,7 @@ Esta tabla muestra las propiedades de línea de comandos para WSUS 3.0.
     WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (install in quiet mode using port 8530) WSUSSetup.exe /q /u (uninstall WSUS)
 ``` 
 
-> [!Importante]
+> [!IMPORTANT]
 > Si instala WSUS 3.0 en modo silencioso (/q) y el equipo no tiene todos los requisitos previos instalados, la instalación generará un archivo llamado WSUSPreReqCheck.xml y lo guardará en el directorio %TEMP%.
   
 Problemas de instalación  
@@ -567,6 +579,7 @@ WSUS 3.0 es compatible con Windows Server 2008 tanto en la versión de 32 bits 
 
  
 <p> </p>
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -602,6 +615,9 @@ Compatibilidad con la metabase IIS</td>
 </tr>
 </tbody>
 </table>
+
+<p></p>
+
   
 #### Problema 1: el archivo de configuración de IIS 7.0 debe estar actualizado antes de ejecutar WSUS 3.0
   

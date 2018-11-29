@@ -19,10 +19,15 @@ Para utilizar una plantilla de directiva de permisos con una lista de revocacion
 Para implementar una lista de revocaciones de la organización, siga estos pasos:
 
 1.  Copie el archivo de lista de revocaciones en un servidor Web accesible públicamente. Puesto que los usuarios pueden utilizar el contenido protegido fuera de la organización, la ubicación especificada debe resultar accesible a todos los usuarios, tanto dentro como fuera de la red.
+
     La distribución del archivo de lista de revocaciones a los equipos cliente puede tardar cierto tiempo. Esto crea la posibilidad de que los usuarios no tengan acceso a la lista de revocaciones en sus equipos clientes cuando intenten abrir un documento que precisa una lista de revocaciones. Si la lista de revocaciones no se encuentra en el equipo cliente, la aplicación compatible con RMS puede descargarla de la ubicación especificada en la licencia de uso.
+
     Lo ideal es crear una secuencia de comandos que automáticamente firme y copie la lista de revocaciones en el sitio Web todos los días. Esto ayuda a garantizar que los usuarios no dejen de utilizar contenido porque su lista de revocaciones no está actualizada. Para obtener una secuencia de comandos de muestra, vea “Uso de la herramienta de firma de lista de revocaciones”, anteriormente en este tema.
+
 2.  En la plantilla de directiva de permisos, especifique un intervalo de actualización mayor que cero para la lista de revocaciones de la organización. Esto garantiza que la lista de revocaciones no sea opcional. Si va a actualizar la lista con poca frecuencia, por ejemplo, sólo si se produce una infracción de seguridad, puede establecer la condición de actualización con un intervalo prolongado y después depender de la configuración de directivas o secuencias de comandos para insertar la lista de revocaciones en los equipos cliente cuando sea necesario. Para obtener información acerca del establecimiento de intervalos de actualización, vea “Definición de directivas de revocación”, anteriormente en este tema. Para obtener más información acerca de la configuración de plantillas de directiva de permisos, vea “Creación y modificación de plantillas de directiva de permisos”, más adelante en este tema.
+
 3.  En la plantilla de directiva de permisos, especifique la dirección URL en la que está disponible la lista de revocaciones.
+
 4.  Opcionalmente, implemente la lista de revocaciones en los equipos cliente utilizando un método automatizado, como la directiva de grupo o SMS (Systems Management Server).
 
 Implementación de listas de revocaciones de Microsoft
@@ -31,11 +36,13 @@ Implementación de listas de revocaciones de Microsoft
 Para que el cliente de los Servicios de Rights Management utilice una lista de revocaciones de Microsoft, debe implementar la lista en los equipos cliente. Este tema explica cómo implementar una lista de revocaciones de Microsoft en los siguientes escenarios:
 
 -   Su organización desea implementar su propia lista de revocaciones y la de Microsoft.
+
 -   Su organización desea implementar únicamente la lista de revocaciones de Microsoft.
 
 Cuando Microsoft publica una lista de revocaciones, se puede descargar de las ubicaciones siguientes:
 
 -   Los servidores de RMS podrán descargar la lista de revocaciones con Windows Update.
+
 -   Como alternativa, la lista de revocaciones de Microsoft también estará disponible para descargarla en Microsoft Download Center si el servidor de RMS no está conectado a Internet.
 
 Si descarga el paquete de lista de revocaciones en un servidor de RMS, se guarda en la carpeta %systemdrive%\\Archivos de programa\\Windows Rights Management Services Revocation List. Si va a descargar el paquete de lista de revocaciones en otro tipo de equipo, puede seleccionar la ubicación de descarga. El paquete contiene un archivo ejecutable, CRL\_Update.exe, que se puede ejecutar para instalar todas las listas de revocaciones de cliente en el almacén de licencias de cliente y también un archivo de lista de revocaciones, Msrl.xml, que se puede copiar en un sitio Web o en una carpeta compartida pública.
@@ -45,7 +52,7 @@ Si descarga el paquete de lista de revocaciones en un servidor de RMS, se guarda
 
 2.  Descargue el paquete de lista de revocaciones de Microsoft e impleméntelo en todos los equipos cliente de la organización utilizando la directiva de grupo o SMS (Systems Management Server). Como alternativa, puede copiar entradas de la lista de revocaciones de Microsoft en la de la organización e implementar sólo esta última.
 
-> [!CAUTION]
+> [!CAUTION]  
 > Microsoft es una entidad principal de la cadena de confianza de todos los certificados y licencias que RMS emite. Por tanto, una lista de revocaciones emitida por Microsoft es efectiva para todas las solicitudes de enlace para las que se obtenga la licencia de uso en función de una plantilla de directiva de permisos que precise la lista de revocaciones de la organización. Además, la lista de revocaciones de Microsoft se registra en el equipo cliente. 
 
 **Para implementar únicamente una lista de revocaciones de Microsoft**
